@@ -22,16 +22,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **JacksonJsonSerializer**</br> implements <xref href=\"com.azure.core.util.serializer.JsonSerializer?alt=com.azure.core.util.serializer.JsonSerializer&text=JsonSerializer\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.core.util.serializer.MemberNameConverter?alt=com.azure.core.util.serializer.MemberNameConverter&text=MemberNameConverter\" data-throw-if-not-resolved=\"False\" />"
 methods:
-- uid: "com.azure.core.serializer.json.jackson.JacksonJsonSerializer.convertMemberName(java.lang.reflect.Member)"
-  fullName: "com.azure.core.serializer.json.jackson.JacksonJsonSerializer.convertMemberName(Member member)"
-  name: "convertMemberName(Member member)"
-  nameWithType: "JacksonJsonSerializer.convertMemberName(Member member)"
-  parameters:
-  - name: "member"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/reflect/Member.html\">Member</a>"
-  syntax: "public String convertMemberName(Member member)"
-  returns:
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.core.serializer.json.jackson.JacksonJsonSerializer.<T>deserialize(java.io.InputStream,com.azure.core.util.serializer.TypeReference<T>)"
   fullName: "com.azure.core.serializer.json.jackson.JacksonJsonSerializer.deserialize(InputStream stream, TypeReference<T> typeReference)"
   name: "deserialize(InputStream stream, TypeReference<T> typeReference)"
@@ -80,6 +70,16 @@ methods:
   syntax: "public Mono<T> <T>deserializeFromBytesAsync(byte[] data, TypeReference<T> typeReference)"
   returns:
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.core.serializer.json.jackson.JacksonJsonSerializer.convertMemberName(java.lang.reflect.Member)"
+  fullName: "com.azure.core.serializer.json.jackson.JacksonJsonSerializer.convertMemberName(Member member)"
+  name: "convertMemberName(Member member)"
+  nameWithType: "JacksonJsonSerializer.convertMemberName(Member member)"
+  parameters:
+  - name: "member"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/reflect/Member.html\">Member</a>"
+  syntax: "public String convertMemberName(Member member)"
+  returns:
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.core.serializer.json.jackson.JacksonJsonSerializer.serialize(java.io.OutputStream,java.lang.Object)"
   fullName: "com.azure.core.serializer.json.jackson.JacksonJsonSerializer.serialize(OutputStream stream, Object value)"
   name: "serialize(OutputStream stream, Object value)"

@@ -22,238 +22,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **BridgeInternal**"
 methods:
-- uid: "com.azure.cosmos.BridgeInternal.cloneCosmosDiagnostics(com.azure.cosmos.CosmosDiagnostics)"
-  fullName: "com.azure.cosmos.BridgeInternal.cloneCosmosDiagnostics(CosmosDiagnostics toBeCloned)"
-  name: "cloneCosmosDiagnostics(CosmosDiagnostics toBeCloned)"
-  nameWithType: "BridgeInternal.cloneCosmosDiagnostics(CosmosDiagnostics toBeCloned)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "toBeCloned"
-    type: "<xref href=\"com.azure.cosmos.CosmosDiagnostics?alt=com.azure.cosmos.CosmosDiagnostics&text=CosmosDiagnostics\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static CosmosDiagnostics cloneCosmosDiagnostics(CosmosDiagnostics toBeCloned)"
-  returns:
-    type: "<xref href=\"com.azure.cosmos.CosmosDiagnostics?alt=com.azure.cosmos.CosmosDiagnostics&text=CosmosDiagnostics\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.cosmos.BridgeInternal.createCosmosDiagnostics(java.util.Map<java.lang.String,com.azure.cosmos.implementation.QueryMetrics>)"
-  fullName: "com.azure.cosmos.BridgeInternal.createCosmosDiagnostics(Map<String,QueryMetrics> queryMetricsMap)"
-  name: "createCosmosDiagnostics(Map<String,QueryMetrics> queryMetricsMap)"
-  nameWithType: "BridgeInternal.createCosmosDiagnostics(Map<String,QueryMetrics> queryMetricsMap)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "queryMetricsMap"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<xref href=\"com.azure.cosmos.implementation.QueryMetrics?alt=com.azure.cosmos.implementation.QueryMetrics&text=QueryMetrics\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public static CosmosDiagnostics createCosmosDiagnostics(Map<String,QueryMetrics> queryMetricsMap)"
-  returns:
-    type: "<xref href=\"com.azure.cosmos.CosmosDiagnostics?alt=com.azure.cosmos.CosmosDiagnostics&text=CosmosDiagnostics\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.cosmos.BridgeInternal.createCosmosException(int)"
-  fullName: "com.azure.cosmos.BridgeInternal.createCosmosException(int statusCode)"
-  name: "createCosmosException(int statusCode)"
-  nameWithType: "BridgeInternal.createCosmosException(int statusCode)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "statusCode"
-    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static CosmosException createCosmosException(int statusCode)"
-  returns:
-    type: "<xref href=\"com.azure.cosmos.CosmosException?alt=com.azure.cosmos.CosmosException&text=CosmosException\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.cosmos.BridgeInternal.createCosmosException(int,java.lang.String)"
-  fullName: "com.azure.cosmos.BridgeInternal.createCosmosException(int statusCode, String errorMessage)"
-  name: "createCosmosException(int statusCode, String errorMessage)"
-  nameWithType: "BridgeInternal.createCosmosException(int statusCode, String errorMessage)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "statusCode"
-    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
-  - name: "errorMessage"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public static CosmosException createCosmosException(int statusCode, String errorMessage)"
-  returns:
-    type: "<xref href=\"com.azure.cosmos.CosmosException?alt=com.azure.cosmos.CosmosException&text=CosmosException\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.cosmos.BridgeInternal.createCosmosException(java.lang.String,java.lang.Exception,java.util.Map<java.lang.String,java.lang.String>,int,java.lang.String)"
-  fullName: "com.azure.cosmos.BridgeInternal.createCosmosException(String message, Exception exception, Map<String,String> responseHeaders, int statusCode, String resourceAddress)"
-  name: "createCosmosException(String message, Exception exception, Map<String,String> responseHeaders, int statusCode, String resourceAddress)"
-  nameWithType: "BridgeInternal.createCosmosException(String message, Exception exception, Map<String,String> responseHeaders, int statusCode, String resourceAddress)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "message"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - name: "exception"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Exception.html\">Exception</a>"
-  - name: "responseHeaders"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-  - name: "statusCode"
-    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
-  - name: "resourceAddress"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public static CosmosException createCosmosException(String message, Exception exception, Map<String,String> responseHeaders, int statusCode, String resourceAddress)"
-  returns:
-    type: "<xref href=\"com.azure.cosmos.CosmosException?alt=com.azure.cosmos.CosmosException&text=CosmosException\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.cosmos.BridgeInternal.createCosmosException(java.lang.String,int,com.azure.cosmos.implementation.CosmosError,java.util.Map<java.lang.String,java.lang.String>)"
-  fullName: "com.azure.cosmos.BridgeInternal.createCosmosException(String resourceAddress, int statusCode, CosmosError cosmosErrorResource, Map<String,String> responseHeaders)"
-  name: "createCosmosException(String resourceAddress, int statusCode, CosmosError cosmosErrorResource, Map<String,String> responseHeaders)"
-  nameWithType: "BridgeInternal.createCosmosException(String resourceAddress, int statusCode, CosmosError cosmosErrorResource, Map<String,String> responseHeaders)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "resourceAddress"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - name: "statusCode"
-    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
-  - name: "cosmosErrorResource"
-    type: "<xref href=\"com.azure.cosmos.implementation.CosmosError?alt=com.azure.cosmos.implementation.CosmosError&text=CosmosError\" data-throw-if-not-resolved=\"False\" />"
-  - name: "responseHeaders"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-  syntax: "public static CosmosException createCosmosException(String resourceAddress, int statusCode, CosmosError cosmosErrorResource, Map<String,String> responseHeaders)"
-  returns:
-    type: "<xref href=\"com.azure.cosmos.CosmosException?alt=com.azure.cosmos.CosmosException&text=CosmosException\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.cosmos.BridgeInternal.createCosmosException(java.lang.String,int,java.lang.Exception)"
-  fullName: "com.azure.cosmos.BridgeInternal.createCosmosException(String resourceAddress, int statusCode, Exception innerException)"
-  name: "createCosmosException(String resourceAddress, int statusCode, Exception innerException)"
-  nameWithType: "BridgeInternal.createCosmosException(String resourceAddress, int statusCode, Exception innerException)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "resourceAddress"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - name: "statusCode"
-    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
-  - name: "innerException"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Exception.html\">Exception</a>"
-  syntax: "public static CosmosException createCosmosException(String resourceAddress, int statusCode, Exception innerException)"
-  returns:
-    type: "<xref href=\"com.azure.cosmos.CosmosException?alt=com.azure.cosmos.CosmosException&text=CosmosException\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.cosmos.BridgeInternal.createCosmosStoredProcedureProperties(java.lang.String)"
-  fullName: "com.azure.cosmos.BridgeInternal.createCosmosStoredProcedureProperties(String jsonString)"
-  name: "createCosmosStoredProcedureProperties(String jsonString)"
-  nameWithType: "BridgeInternal.createCosmosStoredProcedureProperties(String jsonString)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "jsonString"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public static CosmosStoredProcedureProperties createCosmosStoredProcedureProperties(String jsonString)"
-  returns:
-    type: "<xref href=\"com.azure.cosmos.models.CosmosStoredProcedureProperties?alt=com.azure.cosmos.models.CosmosStoredProcedureProperties&text=CosmosStoredProcedureProperties\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.cosmos.BridgeInternal.<T>createFeedResponseWithQueryMetrics(java.util.List<T>,java.util.Map<java.lang.String,java.lang.String>,java.util.concurrent.ConcurrentMap<java.lang.String,com.azure.cosmos.implementation.QueryMetrics>,com.azure.cosmos.implementation.query.QueryInfo.QueryPlanDiagnosticsContext,boolean,boolean,com.azure.cosmos.CosmosDiagnostics)"
-  fullName: "com.azure.cosmos.BridgeInternal.createFeedResponseWithQueryMetrics(List<T> results, Map<String,String> headers, ConcurrentMap<String,QueryMetrics> queryMetricsMap, QueryInfo.QueryPlanDiagnosticsContext diagnosticsContext, boolean useEtagAsContinuation, boolean isNoChangesResponse, CosmosDiagnostics cosmosDiagnostics)"
-  name: "createFeedResponseWithQueryMetrics(List<T> results, Map<String,String> headers, ConcurrentMap<String,QueryMetrics> queryMetricsMap, QueryInfo.QueryPlanDiagnosticsContext diagnosticsContext, boolean useEtagAsContinuation, boolean isNoChangesResponse, CosmosDiagnostics cosmosDiagnostics)"
-  nameWithType: "BridgeInternal.createFeedResponseWithQueryMetrics(List<T> results, Map<String,String> headers, ConcurrentMap<String,QueryMetrics> queryMetricsMap, QueryInfo.QueryPlanDiagnosticsContext diagnosticsContext, boolean useEtagAsContinuation, boolean isNoChangesResponse, CosmosDiagnostics cosmosDiagnostics)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "results"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
-  - name: "headers"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-  - name: "queryMetricsMap"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/ConcurrentMap.html\">ConcurrentMap</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<xref href=\"com.azure.cosmos.implementation.QueryMetrics?alt=com.azure.cosmos.implementation.QueryMetrics&text=QueryMetrics\" data-throw-if-not-resolved=\"False\" />&gt;"
-  - name: "diagnosticsContext"
-    type: "<xref href=\"com.azure.cosmos.implementation.query.QueryInfo.QueryPlanDiagnosticsContext?alt=com.azure.cosmos.implementation.query.QueryInfo.QueryPlanDiagnosticsContext&text=QueryPlanDiagnosticsContext\" data-throw-if-not-resolved=\"False\" />"
-  - name: "useEtagAsContinuation"
-    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
-  - name: "isNoChangesResponse"
-    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
-  - name: "cosmosDiagnostics"
-    type: "<xref href=\"com.azure.cosmos.CosmosDiagnostics?alt=com.azure.cosmos.CosmosDiagnostics&text=CosmosDiagnostics\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static FeedResponse<T> <T>createFeedResponseWithQueryMetrics(List<T> results, Map<String,String> headers, ConcurrentMap<String,QueryMetrics> queryMetricsMap, QueryInfo.QueryPlanDiagnosticsContext diagnosticsContext, boolean useEtagAsContinuation, boolean isNoChangesResponse, CosmosDiagnostics cosmosDiagnostics)"
-  returns:
-    type: "<xref href=\"com.azure.cosmos.models.FeedResponse?alt=com.azure.cosmos.models.FeedResponse&text=FeedResponse\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.cosmos.BridgeInternal.createQueryMetricsFromCollection(java.util.Collection<com.azure.cosmos.implementation.QueryMetrics>)"
-  fullName: "com.azure.cosmos.BridgeInternal.createQueryMetricsFromCollection(Collection<QueryMetrics> queryMetricsCollection)"
-  name: "createQueryMetricsFromCollection(Collection<QueryMetrics> queryMetricsCollection)"
-  nameWithType: "BridgeInternal.createQueryMetricsFromCollection(Collection<QueryMetrics> queryMetricsCollection)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "queryMetricsCollection"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.cosmos.implementation.QueryMetrics?alt=com.azure.cosmos.implementation.QueryMetrics&text=QueryMetrics\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public static QueryMetrics createQueryMetricsFromCollection(Collection<QueryMetrics> queryMetricsCollection)"
-  returns:
-    type: "<xref href=\"com.azure.cosmos.implementation.QueryMetrics?alt=com.azure.cosmos.implementation.QueryMetrics&text=QueryMetrics\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.cosmos.BridgeInternal.createQueryMetricsFromDelimitedStringAndClientSideMetrics(java.lang.String,com.azure.cosmos.implementation.query.metrics.ClientSideMetrics,java.lang.String,java.lang.String)"
-  fullName: "com.azure.cosmos.BridgeInternal.createQueryMetricsFromDelimitedStringAndClientSideMetrics(String queryMetricsDelimitedString, ClientSideMetrics clientSideMetrics, String activityId, String indexUtilizationInfoJSONString)"
-  name: "createQueryMetricsFromDelimitedStringAndClientSideMetrics(String queryMetricsDelimitedString, ClientSideMetrics clientSideMetrics, String activityId, String indexUtilizationInfoJSONString)"
-  nameWithType: "BridgeInternal.createQueryMetricsFromDelimitedStringAndClientSideMetrics(String queryMetricsDelimitedString, ClientSideMetrics clientSideMetrics, String activityId, String indexUtilizationInfoJSONString)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "queryMetricsDelimitedString"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - name: "clientSideMetrics"
-    type: "<xref href=\"com.azure.cosmos.implementation.query.metrics.ClientSideMetrics?alt=com.azure.cosmos.implementation.query.metrics.ClientSideMetrics&text=ClientSideMetrics\" data-throw-if-not-resolved=\"False\" />"
-  - name: "activityId"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - name: "indexUtilizationInfoJSONString"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public static QueryMetrics createQueryMetricsFromDelimitedStringAndClientSideMetrics(String queryMetricsDelimitedString, ClientSideMetrics clientSideMetrics, String activityId, String indexUtilizationInfoJSONString)"
-  returns:
-    type: "<xref href=\"com.azure.cosmos.implementation.QueryMetrics?alt=com.azure.cosmos.implementation.QueryMetrics&text=QueryMetrics\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.cosmos.BridgeInternal.createServiceUnavailableException(java.lang.Exception,int)"
-  fullName: "com.azure.cosmos.BridgeInternal.createServiceUnavailableException(Exception innerException, int subStatusCode)"
-  name: "createServiceUnavailableException(Exception innerException, int subStatusCode)"
-  nameWithType: "BridgeInternal.createServiceUnavailableException(Exception innerException, int subStatusCode)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "innerException"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Exception.html\">Exception</a>"
-  - name: "subStatusCode"
-    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static CosmosException createServiceUnavailableException(Exception innerException, int subStatusCode)"
-  returns:
-    type: "<xref href=\"com.azure.cosmos.CosmosException?alt=com.azure.cosmos.CosmosException&text=CosmosException\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.cosmos.BridgeInternal.extractConfigs(com.azure.cosmos.CosmosClientBuilder)"
-  fullName: "com.azure.cosmos.BridgeInternal.extractConfigs(CosmosClientBuilder cosmosClientBuilder)"
-  name: "extractConfigs(CosmosClientBuilder cosmosClientBuilder)"
-  nameWithType: "BridgeInternal.extractConfigs(CosmosClientBuilder cosmosClientBuilder)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "cosmosClientBuilder"
-    type: "<xref href=\"com.azure.cosmos.CosmosClientBuilder?alt=com.azure.cosmos.CosmosClientBuilder&text=CosmosClientBuilder\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static Configs extractConfigs(CosmosClientBuilder cosmosClientBuilder)"
-  returns:
-    type: "<xref href=\"com.azure.cosmos.implementation.Configs?alt=com.azure.cosmos.implementation.Configs&text=Configs\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.cosmos.BridgeInternal.extractContainerSelfLink(com.azure.cosmos.CosmosAsyncContainer)"
-  fullName: "com.azure.cosmos.BridgeInternal.extractContainerSelfLink(CosmosAsyncContainer container)"
-  name: "extractContainerSelfLink(CosmosAsyncContainer container)"
-  nameWithType: "BridgeInternal.extractContainerSelfLink(CosmosAsyncContainer container)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "container"
-    type: "<xref href=\"com.azure.cosmos.CosmosAsyncContainer?alt=com.azure.cosmos.CosmosAsyncContainer&text=CosmosAsyncContainer\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static String extractContainerSelfLink(CosmosAsyncContainer container)"
-  returns:
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.cosmos.BridgeInternal.fromServiceSerializedFormat(java.lang.String)"
-  fullName: "com.azure.cosmos.BridgeInternal.fromServiceSerializedFormat(String consistencyLevel)"
-  name: "fromServiceSerializedFormat(String consistencyLevel)"
-  nameWithType: "BridgeInternal.fromServiceSerializedFormat(String consistencyLevel)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "consistencyLevel"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public static ConsistencyLevel fromServiceSerializedFormat(String consistencyLevel)"
-  returns:
-    type: "<xref href=\"com.azure.cosmos.ConsistencyLevel?alt=com.azure.cosmos.ConsistencyLevel&text=ConsistencyLevel\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.cosmos.BridgeInternal.getAltLink(com.azure.cosmos.implementation.Resource)"
-  fullName: "com.azure.cosmos.BridgeInternal.getAltLink(Resource resource)"
-  name: "getAltLink(Resource resource)"
-  nameWithType: "BridgeInternal.getAltLink(Resource resource)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "resource"
-    type: "<xref href=\"com.azure.cosmos.implementation.Resource?alt=com.azure.cosmos.implementation.Resource&text=Resource\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static String getAltLink(Resource resource)"
-  returns:
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.cosmos.BridgeInternal.<E>getChannelAcqusitionTimeline(E)"
   fullName: "com.azure.cosmos.BridgeInternal.getChannelAcqusitionTimeline(E e)"
   name: "getChannelAcqusitionTimeline(E e)"
@@ -266,114 +34,6 @@ methods:
   syntax: "public static RntbdChannelAcquisitionTimeline <E>getChannelAcqusitionTimeline(E e)"
   returns:
     type: "<xref href=\"com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdChannelAcquisitionTimeline?alt=com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdChannelAcquisitionTimeline&text=RntbdChannelAcquisitionTimeline\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.cosmos.BridgeInternal.getClientSideMetrics(com.azure.cosmos.implementation.QueryMetrics)"
-  fullName: "com.azure.cosmos.BridgeInternal.getClientSideMetrics(QueryMetrics queryMetrics)"
-  name: "getClientSideMetrics(QueryMetrics queryMetrics)"
-  nameWithType: "BridgeInternal.getClientSideMetrics(QueryMetrics queryMetrics)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "queryMetrics"
-    type: "<xref href=\"com.azure.cosmos.implementation.QueryMetrics?alt=com.azure.cosmos.implementation.QueryMetrics&text=QueryMetrics\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static ClientSideMetrics getClientSideMetrics(QueryMetrics queryMetrics)"
-  returns:
-    type: "<xref href=\"com.azure.cosmos.implementation.query.metrics.ClientSideMetrics?alt=com.azure.cosmos.implementation.query.metrics.ClientSideMetrics&text=ClientSideMetrics\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.cosmos.BridgeInternal.getClientSideRequestStatics(com.azure.cosmos.CosmosDiagnostics)"
-  fullName: "com.azure.cosmos.BridgeInternal.getClientSideRequestStatics(CosmosDiagnostics cosmosDiagnostics)"
-  name: "getClientSideRequestStatics(CosmosDiagnostics cosmosDiagnostics)"
-  nameWithType: "BridgeInternal.getClientSideRequestStatics(CosmosDiagnostics cosmosDiagnostics)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "cosmosDiagnostics"
-    type: "<xref href=\"com.azure.cosmos.CosmosDiagnostics?alt=com.azure.cosmos.CosmosDiagnostics&text=CosmosDiagnostics\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static ClientSideRequestStatistics getClientSideRequestStatics(CosmosDiagnostics cosmosDiagnostics)"
-  returns:
-    type: "<xref href=\"com.azure.cosmos.implementation.ClientSideRequestStatistics?alt=com.azure.cosmos.implementation.ClientSideRequestStatistics&text=ClientSideRequestStatistics\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.cosmos.BridgeInternal.getContactedReplicas(com.azure.cosmos.CosmosDiagnostics)"
-  fullName: "com.azure.cosmos.BridgeInternal.getContactedReplicas(CosmosDiagnostics cosmosDiagnostics)"
-  name: "getContactedReplicas(CosmosDiagnostics cosmosDiagnostics)"
-  nameWithType: "BridgeInternal.getContactedReplicas(CosmosDiagnostics cosmosDiagnostics)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "cosmosDiagnostics"
-    type: "<xref href=\"com.azure.cosmos.CosmosDiagnostics?alt=com.azure.cosmos.CosmosDiagnostics&text=CosmosDiagnostics\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static List<URI> getContactedReplicas(CosmosDiagnostics cosmosDiagnostics)"
-  returns:
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/net/URI.html\">URI</a>&gt;"
-- uid: "com.azure.cosmos.BridgeInternal.getContextClient(com.azure.cosmos.CosmosAsyncClient)"
-  fullName: "com.azure.cosmos.BridgeInternal.getContextClient(CosmosAsyncClient cosmosAsyncClient)"
-  name: "getContextClient(CosmosAsyncClient cosmosAsyncClient)"
-  nameWithType: "BridgeInternal.getContextClient(CosmosAsyncClient cosmosAsyncClient)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "cosmosAsyncClient"
-    type: "<xref href=\"com.azure.cosmos.CosmosAsyncClient?alt=com.azure.cosmos.CosmosAsyncClient&text=CosmosAsyncClient\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static AsyncDocumentClient getContextClient(CosmosAsyncClient cosmosAsyncClient)"
-  returns:
-    type: "<xref href=\"com.azure.cosmos.implementation.AsyncDocumentClient?alt=com.azure.cosmos.implementation.AsyncDocumentClient&text=AsyncDocumentClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.cosmos.BridgeInternal.getControlContainerFromThroughputGlobalControlConfig(com.azure.cosmos.GlobalThroughputControlConfig)"
-  fullName: "com.azure.cosmos.BridgeInternal.getControlContainerFromThroughputGlobalControlConfig(GlobalThroughputControlConfig globalControlConfig)"
-  name: "getControlContainerFromThroughputGlobalControlConfig(GlobalThroughputControlConfig globalControlConfig)"
-  nameWithType: "BridgeInternal.getControlContainerFromThroughputGlobalControlConfig(GlobalThroughputControlConfig globalControlConfig)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "globalControlConfig"
-    type: "<xref href=\"com.azure.cosmos.GlobalThroughputControlConfig?alt=com.azure.cosmos.GlobalThroughputControlConfig&text=GlobalThroughputControlConfig\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static CosmosAsyncContainer getControlContainerFromThroughputGlobalControlConfig(GlobalThroughputControlConfig globalControlConfig)"
-  returns:
-    type: "<xref href=\"com.azure.cosmos.CosmosAsyncContainer?alt=com.azure.cosmos.CosmosAsyncContainer&text=CosmosAsyncContainer\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.cosmos.BridgeInternal.getCosmosError(com.azure.cosmos.CosmosException)"
-  fullName: "com.azure.cosmos.BridgeInternal.getCosmosError(CosmosException cosmosException)"
-  name: "getCosmosError(CosmosException cosmosException)"
-  nameWithType: "BridgeInternal.getCosmosError(CosmosException cosmosException)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "cosmosException"
-    type: "<xref href=\"com.azure.cosmos.CosmosException?alt=com.azure.cosmos.CosmosException&text=CosmosException\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static CosmosError getCosmosError(CosmosException cosmosException)"
-  returns:
-    type: "<xref href=\"com.azure.cosmos.implementation.CosmosError?alt=com.azure.cosmos.implementation.CosmosError&text=CosmosError\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.cosmos.BridgeInternal.getFailedReplicas(com.azure.cosmos.CosmosDiagnostics)"
-  fullName: "com.azure.cosmos.BridgeInternal.getFailedReplicas(CosmosDiagnostics cosmosDiagnostics)"
-  name: "getFailedReplicas(CosmosDiagnostics cosmosDiagnostics)"
-  nameWithType: "BridgeInternal.getFailedReplicas(CosmosDiagnostics cosmosDiagnostics)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "cosmosDiagnostics"
-    type: "<xref href=\"com.azure.cosmos.CosmosDiagnostics?alt=com.azure.cosmos.CosmosDiagnostics&text=CosmosDiagnostics\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static Set<URI> getFailedReplicas(CosmosDiagnostics cosmosDiagnostics)"
-  returns:
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Set.html\">Set</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/net/URI.html\">URI</a>&gt;"
-- uid: "com.azure.cosmos.BridgeInternal.getInnerErrorMessage(com.azure.cosmos.CosmosException)"
-  fullName: "com.azure.cosmos.BridgeInternal.getInnerErrorMessage(CosmosException cosmosException)"
-  name: "getInnerErrorMessage(CosmosException cosmosException)"
-  nameWithType: "BridgeInternal.getInnerErrorMessage(CosmosException cosmosException)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "cosmosException"
-    type: "<xref href=\"com.azure.cosmos.CosmosException?alt=com.azure.cosmos.CosmosException&text=CosmosException\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static String getInnerErrorMessage(CosmosException cosmosException)"
-  returns:
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.cosmos.BridgeInternal.getLink(com.azure.cosmos.CosmosAsyncContainer)"
-  fullName: "com.azure.cosmos.BridgeInternal.getLink(CosmosAsyncContainer cosmosAsyncContainer)"
-  name: "getLink(CosmosAsyncContainer cosmosAsyncContainer)"
-  nameWithType: "BridgeInternal.getLink(CosmosAsyncContainer cosmosAsyncContainer)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "cosmosAsyncContainer"
-    type: "<xref href=\"com.azure.cosmos.CosmosAsyncContainer?alt=com.azure.cosmos.CosmosAsyncContainer&text=CosmosAsyncContainer\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static String getLink(CosmosAsyncContainer cosmosAsyncContainer)"
-  returns:
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.cosmos.BridgeInternal.<E>getLSN(E)"
   fullName: "com.azure.cosmos.BridgeInternal.getLSN(E e)"
   name: "getLSN(E e)"
@@ -386,68 +46,6 @@ methods:
   syntax: "public static long <E>getLSN(E e)"
   returns:
     type: "<xref href=\"long?alt=long&text=long\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.cosmos.BridgeInternal.getMetaDataDiagnosticContext(com.azure.cosmos.CosmosDiagnostics)"
-  fullName: "com.azure.cosmos.BridgeInternal.getMetaDataDiagnosticContext(CosmosDiagnostics cosmosDiagnostics)"
-  name: "getMetaDataDiagnosticContext(CosmosDiagnostics cosmosDiagnostics)"
-  nameWithType: "BridgeInternal.getMetaDataDiagnosticContext(CosmosDiagnostics cosmosDiagnostics)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "cosmosDiagnostics"
-    type: "<xref href=\"com.azure.cosmos.CosmosDiagnostics?alt=com.azure.cosmos.CosmosDiagnostics&text=CosmosDiagnostics\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static MetadataDiagnosticsContext getMetaDataDiagnosticContext(CosmosDiagnostics cosmosDiagnostics)"
-  returns:
-    type: "<xref href=\"com.azure.cosmos.implementation.MetadataDiagnosticsContext?alt=com.azure.cosmos.implementation.MetadataDiagnosticsContext&text=MetadataDiagnosticsContext\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.cosmos.BridgeInternal.getNetworkRequestTimeoutFromGatewayConnectionConfig(com.azure.cosmos.GatewayConnectionConfig)"
-  fullName: "com.azure.cosmos.BridgeInternal.getNetworkRequestTimeoutFromGatewayConnectionConfig(GatewayConnectionConfig gatewayConnectionConfig)"
-  name: "getNetworkRequestTimeoutFromGatewayConnectionConfig(GatewayConnectionConfig gatewayConnectionConfig)"
-  nameWithType: "BridgeInternal.getNetworkRequestTimeoutFromGatewayConnectionConfig(GatewayConnectionConfig gatewayConnectionConfig)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "gatewayConnectionConfig"
-    type: "<xref href=\"com.azure.cosmos.GatewayConnectionConfig?alt=com.azure.cosmos.GatewayConnectionConfig&text=GatewayConnectionConfig\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static Duration getNetworkRequestTimeoutFromGatewayConnectionConfig(GatewayConnectionConfig gatewayConnectionConfig)"
-  returns:
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html\">Duration</a>"
-- uid: "com.azure.cosmos.BridgeInternal.getOfferQuerySpecFromResourceId(com.azure.cosmos.CosmosAsyncContainer,java.lang.String)"
-  fullName: "com.azure.cosmos.BridgeInternal.getOfferQuerySpecFromResourceId(CosmosAsyncContainer container, String resourceId)"
-  name: "getOfferQuerySpecFromResourceId(CosmosAsyncContainer container, String resourceId)"
-  nameWithType: "BridgeInternal.getOfferQuerySpecFromResourceId(CosmosAsyncContainer container, String resourceId)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "container"
-    type: "<xref href=\"com.azure.cosmos.CosmosAsyncContainer?alt=com.azure.cosmos.CosmosAsyncContainer&text=CosmosAsyncContainer\" data-throw-if-not-resolved=\"False\" />"
-  - name: "resourceId"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public static SqlQuerySpec getOfferQuerySpecFromResourceId(CosmosAsyncContainer container, String resourceId)"
-  returns:
-    type: "<xref href=\"com.azure.cosmos.models.SqlQuerySpec?alt=com.azure.cosmos.models.SqlQuerySpec&text=SqlQuerySpec\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.cosmos.BridgeInternal.getPartitionKey(com.azure.cosmos.implementation.routing.PartitionKeyInternal)"
-  fullName: "com.azure.cosmos.BridgeInternal.getPartitionKey(PartitionKeyInternal partitionKeyInternal)"
-  name: "getPartitionKey(PartitionKeyInternal partitionKeyInternal)"
-  nameWithType: "BridgeInternal.getPartitionKey(PartitionKeyInternal partitionKeyInternal)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "partitionKeyInternal"
-    type: "<xref href=\"com.azure.cosmos.implementation.routing.PartitionKeyInternal?alt=com.azure.cosmos.implementation.routing.PartitionKeyInternal&text=PartitionKeyInternal\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static PartitionKey getPartitionKey(PartitionKeyInternal partitionKeyInternal)"
-  returns:
-    type: "<xref href=\"com.azure.cosmos.models.PartitionKey?alt=com.azure.cosmos.models.PartitionKey&text=PartitionKey\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.cosmos.BridgeInternal.getPartitionKeyInternal(com.azure.cosmos.models.PartitionKey)"
-  fullName: "com.azure.cosmos.BridgeInternal.getPartitionKeyInternal(PartitionKey partitionKey)"
-  name: "getPartitionKeyInternal(PartitionKey partitionKey)"
-  nameWithType: "BridgeInternal.getPartitionKeyInternal(PartitionKey partitionKey)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "partitionKey"
-    type: "<xref href=\"com.azure.cosmos.models.PartitionKey?alt=com.azure.cosmos.models.PartitionKey&text=PartitionKey\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static PartitionKeyInternal getPartitionKeyInternal(PartitionKey partitionKey)"
-  returns:
-    type: "<xref href=\"com.azure.cosmos.implementation.routing.PartitionKeyInternal?alt=com.azure.cosmos.implementation.routing.PartitionKeyInternal&text=PartitionKeyInternal\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.cosmos.BridgeInternal.<E>getPartitionKeyRangeId(E)"
   fullName: "com.azure.cosmos.BridgeInternal.getPartitionKeyRangeId(E e)"
   name: "getPartitionKeyRangeId(E e)"
@@ -460,30 +58,6 @@ methods:
   syntax: "public static String <E>getPartitionKeyRangeId(E e)"
   returns:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.cosmos.BridgeInternal.<T>getProperties(com.azure.cosmos.models.CosmosItemResponse<T>)"
-  fullName: "com.azure.cosmos.BridgeInternal.getProperties(CosmosItemResponse<T> cosmosItemResponse)"
-  name: "getProperties(CosmosItemResponse<T> cosmosItemResponse)"
-  nameWithType: "BridgeInternal.getProperties(CosmosItemResponse<T> cosmosItemResponse)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "cosmosItemResponse"
-    type: "<xref href=\"com.azure.cosmos.models.CosmosItemResponse?alt=com.azure.cosmos.models.CosmosItemResponse&text=CosmosItemResponse\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public static InternalObjectNode <T>getProperties(CosmosItemResponse<T> cosmosItemResponse)"
-  returns:
-    type: "<xref href=\"com.azure.cosmos.implementation.InternalObjectNode?alt=com.azure.cosmos.implementation.InternalObjectNode&text=InternalObjectNode\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.cosmos.BridgeInternal.getRegionsContacted(com.azure.cosmos.CosmosDiagnostics)"
-  fullName: "com.azure.cosmos.BridgeInternal.getRegionsContacted(CosmosDiagnostics cosmosDiagnostics)"
-  name: "getRegionsContacted(CosmosDiagnostics cosmosDiagnostics)"
-  nameWithType: "BridgeInternal.getRegionsContacted(CosmosDiagnostics cosmosDiagnostics)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "cosmosDiagnostics"
-    type: "<xref href=\"com.azure.cosmos.CosmosDiagnostics?alt=com.azure.cosmos.CosmosDiagnostics&text=CosmosDiagnostics\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static Set<String> getRegionsContacted(CosmosDiagnostics cosmosDiagnostics)"
-  returns:
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Set.html\">Set</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
 - uid: "com.azure.cosmos.BridgeInternal.<E>getRequestBodyLength(E)"
   fullName: "com.azure.cosmos.BridgeInternal.getRequestBodyLength(E e)"
   name: "getRequestBodyLength(E e)"
@@ -532,18 +106,6 @@ methods:
   syntax: "public static String <E>getResourceAddress(E e)"
   returns:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.cosmos.BridgeInternal.getRetryContext(com.azure.cosmos.CosmosDiagnostics)"
-  fullName: "com.azure.cosmos.BridgeInternal.getRetryContext(CosmosDiagnostics cosmosDiagnostics)"
-  name: "getRetryContext(CosmosDiagnostics cosmosDiagnostics)"
-  nameWithType: "BridgeInternal.getRetryContext(CosmosDiagnostics cosmosDiagnostics)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "cosmosDiagnostics"
-    type: "<xref href=\"com.azure.cosmos.CosmosDiagnostics?alt=com.azure.cosmos.CosmosDiagnostics&text=CosmosDiagnostics\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static RetryContext getRetryContext(CosmosDiagnostics cosmosDiagnostics)"
-  returns:
-    type: "<xref href=\"com.azure.cosmos.implementation.RetryContext?alt=com.azure.cosmos.implementation.RetryContext&text=RetryContext\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.cosmos.BridgeInternal.<E>getRntbdRequestLength(E)"
   fullName: "com.azure.cosmos.BridgeInternal.getRntbdRequestLength(E e)"
   name: "getRntbdRequestLength(E e)"
@@ -568,30 +130,6 @@ methods:
   syntax: "public static int <E>getRntbdResponseLength(E e)"
   returns:
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.cosmos.BridgeInternal.getSerializationDiagnosticsContext(com.azure.cosmos.CosmosDiagnostics)"
-  fullName: "com.azure.cosmos.BridgeInternal.getSerializationDiagnosticsContext(CosmosDiagnostics cosmosDiagnostics)"
-  name: "getSerializationDiagnosticsContext(CosmosDiagnostics cosmosDiagnostics)"
-  nameWithType: "BridgeInternal.getSerializationDiagnosticsContext(CosmosDiagnostics cosmosDiagnostics)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "cosmosDiagnostics"
-    type: "<xref href=\"com.azure.cosmos.CosmosDiagnostics?alt=com.azure.cosmos.CosmosDiagnostics&text=CosmosDiagnostics\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static SerializationDiagnosticsContext getSerializationDiagnosticsContext(CosmosDiagnostics cosmosDiagnostics)"
-  returns:
-    type: "<xref href=\"com.azure.cosmos.implementation.SerializationDiagnosticsContext?alt=com.azure.cosmos.implementation.SerializationDiagnosticsContext&text=SerializationDiagnosticsContext\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.cosmos.BridgeInternal.getServiceEndpoint(com.azure.cosmos.CosmosAsyncClient)"
-  fullName: "com.azure.cosmos.BridgeInternal.getServiceEndpoint(CosmosAsyncClient cosmosAsyncClient)"
-  name: "getServiceEndpoint(CosmosAsyncClient cosmosAsyncClient)"
-  nameWithType: "BridgeInternal.getServiceEndpoint(CosmosAsyncClient cosmosAsyncClient)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "cosmosAsyncClient"
-    type: "<xref href=\"com.azure.cosmos.CosmosAsyncClient?alt=com.azure.cosmos.CosmosAsyncClient&text=CosmosAsyncClient\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static String getServiceEndpoint(CosmosAsyncClient cosmosAsyncClient)"
-  returns:
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.cosmos.BridgeInternal.<E>getServiceEndpointStatistics(E)"
   fullName: "com.azure.cosmos.BridgeInternal.getServiceEndpointStatistics(E e)"
   name: "getServiceEndpointStatistics(E e)"
@@ -616,175 +154,6 @@ methods:
   syntax: "public static boolean <E>hasSendingRequestStarted(E e)"
   returns:
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.cosmos.BridgeInternal.initializeAllAccessors()"
-  fullName: "com.azure.cosmos.BridgeInternal.initializeAllAccessors()"
-  name: "initializeAllAccessors()"
-  nameWithType: "BridgeInternal.initializeAllAccessors()"
-  modifiers:
-  - "static"
-  syntax: "public static void initializeAllAccessors()"
-- uid: "com.azure.cosmos.BridgeInternal.injectConfigs(com.azure.cosmos.CosmosClientBuilder,com.azure.cosmos.implementation.Configs)"
-  fullName: "com.azure.cosmos.BridgeInternal.injectConfigs(CosmosClientBuilder cosmosClientBuilder, Configs configs)"
-  name: "injectConfigs(CosmosClientBuilder cosmosClientBuilder, Configs configs)"
-  nameWithType: "BridgeInternal.injectConfigs(CosmosClientBuilder cosmosClientBuilder, Configs configs)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "cosmosClientBuilder"
-    type: "<xref href=\"com.azure.cosmos.CosmosClientBuilder?alt=com.azure.cosmos.CosmosClientBuilder&text=CosmosClientBuilder\" data-throw-if-not-resolved=\"False\" />"
-  - name: "configs"
-    type: "<xref href=\"com.azure.cosmos.implementation.Configs?alt=com.azure.cosmos.implementation.Configs&text=Configs\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static CosmosClientBuilder injectConfigs(CosmosClientBuilder cosmosClientBuilder, Configs configs)"
-  returns:
-    type: "<xref href=\"com.azure.cosmos.CosmosClientBuilder?alt=com.azure.cosmos.CosmosClientBuilder&text=CosmosClientBuilder\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.cosmos.BridgeInternal.isEnableMultipleWriteLocations(com.azure.cosmos.implementation.DatabaseAccount)"
-  fullName: "com.azure.cosmos.BridgeInternal.isEnableMultipleWriteLocations(DatabaseAccount account)"
-  name: "isEnableMultipleWriteLocations(DatabaseAccount account)"
-  nameWithType: "BridgeInternal.isEnableMultipleWriteLocations(DatabaseAccount account)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "account"
-    type: "<xref href=\"com.azure.cosmos.implementation.DatabaseAccount?alt=com.azure.cosmos.implementation.DatabaseAccount&text=DatabaseAccount\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static boolean isEnableMultipleWriteLocations(DatabaseAccount account)"
-  returns:
-    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.cosmos.BridgeInternal.monitorTelemetry(io.micrometer.core.instrument.MeterRegistry)"
-  fullName: "com.azure.cosmos.BridgeInternal.monitorTelemetry(MeterRegistry registry)"
-  name: "monitorTelemetry(MeterRegistry registry)"
-  nameWithType: "BridgeInternal.monitorTelemetry(MeterRegistry registry)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "registry"
-    type: "<xref href=\"io.micrometer.core.instrument.MeterRegistry?alt=io.micrometer.core.instrument.MeterRegistry&text=MeterRegistry\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static void monitorTelemetry(MeterRegistry registry)"
-- uid: "com.azure.cosmos.BridgeInternal.<T>noChanges(com.azure.cosmos.models.FeedResponse<T>)"
-  fullName: "com.azure.cosmos.BridgeInternal.noChanges(FeedResponse<T> page)"
-  name: "noChanges(FeedResponse<T> page)"
-  nameWithType: "BridgeInternal.noChanges(FeedResponse<T> page)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "page"
-    type: "<xref href=\"com.azure.cosmos.models.FeedResponse?alt=com.azure.cosmos.models.FeedResponse&text=FeedResponse\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public static boolean <T>noChanges(FeedResponse<T> page)"
-  returns:
-    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.cosmos.BridgeInternal.<T>putQueryMetricsIntoMap(com.azure.cosmos.models.FeedResponse<T>,java.lang.String,com.azure.cosmos.implementation.QueryMetrics)"
-  fullName: "com.azure.cosmos.BridgeInternal.putQueryMetricsIntoMap(FeedResponse<T> response, String partitionKeyRangeId, QueryMetrics queryMetrics)"
-  name: "putQueryMetricsIntoMap(FeedResponse<T> response, String partitionKeyRangeId, QueryMetrics queryMetrics)"
-  nameWithType: "BridgeInternal.putQueryMetricsIntoMap(FeedResponse<T> response, String partitionKeyRangeId, QueryMetrics queryMetrics)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "response"
-    type: "<xref href=\"com.azure.cosmos.models.FeedResponse?alt=com.azure.cosmos.models.FeedResponse&text=FeedResponse\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
-  - name: "partitionKeyRangeId"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - name: "queryMetrics"
-    type: "<xref href=\"com.azure.cosmos.implementation.QueryMetrics?alt=com.azure.cosmos.implementation.QueryMetrics&text=QueryMetrics\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static void <T>putQueryMetricsIntoMap(FeedResponse<T> response, String partitionKeyRangeId, QueryMetrics queryMetrics)"
-- uid: "com.azure.cosmos.BridgeInternal.<T>queryMetricsFromFeedResponse(com.azure.cosmos.models.FeedResponse<T>)"
-  fullName: "com.azure.cosmos.BridgeInternal.queryMetricsFromFeedResponse(FeedResponse<T> feedResponse)"
-  name: "queryMetricsFromFeedResponse(FeedResponse<T> feedResponse)"
-  nameWithType: "BridgeInternal.queryMetricsFromFeedResponse(FeedResponse<T> feedResponse)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "feedResponse"
-    type: "<xref href=\"com.azure.cosmos.models.FeedResponse?alt=com.azure.cosmos.models.FeedResponse&text=FeedResponse\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public static ConcurrentMap<String,QueryMetrics> <T>queryMetricsFromFeedResponse(FeedResponse<T> feedResponse)"
-  returns:
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/ConcurrentMap.html\">ConcurrentMap</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<xref href=\"com.azure.cosmos.implementation.QueryMetrics?alt=com.azure.cosmos.implementation.QueryMetrics&text=QueryMetrics\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.cosmos.BridgeInternal.recordAddressResolutionStart(com.azure.cosmos.CosmosDiagnostics,java.net.URI,boolean,boolean)"
-  fullName: "com.azure.cosmos.BridgeInternal.recordAddressResolutionStart(CosmosDiagnostics cosmosDiagnostics, URI targetEndpoint, boolean forceRefresh, boolean forceCollectionRoutingMapRefresh)"
-  name: "recordAddressResolutionStart(CosmosDiagnostics cosmosDiagnostics, URI targetEndpoint, boolean forceRefresh, boolean forceCollectionRoutingMapRefresh)"
-  nameWithType: "BridgeInternal.recordAddressResolutionStart(CosmosDiagnostics cosmosDiagnostics, URI targetEndpoint, boolean forceRefresh, boolean forceCollectionRoutingMapRefresh)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "cosmosDiagnostics"
-    type: "<xref href=\"com.azure.cosmos.CosmosDiagnostics?alt=com.azure.cosmos.CosmosDiagnostics&text=CosmosDiagnostics\" data-throw-if-not-resolved=\"False\" />"
-  - name: "targetEndpoint"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/net/URI.html\">URI</a>"
-  - name: "forceRefresh"
-    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
-  - name: "forceCollectionRoutingMapRefresh"
-    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static String recordAddressResolutionStart(CosmosDiagnostics cosmosDiagnostics, URI targetEndpoint, boolean forceRefresh, boolean forceCollectionRoutingMapRefresh)"
-  returns:
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.cosmos.BridgeInternal.recordGatewayResponse(com.azure.cosmos.CosmosDiagnostics,com.azure.cosmos.implementation.RxDocumentServiceRequest,com.azure.cosmos.CosmosException,com.azure.cosmos.implementation.GlobalEndpointManager)"
-  fullName: "com.azure.cosmos.BridgeInternal.recordGatewayResponse(CosmosDiagnostics cosmosDiagnostics, RxDocumentServiceRequest rxDocumentServiceRequest, CosmosException cosmosException, GlobalEndpointManager globalEndpointManager)"
-  name: "recordGatewayResponse(CosmosDiagnostics cosmosDiagnostics, RxDocumentServiceRequest rxDocumentServiceRequest, CosmosException cosmosException, GlobalEndpointManager globalEndpointManager)"
-  nameWithType: "BridgeInternal.recordGatewayResponse(CosmosDiagnostics cosmosDiagnostics, RxDocumentServiceRequest rxDocumentServiceRequest, CosmosException cosmosException, GlobalEndpointManager globalEndpointManager)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "cosmosDiagnostics"
-    type: "<xref href=\"com.azure.cosmos.CosmosDiagnostics?alt=com.azure.cosmos.CosmosDiagnostics&text=CosmosDiagnostics\" data-throw-if-not-resolved=\"False\" />"
-  - name: "rxDocumentServiceRequest"
-    type: "<xref href=\"com.azure.cosmos.implementation.RxDocumentServiceRequest?alt=com.azure.cosmos.implementation.RxDocumentServiceRequest&text=RxDocumentServiceRequest\" data-throw-if-not-resolved=\"False\" />"
-  - name: "cosmosException"
-    type: "<xref href=\"com.azure.cosmos.CosmosException?alt=com.azure.cosmos.CosmosException&text=CosmosException\" data-throw-if-not-resolved=\"False\" />"
-  - name: "globalEndpointManager"
-    type: "<xref href=\"com.azure.cosmos.implementation.GlobalEndpointManager?alt=com.azure.cosmos.implementation.GlobalEndpointManager&text=GlobalEndpointManager\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static void recordGatewayResponse(CosmosDiagnostics cosmosDiagnostics, RxDocumentServiceRequest rxDocumentServiceRequest, CosmosException cosmosException, GlobalEndpointManager globalEndpointManager)"
-- uid: "com.azure.cosmos.BridgeInternal.recordGatewayResponse(com.azure.cosmos.CosmosDiagnostics,com.azure.cosmos.implementation.RxDocumentServiceRequest,com.azure.cosmos.implementation.directconnectivity.StoreResponse,com.azure.cosmos.implementation.GlobalEndpointManager)"
-  fullName: "com.azure.cosmos.BridgeInternal.recordGatewayResponse(CosmosDiagnostics cosmosDiagnostics, RxDocumentServiceRequest rxDocumentServiceRequest, StoreResponse storeResponse, GlobalEndpointManager globalEndpointManager)"
-  name: "recordGatewayResponse(CosmosDiagnostics cosmosDiagnostics, RxDocumentServiceRequest rxDocumentServiceRequest, StoreResponse storeResponse, GlobalEndpointManager globalEndpointManager)"
-  nameWithType: "BridgeInternal.recordGatewayResponse(CosmosDiagnostics cosmosDiagnostics, RxDocumentServiceRequest rxDocumentServiceRequest, StoreResponse storeResponse, GlobalEndpointManager globalEndpointManager)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "cosmosDiagnostics"
-    type: "<xref href=\"com.azure.cosmos.CosmosDiagnostics?alt=com.azure.cosmos.CosmosDiagnostics&text=CosmosDiagnostics\" data-throw-if-not-resolved=\"False\" />"
-  - name: "rxDocumentServiceRequest"
-    type: "<xref href=\"com.azure.cosmos.implementation.RxDocumentServiceRequest?alt=com.azure.cosmos.implementation.RxDocumentServiceRequest&text=RxDocumentServiceRequest\" data-throw-if-not-resolved=\"False\" />"
-  - name: "storeResponse"
-    type: "<xref href=\"com.azure.cosmos.implementation.directconnectivity.StoreResponse?alt=com.azure.cosmos.implementation.directconnectivity.StoreResponse&text=StoreResponse\" data-throw-if-not-resolved=\"False\" />"
-  - name: "globalEndpointManager"
-    type: "<xref href=\"com.azure.cosmos.implementation.GlobalEndpointManager?alt=com.azure.cosmos.implementation.GlobalEndpointManager&text=GlobalEndpointManager\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static void recordGatewayResponse(CosmosDiagnostics cosmosDiagnostics, RxDocumentServiceRequest rxDocumentServiceRequest, StoreResponse storeResponse, GlobalEndpointManager globalEndpointManager)"
-- uid: "com.azure.cosmos.BridgeInternal.recordResponse(com.azure.cosmos.CosmosDiagnostics,com.azure.cosmos.implementation.RxDocumentServiceRequest,com.azure.cosmos.implementation.directconnectivity.StoreResult,com.azure.cosmos.implementation.GlobalEndpointManager)"
-  fullName: "com.azure.cosmos.BridgeInternal.recordResponse(CosmosDiagnostics cosmosDiagnostics, RxDocumentServiceRequest request, StoreResult storeResult, GlobalEndpointManager globalEndpointManager)"
-  name: "recordResponse(CosmosDiagnostics cosmosDiagnostics, RxDocumentServiceRequest request, StoreResult storeResult, GlobalEndpointManager globalEndpointManager)"
-  nameWithType: "BridgeInternal.recordResponse(CosmosDiagnostics cosmosDiagnostics, RxDocumentServiceRequest request, StoreResult storeResult, GlobalEndpointManager globalEndpointManager)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "cosmosDiagnostics"
-    type: "<xref href=\"com.azure.cosmos.CosmosDiagnostics?alt=com.azure.cosmos.CosmosDiagnostics&text=CosmosDiagnostics\" data-throw-if-not-resolved=\"False\" />"
-  - name: "request"
-    type: "<xref href=\"com.azure.cosmos.implementation.RxDocumentServiceRequest?alt=com.azure.cosmos.implementation.RxDocumentServiceRequest&text=RxDocumentServiceRequest\" data-throw-if-not-resolved=\"False\" />"
-  - name: "storeResult"
-    type: "<xref href=\"com.azure.cosmos.implementation.directconnectivity.StoreResult?alt=com.azure.cosmos.implementation.directconnectivity.StoreResult&text=StoreResult\" data-throw-if-not-resolved=\"False\" />"
-  - name: "globalEndpointManager"
-    type: "<xref href=\"com.azure.cosmos.implementation.GlobalEndpointManager?alt=com.azure.cosmos.implementation.GlobalEndpointManager&text=GlobalEndpointManager\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static void recordResponse(CosmosDiagnostics cosmosDiagnostics, RxDocumentServiceRequest request, StoreResult storeResult, GlobalEndpointManager globalEndpointManager)"
-- uid: "com.azure.cosmos.BridgeInternal.recordRetryContextEndTime(com.azure.cosmos.CosmosDiagnostics)"
-  fullName: "com.azure.cosmos.BridgeInternal.recordRetryContextEndTime(CosmosDiagnostics cosmosDiagnostics)"
-  name: "recordRetryContextEndTime(CosmosDiagnostics cosmosDiagnostics)"
-  nameWithType: "BridgeInternal.recordRetryContextEndTime(CosmosDiagnostics cosmosDiagnostics)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "cosmosDiagnostics"
-    type: "<xref href=\"com.azure.cosmos.CosmosDiagnostics?alt=com.azure.cosmos.CosmosDiagnostics&text=CosmosDiagnostics\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static void recordRetryContextEndTime(CosmosDiagnostics cosmosDiagnostics)"
-- uid: "com.azure.cosmos.BridgeInternal.setAltLink(com.azure.cosmos.implementation.Resource,java.lang.String)"
-  fullName: "com.azure.cosmos.BridgeInternal.setAltLink(Resource resource, String altLink)"
-  name: "setAltLink(Resource resource, String altLink)"
-  nameWithType: "BridgeInternal.setAltLink(Resource resource, String altLink)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "resource"
-    type: "<xref href=\"com.azure.cosmos.implementation.Resource?alt=com.azure.cosmos.implementation.Resource&text=Resource\" data-throw-if-not-resolved=\"False\" />"
-  - name: "altLink"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public static void setAltLink(Resource resource, String altLink)"
 - uid: "com.azure.cosmos.BridgeInternal.<E>setChannelAcquisitionTimeline(E,com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdChannelAcquisitionTimeline)"
   fullName: "com.azure.cosmos.BridgeInternal.setChannelAcquisitionTimeline(E e, RntbdChannelAcquisitionTimeline channelAcquisitionTimeline)"
   name: "setChannelAcquisitionTimeline(E e, RntbdChannelAcquisitionTimeline channelAcquisitionTimeline)"
@@ -799,44 +168,6 @@ methods:
   syntax: "public static E <E>setChannelAcquisitionTimeline(E e, RntbdChannelAcquisitionTimeline channelAcquisitionTimeline)"
   returns:
     type: "<xref href=\"E?alt=E&text=E\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.cosmos.BridgeInternal.setContactedReplicas(com.azure.cosmos.CosmosDiagnostics,java.util.List<java.net.URI>)"
-  fullName: "com.azure.cosmos.BridgeInternal.setContactedReplicas(CosmosDiagnostics cosmosDiagnostics, List<URI> contactedReplicas)"
-  name: "setContactedReplicas(CosmosDiagnostics cosmosDiagnostics, List<URI> contactedReplicas)"
-  nameWithType: "BridgeInternal.setContactedReplicas(CosmosDiagnostics cosmosDiagnostics, List<URI> contactedReplicas)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "cosmosDiagnostics"
-    type: "<xref href=\"com.azure.cosmos.CosmosDiagnostics?alt=com.azure.cosmos.CosmosDiagnostics&text=CosmosDiagnostics\" data-throw-if-not-resolved=\"False\" />"
-  - name: "contactedReplicas"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/net/URI.html\">URI</a>&gt;"
-  syntax: "public static void setContactedReplicas(CosmosDiagnostics cosmosDiagnostics, List<URI> contactedReplicas)"
-- uid: "com.azure.cosmos.BridgeInternal.setCosmosDiagnostics(com.azure.cosmos.CosmosException,com.azure.cosmos.CosmosDiagnostics)"
-  fullName: "com.azure.cosmos.BridgeInternal.setCosmosDiagnostics(CosmosException cosmosException, CosmosDiagnostics cosmosDiagnostics)"
-  name: "setCosmosDiagnostics(CosmosException cosmosException, CosmosDiagnostics cosmosDiagnostics)"
-  nameWithType: "BridgeInternal.setCosmosDiagnostics(CosmosException cosmosException, CosmosDiagnostics cosmosDiagnostics)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "cosmosException"
-    type: "<xref href=\"com.azure.cosmos.CosmosException?alt=com.azure.cosmos.CosmosException&text=CosmosException\" data-throw-if-not-resolved=\"False\" />"
-  - name: "cosmosDiagnostics"
-    type: "<xref href=\"com.azure.cosmos.CosmosDiagnostics?alt=com.azure.cosmos.CosmosDiagnostics&text=CosmosDiagnostics\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static CosmosException setCosmosDiagnostics(CosmosException cosmosException, CosmosDiagnostics cosmosDiagnostics)"
-  returns:
-    type: "<xref href=\"com.azure.cosmos.CosmosException?alt=com.azure.cosmos.CosmosException&text=CosmosException\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.cosmos.BridgeInternal.setFeedResponseDiagnostics(com.azure.cosmos.CosmosDiagnostics,java.util.concurrent.ConcurrentMap<java.lang.String,com.azure.cosmos.implementation.QueryMetrics>)"
-  fullName: "com.azure.cosmos.BridgeInternal.setFeedResponseDiagnostics(CosmosDiagnostics cosmosDiagnostics, ConcurrentMap<String,QueryMetrics> queryMetricsMap)"
-  name: "setFeedResponseDiagnostics(CosmosDiagnostics cosmosDiagnostics, ConcurrentMap<String,QueryMetrics> queryMetricsMap)"
-  nameWithType: "BridgeInternal.setFeedResponseDiagnostics(CosmosDiagnostics cosmosDiagnostics, ConcurrentMap<String,QueryMetrics> queryMetricsMap)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "cosmosDiagnostics"
-    type: "<xref href=\"com.azure.cosmos.CosmosDiagnostics?alt=com.azure.cosmos.CosmosDiagnostics&text=CosmosDiagnostics\" data-throw-if-not-resolved=\"False\" />"
-  - name: "queryMetricsMap"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/ConcurrentMap.html\">ConcurrentMap</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<xref href=\"com.azure.cosmos.implementation.QueryMetrics?alt=com.azure.cosmos.implementation.QueryMetrics&text=QueryMetrics\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public static void setFeedResponseDiagnostics(CosmosDiagnostics cosmosDiagnostics, ConcurrentMap<String,QueryMetrics> queryMetricsMap)"
 - uid: "com.azure.cosmos.BridgeInternal.<E>setLSN(E,long)"
   fullName: "com.azure.cosmos.BridgeInternal.setLSN(E e, long lsn)"
   name: "setLSN(E e, long lsn)"
@@ -851,18 +182,6 @@ methods:
   syntax: "public static E <E>setLSN(E e, long lsn)"
   returns:
     type: "<xref href=\"E?alt=E&text=E\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.cosmos.BridgeInternal.setMaxReplicaSetSize(com.azure.cosmos.implementation.ReplicationPolicy,int)"
-  fullName: "com.azure.cosmos.BridgeInternal.setMaxReplicaSetSize(ReplicationPolicy replicationPolicy, int value)"
-  name: "setMaxReplicaSetSize(ReplicationPolicy replicationPolicy, int value)"
-  nameWithType: "BridgeInternal.setMaxReplicaSetSize(ReplicationPolicy replicationPolicy, int value)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "replicationPolicy"
-    type: "<xref href=\"com.azure.cosmos.implementation.ReplicationPolicy?alt=com.azure.cosmos.implementation.ReplicationPolicy&text=ReplicationPolicy\" data-throw-if-not-resolved=\"False\" />"
-  - name: "value"
-    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static void setMaxReplicaSetSize(ReplicationPolicy replicationPolicy, int value)"
 - uid: "com.azure.cosmos.BridgeInternal.<E>setPartitionKeyRangeId(E,java.lang.String)"
   fullName: "com.azure.cosmos.BridgeInternal.setPartitionKeyRangeId(E e, String partitionKeyRangeId)"
   name: "setPartitionKeyRangeId(E e, String partitionKeyRangeId)"
@@ -877,18 +196,6 @@ methods:
   syntax: "public static E <E>setPartitionKeyRangeId(E e, String partitionKeyRangeId)"
   returns:
     type: "<xref href=\"E?alt=E&text=E\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.cosmos.BridgeInternal.setQueryPlanDiagnosticsContext(com.azure.cosmos.CosmosDiagnostics,com.azure.cosmos.implementation.query.QueryInfo.QueryPlanDiagnosticsContext)"
-  fullName: "com.azure.cosmos.BridgeInternal.setQueryPlanDiagnosticsContext(CosmosDiagnostics cosmosDiagnostics, QueryInfo.QueryPlanDiagnosticsContext diagnosticsContext)"
-  name: "setQueryPlanDiagnosticsContext(CosmosDiagnostics cosmosDiagnostics, QueryInfo.QueryPlanDiagnosticsContext diagnosticsContext)"
-  nameWithType: "BridgeInternal.setQueryPlanDiagnosticsContext(CosmosDiagnostics cosmosDiagnostics, QueryInfo.QueryPlanDiagnosticsContext diagnosticsContext)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "cosmosDiagnostics"
-    type: "<xref href=\"com.azure.cosmos.CosmosDiagnostics?alt=com.azure.cosmos.CosmosDiagnostics&text=CosmosDiagnostics\" data-throw-if-not-resolved=\"False\" />"
-  - name: "diagnosticsContext"
-    type: "<xref href=\"com.azure.cosmos.implementation.query.QueryInfo.QueryPlanDiagnosticsContext?alt=com.azure.cosmos.implementation.query.QueryInfo.QueryPlanDiagnosticsContext&text=QueryPlanDiagnosticsContext\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static void setQueryPlanDiagnosticsContext(CosmosDiagnostics cosmosDiagnostics, QueryInfo.QueryPlanDiagnosticsContext diagnosticsContext)"
 - uid: "com.azure.cosmos.BridgeInternal.<E>setRequestBodyLength(E,int)"
   fullName: "com.azure.cosmos.BridgeInternal.setRequestBodyLength(E e, int requestLen)"
   name: "setRequestBodyLength(E e, int requestLen)"
@@ -997,18 +304,80 @@ methods:
   syntax: "public static E <E>setServiceEndpointStatistics(E e, RntbdEndpointStatistics rntbdEndpointStatistics)"
   returns:
     type: "<xref href=\"E?alt=E&text=E\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.cosmos.BridgeInternal.setSubStatusCode(com.azure.cosmos.CosmosException,int)"
-  fullName: "com.azure.cosmos.BridgeInternal.setSubStatusCode(CosmosException documentClientException, int subStatusCode)"
-  name: "setSubStatusCode(CosmosException documentClientException, int subStatusCode)"
-  nameWithType: "BridgeInternal.setSubStatusCode(CosmosException documentClientException, int subStatusCode)"
+- uid: "com.azure.cosmos.BridgeInternal.<T>createFeedResponseWithQueryMetrics(java.util.List<T>,java.util.Map<java.lang.String,java.lang.String>,java.util.concurrent.ConcurrentMap<java.lang.String,com.azure.cosmos.implementation.QueryMetrics>,com.azure.cosmos.implementation.query.QueryInfo.QueryPlanDiagnosticsContext,boolean,boolean,com.azure.cosmos.CosmosDiagnostics)"
+  fullName: "com.azure.cosmos.BridgeInternal.createFeedResponseWithQueryMetrics(List<T> results, Map<String,String> headers, ConcurrentMap<String,QueryMetrics> queryMetricsMap, QueryInfo.QueryPlanDiagnosticsContext diagnosticsContext, boolean useEtagAsContinuation, boolean isNoChangesResponse, CosmosDiagnostics cosmosDiagnostics)"
+  name: "createFeedResponseWithQueryMetrics(List<T> results, Map<String,String> headers, ConcurrentMap<String,QueryMetrics> queryMetricsMap, QueryInfo.QueryPlanDiagnosticsContext diagnosticsContext, boolean useEtagAsContinuation, boolean isNoChangesResponse, CosmosDiagnostics cosmosDiagnostics)"
+  nameWithType: "BridgeInternal.createFeedResponseWithQueryMetrics(List<T> results, Map<String,String> headers, ConcurrentMap<String,QueryMetrics> queryMetricsMap, QueryInfo.QueryPlanDiagnosticsContext diagnosticsContext, boolean useEtagAsContinuation, boolean isNoChangesResponse, CosmosDiagnostics cosmosDiagnostics)"
   modifiers:
   - "static"
   parameters:
-  - name: "documentClientException"
-    type: "<xref href=\"com.azure.cosmos.CosmosException?alt=com.azure.cosmos.CosmosException&text=CosmosException\" data-throw-if-not-resolved=\"False\" />"
-  - name: "subStatusCode"
-    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static void setSubStatusCode(CosmosException documentClientException, int subStatusCode)"
+  - name: "results"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
+  - name: "headers"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+  - name: "queryMetricsMap"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/ConcurrentMap.html\">ConcurrentMap</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<xref href=\"com.azure.cosmos.implementation.QueryMetrics?alt=com.azure.cosmos.implementation.QueryMetrics&text=QueryMetrics\" data-throw-if-not-resolved=\"False\" />&gt;"
+  - name: "diagnosticsContext"
+    type: "<xref href=\"com.azure.cosmos.implementation.query.QueryInfo.QueryPlanDiagnosticsContext?alt=com.azure.cosmos.implementation.query.QueryInfo.QueryPlanDiagnosticsContext&text=QueryPlanDiagnosticsContext\" data-throw-if-not-resolved=\"False\" />"
+  - name: "useEtagAsContinuation"
+    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
+  - name: "isNoChangesResponse"
+    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
+  - name: "cosmosDiagnostics"
+    type: "<xref href=\"com.azure.cosmos.CosmosDiagnostics?alt=com.azure.cosmos.CosmosDiagnostics&text=CosmosDiagnostics\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static FeedResponse<T> <T>createFeedResponseWithQueryMetrics(List<T> results, Map<String,String> headers, ConcurrentMap<String,QueryMetrics> queryMetricsMap, QueryInfo.QueryPlanDiagnosticsContext diagnosticsContext, boolean useEtagAsContinuation, boolean isNoChangesResponse, CosmosDiagnostics cosmosDiagnostics)"
+  returns:
+    type: "<xref href=\"com.azure.cosmos.models.FeedResponse?alt=com.azure.cosmos.models.FeedResponse&text=FeedResponse\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.cosmos.BridgeInternal.<T>getProperties(com.azure.cosmos.models.CosmosItemResponse<T>)"
+  fullName: "com.azure.cosmos.BridgeInternal.getProperties(CosmosItemResponse<T> cosmosItemResponse)"
+  name: "getProperties(CosmosItemResponse<T> cosmosItemResponse)"
+  nameWithType: "BridgeInternal.getProperties(CosmosItemResponse<T> cosmosItemResponse)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "cosmosItemResponse"
+    type: "<xref href=\"com.azure.cosmos.models.CosmosItemResponse?alt=com.azure.cosmos.models.CosmosItemResponse&text=CosmosItemResponse\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public static InternalObjectNode <T>getProperties(CosmosItemResponse<T> cosmosItemResponse)"
+  returns:
+    type: "<xref href=\"com.azure.cosmos.implementation.InternalObjectNode?alt=com.azure.cosmos.implementation.InternalObjectNode&text=InternalObjectNode\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.cosmos.BridgeInternal.<T>noChanges(com.azure.cosmos.models.FeedResponse<T>)"
+  fullName: "com.azure.cosmos.BridgeInternal.noChanges(FeedResponse<T> page)"
+  name: "noChanges(FeedResponse<T> page)"
+  nameWithType: "BridgeInternal.noChanges(FeedResponse<T> page)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "page"
+    type: "<xref href=\"com.azure.cosmos.models.FeedResponse?alt=com.azure.cosmos.models.FeedResponse&text=FeedResponse\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public static boolean <T>noChanges(FeedResponse<T> page)"
+  returns:
+    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.cosmos.BridgeInternal.<T>putQueryMetricsIntoMap(com.azure.cosmos.models.FeedResponse<T>,java.lang.String,com.azure.cosmos.implementation.QueryMetrics)"
+  fullName: "com.azure.cosmos.BridgeInternal.putQueryMetricsIntoMap(FeedResponse<T> response, String partitionKeyRangeId, QueryMetrics queryMetrics)"
+  name: "putQueryMetricsIntoMap(FeedResponse<T> response, String partitionKeyRangeId, QueryMetrics queryMetrics)"
+  nameWithType: "BridgeInternal.putQueryMetricsIntoMap(FeedResponse<T> response, String partitionKeyRangeId, QueryMetrics queryMetrics)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "response"
+    type: "<xref href=\"com.azure.cosmos.models.FeedResponse?alt=com.azure.cosmos.models.FeedResponse&text=FeedResponse\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
+  - name: "partitionKeyRangeId"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - name: "queryMetrics"
+    type: "<xref href=\"com.azure.cosmos.implementation.QueryMetrics?alt=com.azure.cosmos.implementation.QueryMetrics&text=QueryMetrics\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static void <T>putQueryMetricsIntoMap(FeedResponse<T> response, String partitionKeyRangeId, QueryMetrics queryMetrics)"
+- uid: "com.azure.cosmos.BridgeInternal.<T>queryMetricsFromFeedResponse(com.azure.cosmos.models.FeedResponse<T>)"
+  fullName: "com.azure.cosmos.BridgeInternal.queryMetricsFromFeedResponse(FeedResponse<T> feedResponse)"
+  name: "queryMetricsFromFeedResponse(FeedResponse<T> feedResponse)"
+  nameWithType: "BridgeInternal.queryMetricsFromFeedResponse(FeedResponse<T> feedResponse)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "feedResponse"
+    type: "<xref href=\"com.azure.cosmos.models.FeedResponse?alt=com.azure.cosmos.models.FeedResponse&text=FeedResponse\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public static ConcurrentMap<String,QueryMetrics> <T>queryMetricsFromFeedResponse(FeedResponse<T> feedResponse)"
+  returns:
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/ConcurrentMap.html\">ConcurrentMap</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<xref href=\"com.azure.cosmos.implementation.QueryMetrics?alt=com.azure.cosmos.implementation.QueryMetrics&text=QueryMetrics\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.cosmos.BridgeInternal.<T>toFeedResponsePage(java.util.List<T>,java.util.Map<java.lang.String,java.lang.String>,boolean,com.azure.cosmos.CosmosDiagnostics)"
   fullName: "com.azure.cosmos.BridgeInternal.toFeedResponsePage(List<T> results, Map<String,String> headers, boolean noChanges, CosmosDiagnostics diagnostics)"
   name: "toFeedResponsePage(List<T> results, Map<String,String> headers, boolean noChanges, CosmosDiagnostics diagnostics)"
@@ -1041,6 +410,637 @@ methods:
   syntax: "public static ResourceResponse<T> <T>toResourceResponse(RxDocumentServiceResponse response, Class<T> cls)"
   returns:
     type: "<xref href=\"com.azure.cosmos.implementation.ResourceResponse?alt=com.azure.cosmos.implementation.ResourceResponse&text=ResourceResponse\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.cosmos.BridgeInternal.cloneCosmosDiagnostics(com.azure.cosmos.CosmosDiagnostics)"
+  fullName: "com.azure.cosmos.BridgeInternal.cloneCosmosDiagnostics(CosmosDiagnostics toBeCloned)"
+  name: "cloneCosmosDiagnostics(CosmosDiagnostics toBeCloned)"
+  nameWithType: "BridgeInternal.cloneCosmosDiagnostics(CosmosDiagnostics toBeCloned)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "toBeCloned"
+    type: "<xref href=\"com.azure.cosmos.CosmosDiagnostics?alt=com.azure.cosmos.CosmosDiagnostics&text=CosmosDiagnostics\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static CosmosDiagnostics cloneCosmosDiagnostics(CosmosDiagnostics toBeCloned)"
+  returns:
+    type: "<xref href=\"com.azure.cosmos.CosmosDiagnostics?alt=com.azure.cosmos.CosmosDiagnostics&text=CosmosDiagnostics\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.cosmos.BridgeInternal.createCosmosDiagnostics(java.util.Map<java.lang.String,com.azure.cosmos.implementation.QueryMetrics>)"
+  fullName: "com.azure.cosmos.BridgeInternal.createCosmosDiagnostics(Map<String,QueryMetrics> queryMetricsMap)"
+  name: "createCosmosDiagnostics(Map<String,QueryMetrics> queryMetricsMap)"
+  nameWithType: "BridgeInternal.createCosmosDiagnostics(Map<String,QueryMetrics> queryMetricsMap)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "queryMetricsMap"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<xref href=\"com.azure.cosmos.implementation.QueryMetrics?alt=com.azure.cosmos.implementation.QueryMetrics&text=QueryMetrics\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public static CosmosDiagnostics createCosmosDiagnostics(Map<String,QueryMetrics> queryMetricsMap)"
+  returns:
+    type: "<xref href=\"com.azure.cosmos.CosmosDiagnostics?alt=com.azure.cosmos.CosmosDiagnostics&text=CosmosDiagnostics\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.cosmos.BridgeInternal.createCosmosException(int)"
+  fullName: "com.azure.cosmos.BridgeInternal.createCosmosException(int statusCode)"
+  name: "createCosmosException(int statusCode)"
+  nameWithType: "BridgeInternal.createCosmosException(int statusCode)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "statusCode"
+    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static CosmosException createCosmosException(int statusCode)"
+  returns:
+    type: "<xref href=\"com.azure.cosmos.CosmosException?alt=com.azure.cosmos.CosmosException&text=CosmosException\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.cosmos.BridgeInternal.createCosmosException(int,java.lang.String)"
+  fullName: "com.azure.cosmos.BridgeInternal.createCosmosException(int statusCode, String errorMessage)"
+  name: "createCosmosException(int statusCode, String errorMessage)"
+  nameWithType: "BridgeInternal.createCosmosException(int statusCode, String errorMessage)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "statusCode"
+    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
+  - name: "errorMessage"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static CosmosException createCosmosException(int statusCode, String errorMessage)"
+  returns:
+    type: "<xref href=\"com.azure.cosmos.CosmosException?alt=com.azure.cosmos.CosmosException&text=CosmosException\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.cosmos.BridgeInternal.createCosmosException(java.lang.String,int,com.azure.cosmos.implementation.CosmosError,java.util.Map<java.lang.String,java.lang.String>)"
+  fullName: "com.azure.cosmos.BridgeInternal.createCosmosException(String resourceAddress, int statusCode, CosmosError cosmosErrorResource, Map<String,String> responseHeaders)"
+  name: "createCosmosException(String resourceAddress, int statusCode, CosmosError cosmosErrorResource, Map<String,String> responseHeaders)"
+  nameWithType: "BridgeInternal.createCosmosException(String resourceAddress, int statusCode, CosmosError cosmosErrorResource, Map<String,String> responseHeaders)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "resourceAddress"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - name: "statusCode"
+    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
+  - name: "cosmosErrorResource"
+    type: "<xref href=\"com.azure.cosmos.implementation.CosmosError?alt=com.azure.cosmos.implementation.CosmosError&text=CosmosError\" data-throw-if-not-resolved=\"False\" />"
+  - name: "responseHeaders"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+  syntax: "public static CosmosException createCosmosException(String resourceAddress, int statusCode, CosmosError cosmosErrorResource, Map<String,String> responseHeaders)"
+  returns:
+    type: "<xref href=\"com.azure.cosmos.CosmosException?alt=com.azure.cosmos.CosmosException&text=CosmosException\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.cosmos.BridgeInternal.createCosmosException(java.lang.String,int,java.lang.Exception)"
+  fullName: "com.azure.cosmos.BridgeInternal.createCosmosException(String resourceAddress, int statusCode, Exception innerException)"
+  name: "createCosmosException(String resourceAddress, int statusCode, Exception innerException)"
+  nameWithType: "BridgeInternal.createCosmosException(String resourceAddress, int statusCode, Exception innerException)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "resourceAddress"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - name: "statusCode"
+    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
+  - name: "innerException"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Exception.html\">Exception</a>"
+  syntax: "public static CosmosException createCosmosException(String resourceAddress, int statusCode, Exception innerException)"
+  returns:
+    type: "<xref href=\"com.azure.cosmos.CosmosException?alt=com.azure.cosmos.CosmosException&text=CosmosException\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.cosmos.BridgeInternal.createCosmosException(java.lang.String,java.lang.Exception,java.util.Map<java.lang.String,java.lang.String>,int,java.lang.String)"
+  fullName: "com.azure.cosmos.BridgeInternal.createCosmosException(String message, Exception exception, Map<String,String> responseHeaders, int statusCode, String resourceAddress)"
+  name: "createCosmosException(String message, Exception exception, Map<String,String> responseHeaders, int statusCode, String resourceAddress)"
+  nameWithType: "BridgeInternal.createCosmosException(String message, Exception exception, Map<String,String> responseHeaders, int statusCode, String resourceAddress)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "message"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - name: "exception"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Exception.html\">Exception</a>"
+  - name: "responseHeaders"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+  - name: "statusCode"
+    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
+  - name: "resourceAddress"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static CosmosException createCosmosException(String message, Exception exception, Map<String,String> responseHeaders, int statusCode, String resourceAddress)"
+  returns:
+    type: "<xref href=\"com.azure.cosmos.CosmosException?alt=com.azure.cosmos.CosmosException&text=CosmosException\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.cosmos.BridgeInternal.createCosmosStoredProcedureProperties(java.lang.String)"
+  fullName: "com.azure.cosmos.BridgeInternal.createCosmosStoredProcedureProperties(String jsonString)"
+  name: "createCosmosStoredProcedureProperties(String jsonString)"
+  nameWithType: "BridgeInternal.createCosmosStoredProcedureProperties(String jsonString)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "jsonString"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static CosmosStoredProcedureProperties createCosmosStoredProcedureProperties(String jsonString)"
+  returns:
+    type: "<xref href=\"com.azure.cosmos.models.CosmosStoredProcedureProperties?alt=com.azure.cosmos.models.CosmosStoredProcedureProperties&text=CosmosStoredProcedureProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.cosmos.BridgeInternal.createQueryMetricsFromCollection(java.util.Collection<com.azure.cosmos.implementation.QueryMetrics>)"
+  fullName: "com.azure.cosmos.BridgeInternal.createQueryMetricsFromCollection(Collection<QueryMetrics> queryMetricsCollection)"
+  name: "createQueryMetricsFromCollection(Collection<QueryMetrics> queryMetricsCollection)"
+  nameWithType: "BridgeInternal.createQueryMetricsFromCollection(Collection<QueryMetrics> queryMetricsCollection)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "queryMetricsCollection"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.cosmos.implementation.QueryMetrics?alt=com.azure.cosmos.implementation.QueryMetrics&text=QueryMetrics\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public static QueryMetrics createQueryMetricsFromCollection(Collection<QueryMetrics> queryMetricsCollection)"
+  returns:
+    type: "<xref href=\"com.azure.cosmos.implementation.QueryMetrics?alt=com.azure.cosmos.implementation.QueryMetrics&text=QueryMetrics\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.cosmos.BridgeInternal.createQueryMetricsFromDelimitedStringAndClientSideMetrics(java.lang.String,com.azure.cosmos.implementation.query.metrics.ClientSideMetrics,java.lang.String,java.lang.String)"
+  fullName: "com.azure.cosmos.BridgeInternal.createQueryMetricsFromDelimitedStringAndClientSideMetrics(String queryMetricsDelimitedString, ClientSideMetrics clientSideMetrics, String activityId, String indexUtilizationInfoJSONString)"
+  name: "createQueryMetricsFromDelimitedStringAndClientSideMetrics(String queryMetricsDelimitedString, ClientSideMetrics clientSideMetrics, String activityId, String indexUtilizationInfoJSONString)"
+  nameWithType: "BridgeInternal.createQueryMetricsFromDelimitedStringAndClientSideMetrics(String queryMetricsDelimitedString, ClientSideMetrics clientSideMetrics, String activityId, String indexUtilizationInfoJSONString)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "queryMetricsDelimitedString"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - name: "clientSideMetrics"
+    type: "<xref href=\"com.azure.cosmos.implementation.query.metrics.ClientSideMetrics?alt=com.azure.cosmos.implementation.query.metrics.ClientSideMetrics&text=ClientSideMetrics\" data-throw-if-not-resolved=\"False\" />"
+  - name: "activityId"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - name: "indexUtilizationInfoJSONString"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static QueryMetrics createQueryMetricsFromDelimitedStringAndClientSideMetrics(String queryMetricsDelimitedString, ClientSideMetrics clientSideMetrics, String activityId, String indexUtilizationInfoJSONString)"
+  returns:
+    type: "<xref href=\"com.azure.cosmos.implementation.QueryMetrics?alt=com.azure.cosmos.implementation.QueryMetrics&text=QueryMetrics\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.cosmos.BridgeInternal.createServiceUnavailableException(java.lang.Exception,int)"
+  fullName: "com.azure.cosmos.BridgeInternal.createServiceUnavailableException(Exception innerException, int subStatusCode)"
+  name: "createServiceUnavailableException(Exception innerException, int subStatusCode)"
+  nameWithType: "BridgeInternal.createServiceUnavailableException(Exception innerException, int subStatusCode)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "innerException"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Exception.html\">Exception</a>"
+  - name: "subStatusCode"
+    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static CosmosException createServiceUnavailableException(Exception innerException, int subStatusCode)"
+  returns:
+    type: "<xref href=\"com.azure.cosmos.CosmosException?alt=com.azure.cosmos.CosmosException&text=CosmosException\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.cosmos.BridgeInternal.extractConfigs(com.azure.cosmos.CosmosClientBuilder)"
+  fullName: "com.azure.cosmos.BridgeInternal.extractConfigs(CosmosClientBuilder cosmosClientBuilder)"
+  name: "extractConfigs(CosmosClientBuilder cosmosClientBuilder)"
+  nameWithType: "BridgeInternal.extractConfigs(CosmosClientBuilder cosmosClientBuilder)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "cosmosClientBuilder"
+    type: "<xref href=\"com.azure.cosmos.CosmosClientBuilder?alt=com.azure.cosmos.CosmosClientBuilder&text=CosmosClientBuilder\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static Configs extractConfigs(CosmosClientBuilder cosmosClientBuilder)"
+  returns:
+    type: "<xref href=\"com.azure.cosmos.implementation.Configs?alt=com.azure.cosmos.implementation.Configs&text=Configs\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.cosmos.BridgeInternal.extractContainerSelfLink(com.azure.cosmos.CosmosAsyncContainer)"
+  fullName: "com.azure.cosmos.BridgeInternal.extractContainerSelfLink(CosmosAsyncContainer container)"
+  name: "extractContainerSelfLink(CosmosAsyncContainer container)"
+  nameWithType: "BridgeInternal.extractContainerSelfLink(CosmosAsyncContainer container)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "container"
+    type: "<xref href=\"com.azure.cosmos.CosmosAsyncContainer?alt=com.azure.cosmos.CosmosAsyncContainer&text=CosmosAsyncContainer\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static String extractContainerSelfLink(CosmosAsyncContainer container)"
+  returns:
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.cosmos.BridgeInternal.fromServiceSerializedFormat(java.lang.String)"
+  fullName: "com.azure.cosmos.BridgeInternal.fromServiceSerializedFormat(String consistencyLevel)"
+  name: "fromServiceSerializedFormat(String consistencyLevel)"
+  nameWithType: "BridgeInternal.fromServiceSerializedFormat(String consistencyLevel)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "consistencyLevel"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static ConsistencyLevel fromServiceSerializedFormat(String consistencyLevel)"
+  returns:
+    type: "<xref href=\"com.azure.cosmos.ConsistencyLevel?alt=com.azure.cosmos.ConsistencyLevel&text=ConsistencyLevel\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.cosmos.BridgeInternal.getAltLink(com.azure.cosmos.implementation.Resource)"
+  fullName: "com.azure.cosmos.BridgeInternal.getAltLink(Resource resource)"
+  name: "getAltLink(Resource resource)"
+  nameWithType: "BridgeInternal.getAltLink(Resource resource)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "resource"
+    type: "<xref href=\"com.azure.cosmos.implementation.Resource?alt=com.azure.cosmos.implementation.Resource&text=Resource\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static String getAltLink(Resource resource)"
+  returns:
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.cosmos.BridgeInternal.getClientSideMetrics(com.azure.cosmos.implementation.QueryMetrics)"
+  fullName: "com.azure.cosmos.BridgeInternal.getClientSideMetrics(QueryMetrics queryMetrics)"
+  name: "getClientSideMetrics(QueryMetrics queryMetrics)"
+  nameWithType: "BridgeInternal.getClientSideMetrics(QueryMetrics queryMetrics)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "queryMetrics"
+    type: "<xref href=\"com.azure.cosmos.implementation.QueryMetrics?alt=com.azure.cosmos.implementation.QueryMetrics&text=QueryMetrics\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static ClientSideMetrics getClientSideMetrics(QueryMetrics queryMetrics)"
+  returns:
+    type: "<xref href=\"com.azure.cosmos.implementation.query.metrics.ClientSideMetrics?alt=com.azure.cosmos.implementation.query.metrics.ClientSideMetrics&text=ClientSideMetrics\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.cosmos.BridgeInternal.getClientSideRequestStatics(com.azure.cosmos.CosmosDiagnostics)"
+  fullName: "com.azure.cosmos.BridgeInternal.getClientSideRequestStatics(CosmosDiagnostics cosmosDiagnostics)"
+  name: "getClientSideRequestStatics(CosmosDiagnostics cosmosDiagnostics)"
+  nameWithType: "BridgeInternal.getClientSideRequestStatics(CosmosDiagnostics cosmosDiagnostics)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "cosmosDiagnostics"
+    type: "<xref href=\"com.azure.cosmos.CosmosDiagnostics?alt=com.azure.cosmos.CosmosDiagnostics&text=CosmosDiagnostics\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static ClientSideRequestStatistics getClientSideRequestStatics(CosmosDiagnostics cosmosDiagnostics)"
+  returns:
+    type: "<xref href=\"com.azure.cosmos.implementation.ClientSideRequestStatistics?alt=com.azure.cosmos.implementation.ClientSideRequestStatistics&text=ClientSideRequestStatistics\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.cosmos.BridgeInternal.getContactedReplicas(com.azure.cosmos.CosmosDiagnostics)"
+  fullName: "com.azure.cosmos.BridgeInternal.getContactedReplicas(CosmosDiagnostics cosmosDiagnostics)"
+  name: "getContactedReplicas(CosmosDiagnostics cosmosDiagnostics)"
+  nameWithType: "BridgeInternal.getContactedReplicas(CosmosDiagnostics cosmosDiagnostics)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "cosmosDiagnostics"
+    type: "<xref href=\"com.azure.cosmos.CosmosDiagnostics?alt=com.azure.cosmos.CosmosDiagnostics&text=CosmosDiagnostics\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static List<URI> getContactedReplicas(CosmosDiagnostics cosmosDiagnostics)"
+  returns:
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/net/URI.html\">URI</a>&gt;"
+- uid: "com.azure.cosmos.BridgeInternal.getContextClient(com.azure.cosmos.CosmosAsyncClient)"
+  fullName: "com.azure.cosmos.BridgeInternal.getContextClient(CosmosAsyncClient cosmosAsyncClient)"
+  name: "getContextClient(CosmosAsyncClient cosmosAsyncClient)"
+  nameWithType: "BridgeInternal.getContextClient(CosmosAsyncClient cosmosAsyncClient)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "cosmosAsyncClient"
+    type: "<xref href=\"com.azure.cosmos.CosmosAsyncClient?alt=com.azure.cosmos.CosmosAsyncClient&text=CosmosAsyncClient\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static AsyncDocumentClient getContextClient(CosmosAsyncClient cosmosAsyncClient)"
+  returns:
+    type: "<xref href=\"com.azure.cosmos.implementation.AsyncDocumentClient?alt=com.azure.cosmos.implementation.AsyncDocumentClient&text=AsyncDocumentClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.cosmos.BridgeInternal.getControlContainerFromThroughputGlobalControlConfig(com.azure.cosmos.GlobalThroughputControlConfig)"
+  fullName: "com.azure.cosmos.BridgeInternal.getControlContainerFromThroughputGlobalControlConfig(GlobalThroughputControlConfig globalControlConfig)"
+  name: "getControlContainerFromThroughputGlobalControlConfig(GlobalThroughputControlConfig globalControlConfig)"
+  nameWithType: "BridgeInternal.getControlContainerFromThroughputGlobalControlConfig(GlobalThroughputControlConfig globalControlConfig)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "globalControlConfig"
+    type: "<xref href=\"com.azure.cosmos.GlobalThroughputControlConfig?alt=com.azure.cosmos.GlobalThroughputControlConfig&text=GlobalThroughputControlConfig\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static CosmosAsyncContainer getControlContainerFromThroughputGlobalControlConfig(GlobalThroughputControlConfig globalControlConfig)"
+  returns:
+    type: "<xref href=\"com.azure.cosmos.CosmosAsyncContainer?alt=com.azure.cosmos.CosmosAsyncContainer&text=CosmosAsyncContainer\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.cosmos.BridgeInternal.getCosmosError(com.azure.cosmos.CosmosException)"
+  fullName: "com.azure.cosmos.BridgeInternal.getCosmosError(CosmosException cosmosException)"
+  name: "getCosmosError(CosmosException cosmosException)"
+  nameWithType: "BridgeInternal.getCosmosError(CosmosException cosmosException)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "cosmosException"
+    type: "<xref href=\"com.azure.cosmos.CosmosException?alt=com.azure.cosmos.CosmosException&text=CosmosException\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static CosmosError getCosmosError(CosmosException cosmosException)"
+  returns:
+    type: "<xref href=\"com.azure.cosmos.implementation.CosmosError?alt=com.azure.cosmos.implementation.CosmosError&text=CosmosError\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.cosmos.BridgeInternal.getFailedReplicas(com.azure.cosmos.CosmosDiagnostics)"
+  fullName: "com.azure.cosmos.BridgeInternal.getFailedReplicas(CosmosDiagnostics cosmosDiagnostics)"
+  name: "getFailedReplicas(CosmosDiagnostics cosmosDiagnostics)"
+  nameWithType: "BridgeInternal.getFailedReplicas(CosmosDiagnostics cosmosDiagnostics)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "cosmosDiagnostics"
+    type: "<xref href=\"com.azure.cosmos.CosmosDiagnostics?alt=com.azure.cosmos.CosmosDiagnostics&text=CosmosDiagnostics\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static Set<URI> getFailedReplicas(CosmosDiagnostics cosmosDiagnostics)"
+  returns:
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Set.html\">Set</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/net/URI.html\">URI</a>&gt;"
+- uid: "com.azure.cosmos.BridgeInternal.getInnerErrorMessage(com.azure.cosmos.CosmosException)"
+  fullName: "com.azure.cosmos.BridgeInternal.getInnerErrorMessage(CosmosException cosmosException)"
+  name: "getInnerErrorMessage(CosmosException cosmosException)"
+  nameWithType: "BridgeInternal.getInnerErrorMessage(CosmosException cosmosException)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "cosmosException"
+    type: "<xref href=\"com.azure.cosmos.CosmosException?alt=com.azure.cosmos.CosmosException&text=CosmosException\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static String getInnerErrorMessage(CosmosException cosmosException)"
+  returns:
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.cosmos.BridgeInternal.getLink(com.azure.cosmos.CosmosAsyncContainer)"
+  fullName: "com.azure.cosmos.BridgeInternal.getLink(CosmosAsyncContainer cosmosAsyncContainer)"
+  name: "getLink(CosmosAsyncContainer cosmosAsyncContainer)"
+  nameWithType: "BridgeInternal.getLink(CosmosAsyncContainer cosmosAsyncContainer)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "cosmosAsyncContainer"
+    type: "<xref href=\"com.azure.cosmos.CosmosAsyncContainer?alt=com.azure.cosmos.CosmosAsyncContainer&text=CosmosAsyncContainer\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static String getLink(CosmosAsyncContainer cosmosAsyncContainer)"
+  returns:
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.cosmos.BridgeInternal.getMetaDataDiagnosticContext(com.azure.cosmos.CosmosDiagnostics)"
+  fullName: "com.azure.cosmos.BridgeInternal.getMetaDataDiagnosticContext(CosmosDiagnostics cosmosDiagnostics)"
+  name: "getMetaDataDiagnosticContext(CosmosDiagnostics cosmosDiagnostics)"
+  nameWithType: "BridgeInternal.getMetaDataDiagnosticContext(CosmosDiagnostics cosmosDiagnostics)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "cosmosDiagnostics"
+    type: "<xref href=\"com.azure.cosmos.CosmosDiagnostics?alt=com.azure.cosmos.CosmosDiagnostics&text=CosmosDiagnostics\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static MetadataDiagnosticsContext getMetaDataDiagnosticContext(CosmosDiagnostics cosmosDiagnostics)"
+  returns:
+    type: "<xref href=\"com.azure.cosmos.implementation.MetadataDiagnosticsContext?alt=com.azure.cosmos.implementation.MetadataDiagnosticsContext&text=MetadataDiagnosticsContext\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.cosmos.BridgeInternal.getNetworkRequestTimeoutFromGatewayConnectionConfig(com.azure.cosmos.GatewayConnectionConfig)"
+  fullName: "com.azure.cosmos.BridgeInternal.getNetworkRequestTimeoutFromGatewayConnectionConfig(GatewayConnectionConfig gatewayConnectionConfig)"
+  name: "getNetworkRequestTimeoutFromGatewayConnectionConfig(GatewayConnectionConfig gatewayConnectionConfig)"
+  nameWithType: "BridgeInternal.getNetworkRequestTimeoutFromGatewayConnectionConfig(GatewayConnectionConfig gatewayConnectionConfig)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "gatewayConnectionConfig"
+    type: "<xref href=\"com.azure.cosmos.GatewayConnectionConfig?alt=com.azure.cosmos.GatewayConnectionConfig&text=GatewayConnectionConfig\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static Duration getNetworkRequestTimeoutFromGatewayConnectionConfig(GatewayConnectionConfig gatewayConnectionConfig)"
+  returns:
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html\">Duration</a>"
+- uid: "com.azure.cosmos.BridgeInternal.getOfferQuerySpecFromResourceId(com.azure.cosmos.CosmosAsyncContainer,java.lang.String)"
+  fullName: "com.azure.cosmos.BridgeInternal.getOfferQuerySpecFromResourceId(CosmosAsyncContainer container, String resourceId)"
+  name: "getOfferQuerySpecFromResourceId(CosmosAsyncContainer container, String resourceId)"
+  nameWithType: "BridgeInternal.getOfferQuerySpecFromResourceId(CosmosAsyncContainer container, String resourceId)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "container"
+    type: "<xref href=\"com.azure.cosmos.CosmosAsyncContainer?alt=com.azure.cosmos.CosmosAsyncContainer&text=CosmosAsyncContainer\" data-throw-if-not-resolved=\"False\" />"
+  - name: "resourceId"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static SqlQuerySpec getOfferQuerySpecFromResourceId(CosmosAsyncContainer container, String resourceId)"
+  returns:
+    type: "<xref href=\"com.azure.cosmos.models.SqlQuerySpec?alt=com.azure.cosmos.models.SqlQuerySpec&text=SqlQuerySpec\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.cosmos.BridgeInternal.getPartitionKey(com.azure.cosmos.implementation.routing.PartitionKeyInternal)"
+  fullName: "com.azure.cosmos.BridgeInternal.getPartitionKey(PartitionKeyInternal partitionKeyInternal)"
+  name: "getPartitionKey(PartitionKeyInternal partitionKeyInternal)"
+  nameWithType: "BridgeInternal.getPartitionKey(PartitionKeyInternal partitionKeyInternal)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "partitionKeyInternal"
+    type: "<xref href=\"com.azure.cosmos.implementation.routing.PartitionKeyInternal?alt=com.azure.cosmos.implementation.routing.PartitionKeyInternal&text=PartitionKeyInternal\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static PartitionKey getPartitionKey(PartitionKeyInternal partitionKeyInternal)"
+  returns:
+    type: "<xref href=\"com.azure.cosmos.models.PartitionKey?alt=com.azure.cosmos.models.PartitionKey&text=PartitionKey\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.cosmos.BridgeInternal.getPartitionKeyInternal(com.azure.cosmos.models.PartitionKey)"
+  fullName: "com.azure.cosmos.BridgeInternal.getPartitionKeyInternal(PartitionKey partitionKey)"
+  name: "getPartitionKeyInternal(PartitionKey partitionKey)"
+  nameWithType: "BridgeInternal.getPartitionKeyInternal(PartitionKey partitionKey)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "partitionKey"
+    type: "<xref href=\"com.azure.cosmos.models.PartitionKey?alt=com.azure.cosmos.models.PartitionKey&text=PartitionKey\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static PartitionKeyInternal getPartitionKeyInternal(PartitionKey partitionKey)"
+  returns:
+    type: "<xref href=\"com.azure.cosmos.implementation.routing.PartitionKeyInternal?alt=com.azure.cosmos.implementation.routing.PartitionKeyInternal&text=PartitionKeyInternal\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.cosmos.BridgeInternal.getRegionsContacted(com.azure.cosmos.CosmosDiagnostics)"
+  fullName: "com.azure.cosmos.BridgeInternal.getRegionsContacted(CosmosDiagnostics cosmosDiagnostics)"
+  name: "getRegionsContacted(CosmosDiagnostics cosmosDiagnostics)"
+  nameWithType: "BridgeInternal.getRegionsContacted(CosmosDiagnostics cosmosDiagnostics)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "cosmosDiagnostics"
+    type: "<xref href=\"com.azure.cosmos.CosmosDiagnostics?alt=com.azure.cosmos.CosmosDiagnostics&text=CosmosDiagnostics\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static Set<String> getRegionsContacted(CosmosDiagnostics cosmosDiagnostics)"
+  returns:
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Set.html\">Set</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+- uid: "com.azure.cosmos.BridgeInternal.getRetryContext(com.azure.cosmos.CosmosDiagnostics)"
+  fullName: "com.azure.cosmos.BridgeInternal.getRetryContext(CosmosDiagnostics cosmosDiagnostics)"
+  name: "getRetryContext(CosmosDiagnostics cosmosDiagnostics)"
+  nameWithType: "BridgeInternal.getRetryContext(CosmosDiagnostics cosmosDiagnostics)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "cosmosDiagnostics"
+    type: "<xref href=\"com.azure.cosmos.CosmosDiagnostics?alt=com.azure.cosmos.CosmosDiagnostics&text=CosmosDiagnostics\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static RetryContext getRetryContext(CosmosDiagnostics cosmosDiagnostics)"
+  returns:
+    type: "<xref href=\"com.azure.cosmos.implementation.RetryContext?alt=com.azure.cosmos.implementation.RetryContext&text=RetryContext\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.cosmos.BridgeInternal.getSerializationDiagnosticsContext(com.azure.cosmos.CosmosDiagnostics)"
+  fullName: "com.azure.cosmos.BridgeInternal.getSerializationDiagnosticsContext(CosmosDiagnostics cosmosDiagnostics)"
+  name: "getSerializationDiagnosticsContext(CosmosDiagnostics cosmosDiagnostics)"
+  nameWithType: "BridgeInternal.getSerializationDiagnosticsContext(CosmosDiagnostics cosmosDiagnostics)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "cosmosDiagnostics"
+    type: "<xref href=\"com.azure.cosmos.CosmosDiagnostics?alt=com.azure.cosmos.CosmosDiagnostics&text=CosmosDiagnostics\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static SerializationDiagnosticsContext getSerializationDiagnosticsContext(CosmosDiagnostics cosmosDiagnostics)"
+  returns:
+    type: "<xref href=\"com.azure.cosmos.implementation.SerializationDiagnosticsContext?alt=com.azure.cosmos.implementation.SerializationDiagnosticsContext&text=SerializationDiagnosticsContext\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.cosmos.BridgeInternal.getServiceEndpoint(com.azure.cosmos.CosmosAsyncClient)"
+  fullName: "com.azure.cosmos.BridgeInternal.getServiceEndpoint(CosmosAsyncClient cosmosAsyncClient)"
+  name: "getServiceEndpoint(CosmosAsyncClient cosmosAsyncClient)"
+  nameWithType: "BridgeInternal.getServiceEndpoint(CosmosAsyncClient cosmosAsyncClient)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "cosmosAsyncClient"
+    type: "<xref href=\"com.azure.cosmos.CosmosAsyncClient?alt=com.azure.cosmos.CosmosAsyncClient&text=CosmosAsyncClient\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static String getServiceEndpoint(CosmosAsyncClient cosmosAsyncClient)"
+  returns:
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.cosmos.BridgeInternal.initializeAllAccessors()"
+  fullName: "com.azure.cosmos.BridgeInternal.initializeAllAccessors()"
+  name: "initializeAllAccessors()"
+  nameWithType: "BridgeInternal.initializeAllAccessors()"
+  modifiers:
+  - "static"
+  syntax: "public static void initializeAllAccessors()"
+- uid: "com.azure.cosmos.BridgeInternal.injectConfigs(com.azure.cosmos.CosmosClientBuilder,com.azure.cosmos.implementation.Configs)"
+  fullName: "com.azure.cosmos.BridgeInternal.injectConfigs(CosmosClientBuilder cosmosClientBuilder, Configs configs)"
+  name: "injectConfigs(CosmosClientBuilder cosmosClientBuilder, Configs configs)"
+  nameWithType: "BridgeInternal.injectConfigs(CosmosClientBuilder cosmosClientBuilder, Configs configs)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "cosmosClientBuilder"
+    type: "<xref href=\"com.azure.cosmos.CosmosClientBuilder?alt=com.azure.cosmos.CosmosClientBuilder&text=CosmosClientBuilder\" data-throw-if-not-resolved=\"False\" />"
+  - name: "configs"
+    type: "<xref href=\"com.azure.cosmos.implementation.Configs?alt=com.azure.cosmos.implementation.Configs&text=Configs\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static CosmosClientBuilder injectConfigs(CosmosClientBuilder cosmosClientBuilder, Configs configs)"
+  returns:
+    type: "<xref href=\"com.azure.cosmos.CosmosClientBuilder?alt=com.azure.cosmos.CosmosClientBuilder&text=CosmosClientBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.cosmos.BridgeInternal.isEnableMultipleWriteLocations(com.azure.cosmos.implementation.DatabaseAccount)"
+  fullName: "com.azure.cosmos.BridgeInternal.isEnableMultipleWriteLocations(DatabaseAccount account)"
+  name: "isEnableMultipleWriteLocations(DatabaseAccount account)"
+  nameWithType: "BridgeInternal.isEnableMultipleWriteLocations(DatabaseAccount account)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "account"
+    type: "<xref href=\"com.azure.cosmos.implementation.DatabaseAccount?alt=com.azure.cosmos.implementation.DatabaseAccount&text=DatabaseAccount\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static boolean isEnableMultipleWriteLocations(DatabaseAccount account)"
+  returns:
+    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.cosmos.BridgeInternal.monitorTelemetry(io.micrometer.core.instrument.MeterRegistry)"
+  fullName: "com.azure.cosmos.BridgeInternal.monitorTelemetry(MeterRegistry registry)"
+  name: "monitorTelemetry(MeterRegistry registry)"
+  nameWithType: "BridgeInternal.monitorTelemetry(MeterRegistry registry)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "registry"
+    type: "<xref href=\"io.micrometer.core.instrument.MeterRegistry?alt=io.micrometer.core.instrument.MeterRegistry&text=MeterRegistry\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static void monitorTelemetry(MeterRegistry registry)"
+- uid: "com.azure.cosmos.BridgeInternal.recordAddressResolutionStart(com.azure.cosmos.CosmosDiagnostics,java.net.URI,boolean,boolean)"
+  fullName: "com.azure.cosmos.BridgeInternal.recordAddressResolutionStart(CosmosDiagnostics cosmosDiagnostics, URI targetEndpoint, boolean forceRefresh, boolean forceCollectionRoutingMapRefresh)"
+  name: "recordAddressResolutionStart(CosmosDiagnostics cosmosDiagnostics, URI targetEndpoint, boolean forceRefresh, boolean forceCollectionRoutingMapRefresh)"
+  nameWithType: "BridgeInternal.recordAddressResolutionStart(CosmosDiagnostics cosmosDiagnostics, URI targetEndpoint, boolean forceRefresh, boolean forceCollectionRoutingMapRefresh)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "cosmosDiagnostics"
+    type: "<xref href=\"com.azure.cosmos.CosmosDiagnostics?alt=com.azure.cosmos.CosmosDiagnostics&text=CosmosDiagnostics\" data-throw-if-not-resolved=\"False\" />"
+  - name: "targetEndpoint"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/net/URI.html\">URI</a>"
+  - name: "forceRefresh"
+    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
+  - name: "forceCollectionRoutingMapRefresh"
+    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static String recordAddressResolutionStart(CosmosDiagnostics cosmosDiagnostics, URI targetEndpoint, boolean forceRefresh, boolean forceCollectionRoutingMapRefresh)"
+  returns:
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.cosmos.BridgeInternal.recordGatewayResponse(com.azure.cosmos.CosmosDiagnostics,com.azure.cosmos.implementation.RxDocumentServiceRequest,com.azure.cosmos.CosmosException,com.azure.cosmos.implementation.GlobalEndpointManager)"
+  fullName: "com.azure.cosmos.BridgeInternal.recordGatewayResponse(CosmosDiagnostics cosmosDiagnostics, RxDocumentServiceRequest rxDocumentServiceRequest, CosmosException cosmosException, GlobalEndpointManager globalEndpointManager)"
+  name: "recordGatewayResponse(CosmosDiagnostics cosmosDiagnostics, RxDocumentServiceRequest rxDocumentServiceRequest, CosmosException cosmosException, GlobalEndpointManager globalEndpointManager)"
+  nameWithType: "BridgeInternal.recordGatewayResponse(CosmosDiagnostics cosmosDiagnostics, RxDocumentServiceRequest rxDocumentServiceRequest, CosmosException cosmosException, GlobalEndpointManager globalEndpointManager)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "cosmosDiagnostics"
+    type: "<xref href=\"com.azure.cosmos.CosmosDiagnostics?alt=com.azure.cosmos.CosmosDiagnostics&text=CosmosDiagnostics\" data-throw-if-not-resolved=\"False\" />"
+  - name: "rxDocumentServiceRequest"
+    type: "<xref href=\"com.azure.cosmos.implementation.RxDocumentServiceRequest?alt=com.azure.cosmos.implementation.RxDocumentServiceRequest&text=RxDocumentServiceRequest\" data-throw-if-not-resolved=\"False\" />"
+  - name: "cosmosException"
+    type: "<xref href=\"com.azure.cosmos.CosmosException?alt=com.azure.cosmos.CosmosException&text=CosmosException\" data-throw-if-not-resolved=\"False\" />"
+  - name: "globalEndpointManager"
+    type: "<xref href=\"com.azure.cosmos.implementation.GlobalEndpointManager?alt=com.azure.cosmos.implementation.GlobalEndpointManager&text=GlobalEndpointManager\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static void recordGatewayResponse(CosmosDiagnostics cosmosDiagnostics, RxDocumentServiceRequest rxDocumentServiceRequest, CosmosException cosmosException, GlobalEndpointManager globalEndpointManager)"
+- uid: "com.azure.cosmos.BridgeInternal.recordGatewayResponse(com.azure.cosmos.CosmosDiagnostics,com.azure.cosmos.implementation.RxDocumentServiceRequest,com.azure.cosmos.implementation.directconnectivity.StoreResponse,com.azure.cosmos.implementation.GlobalEndpointManager)"
+  fullName: "com.azure.cosmos.BridgeInternal.recordGatewayResponse(CosmosDiagnostics cosmosDiagnostics, RxDocumentServiceRequest rxDocumentServiceRequest, StoreResponse storeResponse, GlobalEndpointManager globalEndpointManager)"
+  name: "recordGatewayResponse(CosmosDiagnostics cosmosDiagnostics, RxDocumentServiceRequest rxDocumentServiceRequest, StoreResponse storeResponse, GlobalEndpointManager globalEndpointManager)"
+  nameWithType: "BridgeInternal.recordGatewayResponse(CosmosDiagnostics cosmosDiagnostics, RxDocumentServiceRequest rxDocumentServiceRequest, StoreResponse storeResponse, GlobalEndpointManager globalEndpointManager)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "cosmosDiagnostics"
+    type: "<xref href=\"com.azure.cosmos.CosmosDiagnostics?alt=com.azure.cosmos.CosmosDiagnostics&text=CosmosDiagnostics\" data-throw-if-not-resolved=\"False\" />"
+  - name: "rxDocumentServiceRequest"
+    type: "<xref href=\"com.azure.cosmos.implementation.RxDocumentServiceRequest?alt=com.azure.cosmos.implementation.RxDocumentServiceRequest&text=RxDocumentServiceRequest\" data-throw-if-not-resolved=\"False\" />"
+  - name: "storeResponse"
+    type: "<xref href=\"com.azure.cosmos.implementation.directconnectivity.StoreResponse?alt=com.azure.cosmos.implementation.directconnectivity.StoreResponse&text=StoreResponse\" data-throw-if-not-resolved=\"False\" />"
+  - name: "globalEndpointManager"
+    type: "<xref href=\"com.azure.cosmos.implementation.GlobalEndpointManager?alt=com.azure.cosmos.implementation.GlobalEndpointManager&text=GlobalEndpointManager\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static void recordGatewayResponse(CosmosDiagnostics cosmosDiagnostics, RxDocumentServiceRequest rxDocumentServiceRequest, StoreResponse storeResponse, GlobalEndpointManager globalEndpointManager)"
+- uid: "com.azure.cosmos.BridgeInternal.recordResponse(com.azure.cosmos.CosmosDiagnostics,com.azure.cosmos.implementation.RxDocumentServiceRequest,com.azure.cosmos.implementation.directconnectivity.StoreResult,com.azure.cosmos.implementation.GlobalEndpointManager)"
+  fullName: "com.azure.cosmos.BridgeInternal.recordResponse(CosmosDiagnostics cosmosDiagnostics, RxDocumentServiceRequest request, StoreResult storeResult, GlobalEndpointManager globalEndpointManager)"
+  name: "recordResponse(CosmosDiagnostics cosmosDiagnostics, RxDocumentServiceRequest request, StoreResult storeResult, GlobalEndpointManager globalEndpointManager)"
+  nameWithType: "BridgeInternal.recordResponse(CosmosDiagnostics cosmosDiagnostics, RxDocumentServiceRequest request, StoreResult storeResult, GlobalEndpointManager globalEndpointManager)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "cosmosDiagnostics"
+    type: "<xref href=\"com.azure.cosmos.CosmosDiagnostics?alt=com.azure.cosmos.CosmosDiagnostics&text=CosmosDiagnostics\" data-throw-if-not-resolved=\"False\" />"
+  - name: "request"
+    type: "<xref href=\"com.azure.cosmos.implementation.RxDocumentServiceRequest?alt=com.azure.cosmos.implementation.RxDocumentServiceRequest&text=RxDocumentServiceRequest\" data-throw-if-not-resolved=\"False\" />"
+  - name: "storeResult"
+    type: "<xref href=\"com.azure.cosmos.implementation.directconnectivity.StoreResult?alt=com.azure.cosmos.implementation.directconnectivity.StoreResult&text=StoreResult\" data-throw-if-not-resolved=\"False\" />"
+  - name: "globalEndpointManager"
+    type: "<xref href=\"com.azure.cosmos.implementation.GlobalEndpointManager?alt=com.azure.cosmos.implementation.GlobalEndpointManager&text=GlobalEndpointManager\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static void recordResponse(CosmosDiagnostics cosmosDiagnostics, RxDocumentServiceRequest request, StoreResult storeResult, GlobalEndpointManager globalEndpointManager)"
+- uid: "com.azure.cosmos.BridgeInternal.recordRetryContextEndTime(com.azure.cosmos.CosmosDiagnostics)"
+  fullName: "com.azure.cosmos.BridgeInternal.recordRetryContextEndTime(CosmosDiagnostics cosmosDiagnostics)"
+  name: "recordRetryContextEndTime(CosmosDiagnostics cosmosDiagnostics)"
+  nameWithType: "BridgeInternal.recordRetryContextEndTime(CosmosDiagnostics cosmosDiagnostics)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "cosmosDiagnostics"
+    type: "<xref href=\"com.azure.cosmos.CosmosDiagnostics?alt=com.azure.cosmos.CosmosDiagnostics&text=CosmosDiagnostics\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static void recordRetryContextEndTime(CosmosDiagnostics cosmosDiagnostics)"
+- uid: "com.azure.cosmos.BridgeInternal.setAltLink(com.azure.cosmos.implementation.Resource,java.lang.String)"
+  fullName: "com.azure.cosmos.BridgeInternal.setAltLink(Resource resource, String altLink)"
+  name: "setAltLink(Resource resource, String altLink)"
+  nameWithType: "BridgeInternal.setAltLink(Resource resource, String altLink)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "resource"
+    type: "<xref href=\"com.azure.cosmos.implementation.Resource?alt=com.azure.cosmos.implementation.Resource&text=Resource\" data-throw-if-not-resolved=\"False\" />"
+  - name: "altLink"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static void setAltLink(Resource resource, String altLink)"
+- uid: "com.azure.cosmos.BridgeInternal.setContactedReplicas(com.azure.cosmos.CosmosDiagnostics,java.util.List<java.net.URI>)"
+  fullName: "com.azure.cosmos.BridgeInternal.setContactedReplicas(CosmosDiagnostics cosmosDiagnostics, List<URI> contactedReplicas)"
+  name: "setContactedReplicas(CosmosDiagnostics cosmosDiagnostics, List<URI> contactedReplicas)"
+  nameWithType: "BridgeInternal.setContactedReplicas(CosmosDiagnostics cosmosDiagnostics, List<URI> contactedReplicas)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "cosmosDiagnostics"
+    type: "<xref href=\"com.azure.cosmos.CosmosDiagnostics?alt=com.azure.cosmos.CosmosDiagnostics&text=CosmosDiagnostics\" data-throw-if-not-resolved=\"False\" />"
+  - name: "contactedReplicas"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/net/URI.html\">URI</a>&gt;"
+  syntax: "public static void setContactedReplicas(CosmosDiagnostics cosmosDiagnostics, List<URI> contactedReplicas)"
+- uid: "com.azure.cosmos.BridgeInternal.setCosmosDiagnostics(com.azure.cosmos.CosmosException,com.azure.cosmos.CosmosDiagnostics)"
+  fullName: "com.azure.cosmos.BridgeInternal.setCosmosDiagnostics(CosmosException cosmosException, CosmosDiagnostics cosmosDiagnostics)"
+  name: "setCosmosDiagnostics(CosmosException cosmosException, CosmosDiagnostics cosmosDiagnostics)"
+  nameWithType: "BridgeInternal.setCosmosDiagnostics(CosmosException cosmosException, CosmosDiagnostics cosmosDiagnostics)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "cosmosException"
+    type: "<xref href=\"com.azure.cosmos.CosmosException?alt=com.azure.cosmos.CosmosException&text=CosmosException\" data-throw-if-not-resolved=\"False\" />"
+  - name: "cosmosDiagnostics"
+    type: "<xref href=\"com.azure.cosmos.CosmosDiagnostics?alt=com.azure.cosmos.CosmosDiagnostics&text=CosmosDiagnostics\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static CosmosException setCosmosDiagnostics(CosmosException cosmosException, CosmosDiagnostics cosmosDiagnostics)"
+  returns:
+    type: "<xref href=\"com.azure.cosmos.CosmosException?alt=com.azure.cosmos.CosmosException&text=CosmosException\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.cosmos.BridgeInternal.setFeedResponseDiagnostics(com.azure.cosmos.CosmosDiagnostics,java.util.concurrent.ConcurrentMap<java.lang.String,com.azure.cosmos.implementation.QueryMetrics>)"
+  fullName: "com.azure.cosmos.BridgeInternal.setFeedResponseDiagnostics(CosmosDiagnostics cosmosDiagnostics, ConcurrentMap<String,QueryMetrics> queryMetricsMap)"
+  name: "setFeedResponseDiagnostics(CosmosDiagnostics cosmosDiagnostics, ConcurrentMap<String,QueryMetrics> queryMetricsMap)"
+  nameWithType: "BridgeInternal.setFeedResponseDiagnostics(CosmosDiagnostics cosmosDiagnostics, ConcurrentMap<String,QueryMetrics> queryMetricsMap)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "cosmosDiagnostics"
+    type: "<xref href=\"com.azure.cosmos.CosmosDiagnostics?alt=com.azure.cosmos.CosmosDiagnostics&text=CosmosDiagnostics\" data-throw-if-not-resolved=\"False\" />"
+  - name: "queryMetricsMap"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/ConcurrentMap.html\">ConcurrentMap</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<xref href=\"com.azure.cosmos.implementation.QueryMetrics?alt=com.azure.cosmos.implementation.QueryMetrics&text=QueryMetrics\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public static void setFeedResponseDiagnostics(CosmosDiagnostics cosmosDiagnostics, ConcurrentMap<String,QueryMetrics> queryMetricsMap)"
+- uid: "com.azure.cosmos.BridgeInternal.setMaxReplicaSetSize(com.azure.cosmos.implementation.ReplicationPolicy,int)"
+  fullName: "com.azure.cosmos.BridgeInternal.setMaxReplicaSetSize(ReplicationPolicy replicationPolicy, int value)"
+  name: "setMaxReplicaSetSize(ReplicationPolicy replicationPolicy, int value)"
+  nameWithType: "BridgeInternal.setMaxReplicaSetSize(ReplicationPolicy replicationPolicy, int value)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "replicationPolicy"
+    type: "<xref href=\"com.azure.cosmos.implementation.ReplicationPolicy?alt=com.azure.cosmos.implementation.ReplicationPolicy&text=ReplicationPolicy\" data-throw-if-not-resolved=\"False\" />"
+  - name: "value"
+    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static void setMaxReplicaSetSize(ReplicationPolicy replicationPolicy, int value)"
+- uid: "com.azure.cosmos.BridgeInternal.setQueryPlanDiagnosticsContext(com.azure.cosmos.CosmosDiagnostics,com.azure.cosmos.implementation.query.QueryInfo.QueryPlanDiagnosticsContext)"
+  fullName: "com.azure.cosmos.BridgeInternal.setQueryPlanDiagnosticsContext(CosmosDiagnostics cosmosDiagnostics, QueryInfo.QueryPlanDiagnosticsContext diagnosticsContext)"
+  name: "setQueryPlanDiagnosticsContext(CosmosDiagnostics cosmosDiagnostics, QueryInfo.QueryPlanDiagnosticsContext diagnosticsContext)"
+  nameWithType: "BridgeInternal.setQueryPlanDiagnosticsContext(CosmosDiagnostics cosmosDiagnostics, QueryInfo.QueryPlanDiagnosticsContext diagnosticsContext)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "cosmosDiagnostics"
+    type: "<xref href=\"com.azure.cosmos.CosmosDiagnostics?alt=com.azure.cosmos.CosmosDiagnostics&text=CosmosDiagnostics\" data-throw-if-not-resolved=\"False\" />"
+  - name: "diagnosticsContext"
+    type: "<xref href=\"com.azure.cosmos.implementation.query.QueryInfo.QueryPlanDiagnosticsContext?alt=com.azure.cosmos.implementation.query.QueryInfo.QueryPlanDiagnosticsContext&text=QueryPlanDiagnosticsContext\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static void setQueryPlanDiagnosticsContext(CosmosDiagnostics cosmosDiagnostics, QueryInfo.QueryPlanDiagnosticsContext diagnosticsContext)"
+- uid: "com.azure.cosmos.BridgeInternal.setSubStatusCode(com.azure.cosmos.CosmosException,int)"
+  fullName: "com.azure.cosmos.BridgeInternal.setSubStatusCode(CosmosException documentClientException, int subStatusCode)"
+  name: "setSubStatusCode(CosmosException documentClientException, int subStatusCode)"
+  nameWithType: "BridgeInternal.setSubStatusCode(CosmosException documentClientException, int subStatusCode)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "documentClientException"
+    type: "<xref href=\"com.azure.cosmos.CosmosException?alt=com.azure.cosmos.CosmosException&text=CosmosException\" data-throw-if-not-resolved=\"False\" />"
+  - name: "subStatusCode"
+    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static void setSubStatusCode(CosmosException documentClientException, int subStatusCode)"
 - uid: "com.azure.cosmos.BridgeInternal.toStoredProcedureResponse(com.azure.cosmos.implementation.RxDocumentServiceResponse)"
   fullName: "com.azure.cosmos.BridgeInternal.toStoredProcedureResponse(RxDocumentServiceResponse response)"
   name: "toStoredProcedureResponse(RxDocumentServiceResponse response)"

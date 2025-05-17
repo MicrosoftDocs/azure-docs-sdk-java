@@ -126,18 +126,6 @@ methods:
   returns:
     description: "the location value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.managedapplications.models.ApplicationDefinition.lockingPolicy()"
-  fullName: "com.azure.resourcemanager.managedapplications.models.ApplicationDefinition.lockingPolicy()"
-  name: "lockingPolicy()"
-  nameWithType: "ApplicationDefinition.lockingPolicy()"
-  summary: "Gets the locking<wbr>Policy property: The managed application locking policy."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract ApplicationPackageLockingPolicyDefinition lockingPolicy()"
-  desc: "Gets the lockingPolicy property: The managed application locking policy."
-  returns:
-    description: "the lockingPolicy value."
-    type: "<xref href=\"com.azure.resourcemanager.managedapplications.models.ApplicationPackageLockingPolicyDefinition?alt=com.azure.resourcemanager.managedapplications.models.ApplicationPackageLockingPolicyDefinition&text=ApplicationPackageLockingPolicyDefinition\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managedapplications.models.ApplicationDefinition.lockLevel()"
   fullName: "com.azure.resourcemanager.managedapplications.models.ApplicationDefinition.lockLevel()"
   name: "lockLevel()"
@@ -150,6 +138,18 @@ methods:
   returns:
     description: "the lockLevel value."
     type: "<xref href=\"com.azure.resourcemanager.managedapplications.models.ApplicationLockLevel?alt=com.azure.resourcemanager.managedapplications.models.ApplicationLockLevel&text=ApplicationLockLevel\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managedapplications.models.ApplicationDefinition.lockingPolicy()"
+  fullName: "com.azure.resourcemanager.managedapplications.models.ApplicationDefinition.lockingPolicy()"
+  name: "lockingPolicy()"
+  nameWithType: "ApplicationDefinition.lockingPolicy()"
+  summary: "Gets the locking<wbr>Policy property: The managed application locking policy."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ApplicationPackageLockingPolicyDefinition lockingPolicy()"
+  desc: "Gets the lockingPolicy property: The managed application locking policy."
+  returns:
+    description: "the lockingPolicy value."
+    type: "<xref href=\"com.azure.resourcemanager.managedapplications.models.ApplicationPackageLockingPolicyDefinition?alt=com.azure.resourcemanager.managedapplications.models.ApplicationPackageLockingPolicyDefinition&text=ApplicationPackageLockingPolicyDefinition\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managedapplications.models.ApplicationDefinition.mainTemplate()"
   fullName: "com.azure.resourcemanager.managedapplications.models.ApplicationDefinition.mainTemplate()"
   name: "mainTemplate()"

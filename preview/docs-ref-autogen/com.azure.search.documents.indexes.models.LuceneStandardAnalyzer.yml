@@ -105,20 +105,6 @@ methods:
   returns:
     description: "the LuceneStandardAnalyzer object itself."
     type: "<xref href=\"com.azure.search.documents.indexes.models.LuceneStandardAnalyzer?alt=com.azure.search.documents.indexes.models.LuceneStandardAnalyzer&text=LuceneStandardAnalyzer\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.search.documents.indexes.models.LuceneStandardAnalyzer.setStopwords(java.util.List<java.lang.String>)"
-  fullName: "com.azure.search.documents.indexes.models.LuceneStandardAnalyzer.setStopwords(List<String> stopwords)"
-  name: "setStopwords(List<String> stopwords)"
-  nameWithType: "LuceneStandardAnalyzer.setStopwords(List<String> stopwords)"
-  summary: "Set the stopwords property: A list of stopwords."
-  parameters:
-  - description: "the stopwords value to set."
-    name: "stopwords"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-  syntax: "public LuceneStandardAnalyzer setStopwords(List<String> stopwords)"
-  desc: "Set the stopwords property: A list of stopwords."
-  returns:
-    description: "the LuceneStandardAnalyzer object itself."
-    type: "<xref href=\"com.azure.search.documents.indexes.models.LuceneStandardAnalyzer?alt=com.azure.search.documents.indexes.models.LuceneStandardAnalyzer&text=LuceneStandardAnalyzer\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.search.documents.indexes.models.LuceneStandardAnalyzer.setStopwords(java.lang.String...)"
   fullName: "com.azure.search.documents.indexes.models.LuceneStandardAnalyzer.setStopwords(String[] stopwords)"
   name: "setStopwords(String[] stopwords)"
@@ -129,6 +115,20 @@ methods:
     name: "stopwords"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>[]"
   syntax: "public LuceneStandardAnalyzer setStopwords(String[] stopwords)"
+  desc: "Set the stopwords property: A list of stopwords."
+  returns:
+    description: "the LuceneStandardAnalyzer object itself."
+    type: "<xref href=\"com.azure.search.documents.indexes.models.LuceneStandardAnalyzer?alt=com.azure.search.documents.indexes.models.LuceneStandardAnalyzer&text=LuceneStandardAnalyzer\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.search.documents.indexes.models.LuceneStandardAnalyzer.setStopwords(java.util.List<java.lang.String>)"
+  fullName: "com.azure.search.documents.indexes.models.LuceneStandardAnalyzer.setStopwords(List<String> stopwords)"
+  name: "setStopwords(List<String> stopwords)"
+  nameWithType: "LuceneStandardAnalyzer.setStopwords(List<String> stopwords)"
+  summary: "Set the stopwords property: A list of stopwords."
+  parameters:
+  - description: "the stopwords value to set."
+    name: "stopwords"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+  syntax: "public LuceneStandardAnalyzer setStopwords(List<String> stopwords)"
   desc: "Set the stopwords property: A list of stopwords."
   returns:
     description: "the LuceneStandardAnalyzer object itself."

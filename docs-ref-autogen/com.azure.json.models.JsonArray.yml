@@ -59,6 +59,20 @@ methods:
   returns:
     description: "The updated JsonArray object."
     type: "<xref href=\"com.azure.json.models.JsonArray?alt=com.azure.json.models.JsonArray&text=JsonArray\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.json.models.JsonArray.addElement(com.azure.json.models.JsonElement)"
+  fullName: "com.azure.json.models.JsonArray.addElement(JsonElement element)"
+  name: "addElement(JsonElement element)"
+  nameWithType: "JsonArray.addElement(JsonElement element)"
+  summary: "Adds a Json<wbr>Element to the JSON array."
+  parameters:
+  - description: "The JsonElement to add to the array."
+    name: "element"
+    type: "<xref href=\"com.azure.json.models.JsonElement?alt=com.azure.json.models.JsonElement&text=JsonElement\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonArray addElement(JsonElement element)"
+  desc: "Adds a JsonElement to the JSON array. This element will be appended to the end of the array."
+  returns:
+    description: "The updated JsonArray object."
+    type: "<xref href=\"com.azure.json.models.JsonArray?alt=com.azure.json.models.JsonArray&text=JsonArray\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.json.models.JsonArray.addElement(int,boolean)"
   fullName: "com.azure.json.models.JsonArray.addElement(int index, boolean element)"
   name: "addElement(int index, boolean element)"
@@ -124,20 +138,6 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public JsonArray addElement(int index, String element)"
   desc: "Adds a string element to the JSON array at the specified index. This element will be inserted at the specified index and all elements at or after the index will be shifted.\n\nIf the `element` is null this will be treated as a JSON null."
-  returns:
-    description: "The updated JsonArray object."
-    type: "<xref href=\"com.azure.json.models.JsonArray?alt=com.azure.json.models.JsonArray&text=JsonArray\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.json.models.JsonArray.addElement(com.azure.json.models.JsonElement)"
-  fullName: "com.azure.json.models.JsonArray.addElement(JsonElement element)"
-  name: "addElement(JsonElement element)"
-  nameWithType: "JsonArray.addElement(JsonElement element)"
-  summary: "Adds a Json<wbr>Element to the JSON array."
-  parameters:
-  - description: "The JsonElement to add to the array."
-    name: "element"
-    type: "<xref href=\"com.azure.json.models.JsonElement?alt=com.azure.json.models.JsonElement&text=JsonElement\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public JsonArray addElement(JsonElement element)"
-  desc: "Adds a JsonElement to the JSON array. This element will be appended to the end of the array."
   returns:
     description: "The updated JsonArray object."
     type: "<xref href=\"com.azure.json.models.JsonArray?alt=com.azure.json.models.JsonArray&text=JsonArray\" data-throw-if-not-resolved=\"False\" />"

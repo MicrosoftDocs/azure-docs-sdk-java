@@ -3,7 +3,7 @@ uid: "com.azure.ai.openai.models.ElasticsearchQueryType"
 fullName: "com.azure.ai.openai.models.ElasticsearchQueryType"
 name: "ElasticsearchQueryType"
 nameWithType: "ElasticsearchQueryType"
-summary: "The type of ElasticsearchÂ® retrieval query that should be executed when using it as an Azure OpenAI chat extension."
+summary: "The type of Elasticsearch® retrieval query that should be executed when using it as an Azure OpenAI chat extension."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
@@ -92,7 +92,7 @@ methods:
     description: "known ElasticsearchQueryType values."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.ai.openai.models.ElasticsearchQueryType?alt=com.azure.ai.openai.models.ElasticsearchQueryType&text=ElasticsearchQueryType\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "class"
-desc: "The type of ElasticsearchÂ® retrieval query that should be executed when using it as an Azure OpenAI chat extension."
+desc: "The type of Elasticsearch® retrieval query that should be executed when using it as an Azure OpenAI chat extension."
 metadata: {}
 package: "com.azure.ai.openai.models"
 artifact: com.azure:azure-ai-openai:1.0.0-beta.16

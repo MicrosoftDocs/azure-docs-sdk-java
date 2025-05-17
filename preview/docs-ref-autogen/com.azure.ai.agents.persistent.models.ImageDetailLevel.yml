@@ -54,14 +54,14 @@ fields:
   fullName: "com.azure.ai.agents.persistent.models.ImageDetailLevel.HIGH"
   name: "HIGH"
   nameWithType: "ImageDetailLevel.HIGH"
-  summary: "Use a higher detail level—potentially more resource-intensive."
+  summary: "Use a higher detail level\\\\u2014potentially more resource-intensive."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.ai.agents.persistent.models.ImageDetailLevel?alt=com.azure.ai.agents.persistent.models.ImageDetailLevel&text=ImageDetailLevel\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ImageDetailLevel HIGH"
-  desc: "Use a higher detail level—potentially more resource-intensive."
+  desc: "Use a higher detail level\\\\u2014potentially more resource-intensive."
 - uid: "com.azure.ai.agents.persistent.models.ImageDetailLevel.LOW"
   fullName: "com.azure.ai.agents.persistent.models.ImageDetailLevel.LOW"
   name: "LOW"

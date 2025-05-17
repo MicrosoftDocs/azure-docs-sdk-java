@@ -352,14 +352,6 @@ methods:
   returns:
     description: "the y value"
     type: "<xref href=\"byte?alt=byte&text=byte\" data-throw-if-not-resolved=\"False\" />[]"
-- uid: "com.azure.security.keyvault.keys.models.JsonWebKey.hashCode()"
-  fullName: "com.azure.security.keyvault.keys.models.JsonWebKey.hashCode()"
-  name: "hashCode()"
-  nameWithType: "JsonWebKey.hashCode()"
-  overridden: "java.lang.Object.hashCode()"
-  syntax: "public int hashCode()"
-  returns:
-    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.security.keyvault.keys.models.JsonWebKey.hasPrivateKey()"
   fullName: "com.azure.security.keyvault.keys.models.JsonWebKey.hasPrivateKey()"
   name: "hasPrivateKey()"
@@ -370,6 +362,14 @@ methods:
   returns:
     description: "true if the <xref uid=\"com.azure.security.keyvault.keys.models.JsonWebKey\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JsonWebKey\"></xref> has private key; false otherwise."
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.security.keyvault.keys.models.JsonWebKey.hashCode()"
+  fullName: "com.azure.security.keyvault.keys.models.JsonWebKey.hashCode()"
+  name: "hashCode()"
+  nameWithType: "JsonWebKey.hashCode()"
+  overridden: "java.lang.Object.hashCode()"
+  syntax: "public int hashCode()"
+  returns:
+    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.security.keyvault.keys.models.JsonWebKey.isValid()"
   fullName: "com.azure.security.keyvault.keys.models.JsonWebKey.isValid()"
   name: "isValid()"

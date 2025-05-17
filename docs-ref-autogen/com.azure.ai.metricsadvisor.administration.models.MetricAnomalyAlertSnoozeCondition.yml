@@ -74,13 +74,13 @@ methods:
   fullName: "com.azure.ai.metricsadvisor.administration.models.MetricAnomalyAlertSnoozeCondition.setAutoSnooze(Integer autoSnooze)"
   name: "setAutoSnooze(Integer autoSnooze)"
   nameWithType: "MetricAnomalyAlertSnoozeCondition.setAutoSnooze(Integer autoSnooze)"
-  summary: "Sets the value indicating the snooze point count, the value range is : \\[0, +∞)."
+  summary: "Sets the value indicating the snooze point count, the value range is : \\[0, +\\\\u221e)."
   parameters:
   - description: "the the snooze point count."
     name: "autoSnooze"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
   syntax: "public MetricAnomalyAlertSnoozeCondition setAutoSnooze(Integer autoSnooze)"
-  desc: "Sets the value indicating the snooze point count, the value range is : \\[0, +∞)."
+  desc: "Sets the value indicating the snooze point count, the value range is : \\[0, +\\\\u221e)."
   returns:
     description: "the MetricAnomalyAlertSnoozeCondition object itself."
     type: "<xref href=\"com.azure.ai.metricsadvisor.administration.models.MetricAnomalyAlertSnoozeCondition?alt=com.azure.ai.metricsadvisor.administration.models.MetricAnomalyAlertSnoozeCondition&text=MetricAnomalyAlertSnoozeCondition\" data-throw-if-not-resolved=\"False\" />"

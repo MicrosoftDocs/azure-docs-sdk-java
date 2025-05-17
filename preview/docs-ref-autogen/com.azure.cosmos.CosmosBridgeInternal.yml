@@ -22,6 +22,22 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **CosmosBridgeInternal**"
 methods:
+- uid: "com.azure.cosmos.CosmosBridgeInternal.<T>queryChangeFeedInternal(com.azure.cosmos.CosmosAsyncContainer,com.azure.cosmos.models.CosmosChangeFeedRequestOptions,com.azure.cosmos.implementation.query.Transformer<T>)"
+  fullName: "com.azure.cosmos.CosmosBridgeInternal.queryChangeFeedInternal(CosmosAsyncContainer container, CosmosChangeFeedRequestOptions changeFeedRequestOptions, Transformer<T> transformer)"
+  name: "queryChangeFeedInternal(CosmosAsyncContainer container, CosmosChangeFeedRequestOptions changeFeedRequestOptions, Transformer<T> transformer)"
+  nameWithType: "CosmosBridgeInternal.queryChangeFeedInternal(CosmosAsyncContainer container, CosmosChangeFeedRequestOptions changeFeedRequestOptions, Transformer<T> transformer)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "container"
+    type: "<xref href=\"com.azure.cosmos.CosmosAsyncContainer?alt=com.azure.cosmos.CosmosAsyncContainer&text=CosmosAsyncContainer\" data-throw-if-not-resolved=\"False\" />"
+  - name: "changeFeedRequestOptions"
+    type: "<xref href=\"com.azure.cosmos.models.CosmosChangeFeedRequestOptions?alt=com.azure.cosmos.models.CosmosChangeFeedRequestOptions&text=CosmosChangeFeedRequestOptions\" data-throw-if-not-resolved=\"False\" />"
+  - name: "transformer"
+    type: "<xref href=\"com.azure.cosmos.implementation.query.Transformer?alt=com.azure.cosmos.implementation.query.Transformer&text=Transformer\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public static CosmosPagedFlux<T> <T>queryChangeFeedInternal(CosmosAsyncContainer container, CosmosChangeFeedRequestOptions changeFeedRequestOptions, Transformer<T> transformer)"
+  returns:
+    type: "<xref href=\"com.azure.cosmos.util.CosmosPagedFlux?alt=com.azure.cosmos.util.CosmosPagedFlux&text=CosmosPagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.cosmos.CosmosBridgeInternal.cloneCosmosClientBuilder(com.azure.cosmos.CosmosClientBuilder)"
   fullName: "com.azure.cosmos.CosmosBridgeInternal.cloneCosmosClientBuilder(CosmosClientBuilder builder)"
   name: "cloneCosmosClientBuilder(CosmosClientBuilder builder)"
@@ -174,22 +190,6 @@ methods:
   syntax: "public static CosmosAsyncDatabase getCosmosDatabaseWithNewClient(CosmosAsyncDatabase cosmosDatabase, CosmosAsyncClient client)"
   returns:
     type: "<xref href=\"com.azure.cosmos.CosmosAsyncDatabase?alt=com.azure.cosmos.CosmosAsyncDatabase&text=CosmosAsyncDatabase\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.cosmos.CosmosBridgeInternal.<T>queryChangeFeedInternal(com.azure.cosmos.CosmosAsyncContainer,com.azure.cosmos.models.CosmosChangeFeedRequestOptions,com.azure.cosmos.implementation.query.Transformer<T>)"
-  fullName: "com.azure.cosmos.CosmosBridgeInternal.queryChangeFeedInternal(CosmosAsyncContainer container, CosmosChangeFeedRequestOptions changeFeedRequestOptions, Transformer<T> transformer)"
-  name: "queryChangeFeedInternal(CosmosAsyncContainer container, CosmosChangeFeedRequestOptions changeFeedRequestOptions, Transformer<T> transformer)"
-  nameWithType: "CosmosBridgeInternal.queryChangeFeedInternal(CosmosAsyncContainer container, CosmosChangeFeedRequestOptions changeFeedRequestOptions, Transformer<T> transformer)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "container"
-    type: "<xref href=\"com.azure.cosmos.CosmosAsyncContainer?alt=com.azure.cosmos.CosmosAsyncContainer&text=CosmosAsyncContainer\" data-throw-if-not-resolved=\"False\" />"
-  - name: "changeFeedRequestOptions"
-    type: "<xref href=\"com.azure.cosmos.models.CosmosChangeFeedRequestOptions?alt=com.azure.cosmos.models.CosmosChangeFeedRequestOptions&text=CosmosChangeFeedRequestOptions\" data-throw-if-not-resolved=\"False\" />"
-  - name: "transformer"
-    type: "<xref href=\"com.azure.cosmos.implementation.query.Transformer?alt=com.azure.cosmos.implementation.query.Transformer&text=Transformer\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public static CosmosPagedFlux<T> <T>queryChangeFeedInternal(CosmosAsyncContainer container, CosmosChangeFeedRequestOptions changeFeedRequestOptions, Transformer<T> transformer)"
-  returns:
-    type: "<xref href=\"com.azure.cosmos.util.CosmosPagedFlux?alt=com.azure.cosmos.util.CosmosPagedFlux&text=CosmosPagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "class"
 desc: "DO NOT USE. For internal use only by the SDK. These methods might break at any time. No support will be provided."
 metadata: {}

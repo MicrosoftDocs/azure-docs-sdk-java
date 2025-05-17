@@ -150,18 +150,6 @@ methods:
   returns:
     description: "the WebPubSubPrivateLinkResourcesClient object."
     type: "<xref href=\"com.azure.resourcemanager.webpubsub.fluent.WebPubSubPrivateLinkResourcesClient?alt=com.azure.resourcemanager.webpubsub.fluent.WebPubSubPrivateLinkResourcesClient&text=WebPubSubPrivateLinkResourcesClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.webpubsub.fluent.WebPubSubManagementClient.getWebPubSubReplicas()"
-  fullName: "com.azure.resourcemanager.webpubsub.fluent.WebPubSubManagementClient.getWebPubSubReplicas()"
-  name: "getWebPubSubReplicas()"
-  nameWithType: "WebPubSubManagementClient.getWebPubSubReplicas()"
-  summary: "Gets the Web<wbr>Pub<wbr>Sub<wbr>Replicas<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract WebPubSubReplicasClient getWebPubSubReplicas()"
-  desc: "Gets the WebPubSubReplicasClient object to access its operations."
-  returns:
-    description: "the WebPubSubReplicasClient object."
-    type: "<xref href=\"com.azure.resourcemanager.webpubsub.fluent.WebPubSubReplicasClient?alt=com.azure.resourcemanager.webpubsub.fluent.WebPubSubReplicasClient&text=WebPubSubReplicasClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.webpubsub.fluent.WebPubSubManagementClient.getWebPubSubReplicaSharedPrivateLinkResources()"
   fullName: "com.azure.resourcemanager.webpubsub.fluent.WebPubSubManagementClient.getWebPubSubReplicaSharedPrivateLinkResources()"
   name: "getWebPubSubReplicaSharedPrivateLinkResources()"
@@ -174,18 +162,18 @@ methods:
   returns:
     description: "the WebPubSubReplicaSharedPrivateLinkResourcesClient object."
     type: "<xref href=\"com.azure.resourcemanager.webpubsub.fluent.WebPubSubReplicaSharedPrivateLinkResourcesClient?alt=com.azure.resourcemanager.webpubsub.fluent.WebPubSubReplicaSharedPrivateLinkResourcesClient&text=WebPubSubReplicaSharedPrivateLinkResourcesClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.webpubsub.fluent.WebPubSubManagementClient.getWebPubSubs()"
-  fullName: "com.azure.resourcemanager.webpubsub.fluent.WebPubSubManagementClient.getWebPubSubs()"
-  name: "getWebPubSubs()"
-  nameWithType: "WebPubSubManagementClient.getWebPubSubs()"
-  summary: "Gets the Web<wbr>Pub<wbr>Subs<wbr>Client object to access its operations."
+- uid: "com.azure.resourcemanager.webpubsub.fluent.WebPubSubManagementClient.getWebPubSubReplicas()"
+  fullName: "com.azure.resourcemanager.webpubsub.fluent.WebPubSubManagementClient.getWebPubSubReplicas()"
+  name: "getWebPubSubReplicas()"
+  nameWithType: "WebPubSubManagementClient.getWebPubSubReplicas()"
+  summary: "Gets the Web<wbr>Pub<wbr>Sub<wbr>Replicas<wbr>Client object to access its operations."
   modifiers:
   - "abstract"
-  syntax: "public abstract WebPubSubsClient getWebPubSubs()"
-  desc: "Gets the WebPubSubsClient object to access its operations."
+  syntax: "public abstract WebPubSubReplicasClient getWebPubSubReplicas()"
+  desc: "Gets the WebPubSubReplicasClient object to access its operations."
   returns:
-    description: "the WebPubSubsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.webpubsub.fluent.WebPubSubsClient?alt=com.azure.resourcemanager.webpubsub.fluent.WebPubSubsClient&text=WebPubSubsClient\" data-throw-if-not-resolved=\"False\" />"
+    description: "the WebPubSubReplicasClient object."
+    type: "<xref href=\"com.azure.resourcemanager.webpubsub.fluent.WebPubSubReplicasClient?alt=com.azure.resourcemanager.webpubsub.fluent.WebPubSubReplicasClient&text=WebPubSubReplicasClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.webpubsub.fluent.WebPubSubManagementClient.getWebPubSubSharedPrivateLinkResources()"
   fullName: "com.azure.resourcemanager.webpubsub.fluent.WebPubSubManagementClient.getWebPubSubSharedPrivateLinkResources()"
   name: "getWebPubSubSharedPrivateLinkResources()"
@@ -198,6 +186,18 @@ methods:
   returns:
     description: "the WebPubSubSharedPrivateLinkResourcesClient object."
     type: "<xref href=\"com.azure.resourcemanager.webpubsub.fluent.WebPubSubSharedPrivateLinkResourcesClient?alt=com.azure.resourcemanager.webpubsub.fluent.WebPubSubSharedPrivateLinkResourcesClient&text=WebPubSubSharedPrivateLinkResourcesClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.webpubsub.fluent.WebPubSubManagementClient.getWebPubSubs()"
+  fullName: "com.azure.resourcemanager.webpubsub.fluent.WebPubSubManagementClient.getWebPubSubs()"
+  name: "getWebPubSubs()"
+  nameWithType: "WebPubSubManagementClient.getWebPubSubs()"
+  summary: "Gets the Web<wbr>Pub<wbr>Subs<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract WebPubSubsClient getWebPubSubs()"
+  desc: "Gets the WebPubSubsClient object to access its operations."
+  returns:
+    description: "the WebPubSubsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.webpubsub.fluent.WebPubSubsClient?alt=com.azure.resourcemanager.webpubsub.fluent.WebPubSubsClient&text=WebPubSubsClient\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 desc: "The interface for WebPubSubManagementClient class."
 metadata: {}

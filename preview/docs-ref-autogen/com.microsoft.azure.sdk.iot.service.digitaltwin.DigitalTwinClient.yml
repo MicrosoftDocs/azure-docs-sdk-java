@@ -21,22 +21,6 @@ inheritedClassMethods:
   - "<xref href=\"java.lang.Object.wait(long,int)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
 syntax: "public class **DigitalTwinClient**"
 methods:
-- uid: "com.microsoft.azure.sdk.iot.service.digitaltwin.DigitalTwinClient.createFromConnectionString(java.lang.String)"
-  fullName: "com.microsoft.azure.sdk.iot.service.digitaltwin.DigitalTwinClient.createFromConnectionString(String connectionString)"
-  name: "createFromConnectionString(String connectionString)"
-  nameWithType: "DigitalTwinClient.createFromConnectionString(String connectionString)"
-  summary: "Creates an implementation instance of <xref uid=\"com.microsoft.azure.sdk.iot.service.digitaltwin.generated.DigitalTwins\" data-throw-if-not-resolved=\"false\" data-raw-source=\"DigitalTwins\"></xref> that is used to invoke the Digital Twin features"
-  modifiers:
-  - "static"
-  parameters:
-  - description: "The IoTHub connection string"
-    name: "connectionString"
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static DigitalTwinClient createFromConnectionString(String connectionString)"
-  desc: "Creates an implementation instance of <xref uid=\"com.microsoft.azure.sdk.iot.service.digitaltwin.generated.DigitalTwins\" data-throw-if-not-resolved=\"false\" data-raw-source=\"DigitalTwins\"></xref> that is used to invoke the Digital Twin features"
-  returns:
-    description: "DigitalTwinClient"
-    type: "<xref href=\"com.microsoft.azure.sdk.iot.service.digitaltwin.DigitalTwinClient?alt=com.microsoft.azure.sdk.iot.service.digitaltwin.DigitalTwinClient&text=DigitalTwinClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.sdk.iot.service.digitaltwin.DigitalTwinClient.<T>getDigitalTwin(java.lang.String,java.lang.Class<T>)"
   fullName: "com.microsoft.azure.sdk.iot.service.digitaltwin.DigitalTwinClient.getDigitalTwin(String digitalTwinId, Class<T> clazz)"
   name: "getDigitalTwin(String digitalTwinId, Class<T> clazz)"
@@ -71,6 +55,22 @@ methods:
   returns:
     description: "A <xref uid=\"com.microsoft.rest.ServiceResponseWithHeaders\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ServiceResponseWithHeaders\"></xref> representing deserialized application/json of the digital twin with <xref uid=\"com.microsoft.azure.sdk.iot.service.digitaltwin.customized.DigitalTwinGetHeaders\" data-throw-if-not-resolved=\"false\" data-raw-source=\"DigitalTwinGetHeaders\"></xref>."
     type: "<xref href=\"com.microsoft.rest.ServiceResponseWithHeaders?alt=com.microsoft.rest.ServiceResponseWithHeaders&text=ServiceResponseWithHeaders\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />,<xref href=\"com.microsoft.azure.sdk.iot.service.digitaltwin.customized.DigitalTwinGetHeaders?alt=com.microsoft.azure.sdk.iot.service.digitaltwin.customized.DigitalTwinGetHeaders&text=DigitalTwinGetHeaders\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.microsoft.azure.sdk.iot.service.digitaltwin.DigitalTwinClient.createFromConnectionString(java.lang.String)"
+  fullName: "com.microsoft.azure.sdk.iot.service.digitaltwin.DigitalTwinClient.createFromConnectionString(String connectionString)"
+  name: "createFromConnectionString(String connectionString)"
+  nameWithType: "DigitalTwinClient.createFromConnectionString(String connectionString)"
+  summary: "Creates an implementation instance of <xref uid=\"com.microsoft.azure.sdk.iot.service.digitaltwin.generated.DigitalTwins\" data-throw-if-not-resolved=\"false\" data-raw-source=\"DigitalTwins\"></xref> that is used to invoke the Digital Twin features"
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The IoTHub connection string"
+    name: "connectionString"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static DigitalTwinClient createFromConnectionString(String connectionString)"
+  desc: "Creates an implementation instance of <xref uid=\"com.microsoft.azure.sdk.iot.service.digitaltwin.generated.DigitalTwins\" data-throw-if-not-resolved=\"false\" data-raw-source=\"DigitalTwins\"></xref> that is used to invoke the Digital Twin features"
+  returns:
+    description: "DigitalTwinClient"
+    type: "<xref href=\"com.microsoft.azure.sdk.iot.service.digitaltwin.DigitalTwinClient?alt=com.microsoft.azure.sdk.iot.service.digitaltwin.DigitalTwinClient&text=DigitalTwinClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.sdk.iot.service.digitaltwin.DigitalTwinClient.invokeCommand(java.lang.String,java.lang.String)"
   fullName: "com.microsoft.azure.sdk.iot.service.digitaltwin.DigitalTwinClient.invokeCommand(String digitalTwinId, String commandName)"
   name: "invokeCommand(String digitalTwinId, String commandName)"

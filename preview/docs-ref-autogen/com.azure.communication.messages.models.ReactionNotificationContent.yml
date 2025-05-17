@@ -74,9 +74,9 @@ methods:
   fullName: "com.azure.communication.messages.models.ReactionNotificationContent.getEmoji()"
   name: "getEmoji()"
   nameWithType: "ReactionNotificationContent.getEmoji()"
-  summary: "Get the emoji property: emoji content like 😀."
+  summary: "Get the emoji property: emoji content like \\\\ud83d\\\\ude00."
   syntax: "public String getEmoji()"
-  desc: "Get the emoji property: emoji content like 😀."
+  desc: "Get the emoji property: emoji content like \\\\ud83d\\\\ude00."
   returns:
     description: "the emoji value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"

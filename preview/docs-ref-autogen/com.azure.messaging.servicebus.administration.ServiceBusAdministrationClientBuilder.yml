@@ -120,6 +120,20 @@ methods:
   returns:
     description: "The updated <xref uid=\"com.azure.messaging.servicebus.administration.ServiceBusAdministrationClientBuilder\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ServiceBusAdministrationClientBuilder\"></xref> object."
     type: "<xref href=\"com.azure.messaging.servicebus.administration.ServiceBusAdministrationClientBuilder?alt=com.azure.messaging.servicebus.administration.ServiceBusAdministrationClientBuilder&text=ServiceBusAdministrationClientBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.messaging.servicebus.administration.ServiceBusAdministrationClientBuilder.credential(com.azure.core.credential.TokenCredential)"
+  fullName: "com.azure.messaging.servicebus.administration.ServiceBusAdministrationClientBuilder.credential(TokenCredential credential)"
+  name: "credential(TokenCredential credential)"
+  nameWithType: "ServiceBusAdministrationClientBuilder.credential(TokenCredential credential)"
+  summary: "Sets the <xref uid=\"com.azure.core.credential.TokenCredential\" data-throw-if-not-resolved=\"false\" data-raw-source=\"TokenCredential\"></xref> used to authorize requests sent to the service."
+  parameters:
+  - description: "<xref uid=\"com.azure.core.credential.TokenCredential\" data-throw-if-not-resolved=\"false\" data-raw-source=\"TokenCredential\"></xref> used to authorize requests sent to the service."
+    name: "credential"
+    type: "<xref href=\"com.azure.core.credential.TokenCredential?alt=com.azure.core.credential.TokenCredential&text=TokenCredential\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ServiceBusAdministrationClientBuilder credential(TokenCredential credential)"
+  desc: "Sets the <xref uid=\"com.azure.core.credential.TokenCredential\" data-throw-if-not-resolved=\"false\" data-raw-source=\"TokenCredential\"></xref> used to authorize requests sent to the service. Refer to the Azure SDK for Java [identity and authentication][] documentation for more details on proper usage of the <xref uid=\"com.azure.core.credential.TokenCredential\" data-throw-if-not-resolved=\"false\" data-raw-source=\"TokenCredential\"></xref> type.\n\n\n[identity and authentication]: https://aka.ms/azsdk/java/docs/identity"
+  returns:
+    description: "The updated <xref uid=\"com.azure.messaging.servicebus.administration.ServiceBusAdministrationClientBuilder\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ServiceBusAdministrationClientBuilder\"></xref> object."
+    type: "<xref href=\"com.azure.messaging.servicebus.administration.ServiceBusAdministrationClientBuilder?alt=com.azure.messaging.servicebus.administration.ServiceBusAdministrationClientBuilder&text=ServiceBusAdministrationClientBuilder\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.messaging.servicebus.administration.ServiceBusAdministrationClientBuilder.credential(java.lang.String,com.azure.core.credential.TokenCredential)"
   fullName: "com.azure.messaging.servicebus.administration.ServiceBusAdministrationClientBuilder.credential(String fullyQualifiedNamespace, TokenCredential credential)"
   name: "credential(String fullyQualifiedNamespace, TokenCredential credential)"
@@ -134,20 +148,6 @@ methods:
     type: "<xref href=\"com.azure.core.credential.TokenCredential?alt=com.azure.core.credential.TokenCredential&text=TokenCredential\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public ServiceBusAdministrationClientBuilder credential(String fullyQualifiedNamespace, TokenCredential credential)"
   desc: "Sets the credential used to authenticate HTTP requests to the Service Bus namespace."
-  returns:
-    description: "The updated <xref uid=\"com.azure.messaging.servicebus.administration.ServiceBusAdministrationClientBuilder\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ServiceBusAdministrationClientBuilder\"></xref> object."
-    type: "<xref href=\"com.azure.messaging.servicebus.administration.ServiceBusAdministrationClientBuilder?alt=com.azure.messaging.servicebus.administration.ServiceBusAdministrationClientBuilder&text=ServiceBusAdministrationClientBuilder\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.messaging.servicebus.administration.ServiceBusAdministrationClientBuilder.credential(com.azure.core.credential.TokenCredential)"
-  fullName: "com.azure.messaging.servicebus.administration.ServiceBusAdministrationClientBuilder.credential(TokenCredential credential)"
-  name: "credential(TokenCredential credential)"
-  nameWithType: "ServiceBusAdministrationClientBuilder.credential(TokenCredential credential)"
-  summary: "Sets the <xref uid=\"com.azure.core.credential.TokenCredential\" data-throw-if-not-resolved=\"false\" data-raw-source=\"TokenCredential\"></xref> used to authorize requests sent to the service."
-  parameters:
-  - description: "<xref uid=\"com.azure.core.credential.TokenCredential\" data-throw-if-not-resolved=\"false\" data-raw-source=\"TokenCredential\"></xref> used to authorize requests sent to the service."
-    name: "credential"
-    type: "<xref href=\"com.azure.core.credential.TokenCredential?alt=com.azure.core.credential.TokenCredential&text=TokenCredential\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public ServiceBusAdministrationClientBuilder credential(TokenCredential credential)"
-  desc: "Sets the <xref uid=\"com.azure.core.credential.TokenCredential\" data-throw-if-not-resolved=\"false\" data-raw-source=\"TokenCredential\"></xref> used to authorize requests sent to the service. Refer to the Azure SDK for Java [identity and authentication][] documentation for more details on proper usage of the <xref uid=\"com.azure.core.credential.TokenCredential\" data-throw-if-not-resolved=\"false\" data-raw-source=\"TokenCredential\"></xref> type.\n\n\n[identity and authentication]: https://aka.ms/azsdk/java/docs/identity"
   returns:
     description: "The updated <xref uid=\"com.azure.messaging.servicebus.administration.ServiceBusAdministrationClientBuilder\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ServiceBusAdministrationClientBuilder\"></xref> object."
     type: "<xref href=\"com.azure.messaging.servicebus.administration.ServiceBusAdministrationClientBuilder?alt=com.azure.messaging.servicebus.administration.ServiceBusAdministrationClientBuilder&text=ServiceBusAdministrationClientBuilder\" data-throw-if-not-resolved=\"False\" />"

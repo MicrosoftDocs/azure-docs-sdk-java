@@ -6,22 +6,6 @@ nameWithType: "PrivateDnsZoneGroup.UpdateStages.WithZoneConfigure"
 summary: "The stage of a update allowing to specify the private DNS zone configure."
 syntax: "public static interface **PrivateDnsZoneGroup.UpdateStages.WithZoneConfigure**"
 methods:
-- uid: "com.azure.resourcemanager.network.models.PrivateDnsZoneGroup.UpdateStages.WithZoneConfigure.withoutPrivateDnsZoneConfigure(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.models.PrivateDnsZoneGroup.UpdateStages.WithZoneConfigure.withoutPrivateDnsZoneConfigure(String name)"
-  name: "withoutPrivateDnsZoneConfigure(String name)"
-  nameWithType: "PrivateDnsZoneGroup.UpdateStages.WithZoneConfigure.withoutPrivateDnsZoneConfigure(String name)"
-  summary: "Removes the private DNS zone configure."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "the name of the configure"
-    name: "name"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public abstract PrivateDnsZoneGroup.Update withoutPrivateDnsZoneConfigure(String name)"
-  desc: "Removes the private DNS zone configure."
-  returns:
-    description: "the next stage of the update"
-    type: "<xref href=\"com.azure.resourcemanager.network.models.PrivateDnsZoneGroup.Update?alt=com.azure.resourcemanager.network.models.PrivateDnsZoneGroup.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.models.PrivateDnsZoneGroup.UpdateStages.WithZoneConfigure.withPrivateDnsZoneConfigure(java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.PrivateDnsZoneGroup.UpdateStages.WithZoneConfigure.withPrivateDnsZoneConfigure(String name, String privateDnsZoneId)"
   name: "withPrivateDnsZoneConfigure(String name, String privateDnsZoneId)"
@@ -38,6 +22,22 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PrivateDnsZoneGroup.Update withPrivateDnsZoneConfigure(String name, String privateDnsZoneId)"
   desc: "Specifies the private DNS zone configure."
+  returns:
+    description: "the next stage of the update"
+    type: "<xref href=\"com.azure.resourcemanager.network.models.PrivateDnsZoneGroup.Update?alt=com.azure.resourcemanager.network.models.PrivateDnsZoneGroup.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.models.PrivateDnsZoneGroup.UpdateStages.WithZoneConfigure.withoutPrivateDnsZoneConfigure(java.lang.String)"
+  fullName: "com.azure.resourcemanager.network.models.PrivateDnsZoneGroup.UpdateStages.WithZoneConfigure.withoutPrivateDnsZoneConfigure(String name)"
+  name: "withoutPrivateDnsZoneConfigure(String name)"
+  nameWithType: "PrivateDnsZoneGroup.UpdateStages.WithZoneConfigure.withoutPrivateDnsZoneConfigure(String name)"
+  summary: "Removes the private DNS zone configure."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "the name of the configure"
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract PrivateDnsZoneGroup.Update withoutPrivateDnsZoneConfigure(String name)"
+  desc: "Removes the private DNS zone configure."
   returns:
     description: "the next stage of the update"
     type: "<xref href=\"com.azure.resourcemanager.network.models.PrivateDnsZoneGroup.Update?alt=com.azure.resourcemanager.network.models.PrivateDnsZoneGroup.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"

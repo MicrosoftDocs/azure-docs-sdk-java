@@ -65,20 +65,6 @@ methods:
   returns:
     description: "The updated NettyAsyncHttpClientBuilder object."
     type: "<xref href=\"com.azure.core.http.netty.NettyAsyncHttpClientBuilder?alt=com.azure.core.http.netty.NettyAsyncHttpClientBuilder&text=NettyAsyncHttpClientBuilder\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.core.http.netty.NettyAsyncHttpClientBuilder.connectionProvider(reactor.netty.resources.ConnectionProvider)"
-  fullName: "com.azure.core.http.netty.NettyAsyncHttpClientBuilder.connectionProvider(ConnectionProvider connectionProvider)"
-  name: "connectionProvider(ConnectionProvider connectionProvider)"
-  nameWithType: "NettyAsyncHttpClientBuilder.connectionProvider(ConnectionProvider connectionProvider)"
-  summary: "Sets the connection provider."
-  parameters:
-  - description: "the connection provider"
-    name: "connectionProvider"
-    type: "<xref href=\"reactor.netty.resources.ConnectionProvider?alt=reactor.netty.resources.ConnectionProvider&text=ConnectionProvider\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public NettyAsyncHttpClientBuilder connectionProvider(ConnectionProvider connectionProvider)"
-  desc: "Sets the connection provider.\n\n**Code Sample**\n\n```java\n// The following creates a connection provider which will have each connection use the base name\n // 'myHttpConnection', has a limit of 500 concurrent connections in the connection pool, has no limit on the\n // number of connection requests that can be pending when all connections are in use, and removes a connection\n // from the pool if the connection isn't used for 60 seconds.\n ConnectionProvider connectionProvider = ConnectionProvider.builder(\"myHttpConnection\")\n     .maxConnections(500)\n     .pendingAcquireMaxCount(-1)\n     .maxIdleTime(Duration.ofSeconds(60))\n     .build();\n\n HttpClient client = new NettyAsyncHttpClientBuilder()\n     .connectionProvider(connectionProvider)\n     .build();\n```"
-  returns:
-    description: "the updated <xref uid=\"com.azure.core.http.netty.NettyAsyncHttpClientBuilder\" data-throw-if-not-resolved=\"false\" data-raw-source=\"NettyAsyncHttpClientBuilder\"></xref> object."
-    type: "<xref href=\"com.azure.core.http.netty.NettyAsyncHttpClientBuilder?alt=com.azure.core.http.netty.NettyAsyncHttpClientBuilder&text=NettyAsyncHttpClientBuilder\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.core.http.netty.NettyAsyncHttpClientBuilder.connectTimeout(java.time.Duration)"
   fullName: "com.azure.core.http.netty.NettyAsyncHttpClientBuilder.connectTimeout(Duration connectTimeout)"
   name: "connectTimeout(Duration connectTimeout)"
@@ -92,6 +78,20 @@ methods:
   desc: "Sets the connection timeout for a request to be sent.\n\nThe connection timeout begins once the request attempts to connect to the remote host and finishes once the connection is resolved.\n\nIf `connectTimeout` is null either <xref uid=\"com.azure.core.util.Configuration.PROPERTY_AZURE_REQUEST_CONNECT_TIMEOUT\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Configuration#PROPERTY_AZURE_REQUEST_CONNECT_TIMEOUT\"></xref> or a 10-second timeout will be used, if it is a <xref uid=\"java.time.Duration\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Duration\"></xref> less than or equal to zero then no timeout will be applied. When applying the timeout the greatest of one millisecond and the value of `connectTimeout` will be used.\n\nBy default, the connection timeout is 10 seconds."
   returns:
     description: "The updated <xref uid=\"com.azure.core.http.netty.NettyAsyncHttpClientBuilder\" data-throw-if-not-resolved=\"false\" data-raw-source=\"NettyAsyncHttpClientBuilder\"></xref> object."
+    type: "<xref href=\"com.azure.core.http.netty.NettyAsyncHttpClientBuilder?alt=com.azure.core.http.netty.NettyAsyncHttpClientBuilder&text=NettyAsyncHttpClientBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.core.http.netty.NettyAsyncHttpClientBuilder.connectionProvider(reactor.netty.resources.ConnectionProvider)"
+  fullName: "com.azure.core.http.netty.NettyAsyncHttpClientBuilder.connectionProvider(ConnectionProvider connectionProvider)"
+  name: "connectionProvider(ConnectionProvider connectionProvider)"
+  nameWithType: "NettyAsyncHttpClientBuilder.connectionProvider(ConnectionProvider connectionProvider)"
+  summary: "Sets the connection provider."
+  parameters:
+  - description: "the connection provider"
+    name: "connectionProvider"
+    type: "<xref href=\"reactor.netty.resources.ConnectionProvider?alt=reactor.netty.resources.ConnectionProvider&text=ConnectionProvider\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public NettyAsyncHttpClientBuilder connectionProvider(ConnectionProvider connectionProvider)"
+  desc: "Sets the connection provider.\n\n**Code Sample**\n\n```java\n// The following creates a connection provider which will have each connection use the base name\n // 'myHttpConnection', has a limit of 500 concurrent connections in the connection pool, has no limit on the\n // number of connection requests that can be pending when all connections are in use, and removes a connection\n // from the pool if the connection isn't used for 60 seconds.\n ConnectionProvider connectionProvider = ConnectionProvider.builder(\"myHttpConnection\")\n     .maxConnections(500)\n     .pendingAcquireMaxCount(-1)\n     .maxIdleTime(Duration.ofSeconds(60))\n     .build();\n\n HttpClient client = new NettyAsyncHttpClientBuilder()\n     .connectionProvider(connectionProvider)\n     .build();\n```"
+  returns:
+    description: "the updated <xref uid=\"com.azure.core.http.netty.NettyAsyncHttpClientBuilder\" data-throw-if-not-resolved=\"false\" data-raw-source=\"NettyAsyncHttpClientBuilder\"></xref> object."
     type: "<xref href=\"com.azure.core.http.netty.NettyAsyncHttpClientBuilder?alt=com.azure.core.http.netty.NettyAsyncHttpClientBuilder&text=NettyAsyncHttpClientBuilder\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.core.http.netty.NettyAsyncHttpClientBuilder.disableBufferCopy(boolean)"
   fullName: "com.azure.core.http.netty.NettyAsyncHttpClientBuilder.disableBufferCopy(boolean disableBufferCopy)"

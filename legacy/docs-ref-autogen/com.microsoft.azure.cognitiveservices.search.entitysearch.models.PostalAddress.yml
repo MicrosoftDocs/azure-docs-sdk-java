@@ -119,16 +119,6 @@ methods:
   returns:
     description: "the neighborhood value"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.microsoft.azure.cognitiveservices.search.entitysearch.models.PostalAddress.postalCode()"
-  fullName: "com.microsoft.azure.cognitiveservices.search.entitysearch.models.PostalAddress.postalCode()"
-  name: "postalCode()"
-  nameWithType: "PostalAddress.postalCode()"
-  summary: "Get the postal<wbr>Code value."
-  syntax: "public String postalCode()"
-  desc: "Get the postalCode value."
-  returns:
-    description: "the postalCode value"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.microsoft.azure.cognitiveservices.search.entitysearch.models.PostalAddress.postOfficeBoxNumber()"
   fullName: "com.microsoft.azure.cognitiveservices.search.entitysearch.models.PostalAddress.postOfficeBoxNumber()"
   name: "postOfficeBoxNumber()"
@@ -138,6 +128,16 @@ methods:
   desc: "Get the postOfficeBoxNumber value."
   returns:
     description: "the postOfficeBoxNumber value"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.microsoft.azure.cognitiveservices.search.entitysearch.models.PostalAddress.postalCode()"
+  fullName: "com.microsoft.azure.cognitiveservices.search.entitysearch.models.PostalAddress.postalCode()"
+  name: "postalCode()"
+  nameWithType: "PostalAddress.postalCode()"
+  summary: "Get the postal<wbr>Code value."
+  syntax: "public String postalCode()"
+  desc: "Get the postalCode value."
+  returns:
+    description: "the postalCode value"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.microsoft.azure.cognitiveservices.search.entitysearch.models.PostalAddress.streetAddress()"
   fullName: "com.microsoft.azure.cognitiveservices.search.entitysearch.models.PostalAddress.streetAddress()"

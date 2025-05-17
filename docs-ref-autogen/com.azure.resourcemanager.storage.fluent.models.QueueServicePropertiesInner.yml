@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.storage.fluent.models.QueueServicePropertiesInne
 fullName: "com.azure.resourcemanager.storage.fluent.models.QueueServicePropertiesInner"
 name: "QueueServicePropertiesInner"
 nameWithType: "QueueServicePropertiesInner"
-summary: "The properties of a storage account’s Queue service."
+summary: "The properties of a storage account\\\\u2019s Queue service."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.azure.core.management.ProxyResource?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
@@ -135,7 +135,7 @@ methods:
     description: "the QueueServicePropertiesInner object itself."
     type: "<xref href=\"com.azure.resourcemanager.storage.fluent.models.QueueServicePropertiesInner?alt=com.azure.resourcemanager.storage.fluent.models.QueueServicePropertiesInner&text=QueueServicePropertiesInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "The properties of a storage account’s Queue service."
+desc: "The properties of a storage account\\\\u2019s Queue service."
 metadata: {}
 package: "com.azure.resourcemanager.storage.fluent.models"
 artifact: com.azure.resourcemanager:azure-resourcemanager-storage:2.50.0

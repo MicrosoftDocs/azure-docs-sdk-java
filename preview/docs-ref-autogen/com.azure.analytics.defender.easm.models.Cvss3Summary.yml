@@ -82,16 +82,6 @@ methods:
   returns:
     description: "the confidentialityImpact value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.analytics.defender.easm.models.Cvss3Summary.getExploitabilityScore()"
-  fullName: "com.azure.analytics.defender.easm.models.Cvss3Summary.getExploitabilityScore()"
-  name: "getExploitabilityScore()"
-  nameWithType: "Cvss3Summary.getExploitabilityScore()"
-  summary: "Get the exploitability<wbr>Score property: The exploitability<wbr>Score property."
-  syntax: "public Double getExploitabilityScore()"
-  desc: "Get the exploitabilityScore property: The exploitabilityScore property."
-  returns:
-    description: "the exploitabilityScore value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Double.html\">Double</a>"
 - uid: "com.azure.analytics.defender.easm.models.Cvss3Summary.getExploitCodeMaturity()"
   fullName: "com.azure.analytics.defender.easm.models.Cvss3Summary.getExploitCodeMaturity()"
   name: "getExploitCodeMaturity()"
@@ -102,6 +92,16 @@ methods:
   returns:
     description: "the exploitCodeMaturity value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.analytics.defender.easm.models.Cvss3Summary.getExploitabilityScore()"
+  fullName: "com.azure.analytics.defender.easm.models.Cvss3Summary.getExploitabilityScore()"
+  name: "getExploitabilityScore()"
+  nameWithType: "Cvss3Summary.getExploitabilityScore()"
+  summary: "Get the exploitability<wbr>Score property: The exploitability<wbr>Score property."
+  syntax: "public Double getExploitabilityScore()"
+  desc: "Get the exploitabilityScore property: The exploitabilityScore property."
+  returns:
+    description: "the exploitabilityScore value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Double.html\">Double</a>"
 - uid: "com.azure.analytics.defender.easm.models.Cvss3Summary.getImpactScore()"
   fullName: "com.azure.analytics.defender.easm.models.Cvss3Summary.getImpactScore()"
   name: "getImpactScore()"

@@ -114,18 +114,6 @@ methods:
   returns:
     description: "the AssessmentsMetadatasClient object."
     type: "<xref href=\"com.azure.resourcemanager.security.fluent.AssessmentsMetadatasClient?alt=com.azure.resourcemanager.security.fluent.AssessmentsMetadatasClient&text=AssessmentsMetadatasClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.security.fluent.SecurityCenter.getAutomations()"
-  fullName: "com.azure.resourcemanager.security.fluent.SecurityCenter.getAutomations()"
-  name: "getAutomations()"
-  nameWithType: "SecurityCenter.getAutomations()"
-  summary: "Gets the Automations<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract AutomationsClient getAutomations()"
-  desc: "Gets the AutomationsClient object to access its operations."
-  returns:
-    description: "the AutomationsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.security.fluent.AutomationsClient?alt=com.azure.resourcemanager.security.fluent.AutomationsClient&text=AutomationsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.security.fluent.SecurityCenter.getAutoProvisioningSettings()"
   fullName: "com.azure.resourcemanager.security.fluent.SecurityCenter.getAutoProvisioningSettings()"
   name: "getAutoProvisioningSettings()"
@@ -138,6 +126,18 @@ methods:
   returns:
     description: "the AutoProvisioningSettingsClient object."
     type: "<xref href=\"com.azure.resourcemanager.security.fluent.AutoProvisioningSettingsClient?alt=com.azure.resourcemanager.security.fluent.AutoProvisioningSettingsClient&text=AutoProvisioningSettingsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.security.fluent.SecurityCenter.getAutomations()"
+  fullName: "com.azure.resourcemanager.security.fluent.SecurityCenter.getAutomations()"
+  name: "getAutomations()"
+  nameWithType: "SecurityCenter.getAutomations()"
+  summary: "Gets the Automations<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract AutomationsClient getAutomations()"
+  desc: "Gets the AutomationsClient object to access its operations."
+  returns:
+    description: "the AutomationsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.security.fluent.AutomationsClient?alt=com.azure.resourcemanager.security.fluent.AutomationsClient&text=AutomationsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.security.fluent.SecurityCenter.getAzureDevOpsOrgs()"
   fullName: "com.azure.resourcemanager.security.fluent.SecurityCenter.getAzureDevOpsOrgs()"
   name: "getAzureDevOpsOrgs()"
@@ -270,18 +270,6 @@ methods:
   returns:
     description: "the DefenderForStoragesClient object."
     type: "<xref href=\"com.azure.resourcemanager.security.fluent.DefenderForStoragesClient?alt=com.azure.resourcemanager.security.fluent.DefenderForStoragesClient&text=DefenderForStoragesClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.security.fluent.SecurityCenter.getDeviceSecurityGroups()"
-  fullName: "com.azure.resourcemanager.security.fluent.SecurityCenter.getDeviceSecurityGroups()"
-  name: "getDeviceSecurityGroups()"
-  nameWithType: "SecurityCenter.getDeviceSecurityGroups()"
-  summary: "Gets the Device<wbr>Security<wbr>Groups<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract DeviceSecurityGroupsClient getDeviceSecurityGroups()"
-  desc: "Gets the DeviceSecurityGroupsClient object to access its operations."
-  returns:
-    description: "the DeviceSecurityGroupsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.security.fluent.DeviceSecurityGroupsClient?alt=com.azure.resourcemanager.security.fluent.DeviceSecurityGroupsClient&text=DeviceSecurityGroupsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.security.fluent.SecurityCenter.getDevOpsConfigurations()"
   fullName: "com.azure.resourcemanager.security.fluent.SecurityCenter.getDevOpsConfigurations()"
   name: "getDevOpsConfigurations()"
@@ -330,6 +318,18 @@ methods:
   returns:
     description: "the DevOpsPolicyAssignmentsClient object."
     type: "<xref href=\"com.azure.resourcemanager.security.fluent.DevOpsPolicyAssignmentsClient?alt=com.azure.resourcemanager.security.fluent.DevOpsPolicyAssignmentsClient&text=DevOpsPolicyAssignmentsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.security.fluent.SecurityCenter.getDeviceSecurityGroups()"
+  fullName: "com.azure.resourcemanager.security.fluent.SecurityCenter.getDeviceSecurityGroups()"
+  name: "getDeviceSecurityGroups()"
+  nameWithType: "SecurityCenter.getDeviceSecurityGroups()"
+  summary: "Gets the Device<wbr>Security<wbr>Groups<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract DeviceSecurityGroupsClient getDeviceSecurityGroups()"
+  desc: "Gets the DeviceSecurityGroupsClient object to access its operations."
+  returns:
+    description: "the DeviceSecurityGroupsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.security.fluent.DeviceSecurityGroupsClient?alt=com.azure.resourcemanager.security.fluent.DeviceSecurityGroupsClient&text=DeviceSecurityGroupsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.security.fluent.SecurityCenter.getDiscoveredSecuritySolutions()"
   fullName: "com.azure.resourcemanager.security.fluent.SecurityCenter.getDiscoveredSecuritySolutions()"
   name: "getDiscoveredSecuritySolutions()"

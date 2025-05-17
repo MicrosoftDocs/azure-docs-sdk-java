@@ -200,20 +200,6 @@ methods:
   returns:
     description: "the PineconeChatExtensionParameters object itself."
     type: "<xref href=\"com.azure.ai.openai.models.PineconeChatExtensionParameters?alt=com.azure.ai.openai.models.PineconeChatExtensionParameters&text=PineconeChatExtensionParameters\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.ai.openai.models.PineconeChatExtensionParameters.setIncludeContexts(java.util.List<com.azure.ai.openai.models.OnYourDataContextProperty>)"
-  fullName: "com.azure.ai.openai.models.PineconeChatExtensionParameters.setIncludeContexts(List<OnYourDataContextProperty> includeContexts)"
-  name: "setIncludeContexts(List<OnYourDataContextProperty> includeContexts)"
-  nameWithType: "PineconeChatExtensionParameters.setIncludeContexts(List<OnYourDataContextProperty> includeContexts)"
-  summary: "Set the include<wbr>Contexts property: The included properties of the output context."
-  parameters:
-  - description: "the includeContexts value to set."
-    name: "includeContexts"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.ai.openai.models.OnYourDataContextProperty?alt=com.azure.ai.openai.models.OnYourDataContextProperty&text=OnYourDataContextProperty\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public PineconeChatExtensionParameters setIncludeContexts(List<OnYourDataContextProperty> includeContexts)"
-  desc: "Set the includeContexts property: The included properties of the output context. If not specified, the default value is \\`citations\\` and \\`intent\\`."
-  returns:
-    description: "the PineconeChatExtensionParameters object itself."
-    type: "<xref href=\"com.azure.ai.openai.models.PineconeChatExtensionParameters?alt=com.azure.ai.openai.models.PineconeChatExtensionParameters&text=PineconeChatExtensionParameters\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.ai.openai.models.PineconeChatExtensionParameters.setInScope(java.lang.Boolean)"
   fullName: "com.azure.ai.openai.models.PineconeChatExtensionParameters.setInScope(Boolean inScope)"
   name: "setInScope(Boolean inScope)"
@@ -225,6 +211,20 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
   syntax: "public PineconeChatExtensionParameters setInScope(Boolean inScope)"
   desc: "Set the inScope property: Whether queries should be restricted to use of indexed data."
+  returns:
+    description: "the PineconeChatExtensionParameters object itself."
+    type: "<xref href=\"com.azure.ai.openai.models.PineconeChatExtensionParameters?alt=com.azure.ai.openai.models.PineconeChatExtensionParameters&text=PineconeChatExtensionParameters\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.openai.models.PineconeChatExtensionParameters.setIncludeContexts(java.util.List<com.azure.ai.openai.models.OnYourDataContextProperty>)"
+  fullName: "com.azure.ai.openai.models.PineconeChatExtensionParameters.setIncludeContexts(List<OnYourDataContextProperty> includeContexts)"
+  name: "setIncludeContexts(List<OnYourDataContextProperty> includeContexts)"
+  nameWithType: "PineconeChatExtensionParameters.setIncludeContexts(List<OnYourDataContextProperty> includeContexts)"
+  summary: "Set the include<wbr>Contexts property: The included properties of the output context."
+  parameters:
+  - description: "the includeContexts value to set."
+    name: "includeContexts"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.ai.openai.models.OnYourDataContextProperty?alt=com.azure.ai.openai.models.OnYourDataContextProperty&text=OnYourDataContextProperty\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public PineconeChatExtensionParameters setIncludeContexts(List<OnYourDataContextProperty> includeContexts)"
+  desc: "Set the includeContexts property: The included properties of the output context. If not specified, the default value is \\`citations\\` and \\`intent\\`."
   returns:
     description: "the PineconeChatExtensionParameters object itself."
     type: "<xref href=\"com.azure.ai.openai.models.PineconeChatExtensionParameters?alt=com.azure.ai.openai.models.PineconeChatExtensionParameters&text=PineconeChatExtensionParameters\" data-throw-if-not-resolved=\"False\" />"

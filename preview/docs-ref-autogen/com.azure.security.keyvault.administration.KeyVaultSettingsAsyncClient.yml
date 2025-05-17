@@ -36,6 +36,20 @@ methods:
   returns:
     description: "A <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref> containing the <xref uid=\"com.azure.security.keyvault.administration.models.KeyVaultSetting\" data-throw-if-not-resolved=\"false\" data-raw-source=\"account setting\"></xref>."
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.security.keyvault.administration.models.KeyVaultSetting?alt=com.azure.security.keyvault.administration.models.KeyVaultSetting&text=KeyVaultSetting\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.security.keyvault.administration.KeyVaultSettingsAsyncClient.getSettingWithResponse(java.lang.String)"
+  fullName: "com.azure.security.keyvault.administration.KeyVaultSettingsAsyncClient.getSettingWithResponse(String name)"
+  name: "getSettingWithResponse(String name)"
+  nameWithType: "KeyVaultSettingsAsyncClient.getSettingWithResponse(String name)"
+  summary: "Get the value of a specific account setting."
+  parameters:
+  - description: "The name of setting to retrieve the value of."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public Mono<Response<KeyVaultSetting>> getSettingWithResponse(String name)"
+  desc: "Get the value of a specific account setting.\n\n**Code Samples**\n\nRetrieves a specific <xref uid=\"com.azure.security.keyvault.administration.models.KeyVaultSetting\" data-throw-if-not-resolved=\"false\" data-raw-source=\"setting\"></xref>. Prints out the details of the <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HTTP response\"></xref> and the retrieved <xref uid=\"com.azure.security.keyvault.administration.models.KeyVaultSetting\" data-throw-if-not-resolved=\"false\" data-raw-source=\"setting\"></xref>.\n\n```java\nkeyVaultSettingsAsyncClient.getSettingWithResponse(settingName)\n     .subscribe(response ->\n         System.out.printf(\"Response successful with status code: %d. Retrieved setting '%s' with value '%s'.%n\",\n             response.getStatusCode(), response.getValue().getName(), response.getValue().asBoolean()));\n```"
+  returns:
+    description: "A <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref> containing a <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref> whose <xref uid=\"com.azure.core.http.rest.Response.getValue*\" data-throw-if-not-resolved=\"false\" data-raw-source=\"value\"></xref> contains the\n <xref uid=\"com.azure.security.keyvault.administration.models.KeyVaultSetting\" data-throw-if-not-resolved=\"false\" data-raw-source=\"account setting\"></xref>."
+    type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.security.keyvault.administration.models.KeyVaultSetting?alt=com.azure.security.keyvault.administration.models.KeyVaultSetting&text=KeyVaultSetting\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
 - uid: "com.azure.security.keyvault.administration.KeyVaultSettingsAsyncClient.getSettings()"
   fullName: "com.azure.security.keyvault.administration.KeyVaultSettingsAsyncClient.getSettings()"
   name: "getSettings()"
@@ -56,20 +70,6 @@ methods:
   returns:
     description: "A <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref> containing a <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref> whose <xref uid=\"com.azure.core.http.rest.Response.getValue*\" data-throw-if-not-resolved=\"false\" data-raw-source=\"value\"></xref> contains a\n <xref uid=\"com.azure.security.keyvault.administration.models.KeyVaultGetSettingsResult\" data-throw-if-not-resolved=\"false\" data-raw-source=\"result object\"></xref> wrapping the list of <xref uid=\"com.azure.security.keyvault.administration.models.KeyVaultSetting\" data-throw-if-not-resolved=\"false\" data-raw-source=\"account settings\"></xref>."
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.security.keyvault.administration.models.KeyVaultGetSettingsResult?alt=com.azure.security.keyvault.administration.models.KeyVaultGetSettingsResult&text=KeyVaultGetSettingsResult\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
-- uid: "com.azure.security.keyvault.administration.KeyVaultSettingsAsyncClient.getSettingWithResponse(java.lang.String)"
-  fullName: "com.azure.security.keyvault.administration.KeyVaultSettingsAsyncClient.getSettingWithResponse(String name)"
-  name: "getSettingWithResponse(String name)"
-  nameWithType: "KeyVaultSettingsAsyncClient.getSettingWithResponse(String name)"
-  summary: "Get the value of a specific account setting."
-  parameters:
-  - description: "The name of setting to retrieve the value of."
-    name: "name"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public Mono<Response<KeyVaultSetting>> getSettingWithResponse(String name)"
-  desc: "Get the value of a specific account setting.\n\n**Code Samples**\n\nRetrieves a specific <xref uid=\"com.azure.security.keyvault.administration.models.KeyVaultSetting\" data-throw-if-not-resolved=\"false\" data-raw-source=\"setting\"></xref>. Prints out the details of the <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HTTP response\"></xref> and the retrieved <xref uid=\"com.azure.security.keyvault.administration.models.KeyVaultSetting\" data-throw-if-not-resolved=\"false\" data-raw-source=\"setting\"></xref>.\n\n```java\nkeyVaultSettingsAsyncClient.getSettingWithResponse(settingName)\n     .subscribe(response ->\n         System.out.printf(\"Response successful with status code: %d. Retrieved setting '%s' with value '%s'.%n\",\n             response.getStatusCode(), response.getValue().getName(), response.getValue().asBoolean()));\n```"
-  returns:
-    description: "A <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref> containing a <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref> whose <xref uid=\"com.azure.core.http.rest.Response.getValue*\" data-throw-if-not-resolved=\"false\" data-raw-source=\"value\"></xref> contains the\n <xref uid=\"com.azure.security.keyvault.administration.models.KeyVaultSetting\" data-throw-if-not-resolved=\"false\" data-raw-source=\"account setting\"></xref>."
-    type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.security.keyvault.administration.models.KeyVaultSetting?alt=com.azure.security.keyvault.administration.models.KeyVaultSetting&text=KeyVaultSetting\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
 - uid: "com.azure.security.keyvault.administration.KeyVaultSettingsAsyncClient.updateSetting(com.azure.security.keyvault.administration.models.KeyVaultSetting)"
   fullName: "com.azure.security.keyvault.administration.KeyVaultSettingsAsyncClient.updateSetting(KeyVaultSetting setting)"
   name: "updateSetting(KeyVaultSetting setting)"

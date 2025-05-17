@@ -66,18 +66,6 @@ methods:
   returns:
     description: "the provisioningState value."
     type: "<xref href=\"com.azure.resourcemanager.quota.models.RequestState?alt=com.azure.resourcemanager.quota.models.RequestState&text=RequestState\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.quota.models.QuotaAllocationRequestStatus.requestedResource()"
-  fullName: "com.azure.resourcemanager.quota.models.QuotaAllocationRequestStatus.requestedResource()"
-  name: "requestedResource()"
-  nameWithType: "QuotaAllocationRequestStatus.requestedResource()"
-  summary: "Gets the requested<wbr>Resource property: The new quota request allocated to subscription."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract QuotaAllocationRequestBase requestedResource()"
-  desc: "Gets the requestedResource property: The new quota request allocated to subscription."
-  returns:
-    description: "the requestedResource value."
-    type: "<xref href=\"com.azure.resourcemanager.quota.models.QuotaAllocationRequestBase?alt=com.azure.resourcemanager.quota.models.QuotaAllocationRequestBase&text=QuotaAllocationRequestBase\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.quota.models.QuotaAllocationRequestStatus.requestSubmitTime()"
   fullName: "com.azure.resourcemanager.quota.models.QuotaAllocationRequestStatus.requestSubmitTime()"
   name: "requestSubmitTime()"
@@ -90,6 +78,18 @@ methods:
   returns:
     description: "the requestSubmitTime value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
+- uid: "com.azure.resourcemanager.quota.models.QuotaAllocationRequestStatus.requestedResource()"
+  fullName: "com.azure.resourcemanager.quota.models.QuotaAllocationRequestStatus.requestedResource()"
+  name: "requestedResource()"
+  nameWithType: "QuotaAllocationRequestStatus.requestedResource()"
+  summary: "Gets the requested<wbr>Resource property: The new quota request allocated to subscription."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract QuotaAllocationRequestBase requestedResource()"
+  desc: "Gets the requestedResource property: The new quota request allocated to subscription."
+  returns:
+    description: "the requestedResource value."
+    type: "<xref href=\"com.azure.resourcemanager.quota.models.QuotaAllocationRequestBase?alt=com.azure.resourcemanager.quota.models.QuotaAllocationRequestBase&text=QuotaAllocationRequestBase\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.quota.models.QuotaAllocationRequestStatus.systemData()"
   fullName: "com.azure.resourcemanager.quota.models.QuotaAllocationRequestStatus.systemData()"
   name: "systemData()"

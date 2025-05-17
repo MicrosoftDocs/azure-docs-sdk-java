@@ -70,16 +70,6 @@ methods:
   returns:
     description: "the copyLogDetails value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.databox.models.CopyLogDetails?alt=com.azure.resourcemanager.databox.models.CopyLogDetails&text=CopyLogDetails\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.resourcemanager.databox.models.JobDetails.datacenterAddress()"
-  fullName: "com.azure.resourcemanager.databox.models.JobDetails.datacenterAddress()"
-  name: "datacenterAddress()"
-  nameWithType: "JobDetails.datacenterAddress()"
-  summary: "Get the datacenter<wbr>Address property: Datacenter address to ship to, for the given sku and storage location."
-  syntax: "public DatacenterAddressResponse datacenterAddress()"
-  desc: "Get the datacenterAddress property: Datacenter address to ship to, for the given sku and storage location."
-  returns:
-    description: "the datacenterAddress value."
-    type: "<xref href=\"com.azure.resourcemanager.databox.models.DatacenterAddressResponse?alt=com.azure.resourcemanager.databox.models.DatacenterAddressResponse&text=DatacenterAddressResponse\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.databox.models.JobDetails.dataCenterCode()"
   fullName: "com.azure.resourcemanager.databox.models.JobDetails.dataCenterCode()"
   name: "dataCenterCode()"
@@ -110,6 +100,16 @@ methods:
   returns:
     description: "the dataImportDetails value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.databox.models.DataImportDetails?alt=com.azure.resourcemanager.databox.models.DataImportDetails&text=DataImportDetails\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.databox.models.JobDetails.datacenterAddress()"
+  fullName: "com.azure.resourcemanager.databox.models.JobDetails.datacenterAddress()"
+  name: "datacenterAddress()"
+  nameWithType: "JobDetails.datacenterAddress()"
+  summary: "Get the datacenter<wbr>Address property: Datacenter address to ship to, for the given sku and storage location."
+  syntax: "public DatacenterAddressResponse datacenterAddress()"
+  desc: "Get the datacenterAddress property: Datacenter address to ship to, for the given sku and storage location."
+  returns:
+    description: "the datacenterAddress value."
+    type: "<xref href=\"com.azure.resourcemanager.databox.models.DatacenterAddressResponse?alt=com.azure.resourcemanager.databox.models.DatacenterAddressResponse&text=DatacenterAddressResponse\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.databox.models.JobDetails.deliveryPackage()"
   fullName: "com.azure.resourcemanager.databox.models.JobDetails.deliveryPackage()"
   name: "deliveryPackage()"

@@ -6,18 +6,6 @@ nameWithType: "BillingProfile"
 summary: "An immutable client-side representation of Billing<wbr>Profile."
 syntax: "public interface **BillingProfile**"
 methods:
-- uid: "com.azure.resourcemanager.billing.models.BillingProfile.billingRelationshipType()"
-  fullName: "com.azure.resourcemanager.billing.models.BillingProfile.billingRelationshipType()"
-  name: "billingRelationshipType()"
-  nameWithType: "BillingProfile.billingRelationshipType()"
-  summary: "Gets the billing<wbr>Relationship<wbr>Type property: Identifies which services and purchases are paid by a billing profile."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract BillingRelationshipType billingRelationshipType()"
-  desc: "Gets the billingRelationshipType property: Identifies which services and purchases are paid by a billing profile."
-  returns:
-    description: "the billingRelationshipType value."
-    type: "<xref href=\"com.azure.resourcemanager.billing.models.BillingRelationshipType?alt=com.azure.resourcemanager.billing.models.BillingRelationshipType&text=BillingRelationshipType\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.billing.models.BillingProfile.billTo()"
   fullName: "com.azure.resourcemanager.billing.models.BillingProfile.billTo()"
   name: "billTo()"
@@ -30,6 +18,18 @@ methods:
   returns:
     description: "the billTo value."
     type: "<xref href=\"com.azure.resourcemanager.billing.models.AddressDetails?alt=com.azure.resourcemanager.billing.models.AddressDetails&text=AddressDetails\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.billing.models.BillingProfile.billingRelationshipType()"
+  fullName: "com.azure.resourcemanager.billing.models.BillingProfile.billingRelationshipType()"
+  name: "billingRelationshipType()"
+  nameWithType: "BillingProfile.billingRelationshipType()"
+  summary: "Gets the billing<wbr>Relationship<wbr>Type property: Identifies which services and purchases are paid by a billing profile."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract BillingRelationshipType billingRelationshipType()"
+  desc: "Gets the billingRelationshipType property: Identifies which services and purchases are paid by a billing profile."
+  returns:
+    description: "the billingRelationshipType value."
+    type: "<xref href=\"com.azure.resourcemanager.billing.models.BillingRelationshipType?alt=com.azure.resourcemanager.billing.models.BillingRelationshipType&text=BillingRelationshipType\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.billing.models.BillingProfile.currency()"
   fullName: "com.azure.resourcemanager.billing.models.BillingProfile.currency()"
   name: "currency()"

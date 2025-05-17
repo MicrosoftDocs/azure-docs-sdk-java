@@ -54,18 +54,6 @@ methods:
   returns:
     description: "the id value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.databoxedge.models.UpdateSummary.innerModel()"
-  fullName: "com.azure.resourcemanager.databoxedge.models.UpdateSummary.innerModel()"
-  name: "innerModel()"
-  nameWithType: "UpdateSummary.innerModel()"
-  summary: "Gets the inner com.<wbr>azure.<wbr>resourcemanager.<wbr>databoxedge.<wbr>fluent.<wbr>models.<wbr>Update<wbr>Summary<wbr>Inner object."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract UpdateSummaryInner innerModel()"
-  desc: "Gets the inner com.azure.resourcemanager.databoxedge.fluent.models.UpdateSummaryInner object."
-  returns:
-    description: "the inner object."
-    type: "<xref href=\"com.azure.resourcemanager.databoxedge.fluent.models.UpdateSummaryInner?alt=com.azure.resourcemanager.databoxedge.fluent.models.UpdateSummaryInner&text=UpdateSummaryInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.databoxedge.models.UpdateSummary.inProgressDownloadJobId()"
   fullName: "com.azure.resourcemanager.databoxedge.models.UpdateSummary.inProgressDownloadJobId()"
   name: "inProgressDownloadJobId()"
@@ -114,6 +102,18 @@ methods:
   returns:
     description: "the inProgressInstallJobStartedDateTime value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
+- uid: "com.azure.resourcemanager.databoxedge.models.UpdateSummary.innerModel()"
+  fullName: "com.azure.resourcemanager.databoxedge.models.UpdateSummary.innerModel()"
+  name: "innerModel()"
+  nameWithType: "UpdateSummary.innerModel()"
+  summary: "Gets the inner com.<wbr>azure.<wbr>resourcemanager.<wbr>databoxedge.<wbr>fluent.<wbr>models.<wbr>Update<wbr>Summary<wbr>Inner object."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract UpdateSummaryInner innerModel()"
+  desc: "Gets the inner com.azure.resourcemanager.databoxedge.fluent.models.UpdateSummaryInner object."
+  returns:
+    description: "the inner object."
+    type: "<xref href=\"com.azure.resourcemanager.databoxedge.fluent.models.UpdateSummaryInner?alt=com.azure.resourcemanager.databoxedge.fluent.models.UpdateSummaryInner&text=UpdateSummaryInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.databoxedge.models.UpdateSummary.lastCompletedDownloadJobDateTime()"
   fullName: "com.azure.resourcemanager.databoxedge.models.UpdateSummary.lastCompletedDownloadJobDateTime()"
   name: "lastCompletedDownloadJobDateTime()"

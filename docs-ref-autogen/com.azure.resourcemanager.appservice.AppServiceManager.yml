@@ -41,25 +41,6 @@ methods:
   returns:
     description: "the app service plan management API entry point"
     type: "<xref href=\"com.azure.resourcemanager.appservice.models.AppServicePlans?alt=com.azure.resourcemanager.appservice.models.AppServicePlans&text=AppServicePlans\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.appservice.AppServiceManager.authenticate(com.azure.core.http.HttpPipeline,com.azure.core.management.profile.AzureProfile)"
-  fullName: "com.azure.resourcemanager.appservice.AppServiceManager.authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
-  name: "authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
-  nameWithType: "AppServiceManager.authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
-  summary: "Creates an instance of Storage<wbr>Manager that exposes storage resource management API entry points."
-  modifiers:
-  - "static"
-  parameters:
-  - description: "the <xref uid=\"com.azure.core.http.HttpPipeline\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HttpPipeline\"></xref> configured with Azure authentication credential."
-    name: "httpPipeline"
-    type: "<xref href=\"com.azure.core.http.HttpPipeline?alt=com.azure.core.http.HttpPipeline&text=HttpPipeline\" data-throw-if-not-resolved=\"False\" />"
-  - description: "the profile to use"
-    name: "profile"
-    type: "<xref href=\"com.azure.core.management.profile.AzureProfile?alt=com.azure.core.management.profile.AzureProfile&text=AzureProfile\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static AppServiceManager authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
-  desc: "Creates an instance of StorageManager that exposes storage resource management API entry points."
-  returns:
-    description: "the StorageManager"
-    type: "<xref href=\"com.azure.resourcemanager.appservice.AppServiceManager?alt=com.azure.resourcemanager.appservice.AppServiceManager&text=AppServiceManager\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.appservice.AppServiceManager.authenticate(com.azure.core.credential.TokenCredential,com.azure.core.management.profile.AzureProfile)"
   fullName: "com.azure.resourcemanager.appservice.AppServiceManager.authenticate(TokenCredential credential, AzureProfile profile)"
   name: "authenticate(TokenCredential credential, AzureProfile profile)"
@@ -75,6 +56,25 @@ methods:
     name: "profile"
     type: "<xref href=\"com.azure.core.management.profile.AzureProfile?alt=com.azure.core.management.profile.AzureProfile&text=AzureProfile\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static AppServiceManager authenticate(TokenCredential credential, AzureProfile profile)"
+  desc: "Creates an instance of StorageManager that exposes storage resource management API entry points."
+  returns:
+    description: "the StorageManager"
+    type: "<xref href=\"com.azure.resourcemanager.appservice.AppServiceManager?alt=com.azure.resourcemanager.appservice.AppServiceManager&text=AppServiceManager\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.appservice.AppServiceManager.authenticate(com.azure.core.http.HttpPipeline,com.azure.core.management.profile.AzureProfile)"
+  fullName: "com.azure.resourcemanager.appservice.AppServiceManager.authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
+  name: "authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
+  nameWithType: "AppServiceManager.authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
+  summary: "Creates an instance of Storage<wbr>Manager that exposes storage resource management API entry points."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "the <xref uid=\"com.azure.core.http.HttpPipeline\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HttpPipeline\"></xref> configured with Azure authentication credential."
+    name: "httpPipeline"
+    type: "<xref href=\"com.azure.core.http.HttpPipeline?alt=com.azure.core.http.HttpPipeline&text=HttpPipeline\" data-throw-if-not-resolved=\"False\" />"
+  - description: "the profile to use"
+    name: "profile"
+    type: "<xref href=\"com.azure.core.management.profile.AzureProfile?alt=com.azure.core.management.profile.AzureProfile&text=AzureProfile\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static AppServiceManager authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
   desc: "Creates an instance of StorageManager that exposes storage resource management API entry points."
   returns:
     description: "the StorageManager"

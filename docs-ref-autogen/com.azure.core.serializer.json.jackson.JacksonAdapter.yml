@@ -22,18 +22,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **JacksonAdapter**</br> implements <xref href=\"com.azure.core.util.serializer.SerializerAdapter?alt=com.azure.core.util.serializer.SerializerAdapter&text=SerializerAdapter\" data-throw-if-not-resolved=\"False\" />"
 methods:
-- uid: "com.azure.core.serializer.json.jackson.JacksonAdapter.defaultSerializerAdapter()"
-  fullName: "com.azure.core.serializer.json.jackson.JacksonAdapter.defaultSerializerAdapter()"
-  name: "defaultSerializerAdapter()"
-  nameWithType: "JacksonAdapter.defaultSerializerAdapter()"
-  summary: "maintain singleton instance of the default serializer adapter."
-  modifiers:
-  - "static"
-  syntax: "public static SerializerAdapter defaultSerializerAdapter()"
-  desc: "maintain singleton instance of the default serializer adapter."
-  returns:
-    description: "the default serializer"
-    type: "<xref href=\"com.azure.core.util.serializer.SerializerAdapter?alt=com.azure.core.util.serializer.SerializerAdapter&text=SerializerAdapter\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.core.serializer.json.jackson.JacksonAdapter.<T>deserialize(byte[],java.lang.reflect.Type,com.azure.core.util.serializer.SerializerEncoding)"
   fullName: "com.azure.core.serializer.json.jackson.JacksonAdapter.deserialize(byte[] bytes, Type type, SerializerEncoding encoding)"
   name: "deserialize(byte[] bytes, Type type, SerializerEncoding encoding)"
@@ -110,6 +98,18 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.core.serializer.json.jackson.JacksonAdapter.defaultSerializerAdapter()"
+  fullName: "com.azure.core.serializer.json.jackson.JacksonAdapter.defaultSerializerAdapter()"
+  name: "defaultSerializerAdapter()"
+  nameWithType: "JacksonAdapter.defaultSerializerAdapter()"
+  summary: "maintain singleton instance of the default serializer adapter."
+  modifiers:
+  - "static"
+  syntax: "public static SerializerAdapter defaultSerializerAdapter()"
+  desc: "maintain singleton instance of the default serializer adapter."
+  returns:
+    description: "the default serializer"
+    type: "<xref href=\"com.azure.core.util.serializer.SerializerAdapter?alt=com.azure.core.util.serializer.SerializerAdapter&text=SerializerAdapter\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.core.serializer.json.jackson.JacksonAdapter.serialize(java.lang.Object,com.azure.core.util.serializer.SerializerEncoding)"
   fullName: "com.azure.core.serializer.json.jackson.JacksonAdapter.serialize(Object object, SerializerEncoding encoding)"
   name: "serialize(Object object, SerializerEncoding encoding)"

@@ -68,16 +68,6 @@ methods:
   returns:
     description: "the cdcUpdateCounter value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Long.html\">Long</a>"
-- uid: "com.azure.resourcemanager.datamigration.models.MigrateSqlServerSqlDbSyncTaskOutputTableLevel.databaseName()"
-  fullName: "com.azure.resourcemanager.datamigration.models.MigrateSqlServerSqlDbSyncTaskOutputTableLevel.databaseName()"
-  name: "databaseName()"
-  nameWithType: "MigrateSqlServerSqlDbSyncTaskOutputTableLevel.databaseName()"
-  summary: "Get the database<wbr>Name property: Name of the database."
-  syntax: "public String databaseName()"
-  desc: "Get the databaseName property: Name of the database."
-  returns:
-    description: "the databaseName value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.datamigration.models.MigrateSqlServerSqlDbSyncTaskOutputTableLevel.dataErrorsCounter()"
   fullName: "com.azure.resourcemanager.datamigration.models.MigrateSqlServerSqlDbSyncTaskOutputTableLevel.dataErrorsCounter()"
   name: "dataErrorsCounter()"
@@ -88,6 +78,16 @@ methods:
   returns:
     description: "the dataErrorsCounter value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Long.html\">Long</a>"
+- uid: "com.azure.resourcemanager.datamigration.models.MigrateSqlServerSqlDbSyncTaskOutputTableLevel.databaseName()"
+  fullName: "com.azure.resourcemanager.datamigration.models.MigrateSqlServerSqlDbSyncTaskOutputTableLevel.databaseName()"
+  name: "databaseName()"
+  nameWithType: "MigrateSqlServerSqlDbSyncTaskOutputTableLevel.databaseName()"
+  summary: "Get the database<wbr>Name property: Name of the database."
+  syntax: "public String databaseName()"
+  desc: "Get the databaseName property: Name of the database."
+  returns:
+    description: "the databaseName value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.datamigration.models.MigrateSqlServerSqlDbSyncTaskOutputTableLevel.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.datamigration.models.MigrateSqlServerSqlDbSyncTaskOutputTableLevel.fromJson(JsonReader jsonReader)"
   name: "fromJson(JsonReader jsonReader)"

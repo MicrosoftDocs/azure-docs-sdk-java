@@ -255,23 +255,6 @@ methods:
   returns:
     description: "the header if removed, null otherwise."
     type: "<xref href=\"com.azure.core.http.HttpHeader?alt=com.azure.core.http.HttpHeader&text=HttpHeader\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.core.http.HttpHeaders.set(com.azure.core.http.HttpHeaderName,java.util.List<java.lang.String>)"
-  fullName: "com.azure.core.http.HttpHeaders.set(HttpHeaderName name, List<String> values)"
-  name: "set(HttpHeaderName name, List<String> values)"
-  nameWithType: "HttpHeaders.set(HttpHeaderName name, List<String> values)"
-  summary: "Sets a <xref uid=\"com.azure.core.http.HttpHeader\" data-throw-if-not-resolved=\"false\" data-raw-source=\"header\"></xref> with the given name and the list of values provided, such that the given values will be comma-separated when necessary."
-  parameters:
-  - description: "the name"
-    name: "name"
-    type: "<xref href=\"com.azure.core.http.HttpHeaderName?alt=com.azure.core.http.HttpHeaderName&text=HttpHeaderName\" data-throw-if-not-resolved=\"False\" />"
-  - description: "the values that will be comma-separated as appropriate"
-    name: "values"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-  syntax: "public HttpHeaders set(HttpHeaderName name, List<String> values)"
-  desc: "Sets a <xref uid=\"com.azure.core.http.HttpHeader\" data-throw-if-not-resolved=\"false\" data-raw-source=\"header\"></xref> with the given name and the list of values provided, such that the given values will be comma-separated when necessary. If a header with same name already exists then the values will be overwritten. If the given values list is null, the header with the given name will be removed."
-  returns:
-    description: "The updated HttpHeaders object"
-    type: "<xref href=\"com.azure.core.http.HttpHeaders?alt=com.azure.core.http.HttpHeaders&text=HttpHeaders\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.core.http.HttpHeaders.set(com.azure.core.http.HttpHeaderName,java.lang.String)"
   fullName: "com.azure.core.http.HttpHeaders.set(HttpHeaderName name, String value)"
   name: "set(HttpHeaderName name, String value)"
@@ -289,22 +272,20 @@ methods:
   returns:
     description: "The updated HttpHeaders object"
     type: "<xref href=\"com.azure.core.http.HttpHeaders?alt=com.azure.core.http.HttpHeaders&text=HttpHeaders\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.core.http.HttpHeaders.set(java.lang.String,java.util.List<java.lang.String>)"
-  fullName: "com.azure.core.http.HttpHeaders.set(String name, List<String> values)"
-  name: "set(String name, List<String> values)"
-  nameWithType: "HttpHeaders.set(String name, List<String> values)"
+- uid: "com.azure.core.http.HttpHeaders.set(com.azure.core.http.HttpHeaderName,java.util.List<java.lang.String>)"
+  fullName: "com.azure.core.http.HttpHeaders.set(HttpHeaderName name, List<String> values)"
+  name: "set(HttpHeaderName name, List<String> values)"
+  nameWithType: "HttpHeaders.set(HttpHeaderName name, List<String> values)"
   summary: "Sets a <xref uid=\"com.azure.core.http.HttpHeader\" data-throw-if-not-resolved=\"false\" data-raw-source=\"header\"></xref> with the given name and the list of values provided, such that the given values will be comma-separated when necessary."
-  deprecatedTag: "Use <xref uid=\"com.azure.core.http.HttpHeaders.set(com.azure.core.http.HttpHeaderName,java.util.List<java.lang.String>)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#set(HttpHeaderName, List)\"></xref> as it provides better performance."
   parameters:
   - description: "the name"
     name: "name"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+    type: "<xref href=\"com.azure.core.http.HttpHeaderName?alt=com.azure.core.http.HttpHeaderName&text=HttpHeaderName\" data-throw-if-not-resolved=\"False\" />"
   - description: "the values that will be comma-separated as appropriate"
     name: "values"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public HttpHeaders set(String name, List<String> values)"
+  syntax: "public HttpHeaders set(HttpHeaderName name, List<String> values)"
   desc: "Sets a <xref uid=\"com.azure.core.http.HttpHeader\" data-throw-if-not-resolved=\"false\" data-raw-source=\"header\"></xref> with the given name and the list of values provided, such that the given values will be comma-separated when necessary. If a header with same name already exists then the values will be overwritten. If the given values list is null, the header with the given name will be removed."
-  hasDeprecatedTag: true
   returns:
     description: "The updated HttpHeaders object"
     type: "<xref href=\"com.azure.core.http.HttpHeaders?alt=com.azure.core.http.HttpHeaders&text=HttpHeaders\" data-throw-if-not-resolved=\"False\" />"
@@ -323,6 +304,25 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public HttpHeaders set(String name, String value)"
   desc: "Sets a <xref uid=\"com.azure.core.http.HttpHeader\" data-throw-if-not-resolved=\"false\" data-raw-source=\"header\"></xref> with the given name and value. If a header with same name already exists then the value will be overwritten. If the given value is null, the header with the given name will be removed."
+  hasDeprecatedTag: true
+  returns:
+    description: "The updated HttpHeaders object"
+    type: "<xref href=\"com.azure.core.http.HttpHeaders?alt=com.azure.core.http.HttpHeaders&text=HttpHeaders\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.core.http.HttpHeaders.set(java.lang.String,java.util.List<java.lang.String>)"
+  fullName: "com.azure.core.http.HttpHeaders.set(String name, List<String> values)"
+  name: "set(String name, List<String> values)"
+  nameWithType: "HttpHeaders.set(String name, List<String> values)"
+  summary: "Sets a <xref uid=\"com.azure.core.http.HttpHeader\" data-throw-if-not-resolved=\"false\" data-raw-source=\"header\"></xref> with the given name and the list of values provided, such that the given values will be comma-separated when necessary."
+  deprecatedTag: "Use <xref uid=\"com.azure.core.http.HttpHeaders.set(com.azure.core.http.HttpHeaderName,java.util.List<java.lang.String>)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#set(HttpHeaderName, List)\"></xref> as it provides better performance."
+  parameters:
+  - description: "the name"
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "the values that will be comma-separated as appropriate"
+    name: "values"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public HttpHeaders set(String name, List<String> values)"
+  desc: "Sets a <xref uid=\"com.azure.core.http.HttpHeader\" data-throw-if-not-resolved=\"false\" data-raw-source=\"header\"></xref> with the given name and the list of values provided, such that the given values will be comma-separated when necessary. If a header with same name already exists then the values will be overwritten. If the given values list is null, the header with the given name will be removed."
   hasDeprecatedTag: true
   returns:
     description: "The updated HttpHeaders object"

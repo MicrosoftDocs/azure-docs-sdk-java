@@ -170,18 +170,6 @@ methods:
   returns:
     description: "the scopes value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-- uid: "com.azure.resourcemanager.appcontainers.models.DaprComponent.secrets()"
-  fullName: "com.azure.resourcemanager.appcontainers.models.DaprComponent.secrets()"
-  name: "secrets()"
-  nameWithType: "DaprComponent.secrets()"
-  summary: "Gets the secrets property: Collection of secrets used by a Dapr component."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract List<Secret> secrets()"
-  desc: "Gets the secrets property: Collection of secrets used by a Dapr component."
-  returns:
-    description: "the secrets value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.appcontainers.models.Secret?alt=com.azure.resourcemanager.appcontainers.models.Secret&text=Secret\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.appcontainers.models.DaprComponent.secretStoreComponent()"
   fullName: "com.azure.resourcemanager.appcontainers.models.DaprComponent.secretStoreComponent()"
   name: "secretStoreComponent()"
@@ -194,6 +182,18 @@ methods:
   returns:
     description: "the secretStoreComponent value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.appcontainers.models.DaprComponent.secrets()"
+  fullName: "com.azure.resourcemanager.appcontainers.models.DaprComponent.secrets()"
+  name: "secrets()"
+  nameWithType: "DaprComponent.secrets()"
+  summary: "Gets the secrets property: Collection of secrets used by a Dapr component."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract List<Secret> secrets()"
+  desc: "Gets the secrets property: Collection of secrets used by a Dapr component."
+  returns:
+    description: "the secrets value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.appcontainers.models.Secret?alt=com.azure.resourcemanager.appcontainers.models.Secret&text=Secret\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.appcontainers.models.DaprComponent.serviceComponentBind()"
   fullName: "com.azure.resourcemanager.appcontainers.models.DaprComponent.serviceComponentBind()"
   name: "serviceComponentBind()"

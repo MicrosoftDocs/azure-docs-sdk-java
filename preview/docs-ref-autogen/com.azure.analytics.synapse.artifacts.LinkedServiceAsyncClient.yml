@@ -138,16 +138,6 @@ methods:
   returns:
     description: "a linked service on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.analytics.synapse.artifacts.models.LinkedServiceResource?alt=com.azure.analytics.synapse.artifacts.models.LinkedServiceResource&text=LinkedServiceResource\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.analytics.synapse.artifacts.LinkedServiceAsyncClient.getLinkedServicesByWorkspace()"
-  fullName: "com.azure.analytics.synapse.artifacts.LinkedServiceAsyncClient.getLinkedServicesByWorkspace()"
-  name: "getLinkedServicesByWorkspace()"
-  nameWithType: "LinkedServiceAsyncClient.getLinkedServicesByWorkspace()"
-  summary: "Lists linked services."
-  syntax: "public PagedFlux<LinkedServiceResource> getLinkedServicesByWorkspace()"
-  desc: "Lists linked services."
-  returns:
-    description: "a list of linked service resources as paginated response with <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
-    type: "<xref href=\"com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.analytics.synapse.artifacts.models.LinkedServiceResource?alt=com.azure.analytics.synapse.artifacts.models.LinkedServiceResource&text=LinkedServiceResource\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.analytics.synapse.artifacts.LinkedServiceAsyncClient.getLinkedServiceWithResponse(java.lang.String,java.lang.String)"
   fullName: "com.azure.analytics.synapse.artifacts.LinkedServiceAsyncClient.getLinkedServiceWithResponse(String linkedServiceName, String ifNoneMatch)"
   name: "getLinkedServiceWithResponse(String linkedServiceName, String ifNoneMatch)"
@@ -165,6 +155,16 @@ methods:
   returns:
     description: "a linked service along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref> on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.analytics.synapse.artifacts.models.LinkedServiceResource?alt=com.azure.analytics.synapse.artifacts.models.LinkedServiceResource&text=LinkedServiceResource\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
+- uid: "com.azure.analytics.synapse.artifacts.LinkedServiceAsyncClient.getLinkedServicesByWorkspace()"
+  fullName: "com.azure.analytics.synapse.artifacts.LinkedServiceAsyncClient.getLinkedServicesByWorkspace()"
+  name: "getLinkedServicesByWorkspace()"
+  nameWithType: "LinkedServiceAsyncClient.getLinkedServicesByWorkspace()"
+  summary: "Lists linked services."
+  syntax: "public PagedFlux<LinkedServiceResource> getLinkedServicesByWorkspace()"
+  desc: "Lists linked services."
+  returns:
+    description: "a list of linked service resources as paginated response with <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
+    type: "<xref href=\"com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.analytics.synapse.artifacts.models.LinkedServiceResource?alt=com.azure.analytics.synapse.artifacts.models.LinkedServiceResource&text=LinkedServiceResource\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.analytics.synapse.artifacts.LinkedServiceAsyncClient.renameLinkedService(java.lang.String,com.azure.analytics.synapse.artifacts.models.ArtifactRenameRequest)"
   fullName: "com.azure.analytics.synapse.artifacts.LinkedServiceAsyncClient.renameLinkedService(String linkedServiceName, ArtifactRenameRequest request)"
   name: "renameLinkedService(String linkedServiceName, ArtifactRenameRequest request)"

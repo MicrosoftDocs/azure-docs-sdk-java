@@ -6,22 +6,6 @@ nameWithType: "PrivateDnsZone.DefinitionStages.WithRecordSet"
 summary: "The stage of the private DNS zone definition allowing to specify record set."
 syntax: "public static interface **PrivateDnsZone.DefinitionStages.WithRecordSet**"
 methods:
-- uid: "com.azure.resourcemanager.privatedns.models.PrivateDnsZone.DefinitionStages.WithRecordSet.defineAaaaRecordSet(java.lang.String)"
-  fullName: "com.azure.resourcemanager.privatedns.models.PrivateDnsZone.DefinitionStages.WithRecordSet.defineAaaaRecordSet(String name)"
-  name: "defineAaaaRecordSet(String name)"
-  nameWithType: "PrivateDnsZone.DefinitionStages.WithRecordSet.defineAaaaRecordSet(String name)"
-  summary: "Specifies definition of an AAAA record set."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "name of the AAAA record set"
-    name: "name"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public abstract PrivateDnsRecordSet.DefinitionStages.AaaaRecordSetBlank<PrivateDnsZone.DefinitionStages.WithCreate> defineAaaaRecordSet(String name)"
-  desc: "Specifies definition of an AAAA record set."
-  returns:
-    description: "the stage representing configuration for the AAAA record set"
-    type: "<xref href=\"com.azure.resourcemanager.privatedns.models.PrivateDnsRecordSet.DefinitionStages.AaaaRecordSetBlank?alt=com.azure.resourcemanager.privatedns.models.PrivateDnsRecordSet.DefinitionStages.AaaaRecordSetBlank&text=AaaaRecordSetBlank\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.privatedns.models.PrivateDnsZone.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.privatedns.models.PrivateDnsZone.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.privatedns.models.PrivateDnsZone.DefinitionStages.WithRecordSet.defineARecordSet(java.lang.String)"
   fullName: "com.azure.resourcemanager.privatedns.models.PrivateDnsZone.DefinitionStages.WithRecordSet.defineARecordSet(String name)"
   name: "defineARecordSet(String name)"
@@ -38,6 +22,22 @@ methods:
   returns:
     description: "the stage representing configuration for the A record set"
     type: "<xref href=\"com.azure.resourcemanager.privatedns.models.PrivateDnsRecordSet.DefinitionStages.ARecordSetBlank?alt=com.azure.resourcemanager.privatedns.models.PrivateDnsRecordSet.DefinitionStages.ARecordSetBlank&text=ARecordSetBlank\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.privatedns.models.PrivateDnsZone.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.privatedns.models.PrivateDnsZone.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.privatedns.models.PrivateDnsZone.DefinitionStages.WithRecordSet.defineAaaaRecordSet(java.lang.String)"
+  fullName: "com.azure.resourcemanager.privatedns.models.PrivateDnsZone.DefinitionStages.WithRecordSet.defineAaaaRecordSet(String name)"
+  name: "defineAaaaRecordSet(String name)"
+  nameWithType: "PrivateDnsZone.DefinitionStages.WithRecordSet.defineAaaaRecordSet(String name)"
+  summary: "Specifies definition of an AAAA record set."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "name of the AAAA record set"
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract PrivateDnsRecordSet.DefinitionStages.AaaaRecordSetBlank<PrivateDnsZone.DefinitionStages.WithCreate> defineAaaaRecordSet(String name)"
+  desc: "Specifies definition of an AAAA record set."
+  returns:
+    description: "the stage representing configuration for the AAAA record set"
+    type: "<xref href=\"com.azure.resourcemanager.privatedns.models.PrivateDnsRecordSet.DefinitionStages.AaaaRecordSetBlank?alt=com.azure.resourcemanager.privatedns.models.PrivateDnsRecordSet.DefinitionStages.AaaaRecordSetBlank&text=AaaaRecordSetBlank\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.privatedns.models.PrivateDnsZone.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.privatedns.models.PrivateDnsZone.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.privatedns.models.PrivateDnsZone.DefinitionStages.WithRecordSet.defineCnameRecordSet(java.lang.String)"
   fullName: "com.azure.resourcemanager.privatedns.models.PrivateDnsZone.DefinitionStages.WithRecordSet.defineCnameRecordSet(String name)"
   name: "defineCnameRecordSet(String name)"

@@ -55,9 +55,9 @@ methods:
   fullName: "com.azure.resourcemanager.deviceregistry.models.AssetEndpointProfileStatusError.message()"
   name: "message()"
   nameWithType: "AssetEndpointProfileStatusError.message()"
-  summary: "Get the message property: Human readable helpful error message to provide additional context for error (ex: “target<wbr>Address 'foo' is not a valid url”)."
+  summary: "Get the message property: Human readable helpful error message to provide additional context for error (ex: \\\\u201ctarget<wbr>Address 'foo' is not a valid url\\\\u201d)."
   syntax: "public String message()"
-  desc: "Get the message property: Human readable helpful error message to provide additional context for error (ex: “targetAddress 'foo' is not a valid url”)."
+  desc: "Get the message property: Human readable helpful error message to provide additional context for error (ex: \\\\u201ctargetAddress 'foo' is not a valid url\\\\u201d)."
   returns:
     description: "the message value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"

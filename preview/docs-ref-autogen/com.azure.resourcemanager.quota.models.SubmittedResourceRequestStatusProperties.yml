@@ -69,16 +69,6 @@ methods:
   returns:
     description: "the provisioningState value."
     type: "<xref href=\"com.azure.resourcemanager.quota.models.RequestState?alt=com.azure.resourcemanager.quota.models.RequestState&text=RequestState\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.quota.models.SubmittedResourceRequestStatusProperties.requestedResource()"
-  fullName: "com.azure.resourcemanager.quota.models.SubmittedResourceRequestStatusProperties.requestedResource()"
-  name: "requestedResource()"
-  nameWithType: "SubmittedResourceRequestStatusProperties.requestedResource()"
-  summary: "Get the requested<wbr>Resource property: Requested Resource."
-  syntax: "public GroupQuotaRequestBase requestedResource()"
-  desc: "Get the requestedResource property: Requested Resource."
-  returns:
-    description: "the requestedResource value."
-    type: "<xref href=\"com.azure.resourcemanager.quota.models.GroupQuotaRequestBase?alt=com.azure.resourcemanager.quota.models.GroupQuotaRequestBase&text=GroupQuotaRequestBase\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.quota.models.SubmittedResourceRequestStatusProperties.requestSubmitTime()"
   fullName: "com.azure.resourcemanager.quota.models.SubmittedResourceRequestStatusProperties.requestSubmitTime()"
   name: "requestSubmitTime()"
@@ -89,6 +79,16 @@ methods:
   returns:
     description: "the requestSubmitTime value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
+- uid: "com.azure.resourcemanager.quota.models.SubmittedResourceRequestStatusProperties.requestedResource()"
+  fullName: "com.azure.resourcemanager.quota.models.SubmittedResourceRequestStatusProperties.requestedResource()"
+  name: "requestedResource()"
+  nameWithType: "SubmittedResourceRequestStatusProperties.requestedResource()"
+  summary: "Get the requested<wbr>Resource property: Requested Resource."
+  syntax: "public GroupQuotaRequestBase requestedResource()"
+  desc: "Get the requestedResource property: Requested Resource."
+  returns:
+    description: "the requestedResource value."
+    type: "<xref href=\"com.azure.resourcemanager.quota.models.GroupQuotaRequestBase?alt=com.azure.resourcemanager.quota.models.GroupQuotaRequestBase&text=GroupQuotaRequestBase\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.quota.models.SubmittedResourceRequestStatusProperties.toJson(com.azure.json.JsonWriter)"
   fullName: "com.azure.resourcemanager.quota.models.SubmittedResourceRequestStatusProperties.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"

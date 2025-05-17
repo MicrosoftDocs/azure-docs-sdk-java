@@ -166,22 +166,6 @@ methods:
   returns:
     description: "the next stage of the update"
     type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachine.Update?alt=com.azure.resourcemanager.compute.models.VirtualMachine.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.compute.models.VirtualMachine.Update.withSize(java.lang.String)"
-  fullName: "com.azure.resourcemanager.compute.models.VirtualMachine.Update.withSize(String sizeName)"
-  name: "withSize(String sizeName)"
-  nameWithType: "VirtualMachine.Update.withSize(String sizeName)"
-  summary: "Specifies a new size for the virtual machine."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "the name of a size for the virtual machine as text"
-    name: "sizeName"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public abstract VirtualMachine.Update withSize(String sizeName)"
-  desc: "Specifies a new size for the virtual machine.\n\nSee <xref uid=\"com.azure.resourcemanager.compute.models.VirtualMachine.availableSizes()\" data-throw-if-not-resolved=\"false\" data-raw-source=\"VirtualMachine#availableSizes()\"></xref> for resizing."
-  returns:
-    description: "the next stage of the update"
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachine.Update?alt=com.azure.resourcemanager.compute.models.VirtualMachine.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.models.VirtualMachine.Update.withSize(com.azure.resourcemanager.compute.models.VirtualMachineSizeTypes)"
   fullName: "com.azure.resourcemanager.compute.models.VirtualMachine.Update.withSize(VirtualMachineSizeTypes size)"
   name: "withSize(VirtualMachineSizeTypes size)"
@@ -197,6 +181,22 @@ methods:
   desc: "Specifies a new size for the virtual machine.\n\n<xref uid=\"com.azure.resourcemanager.compute.models.VirtualMachineSizeTypes\" data-throw-if-not-resolved=\"false\" data-raw-source=\"VirtualMachineSizeTypes\"></xref> is not the complete list of virtual machine sizes. See <xref uid=\"com.azure.resourcemanager.compute.models.VirtualMachine.availableSizes()\" data-throw-if-not-resolved=\"false\" data-raw-source=\"VirtualMachine#availableSizes()\"></xref> for resizing."
   returns:
     description: "the next stage of the definition"
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachine.Update?alt=com.azure.resourcemanager.compute.models.VirtualMachine.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.VirtualMachine.Update.withSize(java.lang.String)"
+  fullName: "com.azure.resourcemanager.compute.models.VirtualMachine.Update.withSize(String sizeName)"
+  name: "withSize(String sizeName)"
+  nameWithType: "VirtualMachine.Update.withSize(String sizeName)"
+  summary: "Specifies a new size for the virtual machine."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "the name of a size for the virtual machine as text"
+    name: "sizeName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract VirtualMachine.Update withSize(String sizeName)"
+  desc: "Specifies a new size for the virtual machine.\n\nSee <xref uid=\"com.azure.resourcemanager.compute.models.VirtualMachine.availableSizes()\" data-throw-if-not-resolved=\"false\" data-raw-source=\"VirtualMachine#availableSizes()\"></xref> for resizing."
+  returns:
+    description: "the next stage of the update"
     type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachine.Update?alt=com.azure.resourcemanager.compute.models.VirtualMachine.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 desc: "The template for an update operation, containing all the settings that can be modified."

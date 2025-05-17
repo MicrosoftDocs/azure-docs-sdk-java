@@ -162,18 +162,6 @@ methods:
   returns:
     description: "the httpPipeline value."
     type: "<xref href=\"com.azure.core.http.HttpPipeline?alt=com.azure.core.http.HttpPipeline&text=HttpPipeline\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.devcenter.fluent.DevCenterManagementClient.getImages()"
-  fullName: "com.azure.resourcemanager.devcenter.fluent.DevCenterManagementClient.getImages()"
-  name: "getImages()"
-  nameWithType: "DevCenterManagementClient.getImages()"
-  summary: "Gets the Images<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract ImagesClient getImages()"
-  desc: "Gets the ImagesClient object to access its operations."
-  returns:
-    description: "the ImagesClient object."
-    type: "<xref href=\"com.azure.resourcemanager.devcenter.fluent.ImagesClient?alt=com.azure.resourcemanager.devcenter.fluent.ImagesClient&text=ImagesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.devcenter.fluent.DevCenterManagementClient.getImageVersions()"
   fullName: "com.azure.resourcemanager.devcenter.fluent.DevCenterManagementClient.getImageVersions()"
   name: "getImageVersions()"
@@ -186,6 +174,18 @@ methods:
   returns:
     description: "the ImageVersionsClient object."
     type: "<xref href=\"com.azure.resourcemanager.devcenter.fluent.ImageVersionsClient?alt=com.azure.resourcemanager.devcenter.fluent.ImageVersionsClient&text=ImageVersionsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.devcenter.fluent.DevCenterManagementClient.getImages()"
+  fullName: "com.azure.resourcemanager.devcenter.fluent.DevCenterManagementClient.getImages()"
+  name: "getImages()"
+  nameWithType: "DevCenterManagementClient.getImages()"
+  summary: "Gets the Images<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ImagesClient getImages()"
+  desc: "Gets the ImagesClient object to access its operations."
+  returns:
+    description: "the ImagesClient object."
+    type: "<xref href=\"com.azure.resourcemanager.devcenter.fluent.ImagesClient?alt=com.azure.resourcemanager.devcenter.fluent.ImagesClient&text=ImagesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.devcenter.fluent.DevCenterManagementClient.getNetworkConnections()"
   fullName: "com.azure.resourcemanager.devcenter.fluent.DevCenterManagementClient.getNetworkConnections()"
   name: "getNetworkConnections()"
@@ -198,18 +198,6 @@ methods:
   returns:
     description: "the NetworkConnectionsClient object."
     type: "<xref href=\"com.azure.resourcemanager.devcenter.fluent.NetworkConnectionsClient?alt=com.azure.resourcemanager.devcenter.fluent.NetworkConnectionsClient&text=NetworkConnectionsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.devcenter.fluent.DevCenterManagementClient.getOperations()"
-  fullName: "com.azure.resourcemanager.devcenter.fluent.DevCenterManagementClient.getOperations()"
-  name: "getOperations()"
-  nameWithType: "DevCenterManagementClient.getOperations()"
-  summary: "Gets the Operations<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract OperationsClient getOperations()"
-  desc: "Gets the OperationsClient object to access its operations."
-  returns:
-    description: "the OperationsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.devcenter.fluent.OperationsClient?alt=com.azure.resourcemanager.devcenter.fluent.OperationsClient&text=OperationsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.devcenter.fluent.DevCenterManagementClient.getOperationStatuses()"
   fullName: "com.azure.resourcemanager.devcenter.fluent.DevCenterManagementClient.getOperationStatuses()"
   name: "getOperationStatuses()"
@@ -222,6 +210,18 @@ methods:
   returns:
     description: "the OperationStatusesClient object."
     type: "<xref href=\"com.azure.resourcemanager.devcenter.fluent.OperationStatusesClient?alt=com.azure.resourcemanager.devcenter.fluent.OperationStatusesClient&text=OperationStatusesClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.devcenter.fluent.DevCenterManagementClient.getOperations()"
+  fullName: "com.azure.resourcemanager.devcenter.fluent.DevCenterManagementClient.getOperations()"
+  name: "getOperations()"
+  nameWithType: "DevCenterManagementClient.getOperations()"
+  summary: "Gets the Operations<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract OperationsClient getOperations()"
+  desc: "Gets the OperationsClient object to access its operations."
+  returns:
+    description: "the OperationsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.devcenter.fluent.OperationsClient?alt=com.azure.resourcemanager.devcenter.fluent.OperationsClient&text=OperationsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.devcenter.fluent.DevCenterManagementClient.getPools()"
   fullName: "com.azure.resourcemanager.devcenter.fluent.DevCenterManagementClient.getPools()"
   name: "getPools()"

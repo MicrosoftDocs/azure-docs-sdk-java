@@ -3,7 +3,7 @@ uid: "com.azure.ai.openai.models.ElasticsearchChatExtensionParameters"
 fullName: "com.azure.ai.openai.models.ElasticsearchChatExtensionParameters"
 name: "ElasticsearchChatExtensionParameters"
 nameWithType: "ElasticsearchChatExtensionParameters"
-summary: "Parameters to use when configuring ElasticsearchÂ® as an Azure OpenAI chat extension."
+summary: "Parameters to use when configuring Elasticsearch® as an Azure OpenAI chat extension."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -80,9 +80,9 @@ methods:
   fullName: "com.azure.ai.openai.models.ElasticsearchChatExtensionParameters.getEndpoint()"
   name: "getEndpoint()"
   nameWithType: "ElasticsearchChatExtensionParameters.getEndpoint()"
-  summary: "Get the endpoint property: The endpoint of ElasticsearchÂ®."
+  summary: "Get the endpoint property: The endpoint of Elasticsearch®."
   syntax: "public String getEndpoint()"
-  desc: "Get the endpoint property: The endpoint of ElasticsearchÂ®."
+  desc: "Get the endpoint property: The endpoint of Elasticsearch®."
   returns:
     description: "the endpoint value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -90,9 +90,9 @@ methods:
   fullName: "com.azure.ai.openai.models.ElasticsearchChatExtensionParameters.getFieldsMapping()"
   name: "getFieldsMapping()"
   nameWithType: "ElasticsearchChatExtensionParameters.getFieldsMapping()"
-  summary: "Get the fields<wbr>Mapping property: The index field mapping options of ElasticsearchÂ®."
+  summary: "Get the fields<wbr>Mapping property: The index field mapping options of Elasticsearch®."
   syntax: "public ElasticsearchIndexFieldMappingOptions getFieldsMapping()"
-  desc: "Get the fieldsMapping property: The index field mapping options of ElasticsearchÂ®."
+  desc: "Get the fieldsMapping property: The index field mapping options of Elasticsearch®."
   returns:
     description: "the fieldsMapping value."
     type: "<xref href=\"com.azure.ai.openai.models.ElasticsearchIndexFieldMappingOptions?alt=com.azure.ai.openai.models.ElasticsearchIndexFieldMappingOptions&text=ElasticsearchIndexFieldMappingOptions\" data-throw-if-not-resolved=\"False\" />"
@@ -110,9 +110,9 @@ methods:
   fullName: "com.azure.ai.openai.models.ElasticsearchChatExtensionParameters.getIndexName()"
   name: "getIndexName()"
   nameWithType: "ElasticsearchChatExtensionParameters.getIndexName()"
-  summary: "Get the index<wbr>Name property: The index name of ElasticsearchÂ®."
+  summary: "Get the index<wbr>Name property: The index name of Elasticsearch®."
   syntax: "public String getIndexName()"
-  desc: "Get the indexName property: The index name of ElasticsearchÂ®."
+  desc: "Get the indexName property: The index name of Elasticsearch®."
   returns:
     description: "the indexName value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -130,9 +130,9 @@ methods:
   fullName: "com.azure.ai.openai.models.ElasticsearchChatExtensionParameters.getQueryType()"
   name: "getQueryType()"
   nameWithType: "ElasticsearchChatExtensionParameters.getQueryType()"
-  summary: "Get the query<wbr>Type property: The query type of ElasticsearchÂ®."
+  summary: "Get the query<wbr>Type property: The query type of Elasticsearch®."
   syntax: "public ElasticsearchQueryType getQueryType()"
-  desc: "Get the queryType property: The query type of ElasticsearchÂ®."
+  desc: "Get the queryType property: The query type of Elasticsearch®."
   returns:
     description: "the queryType value."
     type: "<xref href=\"com.azure.ai.openai.models.ElasticsearchQueryType?alt=com.azure.ai.openai.models.ElasticsearchQueryType&text=ElasticsearchQueryType\" data-throw-if-not-resolved=\"False\" />"
@@ -222,27 +222,13 @@ methods:
   fullName: "com.azure.ai.openai.models.ElasticsearchChatExtensionParameters.setFieldsMapping(ElasticsearchIndexFieldMappingOptions fieldsMapping)"
   name: "setFieldsMapping(ElasticsearchIndexFieldMappingOptions fieldsMapping)"
   nameWithType: "ElasticsearchChatExtensionParameters.setFieldsMapping(ElasticsearchIndexFieldMappingOptions fieldsMapping)"
-  summary: "Set the fields<wbr>Mapping property: The index field mapping options of ElasticsearchÂ®."
+  summary: "Set the fields<wbr>Mapping property: The index field mapping options of Elasticsearch®."
   parameters:
   - description: "the fieldsMapping value to set."
     name: "fieldsMapping"
     type: "<xref href=\"com.azure.ai.openai.models.ElasticsearchIndexFieldMappingOptions?alt=com.azure.ai.openai.models.ElasticsearchIndexFieldMappingOptions&text=ElasticsearchIndexFieldMappingOptions\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public ElasticsearchChatExtensionParameters setFieldsMapping(ElasticsearchIndexFieldMappingOptions fieldsMapping)"
-  desc: "Set the fieldsMapping property: The index field mapping options of ElasticsearchÂ®."
-  returns:
-    description: "the ElasticsearchChatExtensionParameters object itself."
-    type: "<xref href=\"com.azure.ai.openai.models.ElasticsearchChatExtensionParameters?alt=com.azure.ai.openai.models.ElasticsearchChatExtensionParameters&text=ElasticsearchChatExtensionParameters\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.ai.openai.models.ElasticsearchChatExtensionParameters.setIncludeContexts(java.util.List<com.azure.ai.openai.models.OnYourDataContextProperty>)"
-  fullName: "com.azure.ai.openai.models.ElasticsearchChatExtensionParameters.setIncludeContexts(List<OnYourDataContextProperty> includeContexts)"
-  name: "setIncludeContexts(List<OnYourDataContextProperty> includeContexts)"
-  nameWithType: "ElasticsearchChatExtensionParameters.setIncludeContexts(List<OnYourDataContextProperty> includeContexts)"
-  summary: "Set the include<wbr>Contexts property: The included properties of the output context."
-  parameters:
-  - description: "the includeContexts value to set."
-    name: "includeContexts"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.ai.openai.models.OnYourDataContextProperty?alt=com.azure.ai.openai.models.OnYourDataContextProperty&text=OnYourDataContextProperty\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public ElasticsearchChatExtensionParameters setIncludeContexts(List<OnYourDataContextProperty> includeContexts)"
-  desc: "Set the includeContexts property: The included properties of the output context. If not specified, the default value is \\`citations\\` and \\`intent\\`."
+  desc: "Set the fieldsMapping property: The index field mapping options of Elasticsearch®."
   returns:
     description: "the ElasticsearchChatExtensionParameters object itself."
     type: "<xref href=\"com.azure.ai.openai.models.ElasticsearchChatExtensionParameters?alt=com.azure.ai.openai.models.ElasticsearchChatExtensionParameters&text=ElasticsearchChatExtensionParameters\" data-throw-if-not-resolved=\"False\" />"
@@ -257,6 +243,20 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
   syntax: "public ElasticsearchChatExtensionParameters setInScope(Boolean inScope)"
   desc: "Set the inScope property: Whether queries should be restricted to use of indexed data."
+  returns:
+    description: "the ElasticsearchChatExtensionParameters object itself."
+    type: "<xref href=\"com.azure.ai.openai.models.ElasticsearchChatExtensionParameters?alt=com.azure.ai.openai.models.ElasticsearchChatExtensionParameters&text=ElasticsearchChatExtensionParameters\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.openai.models.ElasticsearchChatExtensionParameters.setIncludeContexts(java.util.List<com.azure.ai.openai.models.OnYourDataContextProperty>)"
+  fullName: "com.azure.ai.openai.models.ElasticsearchChatExtensionParameters.setIncludeContexts(List<OnYourDataContextProperty> includeContexts)"
+  name: "setIncludeContexts(List<OnYourDataContextProperty> includeContexts)"
+  nameWithType: "ElasticsearchChatExtensionParameters.setIncludeContexts(List<OnYourDataContextProperty> includeContexts)"
+  summary: "Set the include<wbr>Contexts property: The included properties of the output context."
+  parameters:
+  - description: "the includeContexts value to set."
+    name: "includeContexts"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.ai.openai.models.OnYourDataContextProperty?alt=com.azure.ai.openai.models.OnYourDataContextProperty&text=OnYourDataContextProperty\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public ElasticsearchChatExtensionParameters setIncludeContexts(List<OnYourDataContextProperty> includeContexts)"
+  desc: "Set the includeContexts property: The included properties of the output context. If not specified, the default value is \\`citations\\` and \\`intent\\`."
   returns:
     description: "the ElasticsearchChatExtensionParameters object itself."
     type: "<xref href=\"com.azure.ai.openai.models.ElasticsearchChatExtensionParameters?alt=com.azure.ai.openai.models.ElasticsearchChatExtensionParameters&text=ElasticsearchChatExtensionParameters\" data-throw-if-not-resolved=\"False\" />"
@@ -278,13 +278,13 @@ methods:
   fullName: "com.azure.ai.openai.models.ElasticsearchChatExtensionParameters.setQueryType(ElasticsearchQueryType queryType)"
   name: "setQueryType(ElasticsearchQueryType queryType)"
   nameWithType: "ElasticsearchChatExtensionParameters.setQueryType(ElasticsearchQueryType queryType)"
-  summary: "Set the query<wbr>Type property: The query type of ElasticsearchÂ®."
+  summary: "Set the query<wbr>Type property: The query type of Elasticsearch®."
   parameters:
   - description: "the queryType value to set."
     name: "queryType"
     type: "<xref href=\"com.azure.ai.openai.models.ElasticsearchQueryType?alt=com.azure.ai.openai.models.ElasticsearchQueryType&text=ElasticsearchQueryType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public ElasticsearchChatExtensionParameters setQueryType(ElasticsearchQueryType queryType)"
-  desc: "Set the queryType property: The query type of ElasticsearchÂ®."
+  desc: "Set the queryType property: The query type of Elasticsearch®."
   returns:
     description: "the ElasticsearchChatExtensionParameters object itself."
     type: "<xref href=\"com.azure.ai.openai.models.ElasticsearchChatExtensionParameters?alt=com.azure.ai.openai.models.ElasticsearchChatExtensionParameters&text=ElasticsearchChatExtensionParameters\" data-throw-if-not-resolved=\"False\" />"
@@ -329,7 +329,7 @@ methods:
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "Parameters to use when configuring ElasticsearchÂ® as an Azure OpenAI chat extension. The supported authentication types are KeyAndKeyId and EncodedAPIKey."
+desc: "Parameters to use when configuring Elasticsearch® as an Azure OpenAI chat extension. The supported authentication types are KeyAndKeyId and EncodedAPIKey."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.openai.models.ElasticsearchChatExtensionParameters?alt=com.azure.ai.openai.models.ElasticsearchChatExtensionParameters&text=ElasticsearchChatExtensionParameters\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}

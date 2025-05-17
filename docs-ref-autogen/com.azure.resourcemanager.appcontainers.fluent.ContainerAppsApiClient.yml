@@ -294,6 +294,18 @@ methods:
   returns:
     description: "the ManagedEnvironmentDiagnosticsClient object."
     type: "<xref href=\"com.azure.resourcemanager.appcontainers.fluent.ManagedEnvironmentDiagnosticsClient?alt=com.azure.resourcemanager.appcontainers.fluent.ManagedEnvironmentDiagnosticsClient&text=ManagedEnvironmentDiagnosticsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.appcontainers.fluent.ContainerAppsApiClient.getManagedEnvironmentUsages()"
+  fullName: "com.azure.resourcemanager.appcontainers.fluent.ContainerAppsApiClient.getManagedEnvironmentUsages()"
+  name: "getManagedEnvironmentUsages()"
+  nameWithType: "ContainerAppsApiClient.getManagedEnvironmentUsages()"
+  summary: "Gets the Managed<wbr>Environment<wbr>Usages<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ManagedEnvironmentUsagesClient getManagedEnvironmentUsages()"
+  desc: "Gets the ManagedEnvironmentUsagesClient object to access its operations."
+  returns:
+    description: "the ManagedEnvironmentUsagesClient object."
+    type: "<xref href=\"com.azure.resourcemanager.appcontainers.fluent.ManagedEnvironmentUsagesClient?alt=com.azure.resourcemanager.appcontainers.fluent.ManagedEnvironmentUsagesClient&text=ManagedEnvironmentUsagesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.appcontainers.fluent.ContainerAppsApiClient.getManagedEnvironments()"
   fullName: "com.azure.resourcemanager.appcontainers.fluent.ContainerAppsApiClient.getManagedEnvironments()"
   name: "getManagedEnvironments()"
@@ -330,18 +342,6 @@ methods:
   returns:
     description: "the ManagedEnvironmentsStoragesClient object."
     type: "<xref href=\"com.azure.resourcemanager.appcontainers.fluent.ManagedEnvironmentsStoragesClient?alt=com.azure.resourcemanager.appcontainers.fluent.ManagedEnvironmentsStoragesClient&text=ManagedEnvironmentsStoragesClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.appcontainers.fluent.ContainerAppsApiClient.getManagedEnvironmentUsages()"
-  fullName: "com.azure.resourcemanager.appcontainers.fluent.ContainerAppsApiClient.getManagedEnvironmentUsages()"
-  name: "getManagedEnvironmentUsages()"
-  nameWithType: "ContainerAppsApiClient.getManagedEnvironmentUsages()"
-  summary: "Gets the Managed<wbr>Environment<wbr>Usages<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract ManagedEnvironmentUsagesClient getManagedEnvironmentUsages()"
-  desc: "Gets the ManagedEnvironmentUsagesClient object to access its operations."
-  returns:
-    description: "the ManagedEnvironmentUsagesClient object."
-    type: "<xref href=\"com.azure.resourcemanager.appcontainers.fluent.ManagedEnvironmentUsagesClient?alt=com.azure.resourcemanager.appcontainers.fluent.ManagedEnvironmentUsagesClient&text=ManagedEnvironmentUsagesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.appcontainers.fluent.ContainerAppsApiClient.getNamespaces()"
   fullName: "com.azure.resourcemanager.appcontainers.fluent.ContainerAppsApiClient.getNamespaces()"
   name: "getNamespaces()"

@@ -246,6 +246,18 @@ methods:
   returns:
     description: "the status value"
     type: "<xref href=\"com.azure.resourcemanager.monitor.models.LocalizableString?alt=com.azure.resourcemanager.monitor.models.LocalizableString&text=LocalizableString\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.monitor.models.EventData.subStatus()"
+  fullName: "com.azure.resourcemanager.monitor.models.EventData.subStatus()"
+  name: "subStatus()"
+  nameWithType: "EventData.subStatus()"
+  summary: "Get the sub<wbr>Status value."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract LocalizableString subStatus()"
+  desc: "Get the subStatus value."
+  returns:
+    description: "the subStatus value"
+    type: "<xref href=\"com.azure.resourcemanager.monitor.models.LocalizableString?alt=com.azure.resourcemanager.monitor.models.LocalizableString&text=LocalizableString\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.monitor.models.EventData.submissionTimestamp()"
   fullName: "com.azure.resourcemanager.monitor.models.EventData.submissionTimestamp()"
   name: "submissionTimestamp()"
@@ -270,18 +282,6 @@ methods:
   returns:
     description: "the subscriptionId value"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.monitor.models.EventData.subStatus()"
-  fullName: "com.azure.resourcemanager.monitor.models.EventData.subStatus()"
-  name: "subStatus()"
-  nameWithType: "EventData.subStatus()"
-  summary: "Get the sub<wbr>Status value."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract LocalizableString subStatus()"
-  desc: "Get the subStatus value."
-  returns:
-    description: "the subStatus value"
-    type: "<xref href=\"com.azure.resourcemanager.monitor.models.LocalizableString?alt=com.azure.resourcemanager.monitor.models.LocalizableString&text=LocalizableString\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.monitor.models.EventData.tenantId()"
   fullName: "com.azure.resourcemanager.monitor.models.EventData.tenantId()"
   name: "tenantId()"

@@ -37,16 +37,6 @@ constructors:
   syntax: "public AnswerCallOptions(String incomingCallContext, String callbackUrl)"
   desc: "Constructor"
 methods:
-- uid: "com.azure.communication.callautomation.models.AnswerCallOptions.getCallbackUrl()"
-  fullName: "com.azure.communication.callautomation.models.AnswerCallOptions.getCallbackUrl()"
-  name: "getCallbackUrl()"
-  nameWithType: "AnswerCallOptions.getCallbackUrl()"
-  summary: "Get the call back url."
-  syntax: "public String getCallbackUrl()"
-  desc: "Get the call back url."
-  returns:
-    description: "the call back url."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.communication.callautomation.models.AnswerCallOptions.getCallIntelligenceOptions()"
   fullName: "com.azure.communication.callautomation.models.AnswerCallOptions.getCallIntelligenceOptions()"
   name: "getCallIntelligenceOptions()"
@@ -57,6 +47,16 @@ methods:
   returns:
     description: "the callIntelligenceOptions value."
     type: "<xref href=\"com.azure.communication.callautomation.models.CallIntelligenceOptions?alt=com.azure.communication.callautomation.models.CallIntelligenceOptions&text=CallIntelligenceOptions\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.communication.callautomation.models.AnswerCallOptions.getCallbackUrl()"
+  fullName: "com.azure.communication.callautomation.models.AnswerCallOptions.getCallbackUrl()"
+  name: "getCallbackUrl()"
+  nameWithType: "AnswerCallOptions.getCallbackUrl()"
+  summary: "Get the call back url."
+  syntax: "public String getCallbackUrl()"
+  desc: "Get the call back url."
+  returns:
+    description: "the call back url."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.communication.callautomation.models.AnswerCallOptions.getIncomingCallContext()"
   fullName: "com.azure.communication.callautomation.models.AnswerCallOptions.getIncomingCallContext()"
   name: "getIncomingCallContext()"

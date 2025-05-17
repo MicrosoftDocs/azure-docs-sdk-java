@@ -134,20 +134,6 @@ methods:
   returns:
     description: "the updated DataLakeFileSystemClientBuilder"
     type: "<xref href=\"com.azure.storage.file.datalake.DataLakeFileSystemClientBuilder?alt=com.azure.storage.file.datalake.DataLakeFileSystemClientBuilder&text=DataLakeFileSystemClientBuilder\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.storage.file.datalake.DataLakeFileSystemClientBuilder.credential(com.azure.storage.common.StorageSharedKeyCredential)"
-  fullName: "com.azure.storage.file.datalake.DataLakeFileSystemClientBuilder.credential(StorageSharedKeyCredential credential)"
-  name: "credential(StorageSharedKeyCredential credential)"
-  nameWithType: "DataLakeFileSystemClientBuilder.credential(StorageSharedKeyCredential credential)"
-  summary: "Sets the <xref uid=\"com.azure.storage.common.StorageSharedKeyCredential\" data-throw-if-not-resolved=\"false\" data-raw-source=\"StorageSharedKeyCredential\"></xref> used to authorize requests sent to the service."
-  parameters:
-  - description: "<xref uid=\"com.azure.storage.common.StorageSharedKeyCredential\" data-throw-if-not-resolved=\"false\" data-raw-source=\"StorageSharedKeyCredential\"></xref>."
-    name: "credential"
-    type: "<xref href=\"com.azure.storage.common.StorageSharedKeyCredential?alt=com.azure.storage.common.StorageSharedKeyCredential&text=StorageSharedKeyCredential\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public DataLakeFileSystemClientBuilder credential(StorageSharedKeyCredential credential)"
-  desc: "Sets the <xref uid=\"com.azure.storage.common.StorageSharedKeyCredential\" data-throw-if-not-resolved=\"false\" data-raw-source=\"StorageSharedKeyCredential\"></xref> used to authorize requests sent to the service."
-  returns:
-    description: "the updated DataLakeFileSystemClientBuilder"
-    type: "<xref href=\"com.azure.storage.file.datalake.DataLakeFileSystemClientBuilder?alt=com.azure.storage.file.datalake.DataLakeFileSystemClientBuilder&text=DataLakeFileSystemClientBuilder\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.storage.file.datalake.DataLakeFileSystemClientBuilder.credential(com.azure.core.credential.TokenCredential)"
   fullName: "com.azure.storage.file.datalake.DataLakeFileSystemClientBuilder.credential(TokenCredential credential)"
   name: "credential(TokenCredential credential)"
@@ -159,6 +145,20 @@ methods:
     type: "<xref href=\"com.azure.core.credential.TokenCredential?alt=com.azure.core.credential.TokenCredential&text=TokenCredential\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public DataLakeFileSystemClientBuilder credential(TokenCredential credential)"
   desc: "Sets the <xref uid=\"com.azure.core.credential.TokenCredential\" data-throw-if-not-resolved=\"false\" data-raw-source=\"TokenCredential\"></xref> used to authorize requests sent to the service. Refer to the Azure SDK for Java [identity and authentication][] documentation for more details on proper usage of the <xref uid=\"com.azure.core.credential.TokenCredential\" data-throw-if-not-resolved=\"false\" data-raw-source=\"TokenCredential\"></xref> type.\n\n\n[identity and authentication]: https://aka.ms/azsdk/java/docs/identity"
+  returns:
+    description: "the updated DataLakeFileSystemClientBuilder"
+    type: "<xref href=\"com.azure.storage.file.datalake.DataLakeFileSystemClientBuilder?alt=com.azure.storage.file.datalake.DataLakeFileSystemClientBuilder&text=DataLakeFileSystemClientBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.storage.file.datalake.DataLakeFileSystemClientBuilder.credential(com.azure.storage.common.StorageSharedKeyCredential)"
+  fullName: "com.azure.storage.file.datalake.DataLakeFileSystemClientBuilder.credential(StorageSharedKeyCredential credential)"
+  name: "credential(StorageSharedKeyCredential credential)"
+  nameWithType: "DataLakeFileSystemClientBuilder.credential(StorageSharedKeyCredential credential)"
+  summary: "Sets the <xref uid=\"com.azure.storage.common.StorageSharedKeyCredential\" data-throw-if-not-resolved=\"false\" data-raw-source=\"StorageSharedKeyCredential\"></xref> used to authorize requests sent to the service."
+  parameters:
+  - description: "<xref uid=\"com.azure.storage.common.StorageSharedKeyCredential\" data-throw-if-not-resolved=\"false\" data-raw-source=\"StorageSharedKeyCredential\"></xref>."
+    name: "credential"
+    type: "<xref href=\"com.azure.storage.common.StorageSharedKeyCredential?alt=com.azure.storage.common.StorageSharedKeyCredential&text=StorageSharedKeyCredential\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public DataLakeFileSystemClientBuilder credential(StorageSharedKeyCredential credential)"
+  desc: "Sets the <xref uid=\"com.azure.storage.common.StorageSharedKeyCredential\" data-throw-if-not-resolved=\"false\" data-raw-source=\"StorageSharedKeyCredential\"></xref> used to authorize requests sent to the service."
   returns:
     description: "the updated DataLakeFileSystemClientBuilder"
     type: "<xref href=\"com.azure.storage.file.datalake.DataLakeFileSystemClientBuilder?alt=com.azure.storage.file.datalake.DataLakeFileSystemClientBuilder&text=DataLakeFileSystemClientBuilder\" data-throw-if-not-resolved=\"False\" />"
@@ -272,20 +272,6 @@ methods:
   returns:
     description: "the updated DataLakeFileSystemClientBuilder object"
     type: "<xref href=\"com.azure.storage.file.datalake.DataLakeFileSystemClientBuilder?alt=com.azure.storage.file.datalake.DataLakeFileSystemClientBuilder&text=DataLakeFileSystemClientBuilder\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.storage.file.datalake.DataLakeFileSystemClientBuilder.retryOptions(com.azure.storage.common.policy.RequestRetryOptions)"
-  fullName: "com.azure.storage.file.datalake.DataLakeFileSystemClientBuilder.retryOptions(RequestRetryOptions retryOptions)"
-  name: "retryOptions(RequestRetryOptions retryOptions)"
-  nameWithType: "DataLakeFileSystemClientBuilder.retryOptions(RequestRetryOptions retryOptions)"
-  summary: "Sets the request retry options for all the requests made through the client."
-  parameters:
-  - description: "<xref uid=\"com.azure.storage.common.policy.RequestRetryOptions\" data-throw-if-not-resolved=\"false\" data-raw-source=\"RequestRetryOptions\"></xref>."
-    name: "retryOptions"
-    type: "<xref href=\"com.azure.storage.common.policy.RequestRetryOptions?alt=com.azure.storage.common.policy.RequestRetryOptions&text=RequestRetryOptions\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public DataLakeFileSystemClientBuilder retryOptions(RequestRetryOptions retryOptions)"
-  desc: "Sets the request retry options for all the requests made through the client. Setting this is mutually exclusive with using <xref uid=\"com.azure.storage.file.datalake.DataLakeFileSystemClientBuilder.retryOptions(com.azure.core.http.policy.RetryOptions)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#retryOptions(RetryOptions)\"></xref>."
-  returns:
-    description: "the updated DataLakeFileSystemClientBuilder object."
-    type: "<xref href=\"com.azure.storage.file.datalake.DataLakeFileSystemClientBuilder?alt=com.azure.storage.file.datalake.DataLakeFileSystemClientBuilder&text=DataLakeFileSystemClientBuilder\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.storage.file.datalake.DataLakeFileSystemClientBuilder.retryOptions(com.azure.core.http.policy.RetryOptions)"
   fullName: "com.azure.storage.file.datalake.DataLakeFileSystemClientBuilder.retryOptions(RetryOptions retryOptions)"
   name: "retryOptions(RetryOptions retryOptions)"
@@ -299,6 +285,20 @@ methods:
   desc: "Sets the <xref uid=\"com.azure.core.http.policy.RetryOptions\" data-throw-if-not-resolved=\"false\" data-raw-source=\"RetryOptions\"></xref> for all the requests made through the client.\n\n**Note:** It is important to understand the precedence order of the HttpTrait APIs. In particular, if a <xref uid=\"com.azure.core.http.HttpPipeline\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HttpPipeline\"></xref> is specified, this takes precedence over all other APIs in the trait, and they will be ignored. If no <xref uid=\"com.azure.core.http.HttpPipeline\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HttpPipeline\"></xref> is specified, a HTTP pipeline will be constructed internally based on the settings provided to this trait. Additionally, there may be other APIs in types that implement this trait that are also ignored if an <xref uid=\"com.azure.core.http.HttpPipeline\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HttpPipeline\"></xref> is specified, so please be sure to refer to the documentation of types that implement this trait to understand the full set of implications.\n\nSetting this is mutually exclusive with using <xref uid=\"com.azure.storage.file.datalake.DataLakeFileSystemClientBuilder.retryOptions(com.azure.storage.common.policy.RequestRetryOptions)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#retryOptions(RequestRetryOptions)\"></xref>. Consider using <xref uid=\"com.azure.storage.file.datalake.DataLakeFileSystemClientBuilder.retryOptions(com.azure.storage.common.policy.RequestRetryOptions)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#retryOptions(RequestRetryOptions)\"></xref> to also set storage specific options."
   returns:
     description: "the updated DataLakeFileSystemClientBuilder object"
+    type: "<xref href=\"com.azure.storage.file.datalake.DataLakeFileSystemClientBuilder?alt=com.azure.storage.file.datalake.DataLakeFileSystemClientBuilder&text=DataLakeFileSystemClientBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.storage.file.datalake.DataLakeFileSystemClientBuilder.retryOptions(com.azure.storage.common.policy.RequestRetryOptions)"
+  fullName: "com.azure.storage.file.datalake.DataLakeFileSystemClientBuilder.retryOptions(RequestRetryOptions retryOptions)"
+  name: "retryOptions(RequestRetryOptions retryOptions)"
+  nameWithType: "DataLakeFileSystemClientBuilder.retryOptions(RequestRetryOptions retryOptions)"
+  summary: "Sets the request retry options for all the requests made through the client."
+  parameters:
+  - description: "<xref uid=\"com.azure.storage.common.policy.RequestRetryOptions\" data-throw-if-not-resolved=\"false\" data-raw-source=\"RequestRetryOptions\"></xref>."
+    name: "retryOptions"
+    type: "<xref href=\"com.azure.storage.common.policy.RequestRetryOptions?alt=com.azure.storage.common.policy.RequestRetryOptions&text=RequestRetryOptions\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public DataLakeFileSystemClientBuilder retryOptions(RequestRetryOptions retryOptions)"
+  desc: "Sets the request retry options for all the requests made through the client. Setting this is mutually exclusive with using <xref uid=\"com.azure.storage.file.datalake.DataLakeFileSystemClientBuilder.retryOptions(com.azure.core.http.policy.RetryOptions)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#retryOptions(RetryOptions)\"></xref>."
+  returns:
+    description: "the updated DataLakeFileSystemClientBuilder object."
     type: "<xref href=\"com.azure.storage.file.datalake.DataLakeFileSystemClientBuilder?alt=com.azure.storage.file.datalake.DataLakeFileSystemClientBuilder&text=DataLakeFileSystemClientBuilder\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.storage.file.datalake.DataLakeFileSystemClientBuilder.sasToken(java.lang.String)"
   fullName: "com.azure.storage.file.datalake.DataLakeFileSystemClientBuilder.sasToken(String sasToken)"

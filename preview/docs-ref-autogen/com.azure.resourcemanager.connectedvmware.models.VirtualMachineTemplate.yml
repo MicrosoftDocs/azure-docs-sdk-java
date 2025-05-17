@@ -186,18 +186,6 @@ methods:
   returns:
     description: "the networkInterfaces value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.connectedvmware.models.NetworkInterface?alt=com.azure.resourcemanager.connectedvmware.models.NetworkInterface&text=NetworkInterface\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.resourcemanager.connectedvmware.models.VirtualMachineTemplate.numCoresPerSocket()"
-  fullName: "com.azure.resourcemanager.connectedvmware.models.VirtualMachineTemplate.numCoresPerSocket()"
-  name: "numCoresPerSocket()"
-  nameWithType: "VirtualMachineTemplate.numCoresPerSocket()"
-  summary: "Gets the num<wbr>Cores<wbr>Per<wbr>Socket property: Gets or sets the number of cores per socket for the template."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract Integer numCoresPerSocket()"
-  desc: "Gets the numCoresPerSocket property: Gets or sets the number of cores per socket for the template. Defaults to 1 if unspecified."
-  returns:
-    description: "the numCoresPerSocket value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
 - uid: "com.azure.resourcemanager.connectedvmware.models.VirtualMachineTemplate.numCPUs()"
   fullName: "com.azure.resourcemanager.connectedvmware.models.VirtualMachineTemplate.numCPUs()"
   name: "numCPUs()"
@@ -209,6 +197,18 @@ methods:
   desc: "Gets the numCPUs property: Gets or sets the number of vCPUs for the template."
   returns:
     description: "the numCPUs value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
+- uid: "com.azure.resourcemanager.connectedvmware.models.VirtualMachineTemplate.numCoresPerSocket()"
+  fullName: "com.azure.resourcemanager.connectedvmware.models.VirtualMachineTemplate.numCoresPerSocket()"
+  name: "numCoresPerSocket()"
+  nameWithType: "VirtualMachineTemplate.numCoresPerSocket()"
+  summary: "Gets the num<wbr>Cores<wbr>Per<wbr>Socket property: Gets or sets the number of cores per socket for the template."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract Integer numCoresPerSocket()"
+  desc: "Gets the numCoresPerSocket property: Gets or sets the number of cores per socket for the template. Defaults to 1 if unspecified."
+  returns:
+    description: "the numCoresPerSocket value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
 - uid: "com.azure.resourcemanager.connectedvmware.models.VirtualMachineTemplate.osName()"
   fullName: "com.azure.resourcemanager.connectedvmware.models.VirtualMachineTemplate.osName()"

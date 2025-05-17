@@ -367,16 +367,6 @@ methods:
   returns:
     description: "the primaryNicIpAddress value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.InMageRcmReplicationDetails.processorCoreCount()"
-  fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.InMageRcmReplicationDetails.processorCoreCount()"
-  name: "processorCoreCount()"
-  nameWithType: "InMageRcmReplicationDetails.processorCoreCount()"
-  summary: "Get the processor<wbr>Core<wbr>Count property: The processor core count."
-  syntax: "public Integer processorCoreCount()"
-  desc: "Get the processorCoreCount property: The processor core count."
-  returns:
-    description: "the processorCoreCount value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
 - uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.InMageRcmReplicationDetails.processServerId()"
   fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.InMageRcmReplicationDetails.processServerId()"
   name: "processServerId()"
@@ -397,6 +387,16 @@ methods:
   returns:
     description: "the processServerName value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.InMageRcmReplicationDetails.processorCoreCount()"
+  fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.InMageRcmReplicationDetails.processorCoreCount()"
+  name: "processorCoreCount()"
+  nameWithType: "InMageRcmReplicationDetails.processorCoreCount()"
+  summary: "Get the processor<wbr>Core<wbr>Count property: The processor core count."
+  syntax: "public Integer processorCoreCount()"
+  desc: "Get the processorCoreCount property: The processor core count."
+  returns:
+    description: "the processorCoreCount value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
 - uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.InMageRcmReplicationDetails.protectedDisks()"
   fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.InMageRcmReplicationDetails.protectedDisks()"
   name: "protectedDisks()"

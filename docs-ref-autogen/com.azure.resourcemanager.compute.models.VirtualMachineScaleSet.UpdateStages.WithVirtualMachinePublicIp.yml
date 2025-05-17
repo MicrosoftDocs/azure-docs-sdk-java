@@ -18,22 +18,6 @@ methods:
   returns:
     description: "the next stage of the update"
     type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.UpdateStages.WithApply?alt=com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.UpdateStages.WithApply&text=WithApply\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.UpdateStages.WithVirtualMachinePublicIp.withVirtualMachinePublicIp(java.lang.String)"
-  fullName: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.UpdateStages.WithVirtualMachinePublicIp.withVirtualMachinePublicIp(String leafDomainLabel)"
-  name: "withVirtualMachinePublicIp(String leafDomainLabel)"
-  nameWithType: "VirtualMachineScaleSet.UpdateStages.WithVirtualMachinePublicIp.withVirtualMachinePublicIp(String leafDomainLabel)"
-  summary: "Specify that virtual machines in the scale set should have public ip address."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "the domain name label"
-    name: "leafDomainLabel"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public abstract VirtualMachineScaleSet.UpdateStages.WithApply withVirtualMachinePublicIp(String leafDomainLabel)"
-  desc: "Specify that virtual machines in the scale set should have public ip address."
-  returns:
-    description: "the next stage of the update"
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.UpdateStages.WithApply?alt=com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.UpdateStages.WithApply&text=WithApply\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.UpdateStages.WithVirtualMachinePublicIp.withVirtualMachinePublicIp(com.azure.resourcemanager.compute.models.VirtualMachineScaleSetPublicIpAddressConfiguration)"
   fullName: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.UpdateStages.WithVirtualMachinePublicIp.withVirtualMachinePublicIp(VirtualMachineScaleSetPublicIpAddressConfiguration ipConfig)"
   name: "withVirtualMachinePublicIp(VirtualMachineScaleSetPublicIpAddressConfiguration ipConfig)"
@@ -46,6 +30,22 @@ methods:
     name: "ipConfig"
     type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachineScaleSetPublicIpAddressConfiguration?alt=com.azure.resourcemanager.compute.models.VirtualMachineScaleSetPublicIpAddressConfiguration&text=VirtualMachineScaleSetPublicIpAddressConfiguration\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract VirtualMachineScaleSet.UpdateStages.WithApply withVirtualMachinePublicIp(VirtualMachineScaleSetPublicIpAddressConfiguration ipConfig)"
+  desc: "Specify that virtual machines in the scale set should have public ip address."
+  returns:
+    description: "the next stage of the update"
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.UpdateStages.WithApply?alt=com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.UpdateStages.WithApply&text=WithApply\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.UpdateStages.WithVirtualMachinePublicIp.withVirtualMachinePublicIp(java.lang.String)"
+  fullName: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.UpdateStages.WithVirtualMachinePublicIp.withVirtualMachinePublicIp(String leafDomainLabel)"
+  name: "withVirtualMachinePublicIp(String leafDomainLabel)"
+  nameWithType: "VirtualMachineScaleSet.UpdateStages.WithVirtualMachinePublicIp.withVirtualMachinePublicIp(String leafDomainLabel)"
+  summary: "Specify that virtual machines in the scale set should have public ip address."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "the domain name label"
+    name: "leafDomainLabel"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract VirtualMachineScaleSet.UpdateStages.WithApply withVirtualMachinePublicIp(String leafDomainLabel)"
   desc: "Specify that virtual machines in the scale set should have public ip address."
   returns:
     description: "the next stage of the update"

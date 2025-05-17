@@ -66,16 +66,6 @@ methods:
   returns:
     description: "the versionHeaderName value."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.azure.management.apimanagement.v2019_01_01.ApiVersionSetContract.versioningScheme()"
-  fullName: "com.microsoft.azure.management.apimanagement.v2019_01_01.ApiVersionSetContract.versioningScheme()"
-  name: "versioningScheme()"
-  nameWithType: "ApiVersionSetContract.versioningScheme()"
-  modifiers:
-  - "abstract"
-  syntax: "public abstract VersioningScheme versioningScheme()"
-  returns:
-    description: "the versioningScheme value."
-    type: "<xref href=\"com.microsoft.azure.management.apimanagement.v2019_01_01.VersioningScheme?alt=com.microsoft.azure.management.apimanagement.v2019_01_01.VersioningScheme&text=VersioningScheme\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.management.apimanagement.v2019_01_01.ApiVersionSetContract.versionQueryName()"
   fullName: "com.microsoft.azure.management.apimanagement.v2019_01_01.ApiVersionSetContract.versionQueryName()"
   name: "versionQueryName()"
@@ -86,6 +76,16 @@ methods:
   returns:
     description: "the versionQueryName value."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.azure.management.apimanagement.v2019_01_01.ApiVersionSetContract.versioningScheme()"
+  fullName: "com.microsoft.azure.management.apimanagement.v2019_01_01.ApiVersionSetContract.versioningScheme()"
+  name: "versioningScheme()"
+  nameWithType: "ApiVersionSetContract.versioningScheme()"
+  modifiers:
+  - "abstract"
+  syntax: "public abstract VersioningScheme versioningScheme()"
+  returns:
+    description: "the versioningScheme value."
+    type: "<xref href=\"com.microsoft.azure.management.apimanagement.v2019_01_01.VersioningScheme?alt=com.microsoft.azure.management.apimanagement.v2019_01_01.VersioningScheme&text=VersioningScheme\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 desc: "Type representing ApiVersionSetContract."
 implements:

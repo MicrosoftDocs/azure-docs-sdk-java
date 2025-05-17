@@ -126,6 +126,14 @@ methods:
   returns:
     description: "the MD5 of the page blob's content"
     type: "<xref href=\"byte?alt=byte&text=byte\" data-throw-if-not-resolved=\"False\" />[]"
+- uid: "com.azure.storage.blob.models.PageBlobItem.getETag()"
+  fullName: "com.azure.storage.blob.models.PageBlobItem.getETag()"
+  name: "getETag()"
+  nameWithType: "PageBlobItem.getETag()"
+  syntax: "public String getETag()"
+  returns:
+    description: "the eTag of the page blob"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.storage.blob.models.PageBlobItem.getEncryptionKeySha256()"
   fullName: "com.azure.storage.blob.models.PageBlobItem.getEncryptionKeySha256()"
   name: "getEncryptionKeySha256()"
@@ -141,14 +149,6 @@ methods:
   syntax: "public String getEncryptionScope()"
   returns:
     description: "the encryption scope used to encrypt the page blob"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.storage.blob.models.PageBlobItem.getETag()"
-  fullName: "com.azure.storage.blob.models.PageBlobItem.getETag()"
-  name: "getETag()"
-  nameWithType: "PageBlobItem.getETag()"
-  syntax: "public String getETag()"
-  returns:
-    description: "the eTag of the page blob"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.storage.blob.models.PageBlobItem.getLastModified()"
   fullName: "com.azure.storage.blob.models.PageBlobItem.getLastModified()"

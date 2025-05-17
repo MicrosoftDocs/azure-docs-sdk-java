@@ -186,18 +186,6 @@ methods:
   returns:
     description: "the VCentersClient object."
     type: "<xref href=\"com.azure.resourcemanager.connectedvmware.fluent.VCentersClient?alt=com.azure.resourcemanager.connectedvmware.fluent.VCentersClient&text=VCentersClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.connectedvmware.fluent.ConnectedVMwareClient.getVirtualMachines()"
-  fullName: "com.azure.resourcemanager.connectedvmware.fluent.ConnectedVMwareClient.getVirtualMachines()"
-  name: "getVirtualMachines()"
-  nameWithType: "ConnectedVMwareClient.getVirtualMachines()"
-  summary: "Gets the Virtual<wbr>Machines<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract VirtualMachinesClient getVirtualMachines()"
-  desc: "Gets the VirtualMachinesClient object to access its operations."
-  returns:
-    description: "the VirtualMachinesClient object."
-    type: "<xref href=\"com.azure.resourcemanager.connectedvmware.fluent.VirtualMachinesClient?alt=com.azure.resourcemanager.connectedvmware.fluent.VirtualMachinesClient&text=VirtualMachinesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.connectedvmware.fluent.ConnectedVMwareClient.getVirtualMachineTemplates()"
   fullName: "com.azure.resourcemanager.connectedvmware.fluent.ConnectedVMwareClient.getVirtualMachineTemplates()"
   name: "getVirtualMachineTemplates()"
@@ -210,6 +198,18 @@ methods:
   returns:
     description: "the VirtualMachineTemplatesClient object."
     type: "<xref href=\"com.azure.resourcemanager.connectedvmware.fluent.VirtualMachineTemplatesClient?alt=com.azure.resourcemanager.connectedvmware.fluent.VirtualMachineTemplatesClient&text=VirtualMachineTemplatesClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.connectedvmware.fluent.ConnectedVMwareClient.getVirtualMachines()"
+  fullName: "com.azure.resourcemanager.connectedvmware.fluent.ConnectedVMwareClient.getVirtualMachines()"
+  name: "getVirtualMachines()"
+  nameWithType: "ConnectedVMwareClient.getVirtualMachines()"
+  summary: "Gets the Virtual<wbr>Machines<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract VirtualMachinesClient getVirtualMachines()"
+  desc: "Gets the VirtualMachinesClient object to access its operations."
+  returns:
+    description: "the VirtualMachinesClient object."
+    type: "<xref href=\"com.azure.resourcemanager.connectedvmware.fluent.VirtualMachinesClient?alt=com.azure.resourcemanager.connectedvmware.fluent.VirtualMachinesClient&text=VirtualMachinesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.connectedvmware.fluent.ConnectedVMwareClient.getVirtualNetworks()"
   fullName: "com.azure.resourcemanager.connectedvmware.fluent.ConnectedVMwareClient.getVirtualNetworks()"
   name: "getVirtualNetworks()"

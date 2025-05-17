@@ -62,22 +62,6 @@ methods:
   returns:
     description: "the next stage of access policy definition"
     type: "<xref href=\"com.microsoft.azure.management.keyvault.AccessPolicy.UpdateDefinitionStages.WithAttach?alt=com.microsoft.azure.management.keyvault.AccessPolicy.UpdateDefinitionStages.WithAttach&text=WithAttach\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.microsoft.azure.management.keyvault.AccessPolicy.UpdateDefinitionStages.WithPermissions.allowSecretPermissions(java.util.List<com.microsoft.azure.management.keyvault.SecretPermissions>)"
-  fullName: "com.microsoft.azure.management.keyvault.AccessPolicy.UpdateDefinitionStages.WithPermissions<ParentT>.allowSecretPermissions(List<SecretPermissions> permissions)"
-  name: "allowSecretPermissions(List<SecretPermissions> permissions)"
-  nameWithType: "AccessPolicy.UpdateDefinitionStages.WithPermissions<ParentT>.allowSecretPermissions(List<SecretPermissions> permissions)"
-  summary: "Allow a list of permissions for the AD identity to access secrets."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "the list of permissions allowed"
-    name: "permissions"
-    type: "<xref href=\"java.util.List?alt=java.util.List&text=List\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.management.keyvault.SecretPermissions?alt=com.microsoft.azure.management.keyvault.SecretPermissions&text=SecretPermissions\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public abstract AccessPolicy.UpdateDefinitionStages.WithAttach<ParentT> allowSecretPermissions(List<SecretPermissions> permissions)"
-  desc: "Allow a list of permissions for the AD identity to access secrets."
-  returns:
-    description: "the next stage of access policy definition"
-    type: "<xref href=\"com.microsoft.azure.management.keyvault.AccessPolicy.UpdateDefinitionStages.WithAttach?alt=com.microsoft.azure.management.keyvault.AccessPolicy.UpdateDefinitionStages.WithAttach&text=WithAttach\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.microsoft.azure.management.keyvault.AccessPolicy.UpdateDefinitionStages.WithPermissions.allowSecretPermissions(com.microsoft.azure.management.keyvault.SecretPermissions...)"
   fullName: "com.microsoft.azure.management.keyvault.AccessPolicy.UpdateDefinitionStages.WithPermissions<ParentT>.allowSecretPermissions(SecretPermissions[] permissions)"
   name: "allowSecretPermissions(SecretPermissions[] permissions)"
@@ -94,6 +78,22 @@ methods:
   returns:
     description: "the next stage of access policy definition"
     type: "<xref href=\"com.microsoft.azure.management.keyvault.AccessPolicy.UpdateDefinitionStages.WithAttach?alt=com.microsoft.azure.management.keyvault.AccessPolicy.UpdateDefinitionStages.WithAttach&text=WithAttach\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.microsoft.azure.management.keyvault.AccessPolicy.UpdateDefinitionStages.WithPermissions.allowSecretPermissions(java.util.List<com.microsoft.azure.management.keyvault.SecretPermissions>)"
+  fullName: "com.microsoft.azure.management.keyvault.AccessPolicy.UpdateDefinitionStages.WithPermissions<ParentT>.allowSecretPermissions(List<SecretPermissions> permissions)"
+  name: "allowSecretPermissions(List<SecretPermissions> permissions)"
+  nameWithType: "AccessPolicy.UpdateDefinitionStages.WithPermissions<ParentT>.allowSecretPermissions(List<SecretPermissions> permissions)"
+  summary: "Allow a list of permissions for the AD identity to access secrets."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "the list of permissions allowed"
+    name: "permissions"
+    type: "<xref href=\"java.util.List?alt=java.util.List&text=List\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.management.keyvault.SecretPermissions?alt=com.microsoft.azure.management.keyvault.SecretPermissions&text=SecretPermissions\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public abstract AccessPolicy.UpdateDefinitionStages.WithAttach<ParentT> allowSecretPermissions(List<SecretPermissions> permissions)"
+  desc: "Allow a list of permissions for the AD identity to access secrets."
+  returns:
+    description: "the next stage of access policy definition"
+    type: "<xref href=\"com.microsoft.azure.management.keyvault.AccessPolicy.UpdateDefinitionStages.WithAttach?alt=com.microsoft.azure.management.keyvault.AccessPolicy.UpdateDefinitionStages.WithAttach&text=WithAttach\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.microsoft.azure.management.keyvault.AccessPolicy.UpdateDefinitionStages.WithPermissions.allowStorageAllPermissions()"
   fullName: "com.microsoft.azure.management.keyvault.AccessPolicy.UpdateDefinitionStages.WithPermissions<ParentT>.allowStorageAllPermissions()"
   name: "allowStorageAllPermissions()"
@@ -103,22 +103,6 @@ methods:
   - "abstract"
   syntax: "public abstract AccessPolicy.UpdateDefinitionStages.WithAttach<ParentT> allowStorageAllPermissions()"
   desc: "Allow all permissions for the Ad identity to access storage."
-  returns:
-    description: "the next stage of access policy definition"
-    type: "<xref href=\"com.microsoft.azure.management.keyvault.AccessPolicy.UpdateDefinitionStages.WithAttach?alt=com.microsoft.azure.management.keyvault.AccessPolicy.UpdateDefinitionStages.WithAttach&text=WithAttach\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.microsoft.azure.management.keyvault.AccessPolicy.UpdateDefinitionStages.WithPermissions.allowStoragePermissions(java.util.List<com.microsoft.azure.management.keyvault.StoragePermissions>)"
-  fullName: "com.microsoft.azure.management.keyvault.AccessPolicy.UpdateDefinitionStages.WithPermissions<ParentT>.allowStoragePermissions(List<StoragePermissions> permissions)"
-  name: "allowStoragePermissions(List<StoragePermissions> permissions)"
-  nameWithType: "AccessPolicy.UpdateDefinitionStages.WithPermissions<ParentT>.allowStoragePermissions(List<StoragePermissions> permissions)"
-  summary: "Allow a list of permissions for the AD identity to access storage."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "the list of permissions allowed"
-    name: "permissions"
-    type: "<xref href=\"java.util.List?alt=java.util.List&text=List\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.management.keyvault.StoragePermissions?alt=com.microsoft.azure.management.keyvault.StoragePermissions&text=StoragePermissions\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public abstract AccessPolicy.UpdateDefinitionStages.WithAttach<ParentT> allowStoragePermissions(List<StoragePermissions> permissions)"
-  desc: "Allow a list of permissions for the AD identity to access storage."
   returns:
     description: "the next stage of access policy definition"
     type: "<xref href=\"com.microsoft.azure.management.keyvault.AccessPolicy.UpdateDefinitionStages.WithAttach?alt=com.microsoft.azure.management.keyvault.AccessPolicy.UpdateDefinitionStages.WithAttach&text=WithAttach\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -134,6 +118,22 @@ methods:
     name: "permissions"
     type: "<xref href=\"com.microsoft.azure.management.keyvault.StoragePermissions?alt=com.microsoft.azure.management.keyvault.StoragePermissions&text=StoragePermissions\" data-throw-if-not-resolved=\"False\" />[]"
   syntax: "public abstract AccessPolicy.UpdateDefinitionStages.WithAttach<ParentT> allowStoragePermissions(StoragePermissions[] permissions)"
+  desc: "Allow a list of permissions for the AD identity to access storage."
+  returns:
+    description: "the next stage of access policy definition"
+    type: "<xref href=\"com.microsoft.azure.management.keyvault.AccessPolicy.UpdateDefinitionStages.WithAttach?alt=com.microsoft.azure.management.keyvault.AccessPolicy.UpdateDefinitionStages.WithAttach&text=WithAttach\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.microsoft.azure.management.keyvault.AccessPolicy.UpdateDefinitionStages.WithPermissions.allowStoragePermissions(java.util.List<com.microsoft.azure.management.keyvault.StoragePermissions>)"
+  fullName: "com.microsoft.azure.management.keyvault.AccessPolicy.UpdateDefinitionStages.WithPermissions<ParentT>.allowStoragePermissions(List<StoragePermissions> permissions)"
+  name: "allowStoragePermissions(List<StoragePermissions> permissions)"
+  nameWithType: "AccessPolicy.UpdateDefinitionStages.WithPermissions<ParentT>.allowStoragePermissions(List<StoragePermissions> permissions)"
+  summary: "Allow a list of permissions for the AD identity to access storage."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "the list of permissions allowed"
+    name: "permissions"
+    type: "<xref href=\"java.util.List?alt=java.util.List&text=List\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.management.keyvault.StoragePermissions?alt=com.microsoft.azure.management.keyvault.StoragePermissions&text=StoragePermissions\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public abstract AccessPolicy.UpdateDefinitionStages.WithAttach<ParentT> allowStoragePermissions(List<StoragePermissions> permissions)"
   desc: "Allow a list of permissions for the AD identity to access storage."
   returns:
     description: "the next stage of access policy definition"

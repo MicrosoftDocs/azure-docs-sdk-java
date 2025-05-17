@@ -125,18 +125,6 @@ methods:
   returns:
     description: "The response content as a <xref uid=\"java.lang.String\" data-throw-if-not-resolved=\"false\" data-raw-source=\"String\"></xref>."
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-- uid: "com.azure.core.http.HttpResponse.getHeaders()"
-  fullName: "com.azure.core.http.HttpResponse.getHeaders()"
-  name: "getHeaders()"
-  nameWithType: "HttpResponse.getHeaders()"
-  summary: "Get all response headers."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract HttpHeaders getHeaders()"
-  desc: "Get all response headers."
-  returns:
-    description: "the response headers"
-    type: "<xref href=\"com.azure.core.http.HttpHeaders?alt=com.azure.core.http.HttpHeaders&text=HttpHeaders\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.core.http.HttpResponse.getHeaderValue(com.azure.core.http.HttpHeaderName)"
   fullName: "com.azure.core.http.HttpResponse.getHeaderValue(HttpHeaderName headerName)"
   name: "getHeaderValue(HttpHeaderName headerName)"
@@ -169,6 +157,18 @@ methods:
   returns:
     description: "the value of the header, or null if the header doesn't exist in the response."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.core.http.HttpResponse.getHeaders()"
+  fullName: "com.azure.core.http.HttpResponse.getHeaders()"
+  name: "getHeaders()"
+  nameWithType: "HttpResponse.getHeaders()"
+  summary: "Get all response headers."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract HttpHeaders getHeaders()"
+  desc: "Get all response headers."
+  returns:
+    description: "the response headers"
+    type: "<xref href=\"com.azure.core.http.HttpHeaders?alt=com.azure.core.http.HttpHeaders&text=HttpHeaders\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.core.http.HttpResponse.getRequest()"
   fullName: "com.azure.core.http.HttpResponse.getRequest()"
   name: "getRequest()"

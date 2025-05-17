@@ -747,16 +747,6 @@ methods:
   returns:
     description: "the ClusterInner object itself."
     type: "<xref href=\"com.azure.resourcemanager.kusto.fluent.models.ClusterInner?alt=com.azure.resourcemanager.kusto.fluent.models.ClusterInner&text=ClusterInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.kusto.fluent.models.ClusterInner.zones()"
-  fullName: "com.azure.resourcemanager.kusto.fluent.models.ClusterInner.zones()"
-  name: "zones()"
-  nameWithType: "ClusterInner.zones()"
-  summary: "Get the zones property: The availability zones of the cluster."
-  syntax: "public List<String> zones()"
-  desc: "Get the zones property: The availability zones of the cluster."
-  returns:
-    description: "the zones value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
 - uid: "com.azure.resourcemanager.kusto.fluent.models.ClusterInner.zoneStatus()"
   fullName: "com.azure.resourcemanager.kusto.fluent.models.ClusterInner.zoneStatus()"
   name: "zoneStatus()"
@@ -767,6 +757,16 @@ methods:
   returns:
     description: "the zoneStatus value."
     type: "<xref href=\"com.azure.resourcemanager.kusto.models.ZoneStatus?alt=com.azure.resourcemanager.kusto.models.ZoneStatus&text=ZoneStatus\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.kusto.fluent.models.ClusterInner.zones()"
+  fullName: "com.azure.resourcemanager.kusto.fluent.models.ClusterInner.zones()"
+  name: "zones()"
+  nameWithType: "ClusterInner.zones()"
+  summary: "Get the zones property: The availability zones of the cluster."
+  syntax: "public List<String> zones()"
+  desc: "Get the zones property: The availability zones of the cluster."
+  returns:
+    description: "the zones value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
 type: "class"
 desc: "Class representing a Kusto cluster."
 metadata: {}

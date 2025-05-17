@@ -86,16 +86,6 @@ methods:
   returns:
     description: "the appId value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphApplicationInner.applicationTemplateId()"
-  fullName: "com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphApplicationInner.applicationTemplateId()"
-  name: "applicationTemplateId()"
-  nameWithType: "MicrosoftGraphApplicationInner.applicationTemplateId()"
-  summary: "Get the application<wbr>Template<wbr>Id property: The application<wbr>Template<wbr>Id property."
-  syntax: "public String applicationTemplateId()"
-  desc: "Get the applicationTemplateId property: The applicationTemplateId property."
-  returns:
-    description: "the applicationTemplateId value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphApplicationInner.appRoles()"
   fullName: "com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphApplicationInner.appRoles()"
   name: "appRoles()"
@@ -106,6 +96,16 @@ methods:
   returns:
     description: "the appRoles value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphAppRole?alt=com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphAppRole&text=MicrosoftGraphAppRole\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphApplicationInner.applicationTemplateId()"
+  fullName: "com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphApplicationInner.applicationTemplateId()"
+  name: "applicationTemplateId()"
+  nameWithType: "MicrosoftGraphApplicationInner.applicationTemplateId()"
+  summary: "Get the application<wbr>Template<wbr>Id property: The application<wbr>Template<wbr>Id property."
+  syntax: "public String applicationTemplateId()"
+  desc: "Get the applicationTemplateId property: The applicationTemplateId property."
+  returns:
+    description: "the applicationTemplateId value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphApplicationInner.createdDateTime()"
   fullName: "com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphApplicationInner.createdDateTime()"
   name: "createdDateTime()"
@@ -351,7 +351,7 @@ methods:
   nameWithType: "MicrosoftGraphApplicationInner.signInAudience()"
   summary: "Get the sign<wbr>InAudience property: Specifies the Microsoft accounts that are supported for the current application."
   syntax: "public String signInAudience()"
-  desc: "Get the signInAudience property: Specifies the Microsoft accounts that are supported for the current application. Supported values are:AzureADMyOrg: Users with a Microsoft work or school account in my organization’s Azure AD tenant (single tenant)AzureADMultipleOrgs: Users with a Microsoft work or school account in any organization’s Azure AD tenant (multi-tenant).AzureADandPersonalMicrosoftAccount: Users with a personal Microsoft account, or a work or school account in any organization’s Azure AD tenant.PersonalMicrosoftAccount: Users with a personal Microsoft account only.For authenticating users with Azure AD B2C user flows, use AzureADandPersonalMicrosoftAccount. This value allows for the widest set of user identities including local accounts and user identities from Microsoft, Facebook, Google, Twitter, or any OpenID Connect provider."
+  desc: "Get the signInAudience property: Specifies the Microsoft accounts that are supported for the current application. Supported values are:AzureADMyOrg: Users with a Microsoft work or school account in my organization\\\\u2019s Azure AD tenant (single tenant)AzureADMultipleOrgs: Users with a Microsoft work or school account in any organization\\\\u2019s Azure AD tenant (multi-tenant).AzureADandPersonalMicrosoftAccount: Users with a personal Microsoft account, or a work or school account in any organization\\\\u2019s Azure AD tenant.PersonalMicrosoftAccount: Users with a personal Microsoft account only.For authenticating users with Azure AD B2C user flows, use AzureADandPersonalMicrosoftAccount. This value allows for the widest set of user identities including local accounts and user identities from Microsoft, Facebook, Google, Twitter, or any OpenID Connect provider."
   returns:
     description: "the signInAudience value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -483,20 +483,6 @@ methods:
   returns:
     description: "the MicrosoftGraphApplicationInner object itself."
     type: "<xref href=\"com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphApplicationInner?alt=com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphApplicationInner&text=MicrosoftGraphApplicationInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphApplicationInner.withApplicationTemplateId(java.lang.String)"
-  fullName: "com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphApplicationInner.withApplicationTemplateId(String applicationTemplateId)"
-  name: "withApplicationTemplateId(String applicationTemplateId)"
-  nameWithType: "MicrosoftGraphApplicationInner.withApplicationTemplateId(String applicationTemplateId)"
-  summary: "Set the application<wbr>Template<wbr>Id property: The application<wbr>Template<wbr>Id property."
-  parameters:
-  - description: "the applicationTemplateId value to set."
-    name: "applicationTemplateId"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public MicrosoftGraphApplicationInner withApplicationTemplateId(String applicationTemplateId)"
-  desc: "Set the applicationTemplateId property: The applicationTemplateId property."
-  returns:
-    description: "the MicrosoftGraphApplicationInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphApplicationInner?alt=com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphApplicationInner&text=MicrosoftGraphApplicationInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphApplicationInner.withAppRoles(java.util.List<com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphAppRole>)"
   fullName: "com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphApplicationInner.withAppRoles(List<MicrosoftGraphAppRole> appRoles)"
   name: "withAppRoles(List<MicrosoftGraphAppRole> appRoles)"
@@ -508,6 +494,20 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphAppRole?alt=com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphAppRole&text=MicrosoftGraphAppRole\" data-throw-if-not-resolved=\"False\" />&gt;"
   syntax: "public MicrosoftGraphApplicationInner withAppRoles(List<MicrosoftGraphAppRole> appRoles)"
   desc: "Set the appRoles property: The collection of roles the application declares. With app role assignments, these roles can be assigned to users, groups, or other applications' service principals. Not nullable."
+  returns:
+    description: "the MicrosoftGraphApplicationInner object itself."
+    type: "<xref href=\"com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphApplicationInner?alt=com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphApplicationInner&text=MicrosoftGraphApplicationInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphApplicationInner.withApplicationTemplateId(java.lang.String)"
+  fullName: "com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphApplicationInner.withApplicationTemplateId(String applicationTemplateId)"
+  name: "withApplicationTemplateId(String applicationTemplateId)"
+  nameWithType: "MicrosoftGraphApplicationInner.withApplicationTemplateId(String applicationTemplateId)"
+  summary: "Set the application<wbr>Template<wbr>Id property: The application<wbr>Template<wbr>Id property."
+  parameters:
+  - description: "the applicationTemplateId value to set."
+    name: "applicationTemplateId"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public MicrosoftGraphApplicationInner withApplicationTemplateId(String applicationTemplateId)"
+  desc: "Set the applicationTemplateId property: The applicationTemplateId property."
   returns:
     description: "the MicrosoftGraphApplicationInner object itself."
     type: "<xref href=\"com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphApplicationInner?alt=com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphApplicationInner&text=MicrosoftGraphApplicationInner\" data-throw-if-not-resolved=\"False\" />"
@@ -855,7 +855,7 @@ methods:
     name: "signInAudience"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public MicrosoftGraphApplicationInner withSignInAudience(String signInAudience)"
-  desc: "Set the signInAudience property: Specifies the Microsoft accounts that are supported for the current application. Supported values are:AzureADMyOrg: Users with a Microsoft work or school account in my organization’s Azure AD tenant (single tenant)AzureADMultipleOrgs: Users with a Microsoft work or school account in any organization’s Azure AD tenant (multi-tenant).AzureADandPersonalMicrosoftAccount: Users with a personal Microsoft account, or a work or school account in any organization’s Azure AD tenant.PersonalMicrosoftAccount: Users with a personal Microsoft account only.For authenticating users with Azure AD B2C user flows, use AzureADandPersonalMicrosoftAccount. This value allows for the widest set of user identities including local accounts and user identities from Microsoft, Facebook, Google, Twitter, or any OpenID Connect provider."
+  desc: "Set the signInAudience property: Specifies the Microsoft accounts that are supported for the current application. Supported values are:AzureADMyOrg: Users with a Microsoft work or school account in my organization\\\\u2019s Azure AD tenant (single tenant)AzureADMultipleOrgs: Users with a Microsoft work or school account in any organization\\\\u2019s Azure AD tenant (multi-tenant).AzureADandPersonalMicrosoftAccount: Users with a personal Microsoft account, or a work or school account in any organization\\\\u2019s Azure AD tenant.PersonalMicrosoftAccount: Users with a personal Microsoft account only.For authenticating users with Azure AD B2C user flows, use AzureADandPersonalMicrosoftAccount. This value allows for the widest set of user identities including local accounts and user identities from Microsoft, Facebook, Google, Twitter, or any OpenID Connect provider."
   returns:
     description: "the MicrosoftGraphApplicationInner object itself."
     type: "<xref href=\"com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphApplicationInner?alt=com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphApplicationInner&text=MicrosoftGraphApplicationInner\" data-throw-if-not-resolved=\"False\" />"

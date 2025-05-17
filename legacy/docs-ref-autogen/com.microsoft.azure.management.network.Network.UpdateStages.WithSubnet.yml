@@ -38,22 +38,6 @@ methods:
   returns:
     description: "the first stage of the subnet update description"
     type: "<xref href=\"com.microsoft.azure.management.network.Subnet.Update?alt=com.microsoft.azure.management.network.Subnet.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.azure.management.network.Network.UpdateStages.WithSubnet.withoutSubnet(java.lang.String)"
-  fullName: "com.microsoft.azure.management.network.Network.UpdateStages.WithSubnet.withoutSubnet(String name)"
-  name: "withoutSubnet(String name)"
-  nameWithType: "Network.UpdateStages.WithSubnet.withoutSubnet(String name)"
-  summary: "Removes a subnet from the virtual network."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "name of the subnet to remove"
-    name: "name"
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract Network.Update withoutSubnet(String name)"
-  desc: "Removes a subnet from the virtual network."
-  returns:
-    description: "the next stage of the virtual network update"
-    type: "<xref href=\"com.microsoft.azure.management.network.Network.Update?alt=com.microsoft.azure.management.network.Network.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.management.network.Network.UpdateStages.WithSubnet.withSubnet(java.lang.String,java.lang.String)"
   fullName: "com.microsoft.azure.management.network.Network.UpdateStages.WithSubnet.withSubnet(String name, String cidr)"
   name: "withSubnet(String name, String cidr)"
@@ -86,6 +70,22 @@ methods:
     type: "<xref href=\"java.util.Map?alt=java.util.Map&text=Map\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
   syntax: "public abstract Network.Update withSubnets(Map<String,String> nameCidrPairs)"
   desc: "Explicitly defines all the subnets in the virtual network based on the provided map.\n\nThis replaces any previously existing subnets."
+  returns:
+    description: "the next stage of the virtual network update"
+    type: "<xref href=\"com.microsoft.azure.management.network.Network.Update?alt=com.microsoft.azure.management.network.Network.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.azure.management.network.Network.UpdateStages.WithSubnet.withoutSubnet(java.lang.String)"
+  fullName: "com.microsoft.azure.management.network.Network.UpdateStages.WithSubnet.withoutSubnet(String name)"
+  name: "withoutSubnet(String name)"
+  nameWithType: "Network.UpdateStages.WithSubnet.withoutSubnet(String name)"
+  summary: "Removes a subnet from the virtual network."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "name of the subnet to remove"
+    name: "name"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract Network.Update withoutSubnet(String name)"
+  desc: "Removes a subnet from the virtual network."
   returns:
     description: "the next stage of the virtual network update"
     type: "<xref href=\"com.microsoft.azure.management.network.Network.Update?alt=com.microsoft.azure.management.network.Network.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"

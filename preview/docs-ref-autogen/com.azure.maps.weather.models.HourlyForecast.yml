@@ -145,9 +145,9 @@ methods:
   fullName: "com.azure.maps.weather.models.HourlyForecast.getRealFeelTemperature()"
   name: "getRealFeelTemperature()"
   nameWithType: "HourlyForecast.getRealFeelTemperature()"
-  summary: "Get the real<wbr>Feel<wbr>Temperature property: Real<wbr>Feel™ Temperature being returned."
+  summary: "Get the real<wbr>Feel<wbr>Temperature property: Real<wbr>Feel\\\\u2122 Temperature being returned."
   syntax: "public WeatherUnitDetails getRealFeelTemperature()"
-  desc: "Get the realFeelTemperature property: RealFeel™ Temperature being returned. Describes what the temperature really feels like in the shade."
+  desc: "Get the realFeelTemperature property: RealFeel\\\\u2122 Temperature being returned. Describes what the temperature really feels like in the shade."
   returns:
     description: "the realFeelTemperature value."
     type: "<xref href=\"com.azure.maps.weather.models.WeatherUnitDetails?alt=com.azure.maps.weather.models.WeatherUnitDetails&text=WeatherUnitDetails\" data-throw-if-not-resolved=\"False\" />"

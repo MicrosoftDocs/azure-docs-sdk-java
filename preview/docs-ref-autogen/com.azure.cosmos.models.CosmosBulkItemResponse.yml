@@ -22,6 +22,20 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **CosmosBulkItemResponse**"
 methods:
+- uid: "com.azure.cosmos.models.CosmosBulkItemResponse.<T>getItem(java.lang.Class<T>)"
+  fullName: "com.azure.cosmos.models.CosmosBulkItemResponse.getItem(Class<T> type)"
+  name: "getItem(Class<T> type)"
+  nameWithType: "CosmosBulkItemResponse.getItem(Class<T> type)"
+  summary: "Gets the item associated with the current result."
+  parameters:
+  - description: "class type for which deserialization is needed."
+    name: "type"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Class.html\">Class</a>&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public T <T>getItem(Class<T> type)"
+  desc: "Gets the item associated with the current result."
+  returns:
+    description: "item associated with the current result."
+    type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.cosmos.models.CosmosBulkItemResponse.getActivityId()"
   fullName: "com.azure.cosmos.models.CosmosBulkItemResponse.getActivityId()"
   name: "getActivityId()"
@@ -62,20 +76,6 @@ methods:
   returns:
     description: "Entity tag associated with the current item."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.cosmos.models.CosmosBulkItemResponse.<T>getItem(java.lang.Class<T>)"
-  fullName: "com.azure.cosmos.models.CosmosBulkItemResponse.getItem(Class<T> type)"
-  name: "getItem(Class<T> type)"
-  nameWithType: "CosmosBulkItemResponse.getItem(Class<T> type)"
-  summary: "Gets the item associated with the current result."
-  parameters:
-  - description: "class type for which deserialization is needed."
-    name: "type"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Class.html\">Class</a>&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public T <T>getItem(Class<T> type)"
-  desc: "Gets the item associated with the current result."
-  returns:
-    description: "item associated with the current result."
-    type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.cosmos.models.CosmosBulkItemResponse.getRequestCharge()"
   fullName: "com.azure.cosmos.models.CosmosBulkItemResponse.getRequestCharge()"
   name: "getRequestCharge()"

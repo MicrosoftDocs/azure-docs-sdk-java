@@ -116,7 +116,7 @@ methods:
   nameWithType: "MicrosoftGraphPlannerPlan.owner()"
   summary: "Get the owner property: ID of the Group that owns the plan."
   syntax: "public String owner()"
-  desc: "Get the owner property: ID of the Group that owns the plan. A valid group must exist before this field can be set. After it is set, this property can’t be updated."
+  desc: "Get the owner property: ID of the Group that owns the plan. A valid group must exist before this field can be set. After it is set, this property can\\\\u2019t be updated."
   returns:
     description: "the owner value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -255,7 +255,7 @@ methods:
     name: "owner"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public MicrosoftGraphPlannerPlan withOwner(String owner)"
-  desc: "Set the owner property: ID of the Group that owns the plan. A valid group must exist before this field can be set. After it is set, this property can’t be updated."
+  desc: "Set the owner property: ID of the Group that owns the plan. A valid group must exist before this field can be set. After it is set, this property can\\\\u2019t be updated."
   returns:
     description: "the MicrosoftGraphPlannerPlan object itself."
     type: "<xref href=\"com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphPlannerPlan?alt=com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphPlannerPlan&text=MicrosoftGraphPlannerPlan\" data-throw-if-not-resolved=\"False\" />"

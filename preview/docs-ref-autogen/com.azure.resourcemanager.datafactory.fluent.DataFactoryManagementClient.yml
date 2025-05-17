@@ -270,18 +270,6 @@ methods:
   returns:
     description: "the PipelinesClient object."
     type: "<xref href=\"com.azure.resourcemanager.datafactory.fluent.PipelinesClient?alt=com.azure.resourcemanager.datafactory.fluent.PipelinesClient&text=PipelinesClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.datafactory.fluent.DataFactoryManagementClient.getPrivateEndpointConnectionOperations()"
-  fullName: "com.azure.resourcemanager.datafactory.fluent.DataFactoryManagementClient.getPrivateEndpointConnectionOperations()"
-  name: "getPrivateEndpointConnectionOperations()"
-  nameWithType: "DataFactoryManagementClient.getPrivateEndpointConnectionOperations()"
-  summary: "Gets the Private<wbr>Endpoint<wbr>Connection<wbr>Operations<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract PrivateEndpointConnectionOperationsClient getPrivateEndpointConnectionOperations()"
-  desc: "Gets the PrivateEndpointConnectionOperationsClient object to access its operations."
-  returns:
-    description: "the PrivateEndpointConnectionOperationsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.datafactory.fluent.PrivateEndpointConnectionOperationsClient?alt=com.azure.resourcemanager.datafactory.fluent.PrivateEndpointConnectionOperationsClient&text=PrivateEndpointConnectionOperationsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.datafactory.fluent.DataFactoryManagementClient.getPrivateEndPointConnections()"
   fullName: "com.azure.resourcemanager.datafactory.fluent.DataFactoryManagementClient.getPrivateEndPointConnections()"
   name: "getPrivateEndPointConnections()"
@@ -294,6 +282,18 @@ methods:
   returns:
     description: "the PrivateEndPointConnectionsClient object."
     type: "<xref href=\"com.azure.resourcemanager.datafactory.fluent.PrivateEndPointConnectionsClient?alt=com.azure.resourcemanager.datafactory.fluent.PrivateEndPointConnectionsClient&text=PrivateEndPointConnectionsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.datafactory.fluent.DataFactoryManagementClient.getPrivateEndpointConnectionOperations()"
+  fullName: "com.azure.resourcemanager.datafactory.fluent.DataFactoryManagementClient.getPrivateEndpointConnectionOperations()"
+  name: "getPrivateEndpointConnectionOperations()"
+  nameWithType: "DataFactoryManagementClient.getPrivateEndpointConnectionOperations()"
+  summary: "Gets the Private<wbr>Endpoint<wbr>Connection<wbr>Operations<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract PrivateEndpointConnectionOperationsClient getPrivateEndpointConnectionOperations()"
+  desc: "Gets the PrivateEndpointConnectionOperationsClient object to access its operations."
+  returns:
+    description: "the PrivateEndpointConnectionOperationsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.datafactory.fluent.PrivateEndpointConnectionOperationsClient?alt=com.azure.resourcemanager.datafactory.fluent.PrivateEndpointConnectionOperationsClient&text=PrivateEndpointConnectionOperationsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.datafactory.fluent.DataFactoryManagementClient.getPrivateLinkResources()"
   fullName: "com.azure.resourcemanager.datafactory.fluent.DataFactoryManagementClient.getPrivateLinkResources()"
   name: "getPrivateLinkResources()"

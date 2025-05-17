@@ -114,18 +114,6 @@ methods:
   returns:
     description: "the ProviderOperationsMetadatasClient object."
     type: "<xref href=\"com.azure.resourcemanager.authorization.fluent.ProviderOperationsMetadatasClient?alt=com.azure.resourcemanager.authorization.fluent.ProviderOperationsMetadatasClient&text=ProviderOperationsMetadatasClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.authorization.fluent.AuthorizationManagementClient.getRoleAssignments()"
-  fullName: "com.azure.resourcemanager.authorization.fluent.AuthorizationManagementClient.getRoleAssignments()"
-  name: "getRoleAssignments()"
-  nameWithType: "AuthorizationManagementClient.getRoleAssignments()"
-  summary: "Gets the Role<wbr>Assignments<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract RoleAssignmentsClient getRoleAssignments()"
-  desc: "Gets the RoleAssignmentsClient object to access its operations."
-  returns:
-    description: "the RoleAssignmentsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.authorization.fluent.RoleAssignmentsClient?alt=com.azure.resourcemanager.authorization.fluent.RoleAssignmentsClient&text=RoleAssignmentsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.authorization.fluent.AuthorizationManagementClient.getRoleAssignmentScheduleInstances()"
   fullName: "com.azure.resourcemanager.authorization.fluent.AuthorizationManagementClient.getRoleAssignmentScheduleInstances()"
   name: "getRoleAssignmentScheduleInstances()"
@@ -162,6 +150,18 @@ methods:
   returns:
     description: "the RoleAssignmentSchedulesClient object."
     type: "<xref href=\"com.azure.resourcemanager.authorization.fluent.RoleAssignmentSchedulesClient?alt=com.azure.resourcemanager.authorization.fluent.RoleAssignmentSchedulesClient&text=RoleAssignmentSchedulesClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.authorization.fluent.AuthorizationManagementClient.getRoleAssignments()"
+  fullName: "com.azure.resourcemanager.authorization.fluent.AuthorizationManagementClient.getRoleAssignments()"
+  name: "getRoleAssignments()"
+  nameWithType: "AuthorizationManagementClient.getRoleAssignments()"
+  summary: "Gets the Role<wbr>Assignments<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract RoleAssignmentsClient getRoleAssignments()"
+  desc: "Gets the RoleAssignmentsClient object to access its operations."
+  returns:
+    description: "the RoleAssignmentsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.authorization.fluent.RoleAssignmentsClient?alt=com.azure.resourcemanager.authorization.fluent.RoleAssignmentsClient&text=RoleAssignmentsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.authorization.fluent.AuthorizationManagementClient.getRoleDefinitions()"
   fullName: "com.azure.resourcemanager.authorization.fluent.AuthorizationManagementClient.getRoleDefinitions()"
   name: "getRoleDefinitions()"

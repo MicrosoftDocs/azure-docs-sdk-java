@@ -244,20 +244,6 @@ methods:
   returns:
     description: "the RecognizeRequest object itself."
     type: "<xref href=\"com.azure.communication.callautomation.models.CallMediaRecognizeOptions?alt=com.azure.communication.callautomation.models.CallMediaRecognizeOptions&text=CallMediaRecognizeOptions\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.communication.callautomation.models.CallMediaRecognizeOptions.setPlayPrompts(java.util.List<com.azure.communication.callautomation.models.PlaySource>)"
-  fullName: "com.azure.communication.callautomation.models.CallMediaRecognizeOptions.setPlayPrompts(List<PlaySource> playPrompts)"
-  name: "setPlayPrompts(List<PlaySource> playPrompts)"
-  nameWithType: "CallMediaRecognizeOptions.setPlayPrompts(List<PlaySource> playPrompts)"
-  summary: "Set the play<wbr>Prompts property: The list source of the audio to be played for recognition."
-  parameters:
-  - description: "the playPrompts value to set."
-    name: "playPrompts"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.communication.callautomation.models.PlaySource?alt=com.azure.communication.callautomation.models.PlaySource&text=PlaySource\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public CallMediaRecognizeOptions setPlayPrompts(List<PlaySource> playPrompts)"
-  desc: "Set the playPrompts property: The list source of the audio to be played for recognition."
-  returns:
-    description: "the RecognizeRequest object itself."
-    type: "<xref href=\"com.azure.communication.callautomation.models.CallMediaRecognizeOptions?alt=com.azure.communication.callautomation.models.CallMediaRecognizeOptions&text=CallMediaRecognizeOptions\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.communication.callautomation.models.CallMediaRecognizeOptions.setPlayPrompts(com.azure.communication.callautomation.models.PlaySource...)"
   fullName: "com.azure.communication.callautomation.models.CallMediaRecognizeOptions.setPlayPrompts(PlaySource[] playPrompts)"
   name: "setPlayPrompts(PlaySource[] playPrompts)"
@@ -268,6 +254,20 @@ methods:
     name: "playPrompts"
     type: "<xref href=\"com.azure.communication.callautomation.models.PlaySource?alt=com.azure.communication.callautomation.models.PlaySource&text=PlaySource\" data-throw-if-not-resolved=\"False\" />[]"
   syntax: "public CallMediaRecognizeOptions setPlayPrompts(PlaySource[] playPrompts)"
+  desc: "Set the playPrompts property: The list source of the audio to be played for recognition."
+  returns:
+    description: "the RecognizeRequest object itself."
+    type: "<xref href=\"com.azure.communication.callautomation.models.CallMediaRecognizeOptions?alt=com.azure.communication.callautomation.models.CallMediaRecognizeOptions&text=CallMediaRecognizeOptions\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.communication.callautomation.models.CallMediaRecognizeOptions.setPlayPrompts(java.util.List<com.azure.communication.callautomation.models.PlaySource>)"
+  fullName: "com.azure.communication.callautomation.models.CallMediaRecognizeOptions.setPlayPrompts(List<PlaySource> playPrompts)"
+  name: "setPlayPrompts(List<PlaySource> playPrompts)"
+  nameWithType: "CallMediaRecognizeOptions.setPlayPrompts(List<PlaySource> playPrompts)"
+  summary: "Set the play<wbr>Prompts property: The list source of the audio to be played for recognition."
+  parameters:
+  - description: "the playPrompts value to set."
+    name: "playPrompts"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.communication.callautomation.models.PlaySource?alt=com.azure.communication.callautomation.models.PlaySource&text=PlaySource\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public CallMediaRecognizeOptions setPlayPrompts(List<PlaySource> playPrompts)"
   desc: "Set the playPrompts property: The list source of the audio to be played for recognition."
   returns:
     description: "the RecognizeRequest object itself."

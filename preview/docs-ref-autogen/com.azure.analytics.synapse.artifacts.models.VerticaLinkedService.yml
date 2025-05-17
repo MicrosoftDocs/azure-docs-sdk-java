@@ -161,6 +161,19 @@ methods:
   desc: "Set the annotations property: List of tags that can be used for describing the linked service."
   returns:
     type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.VerticaLinkedService?alt=com.azure.analytics.synapse.artifacts.models.VerticaLinkedService&text=VerticaLinkedService\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.analytics.synapse.artifacts.models.VerticaLinkedService.setConnectVia(com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference)"
+  fullName: "com.azure.analytics.synapse.artifacts.models.VerticaLinkedService.setConnectVia(IntegrationRuntimeReference connectVia)"
+  name: "setConnectVia(IntegrationRuntimeReference connectVia)"
+  nameWithType: "VerticaLinkedService.setConnectVia(IntegrationRuntimeReference connectVia)"
+  summary: "Set the connect<wbr>Via property: The integration runtime reference."
+  overridden: "com.azure.analytics.synapse.artifacts.models.LinkedService.setConnectVia(com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference)"
+  parameters:
+  - name: "connectVia"
+    type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference?alt=com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference&text=IntegrationRuntimeReference\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public VerticaLinkedService setConnectVia(IntegrationRuntimeReference connectVia)"
+  desc: "Set the connectVia property: The integration runtime reference."
+  returns:
+    type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.VerticaLinkedService?alt=com.azure.analytics.synapse.artifacts.models.VerticaLinkedService&text=VerticaLinkedService\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.analytics.synapse.artifacts.models.VerticaLinkedService.setConnectionString(java.lang.Object)"
   fullName: "com.azure.analytics.synapse.artifacts.models.VerticaLinkedService.setConnectionString(Object connectionString)"
   name: "setConnectionString(Object connectionString)"
@@ -174,19 +187,6 @@ methods:
   desc: "Set the connectionString property: An ODBC connection string. Type: string, SecureString or AzureKeyVaultSecretReference."
   returns:
     description: "the VerticaLinkedService object itself."
-    type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.VerticaLinkedService?alt=com.azure.analytics.synapse.artifacts.models.VerticaLinkedService&text=VerticaLinkedService\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.analytics.synapse.artifacts.models.VerticaLinkedService.setConnectVia(com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference)"
-  fullName: "com.azure.analytics.synapse.artifacts.models.VerticaLinkedService.setConnectVia(IntegrationRuntimeReference connectVia)"
-  name: "setConnectVia(IntegrationRuntimeReference connectVia)"
-  nameWithType: "VerticaLinkedService.setConnectVia(IntegrationRuntimeReference connectVia)"
-  summary: "Set the connect<wbr>Via property: The integration runtime reference."
-  overridden: "com.azure.analytics.synapse.artifacts.models.LinkedService.setConnectVia(com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference)"
-  parameters:
-  - name: "connectVia"
-    type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference?alt=com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference&text=IntegrationRuntimeReference\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public VerticaLinkedService setConnectVia(IntegrationRuntimeReference connectVia)"
-  desc: "Set the connectVia property: The integration runtime reference."
-  returns:
     type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.VerticaLinkedService?alt=com.azure.analytics.synapse.artifacts.models.VerticaLinkedService&text=VerticaLinkedService\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.analytics.synapse.artifacts.models.VerticaLinkedService.setDatabase(java.lang.Object)"
   fullName: "com.azure.analytics.synapse.artifacts.models.VerticaLinkedService.setDatabase(Object database)"

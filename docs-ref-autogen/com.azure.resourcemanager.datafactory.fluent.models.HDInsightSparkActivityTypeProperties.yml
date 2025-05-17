@@ -103,9 +103,9 @@ methods:
   fullName: "com.azure.resourcemanager.datafactory.fluent.models.HDInsightSparkActivityTypeProperties.rootPath()"
   name: "rootPath()"
   nameWithType: "HDInsightSparkActivityTypeProperties.rootPath()"
-  summary: "Get the root<wbr>Path property: The root path in 'spark<wbr>Job<wbr>Linked<wbr>Service' for all the job’s files."
+  summary: "Get the root<wbr>Path property: The root path in 'spark<wbr>Job<wbr>Linked<wbr>Service' for all the job\\\\u2019s files."
   syntax: "public Object rootPath()"
-  desc: "Get the rootPath property: The root path in 'sparkJobLinkedService' for all the job’s files. Type: string (or Expression with resultType string)."
+  desc: "Get the rootPath property: The root path in 'sparkJobLinkedService' for all the job\\\\u2019s files. Type: string (or Expression with resultType string)."
   returns:
     description: "the rootPath value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
@@ -222,13 +222,13 @@ methods:
   fullName: "com.azure.resourcemanager.datafactory.fluent.models.HDInsightSparkActivityTypeProperties.withRootPath(Object rootPath)"
   name: "withRootPath(Object rootPath)"
   nameWithType: "HDInsightSparkActivityTypeProperties.withRootPath(Object rootPath)"
-  summary: "Set the root<wbr>Path property: The root path in 'spark<wbr>Job<wbr>Linked<wbr>Service' for all the job’s files."
+  summary: "Set the root<wbr>Path property: The root path in 'spark<wbr>Job<wbr>Linked<wbr>Service' for all the job\\\\u2019s files."
   parameters:
   - description: "the rootPath value to set."
     name: "rootPath"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   syntax: "public HDInsightSparkActivityTypeProperties withRootPath(Object rootPath)"
-  desc: "Set the rootPath property: The root path in 'sparkJobLinkedService' for all the job’s files. Type: string (or Expression with resultType string)."
+  desc: "Set the rootPath property: The root path in 'sparkJobLinkedService' for all the job\\\\u2019s files. Type: string (or Expression with resultType string)."
   returns:
     description: "the HDInsightSparkActivityTypeProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.datafactory.fluent.models.HDInsightSparkActivityTypeProperties?alt=com.azure.resourcemanager.datafactory.fluent.models.HDInsightSparkActivityTypeProperties&text=HDInsightSparkActivityTypeProperties\" data-throw-if-not-resolved=\"False\" />"

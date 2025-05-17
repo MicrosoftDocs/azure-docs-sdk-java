@@ -18,18 +18,6 @@ methods:
   returns:
     description: "the backupMetadata value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.mysqlflexibleserver.models.BackupAndExportResponse.datasourceSizeInBytes()"
-  fullName: "com.azure.resourcemanager.mysqlflexibleserver.models.BackupAndExportResponse.datasourceSizeInBytes()"
-  name: "datasourceSizeInBytes()"
-  nameWithType: "BackupAndExportResponse.datasourceSizeInBytes()"
-  summary: "Gets the datasource<wbr>Size<wbr>InBytes property: Size of datasource in bytes."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract Long datasourceSizeInBytes()"
-  desc: "Gets the datasourceSizeInBytes property: Size of datasource in bytes."
-  returns:
-    description: "the datasourceSizeInBytes value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Long.html\">Long</a>"
 - uid: "com.azure.resourcemanager.mysqlflexibleserver.models.BackupAndExportResponse.dataTransferredInBytes()"
   fullName: "com.azure.resourcemanager.mysqlflexibleserver.models.BackupAndExportResponse.dataTransferredInBytes()"
   name: "dataTransferredInBytes()"
@@ -41,6 +29,18 @@ methods:
   desc: "Gets the dataTransferredInBytes property: Data transferred in bytes."
   returns:
     description: "the dataTransferredInBytes value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Long.html\">Long</a>"
+- uid: "com.azure.resourcemanager.mysqlflexibleserver.models.BackupAndExportResponse.datasourceSizeInBytes()"
+  fullName: "com.azure.resourcemanager.mysqlflexibleserver.models.BackupAndExportResponse.datasourceSizeInBytes()"
+  name: "datasourceSizeInBytes()"
+  nameWithType: "BackupAndExportResponse.datasourceSizeInBytes()"
+  summary: "Gets the datasource<wbr>Size<wbr>InBytes property: Size of datasource in bytes."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract Long datasourceSizeInBytes()"
+  desc: "Gets the datasourceSizeInBytes property: Size of datasource in bytes."
+  returns:
+    description: "the datasourceSizeInBytes value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Long.html\">Long</a>"
 - uid: "com.azure.resourcemanager.mysqlflexibleserver.models.BackupAndExportResponse.endTime()"
   fullName: "com.azure.resourcemanager.mysqlflexibleserver.models.BackupAndExportResponse.endTime()"

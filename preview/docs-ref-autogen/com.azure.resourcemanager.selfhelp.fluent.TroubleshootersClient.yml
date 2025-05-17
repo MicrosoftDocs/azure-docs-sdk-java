@@ -10,7 +10,7 @@ methods:
   fullName: "com.azure.resourcemanager.selfhelp.fluent.TroubleshootersClient.continueMethod(String scope, String troubleshooterName)"
   name: "continueMethod(String scope, String troubleshooterName)"
   nameWithType: "TroubleshootersClient.continueMethod(String scope, String troubleshooterName)"
-  summary: "Uses ‘step<wbr>Id’ and ‘responses’ as the trigger to continue the troubleshooting steps for the respective troubleshooter resource name."
+  summary: "Uses \\\\u2018step<wbr>Id\\\\u2019 and \\\\u2018responses\\\\u2019 as the trigger to continue the troubleshooting steps for the respective troubleshooter resource name."
   modifiers:
   - "abstract"
   parameters:
@@ -21,12 +21,12 @@ methods:
     name: "troubleshooterName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract void continueMethod(String scope, String troubleshooterName)"
-  desc: "Uses ‘stepId’ and ‘responses’ as the trigger to continue the troubleshooting steps for the respective troubleshooter resource name. <br/>Continue API is used to provide inputs that are required for the specific troubleshooter to progress into the next step in the process. This API is used after the Troubleshooter has been created using the Create API."
+  desc: "Uses \\\\u2018stepId\\\\u2019 and \\\\u2018responses\\\\u2019 as the trigger to continue the troubleshooting steps for the respective troubleshooter resource name. <br/>Continue API is used to provide inputs that are required for the specific troubleshooter to progress into the next step in the process. This API is used after the Troubleshooter has been created using the Create API."
 - uid: "com.azure.resourcemanager.selfhelp.fluent.TroubleshootersClient.continueMethodWithResponse(java.lang.String,java.lang.String,com.azure.resourcemanager.selfhelp.models.ContinueRequestBody,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.selfhelp.fluent.TroubleshootersClient.continueMethodWithResponse(String scope, String troubleshooterName, ContinueRequestBody continueRequestBody, Context context)"
   name: "continueMethodWithResponse(String scope, String troubleshooterName, ContinueRequestBody continueRequestBody, Context context)"
   nameWithType: "TroubleshootersClient.continueMethodWithResponse(String scope, String troubleshooterName, ContinueRequestBody continueRequestBody, Context context)"
-  summary: "Uses ‘step<wbr>Id’ and ‘responses’ as the trigger to continue the troubleshooting steps for the respective troubleshooter resource name."
+  summary: "Uses \\\\u2018step<wbr>Id\\\\u2019 and \\\\u2018responses\\\\u2019 as the trigger to continue the troubleshooting steps for the respective troubleshooter resource name."
   modifiers:
   - "abstract"
   parameters:
@@ -43,7 +43,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract TroubleshootersContinueMethodResponse continueMethodWithResponse(String scope, String troubleshooterName, ContinueRequestBody continueRequestBody, Context context)"
-  desc: "Uses ‘stepId’ and ‘responses’ as the trigger to continue the troubleshooting steps for the respective troubleshooter resource name. <br/>Continue API is used to provide inputs that are required for the specific troubleshooter to progress into the next step in the process. This API is used after the Troubleshooter has been created using the Create API."
+  desc: "Uses \\\\u2018stepId\\\\u2019 and \\\\u2018responses\\\\u2019 as the trigger to continue the troubleshooting steps for the respective troubleshooter resource name. <br/>Continue API is used to provide inputs that are required for the specific troubleshooter to progress into the next step in the process. This API is used after the Troubleshooter has been created using the Create API."
   returns:
     description: "the response."
     type: "<xref href=\"com.azure.resourcemanager.selfhelp.models.TroubleshootersContinueMethodResponse?alt=com.azure.resourcemanager.selfhelp.models.TroubleshootersContinueMethodResponse&text=TroubleshootersContinueMethodResponse\" data-throw-if-not-resolved=\"False\" />"
@@ -51,7 +51,7 @@ methods:
   fullName: "com.azure.resourcemanager.selfhelp.fluent.TroubleshootersClient.create(String scope, String troubleshooterName)"
   name: "create(String scope, String troubleshooterName)"
   nameWithType: "TroubleshootersClient.create(String scope, String troubleshooterName)"
-  summary: "Creates the specific troubleshooter action under a resource or subscription using the ‘solution<wbr>Id’ and ‘properties.<wbr>parameters’ as the trigger."
+  summary: "Creates the specific troubleshooter action under a resource or subscription using the \\\\u2018solution<wbr>Id\\\\u2019 and \\\\u2018properties.<wbr>parameters\\\\u2019 as the trigger."
   modifiers:
   - "abstract"
   parameters:
@@ -62,7 +62,7 @@ methods:
     name: "troubleshooterName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract TroubleshooterResourceInner create(String scope, String troubleshooterName)"
-  desc: "Creates the specific troubleshooter action under a resource or subscription using the ‘solutionId’ and ‘properties.parameters’ as the trigger. <br/> Azure Troubleshooters help with hard to classify issues, reducing the gap between customer observed problems and solutions by guiding the user effortlessly through the troubleshooting process. Each Troubleshooter flow represents a problem area within Azure and has a complex tree-like structure that addresses many root causes. These flows are prepared with the help of Subject Matter experts and customer support engineers by carefully considering previous support requests raised by customers. Troubleshooters terminate at a well curated solution based off of resource backend signals and customer manual selections."
+  desc: "Creates the specific troubleshooter action under a resource or subscription using the \\\\u2018solutionId\\\\u2019 and \\\\u2018properties.parameters\\\\u2019 as the trigger. <br/> Azure Troubleshooters help with hard to classify issues, reducing the gap between customer observed problems and solutions by guiding the user effortlessly through the troubleshooting process. Each Troubleshooter flow represents a problem area within Azure and has a complex tree-like structure that addresses many root causes. These flows are prepared with the help of Subject Matter experts and customer support engineers by carefully considering previous support requests raised by customers. Troubleshooters terminate at a well curated solution based off of resource backend signals and customer manual selections."
   returns:
     description: "troubleshooter response."
     type: "<xref href=\"com.azure.resourcemanager.selfhelp.fluent.models.TroubleshooterResourceInner?alt=com.azure.resourcemanager.selfhelp.fluent.models.TroubleshooterResourceInner&text=TroubleshooterResourceInner\" data-throw-if-not-resolved=\"False\" />"
@@ -70,7 +70,7 @@ methods:
   fullName: "com.azure.resourcemanager.selfhelp.fluent.TroubleshootersClient.createWithResponse(String scope, String troubleshooterName, TroubleshooterResourceInner createTroubleshooterRequestBody, Context context)"
   name: "createWithResponse(String scope, String troubleshooterName, TroubleshooterResourceInner createTroubleshooterRequestBody, Context context)"
   nameWithType: "TroubleshootersClient.createWithResponse(String scope, String troubleshooterName, TroubleshooterResourceInner createTroubleshooterRequestBody, Context context)"
-  summary: "Creates the specific troubleshooter action under a resource or subscription using the ‘solution<wbr>Id’ and ‘properties.<wbr>parameters’ as the trigger."
+  summary: "Creates the specific troubleshooter action under a resource or subscription using the \\\\u2018solution<wbr>Id\\\\u2019 and \\\\u2018properties.<wbr>parameters\\\\u2019 as the trigger."
   modifiers:
   - "abstract"
   parameters:
@@ -87,7 +87,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Response<TroubleshooterResourceInner> createWithResponse(String scope, String troubleshooterName, TroubleshooterResourceInner createTroubleshooterRequestBody, Context context)"
-  desc: "Creates the specific troubleshooter action under a resource or subscription using the ‘solutionId’ and ‘properties.parameters’ as the trigger. <br/> Azure Troubleshooters help with hard to classify issues, reducing the gap between customer observed problems and solutions by guiding the user effortlessly through the troubleshooting process. Each Troubleshooter flow represents a problem area within Azure and has a complex tree-like structure that addresses many root causes. These flows are prepared with the help of Subject Matter experts and customer support engineers by carefully considering previous support requests raised by customers. Troubleshooters terminate at a well curated solution based off of resource backend signals and customer manual selections."
+  desc: "Creates the specific troubleshooter action under a resource or subscription using the \\\\u2018solutionId\\\\u2019 and \\\\u2018properties.parameters\\\\u2019 as the trigger. <br/> Azure Troubleshooters help with hard to classify issues, reducing the gap between customer observed problems and solutions by guiding the user effortlessly through the troubleshooting process. Each Troubleshooter flow represents a problem area within Azure and has a complex tree-like structure that addresses many root causes. These flows are prepared with the help of Subject Matter experts and customer support engineers by carefully considering previous support requests raised by customers. Troubleshooters terminate at a well curated solution based off of resource backend signals and customer manual selections."
   returns:
     description: "troubleshooter response along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.selfhelp.fluent.models.TroubleshooterResourceInner?alt=com.azure.resourcemanager.selfhelp.fluent.models.TroubleshooterResourceInner&text=TroubleshooterResourceInner\" data-throw-if-not-resolved=\"False\" />&gt;"

@@ -114,18 +114,6 @@ methods:
   returns:
     description: "the coordinatorVCores value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
-- uid: "com.azure.resourcemanager.cosmosdbforpostgresql.models.Cluster.databaseName()"
-  fullName: "com.azure.resourcemanager.cosmosdbforpostgresql.models.Cluster.databaseName()"
-  name: "databaseName()"
-  nameWithType: "Cluster.databaseName()"
-  summary: "Gets the database<wbr>Name property: The database name of the cluster."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract String databaseName()"
-  desc: "Gets the databaseName property: The database name of the cluster. Only one database per cluster is supported."
-  returns:
-    description: "the databaseName value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.cosmosdbforpostgresql.models.Cluster.dataEncryption()"
   fullName: "com.azure.resourcemanager.cosmosdbforpostgresql.models.Cluster.dataEncryption()"
   name: "dataEncryption()"
@@ -138,6 +126,18 @@ methods:
   returns:
     description: "the dataEncryption value."
     type: "<xref href=\"com.azure.resourcemanager.cosmosdbforpostgresql.models.DataEncryption?alt=com.azure.resourcemanager.cosmosdbforpostgresql.models.DataEncryption&text=DataEncryption\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.cosmosdbforpostgresql.models.Cluster.databaseName()"
+  fullName: "com.azure.resourcemanager.cosmosdbforpostgresql.models.Cluster.databaseName()"
+  name: "databaseName()"
+  nameWithType: "Cluster.databaseName()"
+  summary: "Gets the database<wbr>Name property: The database name of the cluster."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String databaseName()"
+  desc: "Gets the databaseName property: The database name of the cluster. Only one database per cluster is supported."
+  returns:
+    description: "the databaseName value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.cosmosdbforpostgresql.models.Cluster.earliestRestoreTime()"
   fullName: "com.azure.resourcemanager.cosmosdbforpostgresql.models.Cluster.earliestRestoreTime()"
   name: "earliestRestoreTime()"

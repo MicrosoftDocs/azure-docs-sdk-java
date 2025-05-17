@@ -18,18 +18,6 @@ methods:
   returns:
     description: "the availabilitySets value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.scvmm.models.AvailabilitySetListItem?alt=com.azure.resourcemanager.scvmm.models.AvailabilitySetListItem&text=AvailabilitySetListItem\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.resourcemanager.scvmm.models.VirtualMachine.checkpoints()"
-  fullName: "com.azure.resourcemanager.scvmm.models.VirtualMachine.checkpoints()"
-  name: "checkpoints()"
-  nameWithType: "VirtualMachine.checkpoints()"
-  summary: "Gets the checkpoints property: Checkpoints in the vm."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract List<Checkpoint> checkpoints()"
-  desc: "Gets the checkpoints property: Checkpoints in the vm."
-  returns:
-    description: "the checkpoints value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.scvmm.models.Checkpoint?alt=com.azure.resourcemanager.scvmm.models.Checkpoint&text=Checkpoint\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.scvmm.models.VirtualMachine.checkpointType()"
   fullName: "com.azure.resourcemanager.scvmm.models.VirtualMachine.checkpointType()"
   name: "checkpointType()"
@@ -42,6 +30,18 @@ methods:
   returns:
     description: "the checkpointType value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.scvmm.models.VirtualMachine.checkpoints()"
+  fullName: "com.azure.resourcemanager.scvmm.models.VirtualMachine.checkpoints()"
+  name: "checkpoints()"
+  nameWithType: "VirtualMachine.checkpoints()"
+  summary: "Gets the checkpoints property: Checkpoints in the vm."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract List<Checkpoint> checkpoints()"
+  desc: "Gets the checkpoints property: Checkpoints in the vm."
+  returns:
+    description: "the checkpoints value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.scvmm.models.Checkpoint?alt=com.azure.resourcemanager.scvmm.models.Checkpoint&text=Checkpoint\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.scvmm.models.VirtualMachine.cloudId()"
   fullName: "com.azure.resourcemanager.scvmm.models.VirtualMachine.cloudId()"
   name: "cloudId()"
@@ -530,18 +530,6 @@ methods:
   returns:
     description: "the uuid value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.scvmm.models.VirtualMachine.vmmServerId()"
-  fullName: "com.azure.resourcemanager.scvmm.models.VirtualMachine.vmmServerId()"
-  name: "vmmServerId()"
-  nameWithType: "VirtualMachine.vmmServerId()"
-  summary: "Gets the vmm<wbr>Server<wbr>Id property: ARM Id of the vmm<wbr>Server resource in which this resource resides."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract String vmmServerId()"
-  desc: "Gets the vmmServerId property: ARM Id of the vmmServer resource in which this resource resides."
-  returns:
-    description: "the vmmServerId value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.scvmm.models.VirtualMachine.vmName()"
   fullName: "com.azure.resourcemanager.scvmm.models.VirtualMachine.vmName()"
   name: "vmName()"
@@ -553,6 +541,18 @@ methods:
   desc: "Gets the vmName property: VMName is the name of VM on the SCVMM server."
   returns:
     description: "the vmName value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.scvmm.models.VirtualMachine.vmmServerId()"
+  fullName: "com.azure.resourcemanager.scvmm.models.VirtualMachine.vmmServerId()"
+  name: "vmmServerId()"
+  nameWithType: "VirtualMachine.vmmServerId()"
+  summary: "Gets the vmm<wbr>Server<wbr>Id property: ARM Id of the vmm<wbr>Server resource in which this resource resides."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String vmmServerId()"
+  desc: "Gets the vmmServerId property: ARM Id of the vmmServer resource in which this resource resides."
+  returns:
+    description: "the vmmServerId value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 type: "interface"
 desc: "An immutable client-side representation of VirtualMachine."

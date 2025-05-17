@@ -6,22 +6,6 @@ nameWithType: "ApplicationGateway.DefinitionStages.WithWebApplicationFirewallPol
 summary: "The stage of the application gateway definition allowing to associate a Web Application Firewall Policy."
 syntax: "public static interface **ApplicationGateway.DefinitionStages.WithWebApplicationFirewallPolicy**"
 methods:
-- uid: "com.azure.resourcemanager.network.models.ApplicationGateway.DefinitionStages.WithWebApplicationFirewallPolicy.withExistingWebApplicationFirewallPolicy(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.models.ApplicationGateway.DefinitionStages.WithWebApplicationFirewallPolicy.withExistingWebApplicationFirewallPolicy(String resourceId)"
-  name: "withExistingWebApplicationFirewallPolicy(String resourceId)"
-  nameWithType: "ApplicationGateway.DefinitionStages.WithWebApplicationFirewallPolicy.withExistingWebApplicationFirewallPolicy(String resourceId)"
-  summary: "Associates an existing Web Application Firewall Policy with the application gateway."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "existing Web Application Firewall Policy"
-    name: "resourceId"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public abstract ApplicationGateway.DefinitionStages.WithCreate withExistingWebApplicationFirewallPolicy(String resourceId)"
-  desc: "Associates an existing Web Application Firewall Policy with the application gateway. The new association will remove and replace previous WAF policy association (if any)."
-  returns:
-    description: "the next stage of the definition"
-    type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGateway.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.network.models.ApplicationGateway.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.models.ApplicationGateway.DefinitionStages.WithWebApplicationFirewallPolicy.withExistingWebApplicationFirewallPolicy(com.azure.resourcemanager.network.models.WebApplicationFirewallPolicy)"
   fullName: "com.azure.resourcemanager.network.models.ApplicationGateway.DefinitionStages.WithWebApplicationFirewallPolicy.withExistingWebApplicationFirewallPolicy(WebApplicationFirewallPolicy wafPolicy)"
   name: "withExistingWebApplicationFirewallPolicy(WebApplicationFirewallPolicy wafPolicy)"
@@ -38,19 +22,19 @@ methods:
   returns:
     description: "the next stage of the definition"
     type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGateway.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.network.models.ApplicationGateway.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.models.ApplicationGateway.DefinitionStages.WithWebApplicationFirewallPolicy.withNewWebApplicationFirewallPolicy(com.azure.resourcemanager.resources.fluentcore.model.Creatable<com.azure.resourcemanager.network.models.WebApplicationFirewallPolicy>)"
-  fullName: "com.azure.resourcemanager.network.models.ApplicationGateway.DefinitionStages.WithWebApplicationFirewallPolicy.withNewWebApplicationFirewallPolicy(Creatable<WebApplicationFirewallPolicy> creatable)"
-  name: "withNewWebApplicationFirewallPolicy(Creatable<WebApplicationFirewallPolicy> creatable)"
-  nameWithType: "ApplicationGateway.DefinitionStages.WithWebApplicationFirewallPolicy.withNewWebApplicationFirewallPolicy(Creatable<WebApplicationFirewallPolicy> creatable)"
-  summary: "Associates a new Web Application Firewall Policy with the application gateway."
+- uid: "com.azure.resourcemanager.network.models.ApplicationGateway.DefinitionStages.WithWebApplicationFirewallPolicy.withExistingWebApplicationFirewallPolicy(java.lang.String)"
+  fullName: "com.azure.resourcemanager.network.models.ApplicationGateway.DefinitionStages.WithWebApplicationFirewallPolicy.withExistingWebApplicationFirewallPolicy(String resourceId)"
+  name: "withExistingWebApplicationFirewallPolicy(String resourceId)"
+  nameWithType: "ApplicationGateway.DefinitionStages.WithWebApplicationFirewallPolicy.withExistingWebApplicationFirewallPolicy(String resourceId)"
+  summary: "Associates an existing Web Application Firewall Policy with the application gateway."
   modifiers:
   - "abstract"
   parameters:
-  - description: "full definition of the new Web Application Firewall Policy"
-    name: "creatable"
-    type: "<xref href=\"com.azure.resourcemanager.resources.fluentcore.model.Creatable?alt=com.azure.resourcemanager.resources.fluentcore.model.Creatable&text=Creatable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.WebApplicationFirewallPolicy?alt=com.azure.resourcemanager.network.models.WebApplicationFirewallPolicy&text=WebApplicationFirewallPolicy\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public abstract ApplicationGateway.DefinitionStages.WithCreate withNewWebApplicationFirewallPolicy(Creatable<WebApplicationFirewallPolicy> creatable)"
-  desc: "Associates a new Web Application Firewall Policy with the application gateway. The new association will remove and replace previous WAF policy association (if any)."
+  - description: "existing Web Application Firewall Policy"
+    name: "resourceId"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract ApplicationGateway.DefinitionStages.WithCreate withExistingWebApplicationFirewallPolicy(String resourceId)"
+  desc: "Associates an existing Web Application Firewall Policy with the application gateway. The new association will remove and replace previous WAF policy association (if any)."
   returns:
     description: "the next stage of the definition"
     type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGateway.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.network.models.ApplicationGateway.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
@@ -69,6 +53,22 @@ methods:
   desc: "Associates a new Web Application Firewall Policy with the application gateway. The new association will remove and replace previous WAF policy association (if any)."
   returns:
     description: "the next stage of the update"
+    type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGateway.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.network.models.ApplicationGateway.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.models.ApplicationGateway.DefinitionStages.WithWebApplicationFirewallPolicy.withNewWebApplicationFirewallPolicy(com.azure.resourcemanager.resources.fluentcore.model.Creatable<com.azure.resourcemanager.network.models.WebApplicationFirewallPolicy>)"
+  fullName: "com.azure.resourcemanager.network.models.ApplicationGateway.DefinitionStages.WithWebApplicationFirewallPolicy.withNewWebApplicationFirewallPolicy(Creatable<WebApplicationFirewallPolicy> creatable)"
+  name: "withNewWebApplicationFirewallPolicy(Creatable<WebApplicationFirewallPolicy> creatable)"
+  nameWithType: "ApplicationGateway.DefinitionStages.WithWebApplicationFirewallPolicy.withNewWebApplicationFirewallPolicy(Creatable<WebApplicationFirewallPolicy> creatable)"
+  summary: "Associates a new Web Application Firewall Policy with the application gateway."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "full definition of the new Web Application Firewall Policy"
+    name: "creatable"
+    type: "<xref href=\"com.azure.resourcemanager.resources.fluentcore.model.Creatable?alt=com.azure.resourcemanager.resources.fluentcore.model.Creatable&text=Creatable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.WebApplicationFirewallPolicy?alt=com.azure.resourcemanager.network.models.WebApplicationFirewallPolicy&text=WebApplicationFirewallPolicy\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public abstract ApplicationGateway.DefinitionStages.WithCreate withNewWebApplicationFirewallPolicy(Creatable<WebApplicationFirewallPolicy> creatable)"
+  desc: "Associates a new Web Application Firewall Policy with the application gateway. The new association will remove and replace previous WAF policy association (if any)."
+  returns:
+    description: "the next stage of the definition"
     type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGateway.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.network.models.ApplicationGateway.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 desc: "The stage of the application gateway definition allowing to associate a Web Application Firewall Policy."

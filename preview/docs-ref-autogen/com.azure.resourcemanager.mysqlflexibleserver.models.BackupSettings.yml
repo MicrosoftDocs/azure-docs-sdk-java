@@ -36,7 +36,7 @@ methods:
   nameWithType: "BackupSettings.backupFormat()"
   summary: "Get the backup<wbr>Format property: Backup Format for the current backup."
   syntax: "public BackupFormat backupFormat()"
-  desc: "Get the backupFormat property: Backup Format for the current backup. (CollatedFormat is INTERNAL – DO NOT USE)."
+  desc: "Get the backupFormat property: Backup Format for the current backup. (CollatedFormat is INTERNAL \\\\u2013 DO NOT USE)."
   returns:
     description: "the backupFormat value."
     type: "<xref href=\"com.azure.resourcemanager.mysqlflexibleserver.models.BackupFormat?alt=com.azure.resourcemanager.mysqlflexibleserver.models.BackupFormat&text=BackupFormat\" data-throw-if-not-resolved=\"False\" />"
@@ -98,7 +98,7 @@ methods:
     name: "backupFormat"
     type: "<xref href=\"com.azure.resourcemanager.mysqlflexibleserver.models.BackupFormat?alt=com.azure.resourcemanager.mysqlflexibleserver.models.BackupFormat&text=BackupFormat\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public BackupSettings withBackupFormat(BackupFormat backupFormat)"
-  desc: "Set the backupFormat property: Backup Format for the current backup. (CollatedFormat is INTERNAL – DO NOT USE)."
+  desc: "Set the backupFormat property: Backup Format for the current backup. (CollatedFormat is INTERNAL \\\\u2013 DO NOT USE)."
   returns:
     description: "the BackupSettings object itself."
     type: "<xref href=\"com.azure.resourcemanager.mysqlflexibleserver.models.BackupSettings?alt=com.azure.resourcemanager.mysqlflexibleserver.models.BackupSettings&text=BackupSettings\" data-throw-if-not-resolved=\"False\" />"

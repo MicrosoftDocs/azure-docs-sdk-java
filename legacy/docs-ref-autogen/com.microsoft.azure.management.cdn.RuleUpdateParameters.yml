@@ -64,7 +64,7 @@ methods:
   nameWithType: "RuleUpdateParameters.order()"
   summary: "Get the order in which the rules are applied for the endpoint."
   syntax: "public Integer order()"
-  desc: "Get the order in which the rules are applied for the endpoint. Possible values \\{0,1,2,3,………\\}. A rule with a lesser order will be applied before a rule with a greater order. Rule with order 0 is a special rule. It does not require any condition and actions listed in it will always be applied."
+  desc: "Get the order in which the rules are applied for the endpoint. Possible values \\{0,1,2,3,\\\\u2026\\\\u2026\\\\u2026\\}. A rule with a lesser order will be applied before a rule with a greater order. Rule with order 0 is a special rule. It does not require any condition and actions listed in it will always be applied."
   returns:
     description: "the order value"
     type: "<xref href=\"java.lang.Integer?alt=java.lang.Integer&text=Integer\" data-throw-if-not-resolved=\"False\" />"
@@ -120,7 +120,7 @@ methods:
     name: "order"
     type: "<xref href=\"java.lang.Integer?alt=java.lang.Integer&text=Integer\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public RuleUpdateParameters withOrder(Integer order)"
-  desc: "Set the order in which the rules are applied for the endpoint. Possible values \\{0,1,2,3,………\\}. A rule with a lesser order will be applied before a rule with a greater order. Rule with order 0 is a special rule. It does not require any condition and actions listed in it will always be applied."
+  desc: "Set the order in which the rules are applied for the endpoint. Possible values \\{0,1,2,3,\\\\u2026\\\\u2026\\\\u2026\\}. A rule with a lesser order will be applied before a rule with a greater order. Rule with order 0 is a special rule. It does not require any condition and actions listed in it will always be applied."
   returns:
     description: "the RuleUpdateParameters object itself."
     type: "<xref href=\"com.microsoft.azure.management.cdn.RuleUpdateParameters?alt=com.microsoft.azure.management.cdn.RuleUpdateParameters&text=RuleUpdateParameters\" data-throw-if-not-resolved=\"False\" />"

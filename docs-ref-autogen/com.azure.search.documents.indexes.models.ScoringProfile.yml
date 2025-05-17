@@ -107,20 +107,6 @@ methods:
   returns:
     description: "the ScoringProfile object itself."
     type: "<xref href=\"com.azure.search.documents.indexes.models.ScoringProfile?alt=com.azure.search.documents.indexes.models.ScoringProfile&text=ScoringProfile\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.search.documents.indexes.models.ScoringProfile.setFunctions(java.util.List<com.azure.search.documents.indexes.models.ScoringFunction>)"
-  fullName: "com.azure.search.documents.indexes.models.ScoringProfile.setFunctions(List<ScoringFunction> functions)"
-  name: "setFunctions(List<ScoringFunction> functions)"
-  nameWithType: "ScoringProfile.setFunctions(List<ScoringFunction> functions)"
-  summary: "Set the functions property: The collection of functions that influence the scoring of documents."
-  parameters:
-  - description: "the functions value to set."
-    name: "functions"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.search.documents.indexes.models.ScoringFunction?alt=com.azure.search.documents.indexes.models.ScoringFunction&text=ScoringFunction\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public ScoringProfile setFunctions(List<ScoringFunction> functions)"
-  desc: "Set the functions property: The collection of functions that influence the scoring of documents."
-  returns:
-    description: "the ScoringProfile object itself."
-    type: "<xref href=\"com.azure.search.documents.indexes.models.ScoringProfile?alt=com.azure.search.documents.indexes.models.ScoringProfile&text=ScoringProfile\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.search.documents.indexes.models.ScoringProfile.setFunctions(com.azure.search.documents.indexes.models.ScoringFunction...)"
   fullName: "com.azure.search.documents.indexes.models.ScoringProfile.setFunctions(ScoringFunction[] functions)"
   name: "setFunctions(ScoringFunction[] functions)"
@@ -131,6 +117,20 @@ methods:
     name: "functions"
     type: "<xref href=\"com.azure.search.documents.indexes.models.ScoringFunction?alt=com.azure.search.documents.indexes.models.ScoringFunction&text=ScoringFunction\" data-throw-if-not-resolved=\"False\" />[]"
   syntax: "public ScoringProfile setFunctions(ScoringFunction[] functions)"
+  desc: "Set the functions property: The collection of functions that influence the scoring of documents."
+  returns:
+    description: "the ScoringProfile object itself."
+    type: "<xref href=\"com.azure.search.documents.indexes.models.ScoringProfile?alt=com.azure.search.documents.indexes.models.ScoringProfile&text=ScoringProfile\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.search.documents.indexes.models.ScoringProfile.setFunctions(java.util.List<com.azure.search.documents.indexes.models.ScoringFunction>)"
+  fullName: "com.azure.search.documents.indexes.models.ScoringProfile.setFunctions(List<ScoringFunction> functions)"
+  name: "setFunctions(List<ScoringFunction> functions)"
+  nameWithType: "ScoringProfile.setFunctions(List<ScoringFunction> functions)"
+  summary: "Set the functions property: The collection of functions that influence the scoring of documents."
+  parameters:
+  - description: "the functions value to set."
+    name: "functions"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.search.documents.indexes.models.ScoringFunction?alt=com.azure.search.documents.indexes.models.ScoringFunction&text=ScoringFunction\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public ScoringProfile setFunctions(List<ScoringFunction> functions)"
   desc: "Set the functions property: The collection of functions that influence the scoring of documents."
   returns:
     description: "the ScoringProfile object itself."

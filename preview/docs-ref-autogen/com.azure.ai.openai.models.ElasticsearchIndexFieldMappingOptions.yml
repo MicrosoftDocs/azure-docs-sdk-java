@@ -3,7 +3,7 @@ uid: "com.azure.ai.openai.models.ElasticsearchIndexFieldMappingOptions"
 fullName: "com.azure.ai.openai.models.ElasticsearchIndexFieldMappingOptions"
 name: "ElasticsearchIndexFieldMappingOptions"
 nameWithType: "ElasticsearchIndexFieldMappingOptions"
-summary: "Optional settings to control how fields are processed when using a configured ElasticsearchÂ® resource."
+summary: "Optional settings to control how fields are processed when using a configured Elasticsearch® resource."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -206,7 +206,7 @@ methods:
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "Optional settings to control how fields are processed when using a configured ElasticsearchÂ® resource."
+desc: "Optional settings to control how fields are processed when using a configured Elasticsearch® resource."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.openai.models.ElasticsearchIndexFieldMappingOptions?alt=com.azure.ai.openai.models.ElasticsearchIndexFieldMappingOptions&text=ElasticsearchIndexFieldMappingOptions\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}

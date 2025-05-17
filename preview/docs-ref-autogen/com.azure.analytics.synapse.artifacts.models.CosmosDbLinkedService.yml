@@ -179,6 +179,19 @@ methods:
   desc: "Set the annotations property: List of tags that can be used for describing the linked service."
   returns:
     type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.CosmosDbLinkedService?alt=com.azure.analytics.synapse.artifacts.models.CosmosDbLinkedService&text=CosmosDbLinkedService\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.analytics.synapse.artifacts.models.CosmosDbLinkedService.setConnectVia(com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference)"
+  fullName: "com.azure.analytics.synapse.artifacts.models.CosmosDbLinkedService.setConnectVia(IntegrationRuntimeReference connectVia)"
+  name: "setConnectVia(IntegrationRuntimeReference connectVia)"
+  nameWithType: "CosmosDbLinkedService.setConnectVia(IntegrationRuntimeReference connectVia)"
+  summary: "Set the connect<wbr>Via property: The integration runtime reference."
+  overridden: "com.azure.analytics.synapse.artifacts.models.LinkedService.setConnectVia(com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference)"
+  parameters:
+  - name: "connectVia"
+    type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference?alt=com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference&text=IntegrationRuntimeReference\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public CosmosDbLinkedService setConnectVia(IntegrationRuntimeReference connectVia)"
+  desc: "Set the connectVia property: The integration runtime reference."
+  returns:
+    type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.CosmosDbLinkedService?alt=com.azure.analytics.synapse.artifacts.models.CosmosDbLinkedService&text=CosmosDbLinkedService\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.analytics.synapse.artifacts.models.CosmosDbLinkedService.setConnectionString(java.lang.Object)"
   fullName: "com.azure.analytics.synapse.artifacts.models.CosmosDbLinkedService.setConnectionString(Object connectionString)"
   name: "setConnectionString(Object connectionString)"
@@ -192,19 +205,6 @@ methods:
   desc: "Set the connectionString property: The connection string. Type: string, SecureString or AzureKeyVaultSecretReference."
   returns:
     description: "the CosmosDbLinkedService object itself."
-    type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.CosmosDbLinkedService?alt=com.azure.analytics.synapse.artifacts.models.CosmosDbLinkedService&text=CosmosDbLinkedService\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.analytics.synapse.artifacts.models.CosmosDbLinkedService.setConnectVia(com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference)"
-  fullName: "com.azure.analytics.synapse.artifacts.models.CosmosDbLinkedService.setConnectVia(IntegrationRuntimeReference connectVia)"
-  name: "setConnectVia(IntegrationRuntimeReference connectVia)"
-  nameWithType: "CosmosDbLinkedService.setConnectVia(IntegrationRuntimeReference connectVia)"
-  summary: "Set the connect<wbr>Via property: The integration runtime reference."
-  overridden: "com.azure.analytics.synapse.artifacts.models.LinkedService.setConnectVia(com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference)"
-  parameters:
-  - name: "connectVia"
-    type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference?alt=com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference&text=IntegrationRuntimeReference\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public CosmosDbLinkedService setConnectVia(IntegrationRuntimeReference connectVia)"
-  desc: "Set the connectVia property: The integration runtime reference."
-  returns:
     type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.CosmosDbLinkedService?alt=com.azure.analytics.synapse.artifacts.models.CosmosDbLinkedService&text=CosmosDbLinkedService\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.analytics.synapse.artifacts.models.CosmosDbLinkedService.setCredential(com.azure.analytics.synapse.artifacts.models.CredentialReference)"
   fullName: "com.azure.analytics.synapse.artifacts.models.CosmosDbLinkedService.setCredential(CredentialReference credential)"

@@ -92,16 +92,6 @@ methods:
   returns:
     description: "the inputs value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<xref href=\"com.azure.resourcemanager.machinelearning.models.JobInput?alt=com.azure.resourcemanager.machinelearning.models.JobInput&text=JobInput\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.resourcemanager.machinelearning.models.PipelineJob.jobs()"
-  fullName: "com.azure.resourcemanager.machinelearning.models.PipelineJob.jobs()"
-  name: "jobs()"
-  nameWithType: "PipelineJob.jobs()"
-  summary: "Get the jobs property: Jobs construct the Pipeline Job."
-  syntax: "public Map<String,Object> jobs()"
-  desc: "Get the jobs property: Jobs construct the Pipeline Job."
-  returns:
-    description: "the jobs value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>&gt;"
 - uid: "com.azure.resourcemanager.machinelearning.models.PipelineJob.jobType()"
   fullName: "com.azure.resourcemanager.machinelearning.models.PipelineJob.jobType()"
   name: "jobType()"
@@ -113,6 +103,16 @@ methods:
   returns:
     description: "the jobType value."
     type: "<xref href=\"com.azure.resourcemanager.machinelearning.models.JobType?alt=com.azure.resourcemanager.machinelearning.models.JobType&text=JobType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.machinelearning.models.PipelineJob.jobs()"
+  fullName: "com.azure.resourcemanager.machinelearning.models.PipelineJob.jobs()"
+  name: "jobs()"
+  nameWithType: "PipelineJob.jobs()"
+  summary: "Get the jobs property: Jobs construct the Pipeline Job."
+  syntax: "public Map<String,Object> jobs()"
+  desc: "Get the jobs property: Jobs construct the Pipeline Job."
+  returns:
+    description: "the jobs value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>&gt;"
 - uid: "com.azure.resourcemanager.machinelearning.models.PipelineJob.outputs()"
   fullName: "com.azure.resourcemanager.machinelearning.models.PipelineJob.outputs()"
   name: "outputs()"

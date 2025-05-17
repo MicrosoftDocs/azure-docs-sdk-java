@@ -25,22 +25,6 @@ methods:
   returns:
     description: "the next stage of the web app update"
     type: "<xref href=\"com.azure.resourcemanager.appservice.models.WebAppBase.Update?alt=com.azure.resourcemanager.appservice.models.WebAppBase.Update&text=Update\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"FluentT?alt=FluentT&text=FluentT\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.resourcemanager.appservice.models.WebAppBase.UpdateStages.WithAppSettings.withAppSettings(java.util.Map<java.lang.String,java.lang.String>)"
-  fullName: "com.azure.resourcemanager.appservice.models.WebAppBase.UpdateStages.WithAppSettings<FluentT>.withAppSettings(Map<String,String> settings)"
-  name: "withAppSettings(Map<String,String> settings)"
-  nameWithType: "WebAppBase.UpdateStages.WithAppSettings<FluentT>.withAppSettings(Map<String,String> settings)"
-  summary: "Specifies the app settings for the web app as a <xref uid=\"java.util.Map\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Map\"></xref>."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "a <xref uid=\"java.util.Map\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Map\"></xref> of app settings"
-    name: "settings"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-  syntax: "public abstract WebAppBase.Update<FluentT> withAppSettings(Map<String,String> settings)"
-  desc: "Specifies the app settings for the web app as a <xref uid=\"java.util.Map\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Map\"></xref>."
-  returns:
-    description: "the next stage of the web app update"
-    type: "<xref href=\"com.azure.resourcemanager.appservice.models.WebAppBase.Update?alt=com.azure.resourcemanager.appservice.models.WebAppBase.Update&text=Update\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"FluentT?alt=FluentT&text=FluentT\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.appservice.models.WebAppBase.UpdateStages.WithAppSettings.withAppSettingStickiness(java.lang.String,boolean)"
   fullName: "com.azure.resourcemanager.appservice.models.WebAppBase.UpdateStages.WithAppSettings<FluentT>.withAppSettingStickiness(String key, boolean sticky)"
   name: "withAppSettingStickiness(String key, boolean sticky)"
@@ -60,19 +44,19 @@ methods:
   returns:
     description: "the next stage of the web app update"
     type: "<xref href=\"com.azure.resourcemanager.appservice.models.WebAppBase.Update?alt=com.azure.resourcemanager.appservice.models.WebAppBase.Update&text=Update\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"FluentT?alt=FluentT&text=FluentT\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.resourcemanager.appservice.models.WebAppBase.UpdateStages.WithAppSettings.withoutAppSetting(java.lang.String)"
-  fullName: "com.azure.resourcemanager.appservice.models.WebAppBase.UpdateStages.WithAppSettings<FluentT>.withoutAppSetting(String key)"
-  name: "withoutAppSetting(String key)"
-  nameWithType: "WebAppBase.UpdateStages.WithAppSettings<FluentT>.withoutAppSetting(String key)"
-  summary: "Removes an app setting from the web app."
+- uid: "com.azure.resourcemanager.appservice.models.WebAppBase.UpdateStages.WithAppSettings.withAppSettings(java.util.Map<java.lang.String,java.lang.String>)"
+  fullName: "com.azure.resourcemanager.appservice.models.WebAppBase.UpdateStages.WithAppSettings<FluentT>.withAppSettings(Map<String,String> settings)"
+  name: "withAppSettings(Map<String,String> settings)"
+  nameWithType: "WebAppBase.UpdateStages.WithAppSettings<FluentT>.withAppSettings(Map<String,String> settings)"
+  summary: "Specifies the app settings for the web app as a <xref uid=\"java.util.Map\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Map\"></xref>."
   modifiers:
   - "abstract"
   parameters:
-  - description: "the key of the app setting to remove"
-    name: "key"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public abstract WebAppBase.Update<FluentT> withoutAppSetting(String key)"
-  desc: "Removes an app setting from the web app."
+  - description: "a <xref uid=\"java.util.Map\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Map\"></xref> of app settings"
+    name: "settings"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+  syntax: "public abstract WebAppBase.Update<FluentT> withAppSettings(Map<String,String> settings)"
+  desc: "Specifies the app settings for the web app as a <xref uid=\"java.util.Map\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Map\"></xref>."
   returns:
     description: "the next stage of the web app update"
     type: "<xref href=\"com.azure.resourcemanager.appservice.models.WebAppBase.Update?alt=com.azure.resourcemanager.appservice.models.WebAppBase.Update&text=Update\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"FluentT?alt=FluentT&text=FluentT\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -108,6 +92,22 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
   syntax: "public abstract WebAppBase.Update<FluentT> withStickyAppSettings(Map<String,String> settings)"
   desc: "Specifies the app settings for the web app as a <xref uid=\"java.util.Map\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Map\"></xref>. These app settings will stay at the slot during a swap."
+  returns:
+    description: "the next stage of the web app update"
+    type: "<xref href=\"com.azure.resourcemanager.appservice.models.WebAppBase.Update?alt=com.azure.resourcemanager.appservice.models.WebAppBase.Update&text=Update\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"FluentT?alt=FluentT&text=FluentT\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.appservice.models.WebAppBase.UpdateStages.WithAppSettings.withoutAppSetting(java.lang.String)"
+  fullName: "com.azure.resourcemanager.appservice.models.WebAppBase.UpdateStages.WithAppSettings<FluentT>.withoutAppSetting(String key)"
+  name: "withoutAppSetting(String key)"
+  nameWithType: "WebAppBase.UpdateStages.WithAppSettings<FluentT>.withoutAppSetting(String key)"
+  summary: "Removes an app setting from the web app."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "the key of the app setting to remove"
+    name: "key"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract WebAppBase.Update<FluentT> withoutAppSetting(String key)"
+  desc: "Removes an app setting from the web app."
   returns:
     description: "the next stage of the web app update"
     type: "<xref href=\"com.azure.resourcemanager.appservice.models.WebAppBase.Update?alt=com.azure.resourcemanager.appservice.models.WebAppBase.Update&text=Update\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"FluentT?alt=FluentT&text=FluentT\" data-throw-if-not-resolved=\"False\" />&gt;"

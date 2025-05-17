@@ -49,16 +49,6 @@ methods:
   returns:
     description: "An instance of AutoUpgradeProfileStatus if the JsonReader was pointing to an instance of it, or null if\n it was pointing to JSON null."
     type: "<xref href=\"com.azure.resourcemanager.containerservicefleet.models.AutoUpgradeProfileStatus?alt=com.azure.resourcemanager.containerservicefleet.models.AutoUpgradeProfileStatus&text=AutoUpgradeProfileStatus\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.containerservicefleet.models.AutoUpgradeProfileStatus.lastTriggeredAt()"
-  fullName: "com.azure.resourcemanager.containerservicefleet.models.AutoUpgradeProfileStatus.lastTriggeredAt()"
-  name: "lastTriggeredAt()"
-  nameWithType: "AutoUpgradeProfileStatus.lastTriggeredAt()"
-  summary: "Get the last<wbr>Triggered<wbr>At property: The UTC time of the last attempt to automatically create and start an Update<wbr>Run as triggered by the release of new versions."
-  syntax: "public OffsetDateTime lastTriggeredAt()"
-  desc: "Get the lastTriggeredAt property: The UTC time of the last attempt to automatically create and start an UpdateRun as triggered by the release of new versions."
-  returns:
-    description: "the lastTriggeredAt value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
 - uid: "com.azure.resourcemanager.containerservicefleet.models.AutoUpgradeProfileStatus.lastTriggerError()"
   fullName: "com.azure.resourcemanager.containerservicefleet.models.AutoUpgradeProfileStatus.lastTriggerError()"
   name: "lastTriggerError()"
@@ -89,6 +79,16 @@ methods:
   returns:
     description: "the lastTriggerUpgradeVersions value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+- uid: "com.azure.resourcemanager.containerservicefleet.models.AutoUpgradeProfileStatus.lastTriggeredAt()"
+  fullName: "com.azure.resourcemanager.containerservicefleet.models.AutoUpgradeProfileStatus.lastTriggeredAt()"
+  name: "lastTriggeredAt()"
+  nameWithType: "AutoUpgradeProfileStatus.lastTriggeredAt()"
+  summary: "Get the last<wbr>Triggered<wbr>At property: The UTC time of the last attempt to automatically create and start an Update<wbr>Run as triggered by the release of new versions."
+  syntax: "public OffsetDateTime lastTriggeredAt()"
+  desc: "Get the lastTriggeredAt property: The UTC time of the last attempt to automatically create and start an UpdateRun as triggered by the release of new versions."
+  returns:
+    description: "the lastTriggeredAt value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
 - uid: "com.azure.resourcemanager.containerservicefleet.models.AutoUpgradeProfileStatus.toJson(com.azure.json.JsonWriter)"
   fullName: "com.azure.resourcemanager.containerservicefleet.models.AutoUpgradeProfileStatus.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"

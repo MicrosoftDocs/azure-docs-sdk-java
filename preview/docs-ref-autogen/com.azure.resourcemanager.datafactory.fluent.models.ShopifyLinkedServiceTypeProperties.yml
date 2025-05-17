@@ -34,9 +34,9 @@ methods:
   fullName: "com.azure.resourcemanager.datafactory.fluent.models.ShopifyLinkedServiceTypeProperties.accessToken()"
   name: "accessToken()"
   nameWithType: "ShopifyLinkedServiceTypeProperties.accessToken()"
-  summary: "Get the access<wbr>Token property: The API access token that can be used to access Shopify’s data."
+  summary: "Get the access<wbr>Token property: The API access token that can be used to access Shopify\\\\u2019s data."
   syntax: "public SecretBase accessToken()"
-  desc: "Get the accessToken property: The API access token that can be used to access Shopify’s data. The token won't expire if it is offline mode."
+  desc: "Get the accessToken property: The API access token that can be used to access Shopify\\\\u2019s data. The token won't expire if it is offline mode."
   returns:
     description: "the accessToken value."
     type: "<xref href=\"com.azure.resourcemanager.datafactory.models.SecretBase?alt=com.azure.resourcemanager.datafactory.models.SecretBase&text=SecretBase\" data-throw-if-not-resolved=\"False\" />"
@@ -132,13 +132,13 @@ methods:
   fullName: "com.azure.resourcemanager.datafactory.fluent.models.ShopifyLinkedServiceTypeProperties.withAccessToken(SecretBase accessToken)"
   name: "withAccessToken(SecretBase accessToken)"
   nameWithType: "ShopifyLinkedServiceTypeProperties.withAccessToken(SecretBase accessToken)"
-  summary: "Set the access<wbr>Token property: The API access token that can be used to access Shopify’s data."
+  summary: "Set the access<wbr>Token property: The API access token that can be used to access Shopify\\\\u2019s data."
   parameters:
   - description: "the accessToken value to set."
     name: "accessToken"
     type: "<xref href=\"com.azure.resourcemanager.datafactory.models.SecretBase?alt=com.azure.resourcemanager.datafactory.models.SecretBase&text=SecretBase\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public ShopifyLinkedServiceTypeProperties withAccessToken(SecretBase accessToken)"
-  desc: "Set the accessToken property: The API access token that can be used to access Shopify’s data. The token won't expire if it is offline mode."
+  desc: "Set the accessToken property: The API access token that can be used to access Shopify\\\\u2019s data. The token won't expire if it is offline mode."
   returns:
     description: "the ShopifyLinkedServiceTypeProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.datafactory.fluent.models.ShopifyLinkedServiceTypeProperties?alt=com.azure.resourcemanager.datafactory.fluent.models.ShopifyLinkedServiceTypeProperties&text=ShopifyLinkedServiceTypeProperties\" data-throw-if-not-resolved=\"False\" />"

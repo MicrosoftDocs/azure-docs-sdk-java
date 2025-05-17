@@ -75,7 +75,7 @@ methods:
   nameWithType: "ConsistencyPolicy.maxStalenessPrefix()"
   summary: "Get the max<wbr>Staleness<wbr>Prefix property: When used with the Bounded Staleness consistency level, this value represents the number of stale requests tolerated."
   syntax: "public Long maxStalenessPrefix()"
-  desc: "Get the maxStalenessPrefix property: When used with the Bounded Staleness consistency level, this value represents the number of stale requests tolerated. Accepted range for this value is 1 – 2,147,483,647. Required when defaultConsistencyPolicy is set to 'BoundedStaleness'."
+  desc: "Get the maxStalenessPrefix property: When used with the Bounded Staleness consistency level, this value represents the number of stale requests tolerated. Accepted range for this value is 1 \\\\u2013 2,147,483,647. Required when defaultConsistencyPolicy is set to 'BoundedStaleness'."
   returns:
     description: "the maxStalenessPrefix value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Long.html\">Long</a>"
@@ -136,7 +136,7 @@ methods:
     name: "maxStalenessPrefix"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Long.html\">Long</a>"
   syntax: "public ConsistencyPolicy withMaxStalenessPrefix(Long maxStalenessPrefix)"
-  desc: "Set the maxStalenessPrefix property: When used with the Bounded Staleness consistency level, this value represents the number of stale requests tolerated. Accepted range for this value is 1 – 2,147,483,647. Required when defaultConsistencyPolicy is set to 'BoundedStaleness'."
+  desc: "Set the maxStalenessPrefix property: When used with the Bounded Staleness consistency level, this value represents the number of stale requests tolerated. Accepted range for this value is 1 \\\\u2013 2,147,483,647. Required when defaultConsistencyPolicy is set to 'BoundedStaleness'."
   returns:
     description: "the ConsistencyPolicy object itself."
     type: "<xref href=\"com.azure.resourcemanager.cosmos.models.ConsistencyPolicy?alt=com.azure.resourcemanager.cosmos.models.ConsistencyPolicy&text=ConsistencyPolicy\" data-throw-if-not-resolved=\"False\" />"

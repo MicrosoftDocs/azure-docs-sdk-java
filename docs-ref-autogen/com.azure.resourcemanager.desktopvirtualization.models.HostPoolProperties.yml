@@ -222,18 +222,6 @@ methods:
   returns:
     description: "the ring value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
-- uid: "com.azure.resourcemanager.desktopvirtualization.models.HostPoolProperties.ssoadfsAuthority()"
-  fullName: "com.azure.resourcemanager.desktopvirtualization.models.HostPoolProperties.ssoadfsAuthority()"
-  name: "ssoadfsAuthority()"
-  nameWithType: "HostPoolProperties.ssoadfsAuthority()"
-  summary: "Gets the ssoadfs<wbr>Authority property: URL to customer ADFS server for signing WVD SSO certificates."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract String ssoadfsAuthority()"
-  desc: "Gets the ssoadfsAuthority property: URL to customer ADFS server for signing WVD SSO certificates."
-  returns:
-    description: "the ssoadfsAuthority value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.desktopvirtualization.models.HostPoolProperties.ssoClientId()"
   fullName: "com.azure.resourcemanager.desktopvirtualization.models.HostPoolProperties.ssoClientId()"
   name: "ssoClientId()"
@@ -270,6 +258,18 @@ methods:
   returns:
     description: "the ssoSecretType value."
     type: "<xref href=\"com.azure.resourcemanager.desktopvirtualization.models.SsoSecretType?alt=com.azure.resourcemanager.desktopvirtualization.models.SsoSecretType&text=SsoSecretType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.desktopvirtualization.models.HostPoolProperties.ssoadfsAuthority()"
+  fullName: "com.azure.resourcemanager.desktopvirtualization.models.HostPoolProperties.ssoadfsAuthority()"
+  name: "ssoadfsAuthority()"
+  nameWithType: "HostPoolProperties.ssoadfsAuthority()"
+  summary: "Gets the ssoadfs<wbr>Authority property: URL to customer ADFS server for signing WVD SSO certificates."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String ssoadfsAuthority()"
+  desc: "Gets the ssoadfsAuthority property: URL to customer ADFS server for signing WVD SSO certificates."
+  returns:
+    description: "the ssoadfsAuthority value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.desktopvirtualization.models.HostPoolProperties.startVMOnConnect()"
   fullName: "com.azure.resourcemanager.desktopvirtualization.models.HostPoolProperties.startVMOnConnect()"
   name: "startVMOnConnect()"

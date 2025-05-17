@@ -129,6 +129,23 @@ methods:
   returns:
     description: "a single spark batch job."
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.analytics.synapse.spark.models.SparkBatchJob?alt=com.azure.analytics.synapse.spark.models.SparkBatchJob&text=SparkBatchJob\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.analytics.synapse.spark.SparkBatchAsyncClient.getSparkBatchJobWithResponse(int,java.lang.Boolean)"
+  fullName: "com.azure.analytics.synapse.spark.SparkBatchAsyncClient.getSparkBatchJobWithResponse(int batchId, Boolean detailed)"
+  name: "getSparkBatchJobWithResponse(int batchId, Boolean detailed)"
+  nameWithType: "SparkBatchAsyncClient.getSparkBatchJobWithResponse(int batchId, Boolean detailed)"
+  summary: "Gets a single spark batch job."
+  parameters:
+  - description: "Identifier for the batch job."
+    name: "batchId"
+    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
+  - description: "Optional query param specifying whether detailed response is returned beyond plain livy."
+    name: "detailed"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
+  syntax: "public Mono<Response<SparkBatchJob>> getSparkBatchJobWithResponse(int batchId, Boolean detailed)"
+  desc: "Gets a single spark batch job."
+  returns:
+    description: "a single spark batch job."
+    type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.analytics.synapse.spark.models.SparkBatchJob?alt=com.azure.analytics.synapse.spark.models.SparkBatchJob&text=SparkBatchJob\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
 - uid: "com.azure.analytics.synapse.spark.SparkBatchAsyncClient.getSparkBatchJobs()"
   fullName: "com.azure.analytics.synapse.spark.SparkBatchAsyncClient.getSparkBatchJobs()"
   name: "getSparkBatchJobs()"
@@ -179,23 +196,6 @@ methods:
   returns:
     description: "response for batch list operation."
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.analytics.synapse.spark.models.SparkBatchJobCollection?alt=com.azure.analytics.synapse.spark.models.SparkBatchJobCollection&text=SparkBatchJobCollection\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
-- uid: "com.azure.analytics.synapse.spark.SparkBatchAsyncClient.getSparkBatchJobWithResponse(int,java.lang.Boolean)"
-  fullName: "com.azure.analytics.synapse.spark.SparkBatchAsyncClient.getSparkBatchJobWithResponse(int batchId, Boolean detailed)"
-  name: "getSparkBatchJobWithResponse(int batchId, Boolean detailed)"
-  nameWithType: "SparkBatchAsyncClient.getSparkBatchJobWithResponse(int batchId, Boolean detailed)"
-  summary: "Gets a single spark batch job."
-  parameters:
-  - description: "Identifier for the batch job."
-    name: "batchId"
-    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
-  - description: "Optional query param specifying whether detailed response is returned beyond plain livy."
-    name: "detailed"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
-  syntax: "public Mono<Response<SparkBatchJob>> getSparkBatchJobWithResponse(int batchId, Boolean detailed)"
-  desc: "Gets a single spark batch job."
-  returns:
-    description: "a single spark batch job."
-    type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.analytics.synapse.spark.models.SparkBatchJob?alt=com.azure.analytics.synapse.spark.models.SparkBatchJob&text=SparkBatchJob\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
 type: "class"
 desc: "Initializes a new instance of the asynchronous SparkClient type."
 metadata: {}

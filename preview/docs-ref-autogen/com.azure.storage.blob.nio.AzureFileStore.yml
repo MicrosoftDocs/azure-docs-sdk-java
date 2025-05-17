@@ -36,6 +36,21 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/nio/file/FileStore.html#type--\">type</a>"
 syntax: "public final class **AzureFileStore**</br> extends <a href=\"https://docs.oracle.com/javase/8/docs/api/java/nio/file/FileStore.html\">FileStore</a>"
 methods:
+- uid: "com.azure.storage.blob.nio.AzureFileStore.<V>getFileStoreAttributeView(java.lang.Class<V>)"
+  fullName: "com.azure.storage.blob.nio.AzureFileStore.getFileStoreAttributeView(Class<V> aClass)"
+  name: "getFileStoreAttributeView(Class<V> aClass)"
+  nameWithType: "AzureFileStore.getFileStoreAttributeView(Class<V> aClass)"
+  summary: "Returns a File<wbr>Store<wbr>Attribute<wbr>View of the given type."
+  overridden: "java.nio.file.FileStore.<V>getFileStoreAttributeView(java.lang.Class<V>)"
+  parameters:
+  - description: "a class"
+    name: "aClass"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Class.html\">Class</a>&lt;<xref href=\"V?alt=V&text=V\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public V <V>getFileStoreAttributeView(Class<V> aClass)"
+  desc: "Returns a FileStoreAttributeView of the given type.\n\nThis method always returns null as no <xref uid=\"\" data-throw-if-not-resolved=\"false\" data-raw-source=\"FileStoreAttributeView\"></xref> is currently supported."
+  returns:
+    description: "null"
+    type: "<xref href=\"V?alt=V&text=V\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.storage.blob.nio.AzureFileStore.getAttribute(java.lang.String)"
   fullName: "com.azure.storage.blob.nio.AzureFileStore.getAttribute(String s)"
   name: "getAttribute(String s)"
@@ -54,21 +69,6 @@ methods:
   returns:
     description: "The attribute value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
-- uid: "com.azure.storage.blob.nio.AzureFileStore.<V>getFileStoreAttributeView(java.lang.Class<V>)"
-  fullName: "com.azure.storage.blob.nio.AzureFileStore.getFileStoreAttributeView(Class<V> aClass)"
-  name: "getFileStoreAttributeView(Class<V> aClass)"
-  nameWithType: "AzureFileStore.getFileStoreAttributeView(Class<V> aClass)"
-  summary: "Returns a File<wbr>Store<wbr>Attribute<wbr>View of the given type."
-  overridden: "java.nio.file.FileStore.<V>getFileStoreAttributeView(java.lang.Class<V>)"
-  parameters:
-  - description: "a class"
-    name: "aClass"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Class.html\">Class</a>&lt;<xref href=\"V?alt=V&text=V\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public V <V>getFileStoreAttributeView(Class<V> aClass)"
-  desc: "Returns a FileStoreAttributeView of the given type.\n\nThis method always returns null as no <xref uid=\"\" data-throw-if-not-resolved=\"false\" data-raw-source=\"FileStoreAttributeView\"></xref> is currently supported."
-  returns:
-    description: "null"
-    type: "<xref href=\"V?alt=V&text=V\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.storage.blob.nio.AzureFileStore.getTotalSpace()"
   fullName: "com.azure.storage.blob.nio.AzureFileStore.getTotalSpace()"
   name: "getTotalSpace()"

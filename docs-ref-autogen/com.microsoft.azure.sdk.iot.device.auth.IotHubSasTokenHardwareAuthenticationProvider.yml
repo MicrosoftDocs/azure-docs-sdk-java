@@ -89,20 +89,6 @@ methods:
   syntax: "public boolean canRefreshToken()"
   returns:
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.azure.sdk.iot.device.auth.IotHubSasTokenHardwareAuthenticationProvider.getSasToken()"
-  fullName: "com.microsoft.azure.sdk.iot.device.auth.IotHubSasTokenHardwareAuthenticationProvider.getSasToken()"
-  name: "getSasToken()"
-  nameWithType: "IotHubSasTokenHardwareAuthenticationProvider.getSasToken()"
-  summary: "Getter for Sas<wbr>Token."
-  overridden: "com.microsoft.azure.sdk.iot.device.auth.IotHubSasTokenAuthenticationProvider.getSasToken()"
-  syntax: "public char[] getSasToken()"
-  exceptions:
-  - description: "if generating the sas token from the TPM fails"
-    type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
-  desc: "Getter for SasToken. If the saved token has expired, this method shall renew it if possible"
-  returns:
-    description: "The value of SasToken"
-    type: "<xref href=\"char?alt=char&text=char\" data-throw-if-not-resolved=\"False\" />[]"
 - uid: "com.microsoft.azure.sdk.iot.device.auth.IotHubSasTokenHardwareAuthenticationProvider.getSSLContext()"
   fullName: "com.microsoft.azure.sdk.iot.device.auth.IotHubSasTokenHardwareAuthenticationProvider.getSSLContext()"
   name: "getSSLContext()"
@@ -117,6 +103,20 @@ methods:
   returns:
     description: "The value of SSLContext"
     type: "<xref href=\"javax.net.ssl.SSLContext?alt=javax.net.ssl.SSLContext&text=SSLContext\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.azure.sdk.iot.device.auth.IotHubSasTokenHardwareAuthenticationProvider.getSasToken()"
+  fullName: "com.microsoft.azure.sdk.iot.device.auth.IotHubSasTokenHardwareAuthenticationProvider.getSasToken()"
+  name: "getSasToken()"
+  nameWithType: "IotHubSasTokenHardwareAuthenticationProvider.getSasToken()"
+  summary: "Getter for Sas<wbr>Token."
+  overridden: "com.microsoft.azure.sdk.iot.device.auth.IotHubSasTokenAuthenticationProvider.getSasToken()"
+  syntax: "public char[] getSasToken()"
+  exceptions:
+  - description: "if generating the sas token from the TPM fails"
+    type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
+  desc: "Getter for SasToken. If the saved token has expired, this method shall renew it if possible"
+  returns:
+    description: "The value of SasToken"
+    type: "<xref href=\"char?alt=char&text=char\" data-throw-if-not-resolved=\"False\" />[]"
 - uid: "com.microsoft.azure.sdk.iot.device.auth.IotHubSasTokenHardwareAuthenticationProvider.isAuthenticationProviderRenewalNecessary()"
   fullName: "com.microsoft.azure.sdk.iot.device.auth.IotHubSasTokenHardwareAuthenticationProvider.isAuthenticationProviderRenewalNecessary()"
   name: "isAuthenticationProviderRenewalNecessary()"

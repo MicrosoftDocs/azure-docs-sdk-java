@@ -149,22 +149,6 @@ methods:
   returns:
     description: "the next stage of deployment update"
     type: "<xref href=\"com.azure.resourcemanager.appplatform.models.SpringAppDeployment.Update?alt=com.azure.resourcemanager.appplatform.models.SpringAppDeployment.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.appplatform.models.SpringAppDeployment.UpdateStages.WithSettings.withoutEnvironment(java.lang.String)"
-  fullName: "com.azure.resourcemanager.appplatform.models.SpringAppDeployment.UpdateStages.WithSettings.withoutEnvironment(String key)"
-  name: "withoutEnvironment(String key)"
-  nameWithType: "SpringAppDeployment.UpdateStages.WithSettings.withoutEnvironment(String key)"
-  summary: "Removes a environment variable of the deployment."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "the key of the environment"
-    name: "key"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public abstract SpringAppDeployment.Update withoutEnvironment(String key)"
-  desc: "Removes a environment variable of the deployment."
-  returns:
-    description: "the next stage of deployment update"
-    type: "<xref href=\"com.azure.resourcemanager.appplatform.models.SpringAppDeployment.Update?alt=com.azure.resourcemanager.appplatform.models.SpringAppDeployment.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.appplatform.models.SpringAppDeployment.UpdateStages.WithSettings.withRuntime(com.azure.resourcemanager.appplatform.models.RuntimeVersion)"
   fullName: "com.azure.resourcemanager.appplatform.models.SpringAppDeployment.UpdateStages.WithSettings.withRuntime(RuntimeVersion version)"
   name: "withRuntime(RuntimeVersion version)"
@@ -194,6 +178,22 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract SpringAppDeployment.Update withVersionName(String versionName)"
   desc: "Specifies the version of the deployment."
+  returns:
+    description: "the next stage of deployment update"
+    type: "<xref href=\"com.azure.resourcemanager.appplatform.models.SpringAppDeployment.Update?alt=com.azure.resourcemanager.appplatform.models.SpringAppDeployment.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.appplatform.models.SpringAppDeployment.UpdateStages.WithSettings.withoutEnvironment(java.lang.String)"
+  fullName: "com.azure.resourcemanager.appplatform.models.SpringAppDeployment.UpdateStages.WithSettings.withoutEnvironment(String key)"
+  name: "withoutEnvironment(String key)"
+  nameWithType: "SpringAppDeployment.UpdateStages.WithSettings.withoutEnvironment(String key)"
+  summary: "Removes a environment variable of the deployment."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "the key of the environment"
+    name: "key"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract SpringAppDeployment.Update withoutEnvironment(String key)"
+  desc: "Removes a environment variable of the deployment."
   returns:
     description: "the next stage of deployment update"
     type: "<xref href=\"com.azure.resourcemanager.appplatform.models.SpringAppDeployment.Update?alt=com.azure.resourcemanager.appplatform.models.SpringAppDeployment.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"

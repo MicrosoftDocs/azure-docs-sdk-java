@@ -6,22 +6,6 @@ nameWithType: "VirtualMachine.DefinitionStages.WithVMSize"
 summary: "The stage of a virtual machine definition allowing to select a VM size."
 syntax: "public static interface **VirtualMachine.DefinitionStages.WithVMSize**"
 methods:
-- uid: "com.azure.resourcemanager.compute.models.VirtualMachine.DefinitionStages.WithVMSize.withSize(java.lang.String)"
-  fullName: "com.azure.resourcemanager.compute.models.VirtualMachine.DefinitionStages.WithVMSize.withSize(String sizeName)"
-  name: "withSize(String sizeName)"
-  nameWithType: "VirtualMachine.DefinitionStages.WithVMSize.withSize(String sizeName)"
-  summary: "Selects the size of the virtual machine."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "the name of a size for the virtual machine as text"
-    name: "sizeName"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public abstract VirtualMachine.DefinitionStages.WithCreate withSize(String sizeName)"
-  desc: "Selects the size of the virtual machine.\n\nSee <xref uid=\"com.azure.resourcemanager.compute.models.ComputeSkus.listByRegion*\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ComputeSkus#listByRegion(Region)\"></xref> for virtual machine sizes in region, and <xref uid=\"com.azure.resourcemanager.compute.models.AvailabilitySet.listVirtualMachineSizes()\" data-throw-if-not-resolved=\"false\" data-raw-source=\"AvailabilitySet#listVirtualMachineSizes()\"></xref> for virtual machine sizes in availability set."
-  returns:
-    description: "the next stage of the definition"
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachine.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.compute.models.VirtualMachine.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.models.VirtualMachine.DefinitionStages.WithVMSize.withSize(com.azure.resourcemanager.compute.models.VirtualMachineSizeTypes)"
   fullName: "com.azure.resourcemanager.compute.models.VirtualMachine.DefinitionStages.WithVMSize.withSize(VirtualMachineSizeTypes size)"
   name: "withSize(VirtualMachineSizeTypes size)"
@@ -35,6 +19,22 @@ methods:
     type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachineSizeTypes?alt=com.azure.resourcemanager.compute.models.VirtualMachineSizeTypes&text=VirtualMachineSizeTypes\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract VirtualMachine.DefinitionStages.WithCreate withSize(VirtualMachineSizeTypes size)"
   desc: "Specifies the size of the virtual machine.\n\n<xref uid=\"com.azure.resourcemanager.compute.models.VirtualMachineSizeTypes\" data-throw-if-not-resolved=\"false\" data-raw-source=\"VirtualMachineSizeTypes\"></xref> is not the complete list of virtual machine sizes. See <xref uid=\"com.azure.resourcemanager.compute.models.ComputeSkus.listByRegion*\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ComputeSkus#listByRegion(Region)\"></xref> for virtual machine sizes in region, and <xref uid=\"com.azure.resourcemanager.compute.models.AvailabilitySet.listVirtualMachineSizes()\" data-throw-if-not-resolved=\"false\" data-raw-source=\"AvailabilitySet#listVirtualMachineSizes()\"></xref> for virtual machine sizes in availability set."
+  returns:
+    description: "the next stage of the definition"
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachine.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.compute.models.VirtualMachine.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.VirtualMachine.DefinitionStages.WithVMSize.withSize(java.lang.String)"
+  fullName: "com.azure.resourcemanager.compute.models.VirtualMachine.DefinitionStages.WithVMSize.withSize(String sizeName)"
+  name: "withSize(String sizeName)"
+  nameWithType: "VirtualMachine.DefinitionStages.WithVMSize.withSize(String sizeName)"
+  summary: "Selects the size of the virtual machine."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "the name of a size for the virtual machine as text"
+    name: "sizeName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract VirtualMachine.DefinitionStages.WithCreate withSize(String sizeName)"
+  desc: "Selects the size of the virtual machine.\n\nSee <xref uid=\"com.azure.resourcemanager.compute.models.ComputeSkus.listByRegion*\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ComputeSkus#listByRegion(Region)\"></xref> for virtual machine sizes in region, and <xref uid=\"com.azure.resourcemanager.compute.models.AvailabilitySet.listVirtualMachineSizes()\" data-throw-if-not-resolved=\"false\" data-raw-source=\"AvailabilitySet#listVirtualMachineSizes()\"></xref> for virtual machine sizes in availability set."
   returns:
     description: "the next stage of the definition"
     type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachine.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.compute.models.VirtualMachine.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"

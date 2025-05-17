@@ -66,18 +66,6 @@ methods:
   returns:
     description: "the PolicyAssignmentsClient object."
     type: "<xref href=\"com.azure.resourcemanager.resources.fluent.PolicyAssignmentsClient?alt=com.azure.resourcemanager.resources.fluent.PolicyAssignmentsClient&text=PolicyAssignmentsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.resources.fluent.PolicyClient.getPolicyDefinitions()"
-  fullName: "com.azure.resourcemanager.resources.fluent.PolicyClient.getPolicyDefinitions()"
-  name: "getPolicyDefinitions()"
-  nameWithType: "PolicyClient.getPolicyDefinitions()"
-  summary: "Gets the Policy<wbr>Definitions<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract PolicyDefinitionsClient getPolicyDefinitions()"
-  desc: "Gets the PolicyDefinitionsClient object to access its operations."
-  returns:
-    description: "the PolicyDefinitionsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.resources.fluent.PolicyDefinitionsClient?alt=com.azure.resourcemanager.resources.fluent.PolicyDefinitionsClient&text=PolicyDefinitionsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.resources.fluent.PolicyClient.getPolicyDefinitionVersions()"
   fullName: "com.azure.resourcemanager.resources.fluent.PolicyClient.getPolicyDefinitionVersions()"
   name: "getPolicyDefinitionVersions()"
@@ -90,6 +78,18 @@ methods:
   returns:
     description: "the PolicyDefinitionVersionsClient object."
     type: "<xref href=\"com.azure.resourcemanager.resources.fluent.PolicyDefinitionVersionsClient?alt=com.azure.resourcemanager.resources.fluent.PolicyDefinitionVersionsClient&text=PolicyDefinitionVersionsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.fluent.PolicyClient.getPolicyDefinitions()"
+  fullName: "com.azure.resourcemanager.resources.fluent.PolicyClient.getPolicyDefinitions()"
+  name: "getPolicyDefinitions()"
+  nameWithType: "PolicyClient.getPolicyDefinitions()"
+  summary: "Gets the Policy<wbr>Definitions<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract PolicyDefinitionsClient getPolicyDefinitions()"
+  desc: "Gets the PolicyDefinitionsClient object to access its operations."
+  returns:
+    description: "the PolicyDefinitionsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.resources.fluent.PolicyDefinitionsClient?alt=com.azure.resourcemanager.resources.fluent.PolicyDefinitionsClient&text=PolicyDefinitionsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.resources.fluent.PolicyClient.getPolicyExemptions()"
   fullName: "com.azure.resourcemanager.resources.fluent.PolicyClient.getPolicyExemptions()"
   name: "getPolicyExemptions()"
@@ -102,18 +102,6 @@ methods:
   returns:
     description: "the PolicyExemptionsClient object."
     type: "<xref href=\"com.azure.resourcemanager.resources.fluent.PolicyExemptionsClient?alt=com.azure.resourcemanager.resources.fluent.PolicyExemptionsClient&text=PolicyExemptionsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.resources.fluent.PolicyClient.getPolicySetDefinitions()"
-  fullName: "com.azure.resourcemanager.resources.fluent.PolicyClient.getPolicySetDefinitions()"
-  name: "getPolicySetDefinitions()"
-  nameWithType: "PolicyClient.getPolicySetDefinitions()"
-  summary: "Gets the Policy<wbr>Set<wbr>Definitions<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract PolicySetDefinitionsClient getPolicySetDefinitions()"
-  desc: "Gets the PolicySetDefinitionsClient object to access its operations."
-  returns:
-    description: "the PolicySetDefinitionsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.resources.fluent.PolicySetDefinitionsClient?alt=com.azure.resourcemanager.resources.fluent.PolicySetDefinitionsClient&text=PolicySetDefinitionsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.resources.fluent.PolicyClient.getPolicySetDefinitionVersions()"
   fullName: "com.azure.resourcemanager.resources.fluent.PolicyClient.getPolicySetDefinitionVersions()"
   name: "getPolicySetDefinitionVersions()"
@@ -126,6 +114,18 @@ methods:
   returns:
     description: "the PolicySetDefinitionVersionsClient object."
     type: "<xref href=\"com.azure.resourcemanager.resources.fluent.PolicySetDefinitionVersionsClient?alt=com.azure.resourcemanager.resources.fluent.PolicySetDefinitionVersionsClient&text=PolicySetDefinitionVersionsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.fluent.PolicyClient.getPolicySetDefinitions()"
+  fullName: "com.azure.resourcemanager.resources.fluent.PolicyClient.getPolicySetDefinitions()"
+  name: "getPolicySetDefinitions()"
+  nameWithType: "PolicyClient.getPolicySetDefinitions()"
+  summary: "Gets the Policy<wbr>Set<wbr>Definitions<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract PolicySetDefinitionsClient getPolicySetDefinitions()"
+  desc: "Gets the PolicySetDefinitionsClient object to access its operations."
+  returns:
+    description: "the PolicySetDefinitionsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.resources.fluent.PolicySetDefinitionsClient?alt=com.azure.resourcemanager.resources.fluent.PolicySetDefinitionsClient&text=PolicySetDefinitionsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.resources.fluent.PolicyClient.getSubscriptionId()"
   fullName: "com.azure.resourcemanager.resources.fluent.PolicyClient.getSubscriptionId()"
   name: "getSubscriptionId()"

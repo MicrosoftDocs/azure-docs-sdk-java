@@ -216,20 +216,6 @@ methods:
   desc: "Set the commandTimeout property: The default wait time (in seconds) before terminating the attempt to execute a command and generating an error, used by recommended version. Type: integer (or Expression with resultType integer)."
   returns:
     type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.SqlServerLinkedServiceTypeProperties?alt=com.azure.analytics.synapse.artifacts.models.SqlServerLinkedServiceTypeProperties&text=SqlServerLinkedServiceTypeProperties\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.analytics.synapse.artifacts.models.SqlServerLinkedServiceTypeProperties.setConnectionString(java.lang.Object)"
-  fullName: "com.azure.analytics.synapse.artifacts.models.SqlServerLinkedServiceTypeProperties.setConnectionString(Object connectionString)"
-  name: "setConnectionString(Object connectionString)"
-  nameWithType: "SqlServerLinkedServiceTypeProperties.setConnectionString(Object connectionString)"
-  summary: "Set the connection<wbr>String property: The connection string."
-  parameters:
-  - description: "the connectionString value to set."
-    name: "connectionString"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
-  syntax: "public SqlServerLinkedServiceTypeProperties setConnectionString(Object connectionString)"
-  desc: "Set the connectionString property: The connection string. Type: string, SecureString or AzureKeyVaultSecretReference."
-  returns:
-    description: "the SqlServerLinkedServiceTypeProperties object itself."
-    type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.SqlServerLinkedServiceTypeProperties?alt=com.azure.analytics.synapse.artifacts.models.SqlServerLinkedServiceTypeProperties&text=SqlServerLinkedServiceTypeProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.analytics.synapse.artifacts.models.SqlServerLinkedServiceTypeProperties.setConnectRetryCount(java.lang.Object)"
   fullName: "com.azure.analytics.synapse.artifacts.models.SqlServerLinkedServiceTypeProperties.setConnectRetryCount(Object connectRetryCount)"
   name: "setConnectRetryCount(Object connectRetryCount)"
@@ -268,6 +254,20 @@ methods:
   syntax: "public SqlServerLinkedServiceTypeProperties setConnectTimeout(Object connectTimeout)"
   desc: "Set the connectTimeout property: The length of time (in seconds) to wait for a connection to the server before terminating the attempt and generating an error, used by recommended version. Type: integer (or Expression with resultType integer)."
   returns:
+    type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.SqlServerLinkedServiceTypeProperties?alt=com.azure.analytics.synapse.artifacts.models.SqlServerLinkedServiceTypeProperties&text=SqlServerLinkedServiceTypeProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.analytics.synapse.artifacts.models.SqlServerLinkedServiceTypeProperties.setConnectionString(java.lang.Object)"
+  fullName: "com.azure.analytics.synapse.artifacts.models.SqlServerLinkedServiceTypeProperties.setConnectionString(Object connectionString)"
+  name: "setConnectionString(Object connectionString)"
+  nameWithType: "SqlServerLinkedServiceTypeProperties.setConnectionString(Object connectionString)"
+  summary: "Set the connection<wbr>String property: The connection string."
+  parameters:
+  - description: "the connectionString value to set."
+    name: "connectionString"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  syntax: "public SqlServerLinkedServiceTypeProperties setConnectionString(Object connectionString)"
+  desc: "Set the connectionString property: The connection string. Type: string, SecureString or AzureKeyVaultSecretReference."
+  returns:
+    description: "the SqlServerLinkedServiceTypeProperties object itself."
     type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.SqlServerLinkedServiceTypeProperties?alt=com.azure.analytics.synapse.artifacts.models.SqlServerLinkedServiceTypeProperties&text=SqlServerLinkedServiceTypeProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.analytics.synapse.artifacts.models.SqlServerLinkedServiceTypeProperties.setCredential(com.azure.analytics.synapse.artifacts.models.CredentialReference)"
   fullName: "com.azure.analytics.synapse.artifacts.models.SqlServerLinkedServiceTypeProperties.setCredential(CredentialReference credential)"
@@ -401,19 +401,6 @@ methods:
   desc: "Set the minPoolSize property: The minimum number of connections allowed in the connection pool for this specific connection string, used by recommended version. Type: integer (or Expression with resultType integer)."
   returns:
     type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.SqlServerLinkedServiceTypeProperties?alt=com.azure.analytics.synapse.artifacts.models.SqlServerLinkedServiceTypeProperties&text=SqlServerLinkedServiceTypeProperties\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.analytics.synapse.artifacts.models.SqlServerLinkedServiceTypeProperties.setMultipleActiveResultSets(java.lang.Object)"
-  fullName: "com.azure.analytics.synapse.artifacts.models.SqlServerLinkedServiceTypeProperties.setMultipleActiveResultSets(Object multipleActiveResultSets)"
-  name: "setMultipleActiveResultSets(Object multipleActiveResultSets)"
-  nameWithType: "SqlServerLinkedServiceTypeProperties.setMultipleActiveResultSets(Object multipleActiveResultSets)"
-  summary: "Set the multiple<wbr>Active<wbr>Result<wbr>Sets property: When true, an application can maintain multiple active result sets (MARS)."
-  overridden: "com.azure.analytics.synapse.artifacts.models.SqlServerBaseLinkedServiceTypeProperties.setMultipleActiveResultSets(java.lang.Object)"
-  parameters:
-  - name: "multipleActiveResultSets"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
-  syntax: "public SqlServerLinkedServiceTypeProperties setMultipleActiveResultSets(Object multipleActiveResultSets)"
-  desc: "Set the multipleActiveResultSets property: When true, an application can maintain multiple active result sets (MARS). When false, an application must process or cancel all result sets from one batch before it can execute any other batch on that connection. Type: Boolean (or Expression with resultType boolean)."
-  returns:
-    type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.SqlServerLinkedServiceTypeProperties?alt=com.azure.analytics.synapse.artifacts.models.SqlServerLinkedServiceTypeProperties&text=SqlServerLinkedServiceTypeProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.analytics.synapse.artifacts.models.SqlServerLinkedServiceTypeProperties.setMultiSubnetFailover(java.lang.Object)"
   fullName: "com.azure.analytics.synapse.artifacts.models.SqlServerLinkedServiceTypeProperties.setMultiSubnetFailover(Object multiSubnetFailover)"
   name: "setMultiSubnetFailover(Object multiSubnetFailover)"
@@ -425,6 +412,19 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   syntax: "public SqlServerLinkedServiceTypeProperties setMultiSubnetFailover(Object multiSubnetFailover)"
   desc: "Set the multiSubnetFailover property: If your application is connecting to an AlwaysOn availability group (AG) on different subnets, setting MultiSubnetFailover=true provides faster detection of and connection to the (currently) active server, used by recommended version. Type: Boolean (or Expression with resultType boolean)."
+  returns:
+    type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.SqlServerLinkedServiceTypeProperties?alt=com.azure.analytics.synapse.artifacts.models.SqlServerLinkedServiceTypeProperties&text=SqlServerLinkedServiceTypeProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.analytics.synapse.artifacts.models.SqlServerLinkedServiceTypeProperties.setMultipleActiveResultSets(java.lang.Object)"
+  fullName: "com.azure.analytics.synapse.artifacts.models.SqlServerLinkedServiceTypeProperties.setMultipleActiveResultSets(Object multipleActiveResultSets)"
+  name: "setMultipleActiveResultSets(Object multipleActiveResultSets)"
+  nameWithType: "SqlServerLinkedServiceTypeProperties.setMultipleActiveResultSets(Object multipleActiveResultSets)"
+  summary: "Set the multiple<wbr>Active<wbr>Result<wbr>Sets property: When true, an application can maintain multiple active result sets (MARS)."
+  overridden: "com.azure.analytics.synapse.artifacts.models.SqlServerBaseLinkedServiceTypeProperties.setMultipleActiveResultSets(java.lang.Object)"
+  parameters:
+  - name: "multipleActiveResultSets"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  syntax: "public SqlServerLinkedServiceTypeProperties setMultipleActiveResultSets(Object multipleActiveResultSets)"
+  desc: "Set the multipleActiveResultSets property: When true, an application can maintain multiple active result sets (MARS). When false, an application must process or cancel all result sets from one batch before it can execute any other batch on that connection. Type: Boolean (or Expression with resultType boolean)."
   returns:
     type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.SqlServerLinkedServiceTypeProperties?alt=com.azure.analytics.synapse.artifacts.models.SqlServerLinkedServiceTypeProperties&text=SqlServerLinkedServiceTypeProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.analytics.synapse.artifacts.models.SqlServerLinkedServiceTypeProperties.setPacketSize(java.lang.Object)"

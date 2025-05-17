@@ -327,20 +327,6 @@ methods:
   returns:
     description: "A <xref uid=\"com.azure.storage.blob.specialized.BlobOutputStream\" data-throw-if-not-resolved=\"false\" data-raw-source=\"BlobOutputStream\"></xref> object used to write data to the blob."
     type: "<xref href=\"com.azure.storage.blob.specialized.BlobOutputStream?alt=com.azure.storage.blob.specialized.BlobOutputStream&text=BlobOutputStream\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClient.getBlobOutputStream(com.azure.storage.blob.options.BlockBlobOutputStreamOptions)"
-  fullName: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClient.getBlobOutputStream(BlockBlobOutputStreamOptions options)"
-  name: "getBlobOutputStream(BlockBlobOutputStreamOptions options)"
-  nameWithType: "EncryptedBlobClient.getBlobOutputStream(BlockBlobOutputStreamOptions options)"
-  summary: "Creates and opens an output stream to write data to the block blob."
-  parameters:
-  - description: "<xref uid=\"com.azure.storage.blob.options.BlockBlobOutputStreamOptions\" data-throw-if-not-resolved=\"false\" data-raw-source=\"BlockBlobOutputStreamOptions\"></xref>"
-    name: "options"
-    type: "<xref href=\"com.azure.storage.blob.options.BlockBlobOutputStreamOptions?alt=com.azure.storage.blob.options.BlockBlobOutputStreamOptions&text=BlockBlobOutputStreamOptions\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public BlobOutputStream getBlobOutputStream(BlockBlobOutputStreamOptions options)"
-  desc: "Creates and opens an output stream to write data to the block blob. If the blob already exists on the service, it will be overwritten.\n\nTo avoid overwriting, pass \"\\*\" to <xref uid=\"com.azure.storage.blob.models.BlobRequestConditions.setIfNoneMatch*\" data-throw-if-not-resolved=\"false\" data-raw-source=\"BlobRequestConditions#setIfNoneMatch(String)\"></xref>.\n\nNote: We recommend you call write with reasonably sized buffers, you can do so by wrapping the BlobOutputStream obtained below with a [BufferedOutputStream][].\n\n\n[BufferedOutputStream]: https://docs.oracle.com/javase/8/docs/api/java/io/BufferedOutputStream.html"
-  returns:
-    description: "A <xref uid=\"com.azure.storage.blob.specialized.BlobOutputStream\" data-throw-if-not-resolved=\"false\" data-raw-source=\"BlobOutputStream\"></xref> object used to write data to the blob."
-    type: "<xref href=\"com.azure.storage.blob.specialized.BlobOutputStream?alt=com.azure.storage.blob.specialized.BlobOutputStream&text=BlobOutputStream\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClient.getBlobOutputStream(boolean)"
   fullName: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClient.getBlobOutputStream(boolean overwrite)"
   name: "getBlobOutputStream(boolean overwrite)"
@@ -377,6 +363,20 @@ methods:
     name: "requestConditions"
     type: "<xref href=\"com.azure.storage.blob.models.BlobRequestConditions?alt=com.azure.storage.blob.models.BlobRequestConditions&text=BlobRequestConditions\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public BlobOutputStream getBlobOutputStream(ParallelTransferOptions parallelTransferOptions, BlobHttpHeaders headers, Map<String,String> metadata, AccessTier tier, BlobRequestConditions requestConditions)"
+  desc: "Creates and opens an output stream to write data to the block blob. If the blob already exists on the service, it will be overwritten.\n\nTo avoid overwriting, pass \"\\*\" to <xref uid=\"com.azure.storage.blob.models.BlobRequestConditions.setIfNoneMatch*\" data-throw-if-not-resolved=\"false\" data-raw-source=\"BlobRequestConditions#setIfNoneMatch(String)\"></xref>.\n\nNote: We recommend you call write with reasonably sized buffers, you can do so by wrapping the BlobOutputStream obtained below with a [BufferedOutputStream][].\n\n\n[BufferedOutputStream]: https://docs.oracle.com/javase/8/docs/api/java/io/BufferedOutputStream.html"
+  returns:
+    description: "A <xref uid=\"com.azure.storage.blob.specialized.BlobOutputStream\" data-throw-if-not-resolved=\"false\" data-raw-source=\"BlobOutputStream\"></xref> object used to write data to the blob."
+    type: "<xref href=\"com.azure.storage.blob.specialized.BlobOutputStream?alt=com.azure.storage.blob.specialized.BlobOutputStream&text=BlobOutputStream\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClient.getBlobOutputStream(com.azure.storage.blob.options.BlockBlobOutputStreamOptions)"
+  fullName: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClient.getBlobOutputStream(BlockBlobOutputStreamOptions options)"
+  name: "getBlobOutputStream(BlockBlobOutputStreamOptions options)"
+  nameWithType: "EncryptedBlobClient.getBlobOutputStream(BlockBlobOutputStreamOptions options)"
+  summary: "Creates and opens an output stream to write data to the block blob."
+  parameters:
+  - description: "<xref uid=\"com.azure.storage.blob.options.BlockBlobOutputStreamOptions\" data-throw-if-not-resolved=\"false\" data-raw-source=\"BlockBlobOutputStreamOptions\"></xref>"
+    name: "options"
+    type: "<xref href=\"com.azure.storage.blob.options.BlockBlobOutputStreamOptions?alt=com.azure.storage.blob.options.BlockBlobOutputStreamOptions&text=BlockBlobOutputStreamOptions\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public BlobOutputStream getBlobOutputStream(BlockBlobOutputStreamOptions options)"
   desc: "Creates and opens an output stream to write data to the block blob. If the blob already exists on the service, it will be overwritten.\n\nTo avoid overwriting, pass \"\\*\" to <xref uid=\"com.azure.storage.blob.models.BlobRequestConditions.setIfNoneMatch*\" data-throw-if-not-resolved=\"false\" data-raw-source=\"BlobRequestConditions#setIfNoneMatch(String)\"></xref>.\n\nNote: We recommend you call write with reasonably sized buffers, you can do so by wrapping the BlobOutputStream obtained below with a [BufferedOutputStream][].\n\n\n[BufferedOutputStream]: https://docs.oracle.com/javase/8/docs/api/java/io/BufferedOutputStream.html"
   returns:
     description: "A <xref uid=\"com.azure.storage.blob.specialized.BlobOutputStream\" data-throw-if-not-resolved=\"false\" data-raw-source=\"BlobOutputStream\"></xref> object used to write data to the blob."
@@ -439,6 +439,19 @@ methods:
   syntax: "public BlobInputStream openInputStream()"
   returns:
     type: "<xref href=\"com.azure.storage.blob.specialized.BlobInputStream?alt=com.azure.storage.blob.specialized.BlobInputStream&text=BlobInputStream\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClient.openInputStream(com.azure.storage.blob.models.BlobRange,com.azure.storage.blob.models.BlobRequestConditions)"
+  fullName: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClient.openInputStream(BlobRange range, BlobRequestConditions requestConditions)"
+  name: "openInputStream(BlobRange range, BlobRequestConditions requestConditions)"
+  nameWithType: "EncryptedBlobClient.openInputStream(BlobRange range, BlobRequestConditions requestConditions)"
+  overridden: "com.azure.storage.blob.specialized.BlobClientBase.openInputStream(com.azure.storage.blob.models.BlobRange,com.azure.storage.blob.models.BlobRequestConditions)"
+  parameters:
+  - name: "range"
+    type: "<xref href=\"com.azure.storage.blob.models.BlobRange?alt=com.azure.storage.blob.models.BlobRange&text=BlobRange\" data-throw-if-not-resolved=\"False\" />"
+  - name: "requestConditions"
+    type: "<xref href=\"com.azure.storage.blob.models.BlobRequestConditions?alt=com.azure.storage.blob.models.BlobRequestConditions&text=BlobRequestConditions\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public BlobInputStream openInputStream(BlobRange range, BlobRequestConditions requestConditions)"
+  returns:
+    type: "<xref href=\"com.azure.storage.blob.specialized.BlobInputStream?alt=com.azure.storage.blob.specialized.BlobInputStream&text=BlobInputStream\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClient.openInputStream(com.azure.storage.blob.options.BlobInputStreamOptions)"
   fullName: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClient.openInputStream(BlobInputStreamOptions options)"
   name: "openInputStream(BlobInputStreamOptions options)"
@@ -461,19 +474,6 @@ methods:
   - name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public BlobInputStream openInputStream(BlobInputStreamOptions options, Context context)"
-  returns:
-    type: "<xref href=\"com.azure.storage.blob.specialized.BlobInputStream?alt=com.azure.storage.blob.specialized.BlobInputStream&text=BlobInputStream\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClient.openInputStream(com.azure.storage.blob.models.BlobRange,com.azure.storage.blob.models.BlobRequestConditions)"
-  fullName: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClient.openInputStream(BlobRange range, BlobRequestConditions requestConditions)"
-  name: "openInputStream(BlobRange range, BlobRequestConditions requestConditions)"
-  nameWithType: "EncryptedBlobClient.openInputStream(BlobRange range, BlobRequestConditions requestConditions)"
-  overridden: "com.azure.storage.blob.specialized.BlobClientBase.openInputStream(com.azure.storage.blob.models.BlobRange,com.azure.storage.blob.models.BlobRequestConditions)"
-  parameters:
-  - name: "range"
-    type: "<xref href=\"com.azure.storage.blob.models.BlobRange?alt=com.azure.storage.blob.models.BlobRange&text=BlobRange\" data-throw-if-not-resolved=\"False\" />"
-  - name: "requestConditions"
-    type: "<xref href=\"com.azure.storage.blob.models.BlobRequestConditions?alt=com.azure.storage.blob.models.BlobRequestConditions&text=BlobRequestConditions\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public BlobInputStream openInputStream(BlobRange range, BlobRequestConditions requestConditions)"
   returns:
     type: "<xref href=\"com.azure.storage.blob.specialized.BlobInputStream?alt=com.azure.storage.blob.specialized.BlobInputStream&text=BlobInputStream\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClient.openQueryInputStream(java.lang.String)"

@@ -60,6 +60,22 @@ methods:
   returns:
     description: "the Bing Visual Search API client"
     type: "<xref href=\"com.microsoft.azure.cognitiveservices.search.visualsearch.BingVisualSearchAPI?alt=com.microsoft.azure.cognitiveservices.search.visualsearch.BingVisualSearchAPI&text=BingVisualSearchAPI\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.azure.cognitiveservices.search.visualsearch.BingVisualSearchManager.authenticate(java.lang.String)"
+  fullName: "com.microsoft.azure.cognitiveservices.search.visualsearch.BingVisualSearchManager.authenticate(String subscriptionKey)"
+  name: "authenticate(String subscriptionKey)"
+  nameWithType: "BingVisualSearchManager.authenticate(String subscriptionKey)"
+  summary: "Initializes an instance of Bing Visual Search API client."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "the Bing Search API key"
+    name: "subscriptionKey"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static BingVisualSearchAPI authenticate(String subscriptionKey)"
+  desc: "Initializes an instance of Bing Visual Search API client."
+  returns:
+    description: "the Bing Visual Search API client"
+    type: "<xref href=\"com.microsoft.azure.cognitiveservices.search.visualsearch.BingVisualSearchAPI?alt=com.microsoft.azure.cognitiveservices.search.visualsearch.BingVisualSearchAPI&text=BingVisualSearchAPI\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.cognitiveservices.search.visualsearch.BingVisualSearchManager.authenticate(java.lang.String,com.microsoft.rest.credentials.ServiceClientCredentials)"
   fullName: "com.microsoft.azure.cognitiveservices.search.visualsearch.BingVisualSearchManager.authenticate(String baseUrl, ServiceClientCredentials credentials)"
   name: "authenticate(String baseUrl, ServiceClientCredentials credentials)"
@@ -94,22 +110,6 @@ methods:
     name: "subscriptionKey"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public static BingVisualSearchAPI authenticate(String baseUrl, String subscriptionKey)"
-  desc: "Initializes an instance of Bing Visual Search API client."
-  returns:
-    description: "the Bing Visual Search API client"
-    type: "<xref href=\"com.microsoft.azure.cognitiveservices.search.visualsearch.BingVisualSearchAPI?alt=com.microsoft.azure.cognitiveservices.search.visualsearch.BingVisualSearchAPI&text=BingVisualSearchAPI\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.azure.cognitiveservices.search.visualsearch.BingVisualSearchManager.authenticate(java.lang.String)"
-  fullName: "com.microsoft.azure.cognitiveservices.search.visualsearch.BingVisualSearchManager.authenticate(String subscriptionKey)"
-  name: "authenticate(String subscriptionKey)"
-  nameWithType: "BingVisualSearchManager.authenticate(String subscriptionKey)"
-  summary: "Initializes an instance of Bing Visual Search API client."
-  modifiers:
-  - "static"
-  parameters:
-  - description: "the Bing Search API key"
-    name: "subscriptionKey"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public static BingVisualSearchAPI authenticate(String subscriptionKey)"
   desc: "Initializes an instance of Bing Visual Search API client."
   returns:
     description: "the Bing Visual Search API client"

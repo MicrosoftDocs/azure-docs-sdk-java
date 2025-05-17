@@ -706,7 +706,7 @@ methods:
   modifiers:
   - "abstract"
   syntax: "public abstract ComputerVision.ComputerVisionReadDefinitionStages.WithUrl read()"
-  desc: "Use this interface to get the result of a Read operation, employing the state-of-the-art Optical Character Recognition (OCR) algorithms optimized for text-heavy documents. When you use the Read interface, the response contains a field called 'Operation-Location'. The 'Operation-Location' field contains the URL that you must use for your 'GetReadResult' operation to access OCR results.​."
+  desc: "Use this interface to get the result of a Read operation, employing the state-of-the-art Optical Character Recognition (OCR) algorithms optimized for text-heavy documents. When you use the Read interface, the response contains a field called 'Operation-Location'. The 'Operation-Location' field contains the URL that you must use for your 'GetReadResult' operation to access OCR results.\\\\u200b."
   returns:
     description: "the first stage of the read call"
     type: "<xref href=\"com.microsoft.azure.cognitiveservices.vision.computervision.ComputerVision.ComputerVisionReadDefinitionStages.WithUrl?alt=com.microsoft.azure.cognitiveservices.vision.computervision.ComputerVision.ComputerVisionReadDefinitionStages.WithUrl&text=WithUrl\" data-throw-if-not-resolved=\"False\" />"
@@ -725,7 +725,7 @@ methods:
     name: "readOptionalParameter"
     type: "<xref href=\"com.microsoft.azure.cognitiveservices.vision.computervision.models.ReadOptionalParameter?alt=com.microsoft.azure.cognitiveservices.vision.computervision.models.ReadOptionalParameter&text=ReadOptionalParameter\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract void read(String url, ReadOptionalParameter readOptionalParameter)"
-  desc: "Use this interface to get the result of a Read operation, employing the state-of-the-art Optical Character Recognition (OCR) algorithms optimized for text-heavy documents. When you use the Read interface, the response contains a field called 'Operation-Location'. The 'Operation-Location' field contains the URL that you must use for your 'GetReadResult' operation to access OCR results.​."
+  desc: "Use this interface to get the result of a Read operation, employing the state-of-the-art Optical Character Recognition (OCR) algorithms optimized for text-heavy documents. When you use the Read interface, the response contains a field called 'Operation-Location'. The 'Operation-Location' field contains the URL that you must use for your 'GetReadResult' operation to access OCR results.\\\\u200b."
 - uid: "com.microsoft.azure.cognitiveservices.vision.computervision.ComputerVision.readAsync(java.lang.String,com.microsoft.azure.cognitiveservices.vision.computervision.models.ReadOptionalParameter)"
   fullName: "com.microsoft.azure.cognitiveservices.vision.computervision.ComputerVision.readAsync(String url, ReadOptionalParameter readOptionalParameter)"
   name: "readAsync(String url, ReadOptionalParameter readOptionalParameter)"
@@ -741,7 +741,7 @@ methods:
     name: "readOptionalParameter"
     type: "<xref href=\"com.microsoft.azure.cognitiveservices.vision.computervision.models.ReadOptionalParameter?alt=com.microsoft.azure.cognitiveservices.vision.computervision.models.ReadOptionalParameter&text=ReadOptionalParameter\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Observable<Void> readAsync(String url, ReadOptionalParameter readOptionalParameter)"
-  desc: "Use this interface to get the result of a Read operation, employing the state-of-the-art Optical Character Recognition (OCR) algorithms optimized for text-heavy documents. When you use the Read interface, the response contains a field called 'Operation-Location'. The 'Operation-Location' field contains the URL that you must use for your 'GetReadResult' operation to access OCR results.​."
+  desc: "Use this interface to get the result of a Read operation, employing the state-of-the-art Optical Character Recognition (OCR) algorithms optimized for text-heavy documents. When you use the Read interface, the response contains a field called 'Operation-Location'. The 'Operation-Location' field contains the URL that you must use for your 'GetReadResult' operation to access OCR results.\\\\u200b."
   returns:
     description: "a representation of the deferred computation of this call if successful."
     type: "<xref href=\"rx.Observable?alt=rx.Observable&text=Observable\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
@@ -753,7 +753,7 @@ methods:
   modifiers:
   - "abstract"
   syntax: "public abstract ComputerVision.ComputerVisionReadInStreamDefinitionStages.WithImage readInStream()"
-  desc: "Use this interface to get the result of a Read operation, employing the state-of-the-art Optical Character Recognition (OCR) algorithms optimized for text-heavy documents. When you use the Read interface, the response contains a field called 'Operation-Location'. The 'Operation-Location' field contains the URL that you must use for your 'GetReadResult' operation to access OCR results.​."
+  desc: "Use this interface to get the result of a Read operation, employing the state-of-the-art Optical Character Recognition (OCR) algorithms optimized for text-heavy documents. When you use the Read interface, the response contains a field called 'Operation-Location'. The 'Operation-Location' field contains the URL that you must use for your 'GetReadResult' operation to access OCR results.\\\\u200b."
   returns:
     description: "the first stage of the readInStream call"
     type: "<xref href=\"com.microsoft.azure.cognitiveservices.vision.computervision.ComputerVision.ComputerVisionReadInStreamDefinitionStages.WithImage?alt=com.microsoft.azure.cognitiveservices.vision.computervision.ComputerVision.ComputerVisionReadInStreamDefinitionStages.WithImage&text=WithImage\" data-throw-if-not-resolved=\"False\" />"
@@ -772,7 +772,7 @@ methods:
     name: "readInStreamOptionalParameter"
     type: "<xref href=\"com.microsoft.azure.cognitiveservices.vision.computervision.models.ReadInStreamOptionalParameter?alt=com.microsoft.azure.cognitiveservices.vision.computervision.models.ReadInStreamOptionalParameter&text=ReadInStreamOptionalParameter\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract void readInStream(byte[] image, ReadInStreamOptionalParameter readInStreamOptionalParameter)"
-  desc: "Use this interface to get the result of a Read operation, employing the state-of-the-art Optical Character Recognition (OCR) algorithms optimized for text-heavy documents. When you use the Read interface, the response contains a field called 'Operation-Location'. The 'Operation-Location' field contains the URL that you must use for your 'GetReadResult' operation to access OCR results.​."
+  desc: "Use this interface to get the result of a Read operation, employing the state-of-the-art Optical Character Recognition (OCR) algorithms optimized for text-heavy documents. When you use the Read interface, the response contains a field called 'Operation-Location'. The 'Operation-Location' field contains the URL that you must use for your 'GetReadResult' operation to access OCR results.\\\\u200b."
 - uid: "com.microsoft.azure.cognitiveservices.vision.computervision.ComputerVision.readInStreamAsync(byte[],com.microsoft.azure.cognitiveservices.vision.computervision.models.ReadInStreamOptionalParameter)"
   fullName: "com.microsoft.azure.cognitiveservices.vision.computervision.ComputerVision.readInStreamAsync(byte[] image, ReadInStreamOptionalParameter readInStreamOptionalParameter)"
   name: "readInStreamAsync(byte[] image, ReadInStreamOptionalParameter readInStreamOptionalParameter)"
@@ -788,7 +788,7 @@ methods:
     name: "readInStreamOptionalParameter"
     type: "<xref href=\"com.microsoft.azure.cognitiveservices.vision.computervision.models.ReadInStreamOptionalParameter?alt=com.microsoft.azure.cognitiveservices.vision.computervision.models.ReadInStreamOptionalParameter&text=ReadInStreamOptionalParameter\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Observable<Void> readInStreamAsync(byte[] image, ReadInStreamOptionalParameter readInStreamOptionalParameter)"
-  desc: "Use this interface to get the result of a Read operation, employing the state-of-the-art Optical Character Recognition (OCR) algorithms optimized for text-heavy documents. When you use the Read interface, the response contains a field called 'Operation-Location'. The 'Operation-Location' field contains the URL that you must use for your 'GetReadResult' operation to access OCR results.​."
+  desc: "Use this interface to get the result of a Read operation, employing the state-of-the-art Optical Character Recognition (OCR) algorithms optimized for text-heavy documents. When you use the Read interface, the response contains a field called 'Operation-Location'. The 'Operation-Location' field contains the URL that you must use for your 'GetReadResult' operation to access OCR results.\\\\u200b."
   returns:
     description: "a representation of the deferred computation of this call if successful."
     type: "<xref href=\"rx.Observable?alt=rx.Observable&text=Observable\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"

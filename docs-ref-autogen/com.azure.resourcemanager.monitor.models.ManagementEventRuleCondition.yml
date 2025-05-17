@@ -45,7 +45,7 @@ methods:
   nameWithType: "ManagementEventRuleCondition.aggregation()"
   summary: "Get the aggregation property: How the data that is collected should be combined over time and when the alert is activated."
   syntax: "public ManagementEventAggregationCondition aggregation()"
-  desc: "Get the aggregation property: How the data that is collected should be combined over time and when the alert is activated. Note that for management event alerts aggregation is optional – if it is not provided then any event will cause the alert to activate."
+  desc: "Get the aggregation property: How the data that is collected should be combined over time and when the alert is activated. Note that for management event alerts aggregation is optional \\\\u2013 if it is not provided then any event will cause the alert to activate."
   returns:
     description: "the aggregation value."
     type: "<xref href=\"com.azure.resourcemanager.monitor.models.ManagementEventAggregationCondition?alt=com.azure.resourcemanager.monitor.models.ManagementEventAggregationCondition&text=ManagementEventAggregationCondition\" data-throw-if-not-resolved=\"False\" />"
@@ -110,7 +110,7 @@ methods:
     name: "aggregation"
     type: "<xref href=\"com.azure.resourcemanager.monitor.models.ManagementEventAggregationCondition?alt=com.azure.resourcemanager.monitor.models.ManagementEventAggregationCondition&text=ManagementEventAggregationCondition\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public ManagementEventRuleCondition withAggregation(ManagementEventAggregationCondition aggregation)"
-  desc: "Set the aggregation property: How the data that is collected should be combined over time and when the alert is activated. Note that for management event alerts aggregation is optional – if it is not provided then any event will cause the alert to activate."
+  desc: "Set the aggregation property: How the data that is collected should be combined over time and when the alert is activated. Note that for management event alerts aggregation is optional \\\\u2013 if it is not provided then any event will cause the alert to activate."
   returns:
     description: "the ManagementEventRuleCondition object itself."
     type: "<xref href=\"com.azure.resourcemanager.monitor.models.ManagementEventRuleCondition?alt=com.azure.resourcemanager.monitor.models.ManagementEventRuleCondition&text=ManagementEventRuleCondition\" data-throw-if-not-resolved=\"False\" />"

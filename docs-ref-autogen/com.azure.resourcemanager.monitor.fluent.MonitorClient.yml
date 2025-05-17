@@ -318,18 +318,6 @@ methods:
   returns:
     description: "the PrivateLinkResourcesClient object."
     type: "<xref href=\"com.azure.resourcemanager.monitor.fluent.PrivateLinkResourcesClient?alt=com.azure.resourcemanager.monitor.fluent.PrivateLinkResourcesClient&text=PrivateLinkResourcesClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.monitor.fluent.MonitorClient.getPrivateLinkScopedResources()"
-  fullName: "com.azure.resourcemanager.monitor.fluent.MonitorClient.getPrivateLinkScopedResources()"
-  name: "getPrivateLinkScopedResources()"
-  nameWithType: "MonitorClient.getPrivateLinkScopedResources()"
-  summary: "Gets the Private<wbr>Link<wbr>Scoped<wbr>Resources<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract PrivateLinkScopedResourcesClient getPrivateLinkScopedResources()"
-  desc: "Gets the PrivateLinkScopedResourcesClient object to access its operations."
-  returns:
-    description: "the PrivateLinkScopedResourcesClient object."
-    type: "<xref href=\"com.azure.resourcemanager.monitor.fluent.PrivateLinkScopedResourcesClient?alt=com.azure.resourcemanager.monitor.fluent.PrivateLinkScopedResourcesClient&text=PrivateLinkScopedResourcesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.monitor.fluent.MonitorClient.getPrivateLinkScopeOperationStatus()"
   fullName: "com.azure.resourcemanager.monitor.fluent.MonitorClient.getPrivateLinkScopeOperationStatus()"
   name: "getPrivateLinkScopeOperationStatus()"
@@ -342,6 +330,18 @@ methods:
   returns:
     description: "the PrivateLinkScopeOperationStatusClient object."
     type: "<xref href=\"com.azure.resourcemanager.monitor.fluent.PrivateLinkScopeOperationStatusClient?alt=com.azure.resourcemanager.monitor.fluent.PrivateLinkScopeOperationStatusClient&text=PrivateLinkScopeOperationStatusClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.monitor.fluent.MonitorClient.getPrivateLinkScopedResources()"
+  fullName: "com.azure.resourcemanager.monitor.fluent.MonitorClient.getPrivateLinkScopedResources()"
+  name: "getPrivateLinkScopedResources()"
+  nameWithType: "MonitorClient.getPrivateLinkScopedResources()"
+  summary: "Gets the Private<wbr>Link<wbr>Scoped<wbr>Resources<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract PrivateLinkScopedResourcesClient getPrivateLinkScopedResources()"
+  desc: "Gets the PrivateLinkScopedResourcesClient object to access its operations."
+  returns:
+    description: "the PrivateLinkScopedResourcesClient object."
+    type: "<xref href=\"com.azure.resourcemanager.monitor.fluent.PrivateLinkScopedResourcesClient?alt=com.azure.resourcemanager.monitor.fluent.PrivateLinkScopedResourcesClient&text=PrivateLinkScopedResourcesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.monitor.fluent.MonitorClient.getPrivateLinkScopes()"
   fullName: "com.azure.resourcemanager.monitor.fluent.MonitorClient.getPrivateLinkScopes()"
   name: "getPrivateLinkScopes()"

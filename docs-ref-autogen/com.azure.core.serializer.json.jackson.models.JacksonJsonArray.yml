@@ -56,6 +56,20 @@ constructors:
   syntax: "public JacksonJsonArray(ArrayNode array)"
   desc: "Creates a new <xref uid=\"com.azure.core.serializer.json.jackson.models.JacksonJsonArray\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JacksonJsonArray\"></xref> using the provided <xref uid=\"com.fasterxml.jackson.databind.node.ArrayNode\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ArrayNode\"></xref>."
 methods:
+- uid: "com.azure.core.serializer.json.jackson.models.JacksonJsonArray.addElement(com.fasterxml.jackson.databind.JsonNode)"
+  fullName: "com.azure.core.serializer.json.jackson.models.JacksonJsonArray.addElement(JsonNode node)"
+  name: "addElement(JsonNode node)"
+  nameWithType: "JacksonJsonArray.addElement(JsonNode node)"
+  summary: "Adds a Json<wbr>Node to the JSON array."
+  parameters:
+  - description: "The JsonNode to add to the array."
+    name: "node"
+    type: "<xref href=\"com.fasterxml.jackson.databind.JsonNode?alt=com.fasterxml.jackson.databind.JsonNode&text=JsonNode\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JacksonJsonArray addElement(JsonNode node)"
+  desc: "Adds a JsonNode to the JSON array. This node will be appended to the end of the array."
+  returns:
+    description: "The updated JacksonJsonArray object."
+    type: "<xref href=\"com.azure.core.serializer.json.jackson.models.JacksonJsonArray?alt=com.azure.core.serializer.json.jackson.models.JacksonJsonArray&text=JacksonJsonArray\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.core.serializer.json.jackson.models.JacksonJsonArray.addElement(int,com.fasterxml.jackson.databind.JsonNode)"
   fullName: "com.azure.core.serializer.json.jackson.models.JacksonJsonArray.addElement(int index, JsonNode node)"
   name: "addElement(int index, JsonNode node)"
@@ -70,20 +84,6 @@ methods:
     type: "<xref href=\"com.fasterxml.jackson.databind.JsonNode?alt=com.fasterxml.jackson.databind.JsonNode&text=JsonNode\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public JacksonJsonArray addElement(int index, JsonNode node)"
   desc: "Adds a JsonNode to the JSON array at the specified index. This node will be inserted at the specified index and all elements at or after the index will be shifted."
-  returns:
-    description: "The updated JacksonJsonArray object."
-    type: "<xref href=\"com.azure.core.serializer.json.jackson.models.JacksonJsonArray?alt=com.azure.core.serializer.json.jackson.models.JacksonJsonArray&text=JacksonJsonArray\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.core.serializer.json.jackson.models.JacksonJsonArray.addElement(com.fasterxml.jackson.databind.JsonNode)"
-  fullName: "com.azure.core.serializer.json.jackson.models.JacksonJsonArray.addElement(JsonNode node)"
-  name: "addElement(JsonNode node)"
-  nameWithType: "JacksonJsonArray.addElement(JsonNode node)"
-  summary: "Adds a Json<wbr>Node to the JSON array."
-  parameters:
-  - description: "The JsonNode to add to the array."
-    name: "node"
-    type: "<xref href=\"com.fasterxml.jackson.databind.JsonNode?alt=com.fasterxml.jackson.databind.JsonNode&text=JsonNode\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public JacksonJsonArray addElement(JsonNode node)"
-  desc: "Adds a JsonNode to the JSON array. This node will be appended to the end of the array."
   returns:
     description: "The updated JacksonJsonArray object."
     type: "<xref href=\"com.azure.core.serializer.json.jackson.models.JacksonJsonArray?alt=com.azure.core.serializer.json.jackson.models.JacksonJsonArray&text=JacksonJsonArray\" data-throw-if-not-resolved=\"False\" />"

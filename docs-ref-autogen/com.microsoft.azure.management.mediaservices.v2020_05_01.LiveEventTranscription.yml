@@ -42,9 +42,9 @@ methods:
   fullName: "com.microsoft.azure.management.mediaservices.v2020_05_01.LiveEventTranscription.language()"
   name: "language()"
   nameWithType: "LiveEventTranscription.language()"
-  summary: "Get specifies the language (locale) to be used for speech-to-text transcription – it should match the spoken language in the audio track."
+  summary: "Get specifies the language (locale) to be used for speech-to-text transcription \\\\u2013 it should match the spoken language in the audio track."
   syntax: "public String language()"
-  desc: "Get specifies the language (locale) to be used for speech-to-text transcription – it should match the spoken language in the audio track. The value should be in BCP-47 format (e.g: 'en-US'). See https://go.microsoft.com/fwlink/?linkid=2133742 for more information about the live transcription feature and the list of supported languages."
+  desc: "Get specifies the language (locale) to be used for speech-to-text transcription \\\\u2013 it should match the spoken language in the audio track. The value should be in BCP-47 format (e.g: 'en-US'). See https://go.microsoft.com/fwlink/?linkid=2133742 for more information about the live transcription feature and the list of supported languages."
   returns:
     description: "the language value"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
@@ -76,13 +76,13 @@ methods:
   fullName: "com.microsoft.azure.management.mediaservices.v2020_05_01.LiveEventTranscription.withLanguage(String language)"
   name: "withLanguage(String language)"
   nameWithType: "LiveEventTranscription.withLanguage(String language)"
-  summary: "Set specifies the language (locale) to be used for speech-to-text transcription – it should match the spoken language in the audio track."
+  summary: "Set specifies the language (locale) to be used for speech-to-text transcription \\\\u2013 it should match the spoken language in the audio track."
   parameters:
   - description: "the language value to set"
     name: "language"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public LiveEventTranscription withLanguage(String language)"
-  desc: "Set specifies the language (locale) to be used for speech-to-text transcription – it should match the spoken language in the audio track. The value should be in BCP-47 format (e.g: 'en-US'). See https://go.microsoft.com/fwlink/?linkid=2133742 for more information about the live transcription feature and the list of supported languages."
+  desc: "Set specifies the language (locale) to be used for speech-to-text transcription \\\\u2013 it should match the spoken language in the audio track. The value should be in BCP-47 format (e.g: 'en-US'). See https://go.microsoft.com/fwlink/?linkid=2133742 for more information about the live transcription feature and the list of supported languages."
   returns:
     description: "the LiveEventTranscription object itself."
     type: "<xref href=\"com.microsoft.azure.management.mediaservices.v2020_05_01.LiveEventTranscription?alt=com.microsoft.azure.management.mediaservices.v2020_05_01.LiveEventTranscription&text=LiveEventTranscription\" data-throw-if-not-resolved=\"False\" />"

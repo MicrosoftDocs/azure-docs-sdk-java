@@ -149,6 +149,16 @@ methods:
   returns:
     description: "the calculated MD5 of the append blob"
     type: "<xref href=\"byte?alt=byte&text=byte\" data-throw-if-not-resolved=\"False\" />[]"
+- uid: "com.azure.storage.blob.models.AppendBlobItem.getETag()"
+  fullName: "com.azure.storage.blob.models.AppendBlobItem.getETag()"
+  name: "getETag()"
+  nameWithType: "AppendBlobItem.getETag()"
+  summary: "Gets the e<wbr>Tag of the append blob."
+  syntax: "public String getETag()"
+  desc: "Gets the eTag of the append blob."
+  returns:
+    description: "the eTag of the append blob"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.storage.blob.models.AppendBlobItem.getEncryptionKeySha256()"
   fullName: "com.azure.storage.blob.models.AppendBlobItem.getEncryptionKeySha256()"
   name: "getEncryptionKeySha256()"
@@ -168,16 +178,6 @@ methods:
   desc: "Gets the encryption scope that was used to encrypt the append blob."
   returns:
     description: "the encryption scope that was used to encrypt the append blob"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.storage.blob.models.AppendBlobItem.getETag()"
-  fullName: "com.azure.storage.blob.models.AppendBlobItem.getETag()"
-  name: "getETag()"
-  nameWithType: "AppendBlobItem.getETag()"
-  summary: "Gets the e<wbr>Tag of the append blob."
-  syntax: "public String getETag()"
-  desc: "Gets the eTag of the append blob."
-  returns:
-    description: "the eTag of the append blob"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.storage.blob.models.AppendBlobItem.getLastModified()"
   fullName: "com.azure.storage.blob.models.AppendBlobItem.getLastModified()"

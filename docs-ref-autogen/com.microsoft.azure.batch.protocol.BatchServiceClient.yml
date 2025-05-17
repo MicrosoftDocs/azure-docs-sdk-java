@@ -138,18 +138,6 @@ methods:
   returns:
     description: "the azure client;"
     type: "<xref href=\"com.microsoft.azure.AzureClient?alt=com.microsoft.azure.AzureClient&text=AzureClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.azure.batch.protocol.BatchServiceClient.jobs()"
-  fullName: "com.microsoft.azure.batch.protocol.BatchServiceClient.jobs()"
-  name: "jobs()"
-  nameWithType: "BatchServiceClient.jobs()"
-  summary: "Gets the Jobs object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract Jobs jobs()"
-  desc: "Gets the Jobs object to access its operations."
-  returns:
-    description: "the Jobs object."
-    type: "<xref href=\"com.microsoft.azure.batch.protocol.Jobs?alt=com.microsoft.azure.batch.protocol.Jobs&text=Jobs\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.batch.protocol.BatchServiceClient.jobSchedules()"
   fullName: "com.microsoft.azure.batch.protocol.BatchServiceClient.jobSchedules()"
   name: "jobSchedules()"
@@ -162,6 +150,18 @@ methods:
   returns:
     description: "the JobSchedules object."
     type: "<xref href=\"com.microsoft.azure.batch.protocol.JobSchedules?alt=com.microsoft.azure.batch.protocol.JobSchedules&text=JobSchedules\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.azure.batch.protocol.BatchServiceClient.jobs()"
+  fullName: "com.microsoft.azure.batch.protocol.BatchServiceClient.jobs()"
+  name: "jobs()"
+  nameWithType: "BatchServiceClient.jobs()"
+  summary: "Gets the Jobs object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract Jobs jobs()"
+  desc: "Gets the Jobs object to access its operations."
+  returns:
+    description: "the Jobs object."
+    type: "<xref href=\"com.microsoft.azure.batch.protocol.Jobs?alt=com.microsoft.azure.batch.protocol.Jobs&text=Jobs\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.batch.protocol.BatchServiceClient.longRunningOperationRetryTimeout()"
   fullName: "com.microsoft.azure.batch.protocol.BatchServiceClient.longRunningOperationRetryTimeout()"
   name: "longRunningOperationRetryTimeout()"

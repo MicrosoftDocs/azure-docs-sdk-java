@@ -36,7 +36,7 @@ methods:
   nameWithType: "NsgSecurityRule.access()"
   summary: "Get the access property: Gets or sets whether network traffic is allowed or denied."
   syntax: "public String access()"
-  desc: "Get the access property: Gets or sets whether network traffic is allowed or denied. Possible values are “Allow” and “Deny”."
+  desc: "Get the access property: Gets or sets whether network traffic is allowed or denied. Possible values are \\\\u201cAllow\\\\u201d and \\\\u201cDeny\\\\u201d."
   returns:
     description: "the access value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -56,7 +56,7 @@ methods:
   nameWithType: "NsgSecurityRule.destinationAddressPrefix()"
   summary: "Get the destination<wbr>Address<wbr>Prefix property: Gets or sets destination address prefix."
   syntax: "public String destinationAddressPrefix()"
-  desc: "Get the destinationAddressPrefix property: Gets or sets destination address prefix. CIDR or source IP range. A “\\*” can also be used to match all source IPs. Default tags such as ‘VirtualNetwork’, ‘AzureLoadBalancer’ and ‘Internet’ can also be used."
+  desc: "Get the destinationAddressPrefix property: Gets or sets destination address prefix. CIDR or source IP range. A \\\\u201c\\*\\\\u201d can also be used to match all source IPs. Default tags such as \\\\u2018VirtualNetwork\\\\u2019, \\\\u2018AzureLoadBalancer\\\\u2019 and \\\\u2018Internet\\\\u2019 can also be used."
   returns:
     description: "the destinationAddressPrefix value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -66,7 +66,7 @@ methods:
   nameWithType: "NsgSecurityRule.destinationPortRange()"
   summary: "Get the destination<wbr>Port<wbr>Range property: Gets or sets Destination Port or Range."
   syntax: "public String destinationPortRange()"
-  desc: "Get the destinationPortRange property: Gets or sets Destination Port or Range. Integer or range between 0 and 65535. A “\\*” can also be used to match all ports."
+  desc: "Get the destinationPortRange property: Gets or sets Destination Port or Range. Integer or range between 0 and 65535. A \\\\u201c\\*\\\\u201d can also be used to match all ports."
   returns:
     description: "the destinationPortRange value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -135,7 +135,7 @@ methods:
   nameWithType: "NsgSecurityRule.sourceAddressPrefix()"
   summary: "Get the source<wbr>Address<wbr>Prefix property: Gets or sets source address prefix."
   syntax: "public String sourceAddressPrefix()"
-  desc: "Get the sourceAddressPrefix property: Gets or sets source address prefix. CIDR or source IP range. A “\\*” can also be used to match all source IPs. Default tags such as ‘VirtualNetwork’, ‘AzureLoadBalancer’ and ‘Internet’ can also be used. If this is an ingress rule, specifies where network traffic originates from."
+  desc: "Get the sourceAddressPrefix property: Gets or sets source address prefix. CIDR or source IP range. A \\\\u201c\\*\\\\u201d can also be used to match all source IPs. Default tags such as \\\\u2018VirtualNetwork\\\\u2019, \\\\u2018AzureLoadBalancer\\\\u2019 and \\\\u2018Internet\\\\u2019 can also be used. If this is an ingress rule, specifies where network traffic originates from."
   returns:
     description: "the sourceAddressPrefix value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -145,7 +145,7 @@ methods:
   nameWithType: "NsgSecurityRule.sourcePortRange()"
   summary: "Get the source<wbr>Port<wbr>Range property: Gets or sets Source Port or Range."
   syntax: "public String sourcePortRange()"
-  desc: "Get the sourcePortRange property: Gets or sets Source Port or Range. Integer or range between 0 and 65535. A “\\*” can also be used to match all ports."
+  desc: "Get the sourcePortRange property: Gets or sets Source Port or Range. Integer or range between 0 and 65535. A \\\\u201c\\*\\\\u201d can also be used to match all ports."
   returns:
     description: "the sourcePortRange value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -178,7 +178,7 @@ methods:
     name: "access"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public NsgSecurityRule withAccess(String access)"
-  desc: "Set the access property: Gets or sets whether network traffic is allowed or denied. Possible values are “Allow” and “Deny”."
+  desc: "Set the access property: Gets or sets whether network traffic is allowed or denied. Possible values are \\\\u201cAllow\\\\u201d and \\\\u201cDeny\\\\u201d."
   returns:
     description: "the NsgSecurityRule object itself."
     type: "<xref href=\"com.azure.resourcemanager.resourcemover.models.NsgSecurityRule?alt=com.azure.resourcemanager.resourcemover.models.NsgSecurityRule&text=NsgSecurityRule\" data-throw-if-not-resolved=\"False\" />"
@@ -206,7 +206,7 @@ methods:
     name: "destinationAddressPrefix"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public NsgSecurityRule withDestinationAddressPrefix(String destinationAddressPrefix)"
-  desc: "Set the destinationAddressPrefix property: Gets or sets destination address prefix. CIDR or source IP range. A “\\*” can also be used to match all source IPs. Default tags such as ‘VirtualNetwork’, ‘AzureLoadBalancer’ and ‘Internet’ can also be used."
+  desc: "Set the destinationAddressPrefix property: Gets or sets destination address prefix. CIDR or source IP range. A \\\\u201c\\*\\\\u201d can also be used to match all source IPs. Default tags such as \\\\u2018VirtualNetwork\\\\u2019, \\\\u2018AzureLoadBalancer\\\\u2019 and \\\\u2018Internet\\\\u2019 can also be used."
   returns:
     description: "the NsgSecurityRule object itself."
     type: "<xref href=\"com.azure.resourcemanager.resourcemover.models.NsgSecurityRule?alt=com.azure.resourcemanager.resourcemover.models.NsgSecurityRule&text=NsgSecurityRule\" data-throw-if-not-resolved=\"False\" />"
@@ -220,7 +220,7 @@ methods:
     name: "destinationPortRange"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public NsgSecurityRule withDestinationPortRange(String destinationPortRange)"
-  desc: "Set the destinationPortRange property: Gets or sets Destination Port or Range. Integer or range between 0 and 65535. A “\\*” can also be used to match all ports."
+  desc: "Set the destinationPortRange property: Gets or sets Destination Port or Range. Integer or range between 0 and 65535. A \\\\u201c\\*\\\\u201d can also be used to match all ports."
   returns:
     description: "the NsgSecurityRule object itself."
     type: "<xref href=\"com.azure.resourcemanager.resourcemover.models.NsgSecurityRule?alt=com.azure.resourcemanager.resourcemover.models.NsgSecurityRule&text=NsgSecurityRule\" data-throw-if-not-resolved=\"False\" />"
@@ -290,7 +290,7 @@ methods:
     name: "sourceAddressPrefix"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public NsgSecurityRule withSourceAddressPrefix(String sourceAddressPrefix)"
-  desc: "Set the sourceAddressPrefix property: Gets or sets source address prefix. CIDR or source IP range. A “\\*” can also be used to match all source IPs. Default tags such as ‘VirtualNetwork’, ‘AzureLoadBalancer’ and ‘Internet’ can also be used. If this is an ingress rule, specifies where network traffic originates from."
+  desc: "Set the sourceAddressPrefix property: Gets or sets source address prefix. CIDR or source IP range. A \\\\u201c\\*\\\\u201d can also be used to match all source IPs. Default tags such as \\\\u2018VirtualNetwork\\\\u2019, \\\\u2018AzureLoadBalancer\\\\u2019 and \\\\u2018Internet\\\\u2019 can also be used. If this is an ingress rule, specifies where network traffic originates from."
   returns:
     description: "the NsgSecurityRule object itself."
     type: "<xref href=\"com.azure.resourcemanager.resourcemover.models.NsgSecurityRule?alt=com.azure.resourcemanager.resourcemover.models.NsgSecurityRule&text=NsgSecurityRule\" data-throw-if-not-resolved=\"False\" />"
@@ -304,7 +304,7 @@ methods:
     name: "sourcePortRange"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public NsgSecurityRule withSourcePortRange(String sourcePortRange)"
-  desc: "Set the sourcePortRange property: Gets or sets Source Port or Range. Integer or range between 0 and 65535. A “\\*” can also be used to match all ports."
+  desc: "Set the sourcePortRange property: Gets or sets Source Port or Range. Integer or range between 0 and 65535. A \\\\u201c\\*\\\\u201d can also be used to match all ports."
   returns:
     description: "the NsgSecurityRule object itself."
     type: "<xref href=\"com.azure.resourcemanager.resourcemover.models.NsgSecurityRule?alt=com.azure.resourcemanager.resourcemover.models.NsgSecurityRule&text=NsgSecurityRule\" data-throw-if-not-resolved=\"False\" />"

@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.storage.fluent.models.TableServicePropertiesInne
 fullName: "com.azure.resourcemanager.storage.fluent.models.TableServicePropertiesInner"
 name: "TableServicePropertiesInner"
 nameWithType: "TableServicePropertiesInner"
-summary: "The properties of a storage account’s Table service."
+summary: "The properties of a storage account\\\\u2019s Table service."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.azure.core.management.ProxyResource?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
@@ -135,7 +135,7 @@ methods:
     description: "the TableServicePropertiesInner object itself."
     type: "<xref href=\"com.azure.resourcemanager.storage.fluent.models.TableServicePropertiesInner?alt=com.azure.resourcemanager.storage.fluent.models.TableServicePropertiesInner&text=TableServicePropertiesInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "The properties of a storage account’s Table service."
+desc: "The properties of a storage account\\\\u2019s Table service."
 metadata: {}
 package: "com.azure.resourcemanager.storage.fluent.models"
 artifact: com.azure.resourcemanager:azure-resourcemanager-storage:2.50.0

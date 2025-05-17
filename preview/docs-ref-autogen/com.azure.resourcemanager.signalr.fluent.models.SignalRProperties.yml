@@ -209,16 +209,6 @@ methods:
   returns:
     description: "the resourceStopped value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.signalr.fluent.models.SignalRProperties.serverless()"
-  fullName: "com.azure.resourcemanager.signalr.fluent.models.SignalRProperties.serverless()"
-  name: "serverless()"
-  nameWithType: "SignalRProperties.serverless()"
-  summary: "Get the serverless property: Serverless settings."
-  syntax: "public ServerlessSettings serverless()"
-  desc: "Get the serverless property: Serverless settings."
-  returns:
-    description: "the serverless value."
-    type: "<xref href=\"com.azure.resourcemanager.signalr.models.ServerlessSettings?alt=com.azure.resourcemanager.signalr.models.ServerlessSettings&text=ServerlessSettings\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.signalr.fluent.models.SignalRProperties.serverPort()"
   fullName: "com.azure.resourcemanager.signalr.fluent.models.SignalRProperties.serverPort()"
   name: "serverPort()"
@@ -229,6 +219,16 @@ methods:
   returns:
     description: "the serverPort value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
+- uid: "com.azure.resourcemanager.signalr.fluent.models.SignalRProperties.serverless()"
+  fullName: "com.azure.resourcemanager.signalr.fluent.models.SignalRProperties.serverless()"
+  name: "serverless()"
+  nameWithType: "SignalRProperties.serverless()"
+  summary: "Get the serverless property: Serverless settings."
+  syntax: "public ServerlessSettings serverless()"
+  desc: "Get the serverless property: Serverless settings."
+  returns:
+    description: "the serverless value."
+    type: "<xref href=\"com.azure.resourcemanager.signalr.models.ServerlessSettings?alt=com.azure.resourcemanager.signalr.models.ServerlessSettings&text=ServerlessSettings\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.signalr.fluent.models.SignalRProperties.sharedPrivateLinkResources()"
   fullName: "com.azure.resourcemanager.signalr.fluent.models.SignalRProperties.sharedPrivateLinkResources()"
   name: "sharedPrivateLinkResources()"

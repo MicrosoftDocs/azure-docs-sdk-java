@@ -102,18 +102,6 @@ methods:
   returns:
     description: "the BindingsClient object."
     type: "<xref href=\"com.azure.resourcemanager.appplatform.fluent.BindingsClient?alt=com.azure.resourcemanager.appplatform.fluent.BindingsClient&text=BindingsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.appplatform.fluent.AppPlatformManagementClient.getBuildpackBindings()"
-  fullName: "com.azure.resourcemanager.appplatform.fluent.AppPlatformManagementClient.getBuildpackBindings()"
-  name: "getBuildpackBindings()"
-  nameWithType: "AppPlatformManagementClient.getBuildpackBindings()"
-  summary: "Gets the Buildpack<wbr>Bindings<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract BuildpackBindingsClient getBuildpackBindings()"
-  desc: "Gets the BuildpackBindingsClient object to access its operations."
-  returns:
-    description: "the BuildpackBindingsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.appplatform.fluent.BuildpackBindingsClient?alt=com.azure.resourcemanager.appplatform.fluent.BuildpackBindingsClient&text=BuildpackBindingsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.appplatform.fluent.AppPlatformManagementClient.getBuildServiceAgentPools()"
   fullName: "com.azure.resourcemanager.appplatform.fluent.AppPlatformManagementClient.getBuildServiceAgentPools()"
   name: "getBuildServiceAgentPools()"
@@ -150,6 +138,18 @@ methods:
   returns:
     description: "the BuildServicesClient object."
     type: "<xref href=\"com.azure.resourcemanager.appplatform.fluent.BuildServicesClient?alt=com.azure.resourcemanager.appplatform.fluent.BuildServicesClient&text=BuildServicesClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.appplatform.fluent.AppPlatformManagementClient.getBuildpackBindings()"
+  fullName: "com.azure.resourcemanager.appplatform.fluent.AppPlatformManagementClient.getBuildpackBindings()"
+  name: "getBuildpackBindings()"
+  nameWithType: "AppPlatformManagementClient.getBuildpackBindings()"
+  summary: "Gets the Buildpack<wbr>Bindings<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract BuildpackBindingsClient getBuildpackBindings()"
+  desc: "Gets the BuildpackBindingsClient object to access its operations."
+  returns:
+    description: "the BuildpackBindingsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.appplatform.fluent.BuildpackBindingsClient?alt=com.azure.resourcemanager.appplatform.fluent.BuildpackBindingsClient&text=BuildpackBindingsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.appplatform.fluent.AppPlatformManagementClient.getCertificates()"
   fullName: "com.azure.resourcemanager.appplatform.fluent.AppPlatformManagementClient.getCertificates()"
   name: "getCertificates()"

@@ -85,7 +85,7 @@ fields:
   field:
     type: "<xref href=\"com.azure.ai.openai.models.OnYourDataVectorizationSourceType?alt=com.azure.ai.openai.models.OnYourDataVectorizationSourceType&text=OnYourDataVectorizationSourceType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final OnYourDataVectorizationSourceType MODEL_ID"
-  desc: "Represents a specific embedding model ID as defined in the search service. Currently only supported by ElasticsearchÂ®."
+  desc: "Represents a specific embedding model ID as defined in the search service. Currently only supported by Elasticsearch®."
 methods:
 - uid: "com.azure.ai.openai.models.OnYourDataVectorizationSourceType.fromString(java.lang.String)"
   fullName: "com.azure.ai.openai.models.OnYourDataVectorizationSourceType.fromString(String name)"

@@ -82,20 +82,6 @@ methods:
   returns:
     description: "current CosmosClientTelemetryConfig"
     type: "<xref href=\"com.azure.cosmos.models.CosmosClientTelemetryConfig?alt=com.azure.cosmos.models.CosmosClientTelemetryConfig&text=CosmosClientTelemetryConfig\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.cosmos.models.CosmosClientTelemetryConfig.metricsOptions(com.azure.core.util.MetricsOptions)"
-  fullName: "com.azure.cosmos.models.CosmosClientTelemetryConfig.metricsOptions(MetricsOptions clientMetricsOptions)"
-  name: "metricsOptions(MetricsOptions clientMetricsOptions)"
-  nameWithType: "CosmosClientTelemetryConfig.metricsOptions(MetricsOptions clientMetricsOptions)"
-  summary: "Sets Metrics<wbr>Options to be used to emit client metrics"
-  parameters:
-  - description: "- the client MetricsOptions - NOTE: for now only\n CosmosMicrometerMetricsOptions are supported"
-    name: "clientMetricsOptions"
-    type: "<xref href=\"com.azure.core.util.MetricsOptions?alt=com.azure.core.util.MetricsOptions&text=MetricsOptions\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public CosmosClientTelemetryConfig metricsOptions(MetricsOptions clientMetricsOptions)"
-  desc: "Sets MetricsOptions to be used to emit client metrics"
-  returns:
-    description: "current CosmosClientTelemetryConfig"
-    type: "<xref href=\"com.azure.cosmos.models.CosmosClientTelemetryConfig?alt=com.azure.cosmos.models.CosmosClientTelemetryConfig&text=CosmosClientTelemetryConfig\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.cosmos.models.CosmosClientTelemetryConfig.metricTagNames(java.lang.String...)"
   fullName: "com.azure.cosmos.models.CosmosClientTelemetryConfig.metricTagNames(String[] tagNames)"
   name: "metricTagNames(String[] tagNames)"
@@ -109,6 +95,20 @@ methods:
   syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public CosmosClientTelemetryConfig metricTagNames(String[] tagNames)"
   desc: "Sets the tags that should be considered for metrics. By default all supported tags are used - and for most use-cases that should be sufficient. But each tag/dimension adds some overhead when collecting the metrics - especially for percentile calculations - so, when it is clear that a certain dimension is not needed, it can be prevented from even considering it when collecting metrics."
   hasDeprecatedTag: true
+  returns:
+    description: "current CosmosClientTelemetryConfig"
+    type: "<xref href=\"com.azure.cosmos.models.CosmosClientTelemetryConfig?alt=com.azure.cosmos.models.CosmosClientTelemetryConfig&text=CosmosClientTelemetryConfig\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.cosmos.models.CosmosClientTelemetryConfig.metricsOptions(com.azure.core.util.MetricsOptions)"
+  fullName: "com.azure.cosmos.models.CosmosClientTelemetryConfig.metricsOptions(MetricsOptions clientMetricsOptions)"
+  name: "metricsOptions(MetricsOptions clientMetricsOptions)"
+  nameWithType: "CosmosClientTelemetryConfig.metricsOptions(MetricsOptions clientMetricsOptions)"
+  summary: "Sets Metrics<wbr>Options to be used to emit client metrics"
+  parameters:
+  - description: "- the client MetricsOptions - NOTE: for now only\n CosmosMicrometerMetricsOptions are supported"
+    name: "clientMetricsOptions"
+    type: "<xref href=\"com.azure.core.util.MetricsOptions?alt=com.azure.core.util.MetricsOptions&text=MetricsOptions\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public CosmosClientTelemetryConfig metricsOptions(MetricsOptions clientMetricsOptions)"
+  desc: "Sets MetricsOptions to be used to emit client metrics"
   returns:
     description: "current CosmosClientTelemetryConfig"
     type: "<xref href=\"com.azure.cosmos.models.CosmosClientTelemetryConfig?alt=com.azure.cosmos.models.CosmosClientTelemetryConfig&text=CosmosClientTelemetryConfig\" data-throw-if-not-resolved=\"False\" />"

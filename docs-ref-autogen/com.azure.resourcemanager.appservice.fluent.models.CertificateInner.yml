@@ -114,16 +114,6 @@ methods:
   returns:
     description: "An instance of CertificateInner if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
     type: "<xref href=\"com.azure.resourcemanager.appservice.fluent.models.CertificateInner?alt=com.azure.resourcemanager.appservice.fluent.models.CertificateInner&text=CertificateInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.appservice.fluent.models.CertificateInner.hostingEnvironmentProfile()"
-  fullName: "com.azure.resourcemanager.appservice.fluent.models.CertificateInner.hostingEnvironmentProfile()"
-  name: "hostingEnvironmentProfile()"
-  nameWithType: "CertificateInner.hostingEnvironmentProfile()"
-  summary: "Get the hosting<wbr>Environment<wbr>Profile property: Specification for the App Service Environment to use for the certificate."
-  syntax: "public HostingEnvironmentProfile hostingEnvironmentProfile()"
-  desc: "Get the hostingEnvironmentProfile property: Specification for the App Service Environment to use for the certificate."
-  returns:
-    description: "the hostingEnvironmentProfile value."
-    type: "<xref href=\"com.azure.resourcemanager.appservice.models.HostingEnvironmentProfile?alt=com.azure.resourcemanager.appservice.models.HostingEnvironmentProfile&text=HostingEnvironmentProfile\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.appservice.fluent.models.CertificateInner.hostNames()"
   fullName: "com.azure.resourcemanager.appservice.fluent.models.CertificateInner.hostNames()"
   name: "hostNames()"
@@ -134,6 +124,16 @@ methods:
   returns:
     description: "the hostNames value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+- uid: "com.azure.resourcemanager.appservice.fluent.models.CertificateInner.hostingEnvironmentProfile()"
+  fullName: "com.azure.resourcemanager.appservice.fluent.models.CertificateInner.hostingEnvironmentProfile()"
+  name: "hostingEnvironmentProfile()"
+  nameWithType: "CertificateInner.hostingEnvironmentProfile()"
+  summary: "Get the hosting<wbr>Environment<wbr>Profile property: Specification for the App Service Environment to use for the certificate."
+  syntax: "public HostingEnvironmentProfile hostingEnvironmentProfile()"
+  desc: "Get the hostingEnvironmentProfile property: Specification for the App Service Environment to use for the certificate."
+  returns:
+    description: "the hostingEnvironmentProfile value."
+    type: "<xref href=\"com.azure.resourcemanager.appservice.models.HostingEnvironmentProfile?alt=com.azure.resourcemanager.appservice.models.HostingEnvironmentProfile&text=HostingEnvironmentProfile\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.appservice.fluent.models.CertificateInner.id()"
   fullName: "com.azure.resourcemanager.appservice.fluent.models.CertificateInner.id()"
   name: "id()"

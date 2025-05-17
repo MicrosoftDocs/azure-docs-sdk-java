@@ -132,16 +132,6 @@ methods:
   returns:
     description: "The <xref uid=\"java.time.OffsetDateTime\" data-throw-if-not-resolved=\"false\" data-raw-source=\"OffsetDateTime\"></xref> at which this message expires."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
-- uid: "com.azure.messaging.servicebus.ServiceBusReceivedMessage.getLockedUntil()"
-  fullName: "com.azure.messaging.servicebus.ServiceBusReceivedMessage.getLockedUntil()"
-  name: "getLockedUntil()"
-  nameWithType: "ServiceBusReceivedMessage.getLockedUntil()"
-  summary: "Gets the datetime at which the lock of this message expires."
-  syntax: "public OffsetDateTime getLockedUntil()"
-  desc: "Gets the datetime at which the lock of this message expires.\n\nFor messages retrieved under a lock (peek-lock receive mode, not pre-settled) this property reflects the UTC datetime until which the message is held locked in the queue/subscription. When the lock expires, the <xref uid=\"com.azure.messaging.servicebus.ServiceBusReceivedMessage.getDeliveryCount()\" data-throw-if-not-resolved=\"false\" data-raw-source=\"delivery count\"></xref> is incremented and the message is again available for retrieval. This property is read-only."
-  returns:
-    description: "the datetime at which the lock of this message expires if the message is received using <xref uid=\"com.azure.messaging.servicebus.models.ServiceBusReceiveMode.PEEK_LOCK\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ServiceBusReceiveMode#PEEK_LOCK\"></xref> mode. Otherwise it returns null."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
 - uid: "com.azure.messaging.servicebus.ServiceBusReceivedMessage.getLockToken()"
   fullName: "com.azure.messaging.servicebus.ServiceBusReceivedMessage.getLockToken()"
   name: "getLockToken()"
@@ -152,6 +142,16 @@ methods:
   returns:
     description: "The lock-token for this message. <code>null</code> for messages retrieved via\n <xref uid=\"com.azure.messaging.servicebus.models.ServiceBusReceiveMode.RECEIVE_AND_DELETE\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ServiceBusReceiveMode#RECEIVE_AND_DELETE\"></xref> mode."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.messaging.servicebus.ServiceBusReceivedMessage.getLockedUntil()"
+  fullName: "com.azure.messaging.servicebus.ServiceBusReceivedMessage.getLockedUntil()"
+  name: "getLockedUntil()"
+  nameWithType: "ServiceBusReceivedMessage.getLockedUntil()"
+  summary: "Gets the datetime at which the lock of this message expires."
+  syntax: "public OffsetDateTime getLockedUntil()"
+  desc: "Gets the datetime at which the lock of this message expires.\n\nFor messages retrieved under a lock (peek-lock receive mode, not pre-settled) this property reflects the UTC datetime until which the message is held locked in the queue/subscription. When the lock expires, the <xref uid=\"com.azure.messaging.servicebus.ServiceBusReceivedMessage.getDeliveryCount()\" data-throw-if-not-resolved=\"false\" data-raw-source=\"delivery count\"></xref> is incremented and the message is again available for retrieval. This property is read-only."
+  returns:
+    description: "the datetime at which the lock of this message expires if the message is received using <xref uid=\"com.azure.messaging.servicebus.models.ServiceBusReceiveMode.PEEK_LOCK\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ServiceBusReceiveMode#PEEK_LOCK\"></xref> mode. Otherwise it returns null."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
 - uid: "com.azure.messaging.servicebus.ServiceBusReceivedMessage.getMessageId()"
   fullName: "com.azure.messaging.servicebus.ServiceBusReceivedMessage.getMessageId()"
   name: "getMessageId()"

@@ -38,22 +38,6 @@ methods:
   returns:
     description: "the next stage of the update"
     type: "<xref href=\"com.microsoft.azure.management.monitor.ActionGroup.UpdateStages.WithActionUpdateDefinition?alt=com.microsoft.azure.management.monitor.ActionGroup.UpdateStages.WithActionUpdateDefinition&text=WithActionUpdateDefinition\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.azure.management.monitor.ActionGroup.UpdateStages.WithActionDefinition.withoutReceiver(java.lang.String)"
-  fullName: "com.microsoft.azure.management.monitor.ActionGroup.UpdateStages.WithActionDefinition.withoutReceiver(String actionNamePrefix)"
-  name: "withoutReceiver(String actionNamePrefix)"
-  nameWithType: "ActionGroup.UpdateStages.WithActionDefinition.withoutReceiver(String actionNamePrefix)"
-  summary: "Removes all the receivers that contain specified action<wbr>Name<wbr>Prefix string in the name."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "the actionNamePrefix value to use during receiver filtering."
-    name: "actionNamePrefix"
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract ActionGroup.Update withoutReceiver(String actionNamePrefix)"
-  desc: "Removes all the receivers that contain specified actionNamePrefix string in the name."
-  returns:
-    description: "the next stage of the update"
-    type: "<xref href=\"com.microsoft.azure.management.monitor.ActionGroup.Update?alt=com.microsoft.azure.management.monitor.ActionGroup.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.management.monitor.ActionGroup.UpdateStages.WithActionDefinition.withShortName(java.lang.String)"
   fullName: "com.microsoft.azure.management.monitor.ActionGroup.UpdateStages.WithActionDefinition.withShortName(String shortName)"
   name: "withShortName(String shortName)"
@@ -67,6 +51,22 @@ methods:
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract ActionGroup.Update withShortName(String shortName)"
   desc: "Sets the short name of the action group. This will be used in SMS messages. Maximum length cannot exceed 12 symbols."
+  returns:
+    description: "the next stage of the update"
+    type: "<xref href=\"com.microsoft.azure.management.monitor.ActionGroup.Update?alt=com.microsoft.azure.management.monitor.ActionGroup.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.azure.management.monitor.ActionGroup.UpdateStages.WithActionDefinition.withoutReceiver(java.lang.String)"
+  fullName: "com.microsoft.azure.management.monitor.ActionGroup.UpdateStages.WithActionDefinition.withoutReceiver(String actionNamePrefix)"
+  name: "withoutReceiver(String actionNamePrefix)"
+  nameWithType: "ActionGroup.UpdateStages.WithActionDefinition.withoutReceiver(String actionNamePrefix)"
+  summary: "Removes all the receivers that contain specified action<wbr>Name<wbr>Prefix string in the name."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "the actionNamePrefix value to use during receiver filtering."
+    name: "actionNamePrefix"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract ActionGroup.Update withoutReceiver(String actionNamePrefix)"
+  desc: "Removes all the receivers that contain specified actionNamePrefix string in the name."
   returns:
     description: "the next stage of the update"
     type: "<xref href=\"com.microsoft.azure.management.monitor.ActionGroup.Update?alt=com.microsoft.azure.management.monitor.ActionGroup.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"

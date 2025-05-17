@@ -395,18 +395,6 @@ methods:
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract void restart(Context context)"
   desc: "Operation to restart a resource."
-- uid: "com.azure.resourcemanager.signalr.models.SignalRResource.serverless()"
-  fullName: "com.azure.resourcemanager.signalr.models.SignalRResource.serverless()"
-  name: "serverless()"
-  nameWithType: "SignalRResource.serverless()"
-  summary: "Gets the serverless property: Serverless settings."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract ServerlessSettings serverless()"
-  desc: "Gets the serverless property: Serverless settings."
-  returns:
-    description: "the serverless value."
-    type: "<xref href=\"com.azure.resourcemanager.signalr.models.ServerlessSettings?alt=com.azure.resourcemanager.signalr.models.ServerlessSettings&text=ServerlessSettings\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.signalr.models.SignalRResource.serverPort()"
   fullName: "com.azure.resourcemanager.signalr.models.SignalRResource.serverPort()"
   name: "serverPort()"
@@ -419,6 +407,18 @@ methods:
   returns:
     description: "the serverPort value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
+- uid: "com.azure.resourcemanager.signalr.models.SignalRResource.serverless()"
+  fullName: "com.azure.resourcemanager.signalr.models.SignalRResource.serverless()"
+  name: "serverless()"
+  nameWithType: "SignalRResource.serverless()"
+  summary: "Gets the serverless property: Serverless settings."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ServerlessSettings serverless()"
+  desc: "Gets the serverless property: Serverless settings."
+  returns:
+    description: "the serverless value."
+    type: "<xref href=\"com.azure.resourcemanager.signalr.models.ServerlessSettings?alt=com.azure.resourcemanager.signalr.models.ServerlessSettings&text=ServerlessSettings\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.signalr.models.SignalRResource.sharedPrivateLinkResources()"
   fullName: "com.azure.resourcemanager.signalr.models.SignalRResource.sharedPrivateLinkResources()"
   name: "sharedPrivateLinkResources()"

@@ -6,22 +6,6 @@ nameWithType: "UpdatableWithTags.UpdateWithTags<T>"
 summary: "An update allowing tags to be modified for the resource."
 syntax: "public static interface **UpdatableWithTags.UpdateWithTags<T>**"
 methods:
-- uid: "com.microsoft.azure.management.network.model.UpdatableWithTags.UpdateWithTags.withoutTag(java.lang.String)"
-  fullName: "com.microsoft.azure.management.network.model.UpdatableWithTags.UpdateWithTags<T>.withoutTag(String key)"
-  name: "withoutTag(String key)"
-  nameWithType: "UpdatableWithTags.UpdateWithTags<T>.withoutTag(String key)"
-  summary: "Removes a tag from the resource."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "the key of the tag to remove"
-    name: "key"
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract AppliableWithTags<T> withoutTag(String key)"
-  desc: "Removes a tag from the resource."
-  returns:
-    description: "the next stage of the resource update"
-    type: "<xref href=\"com.microsoft.azure.management.network.model.AppliableWithTags?alt=com.microsoft.azure.management.network.model.AppliableWithTags&text=AppliableWithTags\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.microsoft.azure.management.network.model.UpdatableWithTags.UpdateWithTags.withTag(java.lang.String,java.lang.String)"
   fullName: "com.microsoft.azure.management.network.model.UpdatableWithTags.UpdateWithTags<T>.withTag(String key, String value)"
   name: "withTag(String key, String value)"
@@ -54,6 +38,22 @@ methods:
     type: "<xref href=\"java.util.Map?alt=java.util.Map&text=Map\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
   syntax: "public abstract AppliableWithTags<T> withTags(Map<String,String> tags)"
   desc: "Specifies tags for the resource as a <xref uid=\"java.util.Map\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Map\"></xref>."
+  returns:
+    description: "the next stage of the resource update"
+    type: "<xref href=\"com.microsoft.azure.management.network.model.AppliableWithTags?alt=com.microsoft.azure.management.network.model.AppliableWithTags&text=AppliableWithTags\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.microsoft.azure.management.network.model.UpdatableWithTags.UpdateWithTags.withoutTag(java.lang.String)"
+  fullName: "com.microsoft.azure.management.network.model.UpdatableWithTags.UpdateWithTags<T>.withoutTag(String key)"
+  name: "withoutTag(String key)"
+  nameWithType: "UpdatableWithTags.UpdateWithTags<T>.withoutTag(String key)"
+  summary: "Removes a tag from the resource."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "the key of the tag to remove"
+    name: "key"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract AppliableWithTags<T> withoutTag(String key)"
+  desc: "Removes a tag from the resource."
   returns:
     description: "the next stage of the resource update"
     type: "<xref href=\"com.microsoft.azure.management.network.model.AppliableWithTags?alt=com.microsoft.azure.management.network.model.AppliableWithTags&text=AppliableWithTags\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"

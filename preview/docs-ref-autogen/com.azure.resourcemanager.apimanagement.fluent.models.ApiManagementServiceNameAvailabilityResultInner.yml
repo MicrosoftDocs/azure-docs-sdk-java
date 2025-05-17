@@ -73,9 +73,9 @@ methods:
   fullName: "com.azure.resourcemanager.apimanagement.fluent.models.ApiManagementServiceNameAvailabilityResultInner.reason()"
   name: "reason()"
   nameWithType: "ApiManagementServiceNameAvailabilityResultInner.reason()"
-  summary: "Get the reason property: Invalid indicates the name provided does not match the resource provider’s naming requirements (incorrect length, unsupported characters, etc.) Already<wbr>Exists indicates that the name is already in use and is therefore unavailable."
+  summary: "Get the reason property: Invalid indicates the name provided does not match the resource provider\\\\u2019s naming requirements (incorrect length, unsupported characters, etc.) Already<wbr>Exists indicates that the name is already in use and is therefore unavailable."
   syntax: "public NameAvailabilityReason reason()"
-  desc: "Get the reason property: Invalid indicates the name provided does not match the resource provider’s naming requirements (incorrect length, unsupported characters, etc.) AlreadyExists indicates that the name is already in use and is therefore unavailable."
+  desc: "Get the reason property: Invalid indicates the name provided does not match the resource provider\\\\u2019s naming requirements (incorrect length, unsupported characters, etc.) AlreadyExists indicates that the name is already in use and is therefore unavailable."
   returns:
     description: "the reason value."
     type: "<xref href=\"com.azure.resourcemanager.apimanagement.models.NameAvailabilityReason?alt=com.azure.resourcemanager.apimanagement.models.NameAvailabilityReason&text=NameAvailabilityReason\" data-throw-if-not-resolved=\"False\" />"
@@ -102,13 +102,13 @@ methods:
   fullName: "com.azure.resourcemanager.apimanagement.fluent.models.ApiManagementServiceNameAvailabilityResultInner.withReason(NameAvailabilityReason reason)"
   name: "withReason(NameAvailabilityReason reason)"
   nameWithType: "ApiManagementServiceNameAvailabilityResultInner.withReason(NameAvailabilityReason reason)"
-  summary: "Set the reason property: Invalid indicates the name provided does not match the resource provider’s naming requirements (incorrect length, unsupported characters, etc.) Already<wbr>Exists indicates that the name is already in use and is therefore unavailable."
+  summary: "Set the reason property: Invalid indicates the name provided does not match the resource provider\\\\u2019s naming requirements (incorrect length, unsupported characters, etc.) Already<wbr>Exists indicates that the name is already in use and is therefore unavailable."
   parameters:
   - description: "the reason value to set."
     name: "reason"
     type: "<xref href=\"com.azure.resourcemanager.apimanagement.models.NameAvailabilityReason?alt=com.azure.resourcemanager.apimanagement.models.NameAvailabilityReason&text=NameAvailabilityReason\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public ApiManagementServiceNameAvailabilityResultInner withReason(NameAvailabilityReason reason)"
-  desc: "Set the reason property: Invalid indicates the name provided does not match the resource provider’s naming requirements (incorrect length, unsupported characters, etc.) AlreadyExists indicates that the name is already in use and is therefore unavailable."
+  desc: "Set the reason property: Invalid indicates the name provided does not match the resource provider\\\\u2019s naming requirements (incorrect length, unsupported characters, etc.) AlreadyExists indicates that the name is already in use and is therefore unavailable."
   returns:
     description: "the ApiManagementServiceNameAvailabilityResultInner object itself."
     type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.models.ApiManagementServiceNameAvailabilityResultInner?alt=com.azure.resourcemanager.apimanagement.fluent.models.ApiManagementServiceNameAvailabilityResultInner&text=ApiManagementServiceNameAvailabilityResultInner\" data-throw-if-not-resolved=\"False\" />"

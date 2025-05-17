@@ -42,25 +42,6 @@ methods:
   returns:
     description: "Resource collection API of ApplyUpdates."
     type: "<xref href=\"com.azure.resourcemanager.maintenance.models.ApplyUpdates?alt=com.azure.resourcemanager.maintenance.models.ApplyUpdates&text=ApplyUpdates\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.maintenance.MaintenanceManager.authenticate(com.azure.core.http.HttpPipeline,com.azure.core.management.profile.AzureProfile)"
-  fullName: "com.azure.resourcemanager.maintenance.MaintenanceManager.authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
-  name: "authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
-  nameWithType: "MaintenanceManager.authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
-  summary: "Creates an instance of Maintenance service API entry point."
-  modifiers:
-  - "static"
-  parameters:
-  - description: "the <xref uid=\"com.azure.core.http.HttpPipeline\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HttpPipeline\"></xref> configured with Azure authentication credential."
-    name: "httpPipeline"
-    type: "<xref href=\"com.azure.core.http.HttpPipeline?alt=com.azure.core.http.HttpPipeline&text=HttpPipeline\" data-throw-if-not-resolved=\"False\" />"
-  - description: "the Azure profile for client."
-    name: "profile"
-    type: "<xref href=\"com.azure.core.management.profile.AzureProfile?alt=com.azure.core.management.profile.AzureProfile&text=AzureProfile\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static MaintenanceManager authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
-  desc: "Creates an instance of Maintenance service API entry point."
-  returns:
-    description: "the Maintenance service API instance."
-    type: "<xref href=\"com.azure.resourcemanager.maintenance.MaintenanceManager?alt=com.azure.resourcemanager.maintenance.MaintenanceManager&text=MaintenanceManager\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.maintenance.MaintenanceManager.authenticate(com.azure.core.credential.TokenCredential,com.azure.core.management.profile.AzureProfile)"
   fullName: "com.azure.resourcemanager.maintenance.MaintenanceManager.authenticate(TokenCredential credential, AzureProfile profile)"
   name: "authenticate(TokenCredential credential, AzureProfile profile)"
@@ -76,6 +57,25 @@ methods:
     name: "profile"
     type: "<xref href=\"com.azure.core.management.profile.AzureProfile?alt=com.azure.core.management.profile.AzureProfile&text=AzureProfile\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static MaintenanceManager authenticate(TokenCredential credential, AzureProfile profile)"
+  desc: "Creates an instance of Maintenance service API entry point."
+  returns:
+    description: "the Maintenance service API instance."
+    type: "<xref href=\"com.azure.resourcemanager.maintenance.MaintenanceManager?alt=com.azure.resourcemanager.maintenance.MaintenanceManager&text=MaintenanceManager\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.maintenance.MaintenanceManager.authenticate(com.azure.core.http.HttpPipeline,com.azure.core.management.profile.AzureProfile)"
+  fullName: "com.azure.resourcemanager.maintenance.MaintenanceManager.authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
+  name: "authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
+  nameWithType: "MaintenanceManager.authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
+  summary: "Creates an instance of Maintenance service API entry point."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "the <xref uid=\"com.azure.core.http.HttpPipeline\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HttpPipeline\"></xref> configured with Azure authentication credential."
+    name: "httpPipeline"
+    type: "<xref href=\"com.azure.core.http.HttpPipeline?alt=com.azure.core.http.HttpPipeline&text=HttpPipeline\" data-throw-if-not-resolved=\"False\" />"
+  - description: "the Azure profile for client."
+    name: "profile"
+    type: "<xref href=\"com.azure.core.management.profile.AzureProfile?alt=com.azure.core.management.profile.AzureProfile&text=AzureProfile\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static MaintenanceManager authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
   desc: "Creates an instance of Maintenance service API entry point."
   returns:
     description: "the Maintenance service API instance."

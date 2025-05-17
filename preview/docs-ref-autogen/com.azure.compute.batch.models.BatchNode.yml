@@ -131,16 +131,6 @@ methods:
   returns:
     description: "the recentTasks value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.compute.batch.models.BatchTaskInfo?alt=com.azure.compute.batch.models.BatchTaskInfo&text=BatchTaskInfo\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.compute.batch.models.BatchNode.getRunningTasksCount()"
-  fullName: "com.azure.compute.batch.models.BatchNode.getRunningTasksCount()"
-  name: "getRunningTasksCount()"
-  nameWithType: "BatchNode.getRunningTasksCount()"
-  summary: "Get the running<wbr>Tasks<wbr>Count property: The total number of currently running Job Tasks on the Compute Node."
-  syntax: "public Integer getRunningTasksCount()"
-  desc: "Get the runningTasksCount property: The total number of currently running Job Tasks on the Compute Node. This includes Job Manager Tasks and normal Tasks, but not Job Preparation, Job Release or Start Tasks."
-  returns:
-    description: "the runningTasksCount value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
 - uid: "com.azure.compute.batch.models.BatchNode.getRunningTaskSlotsCount()"
   fullName: "com.azure.compute.batch.models.BatchNode.getRunningTaskSlotsCount()"
   name: "getRunningTaskSlotsCount()"
@@ -150,6 +140,16 @@ methods:
   desc: "Get the runningTaskSlotsCount property: The total number of scheduling slots used by currently running Job Tasks on the Compute Node. This includes Job Manager Tasks and normal Tasks, but not Job Preparation, Job Release or Start Tasks."
   returns:
     description: "the runningTaskSlotsCount value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
+- uid: "com.azure.compute.batch.models.BatchNode.getRunningTasksCount()"
+  fullName: "com.azure.compute.batch.models.BatchNode.getRunningTasksCount()"
+  name: "getRunningTasksCount()"
+  nameWithType: "BatchNode.getRunningTasksCount()"
+  summary: "Get the running<wbr>Tasks<wbr>Count property: The total number of currently running Job Tasks on the Compute Node."
+  syntax: "public Integer getRunningTasksCount()"
+  desc: "Get the runningTasksCount property: The total number of currently running Job Tasks on the Compute Node. This includes Job Manager Tasks and normal Tasks, but not Job Preparation, Job Release or Start Tasks."
+  returns:
+    description: "the runningTasksCount value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
 - uid: "com.azure.compute.batch.models.BatchNode.getSchedulingState()"
   fullName: "com.azure.compute.batch.models.BatchNode.getSchedulingState()"

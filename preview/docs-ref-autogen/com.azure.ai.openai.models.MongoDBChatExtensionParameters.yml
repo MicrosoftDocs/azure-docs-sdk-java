@@ -239,20 +239,6 @@ methods:
   returns:
     description: "the MongoDBChatExtensionParameters object itself."
     type: "<xref href=\"com.azure.ai.openai.models.MongoDBChatExtensionParameters?alt=com.azure.ai.openai.models.MongoDBChatExtensionParameters&text=MongoDBChatExtensionParameters\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.ai.openai.models.MongoDBChatExtensionParameters.setIncludeContexts(java.util.List<com.azure.ai.openai.models.OnYourDataContextProperty>)"
-  fullName: "com.azure.ai.openai.models.MongoDBChatExtensionParameters.setIncludeContexts(List<OnYourDataContextProperty> includeContexts)"
-  name: "setIncludeContexts(List<OnYourDataContextProperty> includeContexts)"
-  nameWithType: "MongoDBChatExtensionParameters.setIncludeContexts(List<OnYourDataContextProperty> includeContexts)"
-  summary: "Set the include<wbr>Contexts property: The included properties of the output context."
-  parameters:
-  - description: "the includeContexts value to set."
-    name: "includeContexts"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.ai.openai.models.OnYourDataContextProperty?alt=com.azure.ai.openai.models.OnYourDataContextProperty&text=OnYourDataContextProperty\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public MongoDBChatExtensionParameters setIncludeContexts(List<OnYourDataContextProperty> includeContexts)"
-  desc: "Set the includeContexts property: The included properties of the output context. If not specified, the default value is \\`citations\\` and \\`intent\\`."
-  returns:
-    description: "the MongoDBChatExtensionParameters object itself."
-    type: "<xref href=\"com.azure.ai.openai.models.MongoDBChatExtensionParameters?alt=com.azure.ai.openai.models.MongoDBChatExtensionParameters&text=MongoDBChatExtensionParameters\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.ai.openai.models.MongoDBChatExtensionParameters.setInScope(java.lang.Boolean)"
   fullName: "com.azure.ai.openai.models.MongoDBChatExtensionParameters.setInScope(Boolean inScope)"
   name: "setInScope(Boolean inScope)"
@@ -264,6 +250,20 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
   syntax: "public MongoDBChatExtensionParameters setInScope(Boolean inScope)"
   desc: "Set the inScope property: Whether queries should be restricted to use of indexed data."
+  returns:
+    description: "the MongoDBChatExtensionParameters object itself."
+    type: "<xref href=\"com.azure.ai.openai.models.MongoDBChatExtensionParameters?alt=com.azure.ai.openai.models.MongoDBChatExtensionParameters&text=MongoDBChatExtensionParameters\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.openai.models.MongoDBChatExtensionParameters.setIncludeContexts(java.util.List<com.azure.ai.openai.models.OnYourDataContextProperty>)"
+  fullName: "com.azure.ai.openai.models.MongoDBChatExtensionParameters.setIncludeContexts(List<OnYourDataContextProperty> includeContexts)"
+  name: "setIncludeContexts(List<OnYourDataContextProperty> includeContexts)"
+  nameWithType: "MongoDBChatExtensionParameters.setIncludeContexts(List<OnYourDataContextProperty> includeContexts)"
+  summary: "Set the include<wbr>Contexts property: The included properties of the output context."
+  parameters:
+  - description: "the includeContexts value to set."
+    name: "includeContexts"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.ai.openai.models.OnYourDataContextProperty?alt=com.azure.ai.openai.models.OnYourDataContextProperty&text=OnYourDataContextProperty\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public MongoDBChatExtensionParameters setIncludeContexts(List<OnYourDataContextProperty> includeContexts)"
+  desc: "Set the includeContexts property: The included properties of the output context. If not specified, the default value is \\`citations\\` and \\`intent\\`."
   returns:
     description: "the MongoDBChatExtensionParameters object itself."
     type: "<xref href=\"com.azure.ai.openai.models.MongoDBChatExtensionParameters?alt=com.azure.ai.openai.models.MongoDBChatExtensionParameters&text=MongoDBChatExtensionParameters\" data-throw-if-not-resolved=\"False\" />"

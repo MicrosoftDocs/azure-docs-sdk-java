@@ -30,16 +30,6 @@ constructors:
   syntax: "public ComputeInstanceProperties()"
   desc: "Creates an instance of ComputeInstanceProperties class."
 methods:
-- uid: "com.azure.resourcemanager.machinelearning.models.ComputeInstanceProperties.applications()"
-  fullName: "com.azure.resourcemanager.machinelearning.models.ComputeInstanceProperties.applications()"
-  name: "applications()"
-  nameWithType: "ComputeInstanceProperties.applications()"
-  summary: "Get the applications property: Describes available applications and their endpoints on this Compute<wbr>Instance."
-  syntax: "public List<ComputeInstanceApplication> applications()"
-  desc: "Get the applications property: Describes available applications and their endpoints on this ComputeInstance."
-  returns:
-    description: "the applications value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.machinelearning.models.ComputeInstanceApplication?alt=com.azure.resourcemanager.machinelearning.models.ComputeInstanceApplication&text=ComputeInstanceApplication\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.machinelearning.models.ComputeInstanceProperties.applicationSharingPolicy()"
   fullName: "com.azure.resourcemanager.machinelearning.models.ComputeInstanceProperties.applicationSharingPolicy()"
   name: "applicationSharingPolicy()"
@@ -50,6 +40,16 @@ methods:
   returns:
     description: "the applicationSharingPolicy value."
     type: "<xref href=\"com.azure.resourcemanager.machinelearning.models.ApplicationSharingPolicy?alt=com.azure.resourcemanager.machinelearning.models.ApplicationSharingPolicy&text=ApplicationSharingPolicy\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.machinelearning.models.ComputeInstanceProperties.applications()"
+  fullName: "com.azure.resourcemanager.machinelearning.models.ComputeInstanceProperties.applications()"
+  name: "applications()"
+  nameWithType: "ComputeInstanceProperties.applications()"
+  summary: "Get the applications property: Describes available applications and their endpoints on this Compute<wbr>Instance."
+  syntax: "public List<ComputeInstanceApplication> applications()"
+  desc: "Get the applications property: Describes available applications and their endpoints on this ComputeInstance."
+  returns:
+    description: "the applications value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.machinelearning.models.ComputeInstanceApplication?alt=com.azure.resourcemanager.machinelearning.models.ComputeInstanceApplication&text=ComputeInstanceApplication\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.machinelearning.models.ComputeInstanceProperties.computeInstanceAuthorizationType()"
   fullName: "com.azure.resourcemanager.machinelearning.models.ComputeInstanceProperties.computeInstanceAuthorizationType()"
   name: "computeInstanceAuthorizationType()"

@@ -6,24 +6,6 @@ nameWithType: "ApplicationGateway.DefinitionStages.WithWebApplicationFirewall"
 summary: "The stage of the applicationgateway update allowing to specify Web<wbr>Application<wbr>Firewall<wbr>Configuration."
 syntax: "public static interface **ApplicationGateway.DefinitionStages.WithWebApplicationFirewall**"
 methods:
-- uid: "com.azure.resourcemanager.network.models.ApplicationGateway.DefinitionStages.WithWebApplicationFirewall.withWebApplicationFirewall(com.azure.resourcemanager.network.models.ApplicationGatewayWebApplicationFirewallConfiguration)"
-  fullName: "com.azure.resourcemanager.network.models.ApplicationGateway.DefinitionStages.WithWebApplicationFirewall.withWebApplicationFirewall(ApplicationGatewayWebApplicationFirewallConfiguration webApplicationFirewallConfiguration)"
-  name: "withWebApplicationFirewall(ApplicationGatewayWebApplicationFirewallConfiguration webApplicationFirewallConfiguration)"
-  nameWithType: "ApplicationGateway.DefinitionStages.WithWebApplicationFirewall.withWebApplicationFirewall(ApplicationGatewayWebApplicationFirewallConfiguration webApplicationFirewallConfiguration)"
-  summary: "Specifies web<wbr>Application<wbr>Firewall<wbr>Configuration."
-  deprecatedTag: "No further investments will be made on legacy WAF configuration. You are strongly encouraged to upgrade from legacy WAF configuration to WAF Policy for easier management, better scale, and a richer feature set at no additional cost. More [ upgrade-ag-waf-policy ][upgrade-ag-waf-policy]\n\n\n[upgrade-ag-waf-policy]: https://learn.microsoft.com/azure/web-application-firewall/ag/upgrade-ag-waf-policy"
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "Web application firewall configuration"
-    name: "webApplicationFirewallConfiguration"
-    type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayWebApplicationFirewallConfiguration?alt=com.azure.resourcemanager.network.models.ApplicationGatewayWebApplicationFirewallConfiguration&text=ApplicationGatewayWebApplicationFirewallConfiguration\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public abstract ApplicationGateway.DefinitionStages.WithCreate withWebApplicationFirewall(ApplicationGatewayWebApplicationFirewallConfiguration webApplicationFirewallConfiguration)"
-  desc: "Specifies webApplicationFirewallConfiguration."
-  hasDeprecatedTag: true
-  returns:
-    description: "the next stage of the definition"
-    type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGateway.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.network.models.ApplicationGateway.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.models.ApplicationGateway.DefinitionStages.WithWebApplicationFirewall.withWebApplicationFirewall(boolean,com.azure.resourcemanager.network.models.ApplicationGatewayFirewallMode)"
   fullName: "com.azure.resourcemanager.network.models.ApplicationGateway.DefinitionStages.WithWebApplicationFirewall.withWebApplicationFirewall(boolean enabled, ApplicationGatewayFirewallMode mode)"
   name: "withWebApplicationFirewall(boolean enabled, ApplicationGatewayFirewallMode mode)"
@@ -41,6 +23,24 @@ methods:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayFirewallMode?alt=com.azure.resourcemanager.network.models.ApplicationGatewayFirewallMode&text=ApplicationGatewayFirewallMode\" data-throw-if-not-resolved=\"False\" />"
   syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public abstract ApplicationGateway.DefinitionStages.WithCreate withWebApplicationFirewall(boolean enabled, ApplicationGatewayFirewallMode mode)"
   desc: "Specifies webApplicationFirewallConfiguration with default values. WebApplicationFirewall is required if selected tier is 'WAF\\_v2'"
+  hasDeprecatedTag: true
+  returns:
+    description: "the next stage of the definition"
+    type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGateway.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.network.models.ApplicationGateway.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.models.ApplicationGateway.DefinitionStages.WithWebApplicationFirewall.withWebApplicationFirewall(com.azure.resourcemanager.network.models.ApplicationGatewayWebApplicationFirewallConfiguration)"
+  fullName: "com.azure.resourcemanager.network.models.ApplicationGateway.DefinitionStages.WithWebApplicationFirewall.withWebApplicationFirewall(ApplicationGatewayWebApplicationFirewallConfiguration webApplicationFirewallConfiguration)"
+  name: "withWebApplicationFirewall(ApplicationGatewayWebApplicationFirewallConfiguration webApplicationFirewallConfiguration)"
+  nameWithType: "ApplicationGateway.DefinitionStages.WithWebApplicationFirewall.withWebApplicationFirewall(ApplicationGatewayWebApplicationFirewallConfiguration webApplicationFirewallConfiguration)"
+  summary: "Specifies web<wbr>Application<wbr>Firewall<wbr>Configuration."
+  deprecatedTag: "No further investments will be made on legacy WAF configuration. You are strongly encouraged to upgrade from legacy WAF configuration to WAF Policy for easier management, better scale, and a richer feature set at no additional cost. More [ upgrade-ag-waf-policy ][upgrade-ag-waf-policy]\n\n\n[upgrade-ag-waf-policy]: https://learn.microsoft.com/azure/web-application-firewall/ag/upgrade-ag-waf-policy"
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Web application firewall configuration"
+    name: "webApplicationFirewallConfiguration"
+    type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayWebApplicationFirewallConfiguration?alt=com.azure.resourcemanager.network.models.ApplicationGatewayWebApplicationFirewallConfiguration&text=ApplicationGatewayWebApplicationFirewallConfiguration\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public abstract ApplicationGateway.DefinitionStages.WithCreate withWebApplicationFirewall(ApplicationGatewayWebApplicationFirewallConfiguration webApplicationFirewallConfiguration)"
+  desc: "Specifies webApplicationFirewallConfiguration."
   hasDeprecatedTag: true
   returns:
     description: "the next stage of the definition"

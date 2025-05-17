@@ -61,7 +61,7 @@ fields:
   field:
     type: "<xref href=\"com.azure.maps.route.models.RouteInstructionsType?alt=com.azure.maps.route.models.RouteInstructionsType&text=RouteInstructionsType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final RouteInstructionsType TAGGED"
-  desc: "Returns raw instruction data with tagged human-readable messages to permit formatting. A human-readable message is built up from repeatable identified elements. These are tagged to allow client applications to format them correctly. The following message components are tagged when instructionsType=tagged: street, roadNumber, signpostText, exitNumber, roundaboutExitNumber. Example of tagged 'Turn left' message:​ \\`\\`\\` Turn left onto <roadNumber>A4</roadNumber>/<roadNumber>E19</roadNumber> towards <signpostText>Den Haag</signpostText> \\`\\`\\`."
+  desc: "Returns raw instruction data with tagged human-readable messages to permit formatting. A human-readable message is built up from repeatable identified elements. These are tagged to allow client applications to format them correctly. The following message components are tagged when instructionsType=tagged: street, roadNumber, signpostText, exitNumber, roundaboutExitNumber. Example of tagged 'Turn left' message:\\\\u200b \\`\\`\\` Turn left onto <roadNumber>A4</roadNumber>/<roadNumber>E19</roadNumber> towards <signpostText>Den Haag</signpostText> \\`\\`\\`."
 - uid: "com.azure.maps.route.models.RouteInstructionsType.TEXT"
   fullName: "com.azure.maps.route.models.RouteInstructionsType.TEXT"
   name: "TEXT"

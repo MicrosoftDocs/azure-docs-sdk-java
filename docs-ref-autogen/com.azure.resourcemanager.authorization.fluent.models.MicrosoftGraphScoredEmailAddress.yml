@@ -85,7 +85,7 @@ methods:
   nameWithType: "MicrosoftGraphScoredEmailAddress.relevanceScore()"
   summary: "Get the relevance<wbr>Score property: The relevance score of the email address."
   syntax: "public Double relevanceScore()"
-  desc: "Get the relevanceScore property: The relevance score of the email address. A relevance score is used as a sort key, in relation to the other returned results. A higher relevance score value corresponds to a more relevant result. Relevance is determined by the user’s communication and collaboration patterns and business relationships."
+  desc: "Get the relevanceScore property: The relevance score of the email address. A relevance score is used as a sort key, in relation to the other returned results. A higher relevance score value corresponds to a more relevant result. Relevance is determined by the user\\\\u2019s communication and collaboration patterns and business relationships."
   returns:
     description: "the relevanceScore value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Double.html\">Double</a>"
@@ -170,7 +170,7 @@ methods:
     name: "relevanceScore"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Double.html\">Double</a>"
   syntax: "public MicrosoftGraphScoredEmailAddress withRelevanceScore(Double relevanceScore)"
-  desc: "Set the relevanceScore property: The relevance score of the email address. A relevance score is used as a sort key, in relation to the other returned results. A higher relevance score value corresponds to a more relevant result. Relevance is determined by the user’s communication and collaboration patterns and business relationships."
+  desc: "Set the relevanceScore property: The relevance score of the email address. A relevance score is used as a sort key, in relation to the other returned results. A higher relevance score value corresponds to a more relevant result. Relevance is determined by the user\\\\u2019s communication and collaboration patterns and business relationships."
   returns:
     description: "the MicrosoftGraphScoredEmailAddress object itself."
     type: "<xref href=\"com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphScoredEmailAddress?alt=com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphScoredEmailAddress&text=MicrosoftGraphScoredEmailAddress\" data-throw-if-not-resolved=\"False\" />"

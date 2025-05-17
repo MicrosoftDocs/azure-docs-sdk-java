@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.apimanagement.models.NameAvailabilityReason"
 fullName: "com.azure.resourcemanager.apimanagement.models.NameAvailabilityReason"
 name: "NameAvailabilityReason"
 nameWithType: "NameAvailabilityReason"
-summary: "Invalid indicates the name provided does not match the resource provider’s naming requirements (incorrect length, unsupported characters, etc.) Already<wbr>Exists indicates that the name is already in use and is therefore unavailable."
+summary: "Invalid indicates the name provided does not match the resource provider\\\\u2019s naming requirements (incorrect length, unsupported characters, etc.) Already<wbr>Exists indicates that the name is already in use and is therefore unavailable."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"java.lang.Enum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
@@ -95,7 +95,7 @@ methods:
   syntax: "public static NameAvailabilityReason[] values()"
   returns:
     type: "<xref href=\"com.azure.resourcemanager.apimanagement.models.NameAvailabilityReason?alt=com.azure.resourcemanager.apimanagement.models.NameAvailabilityReason&text=NameAvailabilityReason\" data-throw-if-not-resolved=\"False\" />[]"
-desc: "Invalid indicates the name provided does not match the resource provider’s naming requirements (incorrect length, unsupported characters, etc.) AlreadyExists indicates that the name is already in use and is therefore unavailable."
+desc: "Invalid indicates the name provided does not match the resource provider\\\\u2019s naming requirements (incorrect length, unsupported characters, etc.) AlreadyExists indicates that the name is already in use and is therefore unavailable."
 metadata: {}
 package: "com.azure.resourcemanager.apimanagement.models"
 artifact: com.azure.resourcemanager:azure-resourcemanager-apimanagement:1.0.0-beta.5

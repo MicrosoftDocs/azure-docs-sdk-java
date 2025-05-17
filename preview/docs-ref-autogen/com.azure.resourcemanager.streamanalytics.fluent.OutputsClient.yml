@@ -10,7 +10,7 @@ methods:
   fullName: "com.azure.resourcemanager.streamanalytics.fluent.OutputsClient.beginTest(String resourceGroupName, String jobName, String outputName)"
   name: "beginTest(String resourceGroupName, String jobName, String outputName)"
   nameWithType: "OutputsClient.beginTest(String resourceGroupName, String jobName, String outputName)"
-  summary: "Tests whether an output’s datasource is reachable and usable by the Azure Stream Analytics service."
+  summary: "Tests whether an output\\\\u2019s datasource is reachable and usable by the Azure Stream Analytics service."
   modifiers:
   - "abstract"
   parameters:
@@ -24,7 +24,7 @@ methods:
     name: "outputName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract SyncPoller<PollResult<ResourceTestStatusInner>,ResourceTestStatusInner> beginTest(String resourceGroupName, String jobName, String outputName)"
-  desc: "Tests whether an output’s datasource is reachable and usable by the Azure Stream Analytics service."
+  desc: "Tests whether an output\\\\u2019s datasource is reachable and usable by the Azure Stream Analytics service."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of describes the status of the test operation along with error\n information, if applicable."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.streamanalytics.fluent.models.ResourceTestStatusInner?alt=com.azure.resourcemanager.streamanalytics.fluent.models.ResourceTestStatusInner&text=ResourceTestStatusInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.streamanalytics.fluent.models.ResourceTestStatusInner?alt=com.azure.resourcemanager.streamanalytics.fluent.models.ResourceTestStatusInner&text=ResourceTestStatusInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -32,7 +32,7 @@ methods:
   fullName: "com.azure.resourcemanager.streamanalytics.fluent.OutputsClient.beginTest(String resourceGroupName, String jobName, String outputName, OutputInner output, Context context)"
   name: "beginTest(String resourceGroupName, String jobName, String outputName, OutputInner output, Context context)"
   nameWithType: "OutputsClient.beginTest(String resourceGroupName, String jobName, String outputName, OutputInner output, Context context)"
-  summary: "Tests whether an output’s datasource is reachable and usable by the Azure Stream Analytics service."
+  summary: "Tests whether an output\\\\u2019s datasource is reachable and usable by the Azure Stream Analytics service."
   modifiers:
   - "abstract"
   parameters:
@@ -52,7 +52,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<ResourceTestStatusInner>,ResourceTestStatusInner> beginTest(String resourceGroupName, String jobName, String outputName, OutputInner output, Context context)"
-  desc: "Tests whether an output’s datasource is reachable and usable by the Azure Stream Analytics service."
+  desc: "Tests whether an output\\\\u2019s datasource is reachable and usable by the Azure Stream Analytics service."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of describes the status of the test operation along with error\n information, if applicable."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.streamanalytics.fluent.models.ResourceTestStatusInner?alt=com.azure.resourcemanager.streamanalytics.fluent.models.ResourceTestStatusInner&text=ResourceTestStatusInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.streamanalytics.fluent.models.ResourceTestStatusInner?alt=com.azure.resourcemanager.streamanalytics.fluent.models.ResourceTestStatusInner&text=ResourceTestStatusInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -254,7 +254,7 @@ methods:
   fullName: "com.azure.resourcemanager.streamanalytics.fluent.OutputsClient.test(String resourceGroupName, String jobName, String outputName)"
   name: "test(String resourceGroupName, String jobName, String outputName)"
   nameWithType: "OutputsClient.test(String resourceGroupName, String jobName, String outputName)"
-  summary: "Tests whether an output’s datasource is reachable and usable by the Azure Stream Analytics service."
+  summary: "Tests whether an output\\\\u2019s datasource is reachable and usable by the Azure Stream Analytics service."
   modifiers:
   - "abstract"
   parameters:
@@ -268,7 +268,7 @@ methods:
     name: "outputName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract ResourceTestStatusInner test(String resourceGroupName, String jobName, String outputName)"
-  desc: "Tests whether an output’s datasource is reachable and usable by the Azure Stream Analytics service."
+  desc: "Tests whether an output\\\\u2019s datasource is reachable and usable by the Azure Stream Analytics service."
   returns:
     description: "describes the status of the test operation along with error information, if applicable."
     type: "<xref href=\"com.azure.resourcemanager.streamanalytics.fluent.models.ResourceTestStatusInner?alt=com.azure.resourcemanager.streamanalytics.fluent.models.ResourceTestStatusInner&text=ResourceTestStatusInner\" data-throw-if-not-resolved=\"False\" />"
@@ -276,7 +276,7 @@ methods:
   fullName: "com.azure.resourcemanager.streamanalytics.fluent.OutputsClient.test(String resourceGroupName, String jobName, String outputName, OutputInner output, Context context)"
   name: "test(String resourceGroupName, String jobName, String outputName, OutputInner output, Context context)"
   nameWithType: "OutputsClient.test(String resourceGroupName, String jobName, String outputName, OutputInner output, Context context)"
-  summary: "Tests whether an output’s datasource is reachable and usable by the Azure Stream Analytics service."
+  summary: "Tests whether an output\\\\u2019s datasource is reachable and usable by the Azure Stream Analytics service."
   modifiers:
   - "abstract"
   parameters:
@@ -296,7 +296,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract ResourceTestStatusInner test(String resourceGroupName, String jobName, String outputName, OutputInner output, Context context)"
-  desc: "Tests whether an output’s datasource is reachable and usable by the Azure Stream Analytics service."
+  desc: "Tests whether an output\\\\u2019s datasource is reachable and usable by the Azure Stream Analytics service."
   returns:
     description: "describes the status of the test operation along with error information, if applicable."
     type: "<xref href=\"com.azure.resourcemanager.streamanalytics.fluent.models.ResourceTestStatusInner?alt=com.azure.resourcemanager.streamanalytics.fluent.models.ResourceTestStatusInner&text=ResourceTestStatusInner\" data-throw-if-not-resolved=\"False\" />"

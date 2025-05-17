@@ -258,30 +258,6 @@ methods:
   returns:
     description: "the WebTestsClient object."
     type: "<xref href=\"com.azure.resourcemanager.applicationinsights.fluent.WebTestsClient?alt=com.azure.resourcemanager.applicationinsights.fluent.WebTestsClient&text=WebTestsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.applicationinsights.fluent.ApplicationInsightsManagementClient.getWorkbooks()"
-  fullName: "com.azure.resourcemanager.applicationinsights.fluent.ApplicationInsightsManagementClient.getWorkbooks()"
-  name: "getWorkbooks()"
-  nameWithType: "ApplicationInsightsManagementClient.getWorkbooks()"
-  summary: "Gets the Workbooks<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract WorkbooksClient getWorkbooks()"
-  desc: "Gets the WorkbooksClient object to access its operations."
-  returns:
-    description: "the WorkbooksClient object."
-    type: "<xref href=\"com.azure.resourcemanager.applicationinsights.fluent.WorkbooksClient?alt=com.azure.resourcemanager.applicationinsights.fluent.WorkbooksClient&text=WorkbooksClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.applicationinsights.fluent.ApplicationInsightsManagementClient.getWorkbookTemplates()"
-  fullName: "com.azure.resourcemanager.applicationinsights.fluent.ApplicationInsightsManagementClient.getWorkbookTemplates()"
-  name: "getWorkbookTemplates()"
-  nameWithType: "ApplicationInsightsManagementClient.getWorkbookTemplates()"
-  summary: "Gets the Workbook<wbr>Templates<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract WorkbookTemplatesClient getWorkbookTemplates()"
-  desc: "Gets the WorkbookTemplatesClient object to access its operations."
-  returns:
-    description: "the WorkbookTemplatesClient object."
-    type: "<xref href=\"com.azure.resourcemanager.applicationinsights.fluent.WorkbookTemplatesClient?alt=com.azure.resourcemanager.applicationinsights.fluent.WorkbookTemplatesClient&text=WorkbookTemplatesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.applicationinsights.fluent.ApplicationInsightsManagementClient.getWorkItemConfigurations()"
   fullName: "com.azure.resourcemanager.applicationinsights.fluent.ApplicationInsightsManagementClient.getWorkItemConfigurations()"
   name: "getWorkItemConfigurations()"
@@ -294,6 +270,30 @@ methods:
   returns:
     description: "the WorkItemConfigurationsClient object."
     type: "<xref href=\"com.azure.resourcemanager.applicationinsights.fluent.WorkItemConfigurationsClient?alt=com.azure.resourcemanager.applicationinsights.fluent.WorkItemConfigurationsClient&text=WorkItemConfigurationsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.applicationinsights.fluent.ApplicationInsightsManagementClient.getWorkbookTemplates()"
+  fullName: "com.azure.resourcemanager.applicationinsights.fluent.ApplicationInsightsManagementClient.getWorkbookTemplates()"
+  name: "getWorkbookTemplates()"
+  nameWithType: "ApplicationInsightsManagementClient.getWorkbookTemplates()"
+  summary: "Gets the Workbook<wbr>Templates<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract WorkbookTemplatesClient getWorkbookTemplates()"
+  desc: "Gets the WorkbookTemplatesClient object to access its operations."
+  returns:
+    description: "the WorkbookTemplatesClient object."
+    type: "<xref href=\"com.azure.resourcemanager.applicationinsights.fluent.WorkbookTemplatesClient?alt=com.azure.resourcemanager.applicationinsights.fluent.WorkbookTemplatesClient&text=WorkbookTemplatesClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.applicationinsights.fluent.ApplicationInsightsManagementClient.getWorkbooks()"
+  fullName: "com.azure.resourcemanager.applicationinsights.fluent.ApplicationInsightsManagementClient.getWorkbooks()"
+  name: "getWorkbooks()"
+  nameWithType: "ApplicationInsightsManagementClient.getWorkbooks()"
+  summary: "Gets the Workbooks<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract WorkbooksClient getWorkbooks()"
+  desc: "Gets the WorkbooksClient object to access its operations."
+  returns:
+    description: "the WorkbooksClient object."
+    type: "<xref href=\"com.azure.resourcemanager.applicationinsights.fluent.WorkbooksClient?alt=com.azure.resourcemanager.applicationinsights.fluent.WorkbooksClient&text=WorkbooksClient\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 desc: "The interface for ApplicationInsightsManagementClient class."
 metadata: {}

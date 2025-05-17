@@ -37,16 +37,6 @@ constructors:
   syntax: "public CreateCallOptions(CallInvite callInvite, String callbackUrl)"
   desc: "Constructor"
 methods:
-- uid: "com.azure.communication.callautomation.models.CreateCallOptions.getCallbackUrl()"
-  fullName: "com.azure.communication.callautomation.models.CreateCallOptions.getCallbackUrl()"
-  name: "getCallbackUrl()"
-  nameWithType: "CreateCallOptions.getCallbackUrl()"
-  summary: "Get the call back uri."
-  syntax: "public String getCallbackUrl()"
-  desc: "Get the call back uri."
-  returns:
-    description: "the call back uri."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.communication.callautomation.models.CreateCallOptions.getCallIntelligenceOptions()"
   fullName: "com.azure.communication.callautomation.models.CreateCallOptions.getCallIntelligenceOptions()"
   name: "getCallIntelligenceOptions()"
@@ -67,6 +57,16 @@ methods:
   returns:
     description: "call invitee information"
     type: "<xref href=\"com.azure.communication.callautomation.models.CallInvite?alt=com.azure.communication.callautomation.models.CallInvite&text=CallInvite\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.communication.callautomation.models.CreateCallOptions.getCallbackUrl()"
+  fullName: "com.azure.communication.callautomation.models.CreateCallOptions.getCallbackUrl()"
+  name: "getCallbackUrl()"
+  nameWithType: "CreateCallOptions.getCallbackUrl()"
+  summary: "Get the call back uri."
+  syntax: "public String getCallbackUrl()"
+  desc: "Get the call back uri."
+  returns:
+    description: "the call back uri."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.communication.callautomation.models.CreateCallOptions.getMediaStreamingOptions()"
   fullName: "com.azure.communication.callautomation.models.CreateCallOptions.getMediaStreamingOptions()"
   name: "getMediaStreamingOptions()"

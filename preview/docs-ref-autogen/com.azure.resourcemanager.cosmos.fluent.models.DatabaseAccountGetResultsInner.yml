@@ -409,16 +409,6 @@ methods:
   returns:
     description: "the isVirtualNetworkFilterEnabled value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
-- uid: "com.azure.resourcemanager.cosmos.fluent.models.DatabaseAccountGetResultsInner.keysMetadata()"
-  fullName: "com.azure.resourcemanager.cosmos.fluent.models.DatabaseAccountGetResultsInner.keysMetadata()"
-  name: "keysMetadata()"
-  nameWithType: "DatabaseAccountGetResultsInner.keysMetadata()"
-  summary: "Get the keys<wbr>Metadata property: The object that represents the metadata for the Account Keys of the Cosmos DB account."
-  syntax: "public DatabaseAccountKeysMetadata keysMetadata()"
-  desc: "Get the keysMetadata property: The object that represents the metadata for the Account Keys of the Cosmos DB account."
-  returns:
-    description: "the keysMetadata value."
-    type: "<xref href=\"com.azure.resourcemanager.cosmos.models.DatabaseAccountKeysMetadata?alt=com.azure.resourcemanager.cosmos.models.DatabaseAccountKeysMetadata&text=DatabaseAccountKeysMetadata\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.cosmos.fluent.models.DatabaseAccountGetResultsInner.keyVaultKeyUri()"
   fullName: "com.azure.resourcemanager.cosmos.fluent.models.DatabaseAccountGetResultsInner.keyVaultKeyUri()"
   name: "keyVaultKeyUri()"
@@ -429,6 +419,16 @@ methods:
   returns:
     description: "the keyVaultKeyUri value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.cosmos.fluent.models.DatabaseAccountGetResultsInner.keysMetadata()"
+  fullName: "com.azure.resourcemanager.cosmos.fluent.models.DatabaseAccountGetResultsInner.keysMetadata()"
+  name: "keysMetadata()"
+  nameWithType: "DatabaseAccountGetResultsInner.keysMetadata()"
+  summary: "Get the keys<wbr>Metadata property: The object that represents the metadata for the Account Keys of the Cosmos DB account."
+  syntax: "public DatabaseAccountKeysMetadata keysMetadata()"
+  desc: "Get the keysMetadata property: The object that represents the metadata for the Account Keys of the Cosmos DB account."
+  returns:
+    description: "the keysMetadata value."
+    type: "<xref href=\"com.azure.resourcemanager.cosmos.models.DatabaseAccountKeysMetadata?alt=com.azure.resourcemanager.cosmos.models.DatabaseAccountKeysMetadata&text=DatabaseAccountKeysMetadata\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.cosmos.fluent.models.DatabaseAccountGetResultsInner.kind()"
   fullName: "com.azure.resourcemanager.cosmos.fluent.models.DatabaseAccountGetResultsInner.kind()"
   name: "kind()"

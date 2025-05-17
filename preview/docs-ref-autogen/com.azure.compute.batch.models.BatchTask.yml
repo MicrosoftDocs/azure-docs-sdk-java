@@ -139,16 +139,6 @@ methods:
   returns:
     description: "the displayName value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.compute.batch.models.BatchTask.getEnvironmentSettings()"
-  fullName: "com.azure.compute.batch.models.BatchTask.getEnvironmentSettings()"
-  name: "getEnvironmentSettings()"
-  nameWithType: "BatchTask.getEnvironmentSettings()"
-  summary: "Get the environment<wbr>Settings property: A list of environment variable settings for the Task."
-  syntax: "public List<EnvironmentSetting> getEnvironmentSettings()"
-  desc: "Get the environmentSettings property: A list of environment variable settings for the Task."
-  returns:
-    description: "the environmentSettings value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.compute.batch.models.EnvironmentSetting?alt=com.azure.compute.batch.models.EnvironmentSetting&text=EnvironmentSetting\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.compute.batch.models.BatchTask.getETag()"
   fullName: "com.azure.compute.batch.models.BatchTask.getETag()"
   name: "getETag()"
@@ -159,6 +149,16 @@ methods:
   returns:
     description: "the eTag value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.compute.batch.models.BatchTask.getEnvironmentSettings()"
+  fullName: "com.azure.compute.batch.models.BatchTask.getEnvironmentSettings()"
+  name: "getEnvironmentSettings()"
+  nameWithType: "BatchTask.getEnvironmentSettings()"
+  summary: "Get the environment<wbr>Settings property: A list of environment variable settings for the Task."
+  syntax: "public List<EnvironmentSetting> getEnvironmentSettings()"
+  desc: "Get the environmentSettings property: A list of environment variable settings for the Task."
+  returns:
+    description: "the environmentSettings value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.compute.batch.models.EnvironmentSetting?alt=com.azure.compute.batch.models.EnvironmentSetting&text=EnvironmentSetting\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.compute.batch.models.BatchTask.getExecutionInfo()"
   fullName: "com.azure.compute.batch.models.BatchTask.getExecutionInfo()"
   name: "getExecutionInfo()"

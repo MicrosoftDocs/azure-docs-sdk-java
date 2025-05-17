@@ -73,6 +73,30 @@ methods:
   returns:
     description: "the next stage of the activity log alert update."
     type: "<xref href=\"com.azure.resourcemanager.monitor.models.ActivityLogAlert.Update?alt=com.azure.resourcemanager.monitor.models.ActivityLogAlert.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.monitor.models.ActivityLogAlert.UpdateStages.WithActivityLogUpdate.withRuleDisabled()"
+  fullName: "com.azure.resourcemanager.monitor.models.ActivityLogAlert.UpdateStages.WithActivityLogUpdate.withRuleDisabled()"
+  name: "withRuleDisabled()"
+  nameWithType: "ActivityLogAlert.UpdateStages.WithActivityLogUpdate.withRuleDisabled()"
+  summary: "Sets activity log alert as disabled."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ActivityLogAlert.Update withRuleDisabled()"
+  desc: "Sets activity log alert as disabled."
+  returns:
+    description: "the next stage of the activity log alert update."
+    type: "<xref href=\"com.azure.resourcemanager.monitor.models.ActivityLogAlert.Update?alt=com.azure.resourcemanager.monitor.models.ActivityLogAlert.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.monitor.models.ActivityLogAlert.UpdateStages.WithActivityLogUpdate.withRuleEnabled()"
+  fullName: "com.azure.resourcemanager.monitor.models.ActivityLogAlert.UpdateStages.WithActivityLogUpdate.withRuleEnabled()"
+  name: "withRuleEnabled()"
+  nameWithType: "ActivityLogAlert.UpdateStages.WithActivityLogUpdate.withRuleEnabled()"
+  summary: "Sets activity log alert as enabled."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ActivityLogAlert.Update withRuleEnabled()"
+  desc: "Sets activity log alert as enabled."
+  returns:
+    description: "the next stage of the activity log alert update."
+    type: "<xref href=\"com.azure.resourcemanager.monitor.models.ActivityLogAlert.Update?alt=com.azure.resourcemanager.monitor.models.ActivityLogAlert.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.monitor.models.ActivityLogAlert.UpdateStages.WithActivityLogUpdate.withoutActionGroup(java.lang.String)"
   fullName: "com.azure.resourcemanager.monitor.models.ActivityLogAlert.UpdateStages.WithActivityLogUpdate.withoutActionGroup(String actionGroupId)"
   name: "withoutActionGroup(String actionGroupId)"
@@ -102,30 +126,6 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract ActivityLogAlert.Update withoutEqualsCondition(String field)"
   desc: "Removes a condition from the list of conditions."
-  returns:
-    description: "the next stage of the activity log alert update."
-    type: "<xref href=\"com.azure.resourcemanager.monitor.models.ActivityLogAlert.Update?alt=com.azure.resourcemanager.monitor.models.ActivityLogAlert.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.monitor.models.ActivityLogAlert.UpdateStages.WithActivityLogUpdate.withRuleDisabled()"
-  fullName: "com.azure.resourcemanager.monitor.models.ActivityLogAlert.UpdateStages.WithActivityLogUpdate.withRuleDisabled()"
-  name: "withRuleDisabled()"
-  nameWithType: "ActivityLogAlert.UpdateStages.WithActivityLogUpdate.withRuleDisabled()"
-  summary: "Sets activity log alert as disabled."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract ActivityLogAlert.Update withRuleDisabled()"
-  desc: "Sets activity log alert as disabled."
-  returns:
-    description: "the next stage of the activity log alert update."
-    type: "<xref href=\"com.azure.resourcemanager.monitor.models.ActivityLogAlert.Update?alt=com.azure.resourcemanager.monitor.models.ActivityLogAlert.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.monitor.models.ActivityLogAlert.UpdateStages.WithActivityLogUpdate.withRuleEnabled()"
-  fullName: "com.azure.resourcemanager.monitor.models.ActivityLogAlert.UpdateStages.WithActivityLogUpdate.withRuleEnabled()"
-  name: "withRuleEnabled()"
-  nameWithType: "ActivityLogAlert.UpdateStages.WithActivityLogUpdate.withRuleEnabled()"
-  summary: "Sets activity log alert as enabled."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract ActivityLogAlert.Update withRuleEnabled()"
-  desc: "Sets activity log alert as enabled."
   returns:
     description: "the next stage of the activity log alert update."
     type: "<xref href=\"com.azure.resourcemanager.monitor.models.ActivityLogAlert.Update?alt=com.azure.resourcemanager.monitor.models.ActivityLogAlert.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"

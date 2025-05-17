@@ -38,16 +38,6 @@ constructors:
   syntax: "public MigrateSqlServerSqlDbTaskOutputMigrationLevel()"
   desc: "Creates an instance of MigrateSqlServerSqlDbTaskOutputMigrationLevel class."
 methods:
-- uid: "com.azure.resourcemanager.datamigration.models.MigrateSqlServerSqlDbTaskOutputMigrationLevel.databases()"
-  fullName: "com.azure.resourcemanager.datamigration.models.MigrateSqlServerSqlDbTaskOutputMigrationLevel.databases()"
-  name: "databases()"
-  nameWithType: "MigrateSqlServerSqlDbTaskOutputMigrationLevel.databases()"
-  summary: "Get the databases property: Selected databases as a map from database name to database id."
-  syntax: "public String databases()"
-  desc: "Get the databases property: Selected databases as a map from database name to database id."
-  returns:
-    description: "the databases value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.datamigration.models.MigrateSqlServerSqlDbTaskOutputMigrationLevel.databaseSummary()"
   fullName: "com.azure.resourcemanager.datamigration.models.MigrateSqlServerSqlDbTaskOutputMigrationLevel.databaseSummary()"
   name: "databaseSummary()"
@@ -57,6 +47,16 @@ methods:
   desc: "Get the databaseSummary property: Summary of database results in the migration."
   returns:
     description: "the databaseSummary value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.datamigration.models.MigrateSqlServerSqlDbTaskOutputMigrationLevel.databases()"
+  fullName: "com.azure.resourcemanager.datamigration.models.MigrateSqlServerSqlDbTaskOutputMigrationLevel.databases()"
+  name: "databases()"
+  nameWithType: "MigrateSqlServerSqlDbTaskOutputMigrationLevel.databases()"
+  summary: "Get the databases property: Selected databases as a map from database name to database id."
+  syntax: "public String databases()"
+  desc: "Get the databases property: Selected databases as a map from database name to database id."
+  returns:
+    description: "the databases value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.datamigration.models.MigrateSqlServerSqlDbTaskOutputMigrationLevel.durationInSeconds()"
   fullName: "com.azure.resourcemanager.datamigration.models.MigrateSqlServerSqlDbTaskOutputMigrationLevel.durationInSeconds()"

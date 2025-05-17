@@ -329,6 +329,19 @@ methods:
   returns:
     description: "the GoogleAdWordsLinkedService object itself."
     type: "<xref href=\"com.azure.resourcemanager.datafactory.models.GoogleAdWordsLinkedService?alt=com.azure.resourcemanager.datafactory.models.GoogleAdWordsLinkedService&text=GoogleAdWordsLinkedService\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.datafactory.models.GoogleAdWordsLinkedService.withConnectVia(com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference)"
+  fullName: "com.azure.resourcemanager.datafactory.models.GoogleAdWordsLinkedService.withConnectVia(IntegrationRuntimeReference connectVia)"
+  name: "withConnectVia(IntegrationRuntimeReference connectVia)"
+  nameWithType: "GoogleAdWordsLinkedService.withConnectVia(IntegrationRuntimeReference connectVia)"
+  summary: "Set the connect<wbr>Via property: The integration runtime reference."
+  overridden: "com.azure.resourcemanager.datafactory.models.LinkedService.withConnectVia(com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference)"
+  parameters:
+  - name: "connectVia"
+    type: "<xref href=\"com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference?alt=com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference&text=IntegrationRuntimeReference\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public GoogleAdWordsLinkedService withConnectVia(IntegrationRuntimeReference connectVia)"
+  desc: "Set the connectVia property: The integration runtime reference."
+  returns:
+    type: "<xref href=\"com.azure.resourcemanager.datafactory.models.GoogleAdWordsLinkedService?alt=com.azure.resourcemanager.datafactory.models.GoogleAdWordsLinkedService&text=GoogleAdWordsLinkedService\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.datafactory.models.GoogleAdWordsLinkedService.withConnectionProperties(java.lang.Object)"
   fullName: "com.azure.resourcemanager.datafactory.models.GoogleAdWordsLinkedService.withConnectionProperties(Object connectionProperties)"
   name: "withConnectionProperties(Object connectionProperties)"
@@ -342,19 +355,6 @@ methods:
   desc: "Set the connectionProperties property: (Deprecated) Properties used to connect to GoogleAds. It is mutually exclusive with any other properties in the linked service. Type: object."
   returns:
     description: "the GoogleAdWordsLinkedService object itself."
-    type: "<xref href=\"com.azure.resourcemanager.datafactory.models.GoogleAdWordsLinkedService?alt=com.azure.resourcemanager.datafactory.models.GoogleAdWordsLinkedService&text=GoogleAdWordsLinkedService\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.datafactory.models.GoogleAdWordsLinkedService.withConnectVia(com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference)"
-  fullName: "com.azure.resourcemanager.datafactory.models.GoogleAdWordsLinkedService.withConnectVia(IntegrationRuntimeReference connectVia)"
-  name: "withConnectVia(IntegrationRuntimeReference connectVia)"
-  nameWithType: "GoogleAdWordsLinkedService.withConnectVia(IntegrationRuntimeReference connectVia)"
-  summary: "Set the connect<wbr>Via property: The integration runtime reference."
-  overridden: "com.azure.resourcemanager.datafactory.models.LinkedService.withConnectVia(com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference)"
-  parameters:
-  - name: "connectVia"
-    type: "<xref href=\"com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference?alt=com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference&text=IntegrationRuntimeReference\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public GoogleAdWordsLinkedService withConnectVia(IntegrationRuntimeReference connectVia)"
-  desc: "Set the connectVia property: The integration runtime reference."
-  returns:
     type: "<xref href=\"com.azure.resourcemanager.datafactory.models.GoogleAdWordsLinkedService?alt=com.azure.resourcemanager.datafactory.models.GoogleAdWordsLinkedService&text=GoogleAdWordsLinkedService\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.datafactory.models.GoogleAdWordsLinkedService.withDescription(java.lang.String)"
   fullName: "com.azure.resourcemanager.datafactory.models.GoogleAdWordsLinkedService.withDescription(String description)"

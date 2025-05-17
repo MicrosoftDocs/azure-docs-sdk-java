@@ -30,16 +30,6 @@ constructors:
   syntax: "public DatacenterAddressResponse()"
   desc: "Creates an instance of DatacenterAddressResponse class."
 methods:
-- uid: "com.azure.resourcemanager.databox.models.DatacenterAddressResponse.datacenterAddressType()"
-  fullName: "com.azure.resourcemanager.databox.models.DatacenterAddressResponse.datacenterAddressType()"
-  name: "datacenterAddressType()"
-  nameWithType: "DatacenterAddressResponse.datacenterAddressType()"
-  summary: "Get the datacenter<wbr>Address<wbr>Type property: Data center address type."
-  syntax: "public DatacenterAddressType datacenterAddressType()"
-  desc: "Get the datacenterAddressType property: Data center address type."
-  returns:
-    description: "the datacenterAddressType value."
-    type: "<xref href=\"com.azure.resourcemanager.databox.models.DatacenterAddressType?alt=com.azure.resourcemanager.databox.models.DatacenterAddressType&text=DatacenterAddressType\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.databox.models.DatacenterAddressResponse.dataCenterAzureLocation()"
   fullName: "com.azure.resourcemanager.databox.models.DatacenterAddressResponse.dataCenterAzureLocation()"
   name: "dataCenterAzureLocation()"
@@ -50,6 +40,16 @@ methods:
   returns:
     description: "the dataCenterAzureLocation value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.databox.models.DatacenterAddressResponse.datacenterAddressType()"
+  fullName: "com.azure.resourcemanager.databox.models.DatacenterAddressResponse.datacenterAddressType()"
+  name: "datacenterAddressType()"
+  nameWithType: "DatacenterAddressResponse.datacenterAddressType()"
+  summary: "Get the datacenter<wbr>Address<wbr>Type property: Data center address type."
+  syntax: "public DatacenterAddressType datacenterAddressType()"
+  desc: "Get the datacenterAddressType property: Data center address type."
+  returns:
+    description: "the datacenterAddressType value."
+    type: "<xref href=\"com.azure.resourcemanager.databox.models.DatacenterAddressType?alt=com.azure.resourcemanager.databox.models.DatacenterAddressType&text=DatacenterAddressType\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.databox.models.DatacenterAddressResponse.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.databox.models.DatacenterAddressResponse.fromJson(JsonReader jsonReader)"
   name: "fromJson(JsonReader jsonReader)"

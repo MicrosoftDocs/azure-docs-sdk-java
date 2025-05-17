@@ -36,7 +36,7 @@ methods:
   nameWithType: "FunctionConfiguration.binding()"
   summary: "Get the binding property: The physical binding of the function."
   syntax: "public FunctionBinding binding()"
-  desc: "Get the binding property: The physical binding of the function. For example, in the Azure Machine Learning web service’s case, this describes the endpoint."
+  desc: "Get the binding property: The physical binding of the function. For example, in the Azure Machine Learning web service\\\\u2019s case, this describes the endpoint."
   returns:
     description: "the binding value."
     type: "<xref href=\"com.azure.resourcemanager.streamanalytics.models.FunctionBinding?alt=com.azure.resourcemanager.streamanalytics.models.FunctionBinding&text=FunctionBinding\" data-throw-if-not-resolved=\"False\" />"
@@ -108,7 +108,7 @@ methods:
     name: "binding"
     type: "<xref href=\"com.azure.resourcemanager.streamanalytics.models.FunctionBinding?alt=com.azure.resourcemanager.streamanalytics.models.FunctionBinding&text=FunctionBinding\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public FunctionConfiguration withBinding(FunctionBinding binding)"
-  desc: "Set the binding property: The physical binding of the function. For example, in the Azure Machine Learning web service’s case, this describes the endpoint."
+  desc: "Set the binding property: The physical binding of the function. For example, in the Azure Machine Learning web service\\\\u2019s case, this describes the endpoint."
   returns:
     description: "the FunctionConfiguration object itself."
     type: "<xref href=\"com.azure.resourcemanager.streamanalytics.fluent.models.FunctionConfiguration?alt=com.azure.resourcemanager.streamanalytics.fluent.models.FunctionConfiguration&text=FunctionConfiguration\" data-throw-if-not-resolved=\"False\" />"

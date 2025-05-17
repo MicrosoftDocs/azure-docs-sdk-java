@@ -44,20 +44,6 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.core.serializer.json.jackson.JacksonJsonProvider.createReader(java.io.InputStream,com.azure.json.JsonOptions)"
-  fullName: "com.azure.core.serializer.json.jackson.JacksonJsonProvider.createReader(InputStream json, JsonOptions options)"
-  name: "createReader(InputStream json, JsonOptions options)"
-  nameWithType: "JacksonJsonProvider.createReader(InputStream json, JsonOptions options)"
-  parameters:
-  - name: "json"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/InputStream.html\">InputStream</a>"
-  - name: "options"
-    type: "<xref href=\"com.azure.json.JsonOptions?alt=com.azure.json.JsonOptions&text=JsonOptions\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public JsonReader createReader(InputStream json, JsonOptions options)"
-  exceptions:
-  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
-  returns:
-    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.core.serializer.json.jackson.JacksonJsonProvider.createReader(com.fasterxml.jackson.core.JsonParser)"
   fullName: "com.azure.core.serializer.json.jackson.JacksonJsonProvider.createReader(JsonParser parser)"
   name: "createReader(JsonParser parser)"
@@ -71,6 +57,20 @@ methods:
   desc: "Creates an instance of <xref uid=\"com.azure.json.JsonReader\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JsonReader\"></xref> wrapping a Jackson <xref uid=\"com.fasterxml.jackson.core.JsonParser\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JsonParser\"></xref>."
   returns:
     description: "A <xref uid=\"com.azure.json.JsonReader\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JsonReader\"></xref> wrapping the <xref uid=\"com.fasterxml.jackson.core.JsonParser\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JsonParser\"></xref>."
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.core.serializer.json.jackson.JacksonJsonProvider.createReader(java.io.InputStream,com.azure.json.JsonOptions)"
+  fullName: "com.azure.core.serializer.json.jackson.JacksonJsonProvider.createReader(InputStream json, JsonOptions options)"
+  name: "createReader(InputStream json, JsonOptions options)"
+  nameWithType: "JacksonJsonProvider.createReader(InputStream json, JsonOptions options)"
+  parameters:
+  - name: "json"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/InputStream.html\">InputStream</a>"
+  - name: "options"
+    type: "<xref href=\"com.azure.json.JsonOptions?alt=com.azure.json.JsonOptions&text=JsonOptions\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonReader createReader(InputStream json, JsonOptions options)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
     type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.core.serializer.json.jackson.JacksonJsonProvider.createReader(java.io.Reader,com.azure.json.JsonOptions)"
   fullName: "com.azure.core.serializer.json.jackson.JacksonJsonProvider.createReader(Reader json, JsonOptions options)"

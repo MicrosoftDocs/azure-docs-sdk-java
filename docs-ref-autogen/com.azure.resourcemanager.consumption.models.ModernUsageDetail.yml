@@ -506,6 +506,16 @@ methods:
   returns:
     description: "the partnerTenantId value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.consumption.models.ModernUsageDetail.payGPrice()"
+  fullName: "com.azure.resourcemanager.consumption.models.ModernUsageDetail.payGPrice()"
+  name: "payGPrice()"
+  nameWithType: "ModernUsageDetail.payGPrice()"
+  summary: "Get the pay<wbr>GPrice property: Retail price for the resource."
+  syntax: "public BigDecimal payGPrice()"
+  desc: "Get the payGPrice property: Retail price for the resource."
+  returns:
+    description: "the payGPrice value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/math/BigDecimal.html\">BigDecimal</a>"
 - uid: "com.azure.resourcemanager.consumption.models.ModernUsageDetail.paygCostInBillingCurrency()"
   fullName: "com.azure.resourcemanager.consumption.models.ModernUsageDetail.paygCostInBillingCurrency()"
   name: "paygCostInBillingCurrency()"
@@ -525,16 +535,6 @@ methods:
   desc: "Get the paygCostInUsd property: The amount of PayG cost before tax in US Dollar currency."
   returns:
     description: "the paygCostInUsd value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/math/BigDecimal.html\">BigDecimal</a>"
-- uid: "com.azure.resourcemanager.consumption.models.ModernUsageDetail.payGPrice()"
-  fullName: "com.azure.resourcemanager.consumption.models.ModernUsageDetail.payGPrice()"
-  name: "payGPrice()"
-  nameWithType: "ModernUsageDetail.payGPrice()"
-  summary: "Get the pay<wbr>GPrice property: Retail price for the resource."
-  syntax: "public BigDecimal payGPrice()"
-  desc: "Get the payGPrice property: Retail price for the resource."
-  returns:
-    description: "the payGPrice value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/math/BigDecimal.html\">BigDecimal</a>"
 - uid: "com.azure.resourcemanager.consumption.models.ModernUsageDetail.previousInvoiceId()"
   fullName: "com.azure.resourcemanager.consumption.models.ModernUsageDetail.previousInvoiceId()"

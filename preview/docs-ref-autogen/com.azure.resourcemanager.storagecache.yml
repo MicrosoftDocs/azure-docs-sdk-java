@@ -6,7 +6,7 @@ summary: "Package containing the classes for Storage<wbr>Cache<wbr>Management<wb
 classes:
 - "com.azure.resourcemanager.storagecache.StorageCacheManager"
 - "com.azure.resourcemanager.storagecache.StorageCacheManager.Configurable"
-desc: "Package containing the classes for StorageCacheManagementClient. Azure Managed Lustre provides a fully managed LustreÂ® file system, integrated with Blob storage, for use on demand. These operations create and manage Azure Managed Lustre file systems."
+desc: "Package containing the classes for StorageCacheManagementClient. Azure Managed Lustre provides a fully managed Lustre® file system, integrated with Blob storage, for use on demand. These operations create and manage Azure Managed Lustre file systems."
 metadata: {}
 package: "com.azure.resourcemanager.storagecache"
 artifact: com.azure.resourcemanager:azure-resourcemanager-storagecache:1.0.0-beta.12

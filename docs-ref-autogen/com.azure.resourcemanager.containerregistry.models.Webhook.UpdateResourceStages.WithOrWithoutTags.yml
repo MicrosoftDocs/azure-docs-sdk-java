@@ -6,22 +6,6 @@ nameWithType: "Webhook.UpdateResourceStages.WithOrWithoutTags<ParentT>"
 summary: "The stage of the webhook definition allowing to specify the tags."
 syntax: "public static interface **Webhook.UpdateResourceStages.WithOrWithoutTags<ParentT>**"
 methods:
-- uid: "com.azure.resourcemanager.containerregistry.models.Webhook.UpdateResourceStages.WithOrWithoutTags.withoutTag(java.lang.String)"
-  fullName: "com.azure.resourcemanager.containerregistry.models.Webhook.UpdateResourceStages.WithOrWithoutTags<ParentT>.withoutTag(String key)"
-  name: "withoutTag(String key)"
-  nameWithType: "Webhook.UpdateResourceStages.WithOrWithoutTags<ParentT>.withoutTag(String key)"
-  summary: "Removes a tag from the resource."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "the key of the tag to remove"
-    name: "key"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public abstract Webhook.UpdateResourceStages.WithAttach<ParentT> withoutTag(String key)"
-  desc: "Removes a tag from the resource."
-  returns:
-    description: "the next stage of the resource update"
-    type: "<xref href=\"com.azure.resourcemanager.containerregistry.models.Webhook.UpdateResourceStages.WithAttach?alt=com.azure.resourcemanager.containerregistry.models.Webhook.UpdateResourceStages.WithAttach&text=WithAttach\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.containerregistry.models.Webhook.UpdateResourceStages.WithOrWithoutTags.withTag(java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.containerregistry.models.Webhook.UpdateResourceStages.WithOrWithoutTags<ParentT>.withTag(String key, String value)"
   name: "withTag(String key, String value)"
@@ -54,6 +38,22 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
   syntax: "public abstract Webhook.UpdateResourceStages.WithAttach<ParentT> withTags(Map<String,String> tags)"
   desc: "Specifies tags for the webhook."
+  returns:
+    description: "the next stage of the resource update"
+    type: "<xref href=\"com.azure.resourcemanager.containerregistry.models.Webhook.UpdateResourceStages.WithAttach?alt=com.azure.resourcemanager.containerregistry.models.Webhook.UpdateResourceStages.WithAttach&text=WithAttach\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.containerregistry.models.Webhook.UpdateResourceStages.WithOrWithoutTags.withoutTag(java.lang.String)"
+  fullName: "com.azure.resourcemanager.containerregistry.models.Webhook.UpdateResourceStages.WithOrWithoutTags<ParentT>.withoutTag(String key)"
+  name: "withoutTag(String key)"
+  nameWithType: "Webhook.UpdateResourceStages.WithOrWithoutTags<ParentT>.withoutTag(String key)"
+  summary: "Removes a tag from the resource."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "the key of the tag to remove"
+    name: "key"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract Webhook.UpdateResourceStages.WithAttach<ParentT> withoutTag(String key)"
+  desc: "Removes a tag from the resource."
   returns:
     description: "the next stage of the resource update"
     type: "<xref href=\"com.azure.resourcemanager.containerregistry.models.Webhook.UpdateResourceStages.WithAttach?alt=com.azure.resourcemanager.containerregistry.models.Webhook.UpdateResourceStages.WithAttach&text=WithAttach\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"

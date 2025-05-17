@@ -134,19 +134,6 @@ methods:
   desc: "Set the portGroupNames property: List of the port Group Names that need to be matched."
   returns:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AccessControlListPortCondition?alt=com.azure.resourcemanager.managednetworkfabric.models.AccessControlListPortCondition&text=AccessControlListPortCondition\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlListPortCondition.withPorts(java.util.List<java.lang.String>)"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlListPortCondition.withPorts(List<String> ports)"
-  name: "withPorts(List<String> ports)"
-  nameWithType: "AccessControlListPortCondition.withPorts(List<String> ports)"
-  summary: "Set the ports property: List of the Ports that need to be matched."
-  overridden: "com.azure.resourcemanager.managednetworkfabric.models.PortCondition.withPorts(java.util.List<java.lang.String>)"
-  parameters:
-  - name: "ports"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-  syntax: "public AccessControlListPortCondition withPorts(List<String> ports)"
-  desc: "Set the ports property: List of the Ports that need to be matched."
-  returns:
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AccessControlListPortCondition?alt=com.azure.resourcemanager.managednetworkfabric.models.AccessControlListPortCondition&text=AccessControlListPortCondition\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlListPortCondition.withPortType(com.azure.resourcemanager.managednetworkfabric.models.PortType)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlListPortCondition.withPortType(PortType portType)"
   name: "withPortType(PortType portType)"
@@ -158,6 +145,19 @@ methods:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.PortType?alt=com.azure.resourcemanager.managednetworkfabric.models.PortType&text=PortType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public AccessControlListPortCondition withPortType(PortType portType)"
   desc: "Set the portType property: Port type that needs to be matched."
+  returns:
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AccessControlListPortCondition?alt=com.azure.resourcemanager.managednetworkfabric.models.AccessControlListPortCondition&text=AccessControlListPortCondition\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlListPortCondition.withPorts(java.util.List<java.lang.String>)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlListPortCondition.withPorts(List<String> ports)"
+  name: "withPorts(List<String> ports)"
+  nameWithType: "AccessControlListPortCondition.withPorts(List<String> ports)"
+  summary: "Set the ports property: List of the Ports that need to be matched."
+  overridden: "com.azure.resourcemanager.managednetworkfabric.models.PortCondition.withPorts(java.util.List<java.lang.String>)"
+  parameters:
+  - name: "ports"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+  syntax: "public AccessControlListPortCondition withPorts(List<String> ports)"
+  desc: "Set the ports property: List of the Ports that need to be matched."
   returns:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AccessControlListPortCondition?alt=com.azure.resourcemanager.managednetworkfabric.models.AccessControlListPortCondition&text=AccessControlListPortCondition\" data-throw-if-not-resolved=\"False\" />"
 type: "class"

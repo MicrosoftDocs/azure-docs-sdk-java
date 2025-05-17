@@ -92,16 +92,6 @@ constructors:
   syntax: "protected Index(JSONObject jsonObject, IndexKind indexKind)"
   desc: "Constructor."
 methods:
-- uid: "com.microsoft.azure.documentdb.Index.getKind()"
-  fullName: "com.microsoft.azure.documentdb.Index.getKind()"
-  name: "getKind()"
-  nameWithType: "Index.getKind()"
-  summary: "Gets index kind."
-  syntax: "public IndexKind getKind()"
-  desc: "Gets index kind."
-  returns:
-    description: "the index kind."
-    type: "<xref href=\"com.microsoft.azure.documentdb.IndexKind?alt=com.microsoft.azure.documentdb.IndexKind&text=IndexKind\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.documentdb.Index.Hash(com.microsoft.azure.documentdb.DataType)"
   fullName: "com.microsoft.azure.documentdb.Index.Hash(DataType dataType)"
   name: "Hash(DataType dataType)"
@@ -188,6 +178,16 @@ methods:
   returns:
     description: "an instance of SpatialIndex type."
     type: "<xref href=\"com.microsoft.azure.documentdb.SpatialIndex?alt=com.microsoft.azure.documentdb.SpatialIndex&text=SpatialIndex\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.azure.documentdb.Index.getKind()"
+  fullName: "com.microsoft.azure.documentdb.Index.getKind()"
+  name: "getKind()"
+  nameWithType: "Index.getKind()"
+  summary: "Gets index kind."
+  syntax: "public IndexKind getKind()"
+  desc: "Gets index kind."
+  returns:
+    description: "the index kind."
+    type: "<xref href=\"com.microsoft.azure.documentdb.IndexKind?alt=com.microsoft.azure.documentdb.IndexKind&text=IndexKind\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Represents the index of a collection in the Azure Cosmos DB database service."
 metadata: {}

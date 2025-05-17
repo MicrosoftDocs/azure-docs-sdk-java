@@ -10,7 +10,7 @@ methods:
   fullName: "com.azure.resourcemanager.storage.models.BlobServices.getServicePropertiesAsync(String resourceGroupName, String accountName)"
   name: "getServicePropertiesAsync(String resourceGroupName, String accountName)"
   nameWithType: "BlobServices.getServicePropertiesAsync(String resourceGroupName, String accountName)"
-  summary: "Gets the properties of a storage account’s Blob service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  summary: "Gets the properties of a storage account\\\\u2019s Blob service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   modifiers:
   - "abstract"
   parameters:
@@ -21,7 +21,7 @@ methods:
     name: "accountName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract Mono<BlobServiceProperties> getServicePropertiesAsync(String resourceGroupName, String accountName)"
-  desc: "Gets the properties of a storage account’s Blob service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  desc: "Gets the properties of a storage account\\\\u2019s Blob service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   returns:
     description: "the observable for the request"
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.resourcemanager.storage.models.BlobServiceProperties?alt=com.azure.resourcemanager.storage.models.BlobServiceProperties&text=BlobServiceProperties\" data-throw-if-not-resolved=\"False\" />&gt;"

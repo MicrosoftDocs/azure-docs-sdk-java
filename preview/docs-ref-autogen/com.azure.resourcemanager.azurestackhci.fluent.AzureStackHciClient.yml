@@ -198,18 +198,6 @@ methods:
   returns:
     description: "the UpdateRunsClient object."
     type: "<xref href=\"com.azure.resourcemanager.azurestackhci.fluent.UpdateRunsClient?alt=com.azure.resourcemanager.azurestackhci.fluent.UpdateRunsClient&text=UpdateRunsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.azurestackhci.fluent.AzureStackHciClient.getUpdates()"
-  fullName: "com.azure.resourcemanager.azurestackhci.fluent.AzureStackHciClient.getUpdates()"
-  name: "getUpdates()"
-  nameWithType: "AzureStackHciClient.getUpdates()"
-  summary: "Gets the Updates<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract UpdatesClient getUpdates()"
-  desc: "Gets the UpdatesClient object to access its operations."
-  returns:
-    description: "the UpdatesClient object."
-    type: "<xref href=\"com.azure.resourcemanager.azurestackhci.fluent.UpdatesClient?alt=com.azure.resourcemanager.azurestackhci.fluent.UpdatesClient&text=UpdatesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.azurestackhci.fluent.AzureStackHciClient.getUpdateSummariesOperations()"
   fullName: "com.azure.resourcemanager.azurestackhci.fluent.AzureStackHciClient.getUpdateSummariesOperations()"
   name: "getUpdateSummariesOperations()"
@@ -222,6 +210,18 @@ methods:
   returns:
     description: "the UpdateSummariesOperationsClient object."
     type: "<xref href=\"com.azure.resourcemanager.azurestackhci.fluent.UpdateSummariesOperationsClient?alt=com.azure.resourcemanager.azurestackhci.fluent.UpdateSummariesOperationsClient&text=UpdateSummariesOperationsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.azurestackhci.fluent.AzureStackHciClient.getUpdates()"
+  fullName: "com.azure.resourcemanager.azurestackhci.fluent.AzureStackHciClient.getUpdates()"
+  name: "getUpdates()"
+  nameWithType: "AzureStackHciClient.getUpdates()"
+  summary: "Gets the Updates<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract UpdatesClient getUpdates()"
+  desc: "Gets the UpdatesClient object to access its operations."
+  returns:
+    description: "the UpdatesClient object."
+    type: "<xref href=\"com.azure.resourcemanager.azurestackhci.fluent.UpdatesClient?alt=com.azure.resourcemanager.azurestackhci.fluent.UpdatesClient&text=UpdatesClient\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 desc: "The interface for AzureStackHciClient class."
 metadata: {}

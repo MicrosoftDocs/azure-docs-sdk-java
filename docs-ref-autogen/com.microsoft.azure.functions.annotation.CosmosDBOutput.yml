@@ -54,18 +54,6 @@ methods:
   returns:
     description: "The ID string."
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.azure.functions.annotation.CosmosDBOutput.databaseName()"
-  fullName: "com.microsoft.azure.functions.annotation.CosmosDBOutput.databaseName()"
-  name: "databaseName()"
-  nameWithType: "CosmosDBOutput.databaseName()"
-  summary: "Defines the database name of the CosmosDB to which to write."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract String databaseName()"
-  desc: "Defines the database name of the CosmosDB to which to write."
-  returns:
-    description: "The database name string."
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.functions.annotation.CosmosDBOutput.dataType()"
   fullName: "com.microsoft.azure.functions.annotation.CosmosDBOutput.dataType()"
   name: "dataType()"
@@ -77,6 +65,18 @@ methods:
   desc: "Defines how Functions runtime should treat the parameter value. Possible values are:\n\n *  \"\" or string: treat it as a string whose value is serialized from the parameter\n *  binary: treat it as a binary data whose value comes from for example OutputBinding<byte\\[\\]>"
   returns:
     description: "The dataType which will be used by the Functions runtime."
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.azure.functions.annotation.CosmosDBOutput.databaseName()"
+  fullName: "com.microsoft.azure.functions.annotation.CosmosDBOutput.databaseName()"
+  name: "databaseName()"
+  nameWithType: "CosmosDBOutput.databaseName()"
+  summary: "Defines the database name of the CosmosDB to which to write."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String databaseName()"
+  desc: "Defines the database name of the CosmosDB to which to write."
+  returns:
+    description: "The database name string."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.functions.annotation.CosmosDBOutput.name()"
   fullName: "com.microsoft.azure.functions.annotation.CosmosDBOutput.name()"

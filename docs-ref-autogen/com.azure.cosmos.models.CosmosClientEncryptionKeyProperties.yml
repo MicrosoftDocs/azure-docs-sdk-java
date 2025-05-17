@@ -43,6 +43,16 @@ constructors:
   syntax: "public CosmosClientEncryptionKeyProperties(String id, String encryptionAlgorithm, byte[] wrappedDataEncryptionKey, EncryptionKeyWrapMetadata encryptionKeyWrapMetadata)"
   desc: "Constructor."
 methods:
+- uid: "com.azure.cosmos.models.CosmosClientEncryptionKeyProperties.getETag()"
+  fullName: "com.azure.cosmos.models.CosmosClientEncryptionKeyProperties.getETag()"
+  name: "getETag()"
+  nameWithType: "CosmosClientEncryptionKeyProperties.getETag()"
+  summary: "Get the entity tag associated with the resource."
+  syntax: "public String getETag()"
+  desc: "Get the entity tag associated with the resource. This is only relevant when getting response from the server."
+  returns:
+    description: "the e tag."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.cosmos.models.CosmosClientEncryptionKeyProperties.getEncryptionAlgorithm()"
   fullName: "com.azure.cosmos.models.CosmosClientEncryptionKeyProperties.getEncryptionAlgorithm()"
   name: "getEncryptionAlgorithm()"
@@ -63,16 +73,6 @@ methods:
   returns:
     description: "encryptionKeyWrapMetadata"
     type: "<xref href=\"com.azure.cosmos.models.EncryptionKeyWrapMetadata?alt=com.azure.cosmos.models.EncryptionKeyWrapMetadata&text=EncryptionKeyWrapMetadata\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.cosmos.models.CosmosClientEncryptionKeyProperties.getETag()"
-  fullName: "com.azure.cosmos.models.CosmosClientEncryptionKeyProperties.getETag()"
-  name: "getETag()"
-  nameWithType: "CosmosClientEncryptionKeyProperties.getETag()"
-  summary: "Get the entity tag associated with the resource."
-  syntax: "public String getETag()"
-  desc: "Get the entity tag associated with the resource. This is only relevant when getting response from the server."
-  returns:
-    description: "the e tag."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.cosmos.models.CosmosClientEncryptionKeyProperties.getId()"
   fullName: "com.azure.cosmos.models.CosmosClientEncryptionKeyProperties.getId()"
   name: "getId()"

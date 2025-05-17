@@ -66,30 +66,6 @@ methods:
   returns:
     description: "the httpPipeline value."
     type: "<xref href=\"com.azure.core.http.HttpPipeline?alt=com.azure.core.http.HttpPipeline&text=HttpPipeline\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.hybridnetwork.fluent.HybridNetworkManagementClient.getNetworkFunctions()"
-  fullName: "com.azure.resourcemanager.hybridnetwork.fluent.HybridNetworkManagementClient.getNetworkFunctions()"
-  name: "getNetworkFunctions()"
-  nameWithType: "HybridNetworkManagementClient.getNetworkFunctions()"
-  summary: "Gets the Network<wbr>Functions<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract NetworkFunctionsClient getNetworkFunctions()"
-  desc: "Gets the NetworkFunctionsClient object to access its operations."
-  returns:
-    description: "the NetworkFunctionsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.hybridnetwork.fluent.NetworkFunctionsClient?alt=com.azure.resourcemanager.hybridnetwork.fluent.NetworkFunctionsClient&text=NetworkFunctionsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.hybridnetwork.fluent.HybridNetworkManagementClient.getNetworkFunctionVendors()"
-  fullName: "com.azure.resourcemanager.hybridnetwork.fluent.HybridNetworkManagementClient.getNetworkFunctionVendors()"
-  name: "getNetworkFunctionVendors()"
-  nameWithType: "HybridNetworkManagementClient.getNetworkFunctionVendors()"
-  summary: "Gets the Network<wbr>Function<wbr>Vendors<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract NetworkFunctionVendorsClient getNetworkFunctionVendors()"
-  desc: "Gets the NetworkFunctionVendorsClient object to access its operations."
-  returns:
-    description: "the NetworkFunctionVendorsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.hybridnetwork.fluent.NetworkFunctionVendorsClient?alt=com.azure.resourcemanager.hybridnetwork.fluent.NetworkFunctionVendorsClient&text=NetworkFunctionVendorsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.hybridnetwork.fluent.HybridNetworkManagementClient.getNetworkFunctionVendorSkus()"
   fullName: "com.azure.resourcemanager.hybridnetwork.fluent.HybridNetworkManagementClient.getNetworkFunctionVendorSkus()"
   name: "getNetworkFunctionVendorSkus()"
@@ -102,6 +78,30 @@ methods:
   returns:
     description: "the NetworkFunctionVendorSkusClient object."
     type: "<xref href=\"com.azure.resourcemanager.hybridnetwork.fluent.NetworkFunctionVendorSkusClient?alt=com.azure.resourcemanager.hybridnetwork.fluent.NetworkFunctionVendorSkusClient&text=NetworkFunctionVendorSkusClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.hybridnetwork.fluent.HybridNetworkManagementClient.getNetworkFunctionVendors()"
+  fullName: "com.azure.resourcemanager.hybridnetwork.fluent.HybridNetworkManagementClient.getNetworkFunctionVendors()"
+  name: "getNetworkFunctionVendors()"
+  nameWithType: "HybridNetworkManagementClient.getNetworkFunctionVendors()"
+  summary: "Gets the Network<wbr>Function<wbr>Vendors<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract NetworkFunctionVendorsClient getNetworkFunctionVendors()"
+  desc: "Gets the NetworkFunctionVendorsClient object to access its operations."
+  returns:
+    description: "the NetworkFunctionVendorsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.hybridnetwork.fluent.NetworkFunctionVendorsClient?alt=com.azure.resourcemanager.hybridnetwork.fluent.NetworkFunctionVendorsClient&text=NetworkFunctionVendorsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.hybridnetwork.fluent.HybridNetworkManagementClient.getNetworkFunctions()"
+  fullName: "com.azure.resourcemanager.hybridnetwork.fluent.HybridNetworkManagementClient.getNetworkFunctions()"
+  name: "getNetworkFunctions()"
+  nameWithType: "HybridNetworkManagementClient.getNetworkFunctions()"
+  summary: "Gets the Network<wbr>Functions<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract NetworkFunctionsClient getNetworkFunctions()"
+  desc: "Gets the NetworkFunctionsClient object to access its operations."
+  returns:
+    description: "the NetworkFunctionsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.hybridnetwork.fluent.NetworkFunctionsClient?alt=com.azure.resourcemanager.hybridnetwork.fluent.NetworkFunctionsClient&text=NetworkFunctionsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.hybridnetwork.fluent.HybridNetworkManagementClient.getOperations()"
   fullName: "com.azure.resourcemanager.hybridnetwork.fluent.HybridNetworkManagementClient.getOperations()"
   name: "getOperations()"
@@ -150,18 +150,6 @@ methods:
   returns:
     description: "the VendorNetworkFunctionsClient object."
     type: "<xref href=\"com.azure.resourcemanager.hybridnetwork.fluent.VendorNetworkFunctionsClient?alt=com.azure.resourcemanager.hybridnetwork.fluent.VendorNetworkFunctionsClient&text=VendorNetworkFunctionsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.hybridnetwork.fluent.HybridNetworkManagementClient.getVendors()"
-  fullName: "com.azure.resourcemanager.hybridnetwork.fluent.HybridNetworkManagementClient.getVendors()"
-  name: "getVendors()"
-  nameWithType: "HybridNetworkManagementClient.getVendors()"
-  summary: "Gets the Vendors<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract VendorsClient getVendors()"
-  desc: "Gets the VendorsClient object to access its operations."
-  returns:
-    description: "the VendorsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.hybridnetwork.fluent.VendorsClient?alt=com.azure.resourcemanager.hybridnetwork.fluent.VendorsClient&text=VendorsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.hybridnetwork.fluent.HybridNetworkManagementClient.getVendorSkuPreviews()"
   fullName: "com.azure.resourcemanager.hybridnetwork.fluent.HybridNetworkManagementClient.getVendorSkuPreviews()"
   name: "getVendorSkuPreviews()"
@@ -186,6 +174,18 @@ methods:
   returns:
     description: "the VendorSkusClient object."
     type: "<xref href=\"com.azure.resourcemanager.hybridnetwork.fluent.VendorSkusClient?alt=com.azure.resourcemanager.hybridnetwork.fluent.VendorSkusClient&text=VendorSkusClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.hybridnetwork.fluent.HybridNetworkManagementClient.getVendors()"
+  fullName: "com.azure.resourcemanager.hybridnetwork.fluent.HybridNetworkManagementClient.getVendors()"
+  name: "getVendors()"
+  nameWithType: "HybridNetworkManagementClient.getVendors()"
+  summary: "Gets the Vendors<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract VendorsClient getVendors()"
+  desc: "Gets the VendorsClient object to access its operations."
+  returns:
+    description: "the VendorsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.hybridnetwork.fluent.VendorsClient?alt=com.azure.resourcemanager.hybridnetwork.fluent.VendorsClient&text=VendorsClient\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 desc: "The interface for HybridNetworkManagementClient class."
 metadata: {}

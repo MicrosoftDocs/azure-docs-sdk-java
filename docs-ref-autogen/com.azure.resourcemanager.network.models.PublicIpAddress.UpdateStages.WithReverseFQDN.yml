@@ -6,18 +6,6 @@ nameWithType: "PublicIpAddress.UpdateStages.WithReverseFQDN"
 summary: "A public IP address update allowing the reverse FQDN to be changed."
 syntax: "public static interface **PublicIpAddress.UpdateStages.WithReverseFQDN**"
 methods:
-- uid: "com.azure.resourcemanager.network.models.PublicIpAddress.UpdateStages.WithReverseFQDN.withoutReverseFqdn()"
-  fullName: "com.azure.resourcemanager.network.models.PublicIpAddress.UpdateStages.WithReverseFQDN.withoutReverseFqdn()"
-  name: "withoutReverseFqdn()"
-  nameWithType: "PublicIpAddress.UpdateStages.WithReverseFQDN.withoutReverseFqdn()"
-  summary: "Ensures that no reverse FQDN will be used."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract PublicIpAddress.Update withoutReverseFqdn()"
-  desc: "Ensures that no reverse FQDN will be used."
-  returns:
-    description: "The next stage of the resource update"
-    type: "<xref href=\"com.azure.resourcemanager.network.models.PublicIpAddress.Update?alt=com.azure.resourcemanager.network.models.PublicIpAddress.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.models.PublicIpAddress.UpdateStages.WithReverseFQDN.withReverseFqdn(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.PublicIpAddress.UpdateStages.WithReverseFQDN.withReverseFqdn(String reverseFQDN)"
   name: "withReverseFqdn(String reverseFQDN)"
@@ -33,6 +21,18 @@ methods:
   desc: "Specifies the reverse FQDN to assign to this public IP address."
   returns:
     description: "the next stage of the resource update"
+    type: "<xref href=\"com.azure.resourcemanager.network.models.PublicIpAddress.Update?alt=com.azure.resourcemanager.network.models.PublicIpAddress.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.models.PublicIpAddress.UpdateStages.WithReverseFQDN.withoutReverseFqdn()"
+  fullName: "com.azure.resourcemanager.network.models.PublicIpAddress.UpdateStages.WithReverseFQDN.withoutReverseFqdn()"
+  name: "withoutReverseFqdn()"
+  nameWithType: "PublicIpAddress.UpdateStages.WithReverseFQDN.withoutReverseFqdn()"
+  summary: "Ensures that no reverse FQDN will be used."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract PublicIpAddress.Update withoutReverseFqdn()"
+  desc: "Ensures that no reverse FQDN will be used."
+  returns:
+    description: "The next stage of the resource update"
     type: "<xref href=\"com.azure.resourcemanager.network.models.PublicIpAddress.Update?alt=com.azure.resourcemanager.network.models.PublicIpAddress.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 desc: "A public IP address update allowing the reverse FQDN to be changed."

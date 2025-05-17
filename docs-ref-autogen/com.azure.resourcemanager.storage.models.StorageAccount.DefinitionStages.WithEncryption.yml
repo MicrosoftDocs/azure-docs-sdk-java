@@ -118,6 +118,30 @@ methods:
   returns:
     description: "the next stage of storage account definition"
     type: "<xref href=\"com.azure.resourcemanager.storage.models.StorageAccount.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.storage.models.StorageAccount.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.storage.models.StorageAccount.DefinitionStages.WithEncryption.withQueueAccountScopedEncryptionKey()"
+  fullName: "com.azure.resourcemanager.storage.models.StorageAccount.DefinitionStages.WithEncryption.withQueueAccountScopedEncryptionKey()"
+  name: "withQueueAccountScopedEncryptionKey()"
+  nameWithType: "StorageAccount.DefinitionStages.WithEncryption.withQueueAccountScopedEncryptionKey()"
+  summary: "Specifies that queue service uses an encryption key that is scoped to the account."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract StorageAccount.DefinitionStages.WithCreate withQueueAccountScopedEncryptionKey()"
+  desc: "Specifies that queue service uses an encryption key that is scoped to the account. Customer-managed key can then be enabled for queue service. Refer to <xref uid=\"\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Update#withEncryptionKeyFromKeyVault(String, String, String)\"></xref> to enable customer-managed key."
+  returns:
+    description: "the next stage of storage account definition"
+    type: "<xref href=\"com.azure.resourcemanager.storage.models.StorageAccount.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.storage.models.StorageAccount.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.storage.models.StorageAccount.DefinitionStages.WithEncryption.withTableAccountScopedEncryptionKey()"
+  fullName: "com.azure.resourcemanager.storage.models.StorageAccount.DefinitionStages.WithEncryption.withTableAccountScopedEncryptionKey()"
+  name: "withTableAccountScopedEncryptionKey()"
+  nameWithType: "StorageAccount.DefinitionStages.WithEncryption.withTableAccountScopedEncryptionKey()"
+  summary: "Specifies that table service uses an encryption key that is scoped to the account."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract StorageAccount.DefinitionStages.WithCreate withTableAccountScopedEncryptionKey()"
+  desc: "Specifies that table service uses an encryption key that is scoped to the account. Customer-managed key can then be enabled for table service. Refer to <xref uid=\"\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Update#withEncryptionKeyFromKeyVault(String, String, String)\"></xref> to enable customer-managed key."
+  returns:
+    description: "the next stage of storage account definition"
+    type: "<xref href=\"com.azure.resourcemanager.storage.models.StorageAccount.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.storage.models.StorageAccount.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.storage.models.StorageAccount.DefinitionStages.WithEncryption.withoutBlobEncryption()"
   fullName: "com.azure.resourcemanager.storage.models.StorageAccount.DefinitionStages.WithEncryption.withoutBlobEncryption()"
   name: "withoutBlobEncryption()"
@@ -145,30 +169,6 @@ methods:
   hasDeprecatedTag: true
   returns:
     description: "he next stage of storage account definition"
-    type: "<xref href=\"com.azure.resourcemanager.storage.models.StorageAccount.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.storage.models.StorageAccount.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.storage.models.StorageAccount.DefinitionStages.WithEncryption.withQueueAccountScopedEncryptionKey()"
-  fullName: "com.azure.resourcemanager.storage.models.StorageAccount.DefinitionStages.WithEncryption.withQueueAccountScopedEncryptionKey()"
-  name: "withQueueAccountScopedEncryptionKey()"
-  nameWithType: "StorageAccount.DefinitionStages.WithEncryption.withQueueAccountScopedEncryptionKey()"
-  summary: "Specifies that queue service uses an encryption key that is scoped to the account."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract StorageAccount.DefinitionStages.WithCreate withQueueAccountScopedEncryptionKey()"
-  desc: "Specifies that queue service uses an encryption key that is scoped to the account. Customer-managed key can then be enabled for queue service. Refer to <xref uid=\"\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Update#withEncryptionKeyFromKeyVault(String, String, String)\"></xref> to enable customer-managed key."
-  returns:
-    description: "the next stage of storage account definition"
-    type: "<xref href=\"com.azure.resourcemanager.storage.models.StorageAccount.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.storage.models.StorageAccount.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.storage.models.StorageAccount.DefinitionStages.WithEncryption.withTableAccountScopedEncryptionKey()"
-  fullName: "com.azure.resourcemanager.storage.models.StorageAccount.DefinitionStages.WithEncryption.withTableAccountScopedEncryptionKey()"
-  name: "withTableAccountScopedEncryptionKey()"
-  nameWithType: "StorageAccount.DefinitionStages.WithEncryption.withTableAccountScopedEncryptionKey()"
-  summary: "Specifies that table service uses an encryption key that is scoped to the account."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract StorageAccount.DefinitionStages.WithCreate withTableAccountScopedEncryptionKey()"
-  desc: "Specifies that table service uses an encryption key that is scoped to the account. Customer-managed key can then be enabled for table service. Refer to <xref uid=\"\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Update#withEncryptionKeyFromKeyVault(String, String, String)\"></xref> to enable customer-managed key."
-  returns:
-    description: "the next stage of storage account definition"
     type: "<xref href=\"com.azure.resourcemanager.storage.models.StorageAccount.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.storage.models.StorageAccount.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 desc: "The stage of a storage account definition allowing to specify encryption settings."

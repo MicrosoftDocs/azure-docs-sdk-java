@@ -684,6 +684,22 @@ methods:
   returns:
     description: "the observable to the PagedList&lt;Certificate&gt; object"
     type: "<xref href=\"rx.Observable?alt=rx.Observable&text=Observable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.Page?alt=com.microsoft.azure.Page&text=Page\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.batch.protocol.models.Certificate?alt=com.microsoft.azure.batch.protocol.models.Certificate&text=Certificate\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
+- uid: "com.microsoft.azure.batch.protocol.Certificates.listAsync(com.microsoft.azure.ListOperationCallback<com.microsoft.azure.batch.protocol.models.Certificate>)"
+  fullName: "com.microsoft.azure.batch.protocol.Certificates.listAsync(ListOperationCallback<Certificate> serviceCallback)"
+  name: "listAsync(ListOperationCallback<Certificate> serviceCallback)"
+  nameWithType: "Certificates.listAsync(ListOperationCallback<Certificate> serviceCallback)"
+  summary: "Lists all of the Certificates that have been added to the specified Account."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "the async ServiceCallback to handle successful and failed responses."
+    name: "serviceCallback"
+    type: "<xref href=\"com.microsoft.azure.ListOperationCallback?alt=com.microsoft.azure.ListOperationCallback&text=ListOperationCallback\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.batch.protocol.models.Certificate?alt=com.microsoft.azure.batch.protocol.models.Certificate&text=Certificate\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public abstract ServiceFuture<List<Certificate>> listAsync(ListOperationCallback<Certificate> serviceCallback)"
+  desc: "Lists all of the Certificates that have been added to the specified Account. Warning: This operation is deprecated and will be removed after February, 2024. Please use the \\[Azure KeyVault Extension\\](https://learn.microsoft.com/azure/batch/batch-certificate-migration-guide) instead."
+  returns:
+    description: "the <xref uid=\"com.microsoft.rest.ServiceFuture\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ServiceFuture\"></xref> object"
+    type: "<xref href=\"com.microsoft.rest.ServiceFuture?alt=com.microsoft.rest.ServiceFuture&text=ServiceFuture\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.microsoft.azure.batch.protocol.models.Certificate?alt=com.microsoft.azure.batch.protocol.models.Certificate&text=Certificate\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
 - uid: "com.microsoft.azure.batch.protocol.Certificates.listAsync(com.microsoft.azure.batch.protocol.models.CertificateListOptions)"
   fullName: "com.microsoft.azure.batch.protocol.Certificates.listAsync(CertificateListOptions certificateListOptions)"
   name: "listAsync(CertificateListOptions certificateListOptions)"
@@ -715,22 +731,6 @@ methods:
     name: "serviceCallback"
     type: "<xref href=\"com.microsoft.azure.ListOperationCallback?alt=com.microsoft.azure.ListOperationCallback&text=ListOperationCallback\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.batch.protocol.models.Certificate?alt=com.microsoft.azure.batch.protocol.models.Certificate&text=Certificate\" data-throw-if-not-resolved=\"False\" />&gt;"
   syntax: "public abstract ServiceFuture<List<Certificate>> listAsync(CertificateListOptions certificateListOptions, ListOperationCallback<Certificate> serviceCallback)"
-  desc: "Lists all of the Certificates that have been added to the specified Account. Warning: This operation is deprecated and will be removed after February, 2024. Please use the \\[Azure KeyVault Extension\\](https://learn.microsoft.com/azure/batch/batch-certificate-migration-guide) instead."
-  returns:
-    description: "the <xref uid=\"com.microsoft.rest.ServiceFuture\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ServiceFuture\"></xref> object"
-    type: "<xref href=\"com.microsoft.rest.ServiceFuture?alt=com.microsoft.rest.ServiceFuture&text=ServiceFuture\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.microsoft.azure.batch.protocol.models.Certificate?alt=com.microsoft.azure.batch.protocol.models.Certificate&text=Certificate\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
-- uid: "com.microsoft.azure.batch.protocol.Certificates.listAsync(com.microsoft.azure.ListOperationCallback<com.microsoft.azure.batch.protocol.models.Certificate>)"
-  fullName: "com.microsoft.azure.batch.protocol.Certificates.listAsync(ListOperationCallback<Certificate> serviceCallback)"
-  name: "listAsync(ListOperationCallback<Certificate> serviceCallback)"
-  nameWithType: "Certificates.listAsync(ListOperationCallback<Certificate> serviceCallback)"
-  summary: "Lists all of the Certificates that have been added to the specified Account."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "the async ServiceCallback to handle successful and failed responses."
-    name: "serviceCallback"
-    type: "<xref href=\"com.microsoft.azure.ListOperationCallback?alt=com.microsoft.azure.ListOperationCallback&text=ListOperationCallback\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.batch.protocol.models.Certificate?alt=com.microsoft.azure.batch.protocol.models.Certificate&text=Certificate\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public abstract ServiceFuture<List<Certificate>> listAsync(ListOperationCallback<Certificate> serviceCallback)"
   desc: "Lists all of the Certificates that have been added to the specified Account. Warning: This operation is deprecated and will be removed after February, 2024. Please use the \\[Azure KeyVault Extension\\](https://learn.microsoft.com/azure/batch/batch-certificate-migration-guide) instead."
   returns:
     description: "the <xref uid=\"com.microsoft.rest.ServiceFuture\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ServiceFuture\"></xref> object"

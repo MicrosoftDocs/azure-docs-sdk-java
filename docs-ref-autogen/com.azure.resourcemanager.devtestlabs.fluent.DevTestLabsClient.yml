@@ -30,18 +30,6 @@ methods:
   returns:
     description: "the ArmTemplatesClient object."
     type: "<xref href=\"com.azure.resourcemanager.devtestlabs.fluent.ArmTemplatesClient?alt=com.azure.resourcemanager.devtestlabs.fluent.ArmTemplatesClient&text=ArmTemplatesClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.devtestlabs.fluent.DevTestLabsClient.getArtifacts()"
-  fullName: "com.azure.resourcemanager.devtestlabs.fluent.DevTestLabsClient.getArtifacts()"
-  name: "getArtifacts()"
-  nameWithType: "DevTestLabsClient.getArtifacts()"
-  summary: "Gets the Artifacts<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract ArtifactsClient getArtifacts()"
-  desc: "Gets the ArtifactsClient object to access its operations."
-  returns:
-    description: "the ArtifactsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.devtestlabs.fluent.ArtifactsClient?alt=com.azure.resourcemanager.devtestlabs.fluent.ArtifactsClient&text=ArtifactsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.devtestlabs.fluent.DevTestLabsClient.getArtifactSources()"
   fullName: "com.azure.resourcemanager.devtestlabs.fluent.DevTestLabsClient.getArtifactSources()"
   name: "getArtifactSources()"
@@ -54,6 +42,18 @@ methods:
   returns:
     description: "the ArtifactSourcesClient object."
     type: "<xref href=\"com.azure.resourcemanager.devtestlabs.fluent.ArtifactSourcesClient?alt=com.azure.resourcemanager.devtestlabs.fluent.ArtifactSourcesClient&text=ArtifactSourcesClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.devtestlabs.fluent.DevTestLabsClient.getArtifacts()"
+  fullName: "com.azure.resourcemanager.devtestlabs.fluent.DevTestLabsClient.getArtifacts()"
+  name: "getArtifacts()"
+  nameWithType: "DevTestLabsClient.getArtifacts()"
+  summary: "Gets the Artifacts<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ArtifactsClient getArtifacts()"
+  desc: "Gets the ArtifactsClient object to access its operations."
+  returns:
+    description: "the ArtifactsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.devtestlabs.fluent.ArtifactsClient?alt=com.azure.resourcemanager.devtestlabs.fluent.ArtifactsClient&text=ArtifactsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.devtestlabs.fluent.DevTestLabsClient.getCosts()"
   fullName: "com.azure.resourcemanager.devtestlabs.fluent.DevTestLabsClient.getCosts()"
   name: "getCosts()"
@@ -270,18 +270,6 @@ methods:
   returns:
     description: "the SecretsClient object."
     type: "<xref href=\"com.azure.resourcemanager.devtestlabs.fluent.SecretsClient?alt=com.azure.resourcemanager.devtestlabs.fluent.SecretsClient&text=SecretsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.devtestlabs.fluent.DevTestLabsClient.getServiceFabrics()"
-  fullName: "com.azure.resourcemanager.devtestlabs.fluent.DevTestLabsClient.getServiceFabrics()"
-  name: "getServiceFabrics()"
-  nameWithType: "DevTestLabsClient.getServiceFabrics()"
-  summary: "Gets the Service<wbr>Fabrics<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract ServiceFabricsClient getServiceFabrics()"
-  desc: "Gets the ServiceFabricsClient object to access its operations."
-  returns:
-    description: "the ServiceFabricsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.devtestlabs.fluent.ServiceFabricsClient?alt=com.azure.resourcemanager.devtestlabs.fluent.ServiceFabricsClient&text=ServiceFabricsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.devtestlabs.fluent.DevTestLabsClient.getServiceFabricSchedules()"
   fullName: "com.azure.resourcemanager.devtestlabs.fluent.DevTestLabsClient.getServiceFabricSchedules()"
   name: "getServiceFabricSchedules()"
@@ -294,6 +282,18 @@ methods:
   returns:
     description: "the ServiceFabricSchedulesClient object."
     type: "<xref href=\"com.azure.resourcemanager.devtestlabs.fluent.ServiceFabricSchedulesClient?alt=com.azure.resourcemanager.devtestlabs.fluent.ServiceFabricSchedulesClient&text=ServiceFabricSchedulesClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.devtestlabs.fluent.DevTestLabsClient.getServiceFabrics()"
+  fullName: "com.azure.resourcemanager.devtestlabs.fluent.DevTestLabsClient.getServiceFabrics()"
+  name: "getServiceFabrics()"
+  nameWithType: "DevTestLabsClient.getServiceFabrics()"
+  summary: "Gets the Service<wbr>Fabrics<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ServiceFabricsClient getServiceFabrics()"
+  desc: "Gets the ServiceFabricsClient object to access its operations."
+  returns:
+    description: "the ServiceFabricsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.devtestlabs.fluent.ServiceFabricsClient?alt=com.azure.resourcemanager.devtestlabs.fluent.ServiceFabricsClient&text=ServiceFabricsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.devtestlabs.fluent.DevTestLabsClient.getServiceRunners()"
   fullName: "com.azure.resourcemanager.devtestlabs.fluent.DevTestLabsClient.getServiceRunners()"
   name: "getServiceRunners()"
@@ -330,18 +330,6 @@ methods:
   returns:
     description: "the UsersClient object."
     type: "<xref href=\"com.azure.resourcemanager.devtestlabs.fluent.UsersClient?alt=com.azure.resourcemanager.devtestlabs.fluent.UsersClient&text=UsersClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.devtestlabs.fluent.DevTestLabsClient.getVirtualMachines()"
-  fullName: "com.azure.resourcemanager.devtestlabs.fluent.DevTestLabsClient.getVirtualMachines()"
-  name: "getVirtualMachines()"
-  nameWithType: "DevTestLabsClient.getVirtualMachines()"
-  summary: "Gets the Virtual<wbr>Machines<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract VirtualMachinesClient getVirtualMachines()"
-  desc: "Gets the VirtualMachinesClient object to access its operations."
-  returns:
-    description: "the VirtualMachinesClient object."
-    type: "<xref href=\"com.azure.resourcemanager.devtestlabs.fluent.VirtualMachinesClient?alt=com.azure.resourcemanager.devtestlabs.fluent.VirtualMachinesClient&text=VirtualMachinesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.devtestlabs.fluent.DevTestLabsClient.getVirtualMachineSchedules()"
   fullName: "com.azure.resourcemanager.devtestlabs.fluent.DevTestLabsClient.getVirtualMachineSchedules()"
   name: "getVirtualMachineSchedules()"
@@ -354,6 +342,18 @@ methods:
   returns:
     description: "the VirtualMachineSchedulesClient object."
     type: "<xref href=\"com.azure.resourcemanager.devtestlabs.fluent.VirtualMachineSchedulesClient?alt=com.azure.resourcemanager.devtestlabs.fluent.VirtualMachineSchedulesClient&text=VirtualMachineSchedulesClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.devtestlabs.fluent.DevTestLabsClient.getVirtualMachines()"
+  fullName: "com.azure.resourcemanager.devtestlabs.fluent.DevTestLabsClient.getVirtualMachines()"
+  name: "getVirtualMachines()"
+  nameWithType: "DevTestLabsClient.getVirtualMachines()"
+  summary: "Gets the Virtual<wbr>Machines<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract VirtualMachinesClient getVirtualMachines()"
+  desc: "Gets the VirtualMachinesClient object to access its operations."
+  returns:
+    description: "the VirtualMachinesClient object."
+    type: "<xref href=\"com.azure.resourcemanager.devtestlabs.fluent.VirtualMachinesClient?alt=com.azure.resourcemanager.devtestlabs.fluent.VirtualMachinesClient&text=VirtualMachinesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.devtestlabs.fluent.DevTestLabsClient.getVirtualNetworks()"
   fullName: "com.azure.resourcemanager.devtestlabs.fluent.DevTestLabsClient.getVirtualNetworks()"
   name: "getVirtualNetworks()"

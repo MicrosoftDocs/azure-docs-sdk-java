@@ -32,25 +32,6 @@ methods:
   returns:
     description: "Resource collection API of AgentPools."
     type: "<xref href=\"com.azure.resourcemanager.hybridcontainerservice.models.AgentPools?alt=com.azure.resourcemanager.hybridcontainerservice.models.AgentPools&text=AgentPools\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.hybridcontainerservice.HybridContainerServiceManager.authenticate(com.azure.core.http.HttpPipeline,com.azure.core.management.profile.AzureProfile)"
-  fullName: "com.azure.resourcemanager.hybridcontainerservice.HybridContainerServiceManager.authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
-  name: "authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
-  nameWithType: "HybridContainerServiceManager.authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
-  summary: "Creates an instance of Hybrid<wbr>Container<wbr>Service service API entry point."
-  modifiers:
-  - "static"
-  parameters:
-  - description: "the <xref uid=\"com.azure.core.http.HttpPipeline\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HttpPipeline\"></xref> configured with Azure authentication credential."
-    name: "httpPipeline"
-    type: "<xref href=\"com.azure.core.http.HttpPipeline?alt=com.azure.core.http.HttpPipeline&text=HttpPipeline\" data-throw-if-not-resolved=\"False\" />"
-  - description: "the Azure profile for client."
-    name: "profile"
-    type: "<xref href=\"com.azure.core.management.profile.AzureProfile?alt=com.azure.core.management.profile.AzureProfile&text=AzureProfile\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static HybridContainerServiceManager authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
-  desc: "Creates an instance of HybridContainerService service API entry point."
-  returns:
-    description: "the HybridContainerService service API instance."
-    type: "<xref href=\"com.azure.resourcemanager.hybridcontainerservice.HybridContainerServiceManager?alt=com.azure.resourcemanager.hybridcontainerservice.HybridContainerServiceManager&text=HybridContainerServiceManager\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.hybridcontainerservice.HybridContainerServiceManager.authenticate(com.azure.core.credential.TokenCredential,com.azure.core.management.profile.AzureProfile)"
   fullName: "com.azure.resourcemanager.hybridcontainerservice.HybridContainerServiceManager.authenticate(TokenCredential credential, AzureProfile profile)"
   name: "authenticate(TokenCredential credential, AzureProfile profile)"
@@ -66,6 +47,25 @@ methods:
     name: "profile"
     type: "<xref href=\"com.azure.core.management.profile.AzureProfile?alt=com.azure.core.management.profile.AzureProfile&text=AzureProfile\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static HybridContainerServiceManager authenticate(TokenCredential credential, AzureProfile profile)"
+  desc: "Creates an instance of HybridContainerService service API entry point."
+  returns:
+    description: "the HybridContainerService service API instance."
+    type: "<xref href=\"com.azure.resourcemanager.hybridcontainerservice.HybridContainerServiceManager?alt=com.azure.resourcemanager.hybridcontainerservice.HybridContainerServiceManager&text=HybridContainerServiceManager\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.hybridcontainerservice.HybridContainerServiceManager.authenticate(com.azure.core.http.HttpPipeline,com.azure.core.management.profile.AzureProfile)"
+  fullName: "com.azure.resourcemanager.hybridcontainerservice.HybridContainerServiceManager.authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
+  name: "authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
+  nameWithType: "HybridContainerServiceManager.authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
+  summary: "Creates an instance of Hybrid<wbr>Container<wbr>Service service API entry point."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "the <xref uid=\"com.azure.core.http.HttpPipeline\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HttpPipeline\"></xref> configured with Azure authentication credential."
+    name: "httpPipeline"
+    type: "<xref href=\"com.azure.core.http.HttpPipeline?alt=com.azure.core.http.HttpPipeline&text=HttpPipeline\" data-throw-if-not-resolved=\"False\" />"
+  - description: "the Azure profile for client."
+    name: "profile"
+    type: "<xref href=\"com.azure.core.management.profile.AzureProfile?alt=com.azure.core.management.profile.AzureProfile&text=AzureProfile\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static HybridContainerServiceManager authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
   desc: "Creates an instance of HybridContainerService service API entry point."
   returns:
     description: "the HybridContainerService service API instance."
@@ -142,16 +142,6 @@ methods:
   returns:
     description: "Wrapped service client HybridContainerService."
     type: "<xref href=\"com.azure.resourcemanager.hybridcontainerservice.fluent.HybridContainerService?alt=com.azure.resourcemanager.hybridcontainerservice.fluent.HybridContainerService&text=HybridContainerService\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.hybridcontainerservice.HybridContainerServiceManager.virtualNetworks()"
-  fullName: "com.azure.resourcemanager.hybridcontainerservice.HybridContainerServiceManager.virtualNetworks()"
-  name: "virtualNetworks()"
-  nameWithType: "HybridContainerServiceManager.virtualNetworks()"
-  summary: "Gets the resource collection API of Virtual<wbr>Networks."
-  syntax: "public VirtualNetworks virtualNetworks()"
-  desc: "Gets the resource collection API of VirtualNetworks. It manages VirtualNetwork."
-  returns:
-    description: "Resource collection API of VirtualNetworks."
-    type: "<xref href=\"com.azure.resourcemanager.hybridcontainerservice.models.VirtualNetworks?alt=com.azure.resourcemanager.hybridcontainerservice.models.VirtualNetworks&text=VirtualNetworks\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.hybridcontainerservice.HybridContainerServiceManager.vMSkus()"
   fullName: "com.azure.resourcemanager.hybridcontainerservice.HybridContainerServiceManager.vMSkus()"
   name: "vMSkus()"
@@ -162,6 +152,16 @@ methods:
   returns:
     description: "Resource collection API of VMSkus."
     type: "<xref href=\"com.azure.resourcemanager.hybridcontainerservice.models.VMSkus?alt=com.azure.resourcemanager.hybridcontainerservice.models.VMSkus&text=VMSkus\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.hybridcontainerservice.HybridContainerServiceManager.virtualNetworks()"
+  fullName: "com.azure.resourcemanager.hybridcontainerservice.HybridContainerServiceManager.virtualNetworks()"
+  name: "virtualNetworks()"
+  nameWithType: "HybridContainerServiceManager.virtualNetworks()"
+  summary: "Gets the resource collection API of Virtual<wbr>Networks."
+  syntax: "public VirtualNetworks virtualNetworks()"
+  desc: "Gets the resource collection API of VirtualNetworks. It manages VirtualNetwork."
+  returns:
+    description: "Resource collection API of VirtualNetworks."
+    type: "<xref href=\"com.azure.resourcemanager.hybridcontainerservice.models.VirtualNetworks?alt=com.azure.resourcemanager.hybridcontainerservice.models.VirtualNetworks&text=VirtualNetworks\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Entry point to HybridContainerServiceManager. The Microsoft.HybridContainerService Rest API spec."
 metadata: {}

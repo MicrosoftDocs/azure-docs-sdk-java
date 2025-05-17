@@ -6,22 +6,6 @@ nameWithType: "VirtualMachineCustomImage.DefinitionStages.WithSourceVirtualMachi
 summary: "The stage of the image definition allowing to choose source virtual machine."
 syntax: "public static interface **VirtualMachineCustomImage.DefinitionStages.WithSourceVirtualMachine**"
 methods:
-- uid: "com.azure.resourcemanager.compute.models.VirtualMachineCustomImage.DefinitionStages.WithSourceVirtualMachine.fromVirtualMachine(java.lang.String)"
-  fullName: "com.azure.resourcemanager.compute.models.VirtualMachineCustomImage.DefinitionStages.WithSourceVirtualMachine.fromVirtualMachine(String virtualMachineId)"
-  name: "fromVirtualMachine(String virtualMachineId)"
-  nameWithType: "VirtualMachineCustomImage.DefinitionStages.WithSourceVirtualMachine.fromVirtualMachine(String virtualMachineId)"
-  summary: "Uses the virtual machine's OS disk and data disks as the source for OS disk image and data disk images of this image."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "source virtual machine resource ID"
-    name: "virtualMachineId"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public abstract VirtualMachineCustomImage.DefinitionStages.WithCreate fromVirtualMachine(String virtualMachineId)"
-  desc: "Uses the virtual machine's OS disk and data disks as the source for OS disk image and data disk images of this image."
-  returns:
-    description: "the next stage of the definition"
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachineCustomImage.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.compute.models.VirtualMachineCustomImage.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.models.VirtualMachineCustomImage.DefinitionStages.WithSourceVirtualMachine.fromVirtualMachine(com.azure.resourcemanager.compute.models.VirtualMachine)"
   fullName: "com.azure.resourcemanager.compute.models.VirtualMachineCustomImage.DefinitionStages.WithSourceVirtualMachine.fromVirtualMachine(VirtualMachine virtualMachine)"
   name: "fromVirtualMachine(VirtualMachine virtualMachine)"
@@ -35,6 +19,22 @@ methods:
     type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachine?alt=com.azure.resourcemanager.compute.models.VirtualMachine&text=VirtualMachine\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract VirtualMachineCustomImage.DefinitionStages.WithCreate fromVirtualMachine(VirtualMachine virtualMachine)"
   desc: "Uses the virtual machine's OS and data disks as the sources for OS disk image and data disk images of this image."
+  returns:
+    description: "the next stage of the definition"
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachineCustomImage.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.compute.models.VirtualMachineCustomImage.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.VirtualMachineCustomImage.DefinitionStages.WithSourceVirtualMachine.fromVirtualMachine(java.lang.String)"
+  fullName: "com.azure.resourcemanager.compute.models.VirtualMachineCustomImage.DefinitionStages.WithSourceVirtualMachine.fromVirtualMachine(String virtualMachineId)"
+  name: "fromVirtualMachine(String virtualMachineId)"
+  nameWithType: "VirtualMachineCustomImage.DefinitionStages.WithSourceVirtualMachine.fromVirtualMachine(String virtualMachineId)"
+  summary: "Uses the virtual machine's OS disk and data disks as the source for OS disk image and data disk images of this image."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "source virtual machine resource ID"
+    name: "virtualMachineId"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract VirtualMachineCustomImage.DefinitionStages.WithCreate fromVirtualMachine(String virtualMachineId)"
+  desc: "Uses the virtual machine's OS disk and data disks as the source for OS disk image and data disk images of this image."
   returns:
     description: "the next stage of the definition"
     type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachineCustomImage.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.compute.models.VirtualMachineCustomImage.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"

@@ -63,16 +63,6 @@ methods:
   returns:
     description: "the adminPhones value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.analytics.defender.easm.models.ObservedString?alt=com.azure.analytics.defender.easm.models.ObservedString&text=ObservedString\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.analytics.defender.easm.models.AsAsset.getAsn()"
-  fullName: "com.azure.analytics.defender.easm.models.AsAsset.getAsn()"
-  name: "getAsn()"
-  nameWithType: "AsAsset.getAsn()"
-  summary: "Get the asn property: The asn property."
-  syntax: "public Long getAsn()"
-  desc: "Get the asn property: The asn property."
-  returns:
-    description: "the asn value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Long.html\">Long</a>"
 - uid: "com.azure.analytics.defender.easm.models.AsAsset.getAsNames()"
   fullName: "com.azure.analytics.defender.easm.models.AsAsset.getAsNames()"
   name: "getAsNames()"
@@ -83,6 +73,16 @@ methods:
   returns:
     description: "the asNames value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.analytics.defender.easm.models.ObservedString?alt=com.azure.analytics.defender.easm.models.ObservedString&text=ObservedString\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.analytics.defender.easm.models.AsAsset.getAsn()"
+  fullName: "com.azure.analytics.defender.easm.models.AsAsset.getAsn()"
+  name: "getAsn()"
+  nameWithType: "AsAsset.getAsn()"
+  summary: "Get the asn property: The asn property."
+  syntax: "public Long getAsn()"
+  desc: "Get the asn property: The asn property."
+  returns:
+    description: "the asn value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Long.html\">Long</a>"
 - uid: "com.azure.analytics.defender.easm.models.AsAsset.getCount()"
   fullName: "com.azure.analytics.defender.easm.models.AsAsset.getCount()"
   name: "getCount()"

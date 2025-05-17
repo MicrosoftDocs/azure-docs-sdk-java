@@ -174,18 +174,6 @@ methods:
   returns:
     description: "whether infrastructure encryption for Azure Storage data is enabled."
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.storage.models.StorageAccount.ipAddressesWithAccess()"
-  fullName: "com.azure.resourcemanager.storage.models.StorageAccount.ipAddressesWithAccess()"
-  name: "ipAddressesWithAccess()"
-  nameWithType: "StorageAccount.ipAddressesWithAccess()"
-  summary: "Gets the list of ip addresses having access to the storage account."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract List<String> ipAddressesWithAccess()"
-  desc: "Gets the list of ip addresses having access to the storage account."
-  returns:
-    description: "the list of ip addresses having access to the storage account."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
 - uid: "com.azure.resourcemanager.storage.models.StorageAccount.ipAddressRangesWithAccess()"
   fullName: "com.azure.resourcemanager.storage.models.StorageAccount.ipAddressRangesWithAccess()"
   name: "ipAddressRangesWithAccess()"
@@ -197,6 +185,18 @@ methods:
   desc: "Gets the list of ip address ranges having access to the storage account."
   returns:
     description: "the list of ip address ranges having access to the storage account."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+- uid: "com.azure.resourcemanager.storage.models.StorageAccount.ipAddressesWithAccess()"
+  fullName: "com.azure.resourcemanager.storage.models.StorageAccount.ipAddressesWithAccess()"
+  name: "ipAddressesWithAccess()"
+  nameWithType: "StorageAccount.ipAddressesWithAccess()"
+  summary: "Gets the list of ip addresses having access to the storage account."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract List<String> ipAddressesWithAccess()"
+  desc: "Gets the list of ip addresses having access to the storage account."
+  returns:
+    description: "the list of ip addresses having access to the storage account."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
 - uid: "com.azure.resourcemanager.storage.models.StorageAccount.isAccessAllowedFromAllNetworks()"
   fullName: "com.azure.resourcemanager.storage.models.StorageAccount.isAccessAllowedFromAllNetworks()"

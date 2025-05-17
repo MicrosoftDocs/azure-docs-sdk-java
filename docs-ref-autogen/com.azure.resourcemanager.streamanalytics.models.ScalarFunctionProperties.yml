@@ -51,7 +51,7 @@ methods:
   summary: "Get the binding property: The physical binding of the function."
   overridden: "com.azure.resourcemanager.streamanalytics.models.FunctionProperties.binding()"
   syntax: "public FunctionBinding binding()"
-  desc: "Get the binding property: The physical binding of the function. For example, in the Azure Machine Learning web service’s case, this describes the endpoint."
+  desc: "Get the binding property: The physical binding of the function. For example, in the Azure Machine Learning web service\\\\u2019s case, this describes the endpoint."
   returns:
     description: "the binding value."
     type: "<xref href=\"com.azure.resourcemanager.streamanalytics.models.FunctionBinding?alt=com.azure.resourcemanager.streamanalytics.models.FunctionBinding&text=FunctionBinding\" data-throw-if-not-resolved=\"False\" />"
@@ -139,7 +139,7 @@ methods:
     name: "binding"
     type: "<xref href=\"com.azure.resourcemanager.streamanalytics.models.FunctionBinding?alt=com.azure.resourcemanager.streamanalytics.models.FunctionBinding&text=FunctionBinding\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public ScalarFunctionProperties withBinding(FunctionBinding binding)"
-  desc: "Set the binding property: The physical binding of the function. For example, in the Azure Machine Learning web service’s case, this describes the endpoint."
+  desc: "Set the binding property: The physical binding of the function. For example, in the Azure Machine Learning web service\\\\u2019s case, this describes the endpoint."
   returns:
     description: "the ScalarFunctionProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.streamanalytics.models.ScalarFunctionProperties?alt=com.azure.resourcemanager.streamanalytics.models.ScalarFunctionProperties&text=ScalarFunctionProperties\" data-throw-if-not-resolved=\"False\" />"

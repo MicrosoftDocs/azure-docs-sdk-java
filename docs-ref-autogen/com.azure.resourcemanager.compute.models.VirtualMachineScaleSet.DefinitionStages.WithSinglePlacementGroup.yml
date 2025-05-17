@@ -6,18 +6,6 @@ nameWithType: "VirtualMachineScaleSet.DefinitionStages.WithSinglePlacementGroup"
 summary: "The stage of the virtual machine scale set definition allowing to configure single placement group."
 syntax: "public static interface **VirtualMachineScaleSet.DefinitionStages.WithSinglePlacementGroup**"
 methods:
-- uid: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithSinglePlacementGroup.withoutSinglePlacementGroup()"
-  fullName: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithSinglePlacementGroup.withoutSinglePlacementGroup()"
-  name: "withoutSinglePlacementGroup()"
-  nameWithType: "VirtualMachineScaleSet.DefinitionStages.WithSinglePlacementGroup.withoutSinglePlacementGroup()"
-  summary: "Specify that single placement group should be disabled for the virtual machine scale set."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract VirtualMachineScaleSet.DefinitionStages.WithCreate withoutSinglePlacementGroup()"
-  desc: "Specify that single placement group should be disabled for the virtual machine scale set."
-  returns:
-    description: "the next stage of the definition"
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithSinglePlacementGroup.withSinglePlacementGroup()"
   fullName: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithSinglePlacementGroup.withSinglePlacementGroup()"
   name: "withSinglePlacementGroup()"
@@ -27,6 +15,18 @@ methods:
   - "abstract"
   syntax: "public abstract VirtualMachineScaleSet.DefinitionStages.WithCreate withSinglePlacementGroup()"
   desc: "Specify that single placement group should be enabled for the virtual machine scale set."
+  returns:
+    description: "the next stage of the definition"
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithSinglePlacementGroup.withoutSinglePlacementGroup()"
+  fullName: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithSinglePlacementGroup.withoutSinglePlacementGroup()"
+  name: "withoutSinglePlacementGroup()"
+  nameWithType: "VirtualMachineScaleSet.DefinitionStages.WithSinglePlacementGroup.withoutSinglePlacementGroup()"
+  summary: "Specify that single placement group should be disabled for the virtual machine scale set."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract VirtualMachineScaleSet.DefinitionStages.WithCreate withoutSinglePlacementGroup()"
+  desc: "Specify that single placement group should be disabled for the virtual machine scale set."
   returns:
     description: "the next stage of the definition"
     type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"

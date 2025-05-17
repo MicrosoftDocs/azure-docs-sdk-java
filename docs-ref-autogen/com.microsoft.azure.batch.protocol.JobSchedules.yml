@@ -898,6 +898,22 @@ methods:
   returns:
     description: "the observable to the PagedList&lt;CloudJobSchedule&gt; object"
     type: "<xref href=\"rx.Observable?alt=rx.Observable&text=Observable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.Page?alt=com.microsoft.azure.Page&text=Page\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.batch.protocol.models.CloudJobSchedule?alt=com.microsoft.azure.batch.protocol.models.CloudJobSchedule&text=CloudJobSchedule\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
+- uid: "com.microsoft.azure.batch.protocol.JobSchedules.listAsync(com.microsoft.azure.ListOperationCallback<com.microsoft.azure.batch.protocol.models.CloudJobSchedule>)"
+  fullName: "com.microsoft.azure.batch.protocol.JobSchedules.listAsync(ListOperationCallback<CloudJobSchedule> serviceCallback)"
+  name: "listAsync(ListOperationCallback<CloudJobSchedule> serviceCallback)"
+  nameWithType: "JobSchedules.listAsync(ListOperationCallback<CloudJobSchedule> serviceCallback)"
+  summary: "Lists all of the Job Schedules in the specified Account."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "the async ServiceCallback to handle successful and failed responses."
+    name: "serviceCallback"
+    type: "<xref href=\"com.microsoft.azure.ListOperationCallback?alt=com.microsoft.azure.ListOperationCallback&text=ListOperationCallback\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.batch.protocol.models.CloudJobSchedule?alt=com.microsoft.azure.batch.protocol.models.CloudJobSchedule&text=CloudJobSchedule\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public abstract ServiceFuture<List<CloudJobSchedule>> listAsync(ListOperationCallback<CloudJobSchedule> serviceCallback)"
+  desc: "Lists all of the Job Schedules in the specified Account."
+  returns:
+    description: "the <xref uid=\"com.microsoft.rest.ServiceFuture\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ServiceFuture\"></xref> object"
+    type: "<xref href=\"com.microsoft.rest.ServiceFuture?alt=com.microsoft.rest.ServiceFuture&text=ServiceFuture\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.microsoft.azure.batch.protocol.models.CloudJobSchedule?alt=com.microsoft.azure.batch.protocol.models.CloudJobSchedule&text=CloudJobSchedule\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
 - uid: "com.microsoft.azure.batch.protocol.JobSchedules.listAsync(com.microsoft.azure.batch.protocol.models.JobScheduleListOptions)"
   fullName: "com.microsoft.azure.batch.protocol.JobSchedules.listAsync(JobScheduleListOptions jobScheduleListOptions)"
   name: "listAsync(JobScheduleListOptions jobScheduleListOptions)"
@@ -929,22 +945,6 @@ methods:
     name: "serviceCallback"
     type: "<xref href=\"com.microsoft.azure.ListOperationCallback?alt=com.microsoft.azure.ListOperationCallback&text=ListOperationCallback\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.batch.protocol.models.CloudJobSchedule?alt=com.microsoft.azure.batch.protocol.models.CloudJobSchedule&text=CloudJobSchedule\" data-throw-if-not-resolved=\"False\" />&gt;"
   syntax: "public abstract ServiceFuture<List<CloudJobSchedule>> listAsync(JobScheduleListOptions jobScheduleListOptions, ListOperationCallback<CloudJobSchedule> serviceCallback)"
-  desc: "Lists all of the Job Schedules in the specified Account."
-  returns:
-    description: "the <xref uid=\"com.microsoft.rest.ServiceFuture\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ServiceFuture\"></xref> object"
-    type: "<xref href=\"com.microsoft.rest.ServiceFuture?alt=com.microsoft.rest.ServiceFuture&text=ServiceFuture\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.microsoft.azure.batch.protocol.models.CloudJobSchedule?alt=com.microsoft.azure.batch.protocol.models.CloudJobSchedule&text=CloudJobSchedule\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
-- uid: "com.microsoft.azure.batch.protocol.JobSchedules.listAsync(com.microsoft.azure.ListOperationCallback<com.microsoft.azure.batch.protocol.models.CloudJobSchedule>)"
-  fullName: "com.microsoft.azure.batch.protocol.JobSchedules.listAsync(ListOperationCallback<CloudJobSchedule> serviceCallback)"
-  name: "listAsync(ListOperationCallback<CloudJobSchedule> serviceCallback)"
-  nameWithType: "JobSchedules.listAsync(ListOperationCallback<CloudJobSchedule> serviceCallback)"
-  summary: "Lists all of the Job Schedules in the specified Account."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "the async ServiceCallback to handle successful and failed responses."
-    name: "serviceCallback"
-    type: "<xref href=\"com.microsoft.azure.ListOperationCallback?alt=com.microsoft.azure.ListOperationCallback&text=ListOperationCallback\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.batch.protocol.models.CloudJobSchedule?alt=com.microsoft.azure.batch.protocol.models.CloudJobSchedule&text=CloudJobSchedule\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public abstract ServiceFuture<List<CloudJobSchedule>> listAsync(ListOperationCallback<CloudJobSchedule> serviceCallback)"
   desc: "Lists all of the Job Schedules in the specified Account."
   returns:
     description: "the <xref uid=\"com.microsoft.rest.ServiceFuture\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ServiceFuture\"></xref> object"

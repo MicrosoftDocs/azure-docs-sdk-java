@@ -6,18 +6,6 @@ nameWithType: "SpringService.UpdateStages.WithTracing"
 summary: "The stage of a spring service update allowing to specify tracing with app insight."
 syntax: "public static interface **SpringService.UpdateStages.WithTracing**"
 methods:
-- uid: "com.azure.resourcemanager.appplatform.models.SpringService.UpdateStages.WithTracing.withoutTracing()"
-  fullName: "com.azure.resourcemanager.appplatform.models.SpringService.UpdateStages.WithTracing.withoutTracing()"
-  name: "withoutTracing()"
-  nameWithType: "SpringService.UpdateStages.WithTracing.withoutTracing()"
-  summary: "Removes tracing property."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract SpringService.Update withoutTracing()"
-  desc: "Removes tracing property."
-  returns:
-    description: "the next stage of spring service update"
-    type: "<xref href=\"com.azure.resourcemanager.appplatform.models.SpringService.Update?alt=com.azure.resourcemanager.appplatform.models.SpringService.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.appplatform.models.SpringService.UpdateStages.WithTracing.withTracing(java.lang.String)"
   fullName: "com.azure.resourcemanager.appplatform.models.SpringService.UpdateStages.WithTracing.withTracing(String appInsightInstrumentationKey)"
   name: "withTracing(String appInsightInstrumentationKey)"
@@ -31,6 +19,18 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract SpringService.Update withTracing(String appInsightInstrumentationKey)"
   desc: "Specifies tracing property with app insight."
+  returns:
+    description: "the next stage of spring service update"
+    type: "<xref href=\"com.azure.resourcemanager.appplatform.models.SpringService.Update?alt=com.azure.resourcemanager.appplatform.models.SpringService.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.appplatform.models.SpringService.UpdateStages.WithTracing.withoutTracing()"
+  fullName: "com.azure.resourcemanager.appplatform.models.SpringService.UpdateStages.WithTracing.withoutTracing()"
+  name: "withoutTracing()"
+  nameWithType: "SpringService.UpdateStages.WithTracing.withoutTracing()"
+  summary: "Removes tracing property."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract SpringService.Update withoutTracing()"
+  desc: "Removes tracing property."
   returns:
     description: "the next stage of spring service update"
     type: "<xref href=\"com.azure.resourcemanager.appplatform.models.SpringService.Update?alt=com.azure.resourcemanager.appplatform.models.SpringService.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"

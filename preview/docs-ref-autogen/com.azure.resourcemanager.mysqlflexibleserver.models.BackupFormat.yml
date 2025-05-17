@@ -92,7 +92,7 @@ methods:
     description: "known BackupFormat values."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.mysqlflexibleserver.models.BackupFormat?alt=com.azure.resourcemanager.mysqlflexibleserver.models.BackupFormat&text=BackupFormat\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "class"
-desc: "Backup Format for the current backup. (CollatedFormat is INTERNAL – DO NOT USE)."
+desc: "Backup Format for the current backup. (CollatedFormat is INTERNAL \\\\u2013 DO NOT USE)."
 metadata: {}
 package: "com.azure.resourcemanager.mysqlflexibleserver.models"
 artifact: com.azure.resourcemanager:azure-resourcemanager-mysqlflexibleserver:1.0.0-beta.6

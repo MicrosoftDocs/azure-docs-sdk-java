@@ -22,6 +22,25 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public abstract class **StreamingData**"
 methods:
+- uid: "com.azure.communication.callautomation.models.StreamingData.<T>parse(java.lang.String,java.lang.Class<T>)"
+  fullName: "com.azure.communication.callautomation.models.StreamingData.parse(String data, Class<T> type)"
+  name: "parse(String data, Class<T> type)"
+  nameWithType: "StreamingData.parse(String data, Class<T> type)"
+  summary: "Parses a base64 encoded string into a Streaming<wbr>Data object, which can be one of the following subtypes: Audio<wbr>Data, Audio<wbr>Metadata, Transcription<wbr>Data, or Transcription<wbr>Metadata."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The base64 string represents streaming data that will be converted into the appropriate subtype of StreamingData."
+    name: "data"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "type of the streamindata ex. AudioData, AudioMetadata, TranscriptionData, TranscriptionMetadata"
+    name: "type"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Class.html\">Class</a>&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public static T <T>parse(String data, Class<T> type)"
+  desc: "Parses a base64 encoded string into a StreamingData object, which can be one of the following subtypes: AudioData, AudioMetadata, TranscriptionData, or TranscriptionMetadata."
+  returns:
+    description: "Subtypes of StreamingData"
+    type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.communication.callautomation.models.StreamingData.getStreamingDataKind()"
   fullName: "com.azure.communication.callautomation.models.StreamingData.getStreamingDataKind()"
   name: "getStreamingDataKind()"
@@ -48,25 +67,6 @@ methods:
   returns:
     description: "StreamingData"
     type: "<xref href=\"com.azure.communication.callautomation.models.StreamingData?alt=com.azure.communication.callautomation.models.StreamingData&text=StreamingData\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.communication.callautomation.models.StreamingData.<T>parse(java.lang.String,java.lang.Class<T>)"
-  fullName: "com.azure.communication.callautomation.models.StreamingData.parse(String data, Class<T> type)"
-  name: "parse(String data, Class<T> type)"
-  nameWithType: "StreamingData.parse(String data, Class<T> type)"
-  summary: "Parses a base64 encoded string into a Streaming<wbr>Data object, which can be one of the following subtypes: Audio<wbr>Data, Audio<wbr>Metadata, Transcription<wbr>Data, or Transcription<wbr>Metadata."
-  modifiers:
-  - "static"
-  parameters:
-  - description: "The base64 string represents streaming data that will be converted into the appropriate subtype of StreamingData."
-    name: "data"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "type of the streamindata ex. AudioData, AudioMetadata, TranscriptionData, TranscriptionMetadata"
-    name: "type"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Class.html\">Class</a>&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public static T <T>parse(String data, Class<T> type)"
-  desc: "Parses a base64 encoded string into a StreamingData object, which can be one of the following subtypes: AudioData, AudioMetadata, TranscriptionData, or TranscriptionMetadata."
-  returns:
-    description: "Subtypes of StreamingData"
-    type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.communication.callautomation.models.StreamingData.setStreamingDataKind(com.azure.communication.callautomation.models.StreamingDataKind)"
   fullName: "com.azure.communication.callautomation.models.StreamingData.setStreamingDataKind(StreamingDataKind streamingDataKind)"
   name: "setStreamingDataKind(StreamingDataKind streamingDataKind)"

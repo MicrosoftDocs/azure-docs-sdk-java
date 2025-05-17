@@ -162,18 +162,6 @@ methods:
   returns:
     description: "the BackupResourceVaultConfigsClient object."
     type: "<xref href=\"com.azure.resourcemanager.recoveryservicesbackup.fluent.BackupResourceVaultConfigsClient?alt=com.azure.resourcemanager.recoveryservicesbackup.fluent.BackupResourceVaultConfigsClient&text=BackupResourceVaultConfigsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.recoveryservicesbackup.fluent.RecoveryServicesBackupClient.getBackups()"
-  fullName: "com.azure.resourcemanager.recoveryservicesbackup.fluent.RecoveryServicesBackupClient.getBackups()"
-  name: "getBackups()"
-  nameWithType: "RecoveryServicesBackupClient.getBackups()"
-  summary: "Gets the Backups<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract BackupsClient getBackups()"
-  desc: "Gets the BackupsClient object to access its operations."
-  returns:
-    description: "the BackupsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.recoveryservicesbackup.fluent.BackupsClient?alt=com.azure.resourcemanager.recoveryservicesbackup.fluent.BackupsClient&text=BackupsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.recoveryservicesbackup.fluent.RecoveryServicesBackupClient.getBackupStatus()"
   fullName: "com.azure.resourcemanager.recoveryservicesbackup.fluent.RecoveryServicesBackupClient.getBackupStatus()"
   name: "getBackupStatus()"
@@ -210,6 +198,18 @@ methods:
   returns:
     description: "the BackupWorkloadItemsClient object."
     type: "<xref href=\"com.azure.resourcemanager.recoveryservicesbackup.fluent.BackupWorkloadItemsClient?alt=com.azure.resourcemanager.recoveryservicesbackup.fluent.BackupWorkloadItemsClient&text=BackupWorkloadItemsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.recoveryservicesbackup.fluent.RecoveryServicesBackupClient.getBackups()"
+  fullName: "com.azure.resourcemanager.recoveryservicesbackup.fluent.RecoveryServicesBackupClient.getBackups()"
+  name: "getBackups()"
+  nameWithType: "RecoveryServicesBackupClient.getBackups()"
+  summary: "Gets the Backups<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract BackupsClient getBackups()"
+  desc: "Gets the BackupsClient object to access its operations."
+  returns:
+    description: "the BackupsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.recoveryservicesbackup.fluent.BackupsClient?alt=com.azure.resourcemanager.recoveryservicesbackup.fluent.BackupsClient&text=BackupsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.recoveryservicesbackup.fluent.RecoveryServicesBackupClient.getBmsPrepareDataMoveOperationResults()"
   fullName: "com.azure.resourcemanager.recoveryservicesbackup.fluent.RecoveryServicesBackupClient.getBmsPrepareDataMoveOperationResults()"
   name: "getBmsPrepareDataMoveOperationResults()"
@@ -678,18 +678,6 @@ methods:
   returns:
     description: "the ValidateOperationResultsClient object."
     type: "<xref href=\"com.azure.resourcemanager.recoveryservicesbackup.fluent.ValidateOperationResultsClient?alt=com.azure.resourcemanager.recoveryservicesbackup.fluent.ValidateOperationResultsClient&text=ValidateOperationResultsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.recoveryservicesbackup.fluent.RecoveryServicesBackupClient.getValidateOperations()"
-  fullName: "com.azure.resourcemanager.recoveryservicesbackup.fluent.RecoveryServicesBackupClient.getValidateOperations()"
-  name: "getValidateOperations()"
-  nameWithType: "RecoveryServicesBackupClient.getValidateOperations()"
-  summary: "Gets the Validate<wbr>Operations<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract ValidateOperationsClient getValidateOperations()"
-  desc: "Gets the ValidateOperationsClient object to access its operations."
-  returns:
-    description: "the ValidateOperationsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.recoveryservicesbackup.fluent.ValidateOperationsClient?alt=com.azure.resourcemanager.recoveryservicesbackup.fluent.ValidateOperationsClient&text=ValidateOperationsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.recoveryservicesbackup.fluent.RecoveryServicesBackupClient.getValidateOperationStatuses()"
   fullName: "com.azure.resourcemanager.recoveryservicesbackup.fluent.RecoveryServicesBackupClient.getValidateOperationStatuses()"
   name: "getValidateOperationStatuses()"
@@ -702,6 +690,18 @@ methods:
   returns:
     description: "the ValidateOperationStatusesClient object."
     type: "<xref href=\"com.azure.resourcemanager.recoveryservicesbackup.fluent.ValidateOperationStatusesClient?alt=com.azure.resourcemanager.recoveryservicesbackup.fluent.ValidateOperationStatusesClient&text=ValidateOperationStatusesClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.recoveryservicesbackup.fluent.RecoveryServicesBackupClient.getValidateOperations()"
+  fullName: "com.azure.resourcemanager.recoveryservicesbackup.fluent.RecoveryServicesBackupClient.getValidateOperations()"
+  name: "getValidateOperations()"
+  nameWithType: "RecoveryServicesBackupClient.getValidateOperations()"
+  summary: "Gets the Validate<wbr>Operations<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ValidateOperationsClient getValidateOperations()"
+  desc: "Gets the ValidateOperationsClient object to access its operations."
+  returns:
+    description: "the ValidateOperationsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.recoveryservicesbackup.fluent.ValidateOperationsClient?alt=com.azure.resourcemanager.recoveryservicesbackup.fluent.ValidateOperationsClient&text=ValidateOperationsClient\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 desc: "The interface for RecoveryServicesBackupClient class."
 metadata: {}

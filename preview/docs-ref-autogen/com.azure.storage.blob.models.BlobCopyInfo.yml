@@ -140,6 +140,16 @@ methods:
   returns:
     description: "The status of the copy operation."
     type: "<xref href=\"com.azure.storage.blob.models.CopyStatusType?alt=com.azure.storage.blob.models.CopyStatusType&text=CopyStatusType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.storage.blob.models.BlobCopyInfo.getETag()"
+  fullName: "com.azure.storage.blob.models.BlobCopyInfo.getETag()"
+  name: "getETag()"
+  nameWithType: "BlobCopyInfo.getETag()"
+  summary: "If the copy is complete, contains the ETag of the destination blob."
+  syntax: "public String getETag()"
+  desc: "If the copy is complete, contains the ETag of the destination blob. If the copy isn't complete, contains the ETag of the empty blob created at the start of the copy.\n\nThe ETag value will be in quotes."
+  returns:
+    description: "The ETag for the copy."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.storage.blob.models.BlobCopyInfo.getEncryptionScope()"
   fullName: "com.azure.storage.blob.models.BlobCopyInfo.getEncryptionScope()"
   name: "getEncryptionScope()"
@@ -159,16 +169,6 @@ methods:
   desc: "Gets an error description associated with the copy operation."
   returns:
     description: "An error description associated with the copy, or <code>null</code> if there is no error associated with this\n copy operation."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.storage.blob.models.BlobCopyInfo.getETag()"
-  fullName: "com.azure.storage.blob.models.BlobCopyInfo.getETag()"
-  name: "getETag()"
-  nameWithType: "BlobCopyInfo.getETag()"
-  summary: "If the copy is complete, contains the ETag of the destination blob."
-  syntax: "public String getETag()"
-  desc: "If the copy is complete, contains the ETag of the destination blob. If the copy isn't complete, contains the ETag of the empty blob created at the start of the copy.\n\nThe ETag value will be in quotes."
-  returns:
-    description: "The ETag for the copy."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.storage.blob.models.BlobCopyInfo.getLastModified()"
   fullName: "com.azure.storage.blob.models.BlobCopyInfo.getLastModified()"

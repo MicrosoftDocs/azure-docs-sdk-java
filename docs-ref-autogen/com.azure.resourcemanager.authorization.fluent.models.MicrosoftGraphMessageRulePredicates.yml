@@ -480,16 +480,6 @@ methods:
   returns:
     description: "the MicrosoftGraphMessageRulePredicates object itself."
     type: "<xref href=\"com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphMessageRulePredicates?alt=com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphMessageRulePredicates&text=MicrosoftGraphMessageRulePredicates\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphMessageRulePredicates.withinSizeRange()"
-  fullName: "com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphMessageRulePredicates.withinSizeRange()"
-  name: "withinSizeRange()"
-  nameWithType: "MicrosoftGraphMessageRulePredicates.withinSizeRange()"
-  summary: "Get the within<wbr>Size<wbr>Range property: size<wbr>Range."
-  syntax: "public MicrosoftGraphSizeRange withinSizeRange()"
-  desc: "Get the withinSizeRange property: sizeRange."
-  returns:
-    description: "the withinSizeRange value."
-    type: "<xref href=\"com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphSizeRange?alt=com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphSizeRange&text=MicrosoftGraphSizeRange\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphMessageRulePredicates.withIsApprovalRequest(java.lang.Boolean)"
   fullName: "com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphMessageRulePredicates.withIsApprovalRequest(Boolean isApprovalRequest)"
   name: "withIsApprovalRequest(Boolean isApprovalRequest)"
@@ -812,6 +802,16 @@ methods:
   returns:
     description: "the MicrosoftGraphMessageRulePredicates object itself."
     type: "<xref href=\"com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphMessageRulePredicates?alt=com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphMessageRulePredicates&text=MicrosoftGraphMessageRulePredicates\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphMessageRulePredicates.withinSizeRange()"
+  fullName: "com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphMessageRulePredicates.withinSizeRange()"
+  name: "withinSizeRange()"
+  nameWithType: "MicrosoftGraphMessageRulePredicates.withinSizeRange()"
+  summary: "Get the within<wbr>Size<wbr>Range property: size<wbr>Range."
+  syntax: "public MicrosoftGraphSizeRange withinSizeRange()"
+  desc: "Get the withinSizeRange property: sizeRange."
+  returns:
+    description: "the withinSizeRange value."
+    type: "<xref href=\"com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphSizeRange?alt=com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphSizeRange&text=MicrosoftGraphSizeRange\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "messageRulePredicates."
 implements:

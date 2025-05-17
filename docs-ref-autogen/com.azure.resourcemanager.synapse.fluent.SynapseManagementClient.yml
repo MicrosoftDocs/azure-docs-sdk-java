@@ -186,18 +186,6 @@ methods:
   returns:
     description: "the IntegrationRuntimeObjectMetadatasClient object."
     type: "<xref href=\"com.azure.resourcemanager.synapse.fluent.IntegrationRuntimeObjectMetadatasClient?alt=com.azure.resourcemanager.synapse.fluent.IntegrationRuntimeObjectMetadatasClient&text=IntegrationRuntimeObjectMetadatasClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.synapse.fluent.SynapseManagementClient.getIntegrationRuntimes()"
-  fullName: "com.azure.resourcemanager.synapse.fluent.SynapseManagementClient.getIntegrationRuntimes()"
-  name: "getIntegrationRuntimes()"
-  nameWithType: "SynapseManagementClient.getIntegrationRuntimes()"
-  summary: "Gets the Integration<wbr>Runtimes<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract IntegrationRuntimesClient getIntegrationRuntimes()"
-  desc: "Gets the IntegrationRuntimesClient object to access its operations."
-  returns:
-    description: "the IntegrationRuntimesClient object."
-    type: "<xref href=\"com.azure.resourcemanager.synapse.fluent.IntegrationRuntimesClient?alt=com.azure.resourcemanager.synapse.fluent.IntegrationRuntimesClient&text=IntegrationRuntimesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.synapse.fluent.SynapseManagementClient.getIntegrationRuntimeStatusOperations()"
   fullName: "com.azure.resourcemanager.synapse.fluent.SynapseManagementClient.getIntegrationRuntimeStatusOperations()"
   name: "getIntegrationRuntimeStatusOperations()"
@@ -210,6 +198,18 @@ methods:
   returns:
     description: "the IntegrationRuntimeStatusOperationsClient object."
     type: "<xref href=\"com.azure.resourcemanager.synapse.fluent.IntegrationRuntimeStatusOperationsClient?alt=com.azure.resourcemanager.synapse.fluent.IntegrationRuntimeStatusOperationsClient&text=IntegrationRuntimeStatusOperationsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.synapse.fluent.SynapseManagementClient.getIntegrationRuntimes()"
+  fullName: "com.azure.resourcemanager.synapse.fluent.SynapseManagementClient.getIntegrationRuntimes()"
+  name: "getIntegrationRuntimes()"
+  nameWithType: "SynapseManagementClient.getIntegrationRuntimes()"
+  summary: "Gets the Integration<wbr>Runtimes<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract IntegrationRuntimesClient getIntegrationRuntimes()"
+  desc: "Gets the IntegrationRuntimesClient object to access its operations."
+  returns:
+    description: "the IntegrationRuntimesClient object."
+    type: "<xref href=\"com.azure.resourcemanager.synapse.fluent.IntegrationRuntimesClient?alt=com.azure.resourcemanager.synapse.fluent.IntegrationRuntimesClient&text=IntegrationRuntimesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.synapse.fluent.SynapseManagementClient.getIpFirewallRules()"
   fullName: "com.azure.resourcemanager.synapse.fluent.SynapseManagementClient.getIpFirewallRules()"
   name: "getIpFirewallRules()"
@@ -498,18 +498,6 @@ methods:
   returns:
     description: "the SqlPoolRestorePointsClient object."
     type: "<xref href=\"com.azure.resourcemanager.synapse.fluent.SqlPoolRestorePointsClient?alt=com.azure.resourcemanager.synapse.fluent.SqlPoolRestorePointsClient&text=SqlPoolRestorePointsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.synapse.fluent.SynapseManagementClient.getSqlPools()"
-  fullName: "com.azure.resourcemanager.synapse.fluent.SynapseManagementClient.getSqlPools()"
-  name: "getSqlPools()"
-  nameWithType: "SynapseManagementClient.getSqlPools()"
-  summary: "Gets the Sql<wbr>Pools<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract SqlPoolsClient getSqlPools()"
-  desc: "Gets the SqlPoolsClient object to access its operations."
-  returns:
-    description: "the SqlPoolsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.synapse.fluent.SqlPoolsClient?alt=com.azure.resourcemanager.synapse.fluent.SqlPoolsClient&text=SqlPoolsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.synapse.fluent.SynapseManagementClient.getSqlPoolSchemas()"
   fullName: "com.azure.resourcemanager.synapse.fluent.SynapseManagementClient.getSqlPoolSchemas()"
   name: "getSqlPoolSchemas()"
@@ -606,18 +594,6 @@ methods:
   returns:
     description: "the SqlPoolVulnerabilityAssessmentRuleBaselinesClient object."
     type: "<xref href=\"com.azure.resourcemanager.synapse.fluent.SqlPoolVulnerabilityAssessmentRuleBaselinesClient?alt=com.azure.resourcemanager.synapse.fluent.SqlPoolVulnerabilityAssessmentRuleBaselinesClient&text=SqlPoolVulnerabilityAssessmentRuleBaselinesClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.synapse.fluent.SynapseManagementClient.getSqlPoolVulnerabilityAssessments()"
-  fullName: "com.azure.resourcemanager.synapse.fluent.SynapseManagementClient.getSqlPoolVulnerabilityAssessments()"
-  name: "getSqlPoolVulnerabilityAssessments()"
-  nameWithType: "SynapseManagementClient.getSqlPoolVulnerabilityAssessments()"
-  summary: "Gets the Sql<wbr>Pool<wbr>Vulnerability<wbr>Assessments<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract SqlPoolVulnerabilityAssessmentsClient getSqlPoolVulnerabilityAssessments()"
-  desc: "Gets the SqlPoolVulnerabilityAssessmentsClient object to access its operations."
-  returns:
-    description: "the SqlPoolVulnerabilityAssessmentsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.synapse.fluent.SqlPoolVulnerabilityAssessmentsClient?alt=com.azure.resourcemanager.synapse.fluent.SqlPoolVulnerabilityAssessmentsClient&text=SqlPoolVulnerabilityAssessmentsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.synapse.fluent.SynapseManagementClient.getSqlPoolVulnerabilityAssessmentScans()"
   fullName: "com.azure.resourcemanager.synapse.fluent.SynapseManagementClient.getSqlPoolVulnerabilityAssessmentScans()"
   name: "getSqlPoolVulnerabilityAssessmentScans()"
@@ -630,6 +606,18 @@ methods:
   returns:
     description: "the SqlPoolVulnerabilityAssessmentScansClient object."
     type: "<xref href=\"com.azure.resourcemanager.synapse.fluent.SqlPoolVulnerabilityAssessmentScansClient?alt=com.azure.resourcemanager.synapse.fluent.SqlPoolVulnerabilityAssessmentScansClient&text=SqlPoolVulnerabilityAssessmentScansClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.synapse.fluent.SynapseManagementClient.getSqlPoolVulnerabilityAssessments()"
+  fullName: "com.azure.resourcemanager.synapse.fluent.SynapseManagementClient.getSqlPoolVulnerabilityAssessments()"
+  name: "getSqlPoolVulnerabilityAssessments()"
+  nameWithType: "SynapseManagementClient.getSqlPoolVulnerabilityAssessments()"
+  summary: "Gets the Sql<wbr>Pool<wbr>Vulnerability<wbr>Assessments<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract SqlPoolVulnerabilityAssessmentsClient getSqlPoolVulnerabilityAssessments()"
+  desc: "Gets the SqlPoolVulnerabilityAssessmentsClient object to access its operations."
+  returns:
+    description: "the SqlPoolVulnerabilityAssessmentsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.synapse.fluent.SqlPoolVulnerabilityAssessmentsClient?alt=com.azure.resourcemanager.synapse.fluent.SqlPoolVulnerabilityAssessmentsClient&text=SqlPoolVulnerabilityAssessmentsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.synapse.fluent.SynapseManagementClient.getSqlPoolWorkloadClassifiers()"
   fullName: "com.azure.resourcemanager.synapse.fluent.SynapseManagementClient.getSqlPoolWorkloadClassifiers()"
   name: "getSqlPoolWorkloadClassifiers()"
@@ -654,6 +642,18 @@ methods:
   returns:
     description: "the SqlPoolWorkloadGroupsClient object."
     type: "<xref href=\"com.azure.resourcemanager.synapse.fluent.SqlPoolWorkloadGroupsClient?alt=com.azure.resourcemanager.synapse.fluent.SqlPoolWorkloadGroupsClient&text=SqlPoolWorkloadGroupsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.synapse.fluent.SynapseManagementClient.getSqlPools()"
+  fullName: "com.azure.resourcemanager.synapse.fluent.SynapseManagementClient.getSqlPools()"
+  name: "getSqlPools()"
+  nameWithType: "SynapseManagementClient.getSqlPools()"
+  summary: "Gets the Sql<wbr>Pools<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract SqlPoolsClient getSqlPools()"
+  desc: "Gets the SqlPoolsClient object to access its operations."
+  returns:
+    description: "the SqlPoolsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.synapse.fluent.SqlPoolsClient?alt=com.azure.resourcemanager.synapse.fluent.SqlPoolsClient&text=SqlPoolsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.synapse.fluent.SynapseManagementClient.getSubscriptionId()"
   fullName: "com.azure.resourcemanager.synapse.fluent.SynapseManagementClient.getSubscriptionId()"
   name: "getSubscriptionId()"
@@ -774,18 +774,6 @@ methods:
   returns:
     description: "the WorkspaceManagedSqlServerVulnerabilityAssessmentsClient object."
     type: "<xref href=\"com.azure.resourcemanager.synapse.fluent.WorkspaceManagedSqlServerVulnerabilityAssessmentsClient?alt=com.azure.resourcemanager.synapse.fluent.WorkspaceManagedSqlServerVulnerabilityAssessmentsClient&text=WorkspaceManagedSqlServerVulnerabilityAssessmentsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.synapse.fluent.SynapseManagementClient.getWorkspaces()"
-  fullName: "com.azure.resourcemanager.synapse.fluent.SynapseManagementClient.getWorkspaces()"
-  name: "getWorkspaces()"
-  nameWithType: "SynapseManagementClient.getWorkspaces()"
-  summary: "Gets the Workspaces<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract WorkspacesClient getWorkspaces()"
-  desc: "Gets the WorkspacesClient object to access its operations."
-  returns:
-    description: "the WorkspacesClient object."
-    type: "<xref href=\"com.azure.resourcemanager.synapse.fluent.WorkspacesClient?alt=com.azure.resourcemanager.synapse.fluent.WorkspacesClient&text=WorkspacesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.synapse.fluent.SynapseManagementClient.getWorkspaceSqlAadAdmins()"
   fullName: "com.azure.resourcemanager.synapse.fluent.SynapseManagementClient.getWorkspaceSqlAadAdmins()"
   name: "getWorkspaceSqlAadAdmins()"
@@ -798,6 +786,18 @@ methods:
   returns:
     description: "the WorkspaceSqlAadAdminsClient object."
     type: "<xref href=\"com.azure.resourcemanager.synapse.fluent.WorkspaceSqlAadAdminsClient?alt=com.azure.resourcemanager.synapse.fluent.WorkspaceSqlAadAdminsClient&text=WorkspaceSqlAadAdminsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.synapse.fluent.SynapseManagementClient.getWorkspaces()"
+  fullName: "com.azure.resourcemanager.synapse.fluent.SynapseManagementClient.getWorkspaces()"
+  name: "getWorkspaces()"
+  nameWithType: "SynapseManagementClient.getWorkspaces()"
+  summary: "Gets the Workspaces<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract WorkspacesClient getWorkspaces()"
+  desc: "Gets the WorkspacesClient object to access its operations."
+  returns:
+    description: "the WorkspacesClient object."
+    type: "<xref href=\"com.azure.resourcemanager.synapse.fluent.WorkspacesClient?alt=com.azure.resourcemanager.synapse.fluent.WorkspacesClient&text=WorkspacesClient\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 desc: "The interface for SynapseManagementClient class."
 metadata: {}

@@ -37,6 +37,22 @@ constructors:
   syntax: "public JsonValue(int item, SafeHandle handle)"
   desc: "Instantiates a new Json value."
 methods:
+- uid: "com.microsoft.cognitiveservices.speech.util.JsonValue.Parse(java.lang.String)"
+  fullName: "com.microsoft.cognitiveservices.speech.util.JsonValue.Parse(String json)"
+  name: "Parse(String json)"
+  nameWithType: "JsonValue.Parse(String json)"
+  summary: "Parse json value."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "the json string"
+    name: "json"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static JsonValue Parse(String json)"
+  desc: "Parse json value."
+  returns:
+    description: "the json value"
+    type: "<xref href=\"com.microsoft.cognitiveservices.speech.util.JsonValue?alt=com.microsoft.cognitiveservices.speech.util.JsonValue&text=JsonValue\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.cognitiveservices.speech.util.JsonValue.asBoolean()"
   fullName: "com.microsoft.cognitiveservices.speech.util.JsonValue.asBoolean()"
   name: "asBoolean()"
@@ -177,22 +193,6 @@ methods:
   returns:
     description: "the boolean value"
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.cognitiveservices.speech.util.JsonValue.Parse(java.lang.String)"
-  fullName: "com.microsoft.cognitiveservices.speech.util.JsonValue.Parse(String json)"
-  name: "Parse(String json)"
-  nameWithType: "JsonValue.Parse(String json)"
-  summary: "Parse json value."
-  modifiers:
-  - "static"
-  parameters:
-  - description: "the json string"
-    name: "json"
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static JsonValue Parse(String json)"
-  desc: "Parse json value."
-  returns:
-    description: "the json value"
-    type: "<xref href=\"com.microsoft.cognitiveservices.speech.util.JsonValue?alt=com.microsoft.cognitiveservices.speech.util.JsonValue&text=JsonValue\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "The type Json value."
 implements:

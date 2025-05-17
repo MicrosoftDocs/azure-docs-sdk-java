@@ -74,7 +74,7 @@ methods:
   nameWithType: "MigrateToVirtualMachineScaleSetInput.virtualMachineScaleSetFlexible()"
   summary: "Get the virtual<wbr>Machine<wbr>Scale<wbr>Set<wbr>Flexible property: Specifies information about the Virtual Machine Scale Set that the Availability Set should be migrated to."
   syntax: "public SubResource virtualMachineScaleSetFlexible()"
-  desc: "Get the virtualMachineScaleSetFlexible property: Specifies information about the Virtual Machine Scale Set that the Availability Set should be migrated to. Minimum api‐version: 2024‐11‐01."
+  desc: "Get the virtualMachineScaleSetFlexible property: Specifies information about the Virtual Machine Scale Set that the Availability Set should be migrated to. Minimum api\\\\u2010version: 2024\\\\u201011\\\\u201001."
   returns:
     description: "the virtualMachineScaleSetFlexible value."
     type: "<xref href=\"com.azure.core.management.SubResource?alt=com.azure.core.management.SubResource&text=SubResource\" data-throw-if-not-resolved=\"False\" />"
@@ -88,7 +88,7 @@ methods:
     name: "virtualMachineScaleSetFlexible"
     type: "<xref href=\"com.azure.core.management.SubResource?alt=com.azure.core.management.SubResource&text=SubResource\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public MigrateToVirtualMachineScaleSetInput withVirtualMachineScaleSetFlexible(SubResource virtualMachineScaleSetFlexible)"
-  desc: "Set the virtualMachineScaleSetFlexible property: Specifies information about the Virtual Machine Scale Set that the Availability Set should be migrated to. Minimum api‐version: 2024‐11‐01."
+  desc: "Set the virtualMachineScaleSetFlexible property: Specifies information about the Virtual Machine Scale Set that the Availability Set should be migrated to. Minimum api\\\\u2010version: 2024\\\\u201011\\\\u201001."
   returns:
     description: "the MigrateToVirtualMachineScaleSetInput object itself."
     type: "<xref href=\"com.azure.resourcemanager.compute.models.MigrateToVirtualMachineScaleSetInput?alt=com.azure.resourcemanager.compute.models.MigrateToVirtualMachineScaleSetInput&text=MigrateToVirtualMachineScaleSetInput\" data-throw-if-not-resolved=\"False\" />"

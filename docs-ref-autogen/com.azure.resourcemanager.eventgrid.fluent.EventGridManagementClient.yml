@@ -90,18 +90,6 @@ methods:
   returns:
     description: "the DomainEventSubscriptionsClient object."
     type: "<xref href=\"com.azure.resourcemanager.eventgrid.fluent.DomainEventSubscriptionsClient?alt=com.azure.resourcemanager.eventgrid.fluent.DomainEventSubscriptionsClient&text=DomainEventSubscriptionsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.eventgrid.fluent.EventGridManagementClient.getDomains()"
-  fullName: "com.azure.resourcemanager.eventgrid.fluent.EventGridManagementClient.getDomains()"
-  name: "getDomains()"
-  nameWithType: "EventGridManagementClient.getDomains()"
-  summary: "Gets the Domains<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract DomainsClient getDomains()"
-  desc: "Gets the DomainsClient object to access its operations."
-  returns:
-    description: "the DomainsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.eventgrid.fluent.DomainsClient?alt=com.azure.resourcemanager.eventgrid.fluent.DomainsClient&text=DomainsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.eventgrid.fluent.EventGridManagementClient.getDomainTopicEventSubscriptions()"
   fullName: "com.azure.resourcemanager.eventgrid.fluent.EventGridManagementClient.getDomainTopicEventSubscriptions()"
   name: "getDomainTopicEventSubscriptions()"
@@ -126,6 +114,18 @@ methods:
   returns:
     description: "the DomainTopicsClient object."
     type: "<xref href=\"com.azure.resourcemanager.eventgrid.fluent.DomainTopicsClient?alt=com.azure.resourcemanager.eventgrid.fluent.DomainTopicsClient&text=DomainTopicsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.eventgrid.fluent.EventGridManagementClient.getDomains()"
+  fullName: "com.azure.resourcemanager.eventgrid.fluent.EventGridManagementClient.getDomains()"
+  name: "getDomains()"
+  nameWithType: "EventGridManagementClient.getDomains()"
+  summary: "Gets the Domains<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract DomainsClient getDomains()"
+  desc: "Gets the DomainsClient object to access its operations."
+  returns:
+    description: "the DomainsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.eventgrid.fluent.DomainsClient?alt=com.azure.resourcemanager.eventgrid.fluent.DomainsClient&text=DomainsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.eventgrid.fluent.EventGridManagementClient.getEndpoint()"
   fullName: "com.azure.resourcemanager.eventgrid.fluent.EventGridManagementClient.getEndpoint()"
   name: "getEndpoint()"
@@ -174,18 +174,6 @@ methods:
   returns:
     description: "the httpPipeline value."
     type: "<xref href=\"com.azure.core.http.HttpPipeline?alt=com.azure.core.http.HttpPipeline&text=HttpPipeline\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.eventgrid.fluent.EventGridManagementClient.getNamespaces()"
-  fullName: "com.azure.resourcemanager.eventgrid.fluent.EventGridManagementClient.getNamespaces()"
-  name: "getNamespaces()"
-  nameWithType: "EventGridManagementClient.getNamespaces()"
-  summary: "Gets the Namespaces<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract NamespacesClient getNamespaces()"
-  desc: "Gets the NamespacesClient object to access its operations."
-  returns:
-    description: "the NamespacesClient object."
-    type: "<xref href=\"com.azure.resourcemanager.eventgrid.fluent.NamespacesClient?alt=com.azure.resourcemanager.eventgrid.fluent.NamespacesClient&text=NamespacesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.eventgrid.fluent.EventGridManagementClient.getNamespaceTopicEventSubscriptions()"
   fullName: "com.azure.resourcemanager.eventgrid.fluent.EventGridManagementClient.getNamespaceTopicEventSubscriptions()"
   name: "getNamespaceTopicEventSubscriptions()"
@@ -210,6 +198,18 @@ methods:
   returns:
     description: "the NamespaceTopicsClient object."
     type: "<xref href=\"com.azure.resourcemanager.eventgrid.fluent.NamespaceTopicsClient?alt=com.azure.resourcemanager.eventgrid.fluent.NamespaceTopicsClient&text=NamespaceTopicsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.eventgrid.fluent.EventGridManagementClient.getNamespaces()"
+  fullName: "com.azure.resourcemanager.eventgrid.fluent.EventGridManagementClient.getNamespaces()"
+  name: "getNamespaces()"
+  nameWithType: "EventGridManagementClient.getNamespaces()"
+  summary: "Gets the Namespaces<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract NamespacesClient getNamespaces()"
+  desc: "Gets the NamespacesClient object to access its operations."
+  returns:
+    description: "the NamespacesClient object."
+    type: "<xref href=\"com.azure.resourcemanager.eventgrid.fluent.NamespacesClient?alt=com.azure.resourcemanager.eventgrid.fluent.NamespacesClient&text=NamespacesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.eventgrid.fluent.EventGridManagementClient.getOperations()"
   fullName: "com.azure.resourcemanager.eventgrid.fluent.EventGridManagementClient.getOperations()"
   name: "getOperations()"
@@ -366,18 +366,6 @@ methods:
   returns:
     description: "the TopicEventSubscriptionsClient object."
     type: "<xref href=\"com.azure.resourcemanager.eventgrid.fluent.TopicEventSubscriptionsClient?alt=com.azure.resourcemanager.eventgrid.fluent.TopicEventSubscriptionsClient&text=TopicEventSubscriptionsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.eventgrid.fluent.EventGridManagementClient.getTopics()"
-  fullName: "com.azure.resourcemanager.eventgrid.fluent.EventGridManagementClient.getTopics()"
-  name: "getTopics()"
-  nameWithType: "EventGridManagementClient.getTopics()"
-  summary: "Gets the Topics<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract TopicsClient getTopics()"
-  desc: "Gets the TopicsClient object to access its operations."
-  returns:
-    description: "the TopicsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.eventgrid.fluent.TopicsClient?alt=com.azure.resourcemanager.eventgrid.fluent.TopicsClient&text=TopicsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.eventgrid.fluent.EventGridManagementClient.getTopicSpaces()"
   fullName: "com.azure.resourcemanager.eventgrid.fluent.EventGridManagementClient.getTopicSpaces()"
   name: "getTopicSpaces()"
@@ -402,6 +390,18 @@ methods:
   returns:
     description: "the TopicTypesClient object."
     type: "<xref href=\"com.azure.resourcemanager.eventgrid.fluent.TopicTypesClient?alt=com.azure.resourcemanager.eventgrid.fluent.TopicTypesClient&text=TopicTypesClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.eventgrid.fluent.EventGridManagementClient.getTopics()"
+  fullName: "com.azure.resourcemanager.eventgrid.fluent.EventGridManagementClient.getTopics()"
+  name: "getTopics()"
+  nameWithType: "EventGridManagementClient.getTopics()"
+  summary: "Gets the Topics<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract TopicsClient getTopics()"
+  desc: "Gets the TopicsClient object to access its operations."
+  returns:
+    description: "the TopicsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.eventgrid.fluent.TopicsClient?alt=com.azure.resourcemanager.eventgrid.fluent.TopicsClient&text=TopicsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.eventgrid.fluent.EventGridManagementClient.getVerifiedPartners()"
   fullName: "com.azure.resourcemanager.eventgrid.fluent.EventGridManagementClient.getVerifiedPartners()"
   name: "getVerifiedPartners()"

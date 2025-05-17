@@ -126,18 +126,6 @@ methods:
   returns:
     description: "the IntegrationAccountPartnersClient object."
     type: "<xref href=\"com.azure.resourcemanager.logic.fluent.IntegrationAccountPartnersClient?alt=com.azure.resourcemanager.logic.fluent.IntegrationAccountPartnersClient&text=IntegrationAccountPartnersClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.logic.fluent.LogicManagementClient.getIntegrationAccounts()"
-  fullName: "com.azure.resourcemanager.logic.fluent.LogicManagementClient.getIntegrationAccounts()"
-  name: "getIntegrationAccounts()"
-  nameWithType: "LogicManagementClient.getIntegrationAccounts()"
-  summary: "Gets the Integration<wbr>Accounts<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract IntegrationAccountsClient getIntegrationAccounts()"
-  desc: "Gets the IntegrationAccountsClient object to access its operations."
-  returns:
-    description: "the IntegrationAccountsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.logic.fluent.IntegrationAccountsClient?alt=com.azure.resourcemanager.logic.fluent.IntegrationAccountsClient&text=IntegrationAccountsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.logic.fluent.LogicManagementClient.getIntegrationAccountSchemas()"
   fullName: "com.azure.resourcemanager.logic.fluent.LogicManagementClient.getIntegrationAccountSchemas()"
   name: "getIntegrationAccountSchemas()"
@@ -162,6 +150,18 @@ methods:
   returns:
     description: "the IntegrationAccountSessionsClient object."
     type: "<xref href=\"com.azure.resourcemanager.logic.fluent.IntegrationAccountSessionsClient?alt=com.azure.resourcemanager.logic.fluent.IntegrationAccountSessionsClient&text=IntegrationAccountSessionsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.logic.fluent.LogicManagementClient.getIntegrationAccounts()"
+  fullName: "com.azure.resourcemanager.logic.fluent.LogicManagementClient.getIntegrationAccounts()"
+  name: "getIntegrationAccounts()"
+  nameWithType: "LogicManagementClient.getIntegrationAccounts()"
+  summary: "Gets the Integration<wbr>Accounts<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract IntegrationAccountsClient getIntegrationAccounts()"
+  desc: "Gets the IntegrationAccountsClient object to access its operations."
+  returns:
+    description: "the IntegrationAccountsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.logic.fluent.IntegrationAccountsClient?alt=com.azure.resourcemanager.logic.fluent.IntegrationAccountsClient&text=IntegrationAccountsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.logic.fluent.LogicManagementClient.getIntegrationServiceEnvironmentManagedApiOperations()"
   fullName: "com.azure.resourcemanager.logic.fluent.LogicManagementClient.getIntegrationServiceEnvironmentManagedApiOperations()"
   name: "getIntegrationServiceEnvironmentManagedApiOperations()"
@@ -198,18 +198,6 @@ methods:
   returns:
     description: "the IntegrationServiceEnvironmentNetworkHealthsClient object."
     type: "<xref href=\"com.azure.resourcemanager.logic.fluent.IntegrationServiceEnvironmentNetworkHealthsClient?alt=com.azure.resourcemanager.logic.fluent.IntegrationServiceEnvironmentNetworkHealthsClient&text=IntegrationServiceEnvironmentNetworkHealthsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.logic.fluent.LogicManagementClient.getIntegrationServiceEnvironments()"
-  fullName: "com.azure.resourcemanager.logic.fluent.LogicManagementClient.getIntegrationServiceEnvironments()"
-  name: "getIntegrationServiceEnvironments()"
-  nameWithType: "LogicManagementClient.getIntegrationServiceEnvironments()"
-  summary: "Gets the Integration<wbr>Service<wbr>Environments<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract IntegrationServiceEnvironmentsClient getIntegrationServiceEnvironments()"
-  desc: "Gets the IntegrationServiceEnvironmentsClient object to access its operations."
-  returns:
-    description: "the IntegrationServiceEnvironmentsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.logic.fluent.IntegrationServiceEnvironmentsClient?alt=com.azure.resourcemanager.logic.fluent.IntegrationServiceEnvironmentsClient&text=IntegrationServiceEnvironmentsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.logic.fluent.LogicManagementClient.getIntegrationServiceEnvironmentSkus()"
   fullName: "com.azure.resourcemanager.logic.fluent.LogicManagementClient.getIntegrationServiceEnvironmentSkus()"
   name: "getIntegrationServiceEnvironmentSkus()"
@@ -222,6 +210,18 @@ methods:
   returns:
     description: "the IntegrationServiceEnvironmentSkusClient object."
     type: "<xref href=\"com.azure.resourcemanager.logic.fluent.IntegrationServiceEnvironmentSkusClient?alt=com.azure.resourcemanager.logic.fluent.IntegrationServiceEnvironmentSkusClient&text=IntegrationServiceEnvironmentSkusClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.logic.fluent.LogicManagementClient.getIntegrationServiceEnvironments()"
+  fullName: "com.azure.resourcemanager.logic.fluent.LogicManagementClient.getIntegrationServiceEnvironments()"
+  name: "getIntegrationServiceEnvironments()"
+  nameWithType: "LogicManagementClient.getIntegrationServiceEnvironments()"
+  summary: "Gets the Integration<wbr>Service<wbr>Environments<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract IntegrationServiceEnvironmentsClient getIntegrationServiceEnvironments()"
+  desc: "Gets the IntegrationServiceEnvironmentsClient object to access its operations."
+  returns:
+    description: "the IntegrationServiceEnvironmentsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.logic.fluent.IntegrationServiceEnvironmentsClient?alt=com.azure.resourcemanager.logic.fluent.IntegrationServiceEnvironmentsClient&text=IntegrationServiceEnvironmentsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.logic.fluent.LogicManagementClient.getOperations()"
   fullName: "com.azure.resourcemanager.logic.fluent.LogicManagementClient.getOperations()"
   name: "getOperations()"
@@ -282,18 +282,6 @@ methods:
   returns:
     description: "the WorkflowRunActionRequestHistoriesClient object."
     type: "<xref href=\"com.azure.resourcemanager.logic.fluent.WorkflowRunActionRequestHistoriesClient?alt=com.azure.resourcemanager.logic.fluent.WorkflowRunActionRequestHistoriesClient&text=WorkflowRunActionRequestHistoriesClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.logic.fluent.LogicManagementClient.getWorkflowRunActions()"
-  fullName: "com.azure.resourcemanager.logic.fluent.LogicManagementClient.getWorkflowRunActions()"
-  name: "getWorkflowRunActions()"
-  nameWithType: "LogicManagementClient.getWorkflowRunActions()"
-  summary: "Gets the Workflow<wbr>Run<wbr>Actions<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract WorkflowRunActionsClient getWorkflowRunActions()"
-  desc: "Gets the WorkflowRunActionsClient object to access its operations."
-  returns:
-    description: "the WorkflowRunActionsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.logic.fluent.WorkflowRunActionsClient?alt=com.azure.resourcemanager.logic.fluent.WorkflowRunActionsClient&text=WorkflowRunActionsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.logic.fluent.LogicManagementClient.getWorkflowRunActionScopeRepetitions()"
   fullName: "com.azure.resourcemanager.logic.fluent.LogicManagementClient.getWorkflowRunActionScopeRepetitions()"
   name: "getWorkflowRunActionScopeRepetitions()"
@@ -306,6 +294,18 @@ methods:
   returns:
     description: "the WorkflowRunActionScopeRepetitionsClient object."
     type: "<xref href=\"com.azure.resourcemanager.logic.fluent.WorkflowRunActionScopeRepetitionsClient?alt=com.azure.resourcemanager.logic.fluent.WorkflowRunActionScopeRepetitionsClient&text=WorkflowRunActionScopeRepetitionsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.logic.fluent.LogicManagementClient.getWorkflowRunActions()"
+  fullName: "com.azure.resourcemanager.logic.fluent.LogicManagementClient.getWorkflowRunActions()"
+  name: "getWorkflowRunActions()"
+  nameWithType: "LogicManagementClient.getWorkflowRunActions()"
+  summary: "Gets the Workflow<wbr>Run<wbr>Actions<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract WorkflowRunActionsClient getWorkflowRunActions()"
+  desc: "Gets the WorkflowRunActionsClient object to access its operations."
+  returns:
+    description: "the WorkflowRunActionsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.logic.fluent.WorkflowRunActionsClient?alt=com.azure.resourcemanager.logic.fluent.WorkflowRunActionsClient&text=WorkflowRunActionsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.logic.fluent.LogicManagementClient.getWorkflowRunOperations()"
   fullName: "com.azure.resourcemanager.logic.fluent.LogicManagementClient.getWorkflowRunOperations()"
   name: "getWorkflowRunOperations()"
@@ -330,18 +330,6 @@ methods:
   returns:
     description: "the WorkflowRunsClient object."
     type: "<xref href=\"com.azure.resourcemanager.logic.fluent.WorkflowRunsClient?alt=com.azure.resourcemanager.logic.fluent.WorkflowRunsClient&text=WorkflowRunsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.logic.fluent.LogicManagementClient.getWorkflows()"
-  fullName: "com.azure.resourcemanager.logic.fluent.LogicManagementClient.getWorkflows()"
-  name: "getWorkflows()"
-  nameWithType: "LogicManagementClient.getWorkflows()"
-  summary: "Gets the Workflows<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract WorkflowsClient getWorkflows()"
-  desc: "Gets the WorkflowsClient object to access its operations."
-  returns:
-    description: "the WorkflowsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.logic.fluent.WorkflowsClient?alt=com.azure.resourcemanager.logic.fluent.WorkflowsClient&text=WorkflowsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.logic.fluent.LogicManagementClient.getWorkflowTriggerHistories()"
   fullName: "com.azure.resourcemanager.logic.fluent.LogicManagementClient.getWorkflowTriggerHistories()"
   name: "getWorkflowTriggerHistories()"
@@ -366,18 +354,6 @@ methods:
   returns:
     description: "the WorkflowTriggersClient object."
     type: "<xref href=\"com.azure.resourcemanager.logic.fluent.WorkflowTriggersClient?alt=com.azure.resourcemanager.logic.fluent.WorkflowTriggersClient&text=WorkflowTriggersClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.logic.fluent.LogicManagementClient.getWorkflowVersions()"
-  fullName: "com.azure.resourcemanager.logic.fluent.LogicManagementClient.getWorkflowVersions()"
-  name: "getWorkflowVersions()"
-  nameWithType: "LogicManagementClient.getWorkflowVersions()"
-  summary: "Gets the Workflow<wbr>Versions<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract WorkflowVersionsClient getWorkflowVersions()"
-  desc: "Gets the WorkflowVersionsClient object to access its operations."
-  returns:
-    description: "the WorkflowVersionsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.logic.fluent.WorkflowVersionsClient?alt=com.azure.resourcemanager.logic.fluent.WorkflowVersionsClient&text=WorkflowVersionsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.logic.fluent.LogicManagementClient.getWorkflowVersionTriggers()"
   fullName: "com.azure.resourcemanager.logic.fluent.LogicManagementClient.getWorkflowVersionTriggers()"
   name: "getWorkflowVersionTriggers()"
@@ -390,6 +366,30 @@ methods:
   returns:
     description: "the WorkflowVersionTriggersClient object."
     type: "<xref href=\"com.azure.resourcemanager.logic.fluent.WorkflowVersionTriggersClient?alt=com.azure.resourcemanager.logic.fluent.WorkflowVersionTriggersClient&text=WorkflowVersionTriggersClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.logic.fluent.LogicManagementClient.getWorkflowVersions()"
+  fullName: "com.azure.resourcemanager.logic.fluent.LogicManagementClient.getWorkflowVersions()"
+  name: "getWorkflowVersions()"
+  nameWithType: "LogicManagementClient.getWorkflowVersions()"
+  summary: "Gets the Workflow<wbr>Versions<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract WorkflowVersionsClient getWorkflowVersions()"
+  desc: "Gets the WorkflowVersionsClient object to access its operations."
+  returns:
+    description: "the WorkflowVersionsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.logic.fluent.WorkflowVersionsClient?alt=com.azure.resourcemanager.logic.fluent.WorkflowVersionsClient&text=WorkflowVersionsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.logic.fluent.LogicManagementClient.getWorkflows()"
+  fullName: "com.azure.resourcemanager.logic.fluent.LogicManagementClient.getWorkflows()"
+  name: "getWorkflows()"
+  nameWithType: "LogicManagementClient.getWorkflows()"
+  summary: "Gets the Workflows<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract WorkflowsClient getWorkflows()"
+  desc: "Gets the WorkflowsClient object to access its operations."
+  returns:
+    description: "the WorkflowsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.logic.fluent.WorkflowsClient?alt=com.azure.resourcemanager.logic.fluent.WorkflowsClient&text=WorkflowsClient\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 desc: "The interface for LogicManagementClient class."
 metadata: {}

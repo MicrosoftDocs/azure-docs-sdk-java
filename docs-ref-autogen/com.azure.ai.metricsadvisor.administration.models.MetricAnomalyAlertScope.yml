@@ -38,6 +38,22 @@ methods:
   returns:
     description: "The MetricAnomalyAlertScope."
     type: "<xref href=\"com.azure.ai.metricsadvisor.administration.models.MetricAnomalyAlertScope?alt=com.azure.ai.metricsadvisor.administration.models.MetricAnomalyAlertScope&text=MetricAnomalyAlertScope\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.metricsadvisor.administration.models.MetricAnomalyAlertScope.forTopNGroup(com.azure.ai.metricsadvisor.administration.models.TopNGroupScope)"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.MetricAnomalyAlertScope.forTopNGroup(TopNGroupScope topNGroup)"
+  name: "forTopNGroup(TopNGroupScope topNGroup)"
+  nameWithType: "MetricAnomalyAlertScope.forTopNGroup(TopNGroupScope topNGroup)"
+  summary: "Creates an Metric<wbr>Anomaly<wbr>Alert<wbr>Scope based on TopN scope."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "Defines the top, period and minTopCount values."
+    name: "topNGroup"
+    type: "<xref href=\"com.azure.ai.metricsadvisor.administration.models.TopNGroupScope?alt=com.azure.ai.metricsadvisor.administration.models.TopNGroupScope&text=TopNGroupScope\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static MetricAnomalyAlertScope forTopNGroup(TopNGroupScope topNGroup)"
+  desc: "Creates an MetricAnomalyAlertScope based on TopN scope. The TopN defines scope based on ranking of anomaly in data-sets. The computation of TopN scope consists of 3 parameters, top, period and minTopCount. the top defines the top rank for anomalies, period defines the number of latest data-set to consider for ranking and minTopCount indicate that an alert should be generated when rank of minTopCount data-sets are in top."
+  returns:
+    description: "The MetricAnomalyAlertScope."
+    type: "<xref href=\"com.azure.ai.metricsadvisor.administration.models.MetricAnomalyAlertScope?alt=com.azure.ai.metricsadvisor.administration.models.MetricAnomalyAlertScope&text=MetricAnomalyAlertScope\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.ai.metricsadvisor.administration.models.MetricAnomalyAlertScope.forTopNGroup(int,int,int)"
   fullName: "com.azure.ai.metricsadvisor.administration.models.MetricAnomalyAlertScope.forTopNGroup(int top, int period, int minTopCount)"
   name: "forTopNGroup(int top, int period, int minTopCount)"
@@ -57,22 +73,6 @@ methods:
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static MetricAnomalyAlertScope forTopNGroup(int top, int period, int minTopCount)"
   desc: "Creates an MetricAnomalyAlertScope based on TopN scoping rule."
-  returns:
-    description: "The MetricAnomalyAlertScope."
-    type: "<xref href=\"com.azure.ai.metricsadvisor.administration.models.MetricAnomalyAlertScope?alt=com.azure.ai.metricsadvisor.administration.models.MetricAnomalyAlertScope&text=MetricAnomalyAlertScope\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.ai.metricsadvisor.administration.models.MetricAnomalyAlertScope.forTopNGroup(com.azure.ai.metricsadvisor.administration.models.TopNGroupScope)"
-  fullName: "com.azure.ai.metricsadvisor.administration.models.MetricAnomalyAlertScope.forTopNGroup(TopNGroupScope topNGroup)"
-  name: "forTopNGroup(TopNGroupScope topNGroup)"
-  nameWithType: "MetricAnomalyAlertScope.forTopNGroup(TopNGroupScope topNGroup)"
-  summary: "Creates an Metric<wbr>Anomaly<wbr>Alert<wbr>Scope based on TopN scope."
-  modifiers:
-  - "static"
-  parameters:
-  - description: "Defines the top, period and minTopCount values."
-    name: "topNGroup"
-    type: "<xref href=\"com.azure.ai.metricsadvisor.administration.models.TopNGroupScope?alt=com.azure.ai.metricsadvisor.administration.models.TopNGroupScope&text=TopNGroupScope\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static MetricAnomalyAlertScope forTopNGroup(TopNGroupScope topNGroup)"
-  desc: "Creates an MetricAnomalyAlertScope based on TopN scope. The TopN defines scope based on ranking of anomaly in data-sets. The computation of TopN scope consists of 3 parameters, top, period and minTopCount. the top defines the top rank for anomalies, period defines the number of latest data-set to consider for ranking and minTopCount indicate that an alert should be generated when rank of minTopCount data-sets are in top."
   returns:
     description: "The MetricAnomalyAlertScope."
     type: "<xref href=\"com.azure.ai.metricsadvisor.administration.models.MetricAnomalyAlertScope?alt=com.azure.ai.metricsadvisor.administration.models.MetricAnomalyAlertScope&text=MetricAnomalyAlertScope\" data-throw-if-not-resolved=\"False\" />"

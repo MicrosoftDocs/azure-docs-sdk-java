@@ -27,13 +27,6 @@ constructors:
   nameWithType: "CustomLogger.CustomLogger()"
   syntax: "public CustomLogger()"
 methods:
-- uid: "com.microsoft.azure.sdk.iot.deps.util.CustomLogger.getMethodName()"
-  fullName: "com.microsoft.azure.sdk.iot.deps.util.CustomLogger.getMethodName()"
-  name: "getMethodName()"
-  nameWithType: "CustomLogger.getMethodName()"
-  syntax: "public String getMethodName()"
-  returns:
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.sdk.iot.deps.util.CustomLogger.LogDebug(java.lang.String,java.lang.Object...)"
   fullName: "com.microsoft.azure.sdk.iot.deps.util.CustomLogger.LogDebug(String message, Object[] params)"
   name: "LogDebug(String message, Object[] params)"
@@ -114,6 +107,13 @@ methods:
   - name: "params"
     type: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />[]"
   syntax: "public void LogWarn(String message, Object[] params)"
+- uid: "com.microsoft.azure.sdk.iot.deps.util.CustomLogger.getMethodName()"
+  fullName: "com.microsoft.azure.sdk.iot.deps.util.CustomLogger.getMethodName()"
+  name: "getMethodName()"
+  nameWithType: "CustomLogger.getMethodName()"
+  syntax: "public String getMethodName()"
+  returns:
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 metadata: {}
 package: "com.microsoft.azure.sdk.iot.deps.util"

@@ -22,6 +22,20 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **CosmosConflictProperties**"
 methods:
+- uid: "com.azure.cosmos.models.CosmosConflictProperties.<T>getItem(java.lang.Class<T>)"
+  fullName: "com.azure.cosmos.models.CosmosConflictProperties.getItem(Class<T> klass)"
+  name: "getItem(Class<T> klass)"
+  nameWithType: "CosmosConflictProperties.getItem(Class<T> klass)"
+  summary: "Gets the conflicting resource in the Azure Cosmos DB service."
+  parameters:
+  - description: "The returned type of conflicting resource."
+    name: "klass"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Class.html\">Class</a>&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public T <T>getItem(Class<T> klass)"
+  desc: "Gets the conflicting resource in the Azure Cosmos DB service."
+  returns:
+    description: "The conflicting resource."
+    type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.cosmos.models.CosmosConflictProperties.getETag()"
   fullName: "com.azure.cosmos.models.CosmosConflictProperties.getETag()"
   name: "getETag()"
@@ -42,20 +56,6 @@ methods:
   returns:
     description: "the name of the resource."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.cosmos.models.CosmosConflictProperties.<T>getItem(java.lang.Class<T>)"
-  fullName: "com.azure.cosmos.models.CosmosConflictProperties.getItem(Class<T> klass)"
-  name: "getItem(Class<T> klass)"
-  nameWithType: "CosmosConflictProperties.getItem(Class<T> klass)"
-  summary: "Gets the conflicting resource in the Azure Cosmos DB service."
-  parameters:
-  - description: "The returned type of conflicting resource."
-    name: "klass"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Class.html\">Class</a>&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public T <T>getItem(Class<T> klass)"
-  desc: "Gets the conflicting resource in the Azure Cosmos DB service."
-  returns:
-    description: "The conflicting resource."
-    type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.cosmos.models.CosmosConflictProperties.getOperationKind()"
   fullName: "com.azure.cosmos.models.CosmosConflictProperties.getOperationKind()"
   name: "getOperationKind()"

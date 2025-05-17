@@ -60,6 +60,22 @@ methods:
   returns:
     description: "the Bing Entity Search API client"
     type: "<xref href=\"com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntitySearchAPI?alt=com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntitySearchAPI&text=BingEntitySearchAPI\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntitySearchManager.authenticate(java.lang.String)"
+  fullName: "com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntitySearchManager.authenticate(String subscriptionKey)"
+  name: "authenticate(String subscriptionKey)"
+  nameWithType: "BingEntitySearchManager.authenticate(String subscriptionKey)"
+  summary: "Initializes an instance of Bing Entity Search API client."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "the Bing Search API key"
+    name: "subscriptionKey"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static BingEntitySearchAPI authenticate(String subscriptionKey)"
+  desc: "Initializes an instance of Bing Entity Search API client."
+  returns:
+    description: "the Bing News Search API client"
+    type: "<xref href=\"com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntitySearchAPI?alt=com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntitySearchAPI&text=BingEntitySearchAPI\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntitySearchManager.authenticate(java.lang.String,com.microsoft.rest.credentials.ServiceClientCredentials)"
   fullName: "com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntitySearchManager.authenticate(String baseUrl, ServiceClientCredentials credentials)"
   name: "authenticate(String baseUrl, ServiceClientCredentials credentials)"
@@ -97,22 +113,6 @@ methods:
   desc: "Initializes an instance of Bing Entity Search API client."
   returns:
     description: "the Bing Entity Search API client"
-    type: "<xref href=\"com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntitySearchAPI?alt=com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntitySearchAPI&text=BingEntitySearchAPI\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntitySearchManager.authenticate(java.lang.String)"
-  fullName: "com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntitySearchManager.authenticate(String subscriptionKey)"
-  name: "authenticate(String subscriptionKey)"
-  nameWithType: "BingEntitySearchManager.authenticate(String subscriptionKey)"
-  summary: "Initializes an instance of Bing Entity Search API client."
-  modifiers:
-  - "static"
-  parameters:
-  - description: "the Bing Search API key"
-    name: "subscriptionKey"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public static BingEntitySearchAPI authenticate(String subscriptionKey)"
-  desc: "Initializes an instance of Bing Entity Search API client."
-  returns:
-    description: "the Bing News Search API client"
     type: "<xref href=\"com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntitySearchAPI?alt=com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntitySearchAPI&text=BingEntitySearchAPI\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Entry point to Azure Cognitive Services Bing Entity Search manager."

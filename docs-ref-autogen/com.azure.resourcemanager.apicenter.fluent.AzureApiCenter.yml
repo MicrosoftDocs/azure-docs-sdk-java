@@ -18,18 +18,6 @@ methods:
   returns:
     description: "the ApiDefinitionsClient object."
     type: "<xref href=\"com.azure.resourcemanager.apicenter.fluent.ApiDefinitionsClient?alt=com.azure.resourcemanager.apicenter.fluent.ApiDefinitionsClient&text=ApiDefinitionsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.apicenter.fluent.AzureApiCenter.getApis()"
-  fullName: "com.azure.resourcemanager.apicenter.fluent.AzureApiCenter.getApis()"
-  name: "getApis()"
-  nameWithType: "AzureApiCenter.getApis()"
-  summary: "Gets the Apis<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract ApisClient getApis()"
-  desc: "Gets the ApisClient object to access its operations."
-  returns:
-    description: "the ApisClient object."
-    type: "<xref href=\"com.azure.resourcemanager.apicenter.fluent.ApisClient?alt=com.azure.resourcemanager.apicenter.fluent.ApisClient&text=ApisClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.apicenter.fluent.AzureApiCenter.getApiVersion()"
   fullName: "com.azure.resourcemanager.apicenter.fluent.AzureApiCenter.getApiVersion()"
   name: "getApiVersion()"
@@ -54,6 +42,18 @@ methods:
   returns:
     description: "the ApiVersionsClient object."
     type: "<xref href=\"com.azure.resourcemanager.apicenter.fluent.ApiVersionsClient?alt=com.azure.resourcemanager.apicenter.fluent.ApiVersionsClient&text=ApiVersionsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.apicenter.fluent.AzureApiCenter.getApis()"
+  fullName: "com.azure.resourcemanager.apicenter.fluent.AzureApiCenter.getApis()"
+  name: "getApis()"
+  nameWithType: "AzureApiCenter.getApis()"
+  summary: "Gets the Apis<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ApisClient getApis()"
+  desc: "Gets the ApisClient object to access its operations."
+  returns:
+    description: "the ApisClient object."
+    type: "<xref href=\"com.azure.resourcemanager.apicenter.fluent.ApisClient?alt=com.azure.resourcemanager.apicenter.fluent.ApisClient&text=ApisClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.apicenter.fluent.AzureApiCenter.getDefaultPollInterval()"
   fullName: "com.azure.resourcemanager.apicenter.fluent.AzureApiCenter.getDefaultPollInterval()"
   name: "getDefaultPollInterval()"

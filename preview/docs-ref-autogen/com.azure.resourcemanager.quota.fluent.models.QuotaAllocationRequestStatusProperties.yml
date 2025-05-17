@@ -69,16 +69,6 @@ methods:
   returns:
     description: "the provisioningState value."
     type: "<xref href=\"com.azure.resourcemanager.quota.models.RequestState?alt=com.azure.resourcemanager.quota.models.RequestState&text=RequestState\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.quota.fluent.models.QuotaAllocationRequestStatusProperties.requestedResource()"
-  fullName: "com.azure.resourcemanager.quota.fluent.models.QuotaAllocationRequestStatusProperties.requestedResource()"
-  name: "requestedResource()"
-  nameWithType: "QuotaAllocationRequestStatusProperties.requestedResource()"
-  summary: "Get the requested<wbr>Resource property: The new quota request allocated to subscription."
-  syntax: "public QuotaAllocationRequestBase requestedResource()"
-  desc: "Get the requestedResource property: The new quota request allocated to subscription."
-  returns:
-    description: "the requestedResource value."
-    type: "<xref href=\"com.azure.resourcemanager.quota.models.QuotaAllocationRequestBase?alt=com.azure.resourcemanager.quota.models.QuotaAllocationRequestBase&text=QuotaAllocationRequestBase\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.quota.fluent.models.QuotaAllocationRequestStatusProperties.requestSubmitTime()"
   fullName: "com.azure.resourcemanager.quota.fluent.models.QuotaAllocationRequestStatusProperties.requestSubmitTime()"
   name: "requestSubmitTime()"
@@ -89,6 +79,16 @@ methods:
   returns:
     description: "the requestSubmitTime value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
+- uid: "com.azure.resourcemanager.quota.fluent.models.QuotaAllocationRequestStatusProperties.requestedResource()"
+  fullName: "com.azure.resourcemanager.quota.fluent.models.QuotaAllocationRequestStatusProperties.requestedResource()"
+  name: "requestedResource()"
+  nameWithType: "QuotaAllocationRequestStatusProperties.requestedResource()"
+  summary: "Get the requested<wbr>Resource property: The new quota request allocated to subscription."
+  syntax: "public QuotaAllocationRequestBase requestedResource()"
+  desc: "Get the requestedResource property: The new quota request allocated to subscription."
+  returns:
+    description: "the requestedResource value."
+    type: "<xref href=\"com.azure.resourcemanager.quota.models.QuotaAllocationRequestBase?alt=com.azure.resourcemanager.quota.models.QuotaAllocationRequestBase&text=QuotaAllocationRequestBase\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.quota.fluent.models.QuotaAllocationRequestStatusProperties.toJson(com.azure.json.JsonWriter)"
   fullName: "com.azure.resourcemanager.quota.fluent.models.QuotaAllocationRequestStatusProperties.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"

@@ -249,6 +249,16 @@ methods:
   returns:
     description: "the status value."
     type: "<xref href=\"com.azure.resourcemanager.monitor.fluent.models.LocalizableStringInner?alt=com.azure.resourcemanager.monitor.fluent.models.LocalizableStringInner&text=LocalizableStringInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.monitor.fluent.models.EventDataInner.subStatus()"
+  fullName: "com.azure.resourcemanager.monitor.fluent.models.EventDataInner.subStatus()"
+  name: "subStatus()"
+  nameWithType: "EventDataInner.subStatus()"
+  summary: "Get the sub<wbr>Status property: the event sub status."
+  syntax: "public LocalizableStringInner subStatus()"
+  desc: "Get the subStatus property: the event sub status. Most of the time, when included, this captures the HTTP status code of the REST call. Common values are: OK (HTTP Status Code: 200), Created (HTTP Status Code: 201), Accepted (HTTP Status Code: 202), No Content (HTTP Status Code: 204), Bad Request(HTTP Status Code: 400), Not Found (HTTP Status Code: 404), Conflict (HTTP Status Code: 409), Internal Server Error (HTTP Status Code: 500), Service Unavailable (HTTP Status Code:503), Gateway Timeout (HTTP Status Code: 504)."
+  returns:
+    description: "the subStatus value."
+    type: "<xref href=\"com.azure.resourcemanager.monitor.fluent.models.LocalizableStringInner?alt=com.azure.resourcemanager.monitor.fluent.models.LocalizableStringInner&text=LocalizableStringInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.monitor.fluent.models.EventDataInner.submissionTimestamp()"
   fullName: "com.azure.resourcemanager.monitor.fluent.models.EventDataInner.submissionTimestamp()"
   name: "submissionTimestamp()"
@@ -269,16 +279,6 @@ methods:
   returns:
     description: "the subscriptionId value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.monitor.fluent.models.EventDataInner.subStatus()"
-  fullName: "com.azure.resourcemanager.monitor.fluent.models.EventDataInner.subStatus()"
-  name: "subStatus()"
-  nameWithType: "EventDataInner.subStatus()"
-  summary: "Get the sub<wbr>Status property: the event sub status."
-  syntax: "public LocalizableStringInner subStatus()"
-  desc: "Get the subStatus property: the event sub status. Most of the time, when included, this captures the HTTP status code of the REST call. Common values are: OK (HTTP Status Code: 200), Created (HTTP Status Code: 201), Accepted (HTTP Status Code: 202), No Content (HTTP Status Code: 204), Bad Request(HTTP Status Code: 400), Not Found (HTTP Status Code: 404), Conflict (HTTP Status Code: 409), Internal Server Error (HTTP Status Code: 500), Service Unavailable (HTTP Status Code:503), Gateway Timeout (HTTP Status Code: 504)."
-  returns:
-    description: "the subStatus value."
-    type: "<xref href=\"com.azure.resourcemanager.monitor.fluent.models.LocalizableStringInner?alt=com.azure.resourcemanager.monitor.fluent.models.LocalizableStringInner&text=LocalizableStringInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.monitor.fluent.models.EventDataInner.tenantId()"
   fullName: "com.azure.resourcemanager.monitor.fluent.models.EventDataInner.tenantId()"
   name: "tenantId()"

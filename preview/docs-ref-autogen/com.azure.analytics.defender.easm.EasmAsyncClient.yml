@@ -555,20 +555,6 @@ methods:
   returns:
     description: "paged collection of DataConnection items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.analytics.defender.easm.models.DataConnection?alt=com.azure.analytics.defender.easm.models.DataConnection&text=DataConnection\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.analytics.defender.easm.EasmAsyncClient.listDataConnection(java.lang.Integer)"
-  fullName: "com.azure.analytics.defender.easm.EasmAsyncClient.listDataConnection(Integer skip)"
-  name: "listDataConnection(Integer skip)"
-  nameWithType: "EasmAsyncClient.listDataConnection(Integer skip)"
-  summary: "Retrieve a list of data connections."
-  parameters:
-  - description: "The number of result items to skip."
-    name: "skip"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
-  syntax: "public PagedFlux<DataConnection> listDataConnection(Integer skip)"
-  desc: "Retrieve a list of data connections."
-  returns:
-    description: "paged collection of DataConnection items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
-    type: "<xref href=\"com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.analytics.defender.easm.models.DataConnection?alt=com.azure.analytics.defender.easm.models.DataConnection&text=DataConnection\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.analytics.defender.easm.EasmAsyncClient.listDataConnection(com.azure.core.http.rest.RequestOptions)"
   fullName: "com.azure.analytics.defender.easm.EasmAsyncClient.listDataConnection(RequestOptions requestOptions)"
   name: "listDataConnection(RequestOptions requestOptions)"
@@ -583,6 +569,20 @@ methods:
   returns:
     description: "paged collection of DataConnection items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.analytics.defender.easm.EasmAsyncClient.listDataConnection(java.lang.Integer)"
+  fullName: "com.azure.analytics.defender.easm.EasmAsyncClient.listDataConnection(Integer skip)"
+  name: "listDataConnection(Integer skip)"
+  nameWithType: "EasmAsyncClient.listDataConnection(Integer skip)"
+  summary: "Retrieve a list of data connections."
+  parameters:
+  - description: "The number of result items to skip."
+    name: "skip"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
+  syntax: "public PagedFlux<DataConnection> listDataConnection(Integer skip)"
+  desc: "Retrieve a list of data connections."
+  returns:
+    description: "paged collection of DataConnection items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
+    type: "<xref href=\"com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.analytics.defender.easm.models.DataConnection?alt=com.azure.analytics.defender.easm.models.DataConnection&text=DataConnection\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.analytics.defender.easm.EasmAsyncClient.listDiscoGroup()"
   fullName: "com.azure.analytics.defender.easm.EasmAsyncClient.listDiscoGroup()"
   name: "listDiscoGroup()"

@@ -138,16 +138,6 @@ methods:
   returns:
     description: "a Note Book on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.analytics.synapse.artifacts.models.NotebookResource?alt=com.azure.analytics.synapse.artifacts.models.NotebookResource&text=NotebookResource\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.analytics.synapse.artifacts.NotebookAsyncClient.getNotebooksByWorkspace()"
-  fullName: "com.azure.analytics.synapse.artifacts.NotebookAsyncClient.getNotebooksByWorkspace()"
-  name: "getNotebooksByWorkspace()"
-  nameWithType: "NotebookAsyncClient.getNotebooksByWorkspace()"
-  summary: "Lists Notebooks."
-  syntax: "public PagedFlux<NotebookResource> getNotebooksByWorkspace()"
-  desc: "Lists Notebooks."
-  returns:
-    description: "a list of Notebook resources as paginated response with <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
-    type: "<xref href=\"com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.analytics.synapse.artifacts.models.NotebookResource?alt=com.azure.analytics.synapse.artifacts.models.NotebookResource&text=NotebookResource\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.analytics.synapse.artifacts.NotebookAsyncClient.getNotebookSummaryByWorkSpace()"
   fullName: "com.azure.analytics.synapse.artifacts.NotebookAsyncClient.getNotebookSummaryByWorkSpace()"
   name: "getNotebookSummaryByWorkSpace()"
@@ -175,6 +165,16 @@ methods:
   returns:
     description: "a Note Book along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref> on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.analytics.synapse.artifacts.models.NotebookResource?alt=com.azure.analytics.synapse.artifacts.models.NotebookResource&text=NotebookResource\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
+- uid: "com.azure.analytics.synapse.artifacts.NotebookAsyncClient.getNotebooksByWorkspace()"
+  fullName: "com.azure.analytics.synapse.artifacts.NotebookAsyncClient.getNotebooksByWorkspace()"
+  name: "getNotebooksByWorkspace()"
+  nameWithType: "NotebookAsyncClient.getNotebooksByWorkspace()"
+  summary: "Lists Notebooks."
+  syntax: "public PagedFlux<NotebookResource> getNotebooksByWorkspace()"
+  desc: "Lists Notebooks."
+  returns:
+    description: "a list of Notebook resources as paginated response with <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
+    type: "<xref href=\"com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.analytics.synapse.artifacts.models.NotebookResource?alt=com.azure.analytics.synapse.artifacts.models.NotebookResource&text=NotebookResource\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.analytics.synapse.artifacts.NotebookAsyncClient.renameNotebook(java.lang.String,com.azure.analytics.synapse.artifacts.models.ArtifactRenameRequest)"
   fullName: "com.azure.analytics.synapse.artifacts.NotebookAsyncClient.renameNotebook(String notebookName, ArtifactRenameRequest request)"
   name: "renameNotebook(String notebookName, ArtifactRenameRequest request)"

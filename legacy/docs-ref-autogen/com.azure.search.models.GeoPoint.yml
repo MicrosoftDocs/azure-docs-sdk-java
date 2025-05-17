@@ -139,20 +139,6 @@ methods:
   returns:
     description: "true if valid, false if invalid"
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.search.models.GeoPoint.setCoordinates(java.util.List<java.lang.Double>)"
-  fullName: "com.azure.search.models.GeoPoint.setCoordinates(List<Double> coordinates)"
-  name: "setCoordinates(List<Double> coordinates)"
-  nameWithType: "GeoPoint.setCoordinates(List<Double> coordinates)"
-  summary: "Set coordinates"
-  parameters:
-  - description: "list of coordinates"
-    name: "coordinates"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Double.html\">Double</a>&gt;"
-  syntax: "public GeoPoint setCoordinates(List<Double> coordinates)"
-  desc: "Set coordinates"
-  returns:
-    description: "GeoPoint updated"
-    type: "<xref href=\"com.azure.search.models.GeoPoint?alt=com.azure.search.models.GeoPoint&text=GeoPoint\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.search.models.GeoPoint.setCoordinateSystem(com.azure.search.models.CoordinateSystem)"
   fullName: "com.azure.search.models.GeoPoint.setCoordinateSystem(CoordinateSystem coordinateSystem)"
   name: "setCoordinateSystem(CoordinateSystem coordinateSystem)"
@@ -164,6 +150,20 @@ methods:
     type: "<xref href=\"com.azure.search.models.CoordinateSystem?alt=com.azure.search.models.CoordinateSystem&text=CoordinateSystem\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public GeoPoint setCoordinateSystem(CoordinateSystem coordinateSystem)"
   desc: "Set CoordinateSystem"
+  returns:
+    description: "GeoPoint updated"
+    type: "<xref href=\"com.azure.search.models.GeoPoint?alt=com.azure.search.models.GeoPoint&text=GeoPoint\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.search.models.GeoPoint.setCoordinates(java.util.List<java.lang.Double>)"
+  fullName: "com.azure.search.models.GeoPoint.setCoordinates(List<Double> coordinates)"
+  name: "setCoordinates(List<Double> coordinates)"
+  nameWithType: "GeoPoint.setCoordinates(List<Double> coordinates)"
+  summary: "Set coordinates"
+  parameters:
+  - description: "list of coordinates"
+    name: "coordinates"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Double.html\">Double</a>&gt;"
+  syntax: "public GeoPoint setCoordinates(List<Double> coordinates)"
+  desc: "Set coordinates"
   returns:
     description: "GeoPoint updated"
     type: "<xref href=\"com.azure.search.models.GeoPoint?alt=com.azure.search.models.GeoPoint&text=GeoPoint\" data-throw-if-not-resolved=\"False\" />"

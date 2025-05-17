@@ -126,18 +126,6 @@ methods:
   returns:
     description: "the SignalRReplicasClient object."
     type: "<xref href=\"com.azure.resourcemanager.signalr.fluent.SignalRReplicasClient?alt=com.azure.resourcemanager.signalr.fluent.SignalRReplicasClient&text=SignalRReplicasClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.signalr.fluent.SignalRManagementClient.getSignalRs()"
-  fullName: "com.azure.resourcemanager.signalr.fluent.SignalRManagementClient.getSignalRs()"
-  name: "getSignalRs()"
-  nameWithType: "SignalRManagementClient.getSignalRs()"
-  summary: "Gets the Signal<wbr>RsClient object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract SignalRsClient getSignalRs()"
-  desc: "Gets the SignalRsClient object to access its operations."
-  returns:
-    description: "the SignalRsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.signalr.fluent.SignalRsClient?alt=com.azure.resourcemanager.signalr.fluent.SignalRsClient&text=SignalRsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.signalr.fluent.SignalRManagementClient.getSignalRSharedPrivateLinkResources()"
   fullName: "com.azure.resourcemanager.signalr.fluent.SignalRManagementClient.getSignalRSharedPrivateLinkResources()"
   name: "getSignalRSharedPrivateLinkResources()"
@@ -150,6 +138,18 @@ methods:
   returns:
     description: "the SignalRSharedPrivateLinkResourcesClient object."
     type: "<xref href=\"com.azure.resourcemanager.signalr.fluent.SignalRSharedPrivateLinkResourcesClient?alt=com.azure.resourcemanager.signalr.fluent.SignalRSharedPrivateLinkResourcesClient&text=SignalRSharedPrivateLinkResourcesClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.signalr.fluent.SignalRManagementClient.getSignalRs()"
+  fullName: "com.azure.resourcemanager.signalr.fluent.SignalRManagementClient.getSignalRs()"
+  name: "getSignalRs()"
+  nameWithType: "SignalRManagementClient.getSignalRs()"
+  summary: "Gets the Signal<wbr>RsClient object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract SignalRsClient getSignalRs()"
+  desc: "Gets the SignalRsClient object to access its operations."
+  returns:
+    description: "the SignalRsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.signalr.fluent.SignalRsClient?alt=com.azure.resourcemanager.signalr.fluent.SignalRsClient&text=SignalRsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.signalr.fluent.SignalRManagementClient.getSubscriptionId()"
   fullName: "com.azure.resourcemanager.signalr.fluent.SignalRManagementClient.getSubscriptionId()"
   name: "getSubscriptionId()"

@@ -63,6 +63,22 @@ methods:
   returns:
     description: "the QnA Maker API client"
     type: "<xref href=\"com.microsoft.azure.cognitiveservices.knowledge.qnamaker.QnAMakerClient?alt=com.microsoft.azure.cognitiveservices.knowledge.qnamaker.QnAMakerClient&text=QnAMakerClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.azure.cognitiveservices.knowledge.qnamaker.QnAMakerManager.authenticate(java.lang.String)"
+  fullName: "com.microsoft.azure.cognitiveservices.knowledge.qnamaker.QnAMakerManager.authenticate(String subscriptionKey)"
+  name: "authenticate(String subscriptionKey)"
+  nameWithType: "QnAMakerManager.authenticate(String subscriptionKey)"
+  summary: "Initializes an instance of QnA Maker API client."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "the QnA Maker API key"
+    name: "subscriptionKey"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static QnAMakerClient authenticate(String subscriptionKey)"
+  desc: "Initializes an instance of QnA Maker API client."
+  returns:
+    description: "the QnA Maker API client"
+    type: "<xref href=\"com.microsoft.azure.cognitiveservices.knowledge.qnamaker.QnAMakerClient?alt=com.microsoft.azure.cognitiveservices.knowledge.qnamaker.QnAMakerClient&text=QnAMakerClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.cognitiveservices.knowledge.qnamaker.QnAMakerManager.authenticate(java.lang.String,com.microsoft.rest.credentials.ServiceClientCredentials)"
   fullName: "com.microsoft.azure.cognitiveservices.knowledge.qnamaker.QnAMakerManager.authenticate(String baseUrl, ServiceClientCredentials credentials)"
   name: "authenticate(String baseUrl, ServiceClientCredentials credentials)"
@@ -97,22 +113,6 @@ methods:
     name: "subscriptionKey"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public static QnAMakerClient authenticate(String baseUrl, String subscriptionKey)"
-  desc: "Initializes an instance of QnA Maker API client."
-  returns:
-    description: "the QnA Maker API client"
-    type: "<xref href=\"com.microsoft.azure.cognitiveservices.knowledge.qnamaker.QnAMakerClient?alt=com.microsoft.azure.cognitiveservices.knowledge.qnamaker.QnAMakerClient&text=QnAMakerClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.azure.cognitiveservices.knowledge.qnamaker.QnAMakerManager.authenticate(java.lang.String)"
-  fullName: "com.microsoft.azure.cognitiveservices.knowledge.qnamaker.QnAMakerManager.authenticate(String subscriptionKey)"
-  name: "authenticate(String subscriptionKey)"
-  nameWithType: "QnAMakerManager.authenticate(String subscriptionKey)"
-  summary: "Initializes an instance of QnA Maker API client."
-  modifiers:
-  - "static"
-  parameters:
-  - description: "the QnA Maker API key"
-    name: "subscriptionKey"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public static QnAMakerClient authenticate(String subscriptionKey)"
   desc: "Initializes an instance of QnA Maker API client."
   returns:
     description: "the QnA Maker API client"

@@ -173,22 +173,6 @@ methods:
   returns:
     description: "the HTTPS message represented by the service-bound message."
     type: "<xref href=\"com.microsoft.azure.sdk.iot.device.transport.https.HttpsSingleMessage?alt=com.microsoft.azure.sdk.iot.device.transport.https.HttpsSingleMessage&text=HttpsSingleMessage\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.azure.sdk.iot.device.transport.https.HttpsSingleMessage.parseHttpsMessage(com.microsoft.azure.sdk.iot.device.transport.https.HttpsResponse)"
-  fullName: "com.microsoft.azure.sdk.iot.device.transport.https.HttpsSingleMessage.parseHttpsMessage(HttpsResponse response)"
-  name: "parseHttpsMessage(HttpsResponse response)"
-  nameWithType: "HttpsSingleMessage.parseHttpsMessage(HttpsResponse response)"
-  summary: "Returns the HTTPS message represented by the HTTPS response."
-  modifiers:
-  - "static"
-  parameters:
-  - description: "the HTTPS response."
-    name: "response"
-    type: "<xref href=\"com.microsoft.azure.sdk.iot.device.transport.https.HttpsResponse?alt=com.microsoft.azure.sdk.iot.device.transport.https.HttpsResponse&text=HttpsResponse\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static HttpsSingleMessage parseHttpsMessage(HttpsResponse response)"
-  desc: "Returns the HTTPS message represented by the HTTPS response."
-  returns:
-    description: "the HTTPS message represented by the HTTPS response."
-    type: "<xref href=\"com.microsoft.azure.sdk.iot.device.transport.https.HttpsSingleMessage?alt=com.microsoft.azure.sdk.iot.device.transport.https.HttpsSingleMessage&text=HttpsSingleMessage\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.sdk.iot.device.transport.https.HttpsSingleMessage.parseHttpsMessage(com.microsoft.azure.sdk.iot.device.Message)"
   fullName: "com.microsoft.azure.sdk.iot.device.transport.https.HttpsSingleMessage.parseHttpsMessage(Message message)"
   name: "parseHttpsMessage(Message message)"
@@ -204,6 +188,22 @@ methods:
   desc: "Returns the HTTPS message represented by the service-bound message for binary octets. Content type \"binary/octet-stream\""
   returns:
     description: "the HTTPS message represented by the service-bound message."
+    type: "<xref href=\"com.microsoft.azure.sdk.iot.device.transport.https.HttpsSingleMessage?alt=com.microsoft.azure.sdk.iot.device.transport.https.HttpsSingleMessage&text=HttpsSingleMessage\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.azure.sdk.iot.device.transport.https.HttpsSingleMessage.parseHttpsMessage(com.microsoft.azure.sdk.iot.device.transport.https.HttpsResponse)"
+  fullName: "com.microsoft.azure.sdk.iot.device.transport.https.HttpsSingleMessage.parseHttpsMessage(HttpsResponse response)"
+  name: "parseHttpsMessage(HttpsResponse response)"
+  nameWithType: "HttpsSingleMessage.parseHttpsMessage(HttpsResponse response)"
+  summary: "Returns the HTTPS message represented by the HTTPS response."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "the HTTPS response."
+    name: "response"
+    type: "<xref href=\"com.microsoft.azure.sdk.iot.device.transport.https.HttpsResponse?alt=com.microsoft.azure.sdk.iot.device.transport.https.HttpsResponse&text=HttpsResponse\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static HttpsSingleMessage parseHttpsMessage(HttpsResponse response)"
+  desc: "Returns the HTTPS message represented by the HTTPS response."
+  returns:
+    description: "the HTTPS message represented by the HTTPS response."
     type: "<xref href=\"com.microsoft.azure.sdk.iot.device.transport.https.HttpsSingleMessage?alt=com.microsoft.azure.sdk.iot.device.transport.https.HttpsSingleMessage&text=HttpsSingleMessage\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.sdk.iot.device.transport.https.HttpsSingleMessage.toMessage()"
   fullName: "com.microsoft.azure.sdk.iot.device.transport.https.HttpsSingleMessage.toMessage()"

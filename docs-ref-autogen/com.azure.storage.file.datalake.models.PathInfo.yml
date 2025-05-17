@@ -57,16 +57,6 @@ constructors:
   syntax: "public PathInfo(String eTag, OffsetDateTime lastModified, boolean isServerEncrypted, String encryptionKeySha256)"
   desc: "Constructs a <xref uid=\"com.azure.storage.file.datalake.models.PathInfo\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PathInfo\"></xref>"
 methods:
-- uid: "com.azure.storage.file.datalake.models.PathInfo.getEncryptionKeySha256()"
-  fullName: "com.azure.storage.file.datalake.models.PathInfo.getEncryptionKeySha256()"
-  name: "getEncryptionKeySha256()"
-  nameWithType: "PathInfo.getEncryptionKeySha256()"
-  summary: "Gets the key used to encrypt the block blob."
-  syntax: "public String getEncryptionKeySha256()"
-  desc: "Gets the key used to encrypt the block blob."
-  returns:
-    description: "the key used to encrypt the block blob"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.storage.file.datalake.models.PathInfo.getETag()"
   fullName: "com.azure.storage.file.datalake.models.PathInfo.getETag()"
   name: "getETag()"
@@ -76,6 +66,16 @@ methods:
   desc: "Get the eTag property: The eTag property."
   returns:
     description: "the eTag value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.storage.file.datalake.models.PathInfo.getEncryptionKeySha256()"
+  fullName: "com.azure.storage.file.datalake.models.PathInfo.getEncryptionKeySha256()"
+  name: "getEncryptionKeySha256()"
+  nameWithType: "PathInfo.getEncryptionKeySha256()"
+  summary: "Gets the key used to encrypt the block blob."
+  syntax: "public String getEncryptionKeySha256()"
+  desc: "Gets the key used to encrypt the block blob."
+  returns:
+    description: "the key used to encrypt the block blob"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.storage.file.datalake.models.PathInfo.getLastModified()"
   fullName: "com.azure.storage.file.datalake.models.PathInfo.getLastModified()"

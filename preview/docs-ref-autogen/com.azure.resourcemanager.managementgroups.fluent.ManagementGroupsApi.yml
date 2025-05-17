@@ -78,18 +78,6 @@ methods:
   returns:
     description: "the httpPipeline value."
     type: "<xref href=\"com.azure.core.http.HttpPipeline?alt=com.azure.core.http.HttpPipeline&text=HttpPipeline\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.managementgroups.fluent.ManagementGroupsApi.getManagementGroups()"
-  fullName: "com.azure.resourcemanager.managementgroups.fluent.ManagementGroupsApi.getManagementGroups()"
-  name: "getManagementGroups()"
-  nameWithType: "ManagementGroupsApi.getManagementGroups()"
-  summary: "Gets the Management<wbr>Groups<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract ManagementGroupsClient getManagementGroups()"
-  desc: "Gets the ManagementGroupsClient object to access its operations."
-  returns:
-    description: "the ManagementGroupsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.managementgroups.fluent.ManagementGroupsClient?alt=com.azure.resourcemanager.managementgroups.fluent.ManagementGroupsClient&text=ManagementGroupsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managementgroups.fluent.ManagementGroupsApi.getManagementGroupSubscriptions()"
   fullName: "com.azure.resourcemanager.managementgroups.fluent.ManagementGroupsApi.getManagementGroupSubscriptions()"
   name: "getManagementGroupSubscriptions()"
@@ -102,6 +90,18 @@ methods:
   returns:
     description: "the ManagementGroupSubscriptionsClient object."
     type: "<xref href=\"com.azure.resourcemanager.managementgroups.fluent.ManagementGroupSubscriptionsClient?alt=com.azure.resourcemanager.managementgroups.fluent.ManagementGroupSubscriptionsClient&text=ManagementGroupSubscriptionsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managementgroups.fluent.ManagementGroupsApi.getManagementGroups()"
+  fullName: "com.azure.resourcemanager.managementgroups.fluent.ManagementGroupsApi.getManagementGroups()"
+  name: "getManagementGroups()"
+  nameWithType: "ManagementGroupsApi.getManagementGroups()"
+  summary: "Gets the Management<wbr>Groups<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ManagementGroupsClient getManagementGroups()"
+  desc: "Gets the ManagementGroupsClient object to access its operations."
+  returns:
+    description: "the ManagementGroupsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.managementgroups.fluent.ManagementGroupsClient?alt=com.azure.resourcemanager.managementgroups.fluent.ManagementGroupsClient&text=ManagementGroupsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managementgroups.fluent.ManagementGroupsApi.getOperations()"
   fullName: "com.azure.resourcemanager.managementgroups.fluent.ManagementGroupsApi.getOperations()"
   name: "getOperations()"

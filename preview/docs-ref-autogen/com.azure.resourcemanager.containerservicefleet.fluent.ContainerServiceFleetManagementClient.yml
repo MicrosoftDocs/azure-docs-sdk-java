@@ -66,18 +66,6 @@ methods:
   returns:
     description: "the FleetMembersClient object."
     type: "<xref href=\"com.azure.resourcemanager.containerservicefleet.fluent.FleetMembersClient?alt=com.azure.resourcemanager.containerservicefleet.fluent.FleetMembersClient&text=FleetMembersClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.containerservicefleet.fluent.ContainerServiceFleetManagementClient.getFleets()"
-  fullName: "com.azure.resourcemanager.containerservicefleet.fluent.ContainerServiceFleetManagementClient.getFleets()"
-  name: "getFleets()"
-  nameWithType: "ContainerServiceFleetManagementClient.getFleets()"
-  summary: "Gets the Fleets<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract FleetsClient getFleets()"
-  desc: "Gets the FleetsClient object to access its operations."
-  returns:
-    description: "the FleetsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.containerservicefleet.fluent.FleetsClient?alt=com.azure.resourcemanager.containerservicefleet.fluent.FleetsClient&text=FleetsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.containerservicefleet.fluent.ContainerServiceFleetManagementClient.getFleetUpdateStrategies()"
   fullName: "com.azure.resourcemanager.containerservicefleet.fluent.ContainerServiceFleetManagementClient.getFleetUpdateStrategies()"
   name: "getFleetUpdateStrategies()"
@@ -90,6 +78,18 @@ methods:
   returns:
     description: "the FleetUpdateStrategiesClient object."
     type: "<xref href=\"com.azure.resourcemanager.containerservicefleet.fluent.FleetUpdateStrategiesClient?alt=com.azure.resourcemanager.containerservicefleet.fluent.FleetUpdateStrategiesClient&text=FleetUpdateStrategiesClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.containerservicefleet.fluent.ContainerServiceFleetManagementClient.getFleets()"
+  fullName: "com.azure.resourcemanager.containerservicefleet.fluent.ContainerServiceFleetManagementClient.getFleets()"
+  name: "getFleets()"
+  nameWithType: "ContainerServiceFleetManagementClient.getFleets()"
+  summary: "Gets the Fleets<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract FleetsClient getFleets()"
+  desc: "Gets the FleetsClient object to access its operations."
+  returns:
+    description: "the FleetsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.containerservicefleet.fluent.FleetsClient?alt=com.azure.resourcemanager.containerservicefleet.fluent.FleetsClient&text=FleetsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.containerservicefleet.fluent.ContainerServiceFleetManagementClient.getHttpPipeline()"
   fullName: "com.azure.resourcemanager.containerservicefleet.fluent.ContainerServiceFleetManagementClient.getHttpPipeline()"
   name: "getHttpPipeline()"

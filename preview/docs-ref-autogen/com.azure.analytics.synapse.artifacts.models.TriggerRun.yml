@@ -89,16 +89,6 @@ methods:
   returns:
     description: "the status value."
     type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.TriggerRunStatus?alt=com.azure.analytics.synapse.artifacts.models.TriggerRunStatus&text=TriggerRunStatus\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.analytics.synapse.artifacts.models.TriggerRun.getTriggeredPipelines()"
-  fullName: "com.azure.analytics.synapse.artifacts.models.TriggerRun.getTriggeredPipelines()"
-  name: "getTriggeredPipelines()"
-  nameWithType: "TriggerRun.getTriggeredPipelines()"
-  summary: "Get the triggered<wbr>Pipelines property: List of pipeline name and run Id triggered by the trigger run."
-  syntax: "public Map<String,String> getTriggeredPipelines()"
-  desc: "Get the triggeredPipelines property: List of pipeline name and run Id triggered by the trigger run."
-  returns:
-    description: "the triggeredPipelines value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
 - uid: "com.azure.analytics.synapse.artifacts.models.TriggerRun.getTriggerName()"
   fullName: "com.azure.analytics.synapse.artifacts.models.TriggerRun.getTriggerName()"
   name: "getTriggerName()"
@@ -139,6 +129,16 @@ methods:
   returns:
     description: "the triggerType value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.analytics.synapse.artifacts.models.TriggerRun.getTriggeredPipelines()"
+  fullName: "com.azure.analytics.synapse.artifacts.models.TriggerRun.getTriggeredPipelines()"
+  name: "getTriggeredPipelines()"
+  nameWithType: "TriggerRun.getTriggeredPipelines()"
+  summary: "Get the triggered<wbr>Pipelines property: List of pipeline name and run Id triggered by the trigger run."
+  syntax: "public Map<String,String> getTriggeredPipelines()"
+  desc: "Get the triggeredPipelines property: List of pipeline name and run Id triggered by the trigger run."
+  returns:
+    description: "the triggeredPipelines value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
 - uid: "com.azure.analytics.synapse.artifacts.models.TriggerRun.setAdditionalProperties(java.util.Map<java.lang.String,java.lang.Object>)"
   fullName: "com.azure.analytics.synapse.artifacts.models.TriggerRun.setAdditionalProperties(Map<String,Object> additionalProperties)"
   name: "setAdditionalProperties(Map<String,Object> additionalProperties)"

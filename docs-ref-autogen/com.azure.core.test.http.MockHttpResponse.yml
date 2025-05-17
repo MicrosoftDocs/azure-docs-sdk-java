@@ -208,14 +208,6 @@ methods:
   syntax: "public Mono<String> getBodyAsString(Charset charset)"
   returns:
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-- uid: "com.azure.core.test.http.MockHttpResponse.getHeaders()"
-  fullName: "com.azure.core.test.http.MockHttpResponse.getHeaders()"
-  name: "getHeaders()"
-  nameWithType: "MockHttpResponse.getHeaders()"
-  overridden: "com.azure.core.http.HttpResponse.getHeaders()"
-  syntax: "public HttpHeaders getHeaders()"
-  returns:
-    type: "<xref href=\"com.azure.core.http.HttpHeaders?alt=com.azure.core.http.HttpHeaders&text=HttpHeaders\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.core.test.http.MockHttpResponse.getHeaderValue(com.azure.core.http.HttpHeaderName)"
   fullName: "com.azure.core.test.http.MockHttpResponse.getHeaderValue(HttpHeaderName headerName)"
   name: "getHeaderValue(HttpHeaderName headerName)"
@@ -238,6 +230,14 @@ methods:
   syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public String getHeaderValue(String name)"
   returns:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.core.test.http.MockHttpResponse.getHeaders()"
+  fullName: "com.azure.core.test.http.MockHttpResponse.getHeaders()"
+  name: "getHeaders()"
+  nameWithType: "MockHttpResponse.getHeaders()"
+  overridden: "com.azure.core.http.HttpResponse.getHeaders()"
+  syntax: "public HttpHeaders getHeaders()"
+  returns:
+    type: "<xref href=\"com.azure.core.http.HttpHeaders?alt=com.azure.core.http.HttpHeaders&text=HttpHeaders\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.core.test.http.MockHttpResponse.getStatusCode()"
   fullName: "com.azure.core.test.http.MockHttpResponse.getStatusCode()"
   name: "getStatusCode()"

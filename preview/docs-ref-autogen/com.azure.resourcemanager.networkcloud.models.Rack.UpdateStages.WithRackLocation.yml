@@ -18,7 +18,7 @@ methods:
     name: "rackLocation"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract Rack.Update withRackLocation(String rackLocation)"
-  desc: "Specifies the rackLocation property: The free-form description of the rack location. (e.g. “DTN Datacenter, Floor 3, Isle 9, Rack 2B”)."
+  desc: "Specifies the rackLocation property: The free-form description of the rack location. (e.g. \\\\u201cDTN Datacenter, Floor 3, Isle 9, Rack 2B\\\\u201d)."
   returns:
     description: "the next definition stage."
     type: "<xref href=\"com.azure.resourcemanager.networkcloud.models.Rack.Update?alt=com.azure.resourcemanager.networkcloud.models.Rack.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"

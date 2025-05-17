@@ -119,16 +119,6 @@ methods:
   returns:
     description: "Job identifier"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.azure.sdk.iot.deps.serializer.JobsResponseParser.getJobsStatus()"
-  fullName: "com.microsoft.azure.sdk.iot.deps.serializer.JobsResponseParser.getJobsStatus()"
-  name: "getJobsStatus()"
-  nameWithType: "JobsResponseParser.getJobsStatus()"
-  summary: "Getter for the jobs status"
-  syntax: "public String getJobsStatus()"
-  desc: "Getter for the jobs status"
-  returns:
-    description: "the status of this job"
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.sdk.iot.deps.serializer.JobsResponseParser.getJobStatistics()"
   fullName: "com.microsoft.azure.sdk.iot.deps.serializer.JobsResponseParser.getJobStatistics()"
   name: "getJobStatistics()"
@@ -139,6 +129,16 @@ methods:
   returns:
     description: "a set of counters with the jobs statistics. It can be <code>null</code>"
     type: "<xref href=\"com.microsoft.azure.sdk.iot.deps.serializer.JobsStatisticsParser?alt=com.microsoft.azure.sdk.iot.deps.serializer.JobsStatisticsParser&text=JobsStatisticsParser\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.azure.sdk.iot.deps.serializer.JobsResponseParser.getJobsStatus()"
+  fullName: "com.microsoft.azure.sdk.iot.deps.serializer.JobsResponseParser.getJobsStatus()"
+  name: "getJobsStatus()"
+  nameWithType: "JobsResponseParser.getJobsStatus()"
+  summary: "Getter for the jobs status"
+  syntax: "public String getJobsStatus()"
+  desc: "Getter for the jobs status"
+  returns:
+    description: "the status of this job"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.sdk.iot.deps.serializer.JobsResponseParser.getLastUpdatedTimeDate()"
   fullName: "com.microsoft.azure.sdk.iot.deps.serializer.JobsResponseParser.getLastUpdatedTimeDate()"
   name: "getLastUpdatedTimeDate()"

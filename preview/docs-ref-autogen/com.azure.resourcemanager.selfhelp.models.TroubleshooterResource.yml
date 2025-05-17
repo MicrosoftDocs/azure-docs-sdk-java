@@ -10,16 +10,16 @@ methods:
   fullName: "com.azure.resourcemanager.selfhelp.models.TroubleshooterResource.continueMethod()"
   name: "continueMethod()"
   nameWithType: "TroubleshooterResource.continueMethod()"
-  summary: "Uses ‘step<wbr>Id’ and ‘responses’ as the trigger to continue the troubleshooting steps for the respective troubleshooter resource name."
+  summary: "Uses \\\\u2018step<wbr>Id\\\\u2019 and \\\\u2018responses\\\\u2019 as the trigger to continue the troubleshooting steps for the respective troubleshooter resource name."
   modifiers:
   - "abstract"
   syntax: "public abstract void continueMethod()"
-  desc: "Uses ‘stepId’ and ‘responses’ as the trigger to continue the troubleshooting steps for the respective troubleshooter resource name. <br/>Continue API is used to provide inputs that are required for the specific troubleshooter to progress into the next step in the process. This API is used after the Troubleshooter has been created using the Create API."
+  desc: "Uses \\\\u2018stepId\\\\u2019 and \\\\u2018responses\\\\u2019 as the trigger to continue the troubleshooting steps for the respective troubleshooter resource name. <br/>Continue API is used to provide inputs that are required for the specific troubleshooter to progress into the next step in the process. This API is used after the Troubleshooter has been created using the Create API."
 - uid: "com.azure.resourcemanager.selfhelp.models.TroubleshooterResource.continueMethodWithResponse(com.azure.resourcemanager.selfhelp.models.ContinueRequestBody,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.selfhelp.models.TroubleshooterResource.continueMethodWithResponse(ContinueRequestBody continueRequestBody, Context context)"
   name: "continueMethodWithResponse(ContinueRequestBody continueRequestBody, Context context)"
   nameWithType: "TroubleshooterResource.continueMethodWithResponse(ContinueRequestBody continueRequestBody, Context context)"
-  summary: "Uses ‘step<wbr>Id’ and ‘responses’ as the trigger to continue the troubleshooting steps for the respective troubleshooter resource name."
+  summary: "Uses \\\\u2018step<wbr>Id\\\\u2019 and \\\\u2018responses\\\\u2019 as the trigger to continue the troubleshooting steps for the respective troubleshooter resource name."
   modifiers:
   - "abstract"
   parameters:
@@ -30,7 +30,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract TroubleshootersContinueMethodResponse continueMethodWithResponse(ContinueRequestBody continueRequestBody, Context context)"
-  desc: "Uses ‘stepId’ and ‘responses’ as the trigger to continue the troubleshooting steps for the respective troubleshooter resource name. <br/>Continue API is used to provide inputs that are required for the specific troubleshooter to progress into the next step in the process. This API is used after the Troubleshooter has been created using the Create API."
+  desc: "Uses \\\\u2018stepId\\\\u2019 and \\\\u2018responses\\\\u2019 as the trigger to continue the troubleshooting steps for the respective troubleshooter resource name. <br/>Continue API is used to provide inputs that are required for the specific troubleshooter to progress into the next step in the process. This API is used after the Troubleshooter has been created using the Create API."
   returns:
     description: "the response."
     type: "<xref href=\"com.azure.resourcemanager.selfhelp.models.TroubleshootersContinueMethodResponse?alt=com.azure.resourcemanager.selfhelp.models.TroubleshootersContinueMethodResponse&text=TroubleshootersContinueMethodResponse\" data-throw-if-not-resolved=\"False\" />"

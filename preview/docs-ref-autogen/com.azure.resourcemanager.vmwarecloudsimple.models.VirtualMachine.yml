@@ -382,6 +382,18 @@ methods:
   returns:
     description: "the username value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.vmwarecloudsimple.models.VirtualMachine.vSphereNetworks()"
+  fullName: "com.azure.resourcemanager.vmwarecloudsimple.models.VirtualMachine.vSphereNetworks()"
+  name: "vSphereNetworks()"
+  nameWithType: "VirtualMachine.vSphereNetworks()"
+  summary: "Gets the v<wbr>Sphere<wbr>Networks property: The list of Virtual VSphere Networks."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract List<String> vSphereNetworks()"
+  desc: "Gets the vSphereNetworks property: The list of Virtual VSphere Networks."
+  returns:
+    description: "the vSphereNetworks value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
 - uid: "com.azure.resourcemanager.vmwarecloudsimple.models.VirtualMachine.vmId()"
   fullName: "com.azure.resourcemanager.vmwarecloudsimple.models.VirtualMachine.vmId()"
   name: "vmId()"
@@ -406,18 +418,6 @@ methods:
   returns:
     description: "the vmwaretools value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.vmwarecloudsimple.models.VirtualMachine.vSphereNetworks()"
-  fullName: "com.azure.resourcemanager.vmwarecloudsimple.models.VirtualMachine.vSphereNetworks()"
-  name: "vSphereNetworks()"
-  nameWithType: "VirtualMachine.vSphereNetworks()"
-  summary: "Gets the v<wbr>Sphere<wbr>Networks property: The list of Virtual VSphere Networks."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract List<String> vSphereNetworks()"
-  desc: "Gets the vSphereNetworks property: The list of Virtual VSphere Networks."
-  returns:
-    description: "the vSphereNetworks value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
 type: "interface"
 desc: "An immutable client-side representation of VirtualMachine."
 metadata: {}

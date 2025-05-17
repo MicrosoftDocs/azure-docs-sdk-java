@@ -69,16 +69,6 @@ methods:
   returns:
     description: "the filterOverride value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.search.documents.models.VectorQuery.getKind()"
-  fullName: "com.azure.search.documents.models.VectorQuery.getKind()"
-  name: "getKind()"
-  nameWithType: "VectorQuery.getKind()"
-  summary: "Get the kind property: The kind of vector query being performed."
-  syntax: "public VectorQueryKind getKind()"
-  desc: "Get the kind property: The kind of vector query being performed."
-  returns:
-    description: "the kind value."
-    type: "<xref href=\"com.azure.search.documents.models.VectorQueryKind?alt=com.azure.search.documents.models.VectorQueryKind&text=VectorQueryKind\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.search.documents.models.VectorQuery.getKNearestNeighborsCount()"
   fullName: "com.azure.search.documents.models.VectorQuery.getKNearestNeighborsCount()"
   name: "getKNearestNeighborsCount()"
@@ -89,6 +79,16 @@ methods:
   returns:
     description: "the kNearestNeighborsCount value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
+- uid: "com.azure.search.documents.models.VectorQuery.getKind()"
+  fullName: "com.azure.search.documents.models.VectorQuery.getKind()"
+  name: "getKind()"
+  nameWithType: "VectorQuery.getKind()"
+  summary: "Get the kind property: The kind of vector query being performed."
+  syntax: "public VectorQueryKind getKind()"
+  desc: "Get the kind property: The kind of vector query being performed."
+  returns:
+    description: "the kind value."
+    type: "<xref href=\"com.azure.search.documents.models.VectorQueryKind?alt=com.azure.search.documents.models.VectorQueryKind&text=VectorQueryKind\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.search.documents.models.VectorQuery.getOversampling()"
   fullName: "com.azure.search.documents.models.VectorQuery.getOversampling()"
   name: "getOversampling()"

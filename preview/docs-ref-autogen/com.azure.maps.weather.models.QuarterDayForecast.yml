@@ -175,9 +175,9 @@ methods:
   fullName: "com.azure.maps.weather.models.QuarterDayForecast.getRealFeelTemperature()"
   name: "getRealFeelTemperature()"
   nameWithType: "QuarterDayForecast.getRealFeelTemperature()"
-  summary: "Get the real<wbr>Feel<wbr>Temperature property: Real<wbr>Feel™ Temperature values for the quarter."
+  summary: "Get the real<wbr>Feel<wbr>Temperature property: Real<wbr>Feel\\\\u2122 Temperature values for the quarter."
   syntax: "public WeatherValueRange getRealFeelTemperature()"
-  desc: "Get the realFeelTemperature property: RealFeel™ Temperature values for the quarter."
+  desc: "Get the realFeelTemperature property: RealFeel\\\\u2122 Temperature values for the quarter."
   returns:
     description: "the realFeelTemperature value."
     type: "<xref href=\"com.azure.maps.weather.models.WeatherValueRange?alt=com.azure.maps.weather.models.WeatherValueRange&text=WeatherValueRange\" data-throw-if-not-resolved=\"False\" />"

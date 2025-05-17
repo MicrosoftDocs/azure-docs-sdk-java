@@ -58,16 +58,6 @@ methods:
   returns:
     description: "the appliedScopeProperties value."
     type: "<xref href=\"com.azure.resourcemanager.billing.models.ReservationAppliedScopeProperties?alt=com.azure.resourcemanager.billing.models.ReservationAppliedScopeProperties&text=ReservationAppliedScopeProperties\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.billing.fluent.models.ReservationInner.appliedScopes()"
-  fullName: "com.azure.resourcemanager.billing.fluent.models.ReservationInner.appliedScopes()"
-  name: "appliedScopes()"
-  nameWithType: "ReservationInner.appliedScopes()"
-  summary: "Get the applied<wbr>Scopes property: The array of applied scopes of a reservation."
-  syntax: "public List<String> appliedScopes()"
-  desc: "Get the appliedScopes property: The array of applied scopes of a reservation. Will be null if the reservation is in Shared scope."
-  returns:
-    description: "the appliedScopes value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
 - uid: "com.azure.resourcemanager.billing.fluent.models.ReservationInner.appliedScopeType()"
   fullName: "com.azure.resourcemanager.billing.fluent.models.ReservationInner.appliedScopeType()"
   name: "appliedScopeType()"
@@ -78,6 +68,16 @@ methods:
   returns:
     description: "the appliedScopeType value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.billing.fluent.models.ReservationInner.appliedScopes()"
+  fullName: "com.azure.resourcemanager.billing.fluent.models.ReservationInner.appliedScopes()"
+  name: "appliedScopes()"
+  nameWithType: "ReservationInner.appliedScopes()"
+  summary: "Get the applied<wbr>Scopes property: The array of applied scopes of a reservation."
+  syntax: "public List<String> appliedScopes()"
+  desc: "Get the appliedScopes property: The array of applied scopes of a reservation. Will be null if the reservation is in Shared scope."
+  returns:
+    description: "the appliedScopes value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
 - uid: "com.azure.resourcemanager.billing.fluent.models.ReservationInner.archived()"
   fullName: "com.azure.resourcemanager.billing.fluent.models.ReservationInner.archived()"
   name: "archived()"

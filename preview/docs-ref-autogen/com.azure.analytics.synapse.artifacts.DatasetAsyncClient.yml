@@ -138,16 +138,6 @@ methods:
   returns:
     description: "a dataset on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.analytics.synapse.artifacts.models.DatasetResource?alt=com.azure.analytics.synapse.artifacts.models.DatasetResource&text=DatasetResource\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.analytics.synapse.artifacts.DatasetAsyncClient.getDatasetsByWorkspace()"
-  fullName: "com.azure.analytics.synapse.artifacts.DatasetAsyncClient.getDatasetsByWorkspace()"
-  name: "getDatasetsByWorkspace()"
-  nameWithType: "DatasetAsyncClient.getDatasetsByWorkspace()"
-  summary: "Lists datasets."
-  syntax: "public PagedFlux<DatasetResource> getDatasetsByWorkspace()"
-  desc: "Lists datasets."
-  returns:
-    description: "a list of dataset resources as paginated response with <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
-    type: "<xref href=\"com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.analytics.synapse.artifacts.models.DatasetResource?alt=com.azure.analytics.synapse.artifacts.models.DatasetResource&text=DatasetResource\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.analytics.synapse.artifacts.DatasetAsyncClient.getDatasetWithResponse(java.lang.String,java.lang.String)"
   fullName: "com.azure.analytics.synapse.artifacts.DatasetAsyncClient.getDatasetWithResponse(String datasetName, String ifNoneMatch)"
   name: "getDatasetWithResponse(String datasetName, String ifNoneMatch)"
@@ -165,6 +155,16 @@ methods:
   returns:
     description: "a dataset along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref> on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.analytics.synapse.artifacts.models.DatasetResource?alt=com.azure.analytics.synapse.artifacts.models.DatasetResource&text=DatasetResource\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
+- uid: "com.azure.analytics.synapse.artifacts.DatasetAsyncClient.getDatasetsByWorkspace()"
+  fullName: "com.azure.analytics.synapse.artifacts.DatasetAsyncClient.getDatasetsByWorkspace()"
+  name: "getDatasetsByWorkspace()"
+  nameWithType: "DatasetAsyncClient.getDatasetsByWorkspace()"
+  summary: "Lists datasets."
+  syntax: "public PagedFlux<DatasetResource> getDatasetsByWorkspace()"
+  desc: "Lists datasets."
+  returns:
+    description: "a list of dataset resources as paginated response with <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
+    type: "<xref href=\"com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.analytics.synapse.artifacts.models.DatasetResource?alt=com.azure.analytics.synapse.artifacts.models.DatasetResource&text=DatasetResource\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.analytics.synapse.artifacts.DatasetAsyncClient.renameDataset(java.lang.String,com.azure.analytics.synapse.artifacts.models.ArtifactRenameRequest)"
   fullName: "com.azure.analytics.synapse.artifacts.DatasetAsyncClient.renameDataset(String datasetName, ArtifactRenameRequest request)"
   name: "renameDataset(String datasetName, ArtifactRenameRequest request)"

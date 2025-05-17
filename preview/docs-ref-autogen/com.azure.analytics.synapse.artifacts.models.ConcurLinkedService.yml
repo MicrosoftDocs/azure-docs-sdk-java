@@ -185,6 +185,19 @@ methods:
   returns:
     description: "the ConcurLinkedService object itself."
     type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.ConcurLinkedService?alt=com.azure.analytics.synapse.artifacts.models.ConcurLinkedService&text=ConcurLinkedService\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.analytics.synapse.artifacts.models.ConcurLinkedService.setConnectVia(com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference)"
+  fullName: "com.azure.analytics.synapse.artifacts.models.ConcurLinkedService.setConnectVia(IntegrationRuntimeReference connectVia)"
+  name: "setConnectVia(IntegrationRuntimeReference connectVia)"
+  nameWithType: "ConcurLinkedService.setConnectVia(IntegrationRuntimeReference connectVia)"
+  summary: "Set the connect<wbr>Via property: The integration runtime reference."
+  overridden: "com.azure.analytics.synapse.artifacts.models.LinkedService.setConnectVia(com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference)"
+  parameters:
+  - name: "connectVia"
+    type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference?alt=com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference&text=IntegrationRuntimeReference\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ConcurLinkedService setConnectVia(IntegrationRuntimeReference connectVia)"
+  desc: "Set the connectVia property: The integration runtime reference."
+  returns:
+    type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.ConcurLinkedService?alt=com.azure.analytics.synapse.artifacts.models.ConcurLinkedService&text=ConcurLinkedService\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.analytics.synapse.artifacts.models.ConcurLinkedService.setConnectionProperties(java.lang.Object)"
   fullName: "com.azure.analytics.synapse.artifacts.models.ConcurLinkedService.setConnectionProperties(Object connectionProperties)"
   name: "setConnectionProperties(Object connectionProperties)"
@@ -198,19 +211,6 @@ methods:
   desc: "Set the connectionProperties property: Properties used to connect to Concur. It is mutually exclusive with any other properties in the linked service. Type: object."
   returns:
     description: "the ConcurLinkedService object itself."
-    type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.ConcurLinkedService?alt=com.azure.analytics.synapse.artifacts.models.ConcurLinkedService&text=ConcurLinkedService\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.analytics.synapse.artifacts.models.ConcurLinkedService.setConnectVia(com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference)"
-  fullName: "com.azure.analytics.synapse.artifacts.models.ConcurLinkedService.setConnectVia(IntegrationRuntimeReference connectVia)"
-  name: "setConnectVia(IntegrationRuntimeReference connectVia)"
-  nameWithType: "ConcurLinkedService.setConnectVia(IntegrationRuntimeReference connectVia)"
-  summary: "Set the connect<wbr>Via property: The integration runtime reference."
-  overridden: "com.azure.analytics.synapse.artifacts.models.LinkedService.setConnectVia(com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference)"
-  parameters:
-  - name: "connectVia"
-    type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference?alt=com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference&text=IntegrationRuntimeReference\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public ConcurLinkedService setConnectVia(IntegrationRuntimeReference connectVia)"
-  desc: "Set the connectVia property: The integration runtime reference."
-  returns:
     type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.ConcurLinkedService?alt=com.azure.analytics.synapse.artifacts.models.ConcurLinkedService&text=ConcurLinkedService\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.analytics.synapse.artifacts.models.ConcurLinkedService.setDescription(java.lang.String)"
   fullName: "com.azure.analytics.synapse.artifacts.models.ConcurLinkedService.setDescription(String description)"

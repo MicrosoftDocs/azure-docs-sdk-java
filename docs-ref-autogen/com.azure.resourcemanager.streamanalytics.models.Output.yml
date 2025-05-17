@@ -146,11 +146,11 @@ methods:
   fullName: "com.azure.resourcemanager.streamanalytics.models.Output.test()"
   name: "test()"
   nameWithType: "Output.test()"
-  summary: "Tests whether an output’s datasource is reachable and usable by the Azure Stream Analytics service."
+  summary: "Tests whether an output\\\\u2019s datasource is reachable and usable by the Azure Stream Analytics service."
   modifiers:
   - "abstract"
   syntax: "public abstract ResourceTestStatus test()"
-  desc: "Tests whether an output’s datasource is reachable and usable by the Azure Stream Analytics service."
+  desc: "Tests whether an output\\\\u2019s datasource is reachable and usable by the Azure Stream Analytics service."
   returns:
     description: "describes the status of the test operation along with error information, if applicable."
     type: "<xref href=\"com.azure.resourcemanager.streamanalytics.models.ResourceTestStatus?alt=com.azure.resourcemanager.streamanalytics.models.ResourceTestStatus&text=ResourceTestStatus\" data-throw-if-not-resolved=\"False\" />"
@@ -158,7 +158,7 @@ methods:
   fullName: "com.azure.resourcemanager.streamanalytics.models.Output.test(OutputInner output, Context context)"
   name: "test(OutputInner output, Context context)"
   nameWithType: "Output.test(OutputInner output, Context context)"
-  summary: "Tests whether an output’s datasource is reachable and usable by the Azure Stream Analytics service."
+  summary: "Tests whether an output\\\\u2019s datasource is reachable and usable by the Azure Stream Analytics service."
   modifiers:
   - "abstract"
   parameters:
@@ -169,7 +169,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract ResourceTestStatus test(OutputInner output, Context context)"
-  desc: "Tests whether an output’s datasource is reachable and usable by the Azure Stream Analytics service."
+  desc: "Tests whether an output\\\\u2019s datasource is reachable and usable by the Azure Stream Analytics service."
   returns:
     description: "describes the status of the test operation along with error information, if applicable."
     type: "<xref href=\"com.azure.resourcemanager.streamanalytics.models.ResourceTestStatus?alt=com.azure.resourcemanager.streamanalytics.models.ResourceTestStatus&text=ResourceTestStatus\" data-throw-if-not-resolved=\"False\" />"

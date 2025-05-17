@@ -58,6 +58,16 @@ methods:
   returns:
     description: "The HTTP port that the local server is listening on."
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.core.test.http.LocalTestServer.getHttpUri()"
+  fullName: "com.azure.core.test.http.LocalTestServer.getHttpUri()"
+  name: "getHttpUri()"
+  nameWithType: "LocalTestServer.getHttpUri()"
+  summary: "Gets the HTTP URI that the local server is listening on."
+  syntax: "public String getHttpUri()"
+  desc: "Gets the HTTP URI that the local server is listening on."
+  returns:
+    description: "The HTTP URI that the local server is listening on."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.core.test.http.LocalTestServer.getHttpsPort()"
   fullName: "com.azure.core.test.http.LocalTestServer.getHttpsPort()"
   name: "getHttpsPort()"
@@ -77,16 +87,6 @@ methods:
   desc: "Gets the HTTPS URI that the local server is listening on."
   returns:
     description: "The HTTPS URI that the local server is listening on."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.core.test.http.LocalTestServer.getHttpUri()"
-  fullName: "com.azure.core.test.http.LocalTestServer.getHttpUri()"
-  name: "getHttpUri()"
-  nameWithType: "LocalTestServer.getHttpUri()"
-  summary: "Gets the HTTP URI that the local server is listening on."
-  syntax: "public String getHttpUri()"
-  desc: "Gets the HTTP URI that the local server is listening on."
-  returns:
-    description: "The HTTP URI that the local server is listening on."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.core.test.http.LocalTestServer.start()"
   fullName: "com.azure.core.test.http.LocalTestServer.start()"

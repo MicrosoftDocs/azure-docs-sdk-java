@@ -126,18 +126,6 @@ methods:
   returns:
     description: "the OperationResultsClient object."
     type: "<xref href=\"com.azure.resourcemanager.videoanalyzer.fluent.OperationResultsClient?alt=com.azure.resourcemanager.videoanalyzer.fluent.OperationResultsClient&text=OperationResultsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.videoanalyzer.fluent.VideoAnalyzerManagementClient.getOperations()"
-  fullName: "com.azure.resourcemanager.videoanalyzer.fluent.VideoAnalyzerManagementClient.getOperations()"
-  name: "getOperations()"
-  nameWithType: "VideoAnalyzerManagementClient.getOperations()"
-  summary: "Gets the Operations<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract OperationsClient getOperations()"
-  desc: "Gets the OperationsClient object to access its operations."
-  returns:
-    description: "the OperationsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.videoanalyzer.fluent.OperationsClient?alt=com.azure.resourcemanager.videoanalyzer.fluent.OperationsClient&text=OperationsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.videoanalyzer.fluent.VideoAnalyzerManagementClient.getOperationStatuses()"
   fullName: "com.azure.resourcemanager.videoanalyzer.fluent.VideoAnalyzerManagementClient.getOperationStatuses()"
   name: "getOperationStatuses()"
@@ -150,6 +138,18 @@ methods:
   returns:
     description: "the OperationStatusesClient object."
     type: "<xref href=\"com.azure.resourcemanager.videoanalyzer.fluent.OperationStatusesClient?alt=com.azure.resourcemanager.videoanalyzer.fluent.OperationStatusesClient&text=OperationStatusesClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.videoanalyzer.fluent.VideoAnalyzerManagementClient.getOperations()"
+  fullName: "com.azure.resourcemanager.videoanalyzer.fluent.VideoAnalyzerManagementClient.getOperations()"
+  name: "getOperations()"
+  nameWithType: "VideoAnalyzerManagementClient.getOperations()"
+  summary: "Gets the Operations<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract OperationsClient getOperations()"
+  desc: "Gets the OperationsClient object to access its operations."
+  returns:
+    description: "the OperationsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.videoanalyzer.fluent.OperationsClient?alt=com.azure.resourcemanager.videoanalyzer.fluent.OperationsClient&text=OperationsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.videoanalyzer.fluent.VideoAnalyzerManagementClient.getPipelineJobOperationStatuses()"
   fullName: "com.azure.resourcemanager.videoanalyzer.fluent.VideoAnalyzerManagementClient.getPipelineJobOperationStatuses()"
   name: "getPipelineJobOperationStatuses()"

@@ -167,18 +167,6 @@ methods:
   returns:
     description: "the enableEncryptionAtHost value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
-- uid: "com.azure.resourcemanager.servicefabricmanagedclusters.models.NodeType.enableNodePublicIp()"
-  fullName: "com.azure.resourcemanager.servicefabricmanagedclusters.models.NodeType.enableNodePublicIp()"
-  name: "enableNodePublicIp()"
-  nameWithType: "NodeType.enableNodePublicIp()"
-  summary: "Gets the enable<wbr>Node<wbr>Public<wbr>Ip property: Specifies whether each node is allocated its own public IPv4 address."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract Boolean enableNodePublicIp()"
-  desc: "Gets the enableNodePublicIp property: Specifies whether each node is allocated its own public IPv4 address. This is only supported on secondary node types with custom Load Balancers."
-  returns:
-    description: "the enableNodePublicIp value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
 - uid: "com.azure.resourcemanager.servicefabricmanagedclusters.models.NodeType.enableNodePublicIPv6()"
   fullName: "com.azure.resourcemanager.servicefabricmanagedclusters.models.NodeType.enableNodePublicIPv6()"
   name: "enableNodePublicIPv6()"
@@ -190,6 +178,18 @@ methods:
   desc: "Gets the enableNodePublicIPv6 property: Specifies whether each node is allocated its own public IPv6 address. This is only supported on secondary node types with custom Load Balancers."
   returns:
     description: "the enableNodePublicIPv6 value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
+- uid: "com.azure.resourcemanager.servicefabricmanagedclusters.models.NodeType.enableNodePublicIp()"
+  fullName: "com.azure.resourcemanager.servicefabricmanagedclusters.models.NodeType.enableNodePublicIp()"
+  name: "enableNodePublicIp()"
+  nameWithType: "NodeType.enableNodePublicIp()"
+  summary: "Gets the enable<wbr>Node<wbr>Public<wbr>Ip property: Specifies whether each node is allocated its own public IPv4 address."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract Boolean enableNodePublicIp()"
+  desc: "Gets the enableNodePublicIp property: Specifies whether each node is allocated its own public IPv4 address. This is only supported on secondary node types with custom Load Balancers."
+  returns:
+    description: "the enableNodePublicIp value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
 - uid: "com.azure.resourcemanager.servicefabricmanagedclusters.models.NodeType.enableOverProvisioning()"
   fullName: "com.azure.resourcemanager.servicefabricmanagedclusters.models.NodeType.enableOverProvisioning()"

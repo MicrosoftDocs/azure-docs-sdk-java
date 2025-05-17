@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.storage.fluent.models.TableServicePropertiesProp
 fullName: "com.azure.resourcemanager.storage.fluent.models.TableServicePropertiesProperties"
 name: "TableServicePropertiesProperties"
 nameWithType: "TableServicePropertiesProperties"
-summary: "The properties of a storage account’s Table service."
+summary: "The properties of a storage account\\\\u2019s Table service."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -93,7 +93,7 @@ methods:
     description: "the TableServicePropertiesProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.storage.fluent.models.TableServicePropertiesProperties?alt=com.azure.resourcemanager.storage.fluent.models.TableServicePropertiesProperties&text=TableServicePropertiesProperties\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "The properties of a storage account’s Table service."
+desc: "The properties of a storage account\\\\u2019s Table service."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.storage.fluent.models.TableServicePropertiesProperties?alt=com.azure.resourcemanager.storage.fluent.models.TableServicePropertiesProperties&text=TableServicePropertiesProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}

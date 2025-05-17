@@ -102,6 +102,30 @@ methods:
   syntax: "public abstract StorageAccount.Update withAzureFilesAadIntegrationEnabled(boolean enabled)"
   returns:
     type: "<xref href=\"com.microsoft.azure.management.storage.StorageAccount.Update?alt=com.microsoft.azure.management.storage.StorageAccount.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithNetworkAccess.withReadAccessToLogEntriesFromAnyNetwork()"
+  fullName: "com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithNetworkAccess.withReadAccessToLogEntriesFromAnyNetwork()"
+  name: "withReadAccessToLogEntriesFromAnyNetwork()"
+  nameWithType: "StorageAccount.UpdateStages.WithNetworkAccess.withReadAccessToLogEntriesFromAnyNetwork()"
+  summary: "Specifies that read access to the storage logging should be allowed from any network."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract StorageAccount.Update withReadAccessToLogEntriesFromAnyNetwork()"
+  desc: "Specifies that read access to the storage logging should be allowed from any network."
+  returns:
+    description: "the next stage of storage account definition"
+    type: "<xref href=\"com.microsoft.azure.management.storage.StorageAccount.Update?alt=com.microsoft.azure.management.storage.StorageAccount.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithNetworkAccess.withReadAccessToMetricsFromAnyNetwork()"
+  fullName: "com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithNetworkAccess.withReadAccessToMetricsFromAnyNetwork()"
+  name: "withReadAccessToMetricsFromAnyNetwork()"
+  nameWithType: "StorageAccount.UpdateStages.WithNetworkAccess.withReadAccessToMetricsFromAnyNetwork()"
+  summary: "Specifies that read access to the storage metrics should be allowed from any network."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract StorageAccount.Update withReadAccessToMetricsFromAnyNetwork()"
+  desc: "Specifies that read access to the storage metrics should be allowed from any network."
+  returns:
+    description: "the next stage of storage account definition"
+    type: "<xref href=\"com.microsoft.azure.management.storage.StorageAccount.Update?alt=com.microsoft.azure.management.storage.StorageAccount.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithNetworkAccess.withoutAccessFromAzureServices()"
   fullName: "com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithNetworkAccess.withoutAccessFromAzureServices()"
   name: "withoutAccessFromAzureServices()"
@@ -185,30 +209,6 @@ methods:
   desc: "Specifies that previously added read access exception to the storage metrics from any network should be removed."
   returns:
     description: "the next stage of storage account update"
-    type: "<xref href=\"com.microsoft.azure.management.storage.StorageAccount.Update?alt=com.microsoft.azure.management.storage.StorageAccount.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithNetworkAccess.withReadAccessToLogEntriesFromAnyNetwork()"
-  fullName: "com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithNetworkAccess.withReadAccessToLogEntriesFromAnyNetwork()"
-  name: "withReadAccessToLogEntriesFromAnyNetwork()"
-  nameWithType: "StorageAccount.UpdateStages.WithNetworkAccess.withReadAccessToLogEntriesFromAnyNetwork()"
-  summary: "Specifies that read access to the storage logging should be allowed from any network."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract StorageAccount.Update withReadAccessToLogEntriesFromAnyNetwork()"
-  desc: "Specifies that read access to the storage logging should be allowed from any network."
-  returns:
-    description: "the next stage of storage account definition"
-    type: "<xref href=\"com.microsoft.azure.management.storage.StorageAccount.Update?alt=com.microsoft.azure.management.storage.StorageAccount.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithNetworkAccess.withReadAccessToMetricsFromAnyNetwork()"
-  fullName: "com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithNetworkAccess.withReadAccessToMetricsFromAnyNetwork()"
-  name: "withReadAccessToMetricsFromAnyNetwork()"
-  nameWithType: "StorageAccount.UpdateStages.WithNetworkAccess.withReadAccessToMetricsFromAnyNetwork()"
-  summary: "Specifies that read access to the storage metrics should be allowed from any network."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract StorageAccount.Update withReadAccessToMetricsFromAnyNetwork()"
-  desc: "Specifies that read access to the storage metrics should be allowed from any network."
-  returns:
-    description: "the next stage of storage account definition"
     type: "<xref href=\"com.microsoft.azure.management.storage.StorageAccount.Update?alt=com.microsoft.azure.management.storage.StorageAccount.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 desc: "The stage of storage account update allowing to configure network access."

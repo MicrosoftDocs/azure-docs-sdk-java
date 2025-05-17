@@ -164,16 +164,6 @@ methods:
   returns:
     description: "a handle to cancel the request"
     type: "<xref href=\"com.microsoft.rest.ServiceFuture?alt=com.microsoft.rest.ServiceFuture&text=ServiceFuture\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.util.List?alt=java.util.List&text=List\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.management.storage.StorageAccountKey?alt=com.microsoft.azure.management.storage.StorageAccountKey&text=StorageAccountKey\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
-- uid: "com.microsoft.azure.management.storage.StorageAccount.ipAddressesWithAccess()"
-  fullName: "com.microsoft.azure.management.storage.StorageAccount.ipAddressesWithAccess()"
-  name: "ipAddressesWithAccess()"
-  nameWithType: "StorageAccount.ipAddressesWithAccess()"
-  modifiers:
-  - "abstract"
-  syntax: "public abstract List<String> ipAddressesWithAccess()"
-  returns:
-    description: "the list of ip addresses having access to the storage account."
-    type: "<xref href=\"java.util.List?alt=java.util.List&text=List\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.microsoft.azure.management.storage.StorageAccount.ipAddressRangesWithAccess()"
   fullName: "com.microsoft.azure.management.storage.StorageAccount.ipAddressRangesWithAccess()"
   name: "ipAddressRangesWithAccess()"
@@ -183,6 +173,16 @@ methods:
   syntax: "public abstract List<String> ipAddressRangesWithAccess()"
   returns:
     description: "the list of ip address ranges having access to the storage account."
+    type: "<xref href=\"java.util.List?alt=java.util.List&text=List\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.microsoft.azure.management.storage.StorageAccount.ipAddressesWithAccess()"
+  fullName: "com.microsoft.azure.management.storage.StorageAccount.ipAddressesWithAccess()"
+  name: "ipAddressesWithAccess()"
+  nameWithType: "StorageAccount.ipAddressesWithAccess()"
+  modifiers:
+  - "abstract"
+  syntax: "public abstract List<String> ipAddressesWithAccess()"
+  returns:
+    description: "the list of ip addresses having access to the storage account."
     type: "<xref href=\"java.util.List?alt=java.util.List&text=List\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.microsoft.azure.management.storage.StorageAccount.isAccessAllowedFromAllNetworks()"
   fullName: "com.microsoft.azure.management.storage.StorageAccount.isAccessAllowedFromAllNetworks()"

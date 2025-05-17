@@ -66,16 +66,6 @@ methods:
   returns:
     description: "the provisioningState value."
     type: "<xref href=\"com.microsoft.azure.management.network.ProvisioningState?alt=com.microsoft.azure.management.network.ProvisioningState&text=ProvisioningState\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.azure.management.network.PublicIPPrefix.publicIPAddresses()"
-  fullName: "com.microsoft.azure.management.network.PublicIPPrefix.publicIPAddresses()"
-  name: "publicIPAddresses()"
-  nameWithType: "PublicIPPrefix.publicIPAddresses()"
-  modifiers:
-  - "abstract"
-  syntax: "public abstract List<ReferencedPublicIpAddress> publicIPAddresses()"
-  returns:
-    description: "the publicIPAddresses value."
-    type: "<xref href=\"java.util.List?alt=java.util.List&text=List\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.management.network.ReferencedPublicIpAddress?alt=com.microsoft.azure.management.network.ReferencedPublicIpAddress&text=ReferencedPublicIpAddress\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.microsoft.azure.management.network.PublicIPPrefix.publicIPAddressVersion()"
   fullName: "com.microsoft.azure.management.network.PublicIPPrefix.publicIPAddressVersion()"
   name: "publicIPAddressVersion()"
@@ -86,6 +76,16 @@ methods:
   returns:
     description: "the publicIPAddressVersion value."
     type: "<xref href=\"com.microsoft.azure.management.network.IPVersion?alt=com.microsoft.azure.management.network.IPVersion&text=IPVersion\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.azure.management.network.PublicIPPrefix.publicIPAddresses()"
+  fullName: "com.microsoft.azure.management.network.PublicIPPrefix.publicIPAddresses()"
+  name: "publicIPAddresses()"
+  nameWithType: "PublicIPPrefix.publicIPAddresses()"
+  modifiers:
+  - "abstract"
+  syntax: "public abstract List<ReferencedPublicIpAddress> publicIPAddresses()"
+  returns:
+    description: "the publicIPAddresses value."
+    type: "<xref href=\"java.util.List?alt=java.util.List&text=List\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.management.network.ReferencedPublicIpAddress?alt=com.microsoft.azure.management.network.ReferencedPublicIpAddress&text=ReferencedPublicIpAddress\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.microsoft.azure.management.network.PublicIPPrefix.resourceGuid()"
   fullName: "com.microsoft.azure.management.network.PublicIPPrefix.resourceGuid()"
   name: "resourceGuid()"

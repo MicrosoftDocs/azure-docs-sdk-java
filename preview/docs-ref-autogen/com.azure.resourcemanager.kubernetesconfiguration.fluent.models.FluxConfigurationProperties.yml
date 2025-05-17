@@ -170,16 +170,6 @@ methods:
   returns:
     description: "the sourceUpdatedAt value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
-- uid: "com.azure.resourcemanager.kubernetesconfiguration.fluent.models.FluxConfigurationProperties.statuses()"
-  fullName: "com.azure.resourcemanager.kubernetesconfiguration.fluent.models.FluxConfigurationProperties.statuses()"
-  name: "statuses()"
-  nameWithType: "FluxConfigurationProperties.statuses()"
-  summary: "Get the statuses property: Statuses of the Flux Kubernetes resources created by the flux<wbr>Configuration or created by the managed objects provisioned by the flux<wbr>Configuration."
-  syntax: "public List<ObjectStatusDefinition> statuses()"
-  desc: "Get the statuses property: Statuses of the Flux Kubernetes resources created by the fluxConfiguration or created by the managed objects provisioned by the fluxConfiguration."
-  returns:
-    description: "the statuses value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.kubernetesconfiguration.models.ObjectStatusDefinition?alt=com.azure.resourcemanager.kubernetesconfiguration.models.ObjectStatusDefinition&text=ObjectStatusDefinition\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.kubernetesconfiguration.fluent.models.FluxConfigurationProperties.statusUpdatedAt()"
   fullName: "com.azure.resourcemanager.kubernetesconfiguration.fluent.models.FluxConfigurationProperties.statusUpdatedAt()"
   name: "statusUpdatedAt()"
@@ -190,6 +180,16 @@ methods:
   returns:
     description: "the statusUpdatedAt value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
+- uid: "com.azure.resourcemanager.kubernetesconfiguration.fluent.models.FluxConfigurationProperties.statuses()"
+  fullName: "com.azure.resourcemanager.kubernetesconfiguration.fluent.models.FluxConfigurationProperties.statuses()"
+  name: "statuses()"
+  nameWithType: "FluxConfigurationProperties.statuses()"
+  summary: "Get the statuses property: Statuses of the Flux Kubernetes resources created by the flux<wbr>Configuration or created by the managed objects provisioned by the flux<wbr>Configuration."
+  syntax: "public List<ObjectStatusDefinition> statuses()"
+  desc: "Get the statuses property: Statuses of the Flux Kubernetes resources created by the fluxConfiguration or created by the managed objects provisioned by the fluxConfiguration."
+  returns:
+    description: "the statuses value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.kubernetesconfiguration.models.ObjectStatusDefinition?alt=com.azure.resourcemanager.kubernetesconfiguration.models.ObjectStatusDefinition&text=ObjectStatusDefinition\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.kubernetesconfiguration.fluent.models.FluxConfigurationProperties.suspend()"
   fullName: "com.azure.resourcemanager.kubernetesconfiguration.fluent.models.FluxConfigurationProperties.suspend()"
   name: "suspend()"

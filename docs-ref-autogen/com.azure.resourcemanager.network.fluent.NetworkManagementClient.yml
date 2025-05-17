@@ -797,18 +797,6 @@ methods:
   returns:
     description: "the ApplicationGatewayPrivateLinkResourcesClient object."
     type: "<xref href=\"com.azure.resourcemanager.network.fluent.ApplicationGatewayPrivateLinkResourcesClient?alt=com.azure.resourcemanager.network.fluent.ApplicationGatewayPrivateLinkResourcesClient&text=ApplicationGatewayPrivateLinkResourcesClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.NetworkManagementClient.getApplicationGateways()"
-  fullName: "com.azure.resourcemanager.network.fluent.NetworkManagementClient.getApplicationGateways()"
-  name: "getApplicationGateways()"
-  nameWithType: "NetworkManagementClient.getApplicationGateways()"
-  summary: "Gets the Application<wbr>Gateways<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract ApplicationGatewaysClient getApplicationGateways()"
-  desc: "Gets the ApplicationGatewaysClient object to access its operations."
-  returns:
-    description: "the ApplicationGatewaysClient object."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.ApplicationGatewaysClient?alt=com.azure.resourcemanager.network.fluent.ApplicationGatewaysClient&text=ApplicationGatewaysClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.fluent.NetworkManagementClient.getApplicationGatewayWafDynamicManifests()"
   fullName: "com.azure.resourcemanager.network.fluent.NetworkManagementClient.getApplicationGatewayWafDynamicManifests()"
   name: "getApplicationGatewayWafDynamicManifests()"
@@ -833,6 +821,18 @@ methods:
   returns:
     description: "the ApplicationGatewayWafDynamicManifestsDefaultsClient object."
     type: "<xref href=\"com.azure.resourcemanager.network.fluent.ApplicationGatewayWafDynamicManifestsDefaultsClient?alt=com.azure.resourcemanager.network.fluent.ApplicationGatewayWafDynamicManifestsDefaultsClient&text=ApplicationGatewayWafDynamicManifestsDefaultsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.fluent.NetworkManagementClient.getApplicationGateways()"
+  fullName: "com.azure.resourcemanager.network.fluent.NetworkManagementClient.getApplicationGateways()"
+  name: "getApplicationGateways()"
+  nameWithType: "NetworkManagementClient.getApplicationGateways()"
+  summary: "Gets the Application<wbr>Gateways<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ApplicationGatewaysClient getApplicationGateways()"
+  desc: "Gets the ApplicationGatewaysClient object to access its operations."
+  returns:
+    description: "the ApplicationGatewaysClient object."
+    type: "<xref href=\"com.azure.resourcemanager.network.fluent.ApplicationGatewaysClient?alt=com.azure.resourcemanager.network.fluent.ApplicationGatewaysClient&text=ApplicationGatewaysClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.fluent.NetworkManagementClient.getApplicationSecurityGroups()"
   fullName: "com.azure.resourcemanager.network.fluent.NetworkManagementClient.getApplicationSecurityGroups()"
   name: "getApplicationSecurityGroups()"
@@ -1490,18 +1490,6 @@ methods:
   returns:
     description: "the IpAllocationsClient object."
     type: "<xref href=\"com.azure.resourcemanager.network.fluent.IpAllocationsClient?alt=com.azure.resourcemanager.network.fluent.IpAllocationsClient&text=IpAllocationsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.NetworkManagementClient.getIpamPools()"
-  fullName: "com.azure.resourcemanager.network.fluent.NetworkManagementClient.getIpamPools()"
-  name: "getIpamPools()"
-  nameWithType: "NetworkManagementClient.getIpamPools()"
-  summary: "Gets the Ipam<wbr>Pools<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract IpamPoolsClient getIpamPools()"
-  desc: "Gets the IpamPoolsClient object to access its operations."
-  returns:
-    description: "the IpamPoolsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.IpamPoolsClient?alt=com.azure.resourcemanager.network.fluent.IpamPoolsClient&text=IpamPoolsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.fluent.NetworkManagementClient.getIpGroups()"
   fullName: "com.azure.resourcemanager.network.fluent.NetworkManagementClient.getIpGroups()"
   name: "getIpGroups()"
@@ -1514,6 +1502,18 @@ methods:
   returns:
     description: "the IpGroupsClient object."
     type: "<xref href=\"com.azure.resourcemanager.network.fluent.IpGroupsClient?alt=com.azure.resourcemanager.network.fluent.IpGroupsClient&text=IpGroupsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.fluent.NetworkManagementClient.getIpamPools()"
+  fullName: "com.azure.resourcemanager.network.fluent.NetworkManagementClient.getIpamPools()"
+  name: "getIpamPools()"
+  nameWithType: "NetworkManagementClient.getIpamPools()"
+  summary: "Gets the Ipam<wbr>Pools<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract IpamPoolsClient getIpamPools()"
+  desc: "Gets the IpamPoolsClient object to access its operations."
+  returns:
+    description: "the IpamPoolsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.network.fluent.IpamPoolsClient?alt=com.azure.resourcemanager.network.fluent.IpamPoolsClient&text=IpamPoolsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.fluent.NetworkManagementClient.getLoadBalancerBackendAddressPools()"
   fullName: "com.azure.resourcemanager.network.fluent.NetworkManagementClient.getLoadBalancerBackendAddressPools()"
   name: "getLoadBalancerBackendAddressPools()"
@@ -1682,18 +1682,6 @@ methods:
   returns:
     description: "the NetworkInterfaceLoadBalancersClient object."
     type: "<xref href=\"com.azure.resourcemanager.network.fluent.NetworkInterfaceLoadBalancersClient?alt=com.azure.resourcemanager.network.fluent.NetworkInterfaceLoadBalancersClient&text=NetworkInterfaceLoadBalancersClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.NetworkManagementClient.getNetworkInterfaces()"
-  fullName: "com.azure.resourcemanager.network.fluent.NetworkManagementClient.getNetworkInterfaces()"
-  name: "getNetworkInterfaces()"
-  nameWithType: "NetworkManagementClient.getNetworkInterfaces()"
-  summary: "Gets the Network<wbr>Interfaces<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract NetworkInterfacesClient getNetworkInterfaces()"
-  desc: "Gets the NetworkInterfacesClient object to access its operations."
-  returns:
-    description: "the NetworkInterfacesClient object."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.NetworkInterfacesClient?alt=com.azure.resourcemanager.network.fluent.NetworkInterfacesClient&text=NetworkInterfacesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.fluent.NetworkManagementClient.getNetworkInterfaceTapConfigurations()"
   fullName: "com.azure.resourcemanager.network.fluent.NetworkManagementClient.getNetworkInterfaceTapConfigurations()"
   name: "getNetworkInterfaceTapConfigurations()"
@@ -1706,6 +1694,18 @@ methods:
   returns:
     description: "the NetworkInterfaceTapConfigurationsClient object."
     type: "<xref href=\"com.azure.resourcemanager.network.fluent.NetworkInterfaceTapConfigurationsClient?alt=com.azure.resourcemanager.network.fluent.NetworkInterfaceTapConfigurationsClient&text=NetworkInterfaceTapConfigurationsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.fluent.NetworkManagementClient.getNetworkInterfaces()"
+  fullName: "com.azure.resourcemanager.network.fluent.NetworkManagementClient.getNetworkInterfaces()"
+  name: "getNetworkInterfaces()"
+  nameWithType: "NetworkManagementClient.getNetworkInterfaces()"
+  summary: "Gets the Network<wbr>Interfaces<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract NetworkInterfacesClient getNetworkInterfaces()"
+  desc: "Gets the NetworkInterfacesClient object to access its operations."
+  returns:
+    description: "the NetworkInterfacesClient object."
+    type: "<xref href=\"com.azure.resourcemanager.network.fluent.NetworkInterfacesClient?alt=com.azure.resourcemanager.network.fluent.NetworkInterfacesClient&text=NetworkInterfacesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.fluent.NetworkManagementClient.getNetworkManagerCommits()"
   fullName: "com.azure.resourcemanager.network.fluent.NetworkManagementClient.getNetworkManagerCommits()"
   name: "getNetworkManagerCommits()"
@@ -1994,18 +1994,6 @@ methods:
   returns:
     description: "the RouteMapsClient object."
     type: "<xref href=\"com.azure.resourcemanager.network.fluent.RouteMapsClient?alt=com.azure.resourcemanager.network.fluent.RouteMapsClient&text=RouteMapsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.NetworkManagementClient.getRoutes()"
-  fullName: "com.azure.resourcemanager.network.fluent.NetworkManagementClient.getRoutes()"
-  name: "getRoutes()"
-  nameWithType: "NetworkManagementClient.getRoutes()"
-  summary: "Gets the Routes<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract RoutesClient getRoutes()"
-  desc: "Gets the RoutesClient object to access its operations."
-  returns:
-    description: "the RoutesClient object."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.RoutesClient?alt=com.azure.resourcemanager.network.fluent.RoutesClient&text=RoutesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.fluent.NetworkManagementClient.getRouteTables()"
   fullName: "com.azure.resourcemanager.network.fluent.NetworkManagementClient.getRouteTables()"
   name: "getRouteTables()"
@@ -2018,6 +2006,18 @@ methods:
   returns:
     description: "the RouteTablesClient object."
     type: "<xref href=\"com.azure.resourcemanager.network.fluent.RouteTablesClient?alt=com.azure.resourcemanager.network.fluent.RouteTablesClient&text=RouteTablesClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.fluent.NetworkManagementClient.getRoutes()"
+  fullName: "com.azure.resourcemanager.network.fluent.NetworkManagementClient.getRoutes()"
+  name: "getRoutes()"
+  nameWithType: "NetworkManagementClient.getRoutes()"
+  summary: "Gets the Routes<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract RoutesClient getRoutes()"
+  desc: "Gets the RoutesClient object to access its operations."
+  returns:
+    description: "the RoutesClient object."
+    type: "<xref href=\"com.azure.resourcemanager.network.fluent.RoutesClient?alt=com.azure.resourcemanager.network.fluent.RoutesClient&text=RoutesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.fluent.NetworkManagementClient.getRoutingIntents()"
   fullName: "com.azure.resourcemanager.network.fluent.NetworkManagementClient.getRoutingIntents()"
   name: "getRoutingIntents()"
@@ -2414,18 +2414,6 @@ methods:
   returns:
     description: "the VirtualNetworkPeeringsClient object."
     type: "<xref href=\"com.azure.resourcemanager.network.fluent.VirtualNetworkPeeringsClient?alt=com.azure.resourcemanager.network.fluent.VirtualNetworkPeeringsClient&text=VirtualNetworkPeeringsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.NetworkManagementClient.getVirtualNetworks()"
-  fullName: "com.azure.resourcemanager.network.fluent.NetworkManagementClient.getVirtualNetworks()"
-  name: "getVirtualNetworks()"
-  nameWithType: "NetworkManagementClient.getVirtualNetworks()"
-  summary: "Gets the Virtual<wbr>Networks<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract VirtualNetworksClient getVirtualNetworks()"
-  desc: "Gets the VirtualNetworksClient object to access its operations."
-  returns:
-    description: "the VirtualNetworksClient object."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.VirtualNetworksClient?alt=com.azure.resourcemanager.network.fluent.VirtualNetworksClient&text=VirtualNetworksClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.fluent.NetworkManagementClient.getVirtualNetworkTaps()"
   fullName: "com.azure.resourcemanager.network.fluent.NetworkManagementClient.getVirtualNetworkTaps()"
   name: "getVirtualNetworkTaps()"
@@ -2438,6 +2426,18 @@ methods:
   returns:
     description: "the VirtualNetworkTapsClient object."
     type: "<xref href=\"com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient?alt=com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient&text=VirtualNetworkTapsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.fluent.NetworkManagementClient.getVirtualNetworks()"
+  fullName: "com.azure.resourcemanager.network.fluent.NetworkManagementClient.getVirtualNetworks()"
+  name: "getVirtualNetworks()"
+  nameWithType: "NetworkManagementClient.getVirtualNetworks()"
+  summary: "Gets the Virtual<wbr>Networks<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract VirtualNetworksClient getVirtualNetworks()"
+  desc: "Gets the VirtualNetworksClient object to access its operations."
+  returns:
+    description: "the VirtualNetworksClient object."
+    type: "<xref href=\"com.azure.resourcemanager.network.fluent.VirtualNetworksClient?alt=com.azure.resourcemanager.network.fluent.VirtualNetworksClient&text=VirtualNetworksClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.fluent.NetworkManagementClient.getVirtualRouterPeerings()"
   fullName: "com.azure.resourcemanager.network.fluent.NetworkManagementClient.getVirtualRouterPeerings()"
   name: "getVirtualRouterPeerings()"

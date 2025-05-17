@@ -50,22 +50,6 @@ methods:
   returns:
     description: "the next stage of the definition"
     type: "<xref href=\"com.azure.resourcemanager.network.models.NetworkSecurityRule.Update?alt=com.azure.resourcemanager.network.models.NetworkSecurityRule.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.models.NetworkSecurityRule.UpdateStages.WithSourceAddressOrSecurityGroup.withoutSourceApplicationSecurityGroup(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.models.NetworkSecurityRule.UpdateStages.WithSourceAddressOrSecurityGroup.withoutSourceApplicationSecurityGroup(String id)"
-  name: "withoutSourceApplicationSecurityGroup(String id)"
-  nameWithType: "NetworkSecurityRule.UpdateStages.WithSourceAddressOrSecurityGroup.withoutSourceApplicationSecurityGroup(String id)"
-  summary: "Removes the application security group specified as source."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "application security group id"
-    name: "id"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public abstract NetworkSecurityRule.Update withoutSourceApplicationSecurityGroup(String id)"
-  desc: "Removes the application security group specified as source."
-  returns:
-    description: "the next stage of the update"
-    type: "<xref href=\"com.azure.resourcemanager.network.models.NetworkSecurityRule.Update?alt=com.azure.resourcemanager.network.models.NetworkSecurityRule.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.models.NetworkSecurityRule.UpdateStages.WithSourceAddressOrSecurityGroup.withSourceApplicationSecurityGroup(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.NetworkSecurityRule.UpdateStages.WithSourceAddressOrSecurityGroup.withSourceApplicationSecurityGroup(String id)"
   name: "withSourceApplicationSecurityGroup(String id)"
@@ -79,6 +63,22 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract NetworkSecurityRule.Update withSourceApplicationSecurityGroup(String id)"
   desc: "Sets the application security group specified as source."
+  returns:
+    description: "the next stage of the update"
+    type: "<xref href=\"com.azure.resourcemanager.network.models.NetworkSecurityRule.Update?alt=com.azure.resourcemanager.network.models.NetworkSecurityRule.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.models.NetworkSecurityRule.UpdateStages.WithSourceAddressOrSecurityGroup.withoutSourceApplicationSecurityGroup(java.lang.String)"
+  fullName: "com.azure.resourcemanager.network.models.NetworkSecurityRule.UpdateStages.WithSourceAddressOrSecurityGroup.withoutSourceApplicationSecurityGroup(String id)"
+  name: "withoutSourceApplicationSecurityGroup(String id)"
+  nameWithType: "NetworkSecurityRule.UpdateStages.WithSourceAddressOrSecurityGroup.withoutSourceApplicationSecurityGroup(String id)"
+  summary: "Removes the application security group specified as source."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "application security group id"
+    name: "id"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract NetworkSecurityRule.Update withoutSourceApplicationSecurityGroup(String id)"
+  desc: "Removes the application security group specified as source."
   returns:
     description: "the next stage of the update"
     type: "<xref href=\"com.azure.resourcemanager.network.models.NetworkSecurityRule.Update?alt=com.azure.resourcemanager.network.models.NetworkSecurityRule.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"

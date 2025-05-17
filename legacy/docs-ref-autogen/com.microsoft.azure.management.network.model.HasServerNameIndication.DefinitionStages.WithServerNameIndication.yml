@@ -6,18 +6,6 @@ nameWithType: "HasServerNameIndication.DefinitionStages.WithServerNameIndication
 summary: "The stage of a definition allowing to require server name indication (SNI)."
 syntax: "public static interface **HasServerNameIndication.DefinitionStages.WithServerNameIndication<ReturnT>**"
 methods:
-- uid: "com.microsoft.azure.management.network.model.HasServerNameIndication.DefinitionStages.WithServerNameIndication.withoutServerNameIndication()"
-  fullName: "com.microsoft.azure.management.network.model.HasServerNameIndication.DefinitionStages.WithServerNameIndication<ReturnT>.withoutServerNameIndication()"
-  name: "withoutServerNameIndication()"
-  nameWithType: "HasServerNameIndication.DefinitionStages.WithServerNameIndication<ReturnT>.withoutServerNameIndication()"
-  summary: "Ensures server name indication (SNI) is not required."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract ReturnT withoutServerNameIndication()"
-  desc: "Ensures server name indication (SNI) is not required."
-  returns:
-    description: "the next stage of the definition"
-    type: "<xref href=\"ReturnT?alt=ReturnT&text=ReturnT\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.management.network.model.HasServerNameIndication.DefinitionStages.WithServerNameIndication.withServerNameIndication()"
   fullName: "com.microsoft.azure.management.network.model.HasServerNameIndication.DefinitionStages.WithServerNameIndication<ReturnT>.withServerNameIndication()"
   name: "withServerNameIndication()"
@@ -27,6 +15,18 @@ methods:
   - "abstract"
   syntax: "public abstract ReturnT withServerNameIndication()"
   desc: "Requires server name indication (SNI)."
+  returns:
+    description: "the next stage of the definition"
+    type: "<xref href=\"ReturnT?alt=ReturnT&text=ReturnT\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.azure.management.network.model.HasServerNameIndication.DefinitionStages.WithServerNameIndication.withoutServerNameIndication()"
+  fullName: "com.microsoft.azure.management.network.model.HasServerNameIndication.DefinitionStages.WithServerNameIndication<ReturnT>.withoutServerNameIndication()"
+  name: "withoutServerNameIndication()"
+  nameWithType: "HasServerNameIndication.DefinitionStages.WithServerNameIndication<ReturnT>.withoutServerNameIndication()"
+  summary: "Ensures server name indication (SNI) is not required."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ReturnT withoutServerNameIndication()"
+  desc: "Ensures server name indication (SNI) is not required."
   returns:
     description: "the next stage of the definition"
     type: "<xref href=\"ReturnT?alt=ReturnT&text=ReturnT\" data-throw-if-not-resolved=\"False\" />"

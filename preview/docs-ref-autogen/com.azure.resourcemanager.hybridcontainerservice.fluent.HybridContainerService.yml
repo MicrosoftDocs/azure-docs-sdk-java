@@ -138,18 +138,6 @@ methods:
   returns:
     description: "the subscriptionId value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.hybridcontainerservice.fluent.HybridContainerService.getVirtualNetworks()"
-  fullName: "com.azure.resourcemanager.hybridcontainerservice.fluent.HybridContainerService.getVirtualNetworks()"
-  name: "getVirtualNetworks()"
-  nameWithType: "HybridContainerService.getVirtualNetworks()"
-  summary: "Gets the Virtual<wbr>Networks<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract VirtualNetworksClient getVirtualNetworks()"
-  desc: "Gets the VirtualNetworksClient object to access its operations."
-  returns:
-    description: "the VirtualNetworksClient object."
-    type: "<xref href=\"com.azure.resourcemanager.hybridcontainerservice.fluent.VirtualNetworksClient?alt=com.azure.resourcemanager.hybridcontainerservice.fluent.VirtualNetworksClient&text=VirtualNetworksClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.hybridcontainerservice.fluent.HybridContainerService.getVMSkus()"
   fullName: "com.azure.resourcemanager.hybridcontainerservice.fluent.HybridContainerService.getVMSkus()"
   name: "getVMSkus()"
@@ -162,6 +150,18 @@ methods:
   returns:
     description: "the VMSkusClient object."
     type: "<xref href=\"com.azure.resourcemanager.hybridcontainerservice.fluent.VMSkusClient?alt=com.azure.resourcemanager.hybridcontainerservice.fluent.VMSkusClient&text=VMSkusClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.hybridcontainerservice.fluent.HybridContainerService.getVirtualNetworks()"
+  fullName: "com.azure.resourcemanager.hybridcontainerservice.fluent.HybridContainerService.getVirtualNetworks()"
+  name: "getVirtualNetworks()"
+  nameWithType: "HybridContainerService.getVirtualNetworks()"
+  summary: "Gets the Virtual<wbr>Networks<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract VirtualNetworksClient getVirtualNetworks()"
+  desc: "Gets the VirtualNetworksClient object to access its operations."
+  returns:
+    description: "the VirtualNetworksClient object."
+    type: "<xref href=\"com.azure.resourcemanager.hybridcontainerservice.fluent.VirtualNetworksClient?alt=com.azure.resourcemanager.hybridcontainerservice.fluent.VirtualNetworksClient&text=VirtualNetworksClient\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 desc: "The interface for HybridContainerService class."
 metadata: {}

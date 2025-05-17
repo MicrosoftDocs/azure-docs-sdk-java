@@ -126,6 +126,18 @@ methods:
   returns:
     description: "the isShortKeySize value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
+- uid: "com.azure.resourcemanager.iotfirmwaredefense.models.CryptoCertificateResource.isWeakSignature()"
+  fullName: "com.azure.resourcemanager.iotfirmwaredefense.models.CryptoCertificateResource.isWeakSignature()"
+  name: "isWeakSignature()"
+  nameWithType: "CryptoCertificateResource.isWeakSignature()"
+  summary: "Gets the is<wbr>Weak<wbr>Signature property: Indicates the signature algorithm used is insecure."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract Boolean isWeakSignature()"
+  desc: "Gets the isWeakSignature property: Indicates the signature algorithm used is insecure."
+  returns:
+    description: "the isWeakSignature value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
 - uid: "com.azure.resourcemanager.iotfirmwaredefense.models.CryptoCertificateResource.issuedDate()"
   fullName: "com.azure.resourcemanager.iotfirmwaredefense.models.CryptoCertificateResource.issuedDate()"
   name: "issuedDate()"
@@ -150,18 +162,6 @@ methods:
   returns:
     description: "the issuer value."
     type: "<xref href=\"com.azure.resourcemanager.iotfirmwaredefense.models.CryptoCertificateEntity?alt=com.azure.resourcemanager.iotfirmwaredefense.models.CryptoCertificateEntity&text=CryptoCertificateEntity\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.iotfirmwaredefense.models.CryptoCertificateResource.isWeakSignature()"
-  fullName: "com.azure.resourcemanager.iotfirmwaredefense.models.CryptoCertificateResource.isWeakSignature()"
-  name: "isWeakSignature()"
-  nameWithType: "CryptoCertificateResource.isWeakSignature()"
-  summary: "Gets the is<wbr>Weak<wbr>Signature property: Indicates the signature algorithm used is insecure."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract Boolean isWeakSignature()"
-  desc: "Gets the isWeakSignature property: Indicates the signature algorithm used is insecure."
-  returns:
-    description: "the isWeakSignature value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
 - uid: "com.azure.resourcemanager.iotfirmwaredefense.models.CryptoCertificateResource.keyAlgorithm()"
   fullName: "com.azure.resourcemanager.iotfirmwaredefense.models.CryptoCertificateResource.keyAlgorithm()"
   name: "keyAlgorithm()"

@@ -22,22 +22,6 @@ methods:
   returns:
     description: "the next update stage"
     type: "<xref href=\"com.azure.resourcemanager.compute.models.GalleryImage.Update?alt=com.azure.resourcemanager.compute.models.GalleryImage.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.compute.models.GalleryImage.UpdateStages.WithDisallowed.withoutUnsupportedDiskType(com.azure.resourcemanager.compute.models.DiskSkuTypes)"
-  fullName: "com.azure.resourcemanager.compute.models.GalleryImage.UpdateStages.WithDisallowed.withoutUnsupportedDiskType(DiskSkuTypes diskType)"
-  name: "withoutUnsupportedDiskType(DiskSkuTypes diskType)"
-  nameWithType: "GalleryImage.UpdateStages.WithDisallowed.withoutUnsupportedDiskType(DiskSkuTypes diskType)"
-  summary: "Specifies the disk type should be removed from the unsupported disk type."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "the disk type"
-    name: "diskType"
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.DiskSkuTypes?alt=com.azure.resourcemanager.compute.models.DiskSkuTypes&text=DiskSkuTypes\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract GalleryImage.Update withoutUnsupportedDiskType(DiskSkuTypes diskType)"
-  desc: "Specifies the disk type should be removed from the unsupported disk type."
-  returns:
-    description: "the next update stage"
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.GalleryImage.Update?alt=com.azure.resourcemanager.compute.models.GalleryImage.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.models.GalleryImage.UpdateStages.WithDisallowed.withUnsupportedDiskType(com.azure.resourcemanager.compute.models.DiskSkuTypes)"
   fullName: "com.azure.resourcemanager.compute.models.GalleryImage.UpdateStages.WithDisallowed.withUnsupportedDiskType(DiskSkuTypes diskType)"
   name: "withUnsupportedDiskType(DiskSkuTypes diskType)"
@@ -67,6 +51,22 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.compute.models.DiskSkuTypes?alt=com.azure.resourcemanager.compute.models.DiskSkuTypes&text=DiskSkuTypes\" data-throw-if-not-resolved=\"False\" />&gt;"
   syntax: "public abstract GalleryImage.Update withUnsupportedDiskTypes(List<DiskSkuTypes> diskTypes)"
   desc: "Specifies the disk types not supported by the image."
+  returns:
+    description: "the next update stage"
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.GalleryImage.Update?alt=com.azure.resourcemanager.compute.models.GalleryImage.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.GalleryImage.UpdateStages.WithDisallowed.withoutUnsupportedDiskType(com.azure.resourcemanager.compute.models.DiskSkuTypes)"
+  fullName: "com.azure.resourcemanager.compute.models.GalleryImage.UpdateStages.WithDisallowed.withoutUnsupportedDiskType(DiskSkuTypes diskType)"
+  name: "withoutUnsupportedDiskType(DiskSkuTypes diskType)"
+  nameWithType: "GalleryImage.UpdateStages.WithDisallowed.withoutUnsupportedDiskType(DiskSkuTypes diskType)"
+  summary: "Specifies the disk type should be removed from the unsupported disk type."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "the disk type"
+    name: "diskType"
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.DiskSkuTypes?alt=com.azure.resourcemanager.compute.models.DiskSkuTypes&text=DiskSkuTypes\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract GalleryImage.Update withoutUnsupportedDiskType(DiskSkuTypes diskType)"
+  desc: "Specifies the disk type should be removed from the unsupported disk type."
   returns:
     description: "the next update stage"
     type: "<xref href=\"com.azure.resourcemanager.compute.models.GalleryImage.Update?alt=com.azure.resourcemanager.compute.models.GalleryImage.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"

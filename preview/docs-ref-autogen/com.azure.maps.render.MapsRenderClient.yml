@@ -279,6 +279,23 @@ methods:
   returns:
     description: "BinaryData"
     type: "<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.maps.render.MapsRenderClient.getMapTileWithResponse(com.azure.maps.render.models.MapTileOptions,com.azure.core.util.Context)"
+  fullName: "com.azure.maps.render.MapsRenderClient.getMapTileWithResponse(MapTileOptions options, Context context)"
+  name: "getMapTileWithResponse(MapTileOptions options, Context context)"
+  nameWithType: "MapsRenderClient.getMapTileWithResponse(MapTileOptions options, Context context)"
+  summary: "Get Map Tile"
+  parameters:
+  - description: "the <code>MapTileOptions</code> to control the API behavior."
+    name: "options"
+    type: "<xref href=\"com.azure.maps.render.models.MapTileOptions?alt=com.azure.maps.render.models.MapTileOptions&text=MapTileOptions\" data-throw-if-not-resolved=\"False\" />"
+  - description: "the context associated with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public Response<BinaryData> getMapTileWithResponse(MapTileOptions options, Context context)"
+  desc: "Get Map Tile\n\n```java\nSystem.out.println(\"Get Map Tile\");\n MapTileOptions mapTileOptions = new MapTileOptions();\n mapTileOptions.setTilesetId(TilesetId.MICROSOFT_BASE_ROAD);\n mapTileOptions.setTileIndex(new TileIndex().setX(10).setY(22).setZ(6));\n client.getMapTile(mapTileOptions);\n```\n\nThe Get Map Tiles API allows users to request map tiles in vector or raster formats typically to be integrated into a map control or SDK."
+  returns:
+    description: "the response."
+    type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.maps.render.MapsRenderClient.getMapTileset(com.azure.maps.render.models.TilesetId)"
   fullName: "com.azure.maps.render.MapsRenderClient.getMapTileset(TilesetId tilesetId)"
   name: "getMapTileset(TilesetId tilesetId)"
@@ -310,23 +327,6 @@ methods:
   returns:
     description: "metadata for a tileset in the TileJSON format."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.maps.render.models.MapTileset?alt=com.azure.maps.render.models.MapTileset&text=MapTileset\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.maps.render.MapsRenderClient.getMapTileWithResponse(com.azure.maps.render.models.MapTileOptions,com.azure.core.util.Context)"
-  fullName: "com.azure.maps.render.MapsRenderClient.getMapTileWithResponse(MapTileOptions options, Context context)"
-  name: "getMapTileWithResponse(MapTileOptions options, Context context)"
-  nameWithType: "MapsRenderClient.getMapTileWithResponse(MapTileOptions options, Context context)"
-  summary: "Get Map Tile"
-  parameters:
-  - description: "the <code>MapTileOptions</code> to control the API behavior."
-    name: "options"
-    type: "<xref href=\"com.azure.maps.render.models.MapTileOptions?alt=com.azure.maps.render.models.MapTileOptions&text=MapTileOptions\" data-throw-if-not-resolved=\"False\" />"
-  - description: "the context associated with this operation."
-    name: "context"
-    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public Response<BinaryData> getMapTileWithResponse(MapTileOptions options, Context context)"
-  desc: "Get Map Tile\n\n```java\nSystem.out.println(\"Get Map Tile\");\n MapTileOptions mapTileOptions = new MapTileOptions();\n mapTileOptions.setTilesetId(TilesetId.MICROSOFT_BASE_ROAD);\n mapTileOptions.setTileIndex(new TileIndex().setX(10).setY(22).setZ(6));\n client.getMapTile(mapTileOptions);\n```\n\nThe Get Map Tiles API allows users to request map tiles in vector or raster formats typically to be integrated into a map control or SDK."
-  returns:
-    description: "the response."
-    type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "class"
 desc: "Initializes a new instance of the synchronous RenderClient type. <xref uid=\"com.azure.maps.render.MapsRenderClient\" data-throw-if-not-resolved=\"false\" data-raw-source=\"MapsRenderClient\"></xref> instances are created via the <xref uid=\"com.azure.maps.render.MapsRenderClientBuilder\" data-throw-if-not-resolved=\"false\" data-raw-source=\"MapsRenderClientBuilder\"></xref>, as shown below. Creating a sync client using a <xref uid=\"com.azure.core.credential.AzureKeyCredential\" data-throw-if-not-resolved=\"false\" data-raw-source=\"com.azure.core.credential.AzureKeyCredential\"></xref>:\n\n```java\n// Authenticates using subscription key\n AzureKeyCredential keyCredential = new AzureKeyCredential(System.getenv(\"SUBSCRIPTION_KEY\"));\n\n // Creates a builder\n MapsRenderClientBuilder builder = new MapsRenderClientBuilder();\n builder.credential(keyCredential);\n builder.httpLogOptions(new HttpLogOptions().setLogLevel(HttpLogDetailLevel.BODY_AND_HEADERS));\n\n // Builds the client\n MapsRenderClient client = builder.buildClient();\n```"
 metadata: {}

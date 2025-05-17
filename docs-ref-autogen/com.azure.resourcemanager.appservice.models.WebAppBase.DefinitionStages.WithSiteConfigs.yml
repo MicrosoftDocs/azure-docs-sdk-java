@@ -166,22 +166,6 @@ methods:
   returns:
     description: "the next stage of the definition"
     type: "<xref href=\"com.azure.resourcemanager.appservice.models.WebAppBase.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.appservice.models.WebAppBase.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"FluentT?alt=FluentT&text=FluentT\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.resourcemanager.appservice.models.WebAppBase.DefinitionStages.WithSiteConfigs.withoutDefaultDocument(java.lang.String)"
-  fullName: "com.azure.resourcemanager.appservice.models.WebAppBase.DefinitionStages.WithSiteConfigs<FluentT>.withoutDefaultDocument(String document)"
-  name: "withoutDefaultDocument(String document)"
-  nameWithType: "WebAppBase.DefinitionStages.WithSiteConfigs<FluentT>.withoutDefaultDocument(String document)"
-  summary: "Removes a default document."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "default document to remove"
-    name: "document"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public abstract WebAppBase.DefinitionStages.WithCreate<FluentT> withoutDefaultDocument(String document)"
-  desc: "Removes a default document."
-  returns:
-    description: "the next stage of the definition"
-    type: "<xref href=\"com.azure.resourcemanager.appservice.models.WebAppBase.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.appservice.models.WebAppBase.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"FluentT?alt=FluentT&text=FluentT\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.appservice.models.WebAppBase.DefinitionStages.WithSiteConfigs.withPhpVersion(com.azure.resourcemanager.appservice.models.PhpVersion)"
   fullName: "com.azure.resourcemanager.appservice.models.WebAppBase.DefinitionStages.WithSiteConfigs<FluentT>.withPhpVersion(PhpVersion version)"
   name: "withPhpVersion(PhpVersion version)"
@@ -303,6 +287,22 @@ methods:
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract WebAppBase.DefinitionStages.WithCreate<FluentT> withWebSocketsEnabled(boolean enabled)"
   desc: "Specifies if web sockets are enabled."
+  returns:
+    description: "the next stage of the definition"
+    type: "<xref href=\"com.azure.resourcemanager.appservice.models.WebAppBase.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.appservice.models.WebAppBase.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"FluentT?alt=FluentT&text=FluentT\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.appservice.models.WebAppBase.DefinitionStages.WithSiteConfigs.withoutDefaultDocument(java.lang.String)"
+  fullName: "com.azure.resourcemanager.appservice.models.WebAppBase.DefinitionStages.WithSiteConfigs<FluentT>.withoutDefaultDocument(String document)"
+  name: "withoutDefaultDocument(String document)"
+  nameWithType: "WebAppBase.DefinitionStages.WithSiteConfigs<FluentT>.withoutDefaultDocument(String document)"
+  summary: "Removes a default document."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "default document to remove"
+    name: "document"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract WebAppBase.DefinitionStages.WithCreate<FluentT> withoutDefaultDocument(String document)"
+  desc: "Removes a default document."
   returns:
     description: "the next stage of the definition"
     type: "<xref href=\"com.azure.resourcemanager.appservice.models.WebAppBase.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.appservice.models.WebAppBase.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"FluentT?alt=FluentT&text=FluentT\" data-throw-if-not-resolved=\"False\" />&gt;"

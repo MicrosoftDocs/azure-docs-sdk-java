@@ -197,6 +197,19 @@ methods:
   desc: "Set the annotations property: List of tags that can be used for describing the linked service."
   returns:
     type: "<xref href=\"com.azure.resourcemanager.datafactory.models.ZohoLinkedService?alt=com.azure.resourcemanager.datafactory.models.ZohoLinkedService&text=ZohoLinkedService\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.datafactory.models.ZohoLinkedService.withConnectVia(com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference)"
+  fullName: "com.azure.resourcemanager.datafactory.models.ZohoLinkedService.withConnectVia(IntegrationRuntimeReference connectVia)"
+  name: "withConnectVia(IntegrationRuntimeReference connectVia)"
+  nameWithType: "ZohoLinkedService.withConnectVia(IntegrationRuntimeReference connectVia)"
+  summary: "Set the connect<wbr>Via property: The integration runtime reference."
+  overridden: "com.azure.resourcemanager.datafactory.models.LinkedService.withConnectVia(com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference)"
+  parameters:
+  - name: "connectVia"
+    type: "<xref href=\"com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference?alt=com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference&text=IntegrationRuntimeReference\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ZohoLinkedService withConnectVia(IntegrationRuntimeReference connectVia)"
+  desc: "Set the connectVia property: The integration runtime reference."
+  returns:
+    type: "<xref href=\"com.azure.resourcemanager.datafactory.models.ZohoLinkedService?alt=com.azure.resourcemanager.datafactory.models.ZohoLinkedService&text=ZohoLinkedService\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.datafactory.models.ZohoLinkedService.withConnectionProperties(java.lang.Object)"
   fullName: "com.azure.resourcemanager.datafactory.models.ZohoLinkedService.withConnectionProperties(Object connectionProperties)"
   name: "withConnectionProperties(Object connectionProperties)"
@@ -210,19 +223,6 @@ methods:
   desc: "Set the connectionProperties property: Properties used to connect to Zoho. It is mutually exclusive with any other properties in the linked service. Type: object."
   returns:
     description: "the ZohoLinkedService object itself."
-    type: "<xref href=\"com.azure.resourcemanager.datafactory.models.ZohoLinkedService?alt=com.azure.resourcemanager.datafactory.models.ZohoLinkedService&text=ZohoLinkedService\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.datafactory.models.ZohoLinkedService.withConnectVia(com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference)"
-  fullName: "com.azure.resourcemanager.datafactory.models.ZohoLinkedService.withConnectVia(IntegrationRuntimeReference connectVia)"
-  name: "withConnectVia(IntegrationRuntimeReference connectVia)"
-  nameWithType: "ZohoLinkedService.withConnectVia(IntegrationRuntimeReference connectVia)"
-  summary: "Set the connect<wbr>Via property: The integration runtime reference."
-  overridden: "com.azure.resourcemanager.datafactory.models.LinkedService.withConnectVia(com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference)"
-  parameters:
-  - name: "connectVia"
-    type: "<xref href=\"com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference?alt=com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference&text=IntegrationRuntimeReference\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public ZohoLinkedService withConnectVia(IntegrationRuntimeReference connectVia)"
-  desc: "Set the connectVia property: The integration runtime reference."
-  returns:
     type: "<xref href=\"com.azure.resourcemanager.datafactory.models.ZohoLinkedService?alt=com.azure.resourcemanager.datafactory.models.ZohoLinkedService&text=ZohoLinkedService\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.datafactory.models.ZohoLinkedService.withDescription(java.lang.String)"
   fullName: "com.azure.resourcemanager.datafactory.models.ZohoLinkedService.withDescription(String description)"

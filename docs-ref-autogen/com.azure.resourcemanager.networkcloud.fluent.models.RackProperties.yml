@@ -105,7 +105,7 @@ methods:
   nameWithType: "RackProperties.rackLocation()"
   summary: "Get the rack<wbr>Location property: The free-form description of the rack location."
   syntax: "public String rackLocation()"
-  desc: "Get the rackLocation property: The free-form description of the rack location. (e.g. “DTN Datacenter, Floor 3, Isle 9, Rack 2B”)."
+  desc: "Get the rackLocation property: The free-form description of the rack location. (e.g. \\\\u201cDTN Datacenter, Floor 3, Isle 9, Rack 2B\\\\u201d)."
   returns:
     description: "the rackLocation value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -172,7 +172,7 @@ methods:
     name: "rackLocation"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public RackProperties withRackLocation(String rackLocation)"
-  desc: "Set the rackLocation property: The free-form description of the rack location. (e.g. “DTN Datacenter, Floor 3, Isle 9, Rack 2B”)."
+  desc: "Set the rackLocation property: The free-form description of the rack location. (e.g. \\\\u201cDTN Datacenter, Floor 3, Isle 9, Rack 2B\\\\u201d)."
   returns:
     description: "the RackProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.networkcloud.fluent.models.RackProperties?alt=com.azure.resourcemanager.networkcloud.fluent.models.RackProperties&text=RackProperties\" data-throw-if-not-resolved=\"False\" />"

@@ -114,18 +114,6 @@ methods:
   returns:
     description: "the DataContainersClient object."
     type: "<xref href=\"com.azure.resourcemanager.machinelearning.fluent.DataContainersClient?alt=com.azure.resourcemanager.machinelearning.fluent.DataContainersClient&text=DataContainersClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.machinelearning.fluent.AzureMachineLearningWorkspaces.getDatastores()"
-  fullName: "com.azure.resourcemanager.machinelearning.fluent.AzureMachineLearningWorkspaces.getDatastores()"
-  name: "getDatastores()"
-  nameWithType: "AzureMachineLearningWorkspaces.getDatastores()"
-  summary: "Gets the Datastores<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract DatastoresClient getDatastores()"
-  desc: "Gets the DatastoresClient object to access its operations."
-  returns:
-    description: "the DatastoresClient object."
-    type: "<xref href=\"com.azure.resourcemanager.machinelearning.fluent.DatastoresClient?alt=com.azure.resourcemanager.machinelearning.fluent.DatastoresClient&text=DatastoresClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.machinelearning.fluent.AzureMachineLearningWorkspaces.getDataVersions()"
   fullName: "com.azure.resourcemanager.machinelearning.fluent.AzureMachineLearningWorkspaces.getDataVersions()"
   name: "getDataVersions()"
@@ -138,6 +126,18 @@ methods:
   returns:
     description: "the DataVersionsClient object."
     type: "<xref href=\"com.azure.resourcemanager.machinelearning.fluent.DataVersionsClient?alt=com.azure.resourcemanager.machinelearning.fluent.DataVersionsClient&text=DataVersionsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.machinelearning.fluent.AzureMachineLearningWorkspaces.getDatastores()"
+  fullName: "com.azure.resourcemanager.machinelearning.fluent.AzureMachineLearningWorkspaces.getDatastores()"
+  name: "getDatastores()"
+  nameWithType: "AzureMachineLearningWorkspaces.getDatastores()"
+  summary: "Gets the Datastores<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract DatastoresClient getDatastores()"
+  desc: "Gets the DatastoresClient object to access its operations."
+  returns:
+    description: "the DatastoresClient object."
+    type: "<xref href=\"com.azure.resourcemanager.machinelearning.fluent.DatastoresClient?alt=com.azure.resourcemanager.machinelearning.fluent.DatastoresClient&text=DatastoresClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.machinelearning.fluent.AzureMachineLearningWorkspaces.getDefaultPollInterval()"
   fullName: "com.azure.resourcemanager.machinelearning.fluent.AzureMachineLearningWorkspaces.getDefaultPollInterval()"
   name: "getDefaultPollInterval()"

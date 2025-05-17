@@ -10,7 +10,7 @@ methods:
   fullName: "com.azure.resourcemanager.loganalytics.models.DataExport.DefinitionStages.WithTableNames.withTableNames(List<String> tableNames)"
   name: "withTableNames(List<String> tableNames)"
   nameWithType: "DataExport.DefinitionStages.WithTableNames.withTableNames(List<String> tableNames)"
-  summary: "Specifies the table<wbr>Names property: An array of tables to export, for example: \\[“<wbr>Heartbeat, Security<wbr>Event”\\].."
+  summary: "Specifies the table<wbr>Names property: An array of tables to export, for example: \\[\\\\u201c<wbr>Heartbeat, Security<wbr>Event\\\\u201d\\].."
   modifiers:
   - "abstract"
   parameters:
@@ -18,7 +18,7 @@ methods:
     name: "tableNames"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
   syntax: "public abstract DataExport.DefinitionStages.WithCreate withTableNames(List<String> tableNames)"
-  desc: "Specifies the tableNames property: An array of tables to export, for example: \\[“Heartbeat, SecurityEvent”\\].."
+  desc: "Specifies the tableNames property: An array of tables to export, for example: \\[\\\\u201cHeartbeat, SecurityEvent\\\\u201d\\].."
   returns:
     description: "the next definition stage."
     type: "<xref href=\"com.azure.resourcemanager.loganalytics.models.DataExport.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.loganalytics.models.DataExport.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"

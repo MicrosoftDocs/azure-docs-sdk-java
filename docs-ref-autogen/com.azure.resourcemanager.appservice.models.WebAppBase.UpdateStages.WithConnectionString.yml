@@ -47,22 +47,6 @@ methods:
   returns:
     description: "the next stage of the web app update"
     type: "<xref href=\"com.azure.resourcemanager.appservice.models.WebAppBase.Update?alt=com.azure.resourcemanager.appservice.models.WebAppBase.Update&text=Update\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"FluentT?alt=FluentT&text=FluentT\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.resourcemanager.appservice.models.WebAppBase.UpdateStages.WithConnectionString.withoutConnectionString(java.lang.String)"
-  fullName: "com.azure.resourcemanager.appservice.models.WebAppBase.UpdateStages.WithConnectionString<FluentT>.withoutConnectionString(String name)"
-  name: "withoutConnectionString(String name)"
-  nameWithType: "WebAppBase.UpdateStages.WithConnectionString<FluentT>.withoutConnectionString(String name)"
-  summary: "Removes a connection string from the web app."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "the name of the connection string"
-    name: "name"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public abstract WebAppBase.Update<FluentT> withoutConnectionString(String name)"
-  desc: "Removes a connection string from the web app."
-  returns:
-    description: "the next stage of the web app update"
-    type: "<xref href=\"com.azure.resourcemanager.appservice.models.WebAppBase.Update?alt=com.azure.resourcemanager.appservice.models.WebAppBase.Update&text=Update\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"FluentT?alt=FluentT&text=FluentT\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.appservice.models.WebAppBase.UpdateStages.WithConnectionString.withStickyConnectionString(java.lang.String,java.lang.String,com.azure.resourcemanager.appservice.models.ConnectionStringType)"
   fullName: "com.azure.resourcemanager.appservice.models.WebAppBase.UpdateStages.WithConnectionString<FluentT>.withStickyConnectionString(String name, String value, ConnectionStringType type)"
   name: "withStickyConnectionString(String name, String value, ConnectionStringType type)"
@@ -82,6 +66,22 @@ methods:
     type: "<xref href=\"com.azure.resourcemanager.appservice.models.ConnectionStringType?alt=com.azure.resourcemanager.appservice.models.ConnectionStringType&text=ConnectionStringType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract WebAppBase.Update<FluentT> withStickyConnectionString(String name, String value, ConnectionStringType type)"
   desc: "Adds a connection string to the web app. This connection string will stay at the slot during a swap."
+  returns:
+    description: "the next stage of the web app update"
+    type: "<xref href=\"com.azure.resourcemanager.appservice.models.WebAppBase.Update?alt=com.azure.resourcemanager.appservice.models.WebAppBase.Update&text=Update\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"FluentT?alt=FluentT&text=FluentT\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.appservice.models.WebAppBase.UpdateStages.WithConnectionString.withoutConnectionString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.appservice.models.WebAppBase.UpdateStages.WithConnectionString<FluentT>.withoutConnectionString(String name)"
+  name: "withoutConnectionString(String name)"
+  nameWithType: "WebAppBase.UpdateStages.WithConnectionString<FluentT>.withoutConnectionString(String name)"
+  summary: "Removes a connection string from the web app."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "the name of the connection string"
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract WebAppBase.Update<FluentT> withoutConnectionString(String name)"
+  desc: "Removes a connection string from the web app."
   returns:
     description: "the next stage of the web app update"
     type: "<xref href=\"com.azure.resourcemanager.appservice.models.WebAppBase.Update?alt=com.azure.resourcemanager.appservice.models.WebAppBase.Update&text=Update\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"FluentT?alt=FluentT&text=FluentT\" data-throw-if-not-resolved=\"False\" />&gt;"

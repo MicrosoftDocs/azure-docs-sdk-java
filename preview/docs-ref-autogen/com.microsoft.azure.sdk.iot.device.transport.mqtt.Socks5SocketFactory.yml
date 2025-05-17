@@ -51,40 +51,6 @@ methods:
   syntax: "public Socket createSocket()"
   returns:
     type: "<xref href=\"java.net.Socket?alt=java.net.Socket&text=Socket\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.azure.sdk.iot.device.transport.mqtt.Socks5SocketFactory.createSocket(java.net.InetAddress,int)"
-  fullName: "com.microsoft.azure.sdk.iot.device.transport.mqtt.Socks5SocketFactory.createSocket(InetAddress host, int port)"
-  name: "createSocket(InetAddress host, int port)"
-  nameWithType: "Socks5SocketFactory.createSocket(InetAddress host, int port)"
-  overridden: "javax.net.SocketFactory.createSocket(java.net.InetAddress,int)"
-  parameters:
-  - name: "host"
-    type: "<xref href=\"java.net.InetAddress?alt=java.net.InetAddress&text=InetAddress\" data-throw-if-not-resolved=\"False\" />"
-  - name: "port"
-    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public Socket createSocket(InetAddress host, int port)"
-  exceptions:
-  - type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
-  returns:
-    type: "<xref href=\"java.net.Socket?alt=java.net.Socket&text=Socket\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.azure.sdk.iot.device.transport.mqtt.Socks5SocketFactory.createSocket(java.net.InetAddress,int,java.net.InetAddress,int)"
-  fullName: "com.microsoft.azure.sdk.iot.device.transport.mqtt.Socks5SocketFactory.createSocket(InetAddress host, int port, InetAddress localHost, int localPort)"
-  name: "createSocket(InetAddress host, int port, InetAddress localHost, int localPort)"
-  nameWithType: "Socks5SocketFactory.createSocket(InetAddress host, int port, InetAddress localHost, int localPort)"
-  overridden: "javax.net.SocketFactory.createSocket(java.net.InetAddress,int,java.net.InetAddress,int)"
-  parameters:
-  - name: "host"
-    type: "<xref href=\"java.net.InetAddress?alt=java.net.InetAddress&text=InetAddress\" data-throw-if-not-resolved=\"False\" />"
-  - name: "port"
-    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
-  - name: "localHost"
-    type: "<xref href=\"java.net.InetAddress?alt=java.net.InetAddress&text=InetAddress\" data-throw-if-not-resolved=\"False\" />"
-  - name: "localPort"
-    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public Socket createSocket(InetAddress host, int port, InetAddress localHost, int localPort)"
-  exceptions:
-  - type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
-  returns:
-    type: "<xref href=\"java.net.Socket?alt=java.net.Socket&text=Socket\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.sdk.iot.device.transport.mqtt.Socks5SocketFactory.createSocket(java.lang.String,int)"
   fullName: "com.microsoft.azure.sdk.iot.device.transport.mqtt.Socks5SocketFactory.createSocket(String host, int port)"
   name: "createSocket(String host, int port)"
@@ -115,6 +81,40 @@ methods:
   - name: "localPort"
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public Socket createSocket(String host, int port, InetAddress localHost, int localPort)"
+  exceptions:
+  - type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
+  returns:
+    type: "<xref href=\"java.net.Socket?alt=java.net.Socket&text=Socket\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.azure.sdk.iot.device.transport.mqtt.Socks5SocketFactory.createSocket(java.net.InetAddress,int)"
+  fullName: "com.microsoft.azure.sdk.iot.device.transport.mqtt.Socks5SocketFactory.createSocket(InetAddress host, int port)"
+  name: "createSocket(InetAddress host, int port)"
+  nameWithType: "Socks5SocketFactory.createSocket(InetAddress host, int port)"
+  overridden: "javax.net.SocketFactory.createSocket(java.net.InetAddress,int)"
+  parameters:
+  - name: "host"
+    type: "<xref href=\"java.net.InetAddress?alt=java.net.InetAddress&text=InetAddress\" data-throw-if-not-resolved=\"False\" />"
+  - name: "port"
+    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public Socket createSocket(InetAddress host, int port)"
+  exceptions:
+  - type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
+  returns:
+    type: "<xref href=\"java.net.Socket?alt=java.net.Socket&text=Socket\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.azure.sdk.iot.device.transport.mqtt.Socks5SocketFactory.createSocket(java.net.InetAddress,int,java.net.InetAddress,int)"
+  fullName: "com.microsoft.azure.sdk.iot.device.transport.mqtt.Socks5SocketFactory.createSocket(InetAddress host, int port, InetAddress localHost, int localPort)"
+  name: "createSocket(InetAddress host, int port, InetAddress localHost, int localPort)"
+  nameWithType: "Socks5SocketFactory.createSocket(InetAddress host, int port, InetAddress localHost, int localPort)"
+  overridden: "javax.net.SocketFactory.createSocket(java.net.InetAddress,int,java.net.InetAddress,int)"
+  parameters:
+  - name: "host"
+    type: "<xref href=\"java.net.InetAddress?alt=java.net.InetAddress&text=InetAddress\" data-throw-if-not-resolved=\"False\" />"
+  - name: "port"
+    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
+  - name: "localHost"
+    type: "<xref href=\"java.net.InetAddress?alt=java.net.InetAddress&text=InetAddress\" data-throw-if-not-resolved=\"False\" />"
+  - name: "localPort"
+    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public Socket createSocket(InetAddress host, int port, InetAddress localHost, int localPort)"
   exceptions:
   - type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
   returns:

@@ -121,16 +121,6 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.datafactory.models.TriggerRun.triggeredPipelines()"
-  fullName: "com.azure.resourcemanager.datafactory.models.TriggerRun.triggeredPipelines()"
-  name: "triggeredPipelines()"
-  nameWithType: "TriggerRun.triggeredPipelines()"
-  summary: "Get the triggered<wbr>Pipelines property: List of pipeline name and run Id triggered by the trigger run."
-  syntax: "public Map<String,String> triggeredPipelines()"
-  desc: "Get the triggeredPipelines property: List of pipeline name and run Id triggered by the trigger run."
-  returns:
-    description: "the triggeredPipelines value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
 - uid: "com.azure.resourcemanager.datafactory.models.TriggerRun.triggerName()"
   fullName: "com.azure.resourcemanager.datafactory.models.TriggerRun.triggerName()"
   name: "triggerName()"
@@ -171,6 +161,16 @@ methods:
   returns:
     description: "the triggerType value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.datafactory.models.TriggerRun.triggeredPipelines()"
+  fullName: "com.azure.resourcemanager.datafactory.models.TriggerRun.triggeredPipelines()"
+  name: "triggeredPipelines()"
+  nameWithType: "TriggerRun.triggeredPipelines()"
+  summary: "Get the triggered<wbr>Pipelines property: List of pipeline name and run Id triggered by the trigger run."
+  syntax: "public Map<String,String> triggeredPipelines()"
+  desc: "Get the triggeredPipelines property: List of pipeline name and run Id triggered by the trigger run."
+  returns:
+    description: "the triggeredPipelines value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
 - uid: "com.azure.resourcemanager.datafactory.models.TriggerRun.validate()"
   fullName: "com.azure.resourcemanager.datafactory.models.TriggerRun.validate()"
   name: "validate()"

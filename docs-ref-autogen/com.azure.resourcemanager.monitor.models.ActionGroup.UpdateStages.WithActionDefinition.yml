@@ -38,22 +38,6 @@ methods:
   returns:
     description: "the next stage of the update"
     type: "<xref href=\"com.azure.resourcemanager.monitor.models.ActionGroup.UpdateStages.WithActionUpdateDefinition?alt=com.azure.resourcemanager.monitor.models.ActionGroup.UpdateStages.WithActionUpdateDefinition&text=WithActionUpdateDefinition\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.monitor.models.ActionGroup.UpdateStages.WithActionDefinition.withoutReceiver(java.lang.String)"
-  fullName: "com.azure.resourcemanager.monitor.models.ActionGroup.UpdateStages.WithActionDefinition.withoutReceiver(String actionNamePrefix)"
-  name: "withoutReceiver(String actionNamePrefix)"
-  nameWithType: "ActionGroup.UpdateStages.WithActionDefinition.withoutReceiver(String actionNamePrefix)"
-  summary: "Removes all the receivers that contain specified action<wbr>Name<wbr>Prefix string in the name."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "the actionNamePrefix value to use during receiver filtering."
-    name: "actionNamePrefix"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public abstract ActionGroup.Update withoutReceiver(String actionNamePrefix)"
-  desc: "Removes all the receivers that contain specified actionNamePrefix string in the name."
-  returns:
-    description: "the next stage of the update"
-    type: "<xref href=\"com.azure.resourcemanager.monitor.models.ActionGroup.Update?alt=com.azure.resourcemanager.monitor.models.ActionGroup.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.monitor.models.ActionGroup.UpdateStages.WithActionDefinition.withShortName(java.lang.String)"
   fullName: "com.azure.resourcemanager.monitor.models.ActionGroup.UpdateStages.WithActionDefinition.withShortName(String shortName)"
   name: "withShortName(String shortName)"
@@ -67,6 +51,22 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract ActionGroup.Update withShortName(String shortName)"
   desc: "Sets the short name of the action group. This will be used in SMS messages. Maximum length cannot exceed 12 symbols."
+  returns:
+    description: "the next stage of the update"
+    type: "<xref href=\"com.azure.resourcemanager.monitor.models.ActionGroup.Update?alt=com.azure.resourcemanager.monitor.models.ActionGroup.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.monitor.models.ActionGroup.UpdateStages.WithActionDefinition.withoutReceiver(java.lang.String)"
+  fullName: "com.azure.resourcemanager.monitor.models.ActionGroup.UpdateStages.WithActionDefinition.withoutReceiver(String actionNamePrefix)"
+  name: "withoutReceiver(String actionNamePrefix)"
+  nameWithType: "ActionGroup.UpdateStages.WithActionDefinition.withoutReceiver(String actionNamePrefix)"
+  summary: "Removes all the receivers that contain specified action<wbr>Name<wbr>Prefix string in the name."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "the actionNamePrefix value to use during receiver filtering."
+    name: "actionNamePrefix"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract ActionGroup.Update withoutReceiver(String actionNamePrefix)"
+  desc: "Removes all the receivers that contain specified actionNamePrefix string in the name."
   returns:
     description: "the next stage of the update"
     type: "<xref href=\"com.azure.resourcemanager.monitor.models.ActionGroup.Update?alt=com.azure.resourcemanager.monitor.models.ActionGroup.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"

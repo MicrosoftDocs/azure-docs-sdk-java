@@ -366,6 +366,18 @@ methods:
   returns:
     description: "the servicePeriodStartDate value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
+- uid: "com.azure.resourcemanager.billing.models.Transaction.subTotal()"
+  fullName: "com.azure.resourcemanager.billing.models.Transaction.subTotal()"
+  name: "subTotal()"
+  nameWithType: "Transaction.subTotal()"
+  summary: "Gets the sub<wbr>Total property: The pre-tax charged amount for the transaction."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract Amount subTotal()"
+  desc: "Gets the subTotal property: The pre-tax charged amount for the transaction."
+  returns:
+    description: "the subTotal value."
+    type: "<xref href=\"com.azure.resourcemanager.billing.models.Amount?alt=com.azure.resourcemanager.billing.models.Amount&text=Amount\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.billing.models.Transaction.subscriptionId()"
   fullName: "com.azure.resourcemanager.billing.models.Transaction.subscriptionId()"
   name: "subscriptionId()"
@@ -390,18 +402,6 @@ methods:
   returns:
     description: "the subscriptionName value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.billing.models.Transaction.subTotal()"
-  fullName: "com.azure.resourcemanager.billing.models.Transaction.subTotal()"
-  name: "subTotal()"
-  nameWithType: "Transaction.subTotal()"
-  summary: "Gets the sub<wbr>Total property: The pre-tax charged amount for the transaction."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract Amount subTotal()"
-  desc: "Gets the subTotal property: The pre-tax charged amount for the transaction."
-  returns:
-    description: "the subTotal value."
-    type: "<xref href=\"com.azure.resourcemanager.billing.models.Amount?alt=com.azure.resourcemanager.billing.models.Amount&text=Amount\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.billing.models.Transaction.tax()"
   fullName: "com.azure.resourcemanager.billing.models.Transaction.tax()"
   name: "tax()"
@@ -462,18 +462,6 @@ methods:
   returns:
     description: "the unitOfMeasure value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.billing.models.Transaction.units()"
-  fullName: "com.azure.resourcemanager.billing.models.Transaction.units()"
-  name: "units()"
-  nameWithType: "Transaction.units()"
-  summary: "Gets the units property: The number of units used for a given product."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract Float units()"
-  desc: "Gets the units property: The number of units used for a given product."
-  returns:
-    description: "the units value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Float.html\">Float</a>"
 - uid: "com.azure.resourcemanager.billing.models.Transaction.unitType()"
   fullName: "com.azure.resourcemanager.billing.models.Transaction.unitType()"
   name: "unitType()"
@@ -486,6 +474,18 @@ methods:
   returns:
     description: "the unitType value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.billing.models.Transaction.units()"
+  fullName: "com.azure.resourcemanager.billing.models.Transaction.units()"
+  name: "units()"
+  nameWithType: "Transaction.units()"
+  summary: "Gets the units property: The number of units used for a given product."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract Float units()"
+  desc: "Gets the units property: The number of units used for a given product."
+  returns:
+    description: "the units value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Float.html\">Float</a>"
 type: "interface"
 desc: "An immutable client-side representation of Transaction."
 metadata: {}

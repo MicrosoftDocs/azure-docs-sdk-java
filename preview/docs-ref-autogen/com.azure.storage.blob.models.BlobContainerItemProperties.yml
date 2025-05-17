@@ -229,20 +229,6 @@ methods:
   returns:
     description: "the BlobContainerItemProperties object itself."
     type: "<xref href=\"com.azure.storage.blob.models.BlobContainerItemProperties?alt=com.azure.storage.blob.models.BlobContainerItemProperties&text=BlobContainerItemProperties\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.storage.blob.models.BlobContainerItemProperties.setEncryptionScopeOverridePrevented(boolean)"
-  fullName: "com.azure.storage.blob.models.BlobContainerItemProperties.setEncryptionScopeOverridePrevented(boolean encryptionScopeOverridePrevented)"
-  name: "setEncryptionScopeOverridePrevented(boolean encryptionScopeOverridePrevented)"
-  nameWithType: "BlobContainerItemProperties.setEncryptionScopeOverridePrevented(boolean encryptionScopeOverridePrevented)"
-  summary: "Set the encryption<wbr>Scope<wbr>Override<wbr>Prevented property: The Deny<wbr>Encryption<wbr>Scope<wbr>Override property."
-  parameters:
-  - description: "the encryptionScopeOverridePrevented value to set."
-    name: "encryptionScopeOverridePrevented"
-    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public BlobContainerItemProperties setEncryptionScopeOverridePrevented(boolean encryptionScopeOverridePrevented)"
-  desc: "Set the encryptionScopeOverridePrevented property: The DenyEncryptionScopeOverride property."
-  returns:
-    description: "the BlobContainerItemProperties object itself."
-    type: "<xref href=\"com.azure.storage.blob.models.BlobContainerItemProperties?alt=com.azure.storage.blob.models.BlobContainerItemProperties&text=BlobContainerItemProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.storage.blob.models.BlobContainerItemProperties.setETag(java.lang.String)"
   fullName: "com.azure.storage.blob.models.BlobContainerItemProperties.setETag(String eTag)"
   name: "setETag(String eTag)"
@@ -254,6 +240,20 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public BlobContainerItemProperties setETag(String eTag)"
   desc: "Set the eTag property: The Etag property."
+  returns:
+    description: "the BlobContainerItemProperties object itself."
+    type: "<xref href=\"com.azure.storage.blob.models.BlobContainerItemProperties?alt=com.azure.storage.blob.models.BlobContainerItemProperties&text=BlobContainerItemProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.storage.blob.models.BlobContainerItemProperties.setEncryptionScopeOverridePrevented(boolean)"
+  fullName: "com.azure.storage.blob.models.BlobContainerItemProperties.setEncryptionScopeOverridePrevented(boolean encryptionScopeOverridePrevented)"
+  name: "setEncryptionScopeOverridePrevented(boolean encryptionScopeOverridePrevented)"
+  nameWithType: "BlobContainerItemProperties.setEncryptionScopeOverridePrevented(boolean encryptionScopeOverridePrevented)"
+  summary: "Set the encryption<wbr>Scope<wbr>Override<wbr>Prevented property: The Deny<wbr>Encryption<wbr>Scope<wbr>Override property."
+  parameters:
+  - description: "the encryptionScopeOverridePrevented value to set."
+    name: "encryptionScopeOverridePrevented"
+    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public BlobContainerItemProperties setEncryptionScopeOverridePrevented(boolean encryptionScopeOverridePrevented)"
+  desc: "Set the encryptionScopeOverridePrevented property: The DenyEncryptionScopeOverride property."
   returns:
     description: "the BlobContainerItemProperties object itself."
     type: "<xref href=\"com.azure.storage.blob.models.BlobContainerItemProperties?alt=com.azure.storage.blob.models.BlobContainerItemProperties&text=BlobContainerItemProperties\" data-throw-if-not-resolved=\"False\" />"

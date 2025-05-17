@@ -30,18 +30,6 @@ methods:
   returns:
     description: "the backupName value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.postgresqlflexibleserver.models.LtrBackupResponse.datasourceSizeInBytes()"
-  fullName: "com.azure.resourcemanager.postgresqlflexibleserver.models.LtrBackupResponse.datasourceSizeInBytes()"
-  name: "datasourceSizeInBytes()"
-  nameWithType: "LtrBackupResponse.datasourceSizeInBytes()"
-  summary: "Gets the datasource<wbr>Size<wbr>InBytes property: Size of datasource in bytes."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract Long datasourceSizeInBytes()"
-  desc: "Gets the datasourceSizeInBytes property: Size of datasource in bytes."
-  returns:
-    description: "the datasourceSizeInBytes value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Long.html\">Long</a>"
 - uid: "com.azure.resourcemanager.postgresqlflexibleserver.models.LtrBackupResponse.dataTransferredInBytes()"
   fullName: "com.azure.resourcemanager.postgresqlflexibleserver.models.LtrBackupResponse.dataTransferredInBytes()"
   name: "dataTransferredInBytes()"
@@ -53,6 +41,18 @@ methods:
   desc: "Gets the dataTransferredInBytes property: Data transferred in bytes."
   returns:
     description: "the dataTransferredInBytes value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Long.html\">Long</a>"
+- uid: "com.azure.resourcemanager.postgresqlflexibleserver.models.LtrBackupResponse.datasourceSizeInBytes()"
+  fullName: "com.azure.resourcemanager.postgresqlflexibleserver.models.LtrBackupResponse.datasourceSizeInBytes()"
+  name: "datasourceSizeInBytes()"
+  nameWithType: "LtrBackupResponse.datasourceSizeInBytes()"
+  summary: "Gets the datasource<wbr>Size<wbr>InBytes property: Size of datasource in bytes."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract Long datasourceSizeInBytes()"
+  desc: "Gets the datasourceSizeInBytes property: Size of datasource in bytes."
+  returns:
+    description: "the datasourceSizeInBytes value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Long.html\">Long</a>"
 - uid: "com.azure.resourcemanager.postgresqlflexibleserver.models.LtrBackupResponse.endTime()"
   fullName: "com.azure.resourcemanager.postgresqlflexibleserver.models.LtrBackupResponse.endTime()"

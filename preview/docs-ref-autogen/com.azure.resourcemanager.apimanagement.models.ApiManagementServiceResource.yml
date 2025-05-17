@@ -440,18 +440,6 @@ methods:
   returns:
     description: "the provisioningState value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.apimanagement.models.ApiManagementServiceResource.publicIpAddresses()"
-  fullName: "com.azure.resourcemanager.apimanagement.models.ApiManagementServiceResource.publicIpAddresses()"
-  name: "publicIpAddresses()"
-  nameWithType: "ApiManagementServiceResource.publicIpAddresses()"
-  summary: "Gets the public<wbr>IpAddresses property: Public Static Load Balanced IP addresses of the API Management service in Primary region."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract List<String> publicIpAddresses()"
-  desc: "Gets the publicIpAddresses property: Public Static Load Balanced IP addresses of the API Management service in Primary region. Available only for Basic, Standard, Premium and Isolated SKU."
-  returns:
-    description: "the publicIpAddresses value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
 - uid: "com.azure.resourcemanager.apimanagement.models.ApiManagementServiceResource.publicIpAddressId()"
   fullName: "com.azure.resourcemanager.apimanagement.models.ApiManagementServiceResource.publicIpAddressId()"
   name: "publicIpAddressId()"
@@ -464,6 +452,18 @@ methods:
   returns:
     description: "the publicIpAddressId value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.apimanagement.models.ApiManagementServiceResource.publicIpAddresses()"
+  fullName: "com.azure.resourcemanager.apimanagement.models.ApiManagementServiceResource.publicIpAddresses()"
+  name: "publicIpAddresses()"
+  nameWithType: "ApiManagementServiceResource.publicIpAddresses()"
+  summary: "Gets the public<wbr>IpAddresses property: Public Static Load Balanced IP addresses of the API Management service in Primary region."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract List<String> publicIpAddresses()"
+  desc: "Gets the publicIpAddresses property: Public Static Load Balanced IP addresses of the API Management service in Primary region. Available only for Basic, Standard, Premium and Isolated SKU."
+  returns:
+    description: "the publicIpAddresses value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
 - uid: "com.azure.resourcemanager.apimanagement.models.ApiManagementServiceResource.publicNetworkAccess()"
   fullName: "com.azure.resourcemanager.apimanagement.models.ApiManagementServiceResource.publicNetworkAccess()"
   name: "publicNetworkAccess()"

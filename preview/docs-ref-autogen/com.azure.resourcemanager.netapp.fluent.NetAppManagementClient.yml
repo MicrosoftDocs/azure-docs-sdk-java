@@ -42,6 +42,18 @@ methods:
   returns:
     description: "the BackupPoliciesClient object."
     type: "<xref href=\"com.azure.resourcemanager.netapp.fluent.BackupPoliciesClient?alt=com.azure.resourcemanager.netapp.fluent.BackupPoliciesClient&text=BackupPoliciesClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.netapp.fluent.NetAppManagementClient.getBackupVaults()"
+  fullName: "com.azure.resourcemanager.netapp.fluent.NetAppManagementClient.getBackupVaults()"
+  name: "getBackupVaults()"
+  nameWithType: "NetAppManagementClient.getBackupVaults()"
+  summary: "Gets the Backup<wbr>Vaults<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract BackupVaultsClient getBackupVaults()"
+  desc: "Gets the BackupVaultsClient object to access its operations."
+  returns:
+    description: "the BackupVaultsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.netapp.fluent.BackupVaultsClient?alt=com.azure.resourcemanager.netapp.fluent.BackupVaultsClient&text=BackupVaultsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.netapp.fluent.NetAppManagementClient.getBackups()"
   fullName: "com.azure.resourcemanager.netapp.fluent.NetAppManagementClient.getBackups()"
   name: "getBackups()"
@@ -90,18 +102,6 @@ methods:
   returns:
     description: "the BackupsUnderVolumesClient object."
     type: "<xref href=\"com.azure.resourcemanager.netapp.fluent.BackupsUnderVolumesClient?alt=com.azure.resourcemanager.netapp.fluent.BackupsUnderVolumesClient&text=BackupsUnderVolumesClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.netapp.fluent.NetAppManagementClient.getBackupVaults()"
-  fullName: "com.azure.resourcemanager.netapp.fluent.NetAppManagementClient.getBackupVaults()"
-  name: "getBackupVaults()"
-  nameWithType: "NetAppManagementClient.getBackupVaults()"
-  summary: "Gets the Backup<wbr>Vaults<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract BackupVaultsClient getBackupVaults()"
-  desc: "Gets the BackupVaultsClient object to access its operations."
-  returns:
-    description: "the BackupVaultsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.netapp.fluent.BackupVaultsClient?alt=com.azure.resourcemanager.netapp.fluent.BackupVaultsClient&text=BackupVaultsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.netapp.fluent.NetAppManagementClient.getBuckets()"
   fullName: "com.azure.resourcemanager.netapp.fluent.NetAppManagementClient.getBuckets()"
   name: "getBuckets()"
@@ -186,18 +186,6 @@ methods:
   returns:
     description: "the NetAppResourceRegionInfosClient object."
     type: "<xref href=\"com.azure.resourcemanager.netapp.fluent.NetAppResourceRegionInfosClient?alt=com.azure.resourcemanager.netapp.fluent.NetAppResourceRegionInfosClient&text=NetAppResourceRegionInfosClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.netapp.fluent.NetAppManagementClient.getNetAppResources()"
-  fullName: "com.azure.resourcemanager.netapp.fluent.NetAppManagementClient.getNetAppResources()"
-  name: "getNetAppResources()"
-  nameWithType: "NetAppManagementClient.getNetAppResources()"
-  summary: "Gets the Net<wbr>App<wbr>Resources<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract NetAppResourcesClient getNetAppResources()"
-  desc: "Gets the NetAppResourcesClient object to access its operations."
-  returns:
-    description: "the NetAppResourcesClient object."
-    type: "<xref href=\"com.azure.resourcemanager.netapp.fluent.NetAppResourcesClient?alt=com.azure.resourcemanager.netapp.fluent.NetAppResourcesClient&text=NetAppResourcesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.netapp.fluent.NetAppManagementClient.getNetAppResourceUsages()"
   fullName: "com.azure.resourcemanager.netapp.fluent.NetAppManagementClient.getNetAppResourceUsages()"
   name: "getNetAppResourceUsages()"
@@ -210,6 +198,18 @@ methods:
   returns:
     description: "the NetAppResourceUsagesClient object."
     type: "<xref href=\"com.azure.resourcemanager.netapp.fluent.NetAppResourceUsagesClient?alt=com.azure.resourcemanager.netapp.fluent.NetAppResourceUsagesClient&text=NetAppResourceUsagesClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.netapp.fluent.NetAppManagementClient.getNetAppResources()"
+  fullName: "com.azure.resourcemanager.netapp.fluent.NetAppManagementClient.getNetAppResources()"
+  name: "getNetAppResources()"
+  nameWithType: "NetAppManagementClient.getNetAppResources()"
+  summary: "Gets the Net<wbr>App<wbr>Resources<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract NetAppResourcesClient getNetAppResources()"
+  desc: "Gets the NetAppResourcesClient object to access its operations."
+  returns:
+    description: "the NetAppResourcesClient object."
+    type: "<xref href=\"com.azure.resourcemanager.netapp.fluent.NetAppResourcesClient?alt=com.azure.resourcemanager.netapp.fluent.NetAppResourcesClient&text=NetAppResourcesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.netapp.fluent.NetAppManagementClient.getOperations()"
   fullName: "com.azure.resourcemanager.netapp.fluent.NetAppManagementClient.getOperations()"
   name: "getOperations()"

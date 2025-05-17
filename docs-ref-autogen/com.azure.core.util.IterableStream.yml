@@ -45,16 +45,6 @@ constructors:
   syntax: "public IterableStream(Flux<T> flux)"
   desc: "Creates an instance with the given <xref uid=\"reactor.core.publisher.Flux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Flux\"></xref>."
 methods:
-- uid: "com.azure.core.util.IterableStream.iterator()"
-  fullName: "com.azure.core.util.IterableStream<T>.iterator()"
-  name: "iterator()"
-  nameWithType: "IterableStream<T>.iterator()"
-  summary: "Utility function to provide <xref uid=\"java.util.Iterator\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Iterator\"></xref> of value `T`."
-  syntax: "public Iterator<T> iterator()"
-  desc: "Utility function to provide <xref uid=\"java.util.Iterator\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Iterator\"></xref> of value `T`."
-  returns:
-    description: "<xref uid=\"java.util.Iterator\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Iterator\"></xref> of value <code>T</code>."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Iterator.html\">Iterator</a>&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.core.util.IterableStream.<T>of(java.lang.Iterable<T>)"
   fullName: "com.azure.core.util.IterableStream<T>.of(Iterable<T> iterable)"
   name: "of(Iterable<T> iterable)"
@@ -71,6 +61,16 @@ methods:
   returns:
     description: "An <xref uid=\"com.azure.core.util.IterableStream\" data-throw-if-not-resolved=\"false\" data-raw-source=\"IterableStream\"></xref> based on the passed collection."
     type: "<xref href=\"com.azure.core.util.IterableStream?alt=com.azure.core.util.IterableStream&text=IterableStream\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.core.util.IterableStream.iterator()"
+  fullName: "com.azure.core.util.IterableStream<T>.iterator()"
+  name: "iterator()"
+  nameWithType: "IterableStream<T>.iterator()"
+  summary: "Utility function to provide <xref uid=\"java.util.Iterator\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Iterator\"></xref> of value `T`."
+  syntax: "public Iterator<T> iterator()"
+  desc: "Utility function to provide <xref uid=\"java.util.Iterator\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Iterator\"></xref> of value `T`."
+  returns:
+    description: "<xref uid=\"java.util.Iterator\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Iterator\"></xref> of value <code>T</code>."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Iterator.html\">Iterator</a>&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.core.util.IterableStream.stream()"
   fullName: "com.azure.core.util.IterableStream<T>.stream()"
   name: "stream()"

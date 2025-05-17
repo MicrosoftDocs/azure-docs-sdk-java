@@ -125,22 +125,6 @@ methods:
   returns:
     description: "the next stage of Redis Cache with Premium SKU definition."
     type: "<xref href=\"com.azure.resourcemanager.redis.models.RedisCache.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.redis.models.RedisCache.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.redis.models.RedisCache.DefinitionStages.WithCreate.withPatchSchedule(java.util.List<com.azure.resourcemanager.redis.models.ScheduleEntry>)"
-  fullName: "com.azure.resourcemanager.redis.models.RedisCache.DefinitionStages.WithCreate.withPatchSchedule(List<ScheduleEntry> scheduleEntry)"
-  name: "withPatchSchedule(List<ScheduleEntry> scheduleEntry)"
-  nameWithType: "RedisCache.DefinitionStages.WithCreate.withPatchSchedule(List<ScheduleEntry> scheduleEntry)"
-  summary: "Patch schedule on a Premium Cluster Cache."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "List of patch schedule entries for Premium Redis Cache."
-    name: "scheduleEntry"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.redis.models.ScheduleEntry?alt=com.azure.resourcemanager.redis.models.ScheduleEntry&text=ScheduleEntry\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public abstract RedisCache.DefinitionStages.WithCreate withPatchSchedule(List<ScheduleEntry> scheduleEntry)"
-  desc: "Patch schedule on a Premium Cluster Cache."
-  returns:
-    description: "the next stage of Redis Cache with Premium SKU definition."
-    type: "<xref href=\"com.azure.resourcemanager.redis.models.RedisCache.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.redis.models.RedisCache.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.redis.models.RedisCache.DefinitionStages.WithCreate.withPatchSchedule(com.azure.resourcemanager.redis.models.ScheduleEntry)"
   fullName: "com.azure.resourcemanager.redis.models.RedisCache.DefinitionStages.WithCreate.withPatchSchedule(ScheduleEntry scheduleEntry)"
   name: "withPatchSchedule(ScheduleEntry scheduleEntry)"
@@ -157,21 +141,21 @@ methods:
   returns:
     description: "the next stage of Redis Cache with Premium SKU definition."
     type: "<xref href=\"com.azure.resourcemanager.redis.models.RedisCache.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.redis.models.RedisCache.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.redis.models.RedisCache.DefinitionStages.WithCreate.withRedisConfiguration(java.util.Map<java.lang.String,java.lang.String>)"
-  fullName: "com.azure.resourcemanager.redis.models.RedisCache.DefinitionStages.WithCreate.withRedisConfiguration(Map<String,String> redisConfiguration)"
-  name: "withRedisConfiguration(Map<String,String> redisConfiguration)"
-  nameWithType: "RedisCache.DefinitionStages.WithCreate.withRedisConfiguration(Map<String,String> redisConfiguration)"
-  summary: "All Redis Settings."
+- uid: "com.azure.resourcemanager.redis.models.RedisCache.DefinitionStages.WithCreate.withPatchSchedule(java.util.List<com.azure.resourcemanager.redis.models.ScheduleEntry>)"
+  fullName: "com.azure.resourcemanager.redis.models.RedisCache.DefinitionStages.WithCreate.withPatchSchedule(List<ScheduleEntry> scheduleEntry)"
+  name: "withPatchSchedule(List<ScheduleEntry> scheduleEntry)"
+  nameWithType: "RedisCache.DefinitionStages.WithCreate.withPatchSchedule(List<ScheduleEntry> scheduleEntry)"
+  summary: "Patch schedule on a Premium Cluster Cache."
   modifiers:
   - "abstract"
   parameters:
-  - description: "configuration of Redis Cache as a map indexed by configuration name"
-    name: "redisConfiguration"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-  syntax: "public abstract RedisCache.DefinitionStages.WithCreate withRedisConfiguration(Map<String,String> redisConfiguration)"
-  desc: "All Redis Settings. Few possible keys: rdb-backup-enabled, rdb-storage-connection-string, rdb-backup-frequency, maxmemory-delta, maxmemory-policy, notify-keyspace-events, maxmemory-samples, slowlog-log-slower-than, slowlog-max-len, list-max-ziplist-entries, list-max-ziplist-value, hash-max-ziplist-entries, hash-max-ziplist-value, set -max-intset-entries, zset-max-ziplist-entries, zset-max-ziplist-value etc."
+  - description: "List of patch schedule entries for Premium Redis Cache."
+    name: "scheduleEntry"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.redis.models.ScheduleEntry?alt=com.azure.resourcemanager.redis.models.ScheduleEntry&text=ScheduleEntry\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public abstract RedisCache.DefinitionStages.WithCreate withPatchSchedule(List<ScheduleEntry> scheduleEntry)"
+  desc: "Patch schedule on a Premium Cluster Cache."
   returns:
-    description: "the next stage of Redis Cache definition."
+    description: "the next stage of Redis Cache with Premium SKU definition."
     type: "<xref href=\"com.azure.resourcemanager.redis.models.RedisCache.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.redis.models.RedisCache.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.redis.models.RedisCache.DefinitionStages.WithCreate.withRedisConfiguration(com.azure.resourcemanager.redis.models.RedisConfiguration)"
   fullName: "com.azure.resourcemanager.redis.models.RedisCache.DefinitionStages.WithCreate.withRedisConfiguration(RedisConfiguration redisConfiguration)"
@@ -205,6 +189,22 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract RedisCache.DefinitionStages.WithCreate withRedisConfiguration(String key, String value)"
   desc: "Specifies Redis Setting. rdb-backup-enabled, rdb-storage-connection-string, rdb-backup-frequency, maxmemory-delta, maxmemory-policy, notify-keyspace-events, maxmemory-samples, slowlog-log-slower-than, slowlog-max-len, list-max-ziplist-entries, list-max-ziplist-value, hash-max-ziplist-entries, hash-max-ziplist-value, set -max-intset-entries, zset-max-ziplist-entries, zset-max-ziplist-value etc."
+  returns:
+    description: "the next stage of Redis Cache definition."
+    type: "<xref href=\"com.azure.resourcemanager.redis.models.RedisCache.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.redis.models.RedisCache.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.redis.models.RedisCache.DefinitionStages.WithCreate.withRedisConfiguration(java.util.Map<java.lang.String,java.lang.String>)"
+  fullName: "com.azure.resourcemanager.redis.models.RedisCache.DefinitionStages.WithCreate.withRedisConfiguration(Map<String,String> redisConfiguration)"
+  name: "withRedisConfiguration(Map<String,String> redisConfiguration)"
+  nameWithType: "RedisCache.DefinitionStages.WithCreate.withRedisConfiguration(Map<String,String> redisConfiguration)"
+  summary: "All Redis Settings."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "configuration of Redis Cache as a map indexed by configuration name"
+    name: "redisConfiguration"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+  syntax: "public abstract RedisCache.DefinitionStages.WithCreate withRedisConfiguration(Map<String,String> redisConfiguration)"
+  desc: "All Redis Settings. Few possible keys: rdb-backup-enabled, rdb-storage-connection-string, rdb-backup-frequency, maxmemory-delta, maxmemory-policy, notify-keyspace-events, maxmemory-samples, slowlog-log-slower-than, slowlog-max-len, list-max-ziplist-entries, list-max-ziplist-value, hash-max-ziplist-entries, hash-max-ziplist-value, set -max-intset-entries, zset-max-ziplist-entries, zset-max-ziplist-value etc."
   returns:
     description: "the next stage of Redis Cache definition."
     type: "<xref href=\"com.azure.resourcemanager.redis.models.RedisCache.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.redis.models.RedisCache.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"

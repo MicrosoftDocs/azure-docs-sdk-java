@@ -134,7 +134,7 @@ methods:
   modifiers:
   - "abstract"
   syntax: "public abstract String rackLocation()"
-  desc: "Gets the rackLocation property: The free-form description of the rack location. (e.g. “DTN Datacenter, Floor 3, Isle 9, Rack 2B”)."
+  desc: "Gets the rackLocation property: The free-form description of the rack location. (e.g. \\\\u201cDTN Datacenter, Floor 3, Isle 9, Rack 2B\\\\u201d)."
   returns:
     description: "the rackLocation value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"

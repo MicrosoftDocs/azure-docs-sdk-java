@@ -187,6 +187,19 @@ methods:
   returns:
     description: "the MicrosoftAccessLinkedService object itself."
     type: "<xref href=\"com.azure.resourcemanager.datafactory.models.MicrosoftAccessLinkedService?alt=com.azure.resourcemanager.datafactory.models.MicrosoftAccessLinkedService&text=MicrosoftAccessLinkedService\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.datafactory.models.MicrosoftAccessLinkedService.withConnectVia(com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference)"
+  fullName: "com.azure.resourcemanager.datafactory.models.MicrosoftAccessLinkedService.withConnectVia(IntegrationRuntimeReference connectVia)"
+  name: "withConnectVia(IntegrationRuntimeReference connectVia)"
+  nameWithType: "MicrosoftAccessLinkedService.withConnectVia(IntegrationRuntimeReference connectVia)"
+  summary: "Set the connect<wbr>Via property: The integration runtime reference."
+  overridden: "com.azure.resourcemanager.datafactory.models.LinkedService.withConnectVia(com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference)"
+  parameters:
+  - name: "connectVia"
+    type: "<xref href=\"com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference?alt=com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference&text=IntegrationRuntimeReference\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public MicrosoftAccessLinkedService withConnectVia(IntegrationRuntimeReference connectVia)"
+  desc: "Set the connectVia property: The integration runtime reference."
+  returns:
+    type: "<xref href=\"com.azure.resourcemanager.datafactory.models.MicrosoftAccessLinkedService?alt=com.azure.resourcemanager.datafactory.models.MicrosoftAccessLinkedService&text=MicrosoftAccessLinkedService\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.datafactory.models.MicrosoftAccessLinkedService.withConnectionString(java.lang.Object)"
   fullName: "com.azure.resourcemanager.datafactory.models.MicrosoftAccessLinkedService.withConnectionString(Object connectionString)"
   name: "withConnectionString(Object connectionString)"
@@ -200,19 +213,6 @@ methods:
   desc: "Set the connectionString property: The non-access credential portion of the connection string as well as an optional encrypted credential. Type: string, or SecureString, or AzureKeyVaultSecretReference, or Expression with resultType string."
   returns:
     description: "the MicrosoftAccessLinkedService object itself."
-    type: "<xref href=\"com.azure.resourcemanager.datafactory.models.MicrosoftAccessLinkedService?alt=com.azure.resourcemanager.datafactory.models.MicrosoftAccessLinkedService&text=MicrosoftAccessLinkedService\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.datafactory.models.MicrosoftAccessLinkedService.withConnectVia(com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference)"
-  fullName: "com.azure.resourcemanager.datafactory.models.MicrosoftAccessLinkedService.withConnectVia(IntegrationRuntimeReference connectVia)"
-  name: "withConnectVia(IntegrationRuntimeReference connectVia)"
-  nameWithType: "MicrosoftAccessLinkedService.withConnectVia(IntegrationRuntimeReference connectVia)"
-  summary: "Set the connect<wbr>Via property: The integration runtime reference."
-  overridden: "com.azure.resourcemanager.datafactory.models.LinkedService.withConnectVia(com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference)"
-  parameters:
-  - name: "connectVia"
-    type: "<xref href=\"com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference?alt=com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference&text=IntegrationRuntimeReference\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public MicrosoftAccessLinkedService withConnectVia(IntegrationRuntimeReference connectVia)"
-  desc: "Set the connectVia property: The integration runtime reference."
-  returns:
     type: "<xref href=\"com.azure.resourcemanager.datafactory.models.MicrosoftAccessLinkedService?alt=com.azure.resourcemanager.datafactory.models.MicrosoftAccessLinkedService&text=MicrosoftAccessLinkedService\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.datafactory.models.MicrosoftAccessLinkedService.withCredential(com.azure.resourcemanager.datafactory.models.SecretBase)"
   fullName: "com.azure.resourcemanager.datafactory.models.MicrosoftAccessLinkedService.withCredential(SecretBase credential)"

@@ -347,18 +347,6 @@ methods:
   returns:
     description: "the tags value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-- uid: "com.azure.resourcemanager.datalakestore.models.DataLakeStoreAccount.trustedIdProviders()"
-  fullName: "com.azure.resourcemanager.datalakestore.models.DataLakeStoreAccount.trustedIdProviders()"
-  name: "trustedIdProviders()"
-  nameWithType: "DataLakeStoreAccount.trustedIdProviders()"
-  summary: "Gets the trusted<wbr>IdProviders property: The list of trusted identity providers associated with this Data Lake Store account."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract List<TrustedIdProvider> trustedIdProviders()"
-  desc: "Gets the trustedIdProviders property: The list of trusted identity providers associated with this Data Lake Store account."
-  returns:
-    description: "the trustedIdProviders value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.datalakestore.models.TrustedIdProvider?alt=com.azure.resourcemanager.datalakestore.models.TrustedIdProvider&text=TrustedIdProvider\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.datalakestore.models.DataLakeStoreAccount.trustedIdProviderState()"
   fullName: "com.azure.resourcemanager.datalakestore.models.DataLakeStoreAccount.trustedIdProviderState()"
   name: "trustedIdProviderState()"
@@ -371,6 +359,18 @@ methods:
   returns:
     description: "the trustedIdProviderState value."
     type: "<xref href=\"com.azure.resourcemanager.datalakestore.models.TrustedIdProviderState?alt=com.azure.resourcemanager.datalakestore.models.TrustedIdProviderState&text=TrustedIdProviderState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.datalakestore.models.DataLakeStoreAccount.trustedIdProviders()"
+  fullName: "com.azure.resourcemanager.datalakestore.models.DataLakeStoreAccount.trustedIdProviders()"
+  name: "trustedIdProviders()"
+  nameWithType: "DataLakeStoreAccount.trustedIdProviders()"
+  summary: "Gets the trusted<wbr>IdProviders property: The list of trusted identity providers associated with this Data Lake Store account."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract List<TrustedIdProvider> trustedIdProviders()"
+  desc: "Gets the trustedIdProviders property: The list of trusted identity providers associated with this Data Lake Store account."
+  returns:
+    description: "the trustedIdProviders value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.datalakestore.models.TrustedIdProvider?alt=com.azure.resourcemanager.datalakestore.models.TrustedIdProvider&text=TrustedIdProvider\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.datalakestore.models.DataLakeStoreAccount.type()"
   fullName: "com.azure.resourcemanager.datalakestore.models.DataLakeStoreAccount.type()"
   name: "type()"

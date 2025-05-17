@@ -221,20 +221,6 @@ methods:
   returns:
     description: "the WordDelimiterTokenFilter object itself."
     type: "<xref href=\"com.azure.search.documents.indexes.models.WordDelimiterTokenFilter?alt=com.azure.search.documents.indexes.models.WordDelimiterTokenFilter&text=WordDelimiterTokenFilter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.search.documents.indexes.models.WordDelimiterTokenFilter.setProtectedWords(java.util.List<java.lang.String>)"
-  fullName: "com.azure.search.documents.indexes.models.WordDelimiterTokenFilter.setProtectedWords(List<String> protectedWords)"
-  name: "setProtectedWords(List<String> protectedWords)"
-  nameWithType: "WordDelimiterTokenFilter.setProtectedWords(List<String> protectedWords)"
-  summary: "Set the protected<wbr>Words property: A list of tokens to protect from being delimited."
-  parameters:
-  - description: "the protectedWords value to set."
-    name: "protectedWords"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-  syntax: "public WordDelimiterTokenFilter setProtectedWords(List<String> protectedWords)"
-  desc: "Set the protectedWords property: A list of tokens to protect from being delimited."
-  returns:
-    description: "the WordDelimiterTokenFilter object itself."
-    type: "<xref href=\"com.azure.search.documents.indexes.models.WordDelimiterTokenFilter?alt=com.azure.search.documents.indexes.models.WordDelimiterTokenFilter&text=WordDelimiterTokenFilter\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.search.documents.indexes.models.WordDelimiterTokenFilter.setProtectedWords(java.lang.String...)"
   fullName: "com.azure.search.documents.indexes.models.WordDelimiterTokenFilter.setProtectedWords(String[] protectedWords)"
   name: "setProtectedWords(String[] protectedWords)"
@@ -245,6 +231,20 @@ methods:
     name: "protectedWords"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>[]"
   syntax: "public WordDelimiterTokenFilter setProtectedWords(String[] protectedWords)"
+  desc: "Set the protectedWords property: A list of tokens to protect from being delimited."
+  returns:
+    description: "the WordDelimiterTokenFilter object itself."
+    type: "<xref href=\"com.azure.search.documents.indexes.models.WordDelimiterTokenFilter?alt=com.azure.search.documents.indexes.models.WordDelimiterTokenFilter&text=WordDelimiterTokenFilter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.search.documents.indexes.models.WordDelimiterTokenFilter.setProtectedWords(java.util.List<java.lang.String>)"
+  fullName: "com.azure.search.documents.indexes.models.WordDelimiterTokenFilter.setProtectedWords(List<String> protectedWords)"
+  name: "setProtectedWords(List<String> protectedWords)"
+  nameWithType: "WordDelimiterTokenFilter.setProtectedWords(List<String> protectedWords)"
+  summary: "Set the protected<wbr>Words property: A list of tokens to protect from being delimited."
+  parameters:
+  - description: "the protectedWords value to set."
+    name: "protectedWords"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+  syntax: "public WordDelimiterTokenFilter setProtectedWords(List<String> protectedWords)"
   desc: "Set the protectedWords property: A list of tokens to protect from being delimited."
   returns:
     description: "the WordDelimiterTokenFilter object itself."

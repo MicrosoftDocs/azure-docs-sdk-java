@@ -90,30 +90,6 @@ methods:
   returns:
     description: "the endpoint value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.support.fluent.MicrosoftSupport.getFiles()"
-  fullName: "com.azure.resourcemanager.support.fluent.MicrosoftSupport.getFiles()"
-  name: "getFiles()"
-  nameWithType: "MicrosoftSupport.getFiles()"
-  summary: "Gets the Files<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract FilesClient getFiles()"
-  desc: "Gets the FilesClient object to access its operations."
-  returns:
-    description: "the FilesClient object."
-    type: "<xref href=\"com.azure.resourcemanager.support.fluent.FilesClient?alt=com.azure.resourcemanager.support.fluent.FilesClient&text=FilesClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.support.fluent.MicrosoftSupport.getFilesNoSubscriptions()"
-  fullName: "com.azure.resourcemanager.support.fluent.MicrosoftSupport.getFilesNoSubscriptions()"
-  name: "getFilesNoSubscriptions()"
-  nameWithType: "MicrosoftSupport.getFilesNoSubscriptions()"
-  summary: "Gets the Files<wbr>NoSubscriptions<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract FilesNoSubscriptionsClient getFilesNoSubscriptions()"
-  desc: "Gets the FilesNoSubscriptionsClient object to access its operations."
-  returns:
-    description: "the FilesNoSubscriptionsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.support.fluent.FilesNoSubscriptionsClient?alt=com.azure.resourcemanager.support.fluent.FilesNoSubscriptionsClient&text=FilesNoSubscriptionsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.support.fluent.MicrosoftSupport.getFileWorkspaces()"
   fullName: "com.azure.resourcemanager.support.fluent.MicrosoftSupport.getFileWorkspaces()"
   name: "getFileWorkspaces()"
@@ -138,6 +114,30 @@ methods:
   returns:
     description: "the FileWorkspacesNoSubscriptionsClient object."
     type: "<xref href=\"com.azure.resourcemanager.support.fluent.FileWorkspacesNoSubscriptionsClient?alt=com.azure.resourcemanager.support.fluent.FileWorkspacesNoSubscriptionsClient&text=FileWorkspacesNoSubscriptionsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.support.fluent.MicrosoftSupport.getFiles()"
+  fullName: "com.azure.resourcemanager.support.fluent.MicrosoftSupport.getFiles()"
+  name: "getFiles()"
+  nameWithType: "MicrosoftSupport.getFiles()"
+  summary: "Gets the Files<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract FilesClient getFiles()"
+  desc: "Gets the FilesClient object to access its operations."
+  returns:
+    description: "the FilesClient object."
+    type: "<xref href=\"com.azure.resourcemanager.support.fluent.FilesClient?alt=com.azure.resourcemanager.support.fluent.FilesClient&text=FilesClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.support.fluent.MicrosoftSupport.getFilesNoSubscriptions()"
+  fullName: "com.azure.resourcemanager.support.fluent.MicrosoftSupport.getFilesNoSubscriptions()"
+  name: "getFilesNoSubscriptions()"
+  nameWithType: "MicrosoftSupport.getFilesNoSubscriptions()"
+  summary: "Gets the Files<wbr>NoSubscriptions<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract FilesNoSubscriptionsClient getFilesNoSubscriptions()"
+  desc: "Gets the FilesNoSubscriptionsClient object to access its operations."
+  returns:
+    description: "the FilesNoSubscriptionsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.support.fluent.FilesNoSubscriptionsClient?alt=com.azure.resourcemanager.support.fluent.FilesNoSubscriptionsClient&text=FilesNoSubscriptionsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.support.fluent.MicrosoftSupport.getHttpPipeline()"
   fullName: "com.azure.resourcemanager.support.fluent.MicrosoftSupport.getHttpPipeline()"
   name: "getHttpPipeline()"

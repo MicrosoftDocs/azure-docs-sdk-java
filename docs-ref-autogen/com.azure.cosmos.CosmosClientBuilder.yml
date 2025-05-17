@@ -247,6 +247,20 @@ methods:
   returns:
     description: "current CosmosClientBuilder"
     type: "<xref href=\"com.azure.cosmos.CosmosClientBuilder?alt=com.azure.cosmos.CosmosClientBuilder&text=CosmosClientBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.cosmos.CosmosClientBuilder.endToEndOperationLatencyPolicyConfig(com.azure.cosmos.CosmosEndToEndOperationLatencyPolicyConfig)"
+  fullName: "com.azure.cosmos.CosmosClientBuilder.endToEndOperationLatencyPolicyConfig(CosmosEndToEndOperationLatencyPolicyConfig cosmosEndToEndOperationLatencyPolicyConfig)"
+  name: "endToEndOperationLatencyPolicyConfig(CosmosEndToEndOperationLatencyPolicyConfig cosmosEndToEndOperationLatencyPolicyConfig)"
+  nameWithType: "CosmosClientBuilder.endToEndOperationLatencyPolicyConfig(CosmosEndToEndOperationLatencyPolicyConfig cosmosEndToEndOperationLatencyPolicyConfig)"
+  summary: "Sets the <xref uid=\"com.azure.cosmos.CosmosEndToEndOperationLatencyPolicyConfig\" data-throw-if-not-resolved=\"false\" data-raw-source=\"CosmosEndToEndOperationLatencyPolicyConfig\"></xref> on the client"
+  parameters:
+  - description: "the <xref uid=\"com.azure.cosmos.CosmosEndToEndOperationLatencyPolicyConfig\" data-throw-if-not-resolved=\"false\" data-raw-source=\"CosmosEndToEndOperationLatencyPolicyConfig\"></xref>"
+    name: "cosmosEndToEndOperationLatencyPolicyConfig"
+    type: "<xref href=\"com.azure.cosmos.CosmosEndToEndOperationLatencyPolicyConfig?alt=com.azure.cosmos.CosmosEndToEndOperationLatencyPolicyConfig&text=CosmosEndToEndOperationLatencyPolicyConfig\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public CosmosClientBuilder endToEndOperationLatencyPolicyConfig(CosmosEndToEndOperationLatencyPolicyConfig cosmosEndToEndOperationLatencyPolicyConfig)"
+  desc: "Sets the <xref uid=\"com.azure.cosmos.CosmosEndToEndOperationLatencyPolicyConfig\" data-throw-if-not-resolved=\"false\" data-raw-source=\"CosmosEndToEndOperationLatencyPolicyConfig\"></xref> on the client"
+  returns:
+    description: "current CosmosClientBuilder"
+    type: "<xref href=\"com.azure.cosmos.CosmosClientBuilder?alt=com.azure.cosmos.CosmosClientBuilder&text=CosmosClientBuilder\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.cosmos.CosmosClientBuilder.endpoint(java.lang.String)"
   fullName: "com.azure.cosmos.CosmosClientBuilder.endpoint(String endpoint)"
   name: "endpoint(String endpoint)"
@@ -272,20 +286,6 @@ methods:
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public CosmosClientBuilder endpointDiscoveryEnabled(boolean endpointDiscoveryEnabled)"
   desc: "Sets the flag to enable endpoint discovery for geo-replicated database accounts.\n\nWhen EnableEndpointDiscovery is true, the SDK will automatically discover the current write and read regions to ensure requests are sent to the correct region based on the capability of the region and the user's preference.\n\nThe default value for this property is true indicating endpoint discovery is enabled."
-  returns:
-    description: "current CosmosClientBuilder"
-    type: "<xref href=\"com.azure.cosmos.CosmosClientBuilder?alt=com.azure.cosmos.CosmosClientBuilder&text=CosmosClientBuilder\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.cosmos.CosmosClientBuilder.endToEndOperationLatencyPolicyConfig(com.azure.cosmos.CosmosEndToEndOperationLatencyPolicyConfig)"
-  fullName: "com.azure.cosmos.CosmosClientBuilder.endToEndOperationLatencyPolicyConfig(CosmosEndToEndOperationLatencyPolicyConfig cosmosEndToEndOperationLatencyPolicyConfig)"
-  name: "endToEndOperationLatencyPolicyConfig(CosmosEndToEndOperationLatencyPolicyConfig cosmosEndToEndOperationLatencyPolicyConfig)"
-  nameWithType: "CosmosClientBuilder.endToEndOperationLatencyPolicyConfig(CosmosEndToEndOperationLatencyPolicyConfig cosmosEndToEndOperationLatencyPolicyConfig)"
-  summary: "Sets the <xref uid=\"com.azure.cosmos.CosmosEndToEndOperationLatencyPolicyConfig\" data-throw-if-not-resolved=\"false\" data-raw-source=\"CosmosEndToEndOperationLatencyPolicyConfig\"></xref> on the client"
-  parameters:
-  - description: "the <xref uid=\"com.azure.cosmos.CosmosEndToEndOperationLatencyPolicyConfig\" data-throw-if-not-resolved=\"false\" data-raw-source=\"CosmosEndToEndOperationLatencyPolicyConfig\"></xref>"
-    name: "cosmosEndToEndOperationLatencyPolicyConfig"
-    type: "<xref href=\"com.azure.cosmos.CosmosEndToEndOperationLatencyPolicyConfig?alt=com.azure.cosmos.CosmosEndToEndOperationLatencyPolicyConfig&text=CosmosEndToEndOperationLatencyPolicyConfig\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public CosmosClientBuilder endToEndOperationLatencyPolicyConfig(CosmosEndToEndOperationLatencyPolicyConfig cosmosEndToEndOperationLatencyPolicyConfig)"
-  desc: "Sets the <xref uid=\"com.azure.cosmos.CosmosEndToEndOperationLatencyPolicyConfig\" data-throw-if-not-resolved=\"false\" data-raw-source=\"CosmosEndToEndOperationLatencyPolicyConfig\"></xref> on the client"
   returns:
     description: "current CosmosClientBuilder"
     type: "<xref href=\"com.azure.cosmos.CosmosClientBuilder?alt=com.azure.cosmos.CosmosClientBuilder&text=CosmosClientBuilder\" data-throw-if-not-resolved=\"False\" />"

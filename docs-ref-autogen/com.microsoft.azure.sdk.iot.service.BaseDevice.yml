@@ -208,16 +208,6 @@ methods:
   returns:
     description: "The deviceId string"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.azure.sdk.iot.service.BaseDevice.geteTag()"
-  fullName: "com.microsoft.azure.sdk.iot.service.BaseDevice.geteTag()"
-  name: "geteTag()"
-  nameWithType: "BaseDevice.geteTag()"
-  summary: "Getter for e<wbr>Tag"
-  syntax: "public String geteTag()"
-  desc: "Getter for eTag"
-  returns:
-    description: "The eTag string"
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.sdk.iot.service.BaseDevice.getGenerationId()"
   fullName: "com.microsoft.azure.sdk.iot.service.BaseDevice.getGenerationId()"
   name: "getGenerationId()"
@@ -288,6 +278,16 @@ methods:
   returns:
     description: "The symmetricKey object"
     type: "<xref href=\"com.microsoft.azure.sdk.iot.service.auth.SymmetricKey?alt=com.microsoft.azure.sdk.iot.service.auth.SymmetricKey&text=SymmetricKey\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.azure.sdk.iot.service.BaseDevice.geteTag()"
+  fullName: "com.microsoft.azure.sdk.iot.service.BaseDevice.geteTag()"
+  name: "geteTag()"
+  nameWithType: "BaseDevice.geteTag()"
+  summary: "Getter for e<wbr>Tag"
+  syntax: "public String geteTag()"
+  desc: "Getter for eTag"
+  returns:
+    description: "The eTag string"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.sdk.iot.service.BaseDevice.setForceUpdate(java.lang.Boolean)"
   fullName: "com.microsoft.azure.sdk.iot.service.BaseDevice.setForceUpdate(Boolean forceUpdate)"
   name: "setForceUpdate(Boolean forceUpdate)"

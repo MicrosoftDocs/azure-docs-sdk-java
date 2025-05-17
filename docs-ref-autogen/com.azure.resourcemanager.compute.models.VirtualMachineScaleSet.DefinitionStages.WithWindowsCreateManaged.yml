@@ -18,30 +18,6 @@ methods:
   returns:
     description: "the next stage of the definition"
     type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManaged?alt=com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManaged&text=WithWindowsCreateManaged\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManaged.withoutAutoUpdate()"
-  fullName: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManaged.withoutAutoUpdate()"
-  name: "withoutAutoUpdate()"
-  nameWithType: "VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManaged.withoutAutoUpdate()"
-  summary: "Disables automatic updates."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManaged withoutAutoUpdate()"
-  desc: "Disables automatic updates."
-  returns:
-    description: "the next stage of the definition"
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManaged?alt=com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManaged&text=WithWindowsCreateManaged\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManaged.withoutVMAgent()"
-  fullName: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManaged.withoutVMAgent()"
-  name: "withoutVMAgent()"
-  nameWithType: "VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManaged.withoutVMAgent()"
-  summary: "Disables the VM agent."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManaged withoutVMAgent()"
-  desc: "Disables the VM agent."
-  returns:
-    description: "the next stage of the definition"
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManaged?alt=com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManaged&text=WithWindowsCreateManaged\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManaged.withTimeZone(java.lang.String)"
   fullName: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManaged.withTimeZone(String timeZone)"
   name: "withTimeZone(String timeZone)"
@@ -83,6 +59,30 @@ methods:
     type: "<xref href=\"com.azure.resourcemanager.compute.models.WinRMListener?alt=com.azure.resourcemanager.compute.models.WinRMListener&text=WinRMListener\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManaged withWinRM(WinRMListener listener)"
   desc: "Specifies the WinRM listener.\n\nEach call to this method adds the given listener to the list of VM's WinRM listeners."
+  returns:
+    description: "the next stage of the definition"
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManaged?alt=com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManaged&text=WithWindowsCreateManaged\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManaged.withoutAutoUpdate()"
+  fullName: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManaged.withoutAutoUpdate()"
+  name: "withoutAutoUpdate()"
+  nameWithType: "VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManaged.withoutAutoUpdate()"
+  summary: "Disables automatic updates."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManaged withoutAutoUpdate()"
+  desc: "Disables automatic updates."
+  returns:
+    description: "the next stage of the definition"
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManaged?alt=com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManaged&text=WithWindowsCreateManaged\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManaged.withoutVMAgent()"
+  fullName: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManaged.withoutVMAgent()"
+  name: "withoutVMAgent()"
+  nameWithType: "VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManaged.withoutVMAgent()"
+  summary: "Disables the VM agent."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManaged withoutVMAgent()"
+  desc: "Disables the VM agent."
   returns:
     description: "the next stage of the definition"
     type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManaged?alt=com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManaged&text=WithWindowsCreateManaged\" data-throw-if-not-resolved=\"False\" />"

@@ -54,16 +54,6 @@ methods:
   returns:
     description: "An instance of AcsChatThreadPropertiesUpdatedPerUserEventData if the JsonReader was pointing to an\n instance of it, or null if it was pointing to JSON null."
     type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsChatThreadPropertiesUpdatedPerUserEventData?alt=com.azure.messaging.eventgrid.systemevents.AcsChatThreadPropertiesUpdatedPerUserEventData&text=AcsChatThreadPropertiesUpdatedPerUserEventData\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.messaging.eventgrid.systemevents.AcsChatThreadPropertiesUpdatedPerUserEventData.getEditedByCommunicationIdentifier()"
-  fullName: "com.azure.messaging.eventgrid.systemevents.AcsChatThreadPropertiesUpdatedPerUserEventData.getEditedByCommunicationIdentifier()"
-  name: "getEditedByCommunicationIdentifier()"
-  nameWithType: "AcsChatThreadPropertiesUpdatedPerUserEventData.getEditedByCommunicationIdentifier()"
-  summary: "Get the edited<wbr>ByCommunication<wbr>Identifier property: The communication identifier of the user who updated the thread properties."
-  syntax: "public CommunicationIdentifierModel getEditedByCommunicationIdentifier()"
-  desc: "Get the editedByCommunicationIdentifier property: The communication identifier of the user who updated the thread properties."
-  returns:
-    description: "the editedByCommunicationIdentifier value."
-    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel?alt=com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel&text=CommunicationIdentifierModel\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.messaging.eventgrid.systemevents.AcsChatThreadPropertiesUpdatedPerUserEventData.getEditTime()"
   fullName: "com.azure.messaging.eventgrid.systemevents.AcsChatThreadPropertiesUpdatedPerUserEventData.getEditTime()"
   name: "getEditTime()"
@@ -74,6 +64,16 @@ methods:
   returns:
     description: "the editTime value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsChatThreadPropertiesUpdatedPerUserEventData.getEditedByCommunicationIdentifier()"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsChatThreadPropertiesUpdatedPerUserEventData.getEditedByCommunicationIdentifier()"
+  name: "getEditedByCommunicationIdentifier()"
+  nameWithType: "AcsChatThreadPropertiesUpdatedPerUserEventData.getEditedByCommunicationIdentifier()"
+  summary: "Get the edited<wbr>ByCommunication<wbr>Identifier property: The communication identifier of the user who updated the thread properties."
+  syntax: "public CommunicationIdentifierModel getEditedByCommunicationIdentifier()"
+  desc: "Get the editedByCommunicationIdentifier property: The communication identifier of the user who updated the thread properties."
+  returns:
+    description: "the editedByCommunicationIdentifier value."
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel?alt=com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel&text=CommunicationIdentifierModel\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.messaging.eventgrid.systemevents.AcsChatThreadPropertiesUpdatedPerUserEventData.getMetadata()"
   fullName: "com.azure.messaging.eventgrid.systemevents.AcsChatThreadPropertiesUpdatedPerUserEventData.getMetadata()"
   name: "getMetadata()"

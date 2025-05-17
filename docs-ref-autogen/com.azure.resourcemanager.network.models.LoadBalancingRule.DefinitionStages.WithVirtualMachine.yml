@@ -6,22 +6,6 @@ nameWithType: "LoadBalancingRule.DefinitionStages.WithVirtualMachine<ReturnT>"
 summary: "The stage of a load balancing rule definition allowing to select a set of virtual machines to load balance the network traffic among."
 syntax: "public static interface **LoadBalancingRule.DefinitionStages.WithVirtualMachine<ReturnT>**"
 methods:
-- uid: "com.azure.resourcemanager.network.models.LoadBalancingRule.DefinitionStages.WithVirtualMachine.toExistingVirtualMachines(java.util.Collection<com.azure.resourcemanager.network.models.HasNetworkInterfaces>)"
-  fullName: "com.azure.resourcemanager.network.models.LoadBalancingRule.DefinitionStages.WithVirtualMachine<ReturnT>.toExistingVirtualMachines(Collection<HasNetworkInterfaces> vms)"
-  name: "toExistingVirtualMachines(Collection<HasNetworkInterfaces> vms)"
-  nameWithType: "LoadBalancingRule.DefinitionStages.WithVirtualMachine<ReturnT>.toExistingVirtualMachines(Collection<HasNetworkInterfaces> vms)"
-  summary: "Adds the specified set of virtual machines, assuming they are from the same availability set, to a new back end address pool to be associated with this load balancing rule."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "existing virtual machines"
-    name: "vms"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.HasNetworkInterfaces?alt=com.azure.resourcemanager.network.models.HasNetworkInterfaces&text=HasNetworkInterfaces\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public abstract LoadBalancingRule.DefinitionStages.WithBackendPort<ReturnT> toExistingVirtualMachines(Collection<HasNetworkInterfaces> vms)"
-  desc: "Adds the specified set of virtual machines, assuming they are from the same availability set, to a new back end address pool to be associated with this load balancing rule.\n\nThis will add references to the primary IP configurations of the primary network interfaces of the provided set of virtual machines.\n\nIf the virtual machines are not in the same availability set, they will not be associated with the backend.\n\nOnly those virtual machines will be associated with the load balancer that already have an existing network interface. Virtual machines without a network interface will be skipped."
-  returns:
-    description: "the next stage of the definition"
-    type: "<xref href=\"com.azure.resourcemanager.network.models.LoadBalancingRule.DefinitionStages.WithBackendPort?alt=com.azure.resourcemanager.network.models.LoadBalancingRule.DefinitionStages.WithBackendPort&text=WithBackendPort\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ReturnT?alt=ReturnT&text=ReturnT\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.network.models.LoadBalancingRule.DefinitionStages.WithVirtualMachine.toExistingVirtualMachines(com.azure.resourcemanager.network.models.HasNetworkInterfaces...)"
   fullName: "com.azure.resourcemanager.network.models.LoadBalancingRule.DefinitionStages.WithVirtualMachine<ReturnT>.toExistingVirtualMachines(HasNetworkInterfaces[] vms)"
   name: "toExistingVirtualMachines(HasNetworkInterfaces[] vms)"
@@ -34,6 +18,22 @@ methods:
     name: "vms"
     type: "<xref href=\"com.azure.resourcemanager.network.models.HasNetworkInterfaces?alt=com.azure.resourcemanager.network.models.HasNetworkInterfaces&text=HasNetworkInterfaces\" data-throw-if-not-resolved=\"False\" />[]"
   syntax: "public abstract LoadBalancingRule.DefinitionStages.WithBackendPort<ReturnT> toExistingVirtualMachines(HasNetworkInterfaces[] vms)"
+  desc: "Adds the specified set of virtual machines, assuming they are from the same availability set, to a new back end address pool to be associated with this load balancing rule.\n\nThis will add references to the primary IP configurations of the primary network interfaces of the provided set of virtual machines.\n\nIf the virtual machines are not in the same availability set, they will not be associated with the backend.\n\nOnly those virtual machines will be associated with the load balancer that already have an existing network interface. Virtual machines without a network interface will be skipped."
+  returns:
+    description: "the next stage of the definition"
+    type: "<xref href=\"com.azure.resourcemanager.network.models.LoadBalancingRule.DefinitionStages.WithBackendPort?alt=com.azure.resourcemanager.network.models.LoadBalancingRule.DefinitionStages.WithBackendPort&text=WithBackendPort\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ReturnT?alt=ReturnT&text=ReturnT\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.network.models.LoadBalancingRule.DefinitionStages.WithVirtualMachine.toExistingVirtualMachines(java.util.Collection<com.azure.resourcemanager.network.models.HasNetworkInterfaces>)"
+  fullName: "com.azure.resourcemanager.network.models.LoadBalancingRule.DefinitionStages.WithVirtualMachine<ReturnT>.toExistingVirtualMachines(Collection<HasNetworkInterfaces> vms)"
+  name: "toExistingVirtualMachines(Collection<HasNetworkInterfaces> vms)"
+  nameWithType: "LoadBalancingRule.DefinitionStages.WithVirtualMachine<ReturnT>.toExistingVirtualMachines(Collection<HasNetworkInterfaces> vms)"
+  summary: "Adds the specified set of virtual machines, assuming they are from the same availability set, to a new back end address pool to be associated with this load balancing rule."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "existing virtual machines"
+    name: "vms"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.HasNetworkInterfaces?alt=com.azure.resourcemanager.network.models.HasNetworkInterfaces&text=HasNetworkInterfaces\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public abstract LoadBalancingRule.DefinitionStages.WithBackendPort<ReturnT> toExistingVirtualMachines(Collection<HasNetworkInterfaces> vms)"
   desc: "Adds the specified set of virtual machines, assuming they are from the same availability set, to a new back end address pool to be associated with this load balancing rule.\n\nThis will add references to the primary IP configurations of the primary network interfaces of the provided set of virtual machines.\n\nIf the virtual machines are not in the same availability set, they will not be associated with the backend.\n\nOnly those virtual machines will be associated with the load balancer that already have an existing network interface. Virtual machines without a network interface will be skipped."
   returns:
     description: "the next stage of the definition"

@@ -50,20 +50,6 @@ methods:
   returns:
     description: "A task representing the asynchronous operation of adding a participant."
     type: "<xref href=\"java.util.concurrent.Future?alt=java.util.concurrent.Future&text=Future\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.cognitiveservices.speech.transcription.Participant?alt=com.microsoft.cognitiveservices.speech.transcription.Participant&text=Participant\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.microsoft.cognitiveservices.speech.transcription.Conversation.addParticipantAsync(java.lang.String)"
-  fullName: "com.microsoft.cognitiveservices.speech.transcription.Conversation.addParticipantAsync(String userId)"
-  name: "addParticipantAsync(String userId)"
-  nameWithType: "Conversation.addParticipantAsync(String userId)"
-  summary: "Add a participant to a conversation using the user's id."
-  parameters:
-  - description: "The user id."
-    name: "userId"
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public Future<Participant> addParticipantAsync(String userId)"
-  desc: "Add a participant to a conversation using the user's id."
-  returns:
-    description: "A task representing the asynchronous operation of adding a participant."
-    type: "<xref href=\"java.util.concurrent.Future?alt=java.util.concurrent.Future&text=Future\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.cognitiveservices.speech.transcription.Participant?alt=com.microsoft.cognitiveservices.speech.transcription.Participant&text=Participant\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.microsoft.cognitiveservices.speech.transcription.Conversation.addParticipantAsync(com.microsoft.cognitiveservices.speech.transcription.User)"
   fullName: "com.microsoft.cognitiveservices.speech.transcription.Conversation.addParticipantAsync(User user)"
   name: "addParticipantAsync(User user)"
@@ -78,6 +64,20 @@ methods:
   returns:
     description: "A task representing the asynchronous operation of adding a participant."
     type: "<xref href=\"java.util.concurrent.Future?alt=java.util.concurrent.Future&text=Future\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.cognitiveservices.speech.transcription.User?alt=com.microsoft.cognitiveservices.speech.transcription.User&text=User\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.microsoft.cognitiveservices.speech.transcription.Conversation.addParticipantAsync(java.lang.String)"
+  fullName: "com.microsoft.cognitiveservices.speech.transcription.Conversation.addParticipantAsync(String userId)"
+  name: "addParticipantAsync(String userId)"
+  nameWithType: "Conversation.addParticipantAsync(String userId)"
+  summary: "Add a participant to a conversation using the user's id."
+  parameters:
+  - description: "The user id."
+    name: "userId"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public Future<Participant> addParticipantAsync(String userId)"
+  desc: "Add a participant to a conversation using the user's id."
+  returns:
+    description: "A task representing the asynchronous operation of adding a participant."
+    type: "<xref href=\"java.util.concurrent.Future?alt=java.util.concurrent.Future&text=Future\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.cognitiveservices.speech.transcription.Participant?alt=com.microsoft.cognitiveservices.speech.transcription.Participant&text=Participant\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.microsoft.cognitiveservices.speech.transcription.Conversation.close()"
   fullName: "com.microsoft.cognitiveservices.speech.transcription.Conversation.close()"
   name: "close()"
@@ -241,20 +241,6 @@ methods:
   returns:
     description: "Am empty task representing the asynchronous operation of removing a participant."
     type: "<xref href=\"java.util.concurrent.Future?alt=java.util.concurrent.Future&text=Future\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.Void?alt=java.lang.Void&text=Void\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.microsoft.cognitiveservices.speech.transcription.Conversation.removeParticipantAsync(java.lang.String)"
-  fullName: "com.microsoft.cognitiveservices.speech.transcription.Conversation.removeParticipantAsync(String userId)"
-  name: "removeParticipantAsync(String userId)"
-  nameWithType: "Conversation.removeParticipantAsync(String userId)"
-  summary: "Remove a participant from a conversation using a user id."
-  parameters:
-  - description: "A user id."
-    name: "userId"
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public Future<Void> removeParticipantAsync(String userId)"
-  desc: "Remove a participant from a conversation using a user id."
-  returns:
-    description: "Am empty task representing the asynchronous operation of removing a participant."
-    type: "<xref href=\"java.util.concurrent.Future?alt=java.util.concurrent.Future&text=Future\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.Void?alt=java.lang.Void&text=Void\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.microsoft.cognitiveservices.speech.transcription.Conversation.removeParticipantAsync(com.microsoft.cognitiveservices.speech.transcription.User)"
   fullName: "com.microsoft.cognitiveservices.speech.transcription.Conversation.removeParticipantAsync(User user)"
   name: "removeParticipantAsync(User user)"
@@ -266,6 +252,20 @@ methods:
     type: "<xref href=\"com.microsoft.cognitiveservices.speech.transcription.User?alt=com.microsoft.cognitiveservices.speech.transcription.User&text=User\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public Future<Void> removeParticipantAsync(User user)"
   desc: "Remove a participant from a conversation using a user object."
+  returns:
+    description: "Am empty task representing the asynchronous operation of removing a participant."
+    type: "<xref href=\"java.util.concurrent.Future?alt=java.util.concurrent.Future&text=Future\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.Void?alt=java.lang.Void&text=Void\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.microsoft.cognitiveservices.speech.transcription.Conversation.removeParticipantAsync(java.lang.String)"
+  fullName: "com.microsoft.cognitiveservices.speech.transcription.Conversation.removeParticipantAsync(String userId)"
+  name: "removeParticipantAsync(String userId)"
+  nameWithType: "Conversation.removeParticipantAsync(String userId)"
+  summary: "Remove a participant from a conversation using a user id."
+  parameters:
+  - description: "A user id."
+    name: "userId"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public Future<Void> removeParticipantAsync(String userId)"
+  desc: "Remove a participant from a conversation using a user id."
   returns:
     description: "Am empty task representing the asynchronous operation of removing a participant."
     type: "<xref href=\"java.util.concurrent.Future?alt=java.util.concurrent.Future&text=Future\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.Void?alt=java.lang.Void&text=Void\" data-throw-if-not-resolved=\"False\" />&gt;"

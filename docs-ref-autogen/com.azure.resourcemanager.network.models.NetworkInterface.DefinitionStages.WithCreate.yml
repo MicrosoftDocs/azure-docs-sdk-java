@@ -34,6 +34,18 @@ methods:
   returns:
     description: "the next stage of the definition"
     type: "<xref href=\"com.azure.resourcemanager.network.models.NetworkInterface.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.network.models.NetworkInterface.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.models.NetworkInterface.DefinitionStages.WithCreate.withIPForwarding()"
+  fullName: "com.azure.resourcemanager.network.models.NetworkInterface.DefinitionStages.WithCreate.withIPForwarding()"
+  name: "withIPForwarding()"
+  nameWithType: "NetworkInterface.DefinitionStages.WithCreate.withIPForwarding()"
+  summary: "Enables IP forwarding in the network interface."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract NetworkInterface.DefinitionStages.WithCreate withIPForwarding()"
+  desc: "Enables IP forwarding in the network interface."
+  returns:
+    description: "the next stage of the definition"
+    type: "<xref href=\"com.azure.resourcemanager.network.models.NetworkInterface.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.network.models.NetworkInterface.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.models.NetworkInterface.DefinitionStages.WithCreate.withInternalDnsNameLabel(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.NetworkInterface.DefinitionStages.WithCreate.withInternalDnsNameLabel(String dnsNameLabel)"
   name: "withInternalDnsNameLabel(String dnsNameLabel)"
@@ -47,18 +59,6 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract NetworkInterface.DefinitionStages.WithCreate withInternalDnsNameLabel(String dnsNameLabel)"
   desc: "Specifies the internal DNS name label for the network interface."
-  returns:
-    description: "the next stage of the definition"
-    type: "<xref href=\"com.azure.resourcemanager.network.models.NetworkInterface.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.network.models.NetworkInterface.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.models.NetworkInterface.DefinitionStages.WithCreate.withIPForwarding()"
-  fullName: "com.azure.resourcemanager.network.models.NetworkInterface.DefinitionStages.WithCreate.withIPForwarding()"
-  name: "withIPForwarding()"
-  nameWithType: "NetworkInterface.DefinitionStages.WithCreate.withIPForwarding()"
-  summary: "Enables IP forwarding in the network interface."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract NetworkInterface.DefinitionStages.WithCreate withIPForwarding()"
-  desc: "Enables IP forwarding in the network interface."
   returns:
     description: "the next stage of the definition"
     type: "<xref href=\"com.azure.resourcemanager.network.models.NetworkInterface.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.network.models.NetworkInterface.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"

@@ -49,16 +49,6 @@ methods:
   returns:
     description: "An instance of VirtualNetworkConfiguration if the JsonReader was pointing to an instance of it, or null\n if it was pointing to JSON null."
     type: "<xref href=\"com.azure.resourcemanager.apimanagement.models.VirtualNetworkConfiguration?alt=com.azure.resourcemanager.apimanagement.models.VirtualNetworkConfiguration&text=VirtualNetworkConfiguration\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.apimanagement.models.VirtualNetworkConfiguration.subnetname()"
-  fullName: "com.azure.resourcemanager.apimanagement.models.VirtualNetworkConfiguration.subnetname()"
-  name: "subnetname()"
-  nameWithType: "VirtualNetworkConfiguration.subnetname()"
-  summary: "Get the subnetname property: The name of the subnet."
-  syntax: "public String subnetname()"
-  desc: "Get the subnetname property: The name of the subnet."
-  returns:
-    description: "the subnetname value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.apimanagement.models.VirtualNetworkConfiguration.subnetResourceId()"
   fullName: "com.azure.resourcemanager.apimanagement.models.VirtualNetworkConfiguration.subnetResourceId()"
   name: "subnetResourceId()"
@@ -68,6 +58,16 @@ methods:
   desc: "Get the subnetResourceId property: The full resource ID of a subnet in a virtual network to deploy the API Management service in."
   returns:
     description: "the subnetResourceId value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.apimanagement.models.VirtualNetworkConfiguration.subnetname()"
+  fullName: "com.azure.resourcemanager.apimanagement.models.VirtualNetworkConfiguration.subnetname()"
+  name: "subnetname()"
+  nameWithType: "VirtualNetworkConfiguration.subnetname()"
+  summary: "Get the subnetname property: The name of the subnet."
+  syntax: "public String subnetname()"
+  desc: "Get the subnetname property: The name of the subnet."
+  returns:
+    description: "the subnetname value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.apimanagement.models.VirtualNetworkConfiguration.toJson(com.azure.json.JsonWriter)"
   fullName: "com.azure.resourcemanager.apimanagement.models.VirtualNetworkConfiguration.toJson(JsonWriter jsonWriter)"

@@ -54,7 +54,7 @@ methods:
   nameWithType: "LiveEventEncoding.presetName()"
   summary: "Get the optional encoding preset name, used when encoding<wbr>Type is not None."
   syntax: "public String presetName()"
-  desc: "Get the optional encoding preset name, used when encodingType is not None. This value is specified at creation time and cannot be updated. If the encodingType is set to Standard, then the default preset name is ‘Default720p’. Else if the encodingType is set to Premium1080p, the default preset is ‘Default1080p’."
+  desc: "Get the optional encoding preset name, used when encodingType is not None. This value is specified at creation time and cannot be updated. If the encodingType is set to Standard, then the default preset name is \\\\u2018Default720p\\\\u2019. Else if the encodingType is set to Premium1080p, the default preset is \\\\u2018Default1080p\\\\u2019."
   returns:
     description: "the presetName value"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
@@ -106,7 +106,7 @@ methods:
     name: "presetName"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public LiveEventEncoding withPresetName(String presetName)"
-  desc: "Set the optional encoding preset name, used when encodingType is not None. This value is specified at creation time and cannot be updated. If the encodingType is set to Standard, then the default preset name is ‘Default720p’. Else if the encodingType is set to Premium1080p, the default preset is ‘Default1080p’."
+  desc: "Set the optional encoding preset name, used when encodingType is not None. This value is specified at creation time and cannot be updated. If the encodingType is set to Standard, then the default preset name is \\\\u2018Default720p\\\\u2019. Else if the encodingType is set to Premium1080p, the default preset is \\\\u2018Default1080p\\\\u2019."
   returns:
     description: "the LiveEventEncoding object itself."
     type: "<xref href=\"com.microsoft.azure.management.mediaservices.v2020_05_01.LiveEventEncoding?alt=com.microsoft.azure.management.mediaservices.v2020_05_01.LiveEventEncoding&text=LiveEventEncoding\" data-throw-if-not-resolved=\"False\" />"

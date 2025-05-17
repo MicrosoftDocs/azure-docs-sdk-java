@@ -85,9 +85,9 @@ methods:
   fullName: "com.azure.ai.openai.models.ImageGenerationPromptFilterResults.getSelfHarm()"
   name: "getSelfHarm()"
   nameWithType: "ImageGenerationPromptFilterResults.getSelfHarm()"
-  summary: "Get the self<wbr>Harm property: Describes language related to physical actions intended to purposely hurt, injure, or damage one’s body, or kill oneself."
+  summary: "Get the self<wbr>Harm property: Describes language related to physical actions intended to purposely hurt, injure, or damage one\\\\u2019s body, or kill oneself."
   syntax: "public ContentFilterResult getSelfHarm()"
-  desc: "Get the selfHarm property: Describes language related to physical actions intended to purposely hurt, injure, or damage one’s body, or kill oneself."
+  desc: "Get the selfHarm property: Describes language related to physical actions intended to purposely hurt, injure, or damage one\\\\u2019s body, or kill oneself."
   returns:
     description: "the selfHarm value."
     type: "<xref href=\"com.azure.ai.openai.models.ContentFilterResult?alt=com.azure.ai.openai.models.ContentFilterResult&text=ContentFilterResult\" data-throw-if-not-resolved=\"False\" />"
@@ -95,9 +95,9 @@ methods:
   fullName: "com.azure.ai.openai.models.ImageGenerationPromptFilterResults.getSexual()"
   name: "getSexual()"
   nameWithType: "ImageGenerationPromptFilterResults.getSexual()"
-  summary: "Get the sexual property: Describes language related to anatomical organs and genitals, romantic relationships, acts portrayed in erotic or affectionate terms, physical sexual acts, including those portrayed as an assault or a forced sexual violent act against one’s will, prostitution, pornography, and abuse."
+  summary: "Get the sexual property: Describes language related to anatomical organs and genitals, romantic relationships, acts portrayed in erotic or affectionate terms, physical sexual acts, including those portrayed as an assault or a forced sexual violent act against one\\\\u2019s will, prostitution, pornography, and abuse."
   syntax: "public ContentFilterResult getSexual()"
-  desc: "Get the sexual property: Describes language related to anatomical organs and genitals, romantic relationships, acts portrayed in erotic or affectionate terms, physical sexual acts, including those portrayed as an assault or a forced sexual violent act against one’s will, prostitution, pornography, and abuse."
+  desc: "Get the sexual property: Describes language related to anatomical organs and genitals, romantic relationships, acts portrayed in erotic or affectionate terms, physical sexual acts, including those portrayed as an assault or a forced sexual violent act against one\\\\u2019s will, prostitution, pornography, and abuse."
   returns:
     description: "the sexual value."
     type: "<xref href=\"com.azure.ai.openai.models.ContentFilterResult?alt=com.azure.ai.openai.models.ContentFilterResult&text=ContentFilterResult\" data-throw-if-not-resolved=\"False\" />"

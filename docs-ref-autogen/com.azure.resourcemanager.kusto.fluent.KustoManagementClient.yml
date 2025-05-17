@@ -54,6 +54,18 @@ methods:
   returns:
     description: "the ClustersClient object."
     type: "<xref href=\"com.azure.resourcemanager.kusto.fluent.ClustersClient?alt=com.azure.resourcemanager.kusto.fluent.ClustersClient&text=ClustersClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.kusto.fluent.KustoManagementClient.getDataConnections()"
+  fullName: "com.azure.resourcemanager.kusto.fluent.KustoManagementClient.getDataConnections()"
+  name: "getDataConnections()"
+  nameWithType: "KustoManagementClient.getDataConnections()"
+  summary: "Gets the Data<wbr>Connections<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract DataConnectionsClient getDataConnections()"
+  desc: "Gets the DataConnectionsClient object to access its operations."
+  returns:
+    description: "the DataConnectionsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.kusto.fluent.DataConnectionsClient?alt=com.azure.resourcemanager.kusto.fluent.DataConnectionsClient&text=DataConnectionsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.kusto.fluent.KustoManagementClient.getDatabaseOperations()"
   fullName: "com.azure.resourcemanager.kusto.fluent.KustoManagementClient.getDatabaseOperations()"
   name: "getDatabaseOperations()"
@@ -90,18 +102,6 @@ methods:
   returns:
     description: "the DatabasesClient object."
     type: "<xref href=\"com.azure.resourcemanager.kusto.fluent.DatabasesClient?alt=com.azure.resourcemanager.kusto.fluent.DatabasesClient&text=DatabasesClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.kusto.fluent.KustoManagementClient.getDataConnections()"
-  fullName: "com.azure.resourcemanager.kusto.fluent.KustoManagementClient.getDataConnections()"
-  name: "getDataConnections()"
-  nameWithType: "KustoManagementClient.getDataConnections()"
-  summary: "Gets the Data<wbr>Connections<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract DataConnectionsClient getDataConnections()"
-  desc: "Gets the DataConnectionsClient object to access its operations."
-  returns:
-    description: "the DataConnectionsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.kusto.fluent.DataConnectionsClient?alt=com.azure.resourcemanager.kusto.fluent.DataConnectionsClient&text=DataConnectionsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.kusto.fluent.KustoManagementClient.getDefaultPollInterval()"
   fullName: "com.azure.resourcemanager.kusto.fluent.KustoManagementClient.getDefaultPollInterval()"
   name: "getDefaultPollInterval()"

@@ -241,11 +241,11 @@ methods:
   fullName: "com.azure.resourcemanager.resourceconnector.models.Appliance.status()"
   name: "status()"
   nameWithType: "Appliance.status()"
-  summary: "Gets the status property: Appliance’s health and state of connection to on-prem."
+  summary: "Gets the status property: Appliance\\\\u2019s health and state of connection to on-prem."
   modifiers:
   - "abstract"
   syntax: "public abstract Status status()"
-  desc: "Gets the status property: Appliance’s health and state of connection to on-prem."
+  desc: "Gets the status property: Appliance\\\\u2019s health and state of connection to on-prem."
   returns:
     description: "the status value."
     type: "<xref href=\"com.azure.resourcemanager.resourceconnector.models.Status?alt=com.azure.resourcemanager.resourceconnector.models.Status&text=Status\" data-throw-if-not-resolved=\"False\" />"

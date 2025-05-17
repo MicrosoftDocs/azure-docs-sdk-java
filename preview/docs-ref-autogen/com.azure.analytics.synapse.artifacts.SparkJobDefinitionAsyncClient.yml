@@ -194,16 +194,6 @@ methods:
   returns:
     description: "a Spark Job Definition on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.analytics.synapse.artifacts.models.SparkJobDefinitionResource?alt=com.azure.analytics.synapse.artifacts.models.SparkJobDefinitionResource&text=SparkJobDefinitionResource\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.analytics.synapse.artifacts.SparkJobDefinitionAsyncClient.getSparkJobDefinitionsByWorkspace()"
-  fullName: "com.azure.analytics.synapse.artifacts.SparkJobDefinitionAsyncClient.getSparkJobDefinitionsByWorkspace()"
-  name: "getSparkJobDefinitionsByWorkspace()"
-  nameWithType: "SparkJobDefinitionAsyncClient.getSparkJobDefinitionsByWorkspace()"
-  summary: "Lists spark job definitions."
-  syntax: "public PagedFlux<SparkJobDefinitionResource> getSparkJobDefinitionsByWorkspace()"
-  desc: "Lists spark job definitions."
-  returns:
-    description: "a list of spark job definitions resources as paginated response with <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
-    type: "<xref href=\"com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.analytics.synapse.artifacts.models.SparkJobDefinitionResource?alt=com.azure.analytics.synapse.artifacts.models.SparkJobDefinitionResource&text=SparkJobDefinitionResource\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.analytics.synapse.artifacts.SparkJobDefinitionAsyncClient.getSparkJobDefinitionWithResponse(java.lang.String,java.lang.String)"
   fullName: "com.azure.analytics.synapse.artifacts.SparkJobDefinitionAsyncClient.getSparkJobDefinitionWithResponse(String sparkJobDefinitionName, String ifNoneMatch)"
   name: "getSparkJobDefinitionWithResponse(String sparkJobDefinitionName, String ifNoneMatch)"
@@ -221,6 +211,16 @@ methods:
   returns:
     description: "a Spark Job Definition along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref> on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.analytics.synapse.artifacts.models.SparkJobDefinitionResource?alt=com.azure.analytics.synapse.artifacts.models.SparkJobDefinitionResource&text=SparkJobDefinitionResource\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
+- uid: "com.azure.analytics.synapse.artifacts.SparkJobDefinitionAsyncClient.getSparkJobDefinitionsByWorkspace()"
+  fullName: "com.azure.analytics.synapse.artifacts.SparkJobDefinitionAsyncClient.getSparkJobDefinitionsByWorkspace()"
+  name: "getSparkJobDefinitionsByWorkspace()"
+  nameWithType: "SparkJobDefinitionAsyncClient.getSparkJobDefinitionsByWorkspace()"
+  summary: "Lists spark job definitions."
+  syntax: "public PagedFlux<SparkJobDefinitionResource> getSparkJobDefinitionsByWorkspace()"
+  desc: "Lists spark job definitions."
+  returns:
+    description: "a list of spark job definitions resources as paginated response with <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
+    type: "<xref href=\"com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.analytics.synapse.artifacts.models.SparkJobDefinitionResource?alt=com.azure.analytics.synapse.artifacts.models.SparkJobDefinitionResource&text=SparkJobDefinitionResource\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.analytics.synapse.artifacts.SparkJobDefinitionAsyncClient.renameSparkJobDefinition(java.lang.String,com.azure.analytics.synapse.artifacts.models.ArtifactRenameRequest)"
   fullName: "com.azure.analytics.synapse.artifacts.SparkJobDefinitionAsyncClient.renameSparkJobDefinition(String sparkJobDefinitionName, ArtifactRenameRequest request)"
   name: "renameSparkJobDefinition(String sparkJobDefinitionName, ArtifactRenameRequest request)"

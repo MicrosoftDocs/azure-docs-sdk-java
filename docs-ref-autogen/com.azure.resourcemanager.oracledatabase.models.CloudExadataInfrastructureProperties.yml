@@ -279,16 +279,6 @@ methods:
   returns:
     description: "the nextMaintenanceRunId value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.oracledatabase.models.CloudExadataInfrastructureProperties.ocid()"
-  fullName: "com.azure.resourcemanager.oracledatabase.models.CloudExadataInfrastructureProperties.ocid()"
-  name: "ocid()"
-  nameWithType: "CloudExadataInfrastructureProperties.ocid()"
-  summary: "Get the ocid property: Exadata infra ocid."
-  syntax: "public String ocid()"
-  desc: "Get the ocid property: Exadata infra ocid."
-  returns:
-    description: "the ocid value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.oracledatabase.models.CloudExadataInfrastructureProperties.ociUrl()"
   fullName: "com.azure.resourcemanager.oracledatabase.models.CloudExadataInfrastructureProperties.ociUrl()"
   name: "ociUrl()"
@@ -298,6 +288,16 @@ methods:
   desc: "Get the ociUrl property: HTTPS link to OCI resources exposed to Azure Customer via Azure Interface."
   returns:
     description: "the ociUrl value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.oracledatabase.models.CloudExadataInfrastructureProperties.ocid()"
+  fullName: "com.azure.resourcemanager.oracledatabase.models.CloudExadataInfrastructureProperties.ocid()"
+  name: "ocid()"
+  nameWithType: "CloudExadataInfrastructureProperties.ocid()"
+  summary: "Get the ocid property: Exadata infra ocid."
+  syntax: "public String ocid()"
+  desc: "Get the ocid property: Exadata infra ocid."
+  returns:
+    description: "the ocid value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.oracledatabase.models.CloudExadataInfrastructureProperties.provisioningState()"
   fullName: "com.azure.resourcemanager.oracledatabase.models.CloudExadataInfrastructureProperties.provisioningState()"

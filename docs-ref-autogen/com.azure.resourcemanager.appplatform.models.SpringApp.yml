@@ -6,6 +6,18 @@ nameWithType: "SpringApp"
 summary: "An immutable client-side representation of an Azure Spring App."
 syntax: "public interface **SpringApp**</br> extends <xref href=\"com.azure.resourcemanager.resources.fluentcore.arm.models.ExternalChildResource?alt=com.azure.resourcemanager.resources.fluentcore.arm.models.ExternalChildResource&text=ExternalChildResource\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.appplatform.models.SpringApp?alt=com.azure.resourcemanager.appplatform.models.SpringApp&text=SpringApp\" data-throw-if-not-resolved=\"False\" />,<xref href=\"com.azure.resourcemanager.appplatform.models.SpringService?alt=com.azure.resourcemanager.appplatform.models.SpringService&text=SpringService\" data-throw-if-not-resolved=\"False\" />&gt;, <xref href=\"com.azure.resourcemanager.resources.fluentcore.model.HasInnerModel?alt=com.azure.resourcemanager.resources.fluentcore.model.HasInnerModel&text=HasInnerModel\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.appplatform.fluent.models.AppResourceInner?alt=com.azure.resourcemanager.appplatform.fluent.models.AppResourceInner&text=AppResourceInner\" data-throw-if-not-resolved=\"False\" />&gt;, <xref href=\"com.azure.resourcemanager.resources.fluentcore.model.Updatable?alt=com.azure.resourcemanager.resources.fluentcore.model.Updatable&text=Updatable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.appplatform.models.SpringApp.Update?alt=com.azure.resourcemanager.appplatform.models.SpringApp.Update&text=Update\" data-throw-if-not-resolved=\"False\" />&gt;"
 methods:
+- uid: "com.azure.resourcemanager.appplatform.models.SpringApp.<T>deployments()"
+  fullName: "com.azure.resourcemanager.appplatform.models.SpringApp.deployments()"
+  name: "deployments()"
+  nameWithType: "SpringApp.deployments()"
+  summary: "Gets the entry point of the spring app deployment."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract SpringAppDeployments<T> <T>deployments()"
+  desc: "Gets the entry point of the spring app deployment."
+  returns:
+    description: "the entry point of the spring app deployment"
+    type: "<xref href=\"com.azure.resourcemanager.appplatform.models.SpringAppDeployments?alt=com.azure.resourcemanager.appplatform.models.SpringAppDeployments&text=SpringAppDeployments\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.appplatform.models.SpringApp.activeDeploymentName()"
   fullName: "com.azure.resourcemanager.appplatform.models.SpringApp.activeDeploymentName()"
   name: "activeDeploymentName()"
@@ -30,18 +42,6 @@ methods:
   returns:
     description: "the entry point of the spring app custom domain"
     type: "<xref href=\"com.azure.resourcemanager.appplatform.models.SpringAppDomains?alt=com.azure.resourcemanager.appplatform.models.SpringAppDomains&text=SpringAppDomains\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.appplatform.models.SpringApp.<T>deployments()"
-  fullName: "com.azure.resourcemanager.appplatform.models.SpringApp.deployments()"
-  name: "deployments()"
-  nameWithType: "SpringApp.deployments()"
-  summary: "Gets the entry point of the spring app deployment."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract SpringAppDeployments<T> <T>deployments()"
-  desc: "Gets the entry point of the spring app deployment."
-  returns:
-    description: "the entry point of the spring app deployment"
-    type: "<xref href=\"com.azure.resourcemanager.appplatform.models.SpringAppDeployments?alt=com.azure.resourcemanager.appplatform.models.SpringAppDeployments&text=SpringAppDeployments\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.appplatform.models.SpringApp.fqdn()"
   fullName: "com.azure.resourcemanager.appplatform.models.SpringApp.fqdn()"
   name: "fqdn()"

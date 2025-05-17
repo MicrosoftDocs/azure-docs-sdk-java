@@ -41,16 +41,6 @@ methods:
   returns:
     description: "An instance of MinuteForecastResult if the JsonReader was pointing to an instance of it, or null if it\n was pointing to JSON null."
     type: "<xref href=\"com.azure.maps.weather.models.MinuteForecastResult?alt=com.azure.maps.weather.models.MinuteForecastResult&text=MinuteForecastResult\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.maps.weather.models.MinuteForecastResult.getIntervals()"
-  fullName: "com.azure.maps.weather.models.MinuteForecastResult.getIntervals()"
-  name: "getIntervals()"
-  nameWithType: "MinuteForecastResult.getIntervals()"
-  summary: "Get the intervals property: Forecast data for each interval in the forecast."
-  syntax: "public List<ForecastInterval> getIntervals()"
-  desc: "Get the intervals property: Forecast data for each interval in the forecast."
-  returns:
-    description: "the intervals value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.maps.weather.models.ForecastInterval?alt=com.azure.maps.weather.models.ForecastInterval&text=ForecastInterval\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.maps.weather.models.MinuteForecastResult.getIntervalSummaries()"
   fullName: "com.azure.maps.weather.models.MinuteForecastResult.getIntervalSummaries()"
   name: "getIntervalSummaries()"
@@ -61,6 +51,16 @@ methods:
   returns:
     description: "the intervalSummaries value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.maps.weather.models.IntervalSummary?alt=com.azure.maps.weather.models.IntervalSummary&text=IntervalSummary\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.maps.weather.models.MinuteForecastResult.getIntervals()"
+  fullName: "com.azure.maps.weather.models.MinuteForecastResult.getIntervals()"
+  name: "getIntervals()"
+  nameWithType: "MinuteForecastResult.getIntervals()"
+  summary: "Get the intervals property: Forecast data for each interval in the forecast."
+  syntax: "public List<ForecastInterval> getIntervals()"
+  desc: "Get the intervals property: Forecast data for each interval in the forecast."
+  returns:
+    description: "the intervals value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.maps.weather.models.ForecastInterval?alt=com.azure.maps.weather.models.ForecastInterval&text=ForecastInterval\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.maps.weather.models.MinuteForecastResult.getSummary()"
   fullName: "com.azure.maps.weather.models.MinuteForecastResult.getSummary()"
   name: "getSummary()"
