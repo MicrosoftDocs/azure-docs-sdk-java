@@ -138,6 +138,18 @@ methods:
   returns:
     description: "the providerVersion value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.providerhub.models.ResourceProviderManifest.reRegisterSubscriptionMetadata()"
+  fullName: "com.azure.resourcemanager.providerhub.models.ResourceProviderManifest.reRegisterSubscriptionMetadata()"
+  name: "reRegisterSubscriptionMetadata()"
+  nameWithType: "ResourceProviderManifest.reRegisterSubscriptionMetadata()"
+  summary: "Gets the re<wbr>Register<wbr>Subscription<wbr>Metadata property: The re<wbr>Register<wbr>Subscription<wbr>Metadata property."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ResourceProviderManifestReRegisterSubscriptionMetadata reRegisterSubscriptionMetadata()"
+  desc: "Gets the reRegisterSubscriptionMetadata property: The reRegisterSubscriptionMetadata property."
+  returns:
+    description: "the reRegisterSubscriptionMetadata value."
+    type: "<xref href=\"com.azure.resourcemanager.providerhub.models.ResourceProviderManifestReRegisterSubscriptionMetadata?alt=com.azure.resourcemanager.providerhub.models.ResourceProviderManifestReRegisterSubscriptionMetadata&text=ResourceProviderManifestReRegisterSubscriptionMetadata\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.providerhub.models.ResourceProviderManifest.requestHeaderOptions()"
   fullName: "com.azure.resourcemanager.providerhub.models.ResourceProviderManifest.requestHeaderOptions()"
   name: "requestHeaderOptions()"
@@ -162,18 +174,6 @@ methods:
   returns:
     description: "the requiredFeatures value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-- uid: "com.azure.resourcemanager.providerhub.models.ResourceProviderManifest.reRegisterSubscriptionMetadata()"
-  fullName: "com.azure.resourcemanager.providerhub.models.ResourceProviderManifest.reRegisterSubscriptionMetadata()"
-  name: "reRegisterSubscriptionMetadata()"
-  nameWithType: "ResourceProviderManifest.reRegisterSubscriptionMetadata()"
-  summary: "Gets the re<wbr>Register<wbr>Subscription<wbr>Metadata property: The re<wbr>Register<wbr>Subscription<wbr>Metadata property."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract ResourceProviderManifestReRegisterSubscriptionMetadata reRegisterSubscriptionMetadata()"
-  desc: "Gets the reRegisterSubscriptionMetadata property: The reRegisterSubscriptionMetadata property."
-  returns:
-    description: "the reRegisterSubscriptionMetadata value."
-    type: "<xref href=\"com.azure.resourcemanager.providerhub.models.ResourceProviderManifestReRegisterSubscriptionMetadata?alt=com.azure.resourcemanager.providerhub.models.ResourceProviderManifestReRegisterSubscriptionMetadata&text=ResourceProviderManifestReRegisterSubscriptionMetadata\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.providerhub.models.ResourceProviderManifest.resourceTypes()"
   fullName: "com.azure.resourcemanager.providerhub.models.ResourceProviderManifest.resourceTypes()"
   name: "resourceTypes()"

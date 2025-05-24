@@ -54,18 +54,6 @@ methods:
   returns:
     description: "the classificationReason value."
     type: "<xref href=\"com.azure.resourcemanager.securityinsights.models.IncidentClassificationReason?alt=com.azure.resourcemanager.securityinsights.models.IncidentClassificationReason&text=IncidentClassificationReason\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.securityinsights.models.Incident.createdTimeUtc()"
-  fullName: "com.azure.resourcemanager.securityinsights.models.Incident.createdTimeUtc()"
-  name: "createdTimeUtc()"
-  nameWithType: "Incident.createdTimeUtc()"
-  summary: "Gets the created<wbr>Time<wbr>Utc property: The time the incident was created."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract OffsetDateTime createdTimeUtc()"
-  desc: "Gets the createdTimeUtc property: The time the incident was created."
-  returns:
-    description: "the createdTimeUtc value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
 - uid: "com.azure.resourcemanager.securityinsights.models.Incident.createTeam(com.azure.resourcemanager.securityinsights.models.TeamProperties)"
   fullName: "com.azure.resourcemanager.securityinsights.models.Incident.createTeam(TeamProperties teamProperties)"
   name: "createTeam(TeamProperties teamProperties)"
@@ -101,6 +89,18 @@ methods:
   returns:
     description: "describes team information along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.securityinsights.models.TeamInformation?alt=com.azure.resourcemanager.securityinsights.models.TeamInformation&text=TeamInformation\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.securityinsights.models.Incident.createdTimeUtc()"
+  fullName: "com.azure.resourcemanager.securityinsights.models.Incident.createdTimeUtc()"
+  name: "createdTimeUtc()"
+  nameWithType: "Incident.createdTimeUtc()"
+  summary: "Gets the created<wbr>Time<wbr>Utc property: The time the incident was created."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract OffsetDateTime createdTimeUtc()"
+  desc: "Gets the createdTimeUtc property: The time the incident was created."
+  returns:
+    description: "the createdTimeUtc value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
 - uid: "com.azure.resourcemanager.securityinsights.models.Incident.description()"
   fullName: "com.azure.resourcemanager.securityinsights.models.Incident.description()"
   name: "description()"

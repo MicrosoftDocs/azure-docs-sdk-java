@@ -22,20 +22,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **AttestationAsyncClient**"
 methods:
-- uid: "com.azure.security.attestation.AttestationAsyncClient.attestOpenEnclave(com.azure.security.attestation.models.AttestationOptions)"
-  fullName: "com.azure.security.attestation.AttestationAsyncClient.attestOpenEnclave(AttestationOptions options)"
-  name: "attestOpenEnclave(AttestationOptions options)"
-  nameWithType: "AttestationAsyncClient.attestOpenEnclave(AttestationOptions options)"
-  summary: "Processes an Open<wbr>Enclave report , producing an artifact."
-  parameters:
-  - description: "Attestation options for Intel SGX enclaves."
-    name: "options"
-    type: "<xref href=\"com.azure.security.attestation.models.AttestationOptions?alt=com.azure.security.attestation.models.AttestationOptions&text=AttestationOptions\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public Mono<AttestationResult> attestOpenEnclave(AttestationOptions options)"
-  desc: "Processes an OpenEnclave report , producing an artifact. The type of artifact produced is dependent upon attestation policy."
-  returns:
-    description: "the result of an attestation operation."
-    type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.security.attestation.models.AttestationResult?alt=com.azure.security.attestation.models.AttestationResult&text=AttestationResult\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.security.attestation.AttestationAsyncClient.attestOpenEnclave(com.azure.core.util.BinaryData)"
   fullName: "com.azure.security.attestation.AttestationAsyncClient.attestOpenEnclave(BinaryData report)"
   name: "attestOpenEnclave(BinaryData report)"
@@ -47,6 +33,20 @@ methods:
     type: "<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public Mono<AttestationResult> attestOpenEnclave(BinaryData report)"
   desc: "Attest an OpenEnclave report.\n\nThis method is a convenience method which attests evidence from an OpenEnclave enclave with no `RuntimeData` or `InitTimeData`.\n\nThe `report` is generated via the [``oe\\_get\\_report\\}][oe_get_report].\n\nIt returns an <xref uid=\"com.azure.security.attestation.models.AttestationResult\" data-throw-if-not-resolved=\"false\" data-raw-source=\"AttestationResult\"></xref> containing the claims emitted by the attestation service.\n\n```java\nMono<AttestationResult> resultWithReport = client.attestOpenEnclave(openEnclaveReport);\n```\n\n\n[oe_get_report]: https://openenclave.github.io/openenclave/api/enclave_8h_aefcb89c91a9078d595e255bd7901ac71.html"
+  returns:
+    description: "the result of an attestation operation."
+    type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.security.attestation.models.AttestationResult?alt=com.azure.security.attestation.models.AttestationResult&text=AttestationResult\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.security.attestation.AttestationAsyncClient.attestOpenEnclave(com.azure.security.attestation.models.AttestationOptions)"
+  fullName: "com.azure.security.attestation.AttestationAsyncClient.attestOpenEnclave(AttestationOptions options)"
+  name: "attestOpenEnclave(AttestationOptions options)"
+  nameWithType: "AttestationAsyncClient.attestOpenEnclave(AttestationOptions options)"
+  summary: "Processes an Open<wbr>Enclave report , producing an artifact."
+  parameters:
+  - description: "Attestation options for Intel SGX enclaves."
+    name: "options"
+    type: "<xref href=\"com.azure.security.attestation.models.AttestationOptions?alt=com.azure.security.attestation.models.AttestationOptions&text=AttestationOptions\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public Mono<AttestationResult> attestOpenEnclave(AttestationOptions options)"
+  desc: "Processes an OpenEnclave report , producing an artifact. The type of artifact produced is dependent upon attestation policy."
   returns:
     description: "the result of an attestation operation."
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.security.attestation.models.AttestationResult?alt=com.azure.security.attestation.models.AttestationResult&text=AttestationResult\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -64,20 +64,6 @@ methods:
   returns:
     description: "the result of an attestation operation."
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.security.attestation.models.AttestationResponse?alt=com.azure.security.attestation.models.AttestationResponse&text=AttestationResponse\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.security.attestation.models.AttestationResult?alt=com.azure.security.attestation.models.AttestationResult&text=AttestationResult\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
-- uid: "com.azure.security.attestation.AttestationAsyncClient.attestSgxEnclave(com.azure.security.attestation.models.AttestationOptions)"
-  fullName: "com.azure.security.attestation.AttestationAsyncClient.attestSgxEnclave(AttestationOptions options)"
-  name: "attestSgxEnclave(AttestationOptions options)"
-  nameWithType: "AttestationAsyncClient.attestSgxEnclave(AttestationOptions options)"
-  summary: "Attest an SGX enclave quote, specifying Run<wbr>Time<wbr>Data and Init<wbr>Time<wbr>Data."
-  parameters:
-  - description: "Attestation options for Intel SGX enclaves."
-    name: "options"
-    type: "<xref href=\"com.azure.security.attestation.models.AttestationOptions?alt=com.azure.security.attestation.models.AttestationOptions&text=AttestationOptions\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public Mono<AttestationResult> attestSgxEnclave(AttestationOptions options)"
-  desc: "Attest an SGX enclave quote, specifying RunTimeData and InitTimeData. The <xref uid=\"com.azure.security.attestation.models.AttestationOptions\" data-throw-if-not-resolved=\"false\" data-raw-source=\"AttestationOptions\"></xref> parameter allows the caller to specify the SGX `quote` which contains evidence from the enclave, and runtime data which allows the enclave to specify additional data from within the enclave. When calling the <xref uid=\"com.azure.security.attestation.models.AttestationOptions.setRunTimeData(com.azure.security.attestation.models.AttestationData)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"AttestationOptions#setRunTimeData(AttestationData)\"></xref> API, the caller can specify whether the attestation service should treat the runtime data as binary or as JSON when it is included in the response attestation token.\n\n**Attest an OpenEnclave enclave with attestation options.**\n\n```java\nMono<AttestationResult> result = client.attestSgxEnclave(new AttestationOptions(sgxQuote)\n     .setRunTimeData(new AttestationData(runtimeData, AttestationDataInterpretation.BINARY)));\n```"
-  returns:
-    description: "the result of an attestation operation."
-    type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.security.attestation.models.AttestationResult?alt=com.azure.security.attestation.models.AttestationResult&text=AttestationResult\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.security.attestation.AttestationAsyncClient.attestSgxEnclave(com.azure.core.util.BinaryData)"
   fullName: "com.azure.security.attestation.AttestationAsyncClient.attestSgxEnclave(BinaryData quote)"
   name: "attestSgxEnclave(BinaryData quote)"
@@ -89,6 +75,20 @@ methods:
     type: "<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public Mono<AttestationResult> attestSgxEnclave(BinaryData quote)"
   desc: "Attest an SGX Enclave Quote.\n\nThis method is a convenience method which attests evidence from an Intel SGX enclave with no `RuntimeData` or `InitTimeData`.\n\nIt returns an <xref uid=\"com.azure.security.attestation.models.AttestationResult\" data-throw-if-not-resolved=\"false\" data-raw-source=\"AttestationResult\"></xref> containing the claims emitted by the attestation service.\n\n```java\nMono<AttestationResult> resultWithReport = client.attestSgxEnclave(sgxQuote);\n```"
+  returns:
+    description: "the result of an attestation operation."
+    type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.security.attestation.models.AttestationResult?alt=com.azure.security.attestation.models.AttestationResult&text=AttestationResult\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.security.attestation.AttestationAsyncClient.attestSgxEnclave(com.azure.security.attestation.models.AttestationOptions)"
+  fullName: "com.azure.security.attestation.AttestationAsyncClient.attestSgxEnclave(AttestationOptions options)"
+  name: "attestSgxEnclave(AttestationOptions options)"
+  nameWithType: "AttestationAsyncClient.attestSgxEnclave(AttestationOptions options)"
+  summary: "Attest an SGX enclave quote, specifying Run<wbr>Time<wbr>Data and Init<wbr>Time<wbr>Data."
+  parameters:
+  - description: "Attestation options for Intel SGX enclaves."
+    name: "options"
+    type: "<xref href=\"com.azure.security.attestation.models.AttestationOptions?alt=com.azure.security.attestation.models.AttestationOptions&text=AttestationOptions\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public Mono<AttestationResult> attestSgxEnclave(AttestationOptions options)"
+  desc: "Attest an SGX enclave quote, specifying RunTimeData and InitTimeData. The <xref uid=\"com.azure.security.attestation.models.AttestationOptions\" data-throw-if-not-resolved=\"false\" data-raw-source=\"AttestationOptions\"></xref> parameter allows the caller to specify the SGX `quote` which contains evidence from the enclave, and runtime data which allows the enclave to specify additional data from within the enclave. When calling the <xref uid=\"com.azure.security.attestation.models.AttestationOptions.setRunTimeData(com.azure.security.attestation.models.AttestationData)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"AttestationOptions#setRunTimeData(AttestationData)\"></xref> API, the caller can specify whether the attestation service should treat the runtime data as binary or as JSON when it is included in the response attestation token.\n\n**Attest an OpenEnclave enclave with attestation options.**\n\n```java\nMono<AttestationResult> result = client.attestSgxEnclave(new AttestationOptions(sgxQuote)\n     .setRunTimeData(new AttestationData(runtimeData, AttestationDataInterpretation.BINARY)));\n```"
   returns:
     description: "the result of an attestation operation."
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.security.attestation.models.AttestationResult?alt=com.azure.security.attestation.models.AttestationResult&text=AttestationResult\" data-throw-if-not-resolved=\"False\" />&gt;"

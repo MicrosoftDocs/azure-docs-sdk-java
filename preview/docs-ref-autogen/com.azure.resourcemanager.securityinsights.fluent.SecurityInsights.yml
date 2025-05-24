@@ -18,18 +18,6 @@ methods:
   returns:
     description: "the ActionsClient object."
     type: "<xref href=\"com.azure.resourcemanager.securityinsights.fluent.ActionsClient?alt=com.azure.resourcemanager.securityinsights.fluent.ActionsClient&text=ActionsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.securityinsights.fluent.SecurityInsights.getAlertRules()"
-  fullName: "com.azure.resourcemanager.securityinsights.fluent.SecurityInsights.getAlertRules()"
-  name: "getAlertRules()"
-  nameWithType: "SecurityInsights.getAlertRules()"
-  summary: "Gets the Alert<wbr>Rules<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract AlertRulesClient getAlertRules()"
-  desc: "Gets the AlertRulesClient object to access its operations."
-  returns:
-    description: "the AlertRulesClient object."
-    type: "<xref href=\"com.azure.resourcemanager.securityinsights.fluent.AlertRulesClient?alt=com.azure.resourcemanager.securityinsights.fluent.AlertRulesClient&text=AlertRulesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.securityinsights.fluent.SecurityInsights.getAlertRuleTemplates()"
   fullName: "com.azure.resourcemanager.securityinsights.fluent.SecurityInsights.getAlertRuleTemplates()"
   name: "getAlertRuleTemplates()"
@@ -42,6 +30,18 @@ methods:
   returns:
     description: "the AlertRuleTemplatesClient object."
     type: "<xref href=\"com.azure.resourcemanager.securityinsights.fluent.AlertRuleTemplatesClient?alt=com.azure.resourcemanager.securityinsights.fluent.AlertRuleTemplatesClient&text=AlertRuleTemplatesClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.securityinsights.fluent.SecurityInsights.getAlertRules()"
+  fullName: "com.azure.resourcemanager.securityinsights.fluent.SecurityInsights.getAlertRules()"
+  name: "getAlertRules()"
+  nameWithType: "SecurityInsights.getAlertRules()"
+  summary: "Gets the Alert<wbr>Rules<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract AlertRulesClient getAlertRules()"
+  desc: "Gets the AlertRulesClient object to access its operations."
+  returns:
+    description: "the AlertRulesClient object."
+    type: "<xref href=\"com.azure.resourcemanager.securityinsights.fluent.AlertRulesClient?alt=com.azure.resourcemanager.securityinsights.fluent.AlertRulesClient&text=AlertRulesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.securityinsights.fluent.SecurityInsights.getApiVersion()"
   fullName: "com.azure.resourcemanager.securityinsights.fluent.SecurityInsights.getApiVersion()"
   name: "getApiVersion()"

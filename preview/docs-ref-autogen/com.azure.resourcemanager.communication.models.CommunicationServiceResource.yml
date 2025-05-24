@@ -78,18 +78,6 @@ methods:
   returns:
     description: "the inner object."
     type: "<xref href=\"com.azure.resourcemanager.communication.fluent.models.CommunicationServiceResourceInner?alt=com.azure.resourcemanager.communication.fluent.models.CommunicationServiceResourceInner&text=CommunicationServiceResourceInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.communication.models.CommunicationServiceResource.linkedDomains()"
-  fullName: "com.azure.resourcemanager.communication.models.CommunicationServiceResource.linkedDomains()"
-  name: "linkedDomains()"
-  nameWithType: "CommunicationServiceResource.linkedDomains()"
-  summary: "Gets the linked<wbr>Domains property: List of email Domain resource Ids."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract List<String> linkedDomains()"
-  desc: "Gets the linkedDomains property: List of email Domain resource Ids."
-  returns:
-    description: "the linkedDomains value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
 - uid: "com.azure.resourcemanager.communication.models.CommunicationServiceResource.linkNotificationHub()"
   fullName: "com.azure.resourcemanager.communication.models.CommunicationServiceResource.linkNotificationHub()"
   name: "linkNotificationHub()"
@@ -121,6 +109,18 @@ methods:
   returns:
     description: "a notification hub that has been linked to the communication service along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.communication.models.LinkedNotificationHub?alt=com.azure.resourcemanager.communication.models.LinkedNotificationHub&text=LinkedNotificationHub\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.communication.models.CommunicationServiceResource.linkedDomains()"
+  fullName: "com.azure.resourcemanager.communication.models.CommunicationServiceResource.linkedDomains()"
+  name: "linkedDomains()"
+  nameWithType: "CommunicationServiceResource.linkedDomains()"
+  summary: "Gets the linked<wbr>Domains property: List of email Domain resource Ids."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract List<String> linkedDomains()"
+  desc: "Gets the linkedDomains property: List of email Domain resource Ids."
+  returns:
+    description: "the linkedDomains value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
 - uid: "com.azure.resourcemanager.communication.models.CommunicationServiceResource.listKeys()"
   fullName: "com.azure.resourcemanager.communication.models.CommunicationServiceResource.listKeys()"
   name: "listKeys()"

@@ -22,6 +22,20 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **DocumentTranslationClient**"
 methods:
+- uid: "com.azure.ai.translation.document.DocumentTranslationClient.beginTranslation(com.azure.ai.translation.document.models.TranslationBatch)"
+  fullName: "com.azure.ai.translation.document.DocumentTranslationClient.beginTranslation(TranslationBatch body)"
+  name: "beginTranslation(TranslationBatch body)"
+  nameWithType: "DocumentTranslationClient.beginTranslation(TranslationBatch body)"
+  summary: "Submit a document translation request to the Document Translation service Use this API to submit a bulk (batch) translation request to the Document Translation service."
+  parameters:
+  - description: "Translation job submission batch request."
+    name: "body"
+    type: "<xref href=\"com.azure.ai.translation.document.models.TranslationBatch?alt=com.azure.ai.translation.document.models.TranslationBatch&text=TranslationBatch\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public SyncPoller<TranslationStatusResult,TranslationStatusResult> beginTranslation(TranslationBatch body)"
+  desc: "Submit a document translation request to the Document Translation service Use this API to submit a bulk (batch) translation request to the Document Translation service. Each request can contain multiple documents and must contain a source and destination container for each document. The prefix and suffix filter (if supplied) are used to filter folders. The prefix is applied to the subpath after the container name. Glossaries / Translation memory can be included in the request and are applied by the service when the document is translated. If the glossary is invalid or unreachable during translation, an error is indicated in the document status. If a file with the same name already exists at the destination, it will be overwritten. The targetUrl for each target language must be unique."
+  returns:
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of long-running operation."
+    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.translation.document.models.TranslationStatusResult?alt=com.azure.ai.translation.document.models.TranslationStatusResult&text=TranslationStatusResult\" data-throw-if-not-resolved=\"False\" />,<xref href=\"com.azure.ai.translation.document.models.TranslationStatusResult?alt=com.azure.ai.translation.document.models.TranslationStatusResult&text=TranslationStatusResult\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.ai.translation.document.DocumentTranslationClient.beginTranslation(com.azure.core.util.BinaryData,com.azure.core.http.rest.RequestOptions)"
   fullName: "com.azure.ai.translation.document.DocumentTranslationClient.beginTranslation(BinaryData body, RequestOptions requestOptions)"
   name: "beginTranslation(BinaryData body, RequestOptions requestOptions)"
@@ -39,20 +53,6 @@ methods:
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of long-running operation."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />,<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.ai.translation.document.DocumentTranslationClient.beginTranslation(com.azure.ai.translation.document.models.TranslationBatch)"
-  fullName: "com.azure.ai.translation.document.DocumentTranslationClient.beginTranslation(TranslationBatch body)"
-  name: "beginTranslation(TranslationBatch body)"
-  nameWithType: "DocumentTranslationClient.beginTranslation(TranslationBatch body)"
-  summary: "Submit a document translation request to the Document Translation service Use this API to submit a bulk (batch) translation request to the Document Translation service."
-  parameters:
-  - description: "Translation job submission batch request."
-    name: "body"
-    type: "<xref href=\"com.azure.ai.translation.document.models.TranslationBatch?alt=com.azure.ai.translation.document.models.TranslationBatch&text=TranslationBatch\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public SyncPoller<TranslationStatusResult,TranslationStatusResult> beginTranslation(TranslationBatch body)"
-  desc: "Submit a document translation request to the Document Translation service Use this API to submit a bulk (batch) translation request to the Document Translation service. Each request can contain multiple documents and must contain a source and destination container for each document. The prefix and suffix filter (if supplied) are used to filter folders. The prefix is applied to the subpath after the container name. Glossaries / Translation memory can be included in the request and are applied by the service when the document is translated. If the glossary is invalid or unreachable during translation, an error is indicated in the document status. If a file with the same name already exists at the destination, it will be overwritten. The targetUrl for each target language must be unique."
-  returns:
-    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of long-running operation."
-    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.translation.document.models.TranslationStatusResult?alt=com.azure.ai.translation.document.models.TranslationStatusResult&text=TranslationStatusResult\" data-throw-if-not-resolved=\"False\" />,<xref href=\"com.azure.ai.translation.document.models.TranslationStatusResult?alt=com.azure.ai.translation.document.models.TranslationStatusResult&text=TranslationStatusResult\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.ai.translation.document.DocumentTranslationClient.cancelTranslation(java.lang.String)"
   fullName: "com.azure.ai.translation.document.DocumentTranslationClient.cancelTranslation(String translationId)"
   name: "cancelTranslation(String translationId)"

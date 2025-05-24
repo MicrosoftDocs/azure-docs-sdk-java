@@ -6,18 +6,6 @@ nameWithType: "ApplicationGatewayRedirectConfiguration.UpdateStages.WithQueryStr
 summary: "The stage of an application gateway redirect configuration allowing to specify whether the query string should be included in the redirected URL."
 syntax: "public static interface **ApplicationGatewayRedirectConfiguration.UpdateStages.WithQueryStringIncluded**"
 methods:
-- uid: "com.azure.resourcemanager.network.models.ApplicationGatewayRedirectConfiguration.UpdateStages.WithQueryStringIncluded.withoutQueryStringIncluded()"
-  fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayRedirectConfiguration.UpdateStages.WithQueryStringIncluded.withoutQueryStringIncluded()"
-  name: "withoutQueryStringIncluded()"
-  nameWithType: "ApplicationGatewayRedirectConfiguration.UpdateStages.WithQueryStringIncluded.withoutQueryStringIncluded()"
-  summary: "Specifies that the query string should not be included in the redirected URL."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract ApplicationGatewayRedirectConfiguration.Update withoutQueryStringIncluded()"
-  desc: "Specifies that the query string should not be included in the redirected URL."
-  returns:
-    description: "the next stage of the update"
-    type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayRedirectConfiguration.Update?alt=com.azure.resourcemanager.network.models.ApplicationGatewayRedirectConfiguration.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.models.ApplicationGatewayRedirectConfiguration.UpdateStages.WithQueryStringIncluded.withQueryStringIncluded()"
   fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayRedirectConfiguration.UpdateStages.WithQueryStringIncluded.withQueryStringIncluded()"
   name: "withQueryStringIncluded()"
@@ -27,6 +15,18 @@ methods:
   - "abstract"
   syntax: "public abstract ApplicationGatewayRedirectConfiguration.Update withQueryStringIncluded()"
   desc: "Specifies that the query string should be included in the redirected URL."
+  returns:
+    description: "the next stage of the update"
+    type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayRedirectConfiguration.Update?alt=com.azure.resourcemanager.network.models.ApplicationGatewayRedirectConfiguration.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.models.ApplicationGatewayRedirectConfiguration.UpdateStages.WithQueryStringIncluded.withoutQueryStringIncluded()"
+  fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayRedirectConfiguration.UpdateStages.WithQueryStringIncluded.withoutQueryStringIncluded()"
+  name: "withoutQueryStringIncluded()"
+  nameWithType: "ApplicationGatewayRedirectConfiguration.UpdateStages.WithQueryStringIncluded.withoutQueryStringIncluded()"
+  summary: "Specifies that the query string should not be included in the redirected URL."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ApplicationGatewayRedirectConfiguration.Update withoutQueryStringIncluded()"
+  desc: "Specifies that the query string should not be included in the redirected URL."
   returns:
     description: "the next stage of the update"
     type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayRedirectConfiguration.Update?alt=com.azure.resourcemanager.network.models.ApplicationGatewayRedirectConfiguration.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"

@@ -230,16 +230,6 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.datalakestore.fluent.models.DataLakeStoreAccountProperties.trustedIdProviders()"
-  fullName: "com.azure.resourcemanager.datalakestore.fluent.models.DataLakeStoreAccountProperties.trustedIdProviders()"
-  name: "trustedIdProviders()"
-  nameWithType: "DataLakeStoreAccountProperties.trustedIdProviders()"
-  summary: "Get the trusted<wbr>IdProviders property: The list of trusted identity providers associated with this Data Lake Store account."
-  syntax: "public List<TrustedIdProviderInner> trustedIdProviders()"
-  desc: "Get the trustedIdProviders property: The list of trusted identity providers associated with this Data Lake Store account."
-  returns:
-    description: "the trustedIdProviders value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.datalakestore.fluent.models.TrustedIdProviderInner?alt=com.azure.resourcemanager.datalakestore.fluent.models.TrustedIdProviderInner&text=TrustedIdProviderInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.datalakestore.fluent.models.DataLakeStoreAccountProperties.trustedIdProviderState()"
   fullName: "com.azure.resourcemanager.datalakestore.fluent.models.DataLakeStoreAccountProperties.trustedIdProviderState()"
   name: "trustedIdProviderState()"
@@ -250,6 +240,16 @@ methods:
   returns:
     description: "the trustedIdProviderState value."
     type: "<xref href=\"com.azure.resourcemanager.datalakestore.models.TrustedIdProviderState?alt=com.azure.resourcemanager.datalakestore.models.TrustedIdProviderState&text=TrustedIdProviderState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.datalakestore.fluent.models.DataLakeStoreAccountProperties.trustedIdProviders()"
+  fullName: "com.azure.resourcemanager.datalakestore.fluent.models.DataLakeStoreAccountProperties.trustedIdProviders()"
+  name: "trustedIdProviders()"
+  nameWithType: "DataLakeStoreAccountProperties.trustedIdProviders()"
+  summary: "Get the trusted<wbr>IdProviders property: The list of trusted identity providers associated with this Data Lake Store account."
+  syntax: "public List<TrustedIdProviderInner> trustedIdProviders()"
+  desc: "Get the trustedIdProviders property: The list of trusted identity providers associated with this Data Lake Store account."
+  returns:
+    description: "the trustedIdProviders value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.datalakestore.fluent.models.TrustedIdProviderInner?alt=com.azure.resourcemanager.datalakestore.fluent.models.TrustedIdProviderInner&text=TrustedIdProviderInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.datalakestore.fluent.models.DataLakeStoreAccountProperties.validate()"
   fullName: "com.azure.resourcemanager.datalakestore.fluent.models.DataLakeStoreAccountProperties.validate()"
   name: "validate()"

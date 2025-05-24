@@ -270,20 +270,6 @@ methods:
   returns:
     description: "the Field object itself."
     type: "<xref href=\"com.azure.search.models.Field?alt=com.azure.search.models.Field&text=Field\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.search.models.Field.setSearchable(java.lang.Boolean)"
-  fullName: "com.azure.search.models.Field.setSearchable(Boolean searchable)"
-  name: "setSearchable(Boolean searchable)"
-  nameWithType: "Field.setSearchable(Boolean searchable)"
-  summary: "Set the searchable property: A value indicating whether the field is full-text searchable."
-  parameters:
-  - description: "the searchable value to set."
-    name: "searchable"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
-  syntax: "public Field setSearchable(Boolean searchable)"
-  desc: "Set the searchable property: A value indicating whether the field is full-text searchable. This means it will undergo analysis such as word-breaking during indexing. If you set a searchable field to a value like \"sunny day\", internally it will be split into the individual tokens \"sunny\" and \"day\". This enables full-text searches for these terms. Fields of type Edm.String or Collection(Edm.String) are searchable by default. This property must be false for simple fields of other non-string data types, and it must be null for complex fields. Note: searchable fields consume extra space in your index since Azure Cognitive Search will store an additional tokenized version of the field value for full-text searches. If you want to save space in your index and you don't need a field to be included in searches, set searchable to false."
-  returns:
-    description: "the Field object itself."
-    type: "<xref href=\"com.azure.search.models.Field?alt=com.azure.search.models.Field&text=Field\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.search.models.Field.setSearchAnalyzer(java.lang.String)"
   fullName: "com.azure.search.models.Field.setSearchAnalyzer(String searchAnalyzer)"
   name: "setSearchAnalyzer(String searchAnalyzer)"
@@ -295,6 +281,20 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public Field setSearchAnalyzer(String searchAnalyzer)"
   desc: "Set the searchAnalyzer property: The name of the analyzer used at search time for the field. This option can be used only with searchable fields. It must be set together with indexAnalyzer and it cannot be set together with the analyzer option. This analyzer can be updated on an existing field. Must be null for complex fields."
+  returns:
+    description: "the Field object itself."
+    type: "<xref href=\"com.azure.search.models.Field?alt=com.azure.search.models.Field&text=Field\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.search.models.Field.setSearchable(java.lang.Boolean)"
+  fullName: "com.azure.search.models.Field.setSearchable(Boolean searchable)"
+  name: "setSearchable(Boolean searchable)"
+  nameWithType: "Field.setSearchable(Boolean searchable)"
+  summary: "Set the searchable property: A value indicating whether the field is full-text searchable."
+  parameters:
+  - description: "the searchable value to set."
+    name: "searchable"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
+  syntax: "public Field setSearchable(Boolean searchable)"
+  desc: "Set the searchable property: A value indicating whether the field is full-text searchable. This means it will undergo analysis such as word-breaking during indexing. If you set a searchable field to a value like \"sunny day\", internally it will be split into the individual tokens \"sunny\" and \"day\". This enables full-text searches for these terms. Fields of type Edm.String or Collection(Edm.String) are searchable by default. This property must be false for simple fields of other non-string data types, and it must be null for complex fields. Note: searchable fields consume extra space in your index since Azure Cognitive Search will store an additional tokenized version of the field value for full-text searches. If you want to save space in your index and you don't need a field to be included in searches, set searchable to false."
   returns:
     description: "the Field object itself."
     type: "<xref href=\"com.azure.search.models.Field?alt=com.azure.search.models.Field&text=Field\" data-throw-if-not-resolved=\"False\" />"

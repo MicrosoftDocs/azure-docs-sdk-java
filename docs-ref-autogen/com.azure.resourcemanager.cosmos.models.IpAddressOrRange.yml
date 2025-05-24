@@ -55,7 +55,7 @@ methods:
   nameWithType: "IpAddressOrRange.ipAddressOrRange()"
   summary: "Get the ip<wbr>Address<wbr>OrRange property: A single IPv4 address or a single IPv4 address range in CIDR format."
   syntax: "public String ipAddressOrRange()"
-  desc: "Get the ipAddressOrRange property: A single IPv4 address or a single IPv4 address range in CIDR format. Provided IPs must be well-formatted and cannot be contained in one of the following ranges: 10.0.0.0/8, 100.64.0.0/10, 172.16.0.0/12, 192.168.0.0/16, since these are not enforceable by the IP address filter. Example of valid inputs: “23.40.210.245” or “23.40.210.0/8”."
+  desc: "Get the ipAddressOrRange property: A single IPv4 address or a single IPv4 address range in CIDR format. Provided IPs must be well-formatted and cannot be contained in one of the following ranges: 10.0.0.0/8, 100.64.0.0/10, 172.16.0.0/12, 192.168.0.0/16, since these are not enforceable by the IP address filter. Example of valid inputs: \\\\u201c23.40.210.245\\\\u201d or \\\\u201c23.40.210.0/8\\\\u201d."
   returns:
     description: "the ipAddressOrRange value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -88,7 +88,7 @@ methods:
     name: "ipAddressOrRange"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public IpAddressOrRange withIpAddressOrRange(String ipAddressOrRange)"
-  desc: "Set the ipAddressOrRange property: A single IPv4 address or a single IPv4 address range in CIDR format. Provided IPs must be well-formatted and cannot be contained in one of the following ranges: 10.0.0.0/8, 100.64.0.0/10, 172.16.0.0/12, 192.168.0.0/16, since these are not enforceable by the IP address filter. Example of valid inputs: “23.40.210.245” or “23.40.210.0/8”."
+  desc: "Set the ipAddressOrRange property: A single IPv4 address or a single IPv4 address range in CIDR format. Provided IPs must be well-formatted and cannot be contained in one of the following ranges: 10.0.0.0/8, 100.64.0.0/10, 172.16.0.0/12, 192.168.0.0/16, since these are not enforceable by the IP address filter. Example of valid inputs: \\\\u201c23.40.210.245\\\\u201d or \\\\u201c23.40.210.0/8\\\\u201d."
   returns:
     description: "the IpAddressOrRange object itself."
     type: "<xref href=\"com.azure.resourcemanager.cosmos.models.IpAddressOrRange?alt=com.azure.resourcemanager.cosmos.models.IpAddressOrRange&text=IpAddressOrRange\" data-throw-if-not-resolved=\"False\" />"

@@ -192,20 +192,6 @@ methods:
   desc: "Set the name property: The name of the skill which uniquely identifies it within the skillset. A skill with no name defined will be given a default name of its 1-based index in the skills array, prefixed with the character '\\#'."
   returns:
     type: "<xref href=\"com.azure.search.documents.indexes.models.ImageAnalysisSkill?alt=com.azure.search.documents.indexes.models.ImageAnalysisSkill&text=ImageAnalysisSkill\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.search.documents.indexes.models.ImageAnalysisSkill.setVisualFeatures(java.util.List<com.azure.search.documents.indexes.models.VisualFeature>)"
-  fullName: "com.azure.search.documents.indexes.models.ImageAnalysisSkill.setVisualFeatures(List<VisualFeature> visualFeatures)"
-  name: "setVisualFeatures(List<VisualFeature> visualFeatures)"
-  nameWithType: "ImageAnalysisSkill.setVisualFeatures(List<VisualFeature> visualFeatures)"
-  summary: "Set the visual<wbr>Features property: A list of visual features."
-  parameters:
-  - description: "the visualFeatures value to set."
-    name: "visualFeatures"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.search.documents.indexes.models.VisualFeature?alt=com.azure.search.documents.indexes.models.VisualFeature&text=VisualFeature\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public ImageAnalysisSkill setVisualFeatures(List<VisualFeature> visualFeatures)"
-  desc: "Set the visualFeatures property: A list of visual features."
-  returns:
-    description: "the ImageAnalysisSkill object itself."
-    type: "<xref href=\"com.azure.search.documents.indexes.models.ImageAnalysisSkill?alt=com.azure.search.documents.indexes.models.ImageAnalysisSkill&text=ImageAnalysisSkill\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.search.documents.indexes.models.ImageAnalysisSkill.setVisualFeatures(com.azure.search.documents.indexes.models.VisualFeature...)"
   fullName: "com.azure.search.documents.indexes.models.ImageAnalysisSkill.setVisualFeatures(VisualFeature[] visualFeatures)"
   name: "setVisualFeatures(VisualFeature[] visualFeatures)"
@@ -216,6 +202,20 @@ methods:
     name: "visualFeatures"
     type: "<xref href=\"com.azure.search.documents.indexes.models.VisualFeature?alt=com.azure.search.documents.indexes.models.VisualFeature&text=VisualFeature\" data-throw-if-not-resolved=\"False\" />[]"
   syntax: "public ImageAnalysisSkill setVisualFeatures(VisualFeature[] visualFeatures)"
+  desc: "Set the visualFeatures property: A list of visual features."
+  returns:
+    description: "the ImageAnalysisSkill object itself."
+    type: "<xref href=\"com.azure.search.documents.indexes.models.ImageAnalysisSkill?alt=com.azure.search.documents.indexes.models.ImageAnalysisSkill&text=ImageAnalysisSkill\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.search.documents.indexes.models.ImageAnalysisSkill.setVisualFeatures(java.util.List<com.azure.search.documents.indexes.models.VisualFeature>)"
+  fullName: "com.azure.search.documents.indexes.models.ImageAnalysisSkill.setVisualFeatures(List<VisualFeature> visualFeatures)"
+  name: "setVisualFeatures(List<VisualFeature> visualFeatures)"
+  nameWithType: "ImageAnalysisSkill.setVisualFeatures(List<VisualFeature> visualFeatures)"
+  summary: "Set the visual<wbr>Features property: A list of visual features."
+  parameters:
+  - description: "the visualFeatures value to set."
+    name: "visualFeatures"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.search.documents.indexes.models.VisualFeature?alt=com.azure.search.documents.indexes.models.VisualFeature&text=VisualFeature\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public ImageAnalysisSkill setVisualFeatures(List<VisualFeature> visualFeatures)"
   desc: "Set the visualFeatures property: A list of visual features."
   returns:
     description: "the ImageAnalysisSkill object itself."

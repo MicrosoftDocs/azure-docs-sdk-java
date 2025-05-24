@@ -64,7 +64,7 @@ methods:
   nameWithType: "DeliveryRule.order()"
   summary: "Get the order in which the rules are applied for the endpoint."
   syntax: "public int order()"
-  desc: "Get the order in which the rules are applied for the endpoint. Possible values \\{0,1,2,3,………\\}. A rule with a lesser order will be applied before a rule with a greater order. Rule with order 0 is a special rule. It does not require any condition and actions listed in it will always be applied."
+  desc: "Get the order in which the rules are applied for the endpoint. Possible values \\{0,1,2,3,\\\\u2026\\\\u2026\\\\u2026\\}. A rule with a lesser order will be applied before a rule with a greater order. Rule with order 0 is a special rule. It does not require any condition and actions listed in it will always be applied."
   returns:
     description: "the order value"
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
@@ -120,7 +120,7 @@ methods:
     name: "order"
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public DeliveryRule withOrder(int order)"
-  desc: "Set the order in which the rules are applied for the endpoint. Possible values \\{0,1,2,3,………\\}. A rule with a lesser order will be applied before a rule with a greater order. Rule with order 0 is a special rule. It does not require any condition and actions listed in it will always be applied."
+  desc: "Set the order in which the rules are applied for the endpoint. Possible values \\{0,1,2,3,\\\\u2026\\\\u2026\\\\u2026\\}. A rule with a lesser order will be applied before a rule with a greater order. Rule with order 0 is a special rule. It does not require any condition and actions listed in it will always be applied."
   returns:
     description: "the DeliveryRule object itself."
     type: "<xref href=\"com.microsoft.azure.management.cdn.DeliveryRule?alt=com.microsoft.azure.management.cdn.DeliveryRule&text=DeliveryRule\" data-throw-if-not-resolved=\"False\" />"

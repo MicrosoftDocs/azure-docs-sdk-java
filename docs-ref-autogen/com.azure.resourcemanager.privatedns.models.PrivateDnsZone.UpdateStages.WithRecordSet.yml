@@ -6,22 +6,6 @@ nameWithType: "PrivateDnsZone.UpdateStages.WithRecordSet"
 summary: "The stage of the private DNS zone update allowing to specify record set."
 syntax: "public static interface **PrivateDnsZone.UpdateStages.WithRecordSet**"
 methods:
-- uid: "com.azure.resourcemanager.privatedns.models.PrivateDnsZone.UpdateStages.WithRecordSet.defineAaaaRecordSet(java.lang.String)"
-  fullName: "com.azure.resourcemanager.privatedns.models.PrivateDnsZone.UpdateStages.WithRecordSet.defineAaaaRecordSet(String name)"
-  name: "defineAaaaRecordSet(String name)"
-  nameWithType: "PrivateDnsZone.UpdateStages.WithRecordSet.defineAaaaRecordSet(String name)"
-  summary: "Specifies definition of an AAAA record set to be attached to the private DNS zone."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "name of the AAAA record set"
-    name: "name"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public abstract PrivateDnsRecordSet.UpdateDefinitionStages.AaaaRecordSetBlank<PrivateDnsZone.Update> defineAaaaRecordSet(String name)"
-  desc: "Specifies definition of an AAAA record set to be attached to the private DNS zone."
-  returns:
-    description: "the stage representing configuration for the AAAA record set"
-    type: "<xref href=\"com.azure.resourcemanager.privatedns.models.PrivateDnsRecordSet.UpdateDefinitionStages.AaaaRecordSetBlank?alt=com.azure.resourcemanager.privatedns.models.PrivateDnsRecordSet.UpdateDefinitionStages.AaaaRecordSetBlank&text=AaaaRecordSetBlank\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.privatedns.models.PrivateDnsZone.Update?alt=com.azure.resourcemanager.privatedns.models.PrivateDnsZone.Update&text=Update\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.privatedns.models.PrivateDnsZone.UpdateStages.WithRecordSet.defineARecordSet(java.lang.String)"
   fullName: "com.azure.resourcemanager.privatedns.models.PrivateDnsZone.UpdateStages.WithRecordSet.defineARecordSet(String name)"
   name: "defineARecordSet(String name)"
@@ -38,6 +22,22 @@ methods:
   returns:
     description: "the stage representing configuration for the A record set"
     type: "<xref href=\"com.azure.resourcemanager.privatedns.models.PrivateDnsRecordSet.UpdateDefinitionStages.ARecordSetBlank?alt=com.azure.resourcemanager.privatedns.models.PrivateDnsRecordSet.UpdateDefinitionStages.ARecordSetBlank&text=ARecordSetBlank\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.privatedns.models.PrivateDnsZone.Update?alt=com.azure.resourcemanager.privatedns.models.PrivateDnsZone.Update&text=Update\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.privatedns.models.PrivateDnsZone.UpdateStages.WithRecordSet.defineAaaaRecordSet(java.lang.String)"
+  fullName: "com.azure.resourcemanager.privatedns.models.PrivateDnsZone.UpdateStages.WithRecordSet.defineAaaaRecordSet(String name)"
+  name: "defineAaaaRecordSet(String name)"
+  nameWithType: "PrivateDnsZone.UpdateStages.WithRecordSet.defineAaaaRecordSet(String name)"
+  summary: "Specifies definition of an AAAA record set to be attached to the private DNS zone."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "name of the AAAA record set"
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract PrivateDnsRecordSet.UpdateDefinitionStages.AaaaRecordSetBlank<PrivateDnsZone.Update> defineAaaaRecordSet(String name)"
+  desc: "Specifies definition of an AAAA record set to be attached to the private DNS zone."
+  returns:
+    description: "the stage representing configuration for the AAAA record set"
+    type: "<xref href=\"com.azure.resourcemanager.privatedns.models.PrivateDnsRecordSet.UpdateDefinitionStages.AaaaRecordSetBlank?alt=com.azure.resourcemanager.privatedns.models.PrivateDnsRecordSet.UpdateDefinitionStages.AaaaRecordSetBlank&text=AaaaRecordSetBlank\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.privatedns.models.PrivateDnsZone.Update?alt=com.azure.resourcemanager.privatedns.models.PrivateDnsZone.Update&text=Update\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.privatedns.models.PrivateDnsZone.UpdateStages.WithRecordSet.defineCnameRecordSet(java.lang.String)"
   fullName: "com.azure.resourcemanager.privatedns.models.PrivateDnsZone.UpdateStages.WithRecordSet.defineCnameRecordSet(String name)"
   name: "defineCnameRecordSet(String name)"
@@ -130,22 +130,6 @@ methods:
   returns:
     description: "the stage representing configuration for the TXT record set"
     type: "<xref href=\"com.azure.resourcemanager.privatedns.models.PrivateDnsRecordSet.UpdateDefinitionStages.TxtRecordSetBlank?alt=com.azure.resourcemanager.privatedns.models.PrivateDnsRecordSet.UpdateDefinitionStages.TxtRecordSetBlank&text=TxtRecordSetBlank\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.privatedns.models.PrivateDnsZone.Update?alt=com.azure.resourcemanager.privatedns.models.PrivateDnsZone.Update&text=Update\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.resourcemanager.privatedns.models.PrivateDnsZone.UpdateStages.WithRecordSet.updateAaaaRecordSet(java.lang.String)"
-  fullName: "com.azure.resourcemanager.privatedns.models.PrivateDnsZone.UpdateStages.WithRecordSet.updateAaaaRecordSet(String name)"
-  name: "updateAaaaRecordSet(String name)"
-  nameWithType: "PrivateDnsZone.UpdateStages.WithRecordSet.updateAaaaRecordSet(String name)"
-  summary: "Begins the description of an update of an existing AAAA record set in this DNS zone."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "name of the AAAA record set"
-    name: "name"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public abstract PrivateDnsRecordSet.UpdateAaaaRecordSet updateAaaaRecordSet(String name)"
-  desc: "Begins the description of an update of an existing AAAA record set in this DNS zone."
-  returns:
-    description: "the stage representing configuration for the AAAA record set"
-    type: "<xref href=\"com.azure.resourcemanager.privatedns.models.PrivateDnsRecordSet.UpdateAaaaRecordSet?alt=com.azure.resourcemanager.privatedns.models.PrivateDnsRecordSet.UpdateAaaaRecordSet&text=UpdateAaaaRecordSet\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.privatedns.models.PrivateDnsZone.UpdateStages.WithRecordSet.updateARecordSet(java.lang.String)"
   fullName: "com.azure.resourcemanager.privatedns.models.PrivateDnsZone.UpdateStages.WithRecordSet.updateARecordSet(String name)"
   name: "updateARecordSet(String name)"
@@ -162,6 +146,22 @@ methods:
   returns:
     description: "the stage representing configuration for the A record set"
     type: "<xref href=\"com.azure.resourcemanager.privatedns.models.PrivateDnsRecordSet.UpdateARecordSet?alt=com.azure.resourcemanager.privatedns.models.PrivateDnsRecordSet.UpdateARecordSet&text=UpdateARecordSet\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.privatedns.models.PrivateDnsZone.UpdateStages.WithRecordSet.updateAaaaRecordSet(java.lang.String)"
+  fullName: "com.azure.resourcemanager.privatedns.models.PrivateDnsZone.UpdateStages.WithRecordSet.updateAaaaRecordSet(String name)"
+  name: "updateAaaaRecordSet(String name)"
+  nameWithType: "PrivateDnsZone.UpdateStages.WithRecordSet.updateAaaaRecordSet(String name)"
+  summary: "Begins the description of an update of an existing AAAA record set in this DNS zone."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "name of the AAAA record set"
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract PrivateDnsRecordSet.UpdateAaaaRecordSet updateAaaaRecordSet(String name)"
+  desc: "Begins the description of an update of an existing AAAA record set in this DNS zone."
+  returns:
+    description: "the stage representing configuration for the AAAA record set"
+    type: "<xref href=\"com.azure.resourcemanager.privatedns.models.PrivateDnsRecordSet.UpdateAaaaRecordSet?alt=com.azure.resourcemanager.privatedns.models.PrivateDnsRecordSet.UpdateAaaaRecordSet&text=UpdateAaaaRecordSet\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.privatedns.models.PrivateDnsZone.UpdateStages.WithRecordSet.updateCnameRecordSet(java.lang.String)"
   fullName: "com.azure.resourcemanager.privatedns.models.PrivateDnsZone.UpdateStages.WithRecordSet.updateCnameRecordSet(String name)"
   name: "updateCnameRecordSet(String name)"
@@ -273,41 +273,6 @@ methods:
   returns:
     description: "the next stage of DNS zone definition"
     type: "<xref href=\"com.azure.resourcemanager.privatedns.models.PrivateDnsZone.Update?alt=com.azure.resourcemanager.privatedns.models.PrivateDnsZone.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.privatedns.models.PrivateDnsZone.UpdateStages.WithRecordSet.withoutAaaaRecordSet(java.lang.String)"
-  fullName: "com.azure.resourcemanager.privatedns.models.PrivateDnsZone.UpdateStages.WithRecordSet.withoutAaaaRecordSet(String name)"
-  name: "withoutAaaaRecordSet(String name)"
-  nameWithType: "PrivateDnsZone.UpdateStages.WithRecordSet.withoutAaaaRecordSet(String name)"
-  summary: "Removes a AAAA record set in the private DNS zone."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "name of the AAAA record set"
-    name: "name"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public abstract PrivateDnsZone.Update withoutAaaaRecordSet(String name)"
-  desc: "Removes a AAAA record set in the private DNS zone."
-  returns:
-    description: "the next stage of DNS zone update"
-    type: "<xref href=\"com.azure.resourcemanager.privatedns.models.PrivateDnsZone.Update?alt=com.azure.resourcemanager.privatedns.models.PrivateDnsZone.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.privatedns.models.PrivateDnsZone.UpdateStages.WithRecordSet.withoutAaaaRecordSet(java.lang.String,java.lang.String)"
-  fullName: "com.azure.resourcemanager.privatedns.models.PrivateDnsZone.UpdateStages.WithRecordSet.withoutAaaaRecordSet(String name, String etagValue)"
-  name: "withoutAaaaRecordSet(String name, String etagValue)"
-  nameWithType: "PrivateDnsZone.UpdateStages.WithRecordSet.withoutAaaaRecordSet(String name, String etagValue)"
-  summary: "Removes a AAAA record set in the private DNS zone."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "name of the AAAA record set"
-    name: "name"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "the etag to use for concurrent protection"
-    name: "etagValue"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public abstract PrivateDnsZone.Update withoutAaaaRecordSet(String name, String etagValue)"
-  desc: "Removes a AAAA record set in the private DNS zone."
-  returns:
-    description: "the next stage of DNS zone update"
-    type: "<xref href=\"com.azure.resourcemanager.privatedns.models.PrivateDnsZone.Update?alt=com.azure.resourcemanager.privatedns.models.PrivateDnsZone.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.privatedns.models.PrivateDnsZone.UpdateStages.WithRecordSet.withoutARecordSet(java.lang.String)"
   fullName: "com.azure.resourcemanager.privatedns.models.PrivateDnsZone.UpdateStages.WithRecordSet.withoutARecordSet(String name)"
   name: "withoutARecordSet(String name)"
@@ -340,6 +305,41 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PrivateDnsZone.Update withoutARecordSet(String name, String etagValue)"
   desc: "Removes a A record set in the private DNS zone."
+  returns:
+    description: "the next stage of DNS zone update"
+    type: "<xref href=\"com.azure.resourcemanager.privatedns.models.PrivateDnsZone.Update?alt=com.azure.resourcemanager.privatedns.models.PrivateDnsZone.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.privatedns.models.PrivateDnsZone.UpdateStages.WithRecordSet.withoutAaaaRecordSet(java.lang.String)"
+  fullName: "com.azure.resourcemanager.privatedns.models.PrivateDnsZone.UpdateStages.WithRecordSet.withoutAaaaRecordSet(String name)"
+  name: "withoutAaaaRecordSet(String name)"
+  nameWithType: "PrivateDnsZone.UpdateStages.WithRecordSet.withoutAaaaRecordSet(String name)"
+  summary: "Removes a AAAA record set in the private DNS zone."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "name of the AAAA record set"
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract PrivateDnsZone.Update withoutAaaaRecordSet(String name)"
+  desc: "Removes a AAAA record set in the private DNS zone."
+  returns:
+    description: "the next stage of DNS zone update"
+    type: "<xref href=\"com.azure.resourcemanager.privatedns.models.PrivateDnsZone.Update?alt=com.azure.resourcemanager.privatedns.models.PrivateDnsZone.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.privatedns.models.PrivateDnsZone.UpdateStages.WithRecordSet.withoutAaaaRecordSet(java.lang.String,java.lang.String)"
+  fullName: "com.azure.resourcemanager.privatedns.models.PrivateDnsZone.UpdateStages.WithRecordSet.withoutAaaaRecordSet(String name, String etagValue)"
+  name: "withoutAaaaRecordSet(String name, String etagValue)"
+  nameWithType: "PrivateDnsZone.UpdateStages.WithRecordSet.withoutAaaaRecordSet(String name, String etagValue)"
+  summary: "Removes a AAAA record set in the private DNS zone."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "name of the AAAA record set"
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "the etag to use for concurrent protection"
+    name: "etagValue"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract PrivateDnsZone.Update withoutAaaaRecordSet(String name, String etagValue)"
+  desc: "Removes a AAAA record set in the private DNS zone."
   returns:
     description: "the next stage of DNS zone update"
     type: "<xref href=\"com.azure.resourcemanager.privatedns.models.PrivateDnsZone.Update?alt=com.azure.resourcemanager.privatedns.models.PrivateDnsZone.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"

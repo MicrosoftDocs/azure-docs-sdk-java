@@ -307,6 +307,19 @@ methods:
   returns:
     description: "the GoogleAdWordsLinkedService object itself."
     type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.GoogleAdWordsLinkedService?alt=com.azure.analytics.synapse.artifacts.models.GoogleAdWordsLinkedService&text=GoogleAdWordsLinkedService\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.analytics.synapse.artifacts.models.GoogleAdWordsLinkedService.setConnectVia(com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference)"
+  fullName: "com.azure.analytics.synapse.artifacts.models.GoogleAdWordsLinkedService.setConnectVia(IntegrationRuntimeReference connectVia)"
+  name: "setConnectVia(IntegrationRuntimeReference connectVia)"
+  nameWithType: "GoogleAdWordsLinkedService.setConnectVia(IntegrationRuntimeReference connectVia)"
+  summary: "Set the connect<wbr>Via property: The integration runtime reference."
+  overridden: "com.azure.analytics.synapse.artifacts.models.LinkedService.setConnectVia(com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference)"
+  parameters:
+  - name: "connectVia"
+    type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference?alt=com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference&text=IntegrationRuntimeReference\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public GoogleAdWordsLinkedService setConnectVia(IntegrationRuntimeReference connectVia)"
+  desc: "Set the connectVia property: The integration runtime reference."
+  returns:
+    type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.GoogleAdWordsLinkedService?alt=com.azure.analytics.synapse.artifacts.models.GoogleAdWordsLinkedService&text=GoogleAdWordsLinkedService\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.analytics.synapse.artifacts.models.GoogleAdWordsLinkedService.setConnectionProperties(java.lang.Object)"
   fullName: "com.azure.analytics.synapse.artifacts.models.GoogleAdWordsLinkedService.setConnectionProperties(Object connectionProperties)"
   name: "setConnectionProperties(Object connectionProperties)"
@@ -320,19 +333,6 @@ methods:
   desc: "Set the connectionProperties property: (Deprecated) Properties used to connect to GoogleAds. It is mutually exclusive with any other properties in the linked service. Type: object."
   returns:
     description: "the GoogleAdWordsLinkedService object itself."
-    type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.GoogleAdWordsLinkedService?alt=com.azure.analytics.synapse.artifacts.models.GoogleAdWordsLinkedService&text=GoogleAdWordsLinkedService\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.analytics.synapse.artifacts.models.GoogleAdWordsLinkedService.setConnectVia(com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference)"
-  fullName: "com.azure.analytics.synapse.artifacts.models.GoogleAdWordsLinkedService.setConnectVia(IntegrationRuntimeReference connectVia)"
-  name: "setConnectVia(IntegrationRuntimeReference connectVia)"
-  nameWithType: "GoogleAdWordsLinkedService.setConnectVia(IntegrationRuntimeReference connectVia)"
-  summary: "Set the connect<wbr>Via property: The integration runtime reference."
-  overridden: "com.azure.analytics.synapse.artifacts.models.LinkedService.setConnectVia(com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference)"
-  parameters:
-  - name: "connectVia"
-    type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference?alt=com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference&text=IntegrationRuntimeReference\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public GoogleAdWordsLinkedService setConnectVia(IntegrationRuntimeReference connectVia)"
-  desc: "Set the connectVia property: The integration runtime reference."
-  returns:
     type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.GoogleAdWordsLinkedService?alt=com.azure.analytics.synapse.artifacts.models.GoogleAdWordsLinkedService&text=GoogleAdWordsLinkedService\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.analytics.synapse.artifacts.models.GoogleAdWordsLinkedService.setDescription(java.lang.String)"
   fullName: "com.azure.analytics.synapse.artifacts.models.GoogleAdWordsLinkedService.setDescription(String description)"

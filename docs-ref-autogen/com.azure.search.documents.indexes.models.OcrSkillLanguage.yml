@@ -1974,14 +1974,14 @@ fields:
   fullName: "com.azure.search.documents.indexes.models.OcrSkillLanguage.VO"
   name: "VO"
   nameWithType: "OcrSkillLanguage.VO"
-  summary: "VolapÃ¼k."
+  summary: "Volapük."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.search.documents.indexes.models.OcrSkillLanguage?alt=com.azure.search.documents.indexes.models.OcrSkillLanguage&text=OcrSkillLanguage\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final OcrSkillLanguage VO"
-  desc: "VolapÃ¼k."
+  desc: "Volapük."
 - uid: "com.azure.search.documents.indexes.models.OcrSkillLanguage.WAE"
   fullName: "com.azure.search.documents.indexes.models.OcrSkillLanguage.WAE"
   name: "WAE"

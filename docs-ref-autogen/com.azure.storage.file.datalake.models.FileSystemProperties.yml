@@ -68,16 +68,6 @@ methods:
   returns:
     description: "the access type for the file system"
     type: "<xref href=\"com.azure.storage.file.datalake.models.PublicAccessType?alt=com.azure.storage.file.datalake.models.PublicAccessType&text=PublicAccessType\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.storage.file.datalake.models.FileSystemProperties.getEncryptionScope()"
-  fullName: "com.azure.storage.file.datalake.models.FileSystemProperties.getEncryptionScope()"
-  name: "getEncryptionScope()"
-  nameWithType: "FileSystemProperties.getEncryptionScope()"
-  summary: "Gets the file system's encryption scope."
-  syntax: "public String getEncryptionScope()"
-  desc: "Gets the file system's encryption scope."
-  returns:
-    description: "the file system's encryption scope"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.storage.file.datalake.models.FileSystemProperties.getETag()"
   fullName: "com.azure.storage.file.datalake.models.FileSystemProperties.getETag()"
   name: "getETag()"
@@ -87,6 +77,16 @@ methods:
   desc: "Gets the eTag of the file system."
   returns:
     description: "the eTag of the file system"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.storage.file.datalake.models.FileSystemProperties.getEncryptionScope()"
+  fullName: "com.azure.storage.file.datalake.models.FileSystemProperties.getEncryptionScope()"
+  name: "getEncryptionScope()"
+  nameWithType: "FileSystemProperties.getEncryptionScope()"
+  summary: "Gets the file system's encryption scope."
+  syntax: "public String getEncryptionScope()"
+  desc: "Gets the file system's encryption scope."
+  returns:
+    description: "the file system's encryption scope"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.storage.file.datalake.models.FileSystemProperties.getLastModified()"
   fullName: "com.azure.storage.file.datalake.models.FileSystemProperties.getLastModified()"

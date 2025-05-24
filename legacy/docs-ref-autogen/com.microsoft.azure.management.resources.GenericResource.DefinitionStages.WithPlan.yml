@@ -6,18 +6,6 @@ nameWithType: "GenericResource.DefinitionStages.WithPlan"
 summary: "A generic resource definition allowing plan to be specified."
 syntax: "public static interface **GenericResource.DefinitionStages.WithPlan**"
 methods:
-- uid: "com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithPlan.withoutPlan()"
-  fullName: "com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithPlan.withoutPlan()"
-  name: "withoutPlan()"
-  nameWithType: "GenericResource.DefinitionStages.WithPlan.withoutPlan()"
-  summary: "Specifies the plan of the resource."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract GenericResource.DefinitionStages.WithCreate withoutPlan()"
-  desc: "Specifies the plan of the resource."
-  returns:
-    description: "the next stage of the definition"
-    type: "<xref href=\"com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithCreate?alt=com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithPlan.withPlan(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
   fullName: "com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithPlan.withPlan(String name, String publisher, String product, String promotionCode)"
   name: "withPlan(String name, String publisher, String product, String promotionCode)"
@@ -40,6 +28,18 @@ methods:
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract GenericResource.DefinitionStages.WithCreate withPlan(String name, String publisher, String product, String promotionCode)"
   desc: "Specifies the plan of the resource. The plan can only be set for 3rd party resources."
+  returns:
+    description: "the next stage of the definition"
+    type: "<xref href=\"com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithCreate?alt=com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithPlan.withoutPlan()"
+  fullName: "com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithPlan.withoutPlan()"
+  name: "withoutPlan()"
+  nameWithType: "GenericResource.DefinitionStages.WithPlan.withoutPlan()"
+  summary: "Specifies the plan of the resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract GenericResource.DefinitionStages.WithCreate withoutPlan()"
+  desc: "Specifies the plan of the resource."
   returns:
     description: "the next stage of the definition"
     type: "<xref href=\"com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithCreate?alt=com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"

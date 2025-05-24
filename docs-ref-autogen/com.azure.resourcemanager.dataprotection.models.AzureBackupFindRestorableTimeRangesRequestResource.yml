@@ -131,13 +131,13 @@ methods:
   fullName: "com.azure.resourcemanager.dataprotection.models.AzureBackupFindRestorableTimeRangesRequestResource.withHeaders(Map<String,List<String>> headers)"
   name: "withHeaders(Map<String,List<String>> headers)"
   nameWithType: "AzureBackupFindRestorableTimeRangesRequestResource.withHeaders(Map<String,List<String>> headers)"
-  summary: "Set the headers property: Dictionary of <components&#183;ikn5y4&#183;schemas&#183;dppworkerrequest&#183;properties&#183;headers&#183;additionalproperties>."
+  summary: "Set the headers property: Dictionary of <components·ikn5y4·schemas·dppworkerrequest·properties·headers·additionalproperties>."
   overridden: "com.azure.resourcemanager.dataprotection.models.DppWorkerRequest.withHeaders(java.util.Map<java.lang.String,java.util.List<java.lang.String>>)"
   parameters:
   - name: "headers"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;&gt;"
   syntax: "public AzureBackupFindRestorableTimeRangesRequestResource withHeaders(Map<String,List<String>> headers)"
-  desc: "Set the headers property: Dictionary of <components&#183;ikn5y4&#183;schemas&#183;dppworkerrequest&#183;properties&#183;headers&#183;additionalproperties>."
+  desc: "Set the headers property: Dictionary of <components·ikn5y4·schemas·dppworkerrequest·properties·headers·additionalproperties>."
   returns:
     type: "<xref href=\"com.azure.resourcemanager.dataprotection.models.AzureBackupFindRestorableTimeRangesRequestResource?alt=com.azure.resourcemanager.dataprotection.models.AzureBackupFindRestorableTimeRangesRequestResource&text=AzureBackupFindRestorableTimeRangesRequestResource\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.dataprotection.models.AzureBackupFindRestorableTimeRangesRequestResource.withHttpMethod(java.lang.String)"

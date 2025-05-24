@@ -6,6 +6,16 @@ nameWithType: "DnsZone"
 summary: "An immutable client-side representation of an Azure DNS Zone."
 syntax: "public interface **DnsZone**</br> extends <xref href=\"com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource?alt=com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource&text=GroupableResource\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.management.dns.implementation.DnsZoneManager?alt=com.microsoft.azure.management.dns.implementation.DnsZoneManager&text=DnsZoneManager\" data-throw-if-not-resolved=\"False\" />,<xref href=\"com.microsoft.azure.management.dns.implementation.ZoneInner?alt=com.microsoft.azure.management.dns.implementation.ZoneInner&text=ZoneInner\" data-throw-if-not-resolved=\"False\" />&gt;, <xref href=\"com.microsoft.azure.management.resources.fluentcore.model.Refreshable?alt=com.microsoft.azure.management.resources.fluentcore.model.Refreshable&text=Refreshable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.management.dns.DnsZone?alt=com.microsoft.azure.management.dns.DnsZone&text=DnsZone\" data-throw-if-not-resolved=\"False\" />&gt;, <xref href=\"com.microsoft.azure.management.resources.fluentcore.model.Updatable?alt=com.microsoft.azure.management.resources.fluentcore.model.Updatable&text=Updatable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.management.dns.DnsZone.Update?alt=com.microsoft.azure.management.dns.DnsZone.Update&text=Update\" data-throw-if-not-resolved=\"False\" />&gt;"
 methods:
+- uid: "com.microsoft.azure.management.dns.DnsZone.aRecordSets()"
+  fullName: "com.microsoft.azure.management.dns.DnsZone.aRecordSets()"
+  name: "aRecordSets()"
+  nameWithType: "DnsZone.aRecordSets()"
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ARecordSets aRecordSets()"
+  returns:
+    description: "entry point to manage record sets in this zone containing A (IPv4 address) records"
+    type: "<xref href=\"com.microsoft.azure.management.dns.ARecordSets?alt=com.microsoft.azure.management.dns.ARecordSets&text=ARecordSets\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.management.dns.DnsZone.aaaaRecordSets()"
   fullName: "com.microsoft.azure.management.dns.DnsZone.aaaaRecordSets()"
   name: "aaaaRecordSets()"
@@ -26,26 +36,6 @@ methods:
   returns:
     description: "the access type of this zone (Private or Public)."
     type: "<xref href=\"com.microsoft.azure.management.dns.ZoneType?alt=com.microsoft.azure.management.dns.ZoneType&text=ZoneType\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.azure.management.dns.DnsZone.aRecordSets()"
-  fullName: "com.microsoft.azure.management.dns.DnsZone.aRecordSets()"
-  name: "aRecordSets()"
-  nameWithType: "DnsZone.aRecordSets()"
-  modifiers:
-  - "abstract"
-  syntax: "public abstract ARecordSets aRecordSets()"
-  returns:
-    description: "entry point to manage record sets in this zone containing A (IPv4 address) records"
-    type: "<xref href=\"com.microsoft.azure.management.dns.ARecordSets?alt=com.microsoft.azure.management.dns.ARecordSets&text=ARecordSets\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.azure.management.dns.DnsZone.caaRecordSets()"
-  fullName: "com.microsoft.azure.management.dns.DnsZone.caaRecordSets()"
-  name: "caaRecordSets()"
-  nameWithType: "DnsZone.caaRecordSets()"
-  modifiers:
-  - "abstract"
-  syntax: "public abstract CaaRecordSets caaRecordSets()"
-  returns:
-    description: "entry point to manage record sets in this zone containing Caa (canonical name) records"
-    type: "<xref href=\"com.microsoft.azure.management.dns.CaaRecordSets?alt=com.microsoft.azure.management.dns.CaaRecordSets&text=CaaRecordSets\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.management.dns.DnsZone.cNameRecordSets()"
   fullName: "com.microsoft.azure.management.dns.DnsZone.cNameRecordSets()"
   name: "cNameRecordSets()"
@@ -56,6 +46,16 @@ methods:
   returns:
     description: "entry point to manage record sets in this zone containing CNAME (canonical name) records"
     type: "<xref href=\"com.microsoft.azure.management.dns.CNameRecordSets?alt=com.microsoft.azure.management.dns.CNameRecordSets&text=CNameRecordSets\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.azure.management.dns.DnsZone.caaRecordSets()"
+  fullName: "com.microsoft.azure.management.dns.DnsZone.caaRecordSets()"
+  name: "caaRecordSets()"
+  nameWithType: "DnsZone.caaRecordSets()"
+  modifiers:
+  - "abstract"
+  syntax: "public abstract CaaRecordSets caaRecordSets()"
+  returns:
+    description: "entry point to manage record sets in this zone containing Caa (canonical name) records"
+    type: "<xref href=\"com.microsoft.azure.management.dns.CaaRecordSets?alt=com.microsoft.azure.management.dns.CaaRecordSets&text=CaaRecordSets\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.management.dns.DnsZone.eTag()"
   fullName: "com.microsoft.azure.management.dns.DnsZone.eTag()"
   name: "eTag()"

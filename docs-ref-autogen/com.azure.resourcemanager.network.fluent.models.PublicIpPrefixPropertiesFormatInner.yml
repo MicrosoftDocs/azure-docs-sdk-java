@@ -119,16 +119,6 @@ methods:
   returns:
     description: "the provisioningState value."
     type: "<xref href=\"com.azure.resourcemanager.network.models.ProvisioningState?alt=com.azure.resourcemanager.network.models.ProvisioningState&text=ProvisioningState\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.PublicIpPrefixPropertiesFormatInner.publicIpAddresses()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.PublicIpPrefixPropertiesFormatInner.publicIpAddresses()"
-  name: "publicIpAddresses()"
-  nameWithType: "PublicIpPrefixPropertiesFormatInner.publicIpAddresses()"
-  summary: "Get the public<wbr>IpAddresses property: The list of all referenced Public<wbr>IPAddresses."
-  syntax: "public List<ReferencedPublicIpAddress> publicIpAddresses()"
-  desc: "Get the publicIpAddresses property: The list of all referenced PublicIPAddresses."
-  returns:
-    description: "the publicIpAddresses value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.ReferencedPublicIpAddress?alt=com.azure.resourcemanager.network.models.ReferencedPublicIpAddress&text=ReferencedPublicIpAddress\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.network.fluent.models.PublicIpPrefixPropertiesFormatInner.publicIpAddressVersion()"
   fullName: "com.azure.resourcemanager.network.fluent.models.PublicIpPrefixPropertiesFormatInner.publicIpAddressVersion()"
   name: "publicIpAddressVersion()"
@@ -139,6 +129,16 @@ methods:
   returns:
     description: "the publicIpAddressVersion value."
     type: "<xref href=\"com.azure.resourcemanager.network.models.IpVersion?alt=com.azure.resourcemanager.network.models.IpVersion&text=IpVersion\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.fluent.models.PublicIpPrefixPropertiesFormatInner.publicIpAddresses()"
+  fullName: "com.azure.resourcemanager.network.fluent.models.PublicIpPrefixPropertiesFormatInner.publicIpAddresses()"
+  name: "publicIpAddresses()"
+  nameWithType: "PublicIpPrefixPropertiesFormatInner.publicIpAddresses()"
+  summary: "Get the public<wbr>IpAddresses property: The list of all referenced Public<wbr>IPAddresses."
+  syntax: "public List<ReferencedPublicIpAddress> publicIpAddresses()"
+  desc: "Get the publicIpAddresses property: The list of all referenced PublicIPAddresses."
+  returns:
+    description: "the publicIpAddresses value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.ReferencedPublicIpAddress?alt=com.azure.resourcemanager.network.models.ReferencedPublicIpAddress&text=ReferencedPublicIpAddress\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.network.fluent.models.PublicIpPrefixPropertiesFormatInner.resourceGuid()"
   fullName: "com.azure.resourcemanager.network.fluent.models.PublicIpPrefixPropertiesFormatInner.resourceGuid()"
   name: "resourceGuid()"

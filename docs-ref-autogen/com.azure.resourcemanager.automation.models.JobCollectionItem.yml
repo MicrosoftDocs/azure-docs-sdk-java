@@ -102,18 +102,6 @@ methods:
   returns:
     description: "the provisioningState value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.automation.models.JobCollectionItem.runbook()"
-  fullName: "com.azure.resourcemanager.automation.models.JobCollectionItem.runbook()"
-  name: "runbook()"
-  nameWithType: "JobCollectionItem.runbook()"
-  summary: "Gets the runbook property: The runbook association."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract RunbookAssociationProperty runbook()"
-  desc: "Gets the runbook property: The runbook association."
-  returns:
-    description: "the runbook value."
-    type: "<xref href=\"com.azure.resourcemanager.automation.models.RunbookAssociationProperty?alt=com.azure.resourcemanager.automation.models.RunbookAssociationProperty&text=RunbookAssociationProperty\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.automation.models.JobCollectionItem.runOn()"
   fullName: "com.azure.resourcemanager.automation.models.JobCollectionItem.runOn()"
   name: "runOn()"
@@ -126,6 +114,18 @@ methods:
   returns:
     description: "the runOn value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.automation.models.JobCollectionItem.runbook()"
+  fullName: "com.azure.resourcemanager.automation.models.JobCollectionItem.runbook()"
+  name: "runbook()"
+  nameWithType: "JobCollectionItem.runbook()"
+  summary: "Gets the runbook property: The runbook association."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract RunbookAssociationProperty runbook()"
+  desc: "Gets the runbook property: The runbook association."
+  returns:
+    description: "the runbook value."
+    type: "<xref href=\"com.azure.resourcemanager.automation.models.RunbookAssociationProperty?alt=com.azure.resourcemanager.automation.models.RunbookAssociationProperty&text=RunbookAssociationProperty\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.automation.models.JobCollectionItem.startTime()"
   fullName: "com.azure.resourcemanager.automation.models.JobCollectionItem.startTime()"
   name: "startTime()"

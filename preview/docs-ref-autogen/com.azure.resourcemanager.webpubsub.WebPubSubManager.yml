@@ -22,25 +22,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **WebPubSubManager**"
 methods:
-- uid: "com.azure.resourcemanager.webpubsub.WebPubSubManager.authenticate(com.azure.core.http.HttpPipeline,com.azure.core.management.profile.AzureProfile)"
-  fullName: "com.azure.resourcemanager.webpubsub.WebPubSubManager.authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
-  name: "authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
-  nameWithType: "WebPubSubManager.authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
-  summary: "Creates an instance of Web<wbr>Pub<wbr>Sub service API entry point."
-  modifiers:
-  - "static"
-  parameters:
-  - description: "the <xref uid=\"com.azure.core.http.HttpPipeline\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HttpPipeline\"></xref> configured with Azure authentication credential."
-    name: "httpPipeline"
-    type: "<xref href=\"com.azure.core.http.HttpPipeline?alt=com.azure.core.http.HttpPipeline&text=HttpPipeline\" data-throw-if-not-resolved=\"False\" />"
-  - description: "the Azure profile for client."
-    name: "profile"
-    type: "<xref href=\"com.azure.core.management.profile.AzureProfile?alt=com.azure.core.management.profile.AzureProfile&text=AzureProfile\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static WebPubSubManager authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
-  desc: "Creates an instance of WebPubSub service API entry point."
-  returns:
-    description: "the WebPubSub service API instance."
-    type: "<xref href=\"com.azure.resourcemanager.webpubsub.WebPubSubManager?alt=com.azure.resourcemanager.webpubsub.WebPubSubManager&text=WebPubSubManager\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.webpubsub.WebPubSubManager.authenticate(com.azure.core.credential.TokenCredential,com.azure.core.management.profile.AzureProfile)"
   fullName: "com.azure.resourcemanager.webpubsub.WebPubSubManager.authenticate(TokenCredential credential, AzureProfile profile)"
   name: "authenticate(TokenCredential credential, AzureProfile profile)"
@@ -56,6 +37,25 @@ methods:
     name: "profile"
     type: "<xref href=\"com.azure.core.management.profile.AzureProfile?alt=com.azure.core.management.profile.AzureProfile&text=AzureProfile\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static WebPubSubManager authenticate(TokenCredential credential, AzureProfile profile)"
+  desc: "Creates an instance of WebPubSub service API entry point."
+  returns:
+    description: "the WebPubSub service API instance."
+    type: "<xref href=\"com.azure.resourcemanager.webpubsub.WebPubSubManager?alt=com.azure.resourcemanager.webpubsub.WebPubSubManager&text=WebPubSubManager\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.webpubsub.WebPubSubManager.authenticate(com.azure.core.http.HttpPipeline,com.azure.core.management.profile.AzureProfile)"
+  fullName: "com.azure.resourcemanager.webpubsub.WebPubSubManager.authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
+  name: "authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
+  nameWithType: "WebPubSubManager.authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
+  summary: "Creates an instance of Web<wbr>Pub<wbr>Sub service API entry point."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "the <xref uid=\"com.azure.core.http.HttpPipeline\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HttpPipeline\"></xref> configured with Azure authentication credential."
+    name: "httpPipeline"
+    type: "<xref href=\"com.azure.core.http.HttpPipeline?alt=com.azure.core.http.HttpPipeline&text=HttpPipeline\" data-throw-if-not-resolved=\"False\" />"
+  - description: "the Azure profile for client."
+    name: "profile"
+    type: "<xref href=\"com.azure.core.management.profile.AzureProfile?alt=com.azure.core.management.profile.AzureProfile&text=AzureProfile\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static WebPubSubManager authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
   desc: "Creates an instance of WebPubSub service API entry point."
   returns:
     description: "the WebPubSub service API instance."
@@ -162,16 +162,6 @@ methods:
   returns:
     description: "Resource collection API of WebPubSubReplicas."
     type: "<xref href=\"com.azure.resourcemanager.webpubsub.models.WebPubSubReplicas?alt=com.azure.resourcemanager.webpubsub.models.WebPubSubReplicas&text=WebPubSubReplicas\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.webpubsub.WebPubSubManager.webPubSubs()"
-  fullName: "com.azure.resourcemanager.webpubsub.WebPubSubManager.webPubSubs()"
-  name: "webPubSubs()"
-  nameWithType: "WebPubSubManager.webPubSubs()"
-  summary: "Gets the resource collection API of Web<wbr>Pub<wbr>Subs."
-  syntax: "public WebPubSubs webPubSubs()"
-  desc: "Gets the resource collection API of WebPubSubs. It manages WebPubSubResource."
-  returns:
-    description: "Resource collection API of WebPubSubs."
-    type: "<xref href=\"com.azure.resourcemanager.webpubsub.models.WebPubSubs?alt=com.azure.resourcemanager.webpubsub.models.WebPubSubs&text=WebPubSubs\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.webpubsub.WebPubSubManager.webPubSubSharedPrivateLinkResources()"
   fullName: "com.azure.resourcemanager.webpubsub.WebPubSubManager.webPubSubSharedPrivateLinkResources()"
   name: "webPubSubSharedPrivateLinkResources()"
@@ -182,6 +172,16 @@ methods:
   returns:
     description: "Resource collection API of WebPubSubSharedPrivateLinkResources."
     type: "<xref href=\"com.azure.resourcemanager.webpubsub.models.WebPubSubSharedPrivateLinkResources?alt=com.azure.resourcemanager.webpubsub.models.WebPubSubSharedPrivateLinkResources&text=WebPubSubSharedPrivateLinkResources\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.webpubsub.WebPubSubManager.webPubSubs()"
+  fullName: "com.azure.resourcemanager.webpubsub.WebPubSubManager.webPubSubs()"
+  name: "webPubSubs()"
+  nameWithType: "WebPubSubManager.webPubSubs()"
+  summary: "Gets the resource collection API of Web<wbr>Pub<wbr>Subs."
+  syntax: "public WebPubSubs webPubSubs()"
+  desc: "Gets the resource collection API of WebPubSubs. It manages WebPubSubResource."
+  returns:
+    description: "Resource collection API of WebPubSubs."
+    type: "<xref href=\"com.azure.resourcemanager.webpubsub.models.WebPubSubs?alt=com.azure.resourcemanager.webpubsub.models.WebPubSubs&text=WebPubSubs\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Entry point to WebPubSubManager. REST API for Azure WebPubSub Service."
 metadata: {}

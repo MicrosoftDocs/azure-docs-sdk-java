@@ -56,6 +56,16 @@ methods:
   returns:
     description: "true if the traffic manager profile is enabled, false if enabled"
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.azure.management.trafficmanager.TrafficManagerProfile.monitorStatus()"
+  fullName: "com.microsoft.azure.management.trafficmanager.TrafficManagerProfile.monitorStatus()"
+  name: "monitorStatus()"
+  nameWithType: "TrafficManagerProfile.monitorStatus()"
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ProfileMonitorStatus monitorStatus()"
+  returns:
+    description: "profile monitor status which is combination of the endpoint monitor status values for all endpoints in\n the profile, and the configured profile status"
+    type: "<xref href=\"com.microsoft.azure.management.trafficmanager.ProfileMonitorStatus?alt=com.microsoft.azure.management.trafficmanager.ProfileMonitorStatus&text=ProfileMonitorStatus\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.management.trafficmanager.TrafficManagerProfile.monitoringPath()"
   fullName: "com.microsoft.azure.management.trafficmanager.TrafficManagerProfile.monitoringPath()"
   name: "monitoringPath()"
@@ -76,16 +86,6 @@ methods:
   returns:
     description: "the port that is monitored to check the health of traffic manager profile endpoints"
     type: "<xref href=\"long?alt=long&text=long\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.azure.management.trafficmanager.TrafficManagerProfile.monitorStatus()"
-  fullName: "com.microsoft.azure.management.trafficmanager.TrafficManagerProfile.monitorStatus()"
-  name: "monitorStatus()"
-  nameWithType: "TrafficManagerProfile.monitorStatus()"
-  modifiers:
-  - "abstract"
-  syntax: "public abstract ProfileMonitorStatus monitorStatus()"
-  returns:
-    description: "profile monitor status which is combination of the endpoint monitor status values for all endpoints in\n the profile, and the configured profile status"
-    type: "<xref href=\"com.microsoft.azure.management.trafficmanager.ProfileMonitorStatus?alt=com.microsoft.azure.management.trafficmanager.ProfileMonitorStatus&text=ProfileMonitorStatus\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.management.trafficmanager.TrafficManagerProfile.nestedProfileEndpoints()"
   fullName: "com.microsoft.azure.management.trafficmanager.TrafficManagerProfile.nestedProfileEndpoints()"
   name: "nestedProfileEndpoints()"

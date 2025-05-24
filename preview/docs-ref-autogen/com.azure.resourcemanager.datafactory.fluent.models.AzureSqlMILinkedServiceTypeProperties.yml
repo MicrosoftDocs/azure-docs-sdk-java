@@ -100,7 +100,7 @@ methods:
   nameWithType: "AzureSqlMILinkedServiceTypeProperties.azureCloudType()"
   summary: "Get the azure<wbr>Cloud<wbr>Type property: Indicates the azure cloud type of the service principle auth."
   syntax: "public Object azureCloudType()"
-  desc: "Get the azureCloudType property: Indicates the azure cloud type of the service principle auth. Allowed values are AzurePublic, AzureChina, AzureUsGovernment, AzureGermany. Default value is the data factory regions’ cloud type. Type: string (or Expression with resultType string)."
+  desc: "Get the azureCloudType property: Indicates the azure cloud type of the service principle auth. Allowed values are AzurePublic, AzureChina, AzureUsGovernment, AzureGermany. Default value is the data factory regions\\\\u2019 cloud type. Type: string (or Expression with resultType string)."
   returns:
     description: "the azureCloudType value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
@@ -295,7 +295,7 @@ methods:
     name: "azureCloudType"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   syntax: "public AzureSqlMILinkedServiceTypeProperties withAzureCloudType(Object azureCloudType)"
-  desc: "Set the azureCloudType property: Indicates the azure cloud type of the service principle auth. Allowed values are AzurePublic, AzureChina, AzureUsGovernment, AzureGermany. Default value is the data factory regions’ cloud type. Type: string (or Expression with resultType string)."
+  desc: "Set the azureCloudType property: Indicates the azure cloud type of the service principle auth. Allowed values are AzurePublic, AzureChina, AzureUsGovernment, AzureGermany. Default value is the data factory regions\\\\u2019 cloud type. Type: string (or Expression with resultType string)."
   returns:
     description: "the AzureSqlMILinkedServiceTypeProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.datafactory.fluent.models.AzureSqlMILinkedServiceTypeProperties?alt=com.azure.resourcemanager.datafactory.fluent.models.AzureSqlMILinkedServiceTypeProperties&text=AzureSqlMILinkedServiceTypeProperties\" data-throw-if-not-resolved=\"False\" />"
@@ -311,20 +311,6 @@ methods:
   syntax: "public AzureSqlMILinkedServiceTypeProperties withCommandTimeout(Object commandTimeout)"
   desc: "Set the commandTimeout property: The default wait time (in seconds) before terminating the attempt to execute a command and generating an error, used by recommended version. Type: integer (or Expression with resultType integer)."
   returns:
-    type: "<xref href=\"com.azure.resourcemanager.datafactory.fluent.models.AzureSqlMILinkedServiceTypeProperties?alt=com.azure.resourcemanager.datafactory.fluent.models.AzureSqlMILinkedServiceTypeProperties&text=AzureSqlMILinkedServiceTypeProperties\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.datafactory.fluent.models.AzureSqlMILinkedServiceTypeProperties.withConnectionString(java.lang.Object)"
-  fullName: "com.azure.resourcemanager.datafactory.fluent.models.AzureSqlMILinkedServiceTypeProperties.withConnectionString(Object connectionString)"
-  name: "withConnectionString(Object connectionString)"
-  nameWithType: "AzureSqlMILinkedServiceTypeProperties.withConnectionString(Object connectionString)"
-  summary: "Set the connection<wbr>String property: The connection string."
-  parameters:
-  - description: "the connectionString value to set."
-    name: "connectionString"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
-  syntax: "public AzureSqlMILinkedServiceTypeProperties withConnectionString(Object connectionString)"
-  desc: "Set the connectionString property: The connection string. Type: string, SecureString or AzureKeyVaultSecretReference."
-  returns:
-    description: "the AzureSqlMILinkedServiceTypeProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.datafactory.fluent.models.AzureSqlMILinkedServiceTypeProperties?alt=com.azure.resourcemanager.datafactory.fluent.models.AzureSqlMILinkedServiceTypeProperties&text=AzureSqlMILinkedServiceTypeProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.datafactory.fluent.models.AzureSqlMILinkedServiceTypeProperties.withConnectRetryCount(java.lang.Object)"
   fullName: "com.azure.resourcemanager.datafactory.fluent.models.AzureSqlMILinkedServiceTypeProperties.withConnectRetryCount(Object connectRetryCount)"
@@ -364,6 +350,20 @@ methods:
   syntax: "public AzureSqlMILinkedServiceTypeProperties withConnectTimeout(Object connectTimeout)"
   desc: "Set the connectTimeout property: The length of time (in seconds) to wait for a connection to the server before terminating the attempt and generating an error, used by recommended version. Type: integer (or Expression with resultType integer)."
   returns:
+    type: "<xref href=\"com.azure.resourcemanager.datafactory.fluent.models.AzureSqlMILinkedServiceTypeProperties?alt=com.azure.resourcemanager.datafactory.fluent.models.AzureSqlMILinkedServiceTypeProperties&text=AzureSqlMILinkedServiceTypeProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.datafactory.fluent.models.AzureSqlMILinkedServiceTypeProperties.withConnectionString(java.lang.Object)"
+  fullName: "com.azure.resourcemanager.datafactory.fluent.models.AzureSqlMILinkedServiceTypeProperties.withConnectionString(Object connectionString)"
+  name: "withConnectionString(Object connectionString)"
+  nameWithType: "AzureSqlMILinkedServiceTypeProperties.withConnectionString(Object connectionString)"
+  summary: "Set the connection<wbr>String property: The connection string."
+  parameters:
+  - description: "the connectionString value to set."
+    name: "connectionString"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  syntax: "public AzureSqlMILinkedServiceTypeProperties withConnectionString(Object connectionString)"
+  desc: "Set the connectionString property: The connection string. Type: string, SecureString or AzureKeyVaultSecretReference."
+  returns:
+    description: "the AzureSqlMILinkedServiceTypeProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.datafactory.fluent.models.AzureSqlMILinkedServiceTypeProperties?alt=com.azure.resourcemanager.datafactory.fluent.models.AzureSqlMILinkedServiceTypeProperties&text=AzureSqlMILinkedServiceTypeProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.datafactory.fluent.models.AzureSqlMILinkedServiceTypeProperties.withCredential(com.azure.resourcemanager.datafactory.models.CredentialReference)"
   fullName: "com.azure.resourcemanager.datafactory.fluent.models.AzureSqlMILinkedServiceTypeProperties.withCredential(CredentialReference credential)"
@@ -497,19 +497,6 @@ methods:
   desc: "Set the minPoolSize property: The minimum number of connections allowed in the connection pool for this specific connection string, used by recommended version. Type: integer (or Expression with resultType integer)."
   returns:
     type: "<xref href=\"com.azure.resourcemanager.datafactory.fluent.models.AzureSqlMILinkedServiceTypeProperties?alt=com.azure.resourcemanager.datafactory.fluent.models.AzureSqlMILinkedServiceTypeProperties&text=AzureSqlMILinkedServiceTypeProperties\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.datafactory.fluent.models.AzureSqlMILinkedServiceTypeProperties.withMultipleActiveResultSets(java.lang.Object)"
-  fullName: "com.azure.resourcemanager.datafactory.fluent.models.AzureSqlMILinkedServiceTypeProperties.withMultipleActiveResultSets(Object multipleActiveResultSets)"
-  name: "withMultipleActiveResultSets(Object multipleActiveResultSets)"
-  nameWithType: "AzureSqlMILinkedServiceTypeProperties.withMultipleActiveResultSets(Object multipleActiveResultSets)"
-  summary: "Set the multiple<wbr>Active<wbr>Result<wbr>Sets property: When true, an application can maintain multiple active result sets (MARS)."
-  overridden: "com.azure.resourcemanager.datafactory.models.SqlServerBaseLinkedServiceTypeProperties.withMultipleActiveResultSets(java.lang.Object)"
-  parameters:
-  - name: "multipleActiveResultSets"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
-  syntax: "public AzureSqlMILinkedServiceTypeProperties withMultipleActiveResultSets(Object multipleActiveResultSets)"
-  desc: "Set the multipleActiveResultSets property: When true, an application can maintain multiple active result sets (MARS). When false, an application must process or cancel all result sets from one batch before it can execute any other batch on that connection, used by recommended version. Type: Boolean (or Expression with resultType boolean)."
-  returns:
-    type: "<xref href=\"com.azure.resourcemanager.datafactory.fluent.models.AzureSqlMILinkedServiceTypeProperties?alt=com.azure.resourcemanager.datafactory.fluent.models.AzureSqlMILinkedServiceTypeProperties&text=AzureSqlMILinkedServiceTypeProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.datafactory.fluent.models.AzureSqlMILinkedServiceTypeProperties.withMultiSubnetFailover(java.lang.Object)"
   fullName: "com.azure.resourcemanager.datafactory.fluent.models.AzureSqlMILinkedServiceTypeProperties.withMultiSubnetFailover(Object multiSubnetFailover)"
   name: "withMultiSubnetFailover(Object multiSubnetFailover)"
@@ -521,6 +508,19 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   syntax: "public AzureSqlMILinkedServiceTypeProperties withMultiSubnetFailover(Object multiSubnetFailover)"
   desc: "Set the multiSubnetFailover property: If your application is connecting to an AlwaysOn availability group (AG) on different subnets, setting MultiSubnetFailover=true provides faster detection of and connection to the (currently) active server, used by recommended version. Type: Boolean (or Expression with resultType boolean)."
+  returns:
+    type: "<xref href=\"com.azure.resourcemanager.datafactory.fluent.models.AzureSqlMILinkedServiceTypeProperties?alt=com.azure.resourcemanager.datafactory.fluent.models.AzureSqlMILinkedServiceTypeProperties&text=AzureSqlMILinkedServiceTypeProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.datafactory.fluent.models.AzureSqlMILinkedServiceTypeProperties.withMultipleActiveResultSets(java.lang.Object)"
+  fullName: "com.azure.resourcemanager.datafactory.fluent.models.AzureSqlMILinkedServiceTypeProperties.withMultipleActiveResultSets(Object multipleActiveResultSets)"
+  name: "withMultipleActiveResultSets(Object multipleActiveResultSets)"
+  nameWithType: "AzureSqlMILinkedServiceTypeProperties.withMultipleActiveResultSets(Object multipleActiveResultSets)"
+  summary: "Set the multiple<wbr>Active<wbr>Result<wbr>Sets property: When true, an application can maintain multiple active result sets (MARS)."
+  overridden: "com.azure.resourcemanager.datafactory.models.SqlServerBaseLinkedServiceTypeProperties.withMultipleActiveResultSets(java.lang.Object)"
+  parameters:
+  - name: "multipleActiveResultSets"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  syntax: "public AzureSqlMILinkedServiceTypeProperties withMultipleActiveResultSets(Object multipleActiveResultSets)"
+  desc: "Set the multipleActiveResultSets property: When true, an application can maintain multiple active result sets (MARS). When false, an application must process or cancel all result sets from one batch before it can execute any other batch on that connection, used by recommended version. Type: Boolean (or Expression with resultType boolean)."
   returns:
     type: "<xref href=\"com.azure.resourcemanager.datafactory.fluent.models.AzureSqlMILinkedServiceTypeProperties?alt=com.azure.resourcemanager.datafactory.fluent.models.AzureSqlMILinkedServiceTypeProperties&text=AzureSqlMILinkedServiceTypeProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.datafactory.fluent.models.AzureSqlMILinkedServiceTypeProperties.withPacketSize(java.lang.Object)"

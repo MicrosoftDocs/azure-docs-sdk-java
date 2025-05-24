@@ -102,18 +102,6 @@ methods:
   returns:
     description: "the SingleSignOnsClient object."
     type: "<xref href=\"com.azure.resourcemanager.logz.fluent.SingleSignOnsClient?alt=com.azure.resourcemanager.logz.fluent.SingleSignOnsClient&text=SingleSignOnsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.logz.fluent.MicrosoftLogz.getSubAccounts()"
-  fullName: "com.azure.resourcemanager.logz.fluent.MicrosoftLogz.getSubAccounts()"
-  name: "getSubAccounts()"
-  nameWithType: "MicrosoftLogz.getSubAccounts()"
-  summary: "Gets the Sub<wbr>Accounts<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract SubAccountsClient getSubAccounts()"
-  desc: "Gets the SubAccountsClient object to access its operations."
-  returns:
-    description: "the SubAccountsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.logz.fluent.SubAccountsClient?alt=com.azure.resourcemanager.logz.fluent.SubAccountsClient&text=SubAccountsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.logz.fluent.MicrosoftLogz.getSubAccountTagRules()"
   fullName: "com.azure.resourcemanager.logz.fluent.MicrosoftLogz.getSubAccountTagRules()"
   name: "getSubAccountTagRules()"
@@ -126,6 +114,18 @@ methods:
   returns:
     description: "the SubAccountTagRulesClient object."
     type: "<xref href=\"com.azure.resourcemanager.logz.fluent.SubAccountTagRulesClient?alt=com.azure.resourcemanager.logz.fluent.SubAccountTagRulesClient&text=SubAccountTagRulesClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.logz.fluent.MicrosoftLogz.getSubAccounts()"
+  fullName: "com.azure.resourcemanager.logz.fluent.MicrosoftLogz.getSubAccounts()"
+  name: "getSubAccounts()"
+  nameWithType: "MicrosoftLogz.getSubAccounts()"
+  summary: "Gets the Sub<wbr>Accounts<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract SubAccountsClient getSubAccounts()"
+  desc: "Gets the SubAccountsClient object to access its operations."
+  returns:
+    description: "the SubAccountsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.logz.fluent.SubAccountsClient?alt=com.azure.resourcemanager.logz.fluent.SubAccountsClient&text=SubAccountsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.logz.fluent.MicrosoftLogz.getSubscriptionId()"
   fullName: "com.azure.resourcemanager.logz.fluent.MicrosoftLogz.getSubscriptionId()"
   name: "getSubscriptionId()"

@@ -91,14 +91,6 @@ methods:
   syntax: "public int getTotalPages()"
   returns:
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.spring.data.cosmos.core.query.CosmosPageImpl.hashCode()"
-  fullName: "com.azure.spring.data.cosmos.core.query.CosmosPageImpl<T>.hashCode()"
-  name: "hashCode()"
-  nameWithType: "CosmosPageImpl<T>.hashCode()"
-  overridden: "org.springframework.data.domain.PageImpl.hashCode()"
-  syntax: "public int hashCode()"
-  returns:
-    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.spring.data.cosmos.core.query.CosmosPageImpl.hasNext()"
   fullName: "com.azure.spring.data.cosmos.core.query.CosmosPageImpl<T>.hasNext()"
   name: "hasNext()"
@@ -107,6 +99,14 @@ methods:
   syntax: "public boolean hasNext()"
   returns:
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.spring.data.cosmos.core.query.CosmosPageImpl.hashCode()"
+  fullName: "com.azure.spring.data.cosmos.core.query.CosmosPageImpl<T>.hashCode()"
+  name: "hashCode()"
+  nameWithType: "CosmosPageImpl<T>.hashCode()"
+  overridden: "org.springframework.data.domain.PageImpl.hashCode()"
+  syntax: "public int hashCode()"
+  returns:
+    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.spring.data.cosmos.core.query.CosmosPageImpl.isLast()"
   fullName: "com.azure.spring.data.cosmos.core.query.CosmosPageImpl<T>.isLast()"
   name: "isLast()"

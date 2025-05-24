@@ -206,6 +206,18 @@ methods:
   returns:
     description: "the stage of resource update."
     type: "<xref href=\"com.azure.resourcemanager.servicelinker.models.LinkerResource.Update?alt=com.azure.resourcemanager.servicelinker.models.LinkerResource.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.servicelinker.models.LinkerResource.vNetSolution()"
+  fullName: "com.azure.resourcemanager.servicelinker.models.LinkerResource.vNetSolution()"
+  name: "vNetSolution()"
+  nameWithType: "LinkerResource.vNetSolution()"
+  summary: "Gets the v<wbr>Net<wbr>Solution property: The VNet solution."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract VNetSolution vNetSolution()"
+  desc: "Gets the vNetSolution property: The VNet solution."
+  returns:
+    description: "the vNetSolution value."
+    type: "<xref href=\"com.azure.resourcemanager.servicelinker.models.VNetSolution?alt=com.azure.resourcemanager.servicelinker.models.VNetSolution&text=VNetSolution\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.servicelinker.models.LinkerResource.validate()"
   fullName: "com.azure.resourcemanager.servicelinker.models.LinkerResource.validate()"
   name: "validate()"
@@ -234,18 +246,6 @@ methods:
   returns:
     description: "the validation operation result for a linker."
     type: "<xref href=\"com.azure.resourcemanager.servicelinker.models.ValidateOperationResult?alt=com.azure.resourcemanager.servicelinker.models.ValidateOperationResult&text=ValidateOperationResult\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.servicelinker.models.LinkerResource.vNetSolution()"
-  fullName: "com.azure.resourcemanager.servicelinker.models.LinkerResource.vNetSolution()"
-  name: "vNetSolution()"
-  nameWithType: "LinkerResource.vNetSolution()"
-  summary: "Gets the v<wbr>Net<wbr>Solution property: The VNet solution."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract VNetSolution vNetSolution()"
-  desc: "Gets the vNetSolution property: The VNet solution."
-  returns:
-    description: "the vNetSolution value."
-    type: "<xref href=\"com.azure.resourcemanager.servicelinker.models.VNetSolution?alt=com.azure.resourcemanager.servicelinker.models.VNetSolution&text=VNetSolution\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 desc: "An immutable client-side representation of LinkerResource."
 metadata: {}

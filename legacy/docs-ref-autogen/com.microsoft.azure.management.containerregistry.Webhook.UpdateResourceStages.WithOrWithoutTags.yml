@@ -6,22 +6,6 @@ nameWithType: "Webhook.UpdateResourceStages.WithOrWithoutTags<ParentT>"
 summary: "The stage of the webhook definition allowing to specify the tags."
 syntax: "public static interface **Webhook.UpdateResourceStages.WithOrWithoutTags<ParentT>**"
 methods:
-- uid: "com.microsoft.azure.management.containerregistry.Webhook.UpdateResourceStages.WithOrWithoutTags.withoutTag(java.lang.String)"
-  fullName: "com.microsoft.azure.management.containerregistry.Webhook.UpdateResourceStages.WithOrWithoutTags<ParentT>.withoutTag(String key)"
-  name: "withoutTag(String key)"
-  nameWithType: "Webhook.UpdateResourceStages.WithOrWithoutTags<ParentT>.withoutTag(String key)"
-  summary: "Removes a tag from the resource."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "the key of the tag to remove"
-    name: "key"
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract Webhook.UpdateResourceStages.WithAttach<ParentT> withoutTag(String key)"
-  desc: "Removes a tag from the resource."
-  returns:
-    description: "the next stage of the resource update"
-    type: "<xref href=\"com.microsoft.azure.management.containerregistry.Webhook.UpdateResourceStages.WithAttach?alt=com.microsoft.azure.management.containerregistry.Webhook.UpdateResourceStages.WithAttach&text=WithAttach\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.microsoft.azure.management.containerregistry.Webhook.UpdateResourceStages.WithOrWithoutTags.withTag(java.lang.String,java.lang.String)"
   fullName: "com.microsoft.azure.management.containerregistry.Webhook.UpdateResourceStages.WithOrWithoutTags<ParentT>.withTag(String key, String value)"
   name: "withTag(String key, String value)"
@@ -54,6 +38,22 @@ methods:
     type: "<xref href=\"java.util.Map?alt=java.util.Map&text=Map\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
   syntax: "public abstract Webhook.UpdateResourceStages.WithAttach<ParentT> withTags(Map<String,String> tags)"
   desc: "Specifies tags for the webhook."
+  returns:
+    description: "the next stage of the resource update"
+    type: "<xref href=\"com.microsoft.azure.management.containerregistry.Webhook.UpdateResourceStages.WithAttach?alt=com.microsoft.azure.management.containerregistry.Webhook.UpdateResourceStages.WithAttach&text=WithAttach\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.microsoft.azure.management.containerregistry.Webhook.UpdateResourceStages.WithOrWithoutTags.withoutTag(java.lang.String)"
+  fullName: "com.microsoft.azure.management.containerregistry.Webhook.UpdateResourceStages.WithOrWithoutTags<ParentT>.withoutTag(String key)"
+  name: "withoutTag(String key)"
+  nameWithType: "Webhook.UpdateResourceStages.WithOrWithoutTags<ParentT>.withoutTag(String key)"
+  summary: "Removes a tag from the resource."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "the key of the tag to remove"
+    name: "key"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract Webhook.UpdateResourceStages.WithAttach<ParentT> withoutTag(String key)"
+  desc: "Removes a tag from the resource."
   returns:
     description: "the next stage of the resource update"
     type: "<xref href=\"com.microsoft.azure.management.containerregistry.Webhook.UpdateResourceStages.WithAttach?alt=com.microsoft.azure.management.containerregistry.Webhook.UpdateResourceStages.WithAttach&text=WithAttach\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"

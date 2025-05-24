@@ -42,14 +42,14 @@ fields:
   fullName: "com.azure.ai.documentintelligence.models.DocumentSelectionMarkState.SELECTED"
   name: "SELECTED"
   nameWithType: "DocumentSelectionMarkState.SELECTED"
-  summary: "The selection mark is selected, often indicated by a check ✓ or cross X inside the selection mark."
+  summary: "The selection mark is selected, often indicated by a check \\\\u2713 or cross X inside the selection mark."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.ai.documentintelligence.models.DocumentSelectionMarkState?alt=com.azure.ai.documentintelligence.models.DocumentSelectionMarkState&text=DocumentSelectionMarkState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final DocumentSelectionMarkState SELECTED"
-  desc: "The selection mark is selected, often indicated by a check ✓ or cross X inside the selection mark."
+  desc: "The selection mark is selected, often indicated by a check \\\\u2713 or cross X inside the selection mark."
 - uid: "com.azure.ai.documentintelligence.models.DocumentSelectionMarkState.UNSELECTED"
   fullName: "com.azure.ai.documentintelligence.models.DocumentSelectionMarkState.UNSELECTED"
   name: "UNSELECTED"

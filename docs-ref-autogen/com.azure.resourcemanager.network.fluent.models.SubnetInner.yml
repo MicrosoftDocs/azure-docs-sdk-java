@@ -126,16 +126,6 @@ methods:
   returns:
     description: "the ipAllocations value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.core.management.SubResource?alt=com.azure.core.management.SubResource&text=SubResource\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.resourcemanager.network.fluent.models.SubnetInner.ipamPoolPrefixAllocations()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.SubnetInner.ipamPoolPrefixAllocations()"
-  name: "ipamPoolPrefixAllocations()"
-  nameWithType: "SubnetInner.ipamPoolPrefixAllocations()"
-  summary: "Get the ipam<wbr>Pool<wbr>Prefix<wbr>Allocations property: A list of IPAM Pools for allocating IP address prefixes."
-  syntax: "public List<IpamPoolPrefixAllocation> ipamPoolPrefixAllocations()"
-  desc: "Get the ipamPoolPrefixAllocations property: A list of IPAM Pools for allocating IP address prefixes."
-  returns:
-    description: "the ipamPoolPrefixAllocations value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.IpamPoolPrefixAllocation?alt=com.azure.resourcemanager.network.models.IpamPoolPrefixAllocation&text=IpamPoolPrefixAllocation\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.network.fluent.models.SubnetInner.ipConfigurationProfiles()"
   fullName: "com.azure.resourcemanager.network.fluent.models.SubnetInner.ipConfigurationProfiles()"
   name: "ipConfigurationProfiles()"
@@ -156,6 +146,16 @@ methods:
   returns:
     description: "the ipConfigurations value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.IpConfigurationInner?alt=com.azure.resourcemanager.network.fluent.models.IpConfigurationInner&text=IpConfigurationInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.network.fluent.models.SubnetInner.ipamPoolPrefixAllocations()"
+  fullName: "com.azure.resourcemanager.network.fluent.models.SubnetInner.ipamPoolPrefixAllocations()"
+  name: "ipamPoolPrefixAllocations()"
+  nameWithType: "SubnetInner.ipamPoolPrefixAllocations()"
+  summary: "Get the ipam<wbr>Pool<wbr>Prefix<wbr>Allocations property: A list of IPAM Pools for allocating IP address prefixes."
+  syntax: "public List<IpamPoolPrefixAllocation> ipamPoolPrefixAllocations()"
+  desc: "Get the ipamPoolPrefixAllocations property: A list of IPAM Pools for allocating IP address prefixes."
+  returns:
+    description: "the ipamPoolPrefixAllocations value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.IpamPoolPrefixAllocation?alt=com.azure.resourcemanager.network.models.IpamPoolPrefixAllocation&text=IpamPoolPrefixAllocation\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.network.fluent.models.SubnetInner.name()"
   fullName: "com.azure.resourcemanager.network.fluent.models.SubnetInner.name()"
   name: "name()"

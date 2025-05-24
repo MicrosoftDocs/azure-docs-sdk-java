@@ -284,19 +284,6 @@ methods:
   desc: "Set the isV3Enabled property: Whether this site is enabled for Bot Framework V3 protocol."
   returns:
     type: "<xref href=\"com.azure.resourcemanager.botservice.models.DirectLineSite?alt=com.azure.resourcemanager.botservice.models.DirectLineSite&text=DirectLineSite\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.botservice.models.DirectLineSite.withIsWebchatPreviewEnabled(java.lang.Boolean)"
-  fullName: "com.azure.resourcemanager.botservice.models.DirectLineSite.withIsWebchatPreviewEnabled(Boolean isWebchatPreviewEnabled)"
-  name: "withIsWebchatPreviewEnabled(Boolean isWebchatPreviewEnabled)"
-  nameWithType: "DirectLineSite.withIsWebchatPreviewEnabled(Boolean isWebchatPreviewEnabled)"
-  summary: "Set the is<wbr>Webchat<wbr>Preview<wbr>Enabled property: Whether this site is enabled for preview versions of Webchat."
-  overridden: "com.azure.resourcemanager.botservice.models.Site.withIsWebchatPreviewEnabled(java.lang.Boolean)"
-  parameters:
-  - name: "isWebchatPreviewEnabled"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
-  syntax: "public DirectLineSite withIsWebchatPreviewEnabled(Boolean isWebchatPreviewEnabled)"
-  desc: "Set the isWebchatPreviewEnabled property: Whether this site is enabled for preview versions of Webchat."
-  returns:
-    type: "<xref href=\"com.azure.resourcemanager.botservice.models.DirectLineSite?alt=com.azure.resourcemanager.botservice.models.DirectLineSite&text=DirectLineSite\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.botservice.models.DirectLineSite.withIsWebChatSpeechEnabled(java.lang.Boolean)"
   fullName: "com.azure.resourcemanager.botservice.models.DirectLineSite.withIsWebChatSpeechEnabled(Boolean isWebChatSpeechEnabled)"
   name: "withIsWebChatSpeechEnabled(Boolean isWebChatSpeechEnabled)"
@@ -308,6 +295,19 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
   syntax: "public DirectLineSite withIsWebChatSpeechEnabled(Boolean isWebChatSpeechEnabled)"
   desc: "Set the isWebChatSpeechEnabled property: Whether this site is enabled for Webchat Speech."
+  returns:
+    type: "<xref href=\"com.azure.resourcemanager.botservice.models.DirectLineSite?alt=com.azure.resourcemanager.botservice.models.DirectLineSite&text=DirectLineSite\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.botservice.models.DirectLineSite.withIsWebchatPreviewEnabled(java.lang.Boolean)"
+  fullName: "com.azure.resourcemanager.botservice.models.DirectLineSite.withIsWebchatPreviewEnabled(Boolean isWebchatPreviewEnabled)"
+  name: "withIsWebchatPreviewEnabled(Boolean isWebchatPreviewEnabled)"
+  nameWithType: "DirectLineSite.withIsWebchatPreviewEnabled(Boolean isWebchatPreviewEnabled)"
+  summary: "Set the is<wbr>Webchat<wbr>Preview<wbr>Enabled property: Whether this site is enabled for preview versions of Webchat."
+  overridden: "com.azure.resourcemanager.botservice.models.Site.withIsWebchatPreviewEnabled(java.lang.Boolean)"
+  parameters:
+  - name: "isWebchatPreviewEnabled"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
+  syntax: "public DirectLineSite withIsWebchatPreviewEnabled(Boolean isWebchatPreviewEnabled)"
+  desc: "Set the isWebchatPreviewEnabled property: Whether this site is enabled for preview versions of Webchat."
   returns:
     type: "<xref href=\"com.azure.resourcemanager.botservice.models.DirectLineSite?alt=com.azure.resourcemanager.botservice.models.DirectLineSite&text=DirectLineSite\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.botservice.models.DirectLineSite.withSiteName(java.lang.String)"

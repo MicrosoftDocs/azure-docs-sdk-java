@@ -34,7 +34,7 @@ methods:
   nameWithType: "ProductUpdateParameters.approvalRequired()"
   summary: "Get whether subscription approval is required."
   syntax: "public Boolean approvalRequired()"
-  desc: "Get whether subscription approval is required. If false, new subscriptions will be approved automatically enabling developers to call the product’s APIs immediately after subscribing. If true, administrators must manually approve the subscription before the developer can any of the product’s APIs. Can be present only if subscriptionRequired property is present and has a value of false."
+  desc: "Get whether subscription approval is required. If false, new subscriptions will be approved automatically enabling developers to call the product\\\\u2019s APIs immediately after subscribing. If true, administrators must manually approve the subscription before the developer can any of the product\\\\u2019s APIs. Can be present only if subscriptionRequired property is present and has a value of false."
   returns:
     description: "the approvalRequired value"
     type: "<xref href=\"java.lang.Boolean?alt=java.lang.Boolean&text=Boolean\" data-throw-if-not-resolved=\"False\" />"
@@ -108,7 +108,7 @@ methods:
     name: "approvalRequired"
     type: "<xref href=\"java.lang.Boolean?alt=java.lang.Boolean&text=Boolean\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public ProductUpdateParameters withApprovalRequired(Boolean approvalRequired)"
-  desc: "Set whether subscription approval is required. If false, new subscriptions will be approved automatically enabling developers to call the product’s APIs immediately after subscribing. If true, administrators must manually approve the subscription before the developer can any of the product’s APIs. Can be present only if subscriptionRequired property is present and has a value of false."
+  desc: "Set whether subscription approval is required. If false, new subscriptions will be approved automatically enabling developers to call the product\\\\u2019s APIs immediately after subscribing. If true, administrators must manually approve the subscription before the developer can any of the product\\\\u2019s APIs. Can be present only if subscriptionRequired property is present and has a value of false."
   returns:
     description: "the ProductUpdateParameters object itself."
     type: "<xref href=\"com.microsoft.azure.management.apimanagement.v2019_01_01.ProductUpdateParameters?alt=com.microsoft.azure.management.apimanagement.v2019_01_01.ProductUpdateParameters&text=ProductUpdateParameters\" data-throw-if-not-resolved=\"False\" />"

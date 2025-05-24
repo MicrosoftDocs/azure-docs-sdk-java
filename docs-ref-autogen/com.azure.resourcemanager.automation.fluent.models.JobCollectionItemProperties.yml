@@ -99,16 +99,6 @@ methods:
   returns:
     description: "the provisioningState value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.automation.fluent.models.JobCollectionItemProperties.runbook()"
-  fullName: "com.azure.resourcemanager.automation.fluent.models.JobCollectionItemProperties.runbook()"
-  name: "runbook()"
-  nameWithType: "JobCollectionItemProperties.runbook()"
-  summary: "Get the runbook property: The runbook association."
-  syntax: "public RunbookAssociationProperty runbook()"
-  desc: "Get the runbook property: The runbook association."
-  returns:
-    description: "the runbook value."
-    type: "<xref href=\"com.azure.resourcemanager.automation.models.RunbookAssociationProperty?alt=com.azure.resourcemanager.automation.models.RunbookAssociationProperty&text=RunbookAssociationProperty\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.automation.fluent.models.JobCollectionItemProperties.runOn()"
   fullName: "com.azure.resourcemanager.automation.fluent.models.JobCollectionItemProperties.runOn()"
   name: "runOn()"
@@ -119,6 +109,16 @@ methods:
   returns:
     description: "the runOn value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.automation.fluent.models.JobCollectionItemProperties.runbook()"
+  fullName: "com.azure.resourcemanager.automation.fluent.models.JobCollectionItemProperties.runbook()"
+  name: "runbook()"
+  nameWithType: "JobCollectionItemProperties.runbook()"
+  summary: "Get the runbook property: The runbook association."
+  syntax: "public RunbookAssociationProperty runbook()"
+  desc: "Get the runbook property: The runbook association."
+  returns:
+    description: "the runbook value."
+    type: "<xref href=\"com.azure.resourcemanager.automation.models.RunbookAssociationProperty?alt=com.azure.resourcemanager.automation.models.RunbookAssociationProperty&text=RunbookAssociationProperty\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.automation.fluent.models.JobCollectionItemProperties.startTime()"
   fullName: "com.azure.resourcemanager.automation.fluent.models.JobCollectionItemProperties.startTime()"
   name: "startTime()"

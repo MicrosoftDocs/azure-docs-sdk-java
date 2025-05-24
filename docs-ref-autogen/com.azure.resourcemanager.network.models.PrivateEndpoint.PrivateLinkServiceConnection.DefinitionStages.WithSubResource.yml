@@ -6,18 +6,6 @@ nameWithType: "PrivateEndpoint.PrivateLinkServiceConnection.DefinitionStages.Wit
 summary: "The stage of the definition allowing to specify the sub resource that this private endpoint should connect to."
 syntax: "public static interface **PrivateEndpoint.PrivateLinkServiceConnection.DefinitionStages.WithSubResource<ParentT>**"
 methods:
-- uid: "com.azure.resourcemanager.network.models.PrivateEndpoint.PrivateLinkServiceConnection.DefinitionStages.WithSubResource.withoutSubResource()"
-  fullName: "com.azure.resourcemanager.network.models.PrivateEndpoint.PrivateLinkServiceConnection.DefinitionStages.WithSubResource<ParentT>.withoutSubResource()"
-  name: "withoutSubResource()"
-  nameWithType: "PrivateEndpoint.PrivateLinkServiceConnection.DefinitionStages.WithSubResource<ParentT>.withoutSubResource()"
-  summary: "Specifies no sub resource, used for Private Link service."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract PrivateEndpoint.PrivateLinkServiceConnection.DefinitionStages.WithAttach<ParentT> withoutSubResource()"
-  desc: "Specifies no sub resource, used for Private Link service."
-  returns:
-    description: "the next stage of the definition"
-    type: "<xref href=\"com.azure.resourcemanager.network.models.PrivateEndpoint.PrivateLinkServiceConnection.DefinitionStages.WithAttach?alt=com.azure.resourcemanager.network.models.PrivateEndpoint.PrivateLinkServiceConnection.DefinitionStages.WithAttach&text=WithAttach\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.network.models.PrivateEndpoint.PrivateLinkServiceConnection.DefinitionStages.WithSubResource.withSubResource(com.azure.resourcemanager.network.models.PrivateLinkSubResourceName)"
   fullName: "com.azure.resourcemanager.network.models.PrivateEndpoint.PrivateLinkServiceConnection.DefinitionStages.WithSubResource<ParentT>.withSubResource(PrivateLinkSubResourceName subResourceName)"
   name: "withSubResource(PrivateLinkSubResourceName subResourceName)"
@@ -31,6 +19,18 @@ methods:
     type: "<xref href=\"com.azure.resourcemanager.network.models.PrivateLinkSubResourceName?alt=com.azure.resourcemanager.network.models.PrivateLinkSubResourceName&text=PrivateLinkSubResourceName\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract PrivateEndpoint.PrivateLinkServiceConnection.DefinitionStages.WithAttach<ParentT> withSubResource(PrivateLinkSubResourceName subResourceName)"
   desc: "Specifies the sub resource."
+  returns:
+    description: "the next stage of the definition"
+    type: "<xref href=\"com.azure.resourcemanager.network.models.PrivateEndpoint.PrivateLinkServiceConnection.DefinitionStages.WithAttach?alt=com.azure.resourcemanager.network.models.PrivateEndpoint.PrivateLinkServiceConnection.DefinitionStages.WithAttach&text=WithAttach\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.network.models.PrivateEndpoint.PrivateLinkServiceConnection.DefinitionStages.WithSubResource.withoutSubResource()"
+  fullName: "com.azure.resourcemanager.network.models.PrivateEndpoint.PrivateLinkServiceConnection.DefinitionStages.WithSubResource<ParentT>.withoutSubResource()"
+  name: "withoutSubResource()"
+  nameWithType: "PrivateEndpoint.PrivateLinkServiceConnection.DefinitionStages.WithSubResource<ParentT>.withoutSubResource()"
+  summary: "Specifies no sub resource, used for Private Link service."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract PrivateEndpoint.PrivateLinkServiceConnection.DefinitionStages.WithAttach<ParentT> withoutSubResource()"
+  desc: "Specifies no sub resource, used for Private Link service."
   returns:
     description: "the next stage of the definition"
     type: "<xref href=\"com.azure.resourcemanager.network.models.PrivateEndpoint.PrivateLinkServiceConnection.DefinitionStages.WithAttach?alt=com.azure.resourcemanager.network.models.PrivateEndpoint.PrivateLinkServiceConnection.DefinitionStages.WithAttach&text=WithAttach\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"

@@ -198,6 +198,18 @@ methods:
   returns:
     description: "the ReservationRecommendationsClient object."
     type: "<xref href=\"com.azure.resourcemanager.consumption.fluent.ReservationRecommendationsClient?alt=com.azure.resourcemanager.consumption.fluent.ReservationRecommendationsClient&text=ReservationRecommendationsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.consumption.fluent.ConsumptionManagementClient.getReservationTransactions()"
+  fullName: "com.azure.resourcemanager.consumption.fluent.ConsumptionManagementClient.getReservationTransactions()"
+  name: "getReservationTransactions()"
+  nameWithType: "ConsumptionManagementClient.getReservationTransactions()"
+  summary: "Gets the Reservation<wbr>Transactions<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ReservationTransactionsClient getReservationTransactions()"
+  desc: "Gets the ReservationTransactionsClient object to access its operations."
+  returns:
+    description: "the ReservationTransactionsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.consumption.fluent.ReservationTransactionsClient?alt=com.azure.resourcemanager.consumption.fluent.ReservationTransactionsClient&text=ReservationTransactionsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.consumption.fluent.ConsumptionManagementClient.getReservationsDetails()"
   fullName: "com.azure.resourcemanager.consumption.fluent.ConsumptionManagementClient.getReservationsDetails()"
   name: "getReservationsDetails()"
@@ -222,18 +234,6 @@ methods:
   returns:
     description: "the ReservationsSummariesClient object."
     type: "<xref href=\"com.azure.resourcemanager.consumption.fluent.ReservationsSummariesClient?alt=com.azure.resourcemanager.consumption.fluent.ReservationsSummariesClient&text=ReservationsSummariesClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.consumption.fluent.ConsumptionManagementClient.getReservationTransactions()"
-  fullName: "com.azure.resourcemanager.consumption.fluent.ConsumptionManagementClient.getReservationTransactions()"
-  name: "getReservationTransactions()"
-  nameWithType: "ConsumptionManagementClient.getReservationTransactions()"
-  summary: "Gets the Reservation<wbr>Transactions<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract ReservationTransactionsClient getReservationTransactions()"
-  desc: "Gets the ReservationTransactionsClient object to access its operations."
-  returns:
-    description: "the ReservationTransactionsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.consumption.fluent.ReservationTransactionsClient?alt=com.azure.resourcemanager.consumption.fluent.ReservationTransactionsClient&text=ReservationTransactionsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.consumption.fluent.ConsumptionManagementClient.getSubscriptionId()"
   fullName: "com.azure.resourcemanager.consumption.fluent.ConsumptionManagementClient.getSubscriptionId()"
   name: "getSubscriptionId()"

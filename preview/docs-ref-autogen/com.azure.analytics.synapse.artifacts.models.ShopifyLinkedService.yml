@@ -71,9 +71,9 @@ methods:
   fullName: "com.azure.analytics.synapse.artifacts.models.ShopifyLinkedService.getAccessToken()"
   name: "getAccessToken()"
   nameWithType: "ShopifyLinkedService.getAccessToken()"
-  summary: "Get the access<wbr>Token property: The API access token that can be used to access Shopify’s data."
+  summary: "Get the access<wbr>Token property: The API access token that can be used to access Shopify\\\\u2019s data."
   syntax: "public SecretBase getAccessToken()"
-  desc: "Get the accessToken property: The API access token that can be used to access Shopify’s data. The token won't expire if it is offline mode."
+  desc: "Get the accessToken property: The API access token that can be used to access Shopify\\\\u2019s data. The token won't expire if it is offline mode."
   returns:
     description: "the accessToken value."
     type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.SecretBase?alt=com.azure.analytics.synapse.artifacts.models.SecretBase&text=SecretBase\" data-throw-if-not-resolved=\"False\" />"
@@ -142,13 +142,13 @@ methods:
   fullName: "com.azure.analytics.synapse.artifacts.models.ShopifyLinkedService.setAccessToken(SecretBase accessToken)"
   name: "setAccessToken(SecretBase accessToken)"
   nameWithType: "ShopifyLinkedService.setAccessToken(SecretBase accessToken)"
-  summary: "Set the access<wbr>Token property: The API access token that can be used to access Shopify’s data."
+  summary: "Set the access<wbr>Token property: The API access token that can be used to access Shopify\\\\u2019s data."
   parameters:
   - description: "the accessToken value to set."
     name: "accessToken"
     type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.SecretBase?alt=com.azure.analytics.synapse.artifacts.models.SecretBase&text=SecretBase\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public ShopifyLinkedService setAccessToken(SecretBase accessToken)"
-  desc: "Set the accessToken property: The API access token that can be used to access Shopify’s data. The token won't expire if it is offline mode."
+  desc: "Set the accessToken property: The API access token that can be used to access Shopify\\\\u2019s data. The token won't expire if it is offline mode."
   returns:
     description: "the ShopifyLinkedService object itself."
     type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.ShopifyLinkedService?alt=com.azure.analytics.synapse.artifacts.models.ShopifyLinkedService&text=ShopifyLinkedService\" data-throw-if-not-resolved=\"False\" />"

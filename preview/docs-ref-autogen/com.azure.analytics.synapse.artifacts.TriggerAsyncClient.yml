@@ -166,16 +166,6 @@ methods:
   returns:
     description: "a trigger on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.analytics.synapse.artifacts.models.TriggerResource?alt=com.azure.analytics.synapse.artifacts.models.TriggerResource&text=TriggerResource\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.analytics.synapse.artifacts.TriggerAsyncClient.getTriggersByWorkspace()"
-  fullName: "com.azure.analytics.synapse.artifacts.TriggerAsyncClient.getTriggersByWorkspace()"
-  name: "getTriggersByWorkspace()"
-  nameWithType: "TriggerAsyncClient.getTriggersByWorkspace()"
-  summary: "Lists triggers."
-  syntax: "public PagedFlux<TriggerResource> getTriggersByWorkspace()"
-  desc: "Lists triggers."
-  returns:
-    description: "a list of trigger resources as paginated response with <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
-    type: "<xref href=\"com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.analytics.synapse.artifacts.models.TriggerResource?alt=com.azure.analytics.synapse.artifacts.models.TriggerResource&text=TriggerResource\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.analytics.synapse.artifacts.TriggerAsyncClient.getTriggerWithResponse(java.lang.String,java.lang.String)"
   fullName: "com.azure.analytics.synapse.artifacts.TriggerAsyncClient.getTriggerWithResponse(String triggerName, String ifNoneMatch)"
   name: "getTriggerWithResponse(String triggerName, String ifNoneMatch)"
@@ -193,6 +183,16 @@ methods:
   returns:
     description: "a trigger along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref> on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.analytics.synapse.artifacts.models.TriggerResource?alt=com.azure.analytics.synapse.artifacts.models.TriggerResource&text=TriggerResource\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
+- uid: "com.azure.analytics.synapse.artifacts.TriggerAsyncClient.getTriggersByWorkspace()"
+  fullName: "com.azure.analytics.synapse.artifacts.TriggerAsyncClient.getTriggersByWorkspace()"
+  name: "getTriggersByWorkspace()"
+  nameWithType: "TriggerAsyncClient.getTriggersByWorkspace()"
+  summary: "Lists triggers."
+  syntax: "public PagedFlux<TriggerResource> getTriggersByWorkspace()"
+  desc: "Lists triggers."
+  returns:
+    description: "a list of trigger resources as paginated response with <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
+    type: "<xref href=\"com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.analytics.synapse.artifacts.models.TriggerResource?alt=com.azure.analytics.synapse.artifacts.models.TriggerResource&text=TriggerResource\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.analytics.synapse.artifacts.TriggerAsyncClient.startTrigger(java.lang.String)"
   fullName: "com.azure.analytics.synapse.artifacts.TriggerAsyncClient.startTrigger(String triggerName)"
   name: "startTrigger(String triggerName)"

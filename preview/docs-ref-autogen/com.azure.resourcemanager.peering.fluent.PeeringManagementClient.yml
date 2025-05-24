@@ -114,18 +114,6 @@ methods:
   returns:
     description: "the PeeringLocationsClient object."
     type: "<xref href=\"com.azure.resourcemanager.peering.fluent.PeeringLocationsClient?alt=com.azure.resourcemanager.peering.fluent.PeeringLocationsClient&text=PeeringLocationsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.peering.fluent.PeeringManagementClient.getPeerings()"
-  fullName: "com.azure.resourcemanager.peering.fluent.PeeringManagementClient.getPeerings()"
-  name: "getPeerings()"
-  nameWithType: "PeeringManagementClient.getPeerings()"
-  summary: "Gets the Peerings<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract PeeringsClient getPeerings()"
-  desc: "Gets the PeeringsClient object to access its operations."
-  returns:
-    description: "the PeeringsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.peering.fluent.PeeringsClient?alt=com.azure.resourcemanager.peering.fluent.PeeringsClient&text=PeeringsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.peering.fluent.PeeringManagementClient.getPeeringServiceCountries()"
   fullName: "com.azure.resourcemanager.peering.fluent.PeeringManagementClient.getPeeringServiceCountries()"
   name: "getPeeringServiceCountries()"
@@ -174,6 +162,18 @@ methods:
   returns:
     description: "the PeeringServicesClient object."
     type: "<xref href=\"com.azure.resourcemanager.peering.fluent.PeeringServicesClient?alt=com.azure.resourcemanager.peering.fluent.PeeringServicesClient&text=PeeringServicesClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.peering.fluent.PeeringManagementClient.getPeerings()"
+  fullName: "com.azure.resourcemanager.peering.fluent.PeeringManagementClient.getPeerings()"
+  name: "getPeerings()"
+  nameWithType: "PeeringManagementClient.getPeerings()"
+  summary: "Gets the Peerings<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract PeeringsClient getPeerings()"
+  desc: "Gets the PeeringsClient object to access its operations."
+  returns:
+    description: "the PeeringsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.peering.fluent.PeeringsClient?alt=com.azure.resourcemanager.peering.fluent.PeeringsClient&text=PeeringsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.peering.fluent.PeeringManagementClient.getPrefixes()"
   fullName: "com.azure.resourcemanager.peering.fluent.PeeringManagementClient.getPrefixes()"
   name: "getPrefixes()"

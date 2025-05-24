@@ -189,6 +189,19 @@ methods:
   returns:
     description: "the SalesforceMarketingCloudLinkedService object itself."
     type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.SalesforceMarketingCloudLinkedService?alt=com.azure.analytics.synapse.artifacts.models.SalesforceMarketingCloudLinkedService&text=SalesforceMarketingCloudLinkedService\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.analytics.synapse.artifacts.models.SalesforceMarketingCloudLinkedService.setConnectVia(com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference)"
+  fullName: "com.azure.analytics.synapse.artifacts.models.SalesforceMarketingCloudLinkedService.setConnectVia(IntegrationRuntimeReference connectVia)"
+  name: "setConnectVia(IntegrationRuntimeReference connectVia)"
+  nameWithType: "SalesforceMarketingCloudLinkedService.setConnectVia(IntegrationRuntimeReference connectVia)"
+  summary: "Set the connect<wbr>Via property: The integration runtime reference."
+  overridden: "com.azure.analytics.synapse.artifacts.models.LinkedService.setConnectVia(com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference)"
+  parameters:
+  - name: "connectVia"
+    type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference?alt=com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference&text=IntegrationRuntimeReference\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public SalesforceMarketingCloudLinkedService setConnectVia(IntegrationRuntimeReference connectVia)"
+  desc: "Set the connectVia property: The integration runtime reference."
+  returns:
+    type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.SalesforceMarketingCloudLinkedService?alt=com.azure.analytics.synapse.artifacts.models.SalesforceMarketingCloudLinkedService&text=SalesforceMarketingCloudLinkedService\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.analytics.synapse.artifacts.models.SalesforceMarketingCloudLinkedService.setConnectionProperties(java.lang.Object)"
   fullName: "com.azure.analytics.synapse.artifacts.models.SalesforceMarketingCloudLinkedService.setConnectionProperties(Object connectionProperties)"
   name: "setConnectionProperties(Object connectionProperties)"
@@ -202,19 +215,6 @@ methods:
   desc: "Set the connectionProperties property: Properties used to connect to Salesforce Marketing Cloud. It is mutually exclusive with any other properties in the linked service. Type: object."
   returns:
     description: "the SalesforceMarketingCloudLinkedService object itself."
-    type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.SalesforceMarketingCloudLinkedService?alt=com.azure.analytics.synapse.artifacts.models.SalesforceMarketingCloudLinkedService&text=SalesforceMarketingCloudLinkedService\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.analytics.synapse.artifacts.models.SalesforceMarketingCloudLinkedService.setConnectVia(com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference)"
-  fullName: "com.azure.analytics.synapse.artifacts.models.SalesforceMarketingCloudLinkedService.setConnectVia(IntegrationRuntimeReference connectVia)"
-  name: "setConnectVia(IntegrationRuntimeReference connectVia)"
-  nameWithType: "SalesforceMarketingCloudLinkedService.setConnectVia(IntegrationRuntimeReference connectVia)"
-  summary: "Set the connect<wbr>Via property: The integration runtime reference."
-  overridden: "com.azure.analytics.synapse.artifacts.models.LinkedService.setConnectVia(com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference)"
-  parameters:
-  - name: "connectVia"
-    type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference?alt=com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference&text=IntegrationRuntimeReference\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public SalesforceMarketingCloudLinkedService setConnectVia(IntegrationRuntimeReference connectVia)"
-  desc: "Set the connectVia property: The integration runtime reference."
-  returns:
     type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.SalesforceMarketingCloudLinkedService?alt=com.azure.analytics.synapse.artifacts.models.SalesforceMarketingCloudLinkedService&text=SalesforceMarketingCloudLinkedService\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.analytics.synapse.artifacts.models.SalesforceMarketingCloudLinkedService.setDescription(java.lang.String)"
   fullName: "com.azure.analytics.synapse.artifacts.models.SalesforceMarketingCloudLinkedService.setDescription(String description)"

@@ -34,7 +34,7 @@ methods:
   nameWithType: "Display.description()"
   summary: "Get gets or sets the description."
   syntax: "public String description()"
-  desc: "Get gets or sets the description. The localized friendly description for the operation, as it should be shown to the user. It should be thorough, yet concise – it will be used in tool tips and detailed views. Prescriptive guidance for namespace: Read any 'display.provider' resource Create or Update any 'display.provider' resource Delete any 'display.provider' resource Perform any other action on any 'display.provider' resource Prescriptive guidance for namespace: Read any 'display.resource' Create or Update any 'display.resource' Delete any 'display.resource' 'ActionName' any 'display.resources'."
+  desc: "Get gets or sets the description. The localized friendly description for the operation, as it should be shown to the user. It should be thorough, yet concise \\\\u2013 it will be used in tool tips and detailed views. Prescriptive guidance for namespace: Read any 'display.provider' resource Create or Update any 'display.provider' resource Delete any 'display.provider' resource Perform any other action on any 'display.provider' resource Prescriptive guidance for namespace: Read any 'display.resource' Create or Update any 'display.resource' Delete any 'display.resource' 'ActionName' any 'display.resources'."
   returns:
     description: "the description value"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
@@ -54,7 +54,7 @@ methods:
   nameWithType: "Display.provider()"
   summary: "Get gets or sets the provider."
   syntax: "public String provider()"
-  desc: "Get gets or sets the provider. The localized friendly form of the resource provider name – it is expected to also include the publisher/company responsible. It should use Title Casing and begin with \"Microsoft\" for 1st party services. e.g. \"Microsoft Monitoring Insights\" or \"Microsoft Compute.\"."
+  desc: "Get gets or sets the provider. The localized friendly form of the resource provider name \\\\u2013 it is expected to also include the publisher/company responsible. It should use Title Casing and begin with \"Microsoft\" for 1st party services. e.g. \"Microsoft Monitoring Insights\" or \"Microsoft Compute.\"."
   returns:
     description: "the provider value"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
@@ -64,7 +64,7 @@ methods:
   nameWithType: "Display.resource()"
   summary: "Get gets or sets the resource."
   syntax: "public String resource()"
-  desc: "Get gets or sets the resource. The localized friendly form of the resource related to this action/operation – it should match the public documentation for the resource provider. It should use Title Casing. This value should be unique for a particular URL type (e.g. nested types should \\*not\\* reuse their parent’s display.resource field) e.g. \"Virtual Machines\" or \"Scheduler Job Collections\", or \"Virtual Machine VM Sizes\" or \"Scheduler Jobs\"."
+  desc: "Get gets or sets the resource. The localized friendly form of the resource related to this action/operation \\\\u2013 it should match the public documentation for the resource provider. It should use Title Casing. This value should be unique for a particular URL type (e.g. nested types should \\*not\\* reuse their parent\\\\u2019s display.resource field) e.g. \"Virtual Machines\" or \"Scheduler Job Collections\", or \"Virtual Machine VM Sizes\" or \"Scheduler Jobs\"."
   returns:
     description: "the resource value"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
@@ -78,7 +78,7 @@ methods:
     name: "description"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public Display withDescription(String description)"
-  desc: "Set gets or sets the description. The localized friendly description for the operation, as it should be shown to the user. It should be thorough, yet concise – it will be used in tool tips and detailed views. Prescriptive guidance for namespace: Read any 'display.provider' resource Create or Update any 'display.provider' resource Delete any 'display.provider' resource Perform any other action on any 'display.provider' resource Prescriptive guidance for namespace: Read any 'display.resource' Create or Update any 'display.resource' Delete any 'display.resource' 'ActionName' any 'display.resources'."
+  desc: "Set gets or sets the description. The localized friendly description for the operation, as it should be shown to the user. It should be thorough, yet concise \\\\u2013 it will be used in tool tips and detailed views. Prescriptive guidance for namespace: Read any 'display.provider' resource Create or Update any 'display.provider' resource Delete any 'display.provider' resource Perform any other action on any 'display.provider' resource Prescriptive guidance for namespace: Read any 'display.resource' Create or Update any 'display.resource' Delete any 'display.resource' 'ActionName' any 'display.resources'."
   returns:
     description: "the Display object itself."
     type: "<xref href=\"com.microsoft.azure.management.resourcemover.v2021_01_01.Display?alt=com.microsoft.azure.management.resourcemover.v2021_01_01.Display&text=Display\" data-throw-if-not-resolved=\"False\" />"
@@ -106,7 +106,7 @@ methods:
     name: "provider"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public Display withProvider(String provider)"
-  desc: "Set gets or sets the provider. The localized friendly form of the resource provider name – it is expected to also include the publisher/company responsible. It should use Title Casing and begin with \"Microsoft\" for 1st party services. e.g. \"Microsoft Monitoring Insights\" or \"Microsoft Compute.\"."
+  desc: "Set gets or sets the provider. The localized friendly form of the resource provider name \\\\u2013 it is expected to also include the publisher/company responsible. It should use Title Casing and begin with \"Microsoft\" for 1st party services. e.g. \"Microsoft Monitoring Insights\" or \"Microsoft Compute.\"."
   returns:
     description: "the Display object itself."
     type: "<xref href=\"com.microsoft.azure.management.resourcemover.v2021_01_01.Display?alt=com.microsoft.azure.management.resourcemover.v2021_01_01.Display&text=Display\" data-throw-if-not-resolved=\"False\" />"
@@ -120,7 +120,7 @@ methods:
     name: "resource"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public Display withResource(String resource)"
-  desc: "Set gets or sets the resource. The localized friendly form of the resource related to this action/operation – it should match the public documentation for the resource provider. It should use Title Casing. This value should be unique for a particular URL type (e.g. nested types should \\*not\\* reuse their parent’s display.resource field) e.g. \"Virtual Machines\" or \"Scheduler Job Collections\", or \"Virtual Machine VM Sizes\" or \"Scheduler Jobs\"."
+  desc: "Set gets or sets the resource. The localized friendly form of the resource related to this action/operation \\\\u2013 it should match the public documentation for the resource provider. It should use Title Casing. This value should be unique for a particular URL type (e.g. nested types should \\*not\\* reuse their parent\\\\u2019s display.resource field) e.g. \"Virtual Machines\" or \"Scheduler Job Collections\", or \"Virtual Machine VM Sizes\" or \"Scheduler Jobs\"."
   returns:
     description: "the Display object itself."
     type: "<xref href=\"com.microsoft.azure.management.resourcemover.v2021_01_01.Display?alt=com.microsoft.azure.management.resourcemover.v2021_01_01.Display&text=Display\" data-throw-if-not-resolved=\"False\" />"

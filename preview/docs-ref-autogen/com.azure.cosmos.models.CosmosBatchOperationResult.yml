@@ -22,16 +22,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **CosmosBatchOperationResult**"
 methods:
-- uid: "com.azure.cosmos.models.CosmosBatchOperationResult.getETag()"
-  fullName: "com.azure.cosmos.models.CosmosBatchOperationResult.getETag()"
-  name: "getETag()"
-  nameWithType: "CosmosBatchOperationResult.getETag()"
-  summary: "Gets the entity tag associated with the current item."
-  syntax: "public String getETag()"
-  desc: "Gets the entity tag associated with the current item. ETags are used for concurrency checking when updating resources."
-  returns:
-    description: "Entity tag associated with the current item."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.cosmos.models.CosmosBatchOperationResult.<T>getItem(java.lang.Class<T>)"
   fullName: "com.azure.cosmos.models.CosmosBatchOperationResult.getItem(Class<T> type)"
   name: "getItem(Class<T> type)"
@@ -46,6 +36,16 @@ methods:
   returns:
     description: "item associated with the current result."
     type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.cosmos.models.CosmosBatchOperationResult.getETag()"
+  fullName: "com.azure.cosmos.models.CosmosBatchOperationResult.getETag()"
+  name: "getETag()"
+  nameWithType: "CosmosBatchOperationResult.getETag()"
+  summary: "Gets the entity tag associated with the current item."
+  syntax: "public String getETag()"
+  desc: "Gets the entity tag associated with the current item. ETags are used for concurrency checking when updating resources."
+  returns:
+    description: "Entity tag associated with the current item."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.cosmos.models.CosmosBatchOperationResult.getOperation()"
   fullName: "com.azure.cosmos.models.CosmosBatchOperationResult.getOperation()"
   name: "getOperation()"

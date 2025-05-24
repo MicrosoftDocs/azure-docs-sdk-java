@@ -102,18 +102,6 @@ methods:
   returns:
     description: "the creditForDocumentId value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.billing.models.Invoice.documents()"
-  fullName: "com.azure.resourcemanager.billing.models.Invoice.documents()"
-  name: "documents()"
-  nameWithType: "Invoice.documents()"
-  summary: "Gets the documents property: List of documents available to download such as invoice and tax receipt."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract List<Document> documents()"
-  desc: "Gets the documents property: List of documents available to download such as invoice and tax receipt."
-  returns:
-    description: "the documents value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.billing.models.Document?alt=com.azure.resourcemanager.billing.models.Document&text=Document\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.billing.models.Invoice.documentType()"
   fullName: "com.azure.resourcemanager.billing.models.Invoice.documentType()"
   name: "documentType()"
@@ -126,6 +114,18 @@ methods:
   returns:
     description: "the documentType value."
     type: "<xref href=\"com.azure.resourcemanager.billing.models.InvoiceDocumentType?alt=com.azure.resourcemanager.billing.models.InvoiceDocumentType&text=InvoiceDocumentType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.billing.models.Invoice.documents()"
+  fullName: "com.azure.resourcemanager.billing.models.Invoice.documents()"
+  name: "documents()"
+  nameWithType: "Invoice.documents()"
+  summary: "Gets the documents property: List of documents available to download such as invoice and tax receipt."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract List<Document> documents()"
+  desc: "Gets the documents property: List of documents available to download such as invoice and tax receipt."
+  returns:
+    description: "the documents value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.billing.models.Document?alt=com.azure.resourcemanager.billing.models.Document&text=Document\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.billing.models.Invoice.dueDate()"
   fullName: "com.azure.resourcemanager.billing.models.Invoice.dueDate()"
   name: "dueDate()"
@@ -294,18 +294,6 @@ methods:
   returns:
     description: "the status value."
     type: "<xref href=\"com.azure.resourcemanager.billing.models.InvoiceStatus?alt=com.azure.resourcemanager.billing.models.InvoiceStatus&text=InvoiceStatus\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.billing.models.Invoice.subscriptionId()"
-  fullName: "com.azure.resourcemanager.billing.models.Invoice.subscriptionId()"
-  name: "subscriptionId()"
-  nameWithType: "Invoice.subscriptionId()"
-  summary: "Gets the subscription<wbr>Id property: The ID of the subscription for which the invoice is generated."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract String subscriptionId()"
-  desc: "Gets the subscriptionId property: The ID of the subscription for which the invoice is generated."
-  returns:
-    description: "the subscriptionId value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.billing.models.Invoice.subTotal()"
   fullName: "com.azure.resourcemanager.billing.models.Invoice.subTotal()"
   name: "subTotal()"
@@ -318,6 +306,18 @@ methods:
   returns:
     description: "the subTotal value."
     type: "<xref href=\"com.azure.resourcemanager.billing.models.Amount?alt=com.azure.resourcemanager.billing.models.Amount&text=Amount\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.billing.models.Invoice.subscriptionId()"
+  fullName: "com.azure.resourcemanager.billing.models.Invoice.subscriptionId()"
+  name: "subscriptionId()"
+  nameWithType: "Invoice.subscriptionId()"
+  summary: "Gets the subscription<wbr>Id property: The ID of the subscription for which the invoice is generated."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String subscriptionId()"
+  desc: "Gets the subscriptionId property: The ID of the subscription for which the invoice is generated."
+  returns:
+    description: "the subscriptionId value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.billing.models.Invoice.taxAmount()"
   fullName: "com.azure.resourcemanager.billing.models.Invoice.taxAmount()"
   name: "taxAmount()"

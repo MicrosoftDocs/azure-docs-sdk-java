@@ -385,6 +385,20 @@ methods:
   returns:
     description: "JsonElement with the Twin information."
     type: "<xref href=\"com.google.gson.JsonElement?alt=com.google.gson.JsonElement&text=JsonElement\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.azure.sdk.iot.deps.serializer.TwinParser.updateDesiredProperty(java.lang.String)"
+  fullName: "com.microsoft.azure.sdk.iot.deps.serializer.TwinParser.updateDesiredProperty(String json)"
+  name: "updateDesiredProperty(String json)"
+  nameWithType: "TwinParser.updateDesiredProperty(String json)"
+  summary: "Update the \\`desired\\` properties information in the collection, using the information parsed from the provided json."
+  parameters:
+  - description: "- Json with `desired` property to change the collection."
+    name: "json"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public void updateDesiredProperty(String json)"
+  exceptions:
+  - description: "This exception is thrown if the Json is not well formed."
+    type: "<xref href=\"java.lang.IllegalArgumentException?alt=java.lang.IllegalArgumentException&text=IllegalArgumentException\" data-throw-if-not-resolved=\"False\" />"
+  desc: "Update the \\`desired\\` properties information in the collection, using the information parsed from the provided json. It will fire a callback if any property was added, excluded, or had its value updated."
 - uid: "com.microsoft.azure.sdk.iot.deps.serializer.TwinParser.updateDesiredProperty(java.util.Map<java.lang.String,java.lang.Object>)"
   fullName: "com.microsoft.azure.sdk.iot.deps.serializer.TwinParser.updateDesiredProperty(Map<String,Object> propertyMap)"
   name: "updateDesiredProperty(Map<String,Object> propertyMap)"
@@ -402,20 +416,6 @@ methods:
   returns:
     description: "Json with added or changed properties"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.azure.sdk.iot.deps.serializer.TwinParser.updateDesiredProperty(java.lang.String)"
-  fullName: "com.microsoft.azure.sdk.iot.deps.serializer.TwinParser.updateDesiredProperty(String json)"
-  name: "updateDesiredProperty(String json)"
-  nameWithType: "TwinParser.updateDesiredProperty(String json)"
-  summary: "Update the \\`desired\\` properties information in the collection, using the information parsed from the provided json."
-  parameters:
-  - description: "- Json with `desired` property to change the collection."
-    name: "json"
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public void updateDesiredProperty(String json)"
-  exceptions:
-  - description: "This exception is thrown if the Json is not well formed."
-    type: "<xref href=\"java.lang.IllegalArgumentException?alt=java.lang.IllegalArgumentException&text=IllegalArgumentException\" data-throw-if-not-resolved=\"False\" />"
-  desc: "Update the \\`desired\\` properties information in the collection, using the information parsed from the provided json. It will fire a callback if any property was added, excluded, or had its value updated."
 - uid: "com.microsoft.azure.sdk.iot.deps.serializer.TwinParser.updateDeviceManager(java.lang.String,com.microsoft.azure.sdk.iot.deps.serializer.TwinStatus,java.lang.String)"
   fullName: "com.microsoft.azure.sdk.iot.deps.serializer.TwinParser.updateDeviceManager(String deviceId, TwinStatus status, String statusReason)"
   name: "updateDeviceManager(String deviceId, TwinStatus status, String statusReason)"
@@ -439,6 +439,20 @@ methods:
   returns:
     description: "Json with the manager description. Null if nothing change."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.azure.sdk.iot.deps.serializer.TwinParser.updateReportedProperty(java.lang.String)"
+  fullName: "com.microsoft.azure.sdk.iot.deps.serializer.TwinParser.updateReportedProperty(String json)"
+  name: "updateReportedProperty(String json)"
+  nameWithType: "TwinParser.updateReportedProperty(String json)"
+  summary: "Update the \\`reported\\` properties information in the collection, using the information parsed from the provided json."
+  parameters:
+  - description: "- Json with `reported` property to change the collection."
+    name: "json"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public void updateReportedProperty(String json)"
+  exceptions:
+  - description: "This exception is thrown if the Json is not well formed."
+    type: "<xref href=\"java.lang.IllegalArgumentException?alt=java.lang.IllegalArgumentException&text=IllegalArgumentException\" data-throw-if-not-resolved=\"False\" />"
+  desc: "Update the \\`reported\\` properties information in the collection, using the information parsed from the provided json. It will fire a callback if any property was added, excluded, or had its value updated."
 - uid: "com.microsoft.azure.sdk.iot.deps.serializer.TwinParser.updateReportedProperty(java.util.Map<java.lang.String,java.lang.Object>)"
   fullName: "com.microsoft.azure.sdk.iot.deps.serializer.TwinParser.updateReportedProperty(Map<String,Object> propertyMap)"
   name: "updateReportedProperty(Map<String,Object> propertyMap)"
@@ -456,20 +470,6 @@ methods:
   returns:
     description: "Json with added or changed properties"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.azure.sdk.iot.deps.serializer.TwinParser.updateReportedProperty(java.lang.String)"
-  fullName: "com.microsoft.azure.sdk.iot.deps.serializer.TwinParser.updateReportedProperty(String json)"
-  name: "updateReportedProperty(String json)"
-  nameWithType: "TwinParser.updateReportedProperty(String json)"
-  summary: "Update the \\`reported\\` properties information in the collection, using the information parsed from the provided json."
-  parameters:
-  - description: "- Json with `reported` property to change the collection."
-    name: "json"
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public void updateReportedProperty(String json)"
-  exceptions:
-  - description: "This exception is thrown if the Json is not well formed."
-    type: "<xref href=\"java.lang.IllegalArgumentException?alt=java.lang.IllegalArgumentException&text=IllegalArgumentException\" data-throw-if-not-resolved=\"False\" />"
-  desc: "Update the \\`reported\\` properties information in the collection, using the information parsed from the provided json. It will fire a callback if any property was added, excluded, or had its value updated."
 - uid: "com.microsoft.azure.sdk.iot.deps.serializer.TwinParser.updateTags(java.util.Map<java.lang.String,java.lang.Object>)"
   fullName: "com.microsoft.azure.sdk.iot.deps.serializer.TwinParser.updateTags(Map<String,Object> tagsMap)"
   name: "updateTags(Map<String,Object> tagsMap)"
@@ -489,6 +489,20 @@ methods:
   returns:
     description: "Json with added or changed tags"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.azure.sdk.iot.deps.serializer.TwinParser.updateTwin(java.lang.String)"
+  fullName: "com.microsoft.azure.sdk.iot.deps.serializer.TwinParser.updateTwin(String json)"
+  name: "updateTwin(String json)"
+  nameWithType: "TwinParser.updateTwin(String json)"
+  summary: "Update the properties information in the collection, using the information parsed from the provided json."
+  parameters:
+  - description: "- Json with property to change the collection."
+    name: "json"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public void updateTwin(String json)"
+  exceptions:
+  - description: "This exception is thrown if the Json is not well formed."
+    type: "<xref href=\"java.lang.IllegalArgumentException?alt=java.lang.IllegalArgumentException&text=IllegalArgumentException\" data-throw-if-not-resolved=\"False\" />"
+  desc: "Update the properties information in the collection, using the information parsed from the provided json. It will fire a callback if any property was added, excluded, or had its value updated."
 - uid: "com.microsoft.azure.sdk.iot.deps.serializer.TwinParser.updateTwin(java.util.Map<java.lang.String,java.lang.Object>,java.util.Map<java.lang.String,java.lang.Object>,java.util.Map<java.lang.String,java.lang.Object>)"
   fullName: "com.microsoft.azure.sdk.iot.deps.serializer.TwinParser.updateTwin(Map<String,Object> desiredPropertyMap, Map<String,Object> reportedPropertyMap, Map<String,Object> tagsMap)"
   name: "updateTwin(Map<String,Object> desiredPropertyMap, Map<String,Object> reportedPropertyMap, Map<String,Object> tagsMap)"
@@ -514,20 +528,6 @@ methods:
   returns:
     description: "Json with added or changed properties and tags"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.azure.sdk.iot.deps.serializer.TwinParser.updateTwin(java.lang.String)"
-  fullName: "com.microsoft.azure.sdk.iot.deps.serializer.TwinParser.updateTwin(String json)"
-  name: "updateTwin(String json)"
-  nameWithType: "TwinParser.updateTwin(String json)"
-  summary: "Update the properties information in the collection, using the information parsed from the provided json."
-  parameters:
-  - description: "- Json with property to change the collection."
-    name: "json"
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public void updateTwin(String json)"
-  exceptions:
-  - description: "This exception is thrown if the Json is not well formed."
-    type: "<xref href=\"java.lang.IllegalArgumentException?alt=java.lang.IllegalArgumentException&text=IllegalArgumentException\" data-throw-if-not-resolved=\"False\" />"
-  desc: "Update the properties information in the collection, using the information parsed from the provided json. It will fire a callback if any property was added, excluded, or had its value updated."
 type: "class"
 desc: "TwinParser Representation including the twin collection and Json serializer and deserializer."
 hasDeprecatedTag: true

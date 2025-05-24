@@ -106,22 +106,6 @@ methods:
   returns:
     description: "the next stage of access policy definition"
     type: "<xref href=\"com.azure.resourcemanager.keyvault.models.AccessPolicy.Update?alt=com.azure.resourcemanager.keyvault.models.AccessPolicy.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.keyvault.models.AccessPolicy.UpdateStages.WithPermissions.allowSecretPermissions(java.util.List<com.azure.resourcemanager.keyvault.models.SecretPermissions>)"
-  fullName: "com.azure.resourcemanager.keyvault.models.AccessPolicy.UpdateStages.WithPermissions.allowSecretPermissions(List<SecretPermissions> permissions)"
-  name: "allowSecretPermissions(List<SecretPermissions> permissions)"
-  nameWithType: "AccessPolicy.UpdateStages.WithPermissions.allowSecretPermissions(List<SecretPermissions> permissions)"
-  summary: "Allow a list of permissions for the AD identity to access secrets."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "the list of permissions allowed"
-    name: "permissions"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.keyvault.models.SecretPermissions?alt=com.azure.resourcemanager.keyvault.models.SecretPermissions&text=SecretPermissions\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public abstract AccessPolicy.Update allowSecretPermissions(List<SecretPermissions> permissions)"
-  desc: "Allow a list of permissions for the AD identity to access secrets."
-  returns:
-    description: "the next stage of access policy definition"
-    type: "<xref href=\"com.azure.resourcemanager.keyvault.models.AccessPolicy.Update?alt=com.azure.resourcemanager.keyvault.models.AccessPolicy.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.keyvault.models.AccessPolicy.UpdateStages.WithPermissions.allowSecretPermissions(com.azure.resourcemanager.keyvault.models.SecretPermissions...)"
   fullName: "com.azure.resourcemanager.keyvault.models.AccessPolicy.UpdateStages.WithPermissions.allowSecretPermissions(SecretPermissions[] permissions)"
   name: "allowSecretPermissions(SecretPermissions[] permissions)"
@@ -138,6 +122,22 @@ methods:
   returns:
     description: "the next stage of access policy definition"
     type: "<xref href=\"com.azure.resourcemanager.keyvault.models.AccessPolicy.Update?alt=com.azure.resourcemanager.keyvault.models.AccessPolicy.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.keyvault.models.AccessPolicy.UpdateStages.WithPermissions.allowSecretPermissions(java.util.List<com.azure.resourcemanager.keyvault.models.SecretPermissions>)"
+  fullName: "com.azure.resourcemanager.keyvault.models.AccessPolicy.UpdateStages.WithPermissions.allowSecretPermissions(List<SecretPermissions> permissions)"
+  name: "allowSecretPermissions(List<SecretPermissions> permissions)"
+  nameWithType: "AccessPolicy.UpdateStages.WithPermissions.allowSecretPermissions(List<SecretPermissions> permissions)"
+  summary: "Allow a list of permissions for the AD identity to access secrets."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "the list of permissions allowed"
+    name: "permissions"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.keyvault.models.SecretPermissions?alt=com.azure.resourcemanager.keyvault.models.SecretPermissions&text=SecretPermissions\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public abstract AccessPolicy.Update allowSecretPermissions(List<SecretPermissions> permissions)"
+  desc: "Allow a list of permissions for the AD identity to access secrets."
+  returns:
+    description: "the next stage of access policy definition"
+    type: "<xref href=\"com.azure.resourcemanager.keyvault.models.AccessPolicy.Update?alt=com.azure.resourcemanager.keyvault.models.AccessPolicy.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.keyvault.models.AccessPolicy.UpdateStages.WithPermissions.allowStorageAllPermissions()"
   fullName: "com.azure.resourcemanager.keyvault.models.AccessPolicy.UpdateStages.WithPermissions.allowStorageAllPermissions()"
   name: "allowStorageAllPermissions()"
@@ -147,22 +147,6 @@ methods:
   - "abstract"
   syntax: "public abstract AccessPolicy.Update allowStorageAllPermissions()"
   desc: "Allow all permissions for the Ad identity to access storage."
-  returns:
-    description: "the next stage of access policy definition"
-    type: "<xref href=\"com.azure.resourcemanager.keyvault.models.AccessPolicy.Update?alt=com.azure.resourcemanager.keyvault.models.AccessPolicy.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.keyvault.models.AccessPolicy.UpdateStages.WithPermissions.allowStoragePermissions(java.util.List<com.azure.resourcemanager.keyvault.models.StoragePermissions>)"
-  fullName: "com.azure.resourcemanager.keyvault.models.AccessPolicy.UpdateStages.WithPermissions.allowStoragePermissions(List<StoragePermissions> permissions)"
-  name: "allowStoragePermissions(List<StoragePermissions> permissions)"
-  nameWithType: "AccessPolicy.UpdateStages.WithPermissions.allowStoragePermissions(List<StoragePermissions> permissions)"
-  summary: "Allow a list of permissions for the AD identity to access storage."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "the list of permissions allowed"
-    name: "permissions"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.keyvault.models.StoragePermissions?alt=com.azure.resourcemanager.keyvault.models.StoragePermissions&text=StoragePermissions\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public abstract AccessPolicy.Update allowStoragePermissions(List<StoragePermissions> permissions)"
-  desc: "Allow a list of permissions for the AD identity to access storage."
   returns:
     description: "the next stage of access policy definition"
     type: "<xref href=\"com.azure.resourcemanager.keyvault.models.AccessPolicy.Update?alt=com.azure.resourcemanager.keyvault.models.AccessPolicy.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
@@ -178,6 +162,22 @@ methods:
     name: "permissions"
     type: "<xref href=\"com.azure.resourcemanager.keyvault.models.StoragePermissions?alt=com.azure.resourcemanager.keyvault.models.StoragePermissions&text=StoragePermissions\" data-throw-if-not-resolved=\"False\" />[]"
   syntax: "public abstract AccessPolicy.Update allowStoragePermissions(StoragePermissions[] permissions)"
+  desc: "Allow a list of permissions for the AD identity to access storage."
+  returns:
+    description: "the next stage of access policy definition"
+    type: "<xref href=\"com.azure.resourcemanager.keyvault.models.AccessPolicy.Update?alt=com.azure.resourcemanager.keyvault.models.AccessPolicy.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.keyvault.models.AccessPolicy.UpdateStages.WithPermissions.allowStoragePermissions(java.util.List<com.azure.resourcemanager.keyvault.models.StoragePermissions>)"
+  fullName: "com.azure.resourcemanager.keyvault.models.AccessPolicy.UpdateStages.WithPermissions.allowStoragePermissions(List<StoragePermissions> permissions)"
+  name: "allowStoragePermissions(List<StoragePermissions> permissions)"
+  nameWithType: "AccessPolicy.UpdateStages.WithPermissions.allowStoragePermissions(List<StoragePermissions> permissions)"
+  summary: "Allow a list of permissions for the AD identity to access storage."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "the list of permissions allowed"
+    name: "permissions"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.keyvault.models.StoragePermissions?alt=com.azure.resourcemanager.keyvault.models.StoragePermissions&text=StoragePermissions\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public abstract AccessPolicy.Update allowStoragePermissions(List<StoragePermissions> permissions)"
   desc: "Allow a list of permissions for the AD identity to access storage."
   returns:
     description: "the next stage of access policy definition"
@@ -282,22 +282,6 @@ methods:
   returns:
     description: "the next stage of access policy update"
     type: "<xref href=\"com.azure.resourcemanager.keyvault.models.AccessPolicy.Update?alt=com.azure.resourcemanager.keyvault.models.AccessPolicy.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.keyvault.models.AccessPolicy.UpdateStages.WithPermissions.disallowSecretPermissions(java.util.List<com.azure.resourcemanager.keyvault.models.SecretPermissions>)"
-  fullName: "com.azure.resourcemanager.keyvault.models.AccessPolicy.UpdateStages.WithPermissions.disallowSecretPermissions(List<SecretPermissions> permissions)"
-  name: "disallowSecretPermissions(List<SecretPermissions> permissions)"
-  nameWithType: "AccessPolicy.UpdateStages.WithPermissions.disallowSecretPermissions(List<SecretPermissions> permissions)"
-  summary: "Revoke a list of permissions for the AD identity to access secrets."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "the list of permissions to revoke"
-    name: "permissions"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.keyvault.models.SecretPermissions?alt=com.azure.resourcemanager.keyvault.models.SecretPermissions&text=SecretPermissions\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public abstract AccessPolicy.Update disallowSecretPermissions(List<SecretPermissions> permissions)"
-  desc: "Revoke a list of permissions for the AD identity to access secrets."
-  returns:
-    description: "the next stage of access policy update"
-    type: "<xref href=\"com.azure.resourcemanager.keyvault.models.AccessPolicy.Update?alt=com.azure.resourcemanager.keyvault.models.AccessPolicy.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.keyvault.models.AccessPolicy.UpdateStages.WithPermissions.disallowSecretPermissions(com.azure.resourcemanager.keyvault.models.SecretPermissions...)"
   fullName: "com.azure.resourcemanager.keyvault.models.AccessPolicy.UpdateStages.WithPermissions.disallowSecretPermissions(SecretPermissions[] permissions)"
   name: "disallowSecretPermissions(SecretPermissions[] permissions)"
@@ -314,6 +298,22 @@ methods:
   returns:
     description: "the next stage of access policy update"
     type: "<xref href=\"com.azure.resourcemanager.keyvault.models.AccessPolicy.Update?alt=com.azure.resourcemanager.keyvault.models.AccessPolicy.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.keyvault.models.AccessPolicy.UpdateStages.WithPermissions.disallowSecretPermissions(java.util.List<com.azure.resourcemanager.keyvault.models.SecretPermissions>)"
+  fullName: "com.azure.resourcemanager.keyvault.models.AccessPolicy.UpdateStages.WithPermissions.disallowSecretPermissions(List<SecretPermissions> permissions)"
+  name: "disallowSecretPermissions(List<SecretPermissions> permissions)"
+  nameWithType: "AccessPolicy.UpdateStages.WithPermissions.disallowSecretPermissions(List<SecretPermissions> permissions)"
+  summary: "Revoke a list of permissions for the AD identity to access secrets."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "the list of permissions to revoke"
+    name: "permissions"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.keyvault.models.SecretPermissions?alt=com.azure.resourcemanager.keyvault.models.SecretPermissions&text=SecretPermissions\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public abstract AccessPolicy.Update disallowSecretPermissions(List<SecretPermissions> permissions)"
+  desc: "Revoke a list of permissions for the AD identity to access secrets."
+  returns:
+    description: "the next stage of access policy update"
+    type: "<xref href=\"com.azure.resourcemanager.keyvault.models.AccessPolicy.Update?alt=com.azure.resourcemanager.keyvault.models.AccessPolicy.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.keyvault.models.AccessPolicy.UpdateStages.WithPermissions.disallowStorageAllPermissions()"
   fullName: "com.azure.resourcemanager.keyvault.models.AccessPolicy.UpdateStages.WithPermissions.disallowStorageAllPermissions()"
   name: "disallowStorageAllPermissions()"
@@ -323,22 +323,6 @@ methods:
   - "abstract"
   syntax: "public abstract AccessPolicy.Update disallowStorageAllPermissions()"
   desc: "Revoke all permissions for the Ad identity to access storage."
-  returns:
-    description: "the next stage of access policy definition"
-    type: "<xref href=\"com.azure.resourcemanager.keyvault.models.AccessPolicy.Update?alt=com.azure.resourcemanager.keyvault.models.AccessPolicy.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.keyvault.models.AccessPolicy.UpdateStages.WithPermissions.disallowStoragePermissions(java.util.List<com.azure.resourcemanager.keyvault.models.StoragePermissions>)"
-  fullName: "com.azure.resourcemanager.keyvault.models.AccessPolicy.UpdateStages.WithPermissions.disallowStoragePermissions(List<StoragePermissions> permissions)"
-  name: "disallowStoragePermissions(List<StoragePermissions> permissions)"
-  nameWithType: "AccessPolicy.UpdateStages.WithPermissions.disallowStoragePermissions(List<StoragePermissions> permissions)"
-  summary: "Revoke a list of permissions for the AD identity to access storage."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "the list of permissions allowed"
-    name: "permissions"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.keyvault.models.StoragePermissions?alt=com.azure.resourcemanager.keyvault.models.StoragePermissions&text=StoragePermissions\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public abstract AccessPolicy.Update disallowStoragePermissions(List<StoragePermissions> permissions)"
-  desc: "Revoke a list of permissions for the AD identity to access storage."
   returns:
     description: "the next stage of access policy definition"
     type: "<xref href=\"com.azure.resourcemanager.keyvault.models.AccessPolicy.Update?alt=com.azure.resourcemanager.keyvault.models.AccessPolicy.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
@@ -354,6 +338,22 @@ methods:
     name: "permissions"
     type: "<xref href=\"com.azure.resourcemanager.keyvault.models.StoragePermissions?alt=com.azure.resourcemanager.keyvault.models.StoragePermissions&text=StoragePermissions\" data-throw-if-not-resolved=\"False\" />[]"
   syntax: "public abstract AccessPolicy.Update disallowStoragePermissions(StoragePermissions[] permissions)"
+  desc: "Revoke a list of permissions for the AD identity to access storage."
+  returns:
+    description: "the next stage of access policy definition"
+    type: "<xref href=\"com.azure.resourcemanager.keyvault.models.AccessPolicy.Update?alt=com.azure.resourcemanager.keyvault.models.AccessPolicy.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.keyvault.models.AccessPolicy.UpdateStages.WithPermissions.disallowStoragePermissions(java.util.List<com.azure.resourcemanager.keyvault.models.StoragePermissions>)"
+  fullName: "com.azure.resourcemanager.keyvault.models.AccessPolicy.UpdateStages.WithPermissions.disallowStoragePermissions(List<StoragePermissions> permissions)"
+  name: "disallowStoragePermissions(List<StoragePermissions> permissions)"
+  nameWithType: "AccessPolicy.UpdateStages.WithPermissions.disallowStoragePermissions(List<StoragePermissions> permissions)"
+  summary: "Revoke a list of permissions for the AD identity to access storage."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "the list of permissions allowed"
+    name: "permissions"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.keyvault.models.StoragePermissions?alt=com.azure.resourcemanager.keyvault.models.StoragePermissions&text=StoragePermissions\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public abstract AccessPolicy.Update disallowStoragePermissions(List<StoragePermissions> permissions)"
   desc: "Revoke a list of permissions for the AD identity to access storage."
   returns:
     description: "the next stage of access policy definition"

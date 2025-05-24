@@ -285,20 +285,6 @@ methods:
   returns:
     description: "A reactive response containing the list of blocks."
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.storage.blob.models.BlockList?alt=com.azure.storage.blob.models.BlockList&text=BlockList\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.storage.blob.specialized.BlockBlobAsyncClient.listBlocksWithResponse(com.azure.storage.blob.options.BlockBlobListBlocksOptions)"
-  fullName: "com.azure.storage.blob.specialized.BlockBlobAsyncClient.listBlocksWithResponse(BlockBlobListBlocksOptions options)"
-  name: "listBlocksWithResponse(BlockBlobListBlocksOptions options)"
-  nameWithType: "BlockBlobAsyncClient.listBlocksWithResponse(BlockBlobListBlocksOptions options)"
-  summary: "Returns the list of blocks that have been uploaded as part of a block blob using the specified block list filter."
-  parameters:
-  - description: "<xref uid=\"com.azure.storage.blob.options.BlockBlobListBlocksOptions\" data-throw-if-not-resolved=\"false\" data-raw-source=\"BlockBlobListBlocksOptions\"></xref>"
-    name: "options"
-    type: "<xref href=\"com.azure.storage.blob.options.BlockBlobListBlocksOptions?alt=com.azure.storage.blob.options.BlockBlobListBlocksOptions&text=BlockBlobListBlocksOptions\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public Mono<Response<BlockList>> listBlocksWithResponse(BlockBlobListBlocksOptions options)"
-  desc: "Returns the list of blocks that have been uploaded as part of a block blob using the specified block list filter. For more information, see the [Azure Docs][].\n\n**Code Samples**\n\n```java\nclient.listBlocksWithResponse(new BlockBlobListBlocksOptions(BlockListType.ALL)\n     .setLeaseId(leaseId)\n     .setIfTagsMatch(tags)).subscribe(response -> {\n         BlockList block = response.getValue();\n         System.out.println(\"Committed Blocks:\");\n         block.getCommittedBlocks().forEach(b -> System.out.printf(\"Name: %s, Size: %d\", b.getName(),\n             b.getSizeLong()));\n\n         System.out.println(\"Uncommitted Blocks:\");\n         block.getUncommittedBlocks().forEach(b -> System.out.printf(\"Name: %s, Size: %d\", b.getName(),\n             b.getSizeLong()));\n     });\n```\n\n\n[Azure Docs]: https://docs.microsoft.com/rest/api/storageservices/get-block-list"
-  returns:
-    description: "A reactive response containing the list of blocks."
-    type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.storage.blob.models.BlockList?alt=com.azure.storage.blob.models.BlockList&text=BlockList\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
 - uid: "com.azure.storage.blob.specialized.BlockBlobAsyncClient.listBlocksWithResponse(com.azure.storage.blob.models.BlockListType,java.lang.String)"
   fullName: "com.azure.storage.blob.specialized.BlockBlobAsyncClient.listBlocksWithResponse(BlockListType listType, String leaseId)"
   name: "listBlocksWithResponse(BlockListType listType, String leaseId)"
@@ -313,6 +299,20 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public Mono<Response<BlockList>> listBlocksWithResponse(BlockListType listType, String leaseId)"
   desc: "Returns the list of blocks that have been uploaded as part of a block blob using the specified block list filter. For more information, see the [Azure Docs][].\n\n**Code Samples**\n\n```java\nclient.listBlocksWithResponse(BlockListType.ALL, leaseId).subscribe(response -> {\n     BlockList block = response.getValue();\n     System.out.println(\"Committed Blocks:\");\n     block.getCommittedBlocks().forEach(b -> System.out.printf(\"Name: %s, Size: %d\", b.getName(), b.getSizeLong()));\n\n     System.out.println(\"Uncommitted Blocks:\");\n     block.getUncommittedBlocks().forEach(b -> System.out.printf(\"Name: %s, Size: %d\", b.getName(), b.getSizeLong()));\n });\n```\n\n\n[Azure Docs]: https://docs.microsoft.com/rest/api/storageservices/get-block-list"
+  returns:
+    description: "A reactive response containing the list of blocks."
+    type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.storage.blob.models.BlockList?alt=com.azure.storage.blob.models.BlockList&text=BlockList\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
+- uid: "com.azure.storage.blob.specialized.BlockBlobAsyncClient.listBlocksWithResponse(com.azure.storage.blob.options.BlockBlobListBlocksOptions)"
+  fullName: "com.azure.storage.blob.specialized.BlockBlobAsyncClient.listBlocksWithResponse(BlockBlobListBlocksOptions options)"
+  name: "listBlocksWithResponse(BlockBlobListBlocksOptions options)"
+  nameWithType: "BlockBlobAsyncClient.listBlocksWithResponse(BlockBlobListBlocksOptions options)"
+  summary: "Returns the list of blocks that have been uploaded as part of a block blob using the specified block list filter."
+  parameters:
+  - description: "<xref uid=\"com.azure.storage.blob.options.BlockBlobListBlocksOptions\" data-throw-if-not-resolved=\"false\" data-raw-source=\"BlockBlobListBlocksOptions\"></xref>"
+    name: "options"
+    type: "<xref href=\"com.azure.storage.blob.options.BlockBlobListBlocksOptions?alt=com.azure.storage.blob.options.BlockBlobListBlocksOptions&text=BlockBlobListBlocksOptions\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public Mono<Response<BlockList>> listBlocksWithResponse(BlockBlobListBlocksOptions options)"
+  desc: "Returns the list of blocks that have been uploaded as part of a block blob using the specified block list filter. For more information, see the [Azure Docs][].\n\n**Code Samples**\n\n```java\nclient.listBlocksWithResponse(new BlockBlobListBlocksOptions(BlockListType.ALL)\n     .setLeaseId(leaseId)\n     .setIfTagsMatch(tags)).subscribe(response -> {\n         BlockList block = response.getValue();\n         System.out.println(\"Committed Blocks:\");\n         block.getCommittedBlocks().forEach(b -> System.out.printf(\"Name: %s, Size: %d\", b.getName(),\n             b.getSizeLong()));\n\n         System.out.println(\"Uncommitted Blocks:\");\n         block.getUncommittedBlocks().forEach(b -> System.out.printf(\"Name: %s, Size: %d\", b.getName(),\n             b.getSizeLong()));\n     });\n```\n\n\n[Azure Docs]: https://docs.microsoft.com/rest/api/storageservices/get-block-list"
   returns:
     description: "A reactive response containing the list of blocks."
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.storage.blob.models.BlockList?alt=com.azure.storage.blob.models.BlockList&text=BlockList\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"

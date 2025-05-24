@@ -149,16 +149,6 @@ methods:
   returns:
     description: "the runOn value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.automation.fluent.models.DscCompilationJobProperties.startedBy()"
-  fullName: "com.azure.resourcemanager.automation.fluent.models.DscCompilationJobProperties.startedBy()"
-  name: "startedBy()"
-  nameWithType: "DscCompilationJobProperties.startedBy()"
-  summary: "Get the started<wbr>By property: Gets the compilation job started by."
-  syntax: "public String startedBy()"
-  desc: "Get the startedBy property: Gets the compilation job started by."
-  returns:
-    description: "the startedBy value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.automation.fluent.models.DscCompilationJobProperties.startTime()"
   fullName: "com.azure.resourcemanager.automation.fluent.models.DscCompilationJobProperties.startTime()"
   name: "startTime()"
@@ -169,6 +159,16 @@ methods:
   returns:
     description: "the startTime value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
+- uid: "com.azure.resourcemanager.automation.fluent.models.DscCompilationJobProperties.startedBy()"
+  fullName: "com.azure.resourcemanager.automation.fluent.models.DscCompilationJobProperties.startedBy()"
+  name: "startedBy()"
+  nameWithType: "DscCompilationJobProperties.startedBy()"
+  summary: "Get the started<wbr>By property: Gets the compilation job started by."
+  syntax: "public String startedBy()"
+  desc: "Get the startedBy property: Gets the compilation job started by."
+  returns:
+    description: "the startedBy value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.automation.fluent.models.DscCompilationJobProperties.status()"
   fullName: "com.azure.resourcemanager.automation.fluent.models.DscCompilationJobProperties.status()"
   name: "status()"

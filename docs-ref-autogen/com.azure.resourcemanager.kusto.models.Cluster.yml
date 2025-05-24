@@ -844,18 +844,6 @@ methods:
   returns:
     description: "the virtualNetworkConfiguration value."
     type: "<xref href=\"com.azure.resourcemanager.kusto.models.VirtualNetworkConfiguration?alt=com.azure.resourcemanager.kusto.models.VirtualNetworkConfiguration&text=VirtualNetworkConfiguration\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.kusto.models.Cluster.zones()"
-  fullName: "com.azure.resourcemanager.kusto.models.Cluster.zones()"
-  name: "zones()"
-  nameWithType: "Cluster.zones()"
-  summary: "Gets the zones property: The availability zones of the cluster."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract List<String> zones()"
-  desc: "Gets the zones property: The availability zones of the cluster."
-  returns:
-    description: "the zones value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
 - uid: "com.azure.resourcemanager.kusto.models.Cluster.zoneStatus()"
   fullName: "com.azure.resourcemanager.kusto.models.Cluster.zoneStatus()"
   name: "zoneStatus()"
@@ -868,6 +856,18 @@ methods:
   returns:
     description: "the zoneStatus value."
     type: "<xref href=\"com.azure.resourcemanager.kusto.models.ZoneStatus?alt=com.azure.resourcemanager.kusto.models.ZoneStatus&text=ZoneStatus\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.kusto.models.Cluster.zones()"
+  fullName: "com.azure.resourcemanager.kusto.models.Cluster.zones()"
+  name: "zones()"
+  nameWithType: "Cluster.zones()"
+  summary: "Gets the zones property: The availability zones of the cluster."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract List<String> zones()"
+  desc: "Gets the zones property: The availability zones of the cluster."
+  returns:
+    description: "the zones value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
 type: "interface"
 desc: "An immutable client-side representation of Cluster."
 metadata: {}

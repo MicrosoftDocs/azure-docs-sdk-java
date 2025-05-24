@@ -34,6 +34,20 @@ constructors:
   syntax: "public CosmosQuery(Criteria criteria)"
   desc: "Initialization"
 methods:
+- uid: "com.azure.spring.data.cosmos.core.query.CosmosQuery.<T>getPartitionKeyValue(java.lang.Class<T>)"
+  fullName: "com.azure.spring.data.cosmos.core.query.CosmosQuery.getPartitionKeyValue(Class<T> domainType)"
+  name: "getPartitionKeyValue(Class<T> domainType)"
+  nameWithType: "CosmosQuery.getPartitionKeyValue(Class<T> domainType)"
+  summary: "Returns partition key value based on the criteria."
+  parameters:
+  - description: "domain type"
+    name: "domainType"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Class.html\">Class</a>&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public Optional<Object> <T>getPartitionKeyValue(Class<T> domainType)"
+  desc: "Returns partition key value based on the criteria."
+  returns:
+    description: "Optional of partition key value"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Optional.html\">Optional</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>&gt;"
 - uid: "com.azure.spring.data.cosmos.core.query.CosmosQuery.getCriteria()"
   fullName: "com.azure.spring.data.cosmos.core.query.CosmosQuery.getCriteria()"
   name: "getCriteria()"
@@ -88,20 +102,6 @@ methods:
   returns:
     description: "Pageable"
     type: "<xref href=\"org.springframework.data.domain.Pageable?alt=org.springframework.data.domain.Pageable&text=Pageable\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.spring.data.cosmos.core.query.CosmosQuery.<T>getPartitionKeyValue(java.lang.Class<T>)"
-  fullName: "com.azure.spring.data.cosmos.core.query.CosmosQuery.getPartitionKeyValue(Class<T> domainType)"
-  name: "getPartitionKeyValue(Class<T> domainType)"
-  nameWithType: "CosmosQuery.getPartitionKeyValue(Class<T> domainType)"
-  summary: "Returns partition key value based on the criteria."
-  parameters:
-  - description: "domain type"
-    name: "domainType"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Class.html\">Class</a>&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public Optional<Object> <T>getPartitionKeyValue(Class<T> domainType)"
-  desc: "Returns partition key value based on the criteria."
-  returns:
-    description: "Optional of partition key value"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Optional.html\">Optional</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>&gt;"
 - uid: "com.azure.spring.data.cosmos.core.query.CosmosQuery.getSort()"
   fullName: "com.azure.spring.data.cosmos.core.query.CosmosQuery.getSort()"
   name: "getSort()"

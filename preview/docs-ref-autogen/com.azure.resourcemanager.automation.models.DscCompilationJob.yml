@@ -190,18 +190,6 @@ methods:
   returns:
     description: "the runOn value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.automation.models.DscCompilationJob.startedBy()"
-  fullName: "com.azure.resourcemanager.automation.models.DscCompilationJob.startedBy()"
-  name: "startedBy()"
-  nameWithType: "DscCompilationJob.startedBy()"
-  summary: "Gets the started<wbr>By property: Gets the compilation job started by."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract String startedBy()"
-  desc: "Gets the startedBy property: Gets the compilation job started by."
-  returns:
-    description: "the startedBy value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.automation.models.DscCompilationJob.startTime()"
   fullName: "com.azure.resourcemanager.automation.models.DscCompilationJob.startTime()"
   name: "startTime()"
@@ -214,6 +202,18 @@ methods:
   returns:
     description: "the startTime value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
+- uid: "com.azure.resourcemanager.automation.models.DscCompilationJob.startedBy()"
+  fullName: "com.azure.resourcemanager.automation.models.DscCompilationJob.startedBy()"
+  name: "startedBy()"
+  nameWithType: "DscCompilationJob.startedBy()"
+  summary: "Gets the started<wbr>By property: Gets the compilation job started by."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String startedBy()"
+  desc: "Gets the startedBy property: Gets the compilation job started by."
+  returns:
+    description: "the startedBy value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.automation.models.DscCompilationJob.status()"
   fullName: "com.azure.resourcemanager.automation.models.DscCompilationJob.status()"
   name: "status()"

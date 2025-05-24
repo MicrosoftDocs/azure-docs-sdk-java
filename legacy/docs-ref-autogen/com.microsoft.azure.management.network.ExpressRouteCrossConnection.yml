@@ -76,6 +76,16 @@ methods:
   returns:
     description: "the provisioning state of the express route cross connection resource"
     type: "<xref href=\"com.microsoft.azure.management.network.ProvisioningState?alt=com.microsoft.azure.management.network.ProvisioningState&text=ProvisioningState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.azure.management.network.ExpressRouteCrossConnection.sTag()"
+  fullName: "com.microsoft.azure.management.network.ExpressRouteCrossConnection.sTag()"
+  name: "sTag()"
+  nameWithType: "ExpressRouteCrossConnection.sTag()"
+  modifiers:
+  - "abstract"
+  syntax: "public abstract Integer sTag()"
+  returns:
+    description: "the identifier of the circuit traffic"
+    type: "<xref href=\"java.lang.Integer?alt=java.lang.Integer&text=Integer\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.management.network.ExpressRouteCrossConnection.secondaryAzurePort()"
   fullName: "com.microsoft.azure.management.network.ExpressRouteCrossConnection.secondaryAzurePort()"
   name: "secondaryAzurePort()"
@@ -106,16 +116,6 @@ methods:
   returns:
     description: "the provisioning state of the circuit in the connectivity provider system"
     type: "<xref href=\"com.microsoft.azure.management.network.ServiceProviderProvisioningState?alt=com.microsoft.azure.management.network.ServiceProviderProvisioningState&text=ServiceProviderProvisioningState\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.azure.management.network.ExpressRouteCrossConnection.sTag()"
-  fullName: "com.microsoft.azure.management.network.ExpressRouteCrossConnection.sTag()"
-  name: "sTag()"
-  nameWithType: "ExpressRouteCrossConnection.sTag()"
-  modifiers:
-  - "abstract"
-  syntax: "public abstract Integer sTag()"
-  returns:
-    description: "the identifier of the circuit traffic"
-    type: "<xref href=\"java.lang.Integer?alt=java.lang.Integer&text=Integer\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 desc: "Entry point for Express Route Cross Connection management API in Azure."
 implements:

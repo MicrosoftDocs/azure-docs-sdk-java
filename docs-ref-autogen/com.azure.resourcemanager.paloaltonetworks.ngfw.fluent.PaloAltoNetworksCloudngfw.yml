@@ -66,18 +66,6 @@ methods:
   returns:
     description: "the endpoint value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.paloaltonetworks.ngfw.fluent.PaloAltoNetworksCloudngfw.getFirewalls()"
-  fullName: "com.azure.resourcemanager.paloaltonetworks.ngfw.fluent.PaloAltoNetworksCloudngfw.getFirewalls()"
-  name: "getFirewalls()"
-  nameWithType: "PaloAltoNetworksCloudngfw.getFirewalls()"
-  summary: "Gets the Firewalls<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract FirewallsClient getFirewalls()"
-  desc: "Gets the FirewallsClient object to access its operations."
-  returns:
-    description: "the FirewallsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.paloaltonetworks.ngfw.fluent.FirewallsClient?alt=com.azure.resourcemanager.paloaltonetworks.ngfw.fluent.FirewallsClient&text=FirewallsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.paloaltonetworks.ngfw.fluent.PaloAltoNetworksCloudngfw.getFirewallStatus()"
   fullName: "com.azure.resourcemanager.paloaltonetworks.ngfw.fluent.PaloAltoNetworksCloudngfw.getFirewallStatus()"
   name: "getFirewallStatus()"
@@ -90,6 +78,18 @@ methods:
   returns:
     description: "the FirewallStatusClient object."
     type: "<xref href=\"com.azure.resourcemanager.paloaltonetworks.ngfw.fluent.FirewallStatusClient?alt=com.azure.resourcemanager.paloaltonetworks.ngfw.fluent.FirewallStatusClient&text=FirewallStatusClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.paloaltonetworks.ngfw.fluent.PaloAltoNetworksCloudngfw.getFirewalls()"
+  fullName: "com.azure.resourcemanager.paloaltonetworks.ngfw.fluent.PaloAltoNetworksCloudngfw.getFirewalls()"
+  name: "getFirewalls()"
+  nameWithType: "PaloAltoNetworksCloudngfw.getFirewalls()"
+  summary: "Gets the Firewalls<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract FirewallsClient getFirewalls()"
+  desc: "Gets the FirewallsClient object to access its operations."
+  returns:
+    description: "the FirewallsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.paloaltonetworks.ngfw.fluent.FirewallsClient?alt=com.azure.resourcemanager.paloaltonetworks.ngfw.fluent.FirewallsClient&text=FirewallsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.paloaltonetworks.ngfw.fluent.PaloAltoNetworksCloudngfw.getFqdnListGlobalRulestacks()"
   fullName: "com.azure.resourcemanager.paloaltonetworks.ngfw.fluent.PaloAltoNetworksCloudngfw.getFqdnListGlobalRulestacks()"
   name: "getFqdnListGlobalRulestacks()"
@@ -186,6 +186,18 @@ methods:
   returns:
     description: "the PostRulesClient object."
     type: "<xref href=\"com.azure.resourcemanager.paloaltonetworks.ngfw.fluent.PostRulesClient?alt=com.azure.resourcemanager.paloaltonetworks.ngfw.fluent.PostRulesClient&text=PostRulesClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.paloaltonetworks.ngfw.fluent.PaloAltoNetworksCloudngfw.getPreRules()"
+  fullName: "com.azure.resourcemanager.paloaltonetworks.ngfw.fluent.PaloAltoNetworksCloudngfw.getPreRules()"
+  name: "getPreRules()"
+  nameWithType: "PaloAltoNetworksCloudngfw.getPreRules()"
+  summary: "Gets the Pre<wbr>Rules<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract PreRulesClient getPreRules()"
+  desc: "Gets the PreRulesClient object to access its operations."
+  returns:
+    description: "the PreRulesClient object."
+    type: "<xref href=\"com.azure.resourcemanager.paloaltonetworks.ngfw.fluent.PreRulesClient?alt=com.azure.resourcemanager.paloaltonetworks.ngfw.fluent.PreRulesClient&text=PreRulesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.paloaltonetworks.ngfw.fluent.PaloAltoNetworksCloudngfw.getPrefixListGlobalRulestacks()"
   fullName: "com.azure.resourcemanager.paloaltonetworks.ngfw.fluent.PaloAltoNetworksCloudngfw.getPrefixListGlobalRulestacks()"
   name: "getPrefixListGlobalRulestacks()"
@@ -210,18 +222,6 @@ methods:
   returns:
     description: "the PrefixListLocalRulestacksClient object."
     type: "<xref href=\"com.azure.resourcemanager.paloaltonetworks.ngfw.fluent.PrefixListLocalRulestacksClient?alt=com.azure.resourcemanager.paloaltonetworks.ngfw.fluent.PrefixListLocalRulestacksClient&text=PrefixListLocalRulestacksClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.paloaltonetworks.ngfw.fluent.PaloAltoNetworksCloudngfw.getPreRules()"
-  fullName: "com.azure.resourcemanager.paloaltonetworks.ngfw.fluent.PaloAltoNetworksCloudngfw.getPreRules()"
-  name: "getPreRules()"
-  nameWithType: "PaloAltoNetworksCloudngfw.getPreRules()"
-  summary: "Gets the Pre<wbr>Rules<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract PreRulesClient getPreRules()"
-  desc: "Gets the PreRulesClient object to access its operations."
-  returns:
-    description: "the PreRulesClient object."
-    type: "<xref href=\"com.azure.resourcemanager.paloaltonetworks.ngfw.fluent.PreRulesClient?alt=com.azure.resourcemanager.paloaltonetworks.ngfw.fluent.PreRulesClient&text=PreRulesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.paloaltonetworks.ngfw.fluent.PaloAltoNetworksCloudngfw.getSubscriptionId()"
   fullName: "com.azure.resourcemanager.paloaltonetworks.ngfw.fluent.PaloAltoNetworksCloudngfw.getSubscriptionId()"
   name: "getSubscriptionId()"

@@ -130,9 +130,9 @@ methods:
   fullName: "com.azure.analytics.synapse.artifacts.models.HDInsightSparkActivity.getRootPath()"
   name: "getRootPath()"
   nameWithType: "HDInsightSparkActivity.getRootPath()"
-  summary: "Get the root<wbr>Path property: The root path in 'spark<wbr>Job<wbr>Linked<wbr>Service' for all the job’s files."
+  summary: "Get the root<wbr>Path property: The root path in 'spark<wbr>Job<wbr>Linked<wbr>Service' for all the job\\\\u2019s files."
   syntax: "public Object getRootPath()"
-  desc: "Get the rootPath property: The root path in 'sparkJobLinkedService' for all the job’s files. Type: string (or Expression with resultType string)."
+  desc: "Get the rootPath property: The root path in 'sparkJobLinkedService' for all the job\\\\u2019s files. Type: string (or Expression with resultType string)."
   returns:
     description: "the rootPath value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
@@ -319,13 +319,13 @@ methods:
   fullName: "com.azure.analytics.synapse.artifacts.models.HDInsightSparkActivity.setRootPath(Object rootPath)"
   name: "setRootPath(Object rootPath)"
   nameWithType: "HDInsightSparkActivity.setRootPath(Object rootPath)"
-  summary: "Set the root<wbr>Path property: The root path in 'spark<wbr>Job<wbr>Linked<wbr>Service' for all the job’s files."
+  summary: "Set the root<wbr>Path property: The root path in 'spark<wbr>Job<wbr>Linked<wbr>Service' for all the job\\\\u2019s files."
   parameters:
   - description: "the rootPath value to set."
     name: "rootPath"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   syntax: "public HDInsightSparkActivity setRootPath(Object rootPath)"
-  desc: "Set the rootPath property: The root path in 'sparkJobLinkedService' for all the job’s files. Type: string (or Expression with resultType string)."
+  desc: "Set the rootPath property: The root path in 'sparkJobLinkedService' for all the job\\\\u2019s files. Type: string (or Expression with resultType string)."
   returns:
     description: "the HDInsightSparkActivity object itself."
     type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.HDInsightSparkActivity?alt=com.azure.analytics.synapse.artifacts.models.HDInsightSparkActivity&text=HDInsightSparkActivity\" data-throw-if-not-resolved=\"False\" />"

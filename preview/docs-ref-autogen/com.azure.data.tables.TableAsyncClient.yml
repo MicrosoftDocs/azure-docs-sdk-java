@@ -70,6 +70,20 @@ methods:
   returns:
     description: "A <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref> containing the <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HTTP response\"></xref> that in turn contains a <xref uid=\"com.azure.data.tables.models.TableItem\" data-throw-if-not-resolved=\"false\" data-raw-source=\"TableItem\"></xref>\n that represents the table."
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.data.tables.models.TableItem?alt=com.azure.data.tables.models.TableItem&text=TableItem\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
+- uid: "com.azure.data.tables.TableAsyncClient.deleteEntity(com.azure.data.tables.models.TableEntity)"
+  fullName: "com.azure.data.tables.TableAsyncClient.deleteEntity(TableEntity entity)"
+  name: "deleteEntity(TableEntity entity)"
+  nameWithType: "TableAsyncClient.deleteEntity(TableEntity entity)"
+  summary: "Deletes an <xref uid=\"com.azure.data.tables.models.TableEntity\" data-throw-if-not-resolved=\"false\" data-raw-source=\"entity\"></xref> from the table."
+  parameters:
+  - description: "The <xref uid=\"com.azure.data.tables.models.TableEntity\" data-throw-if-not-resolved=\"false\" data-raw-source=\"entity\"></xref> to delete."
+    name: "entity"
+    type: "<xref href=\"com.azure.data.tables.models.TableEntity?alt=com.azure.data.tables.models.TableEntity&text=TableEntity\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public Mono<Void> deleteEntity(TableEntity entity)"
+  desc: "Deletes an <xref uid=\"com.azure.data.tables.models.TableEntity\" data-throw-if-not-resolved=\"false\" data-raw-source=\"entity\"></xref> from the table.\n\n**Code Samples**\n\nDeletes a <xref uid=\"com.azure.data.tables.models.TableEntity\" data-throw-if-not-resolved=\"false\" data-raw-source=\"entity\"></xref> on the table. Prints out the details of the deleted <xref uid=\"com.azure.data.tables.models.TableEntity\" data-throw-if-not-resolved=\"false\" data-raw-source=\"entity\"></xref>.\n\n```java\nTableEntity myTableEntity = new TableEntity(\"partitionKey\", \"rowKey\")\n     .addProperty(\"Property\", \"Value\");\n\n tableAsyncClient.deleteEntity(myTableEntity)\n     .contextWrite(Context.of(\"key1\", \"value1\", \"key2\", \"value2\"))\n     .subscribe(unused ->\n         System.out.printf(\"Table entity with partition key '%s' and row key '%s' was created.\", \"partitionKey\",\n             \"rowKey\"));\n```"
+  returns:
+    description: "An empty <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
+    type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
 - uid: "com.azure.data.tables.TableAsyncClient.deleteEntity(java.lang.String,java.lang.String)"
   fullName: "com.azure.data.tables.TableAsyncClient.deleteEntity(String partitionKey, String rowKey)"
   name: "deleteEntity(String partitionKey, String rowKey)"
@@ -84,20 +98,6 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public Mono<Void> deleteEntity(String partitionKey, String rowKey)"
   desc: "Deletes an <xref uid=\"com.azure.data.tables.models.TableEntity\" data-throw-if-not-resolved=\"false\" data-raw-source=\"entity\"></xref> from the table.\n\n**Code Samples**\n\nDeletes an <xref uid=\"com.azure.data.tables.models.TableEntity\" data-throw-if-not-resolved=\"false\" data-raw-source=\"entity\"></xref> on the table. Prints out the entity's `partitionKey` and `rowKey`.\n\n```java\ntableAsyncClient.deleteEntity(\"partitionKey\", \"rowKey\")\n     .contextWrite(Context.of(\"key1\", \"value1\", \"key2\", \"value2\"))\n     .subscribe(unused ->\n         System.out.printf(\"Table entity with partition key '%s' and row key '%s' was deleted.\", \"partitionKey\",\n             \"rowKey\"));\n```"
-  returns:
-    description: "An empty <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
-    type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
-- uid: "com.azure.data.tables.TableAsyncClient.deleteEntity(com.azure.data.tables.models.TableEntity)"
-  fullName: "com.azure.data.tables.TableAsyncClient.deleteEntity(TableEntity entity)"
-  name: "deleteEntity(TableEntity entity)"
-  nameWithType: "TableAsyncClient.deleteEntity(TableEntity entity)"
-  summary: "Deletes an <xref uid=\"com.azure.data.tables.models.TableEntity\" data-throw-if-not-resolved=\"false\" data-raw-source=\"entity\"></xref> from the table."
-  parameters:
-  - description: "The <xref uid=\"com.azure.data.tables.models.TableEntity\" data-throw-if-not-resolved=\"false\" data-raw-source=\"entity\"></xref> to delete."
-    name: "entity"
-    type: "<xref href=\"com.azure.data.tables.models.TableEntity?alt=com.azure.data.tables.models.TableEntity&text=TableEntity\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public Mono<Void> deleteEntity(TableEntity entity)"
-  desc: "Deletes an <xref uid=\"com.azure.data.tables.models.TableEntity\" data-throw-if-not-resolved=\"false\" data-raw-source=\"entity\"></xref> from the table.\n\n**Code Samples**\n\nDeletes a <xref uid=\"com.azure.data.tables.models.TableEntity\" data-throw-if-not-resolved=\"false\" data-raw-source=\"entity\"></xref> on the table. Prints out the details of the deleted <xref uid=\"com.azure.data.tables.models.TableEntity\" data-throw-if-not-resolved=\"false\" data-raw-source=\"entity\"></xref>.\n\n```java\nTableEntity myTableEntity = new TableEntity(\"partitionKey\", \"rowKey\")\n     .addProperty(\"Property\", \"Value\");\n\n tableAsyncClient.deleteEntity(myTableEntity)\n     .contextWrite(Context.of(\"key1\", \"value1\", \"key2\", \"value2\"))\n     .subscribe(unused ->\n         System.out.printf(\"Table entity with partition key '%s' and row key '%s' was created.\", \"partitionKey\",\n             \"rowKey\"));\n```"
   returns:
     description: "An empty <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"

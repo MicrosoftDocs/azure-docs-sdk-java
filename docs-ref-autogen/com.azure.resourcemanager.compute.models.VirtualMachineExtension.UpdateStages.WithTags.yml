@@ -6,22 +6,6 @@ nameWithType: "VirtualMachineExtension.UpdateStages.WithTags"
 summary: "The stage of the virtual machine extension update allowing to add or update tags."
 syntax: "public static interface **VirtualMachineExtension.UpdateStages.WithTags**"
 methods:
-- uid: "com.azure.resourcemanager.compute.models.VirtualMachineExtension.UpdateStages.WithTags.withoutTag(java.lang.String)"
-  fullName: "com.azure.resourcemanager.compute.models.VirtualMachineExtension.UpdateStages.WithTags.withoutTag(String key)"
-  name: "withoutTag(String key)"
-  nameWithType: "VirtualMachineExtension.UpdateStages.WithTags.withoutTag(String key)"
-  summary: "Removes a tag from the virtual machine extension."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "the key of the tag to remove"
-    name: "key"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public abstract VirtualMachineExtension.Update withoutTag(String key)"
-  desc: "Removes a tag from the virtual machine extension."
-  returns:
-    description: "the next stage of the update"
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachineExtension.Update?alt=com.azure.resourcemanager.compute.models.VirtualMachineExtension.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.models.VirtualMachineExtension.UpdateStages.WithTags.withTag(java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.compute.models.VirtualMachineExtension.UpdateStages.WithTags.withTag(String key, String value)"
   name: "withTag(String key, String value)"
@@ -54,6 +38,22 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
   syntax: "public abstract VirtualMachineExtension.Update withTags(Map<String,String> tags)"
   desc: "Specifies tags for the virtual machine extension."
+  returns:
+    description: "the next stage of the update"
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachineExtension.Update?alt=com.azure.resourcemanager.compute.models.VirtualMachineExtension.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.VirtualMachineExtension.UpdateStages.WithTags.withoutTag(java.lang.String)"
+  fullName: "com.azure.resourcemanager.compute.models.VirtualMachineExtension.UpdateStages.WithTags.withoutTag(String key)"
+  name: "withoutTag(String key)"
+  nameWithType: "VirtualMachineExtension.UpdateStages.WithTags.withoutTag(String key)"
+  summary: "Removes a tag from the virtual machine extension."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "the key of the tag to remove"
+    name: "key"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract VirtualMachineExtension.Update withoutTag(String key)"
+  desc: "Removes a tag from the virtual machine extension."
   returns:
     description: "the next stage of the update"
     type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachineExtension.Update?alt=com.azure.resourcemanager.compute.models.VirtualMachineExtension.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"

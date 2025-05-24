@@ -53,7 +53,7 @@ methods:
   nameWithType: "EventHubStreamInputDataSource.consumerGroupName()"
   summary: "Get the consumer<wbr>Group<wbr>Name property: The name of an Event Hub Consumer Group that should be used to read events from the Event Hub."
   syntax: "public String consumerGroupName()"
-  desc: "Get the consumerGroupName property: The name of an Event Hub Consumer Group that should be used to read events from the Event Hub. Specifying distinct consumer group names for multiple inputs allows each of those inputs to receive the same events from the Event Hub. If not specified, the input uses the Event Hub’s default consumer group."
+  desc: "Get the consumerGroupName property: The name of an Event Hub Consumer Group that should be used to read events from the Event Hub. Specifying distinct consumer group names for multiple inputs allows each of those inputs to receive the same events from the Event Hub. If not specified, the input uses the Event Hub\\\\u2019s default consumer group."
   returns:
     description: "the consumerGroupName value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -172,7 +172,7 @@ methods:
     name: "consumerGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public EventHubStreamInputDataSource withConsumerGroupName(String consumerGroupName)"
-  desc: "Set the consumerGroupName property: The name of an Event Hub Consumer Group that should be used to read events from the Event Hub. Specifying distinct consumer group names for multiple inputs allows each of those inputs to receive the same events from the Event Hub. If not specified, the input uses the Event Hub’s default consumer group."
+  desc: "Set the consumerGroupName property: The name of an Event Hub Consumer Group that should be used to read events from the Event Hub. Specifying distinct consumer group names for multiple inputs allows each of those inputs to receive the same events from the Event Hub. If not specified, the input uses the Event Hub\\\\u2019s default consumer group."
   returns:
     description: "the EventHubStreamInputDataSource object itself."
     type: "<xref href=\"com.azure.resourcemanager.streamanalytics.models.EventHubStreamInputDataSource?alt=com.azure.resourcemanager.streamanalytics.models.EventHubStreamInputDataSource&text=EventHubStreamInputDataSource\" data-throw-if-not-resolved=\"False\" />"

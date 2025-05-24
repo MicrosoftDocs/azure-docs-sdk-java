@@ -6,18 +6,6 @@ nameWithType: "Reservation"
 summary: "An immutable client-side representation of Reservation."
 syntax: "public interface **Reservation**"
 methods:
-- uid: "com.azure.resourcemanager.billing.models.Reservation.appliedScopes()"
-  fullName: "com.azure.resourcemanager.billing.models.Reservation.appliedScopes()"
-  name: "appliedScopes()"
-  nameWithType: "Reservation.appliedScopes()"
-  summary: "Gets the applied<wbr>Scopes property: The array of applied scopes of a reservation."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract List<String> appliedScopes()"
-  desc: "Gets the appliedScopes property: The array of applied scopes of a reservation. Will be null if the reservation is in Shared scope."
-  returns:
-    description: "the appliedScopes value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
 - uid: "com.azure.resourcemanager.billing.models.Reservation.appliedScopeType()"
   fullName: "com.azure.resourcemanager.billing.models.Reservation.appliedScopeType()"
   name: "appliedScopeType()"
@@ -30,6 +18,18 @@ methods:
   returns:
     description: "the appliedScopeType value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.billing.models.Reservation.appliedScopes()"
+  fullName: "com.azure.resourcemanager.billing.models.Reservation.appliedScopes()"
+  name: "appliedScopes()"
+  nameWithType: "Reservation.appliedScopes()"
+  summary: "Gets the applied<wbr>Scopes property: The array of applied scopes of a reservation."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract List<String> appliedScopes()"
+  desc: "Gets the appliedScopes property: The array of applied scopes of a reservation. Will be null if the reservation is in Shared scope."
+  returns:
+    description: "the appliedScopes value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
 - uid: "com.azure.resourcemanager.billing.models.Reservation.displayName()"
   fullName: "com.azure.resourcemanager.billing.models.Reservation.displayName()"
   name: "displayName()"

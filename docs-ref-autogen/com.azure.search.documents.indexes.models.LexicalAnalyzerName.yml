@@ -678,14 +678,14 @@ fields:
   fullName: "com.azure.search.documents.indexes.models.LexicalAnalyzerName.NB_MICROSOFT"
   name: "NB_MICROSOFT"
   nameWithType: "LexicalAnalyzerName.NB_MICROSOFT"
-  summary: "Microsoft analyzer for Norwegian (BokmÃ¥l)."
+  summary: "Microsoft analyzer for Norwegian (Bokmål)."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.search.documents.indexes.models.LexicalAnalyzerName?alt=com.azure.search.documents.indexes.models.LexicalAnalyzerName&text=LexicalAnalyzerName\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final LexicalAnalyzerName NB_MICROSOFT"
-  desc: "Microsoft analyzer for Norwegian (BokmÃ¥l)."
+  desc: "Microsoft analyzer for Norwegian (Bokmål)."
 - uid: "com.azure.search.documents.indexes.models.LexicalAnalyzerName.NL_LUCENE"
   fullName: "com.azure.search.documents.indexes.models.LexicalAnalyzerName.NL_LUCENE"
   name: "NL_LUCENE"

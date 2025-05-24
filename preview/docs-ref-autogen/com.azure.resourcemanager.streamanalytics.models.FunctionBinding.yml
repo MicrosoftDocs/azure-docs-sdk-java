@@ -79,7 +79,7 @@ methods:
   syntax: "public void validate()"
   desc: "Validates the instance."
 type: "class"
-desc: "The physical binding of the function. For example, in the Azure Machine Learning web service’s case, this describes the endpoint."
+desc: "The physical binding of the function. For example, in the Azure Machine Learning web service\\\\u2019s case, this describes the endpoint."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.streamanalytics.models.FunctionBinding?alt=com.azure.resourcemanager.streamanalytics.models.FunctionBinding&text=FunctionBinding\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}

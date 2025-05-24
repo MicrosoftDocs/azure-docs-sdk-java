@@ -152,6 +152,16 @@ methods:
   returns:
     description: "the iterator."
     type: "<xref href=\"java.util.Iterator?alt=java.util.Iterator&text=Iterator\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.microsoft.azure.documentdb.FeedResponse.getRUPerMinuteUsed()"
+  fullName: "com.microsoft.azure.documentdb.FeedResponse<T>.getRUPerMinuteUsed()"
+  name: "getRUPerMinuteUsed()"
+  nameWithType: "FeedResponse<T>.getRUPerMinuteUsed()"
+  summary: "Gets the flag associated with the response from the Azure Cosmos DB database service whether this feed request is served from Request Units(RUs)/minute capacity or not."
+  syntax: "public boolean getRUPerMinuteUsed()"
+  desc: "Gets the flag associated with the response from the Azure Cosmos DB database service whether this feed request is served from Request Units(RUs)/minute capacity or not."
+  returns:
+    description: "True if this request is served from RUs/minute capacity.\n         Otherwise, false."
+    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.documentdb.FeedResponse.getRequestCharge()"
   fullName: "com.microsoft.azure.documentdb.FeedResponse<T>.getRequestCharge()"
   name: "getRequestCharge()"
@@ -182,16 +192,6 @@ methods:
   returns:
     description: "the response headers."
     type: "<xref href=\"java.util.Map?alt=java.util.Map&text=Map\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.microsoft.azure.documentdb.FeedResponse.getRUPerMinuteUsed()"
-  fullName: "com.microsoft.azure.documentdb.FeedResponse<T>.getRUPerMinuteUsed()"
-  name: "getRUPerMinuteUsed()"
-  nameWithType: "FeedResponse<T>.getRUPerMinuteUsed()"
-  summary: "Gets the flag associated with the response from the Azure Cosmos DB database service whether this feed request is served from Request Units(RUs)/minute capacity or not."
-  syntax: "public boolean getRUPerMinuteUsed()"
-  desc: "Gets the flag associated with the response from the Azure Cosmos DB database service whether this feed request is served from Request Units(RUs)/minute capacity or not."
-  returns:
-    description: "True if this request is served from RUs/minute capacity.\n         Otherwise, false."
-    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.documentdb.FeedResponse.getSessionToken()"
   fullName: "com.microsoft.azure.documentdb.FeedResponse<T>.getSessionToken()"
   name: "getSessionToken()"

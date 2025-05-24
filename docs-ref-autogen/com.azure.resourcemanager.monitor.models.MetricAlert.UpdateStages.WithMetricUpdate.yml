@@ -130,50 +130,6 @@ methods:
   returns:
     description: "the next stage of the metric alert update."
     type: "<xref href=\"com.azure.resourcemanager.monitor.models.MetricAlert.Update?alt=com.azure.resourcemanager.monitor.models.MetricAlert.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.monitor.models.MetricAlert.UpdateStages.WithMetricUpdate.withoutActionGroup(java.lang.String)"
-  fullName: "com.azure.resourcemanager.monitor.models.MetricAlert.UpdateStages.WithMetricUpdate.withoutActionGroup(String actionGroupId)"
-  name: "withoutActionGroup(String actionGroupId)"
-  nameWithType: "MetricAlert.UpdateStages.WithMetricUpdate.withoutActionGroup(String actionGroupId)"
-  summary: "Removes the specified action group from the actions list."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "resource Id of the <xref uid=\"com.azure.resourcemanager.monitor.models.ActionGroup\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ActionGroup\"></xref> to remove."
-    name: "actionGroupId"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public abstract MetricAlert.Update withoutActionGroup(String actionGroupId)"
-  desc: "Removes the specified action group from the actions list."
-  returns:
-    description: "the next stage of the metric alert update."
-    type: "<xref href=\"com.azure.resourcemanager.monitor.models.MetricAlert.Update?alt=com.azure.resourcemanager.monitor.models.MetricAlert.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.monitor.models.MetricAlert.UpdateStages.WithMetricUpdate.withoutAlertCriteria(java.lang.String)"
-  fullName: "com.azure.resourcemanager.monitor.models.MetricAlert.UpdateStages.WithMetricUpdate.withoutAlertCriteria(String name)"
-  name: "withoutAlertCriteria(String name)"
-  nameWithType: "MetricAlert.UpdateStages.WithMetricUpdate.withoutAlertCriteria(String name)"
-  summary: "Removes a condition from the previously defined metric alert conditions."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "name of the condition that should be removed."
-    name: "name"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public abstract MetricAlert.Update withoutAlertCriteria(String name)"
-  desc: "Removes a condition from the previously defined metric alert conditions."
-  returns:
-    description: "the next stage of the metric alert update."
-    type: "<xref href=\"com.azure.resourcemanager.monitor.models.MetricAlert.Update?alt=com.azure.resourcemanager.monitor.models.MetricAlert.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.monitor.models.MetricAlert.UpdateStages.WithMetricUpdate.withoutAutoMitigation()"
-  fullName: "com.azure.resourcemanager.monitor.models.MetricAlert.UpdateStages.WithMetricUpdate.withoutAutoMitigation()"
-  name: "withoutAutoMitigation()"
-  nameWithType: "MetricAlert.UpdateStages.WithMetricUpdate.withoutAutoMitigation()"
-  summary: "Sets the flag that indicates the alert should not be auto resolved."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract MetricAlert.Update withoutAutoMitigation()"
-  desc: "Sets the flag that indicates the alert should not be auto resolved."
-  returns:
-    description: "the next stage of the metric alert update."
-    type: "<xref href=\"com.azure.resourcemanager.monitor.models.MetricAlert.Update?alt=com.azure.resourcemanager.monitor.models.MetricAlert.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.monitor.models.MetricAlert.UpdateStages.WithMetricUpdate.withPeriod(java.time.Duration)"
   fullName: "com.azure.resourcemanager.monitor.models.MetricAlert.UpdateStages.WithMetricUpdate.withPeriod(Duration size)"
   name: "withPeriod(Duration size)"
@@ -227,6 +183,50 @@ methods:
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract MetricAlert.Update withSeverity(int severity)"
   desc: "Sets alert severity \\{0, 1, 2, 3, 4\\}."
+  returns:
+    description: "the next stage of the metric alert update."
+    type: "<xref href=\"com.azure.resourcemanager.monitor.models.MetricAlert.Update?alt=com.azure.resourcemanager.monitor.models.MetricAlert.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.monitor.models.MetricAlert.UpdateStages.WithMetricUpdate.withoutActionGroup(java.lang.String)"
+  fullName: "com.azure.resourcemanager.monitor.models.MetricAlert.UpdateStages.WithMetricUpdate.withoutActionGroup(String actionGroupId)"
+  name: "withoutActionGroup(String actionGroupId)"
+  nameWithType: "MetricAlert.UpdateStages.WithMetricUpdate.withoutActionGroup(String actionGroupId)"
+  summary: "Removes the specified action group from the actions list."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "resource Id of the <xref uid=\"com.azure.resourcemanager.monitor.models.ActionGroup\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ActionGroup\"></xref> to remove."
+    name: "actionGroupId"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract MetricAlert.Update withoutActionGroup(String actionGroupId)"
+  desc: "Removes the specified action group from the actions list."
+  returns:
+    description: "the next stage of the metric alert update."
+    type: "<xref href=\"com.azure.resourcemanager.monitor.models.MetricAlert.Update?alt=com.azure.resourcemanager.monitor.models.MetricAlert.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.monitor.models.MetricAlert.UpdateStages.WithMetricUpdate.withoutAlertCriteria(java.lang.String)"
+  fullName: "com.azure.resourcemanager.monitor.models.MetricAlert.UpdateStages.WithMetricUpdate.withoutAlertCriteria(String name)"
+  name: "withoutAlertCriteria(String name)"
+  nameWithType: "MetricAlert.UpdateStages.WithMetricUpdate.withoutAlertCriteria(String name)"
+  summary: "Removes a condition from the previously defined metric alert conditions."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "name of the condition that should be removed."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract MetricAlert.Update withoutAlertCriteria(String name)"
+  desc: "Removes a condition from the previously defined metric alert conditions."
+  returns:
+    description: "the next stage of the metric alert update."
+    type: "<xref href=\"com.azure.resourcemanager.monitor.models.MetricAlert.Update?alt=com.azure.resourcemanager.monitor.models.MetricAlert.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.monitor.models.MetricAlert.UpdateStages.WithMetricUpdate.withoutAutoMitigation()"
+  fullName: "com.azure.resourcemanager.monitor.models.MetricAlert.UpdateStages.WithMetricUpdate.withoutAutoMitigation()"
+  name: "withoutAutoMitigation()"
+  nameWithType: "MetricAlert.UpdateStages.WithMetricUpdate.withoutAutoMitigation()"
+  summary: "Sets the flag that indicates the alert should not be auto resolved."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract MetricAlert.Update withoutAutoMitigation()"
+  desc: "Sets the flag that indicates the alert should not be auto resolved."
   returns:
     description: "the next stage of the metric alert update."
     type: "<xref href=\"com.azure.resourcemanager.monitor.models.MetricAlert.Update?alt=com.azure.resourcemanager.monitor.models.MetricAlert.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"

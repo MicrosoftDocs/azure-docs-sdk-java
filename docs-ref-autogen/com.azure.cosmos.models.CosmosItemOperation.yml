@@ -16,16 +16,6 @@ methods:
   returns:
     description: "the context."
     type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.cosmos.models.CosmosItemOperation.getId()"
-  fullName: "com.azure.cosmos.models.CosmosItemOperation.getId()"
-  name: "getId()"
-  nameWithType: "CosmosItemOperation.getId()"
-  modifiers:
-  - "abstract"
-  syntax: "public abstract String getId()"
-  returns:
-    description: "the id."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.cosmos.models.CosmosItemOperation.<T>getItem()"
   fullName: "com.azure.cosmos.models.CosmosItemOperation.getItem()"
   name: "getItem()"
@@ -36,6 +26,16 @@ methods:
   returns:
     description: "the item."
     type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.cosmos.models.CosmosItemOperation.getId()"
+  fullName: "com.azure.cosmos.models.CosmosItemOperation.getId()"
+  name: "getId()"
+  nameWithType: "CosmosItemOperation.getId()"
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String getId()"
+  returns:
+    description: "the id."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.cosmos.models.CosmosItemOperation.getOperationType()"
   fullName: "com.azure.cosmos.models.CosmosItemOperation.getOperationType()"
   name: "getOperationType()"

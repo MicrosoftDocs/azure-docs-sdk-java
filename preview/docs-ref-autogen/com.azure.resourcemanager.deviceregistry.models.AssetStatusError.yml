@@ -55,9 +55,9 @@ methods:
   fullName: "com.azure.resourcemanager.deviceregistry.models.AssetStatusError.message()"
   name: "message()"
   nameWithType: "AssetStatusError.message()"
-  summary: "Get the message property: Human readable helpful error message to provide additional context for error (ex: “capability Id 'foo' does not exist”)."
+  summary: "Get the message property: Human readable helpful error message to provide additional context for error (ex: \\\\u201ccapability Id 'foo' does not exist\\\\u201d)."
   syntax: "public String message()"
-  desc: "Get the message property: Human readable helpful error message to provide additional context for error (ex: “capability Id 'foo' does not exist”)."
+  desc: "Get the message property: Human readable helpful error message to provide additional context for error (ex: \\\\u201ccapability Id 'foo' does not exist\\\\u201d)."
   returns:
     description: "the message value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"

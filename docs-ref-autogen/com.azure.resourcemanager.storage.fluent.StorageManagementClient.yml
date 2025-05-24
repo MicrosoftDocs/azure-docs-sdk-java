@@ -222,18 +222,6 @@ methods:
   returns:
     description: "the PrivateLinkResourcesClient object."
     type: "<xref href=\"com.azure.resourcemanager.storage.fluent.PrivateLinkResourcesClient?alt=com.azure.resourcemanager.storage.fluent.PrivateLinkResourcesClient&text=PrivateLinkResourcesClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.storage.fluent.StorageManagementClient.getQueues()"
-  fullName: "com.azure.resourcemanager.storage.fluent.StorageManagementClient.getQueues()"
-  name: "getQueues()"
-  nameWithType: "StorageManagementClient.getQueues()"
-  summary: "Gets the Queues<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract QueuesClient getQueues()"
-  desc: "Gets the QueuesClient object to access its operations."
-  returns:
-    description: "the QueuesClient object."
-    type: "<xref href=\"com.azure.resourcemanager.storage.fluent.QueuesClient?alt=com.azure.resourcemanager.storage.fluent.QueuesClient&text=QueuesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.storage.fluent.StorageManagementClient.getQueueServices()"
   fullName: "com.azure.resourcemanager.storage.fluent.StorageManagementClient.getQueueServices()"
   name: "getQueueServices()"
@@ -246,6 +234,18 @@ methods:
   returns:
     description: "the QueueServicesClient object."
     type: "<xref href=\"com.azure.resourcemanager.storage.fluent.QueueServicesClient?alt=com.azure.resourcemanager.storage.fluent.QueueServicesClient&text=QueueServicesClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.storage.fluent.StorageManagementClient.getQueues()"
+  fullName: "com.azure.resourcemanager.storage.fluent.StorageManagementClient.getQueues()"
+  name: "getQueues()"
+  nameWithType: "StorageManagementClient.getQueues()"
+  summary: "Gets the Queues<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract QueuesClient getQueues()"
+  desc: "Gets the QueuesClient object to access its operations."
+  returns:
+    description: "the QueuesClient object."
+    type: "<xref href=\"com.azure.resourcemanager.storage.fluent.QueuesClient?alt=com.azure.resourcemanager.storage.fluent.QueuesClient&text=QueuesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.storage.fluent.StorageManagementClient.getSkus()"
   fullName: "com.azure.resourcemanager.storage.fluent.StorageManagementClient.getSkus()"
   name: "getSkus()"
@@ -318,18 +318,6 @@ methods:
   returns:
     description: "the subscriptionId value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.storage.fluent.StorageManagementClient.getTables()"
-  fullName: "com.azure.resourcemanager.storage.fluent.StorageManagementClient.getTables()"
-  name: "getTables()"
-  nameWithType: "StorageManagementClient.getTables()"
-  summary: "Gets the Tables<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract TablesClient getTables()"
-  desc: "Gets the TablesClient object to access its operations."
-  returns:
-    description: "the TablesClient object."
-    type: "<xref href=\"com.azure.resourcemanager.storage.fluent.TablesClient?alt=com.azure.resourcemanager.storage.fluent.TablesClient&text=TablesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.storage.fluent.StorageManagementClient.getTableServices()"
   fullName: "com.azure.resourcemanager.storage.fluent.StorageManagementClient.getTableServices()"
   name: "getTableServices()"
@@ -342,6 +330,18 @@ methods:
   returns:
     description: "the TableServicesClient object."
     type: "<xref href=\"com.azure.resourcemanager.storage.fluent.TableServicesClient?alt=com.azure.resourcemanager.storage.fluent.TableServicesClient&text=TableServicesClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.storage.fluent.StorageManagementClient.getTables()"
+  fullName: "com.azure.resourcemanager.storage.fluent.StorageManagementClient.getTables()"
+  name: "getTables()"
+  nameWithType: "StorageManagementClient.getTables()"
+  summary: "Gets the Tables<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract TablesClient getTables()"
+  desc: "Gets the TablesClient object to access its operations."
+  returns:
+    description: "the TablesClient object."
+    type: "<xref href=\"com.azure.resourcemanager.storage.fluent.TablesClient?alt=com.azure.resourcemanager.storage.fluent.TablesClient&text=TablesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.storage.fluent.StorageManagementClient.getUsages()"
   fullName: "com.azure.resourcemanager.storage.fluent.StorageManagementClient.getUsages()"
   name: "getUsages()"

@@ -265,9 +265,9 @@ methods:
   fullName: "com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphContact.jobTitle()"
   name: "jobTitle()"
   nameWithType: "MicrosoftGraphContact.jobTitle()"
-  summary: "Get the job<wbr>Title property: The contact’s job title."
+  summary: "Get the job<wbr>Title property: The contact\\\\u2019s job title."
   syntax: "public String jobTitle()"
-  desc: "Get the jobTitle property: The contact’s job title."
+  desc: "Get the jobTitle property: The contact\\\\u2019s job title."
   returns:
     description: "the jobTitle value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -765,13 +765,13 @@ methods:
   fullName: "com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphContact.withJobTitle(String jobTitle)"
   name: "withJobTitle(String jobTitle)"
   nameWithType: "MicrosoftGraphContact.withJobTitle(String jobTitle)"
-  summary: "Set the job<wbr>Title property: The contact’s job title."
+  summary: "Set the job<wbr>Title property: The contact\\\\u2019s job title."
   parameters:
   - description: "the jobTitle value to set."
     name: "jobTitle"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public MicrosoftGraphContact withJobTitle(String jobTitle)"
-  desc: "Set the jobTitle property: The contact’s job title."
+  desc: "Set the jobTitle property: The contact\\\\u2019s job title."
   returns:
     description: "the MicrosoftGraphContact object itself."
     type: "<xref href=\"com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphContact?alt=com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphContact&text=MicrosoftGraphContact\" data-throw-if-not-resolved=\"False\" />"

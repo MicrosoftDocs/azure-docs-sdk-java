@@ -54,7 +54,7 @@ methods:
   nameWithType: "ConsistencyPolicy.maxStalenessPrefix()"
   summary: "Get when used with the Bounded Staleness consistency level, this value represents the number of stale requests tolerated."
   syntax: "public Long maxStalenessPrefix()"
-  desc: "Get when used with the Bounded Staleness consistency level, this value represents the number of stale requests tolerated. Accepted range for this value is 1 – 2,147,483,647. Required when defaultConsistencyPolicy is set to 'BoundedStaleness'."
+  desc: "Get when used with the Bounded Staleness consistency level, this value represents the number of stale requests tolerated. Accepted range for this value is 1 \\\\u2013 2,147,483,647. Required when defaultConsistencyPolicy is set to 'BoundedStaleness'."
   returns:
     description: "the maxStalenessPrefix value"
     type: "<xref href=\"java.lang.Long?alt=java.lang.Long&text=Long\" data-throw-if-not-resolved=\"False\" />"
@@ -96,7 +96,7 @@ methods:
     name: "maxStalenessPrefix"
     type: "<xref href=\"java.lang.Long?alt=java.lang.Long&text=Long\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public ConsistencyPolicy withMaxStalenessPrefix(Long maxStalenessPrefix)"
-  desc: "Set when used with the Bounded Staleness consistency level, this value represents the number of stale requests tolerated. Accepted range for this value is 1 – 2,147,483,647. Required when defaultConsistencyPolicy is set to 'BoundedStaleness'."
+  desc: "Set when used with the Bounded Staleness consistency level, this value represents the number of stale requests tolerated. Accepted range for this value is 1 \\\\u2013 2,147,483,647. Required when defaultConsistencyPolicy is set to 'BoundedStaleness'."
   returns:
     description: "the ConsistencyPolicy object itself."
     type: "<xref href=\"com.microsoft.azure.management.cosmosdb.ConsistencyPolicy?alt=com.microsoft.azure.management.cosmosdb.ConsistencyPolicy&text=ConsistencyPolicy\" data-throw-if-not-resolved=\"False\" />"

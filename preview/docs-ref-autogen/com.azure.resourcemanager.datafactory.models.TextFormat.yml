@@ -59,7 +59,7 @@ methods:
   nameWithType: "TextFormat.encodingName()"
   summary: "Get the encoding<wbr>Name property: The code page name of the preferred encoding."
   syntax: "public Object encodingName()"
-  desc: "Get the encodingName property: The code page name of the preferred encoding. If miss, the default value is ΓÇ£utf-8ΓÇ¥, unless BOM denotes another Unicode encoding. Refer to the ΓÇ£NameΓÇ¥ column of the table in the following link to set supported values: https://msdn.microsoft.com/library/system.text.encoding.aspx. Type: string (or Expression with resultType string)."
+  desc: "Get the encodingName property: The code page name of the preferred encoding. If miss, the default value is \\\\u0393ǣutf-8\\\\u0393ǥ, unless BOM denotes another Unicode encoding. Refer to the \\\\u0393ǣName\\\\u0393ǥ column of the table in the following link to set supported values: https://msdn.microsoft.com/library/system.text.encoding.aspx. Type: string (or Expression with resultType string)."
   returns:
     description: "the encodingName value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
@@ -221,7 +221,7 @@ methods:
     name: "encodingName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   syntax: "public TextFormat withEncodingName(Object encodingName)"
-  desc: "Set the encodingName property: The code page name of the preferred encoding. If miss, the default value is ΓÇ£utf-8ΓÇ¥, unless BOM denotes another Unicode encoding. Refer to the ΓÇ£NameΓÇ¥ column of the table in the following link to set supported values: https://msdn.microsoft.com/library/system.text.encoding.aspx. Type: string (or Expression with resultType string)."
+  desc: "Set the encodingName property: The code page name of the preferred encoding. If miss, the default value is \\\\u0393ǣutf-8\\\\u0393ǥ, unless BOM denotes another Unicode encoding. Refer to the \\\\u0393ǣName\\\\u0393ǥ column of the table in the following link to set supported values: https://msdn.microsoft.com/library/system.text.encoding.aspx. Type: string (or Expression with resultType string)."
   returns:
     description: "the TextFormat object itself."
     type: "<xref href=\"com.azure.resourcemanager.datafactory.models.TextFormat?alt=com.azure.resourcemanager.datafactory.models.TextFormat&text=TextFormat\" data-throw-if-not-resolved=\"False\" />"

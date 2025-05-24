@@ -6,18 +6,6 @@ nameWithType: "SpringApp.DefinitionStages.WithServiceRegistryBinding"
 summary: "(Enterprise Tier Only) The stage of spring app definition allowing to bind it to service registry."
 syntax: "public static interface **SpringApp.DefinitionStages.WithServiceRegistryBinding**"
 methods:
-- uid: "com.azure.resourcemanager.appplatform.models.SpringApp.DefinitionStages.WithServiceRegistryBinding.withoutServiceRegistryBinding()"
-  fullName: "com.azure.resourcemanager.appplatform.models.SpringApp.DefinitionStages.WithServiceRegistryBinding.withoutServiceRegistryBinding()"
-  name: "withoutServiceRegistryBinding()"
-  nameWithType: "SpringApp.DefinitionStages.WithServiceRegistryBinding.withoutServiceRegistryBinding()"
-  summary: "Removes a binding to the default service registry."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract SpringApp.DefinitionStages.WithCreate withoutServiceRegistryBinding()"
-  desc: "Removes a binding to the default service registry. When you change the bind/unbind status, you must restart or redeploy the app to for the binding to take effect."
-  returns:
-    description: "the next stage of spring app definition"
-    type: "<xref href=\"com.azure.resourcemanager.appplatform.models.SpringApp.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.appplatform.models.SpringApp.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.appplatform.models.SpringApp.DefinitionStages.WithServiceRegistryBinding.withServiceRegistryBinding()"
   fullName: "com.azure.resourcemanager.appplatform.models.SpringApp.DefinitionStages.WithServiceRegistryBinding.withServiceRegistryBinding()"
   name: "withServiceRegistryBinding()"
@@ -27,6 +15,18 @@ methods:
   - "abstract"
   syntax: "public abstract SpringApp.DefinitionStages.WithCreate withServiceRegistryBinding()"
   desc: "Specifies a binding to the default service registry. When you change the bind/unbind status, you must restart or redeploy the app to for the binding to take effect."
+  returns:
+    description: "the next stage of spring app definition"
+    type: "<xref href=\"com.azure.resourcemanager.appplatform.models.SpringApp.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.appplatform.models.SpringApp.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.appplatform.models.SpringApp.DefinitionStages.WithServiceRegistryBinding.withoutServiceRegistryBinding()"
+  fullName: "com.azure.resourcemanager.appplatform.models.SpringApp.DefinitionStages.WithServiceRegistryBinding.withoutServiceRegistryBinding()"
+  name: "withoutServiceRegistryBinding()"
+  nameWithType: "SpringApp.DefinitionStages.WithServiceRegistryBinding.withoutServiceRegistryBinding()"
+  summary: "Removes a binding to the default service registry."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract SpringApp.DefinitionStages.WithCreate withoutServiceRegistryBinding()"
+  desc: "Removes a binding to the default service registry. When you change the bind/unbind status, you must restart or redeploy the app to for the binding to take effect."
   returns:
     description: "the next stage of spring app definition"
     type: "<xref href=\"com.azure.resourcemanager.appplatform.models.SpringApp.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.appplatform.models.SpringApp.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"

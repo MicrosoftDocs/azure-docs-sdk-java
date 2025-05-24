@@ -102,18 +102,6 @@ methods:
   returns:
     description: "the OperationsClient object."
     type: "<xref href=\"com.azure.resourcemanager.mobilenetwork.fluent.OperationsClient?alt=com.azure.resourcemanager.mobilenetwork.fluent.OperationsClient&text=OperationsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.mobilenetwork.fluent.MobileNetworkManagementClient.getPacketCoreControlPlanes()"
-  fullName: "com.azure.resourcemanager.mobilenetwork.fluent.MobileNetworkManagementClient.getPacketCoreControlPlanes()"
-  name: "getPacketCoreControlPlanes()"
-  nameWithType: "MobileNetworkManagementClient.getPacketCoreControlPlanes()"
-  summary: "Gets the Packet<wbr>Core<wbr>Control<wbr>Planes<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract PacketCoreControlPlanesClient getPacketCoreControlPlanes()"
-  desc: "Gets the PacketCoreControlPlanesClient object to access its operations."
-  returns:
-    description: "the PacketCoreControlPlanesClient object."
-    type: "<xref href=\"com.azure.resourcemanager.mobilenetwork.fluent.PacketCoreControlPlanesClient?alt=com.azure.resourcemanager.mobilenetwork.fluent.PacketCoreControlPlanesClient&text=PacketCoreControlPlanesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.mobilenetwork.fluent.MobileNetworkManagementClient.getPacketCoreControlPlaneVersions()"
   fullName: "com.azure.resourcemanager.mobilenetwork.fluent.MobileNetworkManagementClient.getPacketCoreControlPlaneVersions()"
   name: "getPacketCoreControlPlaneVersions()"
@@ -126,6 +114,18 @@ methods:
   returns:
     description: "the PacketCoreControlPlaneVersionsClient object."
     type: "<xref href=\"com.azure.resourcemanager.mobilenetwork.fluent.PacketCoreControlPlaneVersionsClient?alt=com.azure.resourcemanager.mobilenetwork.fluent.PacketCoreControlPlaneVersionsClient&text=PacketCoreControlPlaneVersionsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.mobilenetwork.fluent.MobileNetworkManagementClient.getPacketCoreControlPlanes()"
+  fullName: "com.azure.resourcemanager.mobilenetwork.fluent.MobileNetworkManagementClient.getPacketCoreControlPlanes()"
+  name: "getPacketCoreControlPlanes()"
+  nameWithType: "MobileNetworkManagementClient.getPacketCoreControlPlanes()"
+  summary: "Gets the Packet<wbr>Core<wbr>Control<wbr>Planes<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract PacketCoreControlPlanesClient getPacketCoreControlPlanes()"
+  desc: "Gets the PacketCoreControlPlanesClient object to access its operations."
+  returns:
+    description: "the PacketCoreControlPlanesClient object."
+    type: "<xref href=\"com.azure.resourcemanager.mobilenetwork.fluent.PacketCoreControlPlanesClient?alt=com.azure.resourcemanager.mobilenetwork.fluent.PacketCoreControlPlanesClient&text=PacketCoreControlPlanesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.mobilenetwork.fluent.MobileNetworkManagementClient.getPacketCoreDataPlanes()"
   fullName: "com.azure.resourcemanager.mobilenetwork.fluent.MobileNetworkManagementClient.getPacketCoreDataPlanes()"
   name: "getPacketCoreDataPlanes()"

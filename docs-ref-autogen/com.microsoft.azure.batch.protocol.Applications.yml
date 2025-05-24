@@ -192,6 +192,22 @@ methods:
   returns:
     description: "the observable to the PagedList&lt;ApplicationSummary&gt; object"
     type: "<xref href=\"rx.Observable?alt=rx.Observable&text=Observable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.Page?alt=com.microsoft.azure.Page&text=Page\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.batch.protocol.models.ApplicationSummary?alt=com.microsoft.azure.batch.protocol.models.ApplicationSummary&text=ApplicationSummary\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
+- uid: "com.microsoft.azure.batch.protocol.Applications.listAsync(com.microsoft.azure.ListOperationCallback<com.microsoft.azure.batch.protocol.models.ApplicationSummary>)"
+  fullName: "com.microsoft.azure.batch.protocol.Applications.listAsync(ListOperationCallback<ApplicationSummary> serviceCallback)"
+  name: "listAsync(ListOperationCallback<ApplicationSummary> serviceCallback)"
+  nameWithType: "Applications.listAsync(ListOperationCallback<ApplicationSummary> serviceCallback)"
+  summary: "Lists all of the applications available in the specified Account."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "the async ServiceCallback to handle successful and failed responses."
+    name: "serviceCallback"
+    type: "<xref href=\"com.microsoft.azure.ListOperationCallback?alt=com.microsoft.azure.ListOperationCallback&text=ListOperationCallback\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.batch.protocol.models.ApplicationSummary?alt=com.microsoft.azure.batch.protocol.models.ApplicationSummary&text=ApplicationSummary\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public abstract ServiceFuture<List<ApplicationSummary>> listAsync(ListOperationCallback<ApplicationSummary> serviceCallback)"
+  desc: "Lists all of the applications available in the specified Account. This operation returns only Applications and versions that are available for use on Compute Nodes; that is, that can be used in an Package reference. For administrator information about applications and versions that are not yet available to Compute Nodes, use the Azure portal or the Azure Resource Manager API."
+  returns:
+    description: "the <xref uid=\"com.microsoft.rest.ServiceFuture\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ServiceFuture\"></xref> object"
+    type: "<xref href=\"com.microsoft.rest.ServiceFuture?alt=com.microsoft.rest.ServiceFuture&text=ServiceFuture\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.microsoft.azure.batch.protocol.models.ApplicationSummary?alt=com.microsoft.azure.batch.protocol.models.ApplicationSummary&text=ApplicationSummary\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
 - uid: "com.microsoft.azure.batch.protocol.Applications.listAsync(com.microsoft.azure.batch.protocol.models.ApplicationListOptions)"
   fullName: "com.microsoft.azure.batch.protocol.Applications.listAsync(ApplicationListOptions applicationListOptions)"
   name: "listAsync(ApplicationListOptions applicationListOptions)"
@@ -223,22 +239,6 @@ methods:
     name: "serviceCallback"
     type: "<xref href=\"com.microsoft.azure.ListOperationCallback?alt=com.microsoft.azure.ListOperationCallback&text=ListOperationCallback\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.batch.protocol.models.ApplicationSummary?alt=com.microsoft.azure.batch.protocol.models.ApplicationSummary&text=ApplicationSummary\" data-throw-if-not-resolved=\"False\" />&gt;"
   syntax: "public abstract ServiceFuture<List<ApplicationSummary>> listAsync(ApplicationListOptions applicationListOptions, ListOperationCallback<ApplicationSummary> serviceCallback)"
-  desc: "Lists all of the applications available in the specified Account. This operation returns only Applications and versions that are available for use on Compute Nodes; that is, that can be used in an Package reference. For administrator information about applications and versions that are not yet available to Compute Nodes, use the Azure portal or the Azure Resource Manager API."
-  returns:
-    description: "the <xref uid=\"com.microsoft.rest.ServiceFuture\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ServiceFuture\"></xref> object"
-    type: "<xref href=\"com.microsoft.rest.ServiceFuture?alt=com.microsoft.rest.ServiceFuture&text=ServiceFuture\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.microsoft.azure.batch.protocol.models.ApplicationSummary?alt=com.microsoft.azure.batch.protocol.models.ApplicationSummary&text=ApplicationSummary\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
-- uid: "com.microsoft.azure.batch.protocol.Applications.listAsync(com.microsoft.azure.ListOperationCallback<com.microsoft.azure.batch.protocol.models.ApplicationSummary>)"
-  fullName: "com.microsoft.azure.batch.protocol.Applications.listAsync(ListOperationCallback<ApplicationSummary> serviceCallback)"
-  name: "listAsync(ListOperationCallback<ApplicationSummary> serviceCallback)"
-  nameWithType: "Applications.listAsync(ListOperationCallback<ApplicationSummary> serviceCallback)"
-  summary: "Lists all of the applications available in the specified Account."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "the async ServiceCallback to handle successful and failed responses."
-    name: "serviceCallback"
-    type: "<xref href=\"com.microsoft.azure.ListOperationCallback?alt=com.microsoft.azure.ListOperationCallback&text=ListOperationCallback\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.batch.protocol.models.ApplicationSummary?alt=com.microsoft.azure.batch.protocol.models.ApplicationSummary&text=ApplicationSummary\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public abstract ServiceFuture<List<ApplicationSummary>> listAsync(ListOperationCallback<ApplicationSummary> serviceCallback)"
   desc: "Lists all of the applications available in the specified Account. This operation returns only Applications and versions that are available for use on Compute Nodes; that is, that can be used in an Package reference. For administrator information about applications and versions that are not yet available to Compute Nodes, use the Azure portal or the Azure Resource Manager API."
   returns:
     description: "the <xref uid=\"com.microsoft.rest.ServiceFuture\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ServiceFuture\"></xref> object"

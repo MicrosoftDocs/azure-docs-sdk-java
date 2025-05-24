@@ -96,6 +96,18 @@ constructors:
   syntax: "public SyncDefaultPollingStrategy(PollingStrategyOptions pollingStrategyOptions)"
   desc: "Creates a chained polling strategy with 3 known polling strategies, <xref uid=\"com.azure.core.util.polling.SyncOperationResourcePollingStrategy\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncOperationResourcePollingStrategy\"></xref>, <xref uid=\"com.azure.core.util.polling.SyncLocationPollingStrategy\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncLocationPollingStrategy\"></xref>, and <xref uid=\"com.azure.core.util.polling.SyncStatusCheckPollingStrategy\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncStatusCheckPollingStrategy\"></xref>, in this order, with a custom serializer."
 methods:
+- uid: "com.azure.core.util.polling.SyncDefaultPollingStrategy.canPoll(com.azure.core.http.rest.Response<?>)"
+  fullName: "com.azure.core.util.polling.SyncDefaultPollingStrategy<T,U>.canPoll(Response<?> initialResponse)"
+  name: "canPoll(Response<?> initialResponse)"
+  nameWithType: "SyncDefaultPollingStrategy<T,U>.canPoll(Response<?> initialResponse)"
+  summary: "Checks if this strategy is able to handle polling for this long-running operation based on the information in the initial response."
+  parameters:
+  - name: "initialResponse"
+    type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;?&gt;"
+  syntax: "public boolean canPoll(Response<?> initialResponse)"
+  desc: "Checks if this strategy is able to handle polling for this long-running operation based on the information in the initial response."
+  returns:
+    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.core.util.polling.SyncDefaultPollingStrategy.cancel(com.azure.core.util.polling.PollingContext<T>,com.azure.core.util.polling.PollResponse<T>)"
   fullName: "com.azure.core.util.polling.SyncDefaultPollingStrategy<T,U>.cancel(PollingContext<T> pollingContext, PollResponse<T> initialResponse)"
   name: "cancel(PollingContext<T> pollingContext, PollResponse<T> initialResponse)"
@@ -110,18 +122,6 @@ methods:
   desc: "Cancels the long-running operation if service supports cancellation. If service does not support cancellation then the implementer should throw an <xref uid=\"java.lang.IllegalStateException\" data-throw-if-not-resolved=\"false\" data-raw-source=\"IllegalStateException\"></xref> with an error message indicating absence of cancellation.\n\nImplementing this method is optional - by default, cancellation will not be supported unless overridden."
   returns:
     type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.core.util.polling.SyncDefaultPollingStrategy.canPoll(com.azure.core.http.rest.Response<?>)"
-  fullName: "com.azure.core.util.polling.SyncDefaultPollingStrategy<T,U>.canPoll(Response<?> initialResponse)"
-  name: "canPoll(Response<?> initialResponse)"
-  nameWithType: "SyncDefaultPollingStrategy<T,U>.canPoll(Response<?> initialResponse)"
-  summary: "Checks if this strategy is able to handle polling for this long-running operation based on the information in the initial response."
-  parameters:
-  - name: "initialResponse"
-    type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;?&gt;"
-  syntax: "public boolean canPoll(Response<?> initialResponse)"
-  desc: "Checks if this strategy is able to handle polling for this long-running operation based on the information in the initial response."
-  returns:
-    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.core.util.polling.SyncDefaultPollingStrategy.getResult(com.azure.core.util.polling.PollingContext<T>,com.azure.core.util.serializer.TypeReference<U>)"
   fullName: "com.azure.core.util.polling.SyncDefaultPollingStrategy<T,U>.getResult(PollingContext<T> pollingContext, TypeReference<U> resultType)"
   name: "getResult(PollingContext<T> pollingContext, TypeReference<U> resultType)"

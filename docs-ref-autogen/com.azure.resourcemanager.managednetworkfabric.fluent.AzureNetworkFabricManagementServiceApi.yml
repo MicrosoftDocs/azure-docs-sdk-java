@@ -186,18 +186,6 @@ methods:
   returns:
     description: "the NeighborGroupsClient object."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.NeighborGroupsClient?alt=com.azure.resourcemanager.managednetworkfabric.fluent.NeighborGroupsClient&text=NeighborGroupsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.AzureNetworkFabricManagementServiceApi.getNetworkDevices()"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.AzureNetworkFabricManagementServiceApi.getNetworkDevices()"
-  name: "getNetworkDevices()"
-  nameWithType: "AzureNetworkFabricManagementServiceApi.getNetworkDevices()"
-  summary: "Gets the Network<wbr>Devices<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract NetworkDevicesClient getNetworkDevices()"
-  desc: "Gets the NetworkDevicesClient object to access its operations."
-  returns:
-    description: "the NetworkDevicesClient object."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.NetworkDevicesClient?alt=com.azure.resourcemanager.managednetworkfabric.fluent.NetworkDevicesClient&text=NetworkDevicesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.AzureNetworkFabricManagementServiceApi.getNetworkDeviceSkus()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.AzureNetworkFabricManagementServiceApi.getNetworkDeviceSkus()"
   name: "getNetworkDeviceSkus()"
@@ -210,6 +198,18 @@ methods:
   returns:
     description: "the NetworkDeviceSkusClient object."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.NetworkDeviceSkusClient?alt=com.azure.resourcemanager.managednetworkfabric.fluent.NetworkDeviceSkusClient&text=NetworkDeviceSkusClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.AzureNetworkFabricManagementServiceApi.getNetworkDevices()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.AzureNetworkFabricManagementServiceApi.getNetworkDevices()"
+  name: "getNetworkDevices()"
+  nameWithType: "AzureNetworkFabricManagementServiceApi.getNetworkDevices()"
+  summary: "Gets the Network<wbr>Devices<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract NetworkDevicesClient getNetworkDevices()"
+  desc: "Gets the NetworkDevicesClient object to access its operations."
+  returns:
+    description: "the NetworkDevicesClient object."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.NetworkDevicesClient?alt=com.azure.resourcemanager.managednetworkfabric.fluent.NetworkDevicesClient&text=NetworkDevicesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.AzureNetworkFabricManagementServiceApi.getNetworkFabricControllers()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.AzureNetworkFabricManagementServiceApi.getNetworkFabricControllers()"
   name: "getNetworkFabricControllers()"
@@ -222,18 +222,6 @@ methods:
   returns:
     description: "the NetworkFabricControllersClient object."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.NetworkFabricControllersClient?alt=com.azure.resourcemanager.managednetworkfabric.fluent.NetworkFabricControllersClient&text=NetworkFabricControllersClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.AzureNetworkFabricManagementServiceApi.getNetworkFabrics()"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.AzureNetworkFabricManagementServiceApi.getNetworkFabrics()"
-  name: "getNetworkFabrics()"
-  nameWithType: "AzureNetworkFabricManagementServiceApi.getNetworkFabrics()"
-  summary: "Gets the Network<wbr>Fabrics<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract NetworkFabricsClient getNetworkFabrics()"
-  desc: "Gets the NetworkFabricsClient object to access its operations."
-  returns:
-    description: "the NetworkFabricsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.NetworkFabricsClient?alt=com.azure.resourcemanager.managednetworkfabric.fluent.NetworkFabricsClient&text=NetworkFabricsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.AzureNetworkFabricManagementServiceApi.getNetworkFabricSkus()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.AzureNetworkFabricManagementServiceApi.getNetworkFabricSkus()"
   name: "getNetworkFabricSkus()"
@@ -246,6 +234,18 @@ methods:
   returns:
     description: "the NetworkFabricSkusClient object."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.NetworkFabricSkusClient?alt=com.azure.resourcemanager.managednetworkfabric.fluent.NetworkFabricSkusClient&text=NetworkFabricSkusClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.AzureNetworkFabricManagementServiceApi.getNetworkFabrics()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.AzureNetworkFabricManagementServiceApi.getNetworkFabrics()"
+  name: "getNetworkFabrics()"
+  nameWithType: "AzureNetworkFabricManagementServiceApi.getNetworkFabrics()"
+  summary: "Gets the Network<wbr>Fabrics<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract NetworkFabricsClient getNetworkFabrics()"
+  desc: "Gets the NetworkFabricsClient object to access its operations."
+  returns:
+    description: "the NetworkFabricsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.NetworkFabricsClient?alt=com.azure.resourcemanager.managednetworkfabric.fluent.NetworkFabricsClient&text=NetworkFabricsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.AzureNetworkFabricManagementServiceApi.getNetworkInterfaces()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.AzureNetworkFabricManagementServiceApi.getNetworkInterfaces()"
   name: "getNetworkInterfaces()"

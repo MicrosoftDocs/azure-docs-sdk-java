@@ -204,16 +204,6 @@ methods:
   returns:
     description: "a pipeline on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.analytics.synapse.artifacts.models.PipelineResource?alt=com.azure.analytics.synapse.artifacts.models.PipelineResource&text=PipelineResource\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.analytics.synapse.artifacts.PipelineAsyncClient.getPipelinesByWorkspace()"
-  fullName: "com.azure.analytics.synapse.artifacts.PipelineAsyncClient.getPipelinesByWorkspace()"
-  name: "getPipelinesByWorkspace()"
-  nameWithType: "PipelineAsyncClient.getPipelinesByWorkspace()"
-  summary: "Lists pipelines."
-  syntax: "public PagedFlux<PipelineResource> getPipelinesByWorkspace()"
-  desc: "Lists pipelines."
-  returns:
-    description: "a list of pipeline resources as paginated response with <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
-    type: "<xref href=\"com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.analytics.synapse.artifacts.models.PipelineResource?alt=com.azure.analytics.synapse.artifacts.models.PipelineResource&text=PipelineResource\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.analytics.synapse.artifacts.PipelineAsyncClient.getPipelineWithResponse(java.lang.String,java.lang.String)"
   fullName: "com.azure.analytics.synapse.artifacts.PipelineAsyncClient.getPipelineWithResponse(String pipelineName, String ifNoneMatch)"
   name: "getPipelineWithResponse(String pipelineName, String ifNoneMatch)"
@@ -231,6 +221,16 @@ methods:
   returns:
     description: "a pipeline along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref> on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.analytics.synapse.artifacts.models.PipelineResource?alt=com.azure.analytics.synapse.artifacts.models.PipelineResource&text=PipelineResource\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
+- uid: "com.azure.analytics.synapse.artifacts.PipelineAsyncClient.getPipelinesByWorkspace()"
+  fullName: "com.azure.analytics.synapse.artifacts.PipelineAsyncClient.getPipelinesByWorkspace()"
+  name: "getPipelinesByWorkspace()"
+  nameWithType: "PipelineAsyncClient.getPipelinesByWorkspace()"
+  summary: "Lists pipelines."
+  syntax: "public PagedFlux<PipelineResource> getPipelinesByWorkspace()"
+  desc: "Lists pipelines."
+  returns:
+    description: "a list of pipeline resources as paginated response with <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
+    type: "<xref href=\"com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.analytics.synapse.artifacts.models.PipelineResource?alt=com.azure.analytics.synapse.artifacts.models.PipelineResource&text=PipelineResource\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.analytics.synapse.artifacts.PipelineAsyncClient.renamePipeline(java.lang.String,com.azure.analytics.synapse.artifacts.models.ArtifactRenameRequest)"
   fullName: "com.azure.analytics.synapse.artifacts.PipelineAsyncClient.renamePipeline(String pipelineName, ArtifactRenameRequest request)"
   name: "renamePipeline(String pipelineName, ArtifactRenameRequest request)"

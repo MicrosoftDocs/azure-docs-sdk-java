@@ -36,7 +36,7 @@ methods:
   nameWithType: "ProductEntityBaseParameters.approvalRequired()"
   summary: "Get the approval<wbr>Required property: whether subscription approval is required."
   syntax: "public Boolean approvalRequired()"
-  desc: "Get the approvalRequired property: whether subscription approval is required. If false, new subscriptions will be approved automatically enabling developers to call the product’s APIs immediately after subscribing. If true, administrators must manually approve the subscription before the developer can any of the product’s APIs. Can be present only if subscriptionRequired property is present and has a value of false."
+  desc: "Get the approvalRequired property: whether subscription approval is required. If false, new subscriptions will be approved automatically enabling developers to call the product\\\\u2019s APIs immediately after subscribing. If true, administrators must manually approve the subscription before the developer can any of the product\\\\u2019s APIs. Can be present only if subscriptionRequired property is present and has a value of false."
   returns:
     description: "the approvalRequired value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
@@ -138,7 +138,7 @@ methods:
     name: "approvalRequired"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
   syntax: "public ProductEntityBaseParameters withApprovalRequired(Boolean approvalRequired)"
-  desc: "Set the approvalRequired property: whether subscription approval is required. If false, new subscriptions will be approved automatically enabling developers to call the product’s APIs immediately after subscribing. If true, administrators must manually approve the subscription before the developer can any of the product’s APIs. Can be present only if subscriptionRequired property is present and has a value of false."
+  desc: "Set the approvalRequired property: whether subscription approval is required. If false, new subscriptions will be approved automatically enabling developers to call the product\\\\u2019s APIs immediately after subscribing. If true, administrators must manually approve the subscription before the developer can any of the product\\\\u2019s APIs. Can be present only if subscriptionRequired property is present and has a value of false."
   returns:
     description: "the ProductEntityBaseParameters object itself."
     type: "<xref href=\"com.azure.resourcemanager.apimanagement.models.ProductEntityBaseParameters?alt=com.azure.resourcemanager.apimanagement.models.ProductEntityBaseParameters&text=ProductEntityBaseParameters\" data-throw-if-not-resolved=\"False\" />"

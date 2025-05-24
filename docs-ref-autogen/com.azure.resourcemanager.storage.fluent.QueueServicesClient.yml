@@ -10,7 +10,7 @@ methods:
   fullName: "com.azure.resourcemanager.storage.fluent.QueueServicesClient.getServiceProperties(String resourceGroupName, String accountName)"
   name: "getServiceProperties(String resourceGroupName, String accountName)"
   nameWithType: "QueueServicesClient.getServiceProperties(String resourceGroupName, String accountName)"
-  summary: "Gets the properties of a storage account’s Queue service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  summary: "Gets the properties of a storage account\\\\u2019s Queue service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   modifiers:
   - "abstract"
   parameters:
@@ -21,7 +21,7 @@ methods:
     name: "accountName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract QueueServicePropertiesInner getServiceProperties(String resourceGroupName, String accountName)"
-  desc: "Gets the properties of a storage account’s Queue service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  desc: "Gets the properties of a storage account\\\\u2019s Queue service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   returns:
     description: "the properties of a storage account\\u2019s Queue service, including properties for Storage Analytics and CORS\n (Cross-Origin Resource Sharing) rules."
     type: "<xref href=\"com.azure.resourcemanager.storage.fluent.models.QueueServicePropertiesInner?alt=com.azure.resourcemanager.storage.fluent.models.QueueServicePropertiesInner&text=QueueServicePropertiesInner\" data-throw-if-not-resolved=\"False\" />"
@@ -29,7 +29,7 @@ methods:
   fullName: "com.azure.resourcemanager.storage.fluent.QueueServicesClient.getServicePropertiesAsync(String resourceGroupName, String accountName)"
   name: "getServicePropertiesAsync(String resourceGroupName, String accountName)"
   nameWithType: "QueueServicesClient.getServicePropertiesAsync(String resourceGroupName, String accountName)"
-  summary: "Gets the properties of a storage account’s Queue service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  summary: "Gets the properties of a storage account\\\\u2019s Queue service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   modifiers:
   - "abstract"
   parameters:
@@ -40,7 +40,7 @@ methods:
     name: "accountName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract Mono<QueueServicePropertiesInner> getServicePropertiesAsync(String resourceGroupName, String accountName)"
-  desc: "Gets the properties of a storage account’s Queue service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  desc: "Gets the properties of a storage account\\\\u2019s Queue service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   returns:
     description: "the properties of a storage account\\u2019s Queue service, including properties for Storage Analytics and CORS\n (Cross-Origin Resource Sharing) rules on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.resourcemanager.storage.fluent.models.QueueServicePropertiesInner?alt=com.azure.resourcemanager.storage.fluent.models.QueueServicePropertiesInner&text=QueueServicePropertiesInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -48,7 +48,7 @@ methods:
   fullName: "com.azure.resourcemanager.storage.fluent.QueueServicesClient.getServicePropertiesWithResponse(String resourceGroupName, String accountName, Context context)"
   name: "getServicePropertiesWithResponse(String resourceGroupName, String accountName, Context context)"
   nameWithType: "QueueServicesClient.getServicePropertiesWithResponse(String resourceGroupName, String accountName, Context context)"
-  summary: "Gets the properties of a storage account’s Queue service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  summary: "Gets the properties of a storage account\\\\u2019s Queue service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   modifiers:
   - "abstract"
   parameters:
@@ -62,7 +62,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Response<QueueServicePropertiesInner> getServicePropertiesWithResponse(String resourceGroupName, String accountName, Context context)"
-  desc: "Gets the properties of a storage account’s Queue service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  desc: "Gets the properties of a storage account\\\\u2019s Queue service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   returns:
     description: "the properties of a storage account\\u2019s Queue service, including properties for Storage Analytics and CORS\n (Cross-Origin Resource Sharing) rules along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.storage.fluent.models.QueueServicePropertiesInner?alt=com.azure.resourcemanager.storage.fluent.models.QueueServicePropertiesInner&text=QueueServicePropertiesInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -70,7 +70,7 @@ methods:
   fullName: "com.azure.resourcemanager.storage.fluent.QueueServicesClient.getServicePropertiesWithResponseAsync(String resourceGroupName, String accountName)"
   name: "getServicePropertiesWithResponseAsync(String resourceGroupName, String accountName)"
   nameWithType: "QueueServicesClient.getServicePropertiesWithResponseAsync(String resourceGroupName, String accountName)"
-  summary: "Gets the properties of a storage account’s Queue service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  summary: "Gets the properties of a storage account\\\\u2019s Queue service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   modifiers:
   - "abstract"
   parameters:
@@ -81,7 +81,7 @@ methods:
     name: "accountName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract Mono<Response<QueueServicePropertiesInner>> getServicePropertiesWithResponseAsync(String resourceGroupName, String accountName)"
-  desc: "Gets the properties of a storage account’s Queue service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  desc: "Gets the properties of a storage account\\\\u2019s Queue service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   returns:
     description: "the properties of a storage account\\u2019s Queue service, including properties for Storage Analytics and CORS\n (Cross-Origin Resource Sharing) rules along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref> on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.storage.fluent.models.QueueServicePropertiesInner?alt=com.azure.resourcemanager.storage.fluent.models.QueueServicePropertiesInner&text=QueueServicePropertiesInner\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
@@ -168,7 +168,7 @@ methods:
   fullName: "com.azure.resourcemanager.storage.fluent.QueueServicesClient.setServiceProperties(String resourceGroupName, String accountName, QueueServicePropertiesInner parameters)"
   name: "setServiceProperties(String resourceGroupName, String accountName, QueueServicePropertiesInner parameters)"
   nameWithType: "QueueServicesClient.setServiceProperties(String resourceGroupName, String accountName, QueueServicePropertiesInner parameters)"
-  summary: "Sets the properties of a storage account’s Queue service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  summary: "Sets the properties of a storage account\\\\u2019s Queue service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   modifiers:
   - "abstract"
   parameters:
@@ -182,7 +182,7 @@ methods:
     name: "parameters"
     type: "<xref href=\"com.azure.resourcemanager.storage.fluent.models.QueueServicePropertiesInner?alt=com.azure.resourcemanager.storage.fluent.models.QueueServicePropertiesInner&text=QueueServicePropertiesInner\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract QueueServicePropertiesInner setServiceProperties(String resourceGroupName, String accountName, QueueServicePropertiesInner parameters)"
-  desc: "Sets the properties of a storage account’s Queue service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  desc: "Sets the properties of a storage account\\\\u2019s Queue service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   returns:
     description: "the properties of a storage account\\u2019s Queue service."
     type: "<xref href=\"com.azure.resourcemanager.storage.fluent.models.QueueServicePropertiesInner?alt=com.azure.resourcemanager.storage.fluent.models.QueueServicePropertiesInner&text=QueueServicePropertiesInner\" data-throw-if-not-resolved=\"False\" />"
@@ -190,7 +190,7 @@ methods:
   fullName: "com.azure.resourcemanager.storage.fluent.QueueServicesClient.setServicePropertiesAsync(String resourceGroupName, String accountName, QueueServicePropertiesInner parameters)"
   name: "setServicePropertiesAsync(String resourceGroupName, String accountName, QueueServicePropertiesInner parameters)"
   nameWithType: "QueueServicesClient.setServicePropertiesAsync(String resourceGroupName, String accountName, QueueServicePropertiesInner parameters)"
-  summary: "Sets the properties of a storage account’s Queue service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  summary: "Sets the properties of a storage account\\\\u2019s Queue service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   modifiers:
   - "abstract"
   parameters:
@@ -204,7 +204,7 @@ methods:
     name: "parameters"
     type: "<xref href=\"com.azure.resourcemanager.storage.fluent.models.QueueServicePropertiesInner?alt=com.azure.resourcemanager.storage.fluent.models.QueueServicePropertiesInner&text=QueueServicePropertiesInner\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Mono<QueueServicePropertiesInner> setServicePropertiesAsync(String resourceGroupName, String accountName, QueueServicePropertiesInner parameters)"
-  desc: "Sets the properties of a storage account’s Queue service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  desc: "Sets the properties of a storage account\\\\u2019s Queue service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   returns:
     description: "the properties of a storage account\\u2019s Queue service on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.resourcemanager.storage.fluent.models.QueueServicePropertiesInner?alt=com.azure.resourcemanager.storage.fluent.models.QueueServicePropertiesInner&text=QueueServicePropertiesInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -212,7 +212,7 @@ methods:
   fullName: "com.azure.resourcemanager.storage.fluent.QueueServicesClient.setServicePropertiesWithResponse(String resourceGroupName, String accountName, QueueServicePropertiesInner parameters, Context context)"
   name: "setServicePropertiesWithResponse(String resourceGroupName, String accountName, QueueServicePropertiesInner parameters, Context context)"
   nameWithType: "QueueServicesClient.setServicePropertiesWithResponse(String resourceGroupName, String accountName, QueueServicePropertiesInner parameters, Context context)"
-  summary: "Sets the properties of a storage account’s Queue service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  summary: "Sets the properties of a storage account\\\\u2019s Queue service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   modifiers:
   - "abstract"
   parameters:
@@ -229,7 +229,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Response<QueueServicePropertiesInner> setServicePropertiesWithResponse(String resourceGroupName, String accountName, QueueServicePropertiesInner parameters, Context context)"
-  desc: "Sets the properties of a storage account’s Queue service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  desc: "Sets the properties of a storage account\\\\u2019s Queue service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   returns:
     description: "the properties of a storage account\\u2019s Queue service along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.storage.fluent.models.QueueServicePropertiesInner?alt=com.azure.resourcemanager.storage.fluent.models.QueueServicePropertiesInner&text=QueueServicePropertiesInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -237,7 +237,7 @@ methods:
   fullName: "com.azure.resourcemanager.storage.fluent.QueueServicesClient.setServicePropertiesWithResponseAsync(String resourceGroupName, String accountName, QueueServicePropertiesInner parameters)"
   name: "setServicePropertiesWithResponseAsync(String resourceGroupName, String accountName, QueueServicePropertiesInner parameters)"
   nameWithType: "QueueServicesClient.setServicePropertiesWithResponseAsync(String resourceGroupName, String accountName, QueueServicePropertiesInner parameters)"
-  summary: "Sets the properties of a storage account’s Queue service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  summary: "Sets the properties of a storage account\\\\u2019s Queue service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   modifiers:
   - "abstract"
   parameters:
@@ -251,7 +251,7 @@ methods:
     name: "parameters"
     type: "<xref href=\"com.azure.resourcemanager.storage.fluent.models.QueueServicePropertiesInner?alt=com.azure.resourcemanager.storage.fluent.models.QueueServicePropertiesInner&text=QueueServicePropertiesInner\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Mono<Response<QueueServicePropertiesInner>> setServicePropertiesWithResponseAsync(String resourceGroupName, String accountName, QueueServicePropertiesInner parameters)"
-  desc: "Sets the properties of a storage account’s Queue service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  desc: "Sets the properties of a storage account\\\\u2019s Queue service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   returns:
     description: "the properties of a storage account\\u2019s Queue service along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref> on successful completion\n of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.storage.fluent.models.QueueServicePropertiesInner?alt=com.azure.resourcemanager.storage.fluent.models.QueueServicePropertiesInner&text=QueueServicePropertiesInner\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"

@@ -64,20 +64,6 @@ methods:
   returns:
     description: "The VectorSearchOptions object itself."
     type: "<xref href=\"com.azure.search.documents.models.VectorSearchOptions?alt=com.azure.search.documents.models.VectorSearchOptions&text=VectorSearchOptions\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.search.documents.models.VectorSearchOptions.setQueries(java.util.List<com.azure.search.documents.models.VectorQuery>)"
-  fullName: "com.azure.search.documents.models.VectorSearchOptions.setQueries(List<VectorQuery> queries)"
-  name: "setQueries(List<VectorQuery> queries)"
-  nameWithType: "VectorSearchOptions.setQueries(List<VectorQuery> queries)"
-  summary: "Sets the list of vector queries to perform."
-  parameters:
-  - description: "The list of vector queries to perform."
-    name: "queries"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.search.documents.models.VectorQuery?alt=com.azure.search.documents.models.VectorQuery&text=VectorQuery\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public VectorSearchOptions setQueries(List<VectorQuery> queries)"
-  desc: "Sets the list of vector queries to perform."
-  returns:
-    description: "The VectorSearchOptions object itself."
-    type: "<xref href=\"com.azure.search.documents.models.VectorSearchOptions?alt=com.azure.search.documents.models.VectorSearchOptions&text=VectorSearchOptions\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.search.documents.models.VectorSearchOptions.setQueries(com.azure.search.documents.models.VectorQuery...)"
   fullName: "com.azure.search.documents.models.VectorSearchOptions.setQueries(VectorQuery[] queries)"
   name: "setQueries(VectorQuery[] queries)"
@@ -88,6 +74,20 @@ methods:
     name: "queries"
     type: "<xref href=\"com.azure.search.documents.models.VectorQuery?alt=com.azure.search.documents.models.VectorQuery&text=VectorQuery\" data-throw-if-not-resolved=\"False\" />[]"
   syntax: "public VectorSearchOptions setQueries(VectorQuery[] queries)"
+  desc: "Sets the list of vector queries to perform."
+  returns:
+    description: "The VectorSearchOptions object itself."
+    type: "<xref href=\"com.azure.search.documents.models.VectorSearchOptions?alt=com.azure.search.documents.models.VectorSearchOptions&text=VectorSearchOptions\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.search.documents.models.VectorSearchOptions.setQueries(java.util.List<com.azure.search.documents.models.VectorQuery>)"
+  fullName: "com.azure.search.documents.models.VectorSearchOptions.setQueries(List<VectorQuery> queries)"
+  name: "setQueries(List<VectorQuery> queries)"
+  nameWithType: "VectorSearchOptions.setQueries(List<VectorQuery> queries)"
+  summary: "Sets the list of vector queries to perform."
+  parameters:
+  - description: "The list of vector queries to perform."
+    name: "queries"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.search.documents.models.VectorQuery?alt=com.azure.search.documents.models.VectorQuery&text=VectorQuery\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public VectorSearchOptions setQueries(List<VectorQuery> queries)"
   desc: "Sets the list of vector queries to perform."
   returns:
     description: "The VectorSearchOptions object itself."

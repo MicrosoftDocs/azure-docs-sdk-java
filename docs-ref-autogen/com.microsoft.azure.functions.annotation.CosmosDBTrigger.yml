@@ -66,18 +66,6 @@ methods:
   returns:
     description: "configuration whether to create a new lease collection if not exists."
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.azure.functions.annotation.CosmosDBTrigger.databaseName()"
-  fullName: "com.microsoft.azure.functions.annotation.CosmosDBTrigger.databaseName()"
-  name: "databaseName()"
-  nameWithType: "CosmosDBTrigger.databaseName()"
-  summary: "Defines the database name of the CosmosDB to which to bind."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract String databaseName()"
-  desc: "Defines the database name of the CosmosDB to which to bind."
-  returns:
-    description: "The database name string."
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.functions.annotation.CosmosDBTrigger.dataType()"
   fullName: "com.microsoft.azure.functions.annotation.CosmosDBTrigger.dataType()"
   name: "dataType()"
@@ -89,6 +77,18 @@ methods:
   desc: "Defines how Functions runtime should treat the parameter value. Possible values are:\n\n *  \"\": get the value as a string, and try to deserialize to actual parameter type like POJO\n *  string: always get the value as a string\n *  binary: get the value as a binary data, and try to deserialize to actual parameter type byte\\[\\]"
   returns:
     description: "The dataType which will be used by the Functions runtime."
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.azure.functions.annotation.CosmosDBTrigger.databaseName()"
+  fullName: "com.microsoft.azure.functions.annotation.CosmosDBTrigger.databaseName()"
+  name: "databaseName()"
+  nameWithType: "CosmosDBTrigger.databaseName()"
+  summary: "Defines the database name of the CosmosDB to which to bind."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String databaseName()"
+  desc: "Defines the database name of the CosmosDB to which to bind."
+  returns:
+    description: "The database name string."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.functions.annotation.CosmosDBTrigger.feedPollDelay()"
   fullName: "com.microsoft.azure.functions.annotation.CosmosDBTrigger.feedPollDelay()"

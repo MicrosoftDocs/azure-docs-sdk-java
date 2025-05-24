@@ -407,20 +407,6 @@ methods:
   returns:
     description: "the IndexingParametersConfiguration object itself."
     type: "<xref href=\"com.azure.search.documents.indexes.models.IndexingParametersConfiguration?alt=com.azure.search.documents.indexes.models.IndexingParametersConfiguration&text=IndexingParametersConfiguration\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.search.documents.indexes.models.IndexingParametersConfiguration.setIndexedFileNameExtensions(java.lang.String)"
-  fullName: "com.azure.search.documents.indexes.models.IndexingParametersConfiguration.setIndexedFileNameExtensions(String indexedFileNameExtensions)"
-  name: "setIndexedFileNameExtensions(String indexedFileNameExtensions)"
-  nameWithType: "IndexingParametersConfiguration.setIndexedFileNameExtensions(String indexedFileNameExtensions)"
-  summary: "Set the indexed<wbr>File<wbr>Name<wbr>Extensions property: Comma-delimited list of filename extensions to select when processing from Azure blob storage."
-  parameters:
-  - description: "the indexedFileNameExtensions value to set."
-    name: "indexedFileNameExtensions"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public IndexingParametersConfiguration setIndexedFileNameExtensions(String indexedFileNameExtensions)"
-  desc: "Set the indexedFileNameExtensions property: Comma-delimited list of filename extensions to select when processing from Azure blob storage. For example, you could focus indexing on specific application files \".docx, .pptx, .msg\" to specifically include those file types."
-  returns:
-    description: "the IndexingParametersConfiguration object itself."
-    type: "<xref href=\"com.azure.search.documents.indexes.models.IndexingParametersConfiguration?alt=com.azure.search.documents.indexes.models.IndexingParametersConfiguration&text=IndexingParametersConfiguration\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.search.documents.indexes.models.IndexingParametersConfiguration.setIndexStorageMetadataOnlyForOversizedDocuments(java.lang.Boolean)"
   fullName: "com.azure.search.documents.indexes.models.IndexingParametersConfiguration.setIndexStorageMetadataOnlyForOversizedDocuments(Boolean indexStorageMetadataOnlyForOversizedDocuments)"
   name: "setIndexStorageMetadataOnlyForOversizedDocuments(Boolean indexStorageMetadataOnlyForOversizedDocuments)"
@@ -432,6 +418,20 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
   syntax: "public IndexingParametersConfiguration setIndexStorageMetadataOnlyForOversizedDocuments(Boolean indexStorageMetadataOnlyForOversizedDocuments)"
   desc: "Set the indexStorageMetadataOnlyForOversizedDocuments property: For Azure blobs, set this property to true to still index storage metadata for blob content that is too large to process. Oversized blobs are treated as errors by default. For limits on blob size, see https://learn.microsoft.com/azure/search/search-limits-quotas-capacity."
+  returns:
+    description: "the IndexingParametersConfiguration object itself."
+    type: "<xref href=\"com.azure.search.documents.indexes.models.IndexingParametersConfiguration?alt=com.azure.search.documents.indexes.models.IndexingParametersConfiguration&text=IndexingParametersConfiguration\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.search.documents.indexes.models.IndexingParametersConfiguration.setIndexedFileNameExtensions(java.lang.String)"
+  fullName: "com.azure.search.documents.indexes.models.IndexingParametersConfiguration.setIndexedFileNameExtensions(String indexedFileNameExtensions)"
+  name: "setIndexedFileNameExtensions(String indexedFileNameExtensions)"
+  nameWithType: "IndexingParametersConfiguration.setIndexedFileNameExtensions(String indexedFileNameExtensions)"
+  summary: "Set the indexed<wbr>File<wbr>Name<wbr>Extensions property: Comma-delimited list of filename extensions to select when processing from Azure blob storage."
+  parameters:
+  - description: "the indexedFileNameExtensions value to set."
+    name: "indexedFileNameExtensions"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public IndexingParametersConfiguration setIndexedFileNameExtensions(String indexedFileNameExtensions)"
+  desc: "Set the indexedFileNameExtensions property: Comma-delimited list of filename extensions to select when processing from Azure blob storage. For example, you could focus indexing on specific application files \".docx, .pptx, .msg\" to specifically include those file types."
   returns:
     description: "the IndexingParametersConfiguration object itself."
     type: "<xref href=\"com.azure.search.documents.indexes.models.IndexingParametersConfiguration?alt=com.azure.search.documents.indexes.models.IndexingParametersConfiguration&text=IndexingParametersConfiguration\" data-throw-if-not-resolved=\"False\" />"

@@ -6,18 +6,6 @@ nameWithType: "LoadBalancingRule.UpdateStages.WithProbe"
 summary: "The stage of a load balancing rule update allowing to specify the probe to associate with the rule."
 syntax: "public static interface **LoadBalancingRule.UpdateStages.WithProbe**"
 methods:
-- uid: "com.azure.resourcemanager.network.models.LoadBalancingRule.UpdateStages.WithProbe.withoutProbe()"
-  fullName: "com.azure.resourcemanager.network.models.LoadBalancingRule.UpdateStages.WithProbe.withoutProbe()"
-  name: "withoutProbe()"
-  nameWithType: "LoadBalancingRule.UpdateStages.WithProbe.withoutProbe()"
-  summary: "Removes any association with a probe and falls back to Azure's default probing mechanism."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract LoadBalancingRule.Update withoutProbe()"
-  desc: "Removes any association with a probe and falls back to Azure's default probing mechanism."
-  returns:
-    description: "the next stage of the update"
-    type: "<xref href=\"com.azure.resourcemanager.network.models.LoadBalancingRule.Update?alt=com.azure.resourcemanager.network.models.LoadBalancingRule.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.models.LoadBalancingRule.UpdateStages.WithProbe.withProbe(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.LoadBalancingRule.UpdateStages.WithProbe.withProbe(String name)"
   name: "withProbe(String name)"
@@ -31,6 +19,18 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract LoadBalancingRule.Update withProbe(String name)"
   desc: "Associates the specified existing HTTP or TCP probe of this load balancer with the load balancing rule."
+  returns:
+    description: "the next stage of the update"
+    type: "<xref href=\"com.azure.resourcemanager.network.models.LoadBalancingRule.Update?alt=com.azure.resourcemanager.network.models.LoadBalancingRule.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.models.LoadBalancingRule.UpdateStages.WithProbe.withoutProbe()"
+  fullName: "com.azure.resourcemanager.network.models.LoadBalancingRule.UpdateStages.WithProbe.withoutProbe()"
+  name: "withoutProbe()"
+  nameWithType: "LoadBalancingRule.UpdateStages.WithProbe.withoutProbe()"
+  summary: "Removes any association with a probe and falls back to Azure's default probing mechanism."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract LoadBalancingRule.Update withoutProbe()"
+  desc: "Removes any association with a probe and falls back to Azure's default probing mechanism."
   returns:
     description: "the next stage of the update"
     type: "<xref href=\"com.azure.resourcemanager.network.models.LoadBalancingRule.Update?alt=com.azure.resourcemanager.network.models.LoadBalancingRule.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"

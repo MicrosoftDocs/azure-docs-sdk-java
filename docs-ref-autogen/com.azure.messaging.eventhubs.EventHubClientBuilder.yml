@@ -185,6 +185,20 @@ methods:
   returns:
     description: "The updated <xref uid=\"com.azure.messaging.eventhubs.EventHubClientBuilder\" data-throw-if-not-resolved=\"false\" data-raw-source=\"EventHubClientBuilder\"></xref> object."
     type: "<xref href=\"com.azure.messaging.eventhubs.EventHubClientBuilder?alt=com.azure.messaging.eventhubs.EventHubClientBuilder&text=EventHubClientBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.messaging.eventhubs.EventHubClientBuilder.credential(com.azure.core.credential.TokenCredential)"
+  fullName: "com.azure.messaging.eventhubs.EventHubClientBuilder.credential(TokenCredential credential)"
+  name: "credential(TokenCredential credential)"
+  nameWithType: "EventHubClientBuilder.credential(TokenCredential credential)"
+  summary: "Sets the <xref uid=\"com.azure.core.credential.TokenCredential\" data-throw-if-not-resolved=\"false\" data-raw-source=\"TokenCredential\"></xref> used to authorize requests sent to the service."
+  parameters:
+  - description: "The token credential to use for authorization. Access controls may be specified by the\n     Event Hubs namespace or the requested Event Hub, depending on Azure configuration."
+    name: "credential"
+    type: "<xref href=\"com.azure.core.credential.TokenCredential?alt=com.azure.core.credential.TokenCredential&text=TokenCredential\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public EventHubClientBuilder credential(TokenCredential credential)"
+  desc: "Sets the <xref uid=\"com.azure.core.credential.TokenCredential\" data-throw-if-not-resolved=\"false\" data-raw-source=\"TokenCredential\"></xref> used to authorize requests sent to the service. Refer to the Azure SDK for Java [identity and authentication][] documentation for more details on proper usage of the <xref uid=\"com.azure.core.credential.TokenCredential\" data-throw-if-not-resolved=\"false\" data-raw-source=\"TokenCredential\"></xref> type.\n\n\n[identity and authentication]: https://aka.ms/azsdk/java/docs/identity"
+  returns:
+    description: "The updated <xref uid=\"com.azure.messaging.eventhubs.EventHubClientBuilder\" data-throw-if-not-resolved=\"false\" data-raw-source=\"EventHubClientBuilder\"></xref> object."
+    type: "<xref href=\"com.azure.messaging.eventhubs.EventHubClientBuilder?alt=com.azure.messaging.eventhubs.EventHubClientBuilder&text=EventHubClientBuilder\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.messaging.eventhubs.EventHubClientBuilder.credential(java.lang.String,java.lang.String,com.azure.core.credential.AzureNamedKeyCredential)"
   fullName: "com.azure.messaging.eventhubs.EventHubClientBuilder.credential(String fullyQualifiedNamespace, String eventHubName, AzureNamedKeyCredential credential)"
   name: "credential(String fullyQualifiedNamespace, String eventHubName, AzureNamedKeyCredential credential)"
@@ -242,20 +256,6 @@ methods:
     type: "<xref href=\"com.azure.core.credential.TokenCredential?alt=com.azure.core.credential.TokenCredential&text=TokenCredential\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public EventHubClientBuilder credential(String fullyQualifiedNamespace, String eventHubName, TokenCredential credential)"
   desc: "Sets the credential information for which Event Hub instance to connect to, and how to authorize against it."
-  returns:
-    description: "The updated <xref uid=\"com.azure.messaging.eventhubs.EventHubClientBuilder\" data-throw-if-not-resolved=\"false\" data-raw-source=\"EventHubClientBuilder\"></xref> object."
-    type: "<xref href=\"com.azure.messaging.eventhubs.EventHubClientBuilder?alt=com.azure.messaging.eventhubs.EventHubClientBuilder&text=EventHubClientBuilder\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.messaging.eventhubs.EventHubClientBuilder.credential(com.azure.core.credential.TokenCredential)"
-  fullName: "com.azure.messaging.eventhubs.EventHubClientBuilder.credential(TokenCredential credential)"
-  name: "credential(TokenCredential credential)"
-  nameWithType: "EventHubClientBuilder.credential(TokenCredential credential)"
-  summary: "Sets the <xref uid=\"com.azure.core.credential.TokenCredential\" data-throw-if-not-resolved=\"false\" data-raw-source=\"TokenCredential\"></xref> used to authorize requests sent to the service."
-  parameters:
-  - description: "The token credential to use for authorization. Access controls may be specified by the\n     Event Hubs namespace or the requested Event Hub, depending on Azure configuration."
-    name: "credential"
-    type: "<xref href=\"com.azure.core.credential.TokenCredential?alt=com.azure.core.credential.TokenCredential&text=TokenCredential\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public EventHubClientBuilder credential(TokenCredential credential)"
-  desc: "Sets the <xref uid=\"com.azure.core.credential.TokenCredential\" data-throw-if-not-resolved=\"false\" data-raw-source=\"TokenCredential\"></xref> used to authorize requests sent to the service. Refer to the Azure SDK for Java [identity and authentication][] documentation for more details on proper usage of the <xref uid=\"com.azure.core.credential.TokenCredential\" data-throw-if-not-resolved=\"false\" data-raw-source=\"TokenCredential\"></xref> type.\n\n\n[identity and authentication]: https://aka.ms/azsdk/java/docs/identity"
   returns:
     description: "The updated <xref uid=\"com.azure.messaging.eventhubs.EventHubClientBuilder\" data-throw-if-not-resolved=\"false\" data-raw-source=\"EventHubClientBuilder\"></xref> object."
     type: "<xref href=\"com.azure.messaging.eventhubs.EventHubClientBuilder?alt=com.azure.messaging.eventhubs.EventHubClientBuilder&text=EventHubClientBuilder\" data-throw-if-not-resolved=\"False\" />"

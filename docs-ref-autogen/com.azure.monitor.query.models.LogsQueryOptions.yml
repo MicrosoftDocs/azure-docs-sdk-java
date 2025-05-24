@@ -80,20 +80,6 @@ methods:
   returns:
     description: "The flag that indicates if the query should return visualization details."
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.monitor.query.models.LogsQueryOptions.setAdditionalWorkspaces(java.util.List<java.lang.String>)"
-  fullName: "com.azure.monitor.query.models.LogsQueryOptions.setAdditionalWorkspaces(List<String> additionalWorkspaces)"
-  name: "setAdditionalWorkspaces(List<String> additionalWorkspaces)"
-  nameWithType: "LogsQueryOptions.setAdditionalWorkspaces(List<String> additionalWorkspaces)"
-  summary: "Sets the list of additional workspaces on which this query is executed."
-  parameters:
-  - description: "the list of additional workspaces on which this query is executed."
-    name: "additionalWorkspaces"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-  syntax: "public LogsQueryOptions setAdditionalWorkspaces(List<String> additionalWorkspaces)"
-  desc: "Sets the list of additional workspaces on which this query is executed. The list can contain any of the following workspace identifiers:\n\n *  Workspace Name - human-readable string `` of the OMS workspace\n *  Qualified Name - string with format `//`\n *  Workspace ID - GUID string\n *  Azure Resource ID - string with format `/subscriptions//resourceGroups//providers/microsoft .operationalinsights/workspaces/`"
-  returns:
-    description: "The updated options instance."
-    type: "<xref href=\"com.azure.monitor.query.models.LogsQueryOptions?alt=com.azure.monitor.query.models.LogsQueryOptions&text=LogsQueryOptions\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.monitor.query.models.LogsQueryOptions.setAdditionalWorkspaces(java.lang.String...)"
   fullName: "com.azure.monitor.query.models.LogsQueryOptions.setAdditionalWorkspaces(String[] additionalWorkspaces)"
   name: "setAdditionalWorkspaces(String[] additionalWorkspaces)"
@@ -104,6 +90,20 @@ methods:
     name: "additionalWorkspaces"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>[]"
   syntax: "public LogsQueryOptions setAdditionalWorkspaces(String[] additionalWorkspaces)"
+  desc: "Sets the list of additional workspaces on which this query is executed. The list can contain any of the following workspace identifiers:\n\n *  Workspace Name - human-readable string `` of the OMS workspace\n *  Qualified Name - string with format `//`\n *  Workspace ID - GUID string\n *  Azure Resource ID - string with format `/subscriptions//resourceGroups//providers/microsoft .operationalinsights/workspaces/`"
+  returns:
+    description: "The updated options instance."
+    type: "<xref href=\"com.azure.monitor.query.models.LogsQueryOptions?alt=com.azure.monitor.query.models.LogsQueryOptions&text=LogsQueryOptions\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.monitor.query.models.LogsQueryOptions.setAdditionalWorkspaces(java.util.List<java.lang.String>)"
+  fullName: "com.azure.monitor.query.models.LogsQueryOptions.setAdditionalWorkspaces(List<String> additionalWorkspaces)"
+  name: "setAdditionalWorkspaces(List<String> additionalWorkspaces)"
+  nameWithType: "LogsQueryOptions.setAdditionalWorkspaces(List<String> additionalWorkspaces)"
+  summary: "Sets the list of additional workspaces on which this query is executed."
+  parameters:
+  - description: "the list of additional workspaces on which this query is executed."
+    name: "additionalWorkspaces"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+  syntax: "public LogsQueryOptions setAdditionalWorkspaces(List<String> additionalWorkspaces)"
   desc: "Sets the list of additional workspaces on which this query is executed. The list can contain any of the following workspace identifiers:\n\n *  Workspace Name - human-readable string `` of the OMS workspace\n *  Qualified Name - string with format `//`\n *  Workspace ID - GUID string\n *  Azure Resource ID - string with format `/subscriptions//resourceGroups//providers/microsoft .operationalinsights/workspaces/`"
   returns:
     description: "The updated options instance."

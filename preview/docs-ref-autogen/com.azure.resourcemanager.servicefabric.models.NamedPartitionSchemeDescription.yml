@@ -70,9 +70,9 @@ methods:
   fullName: "com.azure.resourcemanager.servicefabric.models.NamedPartitionSchemeDescription.names()"
   name: "names()"
   nameWithType: "NamedPartitionSchemeDescription.names()"
-  summary: "Get the names property: Array of size specified by the ‘count’ parameter, for the names of the partitions."
+  summary: "Get the names property: Array of size specified by the \\\\u2018count\\\\u2019 parameter, for the names of the partitions."
   syntax: "public List<String> names()"
-  desc: "Get the names property: Array of size specified by the ‘count’ parameter, for the names of the partitions."
+  desc: "Get the names property: Array of size specified by the \\\\u2018count\\\\u2019 parameter, for the names of the partitions."
   returns:
     description: "the names value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
@@ -126,13 +126,13 @@ methods:
   fullName: "com.azure.resourcemanager.servicefabric.models.NamedPartitionSchemeDescription.withNames(List<String> names)"
   name: "withNames(List<String> names)"
   nameWithType: "NamedPartitionSchemeDescription.withNames(List<String> names)"
-  summary: "Set the names property: Array of size specified by the ‘count’ parameter, for the names of the partitions."
+  summary: "Set the names property: Array of size specified by the \\\\u2018count\\\\u2019 parameter, for the names of the partitions."
   parameters:
   - description: "the names value to set."
     name: "names"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
   syntax: "public NamedPartitionSchemeDescription withNames(List<String> names)"
-  desc: "Set the names property: Array of size specified by the ‘count’ parameter, for the names of the partitions."
+  desc: "Set the names property: Array of size specified by the \\\\u2018count\\\\u2019 parameter, for the names of the partitions."
   returns:
     description: "the NamedPartitionSchemeDescription object itself."
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.NamedPartitionSchemeDescription?alt=com.azure.resourcemanager.servicefabric.models.NamedPartitionSchemeDescription&text=NamedPartitionSchemeDescription\" data-throw-if-not-resolved=\"False\" />"

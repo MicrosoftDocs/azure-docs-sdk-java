@@ -42,18 +42,6 @@ methods:
   returns:
     description: "the friendly name of the certificate"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.appservice.models.AppServiceCertificate.hostingEnvironmentProfile()"
-  fullName: "com.azure.resourcemanager.appservice.models.AppServiceCertificate.hostingEnvironmentProfile()"
-  name: "hostingEnvironmentProfile()"
-  nameWithType: "AppServiceCertificate.hostingEnvironmentProfile()"
-  summary: "Gets the specification for the App Service Environment to use for the certificate."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract HostingEnvironmentProfile hostingEnvironmentProfile()"
-  desc: "Gets the specification for the App Service Environment to use for the certificate."
-  returns:
-    description: "the specification for the App Service Environment to use for the certificate"
-    type: "<xref href=\"com.azure.resourcemanager.appservice.models.HostingEnvironmentProfile?alt=com.azure.resourcemanager.appservice.models.HostingEnvironmentProfile&text=HostingEnvironmentProfile\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.appservice.models.AppServiceCertificate.hostNames()"
   fullName: "com.azure.resourcemanager.appservice.models.AppServiceCertificate.hostNames()"
   name: "hostNames()"
@@ -66,6 +54,18 @@ methods:
   returns:
     description: "the host names the certificate applies to"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+- uid: "com.azure.resourcemanager.appservice.models.AppServiceCertificate.hostingEnvironmentProfile()"
+  fullName: "com.azure.resourcemanager.appservice.models.AppServiceCertificate.hostingEnvironmentProfile()"
+  name: "hostingEnvironmentProfile()"
+  nameWithType: "AppServiceCertificate.hostingEnvironmentProfile()"
+  summary: "Gets the specification for the App Service Environment to use for the certificate."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract HostingEnvironmentProfile hostingEnvironmentProfile()"
+  desc: "Gets the specification for the App Service Environment to use for the certificate."
+  returns:
+    description: "the specification for the App Service Environment to use for the certificate"
+    type: "<xref href=\"com.azure.resourcemanager.appservice.models.HostingEnvironmentProfile?alt=com.azure.resourcemanager.appservice.models.HostingEnvironmentProfile&text=HostingEnvironmentProfile\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.appservice.models.AppServiceCertificate.issueDate()"
   fullName: "com.azure.resourcemanager.appservice.models.AppServiceCertificate.issueDate()"
   name: "issueDate()"

@@ -74,20 +74,6 @@ methods:
   returns:
     description: "The updated SettingLabelSelector object."
     type: "<xref href=\"com.azure.data.appconfiguration.models.SettingLabelSelector?alt=com.azure.data.appconfiguration.models.SettingLabelSelector&text=SettingLabelSelector\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.data.appconfiguration.models.SettingLabelSelector.setFields(java.util.List<com.azure.data.appconfiguration.models.SettingLabelFields>)"
-  fullName: "com.azure.data.appconfiguration.models.SettingLabelSelector.setFields(List<SettingLabelFields> fields)"
-  name: "setFields(List<SettingLabelFields> fields)"
-  nameWithType: "SettingLabelSelector.setFields(List<SettingLabelFields> fields)"
-  summary: "Sets fields that will be returned in the response corresponding to properties in <xref uid=\"com.azure.data.appconfiguration.models.ConfigurationSnapshot\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ConfigurationSnapshot\"></xref>."
-  parameters:
-  - description: "The fields to select for the query response. If none are set, the service will return the\n snapshot with a default set of properties."
-    name: "fields"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.data.appconfiguration.models.SettingLabelFields?alt=com.azure.data.appconfiguration.models.SettingLabelFields&text=SettingLabelFields\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public SettingLabelSelector setFields(List<SettingLabelFields> fields)"
-  desc: "Sets fields that will be returned in the response corresponding to properties in <xref uid=\"com.azure.data.appconfiguration.models.ConfigurationSnapshot\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ConfigurationSnapshot\"></xref>. If none are set, the service returns snapshot with all of their fields populated."
-  returns:
-    description: "The updated SettingLabelSelector object."
-    type: "<xref href=\"com.azure.data.appconfiguration.models.SettingLabelSelector?alt=com.azure.data.appconfiguration.models.SettingLabelSelector&text=SettingLabelSelector\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.data.appconfiguration.models.SettingLabelSelector.setFields(com.azure.data.appconfiguration.models.SettingLabelFields...)"
   fullName: "com.azure.data.appconfiguration.models.SettingLabelSelector.setFields(SettingLabelFields[] fields)"
   name: "setFields(SettingLabelFields[] fields)"
@@ -98,6 +84,20 @@ methods:
     name: "fields"
     type: "<xref href=\"com.azure.data.appconfiguration.models.SettingLabelFields?alt=com.azure.data.appconfiguration.models.SettingLabelFields&text=SettingLabelFields\" data-throw-if-not-resolved=\"False\" />[]"
   syntax: "public SettingLabelSelector setFields(SettingLabelFields[] fields)"
+  desc: "Sets fields that will be returned in the response corresponding to properties in <xref uid=\"com.azure.data.appconfiguration.models.ConfigurationSnapshot\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ConfigurationSnapshot\"></xref>. If none are set, the service returns snapshot with all of their fields populated."
+  returns:
+    description: "The updated SettingLabelSelector object."
+    type: "<xref href=\"com.azure.data.appconfiguration.models.SettingLabelSelector?alt=com.azure.data.appconfiguration.models.SettingLabelSelector&text=SettingLabelSelector\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.data.appconfiguration.models.SettingLabelSelector.setFields(java.util.List<com.azure.data.appconfiguration.models.SettingLabelFields>)"
+  fullName: "com.azure.data.appconfiguration.models.SettingLabelSelector.setFields(List<SettingLabelFields> fields)"
+  name: "setFields(List<SettingLabelFields> fields)"
+  nameWithType: "SettingLabelSelector.setFields(List<SettingLabelFields> fields)"
+  summary: "Sets fields that will be returned in the response corresponding to properties in <xref uid=\"com.azure.data.appconfiguration.models.ConfigurationSnapshot\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ConfigurationSnapshot\"></xref>."
+  parameters:
+  - description: "The fields to select for the query response. If none are set, the service will return the\n snapshot with a default set of properties."
+    name: "fields"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.data.appconfiguration.models.SettingLabelFields?alt=com.azure.data.appconfiguration.models.SettingLabelFields&text=SettingLabelFields\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public SettingLabelSelector setFields(List<SettingLabelFields> fields)"
   desc: "Sets fields that will be returned in the response corresponding to properties in <xref uid=\"com.azure.data.appconfiguration.models.ConfigurationSnapshot\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ConfigurationSnapshot\"></xref>. If none are set, the service returns snapshot with all of their fields populated."
   returns:
     description: "The updated SettingLabelSelector object."

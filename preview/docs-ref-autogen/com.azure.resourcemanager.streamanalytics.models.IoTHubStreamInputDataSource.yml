@@ -43,7 +43,7 @@ methods:
   nameWithType: "IoTHubStreamInputDataSource.consumerGroupName()"
   summary: "Get the consumer<wbr>Group<wbr>Name property: The name of an IoT Hub Consumer Group that should be used to read events from the IoT Hub."
   syntax: "public String consumerGroupName()"
-  desc: "Get the consumerGroupName property: The name of an IoT Hub Consumer Group that should be used to read events from the IoT Hub. If not specified, the input uses the Iot Hub’s default consumer group."
+  desc: "Get the consumerGroupName property: The name of an IoT Hub Consumer Group that should be used to read events from the IoT Hub. If not specified, the input uses the Iot Hub\\\\u2019s default consumer group."
   returns:
     description: "the consumerGroupName value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -148,7 +148,7 @@ methods:
     name: "consumerGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public IoTHubStreamInputDataSource withConsumerGroupName(String consumerGroupName)"
-  desc: "Set the consumerGroupName property: The name of an IoT Hub Consumer Group that should be used to read events from the IoT Hub. If not specified, the input uses the Iot Hub’s default consumer group."
+  desc: "Set the consumerGroupName property: The name of an IoT Hub Consumer Group that should be used to read events from the IoT Hub. If not specified, the input uses the Iot Hub\\\\u2019s default consumer group."
   returns:
     description: "the IoTHubStreamInputDataSource object itself."
     type: "<xref href=\"com.azure.resourcemanager.streamanalytics.models.IoTHubStreamInputDataSource?alt=com.azure.resourcemanager.streamanalytics.models.IoTHubStreamInputDataSource&text=IoTHubStreamInputDataSource\" data-throw-if-not-resolved=\"False\" />"

@@ -162,18 +162,6 @@ methods:
   returns:
     description: "the ManagementGroupsClient object."
     type: "<xref href=\"com.azure.resourcemanager.loganalytics.fluent.ManagementGroupsClient?alt=com.azure.resourcemanager.loganalytics.fluent.ManagementGroupsClient&text=ManagementGroupsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.loganalytics.fluent.OperationalInsightsManagementClient.getOperations()"
-  fullName: "com.azure.resourcemanager.loganalytics.fluent.OperationalInsightsManagementClient.getOperations()"
-  name: "getOperations()"
-  nameWithType: "OperationalInsightsManagementClient.getOperations()"
-  summary: "Gets the Operations<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract OperationsClient getOperations()"
-  desc: "Gets the OperationsClient object to access its operations."
-  returns:
-    description: "the OperationsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.loganalytics.fluent.OperationsClient?alt=com.azure.resourcemanager.loganalytics.fluent.OperationsClient&text=OperationsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.loganalytics.fluent.OperationalInsightsManagementClient.getOperationStatuses()"
   fullName: "com.azure.resourcemanager.loganalytics.fluent.OperationalInsightsManagementClient.getOperationStatuses()"
   name: "getOperationStatuses()"
@@ -186,6 +174,18 @@ methods:
   returns:
     description: "the OperationStatusesClient object."
     type: "<xref href=\"com.azure.resourcemanager.loganalytics.fluent.OperationStatusesClient?alt=com.azure.resourcemanager.loganalytics.fluent.OperationStatusesClient&text=OperationStatusesClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.loganalytics.fluent.OperationalInsightsManagementClient.getOperations()"
+  fullName: "com.azure.resourcemanager.loganalytics.fluent.OperationalInsightsManagementClient.getOperations()"
+  name: "getOperations()"
+  nameWithType: "OperationalInsightsManagementClient.getOperations()"
+  summary: "Gets the Operations<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract OperationsClient getOperations()"
+  desc: "Gets the OperationsClient object to access its operations."
+  returns:
+    description: "the OperationsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.loganalytics.fluent.OperationsClient?alt=com.azure.resourcemanager.loganalytics.fluent.OperationsClient&text=OperationsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.loganalytics.fluent.OperationalInsightsManagementClient.getQueries()"
   fullName: "com.azure.resourcemanager.loganalytics.fluent.OperationalInsightsManagementClient.getQueries()"
   name: "getQueries()"

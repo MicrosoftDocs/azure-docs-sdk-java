@@ -10,7 +10,7 @@ methods:
   fullName: "com.azure.resourcemanager.storage.fluent.TableServicesClient.getServiceProperties(String resourceGroupName, String accountName)"
   name: "getServiceProperties(String resourceGroupName, String accountName)"
   nameWithType: "TableServicesClient.getServiceProperties(String resourceGroupName, String accountName)"
-  summary: "Gets the properties of a storage account’s Table service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  summary: "Gets the properties of a storage account\\\\u2019s Table service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   modifiers:
   - "abstract"
   parameters:
@@ -21,7 +21,7 @@ methods:
     name: "accountName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract TableServicePropertiesInner getServiceProperties(String resourceGroupName, String accountName)"
-  desc: "Gets the properties of a storage account’s Table service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  desc: "Gets the properties of a storage account\\\\u2019s Table service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   returns:
     description: "the properties of a storage account\\u2019s Table service, including properties for Storage Analytics and CORS\n (Cross-Origin Resource Sharing) rules."
     type: "<xref href=\"com.azure.resourcemanager.storage.fluent.models.TableServicePropertiesInner?alt=com.azure.resourcemanager.storage.fluent.models.TableServicePropertiesInner&text=TableServicePropertiesInner\" data-throw-if-not-resolved=\"False\" />"
@@ -29,7 +29,7 @@ methods:
   fullName: "com.azure.resourcemanager.storage.fluent.TableServicesClient.getServicePropertiesAsync(String resourceGroupName, String accountName)"
   name: "getServicePropertiesAsync(String resourceGroupName, String accountName)"
   nameWithType: "TableServicesClient.getServicePropertiesAsync(String resourceGroupName, String accountName)"
-  summary: "Gets the properties of a storage account’s Table service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  summary: "Gets the properties of a storage account\\\\u2019s Table service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   modifiers:
   - "abstract"
   parameters:
@@ -40,7 +40,7 @@ methods:
     name: "accountName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract Mono<TableServicePropertiesInner> getServicePropertiesAsync(String resourceGroupName, String accountName)"
-  desc: "Gets the properties of a storage account’s Table service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  desc: "Gets the properties of a storage account\\\\u2019s Table service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   returns:
     description: "the properties of a storage account\\u2019s Table service, including properties for Storage Analytics and CORS\n (Cross-Origin Resource Sharing) rules on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.resourcemanager.storage.fluent.models.TableServicePropertiesInner?alt=com.azure.resourcemanager.storage.fluent.models.TableServicePropertiesInner&text=TableServicePropertiesInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -48,7 +48,7 @@ methods:
   fullName: "com.azure.resourcemanager.storage.fluent.TableServicesClient.getServicePropertiesWithResponse(String resourceGroupName, String accountName, Context context)"
   name: "getServicePropertiesWithResponse(String resourceGroupName, String accountName, Context context)"
   nameWithType: "TableServicesClient.getServicePropertiesWithResponse(String resourceGroupName, String accountName, Context context)"
-  summary: "Gets the properties of a storage account’s Table service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  summary: "Gets the properties of a storage account\\\\u2019s Table service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   modifiers:
   - "abstract"
   parameters:
@@ -62,7 +62,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Response<TableServicePropertiesInner> getServicePropertiesWithResponse(String resourceGroupName, String accountName, Context context)"
-  desc: "Gets the properties of a storage account’s Table service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  desc: "Gets the properties of a storage account\\\\u2019s Table service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   returns:
     description: "the properties of a storage account\\u2019s Table service, including properties for Storage Analytics and CORS\n (Cross-Origin Resource Sharing) rules along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.storage.fluent.models.TableServicePropertiesInner?alt=com.azure.resourcemanager.storage.fluent.models.TableServicePropertiesInner&text=TableServicePropertiesInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -70,7 +70,7 @@ methods:
   fullName: "com.azure.resourcemanager.storage.fluent.TableServicesClient.getServicePropertiesWithResponseAsync(String resourceGroupName, String accountName)"
   name: "getServicePropertiesWithResponseAsync(String resourceGroupName, String accountName)"
   nameWithType: "TableServicesClient.getServicePropertiesWithResponseAsync(String resourceGroupName, String accountName)"
-  summary: "Gets the properties of a storage account’s Table service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  summary: "Gets the properties of a storage account\\\\u2019s Table service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   modifiers:
   - "abstract"
   parameters:
@@ -81,7 +81,7 @@ methods:
     name: "accountName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract Mono<Response<TableServicePropertiesInner>> getServicePropertiesWithResponseAsync(String resourceGroupName, String accountName)"
-  desc: "Gets the properties of a storage account’s Table service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  desc: "Gets the properties of a storage account\\\\u2019s Table service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   returns:
     description: "the properties of a storage account\\u2019s Table service, including properties for Storage Analytics and CORS\n (Cross-Origin Resource Sharing) rules along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref> on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.storage.fluent.models.TableServicePropertiesInner?alt=com.azure.resourcemanager.storage.fluent.models.TableServicePropertiesInner&text=TableServicePropertiesInner\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
@@ -168,7 +168,7 @@ methods:
   fullName: "com.azure.resourcemanager.storage.fluent.TableServicesClient.setServiceProperties(String resourceGroupName, String accountName, TableServicePropertiesInner parameters)"
   name: "setServiceProperties(String resourceGroupName, String accountName, TableServicePropertiesInner parameters)"
   nameWithType: "TableServicesClient.setServiceProperties(String resourceGroupName, String accountName, TableServicePropertiesInner parameters)"
-  summary: "Sets the properties of a storage account’s Table service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  summary: "Sets the properties of a storage account\\\\u2019s Table service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   modifiers:
   - "abstract"
   parameters:
@@ -182,7 +182,7 @@ methods:
     name: "parameters"
     type: "<xref href=\"com.azure.resourcemanager.storage.fluent.models.TableServicePropertiesInner?alt=com.azure.resourcemanager.storage.fluent.models.TableServicePropertiesInner&text=TableServicePropertiesInner\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract TableServicePropertiesInner setServiceProperties(String resourceGroupName, String accountName, TableServicePropertiesInner parameters)"
-  desc: "Sets the properties of a storage account’s Table service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  desc: "Sets the properties of a storage account\\\\u2019s Table service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   returns:
     description: "the properties of a storage account\\u2019s Table service."
     type: "<xref href=\"com.azure.resourcemanager.storage.fluent.models.TableServicePropertiesInner?alt=com.azure.resourcemanager.storage.fluent.models.TableServicePropertiesInner&text=TableServicePropertiesInner\" data-throw-if-not-resolved=\"False\" />"
@@ -190,7 +190,7 @@ methods:
   fullName: "com.azure.resourcemanager.storage.fluent.TableServicesClient.setServicePropertiesAsync(String resourceGroupName, String accountName, TableServicePropertiesInner parameters)"
   name: "setServicePropertiesAsync(String resourceGroupName, String accountName, TableServicePropertiesInner parameters)"
   nameWithType: "TableServicesClient.setServicePropertiesAsync(String resourceGroupName, String accountName, TableServicePropertiesInner parameters)"
-  summary: "Sets the properties of a storage account’s Table service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  summary: "Sets the properties of a storage account\\\\u2019s Table service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   modifiers:
   - "abstract"
   parameters:
@@ -204,7 +204,7 @@ methods:
     name: "parameters"
     type: "<xref href=\"com.azure.resourcemanager.storage.fluent.models.TableServicePropertiesInner?alt=com.azure.resourcemanager.storage.fluent.models.TableServicePropertiesInner&text=TableServicePropertiesInner\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Mono<TableServicePropertiesInner> setServicePropertiesAsync(String resourceGroupName, String accountName, TableServicePropertiesInner parameters)"
-  desc: "Sets the properties of a storage account’s Table service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  desc: "Sets the properties of a storage account\\\\u2019s Table service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   returns:
     description: "the properties of a storage account\\u2019s Table service on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.resourcemanager.storage.fluent.models.TableServicePropertiesInner?alt=com.azure.resourcemanager.storage.fluent.models.TableServicePropertiesInner&text=TableServicePropertiesInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -212,7 +212,7 @@ methods:
   fullName: "com.azure.resourcemanager.storage.fluent.TableServicesClient.setServicePropertiesWithResponse(String resourceGroupName, String accountName, TableServicePropertiesInner parameters, Context context)"
   name: "setServicePropertiesWithResponse(String resourceGroupName, String accountName, TableServicePropertiesInner parameters, Context context)"
   nameWithType: "TableServicesClient.setServicePropertiesWithResponse(String resourceGroupName, String accountName, TableServicePropertiesInner parameters, Context context)"
-  summary: "Sets the properties of a storage account’s Table service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  summary: "Sets the properties of a storage account\\\\u2019s Table service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   modifiers:
   - "abstract"
   parameters:
@@ -229,7 +229,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Response<TableServicePropertiesInner> setServicePropertiesWithResponse(String resourceGroupName, String accountName, TableServicePropertiesInner parameters, Context context)"
-  desc: "Sets the properties of a storage account’s Table service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  desc: "Sets the properties of a storage account\\\\u2019s Table service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   returns:
     description: "the properties of a storage account\\u2019s Table service along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.storage.fluent.models.TableServicePropertiesInner?alt=com.azure.resourcemanager.storage.fluent.models.TableServicePropertiesInner&text=TableServicePropertiesInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -237,7 +237,7 @@ methods:
   fullName: "com.azure.resourcemanager.storage.fluent.TableServicesClient.setServicePropertiesWithResponseAsync(String resourceGroupName, String accountName, TableServicePropertiesInner parameters)"
   name: "setServicePropertiesWithResponseAsync(String resourceGroupName, String accountName, TableServicePropertiesInner parameters)"
   nameWithType: "TableServicesClient.setServicePropertiesWithResponseAsync(String resourceGroupName, String accountName, TableServicePropertiesInner parameters)"
-  summary: "Sets the properties of a storage account’s Table service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  summary: "Sets the properties of a storage account\\\\u2019s Table service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   modifiers:
   - "abstract"
   parameters:
@@ -251,7 +251,7 @@ methods:
     name: "parameters"
     type: "<xref href=\"com.azure.resourcemanager.storage.fluent.models.TableServicePropertiesInner?alt=com.azure.resourcemanager.storage.fluent.models.TableServicePropertiesInner&text=TableServicePropertiesInner\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Mono<Response<TableServicePropertiesInner>> setServicePropertiesWithResponseAsync(String resourceGroupName, String accountName, TableServicePropertiesInner parameters)"
-  desc: "Sets the properties of a storage account’s Table service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  desc: "Sets the properties of a storage account\\\\u2019s Table service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   returns:
     description: "the properties of a storage account\\u2019s Table service along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref> on successful completion\n of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.storage.fluent.models.TableServicePropertiesInner?alt=com.azure.resourcemanager.storage.fluent.models.TableServicePropertiesInner&text=TableServicePropertiesInner\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"

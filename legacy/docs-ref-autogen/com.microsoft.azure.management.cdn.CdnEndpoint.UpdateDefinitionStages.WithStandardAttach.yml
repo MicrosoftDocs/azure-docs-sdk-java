@@ -22,22 +22,6 @@ methods:
   returns:
     description: "the next stage of the definition"
     type: "<xref href=\"com.microsoft.azure.management.cdn.CdnEndpoint.UpdateDefinitionStages.WithStandardAttach?alt=com.microsoft.azure.management.cdn.CdnEndpoint.UpdateDefinitionStages.WithStandardAttach&text=WithStandardAttach\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.microsoft.azure.management.cdn.CdnEndpoint.UpdateDefinitionStages.WithStandardAttach.withContentTypesToCompress(java.util.Set<java.lang.String>)"
-  fullName: "com.microsoft.azure.management.cdn.CdnEndpoint.UpdateDefinitionStages.WithStandardAttach<ParentT>.withContentTypesToCompress(Set<String> contentTypesToCompress)"
-  name: "withContentTypesToCompress(Set<String> contentTypesToCompress)"
-  nameWithType: "CdnEndpoint.UpdateDefinitionStages.WithStandardAttach<ParentT>.withContentTypesToCompress(Set<String> contentTypesToCompress)"
-  summary: "Specifies the content types to compress."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "content types to compress to set"
-    name: "contentTypesToCompress"
-    type: "<xref href=\"java.util.Set?alt=java.util.Set&text=Set\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public abstract CdnEndpoint.UpdateDefinitionStages.WithStandardAttach<ParentT> withContentTypesToCompress(Set<String> contentTypesToCompress)"
-  desc: "Specifies the content types to compress."
-  returns:
-    description: "the next stage of the definition"
-    type: "<xref href=\"com.microsoft.azure.management.cdn.CdnEndpoint.UpdateDefinitionStages.WithStandardAttach?alt=com.microsoft.azure.management.cdn.CdnEndpoint.UpdateDefinitionStages.WithStandardAttach&text=WithStandardAttach\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.microsoft.azure.management.cdn.CdnEndpoint.UpdateDefinitionStages.WithStandardAttach.withContentTypeToCompress(java.lang.String)"
   fullName: "com.microsoft.azure.management.cdn.CdnEndpoint.UpdateDefinitionStages.WithStandardAttach<ParentT>.withContentTypeToCompress(String contentTypeToCompress)"
   name: "withContentTypeToCompress(String contentTypeToCompress)"
@@ -54,6 +38,22 @@ methods:
   returns:
     description: "the next stage of the definition"
     type: "<xref href=\"com.microsoft.azure.management.cdn.CdnEndpoint.UpdateDefinitionStages.WithStandardAttach?alt=com.microsoft.azure.management.cdn.CdnEndpoint.UpdateDefinitionStages.WithStandardAttach&text=WithStandardAttach\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.microsoft.azure.management.cdn.CdnEndpoint.UpdateDefinitionStages.WithStandardAttach.withContentTypesToCompress(java.util.Set<java.lang.String>)"
+  fullName: "com.microsoft.azure.management.cdn.CdnEndpoint.UpdateDefinitionStages.WithStandardAttach<ParentT>.withContentTypesToCompress(Set<String> contentTypesToCompress)"
+  name: "withContentTypesToCompress(Set<String> contentTypesToCompress)"
+  nameWithType: "CdnEndpoint.UpdateDefinitionStages.WithStandardAttach<ParentT>.withContentTypesToCompress(Set<String> contentTypesToCompress)"
+  summary: "Specifies the content types to compress."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "content types to compress to set"
+    name: "contentTypesToCompress"
+    type: "<xref href=\"java.util.Set?alt=java.util.Set&text=Set\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public abstract CdnEndpoint.UpdateDefinitionStages.WithStandardAttach<ParentT> withContentTypesToCompress(Set<String> contentTypesToCompress)"
+  desc: "Specifies the content types to compress."
+  returns:
+    description: "the next stage of the definition"
+    type: "<xref href=\"com.microsoft.azure.management.cdn.CdnEndpoint.UpdateDefinitionStages.WithStandardAttach?alt=com.microsoft.azure.management.cdn.CdnEndpoint.UpdateDefinitionStages.WithStandardAttach&text=WithStandardAttach\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.microsoft.azure.management.cdn.CdnEndpoint.UpdateDefinitionStages.WithStandardAttach.withCustomDomain(java.lang.String)"
   fullName: "com.microsoft.azure.management.cdn.CdnEndpoint.UpdateDefinitionStages.WithStandardAttach<ParentT>.withCustomDomain(String hostName)"
   name: "withCustomDomain(String hostName)"
@@ -67,28 +67,6 @@ methods:
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract CdnEndpoint.UpdateDefinitionStages.WithStandardAttach<ParentT> withCustomDomain(String hostName)"
   desc: "Adds a new CDN custom domain within an endpoint."
-  returns:
-    description: "the next stage of the definition"
-    type: "<xref href=\"com.microsoft.azure.management.cdn.CdnEndpoint.UpdateDefinitionStages.WithStandardAttach?alt=com.microsoft.azure.management.cdn.CdnEndpoint.UpdateDefinitionStages.WithStandardAttach&text=WithStandardAttach\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.microsoft.azure.management.cdn.CdnEndpoint.UpdateDefinitionStages.WithStandardAttach.withGeoFilter(java.lang.String,com.microsoft.azure.management.cdn.GeoFilterActions,java.util.Collection<com.microsoft.azure.management.resources.fluentcore.arm.CountryIsoCode>)"
-  fullName: "com.microsoft.azure.management.cdn.CdnEndpoint.UpdateDefinitionStages.WithStandardAttach<ParentT>.withGeoFilter(String relativePath, GeoFilterActions action, Collection<CountryIsoCode> countryCodes)"
-  name: "withGeoFilter(String relativePath, GeoFilterActions action, Collection<CountryIsoCode> countryCodes)"
-  nameWithType: "CdnEndpoint.UpdateDefinitionStages.WithStandardAttach<ParentT>.withGeoFilter(String relativePath, GeoFilterActions action, Collection<CountryIsoCode> countryCodes)"
-  summary: "Sets the geo filters list for the specified countries list."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "a relative path"
-    name: "relativePath"
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
-  - description: "an action"
-    name: "action"
-    type: "<xref href=\"com.microsoft.azure.management.cdn.GeoFilterActions?alt=com.microsoft.azure.management.cdn.GeoFilterActions&text=GeoFilterActions\" data-throw-if-not-resolved=\"False\" />"
-  - description: "a list of ISO 2 letter country codes"
-    name: "countryCodes"
-    type: "<xref href=\"java.util.Collection?alt=java.util.Collection&text=Collection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.management.resources.fluentcore.arm.CountryIsoCode?alt=com.microsoft.azure.management.resources.fluentcore.arm.CountryIsoCode&text=CountryIsoCode\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public abstract CdnEndpoint.UpdateDefinitionStages.WithStandardAttach<ParentT> withGeoFilter(String relativePath, GeoFilterActions action, Collection<CountryIsoCode> countryCodes)"
-  desc: "Sets the geo filters list for the specified countries list."
   returns:
     description: "the next stage of the definition"
     type: "<xref href=\"com.microsoft.azure.management.cdn.CdnEndpoint.UpdateDefinitionStages.WithStandardAttach?alt=com.microsoft.azure.management.cdn.CdnEndpoint.UpdateDefinitionStages.WithStandardAttach&text=WithStandardAttach\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -111,6 +89,28 @@ methods:
     type: "<xref href=\"com.microsoft.azure.management.resources.fluentcore.arm.CountryIsoCode?alt=com.microsoft.azure.management.resources.fluentcore.arm.CountryIsoCode&text=CountryIsoCode\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract CdnEndpoint.UpdateDefinitionStages.WithStandardAttach<ParentT> withGeoFilter(String relativePath, GeoFilterActions action, CountryIsoCode countryCode)"
   desc: "Adds a single entry to the geo filters list."
+  returns:
+    description: "the next stage of the definition"
+    type: "<xref href=\"com.microsoft.azure.management.cdn.CdnEndpoint.UpdateDefinitionStages.WithStandardAttach?alt=com.microsoft.azure.management.cdn.CdnEndpoint.UpdateDefinitionStages.WithStandardAttach&text=WithStandardAttach\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.microsoft.azure.management.cdn.CdnEndpoint.UpdateDefinitionStages.WithStandardAttach.withGeoFilter(java.lang.String,com.microsoft.azure.management.cdn.GeoFilterActions,java.util.Collection<com.microsoft.azure.management.resources.fluentcore.arm.CountryIsoCode>)"
+  fullName: "com.microsoft.azure.management.cdn.CdnEndpoint.UpdateDefinitionStages.WithStandardAttach<ParentT>.withGeoFilter(String relativePath, GeoFilterActions action, Collection<CountryIsoCode> countryCodes)"
+  name: "withGeoFilter(String relativePath, GeoFilterActions action, Collection<CountryIsoCode> countryCodes)"
+  nameWithType: "CdnEndpoint.UpdateDefinitionStages.WithStandardAttach<ParentT>.withGeoFilter(String relativePath, GeoFilterActions action, Collection<CountryIsoCode> countryCodes)"
+  summary: "Sets the geo filters list for the specified countries list."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "a relative path"
+    name: "relativePath"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  - description: "an action"
+    name: "action"
+    type: "<xref href=\"com.microsoft.azure.management.cdn.GeoFilterActions?alt=com.microsoft.azure.management.cdn.GeoFilterActions&text=GeoFilterActions\" data-throw-if-not-resolved=\"False\" />"
+  - description: "a list of ISO 2 letter country codes"
+    name: "countryCodes"
+    type: "<xref href=\"java.util.Collection?alt=java.util.Collection&text=Collection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.management.resources.fluentcore.arm.CountryIsoCode?alt=com.microsoft.azure.management.resources.fluentcore.arm.CountryIsoCode&text=CountryIsoCode\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public abstract CdnEndpoint.UpdateDefinitionStages.WithStandardAttach<ParentT> withGeoFilter(String relativePath, GeoFilterActions action, Collection<CountryIsoCode> countryCodes)"
+  desc: "Sets the geo filters list for the specified countries list."
   returns:
     description: "the next stage of the definition"
     type: "<xref href=\"com.microsoft.azure.management.cdn.CdnEndpoint.UpdateDefinitionStages.WithStandardAttach?alt=com.microsoft.azure.management.cdn.CdnEndpoint.UpdateDefinitionStages.WithStandardAttach&text=WithStandardAttach\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"

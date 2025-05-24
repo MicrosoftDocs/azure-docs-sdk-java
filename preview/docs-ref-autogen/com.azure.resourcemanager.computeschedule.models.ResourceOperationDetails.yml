@@ -71,16 +71,6 @@ methods:
   returns:
     description: "An instance of ResourceOperationDetails if the JsonReader was pointing to an instance of it, or null if\n it was pointing to JSON null."
     type: "<xref href=\"com.azure.resourcemanager.computeschedule.models.ResourceOperationDetails?alt=com.azure.resourcemanager.computeschedule.models.ResourceOperationDetails&text=ResourceOperationDetails\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.computeschedule.models.ResourceOperationDetails.operationId()"
-  fullName: "com.azure.resourcemanager.computeschedule.models.ResourceOperationDetails.operationId()"
-  name: "operationId()"
-  nameWithType: "ResourceOperationDetails.operationId()"
-  summary: "Get the operation<wbr>Id property: Operation identifier for the unique operation."
-  syntax: "public String operationId()"
-  desc: "Get the operationId property: Operation identifier for the unique operation."
-  returns:
-    description: "the operationId value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.computeschedule.models.ResourceOperationDetails.opType()"
   fullName: "com.azure.resourcemanager.computeschedule.models.ResourceOperationDetails.opType()"
   name: "opType()"
@@ -91,6 +81,16 @@ methods:
   returns:
     description: "the opType value."
     type: "<xref href=\"com.azure.resourcemanager.computeschedule.models.ResourceOperationType?alt=com.azure.resourcemanager.computeschedule.models.ResourceOperationType&text=ResourceOperationType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.computeschedule.models.ResourceOperationDetails.operationId()"
+  fullName: "com.azure.resourcemanager.computeschedule.models.ResourceOperationDetails.operationId()"
+  name: "operationId()"
+  nameWithType: "ResourceOperationDetails.operationId()"
+  summary: "Get the operation<wbr>Id property: Operation identifier for the unique operation."
+  syntax: "public String operationId()"
+  desc: "Get the operationId property: Operation identifier for the unique operation."
+  returns:
+    description: "the operationId value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.computeschedule.models.ResourceOperationDetails.resourceId()"
   fullName: "com.azure.resourcemanager.computeschedule.models.ResourceOperationDetails.resourceId()"
   name: "resourceId()"

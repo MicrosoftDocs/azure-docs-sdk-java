@@ -34,9 +34,9 @@ methods:
   fullName: "com.azure.resourcemanager.support.models.ProblemClassificationsClassificationInput.issueSummary()"
   name: "issueSummary()"
   nameWithType: "ProblemClassificationsClassificationInput.issueSummary()"
-  summary: "Get the issue<wbr>Summary property: Natural language description of the customer’s issue."
+  summary: "Get the issue<wbr>Summary property: Natural language description of the customer\\\\u2019s issue."
   syntax: "public String issueSummary()"
-  desc: "Get the issueSummary property: Natural language description of the customer’s issue."
+  desc: "Get the issueSummary property: Natural language description of the customer\\\\u2019s issue."
   returns:
     description: "the issueSummary value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -61,13 +61,13 @@ methods:
   fullName: "com.azure.resourcemanager.support.models.ProblemClassificationsClassificationInput.withIssueSummary(String issueSummary)"
   name: "withIssueSummary(String issueSummary)"
   nameWithType: "ProblemClassificationsClassificationInput.withIssueSummary(String issueSummary)"
-  summary: "Set the issue<wbr>Summary property: Natural language description of the customer’s issue."
+  summary: "Set the issue<wbr>Summary property: Natural language description of the customer\\\\u2019s issue."
   parameters:
   - description: "the issueSummary value to set."
     name: "issueSummary"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public ProblemClassificationsClassificationInput withIssueSummary(String issueSummary)"
-  desc: "Set the issueSummary property: Natural language description of the customer’s issue."
+  desc: "Set the issueSummary property: Natural language description of the customer\\\\u2019s issue."
   returns:
     description: "the ProblemClassificationsClassificationInput object itself."
     type: "<xref href=\"com.azure.resourcemanager.support.models.ProblemClassificationsClassificationInput?alt=com.azure.resourcemanager.support.models.ProblemClassificationsClassificationInput&text=ProblemClassificationsClassificationInput\" data-throw-if-not-resolved=\"False\" />"

@@ -246,18 +246,6 @@ methods:
   returns:
     description: "the httpPipeline value."
     type: "<xref href=\"com.azure.core.http.HttpPipeline?alt=com.azure.core.http.HttpPipeline&text=HttpPipeline\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.billing.fluent.BillingManagementClient.getInvoices()"
-  fullName: "com.azure.resourcemanager.billing.fluent.BillingManagementClient.getInvoices()"
-  name: "getInvoices()"
-  nameWithType: "BillingManagementClient.getInvoices()"
-  summary: "Gets the Invoices<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract InvoicesClient getInvoices()"
-  desc: "Gets the InvoicesClient object to access its operations."
-  returns:
-    description: "the InvoicesClient object."
-    type: "<xref href=\"com.azure.resourcemanager.billing.fluent.InvoicesClient?alt=com.azure.resourcemanager.billing.fluent.InvoicesClient&text=InvoicesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.billing.fluent.BillingManagementClient.getInvoiceSections()"
   fullName: "com.azure.resourcemanager.billing.fluent.BillingManagementClient.getInvoiceSections()"
   name: "getInvoiceSections()"
@@ -270,6 +258,18 @@ methods:
   returns:
     description: "the InvoiceSectionsClient object."
     type: "<xref href=\"com.azure.resourcemanager.billing.fluent.InvoiceSectionsClient?alt=com.azure.resourcemanager.billing.fluent.InvoiceSectionsClient&text=InvoiceSectionsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.billing.fluent.BillingManagementClient.getInvoices()"
+  fullName: "com.azure.resourcemanager.billing.fluent.BillingManagementClient.getInvoices()"
+  name: "getInvoices()"
+  nameWithType: "BillingManagementClient.getInvoices()"
+  summary: "Gets the Invoices<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract InvoicesClient getInvoices()"
+  desc: "Gets the InvoicesClient object to access its operations."
+  returns:
+    description: "the InvoicesClient object."
+    type: "<xref href=\"com.azure.resourcemanager.billing.fluent.InvoicesClient?alt=com.azure.resourcemanager.billing.fluent.InvoicesClient&text=InvoicesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.billing.fluent.BillingManagementClient.getOperations()"
   fullName: "com.azure.resourcemanager.billing.fluent.BillingManagementClient.getOperations()"
   name: "getOperations()"

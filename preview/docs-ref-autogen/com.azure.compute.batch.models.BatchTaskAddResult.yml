@@ -41,16 +41,6 @@ methods:
   returns:
     description: "An instance of BatchTaskAddResult if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
     type: "<xref href=\"com.azure.compute.batch.models.BatchTaskAddResult?alt=com.azure.compute.batch.models.BatchTaskAddResult&text=BatchTaskAddResult\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.compute.batch.models.BatchTaskAddResult.getError()"
-  fullName: "com.azure.compute.batch.models.BatchTaskAddResult.getError()"
-  name: "getError()"
-  nameWithType: "BatchTaskAddResult.getError()"
-  summary: "Get the error property: The error encountered while attempting to add the Task."
-  syntax: "public BatchError getError()"
-  desc: "Get the error property: The error encountered while attempting to add the Task."
-  returns:
-    description: "the error value."
-    type: "<xref href=\"com.azure.compute.batch.models.BatchError?alt=com.azure.compute.batch.models.BatchError&text=BatchError\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.compute.batch.models.BatchTaskAddResult.getETag()"
   fullName: "com.azure.compute.batch.models.BatchTaskAddResult.getETag()"
   name: "getETag()"
@@ -61,6 +51,16 @@ methods:
   returns:
     description: "the eTag value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.compute.batch.models.BatchTaskAddResult.getError()"
+  fullName: "com.azure.compute.batch.models.BatchTaskAddResult.getError()"
+  name: "getError()"
+  nameWithType: "BatchTaskAddResult.getError()"
+  summary: "Get the error property: The error encountered while attempting to add the Task."
+  syntax: "public BatchError getError()"
+  desc: "Get the error property: The error encountered while attempting to add the Task."
+  returns:
+    description: "the error value."
+    type: "<xref href=\"com.azure.compute.batch.models.BatchError?alt=com.azure.compute.batch.models.BatchError&text=BatchError\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.compute.batch.models.BatchTaskAddResult.getLastModified()"
   fullName: "com.azure.compute.batch.models.BatchTaskAddResult.getLastModified()"
   name: "getLastModified()"

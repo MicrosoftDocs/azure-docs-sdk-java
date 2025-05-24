@@ -114,18 +114,6 @@ methods:
   returns:
     description: "the httpPipeline value."
     type: "<xref href=\"com.azure.core.http.HttpPipeline?alt=com.azure.core.http.HttpPipeline&text=HttpPipeline\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.deviceregistry.fluent.DeviceRegistryManagementClient.getOperations()"
-  fullName: "com.azure.resourcemanager.deviceregistry.fluent.DeviceRegistryManagementClient.getOperations()"
-  name: "getOperations()"
-  nameWithType: "DeviceRegistryManagementClient.getOperations()"
-  summary: "Gets the Operations<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract OperationsClient getOperations()"
-  desc: "Gets the OperationsClient object to access its operations."
-  returns:
-    description: "the OperationsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.deviceregistry.fluent.OperationsClient?alt=com.azure.resourcemanager.deviceregistry.fluent.OperationsClient&text=OperationsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.deviceregistry.fluent.DeviceRegistryManagementClient.getOperationStatus()"
   fullName: "com.azure.resourcemanager.deviceregistry.fluent.DeviceRegistryManagementClient.getOperationStatus()"
   name: "getOperationStatus()"
@@ -138,6 +126,18 @@ methods:
   returns:
     description: "the OperationStatusClient object."
     type: "<xref href=\"com.azure.resourcemanager.deviceregistry.fluent.OperationStatusClient?alt=com.azure.resourcemanager.deviceregistry.fluent.OperationStatusClient&text=OperationStatusClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.deviceregistry.fluent.DeviceRegistryManagementClient.getOperations()"
+  fullName: "com.azure.resourcemanager.deviceregistry.fluent.DeviceRegistryManagementClient.getOperations()"
+  name: "getOperations()"
+  nameWithType: "DeviceRegistryManagementClient.getOperations()"
+  summary: "Gets the Operations<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract OperationsClient getOperations()"
+  desc: "Gets the OperationsClient object to access its operations."
+  returns:
+    description: "the OperationsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.deviceregistry.fluent.OperationsClient?alt=com.azure.resourcemanager.deviceregistry.fluent.OperationsClient&text=OperationsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.deviceregistry.fluent.DeviceRegistryManagementClient.getSchemaRegistries()"
   fullName: "com.azure.resourcemanager.deviceregistry.fluent.DeviceRegistryManagementClient.getSchemaRegistries()"
   name: "getSchemaRegistries()"
@@ -150,18 +150,6 @@ methods:
   returns:
     description: "the SchemaRegistriesClient object."
     type: "<xref href=\"com.azure.resourcemanager.deviceregistry.fluent.SchemaRegistriesClient?alt=com.azure.resourcemanager.deviceregistry.fluent.SchemaRegistriesClient&text=SchemaRegistriesClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.deviceregistry.fluent.DeviceRegistryManagementClient.getSchemas()"
-  fullName: "com.azure.resourcemanager.deviceregistry.fluent.DeviceRegistryManagementClient.getSchemas()"
-  name: "getSchemas()"
-  nameWithType: "DeviceRegistryManagementClient.getSchemas()"
-  summary: "Gets the Schemas<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract SchemasClient getSchemas()"
-  desc: "Gets the SchemasClient object to access its operations."
-  returns:
-    description: "the SchemasClient object."
-    type: "<xref href=\"com.azure.resourcemanager.deviceregistry.fluent.SchemasClient?alt=com.azure.resourcemanager.deviceregistry.fluent.SchemasClient&text=SchemasClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.deviceregistry.fluent.DeviceRegistryManagementClient.getSchemaVersions()"
   fullName: "com.azure.resourcemanager.deviceregistry.fluent.DeviceRegistryManagementClient.getSchemaVersions()"
   name: "getSchemaVersions()"
@@ -174,6 +162,18 @@ methods:
   returns:
     description: "the SchemaVersionsClient object."
     type: "<xref href=\"com.azure.resourcemanager.deviceregistry.fluent.SchemaVersionsClient?alt=com.azure.resourcemanager.deviceregistry.fluent.SchemaVersionsClient&text=SchemaVersionsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.deviceregistry.fluent.DeviceRegistryManagementClient.getSchemas()"
+  fullName: "com.azure.resourcemanager.deviceregistry.fluent.DeviceRegistryManagementClient.getSchemas()"
+  name: "getSchemas()"
+  nameWithType: "DeviceRegistryManagementClient.getSchemas()"
+  summary: "Gets the Schemas<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract SchemasClient getSchemas()"
+  desc: "Gets the SchemasClient object to access its operations."
+  returns:
+    description: "the SchemasClient object."
+    type: "<xref href=\"com.azure.resourcemanager.deviceregistry.fluent.SchemasClient?alt=com.azure.resourcemanager.deviceregistry.fluent.SchemasClient&text=SchemasClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.deviceregistry.fluent.DeviceRegistryManagementClient.getSubscriptionId()"
   fullName: "com.azure.resourcemanager.deviceregistry.fluent.DeviceRegistryManagementClient.getSubscriptionId()"
   name: "getSubscriptionId()"

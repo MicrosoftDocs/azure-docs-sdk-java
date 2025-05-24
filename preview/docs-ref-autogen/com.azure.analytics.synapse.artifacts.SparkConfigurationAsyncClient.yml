@@ -138,16 +138,6 @@ methods:
   returns:
     description: "a sparkConfiguration on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.analytics.synapse.artifacts.models.SparkConfigurationResource?alt=com.azure.analytics.synapse.artifacts.models.SparkConfigurationResource&text=SparkConfigurationResource\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.analytics.synapse.artifacts.SparkConfigurationAsyncClient.getSparkConfigurationsByWorkspace()"
-  fullName: "com.azure.analytics.synapse.artifacts.SparkConfigurationAsyncClient.getSparkConfigurationsByWorkspace()"
-  name: "getSparkConfigurationsByWorkspace()"
-  nameWithType: "SparkConfigurationAsyncClient.getSparkConfigurationsByWorkspace()"
-  summary: "Lists sparkconfigurations."
-  syntax: "public PagedFlux<SparkConfigurationResource> getSparkConfigurationsByWorkspace()"
-  desc: "Lists sparkconfigurations."
-  returns:
-    description: "a list of sparkconfiguration resources as paginated response with <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
-    type: "<xref href=\"com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.analytics.synapse.artifacts.models.SparkConfigurationResource?alt=com.azure.analytics.synapse.artifacts.models.SparkConfigurationResource&text=SparkConfigurationResource\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.analytics.synapse.artifacts.SparkConfigurationAsyncClient.getSparkConfigurationWithResponse(java.lang.String,java.lang.String)"
   fullName: "com.azure.analytics.synapse.artifacts.SparkConfigurationAsyncClient.getSparkConfigurationWithResponse(String sparkConfigurationName, String ifNoneMatch)"
   name: "getSparkConfigurationWithResponse(String sparkConfigurationName, String ifNoneMatch)"
@@ -165,6 +155,16 @@ methods:
   returns:
     description: "a sparkConfiguration along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref> on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.analytics.synapse.artifacts.models.SparkConfigurationResource?alt=com.azure.analytics.synapse.artifacts.models.SparkConfigurationResource&text=SparkConfigurationResource\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
+- uid: "com.azure.analytics.synapse.artifacts.SparkConfigurationAsyncClient.getSparkConfigurationsByWorkspace()"
+  fullName: "com.azure.analytics.synapse.artifacts.SparkConfigurationAsyncClient.getSparkConfigurationsByWorkspace()"
+  name: "getSparkConfigurationsByWorkspace()"
+  nameWithType: "SparkConfigurationAsyncClient.getSparkConfigurationsByWorkspace()"
+  summary: "Lists sparkconfigurations."
+  syntax: "public PagedFlux<SparkConfigurationResource> getSparkConfigurationsByWorkspace()"
+  desc: "Lists sparkconfigurations."
+  returns:
+    description: "a list of sparkconfiguration resources as paginated response with <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
+    type: "<xref href=\"com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.analytics.synapse.artifacts.models.SparkConfigurationResource?alt=com.azure.analytics.synapse.artifacts.models.SparkConfigurationResource&text=SparkConfigurationResource\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.analytics.synapse.artifacts.SparkConfigurationAsyncClient.renameSparkConfiguration(java.lang.String,com.azure.analytics.synapse.artifacts.models.ArtifactRenameRequest)"
   fullName: "com.azure.analytics.synapse.artifacts.SparkConfigurationAsyncClient.renameSparkConfiguration(String sparkConfigurationName, ArtifactRenameRequest request)"
   name: "renameSparkConfiguration(String sparkConfigurationName, ArtifactRenameRequest request)"

@@ -114,18 +114,6 @@ methods:
   returns:
     description: "the CommunityGalleriesClient object."
     type: "<xref href=\"com.azure.resourcemanager.compute.fluent.CommunityGalleriesClient?alt=com.azure.resourcemanager.compute.fluent.CommunityGalleriesClient&text=CommunityGalleriesClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getCommunityGalleryImages()"
-  fullName: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getCommunityGalleryImages()"
-  name: "getCommunityGalleryImages()"
-  nameWithType: "ComputeManagementClient.getCommunityGalleryImages()"
-  summary: "Gets the Community<wbr>Gallery<wbr>Images<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract CommunityGalleryImagesClient getCommunityGalleryImages()"
-  desc: "Gets the CommunityGalleryImagesClient object to access its operations."
-  returns:
-    description: "the CommunityGalleryImagesClient object."
-    type: "<xref href=\"com.azure.resourcemanager.compute.fluent.CommunityGalleryImagesClient?alt=com.azure.resourcemanager.compute.fluent.CommunityGalleryImagesClient&text=CommunityGalleryImagesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getCommunityGalleryImageVersions()"
   fullName: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getCommunityGalleryImageVersions()"
   name: "getCommunityGalleryImageVersions()"
@@ -138,6 +126,18 @@ methods:
   returns:
     description: "the CommunityGalleryImageVersionsClient object."
     type: "<xref href=\"com.azure.resourcemanager.compute.fluent.CommunityGalleryImageVersionsClient?alt=com.azure.resourcemanager.compute.fluent.CommunityGalleryImageVersionsClient&text=CommunityGalleryImageVersionsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getCommunityGalleryImages()"
+  fullName: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getCommunityGalleryImages()"
+  name: "getCommunityGalleryImages()"
+  nameWithType: "ComputeManagementClient.getCommunityGalleryImages()"
+  summary: "Gets the Community<wbr>Gallery<wbr>Images<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract CommunityGalleryImagesClient getCommunityGalleryImages()"
+  desc: "Gets the CommunityGalleryImagesClient object to access its operations."
+  returns:
+    description: "the CommunityGalleryImagesClient object."
+    type: "<xref href=\"com.azure.resourcemanager.compute.fluent.CommunityGalleryImagesClient?alt=com.azure.resourcemanager.compute.fluent.CommunityGalleryImagesClient&text=CommunityGalleryImagesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getDedicatedHostGroups()"
   fullName: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getDedicatedHostGroups()"
   name: "getDedicatedHostGroups()"
@@ -246,18 +246,6 @@ methods:
   returns:
     description: "the GalleriesClient object."
     type: "<xref href=\"com.azure.resourcemanager.compute.fluent.GalleriesClient?alt=com.azure.resourcemanager.compute.fluent.GalleriesClient&text=GalleriesClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getGalleryApplications()"
-  fullName: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getGalleryApplications()"
-  name: "getGalleryApplications()"
-  nameWithType: "ComputeManagementClient.getGalleryApplications()"
-  summary: "Gets the Gallery<wbr>Applications<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract GalleryApplicationsClient getGalleryApplications()"
-  desc: "Gets the GalleryApplicationsClient object to access its operations."
-  returns:
-    description: "the GalleryApplicationsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.compute.fluent.GalleryApplicationsClient?alt=com.azure.resourcemanager.compute.fluent.GalleryApplicationsClient&text=GalleryApplicationsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getGalleryApplicationVersions()"
   fullName: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getGalleryApplicationVersions()"
   name: "getGalleryApplicationVersions()"
@@ -270,18 +258,18 @@ methods:
   returns:
     description: "the GalleryApplicationVersionsClient object."
     type: "<xref href=\"com.azure.resourcemanager.compute.fluent.GalleryApplicationVersionsClient?alt=com.azure.resourcemanager.compute.fluent.GalleryApplicationVersionsClient&text=GalleryApplicationVersionsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getGalleryImages()"
-  fullName: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getGalleryImages()"
-  name: "getGalleryImages()"
-  nameWithType: "ComputeManagementClient.getGalleryImages()"
-  summary: "Gets the Gallery<wbr>Images<wbr>Client object to access its operations."
+- uid: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getGalleryApplications()"
+  fullName: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getGalleryApplications()"
+  name: "getGalleryApplications()"
+  nameWithType: "ComputeManagementClient.getGalleryApplications()"
+  summary: "Gets the Gallery<wbr>Applications<wbr>Client object to access its operations."
   modifiers:
   - "abstract"
-  syntax: "public abstract GalleryImagesClient getGalleryImages()"
-  desc: "Gets the GalleryImagesClient object to access its operations."
+  syntax: "public abstract GalleryApplicationsClient getGalleryApplications()"
+  desc: "Gets the GalleryApplicationsClient object to access its operations."
   returns:
-    description: "the GalleryImagesClient object."
-    type: "<xref href=\"com.azure.resourcemanager.compute.fluent.GalleryImagesClient?alt=com.azure.resourcemanager.compute.fluent.GalleryImagesClient&text=GalleryImagesClient\" data-throw-if-not-resolved=\"False\" />"
+    description: "the GalleryApplicationsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.compute.fluent.GalleryApplicationsClient?alt=com.azure.resourcemanager.compute.fluent.GalleryApplicationsClient&text=GalleryApplicationsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getGalleryImageVersions()"
   fullName: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getGalleryImageVersions()"
   name: "getGalleryImageVersions()"
@@ -294,18 +282,18 @@ methods:
   returns:
     description: "the GalleryImageVersionsClient object."
     type: "<xref href=\"com.azure.resourcemanager.compute.fluent.GalleryImageVersionsClient?alt=com.azure.resourcemanager.compute.fluent.GalleryImageVersionsClient&text=GalleryImageVersionsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getGalleryInVMAccessControlProfiles()"
-  fullName: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getGalleryInVMAccessControlProfiles()"
-  name: "getGalleryInVMAccessControlProfiles()"
-  nameWithType: "ComputeManagementClient.getGalleryInVMAccessControlProfiles()"
-  summary: "Gets the Gallery<wbr>InVMAccess<wbr>Control<wbr>Profiles<wbr>Client object to access its operations."
+- uid: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getGalleryImages()"
+  fullName: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getGalleryImages()"
+  name: "getGalleryImages()"
+  nameWithType: "ComputeManagementClient.getGalleryImages()"
+  summary: "Gets the Gallery<wbr>Images<wbr>Client object to access its operations."
   modifiers:
   - "abstract"
-  syntax: "public abstract GalleryInVMAccessControlProfilesClient getGalleryInVMAccessControlProfiles()"
-  desc: "Gets the GalleryInVMAccessControlProfilesClient object to access its operations."
+  syntax: "public abstract GalleryImagesClient getGalleryImages()"
+  desc: "Gets the GalleryImagesClient object to access its operations."
   returns:
-    description: "the GalleryInVMAccessControlProfilesClient object."
-    type: "<xref href=\"com.azure.resourcemanager.compute.fluent.GalleryInVMAccessControlProfilesClient?alt=com.azure.resourcemanager.compute.fluent.GalleryInVMAccessControlProfilesClient&text=GalleryInVMAccessControlProfilesClient\" data-throw-if-not-resolved=\"False\" />"
+    description: "the GalleryImagesClient object."
+    type: "<xref href=\"com.azure.resourcemanager.compute.fluent.GalleryImagesClient?alt=com.azure.resourcemanager.compute.fluent.GalleryImagesClient&text=GalleryImagesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getGalleryInVMAccessControlProfileVersions()"
   fullName: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getGalleryInVMAccessControlProfileVersions()"
   name: "getGalleryInVMAccessControlProfileVersions()"
@@ -318,6 +306,18 @@ methods:
   returns:
     description: "the GalleryInVMAccessControlProfileVersionsClient object."
     type: "<xref href=\"com.azure.resourcemanager.compute.fluent.GalleryInVMAccessControlProfileVersionsClient?alt=com.azure.resourcemanager.compute.fluent.GalleryInVMAccessControlProfileVersionsClient&text=GalleryInVMAccessControlProfileVersionsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getGalleryInVMAccessControlProfiles()"
+  fullName: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getGalleryInVMAccessControlProfiles()"
+  name: "getGalleryInVMAccessControlProfiles()"
+  nameWithType: "ComputeManagementClient.getGalleryInVMAccessControlProfiles()"
+  summary: "Gets the Gallery<wbr>InVMAccess<wbr>Control<wbr>Profiles<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract GalleryInVMAccessControlProfilesClient getGalleryInVMAccessControlProfiles()"
+  desc: "Gets the GalleryInVMAccessControlProfilesClient object to access its operations."
+  returns:
+    description: "the GalleryInVMAccessControlProfilesClient object."
+    type: "<xref href=\"com.azure.resourcemanager.compute.fluent.GalleryInVMAccessControlProfilesClient?alt=com.azure.resourcemanager.compute.fluent.GalleryInVMAccessControlProfilesClient&text=GalleryInVMAccessControlProfilesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getGallerySharingProfiles()"
   fullName: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getGallerySharingProfiles()"
   name: "getGallerySharingProfiles()"
@@ -438,18 +438,6 @@ methods:
   returns:
     description: "the SharedGalleriesClient object."
     type: "<xref href=\"com.azure.resourcemanager.compute.fluent.SharedGalleriesClient?alt=com.azure.resourcemanager.compute.fluent.SharedGalleriesClient&text=SharedGalleriesClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getSharedGalleryImages()"
-  fullName: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getSharedGalleryImages()"
-  name: "getSharedGalleryImages()"
-  nameWithType: "ComputeManagementClient.getSharedGalleryImages()"
-  summary: "Gets the Shared<wbr>Gallery<wbr>Images<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract SharedGalleryImagesClient getSharedGalleryImages()"
-  desc: "Gets the SharedGalleryImagesClient object to access its operations."
-  returns:
-    description: "the SharedGalleryImagesClient object."
-    type: "<xref href=\"com.azure.resourcemanager.compute.fluent.SharedGalleryImagesClient?alt=com.azure.resourcemanager.compute.fluent.SharedGalleryImagesClient&text=SharedGalleryImagesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getSharedGalleryImageVersions()"
   fullName: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getSharedGalleryImageVersions()"
   name: "getSharedGalleryImageVersions()"
@@ -462,6 +450,18 @@ methods:
   returns:
     description: "the SharedGalleryImageVersionsClient object."
     type: "<xref href=\"com.azure.resourcemanager.compute.fluent.SharedGalleryImageVersionsClient?alt=com.azure.resourcemanager.compute.fluent.SharedGalleryImageVersionsClient&text=SharedGalleryImageVersionsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getSharedGalleryImages()"
+  fullName: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getSharedGalleryImages()"
+  name: "getSharedGalleryImages()"
+  nameWithType: "ComputeManagementClient.getSharedGalleryImages()"
+  summary: "Gets the Shared<wbr>Gallery<wbr>Images<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract SharedGalleryImagesClient getSharedGalleryImages()"
+  desc: "Gets the SharedGalleryImagesClient object to access its operations."
+  returns:
+    description: "the SharedGalleryImagesClient object."
+    type: "<xref href=\"com.azure.resourcemanager.compute.fluent.SharedGalleryImagesClient?alt=com.azure.resourcemanager.compute.fluent.SharedGalleryImagesClient&text=SharedGalleryImagesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getSnapshots()"
   fullName: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getSnapshots()"
   name: "getSnapshots()"
@@ -582,18 +582,6 @@ methods:
   returns:
     description: "the VirtualMachineRunCommandsClient object."
     type: "<xref href=\"com.azure.resourcemanager.compute.fluent.VirtualMachineRunCommandsClient?alt=com.azure.resourcemanager.compute.fluent.VirtualMachineRunCommandsClient&text=VirtualMachineRunCommandsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getVirtualMachines()"
-  fullName: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getVirtualMachines()"
-  name: "getVirtualMachines()"
-  nameWithType: "ComputeManagementClient.getVirtualMachines()"
-  summary: "Gets the Virtual<wbr>Machines<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract VirtualMachinesClient getVirtualMachines()"
-  desc: "Gets the VirtualMachinesClient object to access its operations."
-  returns:
-    description: "the VirtualMachinesClient object."
-    type: "<xref href=\"com.azure.resourcemanager.compute.fluent.VirtualMachinesClient?alt=com.azure.resourcemanager.compute.fluent.VirtualMachinesClient&text=VirtualMachinesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getVirtualMachineScaleSetExtensions()"
   fullName: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getVirtualMachineScaleSetExtensions()"
   name: "getVirtualMachineScaleSetExtensions()"
@@ -618,18 +606,6 @@ methods:
   returns:
     description: "the VirtualMachineScaleSetRollingUpgradesClient object."
     type: "<xref href=\"com.azure.resourcemanager.compute.fluent.VirtualMachineScaleSetRollingUpgradesClient?alt=com.azure.resourcemanager.compute.fluent.VirtualMachineScaleSetRollingUpgradesClient&text=VirtualMachineScaleSetRollingUpgradesClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getVirtualMachineScaleSets()"
-  fullName: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getVirtualMachineScaleSets()"
-  name: "getVirtualMachineScaleSets()"
-  nameWithType: "ComputeManagementClient.getVirtualMachineScaleSets()"
-  summary: "Gets the Virtual<wbr>Machine<wbr>Scale<wbr>Sets<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract VirtualMachineScaleSetsClient getVirtualMachineScaleSets()"
-  desc: "Gets the VirtualMachineScaleSetsClient object to access its operations."
-  returns:
-    description: "the VirtualMachineScaleSetsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.compute.fluent.VirtualMachineScaleSetsClient?alt=com.azure.resourcemanager.compute.fluent.VirtualMachineScaleSetsClient&text=VirtualMachineScaleSetsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getVirtualMachineScaleSetVMExtensions()"
   fullName: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getVirtualMachineScaleSetVMExtensions()"
   name: "getVirtualMachineScaleSetVMExtensions()"
@@ -666,6 +642,18 @@ methods:
   returns:
     description: "the VirtualMachineScaleSetVMsClient object."
     type: "<xref href=\"com.azure.resourcemanager.compute.fluent.VirtualMachineScaleSetVMsClient?alt=com.azure.resourcemanager.compute.fluent.VirtualMachineScaleSetVMsClient&text=VirtualMachineScaleSetVMsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getVirtualMachineScaleSets()"
+  fullName: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getVirtualMachineScaleSets()"
+  name: "getVirtualMachineScaleSets()"
+  nameWithType: "ComputeManagementClient.getVirtualMachineScaleSets()"
+  summary: "Gets the Virtual<wbr>Machine<wbr>Scale<wbr>Sets<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract VirtualMachineScaleSetsClient getVirtualMachineScaleSets()"
+  desc: "Gets the VirtualMachineScaleSetsClient object to access its operations."
+  returns:
+    description: "the VirtualMachineScaleSetsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.compute.fluent.VirtualMachineScaleSetsClient?alt=com.azure.resourcemanager.compute.fluent.VirtualMachineScaleSetsClient&text=VirtualMachineScaleSetsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getVirtualMachineSizes()"
   fullName: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getVirtualMachineSizes()"
   name: "getVirtualMachineSizes()"
@@ -678,6 +666,18 @@ methods:
   returns:
     description: "the VirtualMachineSizesClient object."
     type: "<xref href=\"com.azure.resourcemanager.compute.fluent.VirtualMachineSizesClient?alt=com.azure.resourcemanager.compute.fluent.VirtualMachineSizesClient&text=VirtualMachineSizesClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getVirtualMachines()"
+  fullName: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getVirtualMachines()"
+  name: "getVirtualMachines()"
+  nameWithType: "ComputeManagementClient.getVirtualMachines()"
+  summary: "Gets the Virtual<wbr>Machines<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract VirtualMachinesClient getVirtualMachines()"
+  desc: "Gets the VirtualMachinesClient object to access its operations."
+  returns:
+    description: "the VirtualMachinesClient object."
+    type: "<xref href=\"com.azure.resourcemanager.compute.fluent.VirtualMachinesClient?alt=com.azure.resourcemanager.compute.fluent.VirtualMachinesClient&text=VirtualMachinesClient\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 desc: "The interface for ComputeManagementClient class."
 metadata: {}

@@ -251,6 +251,19 @@ methods:
   returns:
     description: "the GreenplumLinkedService object itself."
     type: "<xref href=\"com.azure.resourcemanager.datafactory.models.GreenplumLinkedService?alt=com.azure.resourcemanager.datafactory.models.GreenplumLinkedService&text=GreenplumLinkedService\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.datafactory.models.GreenplumLinkedService.withConnectVia(com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference)"
+  fullName: "com.azure.resourcemanager.datafactory.models.GreenplumLinkedService.withConnectVia(IntegrationRuntimeReference connectVia)"
+  name: "withConnectVia(IntegrationRuntimeReference connectVia)"
+  nameWithType: "GreenplumLinkedService.withConnectVia(IntegrationRuntimeReference connectVia)"
+  summary: "Set the connect<wbr>Via property: The integration runtime reference."
+  overridden: "com.azure.resourcemanager.datafactory.models.LinkedService.withConnectVia(com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference)"
+  parameters:
+  - name: "connectVia"
+    type: "<xref href=\"com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference?alt=com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference&text=IntegrationRuntimeReference\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public GreenplumLinkedService withConnectVia(IntegrationRuntimeReference connectVia)"
+  desc: "Set the connectVia property: The integration runtime reference."
+  returns:
+    type: "<xref href=\"com.azure.resourcemanager.datafactory.models.GreenplumLinkedService?alt=com.azure.resourcemanager.datafactory.models.GreenplumLinkedService&text=GreenplumLinkedService\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.datafactory.models.GreenplumLinkedService.withConnectionString(java.lang.Object)"
   fullName: "com.azure.resourcemanager.datafactory.models.GreenplumLinkedService.withConnectionString(Object connectionString)"
   name: "withConnectionString(Object connectionString)"
@@ -278,19 +291,6 @@ methods:
   desc: "Set the connectionTimeout property: The time to wait (in seconds) while trying to establish a connection before terminating the attempt and generating an error. Type: integer. Only used for V2."
   returns:
     description: "the GreenplumLinkedService object itself."
-    type: "<xref href=\"com.azure.resourcemanager.datafactory.models.GreenplumLinkedService?alt=com.azure.resourcemanager.datafactory.models.GreenplumLinkedService&text=GreenplumLinkedService\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.datafactory.models.GreenplumLinkedService.withConnectVia(com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference)"
-  fullName: "com.azure.resourcemanager.datafactory.models.GreenplumLinkedService.withConnectVia(IntegrationRuntimeReference connectVia)"
-  name: "withConnectVia(IntegrationRuntimeReference connectVia)"
-  nameWithType: "GreenplumLinkedService.withConnectVia(IntegrationRuntimeReference connectVia)"
-  summary: "Set the connect<wbr>Via property: The integration runtime reference."
-  overridden: "com.azure.resourcemanager.datafactory.models.LinkedService.withConnectVia(com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference)"
-  parameters:
-  - name: "connectVia"
-    type: "<xref href=\"com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference?alt=com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference&text=IntegrationRuntimeReference\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public GreenplumLinkedService withConnectVia(IntegrationRuntimeReference connectVia)"
-  desc: "Set the connectVia property: The integration runtime reference."
-  returns:
     type: "<xref href=\"com.azure.resourcemanager.datafactory.models.GreenplumLinkedService?alt=com.azure.resourcemanager.datafactory.models.GreenplumLinkedService&text=GreenplumLinkedService\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.datafactory.models.GreenplumLinkedService.withDatabase(java.lang.Object)"
   fullName: "com.azure.resourcemanager.datafactory.models.GreenplumLinkedService.withDatabase(Object database)"

@@ -22,25 +22,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **ElasticSanManager**"
 methods:
-- uid: "com.azure.resourcemanager.elasticsan.ElasticSanManager.authenticate(com.azure.core.http.HttpPipeline,com.azure.core.management.profile.AzureProfile)"
-  fullName: "com.azure.resourcemanager.elasticsan.ElasticSanManager.authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
-  name: "authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
-  nameWithType: "ElasticSanManager.authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
-  summary: "Creates an instance of Elastic<wbr>San service API entry point."
-  modifiers:
-  - "static"
-  parameters:
-  - description: "the <xref uid=\"com.azure.core.http.HttpPipeline\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HttpPipeline\"></xref> configured with Azure authentication credential."
-    name: "httpPipeline"
-    type: "<xref href=\"com.azure.core.http.HttpPipeline?alt=com.azure.core.http.HttpPipeline&text=HttpPipeline\" data-throw-if-not-resolved=\"False\" />"
-  - description: "the Azure profile for client."
-    name: "profile"
-    type: "<xref href=\"com.azure.core.management.profile.AzureProfile?alt=com.azure.core.management.profile.AzureProfile&text=AzureProfile\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static ElasticSanManager authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
-  desc: "Creates an instance of ElasticSan service API entry point."
-  returns:
-    description: "the ElasticSan service API instance."
-    type: "<xref href=\"com.azure.resourcemanager.elasticsan.ElasticSanManager?alt=com.azure.resourcemanager.elasticsan.ElasticSanManager&text=ElasticSanManager\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.elasticsan.ElasticSanManager.authenticate(com.azure.core.credential.TokenCredential,com.azure.core.management.profile.AzureProfile)"
   fullName: "com.azure.resourcemanager.elasticsan.ElasticSanManager.authenticate(TokenCredential credential, AzureProfile profile)"
   name: "authenticate(TokenCredential credential, AzureProfile profile)"
@@ -56,6 +37,25 @@ methods:
     name: "profile"
     type: "<xref href=\"com.azure.core.management.profile.AzureProfile?alt=com.azure.core.management.profile.AzureProfile&text=AzureProfile\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static ElasticSanManager authenticate(TokenCredential credential, AzureProfile profile)"
+  desc: "Creates an instance of ElasticSan service API entry point."
+  returns:
+    description: "the ElasticSan service API instance."
+    type: "<xref href=\"com.azure.resourcemanager.elasticsan.ElasticSanManager?alt=com.azure.resourcemanager.elasticsan.ElasticSanManager&text=ElasticSanManager\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.elasticsan.ElasticSanManager.authenticate(com.azure.core.http.HttpPipeline,com.azure.core.management.profile.AzureProfile)"
+  fullName: "com.azure.resourcemanager.elasticsan.ElasticSanManager.authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
+  name: "authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
+  nameWithType: "ElasticSanManager.authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
+  summary: "Creates an instance of Elastic<wbr>San service API entry point."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "the <xref uid=\"com.azure.core.http.HttpPipeline\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HttpPipeline\"></xref> configured with Azure authentication credential."
+    name: "httpPipeline"
+    type: "<xref href=\"com.azure.core.http.HttpPipeline?alt=com.azure.core.http.HttpPipeline&text=HttpPipeline\" data-throw-if-not-resolved=\"False\" />"
+  - description: "the Azure profile for client."
+    name: "profile"
+    type: "<xref href=\"com.azure.core.management.profile.AzureProfile?alt=com.azure.core.management.profile.AzureProfile&text=AzureProfile\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static ElasticSanManager authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
   desc: "Creates an instance of ElasticSan service API entry point."
   returns:
     description: "the ElasticSan service API instance."
@@ -142,16 +142,6 @@ methods:
   returns:
     description: "Resource collection API of VolumeGroups."
     type: "<xref href=\"com.azure.resourcemanager.elasticsan.models.VolumeGroups?alt=com.azure.resourcemanager.elasticsan.models.VolumeGroups&text=VolumeGroups\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.elasticsan.ElasticSanManager.volumes()"
-  fullName: "com.azure.resourcemanager.elasticsan.ElasticSanManager.volumes()"
-  name: "volumes()"
-  nameWithType: "ElasticSanManager.volumes()"
-  summary: "Gets the resource collection API of Volumes."
-  syntax: "public Volumes volumes()"
-  desc: "Gets the resource collection API of Volumes. It manages Volume."
-  returns:
-    description: "Resource collection API of Volumes."
-    type: "<xref href=\"com.azure.resourcemanager.elasticsan.models.Volumes?alt=com.azure.resourcemanager.elasticsan.models.Volumes&text=Volumes\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.elasticsan.ElasticSanManager.volumeSnapshots()"
   fullName: "com.azure.resourcemanager.elasticsan.ElasticSanManager.volumeSnapshots()"
   name: "volumeSnapshots()"
@@ -162,6 +152,16 @@ methods:
   returns:
     description: "Resource collection API of VolumeSnapshots."
     type: "<xref href=\"com.azure.resourcemanager.elasticsan.models.VolumeSnapshots?alt=com.azure.resourcemanager.elasticsan.models.VolumeSnapshots&text=VolumeSnapshots\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.elasticsan.ElasticSanManager.volumes()"
+  fullName: "com.azure.resourcemanager.elasticsan.ElasticSanManager.volumes()"
+  name: "volumes()"
+  nameWithType: "ElasticSanManager.volumes()"
+  summary: "Gets the resource collection API of Volumes."
+  syntax: "public Volumes volumes()"
+  desc: "Gets the resource collection API of Volumes. It manages Volume."
+  returns:
+    description: "Resource collection API of Volumes."
+    type: "<xref href=\"com.azure.resourcemanager.elasticsan.models.Volumes?alt=com.azure.resourcemanager.elasticsan.models.Volumes&text=Volumes\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Entry point to ElasticSanManager."
 metadata: {}

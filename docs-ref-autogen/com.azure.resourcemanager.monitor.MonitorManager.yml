@@ -61,25 +61,6 @@ methods:
   returns:
     description: "the Azure AlertRules API entry point"
     type: "<xref href=\"com.azure.resourcemanager.monitor.models.AlertRules?alt=com.azure.resourcemanager.monitor.models.AlertRules&text=AlertRules\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.monitor.MonitorManager.authenticate(com.azure.core.http.HttpPipeline,com.azure.core.management.profile.AzureProfile)"
-  fullName: "com.azure.resourcemanager.monitor.MonitorManager.authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
-  name: "authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
-  nameWithType: "MonitorManager.authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
-  summary: "Creates an instance of Monitor<wbr>Manager that exposes Monitor API entry points."
-  modifiers:
-  - "static"
-  parameters:
-  - description: "the <xref uid=\"com.azure.core.http.HttpPipeline\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HttpPipeline\"></xref> configured with Azure authentication credential."
-    name: "httpPipeline"
-    type: "<xref href=\"com.azure.core.http.HttpPipeline?alt=com.azure.core.http.HttpPipeline&text=HttpPipeline\" data-throw-if-not-resolved=\"False\" />"
-  - description: "the profile to use"
-    name: "profile"
-    type: "<xref href=\"com.azure.core.management.profile.AzureProfile?alt=com.azure.core.management.profile.AzureProfile&text=AzureProfile\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static MonitorManager authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
-  desc: "Creates an instance of MonitorManager that exposes Monitor API entry points."
-  returns:
-    description: "the MonitorManager"
-    type: "<xref href=\"com.azure.resourcemanager.monitor.MonitorManager?alt=com.azure.resourcemanager.monitor.MonitorManager&text=MonitorManager\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.monitor.MonitorManager.authenticate(com.azure.core.credential.TokenCredential,com.azure.core.management.profile.AzureProfile)"
   fullName: "com.azure.resourcemanager.monitor.MonitorManager.authenticate(TokenCredential credential, AzureProfile profile)"
   name: "authenticate(TokenCredential credential, AzureProfile profile)"
@@ -95,6 +76,25 @@ methods:
     name: "profile"
     type: "<xref href=\"com.azure.core.management.profile.AzureProfile?alt=com.azure.core.management.profile.AzureProfile&text=AzureProfile\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static MonitorManager authenticate(TokenCredential credential, AzureProfile profile)"
+  desc: "Creates an instance of MonitorManager that exposes Monitor API entry points."
+  returns:
+    description: "the MonitorManager"
+    type: "<xref href=\"com.azure.resourcemanager.monitor.MonitorManager?alt=com.azure.resourcemanager.monitor.MonitorManager&text=MonitorManager\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.monitor.MonitorManager.authenticate(com.azure.core.http.HttpPipeline,com.azure.core.management.profile.AzureProfile)"
+  fullName: "com.azure.resourcemanager.monitor.MonitorManager.authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
+  name: "authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
+  nameWithType: "MonitorManager.authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
+  summary: "Creates an instance of Monitor<wbr>Manager that exposes Monitor API entry points."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "the <xref uid=\"com.azure.core.http.HttpPipeline\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HttpPipeline\"></xref> configured with Azure authentication credential."
+    name: "httpPipeline"
+    type: "<xref href=\"com.azure.core.http.HttpPipeline?alt=com.azure.core.http.HttpPipeline&text=HttpPipeline\" data-throw-if-not-resolved=\"False\" />"
+  - description: "the profile to use"
+    name: "profile"
+    type: "<xref href=\"com.azure.core.management.profile.AzureProfile?alt=com.azure.core.management.profile.AzureProfile&text=AzureProfile\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static MonitorManager authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
   desc: "Creates an instance of MonitorManager that exposes Monitor API entry points."
   returns:
     description: "the MonitorManager"

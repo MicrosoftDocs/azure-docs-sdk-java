@@ -38,22 +38,6 @@ methods:
   returns:
     description: "the first stage of the subnet update description"
     type: "<xref href=\"com.azure.resourcemanager.network.models.Subnet.Update?alt=com.azure.resourcemanager.network.models.Subnet.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.models.Network.UpdateStages.WithSubnet.withoutSubnet(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.models.Network.UpdateStages.WithSubnet.withoutSubnet(String name)"
-  name: "withoutSubnet(String name)"
-  nameWithType: "Network.UpdateStages.WithSubnet.withoutSubnet(String name)"
-  summary: "Removes a subnet from the virtual network."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "name of the subnet to remove"
-    name: "name"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public abstract Network.Update withoutSubnet(String name)"
-  desc: "Removes a subnet from the virtual network."
-  returns:
-    description: "the next stage of the virtual network update"
-    type: "<xref href=\"com.azure.resourcemanager.network.models.Network.Update?alt=com.azure.resourcemanager.network.models.Network.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.models.Network.UpdateStages.WithSubnet.withSubnet(java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.Network.UpdateStages.WithSubnet.withSubnet(String name, String cidr)"
   name: "withSubnet(String name, String cidr)"
@@ -86,6 +70,22 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
   syntax: "public abstract Network.Update withSubnets(Map<String,String> nameCidrPairs)"
   desc: "Explicitly defines all the subnets in the virtual network based on the provided map.\n\nThis replaces any previously existing subnets."
+  returns:
+    description: "the next stage of the virtual network update"
+    type: "<xref href=\"com.azure.resourcemanager.network.models.Network.Update?alt=com.azure.resourcemanager.network.models.Network.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.models.Network.UpdateStages.WithSubnet.withoutSubnet(java.lang.String)"
+  fullName: "com.azure.resourcemanager.network.models.Network.UpdateStages.WithSubnet.withoutSubnet(String name)"
+  name: "withoutSubnet(String name)"
+  nameWithType: "Network.UpdateStages.WithSubnet.withoutSubnet(String name)"
+  summary: "Removes a subnet from the virtual network."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "name of the subnet to remove"
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract Network.Update withoutSubnet(String name)"
+  desc: "Removes a subnet from the virtual network."
   returns:
     description: "the next stage of the virtual network update"
     type: "<xref href=\"com.azure.resourcemanager.network.models.Network.Update?alt=com.azure.resourcemanager.network.models.Network.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"

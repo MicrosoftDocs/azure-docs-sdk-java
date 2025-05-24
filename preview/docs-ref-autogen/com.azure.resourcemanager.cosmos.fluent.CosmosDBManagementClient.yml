@@ -114,6 +114,18 @@ methods:
   returns:
     description: "the CollectionsClient object."
     type: "<xref href=\"com.azure.resourcemanager.cosmos.fluent.CollectionsClient?alt=com.azure.resourcemanager.cosmos.fluent.CollectionsClient&text=CollectionsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.cosmos.fluent.CosmosDBManagementClient.getDataTransferJobs()"
+  fullName: "com.azure.resourcemanager.cosmos.fluent.CosmosDBManagementClient.getDataTransferJobs()"
+  name: "getDataTransferJobs()"
+  nameWithType: "CosmosDBManagementClient.getDataTransferJobs()"
+  summary: "Gets the Data<wbr>Transfer<wbr>Jobs<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract DataTransferJobsClient getDataTransferJobs()"
+  desc: "Gets the DataTransferJobsClient object to access its operations."
+  returns:
+    description: "the DataTransferJobsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.cosmos.fluent.DataTransferJobsClient?alt=com.azure.resourcemanager.cosmos.fluent.DataTransferJobsClient&text=DataTransferJobsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.cosmos.fluent.CosmosDBManagementClient.getDatabaseAccountRegions()"
   fullName: "com.azure.resourcemanager.cosmos.fluent.CosmosDBManagementClient.getDatabaseAccountRegions()"
   name: "getDatabaseAccountRegions()"
@@ -150,18 +162,6 @@ methods:
   returns:
     description: "the DatabasesClient object."
     type: "<xref href=\"com.azure.resourcemanager.cosmos.fluent.DatabasesClient?alt=com.azure.resourcemanager.cosmos.fluent.DatabasesClient&text=DatabasesClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.cosmos.fluent.CosmosDBManagementClient.getDataTransferJobs()"
-  fullName: "com.azure.resourcemanager.cosmos.fluent.CosmosDBManagementClient.getDataTransferJobs()"
-  name: "getDataTransferJobs()"
-  nameWithType: "CosmosDBManagementClient.getDataTransferJobs()"
-  summary: "Gets the Data<wbr>Transfer<wbr>Jobs<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract DataTransferJobsClient getDataTransferJobs()"
-  desc: "Gets the DataTransferJobsClient object to access its operations."
-  returns:
-    description: "the DataTransferJobsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.cosmos.fluent.DataTransferJobsClient?alt=com.azure.resourcemanager.cosmos.fluent.DataTransferJobsClient&text=DataTransferJobsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.cosmos.fluent.CosmosDBManagementClient.getDefaultPollInterval()"
   fullName: "com.azure.resourcemanager.cosmos.fluent.CosmosDBManagementClient.getDefaultPollInterval()"
   name: "getDefaultPollInterval()"
@@ -306,18 +306,6 @@ methods:
   returns:
     description: "the PartitionKeyRangeIdsClient object."
     type: "<xref href=\"com.azure.resourcemanager.cosmos.fluent.PartitionKeyRangeIdsClient?alt=com.azure.resourcemanager.cosmos.fluent.PartitionKeyRangeIdsClient&text=PartitionKeyRangeIdsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.cosmos.fluent.CosmosDBManagementClient.getPercentiles()"
-  fullName: "com.azure.resourcemanager.cosmos.fluent.CosmosDBManagementClient.getPercentiles()"
-  name: "getPercentiles()"
-  nameWithType: "CosmosDBManagementClient.getPercentiles()"
-  summary: "Gets the Percentiles<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract PercentilesClient getPercentiles()"
-  desc: "Gets the PercentilesClient object to access its operations."
-  returns:
-    description: "the PercentilesClient object."
-    type: "<xref href=\"com.azure.resourcemanager.cosmos.fluent.PercentilesClient?alt=com.azure.resourcemanager.cosmos.fluent.PercentilesClient&text=PercentilesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.cosmos.fluent.CosmosDBManagementClient.getPercentileSourceTargets()"
   fullName: "com.azure.resourcemanager.cosmos.fluent.CosmosDBManagementClient.getPercentileSourceTargets()"
   name: "getPercentileSourceTargets()"
@@ -342,6 +330,18 @@ methods:
   returns:
     description: "the PercentileTargetsClient object."
     type: "<xref href=\"com.azure.resourcemanager.cosmos.fluent.PercentileTargetsClient?alt=com.azure.resourcemanager.cosmos.fluent.PercentileTargetsClient&text=PercentileTargetsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.cosmos.fluent.CosmosDBManagementClient.getPercentiles()"
+  fullName: "com.azure.resourcemanager.cosmos.fluent.CosmosDBManagementClient.getPercentiles()"
+  name: "getPercentiles()"
+  nameWithType: "CosmosDBManagementClient.getPercentiles()"
+  summary: "Gets the Percentiles<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract PercentilesClient getPercentiles()"
+  desc: "Gets the PercentilesClient object to access its operations."
+  returns:
+    description: "the PercentilesClient object."
+    type: "<xref href=\"com.azure.resourcemanager.cosmos.fluent.PercentilesClient?alt=com.azure.resourcemanager.cosmos.fluent.PercentilesClient&text=PercentilesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.cosmos.fluent.CosmosDBManagementClient.getPrivateEndpointConnections()"
   fullName: "com.azure.resourcemanager.cosmos.fluent.CosmosDBManagementClient.getPrivateEndpointConnections()"
   name: "getPrivateEndpointConnections()"

@@ -88,13 +88,13 @@ methods:
   fullName: "com.azure.ai.metricsadvisor.administration.models.TopNGroupScope.setPeriod(Integer period)"
   name: "setPeriod(Integer period)"
   nameWithType: "TopNGroupScope.setPeriod(Integer period)"
-  summary: "Sets the period value indicating the number of latest point-sets detector should select for ranking, value should be in the range : \\[1, +∞)."
+  summary: "Sets the period value indicating the number of latest point-sets detector should select for ranking, value should be in the range : \\[1, +\\\\u221e)."
   parameters:
   - description: "the period value to set."
     name: "period"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
   syntax: "public TopNGroupScope setPeriod(Integer period)"
-  desc: "Sets the period value indicating the number of latest point-sets detector should select for ranking, value should be in the range : \\[1, +∞)."
+  desc: "Sets the period value indicating the number of latest point-sets detector should select for ranking, value should be in the range : \\[1, +\\\\u221e)."
   returns:
     description: "the TopNGroupScope object itself."
     type: "<xref href=\"com.azure.ai.metricsadvisor.administration.models.TopNGroupScope?alt=com.azure.ai.metricsadvisor.administration.models.TopNGroupScope&text=TopNGroupScope\" data-throw-if-not-resolved=\"False\" />"
@@ -102,13 +102,13 @@ methods:
   fullName: "com.azure.ai.metricsadvisor.administration.models.TopNGroupScope.setTop(Integer top)"
   name: "setTop(Integer top)"
   nameWithType: "TopNGroupScope.setTop(Integer top)"
-  summary: "Sets the top anomaly-rank value, value should in the range : \\[1, +∞)."
+  summary: "Sets the top anomaly-rank value, value should in the range : \\[1, +\\\\u221e)."
   parameters:
   - description: "the top value to set."
     name: "top"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
   syntax: "public TopNGroupScope setTop(Integer top)"
-  desc: "Sets the top anomaly-rank value, value should in the range : \\[1, +∞)."
+  desc: "Sets the top anomaly-rank value, value should in the range : \\[1, +\\\\u221e)."
   returns:
     description: "the TopNGroupScope object itself."
     type: "<xref href=\"com.azure.ai.metricsadvisor.administration.models.TopNGroupScope?alt=com.azure.ai.metricsadvisor.administration.models.TopNGroupScope&text=TopNGroupScope\" data-throw-if-not-resolved=\"False\" />"

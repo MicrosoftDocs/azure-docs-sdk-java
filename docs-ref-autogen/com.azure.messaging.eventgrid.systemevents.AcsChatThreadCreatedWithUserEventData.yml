@@ -107,6 +107,19 @@ methods:
   returns:
     description: "the properties value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>&gt;"
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsChatThreadCreatedWithUserEventData.setCreateTime(java.time.OffsetDateTime)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsChatThreadCreatedWithUserEventData.setCreateTime(OffsetDateTime createTime)"
+  name: "setCreateTime(OffsetDateTime createTime)"
+  nameWithType: "AcsChatThreadCreatedWithUserEventData.setCreateTime(OffsetDateTime createTime)"
+  summary: "Set the create<wbr>Time property: The original creation time of the thread."
+  overridden: "com.azure.messaging.eventgrid.systemevents.AcsChatThreadEventBaseProperties.setCreateTime(java.time.OffsetDateTime)"
+  parameters:
+  - name: "createTime"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
+  syntax: "public AcsChatThreadCreatedWithUserEventData setCreateTime(OffsetDateTime createTime)"
+  desc: "Set the createTime property: The original creation time of the thread."
+  returns:
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsChatThreadCreatedWithUserEventData?alt=com.azure.messaging.eventgrid.systemevents.AcsChatThreadCreatedWithUserEventData&text=AcsChatThreadCreatedWithUserEventData\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.messaging.eventgrid.systemevents.AcsChatThreadCreatedWithUserEventData.setCreatedByCommunicationIdentifier(com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel)"
   fullName: "com.azure.messaging.eventgrid.systemevents.AcsChatThreadCreatedWithUserEventData.setCreatedByCommunicationIdentifier(CommunicationIdentifierModel createdByCommunicationIdentifier)"
   name: "setCreatedByCommunicationIdentifier(CommunicationIdentifierModel createdByCommunicationIdentifier)"
@@ -120,19 +133,6 @@ methods:
   desc: "Set the createdByCommunicationIdentifier property: The communication identifier of the user who created the thread."
   returns:
     description: "the AcsChatThreadCreatedWithUserEventData object itself."
-    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsChatThreadCreatedWithUserEventData?alt=com.azure.messaging.eventgrid.systemevents.AcsChatThreadCreatedWithUserEventData&text=AcsChatThreadCreatedWithUserEventData\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.messaging.eventgrid.systemevents.AcsChatThreadCreatedWithUserEventData.setCreateTime(java.time.OffsetDateTime)"
-  fullName: "com.azure.messaging.eventgrid.systemevents.AcsChatThreadCreatedWithUserEventData.setCreateTime(OffsetDateTime createTime)"
-  name: "setCreateTime(OffsetDateTime createTime)"
-  nameWithType: "AcsChatThreadCreatedWithUserEventData.setCreateTime(OffsetDateTime createTime)"
-  summary: "Set the create<wbr>Time property: The original creation time of the thread."
-  overridden: "com.azure.messaging.eventgrid.systemevents.AcsChatThreadEventBaseProperties.setCreateTime(java.time.OffsetDateTime)"
-  parameters:
-  - name: "createTime"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
-  syntax: "public AcsChatThreadCreatedWithUserEventData setCreateTime(OffsetDateTime createTime)"
-  desc: "Set the createTime property: The original creation time of the thread."
-  returns:
     type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsChatThreadCreatedWithUserEventData?alt=com.azure.messaging.eventgrid.systemevents.AcsChatThreadCreatedWithUserEventData&text=AcsChatThreadCreatedWithUserEventData\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.messaging.eventgrid.systemevents.AcsChatThreadCreatedWithUserEventData.setMetadata(java.util.Map<java.lang.String,java.lang.String>)"
   fullName: "com.azure.messaging.eventgrid.systemevents.AcsChatThreadCreatedWithUserEventData.setMetadata(Map<String,String> metadata)"

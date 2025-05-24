@@ -75,7 +75,7 @@ methods:
   nameWithType: "LiveEventEncoding.presetName()"
   summary: "Get the preset<wbr>Name property: The optional encoding preset name, used when encoding<wbr>Type is not None."
   syntax: "public String presetName()"
-  desc: "Get the presetName property: The optional encoding preset name, used when encodingType is not None. This value is specified at creation time and cannot be updated. If the encodingType is set to Standard, then the default preset name is ‘Default720p’. Else if the encodingType is set to Premium1080p, the default preset is ‘Default1080p’."
+  desc: "Get the presetName property: The optional encoding preset name, used when encodingType is not None. This value is specified at creation time and cannot be updated. If the encodingType is set to Standard, then the default preset name is \\\\u2018Default720p\\\\u2019. Else if the encodingType is set to Premium1080p, the default preset is \\\\u2018Default1080p\\\\u2019."
   returns:
     description: "the presetName value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -146,7 +146,7 @@ methods:
     name: "presetName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public LiveEventEncoding withPresetName(String presetName)"
-  desc: "Set the presetName property: The optional encoding preset name, used when encodingType is not None. This value is specified at creation time and cannot be updated. If the encodingType is set to Standard, then the default preset name is ‘Default720p’. Else if the encodingType is set to Premium1080p, the default preset is ‘Default1080p’."
+  desc: "Set the presetName property: The optional encoding preset name, used when encodingType is not None. This value is specified at creation time and cannot be updated. If the encodingType is set to Standard, then the default preset name is \\\\u2018Default720p\\\\u2019. Else if the encodingType is set to Premium1080p, the default preset is \\\\u2018Default1080p\\\\u2019."
   returns:
     description: "the LiveEventEncoding object itself."
     type: "<xref href=\"com.azure.resourcemanager.mediaservices.models.LiveEventEncoding?alt=com.azure.resourcemanager.mediaservices.models.LiveEventEncoding&text=LiveEventEncoding\" data-throw-if-not-resolved=\"False\" />"

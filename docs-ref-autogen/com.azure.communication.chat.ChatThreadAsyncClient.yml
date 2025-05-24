@@ -36,6 +36,20 @@ methods:
   returns:
     description: "nothing."
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
+- uid: "com.azure.communication.chat.ChatThreadAsyncClient.addParticipantWithResponse(com.azure.communication.chat.models.ChatParticipant)"
+  fullName: "com.azure.communication.chat.ChatThreadAsyncClient.addParticipantWithResponse(ChatParticipant participant)"
+  name: "addParticipantWithResponse(ChatParticipant participant)"
+  nameWithType: "ChatThreadAsyncClient.addParticipantWithResponse(ChatParticipant participant)"
+  summary: "Adds a participant to a thread."
+  parameters:
+  - description: "The new participant."
+    name: "participant"
+    type: "<xref href=\"com.azure.communication.chat.models.ChatParticipant?alt=com.azure.communication.chat.models.ChatParticipant&text=ChatParticipant\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public Mono<Response<Void>> addParticipantWithResponse(ChatParticipant participant)"
+  desc: "Adds a participant to a thread. If the participant already exists, no change occurs."
+  returns:
+    description: "the response."
+    type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;&gt;"
 - uid: "com.azure.communication.chat.ChatThreadAsyncClient.addParticipants(java.lang.Iterable<com.azure.communication.chat.models.ChatParticipant>)"
   fullName: "com.azure.communication.chat.ChatThreadAsyncClient.addParticipants(Iterable<ChatParticipant> participants)"
   name: "addParticipants(Iterable<ChatParticipant> participants)"
@@ -64,20 +78,6 @@ methods:
   returns:
     description: "the result."
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.communication.chat.models.AddChatParticipantsResult?alt=com.azure.communication.chat.models.AddChatParticipantsResult&text=AddChatParticipantsResult\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
-- uid: "com.azure.communication.chat.ChatThreadAsyncClient.addParticipantWithResponse(com.azure.communication.chat.models.ChatParticipant)"
-  fullName: "com.azure.communication.chat.ChatThreadAsyncClient.addParticipantWithResponse(ChatParticipant participant)"
-  name: "addParticipantWithResponse(ChatParticipant participant)"
-  nameWithType: "ChatThreadAsyncClient.addParticipantWithResponse(ChatParticipant participant)"
-  summary: "Adds a participant to a thread."
-  parameters:
-  - description: "The new participant."
-    name: "participant"
-    type: "<xref href=\"com.azure.communication.chat.models.ChatParticipant?alt=com.azure.communication.chat.models.ChatParticipant&text=ChatParticipant\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public Mono<Response<Void>> addParticipantWithResponse(ChatParticipant participant)"
-  desc: "Adds a participant to a thread. If the participant already exists, no change occurs."
-  returns:
-    description: "the response."
-    type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;&gt;"
 - uid: "com.azure.communication.chat.ChatThreadAsyncClient.deleteMessage(java.lang.String)"
   fullName: "com.azure.communication.chat.ChatThreadAsyncClient.deleteMessage(String chatMessageId)"
   name: "deleteMessage(String chatMessageId)"

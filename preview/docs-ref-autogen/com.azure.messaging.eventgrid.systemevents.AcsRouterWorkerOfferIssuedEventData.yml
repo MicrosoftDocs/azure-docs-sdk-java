@@ -115,16 +115,6 @@ methods:
   returns:
     description: "the jobTags value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-- uid: "com.azure.messaging.eventgrid.systemevents.AcsRouterWorkerOfferIssuedEventData.getOfferedOn()"
-  fullName: "com.azure.messaging.eventgrid.systemevents.AcsRouterWorkerOfferIssuedEventData.getOfferedOn()"
-  name: "getOfferedOn()"
-  nameWithType: "AcsRouterWorkerOfferIssuedEventData.getOfferedOn()"
-  summary: "Get the offered<wbr>On property: Router Worker Offer Issued Time in UTC."
-  syntax: "public OffsetDateTime getOfferedOn()"
-  desc: "Get the offeredOn property: Router Worker Offer Issued Time in UTC."
-  returns:
-    description: "the offeredOn value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
 - uid: "com.azure.messaging.eventgrid.systemevents.AcsRouterWorkerOfferIssuedEventData.getOfferId()"
   fullName: "com.azure.messaging.eventgrid.systemevents.AcsRouterWorkerOfferIssuedEventData.getOfferId()"
   name: "getOfferId()"
@@ -135,6 +125,16 @@ methods:
   returns:
     description: "the offerId value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsRouterWorkerOfferIssuedEventData.getOfferedOn()"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsRouterWorkerOfferIssuedEventData.getOfferedOn()"
+  name: "getOfferedOn()"
+  nameWithType: "AcsRouterWorkerOfferIssuedEventData.getOfferedOn()"
+  summary: "Get the offered<wbr>On property: Router Worker Offer Issued Time in UTC."
+  syntax: "public OffsetDateTime getOfferedOn()"
+  desc: "Get the offeredOn property: Router Worker Offer Issued Time in UTC."
+  returns:
+    description: "the offeredOn value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
 - uid: "com.azure.messaging.eventgrid.systemevents.AcsRouterWorkerOfferIssuedEventData.getQueueId()"
   fullName: "com.azure.messaging.eventgrid.systemevents.AcsRouterWorkerOfferIssuedEventData.getQueueId()"
   name: "getQueueId()"

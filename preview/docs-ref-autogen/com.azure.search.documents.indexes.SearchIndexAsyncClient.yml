@@ -521,16 +521,6 @@ methods:
   returns:
     description: "a response containing the SynonymMap."
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.search.documents.indexes.models.SynonymMap?alt=com.azure.search.documents.indexes.models.SynonymMap&text=SynonymMap\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
-- uid: "com.azure.search.documents.indexes.SearchIndexAsyncClient.listIndexes()"
-  fullName: "com.azure.search.documents.indexes.SearchIndexAsyncClient.listIndexes()"
-  name: "listIndexes()"
-  nameWithType: "SearchIndexAsyncClient.listIndexes()"
-  summary: "Lists all indexes available for an Azure AI Search service."
-  syntax: "public PagedFlux<SearchIndex> listIndexes()"
-  desc: "Lists all indexes available for an Azure AI Search service.\n\n**Code Sample**\n\nList all search indexes.\n\n```java\nSEARCH_INDEX_ASYNC_CLIENT.listIndexes()\n     .subscribe(index ->\n         System.out.printf(\"The index name is %s. The ETag of index is %s.%n\", index.getName(),\n             index.getETag()));\n```"
-  returns:
-    description: "a reactive response emitting the list of indexes."
-    type: "<xref href=\"com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.search.documents.indexes.models.SearchIndex?alt=com.azure.search.documents.indexes.models.SearchIndex&text=SearchIndex\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.search.documents.indexes.SearchIndexAsyncClient.listIndexNames()"
   fullName: "com.azure.search.documents.indexes.SearchIndexAsyncClient.listIndexNames()"
   name: "listIndexNames()"
@@ -541,6 +531,16 @@ methods:
   returns:
     description: "a reactive response emitting the list of index names."
     type: "<xref href=\"com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+- uid: "com.azure.search.documents.indexes.SearchIndexAsyncClient.listIndexes()"
+  fullName: "com.azure.search.documents.indexes.SearchIndexAsyncClient.listIndexes()"
+  name: "listIndexes()"
+  nameWithType: "SearchIndexAsyncClient.listIndexes()"
+  summary: "Lists all indexes available for an Azure AI Search service."
+  syntax: "public PagedFlux<SearchIndex> listIndexes()"
+  desc: "Lists all indexes available for an Azure AI Search service.\n\n**Code Sample**\n\nList all search indexes.\n\n```java\nSEARCH_INDEX_ASYNC_CLIENT.listIndexes()\n     .subscribe(index ->\n         System.out.printf(\"The index name is %s. The ETag of index is %s.%n\", index.getName(),\n             index.getETag()));\n```"
+  returns:
+    description: "a reactive response emitting the list of indexes."
+    type: "<xref href=\"com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.search.documents.indexes.models.SearchIndex?alt=com.azure.search.documents.indexes.models.SearchIndex&text=SearchIndex\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.search.documents.indexes.SearchIndexAsyncClient.listKnowledgeAgents()"
   fullName: "com.azure.search.documents.indexes.SearchIndexAsyncClient.listKnowledgeAgents()"
   name: "listKnowledgeAgents()"

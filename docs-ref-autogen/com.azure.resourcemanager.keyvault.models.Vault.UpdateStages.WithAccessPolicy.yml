@@ -50,6 +50,18 @@ methods:
   returns:
     description: "the key vault update stage"
     type: "<xref href=\"com.azure.resourcemanager.keyvault.models.Vault.Update?alt=com.azure.resourcemanager.keyvault.models.Vault.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.keyvault.models.Vault.UpdateStages.WithAccessPolicy.withRoleBasedAccessControl()"
+  fullName: "com.azure.resourcemanager.keyvault.models.Vault.UpdateStages.WithAccessPolicy.withRoleBasedAccessControl()"
+  name: "withRoleBasedAccessControl()"
+  nameWithType: "Vault.UpdateStages.WithAccessPolicy.withRoleBasedAccessControl()"
+  summary: "Enables role based access control (RBAC) for authorization of data access."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract Vault.Update withRoleBasedAccessControl()"
+  desc: "Enables role based access control (RBAC) for authorization of data access. It overrides access policies configure."
+  returns:
+    description: "the update stage of the access policy definition"
+    type: "<xref href=\"com.azure.resourcemanager.keyvault.models.Vault.Update?alt=com.azure.resourcemanager.keyvault.models.Vault.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.keyvault.models.Vault.UpdateStages.WithAccessPolicy.withoutAccessPolicy(java.lang.String)"
   fullName: "com.azure.resourcemanager.keyvault.models.Vault.UpdateStages.WithAccessPolicy.withoutAccessPolicy(String objectId)"
   name: "withoutAccessPolicy(String objectId)"
@@ -75,18 +87,6 @@ methods:
   - "abstract"
   syntax: "public abstract Vault.Update withoutRoleBasedAccessControl()"
   desc: "Disables role based access control (RBAC) for authorization of data access."
-  returns:
-    description: "the update stage of the access policy definition"
-    type: "<xref href=\"com.azure.resourcemanager.keyvault.models.Vault.Update?alt=com.azure.resourcemanager.keyvault.models.Vault.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.keyvault.models.Vault.UpdateStages.WithAccessPolicy.withRoleBasedAccessControl()"
-  fullName: "com.azure.resourcemanager.keyvault.models.Vault.UpdateStages.WithAccessPolicy.withRoleBasedAccessControl()"
-  name: "withRoleBasedAccessControl()"
-  nameWithType: "Vault.UpdateStages.WithAccessPolicy.withRoleBasedAccessControl()"
-  summary: "Enables role based access control (RBAC) for authorization of data access."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract Vault.Update withRoleBasedAccessControl()"
-  desc: "Enables role based access control (RBAC) for authorization of data access. It overrides access policies configure."
   returns:
     description: "the update stage of the access policy definition"
     type: "<xref href=\"com.azure.resourcemanager.keyvault.models.Vault.Update?alt=com.azure.resourcemanager.keyvault.models.Vault.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"

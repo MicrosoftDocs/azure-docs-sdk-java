@@ -144,6 +144,14 @@ methods:
   returns:
     description: "the MD5 of the block blob's comment"
     type: "<xref href=\"byte?alt=byte&text=byte\" data-throw-if-not-resolved=\"False\" />[]"
+- uid: "com.azure.storage.blob.models.BlockBlobItem.getETag()"
+  fullName: "com.azure.storage.blob.models.BlockBlobItem.getETag()"
+  name: "getETag()"
+  nameWithType: "BlockBlobItem.getETag()"
+  syntax: "public String getETag()"
+  returns:
+    description: "the eTag of the block blob"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.storage.blob.models.BlockBlobItem.getEncryptionKeySha256()"
   fullName: "com.azure.storage.blob.models.BlockBlobItem.getEncryptionKeySha256()"
   name: "getEncryptionKeySha256()"
@@ -159,14 +167,6 @@ methods:
   syntax: "public String getEncryptionScope()"
   returns:
     description: "the encryption scope used to encrypt the block blob"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.storage.blob.models.BlockBlobItem.getETag()"
-  fullName: "com.azure.storage.blob.models.BlockBlobItem.getETag()"
-  name: "getETag()"
-  nameWithType: "BlockBlobItem.getETag()"
-  syntax: "public String getETag()"
-  returns:
-    description: "the eTag of the block blob"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.storage.blob.models.BlockBlobItem.getLastModified()"
   fullName: "com.azure.storage.blob.models.BlockBlobItem.getLastModified()"

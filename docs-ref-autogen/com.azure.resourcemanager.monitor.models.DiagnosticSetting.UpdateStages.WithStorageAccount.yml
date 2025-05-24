@@ -6,18 +6,6 @@ nameWithType: "DiagnosticSetting.UpdateStages.WithStorageAccount"
 summary: "The stage of a Diagnostic Settings update allowing to modify Storage Account settings."
 syntax: "public static interface **DiagnosticSetting.UpdateStages.WithStorageAccount**"
 methods:
-- uid: "com.azure.resourcemanager.monitor.models.DiagnosticSetting.UpdateStages.WithStorageAccount.withoutStorageAccount()"
-  fullName: "com.azure.resourcemanager.monitor.models.DiagnosticSetting.UpdateStages.WithStorageAccount.withoutStorageAccount()"
-  name: "withoutStorageAccount()"
-  nameWithType: "DiagnosticSetting.UpdateStages.WithStorageAccount.withoutStorageAccount()"
-  summary: "Removes the Storage Account from the Diagnostic Settings."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract DiagnosticSetting.Update withoutStorageAccount()"
-  desc: "Removes the Storage Account from the Diagnostic Settings."
-  returns:
-    description: "the next stage of the Diagnostic Settings update."
-    type: "<xref href=\"com.azure.resourcemanager.monitor.models.DiagnosticSetting.Update?alt=com.azure.resourcemanager.monitor.models.DiagnosticSetting.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.monitor.models.DiagnosticSetting.UpdateStages.WithStorageAccount.withStorageAccount(java.lang.String)"
   fullName: "com.azure.resourcemanager.monitor.models.DiagnosticSetting.UpdateStages.WithStorageAccount.withStorageAccount(String storageAccountId)"
   name: "withStorageAccount(String storageAccountId)"
@@ -31,6 +19,18 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract DiagnosticSetting.Update withStorageAccount(String storageAccountId)"
   desc: "Sets Storage Account for data transfer."
+  returns:
+    description: "the next stage of the Diagnostic Settings update."
+    type: "<xref href=\"com.azure.resourcemanager.monitor.models.DiagnosticSetting.Update?alt=com.azure.resourcemanager.monitor.models.DiagnosticSetting.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.monitor.models.DiagnosticSetting.UpdateStages.WithStorageAccount.withoutStorageAccount()"
+  fullName: "com.azure.resourcemanager.monitor.models.DiagnosticSetting.UpdateStages.WithStorageAccount.withoutStorageAccount()"
+  name: "withoutStorageAccount()"
+  nameWithType: "DiagnosticSetting.UpdateStages.WithStorageAccount.withoutStorageAccount()"
+  summary: "Removes the Storage Account from the Diagnostic Settings."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract DiagnosticSetting.Update withoutStorageAccount()"
+  desc: "Removes the Storage Account from the Diagnostic Settings."
   returns:
     description: "the next stage of the Diagnostic Settings update."
     type: "<xref href=\"com.azure.resourcemanager.monitor.models.DiagnosticSetting.Update?alt=com.azure.resourcemanager.monitor.models.DiagnosticSetting.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"

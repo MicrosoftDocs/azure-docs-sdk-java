@@ -254,6 +254,20 @@ methods:
   returns:
     description: "the map tile as a <code>BinaryData</code>"
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.maps.render.MapsRenderAsyncClient.getMapTileWithResponse(com.azure.maps.render.models.MapTileOptions)"
+  fullName: "com.azure.maps.render.MapsRenderAsyncClient.getMapTileWithResponse(MapTileOptions options)"
+  name: "getMapTileWithResponse(MapTileOptions options)"
+  nameWithType: "MapsRenderAsyncClient.getMapTileWithResponse(MapTileOptions options)"
+  summary: "Get Map Tile"
+  parameters:
+  - description: "the <code>MapTileOptions</code> to control the API behavior."
+    name: "options"
+    type: "<xref href=\"com.azure.maps.render.models.MapTileOptions?alt=com.azure.maps.render.models.MapTileOptions&text=MapTileOptions\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public Mono<Response<BinaryData>> getMapTileWithResponse(MapTileOptions options)"
+  desc: "Get Map Tile\n\n```java\nSystem.out.println(\"Get Map Tile\");\n MapTileOptions mapTileOptions2 = new MapTileOptions();\n mapTileOptions2.setTilesetId(TilesetId.MICROSOFT_BASE_ROAD);\n mapTileOptions2.setTileIndex(new TileIndex().setX(10).setY(22).setZ(6));\n asyncClient.getMapTile(mapTileOptions2).block().toStream();\n```\n\nThe Get Map Tiles API allows users to request map tiles in vector or raster formats typically to be integrated into a map control or SDK."
+  returns:
+    description: "the tile as a <code>Mono<Response<BinaryData>></code>"
+    type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
 - uid: "com.azure.maps.render.MapsRenderAsyncClient.getMapTileset(com.azure.maps.render.models.TilesetId)"
   fullName: "com.azure.maps.render.MapsRenderAsyncClient.getMapTileset(TilesetId tilesetId)"
   name: "getMapTileset(TilesetId tilesetId)"
@@ -282,20 +296,6 @@ methods:
   returns:
     description: "metadata for a tileset in the TileJSON format."
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.maps.render.models.MapTileset?alt=com.azure.maps.render.models.MapTileset&text=MapTileset\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
-- uid: "com.azure.maps.render.MapsRenderAsyncClient.getMapTileWithResponse(com.azure.maps.render.models.MapTileOptions)"
-  fullName: "com.azure.maps.render.MapsRenderAsyncClient.getMapTileWithResponse(MapTileOptions options)"
-  name: "getMapTileWithResponse(MapTileOptions options)"
-  nameWithType: "MapsRenderAsyncClient.getMapTileWithResponse(MapTileOptions options)"
-  summary: "Get Map Tile"
-  parameters:
-  - description: "the <code>MapTileOptions</code> to control the API behavior."
-    name: "options"
-    type: "<xref href=\"com.azure.maps.render.models.MapTileOptions?alt=com.azure.maps.render.models.MapTileOptions&text=MapTileOptions\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public Mono<Response<BinaryData>> getMapTileWithResponse(MapTileOptions options)"
-  desc: "Get Map Tile\n\n```java\nSystem.out.println(\"Get Map Tile\");\n MapTileOptions mapTileOptions2 = new MapTileOptions();\n mapTileOptions2.setTilesetId(TilesetId.MICROSOFT_BASE_ROAD);\n mapTileOptions2.setTileIndex(new TileIndex().setX(10).setY(22).setZ(6));\n asyncClient.getMapTile(mapTileOptions2).block().toStream();\n```\n\nThe Get Map Tiles API allows users to request map tiles in vector or raster formats typically to be integrated into a map control or SDK."
-  returns:
-    description: "the tile as a <code>Mono<Response<BinaryData>></code>"
-    type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
 type: "class"
 desc: "Initializes a new instance of the asynchronous RenderClient type. Creating an async client using a <xref uid=\"com.azure.core.credential.AzureKeyCredential\" data-throw-if-not-resolved=\"false\" data-raw-source=\"com.azure.core.credential.AzureKeyCredential\"></xref>:\n\n```java\n// Authenticates using subscription key\n AzureKeyCredential keyCredential = new AzureKeyCredential(System.getenv(\"SUBSCRIPTION_KEY\"));\n\n // Creates a builder\n MapsRenderClientBuilder builder = new MapsRenderClientBuilder();\n builder.credential(keyCredential);\n builder.httpLogOptions(new HttpLogOptions().setLogLevel(HttpLogDetailLevel.BODY_AND_HEADERS));\n\n // Builds the client\n MapsRenderAsyncClient client = builder.buildAsyncClient();\n```\n\nCreating an async client using a <xref uid=\"com.azure.core.credential.TokenCredential\" data-throw-if-not-resolved=\"false\" data-raw-source=\"com.azure.core.credential.TokenCredential\"></xref>:\n\n```java\n// Authenticates using Azure AD building a default credential\n // This will look for AZURE_CLIENT_ID, AZURE_TENANT_ID, and AZURE_CLIENT_SECRET env variables\n DefaultAzureCredential tokenCredential = new DefaultAzureCredentialBuilder().build();\n\n // Creates a builder\n MapsRenderClientBuilder builder = new MapsRenderClientBuilder();\n builder.credential(tokenCredential);\n builder.mapsClientId(System.getenv(\"MAPS_CLIENT_ID\"));\n builder.httpLogOptions(new HttpLogOptions().setLogLevel(HttpLogDetailLevel.BODY_AND_HEADERS));\n\n // Builds a client\n MapsRenderAsyncClient client = builder.buildAsyncClient();\n```"
 metadata: {}

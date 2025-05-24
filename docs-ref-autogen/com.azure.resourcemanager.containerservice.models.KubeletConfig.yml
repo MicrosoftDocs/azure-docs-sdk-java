@@ -46,7 +46,7 @@ methods:
   nameWithType: "KubeletConfig.containerLogMaxFiles()"
   summary: "Get the container<wbr>Log<wbr>Max<wbr>Files property: The maximum number of container log files that can be present for a container."
   syntax: "public Integer containerLogMaxFiles()"
-  desc: "Get the containerLogMaxFiles property: The maximum number of container log files that can be present for a container. The number must be ≥ 2."
+  desc: "Get the containerLogMaxFiles property: The maximum number of container log files that can be present for a container. The number must be \\\\u2265 2."
   returns:
     description: "the containerLogMaxFiles value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
@@ -202,7 +202,7 @@ methods:
     name: "containerLogMaxFiles"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
   syntax: "public KubeletConfig withContainerLogMaxFiles(Integer containerLogMaxFiles)"
-  desc: "Set the containerLogMaxFiles property: The maximum number of container log files that can be present for a container. The number must be ≥ 2."
+  desc: "Set the containerLogMaxFiles property: The maximum number of container log files that can be present for a container. The number must be \\\\u2265 2."
   returns:
     description: "the KubeletConfig object itself."
     type: "<xref href=\"com.azure.resourcemanager.containerservice.models.KubeletConfig?alt=com.azure.resourcemanager.containerservice.models.KubeletConfig&text=KubeletConfig\" data-throw-if-not-resolved=\"False\" />"

@@ -53,16 +53,6 @@ methods:
   returns:
     description: "An instance of AcsChatThreadPropertiesUpdatedEventData if the JsonReader was pointing to an instance of\n it, or null if it was pointing to JSON null."
     type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsChatThreadPropertiesUpdatedEventData?alt=com.azure.messaging.eventgrid.systemevents.AcsChatThreadPropertiesUpdatedEventData&text=AcsChatThreadPropertiesUpdatedEventData\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.messaging.eventgrid.systemevents.AcsChatThreadPropertiesUpdatedEventData.getEditedByCommunicationIdentifier()"
-  fullName: "com.azure.messaging.eventgrid.systemevents.AcsChatThreadPropertiesUpdatedEventData.getEditedByCommunicationIdentifier()"
-  name: "getEditedByCommunicationIdentifier()"
-  nameWithType: "AcsChatThreadPropertiesUpdatedEventData.getEditedByCommunicationIdentifier()"
-  summary: "Get the edited<wbr>ByCommunication<wbr>Identifier property: The communication identifier of the user who updated the thread properties."
-  syntax: "public CommunicationIdentifierModel getEditedByCommunicationIdentifier()"
-  desc: "Get the editedByCommunicationIdentifier property: The communication identifier of the user who updated the thread properties."
-  returns:
-    description: "the editedByCommunicationIdentifier value."
-    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel?alt=com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel&text=CommunicationIdentifierModel\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.messaging.eventgrid.systemevents.AcsChatThreadPropertiesUpdatedEventData.getEditTime()"
   fullName: "com.azure.messaging.eventgrid.systemevents.AcsChatThreadPropertiesUpdatedEventData.getEditTime()"
   name: "getEditTime()"
@@ -73,6 +63,16 @@ methods:
   returns:
     description: "the editTime value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsChatThreadPropertiesUpdatedEventData.getEditedByCommunicationIdentifier()"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsChatThreadPropertiesUpdatedEventData.getEditedByCommunicationIdentifier()"
+  name: "getEditedByCommunicationIdentifier()"
+  nameWithType: "AcsChatThreadPropertiesUpdatedEventData.getEditedByCommunicationIdentifier()"
+  summary: "Get the edited<wbr>ByCommunication<wbr>Identifier property: The communication identifier of the user who updated the thread properties."
+  syntax: "public CommunicationIdentifierModel getEditedByCommunicationIdentifier()"
+  desc: "Get the editedByCommunicationIdentifier property: The communication identifier of the user who updated the thread properties."
+  returns:
+    description: "the editedByCommunicationIdentifier value."
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel?alt=com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel&text=CommunicationIdentifierModel\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.messaging.eventgrid.systemevents.AcsChatThreadPropertiesUpdatedEventData.getMetadata()"
   fullName: "com.azure.messaging.eventgrid.systemevents.AcsChatThreadPropertiesUpdatedEventData.getMetadata()"
   name: "getMetadata()"

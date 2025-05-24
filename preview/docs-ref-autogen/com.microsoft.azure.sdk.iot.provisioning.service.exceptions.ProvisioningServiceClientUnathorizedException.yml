@@ -55,7 +55,7 @@ constructors:
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public ProvisioningServiceClientUnathorizedException(String message)"
 type: "class"
-desc: "Create unauthorized exception\n\nThe authorization token cannot be validated; for example, it is expired or does not apply to the request’s URI. This error code is also returned to devices as part of the TPM attestation flow.\n\nHTTP status code 401"
+desc: "Create unauthorized exception\n\nThe authorization token cannot be validated; for example, it is expired or does not apply to the request\\\\u2019s URI. This error code is also returned to devices as part of the TPM attestation flow.\n\nHTTP status code 401"
 metadata: {}
 package: "com.microsoft.azure.sdk.iot.provisioning.service.exceptions"
 artifact: com.microsoft.azure.sdk.iot.provisioning:provisioning-service-client-preview:1.1.0

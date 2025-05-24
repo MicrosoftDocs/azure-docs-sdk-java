@@ -6,18 +6,6 @@ nameWithType: "DiskEncryptionSet.UpdateStages.WithSystemAssignedManagedServiceId
 summary: "The stage of a disk encryption set update allowing to enable System Assigned Managed Service Identity."
 syntax: "public static interface **DiskEncryptionSet.UpdateStages.WithSystemAssignedManagedServiceIdentity**"
 methods:
-- uid: "com.azure.resourcemanager.compute.models.DiskEncryptionSet.UpdateStages.WithSystemAssignedManagedServiceIdentity.withoutSystemAssignedManagedServiceIdentity()"
-  fullName: "com.azure.resourcemanager.compute.models.DiskEncryptionSet.UpdateStages.WithSystemAssignedManagedServiceIdentity.withoutSystemAssignedManagedServiceIdentity()"
-  name: "withoutSystemAssignedManagedServiceIdentity()"
-  nameWithType: "DiskEncryptionSet.UpdateStages.WithSystemAssignedManagedServiceIdentity.withoutSystemAssignedManagedServiceIdentity()"
-  summary: "Specifies that System Assigned (Local) Managed Service Identity needs to be disabled in the disk encryption set."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract DiskEncryptionSet.Update withoutSystemAssignedManagedServiceIdentity()"
-  desc: "Specifies that System Assigned (Local) Managed Service Identity needs to be disabled in the disk encryption set."
-  returns:
-    description: "the next stage of the update"
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.DiskEncryptionSet.Update?alt=com.azure.resourcemanager.compute.models.DiskEncryptionSet.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.models.DiskEncryptionSet.UpdateStages.WithSystemAssignedManagedServiceIdentity.withSystemAssignedManagedServiceIdentity()"
   fullName: "com.azure.resourcemanager.compute.models.DiskEncryptionSet.UpdateStages.WithSystemAssignedManagedServiceIdentity.withSystemAssignedManagedServiceIdentity()"
   name: "withSystemAssignedManagedServiceIdentity()"
@@ -27,6 +15,18 @@ methods:
   - "abstract"
   syntax: "public abstract DiskEncryptionSet.Update withSystemAssignedManagedServiceIdentity()"
   desc: "Specifies that System Assigned Managed Service Identity needs to be enabled in the disk encryption set."
+  returns:
+    description: "the next stage of the update"
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.DiskEncryptionSet.Update?alt=com.azure.resourcemanager.compute.models.DiskEncryptionSet.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.DiskEncryptionSet.UpdateStages.WithSystemAssignedManagedServiceIdentity.withoutSystemAssignedManagedServiceIdentity()"
+  fullName: "com.azure.resourcemanager.compute.models.DiskEncryptionSet.UpdateStages.WithSystemAssignedManagedServiceIdentity.withoutSystemAssignedManagedServiceIdentity()"
+  name: "withoutSystemAssignedManagedServiceIdentity()"
+  nameWithType: "DiskEncryptionSet.UpdateStages.WithSystemAssignedManagedServiceIdentity.withoutSystemAssignedManagedServiceIdentity()"
+  summary: "Specifies that System Assigned (Local) Managed Service Identity needs to be disabled in the disk encryption set."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract DiskEncryptionSet.Update withoutSystemAssignedManagedServiceIdentity()"
+  desc: "Specifies that System Assigned (Local) Managed Service Identity needs to be disabled in the disk encryption set."
   returns:
     description: "the next stage of the update"
     type: "<xref href=\"com.azure.resourcemanager.compute.models.DiskEncryptionSet.Update?alt=com.azure.resourcemanager.compute.models.DiskEncryptionSet.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"

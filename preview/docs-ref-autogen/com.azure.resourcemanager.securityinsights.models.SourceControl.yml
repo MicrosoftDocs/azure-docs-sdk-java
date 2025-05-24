@@ -142,6 +142,18 @@ methods:
   returns:
     description: "the refreshed resource."
     type: "<xref href=\"com.azure.resourcemanager.securityinsights.models.SourceControl?alt=com.azure.resourcemanager.securityinsights.models.SourceControl&text=SourceControl\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.securityinsights.models.SourceControl.repoType()"
+  fullName: "com.azure.resourcemanager.securityinsights.models.SourceControl.repoType()"
+  name: "repoType()"
+  nameWithType: "SourceControl.repoType()"
+  summary: "Gets the repo<wbr>Type property: The repository type of the source control."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract RepoType repoType()"
+  desc: "Gets the repoType property: The repository type of the source control."
+  returns:
+    description: "the repoType value."
+    type: "<xref href=\"com.azure.resourcemanager.securityinsights.models.RepoType?alt=com.azure.resourcemanager.securityinsights.models.RepoType&text=RepoType\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.securityinsights.models.SourceControl.repository()"
   fullName: "com.azure.resourcemanager.securityinsights.models.SourceControl.repository()"
   name: "repository()"
@@ -166,18 +178,6 @@ methods:
   returns:
     description: "the repositoryResourceInfo value."
     type: "<xref href=\"com.azure.resourcemanager.securityinsights.models.RepositoryResourceInfo?alt=com.azure.resourcemanager.securityinsights.models.RepositoryResourceInfo&text=RepositoryResourceInfo\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.securityinsights.models.SourceControl.repoType()"
-  fullName: "com.azure.resourcemanager.securityinsights.models.SourceControl.repoType()"
-  name: "repoType()"
-  nameWithType: "SourceControl.repoType()"
-  summary: "Gets the repo<wbr>Type property: The repository type of the source control."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract RepoType repoType()"
-  desc: "Gets the repoType property: The repository type of the source control."
-  returns:
-    description: "the repoType value."
-    type: "<xref href=\"com.azure.resourcemanager.securityinsights.models.RepoType?alt=com.azure.resourcemanager.securityinsights.models.RepoType&text=RepoType\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.securityinsights.models.SourceControl.systemData()"
   fullName: "com.azure.resourcemanager.securityinsights.models.SourceControl.systemData()"
   name: "systemData()"

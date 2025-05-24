@@ -462,18 +462,6 @@ methods:
   returns:
     description: "the provisioningState value."
     type: "<xref href=\"com.azure.resourcemanager.servicefabricmanagedclusters.models.ManagedResourceProvisioningState?alt=com.azure.resourcemanager.servicefabricmanagedclusters.models.ManagedResourceProvisioningState&text=ManagedResourceProvisioningState\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.servicefabricmanagedclusters.models.ManagedCluster.publicIpPrefixId()"
-  fullName: "com.azure.resourcemanager.servicefabricmanagedclusters.models.ManagedCluster.publicIpPrefixId()"
-  name: "publicIpPrefixId()"
-  nameWithType: "ManagedCluster.publicIpPrefixId()"
-  summary: "Gets the public<wbr>IpPrefix<wbr>Id property: Specify the resource id of a public IPv4 prefix that the load balancer will allocate a public IPv4 address from."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract String publicIpPrefixId()"
-  desc: "Gets the publicIpPrefixId property: Specify the resource id of a public IPv4 prefix that the load balancer will allocate a public IPv4 address from. This setting cannot be changed once the cluster is created."
-  returns:
-    description: "the publicIpPrefixId value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.servicefabricmanagedclusters.models.ManagedCluster.publicIPv6PrefixId()"
   fullName: "com.azure.resourcemanager.servicefabricmanagedclusters.models.ManagedCluster.publicIPv6PrefixId()"
   name: "publicIPv6PrefixId()"
@@ -485,6 +473,18 @@ methods:
   desc: "Gets the publicIPv6PrefixId property: Specify the resource id of a public IPv6 prefix that the load balancer will allocate a public IPv6 address from. This setting cannot be changed once the cluster is created."
   returns:
     description: "the publicIPv6PrefixId value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.servicefabricmanagedclusters.models.ManagedCluster.publicIpPrefixId()"
+  fullName: "com.azure.resourcemanager.servicefabricmanagedclusters.models.ManagedCluster.publicIpPrefixId()"
+  name: "publicIpPrefixId()"
+  nameWithType: "ManagedCluster.publicIpPrefixId()"
+  summary: "Gets the public<wbr>IpPrefix<wbr>Id property: Specify the resource id of a public IPv4 prefix that the load balancer will allocate a public IPv4 address from."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String publicIpPrefixId()"
+  desc: "Gets the publicIpPrefixId property: Specify the resource id of a public IPv4 prefix that the load balancer will allocate a public IPv4 address from. This setting cannot be changed once the cluster is created."
+  returns:
+    description: "the publicIpPrefixId value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.servicefabricmanagedclusters.models.ManagedCluster.refresh()"
   fullName: "com.azure.resourcemanager.servicefabricmanagedclusters.models.ManagedCluster.refresh()"

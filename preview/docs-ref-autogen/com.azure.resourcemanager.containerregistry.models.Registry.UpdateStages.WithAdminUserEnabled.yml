@@ -6,18 +6,6 @@ nameWithType: "Registry.UpdateStages.WithAdminUserEnabled"
 summary: "The stage of the registry update allowing to enable admin user."
 syntax: "public static interface **Registry.UpdateStages.WithAdminUserEnabled**"
 methods:
-- uid: "com.azure.resourcemanager.containerregistry.models.Registry.UpdateStages.WithAdminUserEnabled.withoutRegistryNameAsAdminUser()"
-  fullName: "com.azure.resourcemanager.containerregistry.models.Registry.UpdateStages.WithAdminUserEnabled.withoutRegistryNameAsAdminUser()"
-  name: "withoutRegistryNameAsAdminUser()"
-  nameWithType: "Registry.UpdateStages.WithAdminUserEnabled.withoutRegistryNameAsAdminUser()"
-  summary: "Disable admin user."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract Registry.Update withoutRegistryNameAsAdminUser()"
-  desc: "Disable admin user."
-  returns:
-    description: "the next stage of the definition"
-    type: "<xref href=\"com.azure.resourcemanager.containerregistry.models.Registry.Update?alt=com.azure.resourcemanager.containerregistry.models.Registry.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.containerregistry.models.Registry.UpdateStages.WithAdminUserEnabled.withRegistryNameAsAdminUser()"
   fullName: "com.azure.resourcemanager.containerregistry.models.Registry.UpdateStages.WithAdminUserEnabled.withRegistryNameAsAdminUser()"
   name: "withRegistryNameAsAdminUser()"
@@ -27,6 +15,18 @@ methods:
   - "abstract"
   syntax: "public abstract Registry.Update withRegistryNameAsAdminUser()"
   desc: "Enable admin user."
+  returns:
+    description: "the next stage of the definition"
+    type: "<xref href=\"com.azure.resourcemanager.containerregistry.models.Registry.Update?alt=com.azure.resourcemanager.containerregistry.models.Registry.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.containerregistry.models.Registry.UpdateStages.WithAdminUserEnabled.withoutRegistryNameAsAdminUser()"
+  fullName: "com.azure.resourcemanager.containerregistry.models.Registry.UpdateStages.WithAdminUserEnabled.withoutRegistryNameAsAdminUser()"
+  name: "withoutRegistryNameAsAdminUser()"
+  nameWithType: "Registry.UpdateStages.WithAdminUserEnabled.withoutRegistryNameAsAdminUser()"
+  summary: "Disable admin user."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract Registry.Update withoutRegistryNameAsAdminUser()"
+  desc: "Disable admin user."
   returns:
     description: "the next stage of the definition"
     type: "<xref href=\"com.azure.resourcemanager.containerregistry.models.Registry.Update?alt=com.azure.resourcemanager.containerregistry.models.Registry.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"

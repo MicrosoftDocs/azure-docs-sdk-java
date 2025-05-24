@@ -270,18 +270,6 @@ methods:
   returns:
     description: "the ServerParametersClient object."
     type: "<xref href=\"com.azure.resourcemanager.mariadb.fluent.ServerParametersClient?alt=com.azure.resourcemanager.mariadb.fluent.ServerParametersClient&text=ServerParametersClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.mariadb.fluent.MariaDBManagementClient.getServers()"
-  fullName: "com.azure.resourcemanager.mariadb.fluent.MariaDBManagementClient.getServers()"
-  name: "getServers()"
-  nameWithType: "MariaDBManagementClient.getServers()"
-  summary: "Gets the Servers<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract ServersClient getServers()"
-  desc: "Gets the ServersClient object to access its operations."
-  returns:
-    description: "the ServersClient object."
-    type: "<xref href=\"com.azure.resourcemanager.mariadb.fluent.ServersClient?alt=com.azure.resourcemanager.mariadb.fluent.ServersClient&text=ServersClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.mariadb.fluent.MariaDBManagementClient.getServerSecurityAlertPolicies()"
   fullName: "com.azure.resourcemanager.mariadb.fluent.MariaDBManagementClient.getServerSecurityAlertPolicies()"
   name: "getServerSecurityAlertPolicies()"
@@ -294,6 +282,18 @@ methods:
   returns:
     description: "the ServerSecurityAlertPoliciesClient object."
     type: "<xref href=\"com.azure.resourcemanager.mariadb.fluent.ServerSecurityAlertPoliciesClient?alt=com.azure.resourcemanager.mariadb.fluent.ServerSecurityAlertPoliciesClient&text=ServerSecurityAlertPoliciesClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.mariadb.fluent.MariaDBManagementClient.getServers()"
+  fullName: "com.azure.resourcemanager.mariadb.fluent.MariaDBManagementClient.getServers()"
+  name: "getServers()"
+  nameWithType: "MariaDBManagementClient.getServers()"
+  summary: "Gets the Servers<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ServersClient getServers()"
+  desc: "Gets the ServersClient object to access its operations."
+  returns:
+    description: "the ServersClient object."
+    type: "<xref href=\"com.azure.resourcemanager.mariadb.fluent.ServersClient?alt=com.azure.resourcemanager.mariadb.fluent.ServersClient&text=ServersClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.mariadb.fluent.MariaDBManagementClient.getSubscriptionId()"
   fullName: "com.azure.resourcemanager.mariadb.fluent.MariaDBManagementClient.getSubscriptionId()"
   name: "getSubscriptionId()"

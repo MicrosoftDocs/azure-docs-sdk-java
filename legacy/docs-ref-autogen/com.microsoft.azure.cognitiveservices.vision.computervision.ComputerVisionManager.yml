@@ -63,6 +63,22 @@ methods:
   returns:
     description: "the Computer Vision API client"
     type: "<xref href=\"com.microsoft.azure.cognitiveservices.vision.computervision.ComputerVisionClient?alt=com.microsoft.azure.cognitiveservices.vision.computervision.ComputerVisionClient&text=ComputerVisionClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.azure.cognitiveservices.vision.computervision.ComputerVisionManager.authenticate(java.lang.String)"
+  fullName: "com.microsoft.azure.cognitiveservices.vision.computervision.ComputerVisionManager.authenticate(String subscriptionKey)"
+  name: "authenticate(String subscriptionKey)"
+  nameWithType: "ComputerVisionManager.authenticate(String subscriptionKey)"
+  summary: "Initializes an instance of Computer Vision API client."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "the Computer Vision API key"
+    name: "subscriptionKey"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static ComputerVisionClient authenticate(String subscriptionKey)"
+  desc: "Initializes an instance of Computer Vision API client."
+  returns:
+    description: "the Computer Vision API client"
+    type: "<xref href=\"com.microsoft.azure.cognitiveservices.vision.computervision.ComputerVisionClient?alt=com.microsoft.azure.cognitiveservices.vision.computervision.ComputerVisionClient&text=ComputerVisionClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.cognitiveservices.vision.computervision.ComputerVisionManager.authenticate(java.lang.String,com.microsoft.rest.credentials.ServiceClientCredentials)"
   fullName: "com.microsoft.azure.cognitiveservices.vision.computervision.ComputerVisionManager.authenticate(String baseUrl, ServiceClientCredentials credentials)"
   name: "authenticate(String baseUrl, ServiceClientCredentials credentials)"
@@ -97,22 +113,6 @@ methods:
     name: "subscriptionKey"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public static ComputerVisionClient authenticate(String baseUrl, String subscriptionKey)"
-  desc: "Initializes an instance of Computer Vision API client."
-  returns:
-    description: "the Computer Vision API client"
-    type: "<xref href=\"com.microsoft.azure.cognitiveservices.vision.computervision.ComputerVisionClient?alt=com.microsoft.azure.cognitiveservices.vision.computervision.ComputerVisionClient&text=ComputerVisionClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.azure.cognitiveservices.vision.computervision.ComputerVisionManager.authenticate(java.lang.String)"
-  fullName: "com.microsoft.azure.cognitiveservices.vision.computervision.ComputerVisionManager.authenticate(String subscriptionKey)"
-  name: "authenticate(String subscriptionKey)"
-  nameWithType: "ComputerVisionManager.authenticate(String subscriptionKey)"
-  summary: "Initializes an instance of Computer Vision API client."
-  modifiers:
-  - "static"
-  parameters:
-  - description: "the Computer Vision API key"
-    name: "subscriptionKey"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public static ComputerVisionClient authenticate(String subscriptionKey)"
   desc: "Initializes an instance of Computer Vision API client."
   returns:
     description: "the Computer Vision API client"

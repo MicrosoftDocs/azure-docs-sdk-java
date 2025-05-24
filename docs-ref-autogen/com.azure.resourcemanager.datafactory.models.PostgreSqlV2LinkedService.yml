@@ -341,6 +341,19 @@ methods:
   returns:
     description: "the PostgreSqlV2LinkedService object itself."
     type: "<xref href=\"com.azure.resourcemanager.datafactory.models.PostgreSqlV2LinkedService?alt=com.azure.resourcemanager.datafactory.models.PostgreSqlV2LinkedService&text=PostgreSqlV2LinkedService\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.datafactory.models.PostgreSqlV2LinkedService.withConnectVia(com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference)"
+  fullName: "com.azure.resourcemanager.datafactory.models.PostgreSqlV2LinkedService.withConnectVia(IntegrationRuntimeReference connectVia)"
+  name: "withConnectVia(IntegrationRuntimeReference connectVia)"
+  nameWithType: "PostgreSqlV2LinkedService.withConnectVia(IntegrationRuntimeReference connectVia)"
+  summary: "Set the connect<wbr>Via property: The integration runtime reference."
+  overridden: "com.azure.resourcemanager.datafactory.models.LinkedService.withConnectVia(com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference)"
+  parameters:
+  - name: "connectVia"
+    type: "<xref href=\"com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference?alt=com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference&text=IntegrationRuntimeReference\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public PostgreSqlV2LinkedService withConnectVia(IntegrationRuntimeReference connectVia)"
+  desc: "Set the connectVia property: The integration runtime reference."
+  returns:
+    type: "<xref href=\"com.azure.resourcemanager.datafactory.models.PostgreSqlV2LinkedService?alt=com.azure.resourcemanager.datafactory.models.PostgreSqlV2LinkedService&text=PostgreSqlV2LinkedService\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.datafactory.models.PostgreSqlV2LinkedService.withConnectionTimeout(java.lang.Object)"
   fullName: "com.azure.resourcemanager.datafactory.models.PostgreSqlV2LinkedService.withConnectionTimeout(Object connectionTimeout)"
   name: "withConnectionTimeout(Object connectionTimeout)"
@@ -354,19 +367,6 @@ methods:
   desc: "Set the connectionTimeout property: The time to wait (in seconds) while trying to establish a connection before terminating the attempt and generating an error. Type: integer."
   returns:
     description: "the PostgreSqlV2LinkedService object itself."
-    type: "<xref href=\"com.azure.resourcemanager.datafactory.models.PostgreSqlV2LinkedService?alt=com.azure.resourcemanager.datafactory.models.PostgreSqlV2LinkedService&text=PostgreSqlV2LinkedService\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.datafactory.models.PostgreSqlV2LinkedService.withConnectVia(com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference)"
-  fullName: "com.azure.resourcemanager.datafactory.models.PostgreSqlV2LinkedService.withConnectVia(IntegrationRuntimeReference connectVia)"
-  name: "withConnectVia(IntegrationRuntimeReference connectVia)"
-  nameWithType: "PostgreSqlV2LinkedService.withConnectVia(IntegrationRuntimeReference connectVia)"
-  summary: "Set the connect<wbr>Via property: The integration runtime reference."
-  overridden: "com.azure.resourcemanager.datafactory.models.LinkedService.withConnectVia(com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference)"
-  parameters:
-  - name: "connectVia"
-    type: "<xref href=\"com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference?alt=com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference&text=IntegrationRuntimeReference\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public PostgreSqlV2LinkedService withConnectVia(IntegrationRuntimeReference connectVia)"
-  desc: "Set the connectVia property: The integration runtime reference."
-  returns:
     type: "<xref href=\"com.azure.resourcemanager.datafactory.models.PostgreSqlV2LinkedService?alt=com.azure.resourcemanager.datafactory.models.PostgreSqlV2LinkedService&text=PostgreSqlV2LinkedService\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.datafactory.models.PostgreSqlV2LinkedService.withDatabase(java.lang.Object)"
   fullName: "com.azure.resourcemanager.datafactory.models.PostgreSqlV2LinkedService.withDatabase(Object database)"

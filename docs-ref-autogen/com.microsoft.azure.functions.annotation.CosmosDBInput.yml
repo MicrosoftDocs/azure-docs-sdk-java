@@ -30,18 +30,6 @@ methods:
   returns:
     description: "The app setting name of the connection string."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.azure.functions.annotation.CosmosDBInput.databaseName()"
-  fullName: "com.microsoft.azure.functions.annotation.CosmosDBInput.databaseName()"
-  name: "databaseName()"
-  nameWithType: "CosmosDBInput.databaseName()"
-  summary: "Defines the database name of the CosmosDB to which to bind."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract String databaseName()"
-  desc: "Defines the database name of the CosmosDB to which to bind."
-  returns:
-    description: "The database name string."
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.functions.annotation.CosmosDBInput.dataType()"
   fullName: "com.microsoft.azure.functions.annotation.CosmosDBInput.dataType()"
   name: "dataType()"
@@ -53,6 +41,18 @@ methods:
   desc: "Defines how Functions runtime should treat the parameter value. Possible values are:\n\n *  \"\": get the value as a string, and try to deserialize to actual parameter type like POJO\n *  string: always get the value as a string\n *  binary: get the value as a binary data, and try to deserialize to actual parameter type byte\\[\\]"
   returns:
     description: "The dataType which will be used by the Functions runtime."
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.azure.functions.annotation.CosmosDBInput.databaseName()"
+  fullName: "com.microsoft.azure.functions.annotation.CosmosDBInput.databaseName()"
+  name: "databaseName()"
+  nameWithType: "CosmosDBInput.databaseName()"
+  summary: "Defines the database name of the CosmosDB to which to bind."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String databaseName()"
+  desc: "Defines the database name of the CosmosDB to which to bind."
+  returns:
+    description: "The database name string."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.functions.annotation.CosmosDBInput.id()"
   fullName: "com.microsoft.azure.functions.annotation.CosmosDBInput.id()"

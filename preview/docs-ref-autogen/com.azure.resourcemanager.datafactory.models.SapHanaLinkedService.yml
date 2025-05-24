@@ -187,6 +187,19 @@ methods:
   returns:
     description: "the SapHanaLinkedService object itself."
     type: "<xref href=\"com.azure.resourcemanager.datafactory.models.SapHanaLinkedService?alt=com.azure.resourcemanager.datafactory.models.SapHanaLinkedService&text=SapHanaLinkedService\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.datafactory.models.SapHanaLinkedService.withConnectVia(com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference)"
+  fullName: "com.azure.resourcemanager.datafactory.models.SapHanaLinkedService.withConnectVia(IntegrationRuntimeReference connectVia)"
+  name: "withConnectVia(IntegrationRuntimeReference connectVia)"
+  nameWithType: "SapHanaLinkedService.withConnectVia(IntegrationRuntimeReference connectVia)"
+  summary: "Set the connect<wbr>Via property: The integration runtime reference."
+  overridden: "com.azure.resourcemanager.datafactory.models.LinkedService.withConnectVia(com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference)"
+  parameters:
+  - name: "connectVia"
+    type: "<xref href=\"com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference?alt=com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference&text=IntegrationRuntimeReference\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public SapHanaLinkedService withConnectVia(IntegrationRuntimeReference connectVia)"
+  desc: "Set the connectVia property: The integration runtime reference."
+  returns:
+    type: "<xref href=\"com.azure.resourcemanager.datafactory.models.SapHanaLinkedService?alt=com.azure.resourcemanager.datafactory.models.SapHanaLinkedService&text=SapHanaLinkedService\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.datafactory.models.SapHanaLinkedService.withConnectionString(java.lang.Object)"
   fullName: "com.azure.resourcemanager.datafactory.models.SapHanaLinkedService.withConnectionString(Object connectionString)"
   name: "withConnectionString(Object connectionString)"
@@ -200,19 +213,6 @@ methods:
   desc: "Set the connectionString property: SAP HANA ODBC connection string. Type: string, SecureString or AzureKeyVaultSecretReference."
   returns:
     description: "the SapHanaLinkedService object itself."
-    type: "<xref href=\"com.azure.resourcemanager.datafactory.models.SapHanaLinkedService?alt=com.azure.resourcemanager.datafactory.models.SapHanaLinkedService&text=SapHanaLinkedService\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.datafactory.models.SapHanaLinkedService.withConnectVia(com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference)"
-  fullName: "com.azure.resourcemanager.datafactory.models.SapHanaLinkedService.withConnectVia(IntegrationRuntimeReference connectVia)"
-  name: "withConnectVia(IntegrationRuntimeReference connectVia)"
-  nameWithType: "SapHanaLinkedService.withConnectVia(IntegrationRuntimeReference connectVia)"
-  summary: "Set the connect<wbr>Via property: The integration runtime reference."
-  overridden: "com.azure.resourcemanager.datafactory.models.LinkedService.withConnectVia(com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference)"
-  parameters:
-  - name: "connectVia"
-    type: "<xref href=\"com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference?alt=com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference&text=IntegrationRuntimeReference\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public SapHanaLinkedService withConnectVia(IntegrationRuntimeReference connectVia)"
-  desc: "Set the connectVia property: The integration runtime reference."
-  returns:
     type: "<xref href=\"com.azure.resourcemanager.datafactory.models.SapHanaLinkedService?alt=com.azure.resourcemanager.datafactory.models.SapHanaLinkedService&text=SapHanaLinkedService\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.datafactory.models.SapHanaLinkedService.withDescription(java.lang.String)"
   fullName: "com.azure.resourcemanager.datafactory.models.SapHanaLinkedService.withDescription(String description)"

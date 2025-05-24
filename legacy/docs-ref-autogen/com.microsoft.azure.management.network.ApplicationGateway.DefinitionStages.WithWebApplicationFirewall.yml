@@ -6,22 +6,6 @@ nameWithType: "ApplicationGateway.DefinitionStages.WithWebApplicationFirewall"
 summary: "The stage of the applicationgateway update allowing to specify Web<wbr>Application<wbr>Firewall<wbr>Configuration."
 syntax: "public static interface **ApplicationGateway.DefinitionStages.WithWebApplicationFirewall**"
 methods:
-- uid: "com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithWebApplicationFirewall.withWebApplicationFirewall(com.microsoft.azure.management.network.ApplicationGatewayWebApplicationFirewallConfiguration)"
-  fullName: "com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithWebApplicationFirewall.withWebApplicationFirewall(ApplicationGatewayWebApplicationFirewallConfiguration webApplicationFirewallConfiguration)"
-  name: "withWebApplicationFirewall(ApplicationGatewayWebApplicationFirewallConfiguration webApplicationFirewallConfiguration)"
-  nameWithType: "ApplicationGateway.DefinitionStages.WithWebApplicationFirewall.withWebApplicationFirewall(ApplicationGatewayWebApplicationFirewallConfiguration webApplicationFirewallConfiguration)"
-  summary: "Specifies web<wbr>Application<wbr>Firewall<wbr>Configuration."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "Web application firewall configuration"
-    name: "webApplicationFirewallConfiguration"
-    type: "<xref href=\"com.microsoft.azure.management.network.ApplicationGatewayWebApplicationFirewallConfiguration?alt=com.microsoft.azure.management.network.ApplicationGatewayWebApplicationFirewallConfiguration&text=ApplicationGatewayWebApplicationFirewallConfiguration\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract ApplicationGateway.DefinitionStages.WithCreate withWebApplicationFirewall(ApplicationGatewayWebApplicationFirewallConfiguration webApplicationFirewallConfiguration)"
-  desc: "Specifies webApplicationFirewallConfiguration."
-  returns:
-    description: "the next stage of the definition"
-    type: "<xref href=\"com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithCreate?alt=com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithWebApplicationFirewall.withWebApplicationFirewall(boolean,com.microsoft.azure.management.network.ApplicationGatewayFirewallMode)"
   fullName: "com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithWebApplicationFirewall.withWebApplicationFirewall(boolean enabled, ApplicationGatewayFirewallMode mode)"
   name: "withWebApplicationFirewall(boolean enabled, ApplicationGatewayFirewallMode mode)"
@@ -38,6 +22,22 @@ methods:
     type: "<xref href=\"com.microsoft.azure.management.network.ApplicationGatewayFirewallMode?alt=com.microsoft.azure.management.network.ApplicationGatewayFirewallMode&text=ApplicationGatewayFirewallMode\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract ApplicationGateway.DefinitionStages.WithCreate withWebApplicationFirewall(boolean enabled, ApplicationGatewayFirewallMode mode)"
   desc: "Specifies webApplicationFirewallConfiguration with default values."
+  returns:
+    description: "the next stage of the definition"
+    type: "<xref href=\"com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithCreate?alt=com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithWebApplicationFirewall.withWebApplicationFirewall(com.microsoft.azure.management.network.ApplicationGatewayWebApplicationFirewallConfiguration)"
+  fullName: "com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithWebApplicationFirewall.withWebApplicationFirewall(ApplicationGatewayWebApplicationFirewallConfiguration webApplicationFirewallConfiguration)"
+  name: "withWebApplicationFirewall(ApplicationGatewayWebApplicationFirewallConfiguration webApplicationFirewallConfiguration)"
+  nameWithType: "ApplicationGateway.DefinitionStages.WithWebApplicationFirewall.withWebApplicationFirewall(ApplicationGatewayWebApplicationFirewallConfiguration webApplicationFirewallConfiguration)"
+  summary: "Specifies web<wbr>Application<wbr>Firewall<wbr>Configuration."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Web application firewall configuration"
+    name: "webApplicationFirewallConfiguration"
+    type: "<xref href=\"com.microsoft.azure.management.network.ApplicationGatewayWebApplicationFirewallConfiguration?alt=com.microsoft.azure.management.network.ApplicationGatewayWebApplicationFirewallConfiguration&text=ApplicationGatewayWebApplicationFirewallConfiguration\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract ApplicationGateway.DefinitionStages.WithCreate withWebApplicationFirewall(ApplicationGatewayWebApplicationFirewallConfiguration webApplicationFirewallConfiguration)"
+  desc: "Specifies webApplicationFirewallConfiguration."
   returns:
     description: "the next stage of the definition"
     type: "<xref href=\"com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithCreate?alt=com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"

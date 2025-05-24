@@ -306,18 +306,6 @@ methods:
   returns:
     description: "the ServerCapabilitiesClient object."
     type: "<xref href=\"com.azure.resourcemanager.postgresqlflexibleserver.fluent.ServerCapabilitiesClient?alt=com.azure.resourcemanager.postgresqlflexibleserver.fluent.ServerCapabilitiesClient&text=ServerCapabilitiesClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.postgresqlflexibleserver.fluent.PostgreSqlManagementClient.getServers()"
-  fullName: "com.azure.resourcemanager.postgresqlflexibleserver.fluent.PostgreSqlManagementClient.getServers()"
-  name: "getServers()"
-  nameWithType: "PostgreSqlManagementClient.getServers()"
-  summary: "Gets the Servers<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract ServersClient getServers()"
-  desc: "Gets the ServersClient object to access its operations."
-  returns:
-    description: "the ServersClient object."
-    type: "<xref href=\"com.azure.resourcemanager.postgresqlflexibleserver.fluent.ServersClient?alt=com.azure.resourcemanager.postgresqlflexibleserver.fluent.ServersClient&text=ServersClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.postgresqlflexibleserver.fluent.PostgreSqlManagementClient.getServerThreatProtectionSettings()"
   fullName: "com.azure.resourcemanager.postgresqlflexibleserver.fluent.PostgreSqlManagementClient.getServerThreatProtectionSettings()"
   name: "getServerThreatProtectionSettings()"
@@ -330,6 +318,18 @@ methods:
   returns:
     description: "the ServerThreatProtectionSettingsClient object."
     type: "<xref href=\"com.azure.resourcemanager.postgresqlflexibleserver.fluent.ServerThreatProtectionSettingsClient?alt=com.azure.resourcemanager.postgresqlflexibleserver.fluent.ServerThreatProtectionSettingsClient&text=ServerThreatProtectionSettingsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.postgresqlflexibleserver.fluent.PostgreSqlManagementClient.getServers()"
+  fullName: "com.azure.resourcemanager.postgresqlflexibleserver.fluent.PostgreSqlManagementClient.getServers()"
+  name: "getServers()"
+  nameWithType: "PostgreSqlManagementClient.getServers()"
+  summary: "Gets the Servers<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ServersClient getServers()"
+  desc: "Gets the ServersClient object to access its operations."
+  returns:
+    description: "the ServersClient object."
+    type: "<xref href=\"com.azure.resourcemanager.postgresqlflexibleserver.fluent.ServersClient?alt=com.azure.resourcemanager.postgresqlflexibleserver.fluent.ServersClient&text=ServersClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.postgresqlflexibleserver.fluent.PostgreSqlManagementClient.getSubscriptionId()"
   fullName: "com.azure.resourcemanager.postgresqlflexibleserver.fluent.PostgreSqlManagementClient.getSubscriptionId()"
   name: "getSubscriptionId()"

@@ -18,18 +18,6 @@ methods:
   returns:
     description: "the AgentPoolsClient object."
     type: "<xref href=\"com.azure.resourcemanager.containerregistry.fluent.AgentPoolsClient?alt=com.azure.resourcemanager.containerregistry.fluent.AgentPoolsClient&text=AgentPoolsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.containerregistry.fluent.ContainerRegistryManagementClient.getArchives()"
-  fullName: "com.azure.resourcemanager.containerregistry.fluent.ContainerRegistryManagementClient.getArchives()"
-  name: "getArchives()"
-  nameWithType: "ContainerRegistryManagementClient.getArchives()"
-  summary: "Gets the Archives<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract ArchivesClient getArchives()"
-  desc: "Gets the ArchivesClient object to access its operations."
-  returns:
-    description: "the ArchivesClient object."
-    type: "<xref href=\"com.azure.resourcemanager.containerregistry.fluent.ArchivesClient?alt=com.azure.resourcemanager.containerregistry.fluent.ArchivesClient&text=ArchivesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.containerregistry.fluent.ContainerRegistryManagementClient.getArchiveVersions()"
   fullName: "com.azure.resourcemanager.containerregistry.fluent.ContainerRegistryManagementClient.getArchiveVersions()"
   name: "getArchiveVersions()"
@@ -42,6 +30,18 @@ methods:
   returns:
     description: "the ArchiveVersionsClient object."
     type: "<xref href=\"com.azure.resourcemanager.containerregistry.fluent.ArchiveVersionsClient?alt=com.azure.resourcemanager.containerregistry.fluent.ArchiveVersionsClient&text=ArchiveVersionsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.containerregistry.fluent.ContainerRegistryManagementClient.getArchives()"
+  fullName: "com.azure.resourcemanager.containerregistry.fluent.ContainerRegistryManagementClient.getArchives()"
+  name: "getArchives()"
+  nameWithType: "ContainerRegistryManagementClient.getArchives()"
+  summary: "Gets the Archives<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ArchivesClient getArchives()"
+  desc: "Gets the ArchivesClient object to access its operations."
+  returns:
+    description: "the ArchivesClient object."
+    type: "<xref href=\"com.azure.resourcemanager.containerregistry.fluent.ArchivesClient?alt=com.azure.resourcemanager.containerregistry.fluent.ArchivesClient&text=ArchivesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.containerregistry.fluent.ContainerRegistryManagementClient.getCacheRules()"
   fullName: "com.azure.resourcemanager.containerregistry.fluent.ContainerRegistryManagementClient.getCacheRules()"
   name: "getCacheRules()"

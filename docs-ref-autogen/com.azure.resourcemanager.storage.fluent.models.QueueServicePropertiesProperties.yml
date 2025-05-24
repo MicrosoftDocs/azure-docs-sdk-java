@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.storage.fluent.models.QueueServicePropertiesProp
 fullName: "com.azure.resourcemanager.storage.fluent.models.QueueServicePropertiesProperties"
 name: "QueueServicePropertiesProperties"
 nameWithType: "QueueServicePropertiesProperties"
-summary: "The properties of a storage account’s Queue service."
+summary: "The properties of a storage account\\\\u2019s Queue service."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -93,7 +93,7 @@ methods:
     description: "the QueueServicePropertiesProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.storage.fluent.models.QueueServicePropertiesProperties?alt=com.azure.resourcemanager.storage.fluent.models.QueueServicePropertiesProperties&text=QueueServicePropertiesProperties\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "The properties of a storage account’s Queue service."
+desc: "The properties of a storage account\\\\u2019s Queue service."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.storage.fluent.models.QueueServicePropertiesProperties?alt=com.azure.resourcemanager.storage.fluent.models.QueueServicePropertiesProperties&text=QueueServicePropertiesProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}

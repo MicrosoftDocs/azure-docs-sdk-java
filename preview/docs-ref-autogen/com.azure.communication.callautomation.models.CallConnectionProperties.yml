@@ -50,16 +50,6 @@ methods:
   returns:
     description: "the answeredFor value."
     type: "<xref href=\"com.azure.communication.common.PhoneNumberIdentifier?alt=com.azure.communication.common.PhoneNumberIdentifier&text=PhoneNumberIdentifier\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.communication.callautomation.models.CallConnectionProperties.getCallbackUrl()"
-  fullName: "com.azure.communication.callautomation.models.CallConnectionProperties.getCallbackUrl()"
-  name: "getCallbackUrl()"
-  nameWithType: "CallConnectionProperties.getCallbackUrl()"
-  summary: "Get the callback<wbr>Uri property."
-  syntax: "public String getCallbackUrl()"
-  desc: "Get the callbackUri property."
-  returns:
-    description: "callbackUri value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.communication.callautomation.models.CallConnectionProperties.getCallConnectionId()"
   fullName: "com.azure.communication.callautomation.models.CallConnectionProperties.getCallConnectionId()"
   name: "getCallConnectionId()"
@@ -80,6 +70,16 @@ methods:
   returns:
     description: "callConnectionState value."
     type: "<xref href=\"com.azure.communication.callautomation.models.CallConnectionState?alt=com.azure.communication.callautomation.models.CallConnectionState&text=CallConnectionState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.communication.callautomation.models.CallConnectionProperties.getCallbackUrl()"
+  fullName: "com.azure.communication.callautomation.models.CallConnectionProperties.getCallbackUrl()"
+  name: "getCallbackUrl()"
+  nameWithType: "CallConnectionProperties.getCallbackUrl()"
+  summary: "Get the callback<wbr>Uri property."
+  syntax: "public String getCallbackUrl()"
+  desc: "Get the callbackUri property."
+  returns:
+    description: "callbackUri value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.communication.callautomation.models.CallConnectionProperties.getCorrelationId()"
   fullName: "com.azure.communication.callautomation.models.CallConnectionProperties.getCorrelationId()"
   name: "getCorrelationId()"

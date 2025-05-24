@@ -31,13 +31,6 @@ constructors:
     type: "<xref href=\"java.lang.Class?alt=java.lang.Class&text=Class\" data-throw-if-not-resolved=\"False\" />&lt;?&gt;"
   syntax: "public CustomLogger(Class<?> clazz)"
 methods:
-- uid: "com.microsoft.azure.sdk.iot.device.CustomLogger.getMethodName()"
-  fullName: "com.microsoft.azure.sdk.iot.device.CustomLogger.getMethodName()"
-  name: "getMethodName()"
-  nameWithType: "CustomLogger.getMethodName()"
-  syntax: "public String getMethodName()"
-  returns:
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.sdk.iot.device.CustomLogger.LogDebug(java.lang.String,java.lang.Object...)"
   fullName: "com.microsoft.azure.sdk.iot.device.CustomLogger.LogDebug(String message, Object[] params)"
   name: "LogDebug(String message, Object[] params)"
@@ -122,6 +115,13 @@ methods:
   - name: "params"
     type: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />[]"
   syntax: "public void LogWarn(String message, Object[] params)"
+- uid: "com.microsoft.azure.sdk.iot.device.CustomLogger.getMethodName()"
+  fullName: "com.microsoft.azure.sdk.iot.device.CustomLogger.getMethodName()"
+  name: "getMethodName()"
+  nameWithType: "CustomLogger.getMethodName()"
+  syntax: "public String getMethodName()"
+  returns:
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Deprecated as of Device client version 1.18.0, sdk now calls SLF4J directly instead and will not be replacing this class with anything"
 metadata: {}

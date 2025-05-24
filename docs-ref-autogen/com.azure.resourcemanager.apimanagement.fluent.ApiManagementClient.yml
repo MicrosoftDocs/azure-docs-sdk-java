@@ -126,18 +126,6 @@ methods:
   returns:
     description: "the ApiManagementOperationsClient object."
     type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.ApiManagementOperationsClient?alt=com.azure.resourcemanager.apimanagement.fluent.ApiManagementOperationsClient&text=ApiManagementOperationsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getApiManagementServices()"
-  fullName: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getApiManagementServices()"
-  name: "getApiManagementServices()"
-  nameWithType: "ApiManagementClient.getApiManagementServices()"
-  summary: "Gets the Api<wbr>Management<wbr>Services<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract ApiManagementServicesClient getApiManagementServices()"
-  desc: "Gets the ApiManagementServicesClient object to access its operations."
-  returns:
-    description: "the ApiManagementServicesClient object."
-    type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.ApiManagementServicesClient?alt=com.azure.resourcemanager.apimanagement.fluent.ApiManagementServicesClient&text=ApiManagementServicesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getApiManagementServiceSkus()"
   fullName: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getApiManagementServiceSkus()"
   name: "getApiManagementServiceSkus()"
@@ -150,6 +138,18 @@ methods:
   returns:
     description: "the ApiManagementServiceSkusClient object."
     type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.ApiManagementServiceSkusClient?alt=com.azure.resourcemanager.apimanagement.fluent.ApiManagementServiceSkusClient&text=ApiManagementServiceSkusClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getApiManagementServices()"
+  fullName: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getApiManagementServices()"
+  name: "getApiManagementServices()"
+  nameWithType: "ApiManagementClient.getApiManagementServices()"
+  summary: "Gets the Api<wbr>Management<wbr>Services<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ApiManagementServicesClient getApiManagementServices()"
+  desc: "Gets the ApiManagementServicesClient object to access its operations."
+  returns:
+    description: "the ApiManagementServicesClient object."
+    type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.ApiManagementServicesClient?alt=com.azure.resourcemanager.apimanagement.fluent.ApiManagementServicesClient&text=ApiManagementServicesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getApiManagementSkus()"
   fullName: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getApiManagementSkus()"
   name: "getApiManagementSkus()"
@@ -258,18 +258,6 @@ methods:
   returns:
     description: "the ApiRevisionsClient object."
     type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.ApiRevisionsClient?alt=com.azure.resourcemanager.apimanagement.fluent.ApiRevisionsClient&text=ApiRevisionsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getApis()"
-  fullName: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getApis()"
-  name: "getApis()"
-  nameWithType: "ApiManagementClient.getApis()"
-  summary: "Gets the Apis<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract ApisClient getApis()"
-  desc: "Gets the ApisClient object to access its operations."
-  returns:
-    description: "the ApisClient object."
-    type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.ApisClient?alt=com.azure.resourcemanager.apimanagement.fluent.ApisClient&text=ApisClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getApiSchemas()"
   fullName: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getApiSchemas()"
   name: "getApiSchemas()"
@@ -342,6 +330,18 @@ methods:
   returns:
     description: "the ApiWikisOperationsClient object."
     type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.ApiWikisOperationsClient?alt=com.azure.resourcemanager.apimanagement.fluent.ApiWikisOperationsClient&text=ApiWikisOperationsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getApis()"
+  fullName: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getApis()"
+  name: "getApis()"
+  nameWithType: "ApiManagementClient.getApis()"
+  summary: "Gets the Apis<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ApisClient getApis()"
+  desc: "Gets the ApisClient object to access its operations."
+  returns:
+    description: "the ApisClient object."
+    type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.ApisClient?alt=com.azure.resourcemanager.apimanagement.fluent.ApisClient&text=ApisClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getAuthorizationAccessPolicies()"
   fullName: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getAuthorizationAccessPolicies()"
   name: "getAuthorizationAccessPolicies()"
@@ -378,18 +378,6 @@ methods:
   returns:
     description: "the AuthorizationProvidersClient object."
     type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.AuthorizationProvidersClient?alt=com.azure.resourcemanager.apimanagement.fluent.AuthorizationProvidersClient&text=AuthorizationProvidersClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getAuthorizations()"
-  fullName: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getAuthorizations()"
-  name: "getAuthorizations()"
-  nameWithType: "ApiManagementClient.getAuthorizations()"
-  summary: "Gets the Authorizations<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract AuthorizationsClient getAuthorizations()"
-  desc: "Gets the AuthorizationsClient object to access its operations."
-  returns:
-    description: "the AuthorizationsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.AuthorizationsClient?alt=com.azure.resourcemanager.apimanagement.fluent.AuthorizationsClient&text=AuthorizationsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getAuthorizationServers()"
   fullName: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getAuthorizationServers()"
   name: "getAuthorizationServers()"
@@ -402,6 +390,18 @@ methods:
   returns:
     description: "the AuthorizationServersClient object."
     type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.AuthorizationServersClient?alt=com.azure.resourcemanager.apimanagement.fluent.AuthorizationServersClient&text=AuthorizationServersClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getAuthorizations()"
+  fullName: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getAuthorizations()"
+  name: "getAuthorizations()"
+  nameWithType: "ApiManagementClient.getAuthorizations()"
+  summary: "Gets the Authorizations<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract AuthorizationsClient getAuthorizations()"
+  desc: "Gets the AuthorizationsClient object to access its operations."
+  returns:
+    description: "the AuthorizationsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.AuthorizationsClient?alt=com.azure.resourcemanager.apimanagement.fluent.AuthorizationsClient&text=AuthorizationsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getBackends()"
   fullName: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getBackends()"
   name: "getBackends()"
@@ -630,18 +630,6 @@ methods:
   returns:
     description: "the GraphQLApiResolversClient object."
     type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.GraphQLApiResolversClient?alt=com.azure.resourcemanager.apimanagement.fluent.GraphQLApiResolversClient&text=GraphQLApiResolversClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getGroups()"
-  fullName: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getGroups()"
-  name: "getGroups()"
-  nameWithType: "ApiManagementClient.getGroups()"
-  summary: "Gets the Groups<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract GroupsClient getGroups()"
-  desc: "Gets the GroupsClient object to access its operations."
-  returns:
-    description: "the GroupsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.GroupsClient?alt=com.azure.resourcemanager.apimanagement.fluent.GroupsClient&text=GroupsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getGroupUsers()"
   fullName: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getGroupUsers()"
   name: "getGroupUsers()"
@@ -654,6 +642,18 @@ methods:
   returns:
     description: "the GroupUsersClient object."
     type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.GroupUsersClient?alt=com.azure.resourcemanager.apimanagement.fluent.GroupUsersClient&text=GroupUsersClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getGroups()"
+  fullName: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getGroups()"
+  name: "getGroups()"
+  nameWithType: "ApiManagementClient.getGroups()"
+  summary: "Gets the Groups<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract GroupsClient getGroups()"
+  desc: "Gets the GroupsClient object to access its operations."
+  returns:
+    description: "the GroupsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.GroupsClient?alt=com.azure.resourcemanager.apimanagement.fluent.GroupsClient&text=GroupsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getHttpPipeline()"
   fullName: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getHttpPipeline()"
   name: "getHttpPipeline()"
@@ -774,6 +774,18 @@ methods:
   returns:
     description: "the OpenIdConnectProvidersClient object."
     type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.OpenIdConnectProvidersClient?alt=com.azure.resourcemanager.apimanagement.fluent.OpenIdConnectProvidersClient&text=OpenIdConnectProvidersClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getOperationStatus()"
+  fullName: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getOperationStatus()"
+  name: "getOperationStatus()"
+  nameWithType: "ApiManagementClient.getOperationStatus()"
+  summary: "Gets the Operation<wbr>Status<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract OperationStatusClient getOperationStatus()"
+  desc: "Gets the OperationStatusClient object to access its operations."
+  returns:
+    description: "the OperationStatusClient object."
+    type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.OperationStatusClient?alt=com.azure.resourcemanager.apimanagement.fluent.OperationStatusClient&text=OperationStatusClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getOperations()"
   fullName: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getOperations()"
   name: "getOperations()"
@@ -798,18 +810,6 @@ methods:
   returns:
     description: "the OperationsResultsClient object."
     type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.OperationsResultsClient?alt=com.azure.resourcemanager.apimanagement.fluent.OperationsResultsClient&text=OperationsResultsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getOperationStatus()"
-  fullName: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getOperationStatus()"
-  name: "getOperationStatus()"
-  nameWithType: "ApiManagementClient.getOperationStatus()"
-  summary: "Gets the Operation<wbr>Status<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract OperationStatusClient getOperationStatus()"
-  desc: "Gets the OperationStatusClient object to access its operations."
-  returns:
-    description: "the OperationStatusClient object."
-    type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.OperationStatusClient?alt=com.azure.resourcemanager.apimanagement.fluent.OperationStatusClient&text=OperationStatusClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getOutboundNetworkDependenciesEndpoints()"
   fullName: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getOutboundNetworkDependenciesEndpoints()"
   name: "getOutboundNetworkDependenciesEndpoints()"
@@ -858,18 +858,6 @@ methods:
   returns:
     description: "the PolicyFragmentsClient object."
     type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.PolicyFragmentsClient?alt=com.azure.resourcemanager.apimanagement.fluent.PolicyFragmentsClient&text=PolicyFragmentsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getPolicyRestrictions()"
-  fullName: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getPolicyRestrictions()"
-  name: "getPolicyRestrictions()"
-  nameWithType: "ApiManagementClient.getPolicyRestrictions()"
-  summary: "Gets the Policy<wbr>Restrictions<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract PolicyRestrictionsClient getPolicyRestrictions()"
-  desc: "Gets the PolicyRestrictionsClient object to access its operations."
-  returns:
-    description: "the PolicyRestrictionsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.PolicyRestrictionsClient?alt=com.azure.resourcemanager.apimanagement.fluent.PolicyRestrictionsClient&text=PolicyRestrictionsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getPolicyRestrictionValidations()"
   fullName: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getPolicyRestrictionValidations()"
   name: "getPolicyRestrictionValidations()"
@@ -882,6 +870,18 @@ methods:
   returns:
     description: "the PolicyRestrictionValidationsClient object."
     type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.PolicyRestrictionValidationsClient?alt=com.azure.resourcemanager.apimanagement.fluent.PolicyRestrictionValidationsClient&text=PolicyRestrictionValidationsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getPolicyRestrictions()"
+  fullName: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getPolicyRestrictions()"
+  name: "getPolicyRestrictions()"
+  nameWithType: "ApiManagementClient.getPolicyRestrictions()"
+  summary: "Gets the Policy<wbr>Restrictions<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract PolicyRestrictionsClient getPolicyRestrictions()"
+  desc: "Gets the PolicyRestrictionsClient object to access its operations."
+  returns:
+    description: "the PolicyRestrictionsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.PolicyRestrictionsClient?alt=com.azure.resourcemanager.apimanagement.fluent.PolicyRestrictionsClient&text=PolicyRestrictionsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getPortalConfigs()"
   fullName: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getPortalConfigs()"
   name: "getPortalConfigs()"
@@ -990,18 +990,6 @@ methods:
   returns:
     description: "the ProductPoliciesClient object."
     type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.ProductPoliciesClient?alt=com.azure.resourcemanager.apimanagement.fluent.ProductPoliciesClient&text=ProductPoliciesClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getProducts()"
-  fullName: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getProducts()"
-  name: "getProducts()"
-  nameWithType: "ApiManagementClient.getProducts()"
-  summary: "Gets the Products<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract ProductsClient getProducts()"
-  desc: "Gets the ProductsClient object to access its operations."
-  returns:
-    description: "the ProductsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.ProductsClient?alt=com.azure.resourcemanager.apimanagement.fluent.ProductsClient&text=ProductsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getProductSubscriptions()"
   fullName: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getProductSubscriptions()"
   name: "getProductSubscriptions()"
@@ -1038,6 +1026,18 @@ methods:
   returns:
     description: "the ProductWikisOperationsClient object."
     type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.ProductWikisOperationsClient?alt=com.azure.resourcemanager.apimanagement.fluent.ProductWikisOperationsClient&text=ProductWikisOperationsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getProducts()"
+  fullName: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getProducts()"
+  name: "getProducts()"
+  nameWithType: "ApiManagementClient.getProducts()"
+  summary: "Gets the Products<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ProductsClient getProducts()"
+  desc: "Gets the ProductsClient object to access its operations."
+  returns:
+    description: "the ProductsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.ProductsClient?alt=com.azure.resourcemanager.apimanagement.fluent.ProductsClient&text=ProductsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getQuotaByCounterKeys()"
   fullName: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getQuotaByCounterKeys()"
   name: "getQuotaByCounterKeys()"
@@ -1290,18 +1290,6 @@ methods:
   returns:
     description: "the UserIdentitiesClient object."
     type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.UserIdentitiesClient?alt=com.azure.resourcemanager.apimanagement.fluent.UserIdentitiesClient&text=UserIdentitiesClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getUsers()"
-  fullName: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getUsers()"
-  name: "getUsers()"
-  nameWithType: "ApiManagementClient.getUsers()"
-  summary: "Gets the Users<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract UsersClient getUsers()"
-  desc: "Gets the UsersClient object to access its operations."
-  returns:
-    description: "the UsersClient object."
-    type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.UsersClient?alt=com.azure.resourcemanager.apimanagement.fluent.UsersClient&text=UsersClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getUserSubscriptions()"
   fullName: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getUserSubscriptions()"
   name: "getUserSubscriptions()"
@@ -1314,6 +1302,18 @@ methods:
   returns:
     description: "the UserSubscriptionsClient object."
     type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.UserSubscriptionsClient?alt=com.azure.resourcemanager.apimanagement.fluent.UserSubscriptionsClient&text=UserSubscriptionsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getUsers()"
+  fullName: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getUsers()"
+  name: "getUsers()"
+  nameWithType: "ApiManagementClient.getUsers()"
+  summary: "Gets the Users<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract UsersClient getUsers()"
+  desc: "Gets the UsersClient object to access its operations."
+  returns:
+    description: "the UsersClient object."
+    type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.UsersClient?alt=com.azure.resourcemanager.apimanagement.fluent.UsersClient&text=UsersClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getWorkspaceApiDiagnostics()"
   fullName: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getWorkspaceApiDiagnostics()"
   name: "getWorkspaceApiDiagnostics()"
@@ -1398,18 +1398,6 @@ methods:
   returns:
     description: "the WorkspaceApiRevisionsClient object."
     type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.WorkspaceApiRevisionsClient?alt=com.azure.resourcemanager.apimanagement.fluent.WorkspaceApiRevisionsClient&text=WorkspaceApiRevisionsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getWorkspaceApis()"
-  fullName: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getWorkspaceApis()"
-  name: "getWorkspaceApis()"
-  nameWithType: "ApiManagementClient.getWorkspaceApis()"
-  summary: "Gets the Workspace<wbr>Apis<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract WorkspaceApisClient getWorkspaceApis()"
-  desc: "Gets the WorkspaceApisClient object to access its operations."
-  returns:
-    description: "the WorkspaceApisClient object."
-    type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.WorkspaceApisClient?alt=com.azure.resourcemanager.apimanagement.fluent.WorkspaceApisClient&text=WorkspaceApisClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getWorkspaceApiSchemas()"
   fullName: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getWorkspaceApiSchemas()"
   name: "getWorkspaceApiSchemas()"
@@ -1434,6 +1422,18 @@ methods:
   returns:
     description: "the WorkspaceApiVersionSetsClient object."
     type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.WorkspaceApiVersionSetsClient?alt=com.azure.resourcemanager.apimanagement.fluent.WorkspaceApiVersionSetsClient&text=WorkspaceApiVersionSetsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getWorkspaceApis()"
+  fullName: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getWorkspaceApis()"
+  name: "getWorkspaceApis()"
+  nameWithType: "ApiManagementClient.getWorkspaceApis()"
+  summary: "Gets the Workspace<wbr>Apis<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract WorkspaceApisClient getWorkspaceApis()"
+  desc: "Gets the WorkspaceApisClient object to access its operations."
+  returns:
+    description: "the WorkspaceApisClient object."
+    type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.WorkspaceApisClient?alt=com.azure.resourcemanager.apimanagement.fluent.WorkspaceApisClient&text=WorkspaceApisClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getWorkspaceBackends()"
   fullName: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getWorkspaceBackends()"
   name: "getWorkspaceBackends()"
@@ -1482,18 +1482,6 @@ methods:
   returns:
     description: "the WorkspaceGlobalSchemasClient object."
     type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.WorkspaceGlobalSchemasClient?alt=com.azure.resourcemanager.apimanagement.fluent.WorkspaceGlobalSchemasClient&text=WorkspaceGlobalSchemasClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getWorkspaceGroups()"
-  fullName: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getWorkspaceGroups()"
-  name: "getWorkspaceGroups()"
-  nameWithType: "ApiManagementClient.getWorkspaceGroups()"
-  summary: "Gets the Workspace<wbr>Groups<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract WorkspaceGroupsClient getWorkspaceGroups()"
-  desc: "Gets the WorkspaceGroupsClient object to access its operations."
-  returns:
-    description: "the WorkspaceGroupsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.WorkspaceGroupsClient?alt=com.azure.resourcemanager.apimanagement.fluent.WorkspaceGroupsClient&text=WorkspaceGroupsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getWorkspaceGroupUsers()"
   fullName: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getWorkspaceGroupUsers()"
   name: "getWorkspaceGroupUsers()"
@@ -1506,6 +1494,18 @@ methods:
   returns:
     description: "the WorkspaceGroupUsersClient object."
     type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.WorkspaceGroupUsersClient?alt=com.azure.resourcemanager.apimanagement.fluent.WorkspaceGroupUsersClient&text=WorkspaceGroupUsersClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getWorkspaceGroups()"
+  fullName: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getWorkspaceGroups()"
+  name: "getWorkspaceGroups()"
+  nameWithType: "ApiManagementClient.getWorkspaceGroups()"
+  summary: "Gets the Workspace<wbr>Groups<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract WorkspaceGroupsClient getWorkspaceGroups()"
+  desc: "Gets the WorkspaceGroupsClient object to access its operations."
+  returns:
+    description: "the WorkspaceGroupsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.WorkspaceGroupsClient?alt=com.azure.resourcemanager.apimanagement.fluent.WorkspaceGroupsClient&text=WorkspaceGroupsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getWorkspaceLoggers()"
   fullName: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getWorkspaceLoggers()"
   name: "getWorkspaceLoggers()"
@@ -1638,18 +1638,6 @@ methods:
   returns:
     description: "the WorkspaceProductsClient object."
     type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.WorkspaceProductsClient?alt=com.azure.resourcemanager.apimanagement.fluent.WorkspaceProductsClient&text=WorkspaceProductsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getWorkspaces()"
-  fullName: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getWorkspaces()"
-  name: "getWorkspaces()"
-  nameWithType: "ApiManagementClient.getWorkspaces()"
-  summary: "Gets the Workspaces<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract WorkspacesClient getWorkspaces()"
-  desc: "Gets the WorkspacesClient object to access its operations."
-  returns:
-    description: "the WorkspacesClient object."
-    type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.WorkspacesClient?alt=com.azure.resourcemanager.apimanagement.fluent.WorkspacesClient&text=WorkspacesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getWorkspaceSubscriptions()"
   fullName: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getWorkspaceSubscriptions()"
   name: "getWorkspaceSubscriptions()"
@@ -1710,6 +1698,18 @@ methods:
   returns:
     description: "the WorkspaceTagsClient object."
     type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.WorkspaceTagsClient?alt=com.azure.resourcemanager.apimanagement.fluent.WorkspaceTagsClient&text=WorkspaceTagsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getWorkspaces()"
+  fullName: "com.azure.resourcemanager.apimanagement.fluent.ApiManagementClient.getWorkspaces()"
+  name: "getWorkspaces()"
+  nameWithType: "ApiManagementClient.getWorkspaces()"
+  summary: "Gets the Workspaces<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract WorkspacesClient getWorkspaces()"
+  desc: "Gets the WorkspacesClient object to access its operations."
+  returns:
+    description: "the WorkspacesClient object."
+    type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.WorkspacesClient?alt=com.azure.resourcemanager.apimanagement.fluent.WorkspacesClient&text=WorkspacesClient\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 desc: "The interface for ApiManagementClient class."
 metadata: {}

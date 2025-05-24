@@ -6,22 +6,6 @@ nameWithType: "PolicyRule.DefinitionStages.WithPrefixesToFilterFor"
 summary: "The stage of the management policy rule definition allowing the specify the prefixes for the blobs that the rule will apply to."
 syntax: "public static interface **PolicyRule.DefinitionStages.WithPrefixesToFilterFor**"
 methods:
-- uid: "com.azure.resourcemanager.storage.models.PolicyRule.DefinitionStages.WithPrefixesToFilterFor.withPrefixesToFilterFor(java.util.List<java.lang.String>)"
-  fullName: "com.azure.resourcemanager.storage.models.PolicyRule.DefinitionStages.WithPrefixesToFilterFor.withPrefixesToFilterFor(List<String> prefixes)"
-  name: "withPrefixesToFilterFor(List<String> prefixes)"
-  nameWithType: "PolicyRule.DefinitionStages.WithPrefixesToFilterFor.withPrefixesToFilterFor(List<String> prefixes)"
-  summary: "The function that specifies the list of prefixes for the blobs that the rule will apply to."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "a list of the prefixes for the blobs that the rule will apply to."
-    name: "prefixes"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-  syntax: "public abstract PolicyRule.DefinitionStages.WithRuleActions withPrefixesToFilterFor(List<String> prefixes)"
-  desc: "The function that specifies the list of prefixes for the blobs that the rule will apply to."
-  returns:
-    description: "the next stage of the management policy rule definition."
-    type: "<xref href=\"com.azure.resourcemanager.storage.models.PolicyRule.DefinitionStages.WithRuleActions?alt=com.azure.resourcemanager.storage.models.PolicyRule.DefinitionStages.WithRuleActions&text=WithRuleActions\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.storage.models.PolicyRule.DefinitionStages.WithPrefixesToFilterFor.withPrefixToFilterFor(java.lang.String)"
   fullName: "com.azure.resourcemanager.storage.models.PolicyRule.DefinitionStages.WithPrefixesToFilterFor.withPrefixToFilterFor(String prefix)"
   name: "withPrefixToFilterFor(String prefix)"
@@ -35,6 +19,22 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PolicyRule.DefinitionStages.WithRuleActions withPrefixToFilterFor(String prefix)"
   desc: "The function that specifies a prefix for the blobs that the rule will apply to."
+  returns:
+    description: "the next stage of the management policy rule definition."
+    type: "<xref href=\"com.azure.resourcemanager.storage.models.PolicyRule.DefinitionStages.WithRuleActions?alt=com.azure.resourcemanager.storage.models.PolicyRule.DefinitionStages.WithRuleActions&text=WithRuleActions\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.storage.models.PolicyRule.DefinitionStages.WithPrefixesToFilterFor.withPrefixesToFilterFor(java.util.List<java.lang.String>)"
+  fullName: "com.azure.resourcemanager.storage.models.PolicyRule.DefinitionStages.WithPrefixesToFilterFor.withPrefixesToFilterFor(List<String> prefixes)"
+  name: "withPrefixesToFilterFor(List<String> prefixes)"
+  nameWithType: "PolicyRule.DefinitionStages.WithPrefixesToFilterFor.withPrefixesToFilterFor(List<String> prefixes)"
+  summary: "The function that specifies the list of prefixes for the blobs that the rule will apply to."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "a list of the prefixes for the blobs that the rule will apply to."
+    name: "prefixes"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+  syntax: "public abstract PolicyRule.DefinitionStages.WithRuleActions withPrefixesToFilterFor(List<String> prefixes)"
+  desc: "The function that specifies the list of prefixes for the blobs that the rule will apply to."
   returns:
     description: "the next stage of the management policy rule definition."
     type: "<xref href=\"com.azure.resourcemanager.storage.models.PolicyRule.DefinitionStages.WithRuleActions?alt=com.azure.resourcemanager.storage.models.PolicyRule.DefinitionStages.WithRuleActions&text=WithRuleActions\" data-throw-if-not-resolved=\"False\" />"

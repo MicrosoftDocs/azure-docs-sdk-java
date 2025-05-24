@@ -6,18 +6,6 @@ nameWithType: "ApplicationGatewayBackendHttpConfiguration.UpdateStages.WithProbe
 summary: "The stage of an application gateway backend HTTP configuration allowing to associate an existing probe."
 syntax: "public static interface **ApplicationGatewayBackendHttpConfiguration.UpdateStages.WithProbe**"
 methods:
-- uid: "com.azure.resourcemanager.network.models.ApplicationGatewayBackendHttpConfiguration.UpdateStages.WithProbe.withoutProbe()"
-  fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayBackendHttpConfiguration.UpdateStages.WithProbe.withoutProbe()"
-  name: "withoutProbe()"
-  nameWithType: "ApplicationGatewayBackendHttpConfiguration.UpdateStages.WithProbe.withoutProbe()"
-  summary: "Removes the association with a probe."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract ApplicationGatewayBackendHttpConfiguration.Update withoutProbe()"
-  desc: "Removes the association with a probe."
-  returns:
-    description: "the next stage of the update"
-    type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayBackendHttpConfiguration.Update?alt=com.azure.resourcemanager.network.models.ApplicationGatewayBackendHttpConfiguration.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.models.ApplicationGatewayBackendHttpConfiguration.UpdateStages.WithProbe.withProbe(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayBackendHttpConfiguration.UpdateStages.WithProbe.withProbe(String name)"
   name: "withProbe(String name)"
@@ -31,6 +19,18 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract ApplicationGatewayBackendHttpConfiguration.Update withProbe(String name)"
   desc: "Specifies an existing probe on this application gateway to associate with this backend.\n\nIf the probe with the specified name does not yet exist, it must be defined separately in the optional part of the application gateway definition. This only adds a reference to the probe by its name."
+  returns:
+    description: "the next stage of the update"
+    type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayBackendHttpConfiguration.Update?alt=com.azure.resourcemanager.network.models.ApplicationGatewayBackendHttpConfiguration.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.models.ApplicationGatewayBackendHttpConfiguration.UpdateStages.WithProbe.withoutProbe()"
+  fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayBackendHttpConfiguration.UpdateStages.WithProbe.withoutProbe()"
+  name: "withoutProbe()"
+  nameWithType: "ApplicationGatewayBackendHttpConfiguration.UpdateStages.WithProbe.withoutProbe()"
+  summary: "Removes the association with a probe."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ApplicationGatewayBackendHttpConfiguration.Update withoutProbe()"
+  desc: "Removes the association with a probe."
   returns:
     description: "the next stage of the update"
     type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayBackendHttpConfiguration.Update?alt=com.azure.resourcemanager.network.models.ApplicationGatewayBackendHttpConfiguration.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"

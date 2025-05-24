@@ -221,14 +221,6 @@ methods:
   returns:
     description: "Resource collection API of ServerParameters."
     type: "<xref href=\"com.azure.resourcemanager.mysql.models.ServerParameters?alt=com.azure.resourcemanager.mysql.models.ServerParameters&text=ServerParameters\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.mysql.MySqlManager.servers()"
-  fullName: "com.azure.resourcemanager.mysql.MySqlManager.servers()"
-  name: "servers()"
-  nameWithType: "MySqlManager.servers()"
-  syntax: "public Servers servers()"
-  returns:
-    description: "Resource collection API of Servers."
-    type: "<xref href=\"com.azure.resourcemanager.mysql.models.Servers?alt=com.azure.resourcemanager.mysql.models.Servers&text=Servers\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.mysql.MySqlManager.serverSecurityAlertPolicies()"
   fullName: "com.azure.resourcemanager.mysql.MySqlManager.serverSecurityAlertPolicies()"
   name: "serverSecurityAlertPolicies()"
@@ -237,6 +229,14 @@ methods:
   returns:
     description: "Resource collection API of ServerSecurityAlertPolicies."
     type: "<xref href=\"com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicies?alt=com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicies&text=ServerSecurityAlertPolicies\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.mysql.MySqlManager.servers()"
+  fullName: "com.azure.resourcemanager.mysql.MySqlManager.servers()"
+  name: "servers()"
+  nameWithType: "MySqlManager.servers()"
+  syntax: "public Servers servers()"
+  returns:
+    description: "Resource collection API of Servers."
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.Servers?alt=com.azure.resourcemanager.mysql.models.Servers&text=Servers\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.mysql.MySqlManager.serviceClient()"
   fullName: "com.azure.resourcemanager.mysql.MySqlManager.serviceClient()"
   name: "serviceClient()"

@@ -18,22 +18,6 @@ methods:
   returns:
     description: "the next stage of the definition"
     type: "<xref href=\"com.azure.resourcemanager.appservice.models.WebApp.DefinitionStages.WithWindowsAppFramework?alt=com.azure.resourcemanager.appservice.models.WebApp.DefinitionStages.WithWindowsAppFramework&text=WithWindowsAppFramework\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.appservice.models.WebApp.DefinitionStages.WithNewAppServicePlan.withNewLinuxPlan(com.azure.resourcemanager.resources.fluentcore.model.Creatable<com.azure.resourcemanager.appservice.models.AppServicePlan>)"
-  fullName: "com.azure.resourcemanager.appservice.models.WebApp.DefinitionStages.WithNewAppServicePlan.withNewLinuxPlan(Creatable<AppServicePlan> appServicePlanCreatable)"
-  name: "withNewLinuxPlan(Creatable<AppServicePlan> appServicePlanCreatable)"
-  nameWithType: "WebApp.DefinitionStages.WithNewAppServicePlan.withNewLinuxPlan(Creatable<AppServicePlan> appServicePlanCreatable)"
-  summary: "Creates a new app service plan to use."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "the new app service plan creatable"
-    name: "appServicePlanCreatable"
-    type: "<xref href=\"com.azure.resourcemanager.resources.fluentcore.model.Creatable?alt=com.azure.resourcemanager.resources.fluentcore.model.Creatable&text=Creatable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.appservice.models.AppServicePlan?alt=com.azure.resourcemanager.appservice.models.AppServicePlan&text=AppServicePlan\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public abstract WebApp.DefinitionStages.WithLinuxAppFramework withNewLinuxPlan(Creatable<AppServicePlan> appServicePlanCreatable)"
-  desc: "Creates a new app service plan to use."
-  returns:
-    description: "the next stage of the definition"
-    type: "<xref href=\"com.azure.resourcemanager.appservice.models.WebApp.DefinitionStages.WithLinuxAppFramework?alt=com.azure.resourcemanager.appservice.models.WebApp.DefinitionStages.WithLinuxAppFramework&text=WithLinuxAppFramework\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.appservice.models.WebApp.DefinitionStages.WithNewAppServicePlan.withNewLinuxPlan(com.azure.resourcemanager.appservice.models.PricingTier)"
   fullName: "com.azure.resourcemanager.appservice.models.WebApp.DefinitionStages.WithNewAppServicePlan.withNewLinuxPlan(PricingTier pricingTier)"
   name: "withNewLinuxPlan(PricingTier pricingTier)"
@@ -46,6 +30,22 @@ methods:
     name: "pricingTier"
     type: "<xref href=\"com.azure.resourcemanager.appservice.models.PricingTier?alt=com.azure.resourcemanager.appservice.models.PricingTier&text=PricingTier\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract WebApp.DefinitionStages.WithLinuxAppFramework withNewLinuxPlan(PricingTier pricingTier)"
+  desc: "Creates a new app service plan to use."
+  returns:
+    description: "the next stage of the definition"
+    type: "<xref href=\"com.azure.resourcemanager.appservice.models.WebApp.DefinitionStages.WithLinuxAppFramework?alt=com.azure.resourcemanager.appservice.models.WebApp.DefinitionStages.WithLinuxAppFramework&text=WithLinuxAppFramework\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.appservice.models.WebApp.DefinitionStages.WithNewAppServicePlan.withNewLinuxPlan(com.azure.resourcemanager.resources.fluentcore.model.Creatable<com.azure.resourcemanager.appservice.models.AppServicePlan>)"
+  fullName: "com.azure.resourcemanager.appservice.models.WebApp.DefinitionStages.WithNewAppServicePlan.withNewLinuxPlan(Creatable<AppServicePlan> appServicePlanCreatable)"
+  name: "withNewLinuxPlan(Creatable<AppServicePlan> appServicePlanCreatable)"
+  nameWithType: "WebApp.DefinitionStages.WithNewAppServicePlan.withNewLinuxPlan(Creatable<AppServicePlan> appServicePlanCreatable)"
+  summary: "Creates a new app service plan to use."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "the new app service plan creatable"
+    name: "appServicePlanCreatable"
+    type: "<xref href=\"com.azure.resourcemanager.resources.fluentcore.model.Creatable?alt=com.azure.resourcemanager.resources.fluentcore.model.Creatable&text=Creatable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.appservice.models.AppServicePlan?alt=com.azure.resourcemanager.appservice.models.AppServicePlan&text=AppServicePlan\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public abstract WebApp.DefinitionStages.WithLinuxAppFramework withNewLinuxPlan(Creatable<AppServicePlan> appServicePlanCreatable)"
   desc: "Creates a new app service plan to use."
   returns:
     description: "the next stage of the definition"
@@ -81,22 +81,6 @@ methods:
   returns:
     description: "the next stage of the definition"
     type: "<xref href=\"com.azure.resourcemanager.appservice.models.WebApp.DefinitionStages.WithWindowsAppFramework?alt=com.azure.resourcemanager.appservice.models.WebApp.DefinitionStages.WithWindowsAppFramework&text=WithWindowsAppFramework\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.appservice.models.WebApp.DefinitionStages.WithNewAppServicePlan.withNewWindowsPlan(com.azure.resourcemanager.resources.fluentcore.model.Creatable<com.azure.resourcemanager.appservice.models.AppServicePlan>)"
-  fullName: "com.azure.resourcemanager.appservice.models.WebApp.DefinitionStages.WithNewAppServicePlan.withNewWindowsPlan(Creatable<AppServicePlan> appServicePlanCreatable)"
-  name: "withNewWindowsPlan(Creatable<AppServicePlan> appServicePlanCreatable)"
-  nameWithType: "WebApp.DefinitionStages.WithNewAppServicePlan.withNewWindowsPlan(Creatable<AppServicePlan> appServicePlanCreatable)"
-  summary: "Creates a new app service plan to use."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "the new app service plan creatable"
-    name: "appServicePlanCreatable"
-    type: "<xref href=\"com.azure.resourcemanager.resources.fluentcore.model.Creatable?alt=com.azure.resourcemanager.resources.fluentcore.model.Creatable&text=Creatable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.appservice.models.AppServicePlan?alt=com.azure.resourcemanager.appservice.models.AppServicePlan&text=AppServicePlan\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public abstract WebApp.DefinitionStages.WithWindowsAppFramework withNewWindowsPlan(Creatable<AppServicePlan> appServicePlanCreatable)"
-  desc: "Creates a new app service plan to use."
-  returns:
-    description: "the next stage of the definition"
-    type: "<xref href=\"com.azure.resourcemanager.appservice.models.WebApp.DefinitionStages.WithWindowsAppFramework?alt=com.azure.resourcemanager.appservice.models.WebApp.DefinitionStages.WithWindowsAppFramework&text=WithWindowsAppFramework\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.appservice.models.WebApp.DefinitionStages.WithNewAppServicePlan.withNewWindowsPlan(com.azure.resourcemanager.appservice.models.PricingTier)"
   fullName: "com.azure.resourcemanager.appservice.models.WebApp.DefinitionStages.WithNewAppServicePlan.withNewWindowsPlan(PricingTier pricingTier)"
   name: "withNewWindowsPlan(PricingTier pricingTier)"
@@ -109,6 +93,22 @@ methods:
     name: "pricingTier"
     type: "<xref href=\"com.azure.resourcemanager.appservice.models.PricingTier?alt=com.azure.resourcemanager.appservice.models.PricingTier&text=PricingTier\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract WebApp.DefinitionStages.WithWindowsAppFramework withNewWindowsPlan(PricingTier pricingTier)"
+  desc: "Creates a new app service plan to use."
+  returns:
+    description: "the next stage of the definition"
+    type: "<xref href=\"com.azure.resourcemanager.appservice.models.WebApp.DefinitionStages.WithWindowsAppFramework?alt=com.azure.resourcemanager.appservice.models.WebApp.DefinitionStages.WithWindowsAppFramework&text=WithWindowsAppFramework\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.appservice.models.WebApp.DefinitionStages.WithNewAppServicePlan.withNewWindowsPlan(com.azure.resourcemanager.resources.fluentcore.model.Creatable<com.azure.resourcemanager.appservice.models.AppServicePlan>)"
+  fullName: "com.azure.resourcemanager.appservice.models.WebApp.DefinitionStages.WithNewAppServicePlan.withNewWindowsPlan(Creatable<AppServicePlan> appServicePlanCreatable)"
+  name: "withNewWindowsPlan(Creatable<AppServicePlan> appServicePlanCreatable)"
+  nameWithType: "WebApp.DefinitionStages.WithNewAppServicePlan.withNewWindowsPlan(Creatable<AppServicePlan> appServicePlanCreatable)"
+  summary: "Creates a new app service plan to use."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "the new app service plan creatable"
+    name: "appServicePlanCreatable"
+    type: "<xref href=\"com.azure.resourcemanager.resources.fluentcore.model.Creatable?alt=com.azure.resourcemanager.resources.fluentcore.model.Creatable&text=Creatable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.appservice.models.AppServicePlan?alt=com.azure.resourcemanager.appservice.models.AppServicePlan&text=AppServicePlan\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public abstract WebApp.DefinitionStages.WithWindowsAppFramework withNewWindowsPlan(Creatable<AppServicePlan> appServicePlanCreatable)"
   desc: "Creates a new app service plan to use."
   returns:
     description: "the next stage of the definition"

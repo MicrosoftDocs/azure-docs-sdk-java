@@ -6,6 +6,22 @@ nameWithType: "SyncPollingStrategy<T,U>"
 summary: "Represents a known strategy for polling a long-running operation in Azure."
 syntax: "public interface **SyncPollingStrategy<T,U>**"
 methods:
+- uid: "com.azure.core.util.polling.SyncPollingStrategy.canPoll(com.azure.core.http.rest.Response<?>)"
+  fullName: "com.azure.core.util.polling.SyncPollingStrategy<T,U>.canPoll(Response<?> initialResponse)"
+  name: "canPoll(Response<?> initialResponse)"
+  nameWithType: "SyncPollingStrategy<T,U>.canPoll(Response<?> initialResponse)"
+  summary: "Checks if this strategy is able to handle polling for this long-running operation based on the information in the initial response."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "the response from the initial method call to activate the long-running operation"
+    name: "initialResponse"
+    type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;?&gt;"
+  syntax: "public abstract boolean canPoll(Response<?> initialResponse)"
+  desc: "Checks if this strategy is able to handle polling for this long-running operation based on the information in the initial response."
+  returns:
+    description: "true if this polling strategy can handle the initial response, false if not"
+    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.core.util.polling.SyncPollingStrategy.cancel(com.azure.core.util.polling.PollingContext<T>,com.azure.core.util.polling.PollResponse<T>)"
   fullName: "com.azure.core.util.polling.SyncPollingStrategy<T,U>.cancel(PollingContext<T> pollingContext, PollResponse<T> initialResponse)"
   name: "cancel(PollingContext<T> pollingContext, PollResponse<T> initialResponse)"
@@ -25,22 +41,6 @@ methods:
   returns:
     description: "the cancellation response content"
     type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.core.util.polling.SyncPollingStrategy.canPoll(com.azure.core.http.rest.Response<?>)"
-  fullName: "com.azure.core.util.polling.SyncPollingStrategy<T,U>.canPoll(Response<?> initialResponse)"
-  name: "canPoll(Response<?> initialResponse)"
-  nameWithType: "SyncPollingStrategy<T,U>.canPoll(Response<?> initialResponse)"
-  summary: "Checks if this strategy is able to handle polling for this long-running operation based on the information in the initial response."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "the response from the initial method call to activate the long-running operation"
-    name: "initialResponse"
-    type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;?&gt;"
-  syntax: "public abstract boolean canPoll(Response<?> initialResponse)"
-  desc: "Checks if this strategy is able to handle polling for this long-running operation based on the information in the initial response."
-  returns:
-    description: "true if this polling strategy can handle the initial response, false if not"
-    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.core.util.polling.SyncPollingStrategy.getResult(com.azure.core.util.polling.PollingContext<T>,com.azure.core.util.serializer.TypeReference<U>)"
   fullName: "com.azure.core.util.polling.SyncPollingStrategy<T,U>.getResult(PollingContext<T> pollingContext, TypeReference<U> resultType)"
   name: "getResult(PollingContext<T> pollingContext, TypeReference<U> resultType)"

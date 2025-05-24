@@ -145,7 +145,7 @@ methods:
   nameWithType: "TeradataLinkedServiceTypeProperties.sslMode()"
   summary: "Get the ssl<wbr>Mode property: SSL mode for connection."
   syntax: "public Object sslMode()"
-  desc: "Get the sslMode property: SSL mode for connection. Valid values including: “Disable”, “Allow”, “Prefer”, “Require”, “Verify-CA”, “Verify-Full”. Default value is “Verify-Full”. Type: string (or Expression with resultType string). Only applied for version 2.0."
+  desc: "Get the sslMode property: SSL mode for connection. Valid values including: \\\\u201cDisable\\\\u201d, \\\\u201cAllow\\\\u201d, \\\\u201cPrefer\\\\u201d, \\\\u201cRequire\\\\u201d, \\\\u201cVerify-CA\\\\u201d, \\\\u201cVerify-Full\\\\u201d. Default value is \\\\u201cVerify-Full\\\\u201d. Type: string (or Expression with resultType string). Only applied for version 2.0."
   returns:
     description: "the sslMode value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
@@ -324,7 +324,7 @@ methods:
     name: "sslMode"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   syntax: "public TeradataLinkedServiceTypeProperties withSslMode(Object sslMode)"
-  desc: "Set the sslMode property: SSL mode for connection. Valid values including: “Disable”, “Allow”, “Prefer”, “Require”, “Verify-CA”, “Verify-Full”. Default value is “Verify-Full”. Type: string (or Expression with resultType string). Only applied for version 2.0."
+  desc: "Set the sslMode property: SSL mode for connection. Valid values including: \\\\u201cDisable\\\\u201d, \\\\u201cAllow\\\\u201d, \\\\u201cPrefer\\\\u201d, \\\\u201cRequire\\\\u201d, \\\\u201cVerify-CA\\\\u201d, \\\\u201cVerify-Full\\\\u201d. Default value is \\\\u201cVerify-Full\\\\u201d. Type: string (or Expression with resultType string). Only applied for version 2.0."
   returns:
     description: "the TeradataLinkedServiceTypeProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.datafactory.fluent.models.TeradataLinkedServiceTypeProperties?alt=com.azure.resourcemanager.datafactory.fluent.models.TeradataLinkedServiceTypeProperties&text=TeradataLinkedServiceTypeProperties\" data-throw-if-not-resolved=\"False\" />"

@@ -68,16 +68,6 @@ constructors:
   syntax: "public SqlParameter(String name, Object value)"
   desc: "Initializes a new instance of the SqlParameter class with the name and value of the parameter."
 methods:
-- uid: "com.microsoft.azure.documentdb.SqlParameter.getName()"
-  fullName: "com.microsoft.azure.documentdb.SqlParameter.getName()"
-  name: "getName()"
-  nameWithType: "SqlParameter.getName()"
-  summary: "Gets the name of the parameter."
-  syntax: "public String getName()"
-  desc: "Gets the name of the parameter."
-  returns:
-    description: "the name of the parameter."
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.documentdb.SqlParameter.<T>getValue(java.lang.Class<T>)"
   fullName: "com.microsoft.azure.documentdb.SqlParameter.getValue(Class<T> c)"
   name: "getValue(Class<T> c)"
@@ -92,6 +82,16 @@ methods:
   returns:
     description: "the value of the parameter."
     type: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.azure.documentdb.SqlParameter.getName()"
+  fullName: "com.microsoft.azure.documentdb.SqlParameter.getName()"
+  name: "getName()"
+  nameWithType: "SqlParameter.getName()"
+  summary: "Gets the name of the parameter."
+  syntax: "public String getName()"
+  desc: "Gets the name of the parameter."
+  returns:
+    description: "the name of the parameter."
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.documentdb.SqlParameter.setName(java.lang.String)"
   fullName: "com.microsoft.azure.documentdb.SqlParameter.setName(String name)"
   name: "setName(String name)"

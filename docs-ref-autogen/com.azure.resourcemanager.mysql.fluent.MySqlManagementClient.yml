@@ -294,18 +294,6 @@ methods:
   returns:
     description: "the ServerParametersClient object."
     type: "<xref href=\"com.azure.resourcemanager.mysql.fluent.ServerParametersClient?alt=com.azure.resourcemanager.mysql.fluent.ServerParametersClient&text=ServerParametersClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.mysql.fluent.MySqlManagementClient.getServers()"
-  fullName: "com.azure.resourcemanager.mysql.fluent.MySqlManagementClient.getServers()"
-  name: "getServers()"
-  nameWithType: "MySqlManagementClient.getServers()"
-  summary: "Gets the Servers<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract ServersClient getServers()"
-  desc: "Gets the ServersClient object to access its operations."
-  returns:
-    description: "the ServersClient object."
-    type: "<xref href=\"com.azure.resourcemanager.mysql.fluent.ServersClient?alt=com.azure.resourcemanager.mysql.fluent.ServersClient&text=ServersClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.mysql.fluent.MySqlManagementClient.getServerSecurityAlertPolicies()"
   fullName: "com.azure.resourcemanager.mysql.fluent.MySqlManagementClient.getServerSecurityAlertPolicies()"
   name: "getServerSecurityAlertPolicies()"
@@ -318,6 +306,18 @@ methods:
   returns:
     description: "the ServerSecurityAlertPoliciesClient object."
     type: "<xref href=\"com.azure.resourcemanager.mysql.fluent.ServerSecurityAlertPoliciesClient?alt=com.azure.resourcemanager.mysql.fluent.ServerSecurityAlertPoliciesClient&text=ServerSecurityAlertPoliciesClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.mysql.fluent.MySqlManagementClient.getServers()"
+  fullName: "com.azure.resourcemanager.mysql.fluent.MySqlManagementClient.getServers()"
+  name: "getServers()"
+  nameWithType: "MySqlManagementClient.getServers()"
+  summary: "Gets the Servers<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ServersClient getServers()"
+  desc: "Gets the ServersClient object to access its operations."
+  returns:
+    description: "the ServersClient object."
+    type: "<xref href=\"com.azure.resourcemanager.mysql.fluent.ServersClient?alt=com.azure.resourcemanager.mysql.fluent.ServersClient&text=ServersClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.mysql.fluent.MySqlManagementClient.getSubscriptionId()"
   fullName: "com.azure.resourcemanager.mysql.fluent.MySqlManagementClient.getSubscriptionId()"
   name: "getSubscriptionId()"

@@ -6,30 +6,6 @@ nameWithType: "WebAppDiagnosticLogs.UpdateStages.WithStorageLocationForWebServer
 summary: "A web app diagnostic log update allowing web server log storage location to be specified."
 syntax: "public static interface **WebAppDiagnosticLogs.UpdateStages.WithStorageLocationForWebServer<ParentT>**"
 methods:
-- uid: "com.azure.resourcemanager.appservice.models.WebAppDiagnosticLogs.UpdateStages.WithStorageLocationForWebServer.withoutWebServerLogsStoredOnFileSystem()"
-  fullName: "com.azure.resourcemanager.appservice.models.WebAppDiagnosticLogs.UpdateStages.WithStorageLocationForWebServer<ParentT>.withoutWebServerLogsStoredOnFileSystem()"
-  name: "withoutWebServerLogsStoredOnFileSystem()"
-  nameWithType: "WebAppDiagnosticLogs.UpdateStages.WithStorageLocationForWebServer<ParentT>.withoutWebServerLogsStoredOnFileSystem()"
-  summary: "Stops web server logs to be stored on the file system."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract WebAppDiagnosticLogs.UpdateStages.Update<ParentT> withoutWebServerLogsStoredOnFileSystem()"
-  desc: "Stops web server logs to be stored on the file system."
-  returns:
-    description: "the next stage of the update"
-    type: "<xref href=\"com.azure.resourcemanager.appservice.models.WebAppDiagnosticLogs.UpdateStages.Update?alt=com.azure.resourcemanager.appservice.models.WebAppDiagnosticLogs.UpdateStages.Update&text=Update\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.resourcemanager.appservice.models.WebAppDiagnosticLogs.UpdateStages.WithStorageLocationForWebServer.withoutWebServerLogsStoredOnStorageBlob()"
-  fullName: "com.azure.resourcemanager.appservice.models.WebAppDiagnosticLogs.UpdateStages.WithStorageLocationForWebServer<ParentT>.withoutWebServerLogsStoredOnStorageBlob()"
-  name: "withoutWebServerLogsStoredOnStorageBlob()"
-  nameWithType: "WebAppDiagnosticLogs.UpdateStages.WithStorageLocationForWebServer<ParentT>.withoutWebServerLogsStoredOnStorageBlob()"
-  summary: "Stops web server logs to be stored on in a Storage blob."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract WebAppDiagnosticLogs.UpdateStages.Update<ParentT> withoutWebServerLogsStoredOnStorageBlob()"
-  desc: "Stops web server logs to be stored on in a Storage blob."
-  returns:
-    description: "the next stage of the update"
-    type: "<xref href=\"com.azure.resourcemanager.appservice.models.WebAppDiagnosticLogs.UpdateStages.Update?alt=com.azure.resourcemanager.appservice.models.WebAppDiagnosticLogs.UpdateStages.Update&text=Update\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.appservice.models.WebAppDiagnosticLogs.UpdateStages.WithStorageLocationForWebServer.withWebServerLogsStoredOnFileSystem()"
   fullName: "com.azure.resourcemanager.appservice.models.WebAppDiagnosticLogs.UpdateStages.WithStorageLocationForWebServer<ParentT>.withWebServerLogsStoredOnFileSystem()"
   name: "withWebServerLogsStoredOnFileSystem()"
@@ -58,6 +34,30 @@ methods:
   returns:
     description: "the next stage of the update"
     type: "<xref href=\"com.azure.resourcemanager.appservice.models.WebAppDiagnosticLogs.UpdateStages.WithAttachForWebServerStorage?alt=com.azure.resourcemanager.appservice.models.WebAppDiagnosticLogs.UpdateStages.WithAttachForWebServerStorage&text=WithAttachForWebServerStorage\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.appservice.models.WebAppDiagnosticLogs.UpdateStages.WithStorageLocationForWebServer.withoutWebServerLogsStoredOnFileSystem()"
+  fullName: "com.azure.resourcemanager.appservice.models.WebAppDiagnosticLogs.UpdateStages.WithStorageLocationForWebServer<ParentT>.withoutWebServerLogsStoredOnFileSystem()"
+  name: "withoutWebServerLogsStoredOnFileSystem()"
+  nameWithType: "WebAppDiagnosticLogs.UpdateStages.WithStorageLocationForWebServer<ParentT>.withoutWebServerLogsStoredOnFileSystem()"
+  summary: "Stops web server logs to be stored on the file system."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract WebAppDiagnosticLogs.UpdateStages.Update<ParentT> withoutWebServerLogsStoredOnFileSystem()"
+  desc: "Stops web server logs to be stored on the file system."
+  returns:
+    description: "the next stage of the update"
+    type: "<xref href=\"com.azure.resourcemanager.appservice.models.WebAppDiagnosticLogs.UpdateStages.Update?alt=com.azure.resourcemanager.appservice.models.WebAppDiagnosticLogs.UpdateStages.Update&text=Update\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.appservice.models.WebAppDiagnosticLogs.UpdateStages.WithStorageLocationForWebServer.withoutWebServerLogsStoredOnStorageBlob()"
+  fullName: "com.azure.resourcemanager.appservice.models.WebAppDiagnosticLogs.UpdateStages.WithStorageLocationForWebServer<ParentT>.withoutWebServerLogsStoredOnStorageBlob()"
+  name: "withoutWebServerLogsStoredOnStorageBlob()"
+  nameWithType: "WebAppDiagnosticLogs.UpdateStages.WithStorageLocationForWebServer<ParentT>.withoutWebServerLogsStoredOnStorageBlob()"
+  summary: "Stops web server logs to be stored on in a Storage blob."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract WebAppDiagnosticLogs.UpdateStages.Update<ParentT> withoutWebServerLogsStoredOnStorageBlob()"
+  desc: "Stops web server logs to be stored on in a Storage blob."
+  returns:
+    description: "the next stage of the update"
+    type: "<xref href=\"com.azure.resourcemanager.appservice.models.WebAppDiagnosticLogs.UpdateStages.Update?alt=com.azure.resourcemanager.appservice.models.WebAppDiagnosticLogs.UpdateStages.Update&text=Update\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "interface"
 typeParameters:
 - description: "the stage of the parent update to return to after attaching this update"

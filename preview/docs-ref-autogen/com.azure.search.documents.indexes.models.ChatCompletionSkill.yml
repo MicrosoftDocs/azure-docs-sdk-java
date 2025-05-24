@@ -117,7 +117,7 @@ methods:
   nameWithType: "ChatCompletionSkill.getExtraParameters()"
   summary: "Get the extra<wbr>Parameters property: Open-type dictionary for model-specific parameters that should be appended to the chat completions call."
   syntax: "public Map<String,Object> getExtraParameters()"
-  desc: "Get the extraParameters property: Open-type dictionary for model-specific parameters that should be appended to the chat completions call. Follows Azure AI Foundry’s extensibility pattern."
+  desc: "Get the extraParameters property: Open-type dictionary for model-specific parameters that should be appended to the chat completions call. Follows Azure AI Foundry\\\\u2019s extensibility pattern."
   returns:
     description: "the extraParameters value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>&gt;"
@@ -268,7 +268,7 @@ methods:
     name: "extraParameters"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>&gt;"
   syntax: "public ChatCompletionSkill setExtraParameters(Map<String,Object> extraParameters)"
-  desc: "Set the extraParameters property: Open-type dictionary for model-specific parameters that should be appended to the chat completions call. Follows Azure AI Foundry’s extensibility pattern."
+  desc: "Set the extraParameters property: Open-type dictionary for model-specific parameters that should be appended to the chat completions call. Follows Azure AI Foundry\\\\u2019s extensibility pattern."
   returns:
     description: "the ChatCompletionSkill object itself."
     type: "<xref href=\"com.azure.search.documents.indexes.models.ChatCompletionSkill?alt=com.azure.search.documents.indexes.models.ChatCompletionSkill&text=ChatCompletionSkill\" data-throw-if-not-resolved=\"False\" />"

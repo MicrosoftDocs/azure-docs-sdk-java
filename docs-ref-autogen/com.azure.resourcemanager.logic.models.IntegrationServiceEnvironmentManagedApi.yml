@@ -6,18 +6,6 @@ nameWithType: "IntegrationServiceEnvironmentManagedApi"
 summary: "An immutable client-side representation of Integration<wbr>Service<wbr>Environment<wbr>Managed<wbr>Api."
 syntax: "public interface **IntegrationServiceEnvironmentManagedApi**"
 methods:
-- uid: "com.azure.resourcemanager.logic.models.IntegrationServiceEnvironmentManagedApi.apiDefinitions()"
-  fullName: "com.azure.resourcemanager.logic.models.IntegrationServiceEnvironmentManagedApi.apiDefinitions()"
-  name: "apiDefinitions()"
-  nameWithType: "IntegrationServiceEnvironmentManagedApi.apiDefinitions()"
-  summary: "Gets the api<wbr>Definitions property: The api definitions."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract ApiResourceDefinitions apiDefinitions()"
-  desc: "Gets the apiDefinitions property: The api definitions."
-  returns:
-    description: "the apiDefinitions value."
-    type: "<xref href=\"com.azure.resourcemanager.logic.models.ApiResourceDefinitions?alt=com.azure.resourcemanager.logic.models.ApiResourceDefinitions&text=ApiResourceDefinitions\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.logic.models.IntegrationServiceEnvironmentManagedApi.apiDefinitionUrl()"
   fullName: "com.azure.resourcemanager.logic.models.IntegrationServiceEnvironmentManagedApi.apiDefinitionUrl()"
   name: "apiDefinitionUrl()"
@@ -30,6 +18,18 @@ methods:
   returns:
     description: "the apiDefinitionUrl value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.logic.models.IntegrationServiceEnvironmentManagedApi.apiDefinitions()"
+  fullName: "com.azure.resourcemanager.logic.models.IntegrationServiceEnvironmentManagedApi.apiDefinitions()"
+  name: "apiDefinitions()"
+  nameWithType: "IntegrationServiceEnvironmentManagedApi.apiDefinitions()"
+  summary: "Gets the api<wbr>Definitions property: The api definitions."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ApiResourceDefinitions apiDefinitions()"
+  desc: "Gets the apiDefinitions property: The api definitions."
+  returns:
+    description: "the apiDefinitions value."
+    type: "<xref href=\"com.azure.resourcemanager.logic.models.ApiResourceDefinitions?alt=com.azure.resourcemanager.logic.models.ApiResourceDefinitions&text=ApiResourceDefinitions\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.logic.models.IntegrationServiceEnvironmentManagedApi.backendService()"
   fullName: "com.azure.resourcemanager.logic.models.IntegrationServiceEnvironmentManagedApi.backendService()"
   name: "backendService()"

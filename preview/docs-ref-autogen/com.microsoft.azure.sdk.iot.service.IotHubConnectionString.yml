@@ -478,25 +478,6 @@ methods:
   returns:
     description: "The Url in the following format: \"https:hostname/twins/deviceId/methods/\""
     type: "<xref href=\"java.net.URL?alt=java.net.URL&text=URL\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.azure.sdk.iot.service.IotHubConnectionString.getUrlModulesOnDevice(java.lang.String)"
-  fullName: "com.microsoft.azure.sdk.iot.service.IotHubConnectionString.getUrlModulesOnDevice(String deviceId)"
-  name: "getUrlModulesOnDevice(String deviceId)"
-  nameWithType: "IotHubConnectionString.getUrlModulesOnDevice(String deviceId)"
-  summary: "Create url for requesting all modules data on a device"
-  parameters:
-  - description: "The name of the device"
-    name: "deviceId"
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public URL getUrlModulesOnDevice(String deviceId)"
-  exceptions:
-  - description: "This exception is thrown if the URL creation failed due to malformed string"
-    type: "<xref href=\"java.net.MalformedURLException?alt=java.net.MalformedURLException&text=MalformedURLException\" data-throw-if-not-resolved=\"False\" />"
-  - description: "This exception is thrown if the URL creation failed due to malformed string"
-    type: "<xref href=\"java.lang.IllegalArgumentException?alt=java.lang.IllegalArgumentException&text=IllegalArgumentException\" data-throw-if-not-resolved=\"False\" />"
-  desc: "Create url for requesting all modules data on a device"
-  returns:
-    description: "The device Url in the following format: \"https:hostname/devices/deviceId?api-version=201X-XX-XX\""
-    type: "<xref href=\"java.net.URL?alt=java.net.URL&text=URL\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.sdk.iot.service.IotHubConnectionString.getUrlModuleTwin(java.lang.String,java.lang.String)"
   fullName: "com.microsoft.azure.sdk.iot.service.IotHubConnectionString.getUrlModuleTwin(String deviceId, String moduleId)"
   name: "getUrlModuleTwin(String deviceId, String moduleId)"
@@ -518,6 +499,25 @@ methods:
   desc: "Create url for requesting module twin"
   returns:
     description: "The Url in the following format: \"https:hostname/twins/deviceId/modules/moduleId?api-version=201X-XX-XX\""
+    type: "<xref href=\"java.net.URL?alt=java.net.URL&text=URL\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.azure.sdk.iot.service.IotHubConnectionString.getUrlModulesOnDevice(java.lang.String)"
+  fullName: "com.microsoft.azure.sdk.iot.service.IotHubConnectionString.getUrlModulesOnDevice(String deviceId)"
+  name: "getUrlModulesOnDevice(String deviceId)"
+  nameWithType: "IotHubConnectionString.getUrlModulesOnDevice(String deviceId)"
+  summary: "Create url for requesting all modules data on a device"
+  parameters:
+  - description: "The name of the device"
+    name: "deviceId"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public URL getUrlModulesOnDevice(String deviceId)"
+  exceptions:
+  - description: "This exception is thrown if the URL creation failed due to malformed string"
+    type: "<xref href=\"java.net.MalformedURLException?alt=java.net.MalformedURLException&text=MalformedURLException\" data-throw-if-not-resolved=\"False\" />"
+  - description: "This exception is thrown if the URL creation failed due to malformed string"
+    type: "<xref href=\"java.lang.IllegalArgumentException?alt=java.lang.IllegalArgumentException&text=IllegalArgumentException\" data-throw-if-not-resolved=\"False\" />"
+  desc: "Create url for requesting all modules data on a device"
+  returns:
+    description: "The device Url in the following format: \"https:hostname/devices/deviceId?api-version=201X-XX-XX\""
     type: "<xref href=\"java.net.URL?alt=java.net.URL&text=URL\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.sdk.iot.service.IotHubConnectionString.getUrlQuery(java.lang.String,java.lang.String)"
   fullName: "com.microsoft.azure.sdk.iot.service.IotHubConnectionString.getUrlQuery(String jobType, String jobStatus)"

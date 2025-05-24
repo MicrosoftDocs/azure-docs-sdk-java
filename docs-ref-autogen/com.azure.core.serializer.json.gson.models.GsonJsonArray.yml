@@ -56,6 +56,20 @@ constructors:
   syntax: "public GsonJsonArray(JsonArray array)"
   desc: "Creates a new <xref uid=\"com.azure.core.serializer.json.gson.models.GsonJsonArray\" data-throw-if-not-resolved=\"false\" data-raw-source=\"GsonJsonArray\"></xref> using the provided <xref uid=\"com.google.gson.JsonArray\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JsonArray\"></xref>."
 methods:
+- uid: "com.azure.core.serializer.json.gson.models.GsonJsonArray.addElement(com.google.gson.JsonElement)"
+  fullName: "com.azure.core.serializer.json.gson.models.GsonJsonArray.addElement(JsonElement element)"
+  name: "addElement(JsonElement element)"
+  nameWithType: "GsonJsonArray.addElement(JsonElement element)"
+  summary: "Adds a Json<wbr>Element to the JSON array."
+  parameters:
+  - description: "The JsonElement to add to the array."
+    name: "element"
+    type: "<xref href=\"com.google.gson.JsonElement?alt=com.google.gson.JsonElement&text=JsonElement\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public GsonJsonArray addElement(JsonElement element)"
+  desc: "Adds a JsonElement to the JSON array. This element will be appended to the end of the array."
+  returns:
+    description: "The updated GsonJsonArray object."
+    type: "<xref href=\"com.azure.core.serializer.json.gson.models.GsonJsonArray?alt=com.azure.core.serializer.json.gson.models.GsonJsonArray&text=GsonJsonArray\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.core.serializer.json.gson.models.GsonJsonArray.addElement(int,com.google.gson.JsonElement)"
   fullName: "com.azure.core.serializer.json.gson.models.GsonJsonArray.addElement(int index, JsonElement element)"
   name: "addElement(int index, JsonElement element)"
@@ -70,20 +84,6 @@ methods:
     type: "<xref href=\"com.google.gson.JsonElement?alt=com.google.gson.JsonElement&text=JsonElement\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public GsonJsonArray addElement(int index, JsonElement element)"
   desc: "Adds a JsonElement to the JSON array at the specified index. This element will be inserted at the specified index and all elements at or after the index will be shifted."
-  returns:
-    description: "The updated GsonJsonArray object."
-    type: "<xref href=\"com.azure.core.serializer.json.gson.models.GsonJsonArray?alt=com.azure.core.serializer.json.gson.models.GsonJsonArray&text=GsonJsonArray\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.core.serializer.json.gson.models.GsonJsonArray.addElement(com.google.gson.JsonElement)"
-  fullName: "com.azure.core.serializer.json.gson.models.GsonJsonArray.addElement(JsonElement element)"
-  name: "addElement(JsonElement element)"
-  nameWithType: "GsonJsonArray.addElement(JsonElement element)"
-  summary: "Adds a Json<wbr>Element to the JSON array."
-  parameters:
-  - description: "The JsonElement to add to the array."
-    name: "element"
-    type: "<xref href=\"com.google.gson.JsonElement?alt=com.google.gson.JsonElement&text=JsonElement\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public GsonJsonArray addElement(JsonElement element)"
-  desc: "Adds a JsonElement to the JSON array. This element will be appended to the end of the array."
   returns:
     description: "The updated GsonJsonArray object."
     type: "<xref href=\"com.azure.core.serializer.json.gson.models.GsonJsonArray?alt=com.azure.core.serializer.json.gson.models.GsonJsonArray&text=GsonJsonArray\" data-throw-if-not-resolved=\"False\" />"

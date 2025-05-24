@@ -138,18 +138,6 @@ methods:
   returns:
     description: "the LocationsClient object."
     type: "<xref href=\"com.azure.resourcemanager.mediaservices.fluent.LocationsClient?alt=com.azure.resourcemanager.mediaservices.fluent.LocationsClient&text=LocationsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.mediaservices.fluent.AzureMediaServices.getMediaservices()"
-  fullName: "com.azure.resourcemanager.mediaservices.fluent.AzureMediaServices.getMediaservices()"
-  name: "getMediaservices()"
-  nameWithType: "AzureMediaServices.getMediaservices()"
-  summary: "Gets the Mediaservices<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract MediaservicesClient getMediaservices()"
-  desc: "Gets the MediaservicesClient object to access its operations."
-  returns:
-    description: "the MediaservicesClient object."
-    type: "<xref href=\"com.azure.resourcemanager.mediaservices.fluent.MediaservicesClient?alt=com.azure.resourcemanager.mediaservices.fluent.MediaservicesClient&text=MediaservicesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.mediaservices.fluent.AzureMediaServices.getMediaServicesOperationResults()"
   fullName: "com.azure.resourcemanager.mediaservices.fluent.AzureMediaServices.getMediaServicesOperationResults()"
   name: "getMediaServicesOperationResults()"
@@ -174,6 +162,18 @@ methods:
   returns:
     description: "the MediaServicesOperationStatusesClient object."
     type: "<xref href=\"com.azure.resourcemanager.mediaservices.fluent.MediaServicesOperationStatusesClient?alt=com.azure.resourcemanager.mediaservices.fluent.MediaServicesOperationStatusesClient&text=MediaServicesOperationStatusesClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.mediaservices.fluent.AzureMediaServices.getMediaservices()"
+  fullName: "com.azure.resourcemanager.mediaservices.fluent.AzureMediaServices.getMediaservices()"
+  name: "getMediaservices()"
+  nameWithType: "AzureMediaServices.getMediaservices()"
+  summary: "Gets the Mediaservices<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract MediaservicesClient getMediaservices()"
+  desc: "Gets the MediaservicesClient object to access its operations."
+  returns:
+    description: "the MediaservicesClient object."
+    type: "<xref href=\"com.azure.resourcemanager.mediaservices.fluent.MediaservicesClient?alt=com.azure.resourcemanager.mediaservices.fluent.MediaservicesClient&text=MediaservicesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.mediaservices.fluent.AzureMediaServices.getOperationResults()"
   fullName: "com.azure.resourcemanager.mediaservices.fluent.AzureMediaServices.getOperationResults()"
   name: "getOperationResults()"
@@ -186,18 +186,6 @@ methods:
   returns:
     description: "the OperationResultsClient object."
     type: "<xref href=\"com.azure.resourcemanager.mediaservices.fluent.OperationResultsClient?alt=com.azure.resourcemanager.mediaservices.fluent.OperationResultsClient&text=OperationResultsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.mediaservices.fluent.AzureMediaServices.getOperations()"
-  fullName: "com.azure.resourcemanager.mediaservices.fluent.AzureMediaServices.getOperations()"
-  name: "getOperations()"
-  nameWithType: "AzureMediaServices.getOperations()"
-  summary: "Gets the Operations<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract OperationsClient getOperations()"
-  desc: "Gets the OperationsClient object to access its operations."
-  returns:
-    description: "the OperationsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.mediaservices.fluent.OperationsClient?alt=com.azure.resourcemanager.mediaservices.fluent.OperationsClient&text=OperationsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.mediaservices.fluent.AzureMediaServices.getOperationStatuses()"
   fullName: "com.azure.resourcemanager.mediaservices.fluent.AzureMediaServices.getOperationStatuses()"
   name: "getOperationStatuses()"
@@ -210,6 +198,18 @@ methods:
   returns:
     description: "the OperationStatusesClient object."
     type: "<xref href=\"com.azure.resourcemanager.mediaservices.fluent.OperationStatusesClient?alt=com.azure.resourcemanager.mediaservices.fluent.OperationStatusesClient&text=OperationStatusesClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.mediaservices.fluent.AzureMediaServices.getOperations()"
+  fullName: "com.azure.resourcemanager.mediaservices.fluent.AzureMediaServices.getOperations()"
+  name: "getOperations()"
+  nameWithType: "AzureMediaServices.getOperations()"
+  summary: "Gets the Operations<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract OperationsClient getOperations()"
+  desc: "Gets the OperationsClient object to access its operations."
+  returns:
+    description: "the OperationsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.mediaservices.fluent.OperationsClient?alt=com.azure.resourcemanager.mediaservices.fluent.OperationsClient&text=OperationsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.mediaservices.fluent.AzureMediaServices.getPrivateEndpointConnections()"
   fullName: "com.azure.resourcemanager.mediaservices.fluent.AzureMediaServices.getPrivateEndpointConnections()"
   name: "getPrivateEndpointConnections()"

@@ -18,18 +18,6 @@ methods:
   returns:
     description: "the apiVersion value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.securitydevops.fluent.MicrosoftSecurityDevOps.getAzureDevOpsConnectors()"
-  fullName: "com.azure.resourcemanager.securitydevops.fluent.MicrosoftSecurityDevOps.getAzureDevOpsConnectors()"
-  name: "getAzureDevOpsConnectors()"
-  nameWithType: "MicrosoftSecurityDevOps.getAzureDevOpsConnectors()"
-  summary: "Gets the Azure<wbr>Dev<wbr>Ops<wbr>Connectors<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract AzureDevOpsConnectorsClient getAzureDevOpsConnectors()"
-  desc: "Gets the AzureDevOpsConnectorsClient object to access its operations."
-  returns:
-    description: "the AzureDevOpsConnectorsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.securitydevops.fluent.AzureDevOpsConnectorsClient?alt=com.azure.resourcemanager.securitydevops.fluent.AzureDevOpsConnectorsClient&text=AzureDevOpsConnectorsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.securitydevops.fluent.MicrosoftSecurityDevOps.getAzureDevOpsConnectorStatsOperations()"
   fullName: "com.azure.resourcemanager.securitydevops.fluent.MicrosoftSecurityDevOps.getAzureDevOpsConnectorStatsOperations()"
   name: "getAzureDevOpsConnectorStatsOperations()"
@@ -42,6 +30,18 @@ methods:
   returns:
     description: "the AzureDevOpsConnectorStatsOperationsClient object."
     type: "<xref href=\"com.azure.resourcemanager.securitydevops.fluent.AzureDevOpsConnectorStatsOperationsClient?alt=com.azure.resourcemanager.securitydevops.fluent.AzureDevOpsConnectorStatsOperationsClient&text=AzureDevOpsConnectorStatsOperationsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.securitydevops.fluent.MicrosoftSecurityDevOps.getAzureDevOpsConnectors()"
+  fullName: "com.azure.resourcemanager.securitydevops.fluent.MicrosoftSecurityDevOps.getAzureDevOpsConnectors()"
+  name: "getAzureDevOpsConnectors()"
+  nameWithType: "MicrosoftSecurityDevOps.getAzureDevOpsConnectors()"
+  summary: "Gets the Azure<wbr>Dev<wbr>Ops<wbr>Connectors<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract AzureDevOpsConnectorsClient getAzureDevOpsConnectors()"
+  desc: "Gets the AzureDevOpsConnectorsClient object to access its operations."
+  returns:
+    description: "the AzureDevOpsConnectorsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.securitydevops.fluent.AzureDevOpsConnectorsClient?alt=com.azure.resourcemanager.securitydevops.fluent.AzureDevOpsConnectorsClient&text=AzureDevOpsConnectorsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.securitydevops.fluent.MicrosoftSecurityDevOps.getAzureDevOpsOrgs()"
   fullName: "com.azure.resourcemanager.securitydevops.fluent.MicrosoftSecurityDevOps.getAzureDevOpsOrgs()"
   name: "getAzureDevOpsOrgs()"
@@ -102,18 +102,6 @@ methods:
   returns:
     description: "the endpoint value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.securitydevops.fluent.MicrosoftSecurityDevOps.getGitHubConnectors()"
-  fullName: "com.azure.resourcemanager.securitydevops.fluent.MicrosoftSecurityDevOps.getGitHubConnectors()"
-  name: "getGitHubConnectors()"
-  nameWithType: "MicrosoftSecurityDevOps.getGitHubConnectors()"
-  summary: "Gets the Git<wbr>Hub<wbr>Connectors<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract GitHubConnectorsClient getGitHubConnectors()"
-  desc: "Gets the GitHubConnectorsClient object to access its operations."
-  returns:
-    description: "the GitHubConnectorsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.securitydevops.fluent.GitHubConnectorsClient?alt=com.azure.resourcemanager.securitydevops.fluent.GitHubConnectorsClient&text=GitHubConnectorsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.securitydevops.fluent.MicrosoftSecurityDevOps.getGitHubConnectorStatsOperations()"
   fullName: "com.azure.resourcemanager.securitydevops.fluent.MicrosoftSecurityDevOps.getGitHubConnectorStatsOperations()"
   name: "getGitHubConnectorStatsOperations()"
@@ -126,6 +114,18 @@ methods:
   returns:
     description: "the GitHubConnectorStatsOperationsClient object."
     type: "<xref href=\"com.azure.resourcemanager.securitydevops.fluent.GitHubConnectorStatsOperationsClient?alt=com.azure.resourcemanager.securitydevops.fluent.GitHubConnectorStatsOperationsClient&text=GitHubConnectorStatsOperationsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.securitydevops.fluent.MicrosoftSecurityDevOps.getGitHubConnectors()"
+  fullName: "com.azure.resourcemanager.securitydevops.fluent.MicrosoftSecurityDevOps.getGitHubConnectors()"
+  name: "getGitHubConnectors()"
+  nameWithType: "MicrosoftSecurityDevOps.getGitHubConnectors()"
+  summary: "Gets the Git<wbr>Hub<wbr>Connectors<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract GitHubConnectorsClient getGitHubConnectors()"
+  desc: "Gets the GitHubConnectorsClient object to access its operations."
+  returns:
+    description: "the GitHubConnectorsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.securitydevops.fluent.GitHubConnectorsClient?alt=com.azure.resourcemanager.securitydevops.fluent.GitHubConnectorsClient&text=GitHubConnectorsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.securitydevops.fluent.MicrosoftSecurityDevOps.getGitHubOwners()"
   fullName: "com.azure.resourcemanager.securitydevops.fluent.MicrosoftSecurityDevOps.getGitHubOwners()"
   name: "getGitHubOwners()"

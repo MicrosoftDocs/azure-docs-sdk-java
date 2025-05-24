@@ -150,6 +150,18 @@ methods:
   returns:
     description: "the hostingEnvironmentProfile value."
     type: "<xref href=\"com.azure.resourcemanager.appservice.models.HostingEnvironmentProfile?alt=com.azure.resourcemanager.appservice.models.HostingEnvironmentProfile&text=HostingEnvironmentProfile\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.appservice.models.WebSiteBase.hostnameSslStates()"
+  fullName: "com.azure.resourcemanager.appservice.models.WebSiteBase.hostnameSslStates()"
+  name: "hostnameSslStates()"
+  nameWithType: "WebSiteBase.hostnameSslStates()"
+  summary: "Gets list of SSL states used to manage the SSL bindings for site's hostnames."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract Map<String,HostnameSslState> hostnameSslStates()"
+  desc: "Gets list of SSL states used to manage the SSL bindings for site's hostnames."
+  returns:
+    description: "list of SSL states used to manage the SSL bindings for site's hostnames"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<xref href=\"com.azure.resourcemanager.appservice.models.HostnameSslState?alt=com.azure.resourcemanager.appservice.models.HostnameSslState&text=HostnameSslState\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.appservice.models.WebSiteBase.hostnames()"
   fullName: "com.azure.resourcemanager.appservice.models.WebSiteBase.hostnames()"
   name: "hostnames()"
@@ -174,18 +186,6 @@ methods:
   returns:
     description: "if the public hostnames are disabled the web app. If set to true the app is only accessible via API\n     Management process."
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.appservice.models.WebSiteBase.hostnameSslStates()"
-  fullName: "com.azure.resourcemanager.appservice.models.WebSiteBase.hostnameSslStates()"
-  name: "hostnameSslStates()"
-  nameWithType: "WebSiteBase.hostnameSslStates()"
-  summary: "Gets list of SSL states used to manage the SSL bindings for site's hostnames."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract Map<String,HostnameSslState> hostnameSslStates()"
-  desc: "Gets list of SSL states used to manage the SSL bindings for site's hostnames."
-  returns:
-    description: "list of SSL states used to manage the SSL bindings for site's hostnames"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<xref href=\"com.azure.resourcemanager.appservice.models.HostnameSslState?alt=com.azure.resourcemanager.appservice.models.HostnameSslState&text=HostnameSslState\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.appservice.models.WebSiteBase.httpsOnly()"
   fullName: "com.azure.resourcemanager.appservice.models.WebSiteBase.httpsOnly()"
   name: "httpsOnly()"

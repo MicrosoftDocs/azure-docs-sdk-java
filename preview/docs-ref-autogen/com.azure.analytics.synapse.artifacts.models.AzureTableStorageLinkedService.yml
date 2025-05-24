@@ -175,6 +175,19 @@ methods:
   desc: "Set the annotations property: List of tags that can be used for describing the linked service."
   returns:
     type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.AzureTableStorageLinkedService?alt=com.azure.analytics.synapse.artifacts.models.AzureTableStorageLinkedService&text=AzureTableStorageLinkedService\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.analytics.synapse.artifacts.models.AzureTableStorageLinkedService.setConnectVia(com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference)"
+  fullName: "com.azure.analytics.synapse.artifacts.models.AzureTableStorageLinkedService.setConnectVia(IntegrationRuntimeReference connectVia)"
+  name: "setConnectVia(IntegrationRuntimeReference connectVia)"
+  nameWithType: "AzureTableStorageLinkedService.setConnectVia(IntegrationRuntimeReference connectVia)"
+  summary: "Set the connect<wbr>Via property: The integration runtime reference."
+  overridden: "com.azure.analytics.synapse.artifacts.models.LinkedService.setConnectVia(com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference)"
+  parameters:
+  - name: "connectVia"
+    type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference?alt=com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference&text=IntegrationRuntimeReference\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public AzureTableStorageLinkedService setConnectVia(IntegrationRuntimeReference connectVia)"
+  desc: "Set the connectVia property: The integration runtime reference."
+  returns:
+    type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.AzureTableStorageLinkedService?alt=com.azure.analytics.synapse.artifacts.models.AzureTableStorageLinkedService&text=AzureTableStorageLinkedService\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.analytics.synapse.artifacts.models.AzureTableStorageLinkedService.setConnectionString(java.lang.Object)"
   fullName: "com.azure.analytics.synapse.artifacts.models.AzureTableStorageLinkedService.setConnectionString(Object connectionString)"
   name: "setConnectionString(Object connectionString)"
@@ -188,19 +201,6 @@ methods:
   desc: "Set the connectionString property: The connection string. It is mutually exclusive with sasUri property. Type: string, SecureString or AzureKeyVaultSecretReference."
   returns:
     description: "the AzureTableStorageLinkedService object itself."
-    type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.AzureTableStorageLinkedService?alt=com.azure.analytics.synapse.artifacts.models.AzureTableStorageLinkedService&text=AzureTableStorageLinkedService\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.analytics.synapse.artifacts.models.AzureTableStorageLinkedService.setConnectVia(com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference)"
-  fullName: "com.azure.analytics.synapse.artifacts.models.AzureTableStorageLinkedService.setConnectVia(IntegrationRuntimeReference connectVia)"
-  name: "setConnectVia(IntegrationRuntimeReference connectVia)"
-  nameWithType: "AzureTableStorageLinkedService.setConnectVia(IntegrationRuntimeReference connectVia)"
-  summary: "Set the connect<wbr>Via property: The integration runtime reference."
-  overridden: "com.azure.analytics.synapse.artifacts.models.LinkedService.setConnectVia(com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference)"
-  parameters:
-  - name: "connectVia"
-    type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference?alt=com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference&text=IntegrationRuntimeReference\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public AzureTableStorageLinkedService setConnectVia(IntegrationRuntimeReference connectVia)"
-  desc: "Set the connectVia property: The integration runtime reference."
-  returns:
     type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.AzureTableStorageLinkedService?alt=com.azure.analytics.synapse.artifacts.models.AzureTableStorageLinkedService&text=AzureTableStorageLinkedService\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.analytics.synapse.artifacts.models.AzureTableStorageLinkedService.setCredential(com.azure.analytics.synapse.artifacts.models.CredentialReference)"
   fullName: "com.azure.analytics.synapse.artifacts.models.AzureTableStorageLinkedService.setCredential(CredentialReference credential)"

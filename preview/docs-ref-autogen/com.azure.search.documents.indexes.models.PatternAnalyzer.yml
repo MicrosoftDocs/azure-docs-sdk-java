@@ -111,20 +111,6 @@ methods:
   returns:
     description: "the stopwords value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-- uid: "com.azure.search.documents.indexes.models.PatternAnalyzer.setFlags(java.util.List<com.azure.search.documents.indexes.models.RegexFlags>)"
-  fullName: "com.azure.search.documents.indexes.models.PatternAnalyzer.setFlags(List<RegexFlags> flags)"
-  name: "setFlags(List<RegexFlags> flags)"
-  nameWithType: "PatternAnalyzer.setFlags(List<RegexFlags> flags)"
-  summary: "Set the flags property: Regular expression flags."
-  parameters:
-  - description: "the flags value to set."
-    name: "flags"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.search.documents.indexes.models.RegexFlags?alt=com.azure.search.documents.indexes.models.RegexFlags&text=RegexFlags\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public PatternAnalyzer setFlags(List<RegexFlags> flags)"
-  desc: "Set the flags property: Regular expression flags."
-  returns:
-    description: "the PatternAnalyzer object itself."
-    type: "<xref href=\"com.azure.search.documents.indexes.models.PatternAnalyzer?alt=com.azure.search.documents.indexes.models.PatternAnalyzer&text=PatternAnalyzer\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.search.documents.indexes.models.PatternAnalyzer.setFlags(com.azure.search.documents.indexes.models.RegexFlags...)"
   fullName: "com.azure.search.documents.indexes.models.PatternAnalyzer.setFlags(RegexFlags[] flags)"
   name: "setFlags(RegexFlags[] flags)"
@@ -135,6 +121,20 @@ methods:
     name: "flags"
     type: "<xref href=\"com.azure.search.documents.indexes.models.RegexFlags?alt=com.azure.search.documents.indexes.models.RegexFlags&text=RegexFlags\" data-throw-if-not-resolved=\"False\" />[]"
   syntax: "public PatternAnalyzer setFlags(RegexFlags[] flags)"
+  desc: "Set the flags property: Regular expression flags."
+  returns:
+    description: "the PatternAnalyzer object itself."
+    type: "<xref href=\"com.azure.search.documents.indexes.models.PatternAnalyzer?alt=com.azure.search.documents.indexes.models.PatternAnalyzer&text=PatternAnalyzer\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.search.documents.indexes.models.PatternAnalyzer.setFlags(java.util.List<com.azure.search.documents.indexes.models.RegexFlags>)"
+  fullName: "com.azure.search.documents.indexes.models.PatternAnalyzer.setFlags(List<RegexFlags> flags)"
+  name: "setFlags(List<RegexFlags> flags)"
+  nameWithType: "PatternAnalyzer.setFlags(List<RegexFlags> flags)"
+  summary: "Set the flags property: Regular expression flags."
+  parameters:
+  - description: "the flags value to set."
+    name: "flags"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.search.documents.indexes.models.RegexFlags?alt=com.azure.search.documents.indexes.models.RegexFlags&text=RegexFlags\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public PatternAnalyzer setFlags(List<RegexFlags> flags)"
   desc: "Set the flags property: Regular expression flags."
   returns:
     description: "the PatternAnalyzer object itself."
@@ -167,20 +167,6 @@ methods:
   returns:
     description: "the PatternAnalyzer object itself."
     type: "<xref href=\"com.azure.search.documents.indexes.models.PatternAnalyzer?alt=com.azure.search.documents.indexes.models.PatternAnalyzer&text=PatternAnalyzer\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.search.documents.indexes.models.PatternAnalyzer.setStopwords(java.util.List<java.lang.String>)"
-  fullName: "com.azure.search.documents.indexes.models.PatternAnalyzer.setStopwords(List<String> stopwords)"
-  name: "setStopwords(List<String> stopwords)"
-  nameWithType: "PatternAnalyzer.setStopwords(List<String> stopwords)"
-  summary: "Set the stopwords property: A list of stopwords."
-  parameters:
-  - description: "the stopwords value to set."
-    name: "stopwords"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-  syntax: "public PatternAnalyzer setStopwords(List<String> stopwords)"
-  desc: "Set the stopwords property: A list of stopwords."
-  returns:
-    description: "the PatternAnalyzer object itself."
-    type: "<xref href=\"com.azure.search.documents.indexes.models.PatternAnalyzer?alt=com.azure.search.documents.indexes.models.PatternAnalyzer&text=PatternAnalyzer\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.search.documents.indexes.models.PatternAnalyzer.setStopwords(java.lang.String...)"
   fullName: "com.azure.search.documents.indexes.models.PatternAnalyzer.setStopwords(String[] stopwords)"
   name: "setStopwords(String[] stopwords)"
@@ -191,6 +177,20 @@ methods:
     name: "stopwords"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>[]"
   syntax: "public PatternAnalyzer setStopwords(String[] stopwords)"
+  desc: "Set the stopwords property: A list of stopwords."
+  returns:
+    description: "the PatternAnalyzer object itself."
+    type: "<xref href=\"com.azure.search.documents.indexes.models.PatternAnalyzer?alt=com.azure.search.documents.indexes.models.PatternAnalyzer&text=PatternAnalyzer\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.search.documents.indexes.models.PatternAnalyzer.setStopwords(java.util.List<java.lang.String>)"
+  fullName: "com.azure.search.documents.indexes.models.PatternAnalyzer.setStopwords(List<String> stopwords)"
+  name: "setStopwords(List<String> stopwords)"
+  nameWithType: "PatternAnalyzer.setStopwords(List<String> stopwords)"
+  summary: "Set the stopwords property: A list of stopwords."
+  parameters:
+  - description: "the stopwords value to set."
+    name: "stopwords"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+  syntax: "public PatternAnalyzer setStopwords(List<String> stopwords)"
   desc: "Set the stopwords property: A list of stopwords."
   returns:
     description: "the PatternAnalyzer object itself."

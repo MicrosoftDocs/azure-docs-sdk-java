@@ -239,6 +239,19 @@ methods:
   returns:
     description: "the GreenplumLinkedService object itself."
     type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.GreenplumLinkedService?alt=com.azure.analytics.synapse.artifacts.models.GreenplumLinkedService&text=GreenplumLinkedService\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.analytics.synapse.artifacts.models.GreenplumLinkedService.setConnectVia(com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference)"
+  fullName: "com.azure.analytics.synapse.artifacts.models.GreenplumLinkedService.setConnectVia(IntegrationRuntimeReference connectVia)"
+  name: "setConnectVia(IntegrationRuntimeReference connectVia)"
+  nameWithType: "GreenplumLinkedService.setConnectVia(IntegrationRuntimeReference connectVia)"
+  summary: "Set the connect<wbr>Via property: The integration runtime reference."
+  overridden: "com.azure.analytics.synapse.artifacts.models.LinkedService.setConnectVia(com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference)"
+  parameters:
+  - name: "connectVia"
+    type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference?alt=com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference&text=IntegrationRuntimeReference\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public GreenplumLinkedService setConnectVia(IntegrationRuntimeReference connectVia)"
+  desc: "Set the connectVia property: The integration runtime reference."
+  returns:
+    type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.GreenplumLinkedService?alt=com.azure.analytics.synapse.artifacts.models.GreenplumLinkedService&text=GreenplumLinkedService\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.analytics.synapse.artifacts.models.GreenplumLinkedService.setConnectionString(java.lang.Object)"
   fullName: "com.azure.analytics.synapse.artifacts.models.GreenplumLinkedService.setConnectionString(Object connectionString)"
   name: "setConnectionString(Object connectionString)"
@@ -266,19 +279,6 @@ methods:
   desc: "Set the connectionTimeout property: The time to wait (in seconds) while trying to establish a connection before terminating the attempt and generating an error. Type: integer. Only used for V2."
   returns:
     description: "the GreenplumLinkedService object itself."
-    type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.GreenplumLinkedService?alt=com.azure.analytics.synapse.artifacts.models.GreenplumLinkedService&text=GreenplumLinkedService\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.analytics.synapse.artifacts.models.GreenplumLinkedService.setConnectVia(com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference)"
-  fullName: "com.azure.analytics.synapse.artifacts.models.GreenplumLinkedService.setConnectVia(IntegrationRuntimeReference connectVia)"
-  name: "setConnectVia(IntegrationRuntimeReference connectVia)"
-  nameWithType: "GreenplumLinkedService.setConnectVia(IntegrationRuntimeReference connectVia)"
-  summary: "Set the connect<wbr>Via property: The integration runtime reference."
-  overridden: "com.azure.analytics.synapse.artifacts.models.LinkedService.setConnectVia(com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference)"
-  parameters:
-  - name: "connectVia"
-    type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference?alt=com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference&text=IntegrationRuntimeReference\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public GreenplumLinkedService setConnectVia(IntegrationRuntimeReference connectVia)"
-  desc: "Set the connectVia property: The integration runtime reference."
-  returns:
     type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.GreenplumLinkedService?alt=com.azure.analytics.synapse.artifacts.models.GreenplumLinkedService&text=GreenplumLinkedService\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.analytics.synapse.artifacts.models.GreenplumLinkedService.setDatabase(java.lang.Object)"
   fullName: "com.azure.analytics.synapse.artifacts.models.GreenplumLinkedService.setDatabase(Object database)"

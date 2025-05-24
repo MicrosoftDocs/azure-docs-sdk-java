@@ -32,6 +32,20 @@ methods:
   returns:
     description: "A reactive response emitting the changefeed events."
     type: "<xref href=\"com.azure.storage.blob.changefeed.BlobChangefeedPagedFlux?alt=com.azure.storage.blob.changefeed.BlobChangefeedPagedFlux&text=BlobChangefeedPagedFlux\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.storage.blob.changefeed.BlobChangefeedAsyncClient.getEvents(java.lang.String)"
+  fullName: "com.azure.storage.blob.changefeed.BlobChangefeedAsyncClient.getEvents(String cursor)"
+  name: "getEvents(String cursor)"
+  nameWithType: "BlobChangefeedAsyncClient.getEvents(String cursor)"
+  summary: "Returns a reactive Publisher emitting all the changefeed events for this account lazily as needed."
+  parameters:
+  - description: "Identifies the portion of the events to be returned with the next get operation. Events that\n take place after the event identified by the cursor will be returned."
+    name: "cursor"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public BlobChangefeedPagedFlux getEvents(String cursor)"
+  desc: "Returns a reactive Publisher emitting all the changefeed events for this account lazily as needed.\n\nChangefeed events are returned in approximate temporal order.\n\nFor more information, see the [Azure Docs][].\n\n**Code Samples**\n\n```java\nString cursor = \"cursor\";\n\n client.getEvents(cursor).subscribe(event ->\n     System.out.printf(\"Topic: %s, Subject: %s%n\", event.getTopic(), event.getSubject()));\n```\n\n\n[Azure Docs]: https://docs.microsoft.com/azure/storage/blobs/storage-blob-change-feed?tabs=azure-portal"
+  returns:
+    description: "A reactive response emitting the changefeed events."
+    type: "<xref href=\"com.azure.storage.blob.changefeed.BlobChangefeedPagedFlux?alt=com.azure.storage.blob.changefeed.BlobChangefeedPagedFlux&text=BlobChangefeedPagedFlux\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.storage.blob.changefeed.BlobChangefeedAsyncClient.getEvents(java.time.OffsetDateTime,java.time.OffsetDateTime)"
   fullName: "com.azure.storage.blob.changefeed.BlobChangefeedAsyncClient.getEvents(OffsetDateTime startTime, OffsetDateTime endTime)"
   name: "getEvents(OffsetDateTime startTime, OffsetDateTime endTime)"
@@ -46,20 +60,6 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
   syntax: "public BlobChangefeedPagedFlux getEvents(OffsetDateTime startTime, OffsetDateTime endTime)"
   desc: "Returns a reactive Publisher emitting all the changefeed events for this account lazily as needed.\n\nChangefeed events are returned in approximate temporal order.\n\nFor more information, see the [Azure Docs][].\n\n**Code Samples**\n\n```java\nOffsetDateTime startTime = OffsetDateTime.MIN;\n OffsetDateTime endTime = OffsetDateTime.now();\n\n client.getEvents(startTime, endTime).subscribe(event ->\n     System.out.printf(\"Topic: %s, Subject: %s%n\", event.getTopic(), event.getSubject()));\n```\n\n\n[Azure Docs]: https://docs.microsoft.com/azure/storage/blobs/storage-blob-change-feed?tabs=azure-portal"
-  returns:
-    description: "A reactive response emitting the changefeed events."
-    type: "<xref href=\"com.azure.storage.blob.changefeed.BlobChangefeedPagedFlux?alt=com.azure.storage.blob.changefeed.BlobChangefeedPagedFlux&text=BlobChangefeedPagedFlux\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.storage.blob.changefeed.BlobChangefeedAsyncClient.getEvents(java.lang.String)"
-  fullName: "com.azure.storage.blob.changefeed.BlobChangefeedAsyncClient.getEvents(String cursor)"
-  name: "getEvents(String cursor)"
-  nameWithType: "BlobChangefeedAsyncClient.getEvents(String cursor)"
-  summary: "Returns a reactive Publisher emitting all the changefeed events for this account lazily as needed."
-  parameters:
-  - description: "Identifies the portion of the events to be returned with the next get operation. Events that\n take place after the event identified by the cursor will be returned."
-    name: "cursor"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public BlobChangefeedPagedFlux getEvents(String cursor)"
-  desc: "Returns a reactive Publisher emitting all the changefeed events for this account lazily as needed.\n\nChangefeed events are returned in approximate temporal order.\n\nFor more information, see the [Azure Docs][].\n\n**Code Samples**\n\n```java\nString cursor = \"cursor\";\n\n client.getEvents(cursor).subscribe(event ->\n     System.out.printf(\"Topic: %s, Subject: %s%n\", event.getTopic(), event.getSubject()));\n```\n\n\n[Azure Docs]: https://docs.microsoft.com/azure/storage/blobs/storage-blob-change-feed?tabs=azure-portal"
   returns:
     description: "A reactive response emitting the changefeed events."
     type: "<xref href=\"com.azure.storage.blob.changefeed.BlobChangefeedPagedFlux?alt=com.azure.storage.blob.changefeed.BlobChangefeedPagedFlux&text=BlobChangefeedPagedFlux\" data-throw-if-not-resolved=\"False\" />"

@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.resourceconnector.models.HybridConnectionConfig"
 fullName: "com.azure.resourcemanager.resourceconnector.models.HybridConnectionConfig"
 name: "HybridConnectionConfig"
 nameWithType: "HybridConnectionConfig"
-summary: "Contains the REP (rendezvous endpoint) and “<wbr>Listener” access token from notification service (NS)."
+summary: "Contains the REP (rendezvous endpoint) and \\\\u201c<wbr>Listener\\\\u201d access token from notification service (NS)."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -109,7 +109,7 @@ methods:
   syntax: "public void validate()"
   desc: "Validates the instance."
 type: "class"
-desc: "Contains the REP (rendezvous endpoint) and “Listener” access token from notification service (NS)."
+desc: "Contains the REP (rendezvous endpoint) and \\\\u201cListener\\\\u201d access token from notification service (NS)."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resourceconnector.models.HybridConnectionConfig?alt=com.azure.resourcemanager.resourceconnector.models.HybridConnectionConfig&text=HybridConnectionConfig\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}

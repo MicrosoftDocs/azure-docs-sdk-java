@@ -44,9 +44,9 @@ methods:
   fullName: "com.azure.resourcemanager.security.fluent.models.SecureScoreItemProperties.displayName()"
   name: "displayName()"
   nameWithType: "SecureScoreItemProperties.displayName()"
-  summary: "Get the display<wbr>Name property: The initiative’s name."
+  summary: "Get the display<wbr>Name property: The initiative\\\\u2019s name."
   syntax: "public String displayName()"
-  desc: "Get the displayName property: The initiative’s name."
+  desc: "Get the displayName property: The initiative\\\\u2019s name."
   returns:
     description: "the displayName value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"

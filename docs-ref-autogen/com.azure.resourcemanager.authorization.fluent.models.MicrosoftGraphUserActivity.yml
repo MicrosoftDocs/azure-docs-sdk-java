@@ -87,7 +87,7 @@ methods:
   nameWithType: "MicrosoftGraphUserActivity.appDisplayName()"
   summary: "Get the app<wbr>Display<wbr>Name property: Optional."
   syntax: "public String appDisplayName()"
-  desc: "Get the appDisplayName property: Optional. Short text description of the app used to generate the activity for use in cases when the app is not installed on the user’s local device."
+  desc: "Get the appDisplayName property: Optional. Short text description of the app used to generate the activity for use in cases when the app is not installed on the user\\\\u2019s local device."
   returns:
     description: "the appDisplayName value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -298,7 +298,7 @@ methods:
     name: "appDisplayName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public MicrosoftGraphUserActivity withAppDisplayName(String appDisplayName)"
-  desc: "Set the appDisplayName property: Optional. Short text description of the app used to generate the activity for use in cases when the app is not installed on the user’s local device."
+  desc: "Set the appDisplayName property: Optional. Short text description of the app used to generate the activity for use in cases when the app is not installed on the user\\\\u2019s local device."
   returns:
     description: "the MicrosoftGraphUserActivity object itself."
     type: "<xref href=\"com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphUserActivity?alt=com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphUserActivity&text=MicrosoftGraphUserActivity\" data-throw-if-not-resolved=\"False\" />"

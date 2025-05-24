@@ -301,18 +301,6 @@ methods:
   returns:
     description: "the tags value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-- uid: "com.azure.resourcemanager.eventgrid.models.Namespace.topicsConfiguration()"
-  fullName: "com.azure.resourcemanager.eventgrid.models.Namespace.topicsConfiguration()"
-  name: "topicsConfiguration()"
-  nameWithType: "Namespace.topicsConfiguration()"
-  summary: "Gets the topics<wbr>Configuration property: Topics configuration information for the namespace resource."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract TopicsConfiguration topicsConfiguration()"
-  desc: "Gets the topicsConfiguration property: Topics configuration information for the namespace resource."
-  returns:
-    description: "the topicsConfiguration value."
-    type: "<xref href=\"com.azure.resourcemanager.eventgrid.models.TopicsConfiguration?alt=com.azure.resourcemanager.eventgrid.models.TopicsConfiguration&text=TopicsConfiguration\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.eventgrid.models.Namespace.topicSpacesConfiguration()"
   fullName: "com.azure.resourcemanager.eventgrid.models.Namespace.topicSpacesConfiguration()"
   name: "topicSpacesConfiguration()"
@@ -325,6 +313,18 @@ methods:
   returns:
     description: "the topicSpacesConfiguration value."
     type: "<xref href=\"com.azure.resourcemanager.eventgrid.models.TopicSpacesConfiguration?alt=com.azure.resourcemanager.eventgrid.models.TopicSpacesConfiguration&text=TopicSpacesConfiguration\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.eventgrid.models.Namespace.topicsConfiguration()"
+  fullName: "com.azure.resourcemanager.eventgrid.models.Namespace.topicsConfiguration()"
+  name: "topicsConfiguration()"
+  nameWithType: "Namespace.topicsConfiguration()"
+  summary: "Gets the topics<wbr>Configuration property: Topics configuration information for the namespace resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract TopicsConfiguration topicsConfiguration()"
+  desc: "Gets the topicsConfiguration property: Topics configuration information for the namespace resource."
+  returns:
+    description: "the topicsConfiguration value."
+    type: "<xref href=\"com.azure.resourcemanager.eventgrid.models.TopicsConfiguration?alt=com.azure.resourcemanager.eventgrid.models.TopicsConfiguration&text=TopicsConfiguration\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.eventgrid.models.Namespace.type()"
   fullName: "com.azure.resourcemanager.eventgrid.models.Namespace.type()"
   name: "type()"

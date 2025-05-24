@@ -123,9 +123,9 @@ methods:
   fullName: "com.azure.resourcemanager.dataprotection.models.UserFacingError.recommendedAction()"
   name: "recommendedAction()"
   nameWithType: "UserFacingError.recommendedAction()"
-  summary: "Get the recommended<wbr>Action property: Recommended<wbr>Action � localized."
+  summary: "Get the recommended<wbr>Action property: Recommended<wbr>Action \\\\ufffd localized."
   syntax: "public List<String> recommendedAction()"
-  desc: "Get the recommendedAction property: RecommendedAction � localized."
+  desc: "Get the recommendedAction property: RecommendedAction \\\\ufffd localized."
   returns:
     description: "the recommendedAction value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
@@ -260,13 +260,13 @@ methods:
   fullName: "com.azure.resourcemanager.dataprotection.models.UserFacingError.withRecommendedAction(List<String> recommendedAction)"
   name: "withRecommendedAction(List<String> recommendedAction)"
   nameWithType: "UserFacingError.withRecommendedAction(List<String> recommendedAction)"
-  summary: "Set the recommended<wbr>Action property: Recommended<wbr>Action � localized."
+  summary: "Set the recommended<wbr>Action property: Recommended<wbr>Action \\\\ufffd localized."
   parameters:
   - description: "the recommendedAction value to set."
     name: "recommendedAction"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
   syntax: "public UserFacingError withRecommendedAction(List<String> recommendedAction)"
-  desc: "Set the recommendedAction property: RecommendedAction � localized."
+  desc: "Set the recommendedAction property: RecommendedAction \\\\ufffd localized."
   returns:
     description: "the UserFacingError object itself."
     type: "<xref href=\"com.azure.resourcemanager.dataprotection.models.UserFacingError?alt=com.azure.resourcemanager.dataprotection.models.UserFacingError&text=UserFacingError\" data-throw-if-not-resolved=\"False\" />"

@@ -32,17 +32,6 @@ constructors:
   desc: "Creates a new instance of <xref uid=\"com.azure.core.util.ExpandableStringEnum\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ExpandableStringEnum\"></xref> without a <xref uid=\"com.azure.core.util.ExpandableStringEnum.toString()\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#toString()\"></xref> value.\n\nThis constructor shouldn't be called as it will produce a <xref uid=\"com.azure.core.util.ExpandableStringEnum\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ExpandableStringEnum\"></xref> which doesn't have a String enum value."
   hasDeprecatedTag: true
 methods:
-- uid: "com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)"
-  fullName: "com.azure.core.util.ExpandableStringEnum<T>.equals(Object obj)"
-  name: "equals(Object obj)"
-  nameWithType: "ExpandableStringEnum<T>.equals(Object obj)"
-  overridden: "java.lang.Object.equals(java.lang.Object)"
-  parameters:
-  - name: "obj"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
-  syntax: "public boolean equals(Object obj)"
-  returns:
-    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)"
   fullName: "com.azure.core.util.ExpandableStringEnum<T>.fromString(String name, Class<T> clazz)"
   name: "fromString(String name, Class<T> clazz)"
@@ -63,6 +52,34 @@ methods:
   returns:
     description: "The expandable string enum instance."
     type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)"
+  fullName: "com.azure.core.util.ExpandableStringEnum<T>.values(Class<T> clazz)"
+  name: "values(Class<T> clazz)"
+  nameWithType: "ExpandableStringEnum<T>.values(Class<T> clazz)"
+  summary: "Gets a collection of all known values to an expandable string enum type."
+  modifiers:
+  - "protected"
+  - "static"
+  parameters:
+  - description: "the class of the expandable string enum."
+    name: "clazz"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Class.html\">Class</a>&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "protected static Collection<T> <T>values(Class<T> clazz)"
+  desc: "Gets a collection of all known values to an expandable string enum type."
+  returns:
+    description: "A collection of all known values for the given <code>clazz</code>."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)"
+  fullName: "com.azure.core.util.ExpandableStringEnum<T>.equals(Object obj)"
+  name: "equals(Object obj)"
+  nameWithType: "ExpandableStringEnum<T>.equals(Object obj)"
+  overridden: "java.lang.Object.equals(java.lang.Object)"
+  parameters:
+  - name: "obj"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  syntax: "public boolean equals(Object obj)"
+  returns:
+    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.core.util.ExpandableStringEnum.getValue()"
   fullName: "com.azure.core.util.ExpandableStringEnum<T>.getValue()"
   name: "getValue()"
@@ -88,23 +105,6 @@ methods:
   syntax: "public String toString()"
   returns:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)"
-  fullName: "com.azure.core.util.ExpandableStringEnum<T>.values(Class<T> clazz)"
-  name: "values(Class<T> clazz)"
-  nameWithType: "ExpandableStringEnum<T>.values(Class<T> clazz)"
-  summary: "Gets a collection of all known values to an expandable string enum type."
-  modifiers:
-  - "protected"
-  - "static"
-  parameters:
-  - description: "the class of the expandable string enum."
-    name: "clazz"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Class.html\">Class</a>&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "protected static Collection<T> <T>values(Class<T> clazz)"
-  desc: "Gets a collection of all known values to an expandable string enum type."
-  returns:
-    description: "A collection of all known values for the given <code>clazz</code>."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "class"
 typeParameters:
 - description: "a specific expandable enum type"

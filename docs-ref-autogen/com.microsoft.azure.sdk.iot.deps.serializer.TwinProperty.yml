@@ -125,18 +125,18 @@ methods:
   syntax: "protected JsonElement toJsonElement()"
   returns:
     type: "<xref href=\"com.google.gson.JsonElement?alt=com.google.gson.JsonElement&text=JsonElement\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.azure.sdk.iot.deps.serializer.TwinProperty.update(java.util.Map<java.lang.String,java.lang.Object>,com.microsoft.azure.sdk.iot.deps.serializer.TwinChangedCallback)"
-  fullName: "com.microsoft.azure.sdk.iot.deps.serializer.TwinProperty.update(Map<String,Object> jsonTree, TwinChangedCallback onCallback)"
-  name: "update(Map<String,Object> jsonTree, TwinChangedCallback onCallback)"
-  nameWithType: "TwinProperty.update(Map<String,Object> jsonTree, TwinChangedCallback onCallback)"
+- uid: "com.microsoft.azure.sdk.iot.deps.serializer.TwinProperty.update(java.lang.String,com.microsoft.azure.sdk.iot.deps.serializer.TwinChangedCallback)"
+  fullName: "com.microsoft.azure.sdk.iot.deps.serializer.TwinProperty.update(String json, TwinChangedCallback onCallback)"
+  name: "update(String json, TwinChangedCallback onCallback)"
+  nameWithType: "TwinProperty.update(String json, TwinChangedCallback onCallback)"
   modifiers:
   - "protected"
   parameters:
-  - name: "jsonTree"
-    type: "<xref href=\"java.util.Map?alt=java.util.Map&text=Map\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />&gt;"
+  - name: "json"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   - name: "onCallback"
     type: "<xref href=\"com.microsoft.azure.sdk.iot.deps.serializer.TwinChangedCallback?alt=com.microsoft.azure.sdk.iot.deps.serializer.TwinChangedCallback&text=TwinChangedCallback\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "protected void update(Map<String,Object> jsonTree, TwinChangedCallback onCallback)"
+  syntax: "protected void update(String json, TwinChangedCallback onCallback)"
   exceptions:
   - type: "<xref href=\"java.lang.IllegalArgumentException?alt=java.lang.IllegalArgumentException&text=IllegalArgumentException\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.sdk.iot.deps.serializer.TwinProperty.update(java.util.Map<java.lang.String,java.lang.Object>)"
@@ -151,18 +151,18 @@ methods:
   syntax: "protected JsonElement update(Map<String,Object> property)"
   returns:
     type: "<xref href=\"com.google.gson.JsonElement?alt=com.google.gson.JsonElement&text=JsonElement\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.azure.sdk.iot.deps.serializer.TwinProperty.update(java.lang.String,com.microsoft.azure.sdk.iot.deps.serializer.TwinChangedCallback)"
-  fullName: "com.microsoft.azure.sdk.iot.deps.serializer.TwinProperty.update(String json, TwinChangedCallback onCallback)"
-  name: "update(String json, TwinChangedCallback onCallback)"
-  nameWithType: "TwinProperty.update(String json, TwinChangedCallback onCallback)"
+- uid: "com.microsoft.azure.sdk.iot.deps.serializer.TwinProperty.update(java.util.Map<java.lang.String,java.lang.Object>,com.microsoft.azure.sdk.iot.deps.serializer.TwinChangedCallback)"
+  fullName: "com.microsoft.azure.sdk.iot.deps.serializer.TwinProperty.update(Map<String,Object> jsonTree, TwinChangedCallback onCallback)"
+  name: "update(Map<String,Object> jsonTree, TwinChangedCallback onCallback)"
+  nameWithType: "TwinProperty.update(Map<String,Object> jsonTree, TwinChangedCallback onCallback)"
   modifiers:
   - "protected"
   parameters:
-  - name: "json"
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  - name: "jsonTree"
+    type: "<xref href=\"java.util.Map?alt=java.util.Map&text=Map\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />&gt;"
   - name: "onCallback"
     type: "<xref href=\"com.microsoft.azure.sdk.iot.deps.serializer.TwinChangedCallback?alt=com.microsoft.azure.sdk.iot.deps.serializer.TwinChangedCallback&text=TwinChangedCallback\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "protected void update(String json, TwinChangedCallback onCallback)"
+  syntax: "protected void update(Map<String,Object> jsonTree, TwinChangedCallback onCallback)"
   exceptions:
   - type: "<xref href=\"java.lang.IllegalArgumentException?alt=java.lang.IllegalArgumentException&text=IllegalArgumentException\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.sdk.iot.deps.serializer.TwinProperty.validate(java.util.Map<java.lang.String,java.lang.Object>)"

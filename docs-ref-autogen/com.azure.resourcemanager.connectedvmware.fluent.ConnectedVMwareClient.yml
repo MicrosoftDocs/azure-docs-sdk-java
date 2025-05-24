@@ -150,6 +150,18 @@ methods:
   returns:
     description: "the VCentersClient object."
     type: "<xref href=\"com.azure.resourcemanager.connectedvmware.fluent.VCentersClient?alt=com.azure.resourcemanager.connectedvmware.fluent.VCentersClient&text=VCentersClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.connectedvmware.fluent.ConnectedVMwareClient.getVMInstanceGuestAgents()"
+  fullName: "com.azure.resourcemanager.connectedvmware.fluent.ConnectedVMwareClient.getVMInstanceGuestAgents()"
+  name: "getVMInstanceGuestAgents()"
+  nameWithType: "ConnectedVMwareClient.getVMInstanceGuestAgents()"
+  summary: "Gets the VMInstance<wbr>Guest<wbr>Agents<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract VMInstanceGuestAgentsClient getVMInstanceGuestAgents()"
+  desc: "Gets the VMInstanceGuestAgentsClient object to access its operations."
+  returns:
+    description: "the VMInstanceGuestAgentsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.connectedvmware.fluent.VMInstanceGuestAgentsClient?alt=com.azure.resourcemanager.connectedvmware.fluent.VMInstanceGuestAgentsClient&text=VMInstanceGuestAgentsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.connectedvmware.fluent.ConnectedVMwareClient.getVirtualMachineInstances()"
   fullName: "com.azure.resourcemanager.connectedvmware.fluent.ConnectedVMwareClient.getVirtualMachineInstances()"
   name: "getVirtualMachineInstances()"
@@ -186,18 +198,6 @@ methods:
   returns:
     description: "the VirtualNetworksClient object."
     type: "<xref href=\"com.azure.resourcemanager.connectedvmware.fluent.VirtualNetworksClient?alt=com.azure.resourcemanager.connectedvmware.fluent.VirtualNetworksClient&text=VirtualNetworksClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.connectedvmware.fluent.ConnectedVMwareClient.getVMInstanceGuestAgents()"
-  fullName: "com.azure.resourcemanager.connectedvmware.fluent.ConnectedVMwareClient.getVMInstanceGuestAgents()"
-  name: "getVMInstanceGuestAgents()"
-  nameWithType: "ConnectedVMwareClient.getVMInstanceGuestAgents()"
-  summary: "Gets the VMInstance<wbr>Guest<wbr>Agents<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract VMInstanceGuestAgentsClient getVMInstanceGuestAgents()"
-  desc: "Gets the VMInstanceGuestAgentsClient object to access its operations."
-  returns:
-    description: "the VMInstanceGuestAgentsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.connectedvmware.fluent.VMInstanceGuestAgentsClient?alt=com.azure.resourcemanager.connectedvmware.fluent.VMInstanceGuestAgentsClient&text=VMInstanceGuestAgentsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.connectedvmware.fluent.ConnectedVMwareClient.getVmInstanceHybridIdentityMetadatas()"
   fullName: "com.azure.resourcemanager.connectedvmware.fluent.ConnectedVMwareClient.getVmInstanceHybridIdentityMetadatas()"
   name: "getVmInstanceHybridIdentityMetadatas()"

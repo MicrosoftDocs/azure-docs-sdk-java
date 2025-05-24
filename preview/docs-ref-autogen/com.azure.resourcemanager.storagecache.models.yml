@@ -201,7 +201,7 @@ interfaces:
 - "com.azure.resourcemanager.storagecache.models.StorageTargets"
 - "com.azure.resourcemanager.storagecache.models.UsageModel"
 - "com.azure.resourcemanager.storagecache.models.UsageModels"
-desc: "Package containing the data models for StorageCacheManagementClient. Azure Managed Lustre provides a fully managed LustreÂ® file system, integrated with Blob storage, for use on demand. These operations create and manage Azure Managed Lustre file systems."
+desc: "Package containing the data models for StorageCacheManagementClient. Azure Managed Lustre provides a fully managed Lustre® file system, integrated with Blob storage, for use on demand. These operations create and manage Azure Managed Lustre file systems."
 metadata: {}
 package: "com.azure.resourcemanager.storagecache.models"
 artifact: com.azure.resourcemanager:azure-resourcemanager-storagecache:1.0.0-beta.12

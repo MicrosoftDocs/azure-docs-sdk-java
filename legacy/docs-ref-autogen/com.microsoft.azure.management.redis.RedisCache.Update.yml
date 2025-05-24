@@ -60,46 +60,6 @@ methods:
   returns:
     description: "the next stage of Redis Cache definition."
     type: "<xref href=\"com.microsoft.azure.management.redis.RedisCache.Update?alt=com.microsoft.azure.management.redis.RedisCache.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.azure.management.redis.RedisCache.Update.withoutFirewallRule(java.lang.String)"
-  fullName: "com.microsoft.azure.management.redis.RedisCache.Update.withoutFirewallRule(String name)"
-  name: "withoutFirewallRule(String name)"
-  nameWithType: "RedisCache.Update.withoutFirewallRule(String name)"
-  summary: "Deletes a single firewall rule in the current Redis cache instance."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "name of the rule."
-    name: "name"
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract RedisCache.Update withoutFirewallRule(String name)"
-  desc: "Deletes a single firewall rule in the current Redis cache instance."
-  returns:
-    description: "the next stage of Redis Cache update."
-    type: "<xref href=\"com.microsoft.azure.management.redis.RedisCache.Update?alt=com.microsoft.azure.management.redis.RedisCache.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.azure.management.redis.RedisCache.Update.withoutMinimumTlsVersion()"
-  fullName: "com.microsoft.azure.management.redis.RedisCache.Update.withoutMinimumTlsVersion()"
-  name: "withoutMinimumTlsVersion()"
-  nameWithType: "RedisCache.Update.withoutMinimumTlsVersion()"
-  summary: "Removes the requirement for clients minimum TLS version."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract RedisCache.Update withoutMinimumTlsVersion()"
-  desc: "Removes the requirement for clients minimum TLS version."
-  returns:
-    description: "the next stage of Redis Cache definition."
-    type: "<xref href=\"com.microsoft.azure.management.redis.RedisCache.Update?alt=com.microsoft.azure.management.redis.RedisCache.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.azure.management.redis.RedisCache.Update.withoutPatchSchedule()"
-  fullName: "com.microsoft.azure.management.redis.RedisCache.Update.withoutPatchSchedule()"
-  name: "withoutPatchSchedule()"
-  nameWithType: "RedisCache.Update.withoutPatchSchedule()"
-  summary: "Removes all Patch schedules from the current Premium Cluster Cache."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract RedisCache.Update withoutPatchSchedule()"
-  desc: "Removes all Patch schedules from the current Premium Cluster Cache."
-  returns:
-    description: "the next stage of Redis Cache with Premium SKU definition."
-    type: "<xref href=\"com.microsoft.azure.management.redis.RedisCache.Update?alt=com.microsoft.azure.management.redis.RedisCache.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.management.redis.RedisCache.Update.withPatchSchedule(com.microsoft.azure.management.redis.DayOfWeek,int)"
   fullName: "com.microsoft.azure.management.redis.RedisCache.Update.withPatchSchedule(DayOfWeek dayOfWeek, int startHourUtc)"
   name: "withPatchSchedule(DayOfWeek dayOfWeek, int startHourUtc)"
@@ -141,22 +101,6 @@ methods:
   returns:
     description: "the next stage of Redis Cache with Premium SKU definition."
     type: "<xref href=\"com.microsoft.azure.management.redis.RedisCache.Update?alt=com.microsoft.azure.management.redis.RedisCache.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.azure.management.redis.RedisCache.Update.withPatchSchedule(java.util.List<com.microsoft.azure.management.redis.ScheduleEntry>)"
-  fullName: "com.microsoft.azure.management.redis.RedisCache.Update.withPatchSchedule(List<ScheduleEntry> scheduleEntry)"
-  name: "withPatchSchedule(List<ScheduleEntry> scheduleEntry)"
-  nameWithType: "RedisCache.Update.withPatchSchedule(List<ScheduleEntry> scheduleEntry)"
-  summary: "Adds Patch schedule to the current Premium Cluster Cache."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "List of patch schedule entries for Premium Redis Cache."
-    name: "scheduleEntry"
-    type: "<xref href=\"java.util.List?alt=java.util.List&text=List\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.management.redis.ScheduleEntry?alt=com.microsoft.azure.management.redis.ScheduleEntry&text=ScheduleEntry\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public abstract RedisCache.Update withPatchSchedule(List<ScheduleEntry> scheduleEntry)"
-  desc: "Adds Patch schedule to the current Premium Cluster Cache."
-  returns:
-    description: "the next stage of Redis Cache with Premium SKU definition."
-    type: "<xref href=\"com.microsoft.azure.management.redis.RedisCache.Update?alt=com.microsoft.azure.management.redis.RedisCache.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.management.redis.RedisCache.Update.withPatchSchedule(com.microsoft.azure.management.redis.ScheduleEntry)"
   fullName: "com.microsoft.azure.management.redis.RedisCache.Update.withPatchSchedule(ScheduleEntry scheduleEntry)"
   name: "withPatchSchedule(ScheduleEntry scheduleEntry)"
@@ -169,6 +113,22 @@ methods:
     name: "scheduleEntry"
     type: "<xref href=\"com.microsoft.azure.management.redis.ScheduleEntry?alt=com.microsoft.azure.management.redis.ScheduleEntry&text=ScheduleEntry\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract RedisCache.Update withPatchSchedule(ScheduleEntry scheduleEntry)"
+  desc: "Adds Patch schedule to the current Premium Cluster Cache."
+  returns:
+    description: "the next stage of Redis Cache with Premium SKU definition."
+    type: "<xref href=\"com.microsoft.azure.management.redis.RedisCache.Update?alt=com.microsoft.azure.management.redis.RedisCache.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.azure.management.redis.RedisCache.Update.withPatchSchedule(java.util.List<com.microsoft.azure.management.redis.ScheduleEntry>)"
+  fullName: "com.microsoft.azure.management.redis.RedisCache.Update.withPatchSchedule(List<ScheduleEntry> scheduleEntry)"
+  name: "withPatchSchedule(List<ScheduleEntry> scheduleEntry)"
+  nameWithType: "RedisCache.Update.withPatchSchedule(List<ScheduleEntry> scheduleEntry)"
+  summary: "Adds Patch schedule to the current Premium Cluster Cache."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "List of patch schedule entries for Premium Redis Cache."
+    name: "scheduleEntry"
+    type: "<xref href=\"java.util.List?alt=java.util.List&text=List\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.management.redis.ScheduleEntry?alt=com.microsoft.azure.management.redis.ScheduleEntry&text=ScheduleEntry\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public abstract RedisCache.Update withPatchSchedule(List<ScheduleEntry> scheduleEntry)"
   desc: "Adds Patch schedule to the current Premium Cluster Cache."
   returns:
     description: "the next stage of Redis Cache with Premium SKU definition."
@@ -188,6 +148,46 @@ methods:
   desc: "The number of shards to be created on a Premium Cluster Cache."
   returns:
     description: "the next stage of Redis Cache update."
+    type: "<xref href=\"com.microsoft.azure.management.redis.RedisCache.Update?alt=com.microsoft.azure.management.redis.RedisCache.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.azure.management.redis.RedisCache.Update.withoutFirewallRule(java.lang.String)"
+  fullName: "com.microsoft.azure.management.redis.RedisCache.Update.withoutFirewallRule(String name)"
+  name: "withoutFirewallRule(String name)"
+  nameWithType: "RedisCache.Update.withoutFirewallRule(String name)"
+  summary: "Deletes a single firewall rule in the current Redis cache instance."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "name of the rule."
+    name: "name"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract RedisCache.Update withoutFirewallRule(String name)"
+  desc: "Deletes a single firewall rule in the current Redis cache instance."
+  returns:
+    description: "the next stage of Redis Cache update."
+    type: "<xref href=\"com.microsoft.azure.management.redis.RedisCache.Update?alt=com.microsoft.azure.management.redis.RedisCache.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.azure.management.redis.RedisCache.Update.withoutMinimumTlsVersion()"
+  fullName: "com.microsoft.azure.management.redis.RedisCache.Update.withoutMinimumTlsVersion()"
+  name: "withoutMinimumTlsVersion()"
+  nameWithType: "RedisCache.Update.withoutMinimumTlsVersion()"
+  summary: "Removes the requirement for clients minimum TLS version."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract RedisCache.Update withoutMinimumTlsVersion()"
+  desc: "Removes the requirement for clients minimum TLS version."
+  returns:
+    description: "the next stage of Redis Cache definition."
+    type: "<xref href=\"com.microsoft.azure.management.redis.RedisCache.Update?alt=com.microsoft.azure.management.redis.RedisCache.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.azure.management.redis.RedisCache.Update.withoutPatchSchedule()"
+  fullName: "com.microsoft.azure.management.redis.RedisCache.Update.withoutPatchSchedule()"
+  name: "withoutPatchSchedule()"
+  nameWithType: "RedisCache.Update.withoutPatchSchedule()"
+  summary: "Removes all Patch schedules from the current Premium Cluster Cache."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract RedisCache.Update withoutPatchSchedule()"
+  desc: "Removes all Patch schedules from the current Premium Cluster Cache."
+  returns:
+    description: "the next stage of Redis Cache with Premium SKU definition."
     type: "<xref href=\"com.microsoft.azure.management.redis.RedisCache.Update?alt=com.microsoft.azure.management.redis.RedisCache.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 desc: "The template for a Redis Cache update operation, containing all the settings that can be modified."

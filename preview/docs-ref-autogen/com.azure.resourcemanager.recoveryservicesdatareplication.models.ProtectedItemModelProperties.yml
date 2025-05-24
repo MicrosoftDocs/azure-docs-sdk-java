@@ -259,16 +259,6 @@ methods:
   returns:
     description: "the replicationHealth value."
     type: "<xref href=\"com.azure.resourcemanager.recoveryservicesdatareplication.models.HealthStatus?alt=com.azure.resourcemanager.recoveryservicesdatareplication.models.HealthStatus&text=HealthStatus\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.recoveryservicesdatareplication.models.ProtectedItemModelProperties.resynchronizationState()"
-  fullName: "com.azure.resourcemanager.recoveryservicesdatareplication.models.ProtectedItemModelProperties.resynchronizationState()"
-  name: "resynchronizationState()"
-  nameWithType: "ProtectedItemModelProperties.resynchronizationState()"
-  summary: "Get the resynchronization<wbr>State property: Gets or sets the resynchronization state."
-  syntax: "public ResynchronizationState resynchronizationState()"
-  desc: "Get the resynchronizationState property: Gets or sets the resynchronization state."
-  returns:
-    description: "the resynchronizationState value."
-    type: "<xref href=\"com.azure.resourcemanager.recoveryservicesdatareplication.models.ResynchronizationState?alt=com.azure.resourcemanager.recoveryservicesdatareplication.models.ResynchronizationState&text=ResynchronizationState\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.recoveryservicesdatareplication.models.ProtectedItemModelProperties.resyncRequired()"
   fullName: "com.azure.resourcemanager.recoveryservicesdatareplication.models.ProtectedItemModelProperties.resyncRequired()"
   name: "resyncRequired()"
@@ -279,6 +269,16 @@ methods:
   returns:
     description: "the resyncRequired value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
+- uid: "com.azure.resourcemanager.recoveryservicesdatareplication.models.ProtectedItemModelProperties.resynchronizationState()"
+  fullName: "com.azure.resourcemanager.recoveryservicesdatareplication.models.ProtectedItemModelProperties.resynchronizationState()"
+  name: "resynchronizationState()"
+  nameWithType: "ProtectedItemModelProperties.resynchronizationState()"
+  summary: "Get the resynchronization<wbr>State property: Gets or sets the resynchronization state."
+  syntax: "public ResynchronizationState resynchronizationState()"
+  desc: "Get the resynchronizationState property: Gets or sets the resynchronization state."
+  returns:
+    description: "the resynchronizationState value."
+    type: "<xref href=\"com.azure.resourcemanager.recoveryservicesdatareplication.models.ResynchronizationState?alt=com.azure.resourcemanager.recoveryservicesdatareplication.models.ResynchronizationState&text=ResynchronizationState\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.recoveryservicesdatareplication.models.ProtectedItemModelProperties.sourceFabricProviderId()"
   fullName: "com.azure.resourcemanager.recoveryservicesdatareplication.models.ProtectedItemModelProperties.sourceFabricProviderId()"
   name: "sourceFabricProviderId()"

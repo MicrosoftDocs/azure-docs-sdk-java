@@ -66,6 +66,18 @@ methods:
   returns:
     description: "true if the traffic manager profile is enabled, false if disabled"
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.trafficmanager.models.TrafficManagerProfile.monitorStatus()"
+  fullName: "com.azure.resourcemanager.trafficmanager.models.TrafficManagerProfile.monitorStatus()"
+  name: "monitorStatus()"
+  nameWithType: "TrafficManagerProfile.monitorStatus()"
+  summary: "Gets profile monitor status which is combination of the endpoint monitor status values for all endpoints in the profile, and the configured profile status."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ProfileMonitorStatus monitorStatus()"
+  desc: "Gets profile monitor status which is combination of the endpoint monitor status values for all endpoints in the profile, and the configured profile status."
+  returns:
+    description: "profile monitor status which is combination of the endpoint monitor status values for all endpoints in\n     the profile, and the configured profile status"
+    type: "<xref href=\"com.azure.resourcemanager.trafficmanager.models.ProfileMonitorStatus?alt=com.azure.resourcemanager.trafficmanager.models.ProfileMonitorStatus&text=ProfileMonitorStatus\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.trafficmanager.models.TrafficManagerProfile.monitoringPath()"
   fullName: "com.azure.resourcemanager.trafficmanager.models.TrafficManagerProfile.monitoringPath()"
   name: "monitoringPath()"
@@ -90,18 +102,6 @@ methods:
   returns:
     description: "the port that is monitored to check the health of traffic manager profile endpoints"
     type: "<xref href=\"long?alt=long&text=long\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.trafficmanager.models.TrafficManagerProfile.monitorStatus()"
-  fullName: "com.azure.resourcemanager.trafficmanager.models.TrafficManagerProfile.monitorStatus()"
-  name: "monitorStatus()"
-  nameWithType: "TrafficManagerProfile.monitorStatus()"
-  summary: "Gets profile monitor status which is combination of the endpoint monitor status values for all endpoints in the profile, and the configured profile status."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract ProfileMonitorStatus monitorStatus()"
-  desc: "Gets profile monitor status which is combination of the endpoint monitor status values for all endpoints in the profile, and the configured profile status."
-  returns:
-    description: "profile monitor status which is combination of the endpoint monitor status values for all endpoints in\n     the profile, and the configured profile status"
-    type: "<xref href=\"com.azure.resourcemanager.trafficmanager.models.ProfileMonitorStatus?alt=com.azure.resourcemanager.trafficmanager.models.ProfileMonitorStatus&text=ProfileMonitorStatus\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.trafficmanager.models.TrafficManagerProfile.nestedProfileEndpoints()"
   fullName: "com.azure.resourcemanager.trafficmanager.models.TrafficManagerProfile.nestedProfileEndpoints()"
   name: "nestedProfileEndpoints()"

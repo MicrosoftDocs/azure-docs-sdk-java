@@ -60,16 +60,6 @@ methods:
   returns:
     description: "The analyzeSentimentResults value."
     type: "<xref href=\"com.azure.core.util.IterableStream?alt=com.azure.core.util.IterableStream&text=IterableStream\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.textanalytics.models.AnalyzeSentimentActionResult?alt=com.azure.ai.textanalytics.models.AnalyzeSentimentActionResult&text=AnalyzeSentimentActionResult\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.ai.textanalytics.models.AnalyzeActionsResult.getExtractiveSummaryResults()"
-  fullName: "com.azure.ai.textanalytics.models.AnalyzeActionsResult.getExtractiveSummaryResults()"
-  name: "getExtractiveSummaryResults()"
-  nameWithType: "AnalyzeActionsResult.getExtractiveSummaryResults()"
-  summary: "Gets the `extractiveSummaryResults` property: the extractive summarization actions results property."
-  syntax: "public IterableStream<ExtractiveSummaryActionResult> getExtractiveSummaryResults()"
-  desc: "Gets the `extractiveSummaryResults` property: the extractive summarization actions results property."
-  returns:
-    description: "the extractiveSummaryResults value."
-    type: "<xref href=\"com.azure.core.util.IterableStream?alt=com.azure.core.util.IterableStream&text=IterableStream\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.textanalytics.models.ExtractiveSummaryActionResult?alt=com.azure.ai.textanalytics.models.ExtractiveSummaryActionResult&text=ExtractiveSummaryActionResult\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.ai.textanalytics.models.AnalyzeActionsResult.getExtractKeyPhrasesResults()"
   fullName: "com.azure.ai.textanalytics.models.AnalyzeActionsResult.getExtractKeyPhrasesResults()"
   name: "getExtractKeyPhrasesResults()"
@@ -80,6 +70,16 @@ methods:
   returns:
     description: "The extractKeyPhrasesResults value."
     type: "<xref href=\"com.azure.core.util.IterableStream?alt=com.azure.core.util.IterableStream&text=IterableStream\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.textanalytics.models.ExtractKeyPhrasesActionResult?alt=com.azure.ai.textanalytics.models.ExtractKeyPhrasesActionResult&text=ExtractKeyPhrasesActionResult\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.ai.textanalytics.models.AnalyzeActionsResult.getExtractiveSummaryResults()"
+  fullName: "com.azure.ai.textanalytics.models.AnalyzeActionsResult.getExtractiveSummaryResults()"
+  name: "getExtractiveSummaryResults()"
+  nameWithType: "AnalyzeActionsResult.getExtractiveSummaryResults()"
+  summary: "Gets the `extractiveSummaryResults` property: the extractive summarization actions results property."
+  syntax: "public IterableStream<ExtractiveSummaryActionResult> getExtractiveSummaryResults()"
+  desc: "Gets the `extractiveSummaryResults` property: the extractive summarization actions results property."
+  returns:
+    description: "the extractiveSummaryResults value."
+    type: "<xref href=\"com.azure.core.util.IterableStream?alt=com.azure.core.util.IterableStream&text=IterableStream\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.textanalytics.models.ExtractiveSummaryActionResult?alt=com.azure.ai.textanalytics.models.ExtractiveSummaryActionResult&text=ExtractiveSummaryActionResult\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.ai.textanalytics.models.AnalyzeActionsResult.getMultiLabelClassifyResults()"
   fullName: "com.azure.ai.textanalytics.models.AnalyzeActionsResult.getMultiLabelClassifyResults()"
   name: "getMultiLabelClassifyResults()"

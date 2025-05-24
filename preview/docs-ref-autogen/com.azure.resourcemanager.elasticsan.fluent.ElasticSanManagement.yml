@@ -150,18 +150,6 @@ methods:
   returns:
     description: "the VolumeGroupsClient object."
     type: "<xref href=\"com.azure.resourcemanager.elasticsan.fluent.VolumeGroupsClient?alt=com.azure.resourcemanager.elasticsan.fluent.VolumeGroupsClient&text=VolumeGroupsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.elasticsan.fluent.ElasticSanManagement.getVolumes()"
-  fullName: "com.azure.resourcemanager.elasticsan.fluent.ElasticSanManagement.getVolumes()"
-  name: "getVolumes()"
-  nameWithType: "ElasticSanManagement.getVolumes()"
-  summary: "Gets the Volumes<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract VolumesClient getVolumes()"
-  desc: "Gets the VolumesClient object to access its operations."
-  returns:
-    description: "the VolumesClient object."
-    type: "<xref href=\"com.azure.resourcemanager.elasticsan.fluent.VolumesClient?alt=com.azure.resourcemanager.elasticsan.fluent.VolumesClient&text=VolumesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.elasticsan.fluent.ElasticSanManagement.getVolumeSnapshots()"
   fullName: "com.azure.resourcemanager.elasticsan.fluent.ElasticSanManagement.getVolumeSnapshots()"
   name: "getVolumeSnapshots()"
@@ -174,6 +162,18 @@ methods:
   returns:
     description: "the VolumeSnapshotsClient object."
     type: "<xref href=\"com.azure.resourcemanager.elasticsan.fluent.VolumeSnapshotsClient?alt=com.azure.resourcemanager.elasticsan.fluent.VolumeSnapshotsClient&text=VolumeSnapshotsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.elasticsan.fluent.ElasticSanManagement.getVolumes()"
+  fullName: "com.azure.resourcemanager.elasticsan.fluent.ElasticSanManagement.getVolumes()"
+  name: "getVolumes()"
+  nameWithType: "ElasticSanManagement.getVolumes()"
+  summary: "Gets the Volumes<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract VolumesClient getVolumes()"
+  desc: "Gets the VolumesClient object to access its operations."
+  returns:
+    description: "the VolumesClient object."
+    type: "<xref href=\"com.azure.resourcemanager.elasticsan.fluent.VolumesClient?alt=com.azure.resourcemanager.elasticsan.fluent.VolumesClient&text=VolumesClient\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 desc: "The interface for ElasticSanManagement class."
 metadata: {}

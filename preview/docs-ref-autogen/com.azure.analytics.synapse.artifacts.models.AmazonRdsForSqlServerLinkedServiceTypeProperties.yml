@@ -206,20 +206,6 @@ methods:
   desc: "Set the commandTimeout property: The default wait time (in seconds) before terminating the attempt to execute a command and generating an error, used by recommended version. Type: integer (or Expression with resultType integer)."
   returns:
     type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.AmazonRdsForSqlServerLinkedServiceTypeProperties?alt=com.azure.analytics.synapse.artifacts.models.AmazonRdsForSqlServerLinkedServiceTypeProperties&text=AmazonRdsForSqlServerLinkedServiceTypeProperties\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.analytics.synapse.artifacts.models.AmazonRdsForSqlServerLinkedServiceTypeProperties.setConnectionString(java.lang.Object)"
-  fullName: "com.azure.analytics.synapse.artifacts.models.AmazonRdsForSqlServerLinkedServiceTypeProperties.setConnectionString(Object connectionString)"
-  name: "setConnectionString(Object connectionString)"
-  nameWithType: "AmazonRdsForSqlServerLinkedServiceTypeProperties.setConnectionString(Object connectionString)"
-  summary: "Set the connection<wbr>String property: The connection string."
-  parameters:
-  - description: "the connectionString value to set."
-    name: "connectionString"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
-  syntax: "public AmazonRdsForSqlServerLinkedServiceTypeProperties setConnectionString(Object connectionString)"
-  desc: "Set the connectionString property: The connection string. Type: string, SecureString or AzureKeyVaultSecretReference."
-  returns:
-    description: "the AmazonRdsForSqlServerLinkedServiceTypeProperties object itself."
-    type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.AmazonRdsForSqlServerLinkedServiceTypeProperties?alt=com.azure.analytics.synapse.artifacts.models.AmazonRdsForSqlServerLinkedServiceTypeProperties&text=AmazonRdsForSqlServerLinkedServiceTypeProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.analytics.synapse.artifacts.models.AmazonRdsForSqlServerLinkedServiceTypeProperties.setConnectRetryCount(java.lang.Object)"
   fullName: "com.azure.analytics.synapse.artifacts.models.AmazonRdsForSqlServerLinkedServiceTypeProperties.setConnectRetryCount(Object connectRetryCount)"
   name: "setConnectRetryCount(Object connectRetryCount)"
@@ -258,6 +244,20 @@ methods:
   syntax: "public AmazonRdsForSqlServerLinkedServiceTypeProperties setConnectTimeout(Object connectTimeout)"
   desc: "Set the connectTimeout property: The length of time (in seconds) to wait for a connection to the server before terminating the attempt and generating an error, used by recommended version. Type: integer (or Expression with resultType integer)."
   returns:
+    type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.AmazonRdsForSqlServerLinkedServiceTypeProperties?alt=com.azure.analytics.synapse.artifacts.models.AmazonRdsForSqlServerLinkedServiceTypeProperties&text=AmazonRdsForSqlServerLinkedServiceTypeProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.analytics.synapse.artifacts.models.AmazonRdsForSqlServerLinkedServiceTypeProperties.setConnectionString(java.lang.Object)"
+  fullName: "com.azure.analytics.synapse.artifacts.models.AmazonRdsForSqlServerLinkedServiceTypeProperties.setConnectionString(Object connectionString)"
+  name: "setConnectionString(Object connectionString)"
+  nameWithType: "AmazonRdsForSqlServerLinkedServiceTypeProperties.setConnectionString(Object connectionString)"
+  summary: "Set the connection<wbr>String property: The connection string."
+  parameters:
+  - description: "the connectionString value to set."
+    name: "connectionString"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  syntax: "public AmazonRdsForSqlServerLinkedServiceTypeProperties setConnectionString(Object connectionString)"
+  desc: "Set the connectionString property: The connection string. Type: string, SecureString or AzureKeyVaultSecretReference."
+  returns:
+    description: "the AmazonRdsForSqlServerLinkedServiceTypeProperties object itself."
     type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.AmazonRdsForSqlServerLinkedServiceTypeProperties?alt=com.azure.analytics.synapse.artifacts.models.AmazonRdsForSqlServerLinkedServiceTypeProperties&text=AmazonRdsForSqlServerLinkedServiceTypeProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.analytics.synapse.artifacts.models.AmazonRdsForSqlServerLinkedServiceTypeProperties.setDatabase(java.lang.Object)"
   fullName: "com.azure.analytics.synapse.artifacts.models.AmazonRdsForSqlServerLinkedServiceTypeProperties.setDatabase(Object database)"
@@ -377,19 +377,6 @@ methods:
   desc: "Set the minPoolSize property: The minimum number of connections allowed in the connection pool for this specific connection string, used by recommended version. Type: integer (or Expression with resultType integer)."
   returns:
     type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.AmazonRdsForSqlServerLinkedServiceTypeProperties?alt=com.azure.analytics.synapse.artifacts.models.AmazonRdsForSqlServerLinkedServiceTypeProperties&text=AmazonRdsForSqlServerLinkedServiceTypeProperties\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.analytics.synapse.artifacts.models.AmazonRdsForSqlServerLinkedServiceTypeProperties.setMultipleActiveResultSets(java.lang.Object)"
-  fullName: "com.azure.analytics.synapse.artifacts.models.AmazonRdsForSqlServerLinkedServiceTypeProperties.setMultipleActiveResultSets(Object multipleActiveResultSets)"
-  name: "setMultipleActiveResultSets(Object multipleActiveResultSets)"
-  nameWithType: "AmazonRdsForSqlServerLinkedServiceTypeProperties.setMultipleActiveResultSets(Object multipleActiveResultSets)"
-  summary: "Set the multiple<wbr>Active<wbr>Result<wbr>Sets property: When true, an application can maintain multiple active result sets (MARS)."
-  overridden: "com.azure.analytics.synapse.artifacts.models.SqlServerBaseLinkedServiceTypeProperties.setMultipleActiveResultSets(java.lang.Object)"
-  parameters:
-  - name: "multipleActiveResultSets"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
-  syntax: "public AmazonRdsForSqlServerLinkedServiceTypeProperties setMultipleActiveResultSets(Object multipleActiveResultSets)"
-  desc: "Set the multipleActiveResultSets property: When true, an application can maintain multiple active result sets (MARS). When false, an application must process or cancel all result sets from one batch before it can execute any other batch on that connection. Type: Boolean (or Expression with resultType boolean)."
-  returns:
-    type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.AmazonRdsForSqlServerLinkedServiceTypeProperties?alt=com.azure.analytics.synapse.artifacts.models.AmazonRdsForSqlServerLinkedServiceTypeProperties&text=AmazonRdsForSqlServerLinkedServiceTypeProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.analytics.synapse.artifacts.models.AmazonRdsForSqlServerLinkedServiceTypeProperties.setMultiSubnetFailover(java.lang.Object)"
   fullName: "com.azure.analytics.synapse.artifacts.models.AmazonRdsForSqlServerLinkedServiceTypeProperties.setMultiSubnetFailover(Object multiSubnetFailover)"
   name: "setMultiSubnetFailover(Object multiSubnetFailover)"
@@ -401,6 +388,19 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   syntax: "public AmazonRdsForSqlServerLinkedServiceTypeProperties setMultiSubnetFailover(Object multiSubnetFailover)"
   desc: "Set the multiSubnetFailover property: If your application is connecting to an AlwaysOn availability group (AG) on different subnets, setting MultiSubnetFailover=true provides faster detection of and connection to the (currently) active server, used by recommended version. Type: Boolean (or Expression with resultType boolean)."
+  returns:
+    type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.AmazonRdsForSqlServerLinkedServiceTypeProperties?alt=com.azure.analytics.synapse.artifacts.models.AmazonRdsForSqlServerLinkedServiceTypeProperties&text=AmazonRdsForSqlServerLinkedServiceTypeProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.analytics.synapse.artifacts.models.AmazonRdsForSqlServerLinkedServiceTypeProperties.setMultipleActiveResultSets(java.lang.Object)"
+  fullName: "com.azure.analytics.synapse.artifacts.models.AmazonRdsForSqlServerLinkedServiceTypeProperties.setMultipleActiveResultSets(Object multipleActiveResultSets)"
+  name: "setMultipleActiveResultSets(Object multipleActiveResultSets)"
+  nameWithType: "AmazonRdsForSqlServerLinkedServiceTypeProperties.setMultipleActiveResultSets(Object multipleActiveResultSets)"
+  summary: "Set the multiple<wbr>Active<wbr>Result<wbr>Sets property: When true, an application can maintain multiple active result sets (MARS)."
+  overridden: "com.azure.analytics.synapse.artifacts.models.SqlServerBaseLinkedServiceTypeProperties.setMultipleActiveResultSets(java.lang.Object)"
+  parameters:
+  - name: "multipleActiveResultSets"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  syntax: "public AmazonRdsForSqlServerLinkedServiceTypeProperties setMultipleActiveResultSets(Object multipleActiveResultSets)"
+  desc: "Set the multipleActiveResultSets property: When true, an application can maintain multiple active result sets (MARS). When false, an application must process or cancel all result sets from one batch before it can execute any other batch on that connection. Type: Boolean (or Expression with resultType boolean)."
   returns:
     type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.AmazonRdsForSqlServerLinkedServiceTypeProperties?alt=com.azure.analytics.synapse.artifacts.models.AmazonRdsForSqlServerLinkedServiceTypeProperties&text=AmazonRdsForSqlServerLinkedServiceTypeProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.analytics.synapse.artifacts.models.AmazonRdsForSqlServerLinkedServiceTypeProperties.setPacketSize(java.lang.Object)"

@@ -158,11 +158,11 @@ methods:
   fullName: "com.azure.resourcemanager.loganalytics.models.DataExport.tableNames()"
   name: "tableNames()"
   nameWithType: "DataExport.tableNames()"
-  summary: "Gets the table<wbr>Names property: An array of tables to export, for example: \\[“<wbr>Heartbeat, Security<wbr>Event”\\]."
+  summary: "Gets the table<wbr>Names property: An array of tables to export, for example: \\[\\\\u201c<wbr>Heartbeat, Security<wbr>Event\\\\u201d\\]."
   modifiers:
   - "abstract"
   syntax: "public abstract List<String> tableNames()"
-  desc: "Gets the tableNames property: An array of tables to export, for example: \\[“Heartbeat, SecurityEvent”\\]."
+  desc: "Gets the tableNames property: An array of tables to export, for example: \\[\\\\u201cHeartbeat, SecurityEvent\\\\u201d\\]."
   returns:
     description: "the tableNames value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"

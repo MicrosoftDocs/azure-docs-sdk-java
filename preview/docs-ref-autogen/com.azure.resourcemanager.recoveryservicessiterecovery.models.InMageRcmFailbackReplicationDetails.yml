@@ -294,16 +294,6 @@ methods:
   returns:
     description: "the targetDataStoreName value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.InMageRcmFailbackReplicationDetails.targetvCenterId()"
-  fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.InMageRcmFailbackReplicationDetails.targetvCenterId()"
-  name: "targetvCenterId()"
-  nameWithType: "InMageRcmFailbackReplicationDetails.targetvCenterId()"
-  summary: "Get the targetv<wbr>Center<wbr>Id property: The target v<wbr>Center Id."
-  syntax: "public String targetvCenterId()"
-  desc: "Get the targetvCenterId property: The target vCenter Id."
-  returns:
-    description: "the targetvCenterId value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.InMageRcmFailbackReplicationDetails.targetVmName()"
   fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.InMageRcmFailbackReplicationDetails.targetVmName()"
   name: "targetVmName()"
@@ -313,6 +303,16 @@ methods:
   desc: "Get the targetVmName property: The target VM name."
   returns:
     description: "the targetVmName value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.InMageRcmFailbackReplicationDetails.targetvCenterId()"
+  fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.InMageRcmFailbackReplicationDetails.targetvCenterId()"
+  name: "targetvCenterId()"
+  nameWithType: "InMageRcmFailbackReplicationDetails.targetvCenterId()"
+  summary: "Get the targetv<wbr>Center<wbr>Id property: The target v<wbr>Center Id."
+  syntax: "public String targetvCenterId()"
+  desc: "Get the targetvCenterId property: The target vCenter Id."
+  returns:
+    description: "the targetvCenterId value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.InMageRcmFailbackReplicationDetails.validate()"
   fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.InMageRcmFailbackReplicationDetails.validate()"

@@ -354,18 +354,6 @@ methods:
   returns:
     description: "the WorkflowRunActionRepetitionsRequestHistoriesClient object."
     type: "<xref href=\"com.azure.resourcemanager.appservice.fluent.WorkflowRunActionRepetitionsRequestHistoriesClient?alt=com.azure.resourcemanager.appservice.fluent.WorkflowRunActionRepetitionsRequestHistoriesClient&text=WorkflowRunActionRepetitionsRequestHistoriesClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.appservice.fluent.WebSiteManagementClient.getWorkflowRunActions()"
-  fullName: "com.azure.resourcemanager.appservice.fluent.WebSiteManagementClient.getWorkflowRunActions()"
-  name: "getWorkflowRunActions()"
-  nameWithType: "WebSiteManagementClient.getWorkflowRunActions()"
-  summary: "Gets the Workflow<wbr>Run<wbr>Actions<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract WorkflowRunActionsClient getWorkflowRunActions()"
-  desc: "Gets the WorkflowRunActionsClient object to access its operations."
-  returns:
-    description: "the WorkflowRunActionsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.appservice.fluent.WorkflowRunActionsClient?alt=com.azure.resourcemanager.appservice.fluent.WorkflowRunActionsClient&text=WorkflowRunActionsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.appservice.fluent.WebSiteManagementClient.getWorkflowRunActionScopeRepetitions()"
   fullName: "com.azure.resourcemanager.appservice.fluent.WebSiteManagementClient.getWorkflowRunActionScopeRepetitions()"
   name: "getWorkflowRunActionScopeRepetitions()"
@@ -378,6 +366,18 @@ methods:
   returns:
     description: "the WorkflowRunActionScopeRepetitionsClient object."
     type: "<xref href=\"com.azure.resourcemanager.appservice.fluent.WorkflowRunActionScopeRepetitionsClient?alt=com.azure.resourcemanager.appservice.fluent.WorkflowRunActionScopeRepetitionsClient&text=WorkflowRunActionScopeRepetitionsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.appservice.fluent.WebSiteManagementClient.getWorkflowRunActions()"
+  fullName: "com.azure.resourcemanager.appservice.fluent.WebSiteManagementClient.getWorkflowRunActions()"
+  name: "getWorkflowRunActions()"
+  nameWithType: "WebSiteManagementClient.getWorkflowRunActions()"
+  summary: "Gets the Workflow<wbr>Run<wbr>Actions<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract WorkflowRunActionsClient getWorkflowRunActions()"
+  desc: "Gets the WorkflowRunActionsClient object to access its operations."
+  returns:
+    description: "the WorkflowRunActionsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.appservice.fluent.WorkflowRunActionsClient?alt=com.azure.resourcemanager.appservice.fluent.WorkflowRunActionsClient&text=WorkflowRunActionsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.appservice.fluent.WebSiteManagementClient.getWorkflowRuns()"
   fullName: "com.azure.resourcemanager.appservice.fluent.WebSiteManagementClient.getWorkflowRuns()"
   name: "getWorkflowRuns()"
@@ -390,18 +390,6 @@ methods:
   returns:
     description: "the WorkflowRunsClient object."
     type: "<xref href=\"com.azure.resourcemanager.appservice.fluent.WorkflowRunsClient?alt=com.azure.resourcemanager.appservice.fluent.WorkflowRunsClient&text=WorkflowRunsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.appservice.fluent.WebSiteManagementClient.getWorkflows()"
-  fullName: "com.azure.resourcemanager.appservice.fluent.WebSiteManagementClient.getWorkflows()"
-  name: "getWorkflows()"
-  nameWithType: "WebSiteManagementClient.getWorkflows()"
-  summary: "Gets the Workflows<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract WorkflowsClient getWorkflows()"
-  desc: "Gets the WorkflowsClient object to access its operations."
-  returns:
-    description: "the WorkflowsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.appservice.fluent.WorkflowsClient?alt=com.azure.resourcemanager.appservice.fluent.WorkflowsClient&text=WorkflowsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.appservice.fluent.WebSiteManagementClient.getWorkflowTriggerHistories()"
   fullName: "com.azure.resourcemanager.appservice.fluent.WebSiteManagementClient.getWorkflowTriggerHistories()"
   name: "getWorkflowTriggerHistories()"
@@ -438,6 +426,18 @@ methods:
   returns:
     description: "the WorkflowVersionsClient object."
     type: "<xref href=\"com.azure.resourcemanager.appservice.fluent.WorkflowVersionsClient?alt=com.azure.resourcemanager.appservice.fluent.WorkflowVersionsClient&text=WorkflowVersionsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.appservice.fluent.WebSiteManagementClient.getWorkflows()"
+  fullName: "com.azure.resourcemanager.appservice.fluent.WebSiteManagementClient.getWorkflows()"
+  name: "getWorkflows()"
+  nameWithType: "WebSiteManagementClient.getWorkflows()"
+  summary: "Gets the Workflows<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract WorkflowsClient getWorkflows()"
+  desc: "Gets the WorkflowsClient object to access its operations."
+  returns:
+    description: "the WorkflowsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.appservice.fluent.WorkflowsClient?alt=com.azure.resourcemanager.appservice.fluent.WorkflowsClient&text=WorkflowsClient\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 desc: "The interface for WebSiteManagementClient class."
 metadata: {}

@@ -162,18 +162,6 @@ methods:
   returns:
     description: "the UsagesClient object."
     type: "<xref href=\"com.azure.resourcemanager.vmwarecloudsimple.fluent.UsagesClient?alt=com.azure.resourcemanager.vmwarecloudsimple.fluent.UsagesClient&text=UsagesClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.vmwarecloudsimple.fluent.VMwareCloudSimple.getVirtualMachines()"
-  fullName: "com.azure.resourcemanager.vmwarecloudsimple.fluent.VMwareCloudSimple.getVirtualMachines()"
-  name: "getVirtualMachines()"
-  nameWithType: "VMwareCloudSimple.getVirtualMachines()"
-  summary: "Gets the Virtual<wbr>Machines<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract VirtualMachinesClient getVirtualMachines()"
-  desc: "Gets the VirtualMachinesClient object to access its operations."
-  returns:
-    description: "the VirtualMachinesClient object."
-    type: "<xref href=\"com.azure.resourcemanager.vmwarecloudsimple.fluent.VirtualMachinesClient?alt=com.azure.resourcemanager.vmwarecloudsimple.fluent.VirtualMachinesClient&text=VirtualMachinesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.vmwarecloudsimple.fluent.VMwareCloudSimple.getVirtualMachineTemplates()"
   fullName: "com.azure.resourcemanager.vmwarecloudsimple.fluent.VMwareCloudSimple.getVirtualMachineTemplates()"
   name: "getVirtualMachineTemplates()"
@@ -186,6 +174,18 @@ methods:
   returns:
     description: "the VirtualMachineTemplatesClient object."
     type: "<xref href=\"com.azure.resourcemanager.vmwarecloudsimple.fluent.VirtualMachineTemplatesClient?alt=com.azure.resourcemanager.vmwarecloudsimple.fluent.VirtualMachineTemplatesClient&text=VirtualMachineTemplatesClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.vmwarecloudsimple.fluent.VMwareCloudSimple.getVirtualMachines()"
+  fullName: "com.azure.resourcemanager.vmwarecloudsimple.fluent.VMwareCloudSimple.getVirtualMachines()"
+  name: "getVirtualMachines()"
+  nameWithType: "VMwareCloudSimple.getVirtualMachines()"
+  summary: "Gets the Virtual<wbr>Machines<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract VirtualMachinesClient getVirtualMachines()"
+  desc: "Gets the VirtualMachinesClient object to access its operations."
+  returns:
+    description: "the VirtualMachinesClient object."
+    type: "<xref href=\"com.azure.resourcemanager.vmwarecloudsimple.fluent.VirtualMachinesClient?alt=com.azure.resourcemanager.vmwarecloudsimple.fluent.VirtualMachinesClient&text=VirtualMachinesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.vmwarecloudsimple.fluent.VMwareCloudSimple.getVirtualNetworks()"
   fullName: "com.azure.resourcemanager.vmwarecloudsimple.fluent.VMwareCloudSimple.getVirtualNetworks()"
   name: "getVirtualNetworks()"

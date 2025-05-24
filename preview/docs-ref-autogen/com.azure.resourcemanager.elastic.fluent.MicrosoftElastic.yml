@@ -174,18 +174,6 @@ methods:
   returns:
     description: "the ListAssociatedTrafficFiltersClient object."
     type: "<xref href=\"com.azure.resourcemanager.elastic.fluent.ListAssociatedTrafficFiltersClient?alt=com.azure.resourcemanager.elastic.fluent.ListAssociatedTrafficFiltersClient&text=ListAssociatedTrafficFiltersClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.elastic.fluent.MicrosoftElastic.getMonitoredResources()"
-  fullName: "com.azure.resourcemanager.elastic.fluent.MicrosoftElastic.getMonitoredResources()"
-  name: "getMonitoredResources()"
-  nameWithType: "MicrosoftElastic.getMonitoredResources()"
-  summary: "Gets the Monitored<wbr>Resources<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract MonitoredResourcesClient getMonitoredResources()"
-  desc: "Gets the MonitoredResourcesClient object to access its operations."
-  returns:
-    description: "the MonitoredResourcesClient object."
-    type: "<xref href=\"com.azure.resourcemanager.elastic.fluent.MonitoredResourcesClient?alt=com.azure.resourcemanager.elastic.fluent.MonitoredResourcesClient&text=MonitoredResourcesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.elastic.fluent.MicrosoftElastic.getMonitorOperations()"
   fullName: "com.azure.resourcemanager.elastic.fluent.MicrosoftElastic.getMonitorOperations()"
   name: "getMonitorOperations()"
@@ -198,6 +186,18 @@ methods:
   returns:
     description: "the MonitorOperationsClient object."
     type: "<xref href=\"com.azure.resourcemanager.elastic.fluent.MonitorOperationsClient?alt=com.azure.resourcemanager.elastic.fluent.MonitorOperationsClient&text=MonitorOperationsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.elastic.fluent.MicrosoftElastic.getMonitoredResources()"
+  fullName: "com.azure.resourcemanager.elastic.fluent.MicrosoftElastic.getMonitoredResources()"
+  name: "getMonitoredResources()"
+  nameWithType: "MicrosoftElastic.getMonitoredResources()"
+  summary: "Gets the Monitored<wbr>Resources<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract MonitoredResourcesClient getMonitoredResources()"
+  desc: "Gets the MonitoredResourcesClient object to access its operations."
+  returns:
+    description: "the MonitoredResourcesClient object."
+    type: "<xref href=\"com.azure.resourcemanager.elastic.fluent.MonitoredResourcesClient?alt=com.azure.resourcemanager.elastic.fluent.MonitoredResourcesClient&text=MonitoredResourcesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.elastic.fluent.MicrosoftElastic.getMonitors()"
   fullName: "com.azure.resourcemanager.elastic.fluent.MicrosoftElastic.getMonitors()"
   name: "getMonitors()"

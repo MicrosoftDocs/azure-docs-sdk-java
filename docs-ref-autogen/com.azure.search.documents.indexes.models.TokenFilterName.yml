@@ -306,14 +306,14 @@ fields:
   fullName: "com.azure.search.documents.indexes.models.TokenFilterName.SCANDINAVIAN_FOLDING_NORMALIZATION"
   name: "SCANDINAVIAN_FOLDING_NORMALIZATION"
   nameWithType: "TokenFilterName.SCANDINAVIAN_FOLDING_NORMALIZATION"
-  summary: "Folds Scandinavian characters Ã¥Ã…Ã¤Ã¦Ã„Ã†->a and Ã¶Ã–Ã¸Ã˜->o."
+  summary: "Folds Scandinavian characters åÅäæÄÆ->a and öÖøØ->o."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.search.documents.indexes.models.TokenFilterName?alt=com.azure.search.documents.indexes.models.TokenFilterName&text=TokenFilterName\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final TokenFilterName SCANDINAVIAN_FOLDING_NORMALIZATION"
-  desc: "Folds Scandinavian characters Ã¥Ã…Ã¤Ã¦Ã„Ã†->a and Ã¶Ã–Ã¸Ã˜->o. It also discriminates against use of double vowels aa, ae, ao, oe and oo, leaving just the first one. See http://lucene.apache.org/core/4\\_10\\_3/analyzers-common/org/apache/lucene/analysis/miscellaneous/ScandinavianFoldingFilter.html."
+  desc: "Folds Scandinavian characters åÅäæÄÆ->a and öÖøØ->o. It also discriminates against use of double vowels aa, ae, ao, oe and oo, leaving just the first one. See http://lucene.apache.org/core/4\\_10\\_3/analyzers-common/org/apache/lucene/analysis/miscellaneous/ScandinavianFoldingFilter.html."
 - uid: "com.azure.search.documents.indexes.models.TokenFilterName.SCANDINAVIAN_NORMALIZATION"
   fullName: "com.azure.search.documents.indexes.models.TokenFilterName.SCANDINAVIAN_NORMALIZATION"
   name: "SCANDINAVIAN_NORMALIZATION"

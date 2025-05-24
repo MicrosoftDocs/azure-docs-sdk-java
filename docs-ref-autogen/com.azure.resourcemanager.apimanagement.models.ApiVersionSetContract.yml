@@ -142,18 +142,6 @@ methods:
   returns:
     description: "the versionHeaderName value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.apimanagement.models.ApiVersionSetContract.versioningScheme()"
-  fullName: "com.azure.resourcemanager.apimanagement.models.ApiVersionSetContract.versioningScheme()"
-  name: "versioningScheme()"
-  nameWithType: "ApiVersionSetContract.versioningScheme()"
-  summary: "Gets the versioning<wbr>Scheme property: An value that determines where the API Version identifier will be located in a HTTP request."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract VersioningScheme versioningScheme()"
-  desc: "Gets the versioningScheme property: An value that determines where the API Version identifier will be located in a HTTP request."
-  returns:
-    description: "the versioningScheme value."
-    type: "<xref href=\"com.azure.resourcemanager.apimanagement.models.VersioningScheme?alt=com.azure.resourcemanager.apimanagement.models.VersioningScheme&text=VersioningScheme\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.apimanagement.models.ApiVersionSetContract.versionQueryName()"
   fullName: "com.azure.resourcemanager.apimanagement.models.ApiVersionSetContract.versionQueryName()"
   name: "versionQueryName()"
@@ -166,6 +154,18 @@ methods:
   returns:
     description: "the versionQueryName value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.apimanagement.models.ApiVersionSetContract.versioningScheme()"
+  fullName: "com.azure.resourcemanager.apimanagement.models.ApiVersionSetContract.versioningScheme()"
+  name: "versioningScheme()"
+  nameWithType: "ApiVersionSetContract.versioningScheme()"
+  summary: "Gets the versioning<wbr>Scheme property: An value that determines where the API Version identifier will be located in a HTTP request."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract VersioningScheme versioningScheme()"
+  desc: "Gets the versioningScheme property: An value that determines where the API Version identifier will be located in a HTTP request."
+  returns:
+    description: "the versioningScheme value."
+    type: "<xref href=\"com.azure.resourcemanager.apimanagement.models.VersioningScheme?alt=com.azure.resourcemanager.apimanagement.models.VersioningScheme&text=VersioningScheme\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 desc: "An immutable client-side representation of ApiVersionSetContract."
 metadata: {}

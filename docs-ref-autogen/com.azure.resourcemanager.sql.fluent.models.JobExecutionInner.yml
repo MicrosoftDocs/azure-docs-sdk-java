@@ -48,16 +48,6 @@ methods:
   returns:
     description: "the createTime value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
-- uid: "com.azure.resourcemanager.sql.fluent.models.JobExecutionInner.currentAttempts()"
-  fullName: "com.azure.resourcemanager.sql.fluent.models.JobExecutionInner.currentAttempts()"
-  name: "currentAttempts()"
-  nameWithType: "JobExecutionInner.currentAttempts()"
-  summary: "Get the current<wbr>Attempts property: Number of times the job execution has been attempted."
-  syntax: "public Integer currentAttempts()"
-  desc: "Get the currentAttempts property: Number of times the job execution has been attempted."
-  returns:
-    description: "the currentAttempts value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
 - uid: "com.azure.resourcemanager.sql.fluent.models.JobExecutionInner.currentAttemptStartTime()"
   fullName: "com.azure.resourcemanager.sql.fluent.models.JobExecutionInner.currentAttemptStartTime()"
   name: "currentAttemptStartTime()"
@@ -68,6 +58,16 @@ methods:
   returns:
     description: "the currentAttemptStartTime value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
+- uid: "com.azure.resourcemanager.sql.fluent.models.JobExecutionInner.currentAttempts()"
+  fullName: "com.azure.resourcemanager.sql.fluent.models.JobExecutionInner.currentAttempts()"
+  name: "currentAttempts()"
+  nameWithType: "JobExecutionInner.currentAttempts()"
+  summary: "Get the current<wbr>Attempts property: Number of times the job execution has been attempted."
+  syntax: "public Integer currentAttempts()"
+  desc: "Get the currentAttempts property: Number of times the job execution has been attempted."
+  returns:
+    description: "the currentAttempts value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
 - uid: "com.azure.resourcemanager.sql.fluent.models.JobExecutionInner.endTime()"
   fullName: "com.azure.resourcemanager.sql.fluent.models.JobExecutionInner.endTime()"
   name: "endTime()"

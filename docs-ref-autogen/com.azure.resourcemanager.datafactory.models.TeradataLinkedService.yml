@@ -164,7 +164,7 @@ methods:
   nameWithType: "TeradataLinkedService.sslMode()"
   summary: "Get the ssl<wbr>Mode property: SSL mode for connection."
   syntax: "public Object sslMode()"
-  desc: "Get the sslMode property: SSL mode for connection. Valid values including: “Disable”, “Allow”, “Prefer”, “Require”, “Verify-CA”, “Verify-Full”. Default value is “Verify-Full”. Type: string (or Expression with resultType string). Only applied for version 2.0."
+  desc: "Get the sslMode property: SSL mode for connection. Valid values including: \\\\u201cDisable\\\\u201d, \\\\u201cAllow\\\\u201d, \\\\u201cPrefer\\\\u201d, \\\\u201cRequire\\\\u201d, \\\\u201cVerify-CA\\\\u201d, \\\\u201cVerify-Full\\\\u201d. Default value is \\\\u201cVerify-Full\\\\u201d. Type: string (or Expression with resultType string). Only applied for version 2.0."
   returns:
     description: "the sslMode value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
@@ -261,6 +261,19 @@ methods:
   returns:
     description: "the TeradataLinkedService object itself."
     type: "<xref href=\"com.azure.resourcemanager.datafactory.models.TeradataLinkedService?alt=com.azure.resourcemanager.datafactory.models.TeradataLinkedService&text=TeradataLinkedService\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.datafactory.models.TeradataLinkedService.withConnectVia(com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference)"
+  fullName: "com.azure.resourcemanager.datafactory.models.TeradataLinkedService.withConnectVia(IntegrationRuntimeReference connectVia)"
+  name: "withConnectVia(IntegrationRuntimeReference connectVia)"
+  nameWithType: "TeradataLinkedService.withConnectVia(IntegrationRuntimeReference connectVia)"
+  summary: "Set the connect<wbr>Via property: The integration runtime reference."
+  overridden: "com.azure.resourcemanager.datafactory.models.LinkedService.withConnectVia(com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference)"
+  parameters:
+  - name: "connectVia"
+    type: "<xref href=\"com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference?alt=com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference&text=IntegrationRuntimeReference\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public TeradataLinkedService withConnectVia(IntegrationRuntimeReference connectVia)"
+  desc: "Set the connectVia property: The integration runtime reference."
+  returns:
+    type: "<xref href=\"com.azure.resourcemanager.datafactory.models.TeradataLinkedService?alt=com.azure.resourcemanager.datafactory.models.TeradataLinkedService&text=TeradataLinkedService\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.datafactory.models.TeradataLinkedService.withConnectionString(java.lang.Object)"
   fullName: "com.azure.resourcemanager.datafactory.models.TeradataLinkedService.withConnectionString(Object connectionString)"
   name: "withConnectionString(Object connectionString)"
@@ -274,19 +287,6 @@ methods:
   desc: "Set the connectionString property: Teradata ODBC connection string. Type: string, SecureString or AzureKeyVaultSecretReference. Only applied for version 1.0."
   returns:
     description: "the TeradataLinkedService object itself."
-    type: "<xref href=\"com.azure.resourcemanager.datafactory.models.TeradataLinkedService?alt=com.azure.resourcemanager.datafactory.models.TeradataLinkedService&text=TeradataLinkedService\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.datafactory.models.TeradataLinkedService.withConnectVia(com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference)"
-  fullName: "com.azure.resourcemanager.datafactory.models.TeradataLinkedService.withConnectVia(IntegrationRuntimeReference connectVia)"
-  name: "withConnectVia(IntegrationRuntimeReference connectVia)"
-  nameWithType: "TeradataLinkedService.withConnectVia(IntegrationRuntimeReference connectVia)"
-  summary: "Set the connect<wbr>Via property: The integration runtime reference."
-  overridden: "com.azure.resourcemanager.datafactory.models.LinkedService.withConnectVia(com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference)"
-  parameters:
-  - name: "connectVia"
-    type: "<xref href=\"com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference?alt=com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference&text=IntegrationRuntimeReference\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public TeradataLinkedService withConnectVia(IntegrationRuntimeReference connectVia)"
-  desc: "Set the connectVia property: The integration runtime reference."
-  returns:
     type: "<xref href=\"com.azure.resourcemanager.datafactory.models.TeradataLinkedService?alt=com.azure.resourcemanager.datafactory.models.TeradataLinkedService&text=TeradataLinkedService\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.datafactory.models.TeradataLinkedService.withDescription(java.lang.String)"
   fullName: "com.azure.resourcemanager.datafactory.models.TeradataLinkedService.withDescription(String description)"
@@ -408,7 +408,7 @@ methods:
     name: "sslMode"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   syntax: "public TeradataLinkedService withSslMode(Object sslMode)"
-  desc: "Set the sslMode property: SSL mode for connection. Valid values including: “Disable”, “Allow”, “Prefer”, “Require”, “Verify-CA”, “Verify-Full”. Default value is “Verify-Full”. Type: string (or Expression with resultType string). Only applied for version 2.0."
+  desc: "Set the sslMode property: SSL mode for connection. Valid values including: \\\\u201cDisable\\\\u201d, \\\\u201cAllow\\\\u201d, \\\\u201cPrefer\\\\u201d, \\\\u201cRequire\\\\u201d, \\\\u201cVerify-CA\\\\u201d, \\\\u201cVerify-Full\\\\u201d. Default value is \\\\u201cVerify-Full\\\\u201d. Type: string (or Expression with resultType string). Only applied for version 2.0."
   returns:
     description: "the TeradataLinkedService object itself."
     type: "<xref href=\"com.azure.resourcemanager.datafactory.models.TeradataLinkedService?alt=com.azure.resourcemanager.datafactory.models.TeradataLinkedService&text=TeradataLinkedService\" data-throw-if-not-resolved=\"False\" />"

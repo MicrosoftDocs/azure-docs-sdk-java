@@ -30,18 +30,6 @@ methods:
   returns:
     description: "the defaultPollInterval value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html\">Duration</a>"
-- uid: "com.azure.resourcemanager.storagepool.fluent.StoragePoolManagement.getDiskPools()"
-  fullName: "com.azure.resourcemanager.storagepool.fluent.StoragePoolManagement.getDiskPools()"
-  name: "getDiskPools()"
-  nameWithType: "StoragePoolManagement.getDiskPools()"
-  summary: "Gets the Disk<wbr>Pools<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract DiskPoolsClient getDiskPools()"
-  desc: "Gets the DiskPoolsClient object to access its operations."
-  returns:
-    description: "the DiskPoolsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.storagepool.fluent.DiskPoolsClient?alt=com.azure.resourcemanager.storagepool.fluent.DiskPoolsClient&text=DiskPoolsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.storagepool.fluent.StoragePoolManagement.getDiskPoolZones()"
   fullName: "com.azure.resourcemanager.storagepool.fluent.StoragePoolManagement.getDiskPoolZones()"
   name: "getDiskPoolZones()"
@@ -54,6 +42,18 @@ methods:
   returns:
     description: "the DiskPoolZonesClient object."
     type: "<xref href=\"com.azure.resourcemanager.storagepool.fluent.DiskPoolZonesClient?alt=com.azure.resourcemanager.storagepool.fluent.DiskPoolZonesClient&text=DiskPoolZonesClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.storagepool.fluent.StoragePoolManagement.getDiskPools()"
+  fullName: "com.azure.resourcemanager.storagepool.fluent.StoragePoolManagement.getDiskPools()"
+  name: "getDiskPools()"
+  nameWithType: "StoragePoolManagement.getDiskPools()"
+  summary: "Gets the Disk<wbr>Pools<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract DiskPoolsClient getDiskPools()"
+  desc: "Gets the DiskPoolsClient object to access its operations."
+  returns:
+    description: "the DiskPoolsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.storagepool.fluent.DiskPoolsClient?alt=com.azure.resourcemanager.storagepool.fluent.DiskPoolsClient&text=DiskPoolsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.storagepool.fluent.StoragePoolManagement.getEndpoint()"
   fullName: "com.azure.resourcemanager.storagepool.fluent.StoragePoolManagement.getEndpoint()"
   name: "getEndpoint()"

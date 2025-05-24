@@ -22,6 +22,20 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public static final class **FunctionalTaskItem.Context**</br> implements <xref href=\"com.azure.resourcemanager.resources.fluentcore.model.HasInnerModel?alt=com.azure.resourcemanager.resources.fluentcore.model.HasInnerModel&text=HasInnerModel\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resources.fluentcore.dag.TaskGroup.InvocationContext?alt=com.azure.resourcemanager.resources.fluentcore.dag.TaskGroup.InvocationContext&text=InvocationContext\" data-throw-if-not-resolved=\"False\" />&gt;, <xref href=\"com.azure.resourcemanager.resources.fluentcore.model.Indexable?alt=com.azure.resourcemanager.resources.fluentcore.model.Indexable&text=Indexable\" data-throw-if-not-resolved=\"False\" />"
 methods:
+- uid: "com.azure.resourcemanager.resources.fluentcore.dag.FunctionalTaskItem.Context.<T>taskResult(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resources.fluentcore.dag.FunctionalTaskItem.Context.taskResult(String key)"
+  name: "taskResult(String key)"
+  nameWithType: "FunctionalTaskItem.Context.taskResult(String key)"
+  summary: "Get result of one of the task that belongs to this task's task group."
+  parameters:
+  - description: "the task key"
+    name: "key"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public T <T>taskResult(String key)"
+  desc: "Get result of one of the task that belongs to this task's task group."
+  returns:
+    description: "the task result, null will be returned if task has not produced a result yet"
+    type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.resources.fluentcore.dag.FunctionalTaskItem.Context.innerModel()"
   fullName: "com.azure.resourcemanager.resources.fluentcore.dag.FunctionalTaskItem.Context.innerModel()"
   name: "innerModel()"
@@ -40,20 +54,6 @@ methods:
   desc: "Gets the index key."
   returns:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.resources.fluentcore.dag.FunctionalTaskItem.Context.<T>taskResult(java.lang.String)"
-  fullName: "com.azure.resourcemanager.resources.fluentcore.dag.FunctionalTaskItem.Context.taskResult(String key)"
-  name: "taskResult(String key)"
-  nameWithType: "FunctionalTaskItem.Context.taskResult(String key)"
-  summary: "Get result of one of the task that belongs to this task's task group."
-  parameters:
-  - description: "the task key"
-    name: "key"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public T <T>taskResult(String key)"
-  desc: "Get result of one of the task that belongs to this task's task group."
-  returns:
-    description: "the task result, null will be returned if task has not produced a result yet"
-    type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.resources.fluentcore.dag.FunctionalTaskItem.Context.voidMono()"
   fullName: "com.azure.resourcemanager.resources.fluentcore.dag.FunctionalTaskItem.Context.voidMono()"
   name: "voidMono()"

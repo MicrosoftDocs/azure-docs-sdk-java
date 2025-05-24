@@ -52,6 +52,16 @@ constructors:
   syntax: "public SqlParameterCollection(Collection<SqlParameter> parameters)"
   desc: "Initializes a new instance of the SqlParameterCollection class from a collection of parameters."
 methods:
+- uid: "com.microsoft.azure.documentdb.SqlParameterCollection.<T>toArray(T[])"
+  fullName: "com.microsoft.azure.documentdb.SqlParameterCollection.toArray(T[] parameters)"
+  name: "toArray(T[] parameters)"
+  nameWithType: "SqlParameterCollection.toArray(T[] parameters)"
+  parameters:
+  - name: "parameters"
+    type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />[]"
+  syntax: "public T[] <T>toArray(T[] parameters)"
+  returns:
+    type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />[]"
 - uid: "com.microsoft.azure.documentdb.SqlParameterCollection.add(com.microsoft.azure.documentdb.SqlParameter)"
   fullName: "com.microsoft.azure.documentdb.SqlParameterCollection.add(SqlParameter parameter)"
   name: "add(SqlParameter parameter)"
@@ -155,16 +165,6 @@ methods:
   syntax: "public Object[] toArray()"
   returns:
     type: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />[]"
-- uid: "com.microsoft.azure.documentdb.SqlParameterCollection.<T>toArray(T[])"
-  fullName: "com.microsoft.azure.documentdb.SqlParameterCollection.toArray(T[] parameters)"
-  name: "toArray(T[] parameters)"
-  nameWithType: "SqlParameterCollection.toArray(T[] parameters)"
-  parameters:
-  - name: "parameters"
-    type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />[]"
-  syntax: "public T[] <T>toArray(T[] parameters)"
-  returns:
-    type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />[]"
 type: "class"
 desc: "Represents a collection of SQL parameters to for a SQL query in the Azure Cosmos DB database service."
 implements:

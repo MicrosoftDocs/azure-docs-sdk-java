@@ -559,26 +559,6 @@ methods:
   returns:
     description: "the resource response."
     type: "<xref href=\"com.microsoft.azure.documentdb.ResourceResponse?alt=com.microsoft.azure.documentdb.ResourceResponse&text=ResourceResponse\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.documentdb.UserDefinedFunction?alt=com.microsoft.azure.documentdb.UserDefinedFunction&text=UserDefinedFunction\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.microsoft.azure.documentdb.DocumentClient.executeStoredProcedure(java.lang.String,java.lang.Object[])"
-  fullName: "com.microsoft.azure.documentdb.DocumentClient.executeStoredProcedure(String storedProcedureLink, Object[] procedureParams)"
-  name: "executeStoredProcedure(String storedProcedureLink, Object[] procedureParams)"
-  nameWithType: "DocumentClient.executeStoredProcedure(String storedProcedureLink, Object[] procedureParams)"
-  summary: "Executes a stored procedure by the stored procedure link."
-  parameters:
-  - description: "the stored procedure link."
-    name: "storedProcedureLink"
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
-  - description: "the array of procedure parameter values."
-    name: "procedureParams"
-    type: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />[]"
-  syntax: "public StoredProcedureResponse executeStoredProcedure(String storedProcedureLink, Object[] procedureParams)"
-  exceptions:
-  - description: "the document client exception."
-    type: "<xref href=\"com.microsoft.azure.documentdb.DocumentClientException?alt=com.microsoft.azure.documentdb.DocumentClientException&text=DocumentClientException\" data-throw-if-not-resolved=\"False\" />"
-  desc: "Executes a stored procedure by the stored procedure link."
-  returns:
-    description: "the stored procedure response."
-    type: "<xref href=\"com.microsoft.azure.documentdb.StoredProcedureResponse?alt=com.microsoft.azure.documentdb.StoredProcedureResponse&text=StoredProcedureResponse\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.documentdb.DocumentClient.executeStoredProcedure(java.lang.String,com.microsoft.azure.documentdb.RequestOptions,java.lang.Object[])"
   fullName: "com.microsoft.azure.documentdb.DocumentClient.executeStoredProcedure(String storedProcedureLink, RequestOptions options, Object[] procedureParams)"
   name: "executeStoredProcedure(String storedProcedureLink, RequestOptions options, Object[] procedureParams)"
@@ -595,6 +575,26 @@ methods:
     name: "procedureParams"
     type: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />[]"
   syntax: "public StoredProcedureResponse executeStoredProcedure(String storedProcedureLink, RequestOptions options, Object[] procedureParams)"
+  exceptions:
+  - description: "the document client exception."
+    type: "<xref href=\"com.microsoft.azure.documentdb.DocumentClientException?alt=com.microsoft.azure.documentdb.DocumentClientException&text=DocumentClientException\" data-throw-if-not-resolved=\"False\" />"
+  desc: "Executes a stored procedure by the stored procedure link."
+  returns:
+    description: "the stored procedure response."
+    type: "<xref href=\"com.microsoft.azure.documentdb.StoredProcedureResponse?alt=com.microsoft.azure.documentdb.StoredProcedureResponse&text=StoredProcedureResponse\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.azure.documentdb.DocumentClient.executeStoredProcedure(java.lang.String,java.lang.Object[])"
+  fullName: "com.microsoft.azure.documentdb.DocumentClient.executeStoredProcedure(String storedProcedureLink, Object[] procedureParams)"
+  name: "executeStoredProcedure(String storedProcedureLink, Object[] procedureParams)"
+  nameWithType: "DocumentClient.executeStoredProcedure(String storedProcedureLink, Object[] procedureParams)"
+  summary: "Executes a stored procedure by the stored procedure link."
+  parameters:
+  - description: "the stored procedure link."
+    name: "storedProcedureLink"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  - description: "the array of procedure parameter values."
+    name: "procedureParams"
+    type: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />[]"
+  syntax: "public StoredProcedureResponse executeStoredProcedure(String storedProcedureLink, Object[] procedureParams)"
   exceptions:
   - description: "the document client exception."
     type: "<xref href=\"com.microsoft.azure.documentdb.DocumentClientException?alt=com.microsoft.azure.documentdb.DocumentClientException&text=DocumentClientException\" data-throw-if-not-resolved=\"False\" />"

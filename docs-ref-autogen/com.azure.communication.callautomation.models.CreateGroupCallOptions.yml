@@ -37,16 +37,6 @@ constructors:
   syntax: "public CreateGroupCallOptions(List<CommunicationIdentifier> targetParticipants, String callbackUrl)"
   desc: "Constructor"
 methods:
-- uid: "com.azure.communication.callautomation.models.CreateGroupCallOptions.getCallbackUrl()"
-  fullName: "com.azure.communication.callautomation.models.CreateGroupCallOptions.getCallbackUrl()"
-  name: "getCallbackUrl()"
-  nameWithType: "CreateGroupCallOptions.getCallbackUrl()"
-  summary: "Get the call back uri."
-  syntax: "public String getCallbackUrl()"
-  desc: "Get the call back uri."
-  returns:
-    description: "the call back uri."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.communication.callautomation.models.CreateGroupCallOptions.getCallIntelligenceOptions()"
   fullName: "com.azure.communication.callautomation.models.CreateGroupCallOptions.getCallIntelligenceOptions()"
   name: "getCallIntelligenceOptions()"
@@ -57,6 +47,16 @@ methods:
   returns:
     description: "the callIntelligenceOptions value."
     type: "<xref href=\"com.azure.communication.callautomation.models.CallIntelligenceOptions?alt=com.azure.communication.callautomation.models.CallIntelligenceOptions&text=CallIntelligenceOptions\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.communication.callautomation.models.CreateGroupCallOptions.getCallbackUrl()"
+  fullName: "com.azure.communication.callautomation.models.CreateGroupCallOptions.getCallbackUrl()"
+  name: "getCallbackUrl()"
+  nameWithType: "CreateGroupCallOptions.getCallbackUrl()"
+  summary: "Get the call back uri."
+  syntax: "public String getCallbackUrl()"
+  desc: "Get the call back uri."
+  returns:
+    description: "the call back uri."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.communication.callautomation.models.CreateGroupCallOptions.getOperationContext()"
   fullName: "com.azure.communication.callautomation.models.CreateGroupCallOptions.getOperationContext()"
   name: "getOperationContext()"

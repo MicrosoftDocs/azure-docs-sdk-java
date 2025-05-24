@@ -31,25 +31,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **CosmosManager**</br> extends <xref href=\"com.azure.resourcemanager.resources.fluentcore.arm.Manager?alt=com.azure.resourcemanager.resources.fluentcore.arm.Manager&text=Manager\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.cosmos.fluent.CosmosDBManagementClient?alt=com.azure.resourcemanager.cosmos.fluent.CosmosDBManagementClient&text=CosmosDBManagementClient\" data-throw-if-not-resolved=\"False\" />&gt;"
 methods:
-- uid: "com.azure.resourcemanager.cosmos.CosmosManager.authenticate(com.azure.core.http.HttpPipeline,com.azure.core.management.profile.AzureProfile)"
-  fullName: "com.azure.resourcemanager.cosmos.CosmosManager.authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
-  name: "authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
-  nameWithType: "CosmosManager.authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
-  summary: "Creates an instance of Compute<wbr>Manager that exposes Compute resource management API entry points."
-  modifiers:
-  - "static"
-  parameters:
-  - description: "the <xref uid=\"com.azure.core.http.HttpPipeline\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HttpPipeline\"></xref> configured with Azure authentication credential."
-    name: "httpPipeline"
-    type: "<xref href=\"com.azure.core.http.HttpPipeline?alt=com.azure.core.http.HttpPipeline&text=HttpPipeline\" data-throw-if-not-resolved=\"False\" />"
-  - description: "the profile"
-    name: "profile"
-    type: "<xref href=\"com.azure.core.management.profile.AzureProfile?alt=com.azure.core.management.profile.AzureProfile&text=AzureProfile\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static CosmosManager authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
-  desc: "Creates an instance of ComputeManager that exposes Compute resource management API entry points."
-  returns:
-    description: "the ComputeManager"
-    type: "<xref href=\"com.azure.resourcemanager.cosmos.CosmosManager?alt=com.azure.resourcemanager.cosmos.CosmosManager&text=CosmosManager\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.cosmos.CosmosManager.authenticate(com.azure.core.credential.TokenCredential,com.azure.core.management.profile.AzureProfile)"
   fullName: "com.azure.resourcemanager.cosmos.CosmosManager.authenticate(TokenCredential credential, AzureProfile profile)"
   name: "authenticate(TokenCredential credential, AzureProfile profile)"
@@ -65,6 +46,25 @@ methods:
     name: "profile"
     type: "<xref href=\"com.azure.core.management.profile.AzureProfile?alt=com.azure.core.management.profile.AzureProfile&text=AzureProfile\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static CosmosManager authenticate(TokenCredential credential, AzureProfile profile)"
+  desc: "Creates an instance of ComputeManager that exposes Compute resource management API entry points."
+  returns:
+    description: "the ComputeManager"
+    type: "<xref href=\"com.azure.resourcemanager.cosmos.CosmosManager?alt=com.azure.resourcemanager.cosmos.CosmosManager&text=CosmosManager\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.cosmos.CosmosManager.authenticate(com.azure.core.http.HttpPipeline,com.azure.core.management.profile.AzureProfile)"
+  fullName: "com.azure.resourcemanager.cosmos.CosmosManager.authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
+  name: "authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
+  nameWithType: "CosmosManager.authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
+  summary: "Creates an instance of Compute<wbr>Manager that exposes Compute resource management API entry points."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "the <xref uid=\"com.azure.core.http.HttpPipeline\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HttpPipeline\"></xref> configured with Azure authentication credential."
+    name: "httpPipeline"
+    type: "<xref href=\"com.azure.core.http.HttpPipeline?alt=com.azure.core.http.HttpPipeline&text=HttpPipeline\" data-throw-if-not-resolved=\"False\" />"
+  - description: "the profile"
+    name: "profile"
+    type: "<xref href=\"com.azure.core.management.profile.AzureProfile?alt=com.azure.core.management.profile.AzureProfile&text=AzureProfile\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static CosmosManager authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
   desc: "Creates an instance of ComputeManager that exposes Compute resource management API entry points."
   returns:
     description: "the ComputeManager"

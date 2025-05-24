@@ -119,16 +119,6 @@ methods:
   returns:
     description: "the privateIpAddresses value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-- uid: "com.azure.resourcemanager.apimanagement.models.AdditionalLocation.publicIpAddresses()"
-  fullName: "com.azure.resourcemanager.apimanagement.models.AdditionalLocation.publicIpAddresses()"
-  name: "publicIpAddresses()"
-  nameWithType: "AdditionalLocation.publicIpAddresses()"
-  summary: "Get the public<wbr>IpAddresses property: Public Static Load Balanced IP addresses of the API Management service in the additional location."
-  syntax: "public List<String> publicIpAddresses()"
-  desc: "Get the publicIpAddresses property: Public Static Load Balanced IP addresses of the API Management service in the additional location. Available only for Basic, Standard, Premium and Isolated SKU."
-  returns:
-    description: "the publicIpAddresses value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
 - uid: "com.azure.resourcemanager.apimanagement.models.AdditionalLocation.publicIpAddressId()"
   fullName: "com.azure.resourcemanager.apimanagement.models.AdditionalLocation.publicIpAddressId()"
   name: "publicIpAddressId()"
@@ -139,6 +129,16 @@ methods:
   returns:
     description: "the publicIpAddressId value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.apimanagement.models.AdditionalLocation.publicIpAddresses()"
+  fullName: "com.azure.resourcemanager.apimanagement.models.AdditionalLocation.publicIpAddresses()"
+  name: "publicIpAddresses()"
+  nameWithType: "AdditionalLocation.publicIpAddresses()"
+  summary: "Get the public<wbr>IpAddresses property: Public Static Load Balanced IP addresses of the API Management service in the additional location."
+  syntax: "public List<String> publicIpAddresses()"
+  desc: "Get the publicIpAddresses property: Public Static Load Balanced IP addresses of the API Management service in the additional location. Available only for Basic, Standard, Premium and Isolated SKU."
+  returns:
+    description: "the publicIpAddresses value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
 - uid: "com.azure.resourcemanager.apimanagement.models.AdditionalLocation.sku()"
   fullName: "com.azure.resourcemanager.apimanagement.models.AdditionalLocation.sku()"
   name: "sku()"

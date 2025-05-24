@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.storage.fluent.models.BlobServicePropertiesInner
 fullName: "com.azure.resourcemanager.storage.fluent.models.BlobServicePropertiesInner"
 name: "BlobServicePropertiesInner"
 nameWithType: "BlobServicePropertiesInner"
-summary: "The properties of a storage account’s Blob service."
+summary: "The properties of a storage account\\\\u2019s Blob service."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.azure.core.management.ProxyResource?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
@@ -82,9 +82,9 @@ methods:
   fullName: "com.azure.resourcemanager.storage.fluent.models.BlobServicePropertiesInner.defaultServiceVersion()"
   name: "defaultServiceVersion()"
   nameWithType: "BlobServicePropertiesInner.defaultServiceVersion()"
-  summary: "Get the default<wbr>Service<wbr>Version property: Default<wbr>Service<wbr>Version indicates the default version to use for requests to the Blob service if an incoming request’s version is not specified."
+  summary: "Get the default<wbr>Service<wbr>Version property: Default<wbr>Service<wbr>Version indicates the default version to use for requests to the Blob service if an incoming request\\\\u2019s version is not specified."
   syntax: "public String defaultServiceVersion()"
-  desc: "Get the defaultServiceVersion property: DefaultServiceVersion indicates the default version to use for requests to the Blob service if an incoming request’s version is not specified. Possible values include version 2008-10-27 and all more recent versions."
+  desc: "Get the defaultServiceVersion property: DefaultServiceVersion indicates the default version to use for requests to the Blob service if an incoming request\\\\u2019s version is not specified. Possible values include version 2008-10-27 and all more recent versions."
   returns:
     description: "the defaultServiceVersion value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -270,13 +270,13 @@ methods:
   fullName: "com.azure.resourcemanager.storage.fluent.models.BlobServicePropertiesInner.withDefaultServiceVersion(String defaultServiceVersion)"
   name: "withDefaultServiceVersion(String defaultServiceVersion)"
   nameWithType: "BlobServicePropertiesInner.withDefaultServiceVersion(String defaultServiceVersion)"
-  summary: "Set the default<wbr>Service<wbr>Version property: Default<wbr>Service<wbr>Version indicates the default version to use for requests to the Blob service if an incoming request’s version is not specified."
+  summary: "Set the default<wbr>Service<wbr>Version property: Default<wbr>Service<wbr>Version indicates the default version to use for requests to the Blob service if an incoming request\\\\u2019s version is not specified."
   parameters:
   - description: "the defaultServiceVersion value to set."
     name: "defaultServiceVersion"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public BlobServicePropertiesInner withDefaultServiceVersion(String defaultServiceVersion)"
-  desc: "Set the defaultServiceVersion property: DefaultServiceVersion indicates the default version to use for requests to the Blob service if an incoming request’s version is not specified. Possible values include version 2008-10-27 and all more recent versions."
+  desc: "Set the defaultServiceVersion property: DefaultServiceVersion indicates the default version to use for requests to the Blob service if an incoming request\\\\u2019s version is not specified. Possible values include version 2008-10-27 and all more recent versions."
   returns:
     description: "the BlobServicePropertiesInner object itself."
     type: "<xref href=\"com.azure.resourcemanager.storage.fluent.models.BlobServicePropertiesInner?alt=com.azure.resourcemanager.storage.fluent.models.BlobServicePropertiesInner&text=BlobServicePropertiesInner\" data-throw-if-not-resolved=\"False\" />"
@@ -337,7 +337,7 @@ methods:
     description: "the BlobServicePropertiesInner object itself."
     type: "<xref href=\"com.azure.resourcemanager.storage.fluent.models.BlobServicePropertiesInner?alt=com.azure.resourcemanager.storage.fluent.models.BlobServicePropertiesInner&text=BlobServicePropertiesInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "The properties of a storage account’s Blob service."
+desc: "The properties of a storage account\\\\u2019s Blob service."
 metadata: {}
 package: "com.azure.resourcemanager.storage.fluent.models"
 artifact: com.azure.resourcemanager:azure-resourcemanager-storage:2.50.0

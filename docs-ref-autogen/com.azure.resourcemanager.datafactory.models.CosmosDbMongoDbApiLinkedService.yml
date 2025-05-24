@@ -143,6 +143,19 @@ methods:
   desc: "Set the annotations property: List of tags that can be used for describing the linked service."
   returns:
     type: "<xref href=\"com.azure.resourcemanager.datafactory.models.CosmosDbMongoDbApiLinkedService?alt=com.azure.resourcemanager.datafactory.models.CosmosDbMongoDbApiLinkedService&text=CosmosDbMongoDbApiLinkedService\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.datafactory.models.CosmosDbMongoDbApiLinkedService.withConnectVia(com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference)"
+  fullName: "com.azure.resourcemanager.datafactory.models.CosmosDbMongoDbApiLinkedService.withConnectVia(IntegrationRuntimeReference connectVia)"
+  name: "withConnectVia(IntegrationRuntimeReference connectVia)"
+  nameWithType: "CosmosDbMongoDbApiLinkedService.withConnectVia(IntegrationRuntimeReference connectVia)"
+  summary: "Set the connect<wbr>Via property: The integration runtime reference."
+  overridden: "com.azure.resourcemanager.datafactory.models.LinkedService.withConnectVia(com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference)"
+  parameters:
+  - name: "connectVia"
+    type: "<xref href=\"com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference?alt=com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference&text=IntegrationRuntimeReference\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public CosmosDbMongoDbApiLinkedService withConnectVia(IntegrationRuntimeReference connectVia)"
+  desc: "Set the connectVia property: The integration runtime reference."
+  returns:
+    type: "<xref href=\"com.azure.resourcemanager.datafactory.models.CosmosDbMongoDbApiLinkedService?alt=com.azure.resourcemanager.datafactory.models.CosmosDbMongoDbApiLinkedService&text=CosmosDbMongoDbApiLinkedService\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.datafactory.models.CosmosDbMongoDbApiLinkedService.withConnectionString(java.lang.Object)"
   fullName: "com.azure.resourcemanager.datafactory.models.CosmosDbMongoDbApiLinkedService.withConnectionString(Object connectionString)"
   name: "withConnectionString(Object connectionString)"
@@ -156,19 +169,6 @@ methods:
   desc: "Set the connectionString property: The CosmosDB (MongoDB API) connection string. Type: string, SecureString or AzureKeyVaultSecretReference. Type: string, SecureString or AzureKeyVaultSecretReference."
   returns:
     description: "the CosmosDbMongoDbApiLinkedService object itself."
-    type: "<xref href=\"com.azure.resourcemanager.datafactory.models.CosmosDbMongoDbApiLinkedService?alt=com.azure.resourcemanager.datafactory.models.CosmosDbMongoDbApiLinkedService&text=CosmosDbMongoDbApiLinkedService\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.datafactory.models.CosmosDbMongoDbApiLinkedService.withConnectVia(com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference)"
-  fullName: "com.azure.resourcemanager.datafactory.models.CosmosDbMongoDbApiLinkedService.withConnectVia(IntegrationRuntimeReference connectVia)"
-  name: "withConnectVia(IntegrationRuntimeReference connectVia)"
-  nameWithType: "CosmosDbMongoDbApiLinkedService.withConnectVia(IntegrationRuntimeReference connectVia)"
-  summary: "Set the connect<wbr>Via property: The integration runtime reference."
-  overridden: "com.azure.resourcemanager.datafactory.models.LinkedService.withConnectVia(com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference)"
-  parameters:
-  - name: "connectVia"
-    type: "<xref href=\"com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference?alt=com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference&text=IntegrationRuntimeReference\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public CosmosDbMongoDbApiLinkedService withConnectVia(IntegrationRuntimeReference connectVia)"
-  desc: "Set the connectVia property: The integration runtime reference."
-  returns:
     type: "<xref href=\"com.azure.resourcemanager.datafactory.models.CosmosDbMongoDbApiLinkedService?alt=com.azure.resourcemanager.datafactory.models.CosmosDbMongoDbApiLinkedService&text=CosmosDbMongoDbApiLinkedService\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.datafactory.models.CosmosDbMongoDbApiLinkedService.withDatabase(java.lang.Object)"
   fullName: "com.azure.resourcemanager.datafactory.models.CosmosDbMongoDbApiLinkedService.withDatabase(Object database)"

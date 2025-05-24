@@ -54,18 +54,6 @@ methods:
     type: "<xref href=\"com.azure.resourcemanager.databox.models.CancellationReason?alt=com.azure.resourcemanager.databox.models.CancellationReason&text=CancellationReason\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract void cancel(CancellationReason cancellationReason)"
   desc: "CancelJob."
-- uid: "com.azure.resourcemanager.databox.models.JobResource.cancellationReason()"
-  fullName: "com.azure.resourcemanager.databox.models.JobResource.cancellationReason()"
-  name: "cancellationReason()"
-  nameWithType: "JobResource.cancellationReason()"
-  summary: "Gets the cancellation<wbr>Reason property: Reason for cancellation."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract String cancellationReason()"
-  desc: "Gets the cancellationReason property: Reason for cancellation."
-  returns:
-    description: "the cancellationReason value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.databox.models.JobResource.cancelWithResponse(com.azure.resourcemanager.databox.models.CancellationReason,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.databox.models.JobResource.cancelWithResponse(CancellationReason cancellationReason, Context context)"
   name: "cancelWithResponse(CancellationReason cancellationReason, Context context)"
@@ -85,6 +73,18 @@ methods:
   returns:
     description: "the <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
+- uid: "com.azure.resourcemanager.databox.models.JobResource.cancellationReason()"
+  fullName: "com.azure.resourcemanager.databox.models.JobResource.cancellationReason()"
+  name: "cancellationReason()"
+  nameWithType: "JobResource.cancellationReason()"
+  summary: "Gets the cancellation<wbr>Reason property: Reason for cancellation."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String cancellationReason()"
+  desc: "Gets the cancellationReason property: Reason for cancellation."
+  returns:
+    description: "the cancellationReason value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.databox.models.JobResource.deliveryInfo()"
   fullName: "com.azure.resourcemanager.databox.models.JobResource.deliveryInfo()"
   name: "deliveryInfo()"

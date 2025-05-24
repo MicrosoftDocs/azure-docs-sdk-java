@@ -6,22 +6,6 @@ nameWithType: "BlobContainer.DefinitionStages.WithMetadata"
 summary: "The stage of the blobcontainer definition allowing to specify Metadata."
 syntax: "public static interface **BlobContainer.DefinitionStages.WithMetadata**"
 methods:
-- uid: "com.azure.resourcemanager.storage.models.BlobContainer.DefinitionStages.WithMetadata.withMetadata(java.util.Map<java.lang.String,java.lang.String>)"
-  fullName: "com.azure.resourcemanager.storage.models.BlobContainer.DefinitionStages.WithMetadata.withMetadata(Map<String,String> metadata)"
-  name: "withMetadata(Map<String,String> metadata)"
-  nameWithType: "BlobContainer.DefinitionStages.WithMetadata.withMetadata(Map<String,String> metadata)"
-  summary: "Specifies metadata."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "A name-value pair to associate with the container as metadata"
-    name: "metadata"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-  syntax: "public abstract BlobContainer.DefinitionStages.WithCreate withMetadata(Map<String,String> metadata)"
-  desc: "Specifies metadata."
-  returns:
-    description: "the next definition stage"
-    type: "<xref href=\"com.azure.resourcemanager.storage.models.BlobContainer.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.storage.models.BlobContainer.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.storage.models.BlobContainer.DefinitionStages.WithMetadata.withMetadata(java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.storage.models.BlobContainer.DefinitionStages.WithMetadata.withMetadata(String name, String value)"
   name: "withMetadata(String name, String value)"
@@ -38,6 +22,22 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract BlobContainer.DefinitionStages.WithCreate withMetadata(String name, String value)"
   desc: "Specifies a singluar instance of metadata."
+  returns:
+    description: "the next definition stage"
+    type: "<xref href=\"com.azure.resourcemanager.storage.models.BlobContainer.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.storage.models.BlobContainer.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.storage.models.BlobContainer.DefinitionStages.WithMetadata.withMetadata(java.util.Map<java.lang.String,java.lang.String>)"
+  fullName: "com.azure.resourcemanager.storage.models.BlobContainer.DefinitionStages.WithMetadata.withMetadata(Map<String,String> metadata)"
+  name: "withMetadata(Map<String,String> metadata)"
+  nameWithType: "BlobContainer.DefinitionStages.WithMetadata.withMetadata(Map<String,String> metadata)"
+  summary: "Specifies metadata."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "A name-value pair to associate with the container as metadata"
+    name: "metadata"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+  syntax: "public abstract BlobContainer.DefinitionStages.WithCreate withMetadata(Map<String,String> metadata)"
+  desc: "Specifies metadata."
   returns:
     description: "the next definition stage"
     type: "<xref href=\"com.azure.resourcemanager.storage.models.BlobContainer.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.storage.models.BlobContainer.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"

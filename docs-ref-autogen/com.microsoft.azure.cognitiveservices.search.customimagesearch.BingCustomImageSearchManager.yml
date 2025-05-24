@@ -60,6 +60,22 @@ methods:
   returns:
     description: "the Bing Custom Image Search API client"
     type: "<xref href=\"com.microsoft.azure.cognitiveservices.search.customimagesearch.BingCustomImageSearchAPI?alt=com.microsoft.azure.cognitiveservices.search.customimagesearch.BingCustomImageSearchAPI&text=BingCustomImageSearchAPI\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.azure.cognitiveservices.search.customimagesearch.BingCustomImageSearchManager.authenticate(java.lang.String)"
+  fullName: "com.microsoft.azure.cognitiveservices.search.customimagesearch.BingCustomImageSearchManager.authenticate(String subscriptionKey)"
+  name: "authenticate(String subscriptionKey)"
+  nameWithType: "BingCustomImageSearchManager.authenticate(String subscriptionKey)"
+  summary: "Initializes an instance of Bing Custom Image Search API client."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "the Bing Search API key"
+    name: "subscriptionKey"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static BingCustomImageSearchAPI authenticate(String subscriptionKey)"
+  desc: "Initializes an instance of Bing Custom Image Search API client."
+  returns:
+    description: "the Bing Custom Search API client"
+    type: "<xref href=\"com.microsoft.azure.cognitiveservices.search.customimagesearch.BingCustomImageSearchAPI?alt=com.microsoft.azure.cognitiveservices.search.customimagesearch.BingCustomImageSearchAPI&text=BingCustomImageSearchAPI\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.cognitiveservices.search.customimagesearch.BingCustomImageSearchManager.authenticate(java.lang.String,com.microsoft.rest.credentials.ServiceClientCredentials)"
   fullName: "com.microsoft.azure.cognitiveservices.search.customimagesearch.BingCustomImageSearchManager.authenticate(String baseUrl, ServiceClientCredentials credentials)"
   name: "authenticate(String baseUrl, ServiceClientCredentials credentials)"
@@ -94,22 +110,6 @@ methods:
     name: "subscriptionKey"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static BingCustomImageSearchAPI authenticate(String baseUrl, String subscriptionKey)"
-  desc: "Initializes an instance of Bing Custom Image Search API client."
-  returns:
-    description: "the Bing Custom Search API client"
-    type: "<xref href=\"com.microsoft.azure.cognitiveservices.search.customimagesearch.BingCustomImageSearchAPI?alt=com.microsoft.azure.cognitiveservices.search.customimagesearch.BingCustomImageSearchAPI&text=BingCustomImageSearchAPI\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.azure.cognitiveservices.search.customimagesearch.BingCustomImageSearchManager.authenticate(java.lang.String)"
-  fullName: "com.microsoft.azure.cognitiveservices.search.customimagesearch.BingCustomImageSearchManager.authenticate(String subscriptionKey)"
-  name: "authenticate(String subscriptionKey)"
-  nameWithType: "BingCustomImageSearchManager.authenticate(String subscriptionKey)"
-  summary: "Initializes an instance of Bing Custom Image Search API client."
-  modifiers:
-  - "static"
-  parameters:
-  - description: "the Bing Search API key"
-    name: "subscriptionKey"
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static BingCustomImageSearchAPI authenticate(String subscriptionKey)"
   desc: "Initializes an instance of Bing Custom Image Search API client."
   returns:
     description: "the Bing Custom Search API client"

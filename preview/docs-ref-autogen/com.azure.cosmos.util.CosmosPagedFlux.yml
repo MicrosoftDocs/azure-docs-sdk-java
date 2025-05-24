@@ -443,6 +443,25 @@ inheritedClassMethods:
   - "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#windowWhile-java.util.function.Predicate-int-\">windowWhile</a>"
 syntax: "public class **CosmosPagedFlux<T>**</br> extends <xref href=\"com.azure.core.util.paging.ContinuablePagedFlux?alt=com.azure.core.util.paging.ContinuablePagedFlux&text=ContinuablePagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />,<xref href=\"com.azure.cosmos.models.FeedResponse?alt=com.azure.cosmos.models.FeedResponse&text=FeedResponse\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
 methods:
+- uid: "com.azure.cosmos.util.CosmosPagedFlux.<T>fromList(java.util.List<T>,boolean)"
+  fullName: "com.azure.cosmos.util.CosmosPagedFlux<T>.fromList(List<T> items, boolean isChangeFeed)"
+  name: "fromList(List<T> items, boolean isChangeFeed)"
+  nameWithType: "CosmosPagedFlux<T>.fromList(List<T> items, boolean isChangeFeed)"
+  summary: "Creates an instance of a Cosmos<wbr>Paged<wbr>Flux for mocking purposes or when injecting Cosmos<wbr>Paged<wbr>Flux instances from a different data source"
+  modifiers:
+  - "static"
+  parameters:
+  - description: "- the list of items to be returned"
+    name: "items"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
+  - description: "- a flag indicating whether the CosmosPagedFlux will be returned from a change feed API"
+    name: "isChangeFeed"
+    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static CosmosPagedFlux<T> <T>fromList(List<T> items, boolean isChangeFeed)"
+  desc: "Creates an instance of a CosmosPagedFlux for mocking purposes or when injecting CosmosPagedFlux instances from a different data source"
+  returns:
+    description: "an instance of CosmosPagedFlux"
+    type: "<xref href=\"com.azure.cosmos.util.CosmosPagedFlux?alt=com.azure.cosmos.util.CosmosPagedFlux&text=CosmosPagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.cosmos.util.CosmosPagedFlux.byPage()"
   fullName: "com.azure.cosmos.util.CosmosPagedFlux<T>.byPage()"
   name: "byPage()"
@@ -502,25 +521,6 @@ methods:
   returns:
     description: "A <xref uid=\"reactor.core.publisher.Flux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Flux\"></xref> of <xref uid=\"com.azure.cosmos.models.FeedResponse\" data-throw-if-not-resolved=\"false\" data-raw-source=\"FeedResponse\"></xref>."
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html\">Flux</a>&lt;<xref href=\"com.azure.cosmos.models.FeedResponse?alt=com.azure.cosmos.models.FeedResponse&text=FeedResponse\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
-- uid: "com.azure.cosmos.util.CosmosPagedFlux.<T>fromList(java.util.List<T>,boolean)"
-  fullName: "com.azure.cosmos.util.CosmosPagedFlux<T>.fromList(List<T> items, boolean isChangeFeed)"
-  name: "fromList(List<T> items, boolean isChangeFeed)"
-  nameWithType: "CosmosPagedFlux<T>.fromList(List<T> items, boolean isChangeFeed)"
-  summary: "Creates an instance of a Cosmos<wbr>Paged<wbr>Flux for mocking purposes or when injecting Cosmos<wbr>Paged<wbr>Flux instances from a different data source"
-  modifiers:
-  - "static"
-  parameters:
-  - description: "- the list of items to be returned"
-    name: "items"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
-  - description: "- a flag indicating whether the CosmosPagedFlux will be returned from a change feed API"
-    name: "isChangeFeed"
-    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static CosmosPagedFlux<T> <T>fromList(List<T> items, boolean isChangeFeed)"
-  desc: "Creates an instance of a CosmosPagedFlux for mocking purposes or when injecting CosmosPagedFlux instances from a different data source"
-  returns:
-    description: "an instance of CosmosPagedFlux"
-    type: "<xref href=\"com.azure.cosmos.util.CosmosPagedFlux?alt=com.azure.cosmos.util.CosmosPagedFlux&text=CosmosPagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.cosmos.util.CosmosPagedFlux.handle(java.util.function.Consumer<com.azure.cosmos.models.FeedResponse<T>>)"
   fullName: "com.azure.cosmos.util.CosmosPagedFlux<T>.handle(Consumer<FeedResponse<T>> newFeedResponseConsumer)"
   name: "handle(Consumer<FeedResponse<T>> newFeedResponseConsumer)"

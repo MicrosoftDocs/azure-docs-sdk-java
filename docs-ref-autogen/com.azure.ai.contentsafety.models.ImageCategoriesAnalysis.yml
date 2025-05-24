@@ -38,7 +38,7 @@ methods:
   nameWithType: "ImageCategoriesAnalysis.getSeverity()"
   summary: "Get the severity property: The value increases with the severity of the input content."
   syntax: "public Integer getSeverity()"
-  desc: "Get the severity property: The value increases with the severity of the input content. The value of this field is determined by the output type specified in the request. The output type could be ‘FourSeverityLevels’, and the output value can be 0, 2, 4, 6."
+  desc: "Get the severity property: The value increases with the severity of the input content. The value of this field is determined by the output type specified in the request. The output type could be \\\\u2018FourSeverityLevels\\\\u2019, and the output value can be 0, 2, 4, 6."
   returns:
     description: "the severity value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"

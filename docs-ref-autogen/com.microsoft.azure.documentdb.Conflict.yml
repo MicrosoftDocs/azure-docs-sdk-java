@@ -86,16 +86,6 @@ constructors:
   syntax: "public Conflict(JSONObject jsonObject)"
   desc: "Initialize a conflict object from json object."
 methods:
-- uid: "com.microsoft.azure.documentdb.Conflict.getOperationKind()"
-  fullName: "com.microsoft.azure.documentdb.Conflict.getOperationKind()"
-  name: "getOperationKind()"
-  nameWithType: "Conflict.getOperationKind()"
-  summary: "Gets the operation kind."
-  syntax: "public OperationKind getOperationKind()"
-  desc: "Gets the operation kind."
-  returns:
-    description: "the operation kind."
-    type: "<xref href=\"com.microsoft.azure.documentdb.OperationKind?alt=com.microsoft.azure.documentdb.OperationKind&text=OperationKind\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.documentdb.Conflict.<T>getResource(java.lang.Class<T>)"
   fullName: "com.microsoft.azure.documentdb.Conflict.getResource(Class<T> resourceClass)"
   name: "getResource(Class<T> resourceClass)"
@@ -110,6 +100,16 @@ methods:
   returns:
     description: "The conflicting resource."
     type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.azure.documentdb.Conflict.getOperationKind()"
+  fullName: "com.microsoft.azure.documentdb.Conflict.getOperationKind()"
+  name: "getOperationKind()"
+  nameWithType: "Conflict.getOperationKind()"
+  summary: "Gets the operation kind."
+  syntax: "public OperationKind getOperationKind()"
+  desc: "Gets the operation kind."
+  returns:
+    description: "the operation kind."
+    type: "<xref href=\"com.microsoft.azure.documentdb.OperationKind?alt=com.microsoft.azure.documentdb.OperationKind&text=OperationKind\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.documentdb.Conflict.getResourceType()"
   fullName: "com.microsoft.azure.documentdb.Conflict.getResourceType()"
   name: "getResourceType()"

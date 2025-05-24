@@ -113,6 +113,16 @@ methods:
   returns:
     description: "the creation time value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
+- uid: "com.azure.storage.file.datalake.models.PathItem.getETag()"
+  fullName: "com.azure.storage.file.datalake.models.PathItem.getETag()"
+  name: "getETag()"
+  nameWithType: "PathItem.getETag()"
+  summary: "Get the e<wbr>Tag property: The e<wbr>Tag property."
+  syntax: "public String getETag()"
+  desc: "Get the eTag property: The eTag property."
+  returns:
+    description: "the eTag value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.storage.file.datalake.models.PathItem.getEncryptionContext()"
   fullName: "com.azure.storage.file.datalake.models.PathItem.getEncryptionContext()"
   name: "getEncryptionContext()"
@@ -132,16 +142,6 @@ methods:
   desc: "Get the encryptionScope property: The name of the encryption scope under which the blob is encrypted."
   returns:
     description: "the encryptionScope value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.storage.file.datalake.models.PathItem.getETag()"
-  fullName: "com.azure.storage.file.datalake.models.PathItem.getETag()"
-  name: "getETag()"
-  nameWithType: "PathItem.getETag()"
-  summary: "Get the e<wbr>Tag property: The e<wbr>Tag property."
-  syntax: "public String getETag()"
-  desc: "Get the eTag property: The eTag property."
-  returns:
-    description: "the eTag value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.storage.file.datalake.models.PathItem.getExpiryTime()"
   fullName: "com.azure.storage.file.datalake.models.PathItem.getExpiryTime()"

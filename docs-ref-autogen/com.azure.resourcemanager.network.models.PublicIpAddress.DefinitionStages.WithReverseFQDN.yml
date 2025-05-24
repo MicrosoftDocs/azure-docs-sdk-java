@@ -6,18 +6,6 @@ nameWithType: "PublicIpAddress.DefinitionStages.WithReverseFQDN"
 summary: "A public IP address definition allowing the reverse FQDN to be specified."
 syntax: "public static interface **PublicIpAddress.DefinitionStages.WithReverseFQDN**"
 methods:
-- uid: "com.azure.resourcemanager.network.models.PublicIpAddress.DefinitionStages.WithReverseFQDN.withoutReverseFqdn()"
-  fullName: "com.azure.resourcemanager.network.models.PublicIpAddress.DefinitionStages.WithReverseFQDN.withoutReverseFqdn()"
-  name: "withoutReverseFqdn()"
-  nameWithType: "PublicIpAddress.DefinitionStages.WithReverseFQDN.withoutReverseFqdn()"
-  summary: "Ensures that no reverse FQDN will be used."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract PublicIpAddress.DefinitionStages.WithCreate withoutReverseFqdn()"
-  desc: "Ensures that no reverse FQDN will be used."
-  returns:
-    description: "the next stage of the definition"
-    type: "<xref href=\"com.azure.resourcemanager.network.models.PublicIpAddress.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.network.models.PublicIpAddress.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.models.PublicIpAddress.DefinitionStages.WithReverseFQDN.withReverseFqdn(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.PublicIpAddress.DefinitionStages.WithReverseFQDN.withReverseFqdn(String reverseFQDN)"
   name: "withReverseFqdn(String reverseFQDN)"
@@ -31,6 +19,18 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PublicIpAddress.DefinitionStages.WithCreate withReverseFqdn(String reverseFQDN)"
   desc: "Specifies the reverse FQDN to assign to this public IP address."
+  returns:
+    description: "the next stage of the definition"
+    type: "<xref href=\"com.azure.resourcemanager.network.models.PublicIpAddress.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.network.models.PublicIpAddress.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.models.PublicIpAddress.DefinitionStages.WithReverseFQDN.withoutReverseFqdn()"
+  fullName: "com.azure.resourcemanager.network.models.PublicIpAddress.DefinitionStages.WithReverseFQDN.withoutReverseFqdn()"
+  name: "withoutReverseFqdn()"
+  nameWithType: "PublicIpAddress.DefinitionStages.WithReverseFQDN.withoutReverseFqdn()"
+  summary: "Ensures that no reverse FQDN will be used."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract PublicIpAddress.DefinitionStages.WithCreate withoutReverseFqdn()"
+  desc: "Ensures that no reverse FQDN will be used."
   returns:
     description: "the next stage of the definition"
     type: "<xref href=\"com.azure.resourcemanager.network.models.PublicIpAddress.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.network.models.PublicIpAddress.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"

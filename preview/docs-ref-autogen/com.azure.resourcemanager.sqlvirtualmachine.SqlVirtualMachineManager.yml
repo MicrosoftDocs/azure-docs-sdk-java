@@ -22,25 +22,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **SqlVirtualMachineManager**"
 methods:
-- uid: "com.azure.resourcemanager.sqlvirtualmachine.SqlVirtualMachineManager.authenticate(com.azure.core.http.HttpPipeline,com.azure.core.management.profile.AzureProfile)"
-  fullName: "com.azure.resourcemanager.sqlvirtualmachine.SqlVirtualMachineManager.authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
-  name: "authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
-  nameWithType: "SqlVirtualMachineManager.authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
-  summary: "Creates an instance of Sql<wbr>Virtual<wbr>Machine service API entry point."
-  modifiers:
-  - "static"
-  parameters:
-  - description: "the <xref uid=\"com.azure.core.http.HttpPipeline\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HttpPipeline\"></xref> configured with Azure authentication credential."
-    name: "httpPipeline"
-    type: "<xref href=\"com.azure.core.http.HttpPipeline?alt=com.azure.core.http.HttpPipeline&text=HttpPipeline\" data-throw-if-not-resolved=\"False\" />"
-  - description: "the Azure profile for client."
-    name: "profile"
-    type: "<xref href=\"com.azure.core.management.profile.AzureProfile?alt=com.azure.core.management.profile.AzureProfile&text=AzureProfile\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static SqlVirtualMachineManager authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
-  desc: "Creates an instance of SqlVirtualMachine service API entry point."
-  returns:
-    description: "the SqlVirtualMachine service API instance."
-    type: "<xref href=\"com.azure.resourcemanager.sqlvirtualmachine.SqlVirtualMachineManager?alt=com.azure.resourcemanager.sqlvirtualmachine.SqlVirtualMachineManager&text=SqlVirtualMachineManager\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.sqlvirtualmachine.SqlVirtualMachineManager.authenticate(com.azure.core.credential.TokenCredential,com.azure.core.management.profile.AzureProfile)"
   fullName: "com.azure.resourcemanager.sqlvirtualmachine.SqlVirtualMachineManager.authenticate(TokenCredential credential, AzureProfile profile)"
   name: "authenticate(TokenCredential credential, AzureProfile profile)"
@@ -56,6 +37,25 @@ methods:
     name: "profile"
     type: "<xref href=\"com.azure.core.management.profile.AzureProfile?alt=com.azure.core.management.profile.AzureProfile&text=AzureProfile\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static SqlVirtualMachineManager authenticate(TokenCredential credential, AzureProfile profile)"
+  desc: "Creates an instance of SqlVirtualMachine service API entry point."
+  returns:
+    description: "the SqlVirtualMachine service API instance."
+    type: "<xref href=\"com.azure.resourcemanager.sqlvirtualmachine.SqlVirtualMachineManager?alt=com.azure.resourcemanager.sqlvirtualmachine.SqlVirtualMachineManager&text=SqlVirtualMachineManager\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.sqlvirtualmachine.SqlVirtualMachineManager.authenticate(com.azure.core.http.HttpPipeline,com.azure.core.management.profile.AzureProfile)"
+  fullName: "com.azure.resourcemanager.sqlvirtualmachine.SqlVirtualMachineManager.authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
+  name: "authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
+  nameWithType: "SqlVirtualMachineManager.authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
+  summary: "Creates an instance of Sql<wbr>Virtual<wbr>Machine service API entry point."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "the <xref uid=\"com.azure.core.http.HttpPipeline\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HttpPipeline\"></xref> configured with Azure authentication credential."
+    name: "httpPipeline"
+    type: "<xref href=\"com.azure.core.http.HttpPipeline?alt=com.azure.core.http.HttpPipeline&text=HttpPipeline\" data-throw-if-not-resolved=\"False\" />"
+  - description: "the Azure profile for client."
+    name: "profile"
+    type: "<xref href=\"com.azure.core.management.profile.AzureProfile?alt=com.azure.core.management.profile.AzureProfile&text=AzureProfile\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static SqlVirtualMachineManager authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
   desc: "Creates an instance of SqlVirtualMachine service API entry point."
   returns:
     description: "the SqlVirtualMachine service API instance."
@@ -112,16 +112,6 @@ methods:
   returns:
     description: "Resource collection API of SqlVirtualMachineGroups."
     type: "<xref href=\"com.azure.resourcemanager.sqlvirtualmachine.models.SqlVirtualMachineGroups?alt=com.azure.resourcemanager.sqlvirtualmachine.models.SqlVirtualMachineGroups&text=SqlVirtualMachineGroups\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.sqlvirtualmachine.SqlVirtualMachineManager.sqlVirtualMachines()"
-  fullName: "com.azure.resourcemanager.sqlvirtualmachine.SqlVirtualMachineManager.sqlVirtualMachines()"
-  name: "sqlVirtualMachines()"
-  nameWithType: "SqlVirtualMachineManager.sqlVirtualMachines()"
-  summary: "Gets the resource collection API of Sql<wbr>Virtual<wbr>Machines."
-  syntax: "public SqlVirtualMachines sqlVirtualMachines()"
-  desc: "Gets the resource collection API of SqlVirtualMachines. It manages SqlVirtualMachine."
-  returns:
-    description: "Resource collection API of SqlVirtualMachines."
-    type: "<xref href=\"com.azure.resourcemanager.sqlvirtualmachine.models.SqlVirtualMachines?alt=com.azure.resourcemanager.sqlvirtualmachine.models.SqlVirtualMachines&text=SqlVirtualMachines\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.sqlvirtualmachine.SqlVirtualMachineManager.sqlVirtualMachineTroubleshoots()"
   fullName: "com.azure.resourcemanager.sqlvirtualmachine.SqlVirtualMachineManager.sqlVirtualMachineTroubleshoots()"
   name: "sqlVirtualMachineTroubleshoots()"
@@ -132,6 +122,16 @@ methods:
   returns:
     description: "Resource collection API of SqlVirtualMachineTroubleshoots."
     type: "<xref href=\"com.azure.resourcemanager.sqlvirtualmachine.models.SqlVirtualMachineTroubleshoots?alt=com.azure.resourcemanager.sqlvirtualmachine.models.SqlVirtualMachineTroubleshoots&text=SqlVirtualMachineTroubleshoots\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.sqlvirtualmachine.SqlVirtualMachineManager.sqlVirtualMachines()"
+  fullName: "com.azure.resourcemanager.sqlvirtualmachine.SqlVirtualMachineManager.sqlVirtualMachines()"
+  name: "sqlVirtualMachines()"
+  nameWithType: "SqlVirtualMachineManager.sqlVirtualMachines()"
+  summary: "Gets the resource collection API of Sql<wbr>Virtual<wbr>Machines."
+  syntax: "public SqlVirtualMachines sqlVirtualMachines()"
+  desc: "Gets the resource collection API of SqlVirtualMachines. It manages SqlVirtualMachine."
+  returns:
+    description: "Resource collection API of SqlVirtualMachines."
+    type: "<xref href=\"com.azure.resourcemanager.sqlvirtualmachine.models.SqlVirtualMachines?alt=com.azure.resourcemanager.sqlvirtualmachine.models.SqlVirtualMachines&text=SqlVirtualMachines\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Entry point to SqlVirtualMachineManager. The SQL virtual machine management API provides a RESTful set of web APIs that interact with Azure Compute, Network & Storage services to manage your SQL Server virtual machine. The API enables users to create, delete and retrieve a SQL virtual machine, SQL virtual machine group or availability group listener."
 metadata: {}

@@ -125,6 +125,20 @@ methods:
   returns:
     description: "the CallMediaRecognizeDtmfOptions object itself."
     type: "<xref href=\"com.azure.communication.callautomation.models.CallMediaRecognizeDtmfOptions?alt=com.azure.communication.callautomation.models.CallMediaRecognizeDtmfOptions&text=CallMediaRecognizeDtmfOptions\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.communication.callautomation.models.CallMediaRecognizeDtmfOptions.setInterToneTimeout(java.time.Duration)"
+  fullName: "com.azure.communication.callautomation.models.CallMediaRecognizeDtmfOptions.setInterToneTimeout(Duration interToneTimeout)"
+  name: "setInterToneTimeout(Duration interToneTimeout)"
+  nameWithType: "CallMediaRecognizeDtmfOptions.setInterToneTimeout(Duration interToneTimeout)"
+  summary: "Set the inter<wbr>Tone<wbr>Timeout property: Time to wait between DTMF inputs to stop recognizing."
+  parameters:
+  - description: "the interToneTimeout value to set."
+    name: "interToneTimeout"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html\">Duration</a>"
+  syntax: "public CallMediaRecognizeDtmfOptions setInterToneTimeout(Duration interToneTimeout)"
+  desc: "Set the interToneTimeout property: Time to wait between DTMF inputs to stop recognizing."
+  returns:
+    description: "the DtmfConfigurationsInternal object itself."
+    type: "<xref href=\"com.azure.communication.callautomation.models.CallMediaRecognizeDtmfOptions?alt=com.azure.communication.callautomation.models.CallMediaRecognizeDtmfOptions&text=CallMediaRecognizeDtmfOptions\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.communication.callautomation.models.CallMediaRecognizeDtmfOptions.setInterruptCallMediaOperation(java.lang.Boolean)"
   fullName: "com.azure.communication.callautomation.models.CallMediaRecognizeDtmfOptions.setInterruptCallMediaOperation(Boolean interruptCallMediaOperation)"
   name: "setInterruptCallMediaOperation(Boolean interruptCallMediaOperation)"
@@ -154,20 +168,6 @@ methods:
   desc: "Set the interruptPrompt property: Determines if we interrupt the prompt and start recognizing."
   returns:
     description: "the CallMediaRecognizeDtmfOptions object itself."
-    type: "<xref href=\"com.azure.communication.callautomation.models.CallMediaRecognizeDtmfOptions?alt=com.azure.communication.callautomation.models.CallMediaRecognizeDtmfOptions&text=CallMediaRecognizeDtmfOptions\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.communication.callautomation.models.CallMediaRecognizeDtmfOptions.setInterToneTimeout(java.time.Duration)"
-  fullName: "com.azure.communication.callautomation.models.CallMediaRecognizeDtmfOptions.setInterToneTimeout(Duration interToneTimeout)"
-  name: "setInterToneTimeout(Duration interToneTimeout)"
-  nameWithType: "CallMediaRecognizeDtmfOptions.setInterToneTimeout(Duration interToneTimeout)"
-  summary: "Set the inter<wbr>Tone<wbr>Timeout property: Time to wait between DTMF inputs to stop recognizing."
-  parameters:
-  - description: "the interToneTimeout value to set."
-    name: "interToneTimeout"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html\">Duration</a>"
-  syntax: "public CallMediaRecognizeDtmfOptions setInterToneTimeout(Duration interToneTimeout)"
-  desc: "Set the interToneTimeout property: Time to wait between DTMF inputs to stop recognizing."
-  returns:
-    description: "the DtmfConfigurationsInternal object itself."
     type: "<xref href=\"com.azure.communication.callautomation.models.CallMediaRecognizeDtmfOptions?alt=com.azure.communication.callautomation.models.CallMediaRecognizeDtmfOptions&text=CallMediaRecognizeDtmfOptions\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.communication.callautomation.models.CallMediaRecognizeDtmfOptions.setOperationContext(java.lang.String)"
   fullName: "com.azure.communication.callautomation.models.CallMediaRecognizeDtmfOptions.setOperationContext(String operationContext)"

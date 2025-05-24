@@ -57,7 +57,7 @@ methods:
   nameWithType: "MicrosoftGraphChatMessage.attachments()"
   summary: "Get the attachments property: Attached files."
   syntax: "public List<MicrosoftGraphChatMessageAttachment> attachments()"
-  desc: "Get the attachments property: Attached files. Attachments are currently read-only – sending attachments is not supported."
+  desc: "Get the attachments property: Attached files. Attachments are currently read-only \\\\u2013 sending attachments is not supported."
   returns:
     description: "the attachments value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphChatMessageAttachment?alt=com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphChatMessageAttachment&text=MicrosoftGraphChatMessageAttachment\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -316,7 +316,7 @@ methods:
     name: "attachments"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphChatMessageAttachment?alt=com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphChatMessageAttachment&text=MicrosoftGraphChatMessageAttachment\" data-throw-if-not-resolved=\"False\" />&gt;"
   syntax: "public MicrosoftGraphChatMessage withAttachments(List<MicrosoftGraphChatMessageAttachment> attachments)"
-  desc: "Set the attachments property: Attached files. Attachments are currently read-only – sending attachments is not supported."
+  desc: "Set the attachments property: Attached files. Attachments are currently read-only \\\\u2013 sending attachments is not supported."
   returns:
     description: "the MicrosoftGraphChatMessage object itself."
     type: "<xref href=\"com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphChatMessage?alt=com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphChatMessage&text=MicrosoftGraphChatMessage\" data-throw-if-not-resolved=\"False\" />"

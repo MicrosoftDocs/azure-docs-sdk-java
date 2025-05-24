@@ -98,9 +98,9 @@ methods:
   fullName: "com.azure.resourcemanager.loganalytics.fluent.models.DataExportInner.tableNames()"
   name: "tableNames()"
   nameWithType: "DataExportInner.tableNames()"
-  summary: "Get the table<wbr>Names property: An array of tables to export, for example: \\[“<wbr>Heartbeat, Security<wbr>Event”\\]."
+  summary: "Get the table<wbr>Names property: An array of tables to export, for example: \\[\\\\u201c<wbr>Heartbeat, Security<wbr>Event\\\\u201d\\]."
   syntax: "public List<String> tableNames()"
-  desc: "Get the tableNames property: An array of tables to export, for example: \\[“Heartbeat, SecurityEvent”\\]."
+  desc: "Get the tableNames property: An array of tables to export, for example: \\[\\\\u201cHeartbeat, SecurityEvent\\\\u201d\\]."
   returns:
     description: "the tableNames value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
@@ -209,13 +209,13 @@ methods:
   fullName: "com.azure.resourcemanager.loganalytics.fluent.models.DataExportInner.withTableNames(List<String> tableNames)"
   name: "withTableNames(List<String> tableNames)"
   nameWithType: "DataExportInner.withTableNames(List<String> tableNames)"
-  summary: "Set the table<wbr>Names property: An array of tables to export, for example: \\[“<wbr>Heartbeat, Security<wbr>Event”\\]."
+  summary: "Set the table<wbr>Names property: An array of tables to export, for example: \\[\\\\u201c<wbr>Heartbeat, Security<wbr>Event\\\\u201d\\]."
   parameters:
   - description: "the tableNames value to set."
     name: "tableNames"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
   syntax: "public DataExportInner withTableNames(List<String> tableNames)"
-  desc: "Set the tableNames property: An array of tables to export, for example: \\[“Heartbeat, SecurityEvent”\\]."
+  desc: "Set the tableNames property: An array of tables to export, for example: \\[\\\\u201cHeartbeat, SecurityEvent\\\\u201d\\]."
   returns:
     description: "the DataExportInner object itself."
     type: "<xref href=\"com.azure.resourcemanager.loganalytics.fluent.models.DataExportInner?alt=com.azure.resourcemanager.loganalytics.fluent.models.DataExportInner&text=DataExportInner\" data-throw-if-not-resolved=\"False\" />"

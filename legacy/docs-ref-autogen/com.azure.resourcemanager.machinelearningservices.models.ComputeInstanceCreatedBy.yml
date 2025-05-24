@@ -38,16 +38,6 @@ methods:
   returns:
     description: "the userId value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.machinelearningservices.models.ComputeInstanceCreatedBy.username()"
-  fullName: "com.azure.resourcemanager.machinelearningservices.models.ComputeInstanceCreatedBy.username()"
-  name: "username()"
-  nameWithType: "ComputeInstanceCreatedBy.username()"
-  summary: "Get the username property: Name of the user."
-  syntax: "public String username()"
-  desc: "Get the username property: Name of the user."
-  returns:
-    description: "the username value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.machinelearningservices.models.ComputeInstanceCreatedBy.userOrgId()"
   fullName: "com.azure.resourcemanager.machinelearningservices.models.ComputeInstanceCreatedBy.userOrgId()"
   name: "userOrgId()"
@@ -57,6 +47,16 @@ methods:
   desc: "Get the userOrgId property: Uniquely identifies user' Azure Active Directory organization."
   returns:
     description: "the userOrgId value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.machinelearningservices.models.ComputeInstanceCreatedBy.username()"
+  fullName: "com.azure.resourcemanager.machinelearningservices.models.ComputeInstanceCreatedBy.username()"
+  name: "username()"
+  nameWithType: "ComputeInstanceCreatedBy.username()"
+  summary: "Get the username property: Name of the user."
+  syntax: "public String username()"
+  desc: "Get the username property: Name of the user."
+  returns:
+    description: "the username value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.machinelearningservices.models.ComputeInstanceCreatedBy.validate()"
   fullName: "com.azure.resourcemanager.machinelearningservices.models.ComputeInstanceCreatedBy.validate()"

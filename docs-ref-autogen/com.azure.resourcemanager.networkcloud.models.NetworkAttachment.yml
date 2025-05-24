@@ -115,7 +115,7 @@ methods:
   nameWithType: "NetworkAttachment.networkAttachmentName()"
   summary: "Get the network<wbr>Attachment<wbr>Name property: The associated network's interface name."
   syntax: "public String networkAttachmentName()"
-  desc: "Get the networkAttachmentName property: The associated network's interface name. If specified, the network attachment name has a maximum length of 15 characters and must be unique to this virtual machine. If the user doesn’t specify this value, the default interface name of the network resource will be used. For a CloudServicesNetwork resource, this name will be ignored."
+  desc: "Get the networkAttachmentName property: The associated network's interface name. If specified, the network attachment name has a maximum length of 15 characters and must be unique to this virtual machine. If the user doesn\\\\u2019t specify this value, the default interface name of the network resource will be used. For a CloudServicesNetwork resource, this name will be ignored."
   returns:
     description: "the networkAttachmentName value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -218,7 +218,7 @@ methods:
     name: "networkAttachmentName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public NetworkAttachment withNetworkAttachmentName(String networkAttachmentName)"
-  desc: "Set the networkAttachmentName property: The associated network's interface name. If specified, the network attachment name has a maximum length of 15 characters and must be unique to this virtual machine. If the user doesn’t specify this value, the default interface name of the network resource will be used. For a CloudServicesNetwork resource, this name will be ignored."
+  desc: "Set the networkAttachmentName property: The associated network's interface name. If specified, the network attachment name has a maximum length of 15 characters and must be unique to this virtual machine. If the user doesn\\\\u2019t specify this value, the default interface name of the network resource will be used. For a CloudServicesNetwork resource, this name will be ignored."
   returns:
     description: "the NetworkAttachment object itself."
     type: "<xref href=\"com.azure.resourcemanager.networkcloud.models.NetworkAttachment?alt=com.azure.resourcemanager.networkcloud.models.NetworkAttachment&text=NetworkAttachment\" data-throw-if-not-resolved=\"False\" />"

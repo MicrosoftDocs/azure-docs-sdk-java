@@ -6,18 +6,6 @@ nameWithType: "CustomDomainOwnershipValidationResult"
 summary: "An immutable client-side representation of Custom<wbr>Domain<wbr>Ownership<wbr>Validation<wbr>Result."
 syntax: "public interface **CustomDomainOwnershipValidationResult**"
 methods:
-- uid: "com.azure.resourcemanager.eventgrid.models.CustomDomainOwnershipValidationResult.customDomainsForTopicsConfiguration()"
-  fullName: "com.azure.resourcemanager.eventgrid.models.CustomDomainOwnershipValidationResult.customDomainsForTopicsConfiguration()"
-  name: "customDomainsForTopicsConfiguration()"
-  nameWithType: "CustomDomainOwnershipValidationResult.customDomainsForTopicsConfiguration()"
-  summary: "Gets the custom<wbr>Domains<wbr>For<wbr>Topics<wbr>Configuration property: List of custom domain configurations for the namespace under topics configuration."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract List<CustomDomainConfiguration> customDomainsForTopicsConfiguration()"
-  desc: "Gets the customDomainsForTopicsConfiguration property: List of custom domain configurations for the namespace under topics configuration."
-  returns:
-    description: "the customDomainsForTopicsConfiguration value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.eventgrid.models.CustomDomainConfiguration?alt=com.azure.resourcemanager.eventgrid.models.CustomDomainConfiguration&text=CustomDomainConfiguration\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.eventgrid.models.CustomDomainOwnershipValidationResult.customDomainsForTopicSpacesConfiguration()"
   fullName: "com.azure.resourcemanager.eventgrid.models.CustomDomainOwnershipValidationResult.customDomainsForTopicSpacesConfiguration()"
   name: "customDomainsForTopicSpacesConfiguration()"
@@ -29,6 +17,18 @@ methods:
   desc: "Gets the customDomainsForTopicSpacesConfiguration property: List of custom domain configurations for the namespace under topic spaces configuration."
   returns:
     description: "the customDomainsForTopicSpacesConfiguration value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.eventgrid.models.CustomDomainConfiguration?alt=com.azure.resourcemanager.eventgrid.models.CustomDomainConfiguration&text=CustomDomainConfiguration\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.eventgrid.models.CustomDomainOwnershipValidationResult.customDomainsForTopicsConfiguration()"
+  fullName: "com.azure.resourcemanager.eventgrid.models.CustomDomainOwnershipValidationResult.customDomainsForTopicsConfiguration()"
+  name: "customDomainsForTopicsConfiguration()"
+  nameWithType: "CustomDomainOwnershipValidationResult.customDomainsForTopicsConfiguration()"
+  summary: "Gets the custom<wbr>Domains<wbr>For<wbr>Topics<wbr>Configuration property: List of custom domain configurations for the namespace under topics configuration."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract List<CustomDomainConfiguration> customDomainsForTopicsConfiguration()"
+  desc: "Gets the customDomainsForTopicsConfiguration property: List of custom domain configurations for the namespace under topics configuration."
+  returns:
+    description: "the customDomainsForTopicsConfiguration value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.eventgrid.models.CustomDomainConfiguration?alt=com.azure.resourcemanager.eventgrid.models.CustomDomainConfiguration&text=CustomDomainConfiguration\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.eventgrid.models.CustomDomainOwnershipValidationResult.innerModel()"
   fullName: "com.azure.resourcemanager.eventgrid.models.CustomDomainOwnershipValidationResult.innerModel()"

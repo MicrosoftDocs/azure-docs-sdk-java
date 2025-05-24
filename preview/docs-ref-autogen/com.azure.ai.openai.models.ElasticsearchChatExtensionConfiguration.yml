@@ -63,9 +63,9 @@ methods:
   fullName: "com.azure.ai.openai.models.ElasticsearchChatExtensionConfiguration.getParameters()"
   name: "getParameters()"
   nameWithType: "ElasticsearchChatExtensionConfiguration.getParameters()"
-  summary: "Get the parameters property: The parameters to use when configuring ElasticsearchÂ®."
+  summary: "Get the parameters property: The parameters to use when configuring Elasticsearch®."
   syntax: "public ElasticsearchChatExtensionParameters getParameters()"
-  desc: "Get the parameters property: The parameters to use when configuring ElasticsearchÂ®."
+  desc: "Get the parameters property: The parameters to use when configuring Elasticsearch®."
   returns:
     description: "the parameters value."
     type: "<xref href=\"com.azure.ai.openai.models.ElasticsearchChatExtensionParameters?alt=com.azure.ai.openai.models.ElasticsearchChatExtensionParameters&text=ElasticsearchChatExtensionParameters\" data-throw-if-not-resolved=\"False\" />"

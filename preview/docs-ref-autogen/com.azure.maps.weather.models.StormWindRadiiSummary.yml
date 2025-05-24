@@ -57,7 +57,7 @@ methods:
   nameWithType: "StormWindRadiiSummary.getRadiusSectorData()"
   summary: "Get the radius<wbr>Sector<wbr>Data property: Contains the information needed to plot wind radius quadrants."
   syntax: "public List<RadiusSector> getRadiusSectorData()"
-  desc: "Get the radiusSectorData property: Contains the information needed to plot wind radius quadrants. Bearing 0â€“90 = NE quadrant; 90â€“180 = SE quadrant; 180â€“270 = SW quadrant; 270â€“360 = NW quadrant."
+  desc: "Get the radiusSectorData property: Contains the information needed to plot wind radius quadrants. Bearing 0�\\\\u20ac\\\\u201c90 = NE quadrant; 90�\\\\u20ac\\\\u201c180 = SE quadrant; 180�\\\\u20ac\\\\u201c270 = SW quadrant; 270�\\\\u20ac\\\\u201c360 = NW quadrant."
   returns:
     description: "the radiusSectorData value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.maps.weather.models.RadiusSector?alt=com.azure.maps.weather.models.RadiusSector&text=RadiusSector\" data-throw-if-not-resolved=\"False\" />&gt;"

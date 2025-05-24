@@ -65,7 +65,7 @@ methods:
   nameWithType: "AzureDataLakeStoreLinkedService.azureCloudType()"
   summary: "Get the azure<wbr>Cloud<wbr>Type property: Indicates the azure cloud type of the service principle auth."
   syntax: "public Object azureCloudType()"
-  desc: "Get the azureCloudType property: Indicates the azure cloud type of the service principle auth. Allowed values are AzurePublic, AzureChina, AzureUsGovernment, AzureGermany. Default value is the data factory regions’ cloud type. Type: string (or Expression with resultType string)."
+  desc: "Get the azureCloudType property: Indicates the azure cloud type of the service principle auth. Allowed values are AzurePublic, AzureChina, AzureUsGovernment, AzureGermany. Default value is the data factory regions\\\\u2019 cloud type. Type: string (or Expression with resultType string)."
   returns:
     description: "the azureCloudType value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
@@ -237,7 +237,7 @@ methods:
     name: "azureCloudType"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   syntax: "public AzureDataLakeStoreLinkedService withAzureCloudType(Object azureCloudType)"
-  desc: "Set the azureCloudType property: Indicates the azure cloud type of the service principle auth. Allowed values are AzurePublic, AzureChina, AzureUsGovernment, AzureGermany. Default value is the data factory regions’ cloud type. Type: string (or Expression with resultType string)."
+  desc: "Set the azureCloudType property: Indicates the azure cloud type of the service principle auth. Allowed values are AzurePublic, AzureChina, AzureUsGovernment, AzureGermany. Default value is the data factory regions\\\\u2019 cloud type. Type: string (or Expression with resultType string)."
   returns:
     description: "the AzureDataLakeStoreLinkedService object itself."
     type: "<xref href=\"com.azure.resourcemanager.datafactory.models.AzureDataLakeStoreLinkedService?alt=com.azure.resourcemanager.datafactory.models.AzureDataLakeStoreLinkedService&text=AzureDataLakeStoreLinkedService\" data-throw-if-not-resolved=\"False\" />"

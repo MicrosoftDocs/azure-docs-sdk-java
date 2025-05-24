@@ -6,18 +6,6 @@ nameWithType: "ServiceBusSubscription.UpdateStages.WithSession"
 summary: "The stage of the subscription definition allowing to enable session support."
 syntax: "public static interface **ServiceBusSubscription.UpdateStages.WithSession**"
 methods:
-- uid: "com.azure.resourcemanager.servicebus.models.ServiceBusSubscription.UpdateStages.WithSession.withoutSession()"
-  fullName: "com.azure.resourcemanager.servicebus.models.ServiceBusSubscription.UpdateStages.WithSession.withoutSession()"
-  name: "withoutSession()"
-  nameWithType: "ServiceBusSubscription.UpdateStages.WithSession.withoutSession()"
-  summary: "Specifies that session support should be disabled for the subscription."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract ServiceBusSubscription.Update withoutSession()"
-  desc: "Specifies that session support should be disabled for the subscription."
-  returns:
-    description: "the next stage of subscription update"
-    type: "<xref href=\"com.azure.resourcemanager.servicebus.models.ServiceBusSubscription.Update?alt=com.azure.resourcemanager.servicebus.models.ServiceBusSubscription.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.servicebus.models.ServiceBusSubscription.UpdateStages.WithSession.withSession()"
   fullName: "com.azure.resourcemanager.servicebus.models.ServiceBusSubscription.UpdateStages.WithSession.withSession()"
   name: "withSession()"
@@ -27,6 +15,18 @@ methods:
   - "abstract"
   syntax: "public abstract ServiceBusSubscription.Update withSession()"
   desc: "Specifies that session support should be enabled for the subscription."
+  returns:
+    description: "the next stage of subscription update"
+    type: "<xref href=\"com.azure.resourcemanager.servicebus.models.ServiceBusSubscription.Update?alt=com.azure.resourcemanager.servicebus.models.ServiceBusSubscription.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.servicebus.models.ServiceBusSubscription.UpdateStages.WithSession.withoutSession()"
+  fullName: "com.azure.resourcemanager.servicebus.models.ServiceBusSubscription.UpdateStages.WithSession.withoutSession()"
+  name: "withoutSession()"
+  nameWithType: "ServiceBusSubscription.UpdateStages.WithSession.withoutSession()"
+  summary: "Specifies that session support should be disabled for the subscription."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ServiceBusSubscription.Update withoutSession()"
+  desc: "Specifies that session support should be disabled for the subscription."
   returns:
     description: "the next stage of subscription update"
     type: "<xref href=\"com.azure.resourcemanager.servicebus.models.ServiceBusSubscription.Update?alt=com.azure.resourcemanager.servicebus.models.ServiceBusSubscription.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"

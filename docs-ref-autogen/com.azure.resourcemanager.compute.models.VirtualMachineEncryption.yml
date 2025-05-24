@@ -54,6 +54,22 @@ methods:
   returns:
     description: "current volume encryption status"
     type: "<xref href=\"com.azure.resourcemanager.compute.models.DiskVolumeEncryptionMonitor?alt=com.azure.resourcemanager.compute.models.DiskVolumeEncryptionMonitor&text=DiskVolumeEncryptionMonitor\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.VirtualMachineEncryption.enable(com.azure.resourcemanager.compute.models.WindowsVMDiskEncryptionConfiguration)"
+  fullName: "com.azure.resourcemanager.compute.models.VirtualMachineEncryption.enable(WindowsVMDiskEncryptionConfiguration encryptionSettings)"
+  name: "enable(WindowsVMDiskEncryptionConfiguration encryptionSettings)"
+  nameWithType: "VirtualMachineEncryption.enable(WindowsVMDiskEncryptionConfiguration encryptionSettings)"
+  summary: "Enable encryption for Windows virtual machine disks."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "encryption settings for windows virtual machine"
+    name: "encryptionSettings"
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.WindowsVMDiskEncryptionConfiguration?alt=com.azure.resourcemanager.compute.models.WindowsVMDiskEncryptionConfiguration&text=WindowsVMDiskEncryptionConfiguration\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract DiskVolumeEncryptionMonitor enable(WindowsVMDiskEncryptionConfiguration encryptionSettings)"
+  desc: "Enable encryption for Windows virtual machine disks."
+  returns:
+    description: "current volume encryption status"
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.DiskVolumeEncryptionMonitor?alt=com.azure.resourcemanager.compute.models.DiskVolumeEncryptionMonitor&text=DiskVolumeEncryptionMonitor\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.models.VirtualMachineEncryption.enable(java.lang.String)"
   fullName: "com.azure.resourcemanager.compute.models.VirtualMachineEncryption.enable(String keyVaultId)"
   name: "enable(String keyVaultId)"
@@ -92,22 +108,6 @@ methods:
   returns:
     description: "current volume decryption status"
     type: "<xref href=\"com.azure.resourcemanager.compute.models.DiskVolumeEncryptionMonitor?alt=com.azure.resourcemanager.compute.models.DiskVolumeEncryptionMonitor&text=DiskVolumeEncryptionMonitor\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.compute.models.VirtualMachineEncryption.enable(com.azure.resourcemanager.compute.models.WindowsVMDiskEncryptionConfiguration)"
-  fullName: "com.azure.resourcemanager.compute.models.VirtualMachineEncryption.enable(WindowsVMDiskEncryptionConfiguration encryptionSettings)"
-  name: "enable(WindowsVMDiskEncryptionConfiguration encryptionSettings)"
-  nameWithType: "VirtualMachineEncryption.enable(WindowsVMDiskEncryptionConfiguration encryptionSettings)"
-  summary: "Enable encryption for Windows virtual machine disks."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "encryption settings for windows virtual machine"
-    name: "encryptionSettings"
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.WindowsVMDiskEncryptionConfiguration?alt=com.azure.resourcemanager.compute.models.WindowsVMDiskEncryptionConfiguration&text=WindowsVMDiskEncryptionConfiguration\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract DiskVolumeEncryptionMonitor enable(WindowsVMDiskEncryptionConfiguration encryptionSettings)"
-  desc: "Enable encryption for Windows virtual machine disks."
-  returns:
-    description: "current volume encryption status"
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.DiskVolumeEncryptionMonitor?alt=com.azure.resourcemanager.compute.models.DiskVolumeEncryptionMonitor&text=DiskVolumeEncryptionMonitor\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.models.VirtualMachineEncryption.enableAsync(com.azure.resourcemanager.compute.models.LinuxVMDiskEncryptionConfiguration)"
   fullName: "com.azure.resourcemanager.compute.models.VirtualMachineEncryption.enableAsync(LinuxVMDiskEncryptionConfiguration encryptionSettings)"
   name: "enableAsync(LinuxVMDiskEncryptionConfiguration encryptionSettings)"
@@ -121,6 +121,22 @@ methods:
     type: "<xref href=\"com.azure.resourcemanager.compute.models.LinuxVMDiskEncryptionConfiguration?alt=com.azure.resourcemanager.compute.models.LinuxVMDiskEncryptionConfiguration&text=LinuxVMDiskEncryptionConfiguration\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Mono<DiskVolumeEncryptionMonitor> enableAsync(LinuxVMDiskEncryptionConfiguration encryptionSettings)"
   desc: "Enable encryption for Linux virtual machine disks."
+  returns:
+    description: "a representation of the deferred computation of this call, returning the current volume encryption status"
+    type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.resourcemanager.compute.models.DiskVolumeEncryptionMonitor?alt=com.azure.resourcemanager.compute.models.DiskVolumeEncryptionMonitor&text=DiskVolumeEncryptionMonitor\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.compute.models.VirtualMachineEncryption.enableAsync(com.azure.resourcemanager.compute.models.WindowsVMDiskEncryptionConfiguration)"
+  fullName: "com.azure.resourcemanager.compute.models.VirtualMachineEncryption.enableAsync(WindowsVMDiskEncryptionConfiguration encryptionSettings)"
+  name: "enableAsync(WindowsVMDiskEncryptionConfiguration encryptionSettings)"
+  nameWithType: "VirtualMachineEncryption.enableAsync(WindowsVMDiskEncryptionConfiguration encryptionSettings)"
+  summary: "Enable encryption for Windows virtual machine disks."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "encryption settings for windows virtual machine"
+    name: "encryptionSettings"
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.WindowsVMDiskEncryptionConfiguration?alt=com.azure.resourcemanager.compute.models.WindowsVMDiskEncryptionConfiguration&text=WindowsVMDiskEncryptionConfiguration\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract Mono<DiskVolumeEncryptionMonitor> enableAsync(WindowsVMDiskEncryptionConfiguration encryptionSettings)"
+  desc: "Enable encryption for Windows virtual machine disks."
   returns:
     description: "a representation of the deferred computation of this call, returning the current volume encryption status"
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.resourcemanager.compute.models.DiskVolumeEncryptionMonitor?alt=com.azure.resourcemanager.compute.models.DiskVolumeEncryptionMonitor&text=DiskVolumeEncryptionMonitor\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -159,22 +175,6 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract Mono<DiskVolumeEncryptionMonitor> enableAsync(String keyVaultId, String aadClientId, String aadSecret)"
   desc: "Enable encryption for virtual machine disks. Legacy encryption extension will be used to enable encryption."
-  returns:
-    description: "a representation of the deferred computation of this call, returning the current volume encryption status"
-    type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.resourcemanager.compute.models.DiskVolumeEncryptionMonitor?alt=com.azure.resourcemanager.compute.models.DiskVolumeEncryptionMonitor&text=DiskVolumeEncryptionMonitor\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.resourcemanager.compute.models.VirtualMachineEncryption.enableAsync(com.azure.resourcemanager.compute.models.WindowsVMDiskEncryptionConfiguration)"
-  fullName: "com.azure.resourcemanager.compute.models.VirtualMachineEncryption.enableAsync(WindowsVMDiskEncryptionConfiguration encryptionSettings)"
-  name: "enableAsync(WindowsVMDiskEncryptionConfiguration encryptionSettings)"
-  nameWithType: "VirtualMachineEncryption.enableAsync(WindowsVMDiskEncryptionConfiguration encryptionSettings)"
-  summary: "Enable encryption for Windows virtual machine disks."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "encryption settings for windows virtual machine"
-    name: "encryptionSettings"
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.WindowsVMDiskEncryptionConfiguration?alt=com.azure.resourcemanager.compute.models.WindowsVMDiskEncryptionConfiguration&text=WindowsVMDiskEncryptionConfiguration\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract Mono<DiskVolumeEncryptionMonitor> enableAsync(WindowsVMDiskEncryptionConfiguration encryptionSettings)"
-  desc: "Enable encryption for Windows virtual machine disks."
   returns:
     description: "a representation of the deferred computation of this call, returning the current volume encryption status"
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.resourcemanager.compute.models.DiskVolumeEncryptionMonitor?alt=com.azure.resourcemanager.compute.models.DiskVolumeEncryptionMonitor&text=DiskVolumeEncryptionMonitor\" data-throw-if-not-resolved=\"False\" />&gt;"

@@ -6,18 +6,6 @@ nameWithType: "VirtualMachineScaleSet.DefinitionStages.WithOverProvision"
 summary: "The stage of a virtual machine scale set definition allowing to specify whether or not to over-provision virtual machines in the scale set."
 syntax: "public static interface **VirtualMachineScaleSet.DefinitionStages.WithOverProvision**"
 methods:
-- uid: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithOverProvision.withoutOverProvisioning()"
-  fullName: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithOverProvision.withoutOverProvisioning()"
-  name: "withoutOverProvisioning()"
-  nameWithType: "VirtualMachineScaleSet.DefinitionStages.WithOverProvision.withoutOverProvisioning()"
-  summary: "Disables over-provisioning of virtual machines."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract VirtualMachineScaleSet.DefinitionStages.WithCreate withoutOverProvisioning()"
-  desc: "Disables over-provisioning of virtual machines."
-  returns:
-    description: "the next stage of the definition"
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithOverProvision.withOverProvision(boolean)"
   fullName: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithOverProvision.withOverProvision(boolean enabled)"
   name: "withOverProvision(boolean enabled)"
@@ -43,6 +31,18 @@ methods:
   - "abstract"
   syntax: "public abstract VirtualMachineScaleSet.DefinitionStages.WithCreate withOverProvisioning()"
   desc: "Enables over-provisioning of virtual machines."
+  returns:
+    description: "the next stage of the definition"
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithOverProvision.withoutOverProvisioning()"
+  fullName: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithOverProvision.withoutOverProvisioning()"
+  name: "withoutOverProvisioning()"
+  nameWithType: "VirtualMachineScaleSet.DefinitionStages.WithOverProvision.withoutOverProvisioning()"
+  summary: "Disables over-provisioning of virtual machines."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract VirtualMachineScaleSet.DefinitionStages.WithCreate withoutOverProvisioning()"
+  desc: "Disables over-provisioning of virtual machines."
   returns:
     description: "the next stage of the definition"
     type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"

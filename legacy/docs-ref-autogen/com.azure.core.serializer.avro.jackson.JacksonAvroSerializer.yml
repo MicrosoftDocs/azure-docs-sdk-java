@@ -22,18 +22,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **JacksonAvroSerializer**</br> implements <xref href=\"com.azure.core.experimental.serializer.ObjectSerializer?alt=com.azure.core.experimental.serializer.ObjectSerializer&text=ObjectSerializer\" data-throw-if-not-resolved=\"False\" />"
 methods:
-- uid: "com.azure.core.serializer.avro.jackson.JacksonAvroSerializer.<T>deserialize(java.io.InputStream,java.lang.Class<T>)"
-  fullName: "com.azure.core.serializer.avro.jackson.JacksonAvroSerializer.deserialize(InputStream stream, Class<T> clazz)"
-  name: "deserialize(InputStream stream, Class<T> clazz)"
-  nameWithType: "JacksonAvroSerializer.deserialize(InputStream stream, Class<T> clazz)"
-  parameters:
-  - name: "stream"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/InputStream.html\">InputStream</a>"
-  - name: "clazz"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Class.html\">Class</a>&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public Mono<T> <T>deserialize(InputStream stream, Class<T> clazz)"
-  returns:
-    type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.core.serializer.avro.jackson.JacksonAvroSerializer.<S>serialize(S,java.lang.Object)"
   fullName: "com.azure.core.serializer.avro.jackson.JacksonAvroSerializer.serialize(S stream, Object value)"
   name: "serialize(S stream, Object value)"
@@ -46,6 +34,18 @@ methods:
   syntax: "public Mono<S> <S>serialize(S stream, Object value)"
   returns:
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"S?alt=S&text=S\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.core.serializer.avro.jackson.JacksonAvroSerializer.<T>deserialize(java.io.InputStream,java.lang.Class<T>)"
+  fullName: "com.azure.core.serializer.avro.jackson.JacksonAvroSerializer.deserialize(InputStream stream, Class<T> clazz)"
+  name: "deserialize(InputStream stream, Class<T> clazz)"
+  nameWithType: "JacksonAvroSerializer.deserialize(InputStream stream, Class<T> clazz)"
+  parameters:
+  - name: "stream"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/InputStream.html\">InputStream</a>"
+  - name: "clazz"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Class.html\">Class</a>&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public Mono<T> <T>deserialize(InputStream stream, Class<T> clazz)"
+  returns:
+    type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "class"
 desc: "Jackson Avro based implementation of the <xref uid=\"com.azure.core.experimental.serializer.ObjectSerializer\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ObjectSerializer\"></xref> interface."
 implements:

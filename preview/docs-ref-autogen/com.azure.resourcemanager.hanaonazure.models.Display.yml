@@ -95,7 +95,7 @@ methods:
   nameWithType: "Display.resource()"
   summary: "Get the resource property: The localized friendly form of the resource type related to this action/operation."
   syntax: "public String resource()"
-  desc: "Get the resource property: The localized friendly form of the resource type related to this action/operation. This form should match the public documentation for the resource provider. Use Title Casing. For examples, refer to the “name” section."
+  desc: "Get the resource property: The localized friendly form of the resource type related to this action/operation. This form should match the public documentation for the resource provider. Use Title Casing. For examples, refer to the \\\\u201cname\\\\u201d section."
   returns:
     description: "the resource value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"

@@ -60,20 +60,6 @@ methods:
   returns:
     description: "The snapshot status."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.data.appconfiguration.models.ConfigurationSnapshotStatus?alt=com.azure.data.appconfiguration.models.ConfigurationSnapshotStatus&text=ConfigurationSnapshotStatus\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.data.appconfiguration.models.SnapshotSelector.setFields(java.util.List<com.azure.data.appconfiguration.models.SnapshotFields>)"
-  fullName: "com.azure.data.appconfiguration.models.SnapshotSelector.setFields(List<SnapshotFields> fields)"
-  name: "setFields(List<SnapshotFields> fields)"
-  nameWithType: "SnapshotSelector.setFields(List<SnapshotFields> fields)"
-  summary: "Sets fields that will be returned in the response corresponding to properties in <xref uid=\"com.azure.data.appconfiguration.models.ConfigurationSnapshot\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ConfigurationSnapshot\"></xref>."
-  parameters:
-  - description: "The fields to select for the query response. If none are set, the service will return the\n snapshot with a default set of properties."
-    name: "fields"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.data.appconfiguration.models.SnapshotFields?alt=com.azure.data.appconfiguration.models.SnapshotFields&text=SnapshotFields\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public SnapshotSelector setFields(List<SnapshotFields> fields)"
-  desc: "Sets fields that will be returned in the response corresponding to properties in <xref uid=\"com.azure.data.appconfiguration.models.ConfigurationSnapshot\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ConfigurationSnapshot\"></xref>. If none are set, the service returns snapshot with all of their fields populated."
-  returns:
-    description: "The updated SnapshotSelector object."
-    type: "<xref href=\"com.azure.data.appconfiguration.models.SnapshotSelector?alt=com.azure.data.appconfiguration.models.SnapshotSelector&text=SnapshotSelector\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.data.appconfiguration.models.SnapshotSelector.setFields(com.azure.data.appconfiguration.models.SnapshotFields...)"
   fullName: "com.azure.data.appconfiguration.models.SnapshotSelector.setFields(SnapshotFields[] fields)"
   name: "setFields(SnapshotFields[] fields)"
@@ -84,6 +70,20 @@ methods:
     name: "fields"
     type: "<xref href=\"com.azure.data.appconfiguration.models.SnapshotFields?alt=com.azure.data.appconfiguration.models.SnapshotFields&text=SnapshotFields\" data-throw-if-not-resolved=\"False\" />[]"
   syntax: "public SnapshotSelector setFields(SnapshotFields[] fields)"
+  desc: "Sets fields that will be returned in the response corresponding to properties in <xref uid=\"com.azure.data.appconfiguration.models.ConfigurationSnapshot\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ConfigurationSnapshot\"></xref>. If none are set, the service returns snapshot with all of their fields populated."
+  returns:
+    description: "The updated SnapshotSelector object."
+    type: "<xref href=\"com.azure.data.appconfiguration.models.SnapshotSelector?alt=com.azure.data.appconfiguration.models.SnapshotSelector&text=SnapshotSelector\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.data.appconfiguration.models.SnapshotSelector.setFields(java.util.List<com.azure.data.appconfiguration.models.SnapshotFields>)"
+  fullName: "com.azure.data.appconfiguration.models.SnapshotSelector.setFields(List<SnapshotFields> fields)"
+  name: "setFields(List<SnapshotFields> fields)"
+  nameWithType: "SnapshotSelector.setFields(List<SnapshotFields> fields)"
+  summary: "Sets fields that will be returned in the response corresponding to properties in <xref uid=\"com.azure.data.appconfiguration.models.ConfigurationSnapshot\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ConfigurationSnapshot\"></xref>."
+  parameters:
+  - description: "The fields to select for the query response. If none are set, the service will return the\n snapshot with a default set of properties."
+    name: "fields"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.data.appconfiguration.models.SnapshotFields?alt=com.azure.data.appconfiguration.models.SnapshotFields&text=SnapshotFields\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public SnapshotSelector setFields(List<SnapshotFields> fields)"
   desc: "Sets fields that will be returned in the response corresponding to properties in <xref uid=\"com.azure.data.appconfiguration.models.ConfigurationSnapshot\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ConfigurationSnapshot\"></xref>. If none are set, the service returns snapshot with all of their fields populated."
   returns:
     description: "The updated SnapshotSelector object."

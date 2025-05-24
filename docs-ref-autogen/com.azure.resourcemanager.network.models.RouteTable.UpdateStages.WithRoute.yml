@@ -38,22 +38,6 @@ methods:
   returns:
     description: "the first stage of the update"
     type: "<xref href=\"com.azure.resourcemanager.network.models.Route.Update?alt=com.azure.resourcemanager.network.models.Route.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.models.RouteTable.UpdateStages.WithRoute.withoutRoute(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.models.RouteTable.UpdateStages.WithRoute.withoutRoute(String name)"
-  name: "withoutRoute(String name)"
-  nameWithType: "RouteTable.UpdateStages.WithRoute.withoutRoute(String name)"
-  summary: "Removes the specified route from the route table."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "the name of an existing route on this route table"
-    name: "name"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public abstract RouteTable.Update withoutRoute(String name)"
-  desc: "Removes the specified route from the route table."
-  returns:
-    description: "the next stage of the update"
-    type: "<xref href=\"com.azure.resourcemanager.network.models.RouteTable.Update?alt=com.azure.resourcemanager.network.models.RouteTable.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.models.RouteTable.UpdateStages.WithRoute.withRoute(java.lang.String,com.azure.resourcemanager.network.models.RouteNextHopType)"
   fullName: "com.azure.resourcemanager.network.models.RouteTable.UpdateStages.WithRoute.withRoute(String destinationAddressPrefix, RouteNextHopType nextHop)"
   name: "withRoute(String destinationAddressPrefix, RouteNextHopType nextHop)"
@@ -89,6 +73,22 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract RouteTable.Update withRouteViaVirtualAppliance(String destinationAddressPrefix, String ipAddress)"
   desc: "Creates a route via a virtual appliance."
+  returns:
+    description: "the next stage of the update"
+    type: "<xref href=\"com.azure.resourcemanager.network.models.RouteTable.Update?alt=com.azure.resourcemanager.network.models.RouteTable.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.models.RouteTable.UpdateStages.WithRoute.withoutRoute(java.lang.String)"
+  fullName: "com.azure.resourcemanager.network.models.RouteTable.UpdateStages.WithRoute.withoutRoute(String name)"
+  name: "withoutRoute(String name)"
+  nameWithType: "RouteTable.UpdateStages.WithRoute.withoutRoute(String name)"
+  summary: "Removes the specified route from the route table."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "the name of an existing route on this route table"
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract RouteTable.Update withoutRoute(String name)"
+  desc: "Removes the specified route from the route table."
   returns:
     description: "the next stage of the update"
     type: "<xref href=\"com.azure.resourcemanager.network.models.RouteTable.Update?alt=com.azure.resourcemanager.network.models.RouteTable.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"

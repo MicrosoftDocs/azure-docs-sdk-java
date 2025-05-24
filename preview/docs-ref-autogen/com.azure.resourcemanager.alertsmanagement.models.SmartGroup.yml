@@ -6,18 +6,6 @@ nameWithType: "SmartGroup"
 summary: "An immutable client-side representation of Smart<wbr>Group."
 syntax: "public interface **SmartGroup**"
 methods:
-- uid: "com.azure.resourcemanager.alertsmanagement.models.SmartGroup.alertsCount()"
-  fullName: "com.azure.resourcemanager.alertsmanagement.models.SmartGroup.alertsCount()"
-  name: "alertsCount()"
-  nameWithType: "SmartGroup.alertsCount()"
-  summary: "Gets the alerts<wbr>Count property: Total number of alerts in smart group."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract Long alertsCount()"
-  desc: "Gets the alertsCount property: Total number of alerts in smart group."
-  returns:
-    description: "the alertsCount value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Long.html\">Long</a>"
 - uid: "com.azure.resourcemanager.alertsmanagement.models.SmartGroup.alertSeverities()"
   fullName: "com.azure.resourcemanager.alertsmanagement.models.SmartGroup.alertSeverities()"
   name: "alertSeverities()"
@@ -42,6 +30,18 @@ methods:
   returns:
     description: "the alertStates value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.alertsmanagement.models.SmartGroupAggregatedProperty?alt=com.azure.resourcemanager.alertsmanagement.models.SmartGroupAggregatedProperty&text=SmartGroupAggregatedProperty\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.alertsmanagement.models.SmartGroup.alertsCount()"
+  fullName: "com.azure.resourcemanager.alertsmanagement.models.SmartGroup.alertsCount()"
+  name: "alertsCount()"
+  nameWithType: "SmartGroup.alertsCount()"
+  summary: "Gets the alerts<wbr>Count property: Total number of alerts in smart group."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract Long alertsCount()"
+  desc: "Gets the alertsCount property: Total number of alerts in smart group."
+  returns:
+    description: "the alertsCount value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Long.html\">Long</a>"
 - uid: "com.azure.resourcemanager.alertsmanagement.models.SmartGroup.id()"
   fullName: "com.azure.resourcemanager.alertsmanagement.models.SmartGroup.id()"
   name: "id()"
@@ -150,18 +150,6 @@ methods:
   returns:
     description: "the resourceGroups value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.alertsmanagement.models.SmartGroupAggregatedProperty?alt=com.azure.resourcemanager.alertsmanagement.models.SmartGroupAggregatedProperty&text=SmartGroupAggregatedProperty\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.resourcemanager.alertsmanagement.models.SmartGroup.resources()"
-  fullName: "com.azure.resourcemanager.alertsmanagement.models.SmartGroup.resources()"
-  name: "resources()"
-  nameWithType: "SmartGroup.resources()"
-  summary: "Gets the resources property: Summary of target resources in the smart group."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract List<SmartGroupAggregatedProperty> resources()"
-  desc: "Gets the resources property: Summary of target resources in the smart group."
-  returns:
-    description: "the resources value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.alertsmanagement.models.SmartGroupAggregatedProperty?alt=com.azure.resourcemanager.alertsmanagement.models.SmartGroupAggregatedProperty&text=SmartGroupAggregatedProperty\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.alertsmanagement.models.SmartGroup.resourceTypes()"
   fullName: "com.azure.resourcemanager.alertsmanagement.models.SmartGroup.resourceTypes()"
   name: "resourceTypes()"
@@ -173,6 +161,18 @@ methods:
   desc: "Gets the resourceTypes property: Summary of target resource types in the smart group."
   returns:
     description: "the resourceTypes value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.alertsmanagement.models.SmartGroupAggregatedProperty?alt=com.azure.resourcemanager.alertsmanagement.models.SmartGroupAggregatedProperty&text=SmartGroupAggregatedProperty\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.alertsmanagement.models.SmartGroup.resources()"
+  fullName: "com.azure.resourcemanager.alertsmanagement.models.SmartGroup.resources()"
+  name: "resources()"
+  nameWithType: "SmartGroup.resources()"
+  summary: "Gets the resources property: Summary of target resources in the smart group."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract List<SmartGroupAggregatedProperty> resources()"
+  desc: "Gets the resources property: Summary of target resources in the smart group."
+  returns:
+    description: "the resources value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.alertsmanagement.models.SmartGroupAggregatedProperty?alt=com.azure.resourcemanager.alertsmanagement.models.SmartGroupAggregatedProperty&text=SmartGroupAggregatedProperty\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.alertsmanagement.models.SmartGroup.severity()"
   fullName: "com.azure.resourcemanager.alertsmanagement.models.SmartGroup.severity()"

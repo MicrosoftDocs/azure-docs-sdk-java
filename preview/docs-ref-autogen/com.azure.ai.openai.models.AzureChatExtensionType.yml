@@ -66,14 +66,14 @@ fields:
   fullName: "com.azure.ai.openai.models.AzureChatExtensionType.ELASTICSEARCH"
   name: "ELASTICSEARCH"
   nameWithType: "AzureChatExtensionType.ELASTICSEARCH"
-  summary: "Represents the use of ElasticsearchÂ® index as an Azure OpenAI chat extension."
+  summary: "Represents the use of Elasticsearch® index as an Azure OpenAI chat extension."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.ai.openai.models.AzureChatExtensionType?alt=com.azure.ai.openai.models.AzureChatExtensionType&text=AzureChatExtensionType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AzureChatExtensionType ELASTICSEARCH"
-  desc: "Represents the use of ElasticsearchÂ® index as an Azure OpenAI chat extension."
+  desc: "Represents the use of Elasticsearch® index as an Azure OpenAI chat extension."
 - uid: "com.azure.ai.openai.models.AzureChatExtensionType.MONGO_DB"
   fullName: "com.azure.ai.openai.models.AzureChatExtensionType.MONGO_DB"
   name: "MONGO_DB"

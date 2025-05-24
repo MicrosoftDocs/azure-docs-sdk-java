@@ -90,18 +90,6 @@ methods:
   returns:
     description: "the AssessmentOptionsOperationsClient object."
     type: "<xref href=\"com.azure.resourcemanager.migration.assessment.fluent.AssessmentOptionsOperationsClient?alt=com.azure.resourcemanager.migration.assessment.fluent.AssessmentOptionsOperationsClient&text=AssessmentOptionsOperationsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.migration.assessment.fluent.MigrationAssessmentManagementClient.getAssessmentProjectsOperations()"
-  fullName: "com.azure.resourcemanager.migration.assessment.fluent.MigrationAssessmentManagementClient.getAssessmentProjectsOperations()"
-  name: "getAssessmentProjectsOperations()"
-  nameWithType: "MigrationAssessmentManagementClient.getAssessmentProjectsOperations()"
-  summary: "Gets the Assessment<wbr>Projects<wbr>Operations<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract AssessmentProjectsOperationsClient getAssessmentProjectsOperations()"
-  desc: "Gets the AssessmentProjectsOperationsClient object to access its operations."
-  returns:
-    description: "the AssessmentProjectsOperationsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.migration.assessment.fluent.AssessmentProjectsOperationsClient?alt=com.azure.resourcemanager.migration.assessment.fluent.AssessmentProjectsOperationsClient&text=AssessmentProjectsOperationsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.migration.assessment.fluent.MigrationAssessmentManagementClient.getAssessmentProjectSummaryOperations()"
   fullName: "com.azure.resourcemanager.migration.assessment.fluent.MigrationAssessmentManagementClient.getAssessmentProjectSummaryOperations()"
   name: "getAssessmentProjectSummaryOperations()"
@@ -114,6 +102,18 @@ methods:
   returns:
     description: "the AssessmentProjectSummaryOperationsClient object."
     type: "<xref href=\"com.azure.resourcemanager.migration.assessment.fluent.AssessmentProjectSummaryOperationsClient?alt=com.azure.resourcemanager.migration.assessment.fluent.AssessmentProjectSummaryOperationsClient&text=AssessmentProjectSummaryOperationsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.migration.assessment.fluent.MigrationAssessmentManagementClient.getAssessmentProjectsOperations()"
+  fullName: "com.azure.resourcemanager.migration.assessment.fluent.MigrationAssessmentManagementClient.getAssessmentProjectsOperations()"
+  name: "getAssessmentProjectsOperations()"
+  nameWithType: "MigrationAssessmentManagementClient.getAssessmentProjectsOperations()"
+  summary: "Gets the Assessment<wbr>Projects<wbr>Operations<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract AssessmentProjectsOperationsClient getAssessmentProjectsOperations()"
+  desc: "Gets the AssessmentProjectsOperationsClient object to access its operations."
+  returns:
+    description: "the AssessmentProjectsOperationsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.migration.assessment.fluent.AssessmentProjectsOperationsClient?alt=com.azure.resourcemanager.migration.assessment.fluent.AssessmentProjectsOperationsClient&text=AssessmentProjectsOperationsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.migration.assessment.fluent.MigrationAssessmentManagementClient.getAssessmentsOperations()"
   fullName: "com.azure.resourcemanager.migration.assessment.fluent.MigrationAssessmentManagementClient.getAssessmentsOperations()"
   name: "getAssessmentsOperations()"

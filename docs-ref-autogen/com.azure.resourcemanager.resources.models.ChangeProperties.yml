@@ -40,16 +40,6 @@ methods:
   returns:
     description: "the changeAttributes value."
     type: "<xref href=\"com.azure.resourcemanager.resources.models.ChangeAttributes?alt=com.azure.resourcemanager.resources.models.ChangeAttributes&text=ChangeAttributes\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.resources.models.ChangeProperties.changes()"
-  fullName: "com.azure.resourcemanager.resources.models.ChangeProperties.changes()"
-  name: "changes()"
-  nameWithType: "ChangeProperties.changes()"
-  summary: "Get the changes property: A dictionary with changed property name as a key and the change details as the value."
-  syntax: "public Map<String,ChangeBase> changes()"
-  desc: "Get the changes property: A dictionary with changed property name as a key and the change details as the value."
-  returns:
-    description: "the changes value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<xref href=\"com.azure.resourcemanager.resources.models.ChangeBase?alt=com.azure.resourcemanager.resources.models.ChangeBase&text=ChangeBase\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.resources.models.ChangeProperties.changeType()"
   fullName: "com.azure.resourcemanager.resources.models.ChangeProperties.changeType()"
   name: "changeType()"
@@ -60,6 +50,16 @@ methods:
   returns:
     description: "the changeType value."
     type: "<xref href=\"com.azure.resourcemanager.resources.models.ResourceChangeType?alt=com.azure.resourcemanager.resources.models.ResourceChangeType&text=ResourceChangeType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.models.ChangeProperties.changes()"
+  fullName: "com.azure.resourcemanager.resources.models.ChangeProperties.changes()"
+  name: "changes()"
+  nameWithType: "ChangeProperties.changes()"
+  summary: "Get the changes property: A dictionary with changed property name as a key and the change details as the value."
+  syntax: "public Map<String,ChangeBase> changes()"
+  desc: "Get the changes property: A dictionary with changed property name as a key and the change details as the value."
+  returns:
+    description: "the changes value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<xref href=\"com.azure.resourcemanager.resources.models.ChangeBase?alt=com.azure.resourcemanager.resources.models.ChangeBase&text=ChangeBase\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.resources.models.ChangeProperties.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.resources.models.ChangeProperties.fromJson(JsonReader jsonReader)"
   name: "fromJson(JsonReader jsonReader)"

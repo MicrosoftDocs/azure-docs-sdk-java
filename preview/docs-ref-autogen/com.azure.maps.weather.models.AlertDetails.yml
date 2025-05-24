@@ -57,7 +57,7 @@ methods:
   nameWithType: "AlertDetails.getDetails()"
   summary: "Get the details property: Full details associated with the alert."
   syntax: "public String getDetails()"
-  desc: "Get the details property: Full details associated with the alert. Returned if \\`details\\`=True. This field is always returned in the language(s) of choice by the issuing provider and Azure Maps only returns what is created by the provider. Please note, some countries/regions may offer their native language and English. Language parameter won’t apply to this field."
+  desc: "Get the details property: Full details associated with the alert. Returned if \\`details\\`=True. This field is always returned in the language(s) of choice by the issuing provider and Azure Maps only returns what is created by the provider. Please note, some countries/regions may offer their native language and English. Language parameter won\\\\u2019t apply to this field."
   returns:
     description: "the details value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"

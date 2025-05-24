@@ -189,20 +189,6 @@ methods:
   returns:
     description: "the AutocompleteOptions object itself."
     type: "<xref href=\"com.azure.search.documents.models.AutocompleteOptions?alt=com.azure.search.documents.models.AutocompleteOptions&text=AutocompleteOptions\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.search.documents.models.AutocompleteOptions.setSearchFields(java.util.List<java.lang.String>)"
-  fullName: "com.azure.search.documents.models.AutocompleteOptions.setSearchFields(List<String> searchFields)"
-  name: "setSearchFields(List<String> searchFields)"
-  nameWithType: "AutocompleteOptions.setSearchFields(List<String> searchFields)"
-  summary: "Set the search<wbr>Fields property: The list of field names to consider when querying for auto-completed terms."
-  parameters:
-  - description: "the searchFields value to set."
-    name: "searchFields"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-  syntax: "public AutocompleteOptions setSearchFields(List<String> searchFields)"
-  desc: "Set the searchFields property: The list of field names to consider when querying for auto-completed terms. Target fields must be included in the specified suggester."
-  returns:
-    description: "the AutocompleteOptions object itself."
-    type: "<xref href=\"com.azure.search.documents.models.AutocompleteOptions?alt=com.azure.search.documents.models.AutocompleteOptions&text=AutocompleteOptions\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.search.documents.models.AutocompleteOptions.setSearchFields(java.lang.String...)"
   fullName: "com.azure.search.documents.models.AutocompleteOptions.setSearchFields(String[] searchFields)"
   name: "setSearchFields(String[] searchFields)"
@@ -213,6 +199,20 @@ methods:
     name: "searchFields"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>[]"
   syntax: "public AutocompleteOptions setSearchFields(String[] searchFields)"
+  desc: "Set the searchFields property: The list of field names to consider when querying for auto-completed terms. Target fields must be included in the specified suggester."
+  returns:
+    description: "the AutocompleteOptions object itself."
+    type: "<xref href=\"com.azure.search.documents.models.AutocompleteOptions?alt=com.azure.search.documents.models.AutocompleteOptions&text=AutocompleteOptions\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.search.documents.models.AutocompleteOptions.setSearchFields(java.util.List<java.lang.String>)"
+  fullName: "com.azure.search.documents.models.AutocompleteOptions.setSearchFields(List<String> searchFields)"
+  name: "setSearchFields(List<String> searchFields)"
+  nameWithType: "AutocompleteOptions.setSearchFields(List<String> searchFields)"
+  summary: "Set the search<wbr>Fields property: The list of field names to consider when querying for auto-completed terms."
+  parameters:
+  - description: "the searchFields value to set."
+    name: "searchFields"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+  syntax: "public AutocompleteOptions setSearchFields(List<String> searchFields)"
   desc: "Set the searchFields property: The list of field names to consider when querying for auto-completed terms. Target fields must be included in the specified suggester."
   returns:
     description: "the AutocompleteOptions object itself."

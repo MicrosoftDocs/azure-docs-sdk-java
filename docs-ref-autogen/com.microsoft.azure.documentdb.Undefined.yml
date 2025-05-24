@@ -46,16 +46,6 @@ inheritedClassMethods:
   - "<xref href=\"java.lang.Object.wait(long,int)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
 syntax: "public class **Undefined**</br> extends <xref href=\"com.microsoft.azure.documentdb.JsonSerializable?alt=com.microsoft.azure.documentdb.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />"
 methods:
-- uid: "com.microsoft.azure.documentdb.Undefined.toString()"
-  fullName: "com.microsoft.azure.documentdb.Undefined.toString()"
-  name: "toString()"
-  nameWithType: "Undefined.toString()"
-  summary: "Returns the string representation of Undfined."
-  overridden: "com.microsoft.azure.documentdb.JsonSerializable.toString()"
-  syntax: "public String toString()"
-  desc: "Returns the string representation of Undfined."
-  returns:
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.documentdb.Undefined.Value()"
   fullName: "com.microsoft.azure.documentdb.Undefined.Value()"
   name: "Value()"
@@ -68,6 +58,16 @@ methods:
   returns:
     description: "the Undefined value"
     type: "<xref href=\"com.microsoft.azure.documentdb.Undefined?alt=com.microsoft.azure.documentdb.Undefined&text=Undefined\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.azure.documentdb.Undefined.toString()"
+  fullName: "com.microsoft.azure.documentdb.Undefined.toString()"
+  name: "toString()"
+  nameWithType: "Undefined.toString()"
+  summary: "Returns the string representation of Undfined."
+  overridden: "com.microsoft.azure.documentdb.JsonSerializable.toString()"
+  syntax: "public String toString()"
+  desc: "Returns the string representation of Undfined."
+  returns:
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Represents the 'Undefined' partition key in the Azure Cosmos DB database service."
 metadata: {}

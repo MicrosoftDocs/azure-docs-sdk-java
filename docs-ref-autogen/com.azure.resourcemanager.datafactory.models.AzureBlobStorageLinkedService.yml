@@ -85,7 +85,7 @@ methods:
   nameWithType: "AzureBlobStorageLinkedService.azureCloudType()"
   summary: "Get the azure<wbr>Cloud<wbr>Type property: Indicates the azure cloud type of the service principle auth."
   syntax: "public Object azureCloudType()"
-  desc: "Get the azureCloudType property: Indicates the azure cloud type of the service principle auth. Allowed values are AzurePublic, AzureChina, AzureUsGovernment, AzureGermany. Default value is the data factory regions’ cloud type. Type: string (or Expression with resultType string)."
+  desc: "Get the azureCloudType property: Indicates the azure cloud type of the service principle auth. Allowed values are AzurePublic, AzureChina, AzureUsGovernment, AzureGermany. Default value is the data factory regions\\\\u2019 cloud type. Type: string (or Expression with resultType string)."
   returns:
     description: "the azureCloudType value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
@@ -305,21 +305,7 @@ methods:
     name: "azureCloudType"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   syntax: "public AzureBlobStorageLinkedService withAzureCloudType(Object azureCloudType)"
-  desc: "Set the azureCloudType property: Indicates the azure cloud type of the service principle auth. Allowed values are AzurePublic, AzureChina, AzureUsGovernment, AzureGermany. Default value is the data factory regions’ cloud type. Type: string (or Expression with resultType string)."
-  returns:
-    description: "the AzureBlobStorageLinkedService object itself."
-    type: "<xref href=\"com.azure.resourcemanager.datafactory.models.AzureBlobStorageLinkedService?alt=com.azure.resourcemanager.datafactory.models.AzureBlobStorageLinkedService&text=AzureBlobStorageLinkedService\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.datafactory.models.AzureBlobStorageLinkedService.withConnectionString(java.lang.Object)"
-  fullName: "com.azure.resourcemanager.datafactory.models.AzureBlobStorageLinkedService.withConnectionString(Object connectionString)"
-  name: "withConnectionString(Object connectionString)"
-  nameWithType: "AzureBlobStorageLinkedService.withConnectionString(Object connectionString)"
-  summary: "Set the connection<wbr>String property: The connection string."
-  parameters:
-  - description: "the connectionString value to set."
-    name: "connectionString"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
-  syntax: "public AzureBlobStorageLinkedService withConnectionString(Object connectionString)"
-  desc: "Set the connectionString property: The connection string. It is mutually exclusive with sasUri, serviceEndpoint property. Type: string, SecureString or AzureKeyVaultSecretReference."
+  desc: "Set the azureCloudType property: Indicates the azure cloud type of the service principle auth. Allowed values are AzurePublic, AzureChina, AzureUsGovernment, AzureGermany. Default value is the data factory regions\\\\u2019 cloud type. Type: string (or Expression with resultType string)."
   returns:
     description: "the AzureBlobStorageLinkedService object itself."
     type: "<xref href=\"com.azure.resourcemanager.datafactory.models.AzureBlobStorageLinkedService?alt=com.azure.resourcemanager.datafactory.models.AzureBlobStorageLinkedService&text=AzureBlobStorageLinkedService\" data-throw-if-not-resolved=\"False\" />"
@@ -335,6 +321,20 @@ methods:
   syntax: "public AzureBlobStorageLinkedService withConnectVia(IntegrationRuntimeReference connectVia)"
   desc: "Set the connectVia property: The integration runtime reference."
   returns:
+    type: "<xref href=\"com.azure.resourcemanager.datafactory.models.AzureBlobStorageLinkedService?alt=com.azure.resourcemanager.datafactory.models.AzureBlobStorageLinkedService&text=AzureBlobStorageLinkedService\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.datafactory.models.AzureBlobStorageLinkedService.withConnectionString(java.lang.Object)"
+  fullName: "com.azure.resourcemanager.datafactory.models.AzureBlobStorageLinkedService.withConnectionString(Object connectionString)"
+  name: "withConnectionString(Object connectionString)"
+  nameWithType: "AzureBlobStorageLinkedService.withConnectionString(Object connectionString)"
+  summary: "Set the connection<wbr>String property: The connection string."
+  parameters:
+  - description: "the connectionString value to set."
+    name: "connectionString"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  syntax: "public AzureBlobStorageLinkedService withConnectionString(Object connectionString)"
+  desc: "Set the connectionString property: The connection string. It is mutually exclusive with sasUri, serviceEndpoint property. Type: string, SecureString or AzureKeyVaultSecretReference."
+  returns:
+    description: "the AzureBlobStorageLinkedService object itself."
     type: "<xref href=\"com.azure.resourcemanager.datafactory.models.AzureBlobStorageLinkedService?alt=com.azure.resourcemanager.datafactory.models.AzureBlobStorageLinkedService&text=AzureBlobStorageLinkedService\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.datafactory.models.AzureBlobStorageLinkedService.withContainerUri(java.lang.Object)"
   fullName: "com.azure.resourcemanager.datafactory.models.AzureBlobStorageLinkedService.withContainerUri(Object containerUri)"

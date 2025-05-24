@@ -63,16 +63,6 @@ methods:
   returns:
     description: "The implementation handle."
     type: "<xref href=\"com.microsoft.cognitiveservices.speech.util.SafeHandle?alt=com.microsoft.cognitiveservices.speech.util.SafeHandle&text=SafeHandle\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.cognitiveservices.speech.VoiceInfo.getLocale()"
-  fullName: "com.microsoft.cognitiveservices.speech.VoiceInfo.getLocale()"
-  name: "getLocale()"
-  nameWithType: "VoiceInfo.getLocale()"
-  summary: "Gets the locale of the voice."
-  syntax: "public String getLocale()"
-  desc: "Gets the locale of the voice."
-  returns:
-    description: "The locale."
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.cognitiveservices.speech.VoiceInfo.getLocalName()"
   fullName: "com.microsoft.cognitiveservices.speech.VoiceInfo.getLocalName()"
   name: "getLocalName()"
@@ -82,6 +72,16 @@ methods:
   desc: "Gets the local name of the voice."
   returns:
     description: "The local name."
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.cognitiveservices.speech.VoiceInfo.getLocale()"
+  fullName: "com.microsoft.cognitiveservices.speech.VoiceInfo.getLocale()"
+  name: "getLocale()"
+  nameWithType: "VoiceInfo.getLocale()"
+  summary: "Gets the locale of the voice."
+  syntax: "public String getLocale()"
+  desc: "Gets the locale of the voice."
+  returns:
+    description: "The locale."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.cognitiveservices.speech.VoiceInfo.getName()"
   fullName: "com.microsoft.cognitiveservices.speech.VoiceInfo.getName()"

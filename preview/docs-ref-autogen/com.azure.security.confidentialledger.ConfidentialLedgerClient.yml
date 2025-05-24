@@ -342,6 +342,20 @@ methods:
   returns:
     description: "the status of an entry identified by a transaction id along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.security.confidentialledger.ConfidentialLedgerClient.getUserDefinedEndpointWithResponse(com.azure.core.http.rest.RequestOptions)"
+  fullName: "com.azure.security.confidentialledger.ConfidentialLedgerClient.getUserDefinedEndpointWithResponse(RequestOptions requestOptions)"
+  name: "getUserDefinedEndpointWithResponse(RequestOptions requestOptions)"
+  nameWithType: "ConfidentialLedgerClient.getUserDefinedEndpointWithResponse(RequestOptions requestOptions)"
+  summary: "Gets a user defined endpoint."
+  parameters:
+  - description: "The options to configure the HTTP request before HTTP client sends it."
+    name: "requestOptions"
+    type: "<xref href=\"com.azure.core.http.rest.RequestOptions?alt=com.azure.core.http.rest.RequestOptions&text=RequestOptions\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public Response<BinaryData> getUserDefinedEndpointWithResponse(RequestOptions requestOptions)"
+  desc: "Gets a user defined endpoint. Returns the user defined endpoint in the ACL instance.\n\n**Response Body Schema**\n\n```java\n{\n     metadata (Required): {\n         endpoints (Required): {\n             String (Required): {\n                 get (Optional): {\n                     authn_policies (Required): [\n                         Object (Required)\n                     ]\n                     forwarding_required: String(sometimes/always/never) (Required)\n                     interpreter_reuse (Optional): {\n                         key: String (Required)\n                     }\n                     js_function: String (Optional)\n                     js_module: String (Optional)\n                     mode: String(readwrite/readonly/historical) (Optional)\n                     openapi: Object (Optional)\n                     openapi_hidden: Boolean (Optional)\n                     redirection_strategy: String(none/to_primary/to_backup) (Optional)\n                 }\n                 put (Optional): (recursive schema, see put above)\n                 patch (Optional): (recursive schema, see patch above)\n                 delete (Optional): (recursive schema, see delete above)\n             }\n         }\n     }\n     modules: Object (Required)\n }\n```"
+  returns:
+    description: "bundle for the user defined endpoints along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
+    type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.security.confidentialledger.ConfidentialLedgerClient.getUserDefinedEndpointsModuleWithResponse(java.lang.String,com.azure.core.http.rest.RequestOptions)"
   fullName: "com.azure.security.confidentialledger.ConfidentialLedgerClient.getUserDefinedEndpointsModuleWithResponse(String moduleName, RequestOptions requestOptions)"
   name: "getUserDefinedEndpointsModuleWithResponse(String moduleName, RequestOptions requestOptions)"
@@ -358,20 +372,6 @@ methods:
   desc: "Module for user defined endpoints. It gets the module for the user defined endpoint.\n\n**Response Body Schema**\n\n```java\n{\n     module: String (Required)\n     name: String (Required)\n }\n```"
   returns:
     description: "the response body along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
-    type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.security.confidentialledger.ConfidentialLedgerClient.getUserDefinedEndpointWithResponse(com.azure.core.http.rest.RequestOptions)"
-  fullName: "com.azure.security.confidentialledger.ConfidentialLedgerClient.getUserDefinedEndpointWithResponse(RequestOptions requestOptions)"
-  name: "getUserDefinedEndpointWithResponse(RequestOptions requestOptions)"
-  nameWithType: "ConfidentialLedgerClient.getUserDefinedEndpointWithResponse(RequestOptions requestOptions)"
-  summary: "Gets a user defined endpoint."
-  parameters:
-  - description: "The options to configure the HTTP request before HTTP client sends it."
-    name: "requestOptions"
-    type: "<xref href=\"com.azure.core.http.rest.RequestOptions?alt=com.azure.core.http.rest.RequestOptions&text=RequestOptions\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public Response<BinaryData> getUserDefinedEndpointWithResponse(RequestOptions requestOptions)"
-  desc: "Gets a user defined endpoint. Returns the user defined endpoint in the ACL instance.\n\n**Response Body Schema**\n\n```java\n{\n     metadata (Required): {\n         endpoints (Required): {\n             String (Required): {\n                 get (Optional): {\n                     authn_policies (Required): [\n                         Object (Required)\n                     ]\n                     forwarding_required: String(sometimes/always/never) (Required)\n                     interpreter_reuse (Optional): {\n                         key: String (Required)\n                     }\n                     js_function: String (Optional)\n                     js_module: String (Optional)\n                     mode: String(readwrite/readonly/historical) (Optional)\n                     openapi: Object (Optional)\n                     openapi_hidden: Boolean (Optional)\n                     redirection_strategy: String(none/to_primary/to_backup) (Optional)\n                 }\n                 put (Optional): (recursive schema, see put above)\n                 patch (Optional): (recursive schema, see patch above)\n                 delete (Optional): (recursive schema, see delete above)\n             }\n         }\n     }\n     modules: Object (Required)\n }\n```"
-  returns:
-    description: "bundle for the user defined endpoints along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.security.confidentialledger.ConfidentialLedgerClient.getUserDefinedFunctionWithResponse(java.lang.String,com.azure.core.http.rest.RequestOptions)"
   fullName: "com.azure.security.confidentialledger.ConfidentialLedgerClient.getUserDefinedFunctionWithResponse(String functionId, RequestOptions requestOptions)"

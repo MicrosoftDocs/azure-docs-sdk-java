@@ -70,6 +70,22 @@ methods:
   returns:
     description: "the next stage of autoscale setting update."
     type: "<xref href=\"com.azure.resourcemanager.monitor.models.AutoscaleSetting.Update?alt=com.azure.resourcemanager.monitor.models.AutoscaleSetting.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.monitor.models.AutoscaleSetting.UpdateStages.UpdateAutoscaleSettings.withWebhookNotification(java.lang.String)"
+  fullName: "com.azure.resourcemanager.monitor.models.AutoscaleSetting.UpdateStages.UpdateAutoscaleSettings.withWebhookNotification(String serviceUri)"
+  name: "withWebhookNotification(String serviceUri)"
+  nameWithType: "AutoscaleSetting.UpdateStages.UpdateAutoscaleSettings.withWebhookNotification(String serviceUri)"
+  summary: "Set the service address to receive the notification."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "the serviceUri value to set."
+    name: "serviceUri"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract AutoscaleSetting.Update withWebhookNotification(String serviceUri)"
+  desc: "Set the service address to receive the notification."
+  returns:
+    description: "the next stage of autoscale setting update."
+    type: "<xref href=\"com.azure.resourcemanager.monitor.models.AutoscaleSetting.Update?alt=com.azure.resourcemanager.monitor.models.AutoscaleSetting.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.monitor.models.AutoscaleSetting.UpdateStages.UpdateAutoscaleSettings.withoutAdminEmailNotification()"
   fullName: "com.azure.resourcemanager.monitor.models.AutoscaleSetting.UpdateStages.UpdateAutoscaleSettings.withoutAdminEmailNotification()"
   name: "withoutAdminEmailNotification()"
@@ -115,22 +131,6 @@ methods:
   - "abstract"
   syntax: "public abstract AutoscaleSetting.Update withoutWebhookNotification()"
   desc: "Removes service from autoscale notification."
-  returns:
-    description: "the next stage of autoscale setting update."
-    type: "<xref href=\"com.azure.resourcemanager.monitor.models.AutoscaleSetting.Update?alt=com.azure.resourcemanager.monitor.models.AutoscaleSetting.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.monitor.models.AutoscaleSetting.UpdateStages.UpdateAutoscaleSettings.withWebhookNotification(java.lang.String)"
-  fullName: "com.azure.resourcemanager.monitor.models.AutoscaleSetting.UpdateStages.UpdateAutoscaleSettings.withWebhookNotification(String serviceUri)"
-  name: "withWebhookNotification(String serviceUri)"
-  nameWithType: "AutoscaleSetting.UpdateStages.UpdateAutoscaleSettings.withWebhookNotification(String serviceUri)"
-  summary: "Set the service address to receive the notification."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "the serviceUri value to set."
-    name: "serviceUri"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public abstract AutoscaleSetting.Update withWebhookNotification(String serviceUri)"
-  desc: "Set the service address to receive the notification."
   returns:
     description: "the next stage of autoscale setting update."
     type: "<xref href=\"com.azure.resourcemanager.monitor.models.AutoscaleSetting.Update?alt=com.azure.resourcemanager.monitor.models.AutoscaleSetting.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"

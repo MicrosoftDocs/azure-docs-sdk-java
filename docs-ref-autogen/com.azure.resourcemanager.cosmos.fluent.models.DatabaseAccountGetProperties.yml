@@ -319,16 +319,6 @@ methods:
   returns:
     description: "the isVirtualNetworkFilterEnabled value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
-- uid: "com.azure.resourcemanager.cosmos.fluent.models.DatabaseAccountGetProperties.keysMetadata()"
-  fullName: "com.azure.resourcemanager.cosmos.fluent.models.DatabaseAccountGetProperties.keysMetadata()"
-  name: "keysMetadata()"
-  nameWithType: "DatabaseAccountGetProperties.keysMetadata()"
-  summary: "Get the keys<wbr>Metadata property: The object that represents the metadata for the Account Keys of the Cosmos DB account."
-  syntax: "public DatabaseAccountKeysMetadata keysMetadata()"
-  desc: "Get the keysMetadata property: The object that represents the metadata for the Account Keys of the Cosmos DB account."
-  returns:
-    description: "the keysMetadata value."
-    type: "<xref href=\"com.azure.resourcemanager.cosmos.models.DatabaseAccountKeysMetadata?alt=com.azure.resourcemanager.cosmos.models.DatabaseAccountKeysMetadata&text=DatabaseAccountKeysMetadata\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.cosmos.fluent.models.DatabaseAccountGetProperties.keyVaultKeyUri()"
   fullName: "com.azure.resourcemanager.cosmos.fluent.models.DatabaseAccountGetProperties.keyVaultKeyUri()"
   name: "keyVaultKeyUri()"
@@ -339,6 +329,16 @@ methods:
   returns:
     description: "the keyVaultKeyUri value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.cosmos.fluent.models.DatabaseAccountGetProperties.keysMetadata()"
+  fullName: "com.azure.resourcemanager.cosmos.fluent.models.DatabaseAccountGetProperties.keysMetadata()"
+  name: "keysMetadata()"
+  nameWithType: "DatabaseAccountGetProperties.keysMetadata()"
+  summary: "Get the keys<wbr>Metadata property: The object that represents the metadata for the Account Keys of the Cosmos DB account."
+  syntax: "public DatabaseAccountKeysMetadata keysMetadata()"
+  desc: "Get the keysMetadata property: The object that represents the metadata for the Account Keys of the Cosmos DB account."
+  returns:
+    description: "the keysMetadata value."
+    type: "<xref href=\"com.azure.resourcemanager.cosmos.models.DatabaseAccountKeysMetadata?alt=com.azure.resourcemanager.cosmos.models.DatabaseAccountKeysMetadata&text=DatabaseAccountKeysMetadata\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.cosmos.fluent.models.DatabaseAccountGetProperties.locations()"
   fullName: "com.azure.resourcemanager.cosmos.fluent.models.DatabaseAccountGetProperties.locations()"
   name: "locations()"
@@ -395,7 +395,7 @@ methods:
   nameWithType: "DatabaseAccountGetProperties.provisioningState()"
   summary: "Get the provisioning<wbr>State property: The status of the Cosmos DB account at the time the operation was called."
   syntax: "public String provisioningState()"
-  desc: "Get the provisioningState property: The status of the Cosmos DB account at the time the operation was called. The status can be one of following. 'Creating' – the Cosmos DB account is being created. When an account is in Creating state, only properties that are specified as input for the Create Cosmos DB account operation are returned. 'Succeeded' – the Cosmos DB account is active for use. 'Updating' – the Cosmos DB account is being updated. 'Deleting' – the Cosmos DB account is being deleted. 'Failed' – the Cosmos DB account failed creation. 'DeletionFailed' – the Cosmos DB account deletion failed."
+  desc: "Get the provisioningState property: The status of the Cosmos DB account at the time the operation was called. The status can be one of following. 'Creating' \\\\u2013 the Cosmos DB account is being created. When an account is in Creating state, only properties that are specified as input for the Create Cosmos DB account operation are returned. 'Succeeded' \\\\u2013 the Cosmos DB account is active for use. 'Updating' \\\\u2013 the Cosmos DB account is being updated. 'Deleting' \\\\u2013 the Cosmos DB account is being deleted. 'Failed' \\\\u2013 the Cosmos DB account failed creation. 'DeletionFailed' \\\\u2013 the Cosmos DB account deletion failed."
   returns:
     description: "the provisioningState value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"

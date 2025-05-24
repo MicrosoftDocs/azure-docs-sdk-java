@@ -90,18 +90,6 @@ methods:
   returns:
     description: "the httpPipeline value."
     type: "<xref href=\"com.azure.core.http.HttpPipeline?alt=com.azure.core.http.HttpPipeline&text=HttpPipeline\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.chaos.fluent.ChaosManagementClient.getOperations()"
-  fullName: "com.azure.resourcemanager.chaos.fluent.ChaosManagementClient.getOperations()"
-  name: "getOperations()"
-  nameWithType: "ChaosManagementClient.getOperations()"
-  summary: "Gets the Operations<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract OperationsClient getOperations()"
-  desc: "Gets the OperationsClient object to access its operations."
-  returns:
-    description: "the OperationsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.chaos.fluent.OperationsClient?alt=com.azure.resourcemanager.chaos.fluent.OperationsClient&text=OperationsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.chaos.fluent.ChaosManagementClient.getOperationStatuses()"
   fullName: "com.azure.resourcemanager.chaos.fluent.ChaosManagementClient.getOperationStatuses()"
   name: "getOperationStatuses()"
@@ -114,6 +102,18 @@ methods:
   returns:
     description: "the OperationStatusesClient object."
     type: "<xref href=\"com.azure.resourcemanager.chaos.fluent.OperationStatusesClient?alt=com.azure.resourcemanager.chaos.fluent.OperationStatusesClient&text=OperationStatusesClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.chaos.fluent.ChaosManagementClient.getOperations()"
+  fullName: "com.azure.resourcemanager.chaos.fluent.ChaosManagementClient.getOperations()"
+  name: "getOperations()"
+  nameWithType: "ChaosManagementClient.getOperations()"
+  summary: "Gets the Operations<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract OperationsClient getOperations()"
+  desc: "Gets the OperationsClient object to access its operations."
+  returns:
+    description: "the OperationsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.chaos.fluent.OperationsClient?alt=com.azure.resourcemanager.chaos.fluent.OperationsClient&text=OperationsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.chaos.fluent.ChaosManagementClient.getSubscriptionId()"
   fullName: "com.azure.resourcemanager.chaos.fluent.ChaosManagementClient.getSubscriptionId()"
   name: "getSubscriptionId()"
@@ -126,18 +126,6 @@ methods:
   returns:
     description: "the subscriptionId value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.chaos.fluent.ChaosManagementClient.getTargets()"
-  fullName: "com.azure.resourcemanager.chaos.fluent.ChaosManagementClient.getTargets()"
-  name: "getTargets()"
-  nameWithType: "ChaosManagementClient.getTargets()"
-  summary: "Gets the Targets<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract TargetsClient getTargets()"
-  desc: "Gets the TargetsClient object to access its operations."
-  returns:
-    description: "the TargetsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.chaos.fluent.TargetsClient?alt=com.azure.resourcemanager.chaos.fluent.TargetsClient&text=TargetsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.chaos.fluent.ChaosManagementClient.getTargetTypes()"
   fullName: "com.azure.resourcemanager.chaos.fluent.ChaosManagementClient.getTargetTypes()"
   name: "getTargetTypes()"
@@ -150,6 +138,18 @@ methods:
   returns:
     description: "the TargetTypesClient object."
     type: "<xref href=\"com.azure.resourcemanager.chaos.fluent.TargetTypesClient?alt=com.azure.resourcemanager.chaos.fluent.TargetTypesClient&text=TargetTypesClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.chaos.fluent.ChaosManagementClient.getTargets()"
+  fullName: "com.azure.resourcemanager.chaos.fluent.ChaosManagementClient.getTargets()"
+  name: "getTargets()"
+  nameWithType: "ChaosManagementClient.getTargets()"
+  summary: "Gets the Targets<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract TargetsClient getTargets()"
+  desc: "Gets the TargetsClient object to access its operations."
+  returns:
+    description: "the TargetsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.chaos.fluent.TargetsClient?alt=com.azure.resourcemanager.chaos.fluent.TargetsClient&text=TargetsClient\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 desc: "The interface for ChaosManagementClient class."
 metadata: {}

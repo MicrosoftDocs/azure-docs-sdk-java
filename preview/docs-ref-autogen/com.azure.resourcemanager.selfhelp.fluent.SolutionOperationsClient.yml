@@ -10,7 +10,7 @@ methods:
   fullName: "com.azure.resourcemanager.selfhelp.fluent.SolutionOperationsClient.beginCreate(String scope, String solutionResourceName)"
   name: "beginCreate(String scope, String solutionResourceName)"
   nameWithType: "SolutionOperationsClient.beginCreate(String scope, String solutionResourceName)"
-  summary: "Creates a solution for the specific Azure resource or subscription using the inputs ‘solution<wbr>Id and required<wbr>Inputs’ from discovery solutions."
+  summary: "Creates a solution for the specific Azure resource or subscription using the inputs \\\\u2018solution<wbr>Id and required<wbr>Inputs\\\\u2019 from discovery solutions."
   modifiers:
   - "abstract"
   parameters:
@@ -21,7 +21,7 @@ methods:
     name: "solutionResourceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract SyncPoller<PollResult<SolutionResourceInner>,SolutionResourceInner> beginCreate(String scope, String solutionResourceName)"
-  desc: "Creates a solution for the specific Azure resource or subscription using the inputs ‘solutionId and requiredInputs’ from discovery solutions. <br/> Azure solutions comprise a comprehensive library of self-help resources that have been thoughtfully curated by Azure engineers to aid customers in resolving typical troubleshooting issues. These solutions encompass: <br/> (1.) Dynamic and context-aware diagnostics, guided troubleshooting wizards, and data visualizations. <br/> (2.) Rich instructional video tutorials and illustrative diagrams and images. <br/> (3.) Thoughtfully assembled textual troubleshooting instructions. <br/> All these components are seamlessly converged into unified solutions tailored to address a specific support problem area."
+  desc: "Creates a solution for the specific Azure resource or subscription using the inputs \\\\u2018solutionId and requiredInputs\\\\u2019 from discovery solutions. <br/> Azure solutions comprise a comprehensive library of self-help resources that have been thoughtfully curated by Azure engineers to aid customers in resolving typical troubleshooting issues. These solutions encompass: <br/> (1.) Dynamic and context-aware diagnostics, guided troubleshooting wizards, and data visualizations. <br/> (2.) Rich instructional video tutorials and illustrative diagrams and images. <br/> (3.) Thoughtfully assembled textual troubleshooting instructions. <br/> All these components are seamlessly converged into unified solutions tailored to address a specific support problem area."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of solution response."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.selfhelp.fluent.models.SolutionResourceInner?alt=com.azure.resourcemanager.selfhelp.fluent.models.SolutionResourceInner&text=SolutionResourceInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.selfhelp.fluent.models.SolutionResourceInner?alt=com.azure.resourcemanager.selfhelp.fluent.models.SolutionResourceInner&text=SolutionResourceInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -29,7 +29,7 @@ methods:
   fullName: "com.azure.resourcemanager.selfhelp.fluent.SolutionOperationsClient.beginCreate(String scope, String solutionResourceName, SolutionResourceInner solutionRequestBody, Context context)"
   name: "beginCreate(String scope, String solutionResourceName, SolutionResourceInner solutionRequestBody, Context context)"
   nameWithType: "SolutionOperationsClient.beginCreate(String scope, String solutionResourceName, SolutionResourceInner solutionRequestBody, Context context)"
-  summary: "Creates a solution for the specific Azure resource or subscription using the inputs ‘solution<wbr>Id and required<wbr>Inputs’ from discovery solutions."
+  summary: "Creates a solution for the specific Azure resource or subscription using the inputs \\\\u2018solution<wbr>Id and required<wbr>Inputs\\\\u2019 from discovery solutions."
   modifiers:
   - "abstract"
   parameters:
@@ -46,7 +46,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<SolutionResourceInner>,SolutionResourceInner> beginCreate(String scope, String solutionResourceName, SolutionResourceInner solutionRequestBody, Context context)"
-  desc: "Creates a solution for the specific Azure resource or subscription using the inputs ‘solutionId and requiredInputs’ from discovery solutions. <br/> Azure solutions comprise a comprehensive library of self-help resources that have been thoughtfully curated by Azure engineers to aid customers in resolving typical troubleshooting issues. These solutions encompass: <br/> (1.) Dynamic and context-aware diagnostics, guided troubleshooting wizards, and data visualizations. <br/> (2.) Rich instructional video tutorials and illustrative diagrams and images. <br/> (3.) Thoughtfully assembled textual troubleshooting instructions. <br/> All these components are seamlessly converged into unified solutions tailored to address a specific support problem area."
+  desc: "Creates a solution for the specific Azure resource or subscription using the inputs \\\\u2018solutionId and requiredInputs\\\\u2019 from discovery solutions. <br/> Azure solutions comprise a comprehensive library of self-help resources that have been thoughtfully curated by Azure engineers to aid customers in resolving typical troubleshooting issues. These solutions encompass: <br/> (1.) Dynamic and context-aware diagnostics, guided troubleshooting wizards, and data visualizations. <br/> (2.) Rich instructional video tutorials and illustrative diagrams and images. <br/> (3.) Thoughtfully assembled textual troubleshooting instructions. <br/> All these components are seamlessly converged into unified solutions tailored to address a specific support problem area."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of solution response."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.selfhelp.fluent.models.SolutionResourceInner?alt=com.azure.resourcemanager.selfhelp.fluent.models.SolutionResourceInner&text=SolutionResourceInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.selfhelp.fluent.models.SolutionResourceInner?alt=com.azure.resourcemanager.selfhelp.fluent.models.SolutionResourceInner&text=SolutionResourceInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -98,7 +98,7 @@ methods:
   fullName: "com.azure.resourcemanager.selfhelp.fluent.SolutionOperationsClient.create(String scope, String solutionResourceName)"
   name: "create(String scope, String solutionResourceName)"
   nameWithType: "SolutionOperationsClient.create(String scope, String solutionResourceName)"
-  summary: "Creates a solution for the specific Azure resource or subscription using the inputs ‘solution<wbr>Id and required<wbr>Inputs’ from discovery solutions."
+  summary: "Creates a solution for the specific Azure resource or subscription using the inputs \\\\u2018solution<wbr>Id and required<wbr>Inputs\\\\u2019 from discovery solutions."
   modifiers:
   - "abstract"
   parameters:
@@ -109,7 +109,7 @@ methods:
     name: "solutionResourceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract SolutionResourceInner create(String scope, String solutionResourceName)"
-  desc: "Creates a solution for the specific Azure resource or subscription using the inputs ‘solutionId and requiredInputs’ from discovery solutions. <br/> Azure solutions comprise a comprehensive library of self-help resources that have been thoughtfully curated by Azure engineers to aid customers in resolving typical troubleshooting issues. These solutions encompass: <br/> (1.) Dynamic and context-aware diagnostics, guided troubleshooting wizards, and data visualizations. <br/> (2.) Rich instructional video tutorials and illustrative diagrams and images. <br/> (3.) Thoughtfully assembled textual troubleshooting instructions. <br/> All these components are seamlessly converged into unified solutions tailored to address a specific support problem area."
+  desc: "Creates a solution for the specific Azure resource or subscription using the inputs \\\\u2018solutionId and requiredInputs\\\\u2019 from discovery solutions. <br/> Azure solutions comprise a comprehensive library of self-help resources that have been thoughtfully curated by Azure engineers to aid customers in resolving typical troubleshooting issues. These solutions encompass: <br/> (1.) Dynamic and context-aware diagnostics, guided troubleshooting wizards, and data visualizations. <br/> (2.) Rich instructional video tutorials and illustrative diagrams and images. <br/> (3.) Thoughtfully assembled textual troubleshooting instructions. <br/> All these components are seamlessly converged into unified solutions tailored to address a specific support problem area."
   returns:
     description: "solution response."
     type: "<xref href=\"com.azure.resourcemanager.selfhelp.fluent.models.SolutionResourceInner?alt=com.azure.resourcemanager.selfhelp.fluent.models.SolutionResourceInner&text=SolutionResourceInner\" data-throw-if-not-resolved=\"False\" />"
@@ -117,7 +117,7 @@ methods:
   fullName: "com.azure.resourcemanager.selfhelp.fluent.SolutionOperationsClient.create(String scope, String solutionResourceName, SolutionResourceInner solutionRequestBody, Context context)"
   name: "create(String scope, String solutionResourceName, SolutionResourceInner solutionRequestBody, Context context)"
   nameWithType: "SolutionOperationsClient.create(String scope, String solutionResourceName, SolutionResourceInner solutionRequestBody, Context context)"
-  summary: "Creates a solution for the specific Azure resource or subscription using the inputs ‘solution<wbr>Id and required<wbr>Inputs’ from discovery solutions."
+  summary: "Creates a solution for the specific Azure resource or subscription using the inputs \\\\u2018solution<wbr>Id and required<wbr>Inputs\\\\u2019 from discovery solutions."
   modifiers:
   - "abstract"
   parameters:
@@ -134,7 +134,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SolutionResourceInner create(String scope, String solutionResourceName, SolutionResourceInner solutionRequestBody, Context context)"
-  desc: "Creates a solution for the specific Azure resource or subscription using the inputs ‘solutionId and requiredInputs’ from discovery solutions. <br/> Azure solutions comprise a comprehensive library of self-help resources that have been thoughtfully curated by Azure engineers to aid customers in resolving typical troubleshooting issues. These solutions encompass: <br/> (1.) Dynamic and context-aware diagnostics, guided troubleshooting wizards, and data visualizations. <br/> (2.) Rich instructional video tutorials and illustrative diagrams and images. <br/> (3.) Thoughtfully assembled textual troubleshooting instructions. <br/> All these components are seamlessly converged into unified solutions tailored to address a specific support problem area."
+  desc: "Creates a solution for the specific Azure resource or subscription using the inputs \\\\u2018solutionId and requiredInputs\\\\u2019 from discovery solutions. <br/> Azure solutions comprise a comprehensive library of self-help resources that have been thoughtfully curated by Azure engineers to aid customers in resolving typical troubleshooting issues. These solutions encompass: <br/> (1.) Dynamic and context-aware diagnostics, guided troubleshooting wizards, and data visualizations. <br/> (2.) Rich instructional video tutorials and illustrative diagrams and images. <br/> (3.) Thoughtfully assembled textual troubleshooting instructions. <br/> All these components are seamlessly converged into unified solutions tailored to address a specific support problem area."
   returns:
     description: "solution response."
     type: "<xref href=\"com.azure.resourcemanager.selfhelp.fluent.models.SolutionResourceInner?alt=com.azure.resourcemanager.selfhelp.fluent.models.SolutionResourceInner&text=SolutionResourceInner\" data-throw-if-not-resolved=\"False\" />"

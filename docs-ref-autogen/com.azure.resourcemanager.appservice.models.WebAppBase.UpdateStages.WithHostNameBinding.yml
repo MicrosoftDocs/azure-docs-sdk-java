@@ -37,22 +37,6 @@ methods:
   returns:
     description: "the next stage of web app update"
     type: "<xref href=\"com.azure.resourcemanager.appservice.models.WebAppBase.Update?alt=com.azure.resourcemanager.appservice.models.WebAppBase.Update&text=Update\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"FluentT?alt=FluentT&text=FluentT\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.resourcemanager.appservice.models.WebAppBase.UpdateStages.WithHostNameBinding.withoutHostnameBinding(java.lang.String)"
-  fullName: "com.azure.resourcemanager.appservice.models.WebAppBase.UpdateStages.WithHostNameBinding<FluentT>.withoutHostnameBinding(String hostname)"
-  name: "withoutHostnameBinding(String hostname)"
-  nameWithType: "WebAppBase.UpdateStages.WithHostNameBinding<FluentT>.withoutHostnameBinding(String hostname)"
-  summary: "Unbinds a hostname from the web app."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "the hostname to unbind"
-    name: "hostname"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public abstract WebAppBase.Update<FluentT> withoutHostnameBinding(String hostname)"
-  desc: "Unbinds a hostname from the web app."
-  returns:
-    description: "the next stage of web app update"
-    type: "<xref href=\"com.azure.resourcemanager.appservice.models.WebAppBase.Update?alt=com.azure.resourcemanager.appservice.models.WebAppBase.Update&text=Update\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"FluentT?alt=FluentT&text=FluentT\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.appservice.models.WebAppBase.UpdateStages.WithHostNameBinding.withThirdPartyHostnameBinding(java.lang.String,java.lang.String...)"
   fullName: "com.azure.resourcemanager.appservice.models.WebAppBase.UpdateStages.WithHostNameBinding<FluentT>.withThirdPartyHostnameBinding(String domain, String[] hostnames)"
   name: "withThirdPartyHostnameBinding(String domain, String[] hostnames)"
@@ -69,6 +53,22 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>[]"
   syntax: "public abstract WebAppBase.Update<FluentT> withThirdPartyHostnameBinding(String domain, String[] hostnames)"
   desc: "Defines a list of host names of an externally purchased domain. The hostnames must be configured before hand to point to the web app."
+  returns:
+    description: "the next stage of web app update"
+    type: "<xref href=\"com.azure.resourcemanager.appservice.models.WebAppBase.Update?alt=com.azure.resourcemanager.appservice.models.WebAppBase.Update&text=Update\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"FluentT?alt=FluentT&text=FluentT\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.appservice.models.WebAppBase.UpdateStages.WithHostNameBinding.withoutHostnameBinding(java.lang.String)"
+  fullName: "com.azure.resourcemanager.appservice.models.WebAppBase.UpdateStages.WithHostNameBinding<FluentT>.withoutHostnameBinding(String hostname)"
+  name: "withoutHostnameBinding(String hostname)"
+  nameWithType: "WebAppBase.UpdateStages.WithHostNameBinding<FluentT>.withoutHostnameBinding(String hostname)"
+  summary: "Unbinds a hostname from the web app."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "the hostname to unbind"
+    name: "hostname"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract WebAppBase.Update<FluentT> withoutHostnameBinding(String hostname)"
+  desc: "Unbinds a hostname from the web app."
   returns:
     description: "the next stage of web app update"
     type: "<xref href=\"com.azure.resourcemanager.appservice.models.WebAppBase.Update?alt=com.azure.resourcemanager.appservice.models.WebAppBase.Update&text=Update\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"FluentT?alt=FluentT&text=FluentT\" data-throw-if-not-resolved=\"False\" />&gt;"

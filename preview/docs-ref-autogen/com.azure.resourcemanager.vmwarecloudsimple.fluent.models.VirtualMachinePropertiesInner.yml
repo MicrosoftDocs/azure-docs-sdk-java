@@ -251,6 +251,16 @@ methods:
   returns:
     description: "the username value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.vmwarecloudsimple.fluent.models.VirtualMachinePropertiesInner.vSphereNetworks()"
+  fullName: "com.azure.resourcemanager.vmwarecloudsimple.fluent.models.VirtualMachinePropertiesInner.vSphereNetworks()"
+  name: "vSphereNetworks()"
+  nameWithType: "VirtualMachinePropertiesInner.vSphereNetworks()"
+  summary: "Get the v<wbr>Sphere<wbr>Networks property: The list of Virtual VSphere Networks."
+  syntax: "public List<String> vSphereNetworks()"
+  desc: "Get the vSphereNetworks property: The list of Virtual VSphere Networks."
+  returns:
+    description: "the vSphereNetworks value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
 - uid: "com.azure.resourcemanager.vmwarecloudsimple.fluent.models.VirtualMachinePropertiesInner.validate()"
   fullName: "com.azure.resourcemanager.vmwarecloudsimple.fluent.models.VirtualMachinePropertiesInner.validate()"
   name: "validate()"
@@ -278,16 +288,6 @@ methods:
   returns:
     description: "the vmwaretools value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.vmwarecloudsimple.fluent.models.VirtualMachinePropertiesInner.vSphereNetworks()"
-  fullName: "com.azure.resourcemanager.vmwarecloudsimple.fluent.models.VirtualMachinePropertiesInner.vSphereNetworks()"
-  name: "vSphereNetworks()"
-  nameWithType: "VirtualMachinePropertiesInner.vSphereNetworks()"
-  summary: "Get the v<wbr>Sphere<wbr>Networks property: The list of Virtual VSphere Networks."
-  syntax: "public List<String> vSphereNetworks()"
-  desc: "Get the vSphereNetworks property: The list of Virtual VSphere Networks."
-  returns:
-    description: "the vSphereNetworks value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
 - uid: "com.azure.resourcemanager.vmwarecloudsimple.fluent.models.VirtualMachinePropertiesInner.withAmountOfRam(int)"
   fullName: "com.azure.resourcemanager.vmwarecloudsimple.fluent.models.VirtualMachinePropertiesInner.withAmountOfRam(int amountOfRam)"
   name: "withAmountOfRam(int amountOfRam)"

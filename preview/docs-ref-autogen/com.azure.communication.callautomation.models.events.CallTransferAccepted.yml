@@ -49,16 +49,6 @@ methods:
   returns:
     description: "An instance of CallTransferAccepted if the JsonReader was pointing to an instance of it, or null\n if it was pointing to JSON null."
     type: "<xref href=\"com.azure.communication.callautomation.models.events.CallTransferAccepted?alt=com.azure.communication.callautomation.models.events.CallTransferAccepted&text=CallTransferAccepted\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.communication.callautomation.models.events.CallTransferAccepted.getTransferee()"
-  fullName: "com.azure.communication.callautomation.models.events.CallTransferAccepted.getTransferee()"
-  name: "getTransferee()"
-  nameWithType: "CallTransferAccepted.getTransferee()"
-  summary: "The participant who is being transferred away"
-  syntax: "public CommunicationIdentifier getTransferee()"
-  desc: "The participant who is being transferred away"
-  returns:
-    description: "the transferee value"
-    type: "<xref href=\"com.azure.communication.common.CommunicationIdentifier?alt=com.azure.communication.common.CommunicationIdentifier&text=CommunicationIdentifier\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.communication.callautomation.models.events.CallTransferAccepted.getTransferTarget()"
   fullName: "com.azure.communication.callautomation.models.events.CallTransferAccepted.getTransferTarget()"
   name: "getTransferTarget()"
@@ -68,6 +58,16 @@ methods:
   desc: "Target to whom the call is transferred."
   returns:
     description: "the transferTarget value"
+    type: "<xref href=\"com.azure.communication.common.CommunicationIdentifier?alt=com.azure.communication.common.CommunicationIdentifier&text=CommunicationIdentifier\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.communication.callautomation.models.events.CallTransferAccepted.getTransferee()"
+  fullName: "com.azure.communication.callautomation.models.events.CallTransferAccepted.getTransferee()"
+  name: "getTransferee()"
+  nameWithType: "CallTransferAccepted.getTransferee()"
+  summary: "The participant who is being transferred away"
+  syntax: "public CommunicationIdentifier getTransferee()"
+  desc: "The participant who is being transferred away"
+  returns:
+    description: "the transferee value"
     type: "<xref href=\"com.azure.communication.common.CommunicationIdentifier?alt=com.azure.communication.common.CommunicationIdentifier&text=CommunicationIdentifier\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.communication.callautomation.models.events.CallTransferAccepted.toJson(com.azure.json.JsonWriter)"
   fullName: "com.azure.communication.callautomation.models.events.CallTransferAccepted.toJson(JsonWriter jsonWriter)"

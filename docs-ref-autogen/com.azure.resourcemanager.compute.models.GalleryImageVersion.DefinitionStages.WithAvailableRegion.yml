@@ -6,22 +6,6 @@ nameWithType: "GalleryImageVersion.DefinitionStages.WithAvailableRegion"
 summary: "The stage of image version definition allowing to specify the regions in which the image version has to be available."
 syntax: "public static interface **GalleryImageVersion.DefinitionStages.WithAvailableRegion**"
 methods:
-- uid: "com.azure.resourcemanager.compute.models.GalleryImageVersion.DefinitionStages.WithAvailableRegion.withRegionAvailability(java.util.List<com.azure.resourcemanager.compute.models.TargetRegion>)"
-  fullName: "com.azure.resourcemanager.compute.models.GalleryImageVersion.DefinitionStages.WithAvailableRegion.withRegionAvailability(List<TargetRegion> regions)"
-  name: "withRegionAvailability(List<TargetRegion> regions)"
-  nameWithType: "GalleryImageVersion.DefinitionStages.WithAvailableRegion.withRegionAvailability(List<TargetRegion> regions)"
-  summary: "Specifies list of regions in which image version needs to be available."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "the region list"
-    name: "regions"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.compute.models.TargetRegion?alt=com.azure.resourcemanager.compute.models.TargetRegion&text=TargetRegion\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public abstract GalleryImageVersion.DefinitionStages.WithCreate withRegionAvailability(List<TargetRegion> regions)"
-  desc: "Specifies list of regions in which image version needs to be available."
-  returns:
-    description: "the next definition stage"
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.GalleryImageVersion.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.compute.models.GalleryImageVersion.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.models.GalleryImageVersion.DefinitionStages.WithAvailableRegion.withRegionAvailability(com.azure.core.management.Region,int)"
   fullName: "com.azure.resourcemanager.compute.models.GalleryImageVersion.DefinitionStages.WithAvailableRegion.withRegionAvailability(Region region, int replicaCount)"
   name: "withRegionAvailability(Region region, int replicaCount)"
@@ -38,6 +22,22 @@ methods:
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract GalleryImageVersion.DefinitionStages.WithCreate withRegionAvailability(Region region, int replicaCount)"
   desc: "Specifies a region in which image version needs to be available."
+  returns:
+    description: "the next definition stage"
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.GalleryImageVersion.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.compute.models.GalleryImageVersion.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.GalleryImageVersion.DefinitionStages.WithAvailableRegion.withRegionAvailability(java.util.List<com.azure.resourcemanager.compute.models.TargetRegion>)"
+  fullName: "com.azure.resourcemanager.compute.models.GalleryImageVersion.DefinitionStages.WithAvailableRegion.withRegionAvailability(List<TargetRegion> regions)"
+  name: "withRegionAvailability(List<TargetRegion> regions)"
+  nameWithType: "GalleryImageVersion.DefinitionStages.WithAvailableRegion.withRegionAvailability(List<TargetRegion> regions)"
+  summary: "Specifies list of regions in which image version needs to be available."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "the region list"
+    name: "regions"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.compute.models.TargetRegion?alt=com.azure.resourcemanager.compute.models.TargetRegion&text=TargetRegion\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public abstract GalleryImageVersion.DefinitionStages.WithCreate withRegionAvailability(List<TargetRegion> regions)"
+  desc: "Specifies list of regions in which image version needs to be available."
   returns:
     description: "the next definition stage"
     type: "<xref href=\"com.azure.resourcemanager.compute.models.GalleryImageVersion.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.compute.models.GalleryImageVersion.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"

@@ -149,16 +149,6 @@ methods:
   returns:
     description: "the principalType value."
     type: "<xref href=\"com.azure.resourcemanager.authorization.models.PrincipalType?alt=com.azure.resourcemanager.authorization.models.PrincipalType&text=PrincipalType\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.authorization.fluent.models.RoleEligibilityScheduleRequestInner.requestorId()"
-  fullName: "com.azure.resourcemanager.authorization.fluent.models.RoleEligibilityScheduleRequestInner.requestorId()"
-  name: "requestorId()"
-  nameWithType: "RoleEligibilityScheduleRequestInner.requestorId()"
-  summary: "Get the requestor<wbr>Id property: Id of the user who created this request."
-  syntax: "public String requestorId()"
-  desc: "Get the requestorId property: Id of the user who created this request."
-  returns:
-    description: "the requestorId value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.authorization.fluent.models.RoleEligibilityScheduleRequestInner.requestType()"
   fullName: "com.azure.resourcemanager.authorization.fluent.models.RoleEligibilityScheduleRequestInner.requestType()"
   name: "requestType()"
@@ -169,6 +159,16 @@ methods:
   returns:
     description: "the requestType value."
     type: "<xref href=\"com.azure.resourcemanager.authorization.models.RequestType?alt=com.azure.resourcemanager.authorization.models.RequestType&text=RequestType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.authorization.fluent.models.RoleEligibilityScheduleRequestInner.requestorId()"
+  fullName: "com.azure.resourcemanager.authorization.fluent.models.RoleEligibilityScheduleRequestInner.requestorId()"
+  name: "requestorId()"
+  nameWithType: "RoleEligibilityScheduleRequestInner.requestorId()"
+  summary: "Get the requestor<wbr>Id property: Id of the user who created this request."
+  syntax: "public String requestorId()"
+  desc: "Get the requestorId property: Id of the user who created this request."
+  returns:
+    description: "the requestorId value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.authorization.fluent.models.RoleEligibilityScheduleRequestInner.roleDefinitionId()"
   fullName: "com.azure.resourcemanager.authorization.fluent.models.RoleEligibilityScheduleRequestInner.roleDefinitionId()"
   name: "roleDefinitionId()"

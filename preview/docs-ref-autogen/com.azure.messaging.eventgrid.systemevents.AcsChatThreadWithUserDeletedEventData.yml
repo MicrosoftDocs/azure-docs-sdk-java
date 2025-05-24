@@ -54,16 +54,6 @@ methods:
   returns:
     description: "An instance of AcsChatThreadWithUserDeletedEventData if the JsonReader was pointing to an instance of it,\n or null if it was pointing to JSON null."
     type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsChatThreadWithUserDeletedEventData?alt=com.azure.messaging.eventgrid.systemevents.AcsChatThreadWithUserDeletedEventData&text=AcsChatThreadWithUserDeletedEventData\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.messaging.eventgrid.systemevents.AcsChatThreadWithUserDeletedEventData.getDeletedByCommunicationIdentifier()"
-  fullName: "com.azure.messaging.eventgrid.systemevents.AcsChatThreadWithUserDeletedEventData.getDeletedByCommunicationIdentifier()"
-  name: "getDeletedByCommunicationIdentifier()"
-  nameWithType: "AcsChatThreadWithUserDeletedEventData.getDeletedByCommunicationIdentifier()"
-  summary: "Get the deleted<wbr>ByCommunication<wbr>Identifier property: The communication identifier of the user who deleted the thread."
-  syntax: "public CommunicationIdentifierModel getDeletedByCommunicationIdentifier()"
-  desc: "Get the deletedByCommunicationIdentifier property: The communication identifier of the user who deleted the thread."
-  returns:
-    description: "the deletedByCommunicationIdentifier value."
-    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel?alt=com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel&text=CommunicationIdentifierModel\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.messaging.eventgrid.systemevents.AcsChatThreadWithUserDeletedEventData.getDeleteTime()"
   fullName: "com.azure.messaging.eventgrid.systemevents.AcsChatThreadWithUserDeletedEventData.getDeleteTime()"
   name: "getDeleteTime()"
@@ -74,6 +64,16 @@ methods:
   returns:
     description: "the deleteTime value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsChatThreadWithUserDeletedEventData.getDeletedByCommunicationIdentifier()"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsChatThreadWithUserDeletedEventData.getDeletedByCommunicationIdentifier()"
+  name: "getDeletedByCommunicationIdentifier()"
+  nameWithType: "AcsChatThreadWithUserDeletedEventData.getDeletedByCommunicationIdentifier()"
+  summary: "Get the deleted<wbr>ByCommunication<wbr>Identifier property: The communication identifier of the user who deleted the thread."
+  syntax: "public CommunicationIdentifierModel getDeletedByCommunicationIdentifier()"
+  desc: "Get the deletedByCommunicationIdentifier property: The communication identifier of the user who deleted the thread."
+  returns:
+    description: "the deletedByCommunicationIdentifier value."
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel?alt=com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel&text=CommunicationIdentifierModel\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.messaging.eventgrid.systemevents.AcsChatThreadWithUserDeletedEventData.getTransactionId()"
   fullName: "com.azure.messaging.eventgrid.systemevents.AcsChatThreadWithUserDeletedEventData.getTransactionId()"
   name: "getTransactionId()"

@@ -369,16 +369,6 @@ methods:
   returns:
     description: "the isVirtualNetworkFilterEnabled value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
-- uid: "com.azure.resourcemanager.cosmos.models.DatabaseAccountCreateUpdateParameters.keysMetadata()"
-  fullName: "com.azure.resourcemanager.cosmos.models.DatabaseAccountCreateUpdateParameters.keysMetadata()"
-  name: "keysMetadata()"
-  nameWithType: "DatabaseAccountCreateUpdateParameters.keysMetadata()"
-  summary: "Get the keys<wbr>Metadata property: This property is ignored during the update/create operation, as the metadata is read-only."
-  syntax: "public DatabaseAccountKeysMetadata keysMetadata()"
-  desc: "Get the keysMetadata property: This property is ignored during the update/create operation, as the metadata is read-only. The object represents the metadata for the Account Keys of the Cosmos DB account."
-  returns:
-    description: "the keysMetadata value."
-    type: "<xref href=\"com.azure.resourcemanager.cosmos.models.DatabaseAccountKeysMetadata?alt=com.azure.resourcemanager.cosmos.models.DatabaseAccountKeysMetadata&text=DatabaseAccountKeysMetadata\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.cosmos.models.DatabaseAccountCreateUpdateParameters.keyVaultKeyUri()"
   fullName: "com.azure.resourcemanager.cosmos.models.DatabaseAccountCreateUpdateParameters.keyVaultKeyUri()"
   name: "keyVaultKeyUri()"
@@ -389,6 +379,16 @@ methods:
   returns:
     description: "the keyVaultKeyUri value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.cosmos.models.DatabaseAccountCreateUpdateParameters.keysMetadata()"
+  fullName: "com.azure.resourcemanager.cosmos.models.DatabaseAccountCreateUpdateParameters.keysMetadata()"
+  name: "keysMetadata()"
+  nameWithType: "DatabaseAccountCreateUpdateParameters.keysMetadata()"
+  summary: "Get the keys<wbr>Metadata property: This property is ignored during the update/create operation, as the metadata is read-only."
+  syntax: "public DatabaseAccountKeysMetadata keysMetadata()"
+  desc: "Get the keysMetadata property: This property is ignored during the update/create operation, as the metadata is read-only. The object represents the metadata for the Account Keys of the Cosmos DB account."
+  returns:
+    description: "the keysMetadata value."
+    type: "<xref href=\"com.azure.resourcemanager.cosmos.models.DatabaseAccountKeysMetadata?alt=com.azure.resourcemanager.cosmos.models.DatabaseAccountKeysMetadata&text=DatabaseAccountKeysMetadata\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.cosmos.models.DatabaseAccountCreateUpdateParameters.kind()"
   fullName: "com.azure.resourcemanager.cosmos.models.DatabaseAccountCreateUpdateParameters.kind()"
   name: "kind()"

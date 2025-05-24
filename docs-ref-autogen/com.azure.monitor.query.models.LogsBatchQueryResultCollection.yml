@@ -34,6 +34,23 @@ constructors:
   syntax: "public LogsBatchQueryResultCollection(List<LogsBatchQueryResult> batchResults)"
   desc: "Creates an instance of <xref uid=\"com.azure.monitor.query.models.LogsBatchQueryResultCollection\" data-throw-if-not-resolved=\"false\" data-raw-source=\"LogsBatchQueryResultCollection\"></xref> to hold all results of a batch of logs queries."
 methods:
+- uid: "com.azure.monitor.query.models.LogsBatchQueryResultCollection.<T>getResult(java.lang.String,java.lang.Class<T>)"
+  fullName: "com.azure.monitor.query.models.LogsBatchQueryResultCollection.getResult(String queryId, Class<T> type)"
+  name: "getResult(String queryId, Class<T> type)"
+  nameWithType: "LogsBatchQueryResultCollection.getResult(String queryId, Class<T> type)"
+  summary: "Returns the batch query result of a specific query identified by the query<wbr>Id."
+  parameters:
+  - description: "The query id of a query in the batch request."
+    name: "queryId"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The model type to which the result will be deserialized to."
+    name: "type"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Class.html\">Class</a>&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public List<T> <T>getResult(String queryId, Class<T> type)"
+  desc: "Returns the batch query result of a specific query identified by the queryId."
+  returns:
+    description: "A list of objects of type T that contain the query result of the given query id."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.monitor.query.models.LogsBatchQueryResultCollection.getBatchResults()"
   fullName: "com.azure.monitor.query.models.LogsBatchQueryResultCollection.getBatchResults()"
   name: "getBatchResults()"
@@ -58,23 +75,6 @@ methods:
   returns:
     description: "the result of the given query id."
     type: "<xref href=\"com.azure.monitor.query.models.LogsBatchQueryResult?alt=com.azure.monitor.query.models.LogsBatchQueryResult&text=LogsBatchQueryResult\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.monitor.query.models.LogsBatchQueryResultCollection.<T>getResult(java.lang.String,java.lang.Class<T>)"
-  fullName: "com.azure.monitor.query.models.LogsBatchQueryResultCollection.getResult(String queryId, Class<T> type)"
-  name: "getResult(String queryId, Class<T> type)"
-  nameWithType: "LogsBatchQueryResultCollection.getResult(String queryId, Class<T> type)"
-  summary: "Returns the batch query result of a specific query identified by the query<wbr>Id."
-  parameters:
-  - description: "The query id of a query in the batch request."
-    name: "queryId"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The model type to which the result will be deserialized to."
-    name: "type"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Class.html\">Class</a>&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public List<T> <T>getResult(String queryId, Class<T> type)"
-  desc: "Returns the batch query result of a specific query identified by the queryId."
-  returns:
-    description: "A list of objects of type T that contain the query result of the given query id."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "class"
 desc: "The collection wrapper to hold all results of a batch of logs queries."
 metadata: {}

@@ -112,7 +112,7 @@ methods:
   nameWithType: "VolumeQuotaRuleInner.quotaTarget()"
   summary: "Get the quota<wbr>Target property: UserID/GroupID/SID based on the quota target type."
   syntax: "public String quotaTarget()"
-  desc: "Get the quotaTarget property: UserID/GroupID/SID based on the quota target type. UserID and groupID can be found by running ‘id’ or ‘getent’ command for the user or group and SID can be found by running <wmic useraccount where name='user-name' get sid>."
+  desc: "Get the quotaTarget property: UserID/GroupID/SID based on the quota target type. UserID and groupID can be found by running \\\\u2018id\\\\u2019 or \\\\u2018getent\\\\u2019 command for the user or group and SID can be found by running <wmic useraccount where name='user-name' get sid>."
   returns:
     description: "the quotaTarget value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -202,7 +202,7 @@ methods:
     name: "quotaTarget"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public VolumeQuotaRuleInner withQuotaTarget(String quotaTarget)"
-  desc: "Set the quotaTarget property: UserID/GroupID/SID based on the quota target type. UserID and groupID can be found by running ‘id’ or ‘getent’ command for the user or group and SID can be found by running <wmic useraccount where name='user-name' get sid>."
+  desc: "Set the quotaTarget property: UserID/GroupID/SID based on the quota target type. UserID and groupID can be found by running \\\\u2018id\\\\u2019 or \\\\u2018getent\\\\u2019 command for the user or group and SID can be found by running <wmic useraccount where name='user-name' get sid>."
   returns:
     description: "the VolumeQuotaRuleInner object itself."
     type: "<xref href=\"com.azure.resourcemanager.netapp.fluent.models.VolumeQuotaRuleInner?alt=com.azure.resourcemanager.netapp.fluent.models.VolumeQuotaRuleInner&text=VolumeQuotaRuleInner\" data-throw-if-not-resolved=\"False\" />"

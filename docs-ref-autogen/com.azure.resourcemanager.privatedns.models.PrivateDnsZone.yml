@@ -6,18 +6,6 @@ nameWithType: "PrivateDnsZone"
 summary: "An immutable client-side representation of an Azure Private DNS Zone."
 syntax: "public interface **PrivateDnsZone**</br> extends <xref href=\"com.azure.resourcemanager.resources.fluentcore.arm.models.GroupableResource?alt=com.azure.resourcemanager.resources.fluentcore.arm.models.GroupableResource&text=GroupableResource\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.privatedns.PrivateDnsZoneManager?alt=com.azure.resourcemanager.privatedns.PrivateDnsZoneManager&text=PrivateDnsZoneManager\" data-throw-if-not-resolved=\"False\" />,<xref href=\"com.azure.resourcemanager.privatedns.fluent.models.PrivateZoneInner?alt=com.azure.resourcemanager.privatedns.fluent.models.PrivateZoneInner&text=PrivateZoneInner\" data-throw-if-not-resolved=\"False\" />&gt;, <xref href=\"com.azure.resourcemanager.resources.fluentcore.model.Refreshable?alt=com.azure.resourcemanager.resources.fluentcore.model.Refreshable&text=Refreshable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.privatedns.models.PrivateDnsZone?alt=com.azure.resourcemanager.privatedns.models.PrivateDnsZone&text=PrivateDnsZone\" data-throw-if-not-resolved=\"False\" />&gt;, <xref href=\"com.azure.resourcemanager.resources.fluentcore.model.Updatable?alt=com.azure.resourcemanager.resources.fluentcore.model.Updatable&text=Updatable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.privatedns.models.PrivateDnsZone.Update?alt=com.azure.resourcemanager.privatedns.models.PrivateDnsZone.Update&text=Update\" data-throw-if-not-resolved=\"False\" />&gt;"
 methods:
-- uid: "com.azure.resourcemanager.privatedns.models.PrivateDnsZone.aaaaRecordSets()"
-  fullName: "com.azure.resourcemanager.privatedns.models.PrivateDnsZone.aaaaRecordSets()"
-  name: "aaaaRecordSets()"
-  nameWithType: "PrivateDnsZone.aaaaRecordSets()"
-  summary: "Gets entry point to manage record sets in this zone containing AAAA (IPv6 address) records."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract AaaaRecordSets aaaaRecordSets()"
-  desc: "Gets entry point to manage record sets in this zone containing AAAA (IPv6 address) records."
-  returns:
-    description: "entry point to manage record sets in this zone containing AAAA (IPv6 address) records"
-    type: "<xref href=\"com.azure.resourcemanager.privatedns.models.AaaaRecordSets?alt=com.azure.resourcemanager.privatedns.models.AaaaRecordSets&text=AaaaRecordSets\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.privatedns.models.PrivateDnsZone.aRecordSets()"
   fullName: "com.azure.resourcemanager.privatedns.models.PrivateDnsZone.aRecordSets()"
   name: "aRecordSets()"
@@ -30,6 +18,18 @@ methods:
   returns:
     description: "entry point to manage record sets in this zone containing A (IPv4 address) records"
     type: "<xref href=\"com.azure.resourcemanager.privatedns.models.ARecordSets?alt=com.azure.resourcemanager.privatedns.models.ARecordSets&text=ARecordSets\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.privatedns.models.PrivateDnsZone.aaaaRecordSets()"
+  fullName: "com.azure.resourcemanager.privatedns.models.PrivateDnsZone.aaaaRecordSets()"
+  name: "aaaaRecordSets()"
+  nameWithType: "PrivateDnsZone.aaaaRecordSets()"
+  summary: "Gets entry point to manage record sets in this zone containing AAAA (IPv6 address) records."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract AaaaRecordSets aaaaRecordSets()"
+  desc: "Gets entry point to manage record sets in this zone containing AAAA (IPv6 address) records."
+  returns:
+    description: "entry point to manage record sets in this zone containing AAAA (IPv6 address) records"
+    type: "<xref href=\"com.azure.resourcemanager.privatedns.models.AaaaRecordSets?alt=com.azure.resourcemanager.privatedns.models.AaaaRecordSets&text=AaaaRecordSets\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.privatedns.models.PrivateDnsZone.cnameRecordSets()"
   fullName: "com.azure.resourcemanager.privatedns.models.PrivateDnsZone.cnameRecordSets()"
   name: "cnameRecordSets()"

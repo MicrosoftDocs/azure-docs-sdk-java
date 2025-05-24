@@ -83,9 +83,9 @@ methods:
   fullName: "com.azure.resourcemanager.mobilenetwork.models.UeInfo4GProperties.imeisv()"
   name: "imeisv()"
   nameWithType: "UeInfo4GProperties.imeisv()"
-  summary: "Get the imeisv property: International mobile equipment identity – software version."
+  summary: "Get the imeisv property: International mobile equipment identity \\\\u2013 software version."
   syntax: "public String imeisv()"
-  desc: "Get the imeisv property: International mobile equipment identity – software version."
+  desc: "Get the imeisv property: International mobile equipment identity \\\\u2013 software version."
   returns:
     description: "the imeisv value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -174,13 +174,13 @@ methods:
   fullName: "com.azure.resourcemanager.mobilenetwork.models.UeInfo4GProperties.withImeisv(String imeisv)"
   name: "withImeisv(String imeisv)"
   nameWithType: "UeInfo4GProperties.withImeisv(String imeisv)"
-  summary: "Set the imeisv property: International mobile equipment identity – software version."
+  summary: "Set the imeisv property: International mobile equipment identity \\\\u2013 software version."
   parameters:
   - description: "the imeisv value to set."
     name: "imeisv"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public UeInfo4GProperties withImeisv(String imeisv)"
-  desc: "Set the imeisv property: International mobile equipment identity – software version."
+  desc: "Set the imeisv property: International mobile equipment identity \\\\u2013 software version."
   returns:
     description: "the UeInfo4GProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.mobilenetwork.models.UeInfo4GProperties?alt=com.azure.resourcemanager.mobilenetwork.models.UeInfo4GProperties&text=UeInfo4GProperties\" data-throw-if-not-resolved=\"False\" />"

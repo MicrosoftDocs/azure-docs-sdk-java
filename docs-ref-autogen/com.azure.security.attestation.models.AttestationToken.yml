@@ -6,18 +6,6 @@ nameWithType: "AttestationToken"
 summary: "An Attestation<wbr>Token represents an [RFC 7515 JSON Web Signature][] or [RFC 7519 JSON Web Token][] as returned from the attestation service.\n\n\n[RFC 7515 JSON Web Signature]: https://datatracker.ietf.org/doc/html/rfc7515\n[RFC 7519 JSON Web Token]: https://datatracker.ietf.org/doc/html/rfc7519"
 syntax: "public interface **AttestationToken**"
 methods:
-- uid: "com.azure.security.attestation.models.AttestationToken.getAlgorithm()"
-  fullName: "com.azure.security.attestation.models.AttestationToken.getAlgorithm()"
-  name: "getAlgorithm()"
-  nameWithType: "AttestationToken.getAlgorithm()"
-  summary: "Returns the \"algorithm\" token header property."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract String getAlgorithm()"
-  desc: "Returns the \"algorithm\" token header property. See [RFC 7515 section 4.1.1][]\n\n\n[RFC 7515 section 4.1.1]: https://datatracker.ietf.org/doc/html/rfc7515#section-4.1.1"
-  returns:
-    description: "The value of the \"alg\" header parameter."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.security.attestation.models.AttestationToken.<T>getBody(java.lang.Class<T>)"
   fullName: "com.azure.security.attestation.models.AttestationToken.getBody(Class<T> returnType)"
   name: "getBody(Class<T> returnType)"
@@ -34,6 +22,18 @@ methods:
   returns:
     description: "Returns the deserialized body of the token."
     type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.security.attestation.models.AttestationToken.getAlgorithm()"
+  fullName: "com.azure.security.attestation.models.AttestationToken.getAlgorithm()"
+  name: "getAlgorithm()"
+  nameWithType: "AttestationToken.getAlgorithm()"
+  summary: "Returns the \"algorithm\" token header property."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String getAlgorithm()"
+  desc: "Returns the \"algorithm\" token header property. See [RFC 7515 section 4.1.1][]\n\n\n[RFC 7515 section 4.1.1]: https://datatracker.ietf.org/doc/html/rfc7515#section-4.1.1"
+  returns:
+    description: "The value of the \"alg\" header parameter."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.security.attestation.models.AttestationToken.getCertificateChain()"
   fullName: "com.azure.security.attestation.models.AttestationToken.getCertificateChain()"
   name: "getCertificateChain()"

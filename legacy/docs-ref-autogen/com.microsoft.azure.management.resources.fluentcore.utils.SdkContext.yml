@@ -28,16 +28,6 @@ constructors:
   nameWithType: "SdkContext.SdkContext()"
   syntax: "public SdkContext()"
 methods:
-- uid: "com.microsoft.azure.management.resources.fluentcore.utils.SdkContext.dateTimeNow()"
-  fullName: "com.microsoft.azure.management.resources.fluentcore.utils.SdkContext.dateTimeNow()"
-  name: "dateTimeNow()"
-  nameWithType: "SdkContext.dateTimeNow()"
-  modifiers:
-  - "static"
-  syntax: "public static DateTime dateTimeNow()"
-  returns:
-    description: "the current date time."
-    type: "<xref href=\"org.joda.time.DateTime?alt=org.joda.time.DateTime&text=DateTime\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.management.resources.fluentcore.utils.SdkContext.<T>delayedEmitAsync(T,int)"
   fullName: "com.microsoft.azure.management.resources.fluentcore.utils.SdkContext.delayedEmitAsync(T event, int milliseconds)"
   name: "delayedEmitAsync(T event, int milliseconds)"
@@ -57,6 +47,16 @@ methods:
   returns:
     description: "delayed observable"
     type: "<xref href=\"rx.Observable?alt=rx.Observable&text=Observable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.microsoft.azure.management.resources.fluentcore.utils.SdkContext.dateTimeNow()"
+  fullName: "com.microsoft.azure.management.resources.fluentcore.utils.SdkContext.dateTimeNow()"
+  name: "dateTimeNow()"
+  nameWithType: "SdkContext.dateTimeNow()"
+  modifiers:
+  - "static"
+  syntax: "public static DateTime dateTimeNow()"
+  returns:
+    description: "the current date time."
+    type: "<xref href=\"org.joda.time.DateTime?alt=org.joda.time.DateTime&text=DateTime\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.management.resources.fluentcore.utils.SdkContext.getResourceNamerFactory()"
   fullName: "com.microsoft.azure.management.resources.fluentcore.utils.SdkContext.getResourceNamerFactory()"
   name: "getResourceNamerFactory()"

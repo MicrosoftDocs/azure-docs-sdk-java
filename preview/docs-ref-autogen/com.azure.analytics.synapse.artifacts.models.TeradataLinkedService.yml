@@ -163,7 +163,7 @@ methods:
   nameWithType: "TeradataLinkedService.getSslMode()"
   summary: "Get the ssl<wbr>Mode property: SSL mode for connection."
   syntax: "public Object getSslMode()"
-  desc: "Get the sslMode property: SSL mode for connection. Valid values including: “Disable”, “Allow”, “Prefer”, “Require”, “Verify-CA”, “Verify-Full”. Default value is “Verify-Full”. Type: string (or Expression with resultType string). Only applied for version 2.0."
+  desc: "Get the sslMode property: SSL mode for connection. Valid values including: \\\\u201cDisable\\\\u201d, \\\\u201cAllow\\\\u201d, \\\\u201cPrefer\\\\u201d, \\\\u201cRequire\\\\u201d, \\\\u201cVerify-CA\\\\u201d, \\\\u201cVerify-Full\\\\u201d. Default value is \\\\u201cVerify-Full\\\\u201d. Type: string (or Expression with resultType string). Only applied for version 2.0."
   returns:
     description: "the sslMode value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
@@ -239,6 +239,19 @@ methods:
   returns:
     description: "the TeradataLinkedService object itself."
     type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.TeradataLinkedService?alt=com.azure.analytics.synapse.artifacts.models.TeradataLinkedService&text=TeradataLinkedService\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.analytics.synapse.artifacts.models.TeradataLinkedService.setConnectVia(com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference)"
+  fullName: "com.azure.analytics.synapse.artifacts.models.TeradataLinkedService.setConnectVia(IntegrationRuntimeReference connectVia)"
+  name: "setConnectVia(IntegrationRuntimeReference connectVia)"
+  nameWithType: "TeradataLinkedService.setConnectVia(IntegrationRuntimeReference connectVia)"
+  summary: "Set the connect<wbr>Via property: The integration runtime reference."
+  overridden: "com.azure.analytics.synapse.artifacts.models.LinkedService.setConnectVia(com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference)"
+  parameters:
+  - name: "connectVia"
+    type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference?alt=com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference&text=IntegrationRuntimeReference\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public TeradataLinkedService setConnectVia(IntegrationRuntimeReference connectVia)"
+  desc: "Set the connectVia property: The integration runtime reference."
+  returns:
+    type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.TeradataLinkedService?alt=com.azure.analytics.synapse.artifacts.models.TeradataLinkedService&text=TeradataLinkedService\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.analytics.synapse.artifacts.models.TeradataLinkedService.setConnectionString(java.lang.Object)"
   fullName: "com.azure.analytics.synapse.artifacts.models.TeradataLinkedService.setConnectionString(Object connectionString)"
   name: "setConnectionString(Object connectionString)"
@@ -252,19 +265,6 @@ methods:
   desc: "Set the connectionString property: Teradata ODBC connection string. Type: string, SecureString or AzureKeyVaultSecretReference."
   returns:
     description: "the TeradataLinkedService object itself."
-    type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.TeradataLinkedService?alt=com.azure.analytics.synapse.artifacts.models.TeradataLinkedService&text=TeradataLinkedService\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.analytics.synapse.artifacts.models.TeradataLinkedService.setConnectVia(com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference)"
-  fullName: "com.azure.analytics.synapse.artifacts.models.TeradataLinkedService.setConnectVia(IntegrationRuntimeReference connectVia)"
-  name: "setConnectVia(IntegrationRuntimeReference connectVia)"
-  nameWithType: "TeradataLinkedService.setConnectVia(IntegrationRuntimeReference connectVia)"
-  summary: "Set the connect<wbr>Via property: The integration runtime reference."
-  overridden: "com.azure.analytics.synapse.artifacts.models.LinkedService.setConnectVia(com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference)"
-  parameters:
-  - name: "connectVia"
-    type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference?alt=com.azure.analytics.synapse.artifacts.models.IntegrationRuntimeReference&text=IntegrationRuntimeReference\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public TeradataLinkedService setConnectVia(IntegrationRuntimeReference connectVia)"
-  desc: "Set the connectVia property: The integration runtime reference."
-  returns:
     type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.TeradataLinkedService?alt=com.azure.analytics.synapse.artifacts.models.TeradataLinkedService&text=TeradataLinkedService\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.analytics.synapse.artifacts.models.TeradataLinkedService.setDescription(java.lang.String)"
   fullName: "com.azure.analytics.synapse.artifacts.models.TeradataLinkedService.setDescription(String description)"
@@ -386,7 +386,7 @@ methods:
     name: "sslMode"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   syntax: "public TeradataLinkedService setSslMode(Object sslMode)"
-  desc: "Set the sslMode property: SSL mode for connection. Valid values including: “Disable”, “Allow”, “Prefer”, “Require”, “Verify-CA”, “Verify-Full”. Default value is “Verify-Full”. Type: string (or Expression with resultType string). Only applied for version 2.0."
+  desc: "Set the sslMode property: SSL mode for connection. Valid values including: \\\\u201cDisable\\\\u201d, \\\\u201cAllow\\\\u201d, \\\\u201cPrefer\\\\u201d, \\\\u201cRequire\\\\u201d, \\\\u201cVerify-CA\\\\u201d, \\\\u201cVerify-Full\\\\u201d. Default value is \\\\u201cVerify-Full\\\\u201d. Type: string (or Expression with resultType string). Only applied for version 2.0."
   returns:
     description: "the TeradataLinkedService object itself."
     type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.TeradataLinkedService?alt=com.azure.analytics.synapse.artifacts.models.TeradataLinkedService&text=TeradataLinkedService\" data-throw-if-not-resolved=\"False\" />"

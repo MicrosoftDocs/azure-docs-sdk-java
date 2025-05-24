@@ -50,16 +50,6 @@ methods:
   returns:
     description: "the authorizationKey value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.network.fluent.models.ExpressRouteCircuitPropertiesFormat.authorizations()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ExpressRouteCircuitPropertiesFormat.authorizations()"
-  name: "authorizations()"
-  nameWithType: "ExpressRouteCircuitPropertiesFormat.authorizations()"
-  summary: "Get the authorizations property: The list of authorizations."
-  syntax: "public List<ExpressRouteCircuitAuthorizationInner> authorizations()"
-  desc: "Get the authorizations property: The list of authorizations."
-  returns:
-    description: "the authorizations value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.ExpressRouteCircuitAuthorizationInner?alt=com.azure.resourcemanager.network.fluent.models.ExpressRouteCircuitAuthorizationInner&text=ExpressRouteCircuitAuthorizationInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.network.fluent.models.ExpressRouteCircuitPropertiesFormat.authorizationStatus()"
   fullName: "com.azure.resourcemanager.network.fluent.models.ExpressRouteCircuitPropertiesFormat.authorizationStatus()"
   name: "authorizationStatus()"
@@ -70,6 +60,16 @@ methods:
   returns:
     description: "the authorizationStatus value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.network.fluent.models.ExpressRouteCircuitPropertiesFormat.authorizations()"
+  fullName: "com.azure.resourcemanager.network.fluent.models.ExpressRouteCircuitPropertiesFormat.authorizations()"
+  name: "authorizations()"
+  nameWithType: "ExpressRouteCircuitPropertiesFormat.authorizations()"
+  summary: "Get the authorizations property: The list of authorizations."
+  syntax: "public List<ExpressRouteCircuitAuthorizationInner> authorizations()"
+  desc: "Get the authorizations property: The list of authorizations."
+  returns:
+    description: "the authorizations value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.ExpressRouteCircuitAuthorizationInner?alt=com.azure.resourcemanager.network.fluent.models.ExpressRouteCircuitAuthorizationInner&text=ExpressRouteCircuitAuthorizationInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.network.fluent.models.ExpressRouteCircuitPropertiesFormat.bandwidthInGbps()"
   fullName: "com.azure.resourcemanager.network.fluent.models.ExpressRouteCircuitPropertiesFormat.bandwidthInGbps()"
   name: "bandwidthInGbps()"

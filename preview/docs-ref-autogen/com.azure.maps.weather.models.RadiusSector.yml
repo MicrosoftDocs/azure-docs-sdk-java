@@ -3,7 +3,7 @@ uid: "com.azure.maps.weather.models.RadiusSector"
 fullName: "com.azure.maps.weather.models.RadiusSector"
 name: "RadiusSector"
 nameWithType: "RadiusSector"
-summary: "Bearing 0–90 = NE quadrant; 90–180 = SE quadrant; 180–270 = SW quadrant; 270–360 = NW quadrant."
+summary: "Bearing 0\\\\u201390 = NE quadrant; 90\\\\u2013180 = SE quadrant; 180\\\\u2013270 = SW quadrant; 270\\\\u2013360 = NW quadrant."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -84,7 +84,7 @@ methods:
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "Bearing 0–90 = NE quadrant; 90–180 = SE quadrant; 180–270 = SW quadrant; 270–360 = NW quadrant."
+desc: "Bearing 0\\\\u201390 = NE quadrant; 90\\\\u2013180 = SE quadrant; 180\\\\u2013270 = SW quadrant; 270\\\\u2013360 = NW quadrant."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.maps.weather.models.RadiusSector?alt=com.azure.maps.weather.models.RadiusSector&text=RadiusSector\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}

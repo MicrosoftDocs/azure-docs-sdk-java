@@ -329,16 +329,6 @@ methods:
   returns:
     description: "the nsgUrl value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.oracledatabase.models.CloudVmClusterProperties.ocid()"
-  fullName: "com.azure.resourcemanager.oracledatabase.models.CloudVmClusterProperties.ocid()"
-  name: "ocid()"
-  nameWithType: "CloudVmClusterProperties.ocid()"
-  summary: "Get the ocid property: Cloud VM Cluster ocid."
-  syntax: "public String ocid()"
-  desc: "Get the ocid property: Cloud VM Cluster ocid."
-  returns:
-    description: "the ocid value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.oracledatabase.models.CloudVmClusterProperties.ociUrl()"
   fullName: "com.azure.resourcemanager.oracledatabase.models.CloudVmClusterProperties.ociUrl()"
   name: "ociUrl()"
@@ -348,6 +338,16 @@ methods:
   desc: "Get the ociUrl property: HTTPS link to OCI resources exposed to Azure Customer via Azure Interface."
   returns:
     description: "the ociUrl value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.oracledatabase.models.CloudVmClusterProperties.ocid()"
+  fullName: "com.azure.resourcemanager.oracledatabase.models.CloudVmClusterProperties.ocid()"
+  name: "ocid()"
+  nameWithType: "CloudVmClusterProperties.ocid()"
+  summary: "Get the ocid property: Cloud VM Cluster ocid."
+  syntax: "public String ocid()"
+  desc: "Get the ocid property: Cloud VM Cluster ocid."
+  returns:
+    description: "the ocid value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.oracledatabase.models.CloudVmClusterProperties.ocpuCount()"
   fullName: "com.azure.resourcemanager.oracledatabase.models.CloudVmClusterProperties.ocpuCount()"

@@ -30,6 +30,20 @@ constructors:
   syntax: "public SearchClientBuilder()"
   desc: "Creates a builder instance that is able to configure and construct <xref uid=\"com.azure.search.documents.SearchClient\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SearchClients\"></xref> and <xref uid=\"com.azure.search.documents.SearchAsyncClient\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SearchAsyncClients\"></xref>."
 methods:
+- uid: "com.azure.search.documents.SearchClientBuilder.<T>bufferedSender(com.azure.core.util.serializer.TypeReference<T>)"
+  fullName: "com.azure.search.documents.SearchClientBuilder.bufferedSender(TypeReference<T> documentType)"
+  name: "bufferedSender(TypeReference<T> documentType)"
+  nameWithType: "SearchClientBuilder.bufferedSender(TypeReference<T> documentType)"
+  summary: "Create a new instance of <xref uid=\"com.azure.search.documents.SearchClientBuilder.SearchIndexingBufferedSenderBuilder\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SearchIndexingBufferedSenderBuilder\"></xref> used to configure <xref uid=\"com.azure.search.documents.SearchIndexingBufferedSender\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SearchIndexingBufferedSenders\"></xref> and <xref uid=\"com.azure.search.documents.SearchIndexingBufferedAsyncSender\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SearchIndexingBufferedAsyncSenders\"></xref>."
+  parameters:
+  - description: "The <xref uid=\"com.azure.core.util.serializer.TypeReference\" data-throw-if-not-resolved=\"false\" data-raw-source=\"TypeReference\"></xref> representing the document type associated with the sender."
+    name: "documentType"
+    type: "<xref href=\"com.azure.core.util.serializer.TypeReference?alt=com.azure.core.util.serializer.TypeReference&text=TypeReference\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public SearchClientBuilder.SearchIndexingBufferedSenderBuilder<T> <T>bufferedSender(TypeReference<T> documentType)"
+  desc: "Create a new instance of <xref uid=\"com.azure.search.documents.SearchClientBuilder.SearchIndexingBufferedSenderBuilder\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SearchIndexingBufferedSenderBuilder\"></xref> used to configure <xref uid=\"com.azure.search.documents.SearchIndexingBufferedSender\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SearchIndexingBufferedSenders\"></xref> and <xref uid=\"com.azure.search.documents.SearchIndexingBufferedAsyncSender\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SearchIndexingBufferedAsyncSenders\"></xref>."
+  returns:
+    description: "A new instance of <xref uid=\"com.azure.search.documents.SearchClientBuilder.SearchIndexingBufferedSenderBuilder\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SearchIndexingBufferedSenderBuilder\"></xref>."
+    type: "<xref href=\"com.azure.search.documents.SearchClientBuilder.SearchIndexingBufferedSenderBuilder?alt=com.azure.search.documents.SearchClientBuilder.SearchIndexingBufferedSenderBuilder&text=SearchIndexingBufferedSenderBuilder\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.search.documents.SearchClientBuilder.addPolicy(com.azure.core.http.policy.HttpPipelinePolicy)"
   fullName: "com.azure.search.documents.SearchClientBuilder.addPolicy(HttpPipelinePolicy policy)"
   name: "addPolicy(HttpPipelinePolicy policy)"
@@ -58,20 +72,6 @@ methods:
   returns:
     description: "The updated SearchClientBuilder object."
     type: "<xref href=\"com.azure.search.documents.SearchClientBuilder?alt=com.azure.search.documents.SearchClientBuilder&text=SearchClientBuilder\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.search.documents.SearchClientBuilder.<T>bufferedSender(com.azure.core.util.serializer.TypeReference<T>)"
-  fullName: "com.azure.search.documents.SearchClientBuilder.bufferedSender(TypeReference<T> documentType)"
-  name: "bufferedSender(TypeReference<T> documentType)"
-  nameWithType: "SearchClientBuilder.bufferedSender(TypeReference<T> documentType)"
-  summary: "Create a new instance of <xref uid=\"com.azure.search.documents.SearchClientBuilder.SearchIndexingBufferedSenderBuilder\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SearchIndexingBufferedSenderBuilder\"></xref> used to configure <xref uid=\"com.azure.search.documents.SearchIndexingBufferedSender\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SearchIndexingBufferedSenders\"></xref> and <xref uid=\"com.azure.search.documents.SearchIndexingBufferedAsyncSender\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SearchIndexingBufferedAsyncSenders\"></xref>."
-  parameters:
-  - description: "The <xref uid=\"com.azure.core.util.serializer.TypeReference\" data-throw-if-not-resolved=\"false\" data-raw-source=\"TypeReference\"></xref> representing the document type associated with the sender."
-    name: "documentType"
-    type: "<xref href=\"com.azure.core.util.serializer.TypeReference?alt=com.azure.core.util.serializer.TypeReference&text=TypeReference\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public SearchClientBuilder.SearchIndexingBufferedSenderBuilder<T> <T>bufferedSender(TypeReference<T> documentType)"
-  desc: "Create a new instance of <xref uid=\"com.azure.search.documents.SearchClientBuilder.SearchIndexingBufferedSenderBuilder\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SearchIndexingBufferedSenderBuilder\"></xref> used to configure <xref uid=\"com.azure.search.documents.SearchIndexingBufferedSender\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SearchIndexingBufferedSenders\"></xref> and <xref uid=\"com.azure.search.documents.SearchIndexingBufferedAsyncSender\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SearchIndexingBufferedAsyncSenders\"></xref>."
-  returns:
-    description: "A new instance of <xref uid=\"com.azure.search.documents.SearchClientBuilder.SearchIndexingBufferedSenderBuilder\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SearchIndexingBufferedSenderBuilder\"></xref>."
-    type: "<xref href=\"com.azure.search.documents.SearchClientBuilder.SearchIndexingBufferedSenderBuilder?alt=com.azure.search.documents.SearchClientBuilder.SearchIndexingBufferedSenderBuilder&text=SearchIndexingBufferedSenderBuilder\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.search.documents.SearchClientBuilder.buildAsyncClient()"
   fullName: "com.azure.search.documents.SearchClientBuilder.buildAsyncClient()"
   name: "buildAsyncClient()"

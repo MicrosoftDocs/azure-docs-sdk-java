@@ -54,18 +54,6 @@ methods:
   returns:
     description: "the CertificatesClient object."
     type: "<xref href=\"com.azure.resourcemanager.automation.fluent.CertificatesClient?alt=com.azure.resourcemanager.automation.fluent.CertificatesClient&text=CertificatesClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.automation.fluent.AutomationClient.getConnections()"
-  fullName: "com.azure.resourcemanager.automation.fluent.AutomationClient.getConnections()"
-  name: "getConnections()"
-  nameWithType: "AutomationClient.getConnections()"
-  summary: "Gets the Connections<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract ConnectionsClient getConnections()"
-  desc: "Gets the ConnectionsClient object to access its operations."
-  returns:
-    description: "the ConnectionsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.automation.fluent.ConnectionsClient?alt=com.azure.resourcemanager.automation.fluent.ConnectionsClient&text=ConnectionsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.automation.fluent.AutomationClient.getConnectionTypes()"
   fullName: "com.azure.resourcemanager.automation.fluent.AutomationClient.getConnectionTypes()"
   name: "getConnectionTypes()"
@@ -78,6 +66,18 @@ methods:
   returns:
     description: "the ConnectionTypesClient object."
     type: "<xref href=\"com.azure.resourcemanager.automation.fluent.ConnectionTypesClient?alt=com.azure.resourcemanager.automation.fluent.ConnectionTypesClient&text=ConnectionTypesClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.automation.fluent.AutomationClient.getConnections()"
+  fullName: "com.azure.resourcemanager.automation.fluent.AutomationClient.getConnections()"
+  name: "getConnections()"
+  nameWithType: "AutomationClient.getConnections()"
+  summary: "Gets the Connections<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ConnectionsClient getConnections()"
+  desc: "Gets the ConnectionsClient object to access its operations."
+  returns:
+    description: "the ConnectionsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.automation.fluent.ConnectionsClient?alt=com.azure.resourcemanager.automation.fluent.ConnectionsClient&text=ConnectionsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.automation.fluent.AutomationClient.getCredentials()"
   fullName: "com.azure.resourcemanager.automation.fluent.AutomationClient.getCredentials()"
   name: "getCredentials()"
@@ -114,18 +114,6 @@ methods:
   returns:
     description: "the DeletedAutomationAccountsClient object."
     type: "<xref href=\"com.azure.resourcemanager.automation.fluent.DeletedAutomationAccountsClient?alt=com.azure.resourcemanager.automation.fluent.DeletedAutomationAccountsClient&text=DeletedAutomationAccountsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.automation.fluent.AutomationClient.getDscCompilationJobs()"
-  fullName: "com.azure.resourcemanager.automation.fluent.AutomationClient.getDscCompilationJobs()"
-  name: "getDscCompilationJobs()"
-  nameWithType: "AutomationClient.getDscCompilationJobs()"
-  summary: "Gets the Dsc<wbr>Compilation<wbr>Jobs<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract DscCompilationJobsClient getDscCompilationJobs()"
-  desc: "Gets the DscCompilationJobsClient object to access its operations."
-  returns:
-    description: "the DscCompilationJobsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.automation.fluent.DscCompilationJobsClient?alt=com.azure.resourcemanager.automation.fluent.DscCompilationJobsClient&text=DscCompilationJobsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.automation.fluent.AutomationClient.getDscCompilationJobStreams()"
   fullName: "com.azure.resourcemanager.automation.fluent.AutomationClient.getDscCompilationJobStreams()"
   name: "getDscCompilationJobStreams()"
@@ -138,6 +126,18 @@ methods:
   returns:
     description: "the DscCompilationJobStreamsClient object."
     type: "<xref href=\"com.azure.resourcemanager.automation.fluent.DscCompilationJobStreamsClient?alt=com.azure.resourcemanager.automation.fluent.DscCompilationJobStreamsClient&text=DscCompilationJobStreamsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.automation.fluent.AutomationClient.getDscCompilationJobs()"
+  fullName: "com.azure.resourcemanager.automation.fluent.AutomationClient.getDscCompilationJobs()"
+  name: "getDscCompilationJobs()"
+  nameWithType: "AutomationClient.getDscCompilationJobs()"
+  summary: "Gets the Dsc<wbr>Compilation<wbr>Jobs<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract DscCompilationJobsClient getDscCompilationJobs()"
+  desc: "Gets the DscCompilationJobsClient object to access its operations."
+  returns:
+    description: "the DscCompilationJobsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.automation.fluent.DscCompilationJobsClient?alt=com.azure.resourcemanager.automation.fluent.DscCompilationJobsClient&text=DscCompilationJobsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.automation.fluent.AutomationClient.getDscConfigurations()"
   fullName: "com.azure.resourcemanager.automation.fluent.AutomationClient.getDscConfigurations()"
   name: "getDscConfigurations()"
@@ -234,18 +234,6 @@ methods:
   returns:
     description: "the HybridRunbookWorkersClient object."
     type: "<xref href=\"com.azure.resourcemanager.automation.fluent.HybridRunbookWorkersClient?alt=com.azure.resourcemanager.automation.fluent.HybridRunbookWorkersClient&text=HybridRunbookWorkersClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.automation.fluent.AutomationClient.getJobs()"
-  fullName: "com.azure.resourcemanager.automation.fluent.AutomationClient.getJobs()"
-  name: "getJobs()"
-  nameWithType: "AutomationClient.getJobs()"
-  summary: "Gets the Jobs<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract JobsClient getJobs()"
-  desc: "Gets the JobsClient object to access its operations."
-  returns:
-    description: "the JobsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.automation.fluent.JobsClient?alt=com.azure.resourcemanager.automation.fluent.JobsClient&text=JobsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.automation.fluent.AutomationClient.getJobSchedules()"
   fullName: "com.azure.resourcemanager.automation.fluent.AutomationClient.getJobSchedules()"
   name: "getJobSchedules()"
@@ -270,6 +258,18 @@ methods:
   returns:
     description: "the JobStreamsClient object."
     type: "<xref href=\"com.azure.resourcemanager.automation.fluent.JobStreamsClient?alt=com.azure.resourcemanager.automation.fluent.JobStreamsClient&text=JobStreamsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.automation.fluent.AutomationClient.getJobs()"
+  fullName: "com.azure.resourcemanager.automation.fluent.AutomationClient.getJobs()"
+  name: "getJobs()"
+  nameWithType: "AutomationClient.getJobs()"
+  summary: "Gets the Jobs<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract JobsClient getJobs()"
+  desc: "Gets the JobsClient object to access its operations."
+  returns:
+    description: "the JobsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.automation.fluent.JobsClient?alt=com.azure.resourcemanager.automation.fluent.JobsClient&text=JobsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.automation.fluent.AutomationClient.getKeys()"
   fullName: "com.azure.resourcemanager.automation.fluent.AutomationClient.getKeys()"
   name: "getKeys()"
@@ -474,30 +474,6 @@ methods:
   returns:
     description: "the SoftwareUpdateConfigurationsClient object."
     type: "<xref href=\"com.azure.resourcemanager.automation.fluent.SoftwareUpdateConfigurationsClient?alt=com.azure.resourcemanager.automation.fluent.SoftwareUpdateConfigurationsClient&text=SoftwareUpdateConfigurationsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.automation.fluent.AutomationClient.getSourceControls()"
-  fullName: "com.azure.resourcemanager.automation.fluent.AutomationClient.getSourceControls()"
-  name: "getSourceControls()"
-  nameWithType: "AutomationClient.getSourceControls()"
-  summary: "Gets the Source<wbr>Controls<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract SourceControlsClient getSourceControls()"
-  desc: "Gets the SourceControlsClient object to access its operations."
-  returns:
-    description: "the SourceControlsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.automation.fluent.SourceControlsClient?alt=com.azure.resourcemanager.automation.fluent.SourceControlsClient&text=SourceControlsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.automation.fluent.AutomationClient.getSourceControlSyncJobs()"
-  fullName: "com.azure.resourcemanager.automation.fluent.AutomationClient.getSourceControlSyncJobs()"
-  name: "getSourceControlSyncJobs()"
-  nameWithType: "AutomationClient.getSourceControlSyncJobs()"
-  summary: "Gets the Source<wbr>Control<wbr>Sync<wbr>Jobs<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract SourceControlSyncJobsClient getSourceControlSyncJobs()"
-  desc: "Gets the SourceControlSyncJobsClient object to access its operations."
-  returns:
-    description: "the SourceControlSyncJobsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.automation.fluent.SourceControlSyncJobsClient?alt=com.azure.resourcemanager.automation.fluent.SourceControlSyncJobsClient&text=SourceControlSyncJobsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.automation.fluent.AutomationClient.getSourceControlSyncJobStreams()"
   fullName: "com.azure.resourcemanager.automation.fluent.AutomationClient.getSourceControlSyncJobStreams()"
   name: "getSourceControlSyncJobStreams()"
@@ -510,6 +486,30 @@ methods:
   returns:
     description: "the SourceControlSyncJobStreamsClient object."
     type: "<xref href=\"com.azure.resourcemanager.automation.fluent.SourceControlSyncJobStreamsClient?alt=com.azure.resourcemanager.automation.fluent.SourceControlSyncJobStreamsClient&text=SourceControlSyncJobStreamsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.automation.fluent.AutomationClient.getSourceControlSyncJobs()"
+  fullName: "com.azure.resourcemanager.automation.fluent.AutomationClient.getSourceControlSyncJobs()"
+  name: "getSourceControlSyncJobs()"
+  nameWithType: "AutomationClient.getSourceControlSyncJobs()"
+  summary: "Gets the Source<wbr>Control<wbr>Sync<wbr>Jobs<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract SourceControlSyncJobsClient getSourceControlSyncJobs()"
+  desc: "Gets the SourceControlSyncJobsClient object to access its operations."
+  returns:
+    description: "the SourceControlSyncJobsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.automation.fluent.SourceControlSyncJobsClient?alt=com.azure.resourcemanager.automation.fluent.SourceControlSyncJobsClient&text=SourceControlSyncJobsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.automation.fluent.AutomationClient.getSourceControls()"
+  fullName: "com.azure.resourcemanager.automation.fluent.AutomationClient.getSourceControls()"
+  name: "getSourceControls()"
+  nameWithType: "AutomationClient.getSourceControls()"
+  summary: "Gets the Source<wbr>Controls<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract SourceControlsClient getSourceControls()"
+  desc: "Gets the SourceControlsClient object to access its operations."
+  returns:
+    description: "the SourceControlsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.automation.fluent.SourceControlsClient?alt=com.azure.resourcemanager.automation.fluent.SourceControlsClient&text=SourceControlsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.automation.fluent.AutomationClient.getStatisticsOperations()"
   fullName: "com.azure.resourcemanager.automation.fluent.AutomationClient.getStatisticsOperations()"
   name: "getStatisticsOperations()"
@@ -534,18 +534,6 @@ methods:
   returns:
     description: "the subscriptionId value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.automation.fluent.AutomationClient.getTestJobs()"
-  fullName: "com.azure.resourcemanager.automation.fluent.AutomationClient.getTestJobs()"
-  name: "getTestJobs()"
-  nameWithType: "AutomationClient.getTestJobs()"
-  summary: "Gets the Test<wbr>Jobs<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract TestJobsClient getTestJobs()"
-  desc: "Gets the TestJobsClient object to access its operations."
-  returns:
-    description: "the TestJobsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.automation.fluent.TestJobsClient?alt=com.azure.resourcemanager.automation.fluent.TestJobsClient&text=TestJobsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.automation.fluent.AutomationClient.getTestJobStreams()"
   fullName: "com.azure.resourcemanager.automation.fluent.AutomationClient.getTestJobStreams()"
   name: "getTestJobStreams()"
@@ -558,6 +546,18 @@ methods:
   returns:
     description: "the TestJobStreamsClient object."
     type: "<xref href=\"com.azure.resourcemanager.automation.fluent.TestJobStreamsClient?alt=com.azure.resourcemanager.automation.fluent.TestJobStreamsClient&text=TestJobStreamsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.automation.fluent.AutomationClient.getTestJobs()"
+  fullName: "com.azure.resourcemanager.automation.fluent.AutomationClient.getTestJobs()"
+  name: "getTestJobs()"
+  nameWithType: "AutomationClient.getTestJobs()"
+  summary: "Gets the Test<wbr>Jobs<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract TestJobsClient getTestJobs()"
+  desc: "Gets the TestJobsClient object to access its operations."
+  returns:
+    description: "the TestJobsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.automation.fluent.TestJobsClient?alt=com.azure.resourcemanager.automation.fluent.TestJobsClient&text=TestJobsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.automation.fluent.AutomationClient.getUsages()"
   fullName: "com.azure.resourcemanager.automation.fluent.AutomationClient.getUsages()"
   name: "getUsages()"

@@ -81,20 +81,6 @@ methods:
   returns:
     description: "the odataType value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.search.documents.indexes.models.ElisionTokenFilter.setArticles(java.util.List<java.lang.String>)"
-  fullName: "com.azure.search.documents.indexes.models.ElisionTokenFilter.setArticles(List<String> articles)"
-  name: "setArticles(List<String> articles)"
-  nameWithType: "ElisionTokenFilter.setArticles(List<String> articles)"
-  summary: "Set the articles property: The set of articles to remove."
-  parameters:
-  - description: "the articles value to set."
-    name: "articles"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-  syntax: "public ElisionTokenFilter setArticles(List<String> articles)"
-  desc: "Set the articles property: The set of articles to remove."
-  returns:
-    description: "the ElisionTokenFilter object itself."
-    type: "<xref href=\"com.azure.search.documents.indexes.models.ElisionTokenFilter?alt=com.azure.search.documents.indexes.models.ElisionTokenFilter&text=ElisionTokenFilter\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.search.documents.indexes.models.ElisionTokenFilter.setArticles(java.lang.String...)"
   fullName: "com.azure.search.documents.indexes.models.ElisionTokenFilter.setArticles(String[] articles)"
   name: "setArticles(String[] articles)"
@@ -105,6 +91,20 @@ methods:
     name: "articles"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>[]"
   syntax: "public ElisionTokenFilter setArticles(String[] articles)"
+  desc: "Set the articles property: The set of articles to remove."
+  returns:
+    description: "the ElisionTokenFilter object itself."
+    type: "<xref href=\"com.azure.search.documents.indexes.models.ElisionTokenFilter?alt=com.azure.search.documents.indexes.models.ElisionTokenFilter&text=ElisionTokenFilter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.search.documents.indexes.models.ElisionTokenFilter.setArticles(java.util.List<java.lang.String>)"
+  fullName: "com.azure.search.documents.indexes.models.ElisionTokenFilter.setArticles(List<String> articles)"
+  name: "setArticles(List<String> articles)"
+  nameWithType: "ElisionTokenFilter.setArticles(List<String> articles)"
+  summary: "Set the articles property: The set of articles to remove."
+  parameters:
+  - description: "the articles value to set."
+    name: "articles"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+  syntax: "public ElisionTokenFilter setArticles(List<String> articles)"
   desc: "Set the articles property: The set of articles to remove."
   returns:
     description: "the ElisionTokenFilter object itself."

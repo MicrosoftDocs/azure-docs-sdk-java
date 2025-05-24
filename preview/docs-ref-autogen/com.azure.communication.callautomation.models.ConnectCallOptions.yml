@@ -37,16 +37,6 @@ constructors:
   syntax: "public ConnectCallOptions(CallLocator callLocator, String callbackUrl)"
   desc: "Creates a new instance of ConnectCallOptions"
 methods:
-- uid: "com.azure.communication.callautomation.models.ConnectCallOptions.getCallbackUrl()"
-  fullName: "com.azure.communication.callautomation.models.ConnectCallOptions.getCallbackUrl()"
-  name: "getCallbackUrl()"
-  nameWithType: "ConnectCallOptions.getCallbackUrl()"
-  summary: "Get the call back url."
-  syntax: "public String getCallbackUrl()"
-  desc: "Get the call back url."
-  returns:
-    description: "the call back url."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.communication.callautomation.models.ConnectCallOptions.getCallIntelligenceOptions()"
   fullName: "com.azure.communication.callautomation.models.ConnectCallOptions.getCallIntelligenceOptions()"
   name: "getCallIntelligenceOptions()"
@@ -67,6 +57,16 @@ methods:
   returns:
     description: "the call locator."
     type: "<xref href=\"com.azure.communication.callautomation.models.CallLocator?alt=com.azure.communication.callautomation.models.CallLocator&text=CallLocator\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.communication.callautomation.models.ConnectCallOptions.getCallbackUrl()"
+  fullName: "com.azure.communication.callautomation.models.ConnectCallOptions.getCallbackUrl()"
+  name: "getCallbackUrl()"
+  nameWithType: "ConnectCallOptions.getCallbackUrl()"
+  summary: "Get the call back url."
+  syntax: "public String getCallbackUrl()"
+  desc: "Get the call back url."
+  returns:
+    description: "the call back url."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.communication.callautomation.models.ConnectCallOptions.getMediaStreamingOptions()"
   fullName: "com.azure.communication.callautomation.models.ConnectCallOptions.getMediaStreamingOptions()"
   name: "getMediaStreamingOptions()"

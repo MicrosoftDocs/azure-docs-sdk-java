@@ -18,30 +18,6 @@ methods:
   returns:
     description: "the apiVersion value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ServiceFabricManagedClustersMgmtClient.getApplications()"
-  fullName: "com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ServiceFabricManagedClustersMgmtClient.getApplications()"
-  name: "getApplications()"
-  nameWithType: "ServiceFabricManagedClustersMgmtClient.getApplications()"
-  summary: "Gets the Applications<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract ApplicationsClient getApplications()"
-  desc: "Gets the ApplicationsClient object to access its operations."
-  returns:
-    description: "the ApplicationsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ApplicationsClient?alt=com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ApplicationsClient&text=ApplicationsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ServiceFabricManagedClustersMgmtClient.getApplicationTypes()"
-  fullName: "com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ServiceFabricManagedClustersMgmtClient.getApplicationTypes()"
-  name: "getApplicationTypes()"
-  nameWithType: "ServiceFabricManagedClustersMgmtClient.getApplicationTypes()"
-  summary: "Gets the Application<wbr>Types<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract ApplicationTypesClient getApplicationTypes()"
-  desc: "Gets the ApplicationTypesClient object to access its operations."
-  returns:
-    description: "the ApplicationTypesClient object."
-    type: "<xref href=\"com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ApplicationTypesClient?alt=com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ApplicationTypesClient&text=ApplicationTypesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ServiceFabricManagedClustersMgmtClient.getApplicationTypeVersions()"
   fullName: "com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ServiceFabricManagedClustersMgmtClient.getApplicationTypeVersions()"
   name: "getApplicationTypeVersions()"
@@ -54,6 +30,30 @@ methods:
   returns:
     description: "the ApplicationTypeVersionsClient object."
     type: "<xref href=\"com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ApplicationTypeVersionsClient?alt=com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ApplicationTypeVersionsClient&text=ApplicationTypeVersionsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ServiceFabricManagedClustersMgmtClient.getApplicationTypes()"
+  fullName: "com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ServiceFabricManagedClustersMgmtClient.getApplicationTypes()"
+  name: "getApplicationTypes()"
+  nameWithType: "ServiceFabricManagedClustersMgmtClient.getApplicationTypes()"
+  summary: "Gets the Application<wbr>Types<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ApplicationTypesClient getApplicationTypes()"
+  desc: "Gets the ApplicationTypesClient object to access its operations."
+  returns:
+    description: "the ApplicationTypesClient object."
+    type: "<xref href=\"com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ApplicationTypesClient?alt=com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ApplicationTypesClient&text=ApplicationTypesClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ServiceFabricManagedClustersMgmtClient.getApplications()"
+  fullName: "com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ServiceFabricManagedClustersMgmtClient.getApplications()"
+  name: "getApplications()"
+  nameWithType: "ServiceFabricManagedClustersMgmtClient.getApplications()"
+  summary: "Gets the Applications<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ApplicationsClient getApplications()"
+  desc: "Gets the ApplicationsClient object to access its operations."
+  returns:
+    description: "the ApplicationsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ApplicationsClient?alt=com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ApplicationsClient&text=ApplicationsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ServiceFabricManagedClustersMgmtClient.getDefaultPollInterval()"
   fullName: "com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ServiceFabricManagedClustersMgmtClient.getDefaultPollInterval()"
   name: "getDefaultPollInterval()"
@@ -114,18 +114,6 @@ methods:
   returns:
     description: "the ManagedAzResiliencyStatusesClient object."
     type: "<xref href=\"com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ManagedAzResiliencyStatusesClient?alt=com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ManagedAzResiliencyStatusesClient&text=ManagedAzResiliencyStatusesClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ServiceFabricManagedClustersMgmtClient.getManagedClusters()"
-  fullName: "com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ServiceFabricManagedClustersMgmtClient.getManagedClusters()"
-  name: "getManagedClusters()"
-  nameWithType: "ServiceFabricManagedClustersMgmtClient.getManagedClusters()"
-  summary: "Gets the Managed<wbr>Clusters<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract ManagedClustersClient getManagedClusters()"
-  desc: "Gets the ManagedClustersClient object to access its operations."
-  returns:
-    description: "the ManagedClustersClient object."
-    type: "<xref href=\"com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ManagedClustersClient?alt=com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ManagedClustersClient&text=ManagedClustersClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ServiceFabricManagedClustersMgmtClient.getManagedClusterVersions()"
   fullName: "com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ServiceFabricManagedClustersMgmtClient.getManagedClusterVersions()"
   name: "getManagedClusterVersions()"
@@ -138,6 +126,18 @@ methods:
   returns:
     description: "the ManagedClusterVersionsClient object."
     type: "<xref href=\"com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ManagedClusterVersionsClient?alt=com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ManagedClusterVersionsClient&text=ManagedClusterVersionsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ServiceFabricManagedClustersMgmtClient.getManagedClusters()"
+  fullName: "com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ServiceFabricManagedClustersMgmtClient.getManagedClusters()"
+  name: "getManagedClusters()"
+  nameWithType: "ServiceFabricManagedClustersMgmtClient.getManagedClusters()"
+  summary: "Gets the Managed<wbr>Clusters<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ManagedClustersClient getManagedClusters()"
+  desc: "Gets the ManagedClustersClient object to access its operations."
+  returns:
+    description: "the ManagedClustersClient object."
+    type: "<xref href=\"com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ManagedClustersClient?alt=com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ManagedClustersClient&text=ManagedClustersClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ServiceFabricManagedClustersMgmtClient.getManagedMaintenanceWindowStatuses()"
   fullName: "com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ServiceFabricManagedClustersMgmtClient.getManagedMaintenanceWindowStatuses()"
   name: "getManagedMaintenanceWindowStatuses()"
@@ -162,18 +162,6 @@ methods:
   returns:
     description: "the ManagedUnsupportedVMSizesClient object."
     type: "<xref href=\"com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ManagedUnsupportedVMSizesClient?alt=com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ManagedUnsupportedVMSizesClient&text=ManagedUnsupportedVMSizesClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ServiceFabricManagedClustersMgmtClient.getNodeTypes()"
-  fullName: "com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ServiceFabricManagedClustersMgmtClient.getNodeTypes()"
-  name: "getNodeTypes()"
-  nameWithType: "ServiceFabricManagedClustersMgmtClient.getNodeTypes()"
-  summary: "Gets the Node<wbr>Types<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract NodeTypesClient getNodeTypes()"
-  desc: "Gets the NodeTypesClient object to access its operations."
-  returns:
-    description: "the NodeTypesClient object."
-    type: "<xref href=\"com.azure.resourcemanager.servicefabricmanagedclusters.fluent.NodeTypesClient?alt=com.azure.resourcemanager.servicefabricmanagedclusters.fluent.NodeTypesClient&text=NodeTypesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ServiceFabricManagedClustersMgmtClient.getNodeTypeSkus()"
   fullName: "com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ServiceFabricManagedClustersMgmtClient.getNodeTypeSkus()"
   name: "getNodeTypeSkus()"
@@ -186,6 +174,18 @@ methods:
   returns:
     description: "the NodeTypeSkusClient object."
     type: "<xref href=\"com.azure.resourcemanager.servicefabricmanagedclusters.fluent.NodeTypeSkusClient?alt=com.azure.resourcemanager.servicefabricmanagedclusters.fluent.NodeTypeSkusClient&text=NodeTypeSkusClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ServiceFabricManagedClustersMgmtClient.getNodeTypes()"
+  fullName: "com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ServiceFabricManagedClustersMgmtClient.getNodeTypes()"
+  name: "getNodeTypes()"
+  nameWithType: "ServiceFabricManagedClustersMgmtClient.getNodeTypes()"
+  summary: "Gets the Node<wbr>Types<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract NodeTypesClient getNodeTypes()"
+  desc: "Gets the NodeTypesClient object to access its operations."
+  returns:
+    description: "the NodeTypesClient object."
+    type: "<xref href=\"com.azure.resourcemanager.servicefabricmanagedclusters.fluent.NodeTypesClient?alt=com.azure.resourcemanager.servicefabricmanagedclusters.fluent.NodeTypesClient&text=NodeTypesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ServiceFabricManagedClustersMgmtClient.getOperationResults()"
   fullName: "com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ServiceFabricManagedClustersMgmtClient.getOperationResults()"
   name: "getOperationResults()"
@@ -198,18 +198,6 @@ methods:
   returns:
     description: "the OperationResultsClient object."
     type: "<xref href=\"com.azure.resourcemanager.servicefabricmanagedclusters.fluent.OperationResultsClient?alt=com.azure.resourcemanager.servicefabricmanagedclusters.fluent.OperationResultsClient&text=OperationResultsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ServiceFabricManagedClustersMgmtClient.getOperations()"
-  fullName: "com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ServiceFabricManagedClustersMgmtClient.getOperations()"
-  name: "getOperations()"
-  nameWithType: "ServiceFabricManagedClustersMgmtClient.getOperations()"
-  summary: "Gets the Operations<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract OperationsClient getOperations()"
-  desc: "Gets the OperationsClient object to access its operations."
-  returns:
-    description: "the OperationsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.servicefabricmanagedclusters.fluent.OperationsClient?alt=com.azure.resourcemanager.servicefabricmanagedclusters.fluent.OperationsClient&text=OperationsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ServiceFabricManagedClustersMgmtClient.getOperationStatus()"
   fullName: "com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ServiceFabricManagedClustersMgmtClient.getOperationStatus()"
   name: "getOperationStatus()"
@@ -222,6 +210,18 @@ methods:
   returns:
     description: "the OperationStatusClient object."
     type: "<xref href=\"com.azure.resourcemanager.servicefabricmanagedclusters.fluent.OperationStatusClient?alt=com.azure.resourcemanager.servicefabricmanagedclusters.fluent.OperationStatusClient&text=OperationStatusClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ServiceFabricManagedClustersMgmtClient.getOperations()"
+  fullName: "com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ServiceFabricManagedClustersMgmtClient.getOperations()"
+  name: "getOperations()"
+  nameWithType: "ServiceFabricManagedClustersMgmtClient.getOperations()"
+  summary: "Gets the Operations<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract OperationsClient getOperations()"
+  desc: "Gets the OperationsClient object to access its operations."
+  returns:
+    description: "the OperationsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.servicefabricmanagedclusters.fluent.OperationsClient?alt=com.azure.resourcemanager.servicefabricmanagedclusters.fluent.OperationsClient&text=OperationsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ServiceFabricManagedClustersMgmtClient.getServices()"
   fullName: "com.azure.resourcemanager.servicefabricmanagedclusters.fluent.ServiceFabricManagedClustersMgmtClient.getServices()"
   name: "getServices()"

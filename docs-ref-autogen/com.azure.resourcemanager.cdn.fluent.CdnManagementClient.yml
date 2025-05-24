@@ -471,18 +471,6 @@ methods:
   returns:
     description: "the RoutesClient object."
     type: "<xref href=\"com.azure.resourcemanager.cdn.fluent.RoutesClient?alt=com.azure.resourcemanager.cdn.fluent.RoutesClient&text=RoutesClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.cdn.fluent.CdnManagementClient.getRules()"
-  fullName: "com.azure.resourcemanager.cdn.fluent.CdnManagementClient.getRules()"
-  name: "getRules()"
-  nameWithType: "CdnManagementClient.getRules()"
-  summary: "Gets the Rules<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract RulesClient getRules()"
-  desc: "Gets the RulesClient object to access its operations."
-  returns:
-    description: "the RulesClient object."
-    type: "<xref href=\"com.azure.resourcemanager.cdn.fluent.RulesClient?alt=com.azure.resourcemanager.cdn.fluent.RulesClient&text=RulesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.cdn.fluent.CdnManagementClient.getRuleSets()"
   fullName: "com.azure.resourcemanager.cdn.fluent.CdnManagementClient.getRuleSets()"
   name: "getRuleSets()"
@@ -495,6 +483,18 @@ methods:
   returns:
     description: "the RuleSetsClient object."
     type: "<xref href=\"com.azure.resourcemanager.cdn.fluent.RuleSetsClient?alt=com.azure.resourcemanager.cdn.fluent.RuleSetsClient&text=RuleSetsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.cdn.fluent.CdnManagementClient.getRules()"
+  fullName: "com.azure.resourcemanager.cdn.fluent.CdnManagementClient.getRules()"
+  name: "getRules()"
+  nameWithType: "CdnManagementClient.getRules()"
+  summary: "Gets the Rules<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract RulesClient getRules()"
+  desc: "Gets the RulesClient object to access its operations."
+  returns:
+    description: "the RulesClient object."
+    type: "<xref href=\"com.azure.resourcemanager.cdn.fluent.RulesClient?alt=com.azure.resourcemanager.cdn.fluent.RulesClient&text=RulesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.cdn.fluent.CdnManagementClient.getSecrets()"
   fullName: "com.azure.resourcemanager.cdn.fluent.CdnManagementClient.getSecrets()"
   name: "getSecrets()"

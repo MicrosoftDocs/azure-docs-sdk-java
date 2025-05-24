@@ -79,16 +79,6 @@ methods:
   returns:
     description: "Status of the copy operation."
     type: "<xref href=\"com.azure.storage.file.share.models.CopyStatusType?alt=com.azure.storage.file.share.models.CopyStatusType&text=CopyStatusType\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.storage.file.share.models.ShareFileCopyInfo.getError()"
-  fullName: "com.azure.storage.file.share.models.ShareFileCopyInfo.getError()"
-  name: "getError()"
-  nameWithType: "ShareFileCopyInfo.getError()"
-  summary: "Gets an error description associated with the copy operation."
-  syntax: "public String getError()"
-  desc: "Gets an error description associated with the copy operation."
-  returns:
-    description: "An error description associated with the copy, or <code>null</code> if there is no error associated with this\n copy operation."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.storage.file.share.models.ShareFileCopyInfo.getETag()"
   fullName: "com.azure.storage.file.share.models.ShareFileCopyInfo.getETag()"
   name: "getETag()"
@@ -98,6 +88,16 @@ methods:
   desc: "If the copy is completed, contains the ETag of the destination file. If the copy is not complete, contains the ETag of the empty file created at the start of the copy."
   returns:
     description: "The ETag for the copy."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.storage.file.share.models.ShareFileCopyInfo.getError()"
+  fullName: "com.azure.storage.file.share.models.ShareFileCopyInfo.getError()"
+  name: "getError()"
+  nameWithType: "ShareFileCopyInfo.getError()"
+  summary: "Gets an error description associated with the copy operation."
+  syntax: "public String getError()"
+  desc: "Gets an error description associated with the copy operation."
+  returns:
+    description: "An error description associated with the copy, or <code>null</code> if there is no error associated with this\n copy operation."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.storage.file.share.models.ShareFileCopyInfo.getLastModified()"
   fullName: "com.azure.storage.file.share.models.ShareFileCopyInfo.getLastModified()"

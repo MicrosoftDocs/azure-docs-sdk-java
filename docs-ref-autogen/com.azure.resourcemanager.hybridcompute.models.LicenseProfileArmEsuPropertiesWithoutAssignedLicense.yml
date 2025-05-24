@@ -59,6 +59,16 @@ methods:
   returns:
     description: "the esuEligibility value."
     type: "<xref href=\"com.azure.resourcemanager.hybridcompute.models.EsuEligibility?alt=com.azure.resourcemanager.hybridcompute.models.EsuEligibility&text=EsuEligibility\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.hybridcompute.models.LicenseProfileArmEsuPropertiesWithoutAssignedLicense.esuKeyState()"
+  fullName: "com.azure.resourcemanager.hybridcompute.models.LicenseProfileArmEsuPropertiesWithoutAssignedLicense.esuKeyState()"
+  name: "esuKeyState()"
+  nameWithType: "LicenseProfileArmEsuPropertiesWithoutAssignedLicense.esuKeyState()"
+  summary: "Get the esu<wbr>Key<wbr>State property: Indicates whether there is an ESU Key currently active for the machine."
+  syntax: "public EsuKeyState esuKeyState()"
+  desc: "Get the esuKeyState property: Indicates whether there is an ESU Key currently active for the machine."
+  returns:
+    description: "the esuKeyState value."
+    type: "<xref href=\"com.azure.resourcemanager.hybridcompute.models.EsuKeyState?alt=com.azure.resourcemanager.hybridcompute.models.EsuKeyState&text=EsuKeyState\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.hybridcompute.models.LicenseProfileArmEsuPropertiesWithoutAssignedLicense.esuKeys()"
   fullName: "com.azure.resourcemanager.hybridcompute.models.LicenseProfileArmEsuPropertiesWithoutAssignedLicense.esuKeys()"
   name: "esuKeys()"
@@ -70,16 +80,6 @@ methods:
   returns:
     description: "the esuKeys value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.hybridcompute.models.EsuKey?alt=com.azure.resourcemanager.hybridcompute.models.EsuKey&text=EsuKey\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.resourcemanager.hybridcompute.models.LicenseProfileArmEsuPropertiesWithoutAssignedLicense.esuKeyState()"
-  fullName: "com.azure.resourcemanager.hybridcompute.models.LicenseProfileArmEsuPropertiesWithoutAssignedLicense.esuKeyState()"
-  name: "esuKeyState()"
-  nameWithType: "LicenseProfileArmEsuPropertiesWithoutAssignedLicense.esuKeyState()"
-  summary: "Get the esu<wbr>Key<wbr>State property: Indicates whether there is an ESU Key currently active for the machine."
-  syntax: "public EsuKeyState esuKeyState()"
-  desc: "Get the esuKeyState property: Indicates whether there is an ESU Key currently active for the machine."
-  returns:
-    description: "the esuKeyState value."
-    type: "<xref href=\"com.azure.resourcemanager.hybridcompute.models.EsuKeyState?alt=com.azure.resourcemanager.hybridcompute.models.EsuKeyState&text=EsuKeyState\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.hybridcompute.models.LicenseProfileArmEsuPropertiesWithoutAssignedLicense.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.hybridcompute.models.LicenseProfileArmEsuPropertiesWithoutAssignedLicense.fromJson(JsonReader jsonReader)"
   name: "fromJson(JsonReader jsonReader)"

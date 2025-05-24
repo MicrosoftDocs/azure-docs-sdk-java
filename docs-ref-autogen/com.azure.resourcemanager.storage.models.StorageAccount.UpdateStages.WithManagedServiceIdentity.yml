@@ -6,18 +6,6 @@ nameWithType: "StorageAccount.UpdateStages.WithManagedServiceIdentity"
 summary: "The stage of the storage account update allowing to enable managed service identity (MSI)."
 syntax: "public static interface **StorageAccount.UpdateStages.WithManagedServiceIdentity**"
 methods:
-- uid: "com.azure.resourcemanager.storage.models.StorageAccount.UpdateStages.WithManagedServiceIdentity.withoutSystemAssignedManagedServiceIdentity()"
-  fullName: "com.azure.resourcemanager.storage.models.StorageAccount.UpdateStages.WithManagedServiceIdentity.withoutSystemAssignedManagedServiceIdentity()"
-  name: "withoutSystemAssignedManagedServiceIdentity()"
-  nameWithType: "StorageAccount.UpdateStages.WithManagedServiceIdentity.withoutSystemAssignedManagedServiceIdentity()"
-  summary: "Specifies that a system assigned identity associated with the storage account should be removed."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract StorageAccount.Update withoutSystemAssignedManagedServiceIdentity()"
-  desc: "Specifies that a system assigned identity associated with the storage account should be removed."
-  returns:
-    description: "the next stage of the storage account update"
-    type: "<xref href=\"com.azure.resourcemanager.storage.models.StorageAccount.Update?alt=com.azure.resourcemanager.storage.models.StorageAccount.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.storage.models.StorageAccount.UpdateStages.WithManagedServiceIdentity.withSystemAssignedManagedServiceIdentity()"
   fullName: "com.azure.resourcemanager.storage.models.StorageAccount.UpdateStages.WithManagedServiceIdentity.withSystemAssignedManagedServiceIdentity()"
   name: "withSystemAssignedManagedServiceIdentity()"
@@ -29,6 +17,18 @@ methods:
   desc: "Specifies that implicit managed service identity (MSI) needs to be enabled."
   returns:
     description: "the next stage of storage account update"
+    type: "<xref href=\"com.azure.resourcemanager.storage.models.StorageAccount.Update?alt=com.azure.resourcemanager.storage.models.StorageAccount.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.storage.models.StorageAccount.UpdateStages.WithManagedServiceIdentity.withoutSystemAssignedManagedServiceIdentity()"
+  fullName: "com.azure.resourcemanager.storage.models.StorageAccount.UpdateStages.WithManagedServiceIdentity.withoutSystemAssignedManagedServiceIdentity()"
+  name: "withoutSystemAssignedManagedServiceIdentity()"
+  nameWithType: "StorageAccount.UpdateStages.WithManagedServiceIdentity.withoutSystemAssignedManagedServiceIdentity()"
+  summary: "Specifies that a system assigned identity associated with the storage account should be removed."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract StorageAccount.Update withoutSystemAssignedManagedServiceIdentity()"
+  desc: "Specifies that a system assigned identity associated with the storage account should be removed."
+  returns:
+    description: "the next stage of the storage account update"
     type: "<xref href=\"com.azure.resourcemanager.storage.models.StorageAccount.Update?alt=com.azure.resourcemanager.storage.models.StorageAccount.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 desc: "The stage of the storage account update allowing to enable managed service identity (MSI)."

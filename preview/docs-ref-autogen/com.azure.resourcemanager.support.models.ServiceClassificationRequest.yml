@@ -44,9 +44,9 @@ methods:
   fullName: "com.azure.resourcemanager.support.models.ServiceClassificationRequest.issueSummary()"
   name: "issueSummary()"
   nameWithType: "ServiceClassificationRequest.issueSummary()"
-  summary: "Get the issue<wbr>Summary property: Natural language description of the customer’s issue."
+  summary: "Get the issue<wbr>Summary property: Natural language description of the customer\\\\u2019s issue."
   syntax: "public String issueSummary()"
-  desc: "Get the issueSummary property: Natural language description of the customer’s issue."
+  desc: "Get the issueSummary property: Natural language description of the customer\\\\u2019s issue."
   returns:
     description: "the issueSummary value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -85,13 +85,13 @@ methods:
   fullName: "com.azure.resourcemanager.support.models.ServiceClassificationRequest.withIssueSummary(String issueSummary)"
   name: "withIssueSummary(String issueSummary)"
   nameWithType: "ServiceClassificationRequest.withIssueSummary(String issueSummary)"
-  summary: "Set the issue<wbr>Summary property: Natural language description of the customer’s issue."
+  summary: "Set the issue<wbr>Summary property: Natural language description of the customer\\\\u2019s issue."
   parameters:
   - description: "the issueSummary value to set."
     name: "issueSummary"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public ServiceClassificationRequest withIssueSummary(String issueSummary)"
-  desc: "Set the issueSummary property: Natural language description of the customer’s issue."
+  desc: "Set the issueSummary property: Natural language description of the customer\\\\u2019s issue."
   returns:
     description: "the ServiceClassificationRequest object itself."
     type: "<xref href=\"com.azure.resourcemanager.support.models.ServiceClassificationRequest?alt=com.azure.resourcemanager.support.models.ServiceClassificationRequest&text=ServiceClassificationRequest\" data-throw-if-not-resolved=\"False\" />"

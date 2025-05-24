@@ -282,6 +282,18 @@ methods:
   returns:
     description: "the typePropertiesType value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.vmwarecloudsimple.models.PrivateCloud.vSphereVersion()"
+  fullName: "com.azure.resourcemanager.vmwarecloudsimple.models.PrivateCloud.vSphereVersion()"
+  name: "vSphereVersion()"
+  nameWithType: "PrivateCloud.vSphereVersion()"
+  summary: "Gets the v<wbr>Sphere<wbr>Version property: e.<wbr>g."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String vSphereVersion()"
+  desc: "Gets the vSphereVersion property: e.g. \"6.5u2\"."
+  returns:
+    description: "the vSphereVersion value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.vmwarecloudsimple.models.PrivateCloud.vcenterFqdn()"
   fullName: "com.azure.resourcemanager.vmwarecloudsimple.models.PrivateCloud.vcenterFqdn()"
   name: "vcenterFqdn()"
@@ -342,18 +354,6 @@ methods:
   returns:
     description: "the vrOpsEnabled value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
-- uid: "com.azure.resourcemanager.vmwarecloudsimple.models.PrivateCloud.vSphereVersion()"
-  fullName: "com.azure.resourcemanager.vmwarecloudsimple.models.PrivateCloud.vSphereVersion()"
-  name: "vSphereVersion()"
-  nameWithType: "PrivateCloud.vSphereVersion()"
-  summary: "Gets the v<wbr>Sphere<wbr>Version property: e.<wbr>g."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract String vSphereVersion()"
-  desc: "Gets the vSphereVersion property: e.g. \"6.5u2\"."
-  returns:
-    description: "the vSphereVersion value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 type: "interface"
 desc: "An immutable client-side representation of PrivateCloud."
 metadata: {}

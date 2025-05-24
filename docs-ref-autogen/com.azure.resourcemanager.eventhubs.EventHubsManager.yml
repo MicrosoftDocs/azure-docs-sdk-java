@@ -31,25 +31,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **EventHubsManager**</br> extends <xref href=\"com.azure.resourcemanager.resources.fluentcore.arm.Manager?alt=com.azure.resourcemanager.resources.fluentcore.arm.Manager&text=Manager\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.eventhubs.fluent.EventHubManagementClient?alt=com.azure.resourcemanager.eventhubs.fluent.EventHubManagementClient&text=EventHubManagementClient\" data-throw-if-not-resolved=\"False\" />&gt;"
 methods:
-- uid: "com.azure.resourcemanager.eventhubs.EventHubsManager.authenticate(com.azure.core.http.HttpPipeline,com.azure.core.management.profile.AzureProfile)"
-  fullName: "com.azure.resourcemanager.eventhubs.EventHubsManager.authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
-  name: "authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
-  nameWithType: "EventHubsManager.authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
-  summary: "Creates an instance of Event<wbr>Hubs<wbr>Manager that exposes Event<wbr>Hub resource management API entry points."
-  modifiers:
-  - "static"
-  parameters:
-  - description: "the <xref uid=\"com.azure.core.http.HttpPipeline\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HttpPipeline\"></xref> configured with Azure authentication credential."
-    name: "httpPipeline"
-    type: "<xref href=\"com.azure.core.http.HttpPipeline?alt=com.azure.core.http.HttpPipeline&text=HttpPipeline\" data-throw-if-not-resolved=\"False\" />"
-  - description: "the profile to use"
-    name: "profile"
-    type: "<xref href=\"com.azure.core.management.profile.AzureProfile?alt=com.azure.core.management.profile.AzureProfile&text=AzureProfile\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static EventHubsManager authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
-  desc: "Creates an instance of EventHubsManager that exposes EventHub resource management API entry points."
-  returns:
-    description: "the EventHubsManager"
-    type: "<xref href=\"com.azure.resourcemanager.eventhubs.EventHubsManager?alt=com.azure.resourcemanager.eventhubs.EventHubsManager&text=EventHubsManager\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.eventhubs.EventHubsManager.authenticate(com.azure.core.credential.TokenCredential,com.azure.core.management.profile.AzureProfile)"
   fullName: "com.azure.resourcemanager.eventhubs.EventHubsManager.authenticate(TokenCredential credential, AzureProfile profile)"
   name: "authenticate(TokenCredential credential, AzureProfile profile)"
@@ -65,6 +46,25 @@ methods:
     name: "profile"
     type: "<xref href=\"com.azure.core.management.profile.AzureProfile?alt=com.azure.core.management.profile.AzureProfile&text=AzureProfile\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static EventHubsManager authenticate(TokenCredential credential, AzureProfile profile)"
+  desc: "Creates an instance of EventHubsManager that exposes EventHub resource management API entry points."
+  returns:
+    description: "the EventHubsManager"
+    type: "<xref href=\"com.azure.resourcemanager.eventhubs.EventHubsManager?alt=com.azure.resourcemanager.eventhubs.EventHubsManager&text=EventHubsManager\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.eventhubs.EventHubsManager.authenticate(com.azure.core.http.HttpPipeline,com.azure.core.management.profile.AzureProfile)"
+  fullName: "com.azure.resourcemanager.eventhubs.EventHubsManager.authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
+  name: "authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
+  nameWithType: "EventHubsManager.authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
+  summary: "Creates an instance of Event<wbr>Hubs<wbr>Manager that exposes Event<wbr>Hub resource management API entry points."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "the <xref uid=\"com.azure.core.http.HttpPipeline\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HttpPipeline\"></xref> configured with Azure authentication credential."
+    name: "httpPipeline"
+    type: "<xref href=\"com.azure.core.http.HttpPipeline?alt=com.azure.core.http.HttpPipeline&text=HttpPipeline\" data-throw-if-not-resolved=\"False\" />"
+  - description: "the profile to use"
+    name: "profile"
+    type: "<xref href=\"com.azure.core.management.profile.AzureProfile?alt=com.azure.core.management.profile.AzureProfile&text=AzureProfile\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static EventHubsManager authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
   desc: "Creates an instance of EventHubsManager that exposes EventHub resource management API entry points."
   returns:
     description: "the EventHubsManager"

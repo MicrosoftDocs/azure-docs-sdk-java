@@ -79,16 +79,6 @@ methods:
   returns:
     description: "the cost value."
     type: "<xref href=\"com.azure.communication.phonenumbers.models.PhoneNumberCost?alt=com.azure.communication.phonenumbers.models.PhoneNumberCost&text=PhoneNumberCost\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.communication.phonenumbers.models.PhoneNumberSearchResult.getPhoneNumbers()"
-  fullName: "com.azure.communication.phonenumbers.models.PhoneNumberSearchResult.getPhoneNumbers()"
-  name: "getPhoneNumbers()"
-  nameWithType: "PhoneNumberSearchResult.getPhoneNumbers()"
-  summary: "Get the phone<wbr>Numbers property: The phone numbers that are available."
-  syntax: "public List<String> getPhoneNumbers()"
-  desc: "Get the phoneNumbers property: The phone numbers that are available. Can be fewer than the desired search quantity."
-  returns:
-    description: "the phoneNumbers value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
 - uid: "com.azure.communication.phonenumbers.models.PhoneNumberSearchResult.getPhoneNumberType()"
   fullName: "com.azure.communication.phonenumbers.models.PhoneNumberSearchResult.getPhoneNumberType()"
   name: "getPhoneNumberType()"
@@ -99,6 +89,16 @@ methods:
   returns:
     description: "the phoneNumberType value."
     type: "<xref href=\"com.azure.communication.phonenumbers.models.PhoneNumberType?alt=com.azure.communication.phonenumbers.models.PhoneNumberType&text=PhoneNumberType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.communication.phonenumbers.models.PhoneNumberSearchResult.getPhoneNumbers()"
+  fullName: "com.azure.communication.phonenumbers.models.PhoneNumberSearchResult.getPhoneNumbers()"
+  name: "getPhoneNumbers()"
+  nameWithType: "PhoneNumberSearchResult.getPhoneNumbers()"
+  summary: "Get the phone<wbr>Numbers property: The phone numbers that are available."
+  syntax: "public List<String> getPhoneNumbers()"
+  desc: "Get the phoneNumbers property: The phone numbers that are available. Can be fewer than the desired search quantity."
+  returns:
+    description: "the phoneNumbers value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
 - uid: "com.azure.communication.phonenumbers.models.PhoneNumberSearchResult.getSearchExpiresBy()"
   fullName: "com.azure.communication.phonenumbers.models.PhoneNumberSearchResult.getSearchExpiresBy()"
   name: "getSearchExpiresBy()"

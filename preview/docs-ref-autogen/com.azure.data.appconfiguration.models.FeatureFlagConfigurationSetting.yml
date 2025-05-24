@@ -201,20 +201,6 @@ methods:
   returns:
     description: "The updated <xref uid=\"com.azure.data.appconfiguration.models.FeatureFlagConfigurationSetting\" data-throw-if-not-resolved=\"false\" data-raw-source=\"FeatureFlagConfigurationSetting\"></xref> object."
     type: "<xref href=\"com.azure.data.appconfiguration.models.FeatureFlagConfigurationSetting?alt=com.azure.data.appconfiguration.models.FeatureFlagConfigurationSetting&text=FeatureFlagConfigurationSetting\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.data.appconfiguration.models.FeatureFlagConfigurationSetting.setEnabled(boolean)"
-  fullName: "com.azure.data.appconfiguration.models.FeatureFlagConfigurationSetting.setEnabled(boolean isEnabled)"
-  name: "setEnabled(boolean isEnabled)"
-  nameWithType: "FeatureFlagConfigurationSetting.setEnabled(boolean isEnabled)"
-  summary: "Set the boolean indicator to show if the setting is turn on or off."
-  parameters:
-  - description: "the boolean indicator to show if the setting is turn on or off."
-    name: "isEnabled"
-    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public FeatureFlagConfigurationSetting setEnabled(boolean isEnabled)"
-  desc: "Set the boolean indicator to show if the setting is turn on or off."
-  returns:
-    description: "The updated <xref uid=\"com.azure.data.appconfiguration.models.FeatureFlagConfigurationSetting\" data-throw-if-not-resolved=\"false\" data-raw-source=\"FeatureFlagConfigurationSetting\"></xref> object."
-    type: "<xref href=\"com.azure.data.appconfiguration.models.FeatureFlagConfigurationSetting?alt=com.azure.data.appconfiguration.models.FeatureFlagConfigurationSetting&text=FeatureFlagConfigurationSetting\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.data.appconfiguration.models.FeatureFlagConfigurationSetting.setETag(java.lang.String)"
   fullName: "com.azure.data.appconfiguration.models.FeatureFlagConfigurationSetting.setETag(String etag)"
   name: "setETag(String etag)"
@@ -227,6 +213,20 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public FeatureFlagConfigurationSetting setETag(String etag)"
   desc: "Sets the ETag for this configuration setting."
+  returns:
+    description: "The updated <xref uid=\"com.azure.data.appconfiguration.models.FeatureFlagConfigurationSetting\" data-throw-if-not-resolved=\"false\" data-raw-source=\"FeatureFlagConfigurationSetting\"></xref> object."
+    type: "<xref href=\"com.azure.data.appconfiguration.models.FeatureFlagConfigurationSetting?alt=com.azure.data.appconfiguration.models.FeatureFlagConfigurationSetting&text=FeatureFlagConfigurationSetting\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.data.appconfiguration.models.FeatureFlagConfigurationSetting.setEnabled(boolean)"
+  fullName: "com.azure.data.appconfiguration.models.FeatureFlagConfigurationSetting.setEnabled(boolean isEnabled)"
+  name: "setEnabled(boolean isEnabled)"
+  nameWithType: "FeatureFlagConfigurationSetting.setEnabled(boolean isEnabled)"
+  summary: "Set the boolean indicator to show if the setting is turn on or off."
+  parameters:
+  - description: "the boolean indicator to show if the setting is turn on or off."
+    name: "isEnabled"
+    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public FeatureFlagConfigurationSetting setEnabled(boolean isEnabled)"
+  desc: "Set the boolean indicator to show if the setting is turn on or off."
   returns:
     description: "The updated <xref uid=\"com.azure.data.appconfiguration.models.FeatureFlagConfigurationSetting\" data-throw-if-not-resolved=\"false\" data-raw-source=\"FeatureFlagConfigurationSetting\"></xref> object."
     type: "<xref href=\"com.azure.data.appconfiguration.models.FeatureFlagConfigurationSetting?alt=com.azure.data.appconfiguration.models.FeatureFlagConfigurationSetting&text=FeatureFlagConfigurationSetting\" data-throw-if-not-resolved=\"False\" />"

@@ -48,6 +48,16 @@ methods:
   returns:
     description: "true if the alert is sent to the account administrators"
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.sql.models.SqlDatabaseThreatDetectionPolicy.emailAddressList()"
+  fullName: "com.azure.resourcemanager.sql.models.SqlDatabaseThreatDetectionPolicy.emailAddressList()"
+  name: "emailAddressList()"
+  nameWithType: "SqlDatabaseThreatDetectionPolicy.emailAddressList()"
+  modifiers:
+  - "abstract"
+  syntax: "public abstract List<String> emailAddressList()"
+  returns:
+    description: "a list of e-mail addresses to which the alert is sent"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
 - uid: "com.azure.resourcemanager.sql.models.SqlDatabaseThreatDetectionPolicy.emailAddresses()"
   fullName: "com.azure.resourcemanager.sql.models.SqlDatabaseThreatDetectionPolicy.emailAddresses()"
   name: "emailAddresses()"
@@ -60,16 +70,6 @@ methods:
   returns:
     description: "the semicolon-separated list of e-mail addresses to which the alert is sent"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.sql.models.SqlDatabaseThreatDetectionPolicy.emailAddressList()"
-  fullName: "com.azure.resourcemanager.sql.models.SqlDatabaseThreatDetectionPolicy.emailAddressList()"
-  name: "emailAddressList()"
-  nameWithType: "SqlDatabaseThreatDetectionPolicy.emailAddressList()"
-  modifiers:
-  - "abstract"
-  syntax: "public abstract List<String> emailAddressList()"
-  returns:
-    description: "a list of e-mail addresses to which the alert is sent"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
 - uid: "com.azure.resourcemanager.sql.models.SqlDatabaseThreatDetectionPolicy.isDefaultSecurityAlertPolicy()"
   fullName: "com.azure.resourcemanager.sql.models.SqlDatabaseThreatDetectionPolicy.isDefaultSecurityAlertPolicy()"
   name: "isDefaultSecurityAlertPolicy()"

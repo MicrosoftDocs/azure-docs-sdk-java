@@ -6,18 +6,6 @@ nameWithType: "VirtualMachine.UpdateStages.WithProximityPlacementGroup"
 summary: "The stage of a virtual machine update allowing to set/remove information about the proximity placement group that the virtual machine scale set should be assigned to."
 syntax: "public static interface **VirtualMachine.UpdateStages.WithProximityPlacementGroup**"
 methods:
-- uid: "com.azure.resourcemanager.compute.models.VirtualMachine.UpdateStages.WithProximityPlacementGroup.withoutProximityPlacementGroup()"
-  fullName: "com.azure.resourcemanager.compute.models.VirtualMachine.UpdateStages.WithProximityPlacementGroup.withoutProximityPlacementGroup()"
-  name: "withoutProximityPlacementGroup()"
-  nameWithType: "VirtualMachine.UpdateStages.WithProximityPlacementGroup.withoutProximityPlacementGroup()"
-  summary: "Removes the Proximity placement group from the VM."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract VirtualMachine.Update withoutProximityPlacementGroup()"
-  desc: "Removes the Proximity placement group from the VM."
-  returns:
-    description: "the next stage of the definition."
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachine.Update?alt=com.azure.resourcemanager.compute.models.VirtualMachine.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.models.VirtualMachine.UpdateStages.WithProximityPlacementGroup.withProximityPlacementGroup(java.lang.String)"
   fullName: "com.azure.resourcemanager.compute.models.VirtualMachine.UpdateStages.WithProximityPlacementGroup.withProximityPlacementGroup(String proximityPlacementGroupId)"
   name: "withProximityPlacementGroup(String proximityPlacementGroupId)"
@@ -31,6 +19,18 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract VirtualMachine.Update withProximityPlacementGroup(String proximityPlacementGroupId)"
   desc: "Set information about the proximity placement group that the virtual machineshould be assigned to."
+  returns:
+    description: "the next stage of the definition."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachine.Update?alt=com.azure.resourcemanager.compute.models.VirtualMachine.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.VirtualMachine.UpdateStages.WithProximityPlacementGroup.withoutProximityPlacementGroup()"
+  fullName: "com.azure.resourcemanager.compute.models.VirtualMachine.UpdateStages.WithProximityPlacementGroup.withoutProximityPlacementGroup()"
+  name: "withoutProximityPlacementGroup()"
+  nameWithType: "VirtualMachine.UpdateStages.WithProximityPlacementGroup.withoutProximityPlacementGroup()"
+  summary: "Removes the Proximity placement group from the VM."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract VirtualMachine.Update withoutProximityPlacementGroup()"
+  desc: "Removes the Proximity placement group from the VM."
   returns:
     description: "the next stage of the definition."
     type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachine.Update?alt=com.azure.resourcemanager.compute.models.VirtualMachine.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"

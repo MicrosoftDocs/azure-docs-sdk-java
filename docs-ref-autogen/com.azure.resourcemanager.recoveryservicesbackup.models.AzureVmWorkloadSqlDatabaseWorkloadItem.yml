@@ -176,19 +176,6 @@ methods:
   desc: "Set the serverName property: Host/Cluster Name for instance or AG."
   returns:
     type: "<xref href=\"com.azure.resourcemanager.recoveryservicesbackup.models.AzureVmWorkloadSqlDatabaseWorkloadItem?alt=com.azure.resourcemanager.recoveryservicesbackup.models.AzureVmWorkloadSqlDatabaseWorkloadItem&text=AzureVmWorkloadSqlDatabaseWorkloadItem\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.recoveryservicesbackup.models.AzureVmWorkloadSqlDatabaseWorkloadItem.withSubinquireditemcount(java.lang.Integer)"
-  fullName: "com.azure.resourcemanager.recoveryservicesbackup.models.AzureVmWorkloadSqlDatabaseWorkloadItem.withSubinquireditemcount(Integer subinquireditemcount)"
-  name: "withSubinquireditemcount(Integer subinquireditemcount)"
-  nameWithType: "AzureVmWorkloadSqlDatabaseWorkloadItem.withSubinquireditemcount(Integer subinquireditemcount)"
-  summary: "Set the subinquireditemcount property: For instance or AG, indicates number of DB's present."
-  overridden: "com.azure.resourcemanager.recoveryservicesbackup.models.AzureVmWorkloadItem.withSubinquireditemcount(java.lang.Integer)"
-  parameters:
-  - name: "subinquireditemcount"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
-  syntax: "public AzureVmWorkloadSqlDatabaseWorkloadItem withSubinquireditemcount(Integer subinquireditemcount)"
-  desc: "Set the subinquireditemcount property: For instance or AG, indicates number of DB's present."
-  returns:
-    type: "<xref href=\"com.azure.resourcemanager.recoveryservicesbackup.models.AzureVmWorkloadSqlDatabaseWorkloadItem?alt=com.azure.resourcemanager.recoveryservicesbackup.models.AzureVmWorkloadSqlDatabaseWorkloadItem&text=AzureVmWorkloadSqlDatabaseWorkloadItem\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.recoveryservicesbackup.models.AzureVmWorkloadSqlDatabaseWorkloadItem.withSubWorkloadItemCount(java.lang.Integer)"
   fullName: "com.azure.resourcemanager.recoveryservicesbackup.models.AzureVmWorkloadSqlDatabaseWorkloadItem.withSubWorkloadItemCount(Integer subWorkloadItemCount)"
   name: "withSubWorkloadItemCount(Integer subWorkloadItemCount)"
@@ -200,6 +187,19 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
   syntax: "public AzureVmWorkloadSqlDatabaseWorkloadItem withSubWorkloadItemCount(Integer subWorkloadItemCount)"
   desc: "Set the subWorkloadItemCount property: For instance or AG, indicates number of DB's to be protected."
+  returns:
+    type: "<xref href=\"com.azure.resourcemanager.recoveryservicesbackup.models.AzureVmWorkloadSqlDatabaseWorkloadItem?alt=com.azure.resourcemanager.recoveryservicesbackup.models.AzureVmWorkloadSqlDatabaseWorkloadItem&text=AzureVmWorkloadSqlDatabaseWorkloadItem\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.recoveryservicesbackup.models.AzureVmWorkloadSqlDatabaseWorkloadItem.withSubinquireditemcount(java.lang.Integer)"
+  fullName: "com.azure.resourcemanager.recoveryservicesbackup.models.AzureVmWorkloadSqlDatabaseWorkloadItem.withSubinquireditemcount(Integer subinquireditemcount)"
+  name: "withSubinquireditemcount(Integer subinquireditemcount)"
+  nameWithType: "AzureVmWorkloadSqlDatabaseWorkloadItem.withSubinquireditemcount(Integer subinquireditemcount)"
+  summary: "Set the subinquireditemcount property: For instance or AG, indicates number of DB's present."
+  overridden: "com.azure.resourcemanager.recoveryservicesbackup.models.AzureVmWorkloadItem.withSubinquireditemcount(java.lang.Integer)"
+  parameters:
+  - name: "subinquireditemcount"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
+  syntax: "public AzureVmWorkloadSqlDatabaseWorkloadItem withSubinquireditemcount(Integer subinquireditemcount)"
+  desc: "Set the subinquireditemcount property: For instance or AG, indicates number of DB's present."
   returns:
     type: "<xref href=\"com.azure.resourcemanager.recoveryservicesbackup.models.AzureVmWorkloadSqlDatabaseWorkloadItem?alt=com.azure.resourcemanager.recoveryservicesbackup.models.AzureVmWorkloadSqlDatabaseWorkloadItem&text=AzureVmWorkloadSqlDatabaseWorkloadItem\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.recoveryservicesbackup.models.AzureVmWorkloadSqlDatabaseWorkloadItem.withWorkloadType(java.lang.String)"

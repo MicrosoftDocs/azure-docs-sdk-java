@@ -941,6 +941,14 @@ methods:
   returns:
     description: "the time when the blob was created"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
+- uid: "com.azure.storage.blob.models.BlobProperties.getETag()"
+  fullName: "com.azure.storage.blob.models.BlobProperties.getETag()"
+  name: "getETag()"
+  nameWithType: "BlobProperties.getETag()"
+  syntax: "public String getETag()"
+  returns:
+    description: "the eTag of the blob"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.storage.blob.models.BlobProperties.getEncryptionKeySha256()"
   fullName: "com.azure.storage.blob.models.BlobProperties.getEncryptionKeySha256()"
   name: "getEncryptionKeySha256()"
@@ -956,14 +964,6 @@ methods:
   syntax: "public String getEncryptionScope()"
   returns:
     description: "The name of the encryption scope under which the blob is encrypted."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.storage.blob.models.BlobProperties.getETag()"
-  fullName: "com.azure.storage.blob.models.BlobProperties.getETag()"
-  name: "getETag()"
-  nameWithType: "BlobProperties.getETag()"
-  syntax: "public String getETag()"
-  returns:
-    description: "the eTag of the blob"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.storage.blob.models.BlobProperties.getExpiresOn()"
   fullName: "com.azure.storage.blob.models.BlobProperties.getExpiresOn()"

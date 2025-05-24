@@ -141,16 +141,6 @@ methods:
   returns:
     description: "the running value."
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.compute.batch.models.BatchNodeCounts.getStarting()"
-  fullName: "com.azure.compute.batch.models.BatchNodeCounts.getStarting()"
-  name: "getStarting()"
-  nameWithType: "BatchNodeCounts.getStarting()"
-  summary: "Get the starting property: The number of Compute Nodes in the starting state."
-  syntax: "public int getStarting()"
-  desc: "Get the starting property: The number of Compute Nodes in the starting state."
-  returns:
-    description: "the starting value."
-    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.compute.batch.models.BatchNodeCounts.getStartTaskFailed()"
   fullName: "com.azure.compute.batch.models.BatchNodeCounts.getStartTaskFailed()"
   name: "getStartTaskFailed()"
@@ -160,6 +150,16 @@ methods:
   desc: "Get the startTaskFailed property: The number of Compute Nodes in the startTaskFailed state."
   returns:
     description: "the startTaskFailed value."
+    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.compute.batch.models.BatchNodeCounts.getStarting()"
+  fullName: "com.azure.compute.batch.models.BatchNodeCounts.getStarting()"
+  name: "getStarting()"
+  nameWithType: "BatchNodeCounts.getStarting()"
+  summary: "Get the starting property: The number of Compute Nodes in the starting state."
+  syntax: "public int getStarting()"
+  desc: "Get the starting property: The number of Compute Nodes in the starting state."
+  returns:
+    description: "the starting value."
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.compute.batch.models.BatchNodeCounts.getTotal()"
   fullName: "com.azure.compute.batch.models.BatchNodeCounts.getTotal()"

@@ -198,18 +198,6 @@ methods:
   returns:
     description: "the type value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.vmwarecloudsimple.models.VirtualMachineTemplate.vmwaretools()"
-  fullName: "com.azure.resourcemanager.vmwarecloudsimple.models.VirtualMachineTemplate.vmwaretools()"
-  name: "vmwaretools()"
-  nameWithType: "VirtualMachineTemplate.vmwaretools()"
-  summary: "Gets the vmwaretools property: The VMware tools version."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract String vmwaretools()"
-  desc: "Gets the vmwaretools property: The VMware tools version."
-  returns:
-    description: "the vmwaretools value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.vmwarecloudsimple.models.VirtualMachineTemplate.vSphereNetworks()"
   fullName: "com.azure.resourcemanager.vmwarecloudsimple.models.VirtualMachineTemplate.vSphereNetworks()"
   name: "vSphereNetworks()"
@@ -234,6 +222,18 @@ methods:
   returns:
     description: "the vSphereTags value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+- uid: "com.azure.resourcemanager.vmwarecloudsimple.models.VirtualMachineTemplate.vmwaretools()"
+  fullName: "com.azure.resourcemanager.vmwarecloudsimple.models.VirtualMachineTemplate.vmwaretools()"
+  name: "vmwaretools()"
+  nameWithType: "VirtualMachineTemplate.vmwaretools()"
+  summary: "Gets the vmwaretools property: The VMware tools version."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String vmwaretools()"
+  desc: "Gets the vmwaretools property: The VMware tools version."
+  returns:
+    description: "the vmwaretools value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 type: "interface"
 desc: "An immutable client-side representation of VirtualMachineTemplate."
 metadata: {}

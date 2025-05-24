@@ -55,7 +55,7 @@ methods:
   nameWithType: "AzurePostgreSqlLinkedService.azureCloudType()"
   summary: "Get the azure<wbr>Cloud<wbr>Type property: Indicates the azure cloud type of the service principle auth."
   syntax: "public Object azureCloudType()"
-  desc: "Get the azureCloudType property: Indicates the azure cloud type of the service principle auth. Allowed values are AzurePublic, AzureChina, AzureUsGovernment, AzureGermany. Default value is the data factory regions’ cloud type. Type: string (or Expression with resultType string)."
+  desc: "Get the azureCloudType property: Indicates the azure cloud type of the service principle auth. Allowed values are AzurePublic, AzureChina, AzureUsGovernment, AzureGermany. Default value is the data factory regions\\\\u2019 cloud type. Type: string (or Expression with resultType string)."
   returns:
     description: "the azureCloudType value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
@@ -343,7 +343,7 @@ methods:
     name: "azureCloudType"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   syntax: "public AzurePostgreSqlLinkedService withAzureCloudType(Object azureCloudType)"
-  desc: "Set the azureCloudType property: Indicates the azure cloud type of the service principle auth. Allowed values are AzurePublic, AzureChina, AzureUsGovernment, AzureGermany. Default value is the data factory regions’ cloud type. Type: string (or Expression with resultType string)."
+  desc: "Set the azureCloudType property: Indicates the azure cloud type of the service principle auth. Allowed values are AzurePublic, AzureChina, AzureUsGovernment, AzureGermany. Default value is the data factory regions\\\\u2019 cloud type. Type: string (or Expression with resultType string)."
   returns:
     description: "the AzurePostgreSqlLinkedService object itself."
     type: "<xref href=\"com.azure.resourcemanager.datafactory.models.AzurePostgreSqlLinkedService?alt=com.azure.resourcemanager.datafactory.models.AzurePostgreSqlLinkedService&text=AzurePostgreSqlLinkedService\" data-throw-if-not-resolved=\"False\" />"
@@ -361,6 +361,19 @@ methods:
   returns:
     description: "the AzurePostgreSqlLinkedService object itself."
     type: "<xref href=\"com.azure.resourcemanager.datafactory.models.AzurePostgreSqlLinkedService?alt=com.azure.resourcemanager.datafactory.models.AzurePostgreSqlLinkedService&text=AzurePostgreSqlLinkedService\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.datafactory.models.AzurePostgreSqlLinkedService.withConnectVia(com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference)"
+  fullName: "com.azure.resourcemanager.datafactory.models.AzurePostgreSqlLinkedService.withConnectVia(IntegrationRuntimeReference connectVia)"
+  name: "withConnectVia(IntegrationRuntimeReference connectVia)"
+  nameWithType: "AzurePostgreSqlLinkedService.withConnectVia(IntegrationRuntimeReference connectVia)"
+  summary: "Set the connect<wbr>Via property: The integration runtime reference."
+  overridden: "com.azure.resourcemanager.datafactory.models.LinkedService.withConnectVia(com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference)"
+  parameters:
+  - name: "connectVia"
+    type: "<xref href=\"com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference?alt=com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference&text=IntegrationRuntimeReference\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public AzurePostgreSqlLinkedService withConnectVia(IntegrationRuntimeReference connectVia)"
+  desc: "Set the connectVia property: The integration runtime reference."
+  returns:
+    type: "<xref href=\"com.azure.resourcemanager.datafactory.models.AzurePostgreSqlLinkedService?alt=com.azure.resourcemanager.datafactory.models.AzurePostgreSqlLinkedService&text=AzurePostgreSqlLinkedService\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.datafactory.models.AzurePostgreSqlLinkedService.withConnectionString(java.lang.Object)"
   fullName: "com.azure.resourcemanager.datafactory.models.AzurePostgreSqlLinkedService.withConnectionString(Object connectionString)"
   name: "withConnectionString(Object connectionString)"
@@ -374,19 +387,6 @@ methods:
   desc: "Set the connectionString property: An ODBC connection string. Type: string, SecureString or AzureKeyVaultSecretReference."
   returns:
     description: "the AzurePostgreSqlLinkedService object itself."
-    type: "<xref href=\"com.azure.resourcemanager.datafactory.models.AzurePostgreSqlLinkedService?alt=com.azure.resourcemanager.datafactory.models.AzurePostgreSqlLinkedService&text=AzurePostgreSqlLinkedService\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.datafactory.models.AzurePostgreSqlLinkedService.withConnectVia(com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference)"
-  fullName: "com.azure.resourcemanager.datafactory.models.AzurePostgreSqlLinkedService.withConnectVia(IntegrationRuntimeReference connectVia)"
-  name: "withConnectVia(IntegrationRuntimeReference connectVia)"
-  nameWithType: "AzurePostgreSqlLinkedService.withConnectVia(IntegrationRuntimeReference connectVia)"
-  summary: "Set the connect<wbr>Via property: The integration runtime reference."
-  overridden: "com.azure.resourcemanager.datafactory.models.LinkedService.withConnectVia(com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference)"
-  parameters:
-  - name: "connectVia"
-    type: "<xref href=\"com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference?alt=com.azure.resourcemanager.datafactory.models.IntegrationRuntimeReference&text=IntegrationRuntimeReference\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public AzurePostgreSqlLinkedService withConnectVia(IntegrationRuntimeReference connectVia)"
-  desc: "Set the connectVia property: The integration runtime reference."
-  returns:
     type: "<xref href=\"com.azure.resourcemanager.datafactory.models.AzurePostgreSqlLinkedService?alt=com.azure.resourcemanager.datafactory.models.AzurePostgreSqlLinkedService&text=AzurePostgreSqlLinkedService\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.datafactory.models.AzurePostgreSqlLinkedService.withCredential(com.azure.resourcemanager.datafactory.models.CredentialReference)"
   fullName: "com.azure.resourcemanager.datafactory.models.AzurePostgreSqlLinkedService.withCredential(CredentialReference credential)"

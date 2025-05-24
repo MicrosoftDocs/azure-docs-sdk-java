@@ -6,22 +6,6 @@ nameWithType: "KubernetesClusterAgentPool.UpdateStages.WithTags<ParentT>"
 summary: "The stage of a container service agent pool update allowing to specify tags."
 syntax: "public static interface **KubernetesClusterAgentPool.UpdateStages.WithTags<ParentT>**"
 methods:
-- uid: "com.azure.resourcemanager.containerservice.models.KubernetesClusterAgentPool.UpdateStages.WithTags.withoutTag(java.lang.String)"
-  fullName: "com.azure.resourcemanager.containerservice.models.KubernetesClusterAgentPool.UpdateStages.WithTags<ParentT>.withoutTag(String key)"
-  name: "withoutTag(String key)"
-  nameWithType: "KubernetesClusterAgentPool.UpdateStages.WithTags<ParentT>.withoutTag(String key)"
-  summary: "Removes a tag from the agents."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "the key of the tag to remove"
-    name: "key"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public abstract KubernetesClusterAgentPool.Update<ParentT> withoutTag(String key)"
-  desc: "Removes a tag from the agents."
-  returns:
-    description: "the next stage of the update"
-    type: "<xref href=\"com.azure.resourcemanager.containerservice.models.KubernetesClusterAgentPool.Update?alt=com.azure.resourcemanager.containerservice.models.KubernetesClusterAgentPool.Update&text=Update\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.containerservice.models.KubernetesClusterAgentPool.UpdateStages.WithTags.withTag(java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.containerservice.models.KubernetesClusterAgentPool.UpdateStages.WithTags<ParentT>.withTag(String key, String value)"
   name: "withTag(String key, String value)"
@@ -54,6 +38,22 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
   syntax: "public abstract KubernetesClusterAgentPool.Update<ParentT> withTags(Map<String,String> tags)"
   desc: "Specifies tags for the agents."
+  returns:
+    description: "the next stage of the update"
+    type: "<xref href=\"com.azure.resourcemanager.containerservice.models.KubernetesClusterAgentPool.Update?alt=com.azure.resourcemanager.containerservice.models.KubernetesClusterAgentPool.Update&text=Update\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.containerservice.models.KubernetesClusterAgentPool.UpdateStages.WithTags.withoutTag(java.lang.String)"
+  fullName: "com.azure.resourcemanager.containerservice.models.KubernetesClusterAgentPool.UpdateStages.WithTags<ParentT>.withoutTag(String key)"
+  name: "withoutTag(String key)"
+  nameWithType: "KubernetesClusterAgentPool.UpdateStages.WithTags<ParentT>.withoutTag(String key)"
+  summary: "Removes a tag from the agents."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "the key of the tag to remove"
+    name: "key"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract KubernetesClusterAgentPool.Update<ParentT> withoutTag(String key)"
+  desc: "Removes a tag from the agents."
   returns:
     description: "the next stage of the update"
     type: "<xref href=\"com.azure.resourcemanager.containerservice.models.KubernetesClusterAgentPool.Update?alt=com.azure.resourcemanager.containerservice.models.KubernetesClusterAgentPool.Update&text=Update\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"

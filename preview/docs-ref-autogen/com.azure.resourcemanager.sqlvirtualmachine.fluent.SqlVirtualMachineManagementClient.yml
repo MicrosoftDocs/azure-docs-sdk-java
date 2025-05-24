@@ -90,18 +90,6 @@ methods:
   returns:
     description: "the SqlVirtualMachineGroupsClient object."
     type: "<xref href=\"com.azure.resourcemanager.sqlvirtualmachine.fluent.SqlVirtualMachineGroupsClient?alt=com.azure.resourcemanager.sqlvirtualmachine.fluent.SqlVirtualMachineGroupsClient&text=SqlVirtualMachineGroupsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.sqlvirtualmachine.fluent.SqlVirtualMachineManagementClient.getSqlVirtualMachines()"
-  fullName: "com.azure.resourcemanager.sqlvirtualmachine.fluent.SqlVirtualMachineManagementClient.getSqlVirtualMachines()"
-  name: "getSqlVirtualMachines()"
-  nameWithType: "SqlVirtualMachineManagementClient.getSqlVirtualMachines()"
-  summary: "Gets the Sql<wbr>Virtual<wbr>Machines<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract SqlVirtualMachinesClient getSqlVirtualMachines()"
-  desc: "Gets the SqlVirtualMachinesClient object to access its operations."
-  returns:
-    description: "the SqlVirtualMachinesClient object."
-    type: "<xref href=\"com.azure.resourcemanager.sqlvirtualmachine.fluent.SqlVirtualMachinesClient?alt=com.azure.resourcemanager.sqlvirtualmachine.fluent.SqlVirtualMachinesClient&text=SqlVirtualMachinesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.sqlvirtualmachine.fluent.SqlVirtualMachineManagementClient.getSqlVirtualMachineTroubleshoots()"
   fullName: "com.azure.resourcemanager.sqlvirtualmachine.fluent.SqlVirtualMachineManagementClient.getSqlVirtualMachineTroubleshoots()"
   name: "getSqlVirtualMachineTroubleshoots()"
@@ -114,6 +102,18 @@ methods:
   returns:
     description: "the SqlVirtualMachineTroubleshootsClient object."
     type: "<xref href=\"com.azure.resourcemanager.sqlvirtualmachine.fluent.SqlVirtualMachineTroubleshootsClient?alt=com.azure.resourcemanager.sqlvirtualmachine.fluent.SqlVirtualMachineTroubleshootsClient&text=SqlVirtualMachineTroubleshootsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.sqlvirtualmachine.fluent.SqlVirtualMachineManagementClient.getSqlVirtualMachines()"
+  fullName: "com.azure.resourcemanager.sqlvirtualmachine.fluent.SqlVirtualMachineManagementClient.getSqlVirtualMachines()"
+  name: "getSqlVirtualMachines()"
+  nameWithType: "SqlVirtualMachineManagementClient.getSqlVirtualMachines()"
+  summary: "Gets the Sql<wbr>Virtual<wbr>Machines<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract SqlVirtualMachinesClient getSqlVirtualMachines()"
+  desc: "Gets the SqlVirtualMachinesClient object to access its operations."
+  returns:
+    description: "the SqlVirtualMachinesClient object."
+    type: "<xref href=\"com.azure.resourcemanager.sqlvirtualmachine.fluent.SqlVirtualMachinesClient?alt=com.azure.resourcemanager.sqlvirtualmachine.fluent.SqlVirtualMachinesClient&text=SqlVirtualMachinesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.sqlvirtualmachine.fluent.SqlVirtualMachineManagementClient.getSubscriptionId()"
   fullName: "com.azure.resourcemanager.sqlvirtualmachine.fluent.SqlVirtualMachineManagementClient.getSubscriptionId()"
   name: "getSubscriptionId()"

@@ -142,6 +142,19 @@ methods:
   desc: "Set the versionHeaderName property: Name of HTTP header parameter that indicates the API Version if versioningScheme is set to \\`header\\`."
   returns:
     type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.models.ApiVersionSetContractProperties?alt=com.azure.resourcemanager.apimanagement.fluent.models.ApiVersionSetContractProperties&text=ApiVersionSetContractProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.apimanagement.fluent.models.ApiVersionSetContractProperties.withVersionQueryName(java.lang.String)"
+  fullName: "com.azure.resourcemanager.apimanagement.fluent.models.ApiVersionSetContractProperties.withVersionQueryName(String versionQueryName)"
+  name: "withVersionQueryName(String versionQueryName)"
+  nameWithType: "ApiVersionSetContractProperties.withVersionQueryName(String versionQueryName)"
+  summary: "Set the version<wbr>Query<wbr>Name property: Name of query parameter that indicates the API Version if versioning<wbr>Scheme is set to \\`query\\`."
+  overridden: "com.azure.resourcemanager.apimanagement.models.ApiVersionSetEntityBase.withVersionQueryName(java.lang.String)"
+  parameters:
+  - name: "versionQueryName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public ApiVersionSetContractProperties withVersionQueryName(String versionQueryName)"
+  desc: "Set the versionQueryName property: Name of query parameter that indicates the API Version if versioningScheme is set to \\`query\\`."
+  returns:
+    type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.models.ApiVersionSetContractProperties?alt=com.azure.resourcemanager.apimanagement.fluent.models.ApiVersionSetContractProperties&text=ApiVersionSetContractProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.apimanagement.fluent.models.ApiVersionSetContractProperties.withVersioningScheme(com.azure.resourcemanager.apimanagement.models.VersioningScheme)"
   fullName: "com.azure.resourcemanager.apimanagement.fluent.models.ApiVersionSetContractProperties.withVersioningScheme(VersioningScheme versioningScheme)"
   name: "withVersioningScheme(VersioningScheme versioningScheme)"
@@ -155,19 +168,6 @@ methods:
   desc: "Set the versioningScheme property: An value that determines where the API Version identifier will be located in a HTTP request."
   returns:
     description: "the ApiVersionSetContractProperties object itself."
-    type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.models.ApiVersionSetContractProperties?alt=com.azure.resourcemanager.apimanagement.fluent.models.ApiVersionSetContractProperties&text=ApiVersionSetContractProperties\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.apimanagement.fluent.models.ApiVersionSetContractProperties.withVersionQueryName(java.lang.String)"
-  fullName: "com.azure.resourcemanager.apimanagement.fluent.models.ApiVersionSetContractProperties.withVersionQueryName(String versionQueryName)"
-  name: "withVersionQueryName(String versionQueryName)"
-  nameWithType: "ApiVersionSetContractProperties.withVersionQueryName(String versionQueryName)"
-  summary: "Set the version<wbr>Query<wbr>Name property: Name of query parameter that indicates the API Version if versioning<wbr>Scheme is set to \\`query\\`."
-  overridden: "com.azure.resourcemanager.apimanagement.models.ApiVersionSetEntityBase.withVersionQueryName(java.lang.String)"
-  parameters:
-  - name: "versionQueryName"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public ApiVersionSetContractProperties withVersionQueryName(String versionQueryName)"
-  desc: "Set the versionQueryName property: Name of query parameter that indicates the API Version if versioningScheme is set to \\`query\\`."
-  returns:
     type: "<xref href=\"com.azure.resourcemanager.apimanagement.fluent.models.ApiVersionSetContractProperties?alt=com.azure.resourcemanager.apimanagement.fluent.models.ApiVersionSetContractProperties&text=ApiVersionSetContractProperties\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Properties of an API Version Set."

@@ -10,7 +10,7 @@ methods:
   fullName: "com.azure.resourcemanager.storage.fluent.BlobServicesClient.getServiceProperties(String resourceGroupName, String accountName)"
   name: "getServiceProperties(String resourceGroupName, String accountName)"
   nameWithType: "BlobServicesClient.getServiceProperties(String resourceGroupName, String accountName)"
-  summary: "Gets the properties of a storage account’s Blob service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  summary: "Gets the properties of a storage account\\\\u2019s Blob service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   modifiers:
   - "abstract"
   parameters:
@@ -21,7 +21,7 @@ methods:
     name: "accountName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract BlobServicePropertiesInner getServiceProperties(String resourceGroupName, String accountName)"
-  desc: "Gets the properties of a storage account’s Blob service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  desc: "Gets the properties of a storage account\\\\u2019s Blob service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   returns:
     description: "the properties of a storage account\\u2019s Blob service, including properties for Storage Analytics and CORS\n (Cross-Origin Resource Sharing) rules."
     type: "<xref href=\"com.azure.resourcemanager.storage.fluent.models.BlobServicePropertiesInner?alt=com.azure.resourcemanager.storage.fluent.models.BlobServicePropertiesInner&text=BlobServicePropertiesInner\" data-throw-if-not-resolved=\"False\" />"
@@ -29,7 +29,7 @@ methods:
   fullName: "com.azure.resourcemanager.storage.fluent.BlobServicesClient.getServicePropertiesAsync(String resourceGroupName, String accountName)"
   name: "getServicePropertiesAsync(String resourceGroupName, String accountName)"
   nameWithType: "BlobServicesClient.getServicePropertiesAsync(String resourceGroupName, String accountName)"
-  summary: "Gets the properties of a storage account’s Blob service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  summary: "Gets the properties of a storage account\\\\u2019s Blob service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   modifiers:
   - "abstract"
   parameters:
@@ -40,7 +40,7 @@ methods:
     name: "accountName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract Mono<BlobServicePropertiesInner> getServicePropertiesAsync(String resourceGroupName, String accountName)"
-  desc: "Gets the properties of a storage account’s Blob service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  desc: "Gets the properties of a storage account\\\\u2019s Blob service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   returns:
     description: "the properties of a storage account\\u2019s Blob service, including properties for Storage Analytics and CORS\n (Cross-Origin Resource Sharing) rules on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.resourcemanager.storage.fluent.models.BlobServicePropertiesInner?alt=com.azure.resourcemanager.storage.fluent.models.BlobServicePropertiesInner&text=BlobServicePropertiesInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -48,7 +48,7 @@ methods:
   fullName: "com.azure.resourcemanager.storage.fluent.BlobServicesClient.getServicePropertiesWithResponse(String resourceGroupName, String accountName, Context context)"
   name: "getServicePropertiesWithResponse(String resourceGroupName, String accountName, Context context)"
   nameWithType: "BlobServicesClient.getServicePropertiesWithResponse(String resourceGroupName, String accountName, Context context)"
-  summary: "Gets the properties of a storage account’s Blob service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  summary: "Gets the properties of a storage account\\\\u2019s Blob service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   modifiers:
   - "abstract"
   parameters:
@@ -62,7 +62,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Response<BlobServicePropertiesInner> getServicePropertiesWithResponse(String resourceGroupName, String accountName, Context context)"
-  desc: "Gets the properties of a storage account’s Blob service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  desc: "Gets the properties of a storage account\\\\u2019s Blob service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   returns:
     description: "the properties of a storage account\\u2019s Blob service, including properties for Storage Analytics and CORS\n (Cross-Origin Resource Sharing) rules along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.storage.fluent.models.BlobServicePropertiesInner?alt=com.azure.resourcemanager.storage.fluent.models.BlobServicePropertiesInner&text=BlobServicePropertiesInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -70,7 +70,7 @@ methods:
   fullName: "com.azure.resourcemanager.storage.fluent.BlobServicesClient.getServicePropertiesWithResponseAsync(String resourceGroupName, String accountName)"
   name: "getServicePropertiesWithResponseAsync(String resourceGroupName, String accountName)"
   nameWithType: "BlobServicesClient.getServicePropertiesWithResponseAsync(String resourceGroupName, String accountName)"
-  summary: "Gets the properties of a storage account’s Blob service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  summary: "Gets the properties of a storage account\\\\u2019s Blob service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   modifiers:
   - "abstract"
   parameters:
@@ -81,7 +81,7 @@ methods:
     name: "accountName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract Mono<Response<BlobServicePropertiesInner>> getServicePropertiesWithResponseAsync(String resourceGroupName, String accountName)"
-  desc: "Gets the properties of a storage account’s Blob service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  desc: "Gets the properties of a storage account\\\\u2019s Blob service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   returns:
     description: "the properties of a storage account\\u2019s Blob service, including properties for Storage Analytics and CORS\n (Cross-Origin Resource Sharing) rules along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref> on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.storage.fluent.models.BlobServicePropertiesInner?alt=com.azure.resourcemanager.storage.fluent.models.BlobServicePropertiesInner&text=BlobServicePropertiesInner\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
@@ -149,7 +149,7 @@ methods:
   fullName: "com.azure.resourcemanager.storage.fluent.BlobServicesClient.setServiceProperties(String resourceGroupName, String accountName, BlobServicePropertiesInner parameters)"
   name: "setServiceProperties(String resourceGroupName, String accountName, BlobServicePropertiesInner parameters)"
   nameWithType: "BlobServicesClient.setServiceProperties(String resourceGroupName, String accountName, BlobServicePropertiesInner parameters)"
-  summary: "Sets the properties of a storage account’s Blob service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  summary: "Sets the properties of a storage account\\\\u2019s Blob service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   modifiers:
   - "abstract"
   parameters:
@@ -163,7 +163,7 @@ methods:
     name: "parameters"
     type: "<xref href=\"com.azure.resourcemanager.storage.fluent.models.BlobServicePropertiesInner?alt=com.azure.resourcemanager.storage.fluent.models.BlobServicePropertiesInner&text=BlobServicePropertiesInner\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract BlobServicePropertiesInner setServiceProperties(String resourceGroupName, String accountName, BlobServicePropertiesInner parameters)"
-  desc: "Sets the properties of a storage account’s Blob service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  desc: "Sets the properties of a storage account\\\\u2019s Blob service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   returns:
     description: "the properties of a storage account\\u2019s Blob service."
     type: "<xref href=\"com.azure.resourcemanager.storage.fluent.models.BlobServicePropertiesInner?alt=com.azure.resourcemanager.storage.fluent.models.BlobServicePropertiesInner&text=BlobServicePropertiesInner\" data-throw-if-not-resolved=\"False\" />"
@@ -171,7 +171,7 @@ methods:
   fullName: "com.azure.resourcemanager.storage.fluent.BlobServicesClient.setServicePropertiesAsync(String resourceGroupName, String accountName, BlobServicePropertiesInner parameters)"
   name: "setServicePropertiesAsync(String resourceGroupName, String accountName, BlobServicePropertiesInner parameters)"
   nameWithType: "BlobServicesClient.setServicePropertiesAsync(String resourceGroupName, String accountName, BlobServicePropertiesInner parameters)"
-  summary: "Sets the properties of a storage account’s Blob service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  summary: "Sets the properties of a storage account\\\\u2019s Blob service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   modifiers:
   - "abstract"
   parameters:
@@ -185,7 +185,7 @@ methods:
     name: "parameters"
     type: "<xref href=\"com.azure.resourcemanager.storage.fluent.models.BlobServicePropertiesInner?alt=com.azure.resourcemanager.storage.fluent.models.BlobServicePropertiesInner&text=BlobServicePropertiesInner\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Mono<BlobServicePropertiesInner> setServicePropertiesAsync(String resourceGroupName, String accountName, BlobServicePropertiesInner parameters)"
-  desc: "Sets the properties of a storage account’s Blob service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  desc: "Sets the properties of a storage account\\\\u2019s Blob service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   returns:
     description: "the properties of a storage account\\u2019s Blob service on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.resourcemanager.storage.fluent.models.BlobServicePropertiesInner?alt=com.azure.resourcemanager.storage.fluent.models.BlobServicePropertiesInner&text=BlobServicePropertiesInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -193,7 +193,7 @@ methods:
   fullName: "com.azure.resourcemanager.storage.fluent.BlobServicesClient.setServicePropertiesWithResponse(String resourceGroupName, String accountName, BlobServicePropertiesInner parameters, Context context)"
   name: "setServicePropertiesWithResponse(String resourceGroupName, String accountName, BlobServicePropertiesInner parameters, Context context)"
   nameWithType: "BlobServicesClient.setServicePropertiesWithResponse(String resourceGroupName, String accountName, BlobServicePropertiesInner parameters, Context context)"
-  summary: "Sets the properties of a storage account’s Blob service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  summary: "Sets the properties of a storage account\\\\u2019s Blob service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   modifiers:
   - "abstract"
   parameters:
@@ -210,7 +210,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Response<BlobServicePropertiesInner> setServicePropertiesWithResponse(String resourceGroupName, String accountName, BlobServicePropertiesInner parameters, Context context)"
-  desc: "Sets the properties of a storage account’s Blob service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  desc: "Sets the properties of a storage account\\\\u2019s Blob service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   returns:
     description: "the properties of a storage account\\u2019s Blob service along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.storage.fluent.models.BlobServicePropertiesInner?alt=com.azure.resourcemanager.storage.fluent.models.BlobServicePropertiesInner&text=BlobServicePropertiesInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -218,7 +218,7 @@ methods:
   fullName: "com.azure.resourcemanager.storage.fluent.BlobServicesClient.setServicePropertiesWithResponseAsync(String resourceGroupName, String accountName, BlobServicePropertiesInner parameters)"
   name: "setServicePropertiesWithResponseAsync(String resourceGroupName, String accountName, BlobServicePropertiesInner parameters)"
   nameWithType: "BlobServicesClient.setServicePropertiesWithResponseAsync(String resourceGroupName, String accountName, BlobServicePropertiesInner parameters)"
-  summary: "Sets the properties of a storage account’s Blob service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  summary: "Sets the properties of a storage account\\\\u2019s Blob service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   modifiers:
   - "abstract"
   parameters:
@@ -232,7 +232,7 @@ methods:
     name: "parameters"
     type: "<xref href=\"com.azure.resourcemanager.storage.fluent.models.BlobServicePropertiesInner?alt=com.azure.resourcemanager.storage.fluent.models.BlobServicePropertiesInner&text=BlobServicePropertiesInner\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Mono<Response<BlobServicePropertiesInner>> setServicePropertiesWithResponseAsync(String resourceGroupName, String accountName, BlobServicePropertiesInner parameters)"
-  desc: "Sets the properties of a storage account’s Blob service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
+  desc: "Sets the properties of a storage account\\\\u2019s Blob service, including properties for Storage Analytics and CORS (Cross-Origin Resource Sharing) rules."
   returns:
     description: "the properties of a storage account\\u2019s Blob service along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref> on successful completion\n of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.storage.fluent.models.BlobServicePropertiesInner?alt=com.azure.resourcemanager.storage.fluent.models.BlobServicePropertiesInner&text=BlobServicePropertiesInner\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"

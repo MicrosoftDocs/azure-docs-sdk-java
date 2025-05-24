@@ -58,16 +58,6 @@ methods:
   returns:
     description: "the currentBackupType value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.sql.fluent.models.ManagedDatabaseRestoreDetailsResultInner.currentRestoredSizeMB()"
-  fullName: "com.azure.resourcemanager.sql.fluent.models.ManagedDatabaseRestoreDetailsResultInner.currentRestoredSizeMB()"
-  name: "currentRestoredSizeMB()"
-  nameWithType: "ManagedDatabaseRestoreDetailsResultInner.currentRestoredSizeMB()"
-  summary: "Get the current<wbr>Restored<wbr>SizeMB property: Current restored size MB."
-  syntax: "public Integer currentRestoredSizeMB()"
-  desc: "Get the currentRestoredSizeMB property: Current restored size MB."
-  returns:
-    description: "the currentRestoredSizeMB value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
 - uid: "com.azure.resourcemanager.sql.fluent.models.ManagedDatabaseRestoreDetailsResultInner.currentRestorePlanSizeMB()"
   fullName: "com.azure.resourcemanager.sql.fluent.models.ManagedDatabaseRestoreDetailsResultInner.currentRestorePlanSizeMB()"
   name: "currentRestorePlanSizeMB()"
@@ -77,6 +67,16 @@ methods:
   desc: "Get the currentRestorePlanSizeMB property: Current restore plan size MB."
   returns:
     description: "the currentRestorePlanSizeMB value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
+- uid: "com.azure.resourcemanager.sql.fluent.models.ManagedDatabaseRestoreDetailsResultInner.currentRestoredSizeMB()"
+  fullName: "com.azure.resourcemanager.sql.fluent.models.ManagedDatabaseRestoreDetailsResultInner.currentRestoredSizeMB()"
+  name: "currentRestoredSizeMB()"
+  nameWithType: "ManagedDatabaseRestoreDetailsResultInner.currentRestoredSizeMB()"
+  summary: "Get the current<wbr>Restored<wbr>SizeMB property: Current restored size MB."
+  syntax: "public Integer currentRestoredSizeMB()"
+  desc: "Get the currentRestoredSizeMB property: Current restored size MB."
+  returns:
+    description: "the currentRestoredSizeMB value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
 - uid: "com.azure.resourcemanager.sql.fluent.models.ManagedDatabaseRestoreDetailsResultInner.currentRestoringFileName()"
   fullName: "com.azure.resourcemanager.sql.fluent.models.ManagedDatabaseRestoreDetailsResultInner.currentRestoringFileName()"

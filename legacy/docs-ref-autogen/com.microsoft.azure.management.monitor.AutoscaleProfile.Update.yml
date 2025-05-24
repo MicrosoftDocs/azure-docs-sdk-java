@@ -78,22 +78,6 @@ methods:
   returns:
     description: "the next stage of the autoscale profile update."
     type: "<xref href=\"com.microsoft.azure.management.monitor.AutoscaleProfile.Update?alt=com.microsoft.azure.management.monitor.AutoscaleProfile.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.azure.management.monitor.AutoscaleProfile.Update.withoutScaleRule(int)"
-  fullName: "com.microsoft.azure.management.monitor.AutoscaleProfile.Update.withoutScaleRule(int ruleIndex)"
-  name: "withoutScaleRule(int ruleIndex)"
-  nameWithType: "AutoscaleProfile.Update.withoutScaleRule(int ruleIndex)"
-  summary: "Removes scale rule from the current autoscale profile."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "the index of the scale rule in the current autoscale profile."
-    name: "ruleIndex"
-    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract AutoscaleProfile.Update withoutScaleRule(int ruleIndex)"
-  desc: "Removes scale rule from the current autoscale profile."
-  returns:
-    description: "the next stage of the autoscale profile update."
-    type: "<xref href=\"com.microsoft.azure.management.monitor.AutoscaleProfile.Update?alt=com.microsoft.azure.management.monitor.AutoscaleProfile.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.azure.management.monitor.AutoscaleProfile.Update.withRecurrentSchedule(java.lang.String,java.lang.String,com.microsoft.azure.management.monitor.DayOfWeek...)"
   fullName: "com.microsoft.azure.management.monitor.AutoscaleProfile.Update.withRecurrentSchedule(String scheduleTimeZone, String startTime, DayOfWeek[] weekday)"
   name: "withRecurrentSchedule(String scheduleTimeZone, String startTime, DayOfWeek[] weekday)"
@@ -129,6 +113,22 @@ methods:
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract AutoscaleProfile.Update withScheduleBasedScale(int instanceCount)"
   desc: "Updates schedule based autoscale profile."
+  returns:
+    description: "the next stage of the autoscale profile update."
+    type: "<xref href=\"com.microsoft.azure.management.monitor.AutoscaleProfile.Update?alt=com.microsoft.azure.management.monitor.AutoscaleProfile.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.azure.management.monitor.AutoscaleProfile.Update.withoutScaleRule(int)"
+  fullName: "com.microsoft.azure.management.monitor.AutoscaleProfile.Update.withoutScaleRule(int ruleIndex)"
+  name: "withoutScaleRule(int ruleIndex)"
+  nameWithType: "AutoscaleProfile.Update.withoutScaleRule(int ruleIndex)"
+  summary: "Removes scale rule from the current autoscale profile."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "the index of the scale rule in the current autoscale profile."
+    name: "ruleIndex"
+    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract AutoscaleProfile.Update withoutScaleRule(int ruleIndex)"
+  desc: "Removes scale rule from the current autoscale profile."
   returns:
     description: "the next stage of the autoscale profile update."
     type: "<xref href=\"com.microsoft.azure.management.monitor.AutoscaleProfile.Update?alt=com.microsoft.azure.management.monitor.AutoscaleProfile.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"

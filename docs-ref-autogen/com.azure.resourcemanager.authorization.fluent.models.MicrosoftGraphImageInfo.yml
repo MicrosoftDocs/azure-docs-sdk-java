@@ -36,7 +36,7 @@ methods:
   nameWithType: "MicrosoftGraphImageInfo.addImageQuery()"
   summary: "Get the add<wbr>Image<wbr>Query property: Optional; parameter used to indicate the server is able to render image dynamically in response to parameterization."
   syntax: "public Boolean addImageQuery()"
-  desc: "Get the addImageQuery property: Optional; parameter used to indicate the server is able to render image dynamically in response to parameterization. For example – a high contrast image."
+  desc: "Get the addImageQuery property: Optional; parameter used to indicate the server is able to render image dynamically in response to parameterization. For example \\\\u2013 a high contrast image."
   returns:
     description: "the addImageQuery value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
@@ -128,7 +128,7 @@ methods:
     name: "addImageQuery"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
   syntax: "public MicrosoftGraphImageInfo withAddImageQuery(Boolean addImageQuery)"
-  desc: "Set the addImageQuery property: Optional; parameter used to indicate the server is able to render image dynamically in response to parameterization. For example – a high contrast image."
+  desc: "Set the addImageQuery property: Optional; parameter used to indicate the server is able to render image dynamically in response to parameterization. For example \\\\u2013 a high contrast image."
   returns:
     description: "the MicrosoftGraphImageInfo object itself."
     type: "<xref href=\"com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphImageInfo?alt=com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphImageInfo&text=MicrosoftGraphImageInfo\" data-throw-if-not-resolved=\"False\" />"

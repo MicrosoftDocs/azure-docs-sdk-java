@@ -112,20 +112,6 @@ methods:
   returns:
     description: "<code>true</code> if Direct TCP connection endpoint rediscovery is enabled; <code>false</code> otherwise."
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.cosmos.DirectConnectionConfig.setConnectionEndpointRediscoveryEnabled(boolean)"
-  fullName: "com.azure.cosmos.DirectConnectionConfig.setConnectionEndpointRediscoveryEnabled(boolean connectionEndpointRediscoveryEnabled)"
-  name: "setConnectionEndpointRediscoveryEnabled(boolean connectionEndpointRediscoveryEnabled)"
-  nameWithType: "DirectConnectionConfig.setConnectionEndpointRediscoveryEnabled(boolean connectionEndpointRediscoveryEnabled)"
-  summary: "Sets a value indicating whether Direct TCP connection endpoint rediscovery should be enabled."
-  parameters:
-  - description: "<code>true</code> if connection endpoint rediscovery is enabled; <code>\n                                             false</code> otherwise."
-    name: "connectionEndpointRediscoveryEnabled"
-    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public DirectConnectionConfig setConnectionEndpointRediscoveryEnabled(boolean connectionEndpointRediscoveryEnabled)"
-  desc: "Sets a value indicating whether Direct TCP connection endpoint rediscovery should be enabled.\n\nThe connection endpoint rediscovery feature is designed to reduce and spread-out latency spikes that may occur during maintenance operations. By default, connection endpoint rediscovery is enabled."
-  returns:
-    description: "the <xref uid=\"com.azure.cosmos.DirectConnectionConfig\" data-throw-if-not-resolved=\"false\" data-raw-source=\"DirectConnectionConfig\"></xref>."
-    type: "<xref href=\"com.azure.cosmos.DirectConnectionConfig?alt=com.azure.cosmos.DirectConnectionConfig&text=DirectConnectionConfig\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.cosmos.DirectConnectionConfig.setConnectTimeout(java.time.Duration)"
   fullName: "com.azure.cosmos.DirectConnectionConfig.setConnectTimeout(Duration connectTimeout)"
   name: "setConnectTimeout(Duration connectTimeout)"
@@ -139,6 +125,20 @@ methods:
   desc: "Sets the connect timeout for direct client, represents timeout for establishing connections with an endpoint. Configures timeout for underlying Netty Channel <xref uid=\"\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ChannelOption#CONNECT_TIMEOUT_MILLIS\"></xref> By default, the connect timeout is 5 seconds."
   returns:
     description: "the <xref uid=\"com.azure.cosmos.DirectConnectionConfig\" data-throw-if-not-resolved=\"false\" data-raw-source=\"DirectConnectionConfig\"></xref>"
+    type: "<xref href=\"com.azure.cosmos.DirectConnectionConfig?alt=com.azure.cosmos.DirectConnectionConfig&text=DirectConnectionConfig\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.cosmos.DirectConnectionConfig.setConnectionEndpointRediscoveryEnabled(boolean)"
+  fullName: "com.azure.cosmos.DirectConnectionConfig.setConnectionEndpointRediscoveryEnabled(boolean connectionEndpointRediscoveryEnabled)"
+  name: "setConnectionEndpointRediscoveryEnabled(boolean connectionEndpointRediscoveryEnabled)"
+  nameWithType: "DirectConnectionConfig.setConnectionEndpointRediscoveryEnabled(boolean connectionEndpointRediscoveryEnabled)"
+  summary: "Sets a value indicating whether Direct TCP connection endpoint rediscovery should be enabled."
+  parameters:
+  - description: "<code>true</code> if connection endpoint rediscovery is enabled; <code>\n                                             false</code> otherwise."
+    name: "connectionEndpointRediscoveryEnabled"
+    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public DirectConnectionConfig setConnectionEndpointRediscoveryEnabled(boolean connectionEndpointRediscoveryEnabled)"
+  desc: "Sets a value indicating whether Direct TCP connection endpoint rediscovery should be enabled.\n\nThe connection endpoint rediscovery feature is designed to reduce and spread-out latency spikes that may occur during maintenance operations. By default, connection endpoint rediscovery is enabled."
+  returns:
+    description: "the <xref uid=\"com.azure.cosmos.DirectConnectionConfig\" data-throw-if-not-resolved=\"false\" data-raw-source=\"DirectConnectionConfig\"></xref>."
     type: "<xref href=\"com.azure.cosmos.DirectConnectionConfig?alt=com.azure.cosmos.DirectConnectionConfig&text=DirectConnectionConfig\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.cosmos.DirectConnectionConfig.setIdleConnectionTimeout(java.time.Duration)"
   fullName: "com.azure.cosmos.DirectConnectionConfig.setIdleConnectionTimeout(Duration idleConnectionTimeout)"
@@ -206,7 +206,7 @@ methods:
     name: "networkRequestTimeout"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html\">Duration</a>"
   syntax: "public DirectConnectionConfig setNetworkRequestTimeout(Duration networkRequestTimeout)"
-  desc: "Sets the network request timeout interval (time to wait for response from network peer). Default value is 5 seconds. It only allows values ≥1s and ≤10s. (backend allows requests to take up-to 5 seconds processing time - 5 seconds buffer so 10 seconds in total for transport is more than sufficient). Attention! Please adjust this value with caution. This config represents the max time allowed to wait for and consume a service response after the request has been written to the network connection. Setting a value too low can result in having not enough time to wait for the service response - which could cause too aggressive retries and degrade performance. Setting a value too high can result in fewer retries and reduce chances of success by retries."
+  desc: "Sets the network request timeout interval (time to wait for response from network peer). Default value is 5 seconds. It only allows values ?1s and ?10s. (backend allows requests to take up-to 5 seconds processing time - 5 seconds buffer so 10 seconds in total for transport is more than sufficient). Attention! Please adjust this value with caution. This config represents the max time allowed to wait for and consume a service response after the request has been written to the network connection. Setting a value too low can result in having not enough time to wait for the service response - which could cause too aggressive retries and degrade performance. Setting a value too high can result in fewer retries and reduce chances of success by retries."
   returns:
     description: "the <xref uid=\"com.azure.cosmos.DirectConnectionConfig\" data-throw-if-not-resolved=\"false\" data-raw-source=\"DirectConnectionConfig\"></xref>"
     type: "<xref href=\"com.azure.cosmos.DirectConnectionConfig?alt=com.azure.cosmos.DirectConnectionConfig&text=DirectConnectionConfig\" data-throw-if-not-resolved=\"False\" />"

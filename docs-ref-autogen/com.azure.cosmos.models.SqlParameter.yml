@@ -44,6 +44,20 @@ constructors:
   syntax: "public SqlParameter(String name, Object value)"
   desc: "Initializes a new instance of the SqlParameter class with the name and value of the parameter."
 methods:
+- uid: "com.azure.cosmos.models.SqlParameter.<T>getValue(java.lang.Class<T>)"
+  fullName: "com.azure.cosmos.models.SqlParameter.getValue(Class<T> classType)"
+  name: "getValue(Class<T> classType)"
+  nameWithType: "SqlParameter.getValue(Class<T> classType)"
+  summary: "Gets the value of the parameter."
+  parameters:
+  - description: "the class of the parameter value."
+    name: "classType"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Class.html\">Class</a>&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public T <T>getValue(Class<T> classType)"
+  desc: "Gets the value of the parameter."
+  returns:
+    description: "the value of the parameter."
+    type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.cosmos.models.SqlParameter.equals(java.lang.Object)"
   fullName: "com.azure.cosmos.models.SqlParameter.equals(Object o)"
   name: "equals(Object o)"
@@ -65,20 +79,6 @@ methods:
   returns:
     description: "the name of the parameter."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.cosmos.models.SqlParameter.<T>getValue(java.lang.Class<T>)"
-  fullName: "com.azure.cosmos.models.SqlParameter.getValue(Class<T> classType)"
-  name: "getValue(Class<T> classType)"
-  nameWithType: "SqlParameter.getValue(Class<T> classType)"
-  summary: "Gets the value of the parameter."
-  parameters:
-  - description: "the class of the parameter value."
-    name: "classType"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Class.html\">Class</a>&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public T <T>getValue(Class<T> classType)"
-  desc: "Gets the value of the parameter."
-  returns:
-    description: "the value of the parameter."
-    type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.cosmos.models.SqlParameter.hashCode()"
   fullName: "com.azure.cosmos.models.SqlParameter.hashCode()"
   name: "hashCode()"

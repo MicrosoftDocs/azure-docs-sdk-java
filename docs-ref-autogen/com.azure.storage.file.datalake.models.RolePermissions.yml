@@ -51,14 +51,6 @@ methods:
   returns:
     description: "the execute permission status"
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.storage.file.datalake.models.RolePermissions.hashCode()"
-  fullName: "com.azure.storage.file.datalake.models.RolePermissions.hashCode()"
-  name: "hashCode()"
-  nameWithType: "RolePermissions.hashCode()"
-  overridden: "java.lang.Object.hashCode()"
-  syntax: "public int hashCode()"
-  returns:
-    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.storage.file.datalake.models.RolePermissions.hasReadPermission()"
   fullName: "com.azure.storage.file.datalake.models.RolePermissions.hasReadPermission()"
   name: "hasReadPermission()"
@@ -79,6 +71,14 @@ methods:
   returns:
     description: "the write permission status"
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.storage.file.datalake.models.RolePermissions.hashCode()"
+  fullName: "com.azure.storage.file.datalake.models.RolePermissions.hashCode()"
+  name: "hashCode()"
+  nameWithType: "RolePermissions.hashCode()"
+  overridden: "java.lang.Object.hashCode()"
+  syntax: "public int hashCode()"
+  returns:
+    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.storage.file.datalake.models.RolePermissions.parseOctal(int)"
   fullName: "com.azure.storage.file.datalake.models.RolePermissions.parseOctal(int octal)"
   name: "parseOctal(int octal)"

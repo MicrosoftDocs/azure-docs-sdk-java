@@ -6,22 +6,6 @@ nameWithType: "ContainerGroup.DefinitionStages.WithNetworkProfile"
 summary: "The stage of the container group definition allowing to specify the network profile id."
 syntax: "public static interface **ContainerGroup.DefinitionStages.WithNetworkProfile**"
 methods:
-- uid: "com.azure.resourcemanager.containerinstance.models.ContainerGroup.DefinitionStages.WithNetworkProfile.withExistingSubnet(java.lang.String)"
-  fullName: "com.azure.resourcemanager.containerinstance.models.ContainerGroup.DefinitionStages.WithNetworkProfile.withExistingSubnet(String subnetId)"
-  name: "withExistingSubnet(String subnetId)"
-  nameWithType: "ContainerGroup.DefinitionStages.WithNetworkProfile.withExistingSubnet(String subnetId)"
-  summary: "Specifies the subnet of virtual network for a container group."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "the ID of the subnet.\n                 the subnet must have delegation for 'Microsoft.ContainerInstance/containerGroups'."
-    name: "subnetId"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public abstract ContainerGroup.DefinitionStages.DnsConfigFork withExistingSubnet(String subnetId)"
-  desc: "Specifies the subnet of virtual network for a container group."
-  returns:
-    description: "the next stage of the definition"
-    type: "<xref href=\"com.azure.resourcemanager.containerinstance.models.ContainerGroup.DefinitionStages.DnsConfigFork?alt=com.azure.resourcemanager.containerinstance.models.ContainerGroup.DefinitionStages.DnsConfigFork&text=DnsConfigFork\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.containerinstance.models.ContainerGroup.DefinitionStages.WithNetworkProfile.withExistingSubnet(com.azure.resourcemanager.network.models.Subnet)"
   fullName: "com.azure.resourcemanager.containerinstance.models.ContainerGroup.DefinitionStages.WithNetworkProfile.withExistingSubnet(Subnet subnet)"
   name: "withExistingSubnet(Subnet subnet)"
@@ -34,6 +18,22 @@ methods:
     name: "subnet"
     type: "<xref href=\"com.azure.resourcemanager.network.models.Subnet?alt=com.azure.resourcemanager.network.models.Subnet&text=Subnet\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract ContainerGroup.DefinitionStages.DnsConfigFork withExistingSubnet(Subnet subnet)"
+  desc: "Specifies the subnet of virtual network for a container group."
+  returns:
+    description: "the next stage of the definition"
+    type: "<xref href=\"com.azure.resourcemanager.containerinstance.models.ContainerGroup.DefinitionStages.DnsConfigFork?alt=com.azure.resourcemanager.containerinstance.models.ContainerGroup.DefinitionStages.DnsConfigFork&text=DnsConfigFork\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.containerinstance.models.ContainerGroup.DefinitionStages.WithNetworkProfile.withExistingSubnet(java.lang.String)"
+  fullName: "com.azure.resourcemanager.containerinstance.models.ContainerGroup.DefinitionStages.WithNetworkProfile.withExistingSubnet(String subnetId)"
+  name: "withExistingSubnet(String subnetId)"
+  nameWithType: "ContainerGroup.DefinitionStages.WithNetworkProfile.withExistingSubnet(String subnetId)"
+  summary: "Specifies the subnet of virtual network for a container group."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "the ID of the subnet.\n                 the subnet must have delegation for 'Microsoft.ContainerInstance/containerGroups'."
+    name: "subnetId"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract ContainerGroup.DefinitionStages.DnsConfigFork withExistingSubnet(String subnetId)"
   desc: "Specifies the subnet of virtual network for a container group."
   returns:
     description: "the next stage of the definition"

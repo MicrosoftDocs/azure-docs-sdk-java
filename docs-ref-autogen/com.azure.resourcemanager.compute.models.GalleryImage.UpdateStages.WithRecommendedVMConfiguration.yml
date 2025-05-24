@@ -6,22 +6,6 @@ nameWithType: "GalleryImage.UpdateStages.WithRecommendedVMConfiguration"
 summary: "The stage of the gallery image definition allowing to specify recommended configuration for the virtual machine."
 syntax: "public static interface **GalleryImage.UpdateStages.WithRecommendedVMConfiguration**"
 methods:
-- uid: "com.azure.resourcemanager.compute.models.GalleryImage.UpdateStages.WithRecommendedVMConfiguration.withRecommendedConfigurationForVirtualMachine(com.azure.resourcemanager.compute.models.RecommendedMachineConfiguration)"
-  fullName: "com.azure.resourcemanager.compute.models.GalleryImage.UpdateStages.WithRecommendedVMConfiguration.withRecommendedConfigurationForVirtualMachine(RecommendedMachineConfiguration recommendedConfig)"
-  name: "withRecommendedConfigurationForVirtualMachine(RecommendedMachineConfiguration recommendedConfig)"
-  nameWithType: "GalleryImage.UpdateStages.WithRecommendedVMConfiguration.withRecommendedConfigurationForVirtualMachine(RecommendedMachineConfiguration recommendedConfig)"
-  summary: "Specifies recommended configuration for the virtual machine based on the image."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "the recommended configuration"
-    name: "recommendedConfig"
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.RecommendedMachineConfiguration?alt=com.azure.resourcemanager.compute.models.RecommendedMachineConfiguration&text=RecommendedMachineConfiguration\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract GalleryImage.Update withRecommendedConfigurationForVirtualMachine(RecommendedMachineConfiguration recommendedConfig)"
-  desc: "Specifies recommended configuration for the virtual machine based on the image."
-  returns:
-    description: "the next update stage"
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.GalleryImage.Update?alt=com.azure.resourcemanager.compute.models.GalleryImage.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.models.GalleryImage.UpdateStages.WithRecommendedVMConfiguration.withRecommendedCPUsCountForVirtualMachine(int,int)"
   fullName: "com.azure.resourcemanager.compute.models.GalleryImage.UpdateStages.WithRecommendedVMConfiguration.withRecommendedCPUsCountForVirtualMachine(int minCount, int maxCount)"
   name: "withRecommendedCPUsCountForVirtualMachine(int minCount, int maxCount)"
@@ -38,6 +22,22 @@ methods:
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract GalleryImage.Update withRecommendedCPUsCountForVirtualMachine(int minCount, int maxCount)"
   desc: "Specifies the recommended virtual CUPs for the virtual machine bases on the image."
+  returns:
+    description: "the next update stage"
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.GalleryImage.Update?alt=com.azure.resourcemanager.compute.models.GalleryImage.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.GalleryImage.UpdateStages.WithRecommendedVMConfiguration.withRecommendedConfigurationForVirtualMachine(com.azure.resourcemanager.compute.models.RecommendedMachineConfiguration)"
+  fullName: "com.azure.resourcemanager.compute.models.GalleryImage.UpdateStages.WithRecommendedVMConfiguration.withRecommendedConfigurationForVirtualMachine(RecommendedMachineConfiguration recommendedConfig)"
+  name: "withRecommendedConfigurationForVirtualMachine(RecommendedMachineConfiguration recommendedConfig)"
+  nameWithType: "GalleryImage.UpdateStages.WithRecommendedVMConfiguration.withRecommendedConfigurationForVirtualMachine(RecommendedMachineConfiguration recommendedConfig)"
+  summary: "Specifies recommended configuration for the virtual machine based on the image."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "the recommended configuration"
+    name: "recommendedConfig"
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.RecommendedMachineConfiguration?alt=com.azure.resourcemanager.compute.models.RecommendedMachineConfiguration&text=RecommendedMachineConfiguration\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract GalleryImage.Update withRecommendedConfigurationForVirtualMachine(RecommendedMachineConfiguration recommendedConfig)"
+  desc: "Specifies recommended configuration for the virtual machine based on the image."
   returns:
     description: "the next update stage"
     type: "<xref href=\"com.azure.resourcemanager.compute.models.GalleryImage.Update?alt=com.azure.resourcemanager.compute.models.GalleryImage.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"

@@ -78,18 +78,6 @@ methods:
   returns:
     description: "the provisioningState value."
     type: "<xref href=\"com.azure.resourcemanager.network.models.ProvisioningState?alt=com.azure.resourcemanager.network.models.ProvisioningState&text=ProvisioningState\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.models.PublicIpPrefix.publicIpAddresses()"
-  fullName: "com.azure.resourcemanager.network.models.PublicIpPrefix.publicIpAddresses()"
-  name: "publicIpAddresses()"
-  nameWithType: "PublicIpPrefix.publicIpAddresses()"
-  summary: "Gets the public IP addresses."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract List<ReferencedPublicIpAddress> publicIpAddresses()"
-  desc: "Gets the public IP addresses."
-  returns:
-    description: "the publicIpAddresses value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.ReferencedPublicIpAddress?alt=com.azure.resourcemanager.network.models.ReferencedPublicIpAddress&text=ReferencedPublicIpAddress\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.network.models.PublicIpPrefix.publicIpAddressVersion()"
   fullName: "com.azure.resourcemanager.network.models.PublicIpPrefix.publicIpAddressVersion()"
   name: "publicIpAddressVersion()"
@@ -102,6 +90,18 @@ methods:
   returns:
     description: "the publicIpAddressVersion value."
     type: "<xref href=\"com.azure.resourcemanager.network.models.IpVersion?alt=com.azure.resourcemanager.network.models.IpVersion&text=IpVersion\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.models.PublicIpPrefix.publicIpAddresses()"
+  fullName: "com.azure.resourcemanager.network.models.PublicIpPrefix.publicIpAddresses()"
+  name: "publicIpAddresses()"
+  nameWithType: "PublicIpPrefix.publicIpAddresses()"
+  summary: "Gets the public IP addresses."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract List<ReferencedPublicIpAddress> publicIpAddresses()"
+  desc: "Gets the public IP addresses."
+  returns:
+    description: "the publicIpAddresses value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.ReferencedPublicIpAddress?alt=com.azure.resourcemanager.network.models.ReferencedPublicIpAddress&text=ReferencedPublicIpAddress\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.network.models.PublicIpPrefix.resourceGuid()"
   fullName: "com.azure.resourcemanager.network.models.PublicIpPrefix.resourceGuid()"
   name: "resourceGuid()"

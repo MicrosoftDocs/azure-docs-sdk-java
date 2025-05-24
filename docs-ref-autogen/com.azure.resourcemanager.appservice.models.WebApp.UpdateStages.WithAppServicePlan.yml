@@ -22,22 +22,6 @@ methods:
   returns:
     description: "the next stage of the web app update"
     type: "<xref href=\"com.azure.resourcemanager.appservice.models.WebApp.Update?alt=com.azure.resourcemanager.appservice.models.WebApp.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.appservice.models.WebApp.UpdateStages.WithAppServicePlan.withNewAppServicePlan(com.azure.resourcemanager.resources.fluentcore.model.Creatable<com.azure.resourcemanager.appservice.models.AppServicePlan>)"
-  fullName: "com.azure.resourcemanager.appservice.models.WebApp.UpdateStages.WithAppServicePlan.withNewAppServicePlan(Creatable<AppServicePlan> appServicePlanCreatable)"
-  name: "withNewAppServicePlan(Creatable<AppServicePlan> appServicePlanCreatable)"
-  nameWithType: "WebApp.UpdateStages.WithAppServicePlan.withNewAppServicePlan(Creatable<AppServicePlan> appServicePlanCreatable)"
-  summary: "Creates a new app service plan to use."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "the new app service plan creatable"
-    name: "appServicePlanCreatable"
-    type: "<xref href=\"com.azure.resourcemanager.resources.fluentcore.model.Creatable?alt=com.azure.resourcemanager.resources.fluentcore.model.Creatable&text=Creatable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.appservice.models.AppServicePlan?alt=com.azure.resourcemanager.appservice.models.AppServicePlan&text=AppServicePlan\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public abstract WebApp.Update withNewAppServicePlan(Creatable<AppServicePlan> appServicePlanCreatable)"
-  desc: "Creates a new app service plan to use."
-  returns:
-    description: "the next stage of the web app update"
-    type: "<xref href=\"com.azure.resourcemanager.appservice.models.WebApp.Update?alt=com.azure.resourcemanager.appservice.models.WebApp.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.appservice.models.WebApp.UpdateStages.WithAppServicePlan.withNewAppServicePlan(com.azure.resourcemanager.appservice.models.PricingTier)"
   fullName: "com.azure.resourcemanager.appservice.models.WebApp.UpdateStages.WithAppServicePlan.withNewAppServicePlan(PricingTier pricingTier)"
   name: "withNewAppServicePlan(PricingTier pricingTier)"
@@ -50,6 +34,22 @@ methods:
     name: "pricingTier"
     type: "<xref href=\"com.azure.resourcemanager.appservice.models.PricingTier?alt=com.azure.resourcemanager.appservice.models.PricingTier&text=PricingTier\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract WebApp.Update withNewAppServicePlan(PricingTier pricingTier)"
+  desc: "Creates a new app service plan to use."
+  returns:
+    description: "the next stage of the web app update"
+    type: "<xref href=\"com.azure.resourcemanager.appservice.models.WebApp.Update?alt=com.azure.resourcemanager.appservice.models.WebApp.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.appservice.models.WebApp.UpdateStages.WithAppServicePlan.withNewAppServicePlan(com.azure.resourcemanager.resources.fluentcore.model.Creatable<com.azure.resourcemanager.appservice.models.AppServicePlan>)"
+  fullName: "com.azure.resourcemanager.appservice.models.WebApp.UpdateStages.WithAppServicePlan.withNewAppServicePlan(Creatable<AppServicePlan> appServicePlanCreatable)"
+  name: "withNewAppServicePlan(Creatable<AppServicePlan> appServicePlanCreatable)"
+  nameWithType: "WebApp.UpdateStages.WithAppServicePlan.withNewAppServicePlan(Creatable<AppServicePlan> appServicePlanCreatable)"
+  summary: "Creates a new app service plan to use."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "the new app service plan creatable"
+    name: "appServicePlanCreatable"
+    type: "<xref href=\"com.azure.resourcemanager.resources.fluentcore.model.Creatable?alt=com.azure.resourcemanager.resources.fluentcore.model.Creatable&text=Creatable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.appservice.models.AppServicePlan?alt=com.azure.resourcemanager.appservice.models.AppServicePlan&text=AppServicePlan\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public abstract WebApp.Update withNewAppServicePlan(Creatable<AppServicePlan> appServicePlanCreatable)"
   desc: "Creates a new app service plan to use."
   returns:
     description: "the next stage of the web app update"

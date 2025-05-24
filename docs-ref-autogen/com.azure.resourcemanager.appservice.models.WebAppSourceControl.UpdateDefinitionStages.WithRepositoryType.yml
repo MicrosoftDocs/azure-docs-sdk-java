@@ -6,6 +6,22 @@ nameWithType: "WebAppSourceControl.UpdateDefinitionStages.WithRepositoryType<Par
 summary: "A web app source control definition allowing repository type to be specified."
 syntax: "public static interface **WebAppSourceControl.UpdateDefinitionStages.WithRepositoryType<ParentT>**"
 methods:
+- uid: "com.azure.resourcemanager.appservice.models.WebAppSourceControl.UpdateDefinitionStages.WithRepositoryType.withContinuouslyIntegratedGitHubRepository(java.lang.String)"
+  fullName: "com.azure.resourcemanager.appservice.models.WebAppSourceControl.UpdateDefinitionStages.WithRepositoryType<ParentT>.withContinuouslyIntegratedGitHubRepository(String url)"
+  name: "withContinuouslyIntegratedGitHubRepository(String url)"
+  nameWithType: "WebAppSourceControl.UpdateDefinitionStages.WithRepositoryType<ParentT>.withContinuouslyIntegratedGitHubRepository(String url)"
+  summary: "Specifies the repository to be a Git<wbr>Hub repository."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "the URL pointing to the repository, e.g. https://github.com/Azure/azure-sdk-for-java"
+    name: "url"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract WebAppSourceControl.UpdateDefinitionStages.WithGitHubBranch<ParentT> withContinuouslyIntegratedGitHubRepository(String url)"
+  desc: "Specifies the repository to be a GitHub repository. Continuous integration will be turned on. This repository can be either public or private, but your GitHub access token must have enough privileges to add a webhook to the repository."
+  returns:
+    description: "the next stage of the definition"
+    type: "<xref href=\"com.azure.resourcemanager.appservice.models.WebAppSourceControl.UpdateDefinitionStages.WithGitHubBranch?alt=com.azure.resourcemanager.appservice.models.WebAppSourceControl.UpdateDefinitionStages.WithGitHubBranch&text=WithGitHubBranch\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.appservice.models.WebAppSourceControl.UpdateDefinitionStages.WithRepositoryType.withContinuouslyIntegratedGitHubRepository(java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.appservice.models.WebAppSourceControl.UpdateDefinitionStages.WithRepositoryType<ParentT>.withContinuouslyIntegratedGitHubRepository(String organization, String repository)"
   name: "withContinuouslyIntegratedGitHubRepository(String organization, String repository)"
@@ -21,22 +37,6 @@ methods:
     name: "repository"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract WebAppSourceControl.UpdateDefinitionStages.WithGitHubBranch<ParentT> withContinuouslyIntegratedGitHubRepository(String organization, String repository)"
-  desc: "Specifies the repository to be a GitHub repository. Continuous integration will be turned on. This repository can be either public or private, but your GitHub access token must have enough privileges to add a webhook to the repository."
-  returns:
-    description: "the next stage of the definition"
-    type: "<xref href=\"com.azure.resourcemanager.appservice.models.WebAppSourceControl.UpdateDefinitionStages.WithGitHubBranch?alt=com.azure.resourcemanager.appservice.models.WebAppSourceControl.UpdateDefinitionStages.WithGitHubBranch&text=WithGitHubBranch\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.resourcemanager.appservice.models.WebAppSourceControl.UpdateDefinitionStages.WithRepositoryType.withContinuouslyIntegratedGitHubRepository(java.lang.String)"
-  fullName: "com.azure.resourcemanager.appservice.models.WebAppSourceControl.UpdateDefinitionStages.WithRepositoryType<ParentT>.withContinuouslyIntegratedGitHubRepository(String url)"
-  name: "withContinuouslyIntegratedGitHubRepository(String url)"
-  nameWithType: "WebAppSourceControl.UpdateDefinitionStages.WithRepositoryType<ParentT>.withContinuouslyIntegratedGitHubRepository(String url)"
-  summary: "Specifies the repository to be a Git<wbr>Hub repository."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "the URL pointing to the repository, e.g. https://github.com/Azure/azure-sdk-for-java"
-    name: "url"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public abstract WebAppSourceControl.UpdateDefinitionStages.WithGitHubBranch<ParentT> withContinuouslyIntegratedGitHubRepository(String url)"
   desc: "Specifies the repository to be a GitHub repository. Continuous integration will be turned on. This repository can be either public or private, but your GitHub access token must have enough privileges to add a webhook to the repository."
   returns:
     description: "the next stage of the definition"
