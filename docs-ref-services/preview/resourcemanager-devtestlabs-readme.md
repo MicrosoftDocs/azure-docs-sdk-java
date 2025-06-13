@@ -4,7 +4,7 @@ keywords: Azure, java, SDK, API, azure-resourcemanager-devtestlabs, devtestlabs
 ms.date: 01/17/2023
 ms.topic: reference
 ms.devlang: java
-ms.service: devtestlabs
+ms.service: devtest-lab
 ---
 # Azure Resource Manager DevTestLabs client library for Java - version 1.0.0-beta.2 
 
