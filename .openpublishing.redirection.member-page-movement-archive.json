@@ -1,6 +1,1256 @@
 {
   "redirections": [
     {
+      "source_path": "docs-ref-services/archive/activedirectory.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/activedirectory?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/advisor.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/advisor?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/agrifood.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/agrifood?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/ai-formrecognizer-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/ai-formrecognizer-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/ai-textanalytics-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/ai-textanalytics-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/alerts-management.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/alerts-management?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/api-management.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/api-management?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/apicenter.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/apicenter?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/app-compliance-automation.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/app-compliance-automation?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/app-configuration.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/app-configuration?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/app-platform.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/app-platform?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/app-service.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/app-service?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/application-insights.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/application-insights?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/arc-data.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/arc-data?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/attestation.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/attestation?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/authorization.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/authorization?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/automanage.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/automanage?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/automation.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/automation?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/azure-analytics.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/azure-analytics?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/azure-stack.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/azure-stack?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/azure-stack-hci.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/azure-stack-hci?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/azure-vmware-solution.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/azure-vmware-solution?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/baremetal-infrastructure.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/baremetal-infrastructure?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/batch.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/batch?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/batch-ai.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/batch-ai?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/billing.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/billing?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/billing-benefits.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/billing-benefits?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/bot-service.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/bot-service?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/change-analysis.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/change-analysis?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/cognitive-services.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/cognitive-services?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/cognitiveservices/bing-autosuggest-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/cognitiveservices/bing-autosuggest-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/cognitiveservices/bing-custom-image-search-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/cognitiveservices/bing-custom-image-search-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/cognitiveservices/bing-custom-search-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/cognitiveservices/bing-custom-search-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/cognitiveservices/bing-entity-search-api-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/cognitiveservices/bing-entity-search-api-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/cognitiveservices/bing-image-search-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/cognitiveservices/bing-image-search-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/cognitiveservices/bing-news-search-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/cognitiveservices/bing-news-search-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/cognitiveservices/bing-spell-check-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/cognitiveservices/bing-spell-check-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/cognitiveservices/bing-video-search-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/cognitiveservices/bing-video-search-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/cognitiveservices/bing-visual-search-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/cognitiveservices/bing-visual-search-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/cognitiveservices/bing-web-search-api-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/cognitiveservices/bing-web-search-api-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/commerce.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/commerce?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/communication.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/communication?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/compute.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/compute?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/confidential-ledger.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/confidential-ledger?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/confluent.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/confluent?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/connected-vmware.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/connected-vmware?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/consumption.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/consumption?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/container-apps.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/container-apps?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/container-instances.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/container-instances?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/container-registry.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/container-registry?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/container-service.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/container-service?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/container-service-fleet.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/container-service-fleet?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/content-delivery-network.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/content-delivery-network?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/core-amqp-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/core-amqp-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/core-http.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/core-http?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/core-http-netty-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/core-http-netty-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/core-http-okhttp-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/core-http-okhttp-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/core-management-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/core-management-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/core-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/core-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/core-serializer-json-gson-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/core-serializer-json-gson-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/core-serializer-json-jackson-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/core-serializer-json-jackson-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/core-test-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/core-test-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/cosmos-db.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/cosmos-db?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/cosmos-db-for-postgresql.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/cosmos-db-for-postgresql?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/cosmos-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/cosmos-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/cost-management.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/cost-management?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/custom-image-search.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/custom-image-search?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/custom-search.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/custom-search?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/customer-insights.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/customer-insights?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/data-appconfiguration-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/data-appconfiguration-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/data-box.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/data-box?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/data-box-edge.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/data-box-edge?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/data-explorer.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/data-explorer?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/data-factory.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/data-factory?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/data-lake-analytics.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/data-lake-analytics?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/data-lake-store.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/data-lake-store?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/data-protection.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/data-protection?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/database-migration-service.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/database-migration-service?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/databricks.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/databricks?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/datadog.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/datadog?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/datalake.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/datalake?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/defendereasm.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/defendereasm?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/delegated-network.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/delegated-network?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/deployment-manager.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/deployment-manager?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/desktop-virtualization.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/desktop-virtualization?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/dev-center.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/dev-center?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/dev-spaces.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/dev-spaces?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/devhub.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/devhub?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/devtest-labs.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/devtest-labs?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/digital-twins.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/digital-twins?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/digitaltwins-core-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/digitaltwins-core-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/dns.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/dns?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/dns-resolver.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/dns-resolver?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/dynatrace.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/dynatrace?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/edge-order.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/edge-order?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/education.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/education?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/elastic.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/elastic?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/elastic-san.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/elastic-san?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/entity-search.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/entity-search?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/event-grid.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/event-grid?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/event-hubs.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/event-hubs?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/extended-location.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/extended-location?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/farmbeats.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/farmbeats?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/fluid-relay.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/fluid-relay?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/front-door.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/front-door?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/functions.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/functions?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/grafana.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/grafana?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/graph-rbac.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/graph-rbac?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/graph-services.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/graph-services?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/hana-on-azure.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/hana-on-azure?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/hardware-security-module.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/hardware-security-module?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/hdinsight.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/hdinsight?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/hdinsight-containers.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/hdinsight-containers?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/health-bot.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/health-bot?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/health-insights.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/health-insights?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/healthcare-apis.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/healthcare-apis?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/hybrid-compute.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/hybrid-compute?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/hybrid-kubernetes.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/hybrid-kubernetes?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/hybrid-network.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/hybrid-network?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/hybridconnectivity.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/hybridconnectivity?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/identity.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/identity?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/identity-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/identity-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/image-builder.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/image-builder?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/image-search.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/image-search?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/iot.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/iot?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/key-vault.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/key-vault?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/kubernetes-configuration.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/kubernetes-configuration?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/lab-services.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/lab-services?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/load-testing.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/load-testing?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/locks.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/locks?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/log-analytics.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/log-analytics?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/logic-apps.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/logic-apps?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/logz.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/logz?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/machine-learning.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/machine-learning?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/maintenance.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/maintenance?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/managed-applications.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/managed-applications?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/managed-network-fabric.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/managed-network-fabric?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/managed-service-identity.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/managed-service-identity?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/management-groups.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/management-groups?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/maps.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/maps?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/mariadb.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/mariadb?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/marketplace-ordering.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/marketplace-ordering?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/media-services.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/media-services?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/messaging-eventhubs-checkpointstore-blob-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/messaging-eventhubs-checkpointstore-blob-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/messaging-eventhubs-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/messaging-eventhubs-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/messaging-servicebus-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/messaging-servicebus-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/metrics-advisor.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/metrics-advisor?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/mixed-reality.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/mixed-reality?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/mobile-network.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/mobile-network?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/monitor.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/monitor?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/mysql.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/mysql?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/netapp-files.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/netapp-files?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/network.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/network?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/network-function.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/network-function?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/new-relic-observability.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/new-relic-observability?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/news-search.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/news-search?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/nginx.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/nginx?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/notification-hubs.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/notification-hubs?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/open-energy-platform.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/open-energy-platform?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/operations-management.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/operations-management?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/operator-nexus---network-cloud.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/operator-nexus---network-cloud?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/orbital.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/orbital?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/palo-alto-networks.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/palo-alto-networks?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/partnercenter.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/partnercenter?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/peering.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/peering?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/policy-insights.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/policy-insights?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/postgresql.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/postgresql?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/private-dns.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/private-dns?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/provider-hub.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/provider-hub?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/purview.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/purview?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/quantum.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/quantum?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/qumulo.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/qumulo?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/quota.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/quota?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/recovery-services.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/recovery-services?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/redis.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/redis?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/relay.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/relay?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/reservations.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/reservations?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/resource-connector.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/resource-connector?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/resource-graph.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/resource-graph?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/resource-health.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/resource-health?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/resource-mover.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/resource-mover?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/resourcemanager-appplatform-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/resourcemanager-appplatform-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/resourcemanager-appservice-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/resourcemanager-appservice-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/resourcemanager-authorization-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/resourcemanager-authorization-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/resourcemanager-cdn-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/resourcemanager-cdn-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/resourcemanager-compute-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/resourcemanager-compute-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/resourcemanager-containerinstance-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/resourcemanager-containerinstance-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/resourcemanager-containerregistry-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/resourcemanager-containerregistry-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/resourcemanager-containerservice-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/resourcemanager-containerservice-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/resourcemanager-cosmos-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/resourcemanager-cosmos-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/resourcemanager-dns-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/resourcemanager-dns-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/resourcemanager-eventhubs-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/resourcemanager-eventhubs-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/resourcemanager-keyvault-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/resourcemanager-keyvault-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/resourcemanager-monitor-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/resourcemanager-monitor-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/resourcemanager-msi-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/resourcemanager-msi-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/resourcemanager-network-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/resourcemanager-network-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/resourcemanager-privatedns-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/resourcemanager-privatedns-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/resourcemanager-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/resourcemanager-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/resourcemanager-redis-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/resourcemanager-redis-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/resourcemanager-resources-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/resourcemanager-resources-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/resourcemanager-servicebus-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/resourcemanager-servicebus-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/resourcemanager-sql-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/resourcemanager-sql-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/resourcemanager-storage-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/resourcemanager-storage-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/resourcemanager-trafficmanager-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/resourcemanager-trafficmanager-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/resources.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/resources?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/schema-registry.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/schema-registry?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/sdk-template-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/sdk-template-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/search.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/search?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/search-documents-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/search-documents-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/security.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/security?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/security-devops.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/security-devops?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/security-insights.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/security-insights?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/security-keyvault-certificates-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/security-keyvault-certificates-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/security-keyvault-keys-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/security-keyvault-keys-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/security-keyvault-secrets-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/security-keyvault-secrets-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/selfhelp.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/selfhelp?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/service-bus.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/service-bus?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/service-fabric.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/service-fabric?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/service-linker.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/service-linker?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/service-networking.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/service-networking?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/signalr.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/signalr?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/spring-cloud.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/spring-cloud?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/sql.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/sql?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/sql-virtual-machine.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/sql-virtual-machine?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/storage.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/storage?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/storage_legacy.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/storage_legacy?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/storage_preview.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/storage_preview?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/storage-blob-batch-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/storage-blob-batch-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/storage-blob-cryptography-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/storage-blob-cryptography-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/storage-blob-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/storage-blob-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/storage-common-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/storage-common-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/storage-file-datalake-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/storage-file-datalake-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/storage-file-share-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/storage-file-share-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/storage-queue-readme.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/storage-queue-readme?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/stream-analytics.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/stream-analytics?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/subscriptions.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/subscriptions?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/support.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/support?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/synapse.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/synapse?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/system-center-virtual-machine-manager.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/system-center-virtual-machine-manager?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/tables.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/tables?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/traffic-manager.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/traffic-manager?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/unknown-service.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/unknown-service?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/video-analyzer.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/video-analyzer?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/video-search.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/video-search?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/virtualmachines.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/virtualmachines?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/visual-search.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/visual-search?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/vmware-solution-by-cloudsimple.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/vmware-solution-by-cloudsimple?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/web-pubsub.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/web-pubsub?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/web-search.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/web-search?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-services/archive/workloads.md",
+      "redirect_url": "/previous-versions/java/api/overview/azure/workloads?view=azure-java-archive-archive",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "archive/docs-ref-autogen/com.microsoft.azure.batch.protocol.models.AccountListNodeAgentSkusHeaders.yml",
       "redirect_url": "/previous-versions/java/api/overview/azure",
       "redirect_document_id": false
