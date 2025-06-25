@@ -155,7 +155,7 @@
     },
     {
       "TopLevelTOC": "legacy/docs-ref-mapping/reference-legacy.yml",
-      "ReferenceTOC": "legacy/docs-ref-autogen/toc.yml",
+      "ReferenceTOC": "legacy/docs-ref-mapping/toc.yml",
       "ReferenceTOCUrl": "/java/api/azure-java-sdk/toc.json?view=azure-java-legacy",
       "ConceptualTOCUrl": "/azure/developer/java/sdk/toc.json",
       "OutputFolder": "legacy/docs-ref-autogen/overview/azure",
@@ -169,7 +169,7 @@
     },
     {
       "TopLevelTOC": "archive/docs-ref-mapping/reference.yml",
-      "ReferenceTOC": "archive/docs-ref-autogen/toc.yml",
+      "ReferenceTOC": "archive/docs-ref-mapping/toc.yml",
       "ReferenceTOCUrl": "/java/api/azure-java-sdk/toc.json?view=azure-java-archive",
       "ConceptualTOCUrl": "/azure/developer/java/sdk/toc.json",
       "OutputFolder": "archive/docs-ref-autogen/overview/azure",
