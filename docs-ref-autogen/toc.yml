@@ -198535,6 +198535,10 @@
     name: EncryptionAlgorithmType
     no-loc:
     - EncryptionAlgorithmType
+  - uid: com.azure.storage.blob.models.FileShareTokenIntent
+    name: FileShareTokenIntent
+    no-loc:
+    - FileShareTokenIntent
   - uid: com.azure.storage.blob.models.GeoReplication
     name: GeoReplication
     no-loc:
@@ -199356,6 +199360,10 @@
     name: PathRemoveAccessControlEntry
     no-loc:
     - PathRemoveAccessControlEntry
+  - uid: com.azure.storage.file.datalake.models.PathSystemProperties
+    name: PathSystemProperties
+    no-loc:
+    - PathSystemProperties
   - uid: com.azure.storage.file.datalake.models.PublicAccessType
     name: PublicAccessType
     no-loc:
@@ -199425,6 +199433,10 @@
     name: PathGetPropertiesOptions
     no-loc:
     - PathGetPropertiesOptions
+  - uid: com.azure.storage.file.datalake.options.PathGetSystemPropertiesOptions
+    name: PathGetSystemPropertiesOptions
+    no-loc:
+    - PathGetSystemPropertiesOptions
   - uid: com.azure.storage.file.datalake.options.PathRemoveAccessControlRecursiveOptions
     name: PathRemoveAccessControlRecursiveOptions
     no-loc:
@@ -199721,6 +199733,10 @@
     name: ShareFileRangeList
     no-loc:
     - ShareFileRangeList
+  - uid: com.azure.storage.file.share.models.ShareFileSymbolicLinkInfo
+    name: ShareFileSymbolicLinkInfo
+    no-loc:
+    - ShareFileSymbolicLinkInfo
   - uid: com.azure.storage.file.share.models.ShareFileUploadInfo
     name: ShareFileUploadInfo
     no-loc:
@@ -199854,6 +199870,10 @@
     name: ShareFileCreateOptions
     no-loc:
     - ShareFileCreateOptions
+  - uid: com.azure.storage.file.share.options.ShareFileCreateSymbolicLinkOptions
+    name: ShareFileCreateSymbolicLinkOptions
+    no-loc:
+    - ShareFileCreateSymbolicLinkOptions
   - uid: com.azure.storage.file.share.options.ShareFileDownloadOptions
     name: ShareFileDownloadOptions
     no-loc:

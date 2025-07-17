@@ -128815,6 +128815,222 @@
     - UserAssignedIdentity
   no-loc:
   - com.azure.resourcemanager.planetarycomputer.models
+- uid: com.azure.resourcemanager.playwright
+  name: com.azure.resourcemanager.playwright
+  items:
+  - uid: com.azure.resourcemanager.playwright.PlaywrightManager
+    name: PlaywrightManager
+    no-loc:
+    - PlaywrightManager
+  - uid: com.azure.resourcemanager.playwright.PlaywrightManager.Configurable
+    name: PlaywrightManager.Configurable
+    no-loc:
+    - PlaywrightManager.Configurable
+  no-loc:
+  - com.azure.resourcemanager.playwright
+- uid: com.azure.resourcemanager.playwright.fluent
+  name: com.azure.resourcemanager.playwright.fluent
+  items:
+  - uid: com.azure.resourcemanager.playwright.fluent.OperationsClient
+    name: OperationsClient
+    no-loc:
+    - OperationsClient
+  - uid: com.azure.resourcemanager.playwright.fluent.PlaywrightManagementClient
+    name: PlaywrightManagementClient
+    no-loc:
+    - PlaywrightManagementClient
+  - uid: com.azure.resourcemanager.playwright.fluent.PlaywrightQuotasClient
+    name: PlaywrightQuotasClient
+    no-loc:
+    - PlaywrightQuotasClient
+  - uid: com.azure.resourcemanager.playwright.fluent.PlaywrightWorkspaceQuotasClient
+    name: PlaywrightWorkspaceQuotasClient
+    no-loc:
+    - PlaywrightWorkspaceQuotasClient
+  - uid: com.azure.resourcemanager.playwright.fluent.PlaywrightWorkspacesClient
+    name: PlaywrightWorkspacesClient
+    no-loc:
+    - PlaywrightWorkspacesClient
+  no-loc:
+  - com.azure.resourcemanager.playwright.fluent
+- uid: com.azure.resourcemanager.playwright.fluent.models
+  name: com.azure.resourcemanager.playwright.fluent.models
+  items:
+  - uid: com.azure.resourcemanager.playwright.fluent.models.CheckNameAvailabilityResponseInner
+    name: CheckNameAvailabilityResponseInner
+    no-loc:
+    - CheckNameAvailabilityResponseInner
+  - uid: com.azure.resourcemanager.playwright.fluent.models.OperationInner
+    name: OperationInner
+    no-loc:
+    - OperationInner
+  - uid: com.azure.resourcemanager.playwright.fluent.models.PlaywrightQuotaInner
+    name: PlaywrightQuotaInner
+    no-loc:
+    - PlaywrightQuotaInner
+  - uid: com.azure.resourcemanager.playwright.fluent.models.PlaywrightWorkspaceInner
+    name: PlaywrightWorkspaceInner
+    no-loc:
+    - PlaywrightWorkspaceInner
+  - uid: com.azure.resourcemanager.playwright.fluent.models.PlaywrightWorkspaceQuotaInner
+    name: PlaywrightWorkspaceQuotaInner
+    no-loc:
+    - PlaywrightWorkspaceQuotaInner
+  no-loc:
+  - com.azure.resourcemanager.playwright.fluent.models
+- uid: com.azure.resourcemanager.playwright.models
+  name: com.azure.resourcemanager.playwright.models
+  items:
+  - uid: com.azure.resourcemanager.playwright.models.ActionType
+    name: ActionType
+    no-loc:
+    - ActionType
+  - uid: com.azure.resourcemanager.playwright.models.CheckNameAvailabilityReason
+    name: CheckNameAvailabilityReason
+    no-loc:
+    - CheckNameAvailabilityReason
+  - uid: com.azure.resourcemanager.playwright.models.CheckNameAvailabilityRequest
+    name: CheckNameAvailabilityRequest
+    no-loc:
+    - CheckNameAvailabilityRequest
+  - uid: com.azure.resourcemanager.playwright.models.CheckNameAvailabilityResponse
+    name: CheckNameAvailabilityResponse
+    no-loc:
+    - CheckNameAvailabilityResponse
+  - uid: com.azure.resourcemanager.playwright.models.EnablementStatus
+    name: EnablementStatus
+    no-loc:
+    - EnablementStatus
+  - uid: com.azure.resourcemanager.playwright.models.FreeTrialProperties
+    name: FreeTrialProperties
+    no-loc:
+    - FreeTrialProperties
+  - uid: com.azure.resourcemanager.playwright.models.FreeTrialState
+    name: FreeTrialState
+    no-loc:
+    - FreeTrialState
+  - uid: com.azure.resourcemanager.playwright.models.Operation
+    name: Operation
+    no-loc:
+    - Operation
+  - uid: com.azure.resourcemanager.playwright.models.OperationDisplay
+    name: OperationDisplay
+    no-loc:
+    - OperationDisplay
+  - uid: com.azure.resourcemanager.playwright.models.Operations
+    name: Operations
+    no-loc:
+    - Operations
+  - uid: com.azure.resourcemanager.playwright.models.Origin
+    name: Origin
+    no-loc:
+    - Origin
+  - uid: com.azure.resourcemanager.playwright.models.PlaywrightQuota
+    name: PlaywrightQuota
+    no-loc:
+    - PlaywrightQuota
+  - uid: com.azure.resourcemanager.playwright.models.PlaywrightQuotaProperties
+    name: PlaywrightQuotaProperties
+    no-loc:
+    - PlaywrightQuotaProperties
+  - uid: com.azure.resourcemanager.playwright.models.PlaywrightQuotas
+    name: PlaywrightQuotas
+    no-loc:
+    - PlaywrightQuotas
+  - uid: com.azure.resourcemanager.playwright.models.PlaywrightWorkspace
+    name: PlaywrightWorkspace
+    no-loc:
+    - PlaywrightWorkspace
+  - uid: com.azure.resourcemanager.playwright.models.PlaywrightWorkspace.Definition
+    name: PlaywrightWorkspace.Definition
+    no-loc:
+    - PlaywrightWorkspace.Definition
+  - uid: com.azure.resourcemanager.playwright.models.PlaywrightWorkspace.DefinitionStages
+    name: PlaywrightWorkspace.DefinitionStages
+    no-loc:
+    - PlaywrightWorkspace.DefinitionStages
+  - uid: com.azure.resourcemanager.playwright.models.PlaywrightWorkspace.DefinitionStages.Blank
+    name: PlaywrightWorkspace.DefinitionStages.Blank
+    no-loc:
+    - PlaywrightWorkspace.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.playwright.models.PlaywrightWorkspace.DefinitionStages.WithCreate
+    name: PlaywrightWorkspace.DefinitionStages.WithCreate
+    no-loc:
+    - PlaywrightWorkspace.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.playwright.models.PlaywrightWorkspace.DefinitionStages.WithLocation
+    name: PlaywrightWorkspace.DefinitionStages.WithLocation
+    no-loc:
+    - PlaywrightWorkspace.DefinitionStages.WithLocation
+  - uid: com.azure.resourcemanager.playwright.models.PlaywrightWorkspace.DefinitionStages.WithProperties
+    name: PlaywrightWorkspace.DefinitionStages.WithProperties
+    no-loc:
+    - PlaywrightWorkspace.DefinitionStages.WithProperties
+  - uid: com.azure.resourcemanager.playwright.models.PlaywrightWorkspace.DefinitionStages.WithResourceGroup
+    name: PlaywrightWorkspace.DefinitionStages.WithResourceGroup
+    no-loc:
+    - PlaywrightWorkspace.DefinitionStages.WithResourceGroup
+  - uid: com.azure.resourcemanager.playwright.models.PlaywrightWorkspace.DefinitionStages.WithTags
+    name: PlaywrightWorkspace.DefinitionStages.WithTags
+    no-loc:
+    - PlaywrightWorkspace.DefinitionStages.WithTags
+  - uid: com.azure.resourcemanager.playwright.models.PlaywrightWorkspace.Update
+    name: PlaywrightWorkspace.Update
+    no-loc:
+    - PlaywrightWorkspace.Update
+  - uid: com.azure.resourcemanager.playwright.models.PlaywrightWorkspace.UpdateStages
+    name: PlaywrightWorkspace.UpdateStages
+    no-loc:
+    - PlaywrightWorkspace.UpdateStages
+  - uid: com.azure.resourcemanager.playwright.models.PlaywrightWorkspace.UpdateStages.WithProperties
+    name: PlaywrightWorkspace.UpdateStages.WithProperties
+    no-loc:
+    - PlaywrightWorkspace.UpdateStages.WithProperties
+  - uid: com.azure.resourcemanager.playwright.models.PlaywrightWorkspace.UpdateStages.WithTags
+    name: PlaywrightWorkspace.UpdateStages.WithTags
+    no-loc:
+    - PlaywrightWorkspace.UpdateStages.WithTags
+  - uid: com.azure.resourcemanager.playwright.models.PlaywrightWorkspaceFreeTrialProperties
+    name: PlaywrightWorkspaceFreeTrialProperties
+    no-loc:
+    - PlaywrightWorkspaceFreeTrialProperties
+  - uid: com.azure.resourcemanager.playwright.models.PlaywrightWorkspaceProperties
+    name: PlaywrightWorkspaceProperties
+    no-loc:
+    - PlaywrightWorkspaceProperties
+  - uid: com.azure.resourcemanager.playwright.models.PlaywrightWorkspaceQuota
+    name: PlaywrightWorkspaceQuota
+    no-loc:
+    - PlaywrightWorkspaceQuota
+  - uid: com.azure.resourcemanager.playwright.models.PlaywrightWorkspaceQuotaProperties
+    name: PlaywrightWorkspaceQuotaProperties
+    no-loc:
+    - PlaywrightWorkspaceQuotaProperties
+  - uid: com.azure.resourcemanager.playwright.models.PlaywrightWorkspaceQuotas
+    name: PlaywrightWorkspaceQuotas
+    no-loc:
+    - PlaywrightWorkspaceQuotas
+  - uid: com.azure.resourcemanager.playwright.models.PlaywrightWorkspaceUpdate
+    name: PlaywrightWorkspaceUpdate
+    no-loc:
+    - PlaywrightWorkspaceUpdate
+  - uid: com.azure.resourcemanager.playwright.models.PlaywrightWorkspaceUpdateProperties
+    name: PlaywrightWorkspaceUpdateProperties
+    no-loc:
+    - PlaywrightWorkspaceUpdateProperties
+  - uid: com.azure.resourcemanager.playwright.models.PlaywrightWorkspaces
+    name: PlaywrightWorkspaces
+    no-loc:
+    - PlaywrightWorkspaces
+  - uid: com.azure.resourcemanager.playwright.models.ProvisioningState
+    name: ProvisioningState
+    no-loc:
+    - ProvisioningState
+  - uid: com.azure.resourcemanager.playwright.models.QuotaName
+    name: QuotaName
+    no-loc:
+    - QuotaName
+  no-loc:
+  - com.azure.resourcemanager.playwright.models
 - uid: com.azure.resourcemanager.playwrighttesting
   name: com.azure.resourcemanager.playwrighttesting
   items:
