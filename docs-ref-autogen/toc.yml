@@ -46758,6 +46758,14 @@
 - uid: com.azure.resourcemanager.cognitiveservices.fluent
   name: com.azure.resourcemanager.cognitiveservices.fluent
   items:
+  - uid: com.azure.resourcemanager.cognitiveservices.fluent.AccountCapabilityHostsClient
+    name: AccountCapabilityHostsClient
+    no-loc:
+    - AccountCapabilityHostsClient
+  - uid: com.azure.resourcemanager.cognitiveservices.fluent.AccountConnectionsClient
+    name: AccountConnectionsClient
+    no-loc:
+    - AccountConnectionsClient
   - uid: com.azure.resourcemanager.cognitiveservices.fluent.AccountsClient
     name: AccountsClient
     no-loc:
@@ -46818,6 +46826,18 @@
     name: PrivateLinkResourcesClient
     no-loc:
     - PrivateLinkResourcesClient
+  - uid: com.azure.resourcemanager.cognitiveservices.fluent.ProjectCapabilityHostsClient
+    name: ProjectCapabilityHostsClient
+    no-loc:
+    - ProjectCapabilityHostsClient
+  - uid: com.azure.resourcemanager.cognitiveservices.fluent.ProjectConnectionsClient
+    name: ProjectConnectionsClient
+    no-loc:
+    - ProjectConnectionsClient
+  - uid: com.azure.resourcemanager.cognitiveservices.fluent.ProjectsClient
+    name: ProjectsClient
+    no-loc:
+    - ProjectsClient
   - uid: com.azure.resourcemanager.cognitiveservices.fluent.RaiBlocklistItemsClient
     name: RaiBlocklistItemsClient
     no-loc:
@@ -46871,6 +46891,10 @@
     name: CalculateModelCapacityResultInner
     no-loc:
     - CalculateModelCapacityResultInner
+  - uid: com.azure.resourcemanager.cognitiveservices.fluent.models.CapabilityHostInner
+    name: CapabilityHostInner
+    no-loc:
+    - CapabilityHostInner
   - uid: com.azure.resourcemanager.cognitiveservices.fluent.models.CommitmentPlanAccountAssociationInner
     name: CommitmentPlanAccountAssociationInner
     no-loc:
@@ -46887,6 +46911,10 @@
     name: CommitmentTierInner
     no-loc:
     - CommitmentTierInner
+  - uid: com.azure.resourcemanager.cognitiveservices.fluent.models.ConnectionPropertiesV2BasicResourceInner
+    name: ConnectionPropertiesV2BasicResourceInner
+    no-loc:
+    - ConnectionPropertiesV2BasicResourceInner
   - uid: com.azure.resourcemanager.cognitiveservices.fluent.models.DefenderForAISettingInner
     name: DefenderForAISettingInner
     no-loc:
@@ -46935,6 +46963,10 @@
     name: PrivateLinkResourceListResultInner
     no-loc:
     - PrivateLinkResourceListResultInner
+  - uid: com.azure.resourcemanager.cognitiveservices.fluent.models.ProjectInner
+    name: ProjectInner
+    no-loc:
+    - ProjectInner
   - uid: com.azure.resourcemanager.cognitiveservices.fluent.models.RaiBlocklistInner
     name: RaiBlocklistInner
     no-loc:
@@ -46972,6 +47004,10 @@
 - uid: com.azure.resourcemanager.cognitiveservices.models
   name: com.azure.resourcemanager.cognitiveservices.models
   items:
+  - uid: com.azure.resourcemanager.cognitiveservices.models.AadAuthTypeConnectionProperties
+    name: AadAuthTypeConnectionProperties
+    no-loc:
+    - AadAuthTypeConnectionProperties
   - uid: com.azure.resourcemanager.cognitiveservices.models.AbusePenalty
     name: AbusePenalty
     no-loc:
@@ -46980,6 +47016,10 @@
     name: AbusePenaltyAction
     no-loc:
     - AbusePenaltyAction
+  - uid: com.azure.resourcemanager.cognitiveservices.models.AccessKeyAuthTypeConnectionProperties
+    name: AccessKeyAuthTypeConnectionProperties
+    no-loc:
+    - AccessKeyAuthTypeConnectionProperties
   - uid: com.azure.resourcemanager.cognitiveservices.models.Account
     name: Account
     no-loc:
@@ -47056,6 +47096,18 @@
     name: Account.UpdateStages.WithTags
     no-loc:
     - Account.UpdateStages.WithTags
+  - uid: com.azure.resourcemanager.cognitiveservices.models.AccountCapabilityHosts
+    name: AccountCapabilityHosts
+    no-loc:
+    - AccountCapabilityHosts
+  - uid: com.azure.resourcemanager.cognitiveservices.models.AccountConnections
+    name: AccountConnections
+    no-loc:
+    - AccountConnections
+  - uid: com.azure.resourcemanager.cognitiveservices.models.AccountKeyAuthTypeConnectionProperties
+    name: AccountKeyAuthTypeConnectionProperties
+    no-loc:
+    - AccountKeyAuthTypeConnectionProperties
   - uid: com.azure.resourcemanager.cognitiveservices.models.AccountListResult
     name: AccountListResult
     no-loc:
@@ -47088,6 +47140,10 @@
     name: ActionType
     no-loc:
     - ActionType
+  - uid: com.azure.resourcemanager.cognitiveservices.models.ApiKeyAuthConnectionProperties
+    name: ApiKeyAuthConnectionProperties
+    no-loc:
+    - ApiKeyAuthConnectionProperties
   - uid: com.azure.resourcemanager.cognitiveservices.models.ApiKeys
     name: ApiKeys
     no-loc:
@@ -47124,6 +47180,58 @@
     name: CallRateLimit
     no-loc:
     - CallRateLimit
+  - uid: com.azure.resourcemanager.cognitiveservices.models.CapabilityHost
+    name: CapabilityHost
+    no-loc:
+    - CapabilityHost
+  - uid: com.azure.resourcemanager.cognitiveservices.models.CapabilityHost.Definition
+    name: CapabilityHost.Definition
+    no-loc:
+    - CapabilityHost.Definition
+  - uid: com.azure.resourcemanager.cognitiveservices.models.CapabilityHost.DefinitionStages
+    name: CapabilityHost.DefinitionStages
+    no-loc:
+    - CapabilityHost.DefinitionStages
+  - uid: com.azure.resourcemanager.cognitiveservices.models.CapabilityHost.DefinitionStages.Blank
+    name: CapabilityHost.DefinitionStages.Blank
+    no-loc:
+    - CapabilityHost.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.cognitiveservices.models.CapabilityHost.DefinitionStages.WithCreate
+    name: CapabilityHost.DefinitionStages.WithCreate
+    no-loc:
+    - CapabilityHost.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.cognitiveservices.models.CapabilityHost.DefinitionStages.WithParentResource
+    name: CapabilityHost.DefinitionStages.WithParentResource
+    no-loc:
+    - CapabilityHost.DefinitionStages.WithParentResource
+  - uid: com.azure.resourcemanager.cognitiveservices.models.CapabilityHost.DefinitionStages.WithProperties
+    name: CapabilityHost.DefinitionStages.WithProperties
+    no-loc:
+    - CapabilityHost.DefinitionStages.WithProperties
+  - uid: com.azure.resourcemanager.cognitiveservices.models.CapabilityHost.Update
+    name: CapabilityHost.Update
+    no-loc:
+    - CapabilityHost.Update
+  - uid: com.azure.resourcemanager.cognitiveservices.models.CapabilityHost.UpdateStages
+    name: CapabilityHost.UpdateStages
+    no-loc:
+    - CapabilityHost.UpdateStages
+  - uid: com.azure.resourcemanager.cognitiveservices.models.CapabilityHost.UpdateStages.WithProperties
+    name: CapabilityHost.UpdateStages.WithProperties
+    no-loc:
+    - CapabilityHost.UpdateStages.WithProperties
+  - uid: com.azure.resourcemanager.cognitiveservices.models.CapabilityHostKind
+    name: CapabilityHostKind
+    no-loc:
+    - CapabilityHostKind
+  - uid: com.azure.resourcemanager.cognitiveservices.models.CapabilityHostProperties
+    name: CapabilityHostProperties
+    no-loc:
+    - CapabilityHostProperties
+  - uid: com.azure.resourcemanager.cognitiveservices.models.CapabilityHostProvisioningState
+    name: CapabilityHostProvisioningState
+    no-loc:
+    - CapabilityHostProvisioningState
   - uid: com.azure.resourcemanager.cognitiveservices.models.CapacityConfig
     name: CapacityConfig
     no-loc:
@@ -47292,6 +47400,106 @@
     name: CommitmentTiers
     no-loc:
     - CommitmentTiers
+  - uid: com.azure.resourcemanager.cognitiveservices.models.ConnectionAccessKey
+    name: ConnectionAccessKey
+    no-loc:
+    - ConnectionAccessKey
+  - uid: com.azure.resourcemanager.cognitiveservices.models.ConnectionAccountKey
+    name: ConnectionAccountKey
+    no-loc:
+    - ConnectionAccountKey
+  - uid: com.azure.resourcemanager.cognitiveservices.models.ConnectionApiKey
+    name: ConnectionApiKey
+    no-loc:
+    - ConnectionApiKey
+  - uid: com.azure.resourcemanager.cognitiveservices.models.ConnectionAuthType
+    name: ConnectionAuthType
+    no-loc:
+    - ConnectionAuthType
+  - uid: com.azure.resourcemanager.cognitiveservices.models.ConnectionCategory
+    name: ConnectionCategory
+    no-loc:
+    - ConnectionCategory
+  - uid: com.azure.resourcemanager.cognitiveservices.models.ConnectionGroup
+    name: ConnectionGroup
+    no-loc:
+    - ConnectionGroup
+  - uid: com.azure.resourcemanager.cognitiveservices.models.ConnectionManagedIdentity
+    name: ConnectionManagedIdentity
+    no-loc:
+    - ConnectionManagedIdentity
+  - uid: com.azure.resourcemanager.cognitiveservices.models.ConnectionOAuth2
+    name: ConnectionOAuth2
+    no-loc:
+    - ConnectionOAuth2
+  - uid: com.azure.resourcemanager.cognitiveservices.models.ConnectionPersonalAccessToken
+    name: ConnectionPersonalAccessToken
+    no-loc:
+    - ConnectionPersonalAccessToken
+  - uid: com.azure.resourcemanager.cognitiveservices.models.ConnectionPropertiesV2
+    name: ConnectionPropertiesV2
+    no-loc:
+    - ConnectionPropertiesV2
+  - uid: com.azure.resourcemanager.cognitiveservices.models.ConnectionPropertiesV2BasicResource
+    name: ConnectionPropertiesV2BasicResource
+    no-loc:
+    - ConnectionPropertiesV2BasicResource
+  - uid: com.azure.resourcemanager.cognitiveservices.models.ConnectionPropertiesV2BasicResource.Definition
+    name: ConnectionPropertiesV2BasicResource.Definition
+    no-loc:
+    - ConnectionPropertiesV2BasicResource.Definition
+  - uid: com.azure.resourcemanager.cognitiveservices.models.ConnectionPropertiesV2BasicResource.DefinitionStages
+    name: ConnectionPropertiesV2BasicResource.DefinitionStages
+    no-loc:
+    - ConnectionPropertiesV2BasicResource.DefinitionStages
+  - uid: com.azure.resourcemanager.cognitiveservices.models.ConnectionPropertiesV2BasicResource.DefinitionStages.Blank
+    name: ConnectionPropertiesV2BasicResource.DefinitionStages.Blank
+    no-loc:
+    - ConnectionPropertiesV2BasicResource.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.cognitiveservices.models.ConnectionPropertiesV2BasicResource.DefinitionStages.WithCreate
+    name: ConnectionPropertiesV2BasicResource.DefinitionStages.WithCreate
+    no-loc:
+    - ConnectionPropertiesV2BasicResource.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.cognitiveservices.models.ConnectionPropertiesV2BasicResource.DefinitionStages.WithParentResource
+    name: ConnectionPropertiesV2BasicResource.DefinitionStages.WithParentResource
+    no-loc:
+    - ConnectionPropertiesV2BasicResource.DefinitionStages.WithParentResource
+  - uid: com.azure.resourcemanager.cognitiveservices.models.ConnectionPropertiesV2BasicResource.DefinitionStages.WithProperties
+    name: ConnectionPropertiesV2BasicResource.DefinitionStages.WithProperties
+    no-loc:
+    - ConnectionPropertiesV2BasicResource.DefinitionStages.WithProperties
+  - uid: com.azure.resourcemanager.cognitiveservices.models.ConnectionPropertiesV2BasicResource.Update
+    name: ConnectionPropertiesV2BasicResource.Update
+    no-loc:
+    - ConnectionPropertiesV2BasicResource.Update
+  - uid: com.azure.resourcemanager.cognitiveservices.models.ConnectionPropertiesV2BasicResource.UpdateStages
+    name: ConnectionPropertiesV2BasicResource.UpdateStages
+    no-loc:
+    - ConnectionPropertiesV2BasicResource.UpdateStages
+  - uid: com.azure.resourcemanager.cognitiveservices.models.ConnectionPropertiesV2BasicResource.UpdateStages.WithProperties
+    name: ConnectionPropertiesV2BasicResource.UpdateStages.WithProperties
+    no-loc:
+    - ConnectionPropertiesV2BasicResource.UpdateStages.WithProperties
+  - uid: com.azure.resourcemanager.cognitiveservices.models.ConnectionPropertiesV2BasicResourceArmPaginatedResult
+    name: ConnectionPropertiesV2BasicResourceArmPaginatedResult
+    no-loc:
+    - ConnectionPropertiesV2BasicResourceArmPaginatedResult
+  - uid: com.azure.resourcemanager.cognitiveservices.models.ConnectionServicePrincipal
+    name: ConnectionServicePrincipal
+    no-loc:
+    - ConnectionServicePrincipal
+  - uid: com.azure.resourcemanager.cognitiveservices.models.ConnectionSharedAccessSignature
+    name: ConnectionSharedAccessSignature
+    no-loc:
+    - ConnectionSharedAccessSignature
+  - uid: com.azure.resourcemanager.cognitiveservices.models.ConnectionUpdateContent
+    name: ConnectionUpdateContent
+    no-loc:
+    - ConnectionUpdateContent
+  - uid: com.azure.resourcemanager.cognitiveservices.models.ConnectionUsernamePassword
+    name: ConnectionUsernamePassword
+    no-loc:
+    - ConnectionUsernamePassword
   - uid: com.azure.resourcemanager.cognitiveservices.models.ContentLevel
     name: ContentLevel
     no-loc:
@@ -47300,6 +47508,14 @@
     name: CustomBlocklistConfig
     no-loc:
     - CustomBlocklistConfig
+  - uid: com.azure.resourcemanager.cognitiveservices.models.CustomKeys
+    name: CustomKeys
+    no-loc:
+    - CustomKeys
+  - uid: com.azure.resourcemanager.cognitiveservices.models.CustomKeysConnectionProperties
+    name: CustomKeysConnectionProperties
+    no-loc:
+    - CustomKeysConnectionProperties
   - uid: com.azure.resourcemanager.cognitiveservices.models.DefenderForAISetting
     name: DefenderForAISetting
     no-loc:
@@ -47560,6 +47776,18 @@
     name: LocationBasedModelCapacities
     no-loc:
     - LocationBasedModelCapacities
+  - uid: com.azure.resourcemanager.cognitiveservices.models.ManagedIdentityAuthTypeConnectionProperties
+    name: ManagedIdentityAuthTypeConnectionProperties
+    no-loc:
+    - ManagedIdentityAuthTypeConnectionProperties
+  - uid: com.azure.resourcemanager.cognitiveservices.models.ManagedPERequirement
+    name: ManagedPERequirement
+    no-loc:
+    - ManagedPERequirement
+  - uid: com.azure.resourcemanager.cognitiveservices.models.ManagedPEStatus
+    name: ManagedPEStatus
+    no-loc:
+    - ManagedPEStatus
   - uid: com.azure.resourcemanager.cognitiveservices.models.MetricName
     name: MetricName
     no-loc:
@@ -47616,6 +47844,10 @@
     name: MultiRegionSettings
     no-loc:
     - MultiRegionSettings
+  - uid: com.azure.resourcemanager.cognitiveservices.models.NetworkInjections
+    name: NetworkInjections
+    no-loc:
+    - NetworkInjections
   - uid: com.azure.resourcemanager.cognitiveservices.models.NetworkRuleAction
     name: NetworkRuleAction
     no-loc:
@@ -47664,10 +47896,18 @@
     name: NetworkSecurityPerimeterProfileInfo
     no-loc:
     - NetworkSecurityPerimeterProfileInfo
+  - uid: com.azure.resourcemanager.cognitiveservices.models.NoneAuthTypeConnectionProperties
+    name: NoneAuthTypeConnectionProperties
+    no-loc:
+    - NoneAuthTypeConnectionProperties
   - uid: com.azure.resourcemanager.cognitiveservices.models.NspAccessRuleDirection
     name: NspAccessRuleDirection
     no-loc:
     - NspAccessRuleDirection
+  - uid: com.azure.resourcemanager.cognitiveservices.models.OAuth2AuthTypeConnectionProperties
+    name: OAuth2AuthTypeConnectionProperties
+    no-loc:
+    - OAuth2AuthTypeConnectionProperties
   - uid: com.azure.resourcemanager.cognitiveservices.models.Operation
     name: Operation
     no-loc:
@@ -47688,6 +47928,10 @@
     name: Origin
     no-loc:
     - Origin
+  - uid: com.azure.resourcemanager.cognitiveservices.models.PatAuthTypeConnectionProperties
+    name: PatAuthTypeConnectionProperties
+    no-loc:
+    - PatAuthTypeConnectionProperties
   - uid: com.azure.resourcemanager.cognitiveservices.models.PatchResourceTags
     name: PatchResourceTags
     no-loc:
@@ -47784,6 +48028,86 @@
     name: PrivateLinkServiceConnectionState
     no-loc:
     - PrivateLinkServiceConnectionState
+  - uid: com.azure.resourcemanager.cognitiveservices.models.Project
+    name: Project
+    no-loc:
+    - Project
+  - uid: com.azure.resourcemanager.cognitiveservices.models.Project.Definition
+    name: Project.Definition
+    no-loc:
+    - Project.Definition
+  - uid: com.azure.resourcemanager.cognitiveservices.models.Project.DefinitionStages
+    name: Project.DefinitionStages
+    no-loc:
+    - Project.DefinitionStages
+  - uid: com.azure.resourcemanager.cognitiveservices.models.Project.DefinitionStages.Blank
+    name: Project.DefinitionStages.Blank
+    no-loc:
+    - Project.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.cognitiveservices.models.Project.DefinitionStages.WithCreate
+    name: Project.DefinitionStages.WithCreate
+    no-loc:
+    - Project.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.cognitiveservices.models.Project.DefinitionStages.WithIdentity
+    name: Project.DefinitionStages.WithIdentity
+    no-loc:
+    - Project.DefinitionStages.WithIdentity
+  - uid: com.azure.resourcemanager.cognitiveservices.models.Project.DefinitionStages.WithLocation
+    name: Project.DefinitionStages.WithLocation
+    no-loc:
+    - Project.DefinitionStages.WithLocation
+  - uid: com.azure.resourcemanager.cognitiveservices.models.Project.DefinitionStages.WithParentResource
+    name: Project.DefinitionStages.WithParentResource
+    no-loc:
+    - Project.DefinitionStages.WithParentResource
+  - uid: com.azure.resourcemanager.cognitiveservices.models.Project.DefinitionStages.WithProperties
+    name: Project.DefinitionStages.WithProperties
+    no-loc:
+    - Project.DefinitionStages.WithProperties
+  - uid: com.azure.resourcemanager.cognitiveservices.models.Project.DefinitionStages.WithTags
+    name: Project.DefinitionStages.WithTags
+    no-loc:
+    - Project.DefinitionStages.WithTags
+  - uid: com.azure.resourcemanager.cognitiveservices.models.Project.Update
+    name: Project.Update
+    no-loc:
+    - Project.Update
+  - uid: com.azure.resourcemanager.cognitiveservices.models.Project.UpdateStages
+    name: Project.UpdateStages
+    no-loc:
+    - Project.UpdateStages
+  - uid: com.azure.resourcemanager.cognitiveservices.models.Project.UpdateStages.WithIdentity
+    name: Project.UpdateStages.WithIdentity
+    no-loc:
+    - Project.UpdateStages.WithIdentity
+  - uid: com.azure.resourcemanager.cognitiveservices.models.Project.UpdateStages.WithProperties
+    name: Project.UpdateStages.WithProperties
+    no-loc:
+    - Project.UpdateStages.WithProperties
+  - uid: com.azure.resourcemanager.cognitiveservices.models.Project.UpdateStages.WithTags
+    name: Project.UpdateStages.WithTags
+    no-loc:
+    - Project.UpdateStages.WithTags
+  - uid: com.azure.resourcemanager.cognitiveservices.models.ProjectCapabilityHosts
+    name: ProjectCapabilityHosts
+    no-loc:
+    - ProjectCapabilityHosts
+  - uid: com.azure.resourcemanager.cognitiveservices.models.ProjectConnections
+    name: ProjectConnections
+    no-loc:
+    - ProjectConnections
+  - uid: com.azure.resourcemanager.cognitiveservices.models.ProjectListResult
+    name: ProjectListResult
+    no-loc:
+    - ProjectListResult
+  - uid: com.azure.resourcemanager.cognitiveservices.models.ProjectProperties
+    name: ProjectProperties
+    no-loc:
+    - ProjectProperties
+  - uid: com.azure.resourcemanager.cognitiveservices.models.Projects
+    name: Projects
+    no-loc:
+    - Projects
   - uid: com.azure.resourcemanager.cognitiveservices.models.ProvisioningIssue
     name: ProvisioningIssue
     no-loc:
@@ -48044,6 +48368,10 @@
     name: RequestMatchPattern
     no-loc:
     - RequestMatchPattern
+  - uid: com.azure.resourcemanager.cognitiveservices.models.ResourceBase
+    name: ResourceBase
+    no-loc:
+    - ResourceBase
   - uid: com.azure.resourcemanager.cognitiveservices.models.ResourceIdentityType
     name: ResourceIdentityType
     no-loc:
@@ -48084,6 +48412,18 @@
     name: RoutingMethods
     no-loc:
     - RoutingMethods
+  - uid: com.azure.resourcemanager.cognitiveservices.models.SasAuthTypeConnectionProperties
+    name: SasAuthTypeConnectionProperties
+    no-loc:
+    - SasAuthTypeConnectionProperties
+  - uid: com.azure.resourcemanager.cognitiveservices.models.ScenarioType
+    name: ScenarioType
+    no-loc:
+    - ScenarioType
+  - uid: com.azure.resourcemanager.cognitiveservices.models.ServicePrincipalAuthTypeConnectionProperties
+    name: ServicePrincipalAuthTypeConnectionProperties
+    no-loc:
+    - ServicePrincipalAuthTypeConnectionProperties
   - uid: com.azure.resourcemanager.cognitiveservices.models.Sku
     name: Sku
     no-loc:
@@ -48144,6 +48484,10 @@
     name: UserOwnedStorage
     no-loc:
     - UserOwnedStorage
+  - uid: com.azure.resourcemanager.cognitiveservices.models.UsernamePasswordAuthTypeConnectionProperties
+    name: UsernamePasswordAuthTypeConnectionProperties
+    no-loc:
+    - UsernamePasswordAuthTypeConnectionProperties
   - uid: com.azure.resourcemanager.cognitiveservices.models.VirtualNetworkRule
     name: VirtualNetworkRule
     no-loc:
@@ -96103,6 +96447,14 @@
     name: HealthBotInner
     no-loc:
     - HealthBotInner
+  - uid: com.azure.resourcemanager.healthbot.fluent.models.HealthBotKeyInner
+    name: HealthBotKeyInner
+    no-loc:
+    - HealthBotKeyInner
+  - uid: com.azure.resourcemanager.healthbot.fluent.models.HealthBotKeysResponseInner
+    name: HealthBotKeysResponseInner
+    no-loc:
+    - HealthBotKeysResponseInner
   - uid: com.azure.resourcemanager.healthbot.fluent.models.OperationDetailInner
     name: OperationDetailInner
     no-loc:
@@ -96144,6 +96496,10 @@
     name: HealthBot.DefinitionStages.WithCreate
     no-loc:
     - HealthBot.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.healthbot.models.HealthBot.DefinitionStages.WithIdentity
+    name: HealthBot.DefinitionStages.WithIdentity
+    no-loc:
+    - HealthBot.DefinitionStages.WithIdentity
   - uid: com.azure.resourcemanager.healthbot.models.HealthBot.DefinitionStages.WithLocation
     name: HealthBot.DefinitionStages.WithLocation
     no-loc:
@@ -96172,6 +96528,14 @@
     name: HealthBot.UpdateStages
     no-loc:
     - HealthBot.UpdateStages
+  - uid: com.azure.resourcemanager.healthbot.models.HealthBot.UpdateStages.WithIdentity
+    name: HealthBot.UpdateStages.WithIdentity
+    no-loc:
+    - HealthBot.UpdateStages.WithIdentity
+  - uid: com.azure.resourcemanager.healthbot.models.HealthBot.UpdateStages.WithProperties
+    name: HealthBot.UpdateStages.WithProperties
+    no-loc:
+    - HealthBot.UpdateStages.WithProperties
   - uid: com.azure.resourcemanager.healthbot.models.HealthBot.UpdateStages.WithSku
     name: HealthBot.UpdateStages.WithSku
     no-loc:
@@ -96180,6 +96544,14 @@
     name: HealthBot.UpdateStages.WithTags
     no-loc:
     - HealthBot.UpdateStages.WithTags
+  - uid: com.azure.resourcemanager.healthbot.models.HealthBotKey
+    name: HealthBotKey
+    no-loc:
+    - HealthBotKey
+  - uid: com.azure.resourcemanager.healthbot.models.HealthBotKeysResponse
+    name: HealthBotKeysResponse
+    no-loc:
+    - HealthBotKeysResponse
   - uid: com.azure.resourcemanager.healthbot.models.HealthBotProperties
     name: HealthBotProperties
     no-loc:
@@ -96188,6 +96560,14 @@
     name: HealthBotUpdateParameters
     no-loc:
     - HealthBotUpdateParameters
+  - uid: com.azure.resourcemanager.healthbot.models.Identity
+    name: Identity
+    no-loc:
+    - Identity
+  - uid: com.azure.resourcemanager.healthbot.models.KeyVaultProperties
+    name: KeyVaultProperties
+    no-loc:
+    - KeyVaultProperties
   - uid: com.azure.resourcemanager.healthbot.models.OperationDetail
     name: OperationDetail
     no-loc:
@@ -96200,6 +96580,10 @@
     name: Operations
     no-loc:
     - Operations
+  - uid: com.azure.resourcemanager.healthbot.models.ResourceIdentityType
+    name: ResourceIdentityType
+    no-loc:
+    - ResourceIdentityType
   - uid: com.azure.resourcemanager.healthbot.models.Sku
     name: Sku
     no-loc:
@@ -96208,6 +96592,10 @@
     name: SkuName
     no-loc:
     - SkuName
+  - uid: com.azure.resourcemanager.healthbot.models.UserAssignedIdentity
+    name: UserAssignedIdentity
+    no-loc:
+    - UserAssignedIdentity
   no-loc:
   - com.azure.resourcemanager.healthbot.models
 - uid: com.azure.resourcemanager.healthcareapis
