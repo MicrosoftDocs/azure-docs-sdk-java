@@ -162847,6 +162847,158 @@
     - UsernameSource
   no-loc:
   - com.azure.resourcemanager.storagecache.models
+- uid: com.azure.resourcemanager.storagediscovery
+  name: com.azure.resourcemanager.storagediscovery
+  items:
+  - uid: com.azure.resourcemanager.storagediscovery.StorageDiscoveryManager
+    name: StorageDiscoveryManager
+    no-loc:
+    - StorageDiscoveryManager
+  - uid: com.azure.resourcemanager.storagediscovery.StorageDiscoveryManager.Configurable
+    name: StorageDiscoveryManager.Configurable
+    no-loc:
+    - StorageDiscoveryManager.Configurable
+  no-loc:
+  - com.azure.resourcemanager.storagediscovery
+- uid: com.azure.resourcemanager.storagediscovery.fluent
+  name: com.azure.resourcemanager.storagediscovery.fluent
+  items:
+  - uid: com.azure.resourcemanager.storagediscovery.fluent.OperationsClient
+    name: OperationsClient
+    no-loc:
+    - OperationsClient
+  - uid: com.azure.resourcemanager.storagediscovery.fluent.StorageDiscoveryManagementClient
+    name: StorageDiscoveryManagementClient
+    no-loc:
+    - StorageDiscoveryManagementClient
+  - uid: com.azure.resourcemanager.storagediscovery.fluent.StorageDiscoveryWorkspacesClient
+    name: StorageDiscoveryWorkspacesClient
+    no-loc:
+    - StorageDiscoveryWorkspacesClient
+  no-loc:
+  - com.azure.resourcemanager.storagediscovery.fluent
+- uid: com.azure.resourcemanager.storagediscovery.fluent.models
+  name: com.azure.resourcemanager.storagediscovery.fluent.models
+  items:
+  - uid: com.azure.resourcemanager.storagediscovery.fluent.models.OperationInner
+    name: OperationInner
+    no-loc:
+    - OperationInner
+  - uid: com.azure.resourcemanager.storagediscovery.fluent.models.StorageDiscoveryWorkspaceInner
+    name: StorageDiscoveryWorkspaceInner
+    no-loc:
+    - StorageDiscoveryWorkspaceInner
+  no-loc:
+  - com.azure.resourcemanager.storagediscovery.fluent.models
+- uid: com.azure.resourcemanager.storagediscovery.models
+  name: com.azure.resourcemanager.storagediscovery.models
+  items:
+  - uid: com.azure.resourcemanager.storagediscovery.models.ActionType
+    name: ActionType
+    no-loc:
+    - ActionType
+  - uid: com.azure.resourcemanager.storagediscovery.models.Operation
+    name: Operation
+    no-loc:
+    - Operation
+  - uid: com.azure.resourcemanager.storagediscovery.models.OperationDisplay
+    name: OperationDisplay
+    no-loc:
+    - OperationDisplay
+  - uid: com.azure.resourcemanager.storagediscovery.models.Operations
+    name: Operations
+    no-loc:
+    - Operations
+  - uid: com.azure.resourcemanager.storagediscovery.models.Origin
+    name: Origin
+    no-loc:
+    - Origin
+  - uid: com.azure.resourcemanager.storagediscovery.models.ResourceProvisioningState
+    name: ResourceProvisioningState
+    no-loc:
+    - ResourceProvisioningState
+  - uid: com.azure.resourcemanager.storagediscovery.models.StorageDiscoveryResourceType
+    name: StorageDiscoveryResourceType
+    no-loc:
+    - StorageDiscoveryResourceType
+  - uid: com.azure.resourcemanager.storagediscovery.models.StorageDiscoveryScope
+    name: StorageDiscoveryScope
+    no-loc:
+    - StorageDiscoveryScope
+  - uid: com.azure.resourcemanager.storagediscovery.models.StorageDiscoverySku
+    name: StorageDiscoverySku
+    no-loc:
+    - StorageDiscoverySku
+  - uid: com.azure.resourcemanager.storagediscovery.models.StorageDiscoveryWorkspace
+    name: StorageDiscoveryWorkspace
+    no-loc:
+    - StorageDiscoveryWorkspace
+  - uid: com.azure.resourcemanager.storagediscovery.models.StorageDiscoveryWorkspace.Definition
+    name: StorageDiscoveryWorkspace.Definition
+    no-loc:
+    - StorageDiscoveryWorkspace.Definition
+  - uid: com.azure.resourcemanager.storagediscovery.models.StorageDiscoveryWorkspace.DefinitionStages
+    name: StorageDiscoveryWorkspace.DefinitionStages
+    no-loc:
+    - StorageDiscoveryWorkspace.DefinitionStages
+  - uid: com.azure.resourcemanager.storagediscovery.models.StorageDiscoveryWorkspace.DefinitionStages.Blank
+    name: StorageDiscoveryWorkspace.DefinitionStages.Blank
+    no-loc:
+    - StorageDiscoveryWorkspace.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.storagediscovery.models.StorageDiscoveryWorkspace.DefinitionStages.WithCreate
+    name: StorageDiscoveryWorkspace.DefinitionStages.WithCreate
+    no-loc:
+    - StorageDiscoveryWorkspace.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.storagediscovery.models.StorageDiscoveryWorkspace.DefinitionStages.WithLocation
+    name: StorageDiscoveryWorkspace.DefinitionStages.WithLocation
+    no-loc:
+    - StorageDiscoveryWorkspace.DefinitionStages.WithLocation
+  - uid: com.azure.resourcemanager.storagediscovery.models.StorageDiscoveryWorkspace.DefinitionStages.WithProperties
+    name: StorageDiscoveryWorkspace.DefinitionStages.WithProperties
+    no-loc:
+    - StorageDiscoveryWorkspace.DefinitionStages.WithProperties
+  - uid: com.azure.resourcemanager.storagediscovery.models.StorageDiscoveryWorkspace.DefinitionStages.WithResourceGroup
+    name: StorageDiscoveryWorkspace.DefinitionStages.WithResourceGroup
+    no-loc:
+    - StorageDiscoveryWorkspace.DefinitionStages.WithResourceGroup
+  - uid: com.azure.resourcemanager.storagediscovery.models.StorageDiscoveryWorkspace.DefinitionStages.WithTags
+    name: StorageDiscoveryWorkspace.DefinitionStages.WithTags
+    no-loc:
+    - StorageDiscoveryWorkspace.DefinitionStages.WithTags
+  - uid: com.azure.resourcemanager.storagediscovery.models.StorageDiscoveryWorkspace.Update
+    name: StorageDiscoveryWorkspace.Update
+    no-loc:
+    - StorageDiscoveryWorkspace.Update
+  - uid: com.azure.resourcemanager.storagediscovery.models.StorageDiscoveryWorkspace.UpdateStages
+    name: StorageDiscoveryWorkspace.UpdateStages
+    no-loc:
+    - StorageDiscoveryWorkspace.UpdateStages
+  - uid: com.azure.resourcemanager.storagediscovery.models.StorageDiscoveryWorkspace.UpdateStages.WithProperties
+    name: StorageDiscoveryWorkspace.UpdateStages.WithProperties
+    no-loc:
+    - StorageDiscoveryWorkspace.UpdateStages.WithProperties
+  - uid: com.azure.resourcemanager.storagediscovery.models.StorageDiscoveryWorkspace.UpdateStages.WithTags
+    name: StorageDiscoveryWorkspace.UpdateStages.WithTags
+    no-loc:
+    - StorageDiscoveryWorkspace.UpdateStages.WithTags
+  - uid: com.azure.resourcemanager.storagediscovery.models.StorageDiscoveryWorkspaceProperties
+    name: StorageDiscoveryWorkspaceProperties
+    no-loc:
+    - StorageDiscoveryWorkspaceProperties
+  - uid: com.azure.resourcemanager.storagediscovery.models.StorageDiscoveryWorkspacePropertiesUpdate
+    name: StorageDiscoveryWorkspacePropertiesUpdate
+    no-loc:
+    - StorageDiscoveryWorkspacePropertiesUpdate
+  - uid: com.azure.resourcemanager.storagediscovery.models.StorageDiscoveryWorkspaceUpdate
+    name: StorageDiscoveryWorkspaceUpdate
+    no-loc:
+    - StorageDiscoveryWorkspaceUpdate
+  - uid: com.azure.resourcemanager.storagediscovery.models.StorageDiscoveryWorkspaces
+    name: StorageDiscoveryWorkspaces
+    no-loc:
+    - StorageDiscoveryWorkspaces
+  no-loc:
+  - com.azure.resourcemanager.storagediscovery.models
 - uid: com.azure.resourcemanager.storagepool
   name: com.azure.resourcemanager.storagepool
   items:
