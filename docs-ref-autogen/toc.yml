@@ -3823,10 +3823,22 @@
 - uid: com.azure.communication.phonenumbers.models
   name: com.azure.communication.phonenumbers.models
   items:
+  - uid: com.azure.communication.phonenumbers.models.AvailablePhoneNumber
+    name: AvailablePhoneNumber
+    no-loc:
+    - AvailablePhoneNumber
   - uid: com.azure.communication.phonenumbers.models.BillingFrequency
     name: BillingFrequency
     no-loc:
     - BillingFrequency
+  - uid: com.azure.communication.phonenumbers.models.BrowsePhoneNumbersOptions
+    name: BrowsePhoneNumbersOptions
+    no-loc:
+    - BrowsePhoneNumbersOptions
+  - uid: com.azure.communication.phonenumbers.models.CreateOrUpdateReservationOptions
+    name: CreateOrUpdateReservationOptions
+    no-loc:
+    - CreateOrUpdateReservationOptions
   - uid: com.azure.communication.phonenumbers.models.OperatorDetails
     name: OperatorDetails
     no-loc:
@@ -3859,6 +3871,10 @@
     name: PhoneNumberAssignmentType
     no-loc:
     - PhoneNumberAssignmentType
+  - uid: com.azure.communication.phonenumbers.models.PhoneNumberAvailabilityStatus
+    name: PhoneNumberAvailabilityStatus
+    no-loc:
+    - PhoneNumberAvailabilityStatus
   - uid: com.azure.communication.phonenumbers.models.PhoneNumberCapabilities
     name: PhoneNumberCapabilities
     no-loc:
@@ -3911,14 +3927,34 @@
     name: PhoneNumberSearchResult
     no-loc:
     - PhoneNumberSearchResult
+  - uid: com.azure.communication.phonenumbers.models.PhoneNumberSearchResultError
+    name: PhoneNumberSearchResultError
+    no-loc:
+    - PhoneNumberSearchResultError
   - uid: com.azure.communication.phonenumbers.models.PhoneNumberType
     name: PhoneNumberType
     no-loc:
     - PhoneNumberType
+  - uid: com.azure.communication.phonenumbers.models.PhoneNumbersBrowseResult
+    name: PhoneNumbersBrowseResult
+    no-loc:
+    - PhoneNumbersBrowseResult
+  - uid: com.azure.communication.phonenumbers.models.PhoneNumbersReservation
+    name: PhoneNumbersReservation
+    no-loc:
+    - PhoneNumbersReservation
+  - uid: com.azure.communication.phonenumbers.models.PhoneNumbersReservationStatus
+    name: PhoneNumbersReservationStatus
+    no-loc:
+    - PhoneNumbersReservationStatus
   - uid: com.azure.communication.phonenumbers.models.PurchasePhoneNumbersResult
     name: PurchasePhoneNumbersResult
     no-loc:
     - PurchasePhoneNumbersResult
+  - uid: com.azure.communication.phonenumbers.models.PurchaseReservationResult
+    name: PurchaseReservationResult
+    no-loc:
+    - PurchaseReservationResult
   - uid: com.azure.communication.phonenumbers.models.PurchasedPhoneNumber
     name: PurchasedPhoneNumber
     no-loc:
@@ -11787,6 +11823,80 @@
     - MetricsServiceVersion
   no-loc:
   - com.azure.monitor.query
+- uid: com.azure.monitor.query.logs
+  name: com.azure.monitor.query.logs
+  items:
+  - uid: com.azure.monitor.query.logs.LogsQueryAsyncClient
+    name: LogsQueryAsyncClient
+    no-loc:
+    - LogsQueryAsyncClient
+  - uid: com.azure.monitor.query.logs.LogsQueryClient
+    name: LogsQueryClient
+    no-loc:
+    - LogsQueryClient
+  - uid: com.azure.monitor.query.logs.LogsQueryClientBuilder
+    name: LogsQueryClientBuilder
+    no-loc:
+    - LogsQueryClientBuilder
+  - uid: com.azure.monitor.query.logs.LogsQueryServiceVersion
+    name: LogsQueryServiceVersion
+    no-loc:
+    - LogsQueryServiceVersion
+  no-loc:
+  - com.azure.monitor.query.logs
+- uid: com.azure.monitor.query.logs.models
+  name: com.azure.monitor.query.logs.models
+  items:
+  - uid: com.azure.monitor.query.logs.models.LogsBatchQuery
+    name: LogsBatchQuery
+    no-loc:
+    - LogsBatchQuery
+  - uid: com.azure.monitor.query.logs.models.LogsBatchQueryResult
+    name: LogsBatchQueryResult
+    no-loc:
+    - LogsBatchQueryResult
+  - uid: com.azure.monitor.query.logs.models.LogsBatchQueryResultCollection
+    name: LogsBatchQueryResultCollection
+    no-loc:
+    - LogsBatchQueryResultCollection
+  - uid: com.azure.monitor.query.logs.models.LogsColumnType
+    name: LogsColumnType
+    no-loc:
+    - LogsColumnType
+  - uid: com.azure.monitor.query.logs.models.LogsQueryOptions
+    name: LogsQueryOptions
+    no-loc:
+    - LogsQueryOptions
+  - uid: com.azure.monitor.query.logs.models.LogsQueryResult
+    name: LogsQueryResult
+    no-loc:
+    - LogsQueryResult
+  - uid: com.azure.monitor.query.logs.models.LogsQueryResultStatus
+    name: LogsQueryResultStatus
+    no-loc:
+    - LogsQueryResultStatus
+  - uid: com.azure.monitor.query.logs.models.LogsQueryTimeInterval
+    name: LogsQueryTimeInterval
+    no-loc:
+    - LogsQueryTimeInterval
+  - uid: com.azure.monitor.query.logs.models.LogsTable
+    name: LogsTable
+    no-loc:
+    - LogsTable
+  - uid: com.azure.monitor.query.logs.models.LogsTableCell
+    name: LogsTableCell
+    no-loc:
+    - LogsTableCell
+  - uid: com.azure.monitor.query.logs.models.LogsTableColumn
+    name: LogsTableColumn
+    no-loc:
+    - LogsTableColumn
+  - uid: com.azure.monitor.query.logs.models.LogsTableRow
+    name: LogsTableRow
+    no-loc:
+    - LogsTableRow
+  no-loc:
+  - com.azure.monitor.query.logs.models
 - uid: com.azure.monitor.query.models
   name: com.azure.monitor.query.models
   items:
