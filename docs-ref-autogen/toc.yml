@@ -11897,6 +11897,72 @@
     - LogsTableRow
   no-loc:
   - com.azure.monitor.query.logs.models
+- uid: com.azure.monitor.query.metrics
+  name: com.azure.monitor.query.metrics
+  items:
+  - uid: com.azure.monitor.query.metrics.MetricsAsyncClient
+    name: MetricsAsyncClient
+    no-loc:
+    - MetricsAsyncClient
+  - uid: com.azure.monitor.query.metrics.MetricsClient
+    name: MetricsClient
+    no-loc:
+    - MetricsClient
+  - uid: com.azure.monitor.query.metrics.MetricsClientBuilder
+    name: MetricsClientBuilder
+    no-loc:
+    - MetricsClientBuilder
+  - uid: com.azure.monitor.query.metrics.MetricsServiceVersion
+    name: MetricsServiceVersion
+    no-loc:
+    - MetricsServiceVersion
+  no-loc:
+  - com.azure.monitor.query.metrics
+- uid: com.azure.monitor.query.metrics.models
+  name: com.azure.monitor.query.metrics.models
+  items:
+  - uid: com.azure.monitor.query.metrics.models.AggregationType
+    name: AggregationType
+    no-loc:
+    - AggregationType
+  - uid: com.azure.monitor.query.metrics.models.MetricResult
+    name: MetricResult
+    no-loc:
+    - MetricResult
+  - uid: com.azure.monitor.query.metrics.models.MetricUnit
+    name: MetricUnit
+    no-loc:
+    - MetricUnit
+  - uid: com.azure.monitor.query.metrics.models.MetricValue
+    name: MetricValue
+    no-loc:
+    - MetricValue
+  - uid: com.azure.monitor.query.metrics.models.MetricsAudience
+    name: MetricsAudience
+    no-loc:
+    - MetricsAudience
+  - uid: com.azure.monitor.query.metrics.models.MetricsQueryResourcesOptions
+    name: MetricsQueryResourcesOptions
+    no-loc:
+    - MetricsQueryResourcesOptions
+  - uid: com.azure.monitor.query.metrics.models.MetricsQueryResourcesResult
+    name: MetricsQueryResourcesResult
+    no-loc:
+    - MetricsQueryResourcesResult
+  - uid: com.azure.monitor.query.metrics.models.MetricsQueryResult
+    name: MetricsQueryResult
+    no-loc:
+    - MetricsQueryResult
+  - uid: com.azure.monitor.query.metrics.models.MetricsQueryTimeInterval
+    name: MetricsQueryTimeInterval
+    no-loc:
+    - MetricsQueryTimeInterval
+  - uid: com.azure.monitor.query.metrics.models.TimeSeriesElement
+    name: TimeSeriesElement
+    no-loc:
+    - TimeSeriesElement
+  no-loc:
+  - com.azure.monitor.query.metrics.models
 - uid: com.azure.monitor.query.models
   name: com.azure.monitor.query.models
   items:

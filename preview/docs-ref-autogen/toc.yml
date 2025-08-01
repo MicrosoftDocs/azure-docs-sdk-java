@@ -11593,6 +11593,38 @@
 - uid: com.azure.communication.phonenumbers.siprouting.models
   name: com.azure.communication.phonenumbers.siprouting.models
   items:
+  - uid: com.azure.communication.phonenumbers.siprouting.models.HealthStatusReason
+    name: HealthStatusReason
+    no-loc:
+    - HealthStatusReason
+  - uid: com.azure.communication.phonenumbers.siprouting.models.IpAddressVersion
+    name: IpAddressVersion
+    no-loc:
+    - IpAddressVersion
+  - uid: com.azure.communication.phonenumbers.siprouting.models.OverallHealth
+    name: OverallHealth
+    no-loc:
+    - OverallHealth
+  - uid: com.azure.communication.phonenumbers.siprouting.models.OverallHealthStatus
+    name: OverallHealthStatus
+    no-loc:
+    - OverallHealthStatus
+  - uid: com.azure.communication.phonenumbers.siprouting.models.PingHealth
+    name: PingHealth
+    no-loc:
+    - PingHealth
+  - uid: com.azure.communication.phonenumbers.siprouting.models.PingStatus
+    name: PingStatus
+    no-loc:
+    - PingStatus
+  - uid: com.azure.communication.phonenumbers.siprouting.models.PrivacyHeader
+    name: PrivacyHeader
+    no-loc:
+    - PrivacyHeader
+  - uid: com.azure.communication.phonenumbers.siprouting.models.SipDomain
+    name: SipDomain
+    no-loc:
+    - SipDomain
   - uid: com.azure.communication.phonenumbers.siprouting.models.SipTrunk
     name: SipTrunk
     no-loc:
@@ -11601,6 +11633,18 @@
     name: SipTrunkRoute
     no-loc:
     - SipTrunkRoute
+  - uid: com.azure.communication.phonenumbers.siprouting.models.TlsHealth
+    name: TlsHealth
+    no-loc:
+    - TlsHealth
+  - uid: com.azure.communication.phonenumbers.siprouting.models.TlsStatus
+    name: TlsStatus
+    no-loc:
+    - TlsStatus
+  - uid: com.azure.communication.phonenumbers.siprouting.models.TrunkHealth
+    name: TrunkHealth
+    no-loc:
+    - TrunkHealth
   no-loc:
   - com.azure.communication.phonenumbers.siprouting.models
 - uid: com.azure.communication.rooms
