@@ -117179,14 +117179,14 @@
 - uid: com.azure.resourcemanager.mongocluster.fluent
   name: com.azure.resourcemanager.mongocluster.fluent
   items:
-  - uid: com.azure.resourcemanager.mongocluster.fluent.DocumentDBClient
-    name: DocumentDBClient
-    no-loc:
-    - DocumentDBClient
   - uid: com.azure.resourcemanager.mongocluster.fluent.FirewallRulesClient
     name: FirewallRulesClient
     no-loc:
     - FirewallRulesClient
+  - uid: com.azure.resourcemanager.mongocluster.fluent.MongoClusterManagementClient
+    name: MongoClusterManagementClient
+    no-loc:
+    - MongoClusterManagementClient
   - uid: com.azure.resourcemanager.mongocluster.fluent.MongoClustersClient
     name: MongoClustersClient
     no-loc:
@@ -117207,6 +117207,10 @@
     name: ReplicasClient
     no-loc:
     - ReplicasClient
+  - uid: com.azure.resourcemanager.mongocluster.fluent.UsersClient
+    name: UsersClient
+    no-loc:
+    - UsersClient
   no-loc:
   - com.azure.resourcemanager.mongocluster.fluent
 - uid: com.azure.resourcemanager.mongocluster.fluent.models
@@ -117244,6 +117248,10 @@
     name: ReplicaInner
     no-loc:
     - ReplicaInner
+  - uid: com.azure.resourcemanager.mongocluster.fluent.models.UserInner
+    name: UserInner
+    no-loc:
+    - UserInner
   no-loc:
   - com.azure.resourcemanager.mongocluster.fluent.models
 - uid: com.azure.resourcemanager.mongocluster.models
@@ -117253,6 +117261,22 @@
     name: ActionType
     no-loc:
     - ActionType
+  - uid: com.azure.resourcemanager.mongocluster.models.AdministratorProperties
+    name: AdministratorProperties
+    no-loc:
+    - AdministratorProperties
+  - uid: com.azure.resourcemanager.mongocluster.models.AuthConfigProperties
+    name: AuthConfigProperties
+    no-loc:
+    - AuthConfigProperties
+  - uid: com.azure.resourcemanager.mongocluster.models.AuthenticationMode
+    name: AuthenticationMode
+    no-loc:
+    - AuthenticationMode
+  - uid: com.azure.resourcemanager.mongocluster.models.BackupProperties
+    name: BackupProperties
+    no-loc:
+    - BackupProperties
   - uid: com.azure.resourcemanager.mongocluster.models.CheckNameAvailabilityReason
     name: CheckNameAvailabilityReason
     no-loc:
@@ -117265,6 +117289,10 @@
     name: CheckNameAvailabilityResponse
     no-loc:
     - CheckNameAvailabilityResponse
+  - uid: com.azure.resourcemanager.mongocluster.models.ComputeProperties
+    name: ComputeProperties
+    no-loc:
+    - ComputeProperties
   - uid: com.azure.resourcemanager.mongocluster.models.ConnectionString
     name: ConnectionString
     no-loc:
@@ -117273,6 +117301,38 @@
     name: CreateMode
     no-loc:
     - CreateMode
+  - uid: com.azure.resourcemanager.mongocluster.models.CustomerManagedKeyEncryptionProperties
+    name: CustomerManagedKeyEncryptionProperties
+    no-loc:
+    - CustomerManagedKeyEncryptionProperties
+  - uid: com.azure.resourcemanager.mongocluster.models.DataApiMode
+    name: DataApiMode
+    no-loc:
+    - DataApiMode
+  - uid: com.azure.resourcemanager.mongocluster.models.DataApiProperties
+    name: DataApiProperties
+    no-loc:
+    - DataApiProperties
+  - uid: com.azure.resourcemanager.mongocluster.models.DatabaseRole
+    name: DatabaseRole
+    no-loc:
+    - DatabaseRole
+  - uid: com.azure.resourcemanager.mongocluster.models.EncryptionProperties
+    name: EncryptionProperties
+    no-loc:
+    - EncryptionProperties
+  - uid: com.azure.resourcemanager.mongocluster.models.EntraIdentityProvider
+    name: EntraIdentityProvider
+    no-loc:
+    - EntraIdentityProvider
+  - uid: com.azure.resourcemanager.mongocluster.models.EntraIdentityProviderProperties
+    name: EntraIdentityProviderProperties
+    no-loc:
+    - EntraIdentityProviderProperties
+  - uid: com.azure.resourcemanager.mongocluster.models.EntraPrincipalType
+    name: EntraPrincipalType
+    no-loc:
+    - EntraPrincipalType
   - uid: com.azure.resourcemanager.mongocluster.models.FirewallRule
     name: FirewallRule
     no-loc:
@@ -117321,10 +117381,42 @@
     name: FirewallRules
     no-loc:
     - FirewallRules
+  - uid: com.azure.resourcemanager.mongocluster.models.HighAvailabilityMode
+    name: HighAvailabilityMode
+    no-loc:
+    - HighAvailabilityMode
+  - uid: com.azure.resourcemanager.mongocluster.models.HighAvailabilityProperties
+    name: HighAvailabilityProperties
+    no-loc:
+    - HighAvailabilityProperties
+  - uid: com.azure.resourcemanager.mongocluster.models.IdentityProvider
+    name: IdentityProvider
+    no-loc:
+    - IdentityProvider
+  - uid: com.azure.resourcemanager.mongocluster.models.IdentityProviderType
+    name: IdentityProviderType
+    no-loc:
+    - IdentityProviderType
+  - uid: com.azure.resourcemanager.mongocluster.models.KeyEncryptionKeyIdentity
+    name: KeyEncryptionKeyIdentity
+    no-loc:
+    - KeyEncryptionKeyIdentity
+  - uid: com.azure.resourcemanager.mongocluster.models.KeyEncryptionKeyIdentityType
+    name: KeyEncryptionKeyIdentityType
+    no-loc:
+    - KeyEncryptionKeyIdentityType
   - uid: com.azure.resourcemanager.mongocluster.models.ListConnectionStringsResult
     name: ListConnectionStringsResult
     no-loc:
     - ListConnectionStringsResult
+  - uid: com.azure.resourcemanager.mongocluster.models.ManagedServiceIdentity
+    name: ManagedServiceIdentity
+    no-loc:
+    - ManagedServiceIdentity
+  - uid: com.azure.resourcemanager.mongocluster.models.ManagedServiceIdentityType
+    name: ManagedServiceIdentityType
+    no-loc:
+    - ManagedServiceIdentityType
   - uid: com.azure.resourcemanager.mongocluster.models.MongoCluster
     name: MongoCluster
     no-loc:
@@ -117345,6 +117437,10 @@
     name: MongoCluster.DefinitionStages.WithCreate
     no-loc:
     - MongoCluster.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.mongocluster.models.MongoCluster.DefinitionStages.WithIdentity
+    name: MongoCluster.DefinitionStages.WithIdentity
+    no-loc:
+    - MongoCluster.DefinitionStages.WithIdentity
   - uid: com.azure.resourcemanager.mongocluster.models.MongoCluster.DefinitionStages.WithLocation
     name: MongoCluster.DefinitionStages.WithLocation
     no-loc:
@@ -117369,6 +117465,10 @@
     name: MongoCluster.UpdateStages
     no-loc:
     - MongoCluster.UpdateStages
+  - uid: com.azure.resourcemanager.mongocluster.models.MongoCluster.UpdateStages.WithIdentity
+    name: MongoCluster.UpdateStages.WithIdentity
+    no-loc:
+    - MongoCluster.UpdateStages.WithIdentity
   - uid: com.azure.resourcemanager.mongocluster.models.MongoCluster.UpdateStages.WithProperties
     name: MongoCluster.UpdateStages.WithProperties
     no-loc:
@@ -117405,14 +117505,6 @@
     name: MongoClusters
     no-loc:
     - MongoClusters
-  - uid: com.azure.resourcemanager.mongocluster.models.NodeGroupSpec
-    name: NodeGroupSpec
-    no-loc:
-    - NodeGroupSpec
-  - uid: com.azure.resourcemanager.mongocluster.models.NodeKind
-    name: NodeKind
-    no-loc:
-    - NodeKind
   - uid: com.azure.resourcemanager.mongocluster.models.Operation
     name: Operation
     no-loc:
@@ -117541,6 +117633,74 @@
     name: ReplicationState
     no-loc:
     - ReplicationState
+  - uid: com.azure.resourcemanager.mongocluster.models.ShardingProperties
+    name: ShardingProperties
+    no-loc:
+    - ShardingProperties
+  - uid: com.azure.resourcemanager.mongocluster.models.StorageProperties
+    name: StorageProperties
+    no-loc:
+    - StorageProperties
+  - uid: com.azure.resourcemanager.mongocluster.models.StorageType
+    name: StorageType
+    no-loc:
+    - StorageType
+  - uid: com.azure.resourcemanager.mongocluster.models.User
+    name: User
+    no-loc:
+    - User
+  - uid: com.azure.resourcemanager.mongocluster.models.User.Definition
+    name: User.Definition
+    no-loc:
+    - User.Definition
+  - uid: com.azure.resourcemanager.mongocluster.models.User.DefinitionStages
+    name: User.DefinitionStages
+    no-loc:
+    - User.DefinitionStages
+  - uid: com.azure.resourcemanager.mongocluster.models.User.DefinitionStages.Blank
+    name: User.DefinitionStages.Blank
+    no-loc:
+    - User.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.mongocluster.models.User.DefinitionStages.WithCreate
+    name: User.DefinitionStages.WithCreate
+    no-loc:
+    - User.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.mongocluster.models.User.DefinitionStages.WithParentResource
+    name: User.DefinitionStages.WithParentResource
+    no-loc:
+    - User.DefinitionStages.WithParentResource
+  - uid: com.azure.resourcemanager.mongocluster.models.User.DefinitionStages.WithProperties
+    name: User.DefinitionStages.WithProperties
+    no-loc:
+    - User.DefinitionStages.WithProperties
+  - uid: com.azure.resourcemanager.mongocluster.models.User.Update
+    name: User.Update
+    no-loc:
+    - User.Update
+  - uid: com.azure.resourcemanager.mongocluster.models.User.UpdateStages
+    name: User.UpdateStages
+    no-loc:
+    - User.UpdateStages
+  - uid: com.azure.resourcemanager.mongocluster.models.User.UpdateStages.WithProperties
+    name: User.UpdateStages.WithProperties
+    no-loc:
+    - User.UpdateStages.WithProperties
+  - uid: com.azure.resourcemanager.mongocluster.models.UserAssignedIdentity
+    name: UserAssignedIdentity
+    no-loc:
+    - UserAssignedIdentity
+  - uid: com.azure.resourcemanager.mongocluster.models.UserProperties
+    name: UserProperties
+    no-loc:
+    - UserProperties
+  - uid: com.azure.resourcemanager.mongocluster.models.UserRole
+    name: UserRole
+    no-loc:
+    - UserRole
+  - uid: com.azure.resourcemanager.mongocluster.models.Users
+    name: Users
+    no-loc:
+    - Users
   no-loc:
   - com.azure.resourcemanager.mongocluster.models
 - uid: com.azure.resourcemanager.mongodbatlas
