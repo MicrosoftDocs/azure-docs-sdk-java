@@ -149,7 +149,7 @@ methods:
   nameWithType: "EventHubClientBuilder.consumerGroup(String consumerGroup)"
   summary: "Sets the name of the consumer group this consumer is associated with."
   parameters:
-  - description: "The name of the consumer group this consumer is associated with. Events are read in the\n     context of this group. The name of the consumer group that is created by default is <xref uid=\"com.azure.messaging.eventhubs.EventHubClientBuilder.DEFAULT_CONSUMER_GROUP_NAME\" data-throw-if-not-resolved=\"false\" data-raw-source=\"\"$Default\"\"></xref>."
+  - description: "The name of the **consumer** group this consumer is associated with. Events are read in the\n     context of this group. The name of the consumer group that is created by default is <xref uid=\"com.azure.messaging.eventhubs.EventHubClientBuilder.DEFAULT_CONSUMER_GROUP_NAME\" data-throw-if-not-resolved=\"false\" data-raw-source=\"\"$Default\"\"></xref>."
     name: "consumerGroup"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public EventHubClientBuilder consumerGroup(String consumerGroup)"
