@@ -229,7 +229,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 [maven]: https://maven.apache.org/
 [azure_subscription]: https://azure.microsoft.com/
 [jdk]: https://learn.microsoft.com/azure/developer/java/fundamentals/?view=azure-java-stable
-[azure_sub]: https://azure.microsoft.com/free/
+[azure_sub]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [azure_synapse]: https://learn.microsoft.com/azure/synapse-analytics/quickstart-create-workspace
 [azure_cli]: https://learn.microsoft.com/cli/azure
 [rest_api]: https://learn.microsoft.com/rest/api/synapse/

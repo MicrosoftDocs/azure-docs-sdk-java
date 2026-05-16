@@ -84,7 +84,7 @@ For details on contributing to this repository, see the [contributing guide](htt
 [product_documentation]: https://azure.microsoft.com/services/
 [docs]: https://azure.github.io/azure-sdk-for-java/
 [jdk]: https://learn.microsoft.com/azure/developer/java/fundamentals/
-[azure_subscription]: https://azure.microsoft.com/free/
+[azure_subscription]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/azure-analytics-purview-datamap_1.0.0-beta.2/sdk/identity/azure-identity
 
 

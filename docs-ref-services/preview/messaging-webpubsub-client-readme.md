@@ -218,7 +218,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct][coc]. For m
 <!-- LINKS -->
 [docs]: https://azure.github.io/azure-sdk-for-java/
 [jdk]: /java/azure/jdk/
-[azure_subscription]: https://azure.microsoft.com/free/
+[azure_subscription]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [cg]: https://github.com/Azure/azure-sdk-for-java/blob/azure-messaging-webpubsub-client_1.0.0-beta.1/CONTRIBUTING.md
 [coc]: https://opensource.microsoft.com/codeofconduct/
 [coc_faq]: https://opensource.microsoft.com/codeofconduct/faq/

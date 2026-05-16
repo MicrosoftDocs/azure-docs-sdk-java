@@ -1070,5 +1070,5 @@ For more information see the [Code of Conduct FAQ](https://opensource.microsoft.
 [product_documentation]: https://azure.microsoft.com/services/
 [docs]: https://azure.github.io/azure-sdk-for-java/
 [jdk]: https://learn.microsoft.com/java/azure/jdk/
-[azure_subscription]: https://azure.microsoft.com/free/
+[azure_subscription]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 

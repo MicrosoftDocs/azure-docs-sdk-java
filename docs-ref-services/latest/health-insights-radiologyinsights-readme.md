@@ -986,7 +986,7 @@ For details on contributing to this repository, see the [contributing guide](htt
 [health_insights]: https://learn.microsoft.com/azure/azure-health-insights/overview
 [radiology_insights_docs]: https://learn.microsoft.com/azure/azure-health-insights/radiology-insights/overview
 [jdk]: https://learn.microsoft.com/azure/developer/java/fundamentals/
-[azure_subscription]: https://azure.microsoft.com/free/
+[azure_subscription]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [cognitive_resource_cli]: https://learn.microsoft.com/azure/cognitive-services/cognitive-services-apis-create-account-cli
 [azure_cli]: https://learn.microsoft.com/cli/azure
 [radiology_insights_client_class]: https://github.com/Azure/azure-sdk-for-java/blob/azure-health-insights-radiologyinsights_1.1.6/sdk/healthinsights/azure-health-insights-radiologyinsights/src/main/java/com/azure/health/insights/radiologyinsights/RadiologyInsightsClient.java
@@ -1006,7 +1006,7 @@ For details on contributing to this repository, see the [contributing guide](htt
 [ri_async_sample_guidance]: https://github.com/Azure/azure-sdk-for-java/tree/azure-health-insights-radiologyinsights_1.1.6/sdk/healthinsights/azure-health-insights-radiologyinsights/src/samples/java/com/azure/health/insights/radiologyinsights/SampleGuidanceInferenceAsync.java
 [product_documentation]: https://learn.microsoft.com/azure/azure-health-insights/radiology-insights/
 [radiology_insights_inferences]: https://learn.microsoft.com/azure/azure-health-insights/radiology-insights/inferences
-[azure_subscription]: https://azure.microsoft.com/free/
+[azure_subscription]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/azure-health-insights-radiologyinsights_1.1.6/sdk/identity/azure-identity
 [azure_portal]: https://portal.azure.com
 [source_code]: https://github.com/Azure/azure-sdk-for-java/blob/azure-health-insights-radiologyinsights_1.1.6/sdk/healthinsights/azure-health-insights-radiologyinsights/src/

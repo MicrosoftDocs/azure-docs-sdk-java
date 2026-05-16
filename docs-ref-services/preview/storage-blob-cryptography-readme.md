@@ -262,7 +262,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 [rest_docs]: https://learn.microsoft.com/rest/api/storageservices/blob-service-rest-api
 [product_docs]: https://learn.microsoft.com/azure/storage/blobs/storage-blobs-overview
 [samples]: https://github.com/Azure/azure-sdk-for-java/blob/com.azure+azure-storage-blob-cryptography_12.34.0-beta.1/sdk/storage/azure-storage-blob-cryptography/src/samples
-[azure_subscription]: https://azure.microsoft.com/free/
+[azure_subscription]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [storage_account]: https://learn.microsoft.com/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal
 [storage_account_create_cli]: https://learn.microsoft.com/azure/storage/common/storage-quickstart-create-account?tabs=azure-cli
 [storage_account_create_portal]: https://learn.microsoft.com/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal

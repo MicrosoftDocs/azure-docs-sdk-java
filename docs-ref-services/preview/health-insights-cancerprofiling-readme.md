@@ -216,7 +216,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct][code_of_con
 [code_of_conduct]: https://opensource.microsoft.com/codeofconduct/
 [coc_faq]: https://opensource.microsoft.com/codeofconduct/faq/
 [coc_contact]: mailto:opencode@microsoft.com
-[azure_subscription]: https://azure.microsoft.com/free/
+[azure_subscription]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [cognitive_resource_cli]: /azure/cognitive-services/cognitive-services-apis-create-account-cli
 [jdk_link]: /java/azure/jdk/?view=azure-java-stable
 

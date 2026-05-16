@@ -293,7 +293,7 @@ For details on contributing to this repository, see the [contributing guide](htt
 [api_reference_doc]: https://learn.microsoft.com/rest/api/apptesting/loadtest/
 [product_documentation]: https://azure.microsoft.com/services/load-testing/
 [jdk]: https://learn.microsoft.com/java/azure/jdk/
-[azure_subscription]: https://azure.microsoft.com/free/
+[azure_subscription]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/com.azure+azure-developer-loadtesting_1.2.0-beta.1/sdk/identity/azure-identity
 [logging]: https://github.com/Azure/azure-sdk-for-java/wiki/Logging-in-Azure-SDK
 

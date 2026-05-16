@@ -104,7 +104,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct][coc]. For m
 [survey]: https://microsoft.qualtrics.com/jfe/form/SV_ehN0lIk2FKEBkwd?Q_CHL=DOCS
 [docs]: https://azure.github.io/azure-sdk-for-java/
 [jdk]: https://learn.microsoft.com/azure/developer/java/fundamentals/
-[azure_subscription]: https://azure.microsoft.com/free/
+[azure_subscription]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/azure-resourcemanager-networkanalytics_1.0.0-beta.1/sdk/identity/azure-identity
 [azure_core_http_netty]: https://github.com/Azure/azure-sdk-for-java/blob/azure-resourcemanager-networkanalytics_1.0.0-beta.1/sdk/core/azure-core-http-netty
 [authenticate]: https://github.com/Azure/azure-sdk-for-java/blob/azure-resourcemanager-networkanalytics_1.0.0-beta.1/sdk/resourcemanager/docs/AUTH.md

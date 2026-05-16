@@ -209,7 +209,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 [product_docs]: https://learn.microsoft.com/azure/storage/blobs/storage-blobs-overview
 [samples]: https://github.com/Azure/azure-sdk-for-java/blob/com.azure+azure-storage-blob-batch_12.30.0/sdk/storage/azure-storage-blob-batch/src/samples
 [jdk]: https://learn.microsoft.com/java/azure/jdk/?view=azure-java-stable
-[azure_subscription]: https://azure.microsoft.com/free/
+[azure_subscription]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [storage_account]: https://learn.microsoft.com/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal
 [azure_portal]: https://learn.microsoft.com/azure/storage/common/storage-account-create?tabs=azure-portal
 [storage_account_create_cli]: https://learn.microsoft.com/azure/storage/common/storage-quickstart-create-account?tabs=azure-cli

@@ -217,7 +217,7 @@ For details on contributing to this repository, see the [contributing guide](htt
 [product_documentation]: https://learn.microsoft.com/azure/healthcare-apis/deidentification/
 [docs]: https://learn.microsoft.com/java/api/overview/azure/health-deidentification
 [jdk]: https://learn.microsoft.com/azure/developer/java/fundamentals/
-[azure_subscription]: https://azure.microsoft.com/free/
+[azure_subscription]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [deid_quickstart]: https://learn.microsoft.com/azure/healthcare-apis/deidentification/quickstart
 [string_index]: https://github.com/Azure/azure-sdk-for-java/blob/azure-health-deidentification_1.1.0-beta.1/sdk/healthdataaiservices/azure-health-deidentification/src/main/java/com/azure/health/deidentification/models/StringIndex.java
 [character_encoding]: https://learn.microsoft.com/dotnet/standard/base-types/character-encoding-introduction

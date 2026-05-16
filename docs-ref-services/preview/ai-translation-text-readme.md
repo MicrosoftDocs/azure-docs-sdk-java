@@ -204,7 +204,7 @@ For details on contributing to this repository, see the [contributing guide](htt
 [product_documentation]: https://learn.microsoft.com/azure/ai-services/translator/text-translation/preview/overview
 [docs]: https://azure.github.io/azure-sdk-for-java/
 [jdk]: https://learn.microsoft.com/java/azure/jdk/
-[azure_subscription]: https://azure.microsoft.com/free/
+[azure_subscription]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/azure-ai-translation-text_2.0.0-beta.1/sdk/identity/azure-identity
 
 [azure_cli]: https://learn.microsoft.com/cli/azure

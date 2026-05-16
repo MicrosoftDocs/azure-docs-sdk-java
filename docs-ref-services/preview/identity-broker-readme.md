@@ -129,7 +129,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct][code_of_con
 ```
 <!-- LINKS -->
 [azure_core_library]: https://github.com/Azure/azure-sdk-for-java/tree/azure-identity-broker_1.0.0-beta.1/sdk/core
-[azure_sub]: https://azure.microsoft.com/free/
+[azure_sub]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [entra_id_doc]: https://learn.microsoft.com/azure/active-directory/
 [code_of_conduct]: https://opensource.microsoft.com/codeofconduct/
 [javadoc]: https://learn.microsoft.com/java/api/com.azure.identity?view=azure-java-stable

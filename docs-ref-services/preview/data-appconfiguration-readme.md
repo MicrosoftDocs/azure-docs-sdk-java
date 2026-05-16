@@ -597,7 +597,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct][coc]. For m
 [azconfig_docs]: /azure/azure-app-configuration
 [azure_cli]: /cli/azure
 [azure_identity]: https://github.com/Azure/azure-sdk-for-java/tree/azure-data-appconfiguration_1.6.0-beta.1/sdk/identity/azure-identity
-[azure_subscription]: https://azure.microsoft.com/free
+[azure_subscription]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [cla]: https://cla.microsoft.com
 [coc]: https://opensource.microsoft.com/codeofconduct/
 [coc_faq]: https://opensource.microsoft.com/codeofconduct/faq/

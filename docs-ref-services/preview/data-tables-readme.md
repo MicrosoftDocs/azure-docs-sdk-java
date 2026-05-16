@@ -369,7 +369,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct][coc]. For m
 
 <!-- Links -->
 [api_documentation]: https://aka.ms/java-docs
-[azure_subscription]: https://azure.microsoft.com/free
+[azure_subscription]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [cla]: https://cla.microsoft.com
 [coc_contact]: mailto:opencode@microsoft.com
 [coc_faq]: https://opensource.microsoft.com/codeofconduct/faq/

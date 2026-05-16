@@ -211,7 +211,7 @@ For details on contributing to this repository, see the [contributing guide](htt
 [product_documentation]: https://learn.microsoft.com/azure/ai-studio/
 [docs]: https://learn.microsoft.com/rest/api/aifoundry/aiproject/
 [jdk]: https://learn.microsoft.com/azure/developer/java/fundamentals/
-[azure_subscription]: https://azure.microsoft.com/free/
+[azure_subscription]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/com.azure+azure-ai-projects_2.0.1/sdk/identity/azure-identity
 [package_samples]: https://github.com/Azure/azure-sdk-for-java/tree/com.azure+azure-ai-projects_2.0.1/sdk/ai/azure-ai-projects/src/samples/java/com/azure/ai/projects
 [openai_java_sdk]: https://github.com/openai/openai-java

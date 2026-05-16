@@ -106,7 +106,7 @@ When you submit a pull request, a CLA-bot will automatically determine whether y
 This project has adopted the [Microsoft Open Source Code of Conduct][coc]. For more information see the [Code of Conduct FAQ][coc_faq] or contact [opencode@microsoft.com][coc_contact] with any additional questions or comments.
 
 <!-- LINKS -->
-[azure_subscription]: https://azure.microsoft.com/free/
+[azure_subscription]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [api_reference_doc]: https://azure.github.io/azure-sdk-for-java
 [product_documentation]: https://azure.microsoft.com/services/purview/
 [azure_identity]: https://github.com/Azure/azure-sdk-for-java/tree/azure-analytics-purview-administration_1.0.0-beta.1/sdk/identity/azure-identity

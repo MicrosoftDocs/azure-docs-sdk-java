@@ -231,7 +231,7 @@ For details on contributing to this repository, see the [contributing guide](htt
 [docs]: https://azure.github.io/azure-sdk-for-java/
 [jdk]: https://learn.microsoft.com/azure/developer/java/fundamentals/
 [javadocs]: https://azure.github.io/azure-sdk-for-java/eventgrid.html
-[azure_subscription]: https://azure.microsoft.com/free/
+[azure_subscription]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/azure-messaging-eventgrid-namespaces_1.1.9/sdk/identity/azure-identity
 [portal]: https://ms.portal.azure.com/
 [service_docs]: /azure/event-grid/

@@ -509,7 +509,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 <!-- LINKS -->
 [jdk]: /java/azure/jdk/?view=azure-java-stable
 [javadocs]: https://azure.github.io/azure-sdk-for-java/eventgrid.html
-[azure_subscription]: https://azure.microsoft.com/free
+[azure_subscription]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [maven]: https://maven.apache.org/
 [HttpResponseException]: https://github.com/Azure/azure-sdk-for-java/blob/azure-messaging-eventgrid_4.21.0-beta.1/sdk/core/azure-core/src/main/java/com/azure/core/exception/HttpResponseException.java
 [samples]: https://github.com/Azure/azure-sdk-for-java/blob/azure-messaging-eventgrid_4.21.0-beta.1/sdk/eventgrid/azure-messaging-eventgrid/src/samples/java/com/azure/messaging/eventgrid

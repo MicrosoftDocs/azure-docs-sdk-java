@@ -30,7 +30,7 @@ Use the Image Analysis client library to:
 ### Prerequisites
 
 * [Java Development Kit (JDK)](https://learn.microsoft.com/azure/developer/java/fundamentals/java-jdk-install) with version 8 or above.
-* An [Azure subscription](https://azure.microsoft.com/free).
+* An [Azure subscription](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
 * A [Computer Vision resource](https://portal.azure.com/#create/Microsoft.CognitiveServicesComputerVision) deployed to your Azure subscription. Note that in order to run Image Analysis with the `Caption` or `Dense Captions` features, the Computer Vision resource needs to be from a GPU-supported region. See this [document][supported_regions] for a list of supported regions.
 * An endpoint URL. It can be found in the "overview" tab of your Computer Vision resource in the Azure portal, and has the form `https://your-resource-name.cognitiveservices.azure.com` where `your-resource-name` is your unique Computer Vision resource name. The samples below assume the environment variable `VISION_ENDPOINT` has been set to this value.
 * For API key authentication, you will need the key. It can be found in the "overview" tab of your Computer Vision resource in the Azure portal. It's a 32-character Hexadecimal number. The samples below assume the environment variable `VISION_KEY` has been set to this value.

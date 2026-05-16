@@ -189,6 +189,6 @@ For details on contributing to this repository, see the [contributing guide](htt
 [devbox_documentation]: https://learn.microsoft.com/azure/dev-box/
 [docs]: https://azure.github.io/azure-sdk-for-java/
 [jdk]: https://learn.microsoft.com/java/azure/jdk/
-[azure_subscription]: https://azure.microsoft.com/free/
+[azure_subscription]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/azure-developer-devcenter_1.0.14/sdk/identity/azure-identity
 

@@ -389,7 +389,7 @@ For more information see the [Code of Conduct FAQ](https://opensource.microsoft.
 [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
 <!-- LINKS -->
-[azure_subscription]: https://azure.microsoft.com/free
+[azure_subscription]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [jdk_link]: /java/azure/jdk/?view=azure-java-stable
 [performance_tuning]: https://github.com/Azure/azure-sdk-for-java/wiki/Performance-Tuning
 [source_code]: https://github.com/Azure/azure-sdk-for-java/tree/azure-mixedreality-remoterendering_1.1.41/sdk/remoterendering/azure-mixedreality-remoterendering/src

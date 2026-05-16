@@ -115,7 +115,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct][coc]. For m
 <!-- LINKS -->
 [product_documentation]: https://learn.microsoft.com/azure/purview/concept-workflow
 [jdk]: /java/azure/jdk/
-[azure_subscription]: https://azure.microsoft.com/free/
+[azure_subscription]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [purview_resource]: /azure/purview/create-catalog-portal
 [azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/azure-analytics-purview-workflow_1.0.0-beta.2/sdk/identity/azure-identity/README.md
 [app_registration]:https://learn.microsoft.com/azure/active-directory/develop/quickstart-register-app

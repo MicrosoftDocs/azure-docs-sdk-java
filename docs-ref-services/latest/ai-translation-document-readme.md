@@ -501,7 +501,7 @@ For details on contributing to this repository, see the [contributing guide](htt
 [product_documentation]: https://learn.microsoft.com/azure/ai-services/translator/document-translation/overview
 [docs]: https://learn.microsoft.com/azure/ai-services/translator/document-translation/reference/rest-api-guide
 [jdk]: https://learn.microsoft.com/azure/developer/java/fundamentals/
-[azure_subscription]: https://azure.microsoft.com/free/
+[azure_subscription]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/azure-ai-translation-document_1.0.7/sdk/identity/azure-identity
 [sample_document_translation_client_with_apiKey]: https://github.com/Azure/azure-sdk-for-java/tree/azure-ai-translation-document_1.0.7/sdk/translation/azure-ai-translation-document/src/samples/java/com/azure/ai/translation/document/ReadmeSamples.java
 [sample_single_document_translation_client_with_apiKey]: https://github.com/Azure/azure-sdk-for-java/tree/azure-ai-translation-document_1.0.7/sdk/translation/azure-ai-translation-document/src/samples/java/com/azure/ai/translation/document/ReadmeSamples.java

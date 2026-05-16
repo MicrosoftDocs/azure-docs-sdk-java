@@ -1156,7 +1156,7 @@ or contact [opencode@microsoft.com][coc_contact] with any additional questions o
 [coc]: https://opensource.microsoft.com/codeofconduct/
 [coc_faq]: https://opensource.microsoft.com/codeofconduct/faq/
 [coc_contact]: mailto:opencode@microsoft.com
-[azure_subscription]: https://azure.microsoft.com/free/
+[azure_subscription]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [samples]: https://github.com/Azure/azure-sdk-for-java/tree/azure-spring-data-cosmos_7.0.0-beta.1/sdk/spring/azure-spring-data-cosmos/src/samples/java/com/azure/spring/data/cosmos
 [sample-for-multi-database]: https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.3.0/cosmos/azure-spring-data-cosmos/cosmos-multi-database-multi-account
 [sample-for-multi-database-single-account]: https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.3.0/cosmos/azure-spring-data-cosmos/cosmos-multi-database-single-account

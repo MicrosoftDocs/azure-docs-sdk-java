@@ -245,7 +245,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct][coc]. For m
 
 <!-- LINKS -->
 
-[azure_sub]: https://azure.microsoft.com/free/dotnet/
+[azure_sub]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn/
 [azure_portal]: https://portal.azure.com
 [cla]: https://cla.microsoft.com
 [coc]: https://opensource.microsoft.com/codeofconduct/

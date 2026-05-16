@@ -369,7 +369,7 @@ additional questions or comments.
 <!-- LINKS -->
 [source_code]: https://github.com/Azure/azure-sdk-for-java/tree/azure-containers-containerregistry_1.2.22/sdk/containerregistry/azure-containers-containerregistry/src
 [jdk_link]: /java/azure/jdk/?view=azure-java-stable
-[azure_subscription]: https://azure.microsoft.com/free
+[azure_subscription]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [package]: https://search.maven.org/artifact/com.azure/azure-containers-containerregisty
 [api_documentation]: https://aka.ms/java-docs
 [rest_docs]: /rest/api/containerregistry/
@@ -380,7 +380,7 @@ additional questions or comments.
 [container_registry_create_portal]: /azure/container-registry/container-registry-get-started-portal
 [container_registry_concepts]: /azure/container-registry/container-registry-concepts
 [azure_cli]: /cli/azure
-[azure_sub]: https://azure.microsoft.com/free/
+[azure_sub]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [identity]: https://github.com/Azure/azure-sdk-for-java/blob/azure-containers-containerregistry_1.2.22/sdk/identity/azure-identity/README.md
 [HttpResponseException]: https://github.com/Azure/azure-sdk-for-java/blob/azure-containers-containerregistry_1.2.22/sdk/core/azure-core/src/main/java/com/azure/core/exception/HttpResponseException.java
 [samples]: https://github.com/Azure/azure-sdk-for-java/tree/azure-containers-containerregistry_1.2.22/sdk/containerregistry/azure-containers-containerregistry/src/samples/

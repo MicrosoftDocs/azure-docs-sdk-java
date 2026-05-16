@@ -148,7 +148,7 @@ For more information see the Code of Conduct FAQ or contact opencode@microsoft.c
 <!-- LINKS -->
 [microsoft_sdk_download]: https://azure.microsoft.com/downloads/?sdk=java
 [azure_cli]: https://learn.microsoft.com/cli/azure
-[azure_sub]: https://azure.microsoft.com/free/
+[azure_sub]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [source]: https://github.com/Azure/azure-sdk-for-java/tree/azure-digitaltwins-core_1.5.5/sdk/digitaltwins/azure-digitaltwins-core
 [code_of_conduct]: https://opensource.microsoft.com/codeofconduct/
 [nuget]: https://www.nuget.org/

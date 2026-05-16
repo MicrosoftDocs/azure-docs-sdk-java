@@ -287,7 +287,7 @@ For details on contributing to this repository, see the [contributing guide](htt
 [product_documentation]: https://aka.ms/acs-doc
 [docs]: https://azure.github.io/azure-sdk-for-java/
 [jdk]: /java/azure/jdk/
-[azure_subscription]: https://azure.microsoft.com/free/
+[azure_subscription]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/azure-ai-contentsafety_1.0.0-beta.1/sdk/identity/azure-identity
 [contentsafety_overview]: https://aka.ms/acs-doc
 [azure_portal]: https://ms.portal.azure.com/

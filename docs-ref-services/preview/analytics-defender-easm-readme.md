@@ -111,7 +111,7 @@ For details on contributing to this repository, see the [contributing guide](htt
 [product_documentation]: https://learn.microsoft.com/azure/external-attack-surface-management/
 [docs]: https://azure.github.io/azure-sdk-for-java/
 [jdk]: /java/azure/jdk/
-[azure_subscription]: https://azure.microsoft.com/free/
+[azure_subscription]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/azure-analytics-defender-easm_1.0.0-beta.1/sdk/identity/azure-identity
 [discovery_runs_sample]: https://github.com/Azure/azure-sdk-for-java/blob/azure-analytics-defender-easm_1.0.0-beta.1/sdk/easm/azure-analytics-defender-easm/src/samples/java/com/azure/analytics/defender/easm/DiscoveryRunsSample.java
 [disco_template_sample]: https://github.com/Azure/azure-sdk-for-java/blob/azure-analytics-defender-easm_1.0.0-beta.1/sdk/easm/azure-analytics-defender-easm/src/samples/java/com/azure/analytics/defender/easm/DiscoTemplateSample.java

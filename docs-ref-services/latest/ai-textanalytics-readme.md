@@ -447,7 +447,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct][coc]. For m
 [azure_identity_credential_type]: https://github.com/Azure/azure-sdk-for-java/tree/azure-ai-textanalytics_5.5.12/sdk/identity/azure-identity#credentials
 [azure_key_credential]: https://github.com/Azure/azure-sdk-for-java/blob/azure-ai-textanalytics_5.5.12/sdk/core/azure-core/src/main/java/com/azure/core/credential/AzureKeyCredential.java
 [azure_portal]: https://ms.portal.azure.com
-[azure_subscription]: https://azure.microsoft.com/free
+[azure_subscription]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [cla]: https://cla.microsoft.com
 [coc]: https://opensource.microsoft.com/codeofconduct/
 [coc_faq]: https://opensource.microsoft.com/codeofconduct/faq/

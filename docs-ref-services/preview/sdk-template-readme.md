@@ -46,7 +46,7 @@ Include a **Prerequisites** line after the install command that details any requ
 a developer can [authenticate](#authenticate-the-client) and test all the snippets in the [Examples](#examples) section. 
 For example, for Cosmos DB:
 
-**Prerequisites**: You must have an [Azure subscription](https://azure.microsoft.com/free/), [Cosmos DB account](https://learn.microsoft.com/azure/cosmos-db/account-overview) (SQL API), and [Java Development Kit (JDK) with version 8 or above][jdk] to use this package.
+**Prerequisites**: You must have an [Azure subscription](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn), [Cosmos DB account](https://learn.microsoft.com/azure/cosmos-db/account-overview) (SQL API), and [Java Development Kit (JDK) with version 8 or above][jdk] to use this package.
 
 > TODO: Once the library has GA'ed include the instructions on how to include the BOM file directly. And the benefit of using the BOM file over adding a direct dependency to the project.
 

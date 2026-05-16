@@ -171,7 +171,7 @@ For details on contributing to this repository, see the [contributing guide](htt
 [product_documentation]: https://azure.microsoft.com/services/
 [docs]: https://azure.github.io/azure-sdk-for-java/
 [jdk]: https://learn.microsoft.com/azure/developer/java/fundamentals/
-[azure_subscription]: https://azure.microsoft.com/free/
+[azure_subscription]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/azure-analytics-onlineexperimentation_1.0.0-beta.1/sdk/identity/azure-identity
 [app_config]: https://learn.microsoft.com/azure/azure-app-configuration/overview
 [azure_monitor]: https://learn.microsoft.com/azure/azure-monitor/overview

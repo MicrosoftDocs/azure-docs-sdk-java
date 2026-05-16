@@ -212,10 +212,10 @@ additional questions or comments.
 [style-guide-msft]: https://docs.microsoft.com/style-guide/capitalization
 [style-guide-cloud]: https://aka.ms/azsdk/cloud-style-guide
 [jdk_link]: https://docs.microsoft.com/java/azure/jdk/?view=azure-java-stable
-[azure_subscription]: https://azure.microsoft.com/free
+[azure_subscription]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [azure_quantum]: https://azure.microsoft.com/services/quantum/
 [azure_quantum_workspaces]: https://docs.microsoft.com/azure/quantum/how-to-create-quantum-workspaces-with-the-azure-portal
-[azure_storage]: https://azure.microsoft.com/free/storage/
+[azure_storage]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learnstorage/
 [coc_faq]: https://opensource.microsoft.com/codeofconduct/faq/
 [coc]: https://opensource.microsoft.com/codeofconduct/
 [coc_contact]: mailto:opencode@microsoft.com

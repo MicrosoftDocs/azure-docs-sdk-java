@@ -300,7 +300,7 @@ For details on contributing to this repository, see the [contributing guide](htt
 [face_samples]: https://github.com/Azure/azure-sdk-for-java/tree/azure-ai-vision-face_1.0.0-beta.2/sdk/face/azure-ai-vision-face/src/samples
 
 [jdk_link]: /java/azure/jdk/?view=azure-java-stable
-[azure_sub]: https://azure.microsoft.com/free/
+[azure_sub]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [steps_assign_an_azure_role]: https://learn.microsoft.com/azure/role-based-access-control/role-assignments-steps
 [azure_portal_list_face_account]: https://portal.azure.com/#blade/Microsoft_Azure_ProjectOxford/CognitiveServicesHub/Face
 [azure_cognitive_service_account]: https://learn.microsoft.com/azure/ai-services/multi-service-resource?tabs=windows&pivots=azportal#supported-services-with-a-multi-service-resource

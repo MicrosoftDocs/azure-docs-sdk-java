@@ -245,7 +245,7 @@ For more information see the [Code of Conduct FAQ](https://opensource.microsoft.
 <!-- LINKS -->
 [azure_identity]: https://github.com/Azure/azure-sdk-for-java/tree/azure-monitor-ingestion_1.2.15/sdk/identity/azure-identity
 [azure_monitor_overview]: https://learn.microsoft.com/azure/azure-monitor/overview
-[azure_subscription]: https://azure.microsoft.com/free
+[azure_subscription]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [cla]: https://cla.microsoft.com
 [coc]: https://opensource.microsoft.com/codeofconduct/
 [coc_faq]: https://opensource.microsoft.com/codeofconduct/faq/

@@ -156,7 +156,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct][coc]. For m
 [address_type]: https://github.com/Azure/azure-sdk-for-java/blob/azure-data-schemaregistry-jsonschema_1.0.7/sdk/schemaregistry/azure-data-schemaregistry-jsonschema/src/test/java/com/azure/data/schemaregistry/jsonschema/Address.java
 [source_code]: https://github.com/Azure/azure-sdk-for-java/blob/azure-data-schemaregistry-jsonschema_1.0.7/sdk/schemaregistry/azure-data-schemaregistry-jsonschema/src
 [samples_code]: https://github.com/Azure/azure-sdk-for-java/blob/azure-data-schemaregistry-jsonschema_1.0.7/sdk/schemaregistry/azure-data-schemaregistry-jsonschema/src/samples/
-[azure_subscription]: https://azure.microsoft.com/free/
+[azure_subscription]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [api_reference_doc]: https://aka.ms/schemaregistry
 [azure_identity]: https://github.com/Azure/azure-sdk-for-java/tree/azure-data-schemaregistry-jsonschema_1.0.7/sdk/identity/azure-identity
 [DefaultAzureCredential]: https://github.com/Azure/azure-sdk-for-java/blob/azure-data-schemaregistry-jsonschema_1.0.7/sdk/identity/azure-identity/README.md#defaultazurecredential

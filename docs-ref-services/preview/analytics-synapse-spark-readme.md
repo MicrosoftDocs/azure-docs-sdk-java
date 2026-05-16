@@ -238,6 +238,6 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 [spark_samples]: https://github.com/Azure/azure-sdk-for-java/blob/azure-analytics-synapse-spark_1.0.0-beta.5/sdk/synapse/azure-analytics-synapse-spark/src/samples/java/com/azure/analytics/synapse/spark
 [performance_tuning]: https://github.com/Azure/azure-sdk-for-java/wiki/Performance-Tuning
 [jdk]: https://docs.microsoft.com/java/azure/jdk/
-[azure_sub]: https://azure.microsoft.com/free/
+[azure_sub]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [azure_portal]: https://docs.microsoft.com/azure/synapse-analytics/quickstart-create-workspace
 

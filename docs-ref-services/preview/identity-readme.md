@@ -430,7 +430,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct][code_of_con
 [azure_core_library]: https://github.com/Azure/azure-sdk-for-java/tree/com.azure+azure-identity_1.19.0-beta.2/sdk/core
 [azure_identity_broker]: https://central.sonatype.com/artifact/com.azure/azure-identity-broker
 [azure_identity_broker_readme]: https://github.com/Azure/azure-sdk-for-java/blob/com.azure+azure-identity_1.19.0-beta.2/sdk/identity/azure-identity-broker/README.md
-[azure_sub]: https://azure.microsoft.com/free/
+[azure_sub]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [code_of_conduct]: https://opensource.microsoft.com/codeofconduct/
 [cred_acc]: https://learn.microsoft.com/java/api/com.azure.identity.authorizationcodecredential?view=azure-java-stable
 [cred_acc_ref]: https://learn.microsoft.com/entra/identity-platform/v2-oauth2-auth-code-flow

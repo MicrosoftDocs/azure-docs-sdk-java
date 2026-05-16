@@ -217,7 +217,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct][coc]. For m
 [samples]: https://github.com/Azure/azure-sdk-for-java/blob/azure-data-schemaregistry_1.4.0-beta.2/sdk/schemaregistry/azure-data-schemaregistry/src/samples/java/com/azure/data/schemaregistry
 [source_code]: https://github.com/Azure/azure-sdk-for-java/blob/azure-data-schemaregistry_1.4.0-beta.2/sdk/schemaregistry/azure-data-schemaregistry/src
 [samples_code]: src/samples/
-[azure_subscription]: https://azure.microsoft.com/free/
+[azure_subscription]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [api_reference_doc]: https://aka.ms/schemaregistry
 [azure_cli]: /cli/azure
 [azure_portal]: https://portal.azure.com

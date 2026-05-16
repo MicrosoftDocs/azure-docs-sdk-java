@@ -589,7 +589,7 @@ For details on contributing to this repository, see the [contributing guide](htt
 [azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/azure-ai-openai_1.0.0-beta.16/sdk/identity/azure-identity
 [azure_identity_credential_type]: https://github.com/Azure/azure-sdk-for-java/tree/azure-ai-openai_1.0.0-beta.16/sdk/identity/azure-identity#credentials
 [azure_openai_access]: https://learn.microsoft.com/azure/cognitive-services/openai/overview#how-do-i-get-access-to-azure-openai
-[azure_subscription]: https://azure.microsoft.com/free/
+[azure_subscription]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [docs]: https://azure.github.io/azure-sdk-for-java/
 [jdk]: https://learn.microsoft.com/java/azure/jdk/
 [jtokkit]: https://github.com/knuddelsgmbh/jtokkit

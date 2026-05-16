@@ -457,7 +457,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct][coc]. For m
 [azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/azure-communication-messages_1.2.0-beta.1/sdk/identity/azure-identity
 [defaultazurecredential]: https://github.com/Azure/azure-sdk-for-js/tree/main/sdk/identity/identity#defaultazurecredential
 [azure_cli]: https://learn.microsoft.com/cli/azure
-[azure_sub]: https://azure.microsoft.com/free/
+[azure_sub]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [azure_portal]: https://portal.azure.com
 [azure_powershell]: https://learn.microsoft.com/powershell/module/az.communication/new-azcommunicationservice
 

@@ -163,7 +163,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct][coc]. For m
 [generated_types]: https://github.com/Azure/azure-sdk-for-java/blob/azure-data-schemaregistry-avro_1.0.0-beta.5/sdk/schemaregistry/azure-data-schemaregistry-avro/src/samples/java/com/azure/data/schemaregistry/avro/generatedtestsources
 [source_code]: https://github.com/Azure/azure-sdk-for-java/blob/azure-data-schemaregistry-avro_1.0.0-beta.5/sdk/schemaregistry/azure-data-schemaregistry-avro/src
 [samples_code]: https://github.com/Azure/azure-sdk-for-java/blob/azure-data-schemaregistry-avro_1.0.0-beta.5/sdk/schemaregistry/azure-data-schemaregistry-avro/src/samples/
-[azure_subscription]: https://azure.microsoft.com/free/
+[azure_subscription]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [apache_avro]: https://avro.apache.org/
 [api_reference_doc]: https://aka.ms/schemaregistry
 [azure_cli]: https://docs.microsoft.com/cli/azure

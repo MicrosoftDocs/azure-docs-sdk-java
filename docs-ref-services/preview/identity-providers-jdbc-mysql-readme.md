@@ -15,7 +15,7 @@ This package contains the jdbc authentication plugin to authenticate with Azure 
 
 ### Prerequisites
 
-- An Azure account with an active subscription. [Create an account for free](https://azure.microsoft.com/free/?WT.mc_id=A261C142F).
+- An Azure account with an active subscription. [Create an account for free](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
 - [Java Development Kit (JDK)][jdk] with version 8 or above.
 - [Apache Maven](https://maven.apache.org/download.cgi).
 
@@ -59,5 +59,5 @@ For details on contributing to this repository, see the [contributing guide](htt
 
 <!-- LINKS -->
 [jdk]: /java/azure/jdk/
-[azure_subscription]: https://azure.microsoft.com/free/
+[azure_subscription]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 

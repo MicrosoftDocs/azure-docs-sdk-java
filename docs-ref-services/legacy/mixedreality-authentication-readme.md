@@ -22,7 +22,7 @@ token from the STS that can be used to access Mixed Reality services.
 
 ### Prerequisites
 
-- You must have an [Azure subscription](https://azure.microsoft.com/free/).
+- You must have an [Azure subscription](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
 - You must have an account with an [Azure Mixed Reality service](https://azure.microsoft.com/topic/mixed-reality/):
   - [Azure Remote Rendering](https://docs.microsoft.com/azure/remote-rendering/)
   - [Azure Spatial Anchors](https://docs.microsoft.com/azure/spatial-anchors/)

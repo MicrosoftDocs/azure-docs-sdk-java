@@ -14,7 +14,7 @@ The HDInsight SDK for Java provides classes and methods that allow you to manage
 
 ## Prerequisites
 
-* An Azure account. If you don't have one, [get a free trial](https://azure.microsoft.com/free/).
+* An Azure account. If you don't have one, [get a free trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
 * A supported Java Development Kit (JDK). For more information about the JDKs available for use when developing on Azure, see <https://aka.ms/azure-jdks>.
 * [Maven](https://maven.apache.org/download.cgi)
 

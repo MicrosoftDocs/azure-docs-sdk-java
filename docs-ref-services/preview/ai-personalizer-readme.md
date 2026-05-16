@@ -72,7 +72,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct][coc]. For m
 
 <!-- LINKS -->
 [jdk_link]: /java/azure/jdk/?view=azure-java-stable
-[azure_subscription]: https://azure.microsoft.com/free
+[azure_subscription]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [personalizer_account]: /azure/cognitive-services/cognitive-services-apis-create-account?tabs=multiservice%2Cwindows
 [personalizer_admin_sync_client]: https://github.com/Azure/azure-sdk-for-java/blob/azure-ai-personalizer_1.0.0-beta.1/sdk/personalizer/azure-ai-personalizer/src/main/java/com/azure/ai/personalizer/administration/PersonalizerAdministrationClient.java
 [personalizer_admin_async_client]: https://github.com/Azure/azure-sdk-for-java/blob/azure-ai-personalizer_1.0.0-beta.1/sdk/personalizer/azure-ai-personalizer/src/main/java/com/azure/ai/personalizer/administration/PersonalizerAdministrationAsyncClient.java

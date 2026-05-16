@@ -599,7 +599,7 @@ comments.
 [azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/azure-monitor-query_1.3.0-beta.3/sdk/identity/azure-identity/README.md
 [azure_monitor_create_using_portal]: https://learn.microsoft.com/azure/azure-monitor/logs/quick-create-workspace
 [azure_monitor_overview]: https://learn.microsoft.com/azure/azure-monitor/overview
-[azure_subscription]: https://azure.microsoft.com/free/java
+[azure_subscription]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [changelog]: https://github.com/Azure/azure-sdk-for-java/blob/azure-monitor-query_1.3.0-beta.3/sdk/monitor/azure-monitor-query/CHANGELOG.md
 [custom_subdomain]: https://learn.microsoft.com/azure/cognitive-services/authentication?tabs=powershell#create-a-resource-with-a-custom-subdomain
 [DefaultAzureCredential]: https://github.com/Azure/azure-sdk-for-java/blob/azure-monitor-query_1.3.0-beta.3/sdk/identity/azure-identity/README.md#defaultazurecredential

@@ -210,7 +210,7 @@ comments.
 
 <!-- LINKS -->
 
-[azure_subscription]: https://azure.microsoft.com/free
+[azure_subscription]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [jdk_link]: https://learn.microsoft.com/java/azure/jdk/?view=azure-java-stable
 [source_code]: https://github.com/Azure/azure-sdk-for-java/tree/azure-messaging-webpubsub_1.5.4/sdk/webpubsub/azure-messaging-webpubsub/src
 [product_documentation]: https://aka.ms/awps/doc

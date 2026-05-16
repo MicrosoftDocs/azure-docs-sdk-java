@@ -105,7 +105,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct][coc]. For m
 [jdk]: https://docs.microsoft.com/java/azure/jdk/?view=azure-java-stable
 [samples]: https://github.com/Azure/azure-sdk-for-java/blob/opentelemetry-exporters-azuremonitor_1.0.0-beta.1/sdk/monitor/opentelemetry-exporters-azuremonitor/src/samples/java/
 [source_code]: https://github.com/Azure/azure-sdk-for-java/blob/opentelemetry-exporters-azuremonitor_1.0.0-beta.1/sdk/monitor/opentelemetry-exporters-azuremonitor/src
-[azure_subscription]: https://azure.microsoft.com/free/
+[azure_subscription]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [api_reference_doc]: https://docs.microsoft.com/azure/azure-monitor/overview
 [product_documentation]: https://docs.microsoft.com/azure/azure-monitor/overview
 [azure_cli]: https://docs.microsoft.com/cli/azure

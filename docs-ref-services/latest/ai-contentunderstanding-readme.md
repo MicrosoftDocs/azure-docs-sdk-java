@@ -449,7 +449,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct][code_of_con
 [api_reference_docs]: https://azure.github.io/azure-sdk-for-java/
 [product_docs]: https://learn.microsoft.com/azure/ai-services/content-understanding/
 [jdk]: https://learn.microsoft.com/azure/developer/java/fundamentals/
-[azure_subscription]: https://azure.microsoft.com/free/
+[azure_subscription]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/com.azure+azure-ai-contentunderstanding_1.0.0/sdk/identity/azure-identity/README.md
 [azure_portal]: https://portal.azure.com/
 [cu_quickstart]: https://learn.microsoft.com/azure/ai-services/content-understanding/quickstart/use-rest-api?tabs=portal%2Cdocument

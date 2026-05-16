@@ -457,7 +457,7 @@ For details on contributing to this repository, see the [contributing guide](htt
 [samples_code]: https://github.com/Azure/azure-sdk-for-java/blob/azure-analytics-purview-sharing_1.0.0-beta.2/sdk/purview/azure-analytics-purview-sharing/src/samples/
 [docs]: https://azure.github.io/azure-sdk-for-java/
 [jdk]: /java/azure/jdk/
-[azure_subscription]: https://azure.microsoft.com/free/
+[azure_subscription]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/azure-analytics-purview-sharing_1.0.0-beta.2/sdk/identity/azure-identity
 [create_azure_purview_account]: /azure/purview/create-catalog-portal
 [logging]: https://github.com/Azure/azure-sdk-for-java/wiki/Logging-with-Azure-SDK

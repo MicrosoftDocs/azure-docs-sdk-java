@@ -415,7 +415,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct][coc]. For m
 [azure_cli_endpoint]: https://docs.microsoft.com/cli/azure/cognitiveservices/account?view=azure-cli-latest#az-cognitiveservices-account-show
 [azure_identity]: https://github.com/Azure/azure-sdk-for-java/tree/azure-ai-metricsadvisor_1.0.0-beta.4/sdk/identity/azure-identity#credentials
 [azure_portal]: https://ms.portal.azure.com
-[azure_subscription]: https://azure.microsoft.com/free
+[azure_subscription]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [cla]: https://cla.microsoft.com
 [coc]: https://opensource.microsoft.com/codeofconduct/
 [coc_faq]: https://opensource.microsoft.com/codeofconduct/faq/

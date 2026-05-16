@@ -280,7 +280,7 @@ For details on contributing to this repository, see the [contributing guide](htt
 [docs]: https://aka.ms/azsdk/azure-ai-inference/java/reference
 [jdk]: https://learn.microsoft.com/azure/developer/java/fundamentals/
 [aad_authorization]: https://learn.microsoft.com/azure/cognitive-services/authentication#authenticate-with-azure-active-directory
-[azure_subscription]: https://azure.microsoft.com/free/
+[azure_subscription]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/azure-ai-inference_1.0.0-beta.5/sdk/identity/azure-identity
 [sample_get_chat_completions]: https://github.com/Azure/azure-sdk-for-java/blob/azure-ai-inference_1.0.0-beta.5/sdk/ai/azure-ai-inference/src/samples/java/com/azure/ai/inference/usage/BasicChatSample.java
 [sample_get_chat_completions_streaming]: https://github.com/Azure/azure-sdk-for-java/blob/azure-ai-inference_1.0.0-beta.5/sdk/ai/azure-ai-inference/src/samples/java/com/azure/ai/inference/usage/StreamingChatSample.java 

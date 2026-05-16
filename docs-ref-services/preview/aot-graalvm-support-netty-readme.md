@@ -94,7 +94,7 @@ For more information see the [Code of Conduct FAQ](https://opensource.microsoft.
 [coc_faq]: https://opensource.microsoft.com/codeofconduct/faq/
 [coc_contact]: mailto:opencode@microsoft.com
 [jdk_link]: /java/azure/jdk/?view=azure-java-stable
-[azure_subscription]: https://azure.microsoft.com/free
+[azure_subscription]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 
 
 

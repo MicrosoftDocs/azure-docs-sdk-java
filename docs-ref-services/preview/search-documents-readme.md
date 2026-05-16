@@ -584,7 +584,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct][coc]. For m
 [api_documentation]: https://azure.github.io/azure-sdk-for-java/search.html
 [search]: https://azure.microsoft.com/services/search/
 [search_docs]: https://learn.microsoft.com/azure/search/
-[azure_subscription]: https://azure.microsoft.com/free/java
+[azure_subscription]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [maven]: https://maven.apache.org/
 [package]: https://central.sonatype.com/artifact/com.azure/azure-search-documents
 [samples]: https://github.com/Azure/azure-sdk-for-java/tree/azure-search-documents_11.9.0-beta.1/sdk/search/azure-search-documents/src/samples/

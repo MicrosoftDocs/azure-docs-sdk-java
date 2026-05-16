@@ -100,7 +100,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct][coc]. For m
 [samples]: src/samples/java/com/azure/analytics/purview/catalog
 [source_code]: https://github.com/Azure/azure-sdk-for-java/blob/azure-analytics-purview-catalog_1.0.0-beta.4/sdk/purview/azure-analytics-purview-catalog/src
 [samples_code]: https://github.com/Azure/azure-sdk-for-java/blob/azure-analytics-purview-catalog_1.0.0-beta.4/sdk/purview/azure-analytics-purview-catalog/src/samples/
-[azure_subscription]: https://azure.microsoft.com/free/
+[azure_subscription]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [api_reference_doc]: https://azure.github.io/azure-sdk-for-java
 [product_documentation]: https://azure.microsoft.com/services/purview/
 [azure_identity]: https://github.com/Azure/azure-sdk-for-java/tree/azure-analytics-purview-catalog_1.0.0-beta.4/sdk/identity/azure-identity

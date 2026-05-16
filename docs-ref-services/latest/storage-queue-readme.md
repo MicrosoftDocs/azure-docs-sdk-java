@@ -500,7 +500,7 @@ For details on contributing to this repository, see the [contributing guide](htt
 [storage_docs]: https://learn.microsoft.com/azure/storage/queues/storage-queues-introduction
 [jdk]: https://learn.microsoft.com/java/azure/jdk/?view=azure-java-stable
 [maven]: https://maven.apache.org/
-[azure_subscription]: https://azure.microsoft.com/free/
+[azure_subscription]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [storage_account]: https://learn.microsoft.com/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal
 [azure_cli]: https://learn.microsoft.com/cli/azure
 [sas_token]: https://learn.microsoft.com/azure/storage/common/storage-dotnet-shared-access-signature-part-1

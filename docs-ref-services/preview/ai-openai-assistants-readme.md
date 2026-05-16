@@ -360,7 +360,7 @@ For details on contributing to this repository, see the [contributing guide](htt
 [samples_readme]: https://github.com/Azure/azure-sdk-for-java/tree/azure-ai-openai-assistants_1.0.0-beta.5/sdk/openai/azure-ai-openai-assistants/src/samples
 
 [azure_openai_access]: https://learn.microsoft.com/azure/cognitive-services/openai/overview#how-do-i-get-access-to-azure-openai
-[azure_subscription]: https://azure.microsoft.com/free/
+[azure_subscription]: https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn
 [azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/azure-ai-openai-assistants_1.0.0-beta.5/sdk/identity/azure-identity
 [function_tool_call_full_sample]: https://github.com/Azure/azure-sdk-for-java/blob/azure-ai-openai-assistants_1.0.0-beta.5/sdk/openai/azure-ai-openai-assistants/src/samples/java/com/azure/ai/openai/assistants/FunctionToolCallSample.java
 
