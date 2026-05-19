@@ -64545,6 +64545,10 @@
     name: AgentPool
     no-loc:
     - AgentPool
+  - uid: com.azure.resourcemanager.containerservice.models.AgentPoolArtifactStreamingProfile
+    name: AgentPoolArtifactStreamingProfile
+    no-loc:
+    - AgentPoolArtifactStreamingProfile
   - uid: com.azure.resourcemanager.containerservice.models.AgentPoolAvailableVersionsPropertiesAgentPoolVersionsItem
     name: AgentPoolAvailableVersionsPropertiesAgentPoolVersionsItem
     no-loc:
@@ -211406,6 +211410,10 @@
     name: BlobGetTagsOptions
     no-loc:
     - BlobGetTagsOptions
+  - uid: com.azure.storage.blob.options.BlobGetUserDelegationKeyOptions
+    name: BlobGetUserDelegationKeyOptions
+    no-loc:
+    - BlobGetUserDelegationKeyOptions
   - uid: com.azure.storage.blob.options.BlobInputStreamOptions
     name: BlobInputStreamOptions
     no-loc:
@@ -212095,6 +212103,10 @@
     name: DataLakeFileOutputStreamOptions
     no-loc:
     - DataLakeFileOutputStreamOptions
+  - uid: com.azure.storage.file.datalake.options.DataLakeGetUserDelegationKeyOptions
+    name: DataLakeGetUserDelegationKeyOptions
+    no-loc:
+    - DataLakeGetUserDelegationKeyOptions
   - uid: com.azure.storage.file.datalake.options.DataLakePathCreateOptions
     name: DataLakePathCreateOptions
     no-loc:
@@ -212632,6 +212644,10 @@
     name: ShareGetStatisticsOptions
     no-loc:
     - ShareGetStatisticsOptions
+  - uid: com.azure.storage.file.share.options.ShareGetUserDelegationKeyOptions
+    name: ShareGetUserDelegationKeyOptions
+    no-loc:
+    - ShareGetUserDelegationKeyOptions
   - uid: com.azure.storage.file.share.options.ShareListFilesAndDirectoriesOptions
     name: ShareListFilesAndDirectoriesOptions
     no-loc:
@@ -212760,6 +212776,10 @@
     name: QueueErrorCode
     no-loc:
     - QueueErrorCode
+  - uid: com.azure.storage.queue.models.QueueGetUserDelegationKeyOptions
+    name: QueueGetUserDelegationKeyOptions
+    no-loc:
+    - QueueGetUserDelegationKeyOptions
   - uid: com.azure.storage.queue.models.QueueItem
     name: QueueItem
     no-loc:
