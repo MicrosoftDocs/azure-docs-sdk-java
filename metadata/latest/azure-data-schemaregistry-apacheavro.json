@@ -30,8 +30,5 @@
     "com.azure.data.schemaregistry.apacheavro"
   ],
   "CIMatrixConfigs": [],
-  "DependentPackages": null,
-  "DocsCiConfigProperties": {
-    "packageDownloadUrl": "https://repo1.maven.org/maven2"
-  }
+  "DependentPackages": null
 }
