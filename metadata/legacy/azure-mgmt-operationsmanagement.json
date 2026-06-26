@@ -3,7 +3,8 @@
   "DocsCiConfigProperties": {
     "inputPath": [],
     "excludePackages": "com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.implementation",
-    "excludePath": []
+    "excludePath": [],
+    "packageDownloadUrl": "https://repo1.maven.org/maven2"
   },
   "Name": "azure-mgmt-operationsmanagement",
   "SdkType": "NA",

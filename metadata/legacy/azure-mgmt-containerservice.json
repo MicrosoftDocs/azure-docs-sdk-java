@@ -3,7 +3,8 @@
   "DocsCiConfigProperties": {
     "inputPath": [],
     "excludePackages": "com.microsoft.azure.management.containerservice.implementation",
-    "excludePath": []
+    "excludePath": [],
+    "packageDownloadUrl": "https://repo1.maven.org/maven2"
   },
   "Name": "azure-mgmt-containerservice",
   "SdkType": "NA",

@@ -3,7 +3,8 @@
   "DocsCiConfigProperties": {
     "inputPath": [],
     "excludePackages": "com.microsoft.azure.management.resources.implementation:com.microsoft.azure.management.resources.fluentcore.arm.implementation:com.microsoft.azure.management.resources.fluentcore.model.implementation:com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation:com.microsoft.azure.management.resources.fluentcore.arm.models.implementation",
-    "excludePath": []
+    "excludePath": [],
+    "packageDownloadUrl": "https://repo1.maven.org/maven2"
   },
   "Name": "azure-mgmt-resources",
   "SdkType": "NA",

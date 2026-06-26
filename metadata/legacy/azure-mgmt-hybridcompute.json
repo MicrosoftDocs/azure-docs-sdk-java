@@ -3,7 +3,8 @@
   "DocsCiConfigProperties": {
     "inputPath": [],
     "excludePackages": "com.microsoft.azure.management.hybridcompute.v2020_08_02.implementation",
-    "excludePath": []
+    "excludePath": [],
+    "packageDownloadUrl": "https://repo1.maven.org/maven2"
   },
   "Name": "azure-mgmt-hybridcompute",
   "SdkType": "NA",
