@@ -13,5 +13,8 @@
   "ReleaseStatus": "2023-02-13",
   "Namespaces": [
     "com.azure.data.schemaregistry.apacheavro"
-  ]
+  ],
+  "DocsCiConfigProperties": {
+    "packageDownloadUrl": "https://repo1.maven.org/maven2"
+  }
 }
