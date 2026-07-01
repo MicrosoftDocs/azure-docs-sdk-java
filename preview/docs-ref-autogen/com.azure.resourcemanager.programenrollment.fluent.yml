@@ -1,0 +1,13 @@
+### YamlMime:JavaPackage
+uid: "com.azure.resourcemanager.programenrollment.fluent"
+fullName: "com.azure.resourcemanager.programenrollment.fluent"
+name: "com.azure.resourcemanager.programenrollment.fluent"
+summary: "Package containing the service clients for Program<wbr>Enrollment."
+interfaces:
+- "com.azure.resourcemanager.programenrollment.fluent.EduEnrollmentsClient"
+- "com.azure.resourcemanager.programenrollment.fluent.OperationsClient"
+- "com.azure.resourcemanager.programenrollment.fluent.ProgramEnrollmentManagementClient"
+desc: "Package containing the service clients for ProgramEnrollment."
+metadata: {}
+package: "com.azure.resourcemanager.programenrollment.fluent"
+artifact: com.azure.resourcemanager:azure-resourcemanager-programenrollment:1.0.0-beta.1

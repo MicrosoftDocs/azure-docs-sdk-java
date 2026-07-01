@@ -1,0 +1,12 @@
+### YamlMime:JavaPackage
+uid: "com.azure.resourcemanager.programenrollment"
+fullName: "com.azure.resourcemanager.programenrollment"
+name: "com.azure.resourcemanager.programenrollment"
+summary: "Package containing the classes for Program<wbr>Enrollment."
+classes:
+- "com.azure.resourcemanager.programenrollment.ProgramEnrollmentManager"
+- "com.azure.resourcemanager.programenrollment.ProgramEnrollmentManager.Configurable"
+desc: "Package containing the classes for ProgramEnrollment."
+metadata: {}
+package: "com.azure.resourcemanager.programenrollment"
+artifact: com.azure.resourcemanager:azure-resourcemanager-programenrollment:1.0.0-beta.1

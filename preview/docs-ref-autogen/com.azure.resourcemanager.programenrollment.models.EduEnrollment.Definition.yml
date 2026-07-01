@@ -1,0 +1,17 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.programenrollment.models.EduEnrollment.Definition"
+fullName: "com.azure.resourcemanager.programenrollment.models.EduEnrollment.Definition"
+name: "EduEnrollment.Definition"
+nameWithType: "EduEnrollment.Definition"
+summary: "The entirety of the Edu<wbr>Enrollment definition."
+syntax: "public static interface **EduEnrollment.Definition**</br> extends <xref href=\"com.azure.resourcemanager.programenrollment.models.EduEnrollment.DefinitionStages.Blank?alt=com.azure.resourcemanager.programenrollment.models.EduEnrollment.DefinitionStages.Blank&text=Blank\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.programenrollment.models.EduEnrollment.DefinitionStages.WithLocation?alt=com.azure.resourcemanager.programenrollment.models.EduEnrollment.DefinitionStages.WithLocation&text=WithLocation\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.programenrollment.models.EduEnrollment.DefinitionStages.WithResourceGroup?alt=com.azure.resourcemanager.programenrollment.models.EduEnrollment.DefinitionStages.WithResourceGroup&text=WithResourceGroup\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.programenrollment.models.EduEnrollment.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.programenrollment.models.EduEnrollment.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of the EduEnrollment definition."
+implements:
+- "<xref href=\"com.azure.resourcemanager.programenrollment.models.EduEnrollment.DefinitionStages.Blank?alt=com.azure.resourcemanager.programenrollment.models.EduEnrollment.DefinitionStages.Blank&text=Blank\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.programenrollment.models.EduEnrollment.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.programenrollment.models.EduEnrollment.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.programenrollment.models.EduEnrollment.DefinitionStages.WithLocation?alt=com.azure.resourcemanager.programenrollment.models.EduEnrollment.DefinitionStages.WithLocation&text=WithLocation\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.programenrollment.models.EduEnrollment.DefinitionStages.WithResourceGroup?alt=com.azure.resourcemanager.programenrollment.models.EduEnrollment.DefinitionStages.WithResourceGroup&text=WithResourceGroup\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.azure.resourcemanager.programenrollment.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-programenrollment:1.0.0-beta.1

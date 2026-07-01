@@ -1,0 +1,12 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.programenrollment.models.EduEnrollment.DefinitionStages"
+fullName: "com.azure.resourcemanager.programenrollment.models.EduEnrollment.DefinitionStages"
+name: "EduEnrollment.DefinitionStages"
+nameWithType: "EduEnrollment.DefinitionStages"
+summary: "The Edu<wbr>Enrollment definition stages."
+syntax: "public static interface **EduEnrollment.DefinitionStages**"
+type: "interface"
+desc: "The EduEnrollment definition stages."
+metadata: {}
+package: "com.azure.resourcemanager.programenrollment.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-programenrollment:1.0.0-beta.1

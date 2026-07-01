@@ -1,0 +1,12 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.programenrollment.models.EduEnrollment.UpdateStages"
+fullName: "com.azure.resourcemanager.programenrollment.models.EduEnrollment.UpdateStages"
+name: "EduEnrollment.UpdateStages"
+nameWithType: "EduEnrollment.UpdateStages"
+summary: "The Edu<wbr>Enrollment update stages."
+syntax: "public static interface **EduEnrollment.UpdateStages**"
+type: "interface"
+desc: "The EduEnrollment update stages."
+metadata: {}
+package: "com.azure.resourcemanager.programenrollment.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-programenrollment:1.0.0-beta.1
