@@ -850,18 +850,6 @@ public CosmosAsyncClient getCosmosAsyncClient(@Qualifier("secondary") CosmosProp
         .key(secondaryProperties.getKey())
         .endpoint(secondaryProperties.getUri()));
 }
-
-@Bean("secondaryCosmosConfig")
-public CosmosConfig getCosmosConfig() {
-    return CosmosConfig.builder()
-        .enableQueryMetrics(true)
-        .enableIndexMetrics(true)
-        .maxDegreeOfParallelism(0)
-        .maxBufferedItemCount(0)
-        .responseContinuationTokenLimitInKb(0)
-        .responseDiagnosticsProcessor(new ResponseDiagnosticsProcessorImplementation())
-        .build();
-}
 ```
 
 - Besides, if you want to define `queryMetricsEnabled`, `indexMetricsEnabled`, `ResponseDiagnosticsProcessor`, `maxDegreeOfParallelism`, `maxBufferedItemCount` or `responseContinuationTokenLimitInKb` , you can create the `CosmosConfig` for your cosmos template.
