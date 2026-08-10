@@ -38,14 +38,14 @@ fields:
   fullName: "com.microsoft.azure.management.containerregistry.SourceControlType.GITHUB"
   name: "GITHUB"
   nameWithType: "SourceControlType.GITHUB"
-  summary: "Static value Github for Source<wbr>Control<wbr>Type."
+  summary: "Static value GitHub for Source<wbr>Control<wbr>Type."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.microsoft.azure.management.containerregistry.SourceControlType?alt=com.microsoft.azure.management.containerregistry.SourceControlType&text=SourceControlType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final SourceControlType GITHUB"
-  desc: "Static value Github for SourceControlType."
+  desc: "Static value GitHub for SourceControlType."
 - uid: "com.microsoft.azure.management.containerregistry.SourceControlType.VISUAL_STUDIO_TEAM_SERVICE"
   fullName: "com.microsoft.azure.management.containerregistry.SourceControlType.VISUAL_STUDIO_TEAM_SERVICE"
   name: "VISUAL_STUDIO_TEAM_SERVICE"
