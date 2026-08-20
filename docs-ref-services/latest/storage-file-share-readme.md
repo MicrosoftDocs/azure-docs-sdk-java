@@ -138,14 +138,14 @@ File Shares are addressable using the following URL format:
 https://<storage account>.file.core.windows.net/<share>
 ```
 
-The following URL addresses a queue in the diagram:
+The following URL addresses a file share with name `images-to-download`:
 
 ```
 https://myaccount.file.core.windows.net/images-to-download
 ```
 
 #### Resource URI Syntax
-For the storage account, the base URI for queue operations includes the name of the account only:
+For the storage account, the base URI for file share operations includes the name of the account only:
 
 ```
 https://myaccount.file.core.windows.net
