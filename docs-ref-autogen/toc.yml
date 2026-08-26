@@ -44810,10 +44810,6 @@
     name: ActivationKeyResultInner
     no-loc:
     - ActivationKeyResultInner
-  - uid: com.azure.resourcemanager.azurestack.fluent.models.CloudManifestFileEnvironmentEndpoints
-    name: CloudManifestFileEnvironmentEndpoints
-    no-loc:
-    - CloudManifestFileEnvironmentEndpoints
   - uid: com.azure.resourcemanager.azurestack.fluent.models.CloudManifestFileResponseInner
     name: CloudManifestFileResponseInner
     no-loc:
@@ -44887,10 +44883,6 @@
     name: Category
     no-loc:
     - Category
-  - uid: com.azure.resourcemanager.azurestack.models.CloudManifestFileDeploymentData
-    name: CloudManifestFileDeploymentData
-    no-loc:
-    - CloudManifestFileDeploymentData
   - uid: com.azure.resourcemanager.azurestack.models.CloudManifestFileProperties
     name: CloudManifestFileProperties
     no-loc:
@@ -168291,10 +168283,6 @@
     name: DeleteDependency
     no-loc:
     - DeleteDependency
-  - uid: com.azure.resourcemanager.providerhub.models.DstsConfiguration
-    name: DstsConfiguration
-    no-loc:
-    - DstsConfiguration
   - uid: com.azure.resourcemanager.providerhub.models.EndpointInformation
     name: EndpointInformation
     no-loc:

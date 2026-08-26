@@ -5,7 +5,6 @@ name: "com.azure.resourcemanager.azurestack.models"
 summary: "Package containing the data models for Azure<wbr>Stack<wbr>Management<wbr>Client."
 classes:
 - "com.azure.resourcemanager.azurestack.models.Category"
-- "com.azure.resourcemanager.azurestack.models.CloudManifestFileDeploymentData"
 - "com.azure.resourcemanager.azurestack.models.CloudManifestFileProperties"
 - "com.azure.resourcemanager.azurestack.models.Compatibility"
 - "com.azure.resourcemanager.azurestack.models.CompatibilityIssue"

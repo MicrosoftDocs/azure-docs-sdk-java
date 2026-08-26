@@ -53,7 +53,6 @@ classes:
 - "com.azure.resourcemanager.providerhub.models.DefaultRolloutStatus"
 - "com.azure.resourcemanager.providerhub.models.DefaultRolloutStatusManifestCheckinStatus"
 - "com.azure.resourcemanager.providerhub.models.DeleteDependency"
-- "com.azure.resourcemanager.providerhub.models.DstsConfiguration"
 - "com.azure.resourcemanager.providerhub.models.EndpointInformation"
 - "com.azure.resourcemanager.providerhub.models.EndpointType"
 - "com.azure.resourcemanager.providerhub.models.EndpointTypeResourceType"

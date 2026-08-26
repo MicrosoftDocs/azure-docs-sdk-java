@@ -5,7 +5,6 @@ name: "com.azure.resourcemanager.azurestack.fluent.models"
 summary: "Package containing the inner data models for Azure<wbr>Stack<wbr>Management<wbr>Client."
 classes:
 - "com.azure.resourcemanager.azurestack.fluent.models.ActivationKeyResultInner"
-- "com.azure.resourcemanager.azurestack.fluent.models.CloudManifestFileEnvironmentEndpoints"
 - "com.azure.resourcemanager.azurestack.fluent.models.CloudManifestFileResponseInner"
 - "com.azure.resourcemanager.azurestack.fluent.models.CustomerSubscriptionInner"
 - "com.azure.resourcemanager.azurestack.fluent.models.CustomerSubscriptionProperties"
