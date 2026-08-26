@@ -168331,10 +168331,6 @@
     name: FanoutLinkedNotificationRule
     no-loc:
     - FanoutLinkedNotificationRule
-  - uid: com.azure.resourcemanager.providerhub.models.FanoutLinkedNotificationRuleDstsConfiguration
-    name: FanoutLinkedNotificationRuleDstsConfiguration
-    no-loc:
-    - FanoutLinkedNotificationRuleDstsConfiguration
   - uid: com.azure.resourcemanager.providerhub.models.FeaturesPolicy
     name: FeaturesPolicy
     no-loc:
@@ -168899,10 +168895,6 @@
     name: ResourceProviderManifestProperties
     no-loc:
     - ResourceProviderManifestProperties
-  - uid: com.azure.resourcemanager.providerhub.models.ResourceProviderManifestPropertiesDstsConfiguration
-    name: ResourceProviderManifestPropertiesDstsConfiguration
-    no-loc:
-    - ResourceProviderManifestPropertiesDstsConfiguration
   - uid: com.azure.resourcemanager.providerhub.models.ResourceProviderManifestPropertiesFeaturesRule
     name: ResourceProviderManifestPropertiesFeaturesRule
     no-loc:
@@ -168979,18 +168971,10 @@
     name: ResourceTypeEndpointBase
     no-loc:
     - ResourceTypeEndpointBase
-  - uid: com.azure.resourcemanager.providerhub.models.ResourceTypeEndpointBaseDstsConfiguration
-    name: ResourceTypeEndpointBaseDstsConfiguration
-    no-loc:
-    - ResourceTypeEndpointBaseDstsConfiguration
   - uid: com.azure.resourcemanager.providerhub.models.ResourceTypeEndpointBaseFeaturesRule
     name: ResourceTypeEndpointBaseFeaturesRule
     no-loc:
     - ResourceTypeEndpointBaseFeaturesRule
-  - uid: com.azure.resourcemanager.providerhub.models.ResourceTypeEndpointDstsConfiguration
-    name: ResourceTypeEndpointDstsConfiguration
-    no-loc:
-    - ResourceTypeEndpointDstsConfiguration
   - uid: com.azure.resourcemanager.providerhub.models.ResourceTypeEndpointFeaturesRule
     name: ResourceTypeEndpointFeaturesRule
     no-loc:
@@ -169095,10 +169079,6 @@
     name: ResourceTypeRegistrationPropertiesCheckNameAvailabilitySpecifications
     no-loc:
     - ResourceTypeRegistrationPropertiesCheckNameAvailabilitySpecifications
-  - uid: com.azure.resourcemanager.providerhub.models.ResourceTypeRegistrationPropertiesDstsConfiguration
-    name: ResourceTypeRegistrationPropertiesDstsConfiguration
-    no-loc:
-    - ResourceTypeRegistrationPropertiesDstsConfiguration
   - uid: com.azure.resourcemanager.providerhub.models.ResourceTypeRegistrationPropertiesExtensionOptions
     name: ResourceTypeRegistrationPropertiesExtensionOptions
     no-loc:
