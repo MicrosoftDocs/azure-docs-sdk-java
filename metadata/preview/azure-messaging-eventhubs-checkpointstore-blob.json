@@ -1,7 +1,7 @@
 {
   "Name": "azure-messaging-eventhubs-checkpointstore-blob",
-  "Version": "1.21.0-beta.1",
-  "DevVersion": null,
+  "Version": "1.22.0-alpha.20260901.1",
+  "DevVersion": "1.22.0-alpha.20260901.1",
   "DirectoryPath": "sdk/eventhubs/azure-messaging-eventhubs-checkpointstore-blob",
   "ServiceDirectory": "eventhubs",
   "ReadMePath": "sdk/eventhubs/azure-messaging-eventhubs-checkpointstore-blob/README.md",
@@ -10,7 +10,7 @@
   "SdkType": "client",
   "IsNewSdk": true,
   "ArtifactName": "azure-messaging-eventhubs-checkpointstore-blob",
-  "ReleaseStatus": "2025-02-21",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": [
     "com.azure:azure-messaging-eventhubs-track2-perf",
@@ -20,11 +20,15 @@
     "safeName": "azuremessagingeventhubscheckpointstoreblob",
     "groupId": "com.azure",
     "name": "azure-messaging-eventhubs-checkpointstore-blob",
+    "triggeringPaths": [
+      "/sdk/eventhubs/ci.yml"
+    ],
     "releaseInBatch": "${{ parameters.release_azuremessagingeventhubscheckpointstoreblob }}"
   },
   "CIParameters": {
     "CIMatrixConfigs": []
   },
+  "SpecProjectPath": null,
   "Namespaces": [
     "com.azure.messaging.eventhubs.checkpointstore.blob"
   ],
