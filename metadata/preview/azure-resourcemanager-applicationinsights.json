@@ -1,7 +1,7 @@
 {
   "Name": "azure-resourcemanager-applicationinsights",
-  "Version": "1.2.0-beta.1",
-  "DevVersion": null,
+  "Version": "1.2.0-alpha.20260901.1",
+  "DevVersion": "1.2.0-alpha.20260901.1",
   "DirectoryPath": "sdk/applicationinsights/azure-resourcemanager-applicationinsights",
   "ServiceDirectory": "applicationinsights",
   "ReadMePath": "sdk/applicationinsights/azure-resourcemanager-applicationinsights/README.md",
@@ -10,10 +10,13 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-applicationinsights",
-  "ReleaseStatus": "2025-02-18",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
+    "triggeringPaths": [
+      "/sdk/applicationinsights/ci.yml"
+    ],
     "safeName": "azureresourcemanagerapplicationinsights",
     "name": "azure-resourcemanager-applicationinsights",
     "groupId": "com.azure.resourcemanager"
@@ -21,6 +24,7 @@
   "CIParameters": {
     "CIMatrixConfigs": []
   },
+  "SpecProjectPath": null,
   "Namespaces": [
     "com.azure.resourcemanager.applicationinsights",
     "com.azure.resourcemanager.applicationinsights.fluent",
