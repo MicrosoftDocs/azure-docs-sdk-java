@@ -1,7 +1,7 @@
 {
   "Name": "azure-resourcemanager-resourceconnector",
-  "Version": "1.2.0-beta.1",
-  "DevVersion": null,
+  "Version": "1.2.0-alpha.20260901.1",
+  "DevVersion": "1.2.0-alpha.20260901.1",
   "DirectoryPath": "sdk/resourceconnector/azure-resourcemanager-resourceconnector",
   "ServiceDirectory": "resourceconnector",
   "ReadMePath": "sdk/resourceconnector/azure-resourcemanager-resourceconnector/README.md",
@@ -10,12 +10,12 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-resourceconnector",
-  "ReleaseStatus": "2026-01-09",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "name": "azure-resourcemanager-resourceconnector",
     "groupId": "com.azure.resourcemanager",
+    "name": "azure-resourcemanager-resourceconnector",
     "safeName": "azureresourcemanagerresourceconnector",
     "triggeringPaths": [
       "/sdk/resourceconnector/ci.yml"
