@@ -1,0 +1,34 @@
+{
+  "Name": "azure-resourcemanager-azureadexternalidentities",
+  "Version": "1.0.0-alpha.20260903.1",
+  "DevVersion": "1.0.0-alpha.20260903.1",
+  "DirectoryPath": "sdk/azureadexternalidentities/azure-resourcemanager-azureadexternalidentities",
+  "ServiceDirectory": "azureadexternalidentities",
+  "ReadMePath": "sdk/azureadexternalidentities/azure-resourcemanager-azureadexternalidentities/README.md",
+  "ChangeLogPath": "sdk/azureadexternalidentities/azure-resourcemanager-azureadexternalidentities/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-azureadexternalidentities",
+  "ReleaseStatus": "Unreleased",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "name": "azure-resourcemanager-azureadexternalidentities",
+    "safeName": "azureresourcemanagerazureadexternalidentities",
+    "groupId": "com.azure.resourcemanager",
+    "triggeringPaths": [
+      "/sdk/azureadexternalidentities/ci.yml"
+    ]
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": null,
+  "Namespaces": [
+    "com.azure.resourcemanager.azureadexternalidentities",
+    "com.azure.resourcemanager.azureadexternalidentities.fluent",
+    "com.azure.resourcemanager.azureadexternalidentities.fluent.models",
+    "com.azure.resourcemanager.azureadexternalidentities.models"
+  ]
+}
