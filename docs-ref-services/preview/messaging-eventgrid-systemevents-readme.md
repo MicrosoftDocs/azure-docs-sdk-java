@@ -1,7 +1,7 @@
 ---
 title: 
 keywords: Azure, java, SDK, API, azure-messaging-eventgrid-systemevents, eventgrid
-ms.date: 06/27/2026
+ms.date: 09/03/2026
 ms.topic: reference
 ms.devlang: java
 ms.service: eventgrid
@@ -57,7 +57,7 @@ main [Event Grid SDK][azure-messaging-eventgrid]:
 [//]: # ({x-version-update-end})
 
 **For Event Grid namespaces**: If you're working with Event Grid namespaces, consider using the [EventGrid namespaces 
-package](https://github.com/Azure/azure-sdk-for-java/tree/com.azure+azure-messaging-eventgrid-systemevents_1.1.0-beta.1/sdk/eventgrid/azure-messaging-eventgrid-namespaces) for 
+package](https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/eventgrid/azure-messaging-eventgrid-namespaces) for 
 namespace-specific functionality:
 
 [//]: # ({x-version-update-start;com.azure:azure-messaging-eventgrid-namespaces;dependency})
@@ -172,10 +172,10 @@ This project has adopted the [Microsoft Open Source Code of Conduct][coc]. For m
 [product_documentation]: https://learn.microsoft.com/azure/event-grid/
 [docs]: https://azure.github.io/azure-sdk-for-java/
 [jdk]: https://learn.microsoft.com/azure/developer/java/fundamentals/
-[logging]: https://github.com/Azure/azure-sdk-for-java/blob/com.azure+azure-messaging-eventgrid-systemevents_1.1.0-beta.1/docs/logging.md
-[azure-messaging-eventgrid]: https://github.com/Azure/azure-sdk-for-java/tree/com.azure+azure-messaging-eventgrid-systemevents_1.1.0-beta.1/sdk/eventgrid/azure-messaging-eventgrid
+[logging]: https://github.com/Azure/azure-sdk-for-java/blob/main/docs/logging.md
+[azure-messaging-eventgrid]: https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/eventgrid/azure-messaging-eventgrid
 [service_docs]: https://learn.microsoft.com/azure/event-grid/
-[samples]: https://github.com/Azure/azure-sdk-for-java/blob/com.azure+azure-messaging-eventgrid-systemevents_1.1.0-beta.1/sdk/eventgrid/azure-messaging-eventgrid/src/samples/java/com/azure/messaging/eventgrid
-[sources]: https://github.com/Azure/azure-sdk-for-java/tree/com.azure+azure-messaging-eventgrid-systemevents_1.1.0-beta.1/sdk/eventgrid/azure-messaging-eventgrid-systemevents/src
-[javadocs]: https://github.com/Azure/azure-sdk-for-java/tree/com.azure+azure-messaging-eventgrid-systemevents_1.1.0-beta.1/sdk/eventgrid/azure-messaging-eventgrid-systemevents/src
+[samples]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/eventgrid/azure-messaging-eventgrid/src/samples/java/com/azure/messaging/eventgrid
+[sources]: https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/eventgrid/azure-messaging-eventgrid-systemevents/src
+[javadocs]: https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/eventgrid/azure-messaging-eventgrid-systemevents/src
 
