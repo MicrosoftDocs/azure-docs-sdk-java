@@ -1,12 +1,12 @@
 ---
 title: Azure Content Understanding client library for Java
 keywords: Azure, java, SDK, API, azure-ai-contentunderstanding, contentunderstanding
-ms.date: 08/18/2026
+ms.date: 09/03/2026
 ms.topic: reference
 ms.devlang: java
 ms.service: contentunderstanding
 ---
-# Azure Content Understanding client library for Java - version 1.1.0-beta.3 
+# Azure Content Understanding client library for Java - version 1.1.0-alpha.20260903.1 
 
 
 Azure AI Content Understanding is a multimodal AI service that extracts semantic content from documents, video, audio, and image files. It transforms unstructured content into structured, machine-readable data optimized for retrieval-augmented generation (RAG) and automated workflows.
@@ -691,13 +691,13 @@ For details on contributing to this repository, see the [contributing guide][con
 This project has adopted the [Microsoft Open Source Code of Conduct][code_of_conduct]. For more information see the [Code of Conduct FAQ][code_of_conduct_faq] or contact [opencode@microsoft.com][opencode_email] with any additional questions or comments.
 
 <!-- LINKS -->
-[source_code]: https://github.com/Azure/azure-sdk-for-java/tree/com.azure+azure-ai-contentunderstanding_1.1.0-beta.3/sdk/contentunderstanding/azure-ai-contentunderstanding
+[source_code]: https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/contentunderstanding/azure-ai-contentunderstanding
 [package_maven]: https://central.sonatype.com/artifact/com.azure/azure-ai-contentunderstanding
 [api_reference_docs]: https://azure.github.io/azure-sdk-for-java/
 [product_docs]: https://learn.microsoft.com/azure/ai-services/content-understanding/
 [jdk]: https://learn.microsoft.com/azure/developer/java/fundamentals/
 [azure_subscription]: https://azure.microsoft.com/free/
-[azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/com.azure+azure-ai-contentunderstanding_1.1.0-beta.3/sdk/identity/azure-identity/README.md
+[azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/identity/azure-identity/README.md
 [azure_portal]: https://portal.azure.com/
 [cu_quickstart]: https://learn.microsoft.com/azure/ai-services/content-understanding/quickstart/use-rest-api?tabs=portal%2Cdocument
 [cu_region_support]: https://learn.microsoft.com/azure/ai-services/content-understanding/language-region-support
@@ -708,25 +708,25 @@ This project has adopted the [Microsoft Open Source Code of Conduct][code_of_con
 [model_retirement_schedule]: https://learn.microsoft.com/azure/foundry/openai/concepts/model-retirement-schedule
 [deploy_models_docs]: https://learn.microsoft.com/azure/ai-studio/how-to/deploy-models-openai
 [prebuilt_analyzers_docs]: https://learn.microsoft.com/azure/ai-services/content-understanding/concepts/prebuilt-analyzers
-[samples_directory]: https://github.com/Azure/azure-sdk-for-java/tree/com.azure+azure-ai-contentunderstanding_1.1.0-beta.3/sdk/contentunderstanding/azure-ai-contentunderstanding/src/samples
-[sample00]: https://github.com/Azure/azure-sdk-for-java/blob/com.azure+azure-ai-contentunderstanding_1.1.0-beta.3/sdk/contentunderstanding/azure-ai-contentunderstanding/src/samples/java/com/azure/ai/contentunderstanding/samples/Sample00_UpdateDefaults.java
-[sample01]: https://github.com/Azure/azure-sdk-for-java/blob/com.azure+azure-ai-contentunderstanding_1.1.0-beta.3/sdk/contentunderstanding/azure-ai-contentunderstanding/src/samples/java/com/azure/ai/contentunderstanding/samples/Sample01_AnalyzeBinary.java
-[sample19_inline]: https://github.com/Azure/azure-sdk-for-java/blob/com.azure+azure-ai-contentunderstanding_1.1.0-beta.3/sdk/contentunderstanding/azure-ai-contentunderstanding/src/samples/java/com/azure/ai/contentunderstanding/samples/Sample19_AnalyzeInline.java
-[sample20_inline]: https://github.com/Azure/azure-sdk-for-java/blob/com.azure+azure-ai-contentunderstanding_1.1.0-beta.3/sdk/contentunderstanding/azure-ai-contentunderstanding/src/samples/java/com/azure/ai/contentunderstanding/samples/Sample20_AnalyzeBinaryInline.java
-[sample00_update_defaults]: https://github.com/Azure/azure-sdk-for-java/tree/com.azure+azure-ai-contentunderstanding_1.1.0-beta.3/sdk/contentunderstanding/azure-ai-contentunderstanding/src/samples/java/com/azure/ai/contentunderstanding/samples/Sample00_UpdateDefaults.java
+[samples_directory]: https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/contentunderstanding/azure-ai-contentunderstanding/src/samples
+[sample00]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/contentunderstanding/azure-ai-contentunderstanding/src/samples/java/com/azure/ai/contentunderstanding/samples/Sample00_UpdateDefaults.java
+[sample01]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/contentunderstanding/azure-ai-contentunderstanding/src/samples/java/com/azure/ai/contentunderstanding/samples/Sample01_AnalyzeBinary.java
+[sample19_inline]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/contentunderstanding/azure-ai-contentunderstanding/src/samples/java/com/azure/ai/contentunderstanding/samples/Sample19_AnalyzeInline.java
+[sample20_inline]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/contentunderstanding/azure-ai-contentunderstanding/src/samples/java/com/azure/ai/contentunderstanding/samples/Sample20_AnalyzeBinaryInline.java
+[sample00_update_defaults]: https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/contentunderstanding/azure-ai-contentunderstanding/src/samples/java/com/azure/ai/contentunderstanding/samples/Sample00_UpdateDefaults.java
 [logging]: https://learn.microsoft.com/azure/developer/java/sdk/logging-overview
-[java_cu_sample_to_llm_input]: https://github.com/Azure/azure-sdk-for-java/tree/com.azure+azure-ai-contentunderstanding_1.1.0-beta.3/sdk/contentunderstanding/azure-ai-contentunderstanding/src/samples/java/com/azure/ai/contentunderstanding/samples/Sample_Advanced_ToLlmInput.java
-[azure_core_http_client]: https://github.com/Azure/azure-sdk-for-java/blob/com.azure+azure-ai-contentunderstanding_1.1.0-beta.3/sdk/core/azure-core/README.md#configuring-service-clients
-[azure_core_response]: https://github.com/Azure/azure-sdk-for-java/blob/com.azure+azure-ai-contentunderstanding_1.1.0-beta.3/sdk/core/azure-core/README.md#accessing-http-response-details-using-responset
-[azure_core_lro]: https://github.com/Azure/azure-sdk-for-java/blob/com.azure+azure-ai-contentunderstanding_1.1.0-beta.3/sdk/core/azure-core/README.md#long-running-operations-with-pollerfluxt
-[azure_core_exceptions]: https://github.com/Azure/azure-sdk-for-java/blob/com.azure+azure-ai-contentunderstanding_1.1.0-beta.3/sdk/core/azure-core/README.md#exception-hierarchy-with-azureexception
-[contributing]: https://github.com/Azure/azure-sdk-for-java/blob/com.azure+azure-ai-contentunderstanding_1.1.0-beta.3/CONTRIBUTING.md
+[java_cu_sample_to_llm_input]: https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/contentunderstanding/azure-ai-contentunderstanding/src/samples/java/com/azure/ai/contentunderstanding/samples/Sample_Advanced_ToLlmInput.java
+[azure_core_http_client]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/core/azure-core/README.md#configuring-service-clients
+[azure_core_response]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/core/azure-core/README.md#accessing-http-response-details-using-responset
+[azure_core_lro]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/core/azure-core/README.md#long-running-operations-with-pollerfluxt
+[azure_core_exceptions]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/core/azure-core/README.md#exception-hierarchy-with-azureexception
+[contributing]: https://github.com/Azure/azure-sdk-for-java/blob/main/CONTRIBUTING.md
 [code_of_conduct]: https://opensource.microsoft.com/codeofconduct/
 [code_of_conduct_faq]: https://opensource.microsoft.com/codeofconduct/faq/
 [opencode_email]: mailto:opencode@microsoft.com
 [github_copilot]: https://github.com/features/copilot
-[cu_sdk_setup_skill]: https://github.com/Azure/azure-sdk-for-java/tree/com.azure+azure-ai-contentunderstanding_1.1.0-beta.3/sdk/contentunderstanding/azure-ai-contentunderstanding/.github/skills/cu-sdk-setup
-[cu_sdk_sample_run_skill]: https://github.com/Azure/azure-sdk-for-java/tree/com.azure+azure-ai-contentunderstanding_1.1.0-beta.3/sdk/contentunderstanding/azure-ai-contentunderstanding/.github/skills/cu-sdk-sample-run
-[cu_sdk_common_knowledge_skill]: https://github.com/Azure/azure-sdk-for-java/tree/com.azure+azure-ai-contentunderstanding_1.1.0-beta.3/sdk/contentunderstanding/azure-ai-contentunderstanding/.github/skills/cu-sdk-common-knowledge
+[cu_sdk_setup_skill]: https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/contentunderstanding/azure-ai-contentunderstanding/.github/skills/cu-sdk-setup
+[cu_sdk_sample_run_skill]: https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/contentunderstanding/azure-ai-contentunderstanding/.github/skills/cu-sdk-sample-run
+[cu_sdk_common_knowledge_skill]: https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/contentunderstanding/azure-ai-contentunderstanding/.github/skills/cu-sdk-common-knowledge
 [file_issue]: https://github.com/Azure/azure-sdk-for-java/issues/new?labels=Cognitive%20-%20Content%20Understanding&title=[ContentUnderstanding]%20&body=%23%23%20Library%20Version%0A%0A%23%23%20Repro%20Steps%0A%0A%23%23%20Expected%20Result%0A%0A%23%23%20Actual%20Result
 
