@@ -1,7 +1,7 @@
 {
   "Name": "azure-resourcemanager-streamanalytics",
-  "Version": "1.0.0-beta.4",
-  "DevVersion": null,
+  "Version": "1.1.0-alpha.20260903.1",
+  "DevVersion": "1.1.0-alpha.20260903.1",
   "DirectoryPath": "sdk/streamanalytics/azure-resourcemanager-streamanalytics",
   "ServiceDirectory": "streamanalytics",
   "ReadMePath": "sdk/streamanalytics/azure-resourcemanager-streamanalytics/README.md",
@@ -10,19 +10,26 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-streamanalytics",
-  "ReleaseStatus": "2024-10-31",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
+    "safeName": "azureresourcemanagerstreamanalytics",
     "name": "azure-resourcemanager-streamanalytics",
-    "groupId": "com.azure.resourcemanager",
-    "safeName": "azureresourcemanagerstreamanalytics"
+    "triggeringPaths": [
+      "/sdk/streamanalytics/ci.yml"
+    ],
+    "groupId": "com.azure.resourcemanager"
   },
-  "CIMatrixConfigs": [],
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": null,
   "Namespaces": [
     "com.azure.resourcemanager.streamanalytics",
     "com.azure.resourcemanager.streamanalytics.fluent",
     "com.azure.resourcemanager.streamanalytics.fluent.models",
     "com.azure.resourcemanager.streamanalytics.models"
-  ]
+  ],
+  "CIMatrixConfigs": []
 }
