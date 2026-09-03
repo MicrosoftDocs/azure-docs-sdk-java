@@ -1,7 +1,7 @@
 {
   "Name": "azure-security-confidentialledger",
-  "Version": "2.0.2-beta.1",
-  "DevVersion": null,
+  "Version": "2.0.2-alpha.20260903.1",
+  "DevVersion": "2.0.2-alpha.20260903.1",
   "DirectoryPath": "sdk/confidentialledger/azure-security-confidentialledger",
   "ServiceDirectory": "confidentialledger",
   "ReadMePath": "sdk/confidentialledger/azure-security-confidentialledger/README.md",
@@ -10,16 +10,16 @@
   "SdkType": "client",
   "IsNewSdk": true,
   "ArtifactName": "azure-security-confidentialledger",
-  "ReleaseStatus": "2026-08-17",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "safeName": "azuresecurityconfidentialledger",
     "name": "azure-security-confidentialledger",
-    "releaseInBatch": "${{ parameters.release_azuresecurityconfidentialledger }}",
     "triggeringPaths": [
       "/sdk/confidentialledger/ci.yml"
     ],
+    "safeName": "azuresecurityconfidentialledger",
+    "releaseInBatch": "${{ parameters.release_azuresecurityconfidentialledger }}",
     "groupId": "com.azure"
   },
   "CIParameters": {
