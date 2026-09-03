@@ -1,7 +1,7 @@
 {
   "Name": "azure-resourcemanager-notificationhubs",
-  "Version": "1.0.0-beta.5",
-  "DevVersion": null,
+  "Version": "1.1.0-alpha.20260903.1",
+  "DevVersion": "1.1.0-alpha.20260903.1",
   "DirectoryPath": "sdk/notificationhubs/azure-resourcemanager-notificationhubs",
   "ServiceDirectory": "notificationhubs",
   "ReadMePath": "sdk/notificationhubs/azure-resourcemanager-notificationhubs/README.md",
@@ -10,19 +10,26 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-notificationhubs",
-  "ReleaseStatus": "2024-12-03",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "name": "azure-resourcemanager-notificationhubs",
     "groupId": "com.azure.resourcemanager",
-    "safeName": "azureresourcemanagernotificationhubs"
+    "name": "azure-resourcemanager-notificationhubs",
+    "safeName": "azureresourcemanagernotificationhubs",
+    "triggeringPaths": [
+      "/sdk/notificationhubs/ci.yml"
+    ]
   },
-  "CIMatrixConfigs": [],
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": null,
   "Namespaces": [
     "com.azure.resourcemanager.notificationhubs",
     "com.azure.resourcemanager.notificationhubs.fluent",
     "com.azure.resourcemanager.notificationhubs.fluent.models",
     "com.azure.resourcemanager.notificationhubs.models"
-  ]
+  ],
+  "CIMatrixConfigs": []
 }
