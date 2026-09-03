@@ -1,7 +1,7 @@
 {
   "Name": "azure-resourcemanager-dynatrace",
-  "Version": "1.0.0-beta.4",
-  "DevVersion": null,
+  "Version": "1.1.0-alpha.20260903.1",
+  "DevVersion": "1.1.0-alpha.20260903.1",
   "DirectoryPath": "sdk/dynatrace/azure-resourcemanager-dynatrace",
   "ServiceDirectory": "dynatrace",
   "ReadMePath": "sdk/dynatrace/azure-resourcemanager-dynatrace/README.md",
@@ -10,19 +10,26 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-dynatrace",
-  "ReleaseStatus": "2024-10-31",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "name": "azure-resourcemanager-dynatrace",
+    "safeName": "azureresourcemanagerdynatrace",
     "groupId": "com.azure.resourcemanager",
-    "safeName": "azureresourcemanagerdynatrace"
+    "triggeringPaths": [
+      "/sdk/dynatrace/ci.yml"
+    ],
+    "name": "azure-resourcemanager-dynatrace"
   },
-  "CIMatrixConfigs": [],
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": null,
   "Namespaces": [
     "com.azure.resourcemanager.dynatrace",
     "com.azure.resourcemanager.dynatrace.fluent",
     "com.azure.resourcemanager.dynatrace.fluent.models",
     "com.azure.resourcemanager.dynatrace.models"
-  ]
+  ],
+  "CIMatrixConfigs": []
 }
