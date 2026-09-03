@@ -1,12 +1,12 @@
 ---
 title: Azure OnlineExperimentation client library for Java
 keywords: Azure, java, SDK, API, azure-analytics-onlineexperimentation, onlineexperimentation/azure-analytics-onlineexperimentation
-ms.date: 06/11/2025
+ms.date: 09/03/2026
 ms.topic: reference
 ms.devlang: java
 ms.service: onlineexperimentation/azure-analytics-onlineexperimentation
 ---
-# Azure OnlineExperimentation client library for Java - version 1.0.0-beta.1 
+# Azure OnlineExperimentation client library for Java - version 1.0.0-alpha.20260903.1 
 
 
 Azure OnlineExperimentation client library for Java.
@@ -159,7 +159,7 @@ See the [samples][azure_exp_samples] page for common ways to setup metrics for e
 
 ## Contributing
 
-For details on contributing to this repository, see the [contributing guide](https://github.com/Azure/azure-sdk-for-java/blob/azure-analytics-onlineexperimentation_1.0.0-beta.1/CONTRIBUTING.md).
+For details on contributing to this repository, see the [contributing guide](https://github.com/Azure/azure-sdk-for-java/blob/main/CONTRIBUTING.md).
 
 1. Fork it
 1. Create your feature branch (`git checkout -b my-new-feature`)
@@ -172,11 +172,11 @@ For details on contributing to this repository, see the [contributing guide](htt
 [docs]: https://azure.github.io/azure-sdk-for-java/
 [jdk]: https://learn.microsoft.com/azure/developer/java/fundamentals/
 [azure_subscription]: https://azure.microsoft.com/free/
-[azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/azure-analytics-onlineexperimentation_1.0.0-beta.1/sdk/identity/azure-identity
+[azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/identity/azure-identity
 [app_config]: https://learn.microsoft.com/azure/azure-app-configuration/overview
 [azure_monitor]: https://learn.microsoft.com/azure/azure-monitor/overview
-[azure_exp_samples]: https://github.com/Azure/azure-sdk-for-java/blob/azure-analytics-onlineexperimentation_1.0.0-beta.1/sdk/onlineexperimentation/azure-resourcemanager-onlineexperimentation/SAMPLE.md
+[azure_exp_samples]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/onlineexperimentation/azure-resourcemanager-onlineexperimentation/SAMPLE.md
 [az_exp_workspace]: https://learn.microsoft.com/azure/templates/microsoft.onlineexperimentation/workspaces
 [http_clients_wiki]: https://learn.microsoft.com/azure/developer/java/sdk/http-client-pipeline#http-clients
-[logging]: https://github.com/Azure/azure-sdk-for-java/wiki/Logging-in-Azure-SDK
+[logging]: https://github.com/Azure/azure-sdk-for-java/blob/main/docs/logging.md
 
