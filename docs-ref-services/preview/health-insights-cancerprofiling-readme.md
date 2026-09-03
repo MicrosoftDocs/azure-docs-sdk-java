@@ -1,15 +1,15 @@
 ---
 title: Azure Cognitive Services Health Insights Cancer Profiling client library for Java
 keywords: Azure, java, SDK, API, azure-health-insights-cancerprofiling, healthinsights
-ms.date: 04/12/2023
+ms.date: 09/03/2026
 ms.topic: reference
 ms.devlang: java
 ms.service: healthinsights
 ---
-# Azure Cognitive Services Health Insights Cancer Profiling client library for Java - version 1.0.0-beta.1 
+# Azure Cognitive Services Health Insights Cancer Profiling client library for Java - version 1.0.0-alpha.20260903.1 
 
 
-[Health Insights](https://review.learn.microsoft.com/azure/azure-health-insights/?branch=release-azure-health-insights) is an Azure Applied AI Service built with the Azure Cognitive Services Framework, that leverages multiple Cognitive Services, Healthcare API services and other Azure resources.
+[Health Insights][health_insights] is an Azure Applied AI Service built with the Azure Cognitive Services Framework, that leverages multiple Cognitive Services, Healthcare API services and other Azure resources.
 
 The [Cancer Profiling model][cancer_profiling_docs] receives clinical records of oncology patients and outputs cancer staging, such as clinical stage TNM categories and pathologic stage TNM categories as well as tumor site, histology.
 [Source code][source_code] | [Package (Maven)][package] | [API reference documentation][cancer_profiling_api_documentation] | [Product Documentation][product_documentation] | [Samples][samples_location]
@@ -33,7 +33,7 @@ For more information about creating the resource or how to get the location and 
 <dependency>
     <groupId>com.azure</groupId>
     <artifactId>azure-health-insights-cancerprofiling</artifactId>
-    <version>1.0.0-beta.1</version>
+    <version>1.0.0-beta.2</version>
 </dependency>
 ```
 
@@ -76,16 +76,12 @@ The Cancer Profiling model allows you to infer cancer attributes such as tumor s
 
 Infer key cancer attributes such as tumor site, histology, clinical stage TNM categories and pathologic stage TNM categories from a patient's unstructured clinical documents.
 <!--
-- [SampleInferCancerProfile.java](https://github.com/Azure/azure-sdk-for-java/blob/azure-health-insights-cancerprofiling_1.0.0-beta.1/sdk/healthinsights/azure-health-insights-cancerprofiling/src/samples/java/com/azure/health/insights/cancerprofiling/SampleInferCancerProfile.java).
+- [SampleInferCancerProfile.java](https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/healthinsights/azure-health-insights-cancerprofiling/src/samples/java/com/azure/health/insights/cancerprofiling/SampleInferCancerProfile.java).
 -->
 
 ```Java com.azure.health.insights.cancerprofiling.infercancerprofile
 // Construct Patient
 PatientRecord patient1 = new PatientRecord("patient_id");
-PatientInfo patientInfo = new PatientInfo();
-patientInfo.setBirthDate(LocalDate.parse("1965-12-26"));
-patientInfo.setSex(PatientInfoSex.FEMALE);
-patient1.setInfo(patientInfo);
 LinkedList<PatientDocument> patientDocuments = new LinkedList<>();
 patient1.setData(patientDocuments);
 
@@ -198,11 +194,11 @@ PollerFlux<OncoPhenotypeResult, OncoPhenotypeResult> asyncPoller = asyncClient.b
 
 ## Next steps
 <!--
-This code sample show common scenario operation with the Azure Health Insights Cancer Profiling library. More samples can be found under the [samples](https://github.com/Azure/azure-sdk-for-java/blob/azure-health-insights-cancerprofiling_1.0.0-beta.1/sdk/healthinsights/azure-health-insights-cancerprofiling/src/samples/java/com/azure/health/insights/) directory.
+This code sample show common scenario operation with the Azure Health Insights Cancer Profiling library. More samples can be found under the [samples](https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/healthinsights/azure-health-insights-cancerprofiling/src/samples/java/com/azure/health/insights/) directory.
 -->
 
 ## Additional documentation
-For more extensive documentation on Azure Health Insights Cancer Profiling, see the [Cancer Profiling documentation][cancer_profiling_docs] on docs.microsoft.com.
+For more extensive documentation on Azure Health Insights Cancer Profiling, see the [Cancer Profiling documentation][cancer_profiling_docs] on learn.microsoft.com.
 ## Contributing
 
 This project welcomes contributions and suggestions. Most contributions require you to agree to a Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us the rights to use your contribution. For details, visit [cla.microsoft.com][cla].
@@ -217,17 +213,18 @@ This project has adopted the [Microsoft Open Source Code of Conduct][code_of_con
 [coc_faq]: https://opensource.microsoft.com/codeofconduct/faq/
 [coc_contact]: mailto:opencode@microsoft.com
 [azure_subscription]: https://azure.microsoft.com/free/
-[cognitive_resource_cli]: /azure/cognitive-services/cognitive-services-apis-create-account-cli
-[jdk_link]: /java/azure/jdk/?view=azure-java-stable
+[cognitive_resource_cli]: https://learn.microsoft.com/azure/cognitive-services/cognitive-services-apis-create-account-cli
+[jdk_link]: https://learn.microsoft.com/java/azure/jdk/?view=azure-java-stable
 
-[azure_cli]: /cli/azure
+[health_insights]: https://learn.microsoft.com/azure/azure-health-insights/overview
+[azure_cli]: https://learn.microsoft.com/cli/azure
 [azure_portal]: https://portal.azure.com
-[cancer_profiling_docs]: https://review.learn.microsoft.com/azure/cognitive-services/health-decision-support/oncophenotype/overview?branch=main
-[cancer_profiling_client_class]: https://github.com/Azure/azure-sdk-for-java/blob/azure-health-insights-cancerprofiling_1.0.0-beta.1/sdk/healthinsights/azure-health-insights-cancerprofiling/src/main/java/com/azure/health/insights/cancerprofiling/CancerProfilingClient.java
-[package]: https://mvnrepository.com/artifact/com.azure/azure-health-insights-cancerprofiling
-[source_code]: https://github.com/Azure/azure-sdk-for-java/tree/azure-health-insights-cancerprofiling_1.0.0-beta.1/sdk/healthinsights/azure-health-insights-cancerprofiling/src
-[cancer_profiling_api_documentation]: https://review.learn.microsoft.com/rest/api/cognitiveservices/healthinsights/onco-phenotype?branch=healthin202303
-[product_documentation]:https://review.learn.microsoft.com/azure/cognitive-services/health-decision-support/oncophenotype/?branch=main
-[samples_location]: https://github.com/Azure/azure-sdk-for-java/tree/azure-health-insights-cancerprofiling_1.0.0-beta.1/sdk/healthinsights/azure-health-insights-cancerprofiling/src/samples/
+[cancer_profiling_docs]: https://learn.microsoft.com/azure/azure-health-insights/oncophenotype/overview
+[cancer_profiling_client_class]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/healthinsights/azure-health-insights-cancerprofiling/src/main/java/com/azure/health/insights/cancerprofiling/CancerProfilingClient.java
+[package]: https://central.sonatype.com/artifact/com.azure/azure-health-insights-cancerprofiling
+[source_code]: https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/healthinsights/azure-health-insights-cancerprofiling/src
+[cancer_profiling_api_documentation]: https://learn.microsoft.com/rest/api/healthinsights/onco-phenotype
+[product_documentation]: https://learn.microsoft.com/azure/azure-health-insights/oncophenotype/
+[samples_location]: https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/healthinsights/azure-health-insights-cancerprofiling/src/samples/
 
 
