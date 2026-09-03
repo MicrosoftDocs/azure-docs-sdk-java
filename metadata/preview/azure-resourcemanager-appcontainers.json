@@ -1,7 +1,7 @@
 {
   "Name": "azure-resourcemanager-appcontainers",
-  "Version": "1.2.0-beta.1",
-  "DevVersion": null,
+  "Version": "1.3.0-alpha.20260903.1",
+  "DevVersion": "1.3.0-alpha.20260903.1",
   "DirectoryPath": "sdk/appcontainers/azure-resourcemanager-appcontainers",
   "ServiceDirectory": "appcontainers",
   "ReadMePath": "sdk/appcontainers/azure-resourcemanager-appcontainers/README.md",
@@ -10,20 +10,21 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-appcontainers",
-  "ReleaseStatus": "2025-09-16",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "safeName": "azureresourcemanagerappcontainers",
+    "groupId": "com.azure.resourcemanager",
+    "name": "azure-resourcemanager-appcontainers",
     "triggeringPaths": [
       "/sdk/appcontainers/ci.yml"
     ],
-    "groupId": "com.azure.resourcemanager",
-    "name": "azure-resourcemanager-appcontainers"
+    "safeName": "azureresourcemanagerappcontainers"
   },
   "CIParameters": {
     "CIMatrixConfigs": []
   },
+  "SpecProjectPath": null,
   "Namespaces": [
     "com.azure.resourcemanager.appcontainers",
     "com.azure.resourcemanager.appcontainers.fluent",
