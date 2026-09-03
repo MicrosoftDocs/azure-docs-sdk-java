@@ -1,0 +1,33 @@
+{
+  "Name": "azure-security-attestation",
+  "Version": "1.2.0-alpha.20260903.1",
+  "DevVersion": "1.2.0-alpha.20260903.1",
+  "DirectoryPath": "sdk/attestation/azure-security-attestation",
+  "ServiceDirectory": "attestation",
+  "ReadMePath": "sdk/attestation/azure-security-attestation/README.md",
+  "ChangeLogPath": "sdk/attestation/azure-security-attestation/CHANGELOG.md",
+  "Group": "com.azure",
+  "SdkType": "client",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-security-attestation",
+  "ReleaseStatus": "Unreleased",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "safeName": "azuresecurityattestation",
+    "groupId": "com.azure",
+    "releaseInBatch": "${{ parameters.release_azuresecurityattestation }}",
+    "name": "azure-security-attestation",
+    "triggeringPaths": [
+      "/sdk/attestation/ci.yml"
+    ]
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": null,
+  "Namespaces": [
+    "com.azure.security.attestation",
+    "com.azure.security.attestation.models"
+  ]
+}
