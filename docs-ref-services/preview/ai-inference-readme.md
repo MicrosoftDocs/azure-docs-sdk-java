@@ -1,12 +1,12 @@
 ---
 title: Azure AI Inference client library for Java
 keywords: Azure, java, SDK, API, azure-ai-inference, ai
-ms.date: 05/15/2025
+ms.date: 09/03/2026
 ms.topic: reference
 ms.devlang: java
 ms.service: ai
 ---
-# Azure AI Inference client library for Java - version 1.0.0-beta.5 
+# Azure AI Inference client library for Java - version 1.0.0-alpha.20260903.1 
 
 
 Azure AI Inference client library for Java.
@@ -253,7 +253,7 @@ be found here: [log levels][logLevels].
 ### Default HTTP Client
 All client libraries by default use the Netty HTTP client. Adding the above dependency will automatically configure
 the client library to use the Netty HTTP client. Configuring or changing the HTTP client is detailed in the
-[HTTP clients wiki](https://github.com/Azure/azure-sdk-for-java/wiki/Configure-HTTP-Clients).
+[HTTP clients wiki](https://github.com/Azure/azure-sdk-for-java/blob/main/docs/configuration.md#configure-http-clients).
 
 ### Default SSL library
 All client libraries, by default, use the Tomcat-native Boring SSL library to enable native-level performance for SSL
@@ -267,7 +267,7 @@ For more details, see [TROUBLESHOOTING][troubleshooting] guideline.
 
 ## Contributing
 
-For details on contributing to this repository, see the [contributing guide](https://github.com/Azure/azure-sdk-for-java/blob/azure-ai-inference_1.0.0-beta.5/CONTRIBUTING.md).
+For details on contributing to this repository, see the [contributing guide](https://github.com/Azure/azure-sdk-for-java/blob/main/CONTRIBUTING.md).
 
 1. Fork it
 1. Create your feature branch (`git checkout -b my-new-feature`)
@@ -281,20 +281,20 @@ For details on contributing to this repository, see the [contributing guide](htt
 [jdk]: https://learn.microsoft.com/azure/developer/java/fundamentals/
 [aad_authorization]: https://learn.microsoft.com/azure/cognitive-services/authentication#authenticate-with-azure-active-directory
 [azure_subscription]: https://azure.microsoft.com/free/
-[azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/azure-ai-inference_1.0.0-beta.5/sdk/identity/azure-identity
-[sample_get_chat_completions]: https://github.com/Azure/azure-sdk-for-java/blob/azure-ai-inference_1.0.0-beta.5/sdk/ai/azure-ai-inference/src/samples/java/com/azure/ai/inference/usage/BasicChatSample.java
-[sample_get_chat_completions_streaming]: https://github.com/Azure/azure-sdk-for-java/blob/azure-ai-inference_1.0.0-beta.5/sdk/ai/azure-ai-inference/src/samples/java/com/azure/ai/inference/usage/StreamingChatSample.java 
-[sample_get_embedding]: https://github.com/Azure/azure-sdk-for-java/blob/azure-ai-inference_1.0.0-beta.5/sdk/ai/azure-ai-inference/src/samples/java/com/azure/ai/inference/usage/TextEmbeddingsSample.java
-[sample_chat_with_image_url]: https://github.com/Azure/azure-sdk-for-java/blob/azure-ai-inference_1.0.0-beta.5/sdk/ai/azure-ai-inference/src/samples/java/com/azure/ai/inference/usage/ImageUrlChatSample.java
-[sample_chat_with_image_file]: https://github.com/Azure/azure-sdk-for-java/blob/azure-ai-inference_1.0.0-beta.5/sdk/ai/azure-ai-inference/src/samples/java/com/azure/ai/inference/usage/ImageFileChatSample.java
+[azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/identity/azure-identity
+[sample_get_chat_completions]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/ai/azure-ai-inference/src/samples/java/com/azure/ai/inference/usage/BasicChatSample.java
+[sample_get_chat_completions_streaming]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/ai/azure-ai-inference/src/samples/java/com/azure/ai/inference/usage/StreamingChatSample.java 
+[sample_get_embedding]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/ai/azure-ai-inference/src/samples/java/com/azure/ai/inference/usage/TextEmbeddingsSample.java
+[sample_chat_with_image_url]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/ai/azure-ai-inference/src/samples/java/com/azure/ai/inference/usage/ImageUrlChatSample.java
+[sample_chat_with_image_file]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/ai/azure-ai-inference/src/samples/java/com/azure/ai/inference/usage/ImageFileChatSample.java
 [sample_function_calls]: https://aka.ms/azsdk/azure-ai-inference/java/toolCallSample
 [sample_streaming_function_calls]: https://aka.ms/azsdk/azure-ai-inference/java/streamingToolCallSample
-[chat_completions_client_async]: https://github.com/Azure/azure-sdk-for-java/blob/azure-ai-inference_1.0.0-beta.5/sdk/ai/azure-ai-inference/src/main/java/com/azure/ai/inference/ChatCompletionsAsyncClient.java
-[chat_completions_client_builder]: https://github.com/Azure/azure-sdk-for-java/blob/azure-ai-inference_1.0.0-beta.5/sdk/ai/azure-ai-inference/src/main/java/com/azure/ai/inference/ChatCompletionsClientBuilder.java
-[chat_completions_client_sync]: https://github.com/Azure/azure-sdk-for-java/blob/azure-ai-inference_1.0.0-beta.5/sdk/ai/azure-ai-inference/src/main/java/com/azure/ai/inference/ChatCompletionsClient.java
-[logLevels]: https://github.com/Azure/azure-sdk-for-java/blob/azure-ai-inference_1.0.0-beta.5/sdk/core/azure-core/src/main/java/com/azure/core/util/logging/ClientLogger.java
-[performance_tuning]: https://github.com/Azure/azure-sdk-for-java/wiki/Performance-Tuning
-[troubleshooting]: https://github.com/Azure/azure-sdk-for-java/blob/azure-ai-inference_1.0.0-beta.5/sdk/openai/azure-ai-openai/TROUBLESHOOTING.md
+[chat_completions_client_async]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/ai/azure-ai-inference/src/main/java/com/azure/ai/inference/ChatCompletionsAsyncClient.java
+[chat_completions_client_builder]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/ai/azure-ai-inference/src/main/java/com/azure/ai/inference/ChatCompletionsClientBuilder.java
+[chat_completions_client_sync]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/ai/azure-ai-inference/src/main/java/com/azure/ai/inference/ChatCompletionsClient.java
+[logLevels]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/core/azure-core/src/main/java/com/azure/core/util/logging/ClientLogger.java
+[performance_tuning]: https://github.com/Azure/azure-sdk-for-java/blob/main/docs/performance-tuning.md
+[troubleshooting]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/openai/azure-ai-openai/TROUBLESHOOTING.md
 [wiki_identity]: https://learn.microsoft.com/azure/developer/java/sdk/identity
 
 
