@@ -1,12 +1,12 @@
 ---
 title: Azure Communications Rooms Service client library for Java
-keywords: Azure, java, SDK, API, azure-communication-rooms, communication
-ms.date: 10/13/2023
+keywords: Azure, java, SDK, API, azure-communication-rooms, communication/azure-communication-rooms
+ms.date: 09/03/2026
 ms.topic: reference
 ms.devlang: java
-ms.service: communication
+ms.service: communication/azure-communication-rooms
 ---
-# Azure Communications Rooms Service client library for Java - version 1.1.0-beta.1 
+# Azure Communications Rooms Service client library for Java - version 1.3.0-alpha.20260903.1 
 
 
 Azure Communication Rooms is used to operate on rooms.
@@ -19,9 +19,9 @@ Azure Communication Rooms is used to operate on rooms.
 ### Prerequisites
 
 - An Azure account with an active subscription. [Create an account for free](https://azure.microsoft.com/free/?WT.mc_id=A261C142F).
-- [Java Development Kit (JDK)](/java/azure/jdk/?view=azure-java-stable) version 8 or above.
+- [Java Development Kit (JDK)](https://learn.microsoft.com/java/azure/jdk/?view=azure-java-stable) version 8 or above.
 - [Apache Maven](https://maven.apache.org/download.cgi).
-- A deployed Communication Services resource. You can use the [Azure Portal](/azure/communication-services/quickstarts/create-communication-resource?tabs=windows&pivots=platform-azp) or the [Azure PowerShell](/powershell/module/az.communication/new-azcommunicationservice) to set it up.
+- A deployed Communication Services resource. You can use the [Azure Portal](https://learn.microsoft.com/azure/communication-services/quickstarts/create-communication-resource?tabs=windows&pivots=platform-azp) or the [Azure PowerShell](https://learn.microsoft.com/powershell/module/az.communication/new-azcommunicationservice) to set it up.
 
 ### Include the package
 
@@ -34,7 +34,7 @@ add the direct dependency to your project as follows.
 <dependency>
   <groupId>com.azure</groupId>
   <artifactId>azure-communication-rooms</artifactId>
-  <version>1.0.2</version>
+  <version>1.2.0</version>
 </dependency>
 ```
 [//]: # ({x-version-update-end})
@@ -225,13 +225,13 @@ When you submit a pull request, a CLA-bot will automatically determine whether y
 This project has adopted the [Microsoft Open Source Code of Conduct][coc]. For more information see the [Code of Conduct FAQ][coc_faq] or contact [opencode@microsoft.com][coc_contact] with any additional questions or comments.
 
 <!-- LINKS -->
-[source]: https://github.com/Azure/azure-sdk-for-java/tree/azure-communication-rooms_1.1.0-beta.1/sdk/communication/azure-communication-rooms/src
+[source]: https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/communication/azure-communication-rooms/src
 [package]: https://central.sonatype.com/artifact/com.azure/azure-communication-rooms
 [cla]: https://cla.microsoft.com
 [coc]: https://opensource.microsoft.com/codeofconduct/
 [coc_faq]: https://opensource.microsoft.com/codeofconduct/faq/
 [coc_contact]: mailto:opencode@microsoft.com
-[product_docs]: /azure/communication-services/
+[product_docs]: https://learn.microsoft.com/azure/communication-services/
 [api_documentation]: https://aka.ms/java-docs
 [next_steps]: https://learn.microsoft.com/azure/communication-services/concepts/rooms/room-concept
 
