@@ -1,17 +1,17 @@
 ---
 title: Azure Resource Manager Communication client library for Java
-keywords: Azure, java, SDK, API, azure-resourcemanager-communication, communication
-ms.date: 11/23/2023
+keywords: Azure, java, SDK, API, azure-resourcemanager-communication, communication/azure-resourcemanager-communication
+ms.date: 09/03/2026
 ms.topic: reference
 ms.devlang: java
-ms.service: communication
+ms.service: communication/azure-resourcemanager-communication
 ---
-# Azure Resource Manager Communication client library for Java - version 2.1.0-beta.2 
+# Azure Resource Manager Communication client library for Java - version 2.4.0-alpha.20260903.1 
 
 
 Azure Resource Manager Communication client library for Java.
 
-This package contains Microsoft Azure SDK for Communication Management SDK. REST API for Azure Communication Services. Package tag package-preview-2023-06. For documentation on how to use this package, please see [Azure Management Libraries for Java](https://aka.ms/azsdk/java/mgmt).
+This package contains Microsoft Azure SDK for Communication Management SDK. REST API for Azure Communication Services. Package tag package-2025-09-01. For documentation on how to use this package, please see [Azure Management Libraries for Java](https://aka.ms/azsdk/java/mgmt).
 
 ## We'd love to hear your feedback
 
@@ -41,7 +41,7 @@ Various documentation is available to help you get started
 <dependency>
     <groupId>com.azure.resourcemanager</groupId>
     <artifactId>azure-resourcemanager-communication</artifactId>
-    <version>2.1.0-beta.2</version>
+    <version>2.3.0</version>
 </dependency>
 ```
 [//]: # ({x-version-update-end})
@@ -54,18 +54,14 @@ Azure Management Libraries require a `TokenCredential` implementation for authen
 
 ### Authentication
 
-By default, Microsoft Entra ID token authentication depends on correct configuration of the following environment variables.
+Microsoft Entra ID token authentication relies on the [credential class][azure_identity_credentials] from [Azure Identity][azure_identity] package.
 
-- `AZURE_CLIENT_ID` for Azure client ID.
-- `AZURE_TENANT_ID` for Azure tenant ID.
-- `AZURE_CLIENT_SECRET` or `AZURE_CLIENT_CERTIFICATE_PATH` for client secret or client certificate.
+Azure subscription ID can be configured via `AZURE_SUBSCRIPTION_ID` environment variable.
 
-In addition, Azure subscription ID can be configured via `AZURE_SUBSCRIPTION_ID` environment variable.
-
-With above configuration, `azure` client can be authenticated using the following code:
+Assuming the use of the `DefaultAzureCredential` credential class, the client can be authenticated using the following code:
 
 ```java
-AzureProfile profile = new AzureProfile(AzureEnvironment.AZURE);
+AzureProfile profile = new AzureProfile(AzureCloud.AZURE_PUBLIC_CLOUD);
 TokenCredential credential = new DefaultAzureCredentialBuilder()
     .authorityHost(profile.getEnvironment().getActiveDirectoryEndpoint())
     .build();
@@ -73,7 +69,7 @@ CommunicationManager manager = CommunicationManager
     .authenticate(credential, profile);
 ```
 
-The sample code assumes global Azure. Please change `AzureEnvironment.AZURE` variable if otherwise.
+The sample code assumes global Azure. Please change the `AzureCloud.AZURE_PUBLIC_CLOUD` variable if otherwise.
 
 See [Authentication][authenticate] for more options.
 
@@ -83,7 +79,7 @@ See [API design][design] for general introduction on design and key concepts on 
 
 ## Examples
 
-[Code snippets and samples](https://github.com/Azure/azure-sdk-for-java/blob/azure-resourcemanager-communication_2.1.0-beta.2/sdk/communication/azure-resourcemanager-communication/SAMPLE.md)
+[Code snippets and samples](https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/communication/azure-resourcemanager-communication/SAMPLE.md)
 
 
 ## Troubleshooting
@@ -105,13 +101,12 @@ This project has adopted the [Microsoft Open Source Code of Conduct][coc]. For m
 [docs]: https://azure.github.io/azure-sdk-for-java/
 [jdk]: https://learn.microsoft.com/azure/developer/java/fundamentals/
 [azure_subscription]: https://azure.microsoft.com/free/
-[azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/azure-resourcemanager-communication_2.1.0-beta.2/sdk/identity/azure-identity
-[azure_core_http_netty]: https://github.com/Azure/azure-sdk-for-java/blob/azure-resourcemanager-communication_2.1.0-beta.2/sdk/core/azure-core-http-netty
-[authenticate]: https://github.com/Azure/azure-sdk-for-java/blob/azure-resourcemanager-communication_2.1.0-beta.2/sdk/resourcemanager/docs/AUTH.md
-[design]: https://github.com/Azure/azure-sdk-for-java/blob/azure-resourcemanager-communication_2.1.0-beta.2/sdk/resourcemanager/docs/DESIGN.md
-[cg]: https://github.com/Azure/azure-sdk-for-java/blob/azure-resourcemanager-communication_2.1.0-beta.2/CONTRIBUTING.md
+[azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/identity/azure-identity
+[azure_identity_credentials]: https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/identity/azure-identity#credentials
+[azure_core_http_netty]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/core/azure-core-http-netty
+[authenticate]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/resourcemanager/docs/AUTH.md
+[design]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/resourcemanager/docs/DESIGN.md
+[cg]: https://github.com/Azure/azure-sdk-for-java/blob/main/CONTRIBUTING.md
 [coc]: https://opensource.microsoft.com/codeofconduct/
 [coc_faq]: https://opensource.microsoft.com/codeofconduct/faq/
-
-
 
