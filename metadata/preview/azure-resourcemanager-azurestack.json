@@ -1,0 +1,34 @@
+{
+  "Name": "azure-resourcemanager-azurestack",
+  "Version": "1.1.0-alpha.20260903.1",
+  "DevVersion": "1.1.0-alpha.20260903.1",
+  "DirectoryPath": "sdk/azurestack/azure-resourcemanager-azurestack",
+  "ServiceDirectory": "azurestack",
+  "ReadMePath": "sdk/azurestack/azure-resourcemanager-azurestack/README.md",
+  "ChangeLogPath": "sdk/azurestack/azure-resourcemanager-azurestack/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-azurestack",
+  "ReleaseStatus": "Unreleased",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "groupId": "com.azure.resourcemanager",
+    "triggeringPaths": [
+      "/sdk/azurestack/ci.yml"
+    ],
+    "name": "azure-resourcemanager-azurestack",
+    "safeName": "azureresourcemanagerazurestack"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": null,
+  "Namespaces": [
+    "com.azure.resourcemanager.azurestack",
+    "com.azure.resourcemanager.azurestack.fluent",
+    "com.azure.resourcemanager.azurestack.fluent.models",
+    "com.azure.resourcemanager.azurestack.models"
+  ]
+}
