@@ -1,12 +1,12 @@
 ---
 title: Azure Resource Manager NetAppFiles client library for Java
 keywords: Azure, java, SDK, API, azure-resourcemanager-netapp, netapp
-ms.date: 08/28/2026
+ms.date: 09/04/2026
 ms.topic: reference
 ms.devlang: java
 ms.service: netapp
 ---
-# Azure Resource Manager NetAppFiles client library for Java - version 2.5.0-beta.2 
+# Azure Resource Manager NetAppFiles client library for Java - version 2.5.0-alpha.20260904.1 
 
 
 Azure Resource Manager NetAppFiles client library for Java.
@@ -86,7 +86,7 @@ account = netAppFilesManager.accounts()
     .withExistingResourceGroup(resourceGroupName)
     .create();
 ```
-[Code snippets and samples](https://github.com/Azure/azure-sdk-for-java/blob/com.azure.resourcemanager+azure-resourcemanager-netapp_2.5.0-beta.2/sdk/netapp/azure-resourcemanager-netapp/SAMPLE.md)
+[Code snippets and samples](https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/netapp/azure-resourcemanager-netapp/SAMPLE.md)
 
 
 ## Troubleshooting
@@ -108,12 +108,12 @@ This project has adopted the [Microsoft Open Source Code of Conduct][coc]. For m
 [docs]: https://azure.github.io/azure-sdk-for-java/
 [jdk]: https://learn.microsoft.com/azure/developer/java/fundamentals/
 [azure_subscription]: https://azure.microsoft.com/free/
-[azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/com.azure.resourcemanager+azure-resourcemanager-netapp_2.5.0-beta.2/sdk/identity/azure-identity
-[azure_identity_credentials]: https://github.com/Azure/azure-sdk-for-java/tree/com.azure.resourcemanager+azure-resourcemanager-netapp_2.5.0-beta.2/sdk/identity/azure-identity#credentials
-[azure_core_http_netty]: https://github.com/Azure/azure-sdk-for-java/blob/com.azure.resourcemanager+azure-resourcemanager-netapp_2.5.0-beta.2/sdk/core/azure-core-http-netty
-[authenticate]: https://github.com/Azure/azure-sdk-for-java/blob/com.azure.resourcemanager+azure-resourcemanager-netapp_2.5.0-beta.2/sdk/resourcemanager/docs/AUTH.md
-[design]: https://github.com/Azure/azure-sdk-for-java/blob/com.azure.resourcemanager+azure-resourcemanager-netapp_2.5.0-beta.2/sdk/resourcemanager/docs/DESIGN.md
-[cg]: https://github.com/Azure/azure-sdk-for-java/blob/com.azure.resourcemanager+azure-resourcemanager-netapp_2.5.0-beta.2/CONTRIBUTING.md
+[azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/identity/azure-identity
+[azure_identity_credentials]: https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/identity/azure-identity#credentials
+[azure_core_http_netty]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/core/azure-core-http-netty
+[authenticate]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/resourcemanager/docs/AUTH.md
+[design]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/resourcemanager/docs/DESIGN.md
+[cg]: https://github.com/Azure/azure-sdk-for-java/blob/main/CONTRIBUTING.md
 [coc]: https://opensource.microsoft.com/codeofconduct/
 [coc_faq]: https://opensource.microsoft.com/codeofconduct/faq/
 
