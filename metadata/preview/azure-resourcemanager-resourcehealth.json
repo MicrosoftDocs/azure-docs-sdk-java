@@ -1,7 +1,7 @@
 {
   "Name": "azure-resourcemanager-resourcehealth",
-  "Version": "1.1.0-beta.3",
-  "DevVersion": null,
+  "Version": "1.1.0-alpha.20260904.1",
+  "DevVersion": "1.1.0-alpha.20260904.1",
   "DirectoryPath": "sdk/resourcehealth/azure-resourcemanager-resourcehealth",
   "ServiceDirectory": "resourcehealth",
   "ReadMePath": "sdk/resourcehealth/azure-resourcemanager-resourcehealth/README.md",
@@ -10,19 +10,26 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-resourcehealth",
-  "ReleaseStatus": "2024-12-06",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "name": "azure-resourcemanager-resourcehealth",
+    "triggeringPaths": [
+      "/sdk/resourcehealth/ci.yml"
+    ],
     "groupId": "com.azure.resourcemanager",
+    "name": "azure-resourcemanager-resourcehealth",
     "safeName": "azureresourcemanagerresourcehealth"
   },
-  "CIMatrixConfigs": [],
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": null,
   "Namespaces": [
     "com.azure.resourcemanager.resourcehealth",
     "com.azure.resourcemanager.resourcehealth.fluent",
     "com.azure.resourcemanager.resourcehealth.fluent.models",
     "com.azure.resourcemanager.resourcehealth.models"
-  ]
+  ],
+  "CIMatrixConfigs": []
 }
