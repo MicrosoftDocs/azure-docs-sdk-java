@@ -1,12 +1,12 @@
 ---
 title: Azure AI Speech Transcription client library for Java
 keywords: Azure, java, SDK, API, azure-ai-speech-transcription, transcription
-ms.date: 04/23/2026
+ms.date: 09/04/2026
 ms.topic: reference
 ms.devlang: java
 ms.service: transcription
 ---
-# Azure AI Speech Transcription client library for Java - version 1.0.0-beta.3 
+# Azure AI Speech Transcription client library for Java - version 1.1.0-alpha.20260904.1 
 
 
 The Azure AI Speech Transcription client library provides a simple and efficient way to convert audio to text using Azure Cognitive Services. This library enables you to transcribe audio with features like speaker diarization, profanity filtering, and phrase hints for improved accuracy.
@@ -20,7 +20,7 @@ Use the client library to:
 * Use custom speech models
 * Process both local files and remote URLs
 
-[Source code](https://github.com/Azure/azure-sdk-for-java/blob/com.azure+azure-ai-speech-transcription_1.0.0-beta.3/sdk/transcription/azure-ai-speech-transcription/src) | [Package (Maven)](https://central.sonatype.com/artifact/com.azure/azure-ai-speech-transcription) | [API reference documentation](https://azure.github.io/azure-sdk-for-java/) | [Product documentation](https://learn.microsoft.com/azure/ai-services/speech-service/)
+[Source code](https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/transcription/azure-ai-speech-transcription/src) | [Package (Maven)](https://central.sonatype.com/artifact/com.azure/azure-ai-speech-transcription) | [API reference documentation](https://azure.github.io/azure-sdk-for-java/) | [Product documentation](https://learn.microsoft.com/azure/ai-services/speech-service/)
 
 ## Getting started
 
@@ -37,7 +37,7 @@ Use the client library to:
 <dependency>
     <groupId>com.azure</groupId>
     <artifactId>azure-ai-speech-transcription</artifactId>
-    <version>1.0.0-beta.2</version>
+    <version>1.0.0</version>
 </dependency>
 ```
 [//]: # ({x-version-update-end})
@@ -154,7 +154,7 @@ try {
     TranscriptionResult result = client.transcribe(options);
 
     // Process results
-    System.out.println("Duration: " + result.getDuration() + " ms");
+    System.out.println("Duration: " + result.getDuration().toMillis() + " ms");
     result.getCombinedPhrases().forEach(phrase -> {
         System.out.println("Channel " + phrase.getChannel() + ": " + phrase.getText());
     });
@@ -209,6 +209,8 @@ result.getPhrases().forEach(phrase -> {
 ### Transcribe with enhanced mode
 
 Enhanced mode provides advanced features to improve transcription accuracy with custom prompts. Enhanced mode is automatically enabled when you create an `EnhancedModeOptions` instance.
+
+Enhanced Mode runs in multi-lingual mode by default, so you don't need to specify the input language. Optionally, to guide recognition toward a specific language, set `locales` using a supported locale code (for example, `en-US`). The service uses the first locale as a hint to bias recognition.
 
 ```java com.azure.ai.speech.transcription.transcriptionoptions.enhancedmode
 byte[] audioData = Files.readAllBytes(Paths.get("path/to/audio.wav"));
@@ -293,14 +295,14 @@ If you encounter issues:
 
 ## Next steps
 
-- Explore the [samples](https://github.com/Azure/azure-sdk-for-java/tree/com.azure+azure-ai-speech-transcription_1.0.0-beta.3/sdk/transcription/azure-ai-speech-transcription/src/samples) for more examples
+- Explore the [samples](https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/transcription/azure-ai-speech-transcription/src/samples) for more examples
 - Learn more about [Azure Speech Service](https://learn.microsoft.com/azure/ai-services/speech-service/)
 - Review the [API reference documentation][docs] for detailed information about classes and methods
 
 ## Contributing
 
 
-For details on contributing to this repository, see the [contributing guide](https://github.com/Azure/azure-sdk-for-java/blob/com.azure+azure-ai-speech-transcription_1.0.0-beta.3/CONTRIBUTING.md).
+For details on contributing to this repository, see the [contributing guide](https://github.com/Azure/azure-sdk-for-java/blob/main/CONTRIBUTING.md).
 
 1. Fork it
 1. Create your feature branch (`git checkout -b my-new-feature`)
