@@ -1,7 +1,7 @@
 {
   "Name": "azure-resourcemanager-sqlvirtualmachine",
-  "Version": "1.0.0-beta.5",
-  "DevVersion": null,
+  "Version": "1.0.0-alpha.20260903.1",
+  "DevVersion": "1.0.0-alpha.20260903.1",
   "DirectoryPath": "sdk/sqlvirtualmachine/azure-resourcemanager-sqlvirtualmachine",
   "ServiceDirectory": "sqlvirtualmachine",
   "ReadMePath": "sdk/sqlvirtualmachine/azure-resourcemanager-sqlvirtualmachine/README.md",
@@ -10,19 +10,26 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-sqlvirtualmachine",
-  "ReleaseStatus": "2024-10-31",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "name": "azure-resourcemanager-sqlvirtualmachine",
     "groupId": "com.azure.resourcemanager",
-    "safeName": "azureresourcemanagersqlvirtualmachine"
+    "triggeringPaths": [
+      "/sdk/sqlvirtualmachine/ci.yml"
+    ],
+    "safeName": "azureresourcemanagersqlvirtualmachine",
+    "name": "azure-resourcemanager-sqlvirtualmachine"
   },
-  "CIMatrixConfigs": [],
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": null,
   "Namespaces": [
     "com.azure.resourcemanager.sqlvirtualmachine",
     "com.azure.resourcemanager.sqlvirtualmachine.fluent",
     "com.azure.resourcemanager.sqlvirtualmachine.fluent.models",
     "com.azure.resourcemanager.sqlvirtualmachine.models"
-  ]
+  ],
+  "CIMatrixConfigs": []
 }
