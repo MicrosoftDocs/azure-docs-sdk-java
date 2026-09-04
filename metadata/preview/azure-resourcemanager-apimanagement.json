@@ -1,7 +1,7 @@
 {
   "Name": "azure-resourcemanager-apimanagement",
-  "Version": "2.1.0-alpha.20260903.1",
-  "DevVersion": "2.1.0-alpha.20260903.1",
+  "Version": "2.1.0-alpha.20260904.1",
+  "DevVersion": "2.1.0-alpha.20260904.1",
   "DirectoryPath": "sdk/apimanagement/azure-resourcemanager-apimanagement",
   "ServiceDirectory": "apimanagement",
   "ReadMePath": "sdk/apimanagement/azure-resourcemanager-apimanagement/README.md",
@@ -14,11 +14,11 @@
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
+    "safeName": "azureresourcemanagerapimanagement",
+    "name": "azure-resourcemanager-apimanagement",
     "triggeringPaths": [
       "/sdk/apimanagement/ci.yml"
     ],
-    "safeName": "azureresourcemanagerapimanagement",
-    "name": "azure-resourcemanager-apimanagement",
     "groupId": "com.azure.resourcemanager"
   },
   "CIParameters": {

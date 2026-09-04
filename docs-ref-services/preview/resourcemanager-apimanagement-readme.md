@@ -6,7 +6,7 @@ ms.topic: reference
 ms.devlang: java
 ms.service: apimanagement
 ---
-# Azure Resource Manager ApiManagement client library for Java - version 2.1.0-alpha.20260903.1 
+# Azure Resource Manager ApiManagement client library for Java - version 2.1.0-alpha.20260904.1 
 
 
 Azure Resource Manager ApiManagement client library for Java.
