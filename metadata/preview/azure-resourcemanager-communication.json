@@ -1,16 +1,30 @@
 {
   "Name": "azure-resourcemanager-communication",
-  "Version": "2.1.0-beta.2",
-  "DevVersion": null,
+  "Version": "2.4.0-alpha.20260904.1",
+  "DevVersion": "2.4.0-alpha.20260904.1",
   "DirectoryPath": "sdk/communication/azure-resourcemanager-communication",
-  "ServiceDirectory": "communication",
+  "ServiceDirectory": "communication/azure-resourcemanager-communication",
   "ReadMePath": "sdk/communication/azure-resourcemanager-communication/README.md",
   "ChangeLogPath": "sdk/communication/azure-resourcemanager-communication/CHANGELOG.md",
   "Group": "com.azure.resourcemanager",
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-communication",
-  "ReleaseStatus": "2023-11-23",
+  "ReleaseStatus": "Unreleased",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "groupId": "com.azure.resourcemanager",
+    "name": "azure-resourcemanager-communication",
+    "safeName": "azureresourcemanagercommunication",
+    "triggeringPaths": [
+      "/sdk/communication/azure-resourcemanager-communication/ci.yml"
+    ]
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": null,
   "Namespaces": [
     "com.azure.resourcemanager.communication",
     "com.azure.resourcemanager.communication.fluent",
