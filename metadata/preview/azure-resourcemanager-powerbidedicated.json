@@ -1,7 +1,7 @@
 {
   "Name": "azure-resourcemanager-powerbidedicated",
-  "Version": "1.0.0-beta.3",
-  "DevVersion": null,
+  "Version": "1.2.0-alpha.20260904.1",
+  "DevVersion": "1.2.0-alpha.20260904.1",
   "DirectoryPath": "sdk/powerbidedicated/azure-resourcemanager-powerbidedicated",
   "ServiceDirectory": "powerbidedicated",
   "ReadMePath": "sdk/powerbidedicated/azure-resourcemanager-powerbidedicated/README.md",
@@ -10,14 +10,21 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-powerbidedicated",
-  "ReleaseStatus": "2024-10-17",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
+    "triggeringPaths": [
+      "/sdk/powerbidedicated/ci.yml"
+    ],
     "name": "azure-resourcemanager-powerbidedicated",
     "groupId": "com.azure.resourcemanager",
     "safeName": "azureresourcemanagerpowerbidedicated"
   },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": "specification/powerbidedicated/resource-manager/Microsoft.PowerBIdedicated/PowerBIDedicated",
   "Namespaces": [
     "com.azure.resourcemanager.powerbidedicated",
     "com.azure.resourcemanager.powerbidedicated.fluent",
