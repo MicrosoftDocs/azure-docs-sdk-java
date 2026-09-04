@@ -1,7 +1,7 @@
 {
   "Name": "azure-resourcemanager-dashboard",
-  "Version": "1.2.0-beta.2",
-  "DevVersion": null,
+  "Version": "1.3.0-alpha.20260903.1",
+  "DevVersion": "1.3.0-alpha.20260903.1",
   "DirectoryPath": "sdk/dashboard/azure-resourcemanager-dashboard",
   "ServiceDirectory": "dashboard",
   "ReadMePath": "sdk/dashboard/azure-resourcemanager-dashboard/README.md",
@@ -10,20 +10,21 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-dashboard",
-  "ReleaseStatus": "2025-07-21",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
+    "groupId": "com.azure.resourcemanager",
     "safeName": "azureresourcemanagerdashboard",
     "triggeringPaths": [
       "/sdk/dashboard/ci.yml"
     ],
-    "groupId": "com.azure.resourcemanager",
     "name": "azure-resourcemanager-dashboard"
   },
   "CIParameters": {
     "CIMatrixConfigs": []
   },
+  "SpecProjectPath": "specification/dashboard/Dashboard.Management",
   "Namespaces": [
     "com.azure.resourcemanager.dashboard",
     "com.azure.resourcemanager.dashboard.fluent",
