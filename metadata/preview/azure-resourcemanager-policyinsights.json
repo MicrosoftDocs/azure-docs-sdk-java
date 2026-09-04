@@ -1,7 +1,7 @@
 {
   "Name": "azure-resourcemanager-policyinsights",
-  "Version": "1.1.0-beta.1",
-  "DevVersion": null,
+  "Version": "1.1.0-alpha.20260904.1",
+  "DevVersion": "1.1.0-alpha.20260904.1",
   "DirectoryPath": "sdk/policyinsights/azure-resourcemanager-policyinsights",
   "ServiceDirectory": "policyinsights",
   "ReadMePath": "sdk/policyinsights/azure-resourcemanager-policyinsights/README.md",
@@ -10,12 +10,12 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-policyinsights",
-  "ReleaseStatus": "2025-07-29",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "groupId": "com.azure.resourcemanager",
     "name": "azure-resourcemanager-policyinsights",
+    "groupId": "com.azure.resourcemanager",
     "triggeringPaths": [
       "/sdk/policyinsights/ci.yml"
     ],
@@ -24,6 +24,7 @@
   "CIParameters": {
     "CIMatrixConfigs": []
   },
+  "SpecProjectPath": null,
   "Namespaces": [
     "com.azure.resourcemanager.policyinsights",
     "com.azure.resourcemanager.policyinsights.fluent",
