@@ -1,7 +1,7 @@
 {
   "Name": "azure-maps-weather",
-  "Version": "1.0.0-beta.3",
-  "DevVersion": null,
+  "Version": "1.0.0-alpha.20260904.1",
+  "DevVersion": "1.0.0-alpha.20260904.1",
   "DirectoryPath": "sdk/maps/azure-maps-weather",
   "ServiceDirectory": "maps/azure-maps-weather",
   "ReadMePath": "sdk/maps/azure-maps-weather/README.md",
@@ -10,17 +10,21 @@
   "SdkType": "client",
   "IsNewSdk": true,
   "ArtifactName": "azure-maps-weather",
-  "ReleaseStatus": "2025-02-19",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "safeName": "azuremapsweather",
     "groupId": "com.azure",
-    "name": "azure-maps-weather"
+    "name": "azure-maps-weather",
+    "safeName": "azuremapsweather",
+    "triggeringPaths": [
+      "/sdk/maps/azure-maps-weather/ci.yml"
+    ]
   },
   "CIParameters": {
     "CIMatrixConfigs": []
   },
+  "SpecProjectPath": null,
   "Namespaces": [
     "com.azure.maps.weather",
     "com.azure.maps.weather.models"
