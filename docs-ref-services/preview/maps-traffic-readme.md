@@ -1,17 +1,17 @@
 ---
 title: Azure Maps SDK Traffic client library for Java
-keywords: Azure, java, SDK, API, azure-maps-traffic, maps
-ms.date: 11/10/2022
+keywords: Azure, java, SDK, API, azure-maps-traffic, maps/azure-maps-traffic
+ms.date: 09/04/2026
 ms.topic: reference
 ms.devlang: java
-ms.service: maps
+ms.service: maps/azure-maps-traffic
 ---
-# Azure Maps SDK Traffic client library for Java - version 1.0.0-beta.1 
+# Azure Maps SDK Traffic client library for Java - version 1.0.0-alpha.20260904.1 
 
 
 Azure Maps SDK Traffic client library for Java.
 
-This package contains the Azure Maps SDK Traffic client library which contains Azure Maps Traffic APIs. For documentation on how to use this package, please see [Azure Maps Traffic SDK for Java](/rest/api/maps/traffic).
+This package contains the Azure Maps SDK Traffic client library which contains Azure Maps Traffic APIs. For documentation on how to use this package, please see [Azure Maps Traffic SDK for Java](https://learn.microsoft.com/rest/api/maps/traffic).
 
 [Source code][source] | [API reference documentation][docs] | [REST API documentation][rest_docs] | [Product documentation][product_docs] | [Samples][samples]
 
@@ -36,7 +36,7 @@ Various documentation is available to help you get started
 <dependency>
     <groupId>com.azure</groupId>
     <artifactId>azure-maps-traffic</artifactId>
-    <version>1.0.0-beta.1</version>
+    <version>1.0.0-beta.2</version>
 </dependency>
 ```
 [//]: # ({x-version-update-end})
@@ -49,7 +49,10 @@ Azure Maps Libraries require a `TokenCredential` implementation for authenticati
 
 ### Authentication
 
-By default, Azure Active Directory token authentication depends on correct configure of following environment variables.
+We recommend using Microsoft Entra ID with [`DefaultAzureCredential`][azure_identity]. This allows you to configure authentication through the `AZURE_TOKEN_CREDENTIALS` environment variable.
+Set this variable as described in the [Learn documentation][customize_defaultAzureCredential], which provides the most up-to-date guidance and examples.
+
+By default, Azure Active Directory token authentication depends on correct configuration of the following environment variables.
 
 - `AZURE_CLIENT_ID` for Azure client ID.
 - `AZURE_TENANT_ID` for Azure tenant ID.
@@ -108,13 +111,14 @@ System.out.println("Get Traffic Flow Tile:");
 // options
 client.getTrafficFlowTile(
     new TrafficFlowTileOptions()
-        .setTrafficFlowTileStyle(TrafficFlowTileStyle.RELATIVE_DELAY).setFormat(TileFormat.PNG).setZoom(10));
+        .setTrafficFlowTileStyle(TrafficFlowTileStyle.RELATIVE_DELAY).setFormat(TileFormat.PNG).setZoom(10)
+        .setTileIndex(new TileIndex().setX(1022).setY(680)));
 
 // complete
 client.getTrafficFlowTile(
     new TrafficFlowTileOptions()
         .setTrafficFlowTileStyle(TrafficFlowTileStyle.RELATIVE_DELAY).setFormat(TileFormat.PNG).setZoom(10)
-        .setTileIndex(new TileIndex().setX(2044).setY(1360)).setThickness(10));
+        .setTileIndex(new TileIndex().setX(1022).setY(680)).setThickness(10));
 ```
 
 Get Traffic Incident Detail
@@ -146,7 +150,7 @@ System.out.println("Get Traffic Incident Tile:");
 client.getTrafficIncidentTile(
     new TrafficIncidentTileOptions()
         .setFormat(TileFormat.PNG).setTrafficIncidentTileStyle(TrafficIncidentTileStyle.S3)
-        .setZoom(10));
+        .setZoom(10).setTileIndex(new TileIndex().setX(1022).setY(680)));
 
 // complete
 client.getTrafficIncidentTile(
@@ -157,7 +161,7 @@ client.getTrafficIncidentTile(
 
 Get Traffic Incident Viewport
 ```java com.azure.maps.traffic.sync.get_traffic_incident_viewport
-System.out.println("Get Traffic Incident Tile:");
+System.out.println("Get Traffic Incident Viewport:");
 
 // options
 client.getTrafficIncidentViewport(
@@ -181,11 +185,11 @@ For example, if you search with an invalid coordinate, a error is returned, indi
 ## Next steps
 
 Several Azure Maps Traffic Java SDK samples are available to you in the SDK's GitHub repository.
-[Azure Maps Traffic Samples](https://github.com/Azure/azure-sdk-for-java/tree/azure-maps-traffic_1.0.0-beta.1/sdk/maps/azure-maps-traffic/src/samples)
+[Azure Maps Traffic Samples](https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/maps/azure-maps-traffic/src/samples)
 
 ## Contributing
 
-For details on contributing to this repository, see the [contributing guide](https://github.com/Azure/azure-sdk-for-java/blob/azure-maps-traffic_1.0.0-beta.1/CONTRIBUTING.md).
+For details on contributing to this repository, see the [contributing guide](https://github.com/Azure/azure-sdk-for-java/blob/main/CONTRIBUTING.md).
 
 1. Fork it
 1. Create your feature branch (`git checkout -b my-new-feature`)
@@ -194,17 +198,17 @@ For details on contributing to this repository, see the [contributing guide](htt
 1. Create new Pull Request
 
 <!-- LINKS -->
-[source]: https://github.com/Azure/azure-sdk-for-java/tree/azure-maps-traffic_1.0.0-beta.1/sdk/maps/azure-maps-traffic/src
-[samples]:  https://github.com/Azure/azure-sdk-for-java/tree/azure-maps-traffic_1.0.0-beta.1/sdk/maps/azure-maps-traffic/src/samples
-[rest_docs]: /rest/api/maps
-[product_docs]: /azure/azure-maps/
+[source]: https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/maps/azure-maps-traffic/src
+[samples]:  https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/maps/azure-maps-traffic/src/samples
+[rest_docs]: https://learn.microsoft.com/rest/api/maps
+[product_docs]: https://learn.microsoft.com/azure/azure-maps/
 [docs]: https://azure.github.io/azure-sdk-for-java/
-[jdk]: /java/azure/jdk/
+[jdk]: https://learn.microsoft.com/java/azure/jdk/
 [azure_subscription]: https://azure.microsoft.com/free/
-[azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/azure-maps-traffic_1.0.0-beta.1/sdk/identity/azure-identity
-[azure_core_http_netty]: https://github.com/Azure/azure-sdk-for-java/blob/azure-maps-traffic_1.0.0-beta.1/sdk/core/azure-core-http-netty
-[authenticate]: https://github.com/Azure/azure-sdk-for-java/blob/azure-maps-traffic_1.0.0-beta.1/sdk/resourcemanager/docs/AUTH.md
-[design]: https://github.com/Azure/azure-sdk-for-java/blob/azure-maps-traffic_1.0.0-beta.1/sdk/resourcemanager/docs/DESIGN.md
-
+[azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/identity/azure-identity
+[azure_core_http_netty]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/core/azure-core-http-netty
+[authenticate]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/resourcemanager/docs/AUTH.md
+[design]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/resourcemanager/docs/DESIGN.md
+[customize_defaultAzureCredential]: https://aka.ms/azsdk/java/identity/credential-chains#how-to-customize-defaultazurecredential
 
 
