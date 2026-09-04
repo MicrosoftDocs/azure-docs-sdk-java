@@ -1,7 +1,7 @@
 {
   "Name": "azure-resourcemanager-costmanagement",
-  "Version": "1.0.0-beta.7",
-  "DevVersion": null,
+  "Version": "1.1.0-alpha.20260903.1",
+  "DevVersion": "1.1.0-alpha.20260903.1",
   "DirectoryPath": "sdk/costmanagement/azure-resourcemanager-costmanagement",
   "ServiceDirectory": "costmanagement",
   "ReadMePath": "sdk/costmanagement/azure-resourcemanager-costmanagement/README.md",
@@ -10,19 +10,26 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-costmanagement",
-  "ReleaseStatus": "2024-10-31",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
     "name": "azure-resourcemanager-costmanagement",
+    "triggeringPaths": [
+      "/sdk/costmanagement/ci.yml"
+    ],
     "groupId": "com.azure.resourcemanager",
     "safeName": "azureresourcemanagercostmanagement"
   },
-  "CIMatrixConfigs": [],
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": null,
   "Namespaces": [
     "com.azure.resourcemanager.costmanagement",
     "com.azure.resourcemanager.costmanagement.fluent",
     "com.azure.resourcemanager.costmanagement.fluent.models",
     "com.azure.resourcemanager.costmanagement.models"
-  ]
+  ],
+  "CIMatrixConfigs": []
 }
