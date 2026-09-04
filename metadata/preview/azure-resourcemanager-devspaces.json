@@ -1,7 +1,7 @@
 {
   "Name": "azure-resourcemanager-devspaces",
-  "Version": "1.0.0-beta.3",
-  "DevVersion": null,
+  "Version": "1.0.0-alpha.20260903.1",
+  "DevVersion": "1.0.0-alpha.20260903.1",
   "DirectoryPath": "sdk/devspaces/azure-resourcemanager-devspaces",
   "ServiceDirectory": "devspaces",
   "ReadMePath": "sdk/devspaces/azure-resourcemanager-devspaces/README.md",
@@ -10,14 +10,21 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-devspaces",
-  "ReleaseStatus": "2024-10-17",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "name": "azure-resourcemanager-devspaces",
     "groupId": "com.azure.resourcemanager",
-    "safeName": "azureresourcemanagerdevspaces"
+    "safeName": "azureresourcemanagerdevspaces",
+    "name": "azure-resourcemanager-devspaces",
+    "triggeringPaths": [
+      "/sdk/devspaces/ci.yml"
+    ]
   },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": null,
   "Namespaces": [
     "com.azure.resourcemanager.devspaces",
     "com.azure.resourcemanager.devspaces.fluent",
