@@ -1,7 +1,7 @@
 {
   "Name": "azure-communication-callautomation",
-  "Version": "1.6.0-beta.2",
-  "DevVersion": null,
+  "Version": "1.8.0-alpha.20260903.1",
+  "DevVersion": "1.8.0-alpha.20260903.1",
   "DirectoryPath": "sdk/communication/azure-communication-callautomation",
   "ServiceDirectory": "communication/azure-communication-callautomation",
   "ReadMePath": "sdk/communication/azure-communication-callautomation/README.md",
@@ -10,20 +10,21 @@
   "SdkType": "client",
   "IsNewSdk": true,
   "ArtifactName": "azure-communication-callautomation",
-  "ReleaseStatus": "2026-01-29",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "name": "azure-communication-callautomation",
-    "groupId": "com.azure",
     "safeName": "azurecommunicationcallautomation",
+    "name": "azure-communication-callautomation",
     "triggeringPaths": [
       "/sdk/communication/azure-communication-callautomation/ci.yml"
-    ]
+    ],
+    "groupId": "com.azure"
   },
   "CIParameters": {
     "CIMatrixConfigs": []
   },
+  "SpecProjectPath": null,
   "Namespaces": [
     "com.azure.communication.callautomation",
     "com.azure.communication.callautomation.models",
