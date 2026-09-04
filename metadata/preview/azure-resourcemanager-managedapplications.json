@@ -1,7 +1,7 @@
 {
   "Name": "azure-resourcemanager-managedapplications",
-  "Version": "1.0.0-beta.4",
-  "DevVersion": null,
+  "Version": "1.1.0-alpha.20260903.1",
+  "DevVersion": "1.1.0-alpha.20260903.1",
   "DirectoryPath": "sdk/managedapplications/azure-resourcemanager-managedapplications",
   "ServiceDirectory": "managedapplications",
   "ReadMePath": "sdk/managedapplications/azure-resourcemanager-managedapplications/README.md",
@@ -10,19 +10,26 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-managedapplications",
-  "ReleaseStatus": "2024-10-31",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "name": "azure-resourcemanager-managedapplications",
     "groupId": "com.azure.resourcemanager",
+    "triggeringPaths": [
+      "/sdk/managedapplications/ci.yml"
+    ],
+    "name": "azure-resourcemanager-managedapplications",
     "safeName": "azureresourcemanagermanagedapplications"
   },
-  "CIMatrixConfigs": [],
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": null,
   "Namespaces": [
     "com.azure.resourcemanager.managedapplications",
     "com.azure.resourcemanager.managedapplications.fluent",
     "com.azure.resourcemanager.managedapplications.fluent.models",
     "com.azure.resourcemanager.managedapplications.models"
-  ]
+  ],
+  "CIMatrixConfigs": []
 }
