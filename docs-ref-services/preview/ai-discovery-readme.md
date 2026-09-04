@@ -1,12 +1,12 @@
 ---
 title: Azure Discovery client library for Java
 keywords: Azure, java, SDK, API, azure-ai-discovery, discovery
-ms.date: 08/25/2026
+ms.date: 09/04/2026
 ms.topic: reference
 ms.devlang: java
 ms.service: discovery
 ---
-# Azure Discovery client library for Java - version 1.0.0-beta.1 
+# Azure Discovery client library for Java - version 1.0.0-alpha.20260904.1 
 
 
 This package contains Microsoft Azure Discovery client library.
@@ -107,7 +107,7 @@ Always ensure that the chosen API version is fully supported and operational for
 
 ## Contributing
 
-For details on contributing to this repository, see the [contributing guide](https://github.com/Azure/azure-sdk-for-java/blob/com.azure+azure-ai-discovery_1.0.0-beta.1/CONTRIBUTING.md).
+For details on contributing to this repository, see the [contributing guide](https://github.com/Azure/azure-sdk-for-java/blob/main/CONTRIBUTING.md).
 
 1. Fork it
 1. Create your feature branch (`git checkout -b my-new-feature`)
@@ -120,7 +120,7 @@ For details on contributing to this repository, see the [contributing guide](htt
 [docs]: https://azure.github.io/azure-sdk-for-java/
 [jdk]: https://learn.microsoft.com/azure/developer/java/fundamentals/
 [azure_subscription]: https://azure.microsoft.com/free/
-[azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/com.azure+azure-ai-discovery_1.0.0-beta.1/sdk/identity/azure-identity
+[azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/identity/azure-identity
 [logging]: https://github.com/Azure/azure-sdk-for-java/wiki/Logging-in-Azure-SDK
-[samples]: https://github.com/Azure/azure-sdk-for-java/tree/com.azure+azure-ai-discovery_1.0.0-beta.1/sdk/discovery/azure-ai-discovery/src/samples
+[samples]: https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/discovery/azure-ai-discovery/src/samples
 
