@@ -1,7 +1,7 @@
 {
   "Name": "azure-cosmos",
-  "Version": "4.71.0-beta.1",
-  "DevVersion": null,
+  "Version": "4.83.0-alpha.20260904.3",
+  "DevVersion": "4.83.0-alpha.20260904.3",
   "DirectoryPath": "sdk/cosmos/azure-cosmos",
   "ServiceDirectory": "cosmos",
   "ReadMePath": "sdk/cosmos/azure-cosmos/README.md",
@@ -10,25 +10,28 @@
   "SdkType": "client",
   "IsNewSdk": true,
   "ArtifactName": "azure-cosmos",
-  "ReleaseStatus": "2025-05-19",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": [
     "com.azure:azure-cosmos-tests",
     "com.azure:azure-cosmos-benchmark",
-    "com.azure.cosmos.spark:azure-cosmos-spark_3_2-12"
+    "com.azure.cosmos.spark:azure-cosmos-spark_3",
+    "com.azure.cosmos.spark:azure-cosmos-spark_3-5",
+    "com.azure.cosmos.spark:azure-cosmos-spark_4"
   ],
   "ArtifactDetails": {
     "name": "azure-cosmos",
+    "releaseInBatch": "${{ parameters.release_azurecosmos }}",
     "triggeringPaths": [
       "/sdk/cosmos/ci.yml"
     ],
     "groupId": "com.azure",
-    "releaseInBatch": "${{ parameters.release_azurecosmos }}",
     "safeName": "azurecosmos"
   },
   "CIParameters": {
     "CIMatrixConfigs": []
   },
+  "SpecProjectPath": null,
   "Namespaces": [
     "com.azure.cosmos",
     "com.azure.cosmos.models",
