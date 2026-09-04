@@ -1,7 +1,7 @@
 {
   "Name": "azure-health-deidentification",
-  "Version": "1.1.0-beta.1",
-  "DevVersion": null,
+  "Version": "1.1.0-alpha.20260903.1",
+  "DevVersion": "1.1.0-alpha.20260903.1",
   "DirectoryPath": "sdk/healthdataaiservices/azure-health-deidentification",
   "ServiceDirectory": "healthdataaiservices",
   "ReadMePath": "sdk/healthdataaiservices/azure-health-deidentification/README.md",
@@ -10,21 +10,22 @@
   "SdkType": "client",
   "IsNewSdk": true,
   "ArtifactName": "azure-health-deidentification",
-  "ReleaseStatus": "2025-10-03",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "safeName": "azureaihealthdataaiservices",
+    "groupId": "com.azure",
     "triggeringPaths": [
       "/sdk/healthdataaiservices/ci.yml"
     ],
     "name": "azure-health-deidentification",
     "releaseInBatch": "${{ parameters.release_azureaihealthdataaiservices }}",
-    "groupId": "com.azure"
+    "safeName": "azureaihealthdataaiservices"
   },
   "CIParameters": {
     "CIMatrixConfigs": []
   },
+  "SpecProjectPath": "specification/healthdataaiservices/HealthDataAIServices.DeidServices",
   "Namespaces": [
     "com.azure.health.deidentification",
     "com.azure.health.deidentification.models"
