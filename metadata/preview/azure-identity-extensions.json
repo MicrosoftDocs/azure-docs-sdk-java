@@ -1,0 +1,33 @@
+{
+  "Name": "azure-identity-extensions",
+  "Version": "1.3.0-alpha.20260903.1",
+  "DevVersion": "1.3.0-alpha.20260903.1",
+  "DirectoryPath": "sdk/identity/azure-identity-extensions",
+  "ServiceDirectory": "identity/azure-identity-extensions",
+  "ReadMePath": "sdk/identity/azure-identity-extensions/README.md",
+  "ChangeLogPath": "sdk/identity/azure-identity-extensions/CHANGELOG.md",
+  "Group": "com.azure",
+  "SdkType": "client",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-identity-extensions",
+  "ReleaseStatus": "Unreleased",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "releaseInBatch": "${{ parameters.release_azureidentityextensions }}",
+    "groupId": "com.azure",
+    "name": "azure-identity-extensions",
+    "triggeringPaths": [
+      "/sdk/identity/azure-identity-extensions/ci.yml"
+    ],
+    "safeName": "azureidentityextensions"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": null,
+  "Namespaces": [
+    "com.azure.identity.extensions.jdbc.mysql",
+    "com.azure.identity.extensions.jdbc.postgresql"
+  ]
+}
