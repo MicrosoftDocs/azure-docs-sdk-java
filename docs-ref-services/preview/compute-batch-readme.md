@@ -1,12 +1,12 @@
 ---
 title: Azure Batch client library for Java
 keywords: Azure, java, SDK, API, azure-compute-batch, batch
-ms.date: 03/05/2026
+ms.date: 09/04/2026
 ms.topic: reference
 ms.devlang: java
 ms.service: batch
 ---
-# Azure Batch client library for Java - version 1.0.0-beta.6 
+# Azure Batch client library for Java - version 1.0.0-alpha.20260904.1 
 
 
 This README is based on the latest released version of the Azure Compute Batch SDK, which allows users to run large-scale parallel and high-performance computing (HPC) batch jobs efficiently in Azure. To view the latest version of the package, [visit this link](https://central.sonatype.com/artifact/com.azure/azure-compute-batch/overview)
@@ -113,7 +113,7 @@ Various documentation is available to help you get started
 <dependency>
     <groupId>com.azure</groupId>
     <artifactId>azure-compute-batch</artifactId>
-    <version>1.0.0-beta.6</version>
+    <version>1.0.0</version>
 </dependency>
 ```
 
@@ -230,7 +230,7 @@ batchClient.createPool(new BatchPoolCreateParameters("poolId", "STANDARD_DC2s_V2
 ```
 
 For more information on code snippets and samples relating to using the management plane SDK, please visit these links:
-[Management Plane Code Snippets and Samples](https://github.com/Azure/azure-sdk-for-java/blob/com.azure+azure-compute-batch_1.0.0-beta.6/sdk/batch/azure-resourcemanager-batch/SAMPLE.md)
+[Management Plane Code Snippets and Samples](https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/batch/azure-resourcemanager-batch/SAMPLE.md)
 [API documentation for com.azure.resourcemanager.batch](https://learn.microsoft.com/java/api/com.azure.resourcemanager.batch?view=azure-java-stable)
 [azure-resourcemanager-batch SDK](https://central.sonatype.com/artifact/com.azure.resourcemanager/azure-resourcemanager-batch/overview)
 
@@ -266,7 +266,7 @@ The `deletePool` method can be used to delete a pool.
 Here are examples for the synchronous and asynchronous client of how to simply issue the operation:
 
 ```java com.azure.compute.batch.pool.delete-pool-simple
-SyncPoller<BatchPool, Void> deletePoolPoller = batchClient.beginDeletePool("poolId");
+SyncPoller<BatchPool, BatchPool> deletePoolPoller = batchClient.beginDeletePool("poolId");
 ```
 
 ```java com.azure.compute.batch.pool.delete-pool-async-simple
@@ -276,7 +276,7 @@ batchAsyncClient.beginDeletePool("poolId").subscribe();
 Here are examples for the synchronous and asynchronous client of how to wait for the polling to finish and retrieve the final result:
 
 ```java com.azure.compute.batch.pool.delete-pool-complex
-SyncPoller<BatchPool, Void> complexDeletePoolPoller = batchClient.beginDeletePool("poolId");
+SyncPoller<BatchPool, BatchPool> complexDeletePoolPoller = batchClient.beginDeletePool("poolId");
 PollResponse<BatchPool> finalDeletePoolResponse = complexDeletePoolPoller.waitForCompletion();
 ```
 
@@ -343,7 +343,7 @@ BatchPool stoppedPool = stopPoller.getFinalResult();
 The `enablePoolAutoScale` method can be used to enable auto scale in a pool. You can optionally pass in a `BatchPoolEnableAutoScaleParameters` object.
 
 ```java com.azure.compute.batch.enable-pool-auto-scale.pool-enable-autoscale
-BatchPoolEnableAutoScaleParameters autoScaleParameters = new BatchPoolEnableAutoScaleParameters()
+BatchPoolAutoScaleEnableParameters autoScaleParameters = new BatchPoolAutoScaleEnableParameters()
     .setAutoScaleEvaluationInterval(Duration.ofMinutes(6))
     .setAutoScaleFormula("$TargetDedicated = 1;");
 
@@ -424,12 +424,12 @@ The `createJob` method can be used to create a job.
 
 ```java com.azure.compute.batch.create-job.creates-a-basic-job
 batchClient.createJob(
-    new BatchJobCreateParameters("jobId", new BatchPoolInfo().setPoolId("poolId")).setPriority(0), null);
+    new BatchJobCreateParameters("jobId", new BatchPoolDetails().setPoolId("poolId")).setPriority(0), null);
 ```
 
 ```java com.azure.compute.batch.create-job.creates-a-basic-job-async
 batchAsyncClient.createJob(
-    new BatchJobCreateParameters("jobId", new BatchPoolInfo().setPoolId("poolId")).setPriority(0))
+    new BatchJobCreateParameters("jobId", new BatchPoolDetails().setPoolId("poolId")).setPriority(0))
     .subscribe(unused -> System.out.println("Job created successfully"));
 ```
 
@@ -454,7 +454,7 @@ PagedIterable<BatchJob> jobList = batchClient.listJobs(new BatchJobsListOptions(
 The `beginDeleteJob` method can be used to delete a job.
 
 ```java com.azure.compute.batch.delete-job.job-delete
-SyncPoller<BatchJob, Void> deleteJobPoller = batchClient.beginDeleteJob("jobId");
+SyncPoller<BatchJob, BatchJob> deleteJobPoller = batchClient.beginDeleteJob("jobId");
 
 PollResponse<BatchJob> initialDeleteJobResponse = deleteJobPoller.poll();
 if (initialDeleteJobResponse.getStatus() == LongRunningOperationStatus.IN_PROGRESS) {
@@ -472,7 +472,7 @@ The `replaceJob` method can be used to replace an existing job.
 
 ```java com.azure.compute.batch.replace-job.job-patch
 batchClient.replaceJob("jobId",
-    new BatchJob(new BatchPoolInfo().setPoolId("poolId")).setPriority(100)
+    new BatchJob(new BatchPoolDetails().setPoolId("poolId")).setPriority(100)
         .setConstraints(
             new BatchJobConstraints().setMaxWallClockTime(Duration.parse("PT1H")).setMaxTaskRetryCount(-1)),
     null, null);
@@ -487,7 +487,7 @@ batchClient.updateJob("jobId",
     new BatchJobUpdateParameters().setPriority(100)
         .setConstraints(
             new BatchJobConstraints().setMaxWallClockTime(Duration.parse("PT1H")).setMaxTaskRetryCount(-1))
-        .setPoolInfo(new BatchPoolInfo().setPoolId("poolId")),
+        .setPoolInfo(new BatchPoolDetails().setPoolId("poolId")),
     null, null);
 ```
 
@@ -615,7 +615,7 @@ The `createJobSchedule` method with a parameter of type `BatchJobScheduleCreateP
 ```java com.azure.compute.batch.create-job-schedule.creates-a-basic-job-schedule
 batchClient.createJobSchedule(new BatchJobScheduleCreateParameters("jobScheduleId",
     new BatchJobScheduleConfiguration().setRecurrenceInterval(Duration.parse("PT5M")),
-    new BatchJobSpecification(new BatchPoolInfo().setPoolId("poolId"))), null);
+    new BatchJobSpecification(new BatchPoolDetails().setPoolId("poolId"))), null);
 ```
 
 #### Get Job Schedule
@@ -641,7 +641,7 @@ for (BatchJobSchedule schedule : batchClient.listJobSchedules()) {
 The `beginDeleteJobSchedule` method can be used to delete a Job Schedule.
 
 ```java com.azure.compute.batch.job-schedule.delete-job-schedule
-SyncPoller<BatchJobSchedule, Void> jobScheduleDeletePoller = batchClient.beginDeleteJobSchedule("jobScheduleId");
+SyncPoller<BatchJobSchedule, BatchJobSchedule> jobScheduleDeletePoller = batchClient.beginDeleteJobSchedule("jobScheduleId");
 
 PollResponse<BatchJobSchedule> initialJobScheduleDeleteResponse = jobScheduleDeletePoller.poll();
 if (initialJobScheduleDeleteResponse.getStatus() == LongRunningOperationStatus.IN_PROGRESS) {
@@ -659,7 +659,7 @@ The `replaceJobSchedule` method can be used to replace a job schedule.
 
 ```java com.azure.compute.batch.replace-job-schedule.job-schedule-patch
 batchClient.replaceJobSchedule("jobScheduleId",
-    new BatchJobSchedule(new BatchJobSpecification(new BatchPoolInfo().setPoolId("poolId")).setPriority(0)
+    new BatchJobSchedule(new BatchJobSpecification(new BatchPoolDetails().setPoolId("poolId")).setPriority(0)
         .setUsesTaskDependencies(false)
         .setConstraints(
             new BatchJobConstraints().setMaxWallClockTime(Duration.parse("P10675199DT2H48M5.4775807S"))
@@ -867,7 +867,7 @@ BatchNodeDeallocateParameters deallocateParams
     = new BatchNodeDeallocateParameters().setNodeDeallocateOption(BatchNodeDeallocateOption.TERMINATE);
 
 BatchNodeDeallocateOptions deallocateOptions
-    = new BatchNodeDeallocateOptions().setTimeOutInSeconds(Duration.ofSeconds(30))
+    = new BatchNodeDeallocateOptions().setTimeout(Duration.ofSeconds(30))
         .setParameters(deallocateParams);
 SyncPoller<BatchNode, BatchNode> deallocatePoller = batchClient.beginDeallocateNode("poolId", "nodeId", deallocateOptions);
 
@@ -940,7 +940,7 @@ The `createNodeUser` method with a `BatchNodeUserCreateParameters` parameter can
 
 ```java com.azure.compute.batch.create-node-user.node-create-user
 batchClient.createNodeUser("poolId", "tvm-1695681911_1-20161121t182739z",
-    new BatchNodeUserCreateParameters("userName").setIsAdmin(false)
+    new BatchNodeUserCreateParameters("userName").setAdmin(false)
         .setExpiryTime(OffsetDateTime.parse("2017-08-01T00:00:00Z"))
         .setPassword("fakeTokenPlaceholder"),
     null);
