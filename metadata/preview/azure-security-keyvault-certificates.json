@@ -1,7 +1,7 @@
 {
   "Name": "azure-security-keyvault-certificates",
-  "Version": "4.10.0-beta.1",
-  "DevVersion": null,
+  "Version": "4.10.0-alpha.20260904.1",
+  "DevVersion": "4.10.0-alpha.20260904.1",
   "DirectoryPath": "sdk/keyvault/azure-security-keyvault-certificates",
   "ServiceDirectory": "keyvault",
   "ReadMePath": "sdk/keyvault/azure-security-keyvault-certificates/README.md",
@@ -10,7 +10,7 @@
   "SdkType": "client",
   "IsNewSdk": true,
   "ArtifactName": "azure-security-keyvault-certificates",
-  "ReleaseStatus": "2026-06-04",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": [
     "com.azure:azure-security-keyvault-perf",
@@ -20,9 +20,9 @@
     "triggeringPaths": [
       "/sdk/keyvault/ci.yml"
     ],
-    "releaseInBatch": "${{ parameters.release_azuresecuritykeyvaultcertificates }}",
     "groupId": "com.azure",
     "name": "azure-security-keyvault-certificates",
+    "releaseInBatch": "${{ parameters.release_azuresecuritykeyvaultcertificates }}",
     "safeName": "azuresecuritykeyvaultcertificates"
   },
   "CIParameters": {
