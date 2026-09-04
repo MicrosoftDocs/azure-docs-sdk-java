@@ -1,7 +1,7 @@
 {
   "Name": "azure-resourcemanager-orbital",
-  "Version": "1.0.0-beta.3",
-  "DevVersion": null,
+  "Version": "1.1.0-alpha.20260903.1",
+  "DevVersion": "1.1.0-alpha.20260903.1",
   "DirectoryPath": "sdk/orbital/azure-resourcemanager-orbital",
   "ServiceDirectory": "orbital",
   "ReadMePath": "sdk/orbital/azure-resourcemanager-orbital/README.md",
@@ -10,19 +10,26 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-orbital",
-  "ReleaseStatus": "2024-10-31",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
     "name": "azure-resourcemanager-orbital",
+    "triggeringPaths": [
+      "/sdk/orbital/ci.yml"
+    ],
     "groupId": "com.azure.resourcemanager",
     "safeName": "azureresourcemanagerorbital"
   },
-  "CIMatrixConfigs": [],
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": null,
   "Namespaces": [
     "com.azure.resourcemanager.orbital",
     "com.azure.resourcemanager.orbital.fluent",
     "com.azure.resourcemanager.orbital.fluent.models",
     "com.azure.resourcemanager.orbital.models"
-  ]
+  ],
+  "CIMatrixConfigs": []
 }
