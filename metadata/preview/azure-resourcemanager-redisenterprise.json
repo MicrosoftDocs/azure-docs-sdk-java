@@ -1,7 +1,7 @@
 {
   "Name": "azure-resourcemanager-redisenterprise",
-  "Version": "2.2.0-beta.1",
-  "DevVersion": null,
+  "Version": "2.2.0-alpha.20260903.1",
+  "DevVersion": "2.2.0-alpha.20260903.1",
   "DirectoryPath": "sdk/redisenterprise/azure-resourcemanager-redisenterprise",
   "ServiceDirectory": "redisenterprise",
   "ReadMePath": "sdk/redisenterprise/azure-resourcemanager-redisenterprise/README.md",
@@ -10,16 +10,16 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-redisenterprise",
-  "ReleaseStatus": "2026-07-14",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "groupId": "com.azure.resourcemanager",
-    "name": "azure-resourcemanager-redisenterprise",
     "triggeringPaths": [
       "/sdk/redisenterprise/ci.yml"
     ],
-    "safeName": "azureresourcemanagerredisenterprise"
+    "safeName": "azureresourcemanagerredisenterprise",
+    "groupId": "com.azure.resourcemanager",
+    "name": "azure-resourcemanager-redisenterprise"
   },
   "CIParameters": {
     "CIMatrixConfigs": []
