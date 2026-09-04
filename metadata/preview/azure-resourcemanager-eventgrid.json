@@ -1,7 +1,7 @@
 {
   "Name": "azure-resourcemanager-eventgrid",
-  "Version": "1.3.0-beta.1",
-  "DevVersion": null,
+  "Version": "1.3.0-alpha.20260903.1",
+  "DevVersion": "1.3.0-alpha.20260903.1",
   "DirectoryPath": "sdk/eventgrid/azure-resourcemanager-eventgrid",
   "ServiceDirectory": "eventgrid/azure-resourcemanager-eventgrid",
   "ReadMePath": "sdk/eventgrid/azure-resourcemanager-eventgrid/README.md",
@@ -10,21 +10,22 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-eventgrid",
-  "ReleaseStatus": "2025-07-25",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "releaseInBatch": "${{ parameters.release_azureresourcemanagereventgrid }}",
-    "safeName": "azureresourcemanagereventgrid",
     "name": "azure-resourcemanager-eventgrid",
+    "safeName": "azureresourcemanagereventgrid",
     "groupId": "com.azure.resourcemanager",
     "triggeringPaths": [
       "/sdk/eventgrid/azure-resourcemanager-eventgrid/ci.yml"
-    ]
+    ],
+    "releaseInBatch": "${{ parameters.release_azureresourcemanagereventgrid }}"
   },
   "CIParameters": {
     "CIMatrixConfigs": []
   },
+  "SpecProjectPath": null,
   "Namespaces": [
     "com.azure.resourcemanager.eventgrid",
     "com.azure.resourcemanager.eventgrid.fluent",
