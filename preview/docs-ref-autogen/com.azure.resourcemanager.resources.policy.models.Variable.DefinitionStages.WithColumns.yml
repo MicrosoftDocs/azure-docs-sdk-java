@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.policy.models.Variable.DefinitionStages.WithColumns"
+fullName: "com.azure.resourcemanager.resources.policy.models.Variable.DefinitionStages.WithColumns"
+name: "Variable.DefinitionStages.WithColumns"
+nameWithType: "Variable.DefinitionStages.WithColumns"
+summary: "The stage of the Variable definition allowing to specify columns."
+syntax: "public static interface **Variable.DefinitionStages.WithColumns**"
+methods:
+- uid: "com.azure.resourcemanager.resources.policy.models.Variable.DefinitionStages.WithColumns.withColumns(java.util.List<com.azure.resourcemanager.resources.policy.models.PolicyVariableColumn>)"
+  fullName: "com.azure.resourcemanager.resources.policy.models.Variable.DefinitionStages.WithColumns.withColumns(List<PolicyVariableColumn> columns)"
+  name: "withColumns(List<PolicyVariableColumn> columns)"
+  nameWithType: "Variable.DefinitionStages.WithColumns.withColumns(List<PolicyVariableColumn> columns)"
+  summary: "Specifies the columns property: Variable column definitions.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Variable column definitions."
+    name: "columns"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyVariableColumn?alt=com.azure.resourcemanager.resources.policy.models.PolicyVariableColumn&text=PolicyVariableColumn\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public abstract Variable.DefinitionStages.WithCreate withColumns(List<PolicyVariableColumn> columns)"
+  desc: "Specifies the columns property: Variable column definitions.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.resources.policy.models.Variable.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.resources.policy.models.Variable.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the Variable definition allowing to specify columns."
+metadata: {}
+package: "com.azure.resourcemanager.resources.policy.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-policy:1.0.0-beta.1

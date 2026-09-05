@@ -1,0 +1,12 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.DefinitionStages"
+fullName: "com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.DefinitionStages"
+name: "PolicyEnrollment.DefinitionStages"
+nameWithType: "PolicyEnrollment.DefinitionStages"
+summary: "The Policy<wbr>Enrollment definition stages."
+syntax: "public static interface **PolicyEnrollment.DefinitionStages**"
+type: "interface"
+desc: "The PolicyEnrollment definition stages."
+metadata: {}
+package: "com.azure.resourcemanager.resources.policy.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-policy:1.0.0-beta.1

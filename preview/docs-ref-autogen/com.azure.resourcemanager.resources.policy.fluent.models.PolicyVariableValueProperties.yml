@@ -1,0 +1,94 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.policy.fluent.models.PolicyVariableValueProperties"
+fullName: "com.azure.resourcemanager.resources.policy.fluent.models.PolicyVariableValueProperties"
+name: "PolicyVariableValueProperties"
+nameWithType: "PolicyVariableValueProperties"
+summary: "The variable value properties."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **PolicyVariableValueProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resources.policy.fluent.models.PolicyVariableValueProperties?alt=com.azure.resourcemanager.resources.policy.fluent.models.PolicyVariableValueProperties&text=PolicyVariableValueProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resources.policy.fluent.models.PolicyVariableValueProperties.PolicyVariableValueProperties()"
+  fullName: "com.azure.resourcemanager.resources.policy.fluent.models.PolicyVariableValueProperties.PolicyVariableValueProperties()"
+  name: "PolicyVariableValueProperties()"
+  nameWithType: "PolicyVariableValueProperties.PolicyVariableValueProperties()"
+  summary: "Creates an instance of Policy<wbr>Variable<wbr>Value<wbr>Properties class."
+  syntax: "public PolicyVariableValueProperties()"
+  desc: "Creates an instance of PolicyVariableValueProperties class."
+methods:
+- uid: "com.azure.resourcemanager.resources.policy.fluent.models.PolicyVariableValueProperties.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.resources.policy.fluent.models.PolicyVariableValueProperties.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "PolicyVariableValueProperties.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Policy<wbr>Variable<wbr>Value<wbr>Properties from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static PolicyVariableValueProperties fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of PolicyVariableValueProperties from the JsonReader."
+  returns:
+    description: "An instance of PolicyVariableValueProperties if the JsonReader was pointing to an instance of it, or null\n if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.resources.policy.fluent.models.PolicyVariableValueProperties?alt=com.azure.resourcemanager.resources.policy.fluent.models.PolicyVariableValueProperties&text=PolicyVariableValueProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.policy.fluent.models.PolicyVariableValueProperties.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.resources.policy.fluent.models.PolicyVariableValueProperties.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "PolicyVariableValueProperties.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.policy.fluent.models.PolicyVariableValueProperties.values()"
+  fullName: "com.azure.resourcemanager.resources.policy.fluent.models.PolicyVariableValueProperties.values()"
+  name: "values()"
+  nameWithType: "PolicyVariableValueProperties.values()"
+  summary: "Get the values property: Variable value column value array."
+  syntax: "public List<PolicyVariableValueColumnValue> values()"
+  desc: "Get the values property: Variable value column value array."
+  returns:
+    description: "the values value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyVariableValueColumnValue?alt=com.azure.resourcemanager.resources.policy.models.PolicyVariableValueColumnValue&text=PolicyVariableValueColumnValue\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.resources.policy.fluent.models.PolicyVariableValueProperties.withValues(java.util.List<com.azure.resourcemanager.resources.policy.models.PolicyVariableValueColumnValue>)"
+  fullName: "com.azure.resourcemanager.resources.policy.fluent.models.PolicyVariableValueProperties.withValues(List<PolicyVariableValueColumnValue> values)"
+  name: "withValues(List<PolicyVariableValueColumnValue> values)"
+  nameWithType: "PolicyVariableValueProperties.withValues(List<PolicyVariableValueColumnValue> values)"
+  summary: "Set the values property: Variable value column value array."
+  parameters:
+  - description: "the values value to set."
+    name: "values"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyVariableValueColumnValue?alt=com.azure.resourcemanager.resources.policy.models.PolicyVariableValueColumnValue&text=PolicyVariableValueColumnValue\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public PolicyVariableValueProperties withValues(List<PolicyVariableValueColumnValue> values)"
+  desc: "Set the values property: Variable value column value array."
+  returns:
+    description: "the PolicyVariableValueProperties object itself."
+    type: "<xref href=\"com.azure.resourcemanager.resources.policy.fluent.models.PolicyVariableValueProperties?alt=com.azure.resourcemanager.resources.policy.fluent.models.PolicyVariableValueProperties&text=PolicyVariableValueProperties\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "The variable value properties."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resources.policy.fluent.models.PolicyVariableValueProperties?alt=com.azure.resourcemanager.resources.policy.fluent.models.PolicyVariableValueProperties&text=PolicyVariableValueProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.resources.policy.fluent.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-policy:1.0.0-beta.1

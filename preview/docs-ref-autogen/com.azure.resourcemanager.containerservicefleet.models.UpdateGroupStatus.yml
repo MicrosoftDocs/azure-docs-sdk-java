@@ -42,6 +42,16 @@ methods:
   returns:
     description: "the beforeGates value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.containerservicefleet.models.UpdateRunGateStatus?alt=com.azure.resourcemanager.containerservicefleet.models.UpdateRunGateStatus&text=UpdateRunGateStatus\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.containerservicefleet.models.UpdateGroupStatus.failureCount()"
+  fullName: "com.azure.resourcemanager.containerservicefleet.models.UpdateGroupStatus.failureCount()"
+  name: "failureCount()"
+  nameWithType: "UpdateGroupStatus.failureCount()"
+  summary: "Get the failure<wbr>Count property: The total member upgrade failures within the group."
+  syntax: "public Integer failureCount()"
+  desc: "Get the failureCount property: The total member upgrade failures within the group."
+  returns:
+    description: "the failureCount value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
 - uid: "com.azure.resourcemanager.containerservicefleet.models.UpdateGroupStatus.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.containerservicefleet.models.UpdateGroupStatus.fromJson(JsonReader jsonReader)"
   name: "fromJson(JsonReader jsonReader)"
@@ -61,6 +71,16 @@ methods:
   returns:
     description: "An instance of UpdateGroupStatus if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
     type: "<xref href=\"com.azure.resourcemanager.containerservicefleet.models.UpdateGroupStatus?alt=com.azure.resourcemanager.containerservicefleet.models.UpdateGroupStatus&text=UpdateGroupStatus\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.containerservicefleet.models.UpdateGroupStatus.maxAllowedFailures()"
+  fullName: "com.azure.resourcemanager.containerservicefleet.models.UpdateGroupStatus.maxAllowedFailures()"
+  name: "maxAllowedFailures()"
+  nameWithType: "UpdateGroupStatus.maxAllowedFailures()"
+  summary: "Get the max<wbr>Allowed<wbr>Failures property: The max number of member upgrade failures allowed within this group, resolved from the Update<wbr>Strategy.<wbr>Update<wbr>Group.<wbr>max<wbr>Allowed<wbr>Failures value."
+  syntax: "public Integer maxAllowedFailures()"
+  desc: "Get the maxAllowedFailures property: The max number of member upgrade failures allowed within this group, resolved from the UpdateStrategy.UpdateGroup.maxAllowedFailures value."
+  returns:
+    description: "the maxAllowedFailures value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
 - uid: "com.azure.resourcemanager.containerservicefleet.models.UpdateGroupStatus.maxConcurrency()"
   fullName: "com.azure.resourcemanager.containerservicefleet.models.UpdateGroupStatus.maxConcurrency()"
   name: "maxConcurrency()"
@@ -119,4 +139,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.containerservicefleet.models.UpdateGroupStatus?alt=com.azure.resourcemanager.containerservicefleet.models.UpdateGroupStatus&text=UpdateGroupStatus\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.containerservicefleet.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-containerservicefleet:1.3.0-beta.4
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerservicefleet:1.4.0-beta.1

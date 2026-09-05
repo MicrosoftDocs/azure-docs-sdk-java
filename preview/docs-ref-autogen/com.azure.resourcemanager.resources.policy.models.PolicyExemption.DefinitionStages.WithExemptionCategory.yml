@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithExemptionCategory"
+fullName: "com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithExemptionCategory"
+name: "PolicyExemption.DefinitionStages.WithExemptionCategory"
+nameWithType: "PolicyExemption.DefinitionStages.WithExemptionCategory"
+summary: "The stage of the Policy<wbr>Exemption definition allowing to specify exemption<wbr>Category."
+syntax: "public static interface **PolicyExemption.DefinitionStages.WithExemptionCategory**"
+methods:
+- uid: "com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithExemptionCategory.withExemptionCategory(com.azure.resourcemanager.resources.policy.models.ExemptionCategory)"
+  fullName: "com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithExemptionCategory.withExemptionCategory(ExemptionCategory exemptionCategory)"
+  name: "withExemptionCategory(ExemptionCategory exemptionCategory)"
+  nameWithType: "PolicyExemption.DefinitionStages.WithExemptionCategory.withExemptionCategory(ExemptionCategory exemptionCategory)"
+  summary: "Specifies the exemption<wbr>Category property: The policy exemption category."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The policy exemption category. Possible values are Waiver and Mitigated."
+    name: "exemptionCategory"
+    type: "<xref href=\"com.azure.resourcemanager.resources.policy.models.ExemptionCategory?alt=com.azure.resourcemanager.resources.policy.models.ExemptionCategory&text=ExemptionCategory\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract PolicyExemption.DefinitionStages.WithCreate withExemptionCategory(ExemptionCategory exemptionCategory)"
+  desc: "Specifies the exemptionCategory property: The policy exemption category. Possible values are Waiver and Mitigated.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the PolicyExemption definition allowing to specify exemptionCategory."
+metadata: {}
+package: "com.azure.resourcemanager.resources.policy.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-policy:1.0.0-beta.1

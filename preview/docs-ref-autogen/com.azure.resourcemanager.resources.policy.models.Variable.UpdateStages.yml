@@ -1,0 +1,12 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.policy.models.Variable.UpdateStages"
+fullName: "com.azure.resourcemanager.resources.policy.models.Variable.UpdateStages"
+name: "Variable.UpdateStages"
+nameWithType: "Variable.UpdateStages"
+summary: "The Variable update stages."
+syntax: "public static interface **Variable.UpdateStages**"
+type: "interface"
+desc: "The Variable update stages."
+metadata: {}
+package: "com.azure.resourcemanager.resources.policy.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-policy:1.0.0-beta.1

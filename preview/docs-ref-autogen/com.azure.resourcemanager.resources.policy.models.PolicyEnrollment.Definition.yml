@@ -1,0 +1,16 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.Definition"
+fullName: "com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.Definition"
+name: "PolicyEnrollment.Definition"
+nameWithType: "PolicyEnrollment.Definition"
+summary: "The entirety of the Policy<wbr>Enrollment definition."
+syntax: "public static interface **PolicyEnrollment.Definition**</br> extends <xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.DefinitionStages.Blank?alt=com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.DefinitionStages.Blank&text=Blank\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.DefinitionStages.WithScope?alt=com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.DefinitionStages.WithScope&text=WithScope\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of the PolicyEnrollment definition."
+implements:
+- "<xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.DefinitionStages.Blank?alt=com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.DefinitionStages.Blank&text=Blank\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.DefinitionStages.WithScope?alt=com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.DefinitionStages.WithScope&text=WithScope\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.azure.resourcemanager.resources.policy.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-policy:1.0.0-beta.1

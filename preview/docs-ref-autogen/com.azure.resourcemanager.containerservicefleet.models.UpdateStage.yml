@@ -89,6 +89,16 @@ methods:
   returns:
     description: "the groups value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.containerservicefleet.models.UpdateGroup?alt=com.azure.resourcemanager.containerservicefleet.models.UpdateGroup&text=UpdateGroup\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.containerservicefleet.models.UpdateStage.maxAllowedFailures()"
+  fullName: "com.azure.resourcemanager.containerservicefleet.models.UpdateStage.maxAllowedFailures()"
+  name: "maxAllowedFailures()"
+  nameWithType: "UpdateStage.maxAllowedFailures()"
+  summary: "Get the max<wbr>Allowed<wbr>Failures property: Limits the number of member (cluster) upgrade failures tolerated within this stage."
+  syntax: "public String maxAllowedFailures()"
+  desc: "Get the maxAllowedFailures property: Limits the number of member (cluster) upgrade failures tolerated within this stage. Failures are evaluated over all members within all groups within this stage. Accepts either: • A fixed count n, where n >= 0 • A percentage p%, where 0 <= p <= 100 Percentage resolves at stage start using: resolvedThreshold = ceil(p \\* N), where p is the percentage as a decimal and N is the number of members in this stage at scope start. Examples: • \"3\" --> up to 3 member upgrade failures are tolerated within this stage. The 4th failure would cause the entire stage to fail. • \"25%\" --> up to 25% of the members in this stage can fail their upgrade before the stage is considered failed."
+  returns:
+    description: "the maxAllowedFailures value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.containerservicefleet.models.UpdateStage.maxConcurrency()"
   fullName: "com.azure.resourcemanager.containerservicefleet.models.UpdateStage.maxConcurrency()"
   name: "maxConcurrency()"
@@ -99,6 +109,16 @@ methods:
   returns:
     description: "the maxConcurrency value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.containerservicefleet.models.UpdateStage.memberSelector()"
+  fullName: "com.azure.resourcemanager.containerservicefleet.models.UpdateStage.memberSelector()"
+  name: "memberSelector()"
+  nameWithType: "UpdateStage.memberSelector()"
+  summary: "Get the member<wbr>Selector property: Select the members of the stage."
+  syntax: "public MemberSelector memberSelector()"
+  desc: "Get the memberSelector property: Select the members of the stage. \\* If specified without UpdateGroup, one implicit group containing the selected members will be created. \\* If specified with UpdateGroup, members will be pre-filtered before group-level selection logic is applied. \\* If not specified, group-level selection logic will be used."
+  returns:
+    description: "the memberSelector value."
+    type: "<xref href=\"com.azure.resourcemanager.containerservicefleet.models.MemberSelector?alt=com.azure.resourcemanager.containerservicefleet.models.MemberSelector&text=MemberSelector\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.containerservicefleet.models.UpdateStage.name()"
   fullName: "com.azure.resourcemanager.containerservicefleet.models.UpdateStage.name()"
   name: "name()"
@@ -177,6 +197,20 @@ methods:
   returns:
     description: "the UpdateStage object itself."
     type: "<xref href=\"com.azure.resourcemanager.containerservicefleet.models.UpdateStage?alt=com.azure.resourcemanager.containerservicefleet.models.UpdateStage&text=UpdateStage\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.containerservicefleet.models.UpdateStage.withMaxAllowedFailures(java.lang.String)"
+  fullName: "com.azure.resourcemanager.containerservicefleet.models.UpdateStage.withMaxAllowedFailures(String maxAllowedFailures)"
+  name: "withMaxAllowedFailures(String maxAllowedFailures)"
+  nameWithType: "UpdateStage.withMaxAllowedFailures(String maxAllowedFailures)"
+  summary: "Set the max<wbr>Allowed<wbr>Failures property: Limits the number of member (cluster) upgrade failures tolerated within this stage."
+  parameters:
+  - description: "the maxAllowedFailures value to set."
+    name: "maxAllowedFailures"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public UpdateStage withMaxAllowedFailures(String maxAllowedFailures)"
+  desc: "Set the maxAllowedFailures property: Limits the number of member (cluster) upgrade failures tolerated within this stage. Failures are evaluated over all members within all groups within this stage. Accepts either: • A fixed count n, where n >= 0 • A percentage p%, where 0 <= p <= 100 Percentage resolves at stage start using: resolvedThreshold = ceil(p \\* N), where p is the percentage as a decimal and N is the number of members in this stage at scope start. Examples: • \"3\" --> up to 3 member upgrade failures are tolerated within this stage. The 4th failure would cause the entire stage to fail. • \"25%\" --> up to 25% of the members in this stage can fail their upgrade before the stage is considered failed."
+  returns:
+    description: "the UpdateStage object itself."
+    type: "<xref href=\"com.azure.resourcemanager.containerservicefleet.models.UpdateStage?alt=com.azure.resourcemanager.containerservicefleet.models.UpdateStage&text=UpdateStage\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.containerservicefleet.models.UpdateStage.withMaxConcurrency(java.lang.String)"
   fullName: "com.azure.resourcemanager.containerservicefleet.models.UpdateStage.withMaxConcurrency(String maxConcurrency)"
   name: "withMaxConcurrency(String maxConcurrency)"
@@ -188,6 +222,20 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public UpdateStage withMaxConcurrency(String maxConcurrency)"
   desc: "Set the maxConcurrency property: The max number of upgrades that can run concurrently across all groups in this stage. Acts as a ceiling (and not a quota) for the number of concurrent upgrades within the stage you want to tolerate at a time. Actual concurrency may be lower depending on group-level concurrency limits or individual member conditions. Stage maxConcurrency has a min value of \"1\". Accepts either: • A fixed count, e.g., \"3\" • A percentage, e.g., \"25%\" (range 1–100). Percentage is of the total number of clusters across all groups in the stage. Fractional results are rounded down. A minimum of 1 upgrade is enforced. Examples: • \"3\" --> up to 3 clusters from this stage upgrade at once (across all groups). • \"100%\" --> “all at once”; up to all clusters in this stage upgrade at the same time. • \"25%\" --> up to 25% of the stage’s total clusters upgrade at the same time."
+  returns:
+    description: "the UpdateStage object itself."
+    type: "<xref href=\"com.azure.resourcemanager.containerservicefleet.models.UpdateStage?alt=com.azure.resourcemanager.containerservicefleet.models.UpdateStage&text=UpdateStage\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.containerservicefleet.models.UpdateStage.withMemberSelector(com.azure.resourcemanager.containerservicefleet.models.MemberSelector)"
+  fullName: "com.azure.resourcemanager.containerservicefleet.models.UpdateStage.withMemberSelector(MemberSelector memberSelector)"
+  name: "withMemberSelector(MemberSelector memberSelector)"
+  nameWithType: "UpdateStage.withMemberSelector(MemberSelector memberSelector)"
+  summary: "Set the member<wbr>Selector property: Select the members of the stage."
+  parameters:
+  - description: "the memberSelector value to set."
+    name: "memberSelector"
+    type: "<xref href=\"com.azure.resourcemanager.containerservicefleet.models.MemberSelector?alt=com.azure.resourcemanager.containerservicefleet.models.MemberSelector&text=MemberSelector\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public UpdateStage withMemberSelector(MemberSelector memberSelector)"
+  desc: "Set the memberSelector property: Select the members of the stage. \\* If specified without UpdateGroup, one implicit group containing the selected members will be created. \\* If specified with UpdateGroup, members will be pre-filtered before group-level selection logic is applied. \\* If not specified, group-level selection logic will be used."
   returns:
     description: "the UpdateStage object itself."
     type: "<xref href=\"com.azure.resourcemanager.containerservicefleet.models.UpdateStage?alt=com.azure.resourcemanager.containerservicefleet.models.UpdateStage&text=UpdateStage\" data-throw-if-not-resolved=\"False\" />"
@@ -211,4 +259,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.containerservicefleet.models.UpdateStage?alt=com.azure.resourcemanager.containerservicefleet.models.UpdateStage&text=UpdateStage\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.containerservicefleet.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-containerservicefleet:1.3.0-beta.4
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerservicefleet:1.4.0-beta.1

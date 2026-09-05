@@ -1,0 +1,98 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.policy.models.ExemptionManagementMode"
+fullName: "com.azure.resourcemanager.resources.policy.models.ExemptionManagementMode"
+name: "ExemptionManagementMode"
+nameWithType: "ExemptionManagementMode"
+summary: "The mode indicating how the policy exemption is managed."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ExemptionManagementMode**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resources.policy.models.ExemptionManagementMode?alt=com.azure.resourcemanager.resources.policy.models.ExemptionManagementMode&text=ExemptionManagementMode\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resources.policy.models.ExemptionManagementMode.ExemptionManagementMode()"
+  fullName: "com.azure.resourcemanager.resources.policy.models.ExemptionManagementMode.ExemptionManagementMode()"
+  name: "ExemptionManagementMode()"
+  nameWithType: "ExemptionManagementMode.ExemptionManagementMode()"
+  summary: "Creates a new instance of Exemption<wbr>Management<wbr>Mode value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.resources.policy.models.ExemptionManagementMode.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public ExemptionManagementMode()"
+  desc: "Creates a new instance of ExemptionManagementMode value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.resources.policy.models.ExemptionManagementMode.ADMIN"
+  fullName: "com.azure.resourcemanager.resources.policy.models.ExemptionManagementMode.ADMIN"
+  name: "ADMIN"
+  nameWithType: "ExemptionManagementMode.ADMIN"
+  summary: "This mode means the exemption is managed by an administrator and requires permission for the policy exemption action."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resources.policy.models.ExemptionManagementMode?alt=com.azure.resourcemanager.resources.policy.models.ExemptionManagementMode&text=ExemptionManagementMode\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ExemptionManagementMode ADMIN"
+  desc: "This mode means the exemption is managed by an administrator and requires permission for the policy exemption action."
+- uid: "com.azure.resourcemanager.resources.policy.models.ExemptionManagementMode.USER_SELF_SERVE"
+  fullName: "com.azure.resourcemanager.resources.policy.models.ExemptionManagementMode.USER_SELF_SERVE"
+  name: "USER_SELF_SERVE"
+  nameWithType: "ExemptionManagementMode.USER_SELF_SERVE"
+  summary: "This mode means the exemption is managed by the user it applies to, through the self-serve exemption settings on the policy assignment."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resources.policy.models.ExemptionManagementMode?alt=com.azure.resourcemanager.resources.policy.models.ExemptionManagementMode&text=ExemptionManagementMode\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ExemptionManagementMode USER_SELF_SERVE"
+  desc: "This mode means the exemption is managed by the user it applies to, through the self-serve exemption settings on the policy assignment."
+methods:
+- uid: "com.azure.resourcemanager.resources.policy.models.ExemptionManagementMode.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resources.policy.models.ExemptionManagementMode.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "ExemptionManagementMode.fromString(String name)"
+  summary: "Creates or finds a Exemption<wbr>Management<wbr>Mode from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static ExemptionManagementMode fromString(String name)"
+  desc: "Creates or finds a ExemptionManagementMode from its string representation."
+  returns:
+    description: "the corresponding ExemptionManagementMode."
+    type: "<xref href=\"com.azure.resourcemanager.resources.policy.models.ExemptionManagementMode?alt=com.azure.resourcemanager.resources.policy.models.ExemptionManagementMode&text=ExemptionManagementMode\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.policy.models.ExemptionManagementMode.values()"
+  fullName: "com.azure.resourcemanager.resources.policy.models.ExemptionManagementMode.values()"
+  name: "values()"
+  nameWithType: "ExemptionManagementMode.values()"
+  summary: "Gets known Exemption<wbr>Management<wbr>Mode values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<ExemptionManagementMode> values()"
+  desc: "Gets known ExemptionManagementMode values."
+  returns:
+    description: "known ExemptionManagementMode values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.resources.policy.models.ExemptionManagementMode?alt=com.azure.resourcemanager.resources.policy.models.ExemptionManagementMode&text=ExemptionManagementMode\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "The mode indicating how the policy exemption is managed. Possible values are Admin and UserSelfServe."
+metadata: {}
+package: "com.azure.resourcemanager.resources.policy.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-policy:1.0.0-beta.1

@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.policy.models.VariableValue.DefinitionStages.WithParentResource"
+fullName: "com.azure.resourcemanager.resources.policy.models.VariableValue.DefinitionStages.WithParentResource"
+name: "VariableValue.DefinitionStages.WithParentResource"
+nameWithType: "VariableValue.DefinitionStages.WithParentResource"
+summary: "The stage of the Variable<wbr>Value definition allowing to specify parent resource."
+syntax: "public static interface **VariableValue.DefinitionStages.WithParentResource**"
+methods:
+- uid: "com.azure.resourcemanager.resources.policy.models.VariableValue.DefinitionStages.WithParentResource.withExistingVariable(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resources.policy.models.VariableValue.DefinitionStages.WithParentResource.withExistingVariable(String variableName)"
+  name: "withExistingVariable(String variableName)"
+  nameWithType: "VariableValue.DefinitionStages.WithParentResource.withExistingVariable(String variableName)"
+  summary: "Specifies variable<wbr>Name."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the variable to operate on."
+    name: "variableName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract VariableValue.DefinitionStages.WithCreate withExistingVariable(String variableName)"
+  desc: "Specifies variableName."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.resources.policy.models.VariableValue.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.resources.policy.models.VariableValue.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the VariableValue definition allowing to specify parent resource."
+metadata: {}
+package: "com.azure.resourcemanager.resources.policy.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-policy:1.0.0-beta.1

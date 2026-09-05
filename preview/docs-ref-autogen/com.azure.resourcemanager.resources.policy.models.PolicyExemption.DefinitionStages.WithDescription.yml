@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithDescription"
+fullName: "com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithDescription"
+name: "PolicyExemption.DefinitionStages.WithDescription"
+nameWithType: "PolicyExemption.DefinitionStages.WithDescription"
+summary: "The stage of the Policy<wbr>Exemption definition allowing to specify description."
+syntax: "public static interface **PolicyExemption.DefinitionStages.WithDescription**"
+methods:
+- uid: "com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithDescription.withDescription(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithDescription.withDescription(String description)"
+  name: "withDescription(String description)"
+  nameWithType: "PolicyExemption.DefinitionStages.WithDescription.withDescription(String description)"
+  summary: "Specifies the description property: The description of the policy exemption.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The description of the policy exemption."
+    name: "description"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract PolicyExemption.DefinitionStages.WithCreate withDescription(String description)"
+  desc: "Specifies the description property: The description of the policy exemption.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the PolicyExemption definition allowing to specify description."
+metadata: {}
+package: "com.azure.resourcemanager.resources.policy.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-policy:1.0.0-beta.1

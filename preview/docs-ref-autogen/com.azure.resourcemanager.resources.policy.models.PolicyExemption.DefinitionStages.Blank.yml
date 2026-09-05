@@ -1,0 +1,14 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.Blank"
+fullName: "com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.Blank"
+name: "PolicyExemption.DefinitionStages.Blank"
+nameWithType: "PolicyExemption.DefinitionStages.Blank"
+summary: "The first stage of the Policy<wbr>Exemption definition."
+syntax: "public static interface **PolicyExemption.DefinitionStages.Blank**</br> extends <xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithScope?alt=com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithScope&text=WithScope\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The first stage of the PolicyExemption definition."
+implements:
+- "<xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithScope?alt=com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithScope&text=WithScope\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.azure.resourcemanager.resources.policy.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-policy:1.0.0-beta.1

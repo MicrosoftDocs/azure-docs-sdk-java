@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithPolicyDefinitionReferenceIds"
+fullName: "com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithPolicyDefinitionReferenceIds"
+name: "PolicyExemption.DefinitionStages.WithPolicyDefinitionReferenceIds"
+nameWithType: "PolicyExemption.DefinitionStages.WithPolicyDefinitionReferenceIds"
+summary: "The stage of the Policy<wbr>Exemption definition allowing to specify policy<wbr>Definition<wbr>Reference<wbr>Ids."
+syntax: "public static interface **PolicyExemption.DefinitionStages.WithPolicyDefinitionReferenceIds**"
+methods:
+- uid: "com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithPolicyDefinitionReferenceIds.withPolicyDefinitionReferenceIds(java.util.List<java.lang.String>)"
+  fullName: "com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithPolicyDefinitionReferenceIds.withPolicyDefinitionReferenceIds(List<String> policyDefinitionReferenceIds)"
+  name: "withPolicyDefinitionReferenceIds(List<String> policyDefinitionReferenceIds)"
+  nameWithType: "PolicyExemption.DefinitionStages.WithPolicyDefinitionReferenceIds.withPolicyDefinitionReferenceIds(List<String> policyDefinitionReferenceIds)"
+  summary: "Specifies the policy<wbr>Definition<wbr>Reference<wbr>Ids property: The policy definition reference ID list when the associated policy assignment is an assignment of a policy set definition.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The policy definition reference ID list when the associated policy\n assignment is an assignment of a policy set definition."
+    name: "policyDefinitionReferenceIds"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+  syntax: "public abstract PolicyExemption.DefinitionStages.WithCreate withPolicyDefinitionReferenceIds(List<String> policyDefinitionReferenceIds)"
+  desc: "Specifies the policyDefinitionReferenceIds property: The policy definition reference ID list when the associated policy assignment is an assignment of a policy set definition.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the PolicyExemption definition allowing to specify policyDefinitionReferenceIds."
+metadata: {}
+package: "com.azure.resourcemanager.resources.policy.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-policy:1.0.0-beta.1

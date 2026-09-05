@@ -1,0 +1,12 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.policy.models.PolicyExemption.UpdateStages"
+fullName: "com.azure.resourcemanager.resources.policy.models.PolicyExemption.UpdateStages"
+name: "PolicyExemption.UpdateStages"
+nameWithType: "PolicyExemption.UpdateStages"
+summary: "The Policy<wbr>Exemption update stages."
+syntax: "public static interface **PolicyExemption.UpdateStages**"
+type: "interface"
+desc: "The PolicyExemption update stages."
+metadata: {}
+package: "com.azure.resourcemanager.resources.policy.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-policy:1.0.0-beta.1

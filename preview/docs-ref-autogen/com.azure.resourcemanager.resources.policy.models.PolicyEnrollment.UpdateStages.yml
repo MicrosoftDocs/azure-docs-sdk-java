@@ -1,0 +1,12 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.UpdateStages"
+fullName: "com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.UpdateStages"
+name: "PolicyEnrollment.UpdateStages"
+nameWithType: "PolicyEnrollment.UpdateStages"
+summary: "The Policy<wbr>Enrollment update stages."
+syntax: "public static interface **PolicyEnrollment.UpdateStages**"
+type: "interface"
+desc: "The PolicyEnrollment update stages."
+metadata: {}
+package: "com.azure.resourcemanager.resources.policy.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-policy:1.0.0-beta.1

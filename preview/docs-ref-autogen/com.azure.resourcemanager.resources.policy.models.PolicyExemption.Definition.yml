@@ -1,0 +1,16 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.policy.models.PolicyExemption.Definition"
+fullName: "com.azure.resourcemanager.resources.policy.models.PolicyExemption.Definition"
+name: "PolicyExemption.Definition"
+nameWithType: "PolicyExemption.Definition"
+summary: "The entirety of the Policy<wbr>Exemption definition."
+syntax: "public static interface **PolicyExemption.Definition**</br> extends <xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.Blank?alt=com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.Blank&text=Blank\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithScope?alt=com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithScope&text=WithScope\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of the PolicyExemption definition."
+implements:
+- "<xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.Blank?alt=com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.Blank&text=Blank\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithScope?alt=com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithScope&text=WithScope\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.azure.resourcemanager.resources.policy.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-policy:1.0.0-beta.1

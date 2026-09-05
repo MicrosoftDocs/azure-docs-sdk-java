@@ -1,0 +1,94 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.policy.models.PolicyVariableColumn"
+fullName: "com.azure.resourcemanager.resources.policy.models.PolicyVariableColumn"
+name: "PolicyVariableColumn"
+nameWithType: "PolicyVariableColumn"
+summary: "The variable column."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **PolicyVariableColumn**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyVariableColumn?alt=com.azure.resourcemanager.resources.policy.models.PolicyVariableColumn&text=PolicyVariableColumn\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resources.policy.models.PolicyVariableColumn.PolicyVariableColumn()"
+  fullName: "com.azure.resourcemanager.resources.policy.models.PolicyVariableColumn.PolicyVariableColumn()"
+  name: "PolicyVariableColumn()"
+  nameWithType: "PolicyVariableColumn.PolicyVariableColumn()"
+  summary: "Creates an instance of Policy<wbr>Variable<wbr>Column class."
+  syntax: "public PolicyVariableColumn()"
+  desc: "Creates an instance of PolicyVariableColumn class."
+methods:
+- uid: "com.azure.resourcemanager.resources.policy.models.PolicyVariableColumn.columnName()"
+  fullName: "com.azure.resourcemanager.resources.policy.models.PolicyVariableColumn.columnName()"
+  name: "columnName()"
+  nameWithType: "PolicyVariableColumn.columnName()"
+  summary: "Get the column<wbr>Name property: The name of this policy variable column."
+  syntax: "public String columnName()"
+  desc: "Get the columnName property: The name of this policy variable column."
+  returns:
+    description: "the columnName value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.resources.policy.models.PolicyVariableColumn.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.resources.policy.models.PolicyVariableColumn.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "PolicyVariableColumn.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Policy<wbr>Variable<wbr>Column from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static PolicyVariableColumn fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of PolicyVariableColumn from the JsonReader."
+  returns:
+    description: "An instance of PolicyVariableColumn if the JsonReader was pointing to an instance of it, or null if it\n was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyVariableColumn?alt=com.azure.resourcemanager.resources.policy.models.PolicyVariableColumn&text=PolicyVariableColumn\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.policy.models.PolicyVariableColumn.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.resources.policy.models.PolicyVariableColumn.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "PolicyVariableColumn.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.policy.models.PolicyVariableColumn.withColumnName(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resources.policy.models.PolicyVariableColumn.withColumnName(String columnName)"
+  name: "withColumnName(String columnName)"
+  nameWithType: "PolicyVariableColumn.withColumnName(String columnName)"
+  summary: "Set the column<wbr>Name property: The name of this policy variable column."
+  parameters:
+  - description: "the columnName value to set."
+    name: "columnName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public PolicyVariableColumn withColumnName(String columnName)"
+  desc: "Set the columnName property: The name of this policy variable column."
+  returns:
+    description: "the PolicyVariableColumn object itself."
+    type: "<xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyVariableColumn?alt=com.azure.resourcemanager.resources.policy.models.PolicyVariableColumn&text=PolicyVariableColumn\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "The variable column."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyVariableColumn?alt=com.azure.resourcemanager.resources.policy.models.PolicyVariableColumn&text=PolicyVariableColumn\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.resources.policy.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-policy:1.0.0-beta.1

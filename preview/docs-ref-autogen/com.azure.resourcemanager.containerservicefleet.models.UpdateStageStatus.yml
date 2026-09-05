@@ -52,6 +52,16 @@ methods:
   returns:
     description: "the beforeGates value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.containerservicefleet.models.UpdateRunGateStatus?alt=com.azure.resourcemanager.containerservicefleet.models.UpdateRunGateStatus&text=UpdateRunGateStatus\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.containerservicefleet.models.UpdateStageStatus.failureCount()"
+  fullName: "com.azure.resourcemanager.containerservicefleet.models.UpdateStageStatus.failureCount()"
+  name: "failureCount()"
+  nameWithType: "UpdateStageStatus.failureCount()"
+  summary: "Get the failure<wbr>Count property: The total member upgrade failures within the stage."
+  syntax: "public Integer failureCount()"
+  desc: "Get the failureCount property: The total member upgrade failures within the stage."
+  returns:
+    description: "the failureCount value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
 - uid: "com.azure.resourcemanager.containerservicefleet.models.UpdateStageStatus.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.containerservicefleet.models.UpdateStageStatus.fromJson(JsonReader jsonReader)"
   name: "fromJson(JsonReader jsonReader)"
@@ -81,6 +91,16 @@ methods:
   returns:
     description: "the groups value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.containerservicefleet.models.UpdateGroupStatus?alt=com.azure.resourcemanager.containerservicefleet.models.UpdateGroupStatus&text=UpdateGroupStatus\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.containerservicefleet.models.UpdateStageStatus.maxAllowedFailures()"
+  fullName: "com.azure.resourcemanager.containerservicefleet.models.UpdateStageStatus.maxAllowedFailures()"
+  name: "maxAllowedFailures()"
+  nameWithType: "UpdateStageStatus.maxAllowedFailures()"
+  summary: "Get the max<wbr>Allowed<wbr>Failures property: The max number of member upgrade failures allowed within this stage, resolved from the Update<wbr>Strategy.<wbr>Update<wbr>Stage.<wbr>max<wbr>Allowed<wbr>Failures value."
+  syntax: "public Integer maxAllowedFailures()"
+  desc: "Get the maxAllowedFailures property: The max number of member upgrade failures allowed within this stage, resolved from the UpdateStrategy.UpdateStage.maxAllowedFailures value."
+  returns:
+    description: "the maxAllowedFailures value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
 - uid: "com.azure.resourcemanager.containerservicefleet.models.UpdateStageStatus.maxConcurrency()"
   fullName: "com.azure.resourcemanager.containerservicefleet.models.UpdateStageStatus.maxConcurrency()"
   name: "maxConcurrency()"
@@ -129,4 +149,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.containerservicefleet.models.UpdateStageStatus?alt=com.azure.resourcemanager.containerservicefleet.models.UpdateStageStatus&text=UpdateStageStatus\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.containerservicefleet.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-containerservicefleet:1.3.0-beta.4
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerservicefleet:1.4.0-beta.1

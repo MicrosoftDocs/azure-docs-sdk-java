@@ -1,0 +1,44 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.Update"
+fullName: "com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.Update"
+name: "PolicyEnrollment.Update"
+nameWithType: "PolicyEnrollment.Update"
+summary: "The template for Policy<wbr>Enrollment update."
+syntax: "public static interface **PolicyEnrollment.Update**</br> extends <xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.UpdateStages.WithAssignmentScopeValidation?alt=com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.UpdateStages.WithAssignmentScopeValidation&text=WithAssignmentScopeValidation\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.UpdateStages.WithResourceSelectors?alt=com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.UpdateStages.WithResourceSelectors&text=WithResourceSelectors\" data-throw-if-not-resolved=\"False\" />"
+methods:
+- uid: "com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.Update.apply()"
+  fullName: "com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.Update.apply()"
+  name: "apply()"
+  nameWithType: "PolicyEnrollment.Update.apply()"
+  summary: "Executes the update request."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract PolicyEnrollment apply()"
+  desc: "Executes the update request."
+  returns:
+    description: "the updated resource."
+    type: "<xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyEnrollment?alt=com.azure.resourcemanager.resources.policy.models.PolicyEnrollment&text=PolicyEnrollment\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.Update.apply(com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.Update.apply(Context context)"
+  name: "apply(Context context)"
+  nameWithType: "PolicyEnrollment.Update.apply(Context context)"
+  summary: "Executes the update request."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract PolicyEnrollment apply(Context context)"
+  desc: "Executes the update request."
+  returns:
+    description: "the updated resource."
+    type: "<xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyEnrollment?alt=com.azure.resourcemanager.resources.policy.models.PolicyEnrollment&text=PolicyEnrollment\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The template for PolicyEnrollment update."
+implements:
+- "<xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.UpdateStages.WithAssignmentScopeValidation?alt=com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.UpdateStages.WithAssignmentScopeValidation&text=WithAssignmentScopeValidation\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.UpdateStages.WithResourceSelectors?alt=com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.UpdateStages.WithResourceSelectors&text=WithResourceSelectors\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.azure.resourcemanager.resources.policy.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-policy:1.0.0-beta.1

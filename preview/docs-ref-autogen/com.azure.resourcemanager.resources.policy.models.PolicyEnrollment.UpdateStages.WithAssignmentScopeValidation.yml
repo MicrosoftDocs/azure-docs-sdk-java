@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.UpdateStages.WithAssignmentScopeValidation"
+fullName: "com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.UpdateStages.WithAssignmentScopeValidation"
+name: "PolicyEnrollment.UpdateStages.WithAssignmentScopeValidation"
+nameWithType: "PolicyEnrollment.UpdateStages.WithAssignmentScopeValidation"
+summary: "The stage of the Policy<wbr>Enrollment update allowing to specify assignment<wbr>Scope<wbr>Validation."
+syntax: "public static interface **PolicyEnrollment.UpdateStages.WithAssignmentScopeValidation**"
+methods:
+- uid: "com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.UpdateStages.WithAssignmentScopeValidation.withAssignmentScopeValidation(com.azure.resourcemanager.resources.policy.models.AssignmentScopeValidation)"
+  fullName: "com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.UpdateStages.WithAssignmentScopeValidation.withAssignmentScopeValidation(AssignmentScopeValidation assignmentScopeValidation)"
+  name: "withAssignmentScopeValidation(AssignmentScopeValidation assignmentScopeValidation)"
+  nameWithType: "PolicyEnrollment.UpdateStages.WithAssignmentScopeValidation.withAssignmentScopeValidation(AssignmentScopeValidation assignmentScopeValidation)"
+  summary: "Specifies the assignment<wbr>Scope<wbr>Validation property: The option whether to validate the enrollment is at or under the assignment scope.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The option whether to validate the enrollment is at or under the\n assignment scope."
+    name: "assignmentScopeValidation"
+    type: "<xref href=\"com.azure.resourcemanager.resources.policy.models.AssignmentScopeValidation?alt=com.azure.resourcemanager.resources.policy.models.AssignmentScopeValidation&text=AssignmentScopeValidation\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract PolicyEnrollment.Update withAssignmentScopeValidation(AssignmentScopeValidation assignmentScopeValidation)"
+  desc: "Specifies the assignmentScopeValidation property: The option whether to validate the enrollment is at or under the assignment scope.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.Update?alt=com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the PolicyEnrollment update allowing to specify assignmentScopeValidation."
+metadata: {}
+package: "com.azure.resourcemanager.resources.policy.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-policy:1.0.0-beta.1

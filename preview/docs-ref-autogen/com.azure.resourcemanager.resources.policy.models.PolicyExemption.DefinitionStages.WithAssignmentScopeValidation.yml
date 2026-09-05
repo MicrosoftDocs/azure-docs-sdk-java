@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithAssignmentScopeValidation"
+fullName: "com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithAssignmentScopeValidation"
+name: "PolicyExemption.DefinitionStages.WithAssignmentScopeValidation"
+nameWithType: "PolicyExemption.DefinitionStages.WithAssignmentScopeValidation"
+summary: "The stage of the Policy<wbr>Exemption definition allowing to specify assignment<wbr>Scope<wbr>Validation."
+syntax: "public static interface **PolicyExemption.DefinitionStages.WithAssignmentScopeValidation**"
+methods:
+- uid: "com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithAssignmentScopeValidation.withAssignmentScopeValidation(com.azure.resourcemanager.resources.policy.models.AssignmentScopeValidation)"
+  fullName: "com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithAssignmentScopeValidation.withAssignmentScopeValidation(AssignmentScopeValidation assignmentScopeValidation)"
+  name: "withAssignmentScopeValidation(AssignmentScopeValidation assignmentScopeValidation)"
+  nameWithType: "PolicyExemption.DefinitionStages.WithAssignmentScopeValidation.withAssignmentScopeValidation(AssignmentScopeValidation assignmentScopeValidation)"
+  summary: "Specifies the assignment<wbr>Scope<wbr>Validation property: The option whether validate the exemption is at or under the assignment scope.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The option whether validate the exemption is at or under the assignment\n scope."
+    name: "assignmentScopeValidation"
+    type: "<xref href=\"com.azure.resourcemanager.resources.policy.models.AssignmentScopeValidation?alt=com.azure.resourcemanager.resources.policy.models.AssignmentScopeValidation&text=AssignmentScopeValidation\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract PolicyExemption.DefinitionStages.WithCreate withAssignmentScopeValidation(AssignmentScopeValidation assignmentScopeValidation)"
+  desc: "Specifies the assignmentScopeValidation property: The option whether validate the exemption is at or under the assignment scope.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the PolicyExemption definition allowing to specify assignmentScopeValidation."
+metadata: {}
+package: "com.azure.resourcemanager.resources.policy.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-policy:1.0.0-beta.1

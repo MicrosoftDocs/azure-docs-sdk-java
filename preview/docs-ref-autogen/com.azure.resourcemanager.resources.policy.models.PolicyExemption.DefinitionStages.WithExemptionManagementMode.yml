@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithExemptionManagementMode"
+fullName: "com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithExemptionManagementMode"
+name: "PolicyExemption.DefinitionStages.WithExemptionManagementMode"
+nameWithType: "PolicyExemption.DefinitionStages.WithExemptionManagementMode"
+summary: "The stage of the Policy<wbr>Exemption definition allowing to specify exemption<wbr>Management<wbr>Mode."
+syntax: "public static interface **PolicyExemption.DefinitionStages.WithExemptionManagementMode**"
+methods:
+- uid: "com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithExemptionManagementMode.withExemptionManagementMode(com.azure.resourcemanager.resources.policy.models.ExemptionManagementMode)"
+  fullName: "com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithExemptionManagementMode.withExemptionManagementMode(ExemptionManagementMode exemptionManagementMode)"
+  name: "withExemptionManagementMode(ExemptionManagementMode exemptionManagementMode)"
+  nameWithType: "PolicyExemption.DefinitionStages.WithExemptionManagementMode.withExemptionManagementMode(ExemptionManagementMode exemptionManagementMode)"
+  summary: "Specifies the exemption<wbr>Management<wbr>Mode property: The mode indicating how the policy exemption is managed.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The mode indicating how the policy exemption is managed."
+    name: "exemptionManagementMode"
+    type: "<xref href=\"com.azure.resourcemanager.resources.policy.models.ExemptionManagementMode?alt=com.azure.resourcemanager.resources.policy.models.ExemptionManagementMode&text=ExemptionManagementMode\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract PolicyExemption.DefinitionStages.WithCreate withExemptionManagementMode(ExemptionManagementMode exemptionManagementMode)"
+  desc: "Specifies the exemptionManagementMode property: The mode indicating how the policy exemption is managed.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the PolicyExemption definition allowing to specify exemptionManagementMode."
+metadata: {}
+package: "com.azure.resourcemanager.resources.policy.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-policy:1.0.0-beta.1

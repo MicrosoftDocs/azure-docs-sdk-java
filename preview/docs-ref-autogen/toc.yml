@@ -74694,6 +74694,10 @@
     name: Affinity
     no-loc:
     - Affinity
+  - uid: com.azure.resourcemanager.containerservicefleet.models.AffinityPatch
+    name: AffinityPatch
+    no-loc:
+    - AffinityPatch
   - uid: com.azure.resourcemanager.containerservicefleet.models.AgentProfile
     name: AgentProfile
     no-loc:
@@ -74838,6 +74842,10 @@
     name: ClusterAffinity
     no-loc:
     - ClusterAffinity
+  - uid: com.azure.resourcemanager.containerservicefleet.models.ClusterAffinityPatch
+    name: ClusterAffinityPatch
+    no-loc:
+    - ClusterAffinityPatch
   - uid: com.azure.resourcemanager.containerservicefleet.models.ClusterMeshProfile
     name: ClusterMeshProfile
     no-loc:
@@ -74910,14 +74918,34 @@
     name: ClusterResourcePlacementSpec
     no-loc:
     - ClusterResourcePlacementSpec
+  - uid: com.azure.resourcemanager.containerservicefleet.models.ClusterResourcePlacementSpecPatch
+    name: ClusterResourcePlacementSpecPatch
+    no-loc:
+    - ClusterResourcePlacementSpecPatch
   - uid: com.azure.resourcemanager.containerservicefleet.models.ClusterSelector
     name: ClusterSelector
     no-loc:
     - ClusterSelector
+  - uid: com.azure.resourcemanager.containerservicefleet.models.ClusterSelectorPatch
+    name: ClusterSelectorPatch
+    no-loc:
+    - ClusterSelectorPatch
   - uid: com.azure.resourcemanager.containerservicefleet.models.ClusterSelectorTerm
     name: ClusterSelectorTerm
     no-loc:
     - ClusterSelectorTerm
+  - uid: com.azure.resourcemanager.containerservicefleet.models.ClusterSelectorTermPatch
+    name: ClusterSelectorTermPatch
+    no-loc:
+    - ClusterSelectorTermPatch
+  - uid: com.azure.resourcemanager.containerservicefleet.models.ClusterUpdateStrategyReference
+    name: ClusterUpdateStrategyReference
+    no-loc:
+    - ClusterUpdateStrategyReference
+  - uid: com.azure.resourcemanager.containerservicefleet.models.DayOfWeek
+    name: DayOfWeek
+    no-loc:
+    - DayOfWeek
   - uid: com.azure.resourcemanager.containerservicefleet.models.DeletePolicy
     name: DeletePolicy
     no-loc:
@@ -75070,6 +75098,10 @@
     name: FleetManagedNamespace.UpdateStages.WithIfMatch
     no-loc:
     - FleetManagedNamespace.UpdateStages.WithIfMatch
+  - uid: com.azure.resourcemanager.containerservicefleet.models.FleetManagedNamespace.UpdateStages.WithProperties
+    name: FleetManagedNamespace.UpdateStages.WithProperties
+    no-loc:
+    - FleetManagedNamespace.UpdateStages.WithProperties
   - uid: com.azure.resourcemanager.containerservicefleet.models.FleetManagedNamespace.UpdateStages.WithTags
     name: FleetManagedNamespace.UpdateStages.WithTags
     no-loc:
@@ -75078,6 +75110,10 @@
     name: FleetManagedNamespacePatch
     no-loc:
     - FleetManagedNamespacePatch
+  - uid: com.azure.resourcemanager.containerservicefleet.models.FleetManagedNamespacePropertiesPatch
+    name: FleetManagedNamespacePropertiesPatch
+    no-loc:
+    - FleetManagedNamespacePropertiesPatch
   - uid: com.azure.resourcemanager.containerservicefleet.models.FleetManagedNamespaceProvisioningState
     name: FleetManagedNamespaceProvisioningState
     no-loc:
@@ -75298,10 +75334,18 @@
     name: LabelSelectorOperator
     no-loc:
     - LabelSelectorOperator
+  - uid: com.azure.resourcemanager.containerservicefleet.models.LabelSelectorPatch
+    name: LabelSelectorPatch
+    no-loc:
+    - LabelSelectorPatch
   - uid: com.azure.resourcemanager.containerservicefleet.models.LabelSelectorRequirement
     name: LabelSelectorRequirement
     no-loc:
     - LabelSelectorRequirement
+  - uid: com.azure.resourcemanager.containerservicefleet.models.LabelSelectorRequirementPatch
+    name: LabelSelectorRequirementPatch
+    no-loc:
+    - LabelSelectorRequirementPatch
   - uid: com.azure.resourcemanager.containerservicefleet.models.ManagedClusterUpdate
     name: ManagedClusterUpdate
     no-loc:
@@ -75386,10 +75430,18 @@
     name: PlacementPolicy
     no-loc:
     - PlacementPolicy
+  - uid: com.azure.resourcemanager.containerservicefleet.models.PlacementPolicyPatch
+    name: PlacementPolicyPatch
+    no-loc:
+    - PlacementPolicyPatch
   - uid: com.azure.resourcemanager.containerservicefleet.models.PlacementProfile
     name: PlacementProfile
     no-loc:
     - PlacementProfile
+  - uid: com.azure.resourcemanager.containerservicefleet.models.PlacementProfilePatch
+    name: PlacementProfilePatch
+    no-loc:
+    - PlacementProfilePatch
   - uid: com.azure.resourcemanager.containerservicefleet.models.PlacementType
     name: PlacementType
     no-loc:
@@ -75402,6 +75454,10 @@
     name: PropagationPolicy
     no-loc:
     - PropagationPolicy
+  - uid: com.azure.resourcemanager.containerservicefleet.models.PropagationPolicyPatch
+    name: PropagationPolicyPatch
+    no-loc:
+    - PropagationPolicyPatch
   - uid: com.azure.resourcemanager.containerservicefleet.models.PropagationType
     name: PropagationType
     no-loc:
@@ -75414,14 +75470,38 @@
     name: PropertySelectorOperator
     no-loc:
     - PropertySelectorOperator
+  - uid: com.azure.resourcemanager.containerservicefleet.models.PropertySelectorPatch
+    name: PropertySelectorPatch
+    no-loc:
+    - PropertySelectorPatch
   - uid: com.azure.resourcemanager.containerservicefleet.models.PropertySelectorRequirement
     name: PropertySelectorRequirement
     no-loc:
     - PropertySelectorRequirement
+  - uid: com.azure.resourcemanager.containerservicefleet.models.PropertySelectorRequirementPatch
+    name: PropertySelectorRequirementPatch
+    no-loc:
+    - PropertySelectorRequirementPatch
   - uid: com.azure.resourcemanager.containerservicefleet.models.ResourceQuota
     name: ResourceQuota
     no-loc:
     - ResourceQuota
+  - uid: com.azure.resourcemanager.containerservicefleet.models.RolloutStrategy
+    name: RolloutStrategy
+    no-loc:
+    - RolloutStrategy
+  - uid: com.azure.resourcemanager.containerservicefleet.models.RolloutStrategyType
+    name: RolloutStrategyType
+    no-loc:
+    - RolloutStrategyType
+  - uid: com.azure.resourcemanager.containerservicefleet.models.ScheduledStartConfiguration
+    name: ScheduledStartConfiguration
+    no-loc:
+    - ScheduledStartConfiguration
+  - uid: com.azure.resourcemanager.containerservicefleet.models.ScheduledStartProperties
+    name: ScheduledStartProperties
+    no-loc:
+    - ScheduledStartProperties
   - uid: com.azure.resourcemanager.containerservicefleet.models.SkipProperties
     name: SkipProperties
     no-loc:
@@ -178016,6 +178096,1190 @@
     - UnmanageActionResourceMode
   no-loc:
   - com.azure.resourcemanager.resources.deploymentstacks.models
+- uid: com.azure.resourcemanager.resources.policy
+  name: com.azure.resourcemanager.resources.policy
+  items:
+  - uid: com.azure.resourcemanager.resources.policy.PolicyManager
+    name: PolicyManager
+    no-loc:
+    - PolicyManager
+  - uid: com.azure.resourcemanager.resources.policy.PolicyManager.Configurable
+    name: PolicyManager.Configurable
+    no-loc:
+    - PolicyManager.Configurable
+  no-loc:
+  - com.azure.resourcemanager.resources.policy
+- uid: com.azure.resourcemanager.resources.policy.fluent
+  name: com.azure.resourcemanager.resources.policy.fluent
+  items:
+  - uid: com.azure.resourcemanager.resources.policy.fluent.DataPolicyManifestsClient
+    name: DataPolicyManifestsClient
+    no-loc:
+    - DataPolicyManifestsClient
+  - uid: com.azure.resourcemanager.resources.policy.fluent.PolicyAssignmentsClient
+    name: PolicyAssignmentsClient
+    no-loc:
+    - PolicyAssignmentsClient
+  - uid: com.azure.resourcemanager.resources.policy.fluent.PolicyDefinitionVersionsClient
+    name: PolicyDefinitionVersionsClient
+    no-loc:
+    - PolicyDefinitionVersionsClient
+  - uid: com.azure.resourcemanager.resources.policy.fluent.PolicyDefinitionsClient
+    name: PolicyDefinitionsClient
+    no-loc:
+    - PolicyDefinitionsClient
+  - uid: com.azure.resourcemanager.resources.policy.fluent.PolicyEnrollmentsClient
+    name: PolicyEnrollmentsClient
+    no-loc:
+    - PolicyEnrollmentsClient
+  - uid: com.azure.resourcemanager.resources.policy.fluent.PolicyExemptionsClient
+    name: PolicyExemptionsClient
+    no-loc:
+    - PolicyExemptionsClient
+  - uid: com.azure.resourcemanager.resources.policy.fluent.PolicyManagementClient
+    name: PolicyManagementClient
+    no-loc:
+    - PolicyManagementClient
+  - uid: com.azure.resourcemanager.resources.policy.fluent.PolicySetDefinitionVersionsClient
+    name: PolicySetDefinitionVersionsClient
+    no-loc:
+    - PolicySetDefinitionVersionsClient
+  - uid: com.azure.resourcemanager.resources.policy.fluent.PolicySetDefinitionsClient
+    name: PolicySetDefinitionsClient
+    no-loc:
+    - PolicySetDefinitionsClient
+  - uid: com.azure.resourcemanager.resources.policy.fluent.PolicyTokensClient
+    name: PolicyTokensClient
+    no-loc:
+    - PolicyTokensClient
+  - uid: com.azure.resourcemanager.resources.policy.fluent.VariableValuesClient
+    name: VariableValuesClient
+    no-loc:
+    - VariableValuesClient
+  - uid: com.azure.resourcemanager.resources.policy.fluent.VariablesClient
+    name: VariablesClient
+    no-loc:
+    - VariablesClient
+  no-loc:
+  - com.azure.resourcemanager.resources.policy.fluent
+- uid: com.azure.resourcemanager.resources.policy.fluent.models
+  name: com.azure.resourcemanager.resources.policy.fluent.models
+  items:
+  - uid: com.azure.resourcemanager.resources.policy.fluent.models.DataManifestResourceFunctionsDefinition
+    name: DataManifestResourceFunctionsDefinition
+    no-loc:
+    - DataManifestResourceFunctionsDefinition
+  - uid: com.azure.resourcemanager.resources.policy.fluent.models.DataPolicyManifestInner
+    name: DataPolicyManifestInner
+    no-loc:
+    - DataPolicyManifestInner
+  - uid: com.azure.resourcemanager.resources.policy.fluent.models.DataPolicyManifestProperties
+    name: DataPolicyManifestProperties
+    no-loc:
+    - DataPolicyManifestProperties
+  - uid: com.azure.resourcemanager.resources.policy.fluent.models.PolicyAssignmentInner
+    name: PolicyAssignmentInner
+    no-loc:
+    - PolicyAssignmentInner
+  - uid: com.azure.resourcemanager.resources.policy.fluent.models.PolicyAssignmentProperties
+    name: PolicyAssignmentProperties
+    no-loc:
+    - PolicyAssignmentProperties
+  - uid: com.azure.resourcemanager.resources.policy.fluent.models.PolicyAssignmentUpdateProperties
+    name: PolicyAssignmentUpdateProperties
+    no-loc:
+    - PolicyAssignmentUpdateProperties
+  - uid: com.azure.resourcemanager.resources.policy.fluent.models.PolicyDefinitionInner
+    name: PolicyDefinitionInner
+    no-loc:
+    - PolicyDefinitionInner
+  - uid: com.azure.resourcemanager.resources.policy.fluent.models.PolicyDefinitionProperties
+    name: PolicyDefinitionProperties
+    no-loc:
+    - PolicyDefinitionProperties
+  - uid: com.azure.resourcemanager.resources.policy.fluent.models.PolicyDefinitionVersionInner
+    name: PolicyDefinitionVersionInner
+    no-loc:
+    - PolicyDefinitionVersionInner
+  - uid: com.azure.resourcemanager.resources.policy.fluent.models.PolicyDefinitionVersionListResultInner
+    name: PolicyDefinitionVersionListResultInner
+    no-loc:
+    - PolicyDefinitionVersionListResultInner
+  - uid: com.azure.resourcemanager.resources.policy.fluent.models.PolicyDefinitionVersionProperties
+    name: PolicyDefinitionVersionProperties
+    no-loc:
+    - PolicyDefinitionVersionProperties
+  - uid: com.azure.resourcemanager.resources.policy.fluent.models.PolicyEnrollmentInner
+    name: PolicyEnrollmentInner
+    no-loc:
+    - PolicyEnrollmentInner
+  - uid: com.azure.resourcemanager.resources.policy.fluent.models.PolicyEnrollmentProperties
+    name: PolicyEnrollmentProperties
+    no-loc:
+    - PolicyEnrollmentProperties
+  - uid: com.azure.resourcemanager.resources.policy.fluent.models.PolicyEnrollmentUpdateProperties
+    name: PolicyEnrollmentUpdateProperties
+    no-loc:
+    - PolicyEnrollmentUpdateProperties
+  - uid: com.azure.resourcemanager.resources.policy.fluent.models.PolicyExemptionInner
+    name: PolicyExemptionInner
+    no-loc:
+    - PolicyExemptionInner
+  - uid: com.azure.resourcemanager.resources.policy.fluent.models.PolicyExemptionProperties
+    name: PolicyExemptionProperties
+    no-loc:
+    - PolicyExemptionProperties
+  - uid: com.azure.resourcemanager.resources.policy.fluent.models.PolicyExemptionUpdateProperties
+    name: PolicyExemptionUpdateProperties
+    no-loc:
+    - PolicyExemptionUpdateProperties
+  - uid: com.azure.resourcemanager.resources.policy.fluent.models.PolicySetDefinitionInner
+    name: PolicySetDefinitionInner
+    no-loc:
+    - PolicySetDefinitionInner
+  - uid: com.azure.resourcemanager.resources.policy.fluent.models.PolicySetDefinitionProperties
+    name: PolicySetDefinitionProperties
+    no-loc:
+    - PolicySetDefinitionProperties
+  - uid: com.azure.resourcemanager.resources.policy.fluent.models.PolicySetDefinitionVersionInner
+    name: PolicySetDefinitionVersionInner
+    no-loc:
+    - PolicySetDefinitionVersionInner
+  - uid: com.azure.resourcemanager.resources.policy.fluent.models.PolicySetDefinitionVersionListResultInner
+    name: PolicySetDefinitionVersionListResultInner
+    no-loc:
+    - PolicySetDefinitionVersionListResultInner
+  - uid: com.azure.resourcemanager.resources.policy.fluent.models.PolicySetDefinitionVersionProperties
+    name: PolicySetDefinitionVersionProperties
+    no-loc:
+    - PolicySetDefinitionVersionProperties
+  - uid: com.azure.resourcemanager.resources.policy.fluent.models.PolicyTokenResponseInner
+    name: PolicyTokenResponseInner
+    no-loc:
+    - PolicyTokenResponseInner
+  - uid: com.azure.resourcemanager.resources.policy.fluent.models.PolicyVariableProperties
+    name: PolicyVariableProperties
+    no-loc:
+    - PolicyVariableProperties
+  - uid: com.azure.resourcemanager.resources.policy.fluent.models.PolicyVariableValueProperties
+    name: PolicyVariableValueProperties
+    no-loc:
+    - PolicyVariableValueProperties
+  - uid: com.azure.resourcemanager.resources.policy.fluent.models.VariableInner
+    name: VariableInner
+    no-loc:
+    - VariableInner
+  - uid: com.azure.resourcemanager.resources.policy.fluent.models.VariableValueInner
+    name: VariableValueInner
+    no-loc:
+    - VariableValueInner
+  no-loc:
+  - com.azure.resourcemanager.resources.policy.fluent.models
+- uid: com.azure.resourcemanager.resources.policy.models
+  name: com.azure.resourcemanager.resources.policy.models
+  items:
+  - uid: com.azure.resourcemanager.resources.policy.models.Alias
+    name: Alias
+    no-loc:
+    - Alias
+  - uid: com.azure.resourcemanager.resources.policy.models.AliasPath
+    name: AliasPath
+    no-loc:
+    - AliasPath
+  - uid: com.azure.resourcemanager.resources.policy.models.AliasPathAttributes
+    name: AliasPathAttributes
+    no-loc:
+    - AliasPathAttributes
+  - uid: com.azure.resourcemanager.resources.policy.models.AliasPathMetadata
+    name: AliasPathMetadata
+    no-loc:
+    - AliasPathMetadata
+  - uid: com.azure.resourcemanager.resources.policy.models.AliasPathTokenType
+    name: AliasPathTokenType
+    no-loc:
+    - AliasPathTokenType
+  - uid: com.azure.resourcemanager.resources.policy.models.AliasPattern
+    name: AliasPattern
+    no-loc:
+    - AliasPattern
+  - uid: com.azure.resourcemanager.resources.policy.models.AliasPatternType
+    name: AliasPatternType
+    no-loc:
+    - AliasPatternType
+  - uid: com.azure.resourcemanager.resources.policy.models.AliasType
+    name: AliasType
+    no-loc:
+    - AliasType
+  - uid: com.azure.resourcemanager.resources.policy.models.AssignmentScopeValidation
+    name: AssignmentScopeValidation
+    no-loc:
+    - AssignmentScopeValidation
+  - uid: com.azure.resourcemanager.resources.policy.models.AssignmentType
+    name: AssignmentType
+    no-loc:
+    - AssignmentType
+  - uid: com.azure.resourcemanager.resources.policy.models.DataEffect
+    name: DataEffect
+    no-loc:
+    - DataEffect
+  - uid: com.azure.resourcemanager.resources.policy.models.DataManifestCustomResourceFunctionDefinition
+    name: DataManifestCustomResourceFunctionDefinition
+    no-loc:
+    - DataManifestCustomResourceFunctionDefinition
+  - uid: com.azure.resourcemanager.resources.policy.models.DataPolicyManifest
+    name: DataPolicyManifest
+    no-loc:
+    - DataPolicyManifest
+  - uid: com.azure.resourcemanager.resources.policy.models.DataPolicyManifests
+    name: DataPolicyManifests
+    no-loc:
+    - DataPolicyManifests
+  - uid: com.azure.resourcemanager.resources.policy.models.EnforcementMode
+    name: EnforcementMode
+    no-loc:
+    - EnforcementMode
+  - uid: com.azure.resourcemanager.resources.policy.models.ExemptionCategory
+    name: ExemptionCategory
+    no-loc:
+    - ExemptionCategory
+  - uid: com.azure.resourcemanager.resources.policy.models.ExemptionManagementMode
+    name: ExemptionManagementMode
+    no-loc:
+    - ExemptionManagementMode
+  - uid: com.azure.resourcemanager.resources.policy.models.ExternalEndpointResult
+    name: ExternalEndpointResult
+    no-loc:
+    - ExternalEndpointResult
+  - uid: com.azure.resourcemanager.resources.policy.models.ExternalEvaluationEndpointInvocationResult
+    name: ExternalEvaluationEndpointInvocationResult
+    no-loc:
+    - ExternalEvaluationEndpointInvocationResult
+  - uid: com.azure.resourcemanager.resources.policy.models.ExternalEvaluationEndpointSettings
+    name: ExternalEvaluationEndpointSettings
+    no-loc:
+    - ExternalEvaluationEndpointSettings
+  - uid: com.azure.resourcemanager.resources.policy.models.ExternalEvaluationEnforcementSettings
+    name: ExternalEvaluationEnforcementSettings
+    no-loc:
+    - ExternalEvaluationEnforcementSettings
+  - uid: com.azure.resourcemanager.resources.policy.models.Identity
+    name: Identity
+    no-loc:
+    - Identity
+  - uid: com.azure.resourcemanager.resources.policy.models.NonComplianceMessage
+    name: NonComplianceMessage
+    no-loc:
+    - NonComplianceMessage
+  - uid: com.azure.resourcemanager.resources.policy.models.OverrideKind
+    name: OverrideKind
+    no-loc:
+    - OverrideKind
+  - uid: com.azure.resourcemanager.resources.policy.models.OverrideModel
+    name: OverrideModel
+    no-loc:
+    - OverrideModel
+  - uid: com.azure.resourcemanager.resources.policy.models.ParameterDefinitionsValue
+    name: ParameterDefinitionsValue
+    no-loc:
+    - ParameterDefinitionsValue
+  - uid: com.azure.resourcemanager.resources.policy.models.ParameterDefinitionsValueMetadata
+    name: ParameterDefinitionsValueMetadata
+    no-loc:
+    - ParameterDefinitionsValueMetadata
+  - uid: com.azure.resourcemanager.resources.policy.models.ParameterType
+    name: ParameterType
+    no-loc:
+    - ParameterType
+  - uid: com.azure.resourcemanager.resources.policy.models.ParameterValuesValue
+    name: ParameterValuesValue
+    no-loc:
+    - ParameterValuesValue
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyAction
+    name: PolicyAction
+    no-loc:
+    - PolicyAction
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyAssignment
+    name: PolicyAssignment
+    no-loc:
+    - PolicyAssignment
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyAssignment.Definition
+    name: PolicyAssignment.Definition
+    no-loc:
+    - PolicyAssignment.Definition
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyAssignment.DefinitionStages
+    name: PolicyAssignment.DefinitionStages
+    no-loc:
+    - PolicyAssignment.DefinitionStages
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyAssignment.DefinitionStages.Blank
+    name: PolicyAssignment.DefinitionStages.Blank
+    no-loc:
+    - PolicyAssignment.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyAssignment.DefinitionStages.WithAssignmentType
+    name: PolicyAssignment.DefinitionStages.WithAssignmentType
+    no-loc:
+    - PolicyAssignment.DefinitionStages.WithAssignmentType
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyAssignment.DefinitionStages.WithCreate
+    name: PolicyAssignment.DefinitionStages.WithCreate
+    no-loc:
+    - PolicyAssignment.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyAssignment.DefinitionStages.WithDefinitionVersion
+    name: PolicyAssignment.DefinitionStages.WithDefinitionVersion
+    no-loc:
+    - PolicyAssignment.DefinitionStages.WithDefinitionVersion
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyAssignment.DefinitionStages.WithDescription
+    name: PolicyAssignment.DefinitionStages.WithDescription
+    no-loc:
+    - PolicyAssignment.DefinitionStages.WithDescription
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyAssignment.DefinitionStages.WithDisplayName
+    name: PolicyAssignment.DefinitionStages.WithDisplayName
+    no-loc:
+    - PolicyAssignment.DefinitionStages.WithDisplayName
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyAssignment.DefinitionStages.WithEnforcementMode
+    name: PolicyAssignment.DefinitionStages.WithEnforcementMode
+    no-loc:
+    - PolicyAssignment.DefinitionStages.WithEnforcementMode
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyAssignment.DefinitionStages.WithIdentity
+    name: PolicyAssignment.DefinitionStages.WithIdentity
+    no-loc:
+    - PolicyAssignment.DefinitionStages.WithIdentity
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyAssignment.DefinitionStages.WithLocation
+    name: PolicyAssignment.DefinitionStages.WithLocation
+    no-loc:
+    - PolicyAssignment.DefinitionStages.WithLocation
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyAssignment.DefinitionStages.WithMetadata
+    name: PolicyAssignment.DefinitionStages.WithMetadata
+    no-loc:
+    - PolicyAssignment.DefinitionStages.WithMetadata
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyAssignment.DefinitionStages.WithNonComplianceMessages
+    name: PolicyAssignment.DefinitionStages.WithNonComplianceMessages
+    no-loc:
+    - PolicyAssignment.DefinitionStages.WithNonComplianceMessages
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyAssignment.DefinitionStages.WithNotScopes
+    name: PolicyAssignment.DefinitionStages.WithNotScopes
+    no-loc:
+    - PolicyAssignment.DefinitionStages.WithNotScopes
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyAssignment.DefinitionStages.WithOverrides
+    name: PolicyAssignment.DefinitionStages.WithOverrides
+    no-loc:
+    - PolicyAssignment.DefinitionStages.WithOverrides
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyAssignment.DefinitionStages.WithParameters
+    name: PolicyAssignment.DefinitionStages.WithParameters
+    no-loc:
+    - PolicyAssignment.DefinitionStages.WithParameters
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyAssignment.DefinitionStages.WithPolicyDefinitionId
+    name: PolicyAssignment.DefinitionStages.WithPolicyDefinitionId
+    no-loc:
+    - PolicyAssignment.DefinitionStages.WithPolicyDefinitionId
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyAssignment.DefinitionStages.WithResourceSelectors
+    name: PolicyAssignment.DefinitionStages.WithResourceSelectors
+    no-loc:
+    - PolicyAssignment.DefinitionStages.WithResourceSelectors
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyAssignment.DefinitionStages.WithScope
+    name: PolicyAssignment.DefinitionStages.WithScope
+    no-loc:
+    - PolicyAssignment.DefinitionStages.WithScope
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyAssignment.DefinitionStages.WithSelfServeExemptionSettings
+    name: PolicyAssignment.DefinitionStages.WithSelfServeExemptionSettings
+    no-loc:
+    - PolicyAssignment.DefinitionStages.WithSelfServeExemptionSettings
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyAssignment.Update
+    name: PolicyAssignment.Update
+    no-loc:
+    - PolicyAssignment.Update
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyAssignment.UpdateStages
+    name: PolicyAssignment.UpdateStages
+    no-loc:
+    - PolicyAssignment.UpdateStages
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyAssignment.UpdateStages.WithIdentity
+    name: PolicyAssignment.UpdateStages.WithIdentity
+    no-loc:
+    - PolicyAssignment.UpdateStages.WithIdentity
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyAssignment.UpdateStages.WithOverrides
+    name: PolicyAssignment.UpdateStages.WithOverrides
+    no-loc:
+    - PolicyAssignment.UpdateStages.WithOverrides
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyAssignment.UpdateStages.WithResourceSelectors
+    name: PolicyAssignment.UpdateStages.WithResourceSelectors
+    no-loc:
+    - PolicyAssignment.UpdateStages.WithResourceSelectors
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyAssignment.UpdateStages.WithSelfServeExemptionSettings
+    name: PolicyAssignment.UpdateStages.WithSelfServeExemptionSettings
+    no-loc:
+    - PolicyAssignment.UpdateStages.WithSelfServeExemptionSettings
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyAssignmentUpdate
+    name: PolicyAssignmentUpdate
+    no-loc:
+    - PolicyAssignmentUpdate
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyAssignments
+    name: PolicyAssignments
+    no-loc:
+    - PolicyAssignments
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinition
+    name: PolicyDefinition
+    no-loc:
+    - PolicyDefinition
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinition.Definition
+    name: PolicyDefinition.Definition
+    no-loc:
+    - PolicyDefinition.Definition
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinition.DefinitionStages
+    name: PolicyDefinition.DefinitionStages
+    no-loc:
+    - PolicyDefinition.DefinitionStages
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinition.DefinitionStages.Blank
+    name: PolicyDefinition.DefinitionStages.Blank
+    no-loc:
+    - PolicyDefinition.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinition.DefinitionStages.WithCreate
+    name: PolicyDefinition.DefinitionStages.WithCreate
+    no-loc:
+    - PolicyDefinition.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinition.DefinitionStages.WithDescription
+    name: PolicyDefinition.DefinitionStages.WithDescription
+    no-loc:
+    - PolicyDefinition.DefinitionStages.WithDescription
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinition.DefinitionStages.WithDisplayName
+    name: PolicyDefinition.DefinitionStages.WithDisplayName
+    no-loc:
+    - PolicyDefinition.DefinitionStages.WithDisplayName
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinition.DefinitionStages.WithExternalEvaluationEnforcementSettings
+    name: PolicyDefinition.DefinitionStages.WithExternalEvaluationEnforcementSettings
+    no-loc:
+    - PolicyDefinition.DefinitionStages.WithExternalEvaluationEnforcementSettings
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinition.DefinitionStages.WithMetadata
+    name: PolicyDefinition.DefinitionStages.WithMetadata
+    no-loc:
+    - PolicyDefinition.DefinitionStages.WithMetadata
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinition.DefinitionStages.WithMode
+    name: PolicyDefinition.DefinitionStages.WithMode
+    no-loc:
+    - PolicyDefinition.DefinitionStages.WithMode
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinition.DefinitionStages.WithParameters
+    name: PolicyDefinition.DefinitionStages.WithParameters
+    no-loc:
+    - PolicyDefinition.DefinitionStages.WithParameters
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinition.DefinitionStages.WithPolicyRule
+    name: PolicyDefinition.DefinitionStages.WithPolicyRule
+    no-loc:
+    - PolicyDefinition.DefinitionStages.WithPolicyRule
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinition.DefinitionStages.WithPolicyType
+    name: PolicyDefinition.DefinitionStages.WithPolicyType
+    no-loc:
+    - PolicyDefinition.DefinitionStages.WithPolicyType
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinition.DefinitionStages.WithVersion
+    name: PolicyDefinition.DefinitionStages.WithVersion
+    no-loc:
+    - PolicyDefinition.DefinitionStages.WithVersion
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinition.DefinitionStages.WithVersions
+    name: PolicyDefinition.DefinitionStages.WithVersions
+    no-loc:
+    - PolicyDefinition.DefinitionStages.WithVersions
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinition.Update
+    name: PolicyDefinition.Update
+    no-loc:
+    - PolicyDefinition.Update
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinition.UpdateStages
+    name: PolicyDefinition.UpdateStages
+    no-loc:
+    - PolicyDefinition.UpdateStages
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinition.UpdateStages.WithDescription
+    name: PolicyDefinition.UpdateStages.WithDescription
+    no-loc:
+    - PolicyDefinition.UpdateStages.WithDescription
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinition.UpdateStages.WithDisplayName
+    name: PolicyDefinition.UpdateStages.WithDisplayName
+    no-loc:
+    - PolicyDefinition.UpdateStages.WithDisplayName
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinition.UpdateStages.WithExternalEvaluationEnforcementSettings
+    name: PolicyDefinition.UpdateStages.WithExternalEvaluationEnforcementSettings
+    no-loc:
+    - PolicyDefinition.UpdateStages.WithExternalEvaluationEnforcementSettings
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinition.UpdateStages.WithMetadata
+    name: PolicyDefinition.UpdateStages.WithMetadata
+    no-loc:
+    - PolicyDefinition.UpdateStages.WithMetadata
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinition.UpdateStages.WithMode
+    name: PolicyDefinition.UpdateStages.WithMode
+    no-loc:
+    - PolicyDefinition.UpdateStages.WithMode
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinition.UpdateStages.WithParameters
+    name: PolicyDefinition.UpdateStages.WithParameters
+    no-loc:
+    - PolicyDefinition.UpdateStages.WithParameters
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinition.UpdateStages.WithPolicyRule
+    name: PolicyDefinition.UpdateStages.WithPolicyRule
+    no-loc:
+    - PolicyDefinition.UpdateStages.WithPolicyRule
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinition.UpdateStages.WithPolicyType
+    name: PolicyDefinition.UpdateStages.WithPolicyType
+    no-loc:
+    - PolicyDefinition.UpdateStages.WithPolicyType
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinition.UpdateStages.WithVersion
+    name: PolicyDefinition.UpdateStages.WithVersion
+    no-loc:
+    - PolicyDefinition.UpdateStages.WithVersion
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinition.UpdateStages.WithVersions
+    name: PolicyDefinition.UpdateStages.WithVersions
+    no-loc:
+    - PolicyDefinition.UpdateStages.WithVersions
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinitionGroup
+    name: PolicyDefinitionGroup
+    no-loc:
+    - PolicyDefinitionGroup
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinitionReference
+    name: PolicyDefinitionReference
+    no-loc:
+    - PolicyDefinitionReference
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinitionVersion
+    name: PolicyDefinitionVersion
+    no-loc:
+    - PolicyDefinitionVersion
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinitionVersion.Definition
+    name: PolicyDefinitionVersion.Definition
+    no-loc:
+    - PolicyDefinitionVersion.Definition
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinitionVersion.DefinitionStages
+    name: PolicyDefinitionVersion.DefinitionStages
+    no-loc:
+    - PolicyDefinitionVersion.DefinitionStages
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinitionVersion.DefinitionStages.Blank
+    name: PolicyDefinitionVersion.DefinitionStages.Blank
+    no-loc:
+    - PolicyDefinitionVersion.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinitionVersion.DefinitionStages.WithCreate
+    name: PolicyDefinitionVersion.DefinitionStages.WithCreate
+    no-loc:
+    - PolicyDefinitionVersion.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinitionVersion.DefinitionStages.WithDescription
+    name: PolicyDefinitionVersion.DefinitionStages.WithDescription
+    no-loc:
+    - PolicyDefinitionVersion.DefinitionStages.WithDescription
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinitionVersion.DefinitionStages.WithDisplayName
+    name: PolicyDefinitionVersion.DefinitionStages.WithDisplayName
+    no-loc:
+    - PolicyDefinitionVersion.DefinitionStages.WithDisplayName
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinitionVersion.DefinitionStages.WithExternalEvaluationEnforcementSettings
+    name: PolicyDefinitionVersion.DefinitionStages.WithExternalEvaluationEnforcementSettings
+    no-loc:
+    - PolicyDefinitionVersion.DefinitionStages.WithExternalEvaluationEnforcementSettings
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinitionVersion.DefinitionStages.WithMetadata
+    name: PolicyDefinitionVersion.DefinitionStages.WithMetadata
+    no-loc:
+    - PolicyDefinitionVersion.DefinitionStages.WithMetadata
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinitionVersion.DefinitionStages.WithMode
+    name: PolicyDefinitionVersion.DefinitionStages.WithMode
+    no-loc:
+    - PolicyDefinitionVersion.DefinitionStages.WithMode
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinitionVersion.DefinitionStages.WithParameters
+    name: PolicyDefinitionVersion.DefinitionStages.WithParameters
+    no-loc:
+    - PolicyDefinitionVersion.DefinitionStages.WithParameters
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinitionVersion.DefinitionStages.WithParentResource
+    name: PolicyDefinitionVersion.DefinitionStages.WithParentResource
+    no-loc:
+    - PolicyDefinitionVersion.DefinitionStages.WithParentResource
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinitionVersion.DefinitionStages.WithPolicyRule
+    name: PolicyDefinitionVersion.DefinitionStages.WithPolicyRule
+    no-loc:
+    - PolicyDefinitionVersion.DefinitionStages.WithPolicyRule
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinitionVersion.DefinitionStages.WithPolicyType
+    name: PolicyDefinitionVersion.DefinitionStages.WithPolicyType
+    no-loc:
+    - PolicyDefinitionVersion.DefinitionStages.WithPolicyType
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinitionVersion.DefinitionStages.WithVersion
+    name: PolicyDefinitionVersion.DefinitionStages.WithVersion
+    no-loc:
+    - PolicyDefinitionVersion.DefinitionStages.WithVersion
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinitionVersion.Update
+    name: PolicyDefinitionVersion.Update
+    no-loc:
+    - PolicyDefinitionVersion.Update
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinitionVersion.UpdateStages
+    name: PolicyDefinitionVersion.UpdateStages
+    no-loc:
+    - PolicyDefinitionVersion.UpdateStages
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinitionVersion.UpdateStages.WithDescription
+    name: PolicyDefinitionVersion.UpdateStages.WithDescription
+    no-loc:
+    - PolicyDefinitionVersion.UpdateStages.WithDescription
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinitionVersion.UpdateStages.WithDisplayName
+    name: PolicyDefinitionVersion.UpdateStages.WithDisplayName
+    no-loc:
+    - PolicyDefinitionVersion.UpdateStages.WithDisplayName
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinitionVersion.UpdateStages.WithExternalEvaluationEnforcementSettings
+    name: PolicyDefinitionVersion.UpdateStages.WithExternalEvaluationEnforcementSettings
+    no-loc:
+    - PolicyDefinitionVersion.UpdateStages.WithExternalEvaluationEnforcementSettings
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinitionVersion.UpdateStages.WithMetadata
+    name: PolicyDefinitionVersion.UpdateStages.WithMetadata
+    no-loc:
+    - PolicyDefinitionVersion.UpdateStages.WithMetadata
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinitionVersion.UpdateStages.WithMode
+    name: PolicyDefinitionVersion.UpdateStages.WithMode
+    no-loc:
+    - PolicyDefinitionVersion.UpdateStages.WithMode
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinitionVersion.UpdateStages.WithParameters
+    name: PolicyDefinitionVersion.UpdateStages.WithParameters
+    no-loc:
+    - PolicyDefinitionVersion.UpdateStages.WithParameters
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinitionVersion.UpdateStages.WithPolicyRule
+    name: PolicyDefinitionVersion.UpdateStages.WithPolicyRule
+    no-loc:
+    - PolicyDefinitionVersion.UpdateStages.WithPolicyRule
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinitionVersion.UpdateStages.WithPolicyType
+    name: PolicyDefinitionVersion.UpdateStages.WithPolicyType
+    no-loc:
+    - PolicyDefinitionVersion.UpdateStages.WithPolicyType
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinitionVersion.UpdateStages.WithVersion
+    name: PolicyDefinitionVersion.UpdateStages.WithVersion
+    no-loc:
+    - PolicyDefinitionVersion.UpdateStages.WithVersion
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinitionVersionListResult
+    name: PolicyDefinitionVersionListResult
+    no-loc:
+    - PolicyDefinitionVersionListResult
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinitionVersions
+    name: PolicyDefinitionVersions
+    no-loc:
+    - PolicyDefinitionVersions
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyDefinitions
+    name: PolicyDefinitions
+    no-loc:
+    - PolicyDefinitions
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyEnrollment
+    name: PolicyEnrollment
+    no-loc:
+    - PolicyEnrollment
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.Definition
+    name: PolicyEnrollment.Definition
+    no-loc:
+    - PolicyEnrollment.Definition
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.DefinitionStages
+    name: PolicyEnrollment.DefinitionStages
+    no-loc:
+    - PolicyEnrollment.DefinitionStages
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.DefinitionStages.Blank
+    name: PolicyEnrollment.DefinitionStages.Blank
+    no-loc:
+    - PolicyEnrollment.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.DefinitionStages.WithAssignmentScopeValidation
+    name: PolicyEnrollment.DefinitionStages.WithAssignmentScopeValidation
+    no-loc:
+    - PolicyEnrollment.DefinitionStages.WithAssignmentScopeValidation
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.DefinitionStages.WithCreate
+    name: PolicyEnrollment.DefinitionStages.WithCreate
+    no-loc:
+    - PolicyEnrollment.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.DefinitionStages.WithDescription
+    name: PolicyEnrollment.DefinitionStages.WithDescription
+    no-loc:
+    - PolicyEnrollment.DefinitionStages.WithDescription
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.DefinitionStages.WithDisplayName
+    name: PolicyEnrollment.DefinitionStages.WithDisplayName
+    no-loc:
+    - PolicyEnrollment.DefinitionStages.WithDisplayName
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.DefinitionStages.WithETag
+    name: PolicyEnrollment.DefinitionStages.WithETag
+    no-loc:
+    - PolicyEnrollment.DefinitionStages.WithETag
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.DefinitionStages.WithMetadata
+    name: PolicyEnrollment.DefinitionStages.WithMetadata
+    no-loc:
+    - PolicyEnrollment.DefinitionStages.WithMetadata
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.DefinitionStages.WithPolicyAssignmentId
+    name: PolicyEnrollment.DefinitionStages.WithPolicyAssignmentId
+    no-loc:
+    - PolicyEnrollment.DefinitionStages.WithPolicyAssignmentId
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.DefinitionStages.WithPolicyDefinitionReferenceIds
+    name: PolicyEnrollment.DefinitionStages.WithPolicyDefinitionReferenceIds
+    no-loc:
+    - PolicyEnrollment.DefinitionStages.WithPolicyDefinitionReferenceIds
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.DefinitionStages.WithResourceSelectors
+    name: PolicyEnrollment.DefinitionStages.WithResourceSelectors
+    no-loc:
+    - PolicyEnrollment.DefinitionStages.WithResourceSelectors
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.DefinitionStages.WithScope
+    name: PolicyEnrollment.DefinitionStages.WithScope
+    no-loc:
+    - PolicyEnrollment.DefinitionStages.WithScope
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.Update
+    name: PolicyEnrollment.Update
+    no-loc:
+    - PolicyEnrollment.Update
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.UpdateStages
+    name: PolicyEnrollment.UpdateStages
+    no-loc:
+    - PolicyEnrollment.UpdateStages
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.UpdateStages.WithAssignmentScopeValidation
+    name: PolicyEnrollment.UpdateStages.WithAssignmentScopeValidation
+    no-loc:
+    - PolicyEnrollment.UpdateStages.WithAssignmentScopeValidation
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.UpdateStages.WithResourceSelectors
+    name: PolicyEnrollment.UpdateStages.WithResourceSelectors
+    no-loc:
+    - PolicyEnrollment.UpdateStages.WithResourceSelectors
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyEnrollmentUpdate
+    name: PolicyEnrollmentUpdate
+    no-loc:
+    - PolicyEnrollmentUpdate
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyEnrollments
+    name: PolicyEnrollments
+    no-loc:
+    - PolicyEnrollments
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyExemption
+    name: PolicyExemption
+    no-loc:
+    - PolicyExemption
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyExemption.Definition
+    name: PolicyExemption.Definition
+    no-loc:
+    - PolicyExemption.Definition
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages
+    name: PolicyExemption.DefinitionStages
+    no-loc:
+    - PolicyExemption.DefinitionStages
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.Blank
+    name: PolicyExemption.DefinitionStages.Blank
+    no-loc:
+    - PolicyExemption.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithAssignmentScopeValidation
+    name: PolicyExemption.DefinitionStages.WithAssignmentScopeValidation
+    no-loc:
+    - PolicyExemption.DefinitionStages.WithAssignmentScopeValidation
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithCreate
+    name: PolicyExemption.DefinitionStages.WithCreate
+    no-loc:
+    - PolicyExemption.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithDescription
+    name: PolicyExemption.DefinitionStages.WithDescription
+    no-loc:
+    - PolicyExemption.DefinitionStages.WithDescription
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithDisplayName
+    name: PolicyExemption.DefinitionStages.WithDisplayName
+    no-loc:
+    - PolicyExemption.DefinitionStages.WithDisplayName
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithExemptionCategory
+    name: PolicyExemption.DefinitionStages.WithExemptionCategory
+    no-loc:
+    - PolicyExemption.DefinitionStages.WithExemptionCategory
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithExemptionManagementMode
+    name: PolicyExemption.DefinitionStages.WithExemptionManagementMode
+    no-loc:
+    - PolicyExemption.DefinitionStages.WithExemptionManagementMode
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithExpiresOn
+    name: PolicyExemption.DefinitionStages.WithExpiresOn
+    no-loc:
+    - PolicyExemption.DefinitionStages.WithExpiresOn
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithMetadata
+    name: PolicyExemption.DefinitionStages.WithMetadata
+    no-loc:
+    - PolicyExemption.DefinitionStages.WithMetadata
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithPolicyAssignmentId
+    name: PolicyExemption.DefinitionStages.WithPolicyAssignmentId
+    no-loc:
+    - PolicyExemption.DefinitionStages.WithPolicyAssignmentId
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithPolicyDefinitionReferenceIds
+    name: PolicyExemption.DefinitionStages.WithPolicyDefinitionReferenceIds
+    no-loc:
+    - PolicyExemption.DefinitionStages.WithPolicyDefinitionReferenceIds
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithResourceSelectors
+    name: PolicyExemption.DefinitionStages.WithResourceSelectors
+    no-loc:
+    - PolicyExemption.DefinitionStages.WithResourceSelectors
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithScope
+    name: PolicyExemption.DefinitionStages.WithScope
+    no-loc:
+    - PolicyExemption.DefinitionStages.WithScope
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyExemption.Update
+    name: PolicyExemption.Update
+    no-loc:
+    - PolicyExemption.Update
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyExemption.UpdateStages
+    name: PolicyExemption.UpdateStages
+    no-loc:
+    - PolicyExemption.UpdateStages
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyExemption.UpdateStages.WithAssignmentScopeValidation
+    name: PolicyExemption.UpdateStages.WithAssignmentScopeValidation
+    no-loc:
+    - PolicyExemption.UpdateStages.WithAssignmentScopeValidation
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyExemption.UpdateStages.WithExemptionManagementMode
+    name: PolicyExemption.UpdateStages.WithExemptionManagementMode
+    no-loc:
+    - PolicyExemption.UpdateStages.WithExemptionManagementMode
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyExemption.UpdateStages.WithResourceSelectors
+    name: PolicyExemption.UpdateStages.WithResourceSelectors
+    no-loc:
+    - PolicyExemption.UpdateStages.WithResourceSelectors
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyExemptionUpdate
+    name: PolicyExemptionUpdate
+    no-loc:
+    - PolicyExemptionUpdate
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyExemptions
+    name: PolicyExemptions
+    no-loc:
+    - PolicyExemptions
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyLogInfo
+    name: PolicyLogInfo
+    no-loc:
+    - PolicyLogInfo
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinition
+    name: PolicySetDefinition
+    no-loc:
+    - PolicySetDefinition
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinition.Definition
+    name: PolicySetDefinition.Definition
+    no-loc:
+    - PolicySetDefinition.Definition
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinition.DefinitionStages
+    name: PolicySetDefinition.DefinitionStages
+    no-loc:
+    - PolicySetDefinition.DefinitionStages
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinition.DefinitionStages.Blank
+    name: PolicySetDefinition.DefinitionStages.Blank
+    no-loc:
+    - PolicySetDefinition.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinition.DefinitionStages.WithCreate
+    name: PolicySetDefinition.DefinitionStages.WithCreate
+    no-loc:
+    - PolicySetDefinition.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinition.DefinitionStages.WithDescription
+    name: PolicySetDefinition.DefinitionStages.WithDescription
+    no-loc:
+    - PolicySetDefinition.DefinitionStages.WithDescription
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinition.DefinitionStages.WithDisplayName
+    name: PolicySetDefinition.DefinitionStages.WithDisplayName
+    no-loc:
+    - PolicySetDefinition.DefinitionStages.WithDisplayName
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinition.DefinitionStages.WithMetadata
+    name: PolicySetDefinition.DefinitionStages.WithMetadata
+    no-loc:
+    - PolicySetDefinition.DefinitionStages.WithMetadata
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinition.DefinitionStages.WithParameters
+    name: PolicySetDefinition.DefinitionStages.WithParameters
+    no-loc:
+    - PolicySetDefinition.DefinitionStages.WithParameters
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinition.DefinitionStages.WithPolicyDefinitionGroups
+    name: PolicySetDefinition.DefinitionStages.WithPolicyDefinitionGroups
+    no-loc:
+    - PolicySetDefinition.DefinitionStages.WithPolicyDefinitionGroups
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinition.DefinitionStages.WithPolicyDefinitions
+    name: PolicySetDefinition.DefinitionStages.WithPolicyDefinitions
+    no-loc:
+    - PolicySetDefinition.DefinitionStages.WithPolicyDefinitions
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinition.DefinitionStages.WithPolicyType
+    name: PolicySetDefinition.DefinitionStages.WithPolicyType
+    no-loc:
+    - PolicySetDefinition.DefinitionStages.WithPolicyType
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinition.DefinitionStages.WithVersion
+    name: PolicySetDefinition.DefinitionStages.WithVersion
+    no-loc:
+    - PolicySetDefinition.DefinitionStages.WithVersion
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinition.DefinitionStages.WithVersions
+    name: PolicySetDefinition.DefinitionStages.WithVersions
+    no-loc:
+    - PolicySetDefinition.DefinitionStages.WithVersions
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinition.Update
+    name: PolicySetDefinition.Update
+    no-loc:
+    - PolicySetDefinition.Update
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinition.UpdateStages
+    name: PolicySetDefinition.UpdateStages
+    no-loc:
+    - PolicySetDefinition.UpdateStages
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinition.UpdateStages.WithDescription
+    name: PolicySetDefinition.UpdateStages.WithDescription
+    no-loc:
+    - PolicySetDefinition.UpdateStages.WithDescription
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinition.UpdateStages.WithDisplayName
+    name: PolicySetDefinition.UpdateStages.WithDisplayName
+    no-loc:
+    - PolicySetDefinition.UpdateStages.WithDisplayName
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinition.UpdateStages.WithMetadata
+    name: PolicySetDefinition.UpdateStages.WithMetadata
+    no-loc:
+    - PolicySetDefinition.UpdateStages.WithMetadata
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinition.UpdateStages.WithParameters
+    name: PolicySetDefinition.UpdateStages.WithParameters
+    no-loc:
+    - PolicySetDefinition.UpdateStages.WithParameters
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinition.UpdateStages.WithPolicyDefinitionGroups
+    name: PolicySetDefinition.UpdateStages.WithPolicyDefinitionGroups
+    no-loc:
+    - PolicySetDefinition.UpdateStages.WithPolicyDefinitionGroups
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinition.UpdateStages.WithPolicyDefinitions
+    name: PolicySetDefinition.UpdateStages.WithPolicyDefinitions
+    no-loc:
+    - PolicySetDefinition.UpdateStages.WithPolicyDefinitions
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinition.UpdateStages.WithPolicyType
+    name: PolicySetDefinition.UpdateStages.WithPolicyType
+    no-loc:
+    - PolicySetDefinition.UpdateStages.WithPolicyType
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinition.UpdateStages.WithVersion
+    name: PolicySetDefinition.UpdateStages.WithVersion
+    no-loc:
+    - PolicySetDefinition.UpdateStages.WithVersion
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinition.UpdateStages.WithVersions
+    name: PolicySetDefinition.UpdateStages.WithVersions
+    no-loc:
+    - PolicySetDefinition.UpdateStages.WithVersions
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinitionVersion
+    name: PolicySetDefinitionVersion
+    no-loc:
+    - PolicySetDefinitionVersion
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinitionVersion.Definition
+    name: PolicySetDefinitionVersion.Definition
+    no-loc:
+    - PolicySetDefinitionVersion.Definition
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinitionVersion.DefinitionStages
+    name: PolicySetDefinitionVersion.DefinitionStages
+    no-loc:
+    - PolicySetDefinitionVersion.DefinitionStages
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinitionVersion.DefinitionStages.Blank
+    name: PolicySetDefinitionVersion.DefinitionStages.Blank
+    no-loc:
+    - PolicySetDefinitionVersion.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinitionVersion.DefinitionStages.WithCreate
+    name: PolicySetDefinitionVersion.DefinitionStages.WithCreate
+    no-loc:
+    - PolicySetDefinitionVersion.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinitionVersion.DefinitionStages.WithDescription
+    name: PolicySetDefinitionVersion.DefinitionStages.WithDescription
+    no-loc:
+    - PolicySetDefinitionVersion.DefinitionStages.WithDescription
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinitionVersion.DefinitionStages.WithDisplayName
+    name: PolicySetDefinitionVersion.DefinitionStages.WithDisplayName
+    no-loc:
+    - PolicySetDefinitionVersion.DefinitionStages.WithDisplayName
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinitionVersion.DefinitionStages.WithMetadata
+    name: PolicySetDefinitionVersion.DefinitionStages.WithMetadata
+    no-loc:
+    - PolicySetDefinitionVersion.DefinitionStages.WithMetadata
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinitionVersion.DefinitionStages.WithParameters
+    name: PolicySetDefinitionVersion.DefinitionStages.WithParameters
+    no-loc:
+    - PolicySetDefinitionVersion.DefinitionStages.WithParameters
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinitionVersion.DefinitionStages.WithParentResource
+    name: PolicySetDefinitionVersion.DefinitionStages.WithParentResource
+    no-loc:
+    - PolicySetDefinitionVersion.DefinitionStages.WithParentResource
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinitionVersion.DefinitionStages.WithPolicyDefinitionGroups
+    name: PolicySetDefinitionVersion.DefinitionStages.WithPolicyDefinitionGroups
+    no-loc:
+    - PolicySetDefinitionVersion.DefinitionStages.WithPolicyDefinitionGroups
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinitionVersion.DefinitionStages.WithPolicyDefinitions
+    name: PolicySetDefinitionVersion.DefinitionStages.WithPolicyDefinitions
+    no-loc:
+    - PolicySetDefinitionVersion.DefinitionStages.WithPolicyDefinitions
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinitionVersion.DefinitionStages.WithPolicyType
+    name: PolicySetDefinitionVersion.DefinitionStages.WithPolicyType
+    no-loc:
+    - PolicySetDefinitionVersion.DefinitionStages.WithPolicyType
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinitionVersion.DefinitionStages.WithVersion
+    name: PolicySetDefinitionVersion.DefinitionStages.WithVersion
+    no-loc:
+    - PolicySetDefinitionVersion.DefinitionStages.WithVersion
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinitionVersion.Update
+    name: PolicySetDefinitionVersion.Update
+    no-loc:
+    - PolicySetDefinitionVersion.Update
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinitionVersion.UpdateStages
+    name: PolicySetDefinitionVersion.UpdateStages
+    no-loc:
+    - PolicySetDefinitionVersion.UpdateStages
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinitionVersion.UpdateStages.WithDescription
+    name: PolicySetDefinitionVersion.UpdateStages.WithDescription
+    no-loc:
+    - PolicySetDefinitionVersion.UpdateStages.WithDescription
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinitionVersion.UpdateStages.WithDisplayName
+    name: PolicySetDefinitionVersion.UpdateStages.WithDisplayName
+    no-loc:
+    - PolicySetDefinitionVersion.UpdateStages.WithDisplayName
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinitionVersion.UpdateStages.WithMetadata
+    name: PolicySetDefinitionVersion.UpdateStages.WithMetadata
+    no-loc:
+    - PolicySetDefinitionVersion.UpdateStages.WithMetadata
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinitionVersion.UpdateStages.WithParameters
+    name: PolicySetDefinitionVersion.UpdateStages.WithParameters
+    no-loc:
+    - PolicySetDefinitionVersion.UpdateStages.WithParameters
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinitionVersion.UpdateStages.WithPolicyDefinitionGroups
+    name: PolicySetDefinitionVersion.UpdateStages.WithPolicyDefinitionGroups
+    no-loc:
+    - PolicySetDefinitionVersion.UpdateStages.WithPolicyDefinitionGroups
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinitionVersion.UpdateStages.WithPolicyDefinitions
+    name: PolicySetDefinitionVersion.UpdateStages.WithPolicyDefinitions
+    no-loc:
+    - PolicySetDefinitionVersion.UpdateStages.WithPolicyDefinitions
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinitionVersion.UpdateStages.WithPolicyType
+    name: PolicySetDefinitionVersion.UpdateStages.WithPolicyType
+    no-loc:
+    - PolicySetDefinitionVersion.UpdateStages.WithPolicyType
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinitionVersion.UpdateStages.WithVersion
+    name: PolicySetDefinitionVersion.UpdateStages.WithVersion
+    no-loc:
+    - PolicySetDefinitionVersion.UpdateStages.WithVersion
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinitionVersionListResult
+    name: PolicySetDefinitionVersionListResult
+    no-loc:
+    - PolicySetDefinitionVersionListResult
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinitionVersions
+    name: PolicySetDefinitionVersions
+    no-loc:
+    - PolicySetDefinitionVersions
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicySetDefinitions
+    name: PolicySetDefinitions
+    no-loc:
+    - PolicySetDefinitions
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyTokenEvaluatedRequestDetails
+    name: PolicyTokenEvaluatedRequestDetails
+    no-loc:
+    - PolicyTokenEvaluatedRequestDetails
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyTokenOperation
+    name: PolicyTokenOperation
+    no-loc:
+    - PolicyTokenOperation
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyTokenRequest
+    name: PolicyTokenRequest
+    no-loc:
+    - PolicyTokenRequest
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyTokenResponse
+    name: PolicyTokenResponse
+    no-loc:
+    - PolicyTokenResponse
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyTokenResult
+    name: PolicyTokenResult
+    no-loc:
+    - PolicyTokenResult
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyTokens
+    name: PolicyTokens
+    no-loc:
+    - PolicyTokens
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyType
+    name: PolicyType
+    no-loc:
+    - PolicyType
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyVariableColumn
+    name: PolicyVariableColumn
+    no-loc:
+    - PolicyVariableColumn
+  - uid: com.azure.resourcemanager.resources.policy.models.PolicyVariableValueColumnValue
+    name: PolicyVariableValueColumnValue
+    no-loc:
+    - PolicyVariableValueColumnValue
+  - uid: com.azure.resourcemanager.resources.policy.models.ResourceIdentityType
+    name: ResourceIdentityType
+    no-loc:
+    - ResourceIdentityType
+  - uid: com.azure.resourcemanager.resources.policy.models.ResourceSelector
+    name: ResourceSelector
+    no-loc:
+    - ResourceSelector
+  - uid: com.azure.resourcemanager.resources.policy.models.ResourceTypeAliases
+    name: ResourceTypeAliases
+    no-loc:
+    - ResourceTypeAliases
+  - uid: com.azure.resourcemanager.resources.policy.models.Selector
+    name: Selector
+    no-loc:
+    - Selector
+  - uid: com.azure.resourcemanager.resources.policy.models.SelectorKind
+    name: SelectorKind
+    no-loc:
+    - SelectorKind
+  - uid: com.azure.resourcemanager.resources.policy.models.SelfServeExemptionSettings
+    name: SelfServeExemptionSettings
+    no-loc:
+    - SelfServeExemptionSettings
+  - uid: com.azure.resourcemanager.resources.policy.models.UserAssignedIdentitiesValue
+    name: UserAssignedIdentitiesValue
+    no-loc:
+    - UserAssignedIdentitiesValue
+  - uid: com.azure.resourcemanager.resources.policy.models.Variable
+    name: Variable
+    no-loc:
+    - Variable
+  - uid: com.azure.resourcemanager.resources.policy.models.Variable.Definition
+    name: Variable.Definition
+    no-loc:
+    - Variable.Definition
+  - uid: com.azure.resourcemanager.resources.policy.models.Variable.DefinitionStages
+    name: Variable.DefinitionStages
+    no-loc:
+    - Variable.DefinitionStages
+  - uid: com.azure.resourcemanager.resources.policy.models.Variable.DefinitionStages.Blank
+    name: Variable.DefinitionStages.Blank
+    no-loc:
+    - Variable.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.resources.policy.models.Variable.DefinitionStages.WithColumns
+    name: Variable.DefinitionStages.WithColumns
+    no-loc:
+    - Variable.DefinitionStages.WithColumns
+  - uid: com.azure.resourcemanager.resources.policy.models.Variable.DefinitionStages.WithCreate
+    name: Variable.DefinitionStages.WithCreate
+    no-loc:
+    - Variable.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.resources.policy.models.Variable.Update
+    name: Variable.Update
+    no-loc:
+    - Variable.Update
+  - uid: com.azure.resourcemanager.resources.policy.models.Variable.UpdateStages
+    name: Variable.UpdateStages
+    no-loc:
+    - Variable.UpdateStages
+  - uid: com.azure.resourcemanager.resources.policy.models.Variable.UpdateStages.WithColumns
+    name: Variable.UpdateStages.WithColumns
+    no-loc:
+    - Variable.UpdateStages.WithColumns
+  - uid: com.azure.resourcemanager.resources.policy.models.VariableValue
+    name: VariableValue
+    no-loc:
+    - VariableValue
+  - uid: com.azure.resourcemanager.resources.policy.models.VariableValue.Definition
+    name: VariableValue.Definition
+    no-loc:
+    - VariableValue.Definition
+  - uid: com.azure.resourcemanager.resources.policy.models.VariableValue.DefinitionStages
+    name: VariableValue.DefinitionStages
+    no-loc:
+    - VariableValue.DefinitionStages
+  - uid: com.azure.resourcemanager.resources.policy.models.VariableValue.DefinitionStages.Blank
+    name: VariableValue.DefinitionStages.Blank
+    no-loc:
+    - VariableValue.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.resources.policy.models.VariableValue.DefinitionStages.WithCreate
+    name: VariableValue.DefinitionStages.WithCreate
+    no-loc:
+    - VariableValue.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.resources.policy.models.VariableValue.DefinitionStages.WithParentResource
+    name: VariableValue.DefinitionStages.WithParentResource
+    no-loc:
+    - VariableValue.DefinitionStages.WithParentResource
+  - uid: com.azure.resourcemanager.resources.policy.models.VariableValue.DefinitionStages.WithValues
+    name: VariableValue.DefinitionStages.WithValues
+    no-loc:
+    - VariableValue.DefinitionStages.WithValues
+  - uid: com.azure.resourcemanager.resources.policy.models.VariableValue.Update
+    name: VariableValue.Update
+    no-loc:
+    - VariableValue.Update
+  - uid: com.azure.resourcemanager.resources.policy.models.VariableValue.UpdateStages
+    name: VariableValue.UpdateStages
+    no-loc:
+    - VariableValue.UpdateStages
+  - uid: com.azure.resourcemanager.resources.policy.models.VariableValue.UpdateStages.WithValues
+    name: VariableValue.UpdateStages.WithValues
+    no-loc:
+    - VariableValue.UpdateStages.WithValues
+  - uid: com.azure.resourcemanager.resources.policy.models.VariableValues
+    name: VariableValues
+    no-loc:
+    - VariableValues
+  - uid: com.azure.resourcemanager.resources.policy.models.Variables
+    name: Variables
+    no-loc:
+    - Variables
+  no-loc:
+  - com.azure.resourcemanager.resources.policy.models
 - uid: com.azure.resourcemanager.scvmm
   name: com.azure.resourcemanager.scvmm
   items:

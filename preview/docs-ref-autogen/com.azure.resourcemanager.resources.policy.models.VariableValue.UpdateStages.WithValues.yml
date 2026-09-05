@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.policy.models.VariableValue.UpdateStages.WithValues"
+fullName: "com.azure.resourcemanager.resources.policy.models.VariableValue.UpdateStages.WithValues"
+name: "VariableValue.UpdateStages.WithValues"
+nameWithType: "VariableValue.UpdateStages.WithValues"
+summary: "The stage of the Variable<wbr>Value update allowing to specify values."
+syntax: "public static interface **VariableValue.UpdateStages.WithValues**"
+methods:
+- uid: "com.azure.resourcemanager.resources.policy.models.VariableValue.UpdateStages.WithValues.withValues(java.util.List<com.azure.resourcemanager.resources.policy.models.PolicyVariableValueColumnValue>)"
+  fullName: "com.azure.resourcemanager.resources.policy.models.VariableValue.UpdateStages.WithValues.withValues(List<PolicyVariableValueColumnValue> values)"
+  name: "withValues(List<PolicyVariableValueColumnValue> values)"
+  nameWithType: "VariableValue.UpdateStages.WithValues.withValues(List<PolicyVariableValueColumnValue> values)"
+  summary: "Specifies the values property: Variable value column value array.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Variable value column value array."
+    name: "values"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyVariableValueColumnValue?alt=com.azure.resourcemanager.resources.policy.models.PolicyVariableValueColumnValue&text=PolicyVariableValueColumnValue\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public abstract VariableValue.Update withValues(List<PolicyVariableValueColumnValue> values)"
+  desc: "Specifies the values property: Variable value column value array.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.resources.policy.models.VariableValue.Update?alt=com.azure.resourcemanager.resources.policy.models.VariableValue.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the VariableValue update allowing to specify values."
+metadata: {}
+package: "com.azure.resourcemanager.resources.policy.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-policy:1.0.0-beta.1

@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.DefinitionStages.WithDisplayName"
+fullName: "com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.DefinitionStages.WithDisplayName"
+name: "PolicyEnrollment.DefinitionStages.WithDisplayName"
+nameWithType: "PolicyEnrollment.DefinitionStages.WithDisplayName"
+summary: "The stage of the Policy<wbr>Enrollment definition allowing to specify display<wbr>Name."
+syntax: "public static interface **PolicyEnrollment.DefinitionStages.WithDisplayName**"
+methods:
+- uid: "com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.DefinitionStages.WithDisplayName.withDisplayName(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.DefinitionStages.WithDisplayName.withDisplayName(String displayName)"
+  name: "withDisplayName(String displayName)"
+  nameWithType: "PolicyEnrollment.DefinitionStages.WithDisplayName.withDisplayName(String displayName)"
+  summary: "Specifies the display<wbr>Name property: The display name of the policy enrollment.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The display name of the policy enrollment."
+    name: "displayName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract PolicyEnrollment.DefinitionStages.WithCreate withDisplayName(String displayName)"
+  desc: "Specifies the displayName property: The display name of the policy enrollment.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the PolicyEnrollment definition allowing to specify displayName."
+metadata: {}
+package: "com.azure.resourcemanager.resources.policy.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-policy:1.0.0-beta.1

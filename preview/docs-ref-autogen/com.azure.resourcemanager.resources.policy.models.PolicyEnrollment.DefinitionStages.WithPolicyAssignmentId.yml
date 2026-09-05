@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.DefinitionStages.WithPolicyAssignmentId"
+fullName: "com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.DefinitionStages.WithPolicyAssignmentId"
+name: "PolicyEnrollment.DefinitionStages.WithPolicyAssignmentId"
+nameWithType: "PolicyEnrollment.DefinitionStages.WithPolicyAssignmentId"
+summary: "The stage of the Policy<wbr>Enrollment definition allowing to specify policy<wbr>Assignment<wbr>Id."
+syntax: "public static interface **PolicyEnrollment.DefinitionStages.WithPolicyAssignmentId**"
+methods:
+- uid: "com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.DefinitionStages.WithPolicyAssignmentId.withPolicyAssignmentId(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.DefinitionStages.WithPolicyAssignmentId.withPolicyAssignmentId(String policyAssignmentId)"
+  name: "withPolicyAssignmentId(String policyAssignmentId)"
+  nameWithType: "PolicyEnrollment.DefinitionStages.WithPolicyAssignmentId.withPolicyAssignmentId(String policyAssignmentId)"
+  summary: "Specifies the policy<wbr>Assignment<wbr>Id property: The ID of the policy assignment that is being enrolled.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The ID of the policy assignment that is being enrolled."
+    name: "policyAssignmentId"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract PolicyEnrollment.DefinitionStages.WithCreate withPolicyAssignmentId(String policyAssignmentId)"
+  desc: "Specifies the policyAssignmentId property: The ID of the policy assignment that is being enrolled.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.resources.policy.models.PolicyEnrollment.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the PolicyEnrollment definition allowing to specify policyAssignmentId."
+metadata: {}
+package: "com.azure.resourcemanager.resources.policy.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-policy:1.0.0-beta.1

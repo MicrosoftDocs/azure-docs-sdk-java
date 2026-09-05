@@ -1,0 +1,52 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithCreate"
+fullName: "com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithCreate"
+name: "PolicyExemption.DefinitionStages.WithCreate"
+nameWithType: "PolicyExemption.DefinitionStages.WithCreate"
+summary: "The stage of the Policy<wbr>Exemption definition which contains all the minimum required properties for the resource to be created, but also allows for any other optional properties to be specified."
+syntax: "public static interface **PolicyExemption.DefinitionStages.WithCreate**</br> extends <xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithPolicyAssignmentId?alt=com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithPolicyAssignmentId&text=WithPolicyAssignmentId\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithPolicyDefinitionReferenceIds?alt=com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithPolicyDefinitionReferenceIds&text=WithPolicyDefinitionReferenceIds\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithExemptionCategory?alt=com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithExemptionCategory&text=WithExemptionCategory\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithExpiresOn?alt=com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithExpiresOn&text=WithExpiresOn\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithDisplayName?alt=com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithDisplayName&text=WithDisplayName\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithDescription?alt=com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithDescription&text=WithDescription\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithMetadata?alt=com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithMetadata&text=WithMetadata\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithResourceSelectors?alt=com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithResourceSelectors&text=WithResourceSelectors\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithAssignmentScopeValidation?alt=com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithAssignmentScopeValidation&text=WithAssignmentScopeValidation\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithExemptionManagementMode?alt=com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithExemptionManagementMode&text=WithExemptionManagementMode\" data-throw-if-not-resolved=\"False\" />"
+methods:
+- uid: "com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithCreate.create()"
+  fullName: "com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithCreate.create()"
+  name: "create()"
+  nameWithType: "PolicyExemption.DefinitionStages.WithCreate.create()"
+  summary: "Executes the create request."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract PolicyExemption create()"
+  desc: "Executes the create request."
+  returns:
+    description: "the created resource."
+    type: "<xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyExemption?alt=com.azure.resourcemanager.resources.policy.models.PolicyExemption&text=PolicyExemption\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithCreate.create(com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithCreate.create(Context context)"
+  name: "create(Context context)"
+  nameWithType: "PolicyExemption.DefinitionStages.WithCreate.create(Context context)"
+  summary: "Executes the create request."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract PolicyExemption create(Context context)"
+  desc: "Executes the create request."
+  returns:
+    description: "the created resource."
+    type: "<xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyExemption?alt=com.azure.resourcemanager.resources.policy.models.PolicyExemption&text=PolicyExemption\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the PolicyExemption definition which contains all the minimum required properties for the resource to be created, but also allows for any other optional properties to be specified."
+implements:
+- "<xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithAssignmentScopeValidation?alt=com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithAssignmentScopeValidation&text=WithAssignmentScopeValidation\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithDescription?alt=com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithDescription&text=WithDescription\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithDisplayName?alt=com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithDisplayName&text=WithDisplayName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithExemptionCategory?alt=com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithExemptionCategory&text=WithExemptionCategory\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithExemptionManagementMode?alt=com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithExemptionManagementMode&text=WithExemptionManagementMode\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithExpiresOn?alt=com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithExpiresOn&text=WithExpiresOn\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithMetadata?alt=com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithMetadata&text=WithMetadata\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithPolicyAssignmentId?alt=com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithPolicyAssignmentId&text=WithPolicyAssignmentId\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithPolicyDefinitionReferenceIds?alt=com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithPolicyDefinitionReferenceIds&text=WithPolicyDefinitionReferenceIds\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithResourceSelectors?alt=com.azure.resourcemanager.resources.policy.models.PolicyExemption.DefinitionStages.WithResourceSelectors&text=WithResourceSelectors\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.azure.resourcemanager.resources.policy.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-policy:1.0.0-beta.1

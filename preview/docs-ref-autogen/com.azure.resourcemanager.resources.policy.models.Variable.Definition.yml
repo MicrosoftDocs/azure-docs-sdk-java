@@ -1,0 +1,15 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.policy.models.Variable.Definition"
+fullName: "com.azure.resourcemanager.resources.policy.models.Variable.Definition"
+name: "Variable.Definition"
+nameWithType: "Variable.Definition"
+summary: "The entirety of the Variable definition."
+syntax: "public static interface **Variable.Definition**</br> extends <xref href=\"com.azure.resourcemanager.resources.policy.models.Variable.DefinitionStages.Blank?alt=com.azure.resourcemanager.resources.policy.models.Variable.DefinitionStages.Blank&text=Blank\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.resources.policy.models.Variable.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.resources.policy.models.Variable.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of the Variable definition."
+implements:
+- "<xref href=\"com.azure.resourcemanager.resources.policy.models.Variable.DefinitionStages.Blank?alt=com.azure.resourcemanager.resources.policy.models.Variable.DefinitionStages.Blank&text=Blank\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.resources.policy.models.Variable.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.resources.policy.models.Variable.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.azure.resourcemanager.resources.policy.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-policy:1.0.0-beta.1

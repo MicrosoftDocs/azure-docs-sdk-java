@@ -1,0 +1,118 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.policy.models.PolicyEnrollmentUpdate"
+fullName: "com.azure.resourcemanager.resources.policy.models.PolicyEnrollmentUpdate"
+name: "PolicyEnrollmentUpdate"
+nameWithType: "PolicyEnrollmentUpdate"
+summary: "The policy enrollment for Patch request."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **PolicyEnrollmentUpdate**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyEnrollmentUpdate?alt=com.azure.resourcemanager.resources.policy.models.PolicyEnrollmentUpdate&text=PolicyEnrollmentUpdate\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resources.policy.models.PolicyEnrollmentUpdate.PolicyEnrollmentUpdate()"
+  fullName: "com.azure.resourcemanager.resources.policy.models.PolicyEnrollmentUpdate.PolicyEnrollmentUpdate()"
+  name: "PolicyEnrollmentUpdate()"
+  nameWithType: "PolicyEnrollmentUpdate.PolicyEnrollmentUpdate()"
+  summary: "Creates an instance of Policy<wbr>Enrollment<wbr>Update class."
+  syntax: "public PolicyEnrollmentUpdate()"
+  desc: "Creates an instance of PolicyEnrollmentUpdate class."
+methods:
+- uid: "com.azure.resourcemanager.resources.policy.models.PolicyEnrollmentUpdate.assignmentScopeValidation()"
+  fullName: "com.azure.resourcemanager.resources.policy.models.PolicyEnrollmentUpdate.assignmentScopeValidation()"
+  name: "assignmentScopeValidation()"
+  nameWithType: "PolicyEnrollmentUpdate.assignmentScopeValidation()"
+  summary: "Get the assignment<wbr>Scope<wbr>Validation property: The option whether to validate the enrollment is at or under the assignment scope."
+  syntax: "public AssignmentScopeValidation assignmentScopeValidation()"
+  desc: "Get the assignmentScopeValidation property: The option whether to validate the enrollment is at or under the assignment scope."
+  returns:
+    description: "the assignmentScopeValidation value."
+    type: "<xref href=\"com.azure.resourcemanager.resources.policy.models.AssignmentScopeValidation?alt=com.azure.resourcemanager.resources.policy.models.AssignmentScopeValidation&text=AssignmentScopeValidation\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.policy.models.PolicyEnrollmentUpdate.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.resources.policy.models.PolicyEnrollmentUpdate.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "PolicyEnrollmentUpdate.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Policy<wbr>Enrollment<wbr>Update from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static PolicyEnrollmentUpdate fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the PolicyEnrollmentUpdate."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of PolicyEnrollmentUpdate from the JsonReader."
+  returns:
+    description: "An instance of PolicyEnrollmentUpdate if the JsonReader was pointing to an instance of it, or null if it\n was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyEnrollmentUpdate?alt=com.azure.resourcemanager.resources.policy.models.PolicyEnrollmentUpdate&text=PolicyEnrollmentUpdate\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.policy.models.PolicyEnrollmentUpdate.resourceSelectors()"
+  fullName: "com.azure.resourcemanager.resources.policy.models.PolicyEnrollmentUpdate.resourceSelectors()"
+  name: "resourceSelectors()"
+  nameWithType: "PolicyEnrollmentUpdate.resourceSelectors()"
+  summary: "Get the resource<wbr>Selectors property: The resource selector list to filter policies by resource properties."
+  syntax: "public List<ResourceSelector> resourceSelectors()"
+  desc: "Get the resourceSelectors property: The resource selector list to filter policies by resource properties."
+  returns:
+    description: "the resourceSelectors value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.resources.policy.models.ResourceSelector?alt=com.azure.resourcemanager.resources.policy.models.ResourceSelector&text=ResourceSelector\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.resources.policy.models.PolicyEnrollmentUpdate.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.resources.policy.models.PolicyEnrollmentUpdate.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "PolicyEnrollmentUpdate.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.policy.models.PolicyEnrollmentUpdate.withAssignmentScopeValidation(com.azure.resourcemanager.resources.policy.models.AssignmentScopeValidation)"
+  fullName: "com.azure.resourcemanager.resources.policy.models.PolicyEnrollmentUpdate.withAssignmentScopeValidation(AssignmentScopeValidation assignmentScopeValidation)"
+  name: "withAssignmentScopeValidation(AssignmentScopeValidation assignmentScopeValidation)"
+  nameWithType: "PolicyEnrollmentUpdate.withAssignmentScopeValidation(AssignmentScopeValidation assignmentScopeValidation)"
+  summary: "Set the assignment<wbr>Scope<wbr>Validation property: The option whether to validate the enrollment is at or under the assignment scope."
+  parameters:
+  - description: "the assignmentScopeValidation value to set."
+    name: "assignmentScopeValidation"
+    type: "<xref href=\"com.azure.resourcemanager.resources.policy.models.AssignmentScopeValidation?alt=com.azure.resourcemanager.resources.policy.models.AssignmentScopeValidation&text=AssignmentScopeValidation\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public PolicyEnrollmentUpdate withAssignmentScopeValidation(AssignmentScopeValidation assignmentScopeValidation)"
+  desc: "Set the assignmentScopeValidation property: The option whether to validate the enrollment is at or under the assignment scope."
+  returns:
+    description: "the PolicyEnrollmentUpdate object itself."
+    type: "<xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyEnrollmentUpdate?alt=com.azure.resourcemanager.resources.policy.models.PolicyEnrollmentUpdate&text=PolicyEnrollmentUpdate\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.policy.models.PolicyEnrollmentUpdate.withResourceSelectors(java.util.List<com.azure.resourcemanager.resources.policy.models.ResourceSelector>)"
+  fullName: "com.azure.resourcemanager.resources.policy.models.PolicyEnrollmentUpdate.withResourceSelectors(List<ResourceSelector> resourceSelectors)"
+  name: "withResourceSelectors(List<ResourceSelector> resourceSelectors)"
+  nameWithType: "PolicyEnrollmentUpdate.withResourceSelectors(List<ResourceSelector> resourceSelectors)"
+  summary: "Set the resource<wbr>Selectors property: The resource selector list to filter policies by resource properties."
+  parameters:
+  - description: "the resourceSelectors value to set."
+    name: "resourceSelectors"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.resources.policy.models.ResourceSelector?alt=com.azure.resourcemanager.resources.policy.models.ResourceSelector&text=ResourceSelector\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public PolicyEnrollmentUpdate withResourceSelectors(List<ResourceSelector> resourceSelectors)"
+  desc: "Set the resourceSelectors property: The resource selector list to filter policies by resource properties."
+  returns:
+    description: "the PolicyEnrollmentUpdate object itself."
+    type: "<xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyEnrollmentUpdate?alt=com.azure.resourcemanager.resources.policy.models.PolicyEnrollmentUpdate&text=PolicyEnrollmentUpdate\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "The policy enrollment for Patch request."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resources.policy.models.PolicyEnrollmentUpdate?alt=com.azure.resourcemanager.resources.policy.models.PolicyEnrollmentUpdate&text=PolicyEnrollmentUpdate\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.resources.policy.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-policy:1.0.0-beta.1
