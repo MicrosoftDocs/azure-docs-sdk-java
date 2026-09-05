@@ -1,12 +1,12 @@
 ---
 title: Azure Health Data Services de-identification service client library for Java
 keywords: Azure, java, SDK, API, azure-health-deidentification, healthdataaiservices
-ms.date: 10/03/2025
+ms.date: 09/05/2026
 ms.topic: reference
 ms.devlang: java
 ms.service: healthdataaiservices
 ---
-# Azure Health Data Services de-identification service client library for Java - version 1.1.0-beta.1 
+# Azure Health Data Services de-identification service client library for Java - version 1.1.0-alpha.20260904.1 
 
 
 This package contains a client library for the de-identification service in Azure Health Data Services which 
@@ -207,11 +207,11 @@ try {
 ```
 
 ## Next steps
-See the [samples]<!--(https://github.com/Azure/azure-sdk-for-java/blob/azure-health-deidentification_1.1.0-beta.1/sdk/healthdataaiservices/azure-health-deidentification/src/samples/README.md)--> for several code snippets illustrating common patterns used in the de-identification service
+See the [samples]<!--(https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/healthdataaiservices/azure-health-deidentification/src/samples/README.md)--> for several code snippets illustrating common patterns used in the de-identification service
 Java SDK. For more extensive documentation, see the [de-identification service documentation][product_documentation].
 
 ## Contributing
-For details on contributing to this repository, see the [contributing guide](https://github.com/Azure/azure-sdk-for-java/blob/azure-health-deidentification_1.1.0-beta.1/CONTRIBUTING.md).
+For details on contributing to this repository, see the [contributing guide](https://github.com/Azure/azure-sdk-for-java/blob/main/CONTRIBUTING.md).
 
 <!-- LINKS -->
 [product_documentation]: https://learn.microsoft.com/azure/healthcare-apis/deidentification/
@@ -219,12 +219,12 @@ For details on contributing to this repository, see the [contributing guide](htt
 [jdk]: https://learn.microsoft.com/azure/developer/java/fundamentals/
 [azure_subscription]: https://azure.microsoft.com/free/
 [deid_quickstart]: https://learn.microsoft.com/azure/healthcare-apis/deidentification/quickstart
-[string_index]: https://github.com/Azure/azure-sdk-for-java/blob/azure-health-deidentification_1.1.0-beta.1/sdk/healthdataaiservices/azure-health-deidentification/src/main/java/com/azure/health/deidentification/models/StringIndex.java
+[string_index]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/healthdataaiservices/azure-health-deidentification/src/main/java/com/azure/health/deidentification/models/StringIndex.java
 [character_encoding]: https://learn.microsoft.com/dotnet/standard/base-types/character-encoding-introduction
 [deid_rbac]: https://learn.microsoft.com/azure/healthcare-apis/deidentification/manage-access-rbac
 [deid_configure_storage]: https://learn.microsoft.com/azure/healthcare-apis/deidentification/configure-storage
 [azure_identity]: https://learn.microsoft.com/azure/developer/java/sdk/identity
 [azure_cli]: https://learn.microsoft.com/cli/azure/healthcareapis/deidservice?view=azure-cli-latest
 [azure_portal]: https://ms.portal.azure.com
-[http_response_exception]: https://github.com/Azure/azure-sdk-for-java/blob/azure-health-deidentification_1.1.0-beta.1/sdk/core/azure-core/src/main/java/com/azure/core/exception/HttpResponseException.java
+[http_response_exception]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/core/azure-core/src/main/java/com/azure/core/exception/HttpResponseException.java
 
