@@ -1,7 +1,7 @@
 {
   "Name": "azure-resourcemanager-databox",
-  "Version": "1.0.0-beta.4",
-  "DevVersion": null,
+  "Version": "1.2.0-alpha.20260904.1",
+  "DevVersion": "1.2.0-alpha.20260904.1",
   "DirectoryPath": "sdk/databox/azure-resourcemanager-databox",
   "ServiceDirectory": "databox",
   "ReadMePath": "sdk/databox/azure-resourcemanager-databox/README.md",
@@ -10,19 +10,26 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-databox",
-  "ReleaseStatus": "2024-10-31",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "name": "azure-resourcemanager-databox",
+    "safeName": "azureresourcemanagerdatabox",
+    "triggeringPaths": [
+      "/sdk/databox/ci.yml"
+    ],
     "groupId": "com.azure.resourcemanager",
-    "safeName": "azureresourcemanagerdatabox"
+    "name": "azure-resourcemanager-databox"
   },
-  "CIMatrixConfigs": [],
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": null,
   "Namespaces": [
     "com.azure.resourcemanager.databox",
     "com.azure.resourcemanager.databox.fluent",
     "com.azure.resourcemanager.databox.fluent.models",
     "com.azure.resourcemanager.databox.models"
-  ]
+  ],
+  "CIMatrixConfigs": []
 }
