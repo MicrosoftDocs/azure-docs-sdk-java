@@ -1,7 +1,7 @@
 {
   "Name": "azure-resourcemanager-servicelinker",
-  "Version": "1.0.0-beta.4",
-  "DevVersion": null,
+  "Version": "1.1.0-alpha.20260904.1",
+  "DevVersion": "1.1.0-alpha.20260904.1",
   "DirectoryPath": "sdk/servicelinker/azure-resourcemanager-servicelinker",
   "ServiceDirectory": "servicelinker",
   "ReadMePath": "sdk/servicelinker/azure-resourcemanager-servicelinker/README.md",
@@ -10,9 +10,21 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-servicelinker",
-  "ReleaseStatus": "2024-10-09",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "triggeringPaths": [
+      "/sdk/servicelinker/ci.yml"
+    ],
+    "groupId": "com.azure.resourcemanager",
+    "safeName": "azureresourcemanagerservicelinker",
+    "name": "azure-resourcemanager-servicelinker"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": null,
   "Namespaces": [
     "com.azure.resourcemanager.servicelinker",
     "com.azure.resourcemanager.servicelinker.fluent",
