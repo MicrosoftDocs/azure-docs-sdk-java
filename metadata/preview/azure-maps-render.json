@@ -1,7 +1,7 @@
 {
   "Name": "azure-maps-render",
-  "Version": "2.0.0-beta.2",
-  "DevVersion": null,
+  "Version": "2.0.0-alpha.20260904.1",
+  "DevVersion": "2.0.0-alpha.20260904.1",
   "DirectoryPath": "sdk/maps/azure-maps-render",
   "ServiceDirectory": "maps/azure-maps-render",
   "ReadMePath": "sdk/maps/azure-maps-render/README.md",
@@ -10,17 +10,24 @@
   "SdkType": "client",
   "IsNewSdk": true,
   "ArtifactName": "azure-maps-render",
-  "ReleaseStatus": "2024-12-27",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "groupId": "com.azure",
+    "name": "azure-maps-render",
     "safeName": "azuremapsrender",
-    "name": "azure-maps-render"
+    "triggeringPaths": [
+      "/sdk/maps/azure-maps-render/ci.yml"
+    ],
+    "groupId": "com.azure"
   },
-  "CIMatrixConfigs": [],
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": null,
   "Namespaces": [
     "com.azure.maps.render",
     "com.azure.maps.render.models"
-  ]
+  ],
+  "CIMatrixConfigs": []
 }

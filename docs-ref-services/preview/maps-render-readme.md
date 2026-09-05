@@ -1,17 +1,17 @@
 ---
 title: Azure Maps SDK Render client library for Java
 keywords: Azure, java, SDK, API, azure-maps-render, maps/azure-maps-render
-ms.date: 12/27/2024
+ms.date: 09/05/2026
 ms.topic: reference
 ms.devlang: java
 ms.service: maps/azure-maps-render
 ---
-# Azure Maps SDK Render client library for Java - version 2.0.0-beta.2 
+# Azure Maps SDK Render client library for Java - version 2.0.0-alpha.20260904.1 
 
 
 Azure Maps SDK Render client library for Java.
 
-This package contains Microsoft Azure SDK for Render Management SDK which contains Azure Maps Render REST APIs. Azure Maps Render retrieves copyrigt information or map/state tiles. For documentation on how to use this package, please see [Azure Maps Render](/rest/api/maps/render-v2).
+This package contains Microsoft Azure SDK for Render Management SDK which contains Azure Maps Render REST APIs. Azure Maps Render retrieves copyrigt information or map/state tiles. For documentation on how to use this package, please see [Azure Maps Render](https://learn.microsoft.com/rest/api/maps/render).
 
 [Source code][source] | [API reference documentation][docs] | [REST API documentation][rest_docs] | [Product documentation][product_docs] | [Samples][samples]
 
@@ -35,7 +35,7 @@ Various documentation is available to help you get started
 <dependency>
     <groupId>com.azure</groupId>
     <artifactId>azure-maps-render</artifactId>
-    <version>2.0.0-beta.2</version>
+    <version>2.0.0-beta.3</version>
 </dependency>
 ```
 [//]: # ({x-version-update-end})
@@ -50,7 +50,10 @@ Azure Maps Libraries require a `TokenCredential` implementation for authenticati
 
 There are 3 ways to authenticate the client: Shared key authentication, Microsoft Entra ID authentication, and shared access signature (SAS) authentication.
 
-By default, Microsoft Entra ID token authentication depends on correct configure of following environment variables.
+We recommend using Microsoft Entra ID with [`DefaultAzureCredential`][azure_identity]. This allows you to configure authentication through the `AZURE_TOKEN_CREDENTIALS` environment variable.
+Set this variable as described in the [Learn documentation][customize_defaultAzureCredential], which provides the most up-to-date guidance and examples.
+
+By default, Microsoft Entra ID token authentication depends on correct configuration of the following environment variables.
 
 - `AZURE_CLIENT_ID` for Azure client ID.
 - `AZURE_TENANT_ID` for Azure tenant ID.
@@ -77,7 +80,7 @@ MapsRenderClient client = builder.buildClient();
 
 The sample code assumes global Azure. Please change `AzureEnvironment.AZURE` variable if otherwise.
 
-For SAS-based authentication, please refer to [AccountsListSasSamples.java][https://github.com/Azure/azure-sdk-for-java/tree/azure-maps-render_2.0.0-beta.2/sdk/maps/azure-resourcemanager-maps/src/samples/java/com/azure/resourcemanager/maps/generated/AccountsListSasSamples.java].
+For SAS-based authentication, please refer to [AccountsListSasSamples.java][https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/maps/azure-resourcemanager-maps/src/samples/java/com/azure/resourcemanager/maps/generated/AccountsListSasSamples.java].
 
 See [Authentication][authenticate] for more options.
 
@@ -151,11 +154,11 @@ For example, if you search with an invalid coordinate, a error is returned, indi
 ## Next steps
 
 Several Azure Maps Render Java SDK samples are available to you in the SDK's GitHub repository.
-[Azure Maps Render Samples](https://github.com/Azure/azure-sdk-for-java/tree/azure-maps-render_2.0.0-beta.2/sdk/maps/azure-maps-render/src/samples)
+[Azure Maps Render Samples](https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/maps/azure-maps-render/src/samples)
 
 ## Contributing
 
-For details on contributing to this repository, see the [contributing guide](https://github.com/Azure/azure-sdk-for-java/blob/azure-maps-render_2.0.0-beta.2/CONTRIBUTING.md).
+For details on contributing to this repository, see the [contributing guide](https://github.com/Azure/azure-sdk-for-java/blob/main/CONTRIBUTING.md).
 
 1. Fork it
 1. Create your feature branch (`git checkout -b my-new-feature`)
@@ -164,17 +167,17 @@ For details on contributing to this repository, see the [contributing guide](htt
 1. Create new Pull Request
 
 <!-- LINKS -->
-[source]: https://github.com/Azure/azure-sdk-for-java/tree/azure-maps-render_2.0.0-beta.2/sdk/maps/azure-maps-render/src
-[samples]:  https://github.com/Azure/azure-sdk-for-java/tree/azure-maps-render_2.0.0-beta.2/sdk/maps/azure-maps-render/src/samples
-[rest_docs]: /rest/api/maps
-[product_docs]: /azure/azure-maps/
+[source]: https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/maps/azure-maps-render/src
+[samples]:  https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/maps/azure-maps-render/src/samples
+[rest_docs]: https://learn.microsoft.com/rest/api/maps
+[product_docs]: https://learn.microsoft.com/azure/azure-maps/
 [docs]: https://azure.github.io/azure-sdk-for-java/
-[jdk]: /java/azure/jdk/
+[jdk]: https://learn.microsoft.com/java/azure/jdk/
 [azure_subscription]: https://azure.microsoft.com/free/
-[azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/azure-maps-render_2.0.0-beta.2/sdk/identity/azure-identity
-[azure_core_http_netty]: https://github.com/Azure/azure-sdk-for-java/blob/azure-maps-render_2.0.0-beta.2/sdk/core/azure-core-http-netty
-[authenticate]: https://github.com/Azure/azure-sdk-for-java/blob/azure-maps-render_2.0.0-beta.2/sdk/resourcemanager/docs/AUTH.md
-[design]: https://github.com/Azure/azure-sdk-for-java/blob/azure-maps-render_2.0.0-beta.2/sdk/resourcemanager/docs/DESIGN.md
-
+[azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/identity/azure-identity
+[azure_core_http_netty]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/core/azure-core-http-netty
+[authenticate]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/resourcemanager/docs/AUTH.md
+[design]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/resourcemanager/docs/DESIGN.md
+[customize_defaultAzureCredential]: https://aka.ms/azsdk/java/identity/credential-chains#how-to-customize-defaultazurecredential
 
 
