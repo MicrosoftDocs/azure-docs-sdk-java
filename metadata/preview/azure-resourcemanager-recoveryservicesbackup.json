@@ -1,7 +1,7 @@
 {
   "Name": "azure-resourcemanager-recoveryservicesbackup",
-  "Version": "1.7.0-beta.1",
-  "DevVersion": null,
+  "Version": "1.8.0-alpha.20260904.1",
+  "DevVersion": "1.8.0-alpha.20260904.1",
   "DirectoryPath": "sdk/recoveryservicesbackup/azure-resourcemanager-recoveryservicesbackup",
   "ServiceDirectory": "recoveryservicesbackup",
   "ReadMePath": "sdk/recoveryservicesbackup/azure-resourcemanager-recoveryservicesbackup/README.md",
@@ -10,15 +10,15 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-recoveryservicesbackup",
-  "ReleaseStatus": "2026-04-24",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
+    "name": "azure-resourcemanager-recoveryservicesbackup",
     "triggeringPaths": [
       "/sdk/recoveryservicesbackup/ci.yml"
     ],
     "groupId": "com.azure.resourcemanager",
-    "name": "azure-resourcemanager-recoveryservicesbackup",
     "safeName": "azureresourcemanagerrecoveryservicesbackup"
   },
   "CIParameters": {
