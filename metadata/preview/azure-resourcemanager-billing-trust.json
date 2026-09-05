@@ -1,26 +1,25 @@
 {
   "Name": "azure-resourcemanager-billing-trust",
-  "Version": "1.0.0-beta.1",
-  "DevVersion": null,
-  "DirectoryPath": "sdk/billingtrust/azure-resourcemanager-billing-trust",
-  "ServiceDirectory": "billingtrust",
-  "ReadMePath": "sdk/billingtrust/azure-resourcemanager-billing-trust/README.md",
-  "ChangeLogPath": "sdk/billingtrust/azure-resourcemanager-billing-trust/CHANGELOG.md",
+  "Version": "1.0.0-alpha.20260904.1",
+  "DevVersion": "1.0.0-alpha.20260904.1",
+  "DirectoryPath": "sdk/billing/azure-resourcemanager-billing-trust",
+  "ServiceDirectory": "billing",
+  "ReadMePath": "sdk/billing/azure-resourcemanager-billing-trust/README.md",
+  "ChangeLogPath": "sdk/billing/azure-resourcemanager-billing-trust/CHANGELOG.md",
   "Group": "com.azure.resourcemanager",
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-billing-trust",
-  "ReleaseStatus": "2026-07-01",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "name": "azure-resourcemanager-billing-trust",
-    "releaseInBatch": "${{ parameters.release_azureresourcemanagerbillingtrust }}",
     "groupId": "com.azure.resourcemanager",
     "safeName": "azureresourcemanagerbillingtrust",
     "triggeringPaths": [
-      "/sdk/billingtrust/ci.yml"
-    ]
+      "/sdk/billing/ci.yml"
+    ],
+    "name": "azure-resourcemanager-billing-trust"
   },
   "CIParameters": {
     "CIMatrixConfigs": []
