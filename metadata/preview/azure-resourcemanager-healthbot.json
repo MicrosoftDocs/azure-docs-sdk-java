@@ -1,7 +1,7 @@
 {
   "Name": "azure-resourcemanager-healthbot",
-  "Version": "1.0.0-beta.3",
-  "DevVersion": null,
+  "Version": "1.3.0-alpha.20260904.1",
+  "DevVersion": "1.3.0-alpha.20260904.1",
   "DirectoryPath": "sdk/healthbot/azure-resourcemanager-healthbot",
   "ServiceDirectory": "healthbot",
   "ReadMePath": "sdk/healthbot/azure-resourcemanager-healthbot/README.md",
@@ -10,9 +10,21 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-healthbot",
-  "ReleaseStatus": "2024-10-10",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "name": "azure-resourcemanager-healthbot",
+    "triggeringPaths": [
+      "/sdk/healthbot/ci.yml"
+    ],
+    "groupId": "com.azure.resourcemanager",
+    "safeName": "azureresourcemanagerhealthbot"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": "specification/healthbot/HealthBot.Management",
   "Namespaces": [
     "com.azure.resourcemanager.healthbot",
     "com.azure.resourcemanager.healthbot.fluent",
