@@ -1,7 +1,7 @@
 {
   "Name": "azure-resourcemanager-mysqlflexibleserver",
-  "Version": "1.0.0-beta.6",
-  "DevVersion": null,
+  "Version": "1.1.0-alpha.20260904.1",
+  "DevVersion": "1.1.0-alpha.20260904.1",
   "DirectoryPath": "sdk/mysqlflexibleserver/azure-resourcemanager-mysqlflexibleserver",
   "ServiceDirectory": "mysqlflexibleserver",
   "ReadMePath": "sdk/mysqlflexibleserver/azure-resourcemanager-mysqlflexibleserver/README.md",
@@ -10,19 +10,26 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-mysqlflexibleserver",
-  "ReleaseStatus": "2024-12-04",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "name": "azure-resourcemanager-mysqlflexibleserver",
+    "triggeringPaths": [
+      "/sdk/mysqlflexibleserver/ci.yml"
+    ],
     "groupId": "com.azure.resourcemanager",
-    "safeName": "azureresourcemanagermysqlflexibleserver"
+    "safeName": "azureresourcemanagermysqlflexibleserver",
+    "name": "azure-resourcemanager-mysqlflexibleserver"
   },
-  "CIMatrixConfigs": [],
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": null,
   "Namespaces": [
     "com.azure.resourcemanager.mysqlflexibleserver",
     "com.azure.resourcemanager.mysqlflexibleserver.fluent",
     "com.azure.resourcemanager.mysqlflexibleserver.fluent.models",
     "com.azure.resourcemanager.mysqlflexibleserver.models"
-  ]
+  ],
+  "CIMatrixConfigs": []
 }
