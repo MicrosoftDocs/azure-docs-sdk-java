@@ -1,7 +1,7 @@
 {
   "Name": "azure-resourcemanager-customerinsights",
-  "Version": "1.0.0-beta.3",
-  "DevVersion": null,
+  "Version": "1.0.0-alpha.20260904.1",
+  "DevVersion": "1.0.0-alpha.20260904.1",
   "DirectoryPath": "sdk/customerinsights/azure-resourcemanager-customerinsights",
   "ServiceDirectory": "customerinsights",
   "ReadMePath": "sdk/customerinsights/azure-resourcemanager-customerinsights/README.md",
@@ -10,14 +10,21 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-customerinsights",
-  "ReleaseStatus": "2024-10-17",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
+    "safeName": "azureresourcemanagercustomerinsights",
     "name": "azure-resourcemanager-customerinsights",
-    "groupId": "com.azure.resourcemanager",
-    "safeName": "azureresourcemanagercustomerinsights"
+    "triggeringPaths": [
+      "/sdk/customerinsights/ci.yml"
+    ],
+    "groupId": "com.azure.resourcemanager"
   },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": null,
   "Namespaces": [
     "com.azure.resourcemanager.customerinsights",
     "com.azure.resourcemanager.customerinsights.fluent",
