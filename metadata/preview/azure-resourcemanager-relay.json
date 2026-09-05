@@ -1,7 +1,7 @@
 {
   "Name": "azure-resourcemanager-relay",
-  "Version": "1.0.0-beta.3",
-  "DevVersion": null,
+  "Version": "1.1.0-alpha.20260904.1",
+  "DevVersion": "1.1.0-alpha.20260904.1",
   "DirectoryPath": "sdk/relay/azure-resourcemanager-relay",
   "ServiceDirectory": "relay",
   "ReadMePath": "sdk/relay/azure-resourcemanager-relay/README.md",
@@ -10,9 +10,21 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-relay",
-  "ReleaseStatus": "2024-10-10",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "triggeringPaths": [
+      "/sdk/relay/ci.yml"
+    ],
+    "safeName": "azureresourcemanagerrelay",
+    "groupId": "com.azure.resourcemanager",
+    "name": "azure-resourcemanager-relay"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": null,
   "Namespaces": [
     "com.azure.resourcemanager.relay",
     "com.azure.resourcemanager.relay.fluent",
