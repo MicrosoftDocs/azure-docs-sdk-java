@@ -1,7 +1,7 @@
 {
   "Name": "azure-resourcemanager-signalr",
-  "Version": "1.0.0-beta.9",
-  "DevVersion": null,
+  "Version": "1.1.0-alpha.20260904.1",
+  "DevVersion": "1.1.0-alpha.20260904.1",
   "DirectoryPath": "sdk/signalr/azure-resourcemanager-signalr",
   "ServiceDirectory": "signalr",
   "ReadMePath": "sdk/signalr/azure-resourcemanager-signalr/README.md",
@@ -10,19 +10,26 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-signalr",
-  "ReleaseStatus": "2024-10-31",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "name": "azure-resourcemanager-signalr",
     "groupId": "com.azure.resourcemanager",
+    "name": "azure-resourcemanager-signalr",
+    "triggeringPaths": [
+      "/sdk/signalr/ci.yml"
+    ],
     "safeName": "azureresourcemanagersignalr"
   },
-  "CIMatrixConfigs": [],
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": null,
   "Namespaces": [
     "com.azure.resourcemanager.signalr",
     "com.azure.resourcemanager.signalr.fluent",
     "com.azure.resourcemanager.signalr.fluent.models",
     "com.azure.resourcemanager.signalr.models"
-  ]
+  ],
+  "CIMatrixConfigs": []
 }
