@@ -1,6 +1,6 @@
 {
   "Name": "azure-resourcemanager-purestorageblock",
-  "Version": "1.0.0-beta.1",
+  "Version": "1.1.0-beta.1",
   "DevVersion": null,
   "DirectoryPath": "sdk/purestorageblock/azure-resourcemanager-purestorageblock",
   "ServiceDirectory": "purestorageblock",
@@ -10,21 +10,22 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-purestorageblock",
-  "ReleaseStatus": "2025-05-27",
+  "ReleaseStatus": "2026-07-29",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
+    "releaseInBatch": "${{ parameters.release_azureresourcemanagerpurestorageblock }}",
+    "name": "azure-resourcemanager-purestorageblock",
     "triggeringPaths": [
       "/sdk/purestorageblock/ci.yml"
     ],
-    "safeName": "azureresourcemanagerpurestorageblock",
     "groupId": "com.azure.resourcemanager",
-    "releaseInBatch": "${{ parameters.release_azureresourcemanagerpurestorageblock }}",
-    "name": "azure-resourcemanager-purestorageblock"
+    "safeName": "azureresourcemanagerpurestorageblock"
   },
   "CIParameters": {
     "CIMatrixConfigs": []
   },
+  "SpecProjectPath": "specification/purestorage/PureStorage.Block.Management",
   "Namespaces": [
     "com.azure.resourcemanager.purestorageblock",
     "com.azure.resourcemanager.purestorageblock.fluent",
