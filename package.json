@@ -852,7 +852,7 @@
       {
         "packageArtifactId": "azure-resourcemanager-deviceprovisioningservices",
         "packageGroupId": "com.azure.resourcemanager",
-        "packageVersion": "1.0.0",
+        "packageVersion": "1.2.0",
         "packageDownloadUrl": "https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-java/maven/v1"
       },
       {
@@ -3368,7 +3368,7 @@
       {
         "packageArtifactId": "azure-resourcemanager-purestorageblock",
         "packageGroupId": "com.azure.resourcemanager",
-        "packageVersion": "1.0.0-beta.1",
+        "packageVersion": "1.1.0-beta.1",
         "packageDownloadUrl": "https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-java/maven/v1"
       },
       {
