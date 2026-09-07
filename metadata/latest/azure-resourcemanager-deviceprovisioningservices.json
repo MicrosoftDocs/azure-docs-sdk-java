@@ -1,11 +1,30 @@
 {
-  "ServiceDirectory": "NA",
   "Name": "azure-resourcemanager-deviceprovisioningservices",
-  "SdkType": "NA",
-  "Version": "1.0.0",
-  "IsNewSdk": false,
+  "Version": "1.2.0",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/deviceprovisioningservices/azure-resourcemanager-deviceprovisioningservices",
+  "ServiceDirectory": "deviceprovisioningservices",
+  "ReadMePath": "sdk/deviceprovisioningservices/azure-resourcemanager-deviceprovisioningservices/README.md",
+  "ChangeLogPath": "sdk/deviceprovisioningservices/azure-resourcemanager-deviceprovisioningservices/CHANGELOG.md",
   "Group": "com.azure.resourcemanager",
-  "DirectoryPath": "",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-deviceprovisioningservices",
+  "ReleaseStatus": "2026-08-26",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "safeName": "azureresourcemanagerdeviceprovisioningservices",
+    "triggeringPaths": [
+      "/sdk/deviceprovisioningservices/ci.yml"
+    ],
+    "groupId": "com.azure.resourcemanager",
+    "name": "azure-resourcemanager-deviceprovisioningservices"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": "specification/deviceprovisioningservices/resource-manager/Microsoft.Devices/DeviceProvisioningServices",
   "Namespaces": [
     "com.azure.resourcemanager.deviceprovisioningservices",
     "com.azure.resourcemanager.deviceprovisioningservices.fluent",
