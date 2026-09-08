@@ -1,7 +1,7 @@
 {
   "Name": "azure-core-amqp",
-  "Version": "2.13.0-beta.1",
-  "DevVersion": null,
+  "Version": "2.13.0-alpha.20260908.1",
+  "DevVersion": "2.13.0-alpha.20260908.1",
   "DirectoryPath": "sdk/core/azure-core-amqp",
   "ServiceDirectory": "core",
   "ReadMePath": "sdk/core/azure-core-amqp/README.md",
@@ -10,7 +10,7 @@
   "SdkType": "client",
   "IsNewSdk": true,
   "ArtifactName": "azure-core-amqp",
-  "ReleaseStatus": "2026-08-27",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": [
     "com.azure:azure-core-tracing-opentelemetry-samples",
@@ -18,36 +18,36 @@
     "com.azure:perf-test-core"
   ],
   "ArtifactDetails": {
+    "releaseInBatch": "${{ parameters.release_azurecoreamqp }}",
+    "name": "azure-core-amqp",
     "groupId": "com.azure",
     "safeName": "azurecoreamqp",
     "triggeringPaths": [
       "/sdk/core/ci.yml"
-    ],
-    "name": "azure-core-amqp",
-    "releaseInBatch": "${{ parameters.release_azurecoreamqp }}"
+    ]
   },
   "CIParameters": {
     "CIMatrixConfigs": [
       {
-        "Name": "Java_ci_test_base",
-        "GenerateVMJobs": true,
         "Path": "eng/pipelines/templates/stages/platform-matrix.json",
         "NonSparseParameters": "Agent",
-        "Selection": "sparse"
+        "Selection": "sparse",
+        "Name": "Java_ci_test_base",
+        "GenerateVMJobs": true
       },
       {
-        "Name": "version_overrides_tests",
-        "PRBatching": false,
-        "GenerateVMJobs": true,
         "Path": "sdk/core/version-overrides-matrix.json",
-        "Selection": "all"
+        "Selection": "all",
+        "Name": "version_overrides_tests",
+        "GenerateVMJobs": true,
+        "PRBatching": false
       },
       {
-        "Name": "version_overrides_vertx_tests",
-        "PRBatching": false,
-        "GenerateVMJobs": true,
         "Path": "sdk/core/version-overrides-vertx-matrix.json",
-        "Selection": "all"
+        "Selection": "all",
+        "Name": "version_overrides_vertx_tests",
+        "GenerateVMJobs": true,
+        "PRBatching": false
       }
     ]
   },

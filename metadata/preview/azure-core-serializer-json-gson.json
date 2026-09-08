@@ -1,15 +1,15 @@
 {
-  "Name": "azure-core-http-jdk-httpclient",
-  "Version": "1.2.0-alpha.20260908.1",
-  "DevVersion": "1.2.0-alpha.20260908.1",
-  "DirectoryPath": "sdk/core/azure-core-http-jdk-httpclient",
+  "Name": "azure-core-serializer-json-gson",
+  "Version": "1.5.0-alpha.20260908.1",
+  "DevVersion": "1.5.0-alpha.20260908.1",
+  "DirectoryPath": "sdk/core/azure-core-serializer-json-gson",
   "ServiceDirectory": "core",
-  "ReadMePath": "sdk/core/azure-core-http-jdk-httpclient/README.md",
-  "ChangeLogPath": "sdk/core/azure-core-http-jdk-httpclient/CHANGELOG.md",
+  "ReadMePath": "sdk/core/azure-core-serializer-json-gson/README.md",
+  "ChangeLogPath": "sdk/core/azure-core-serializer-json-gson/CHANGELOG.md",
   "Group": "com.azure",
   "SdkType": "client",
   "IsNewSdk": true,
-  "ArtifactName": "azure-core-http-jdk-httpclient",
+  "ArtifactName": "azure-core-serializer-json-gson",
   "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": [
@@ -18,10 +18,10 @@
     "com.azure:perf-test-core"
   ],
   "ArtifactDetails": {
-    "releaseInBatch": "${{ parameters.release_azurecorehttpjdkhttpclient }}",
-    "name": "azure-core-http-jdk-httpclient",
+    "releaseInBatch": "${{ parameters.release_azurecoreserializerjsongson }}",
+    "name": "azure-core-serializer-json-gson",
     "groupId": "com.azure",
-    "safeName": "azurecorehttpjdkhttpclient",
+    "safeName": "azurecoreserializerjsongson",
     "triggeringPaths": [
       "/sdk/core/ci.yml"
     ]
@@ -53,7 +53,7 @@
   },
   "SpecProjectPath": null,
   "Namespaces": [
-    "com.azure.core.http.jdk.httpclient"
-  ],
-  "CIMatrixConfigs": []
+    "com.azure.core.serializer.json.gson",
+    "com.azure.core.serializer.json.gson.models"
+  ]
 }
