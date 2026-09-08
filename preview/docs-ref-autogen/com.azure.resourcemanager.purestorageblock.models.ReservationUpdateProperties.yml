@@ -71,13 +71,6 @@ methods:
   returns:
     description: "the user value."
     type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.UserDetails?alt=com.azure.resourcemanager.purestorageblock.models.UserDetails&text=UserDetails\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.purestorageblock.models.ReservationUpdateProperties.validate()"
-  fullName: "com.azure.resourcemanager.purestorageblock.models.ReservationUpdateProperties.validate()"
-  name: "validate()"
-  nameWithType: "ReservationUpdateProperties.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.purestorageblock.models.ReservationUpdateProperties.withUser(com.azure.resourcemanager.purestorageblock.models.UserDetails)"
   fullName: "com.azure.resourcemanager.purestorageblock.models.ReservationUpdateProperties.withUser(UserDetails user)"
   name: "withUser(UserDetails user)"
@@ -98,4 +91,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.purestorageblock.models.ReservationUpdateProperties?alt=com.azure.resourcemanager.purestorageblock.models.ReservationUpdateProperties&text=ReservationUpdateProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.purestorageblock.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-purestorageblock:1.0.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-purestorageblock:1.1.0-beta.1

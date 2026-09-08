@@ -1,0 +1,12 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.purestorageblock.models.VolumeGroup.DefinitionStages"
+fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeGroup.DefinitionStages"
+name: "VolumeGroup.DefinitionStages"
+nameWithType: "VolumeGroup.DefinitionStages"
+summary: "The Volume<wbr>Group definition stages."
+syntax: "public static interface **VolumeGroup.DefinitionStages**"
+type: "interface"
+desc: "The VolumeGroup definition stages."
+metadata: {}
+package: "com.azure.resourcemanager.purestorageblock.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-purestorageblock:1.1.0-beta.1

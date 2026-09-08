@@ -1,0 +1,92 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.purestorageblock.fluent.models.PlatformConsoleActivationCodeInner"
+fullName: "com.azure.resourcemanager.purestorageblock.fluent.models.PlatformConsoleActivationCodeInner"
+name: "PlatformConsoleActivationCodeInner"
+nameWithType: "PlatformConsoleActivationCodeInner"
+summary: "One-time activation code for platform console access."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **PlatformConsoleActivationCodeInner**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.purestorageblock.fluent.models.PlatformConsoleActivationCodeInner?alt=com.azure.resourcemanager.purestorageblock.fluent.models.PlatformConsoleActivationCodeInner&text=PlatformConsoleActivationCodeInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+methods:
+- uid: "com.azure.resourcemanager.purestorageblock.fluent.models.PlatformConsoleActivationCodeInner.activationCode()"
+  fullName: "com.azure.resourcemanager.purestorageblock.fluent.models.PlatformConsoleActivationCodeInner.activationCode()"
+  name: "activationCode()"
+  nameWithType: "PlatformConsoleActivationCodeInner.activationCode()"
+  summary: "Get the activation<wbr>Code property: One-time activation code for platform console access."
+  syntax: "public String activationCode()"
+  desc: "Get the activationCode property: One-time activation code for platform console access."
+  returns:
+    description: "the activationCode value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.purestorageblock.fluent.models.PlatformConsoleActivationCodeInner.expiresAt()"
+  fullName: "com.azure.resourcemanager.purestorageblock.fluent.models.PlatformConsoleActivationCodeInner.expiresAt()"
+  name: "expiresAt()"
+  nameWithType: "PlatformConsoleActivationCodeInner.expiresAt()"
+  summary: "Get the expires<wbr>At property: Expiry time of the activation code in RFC3339 format."
+  syntax: "public OffsetDateTime expiresAt()"
+  desc: "Get the expiresAt property: Expiry time of the activation code in RFC3339 format."
+  returns:
+    description: "the expiresAt value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
+- uid: "com.azure.resourcemanager.purestorageblock.fluent.models.PlatformConsoleActivationCodeInner.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.purestorageblock.fluent.models.PlatformConsoleActivationCodeInner.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "PlatformConsoleActivationCodeInner.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Platform<wbr>Console<wbr>Activation<wbr>Code<wbr>Inner from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static PlatformConsoleActivationCodeInner fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of PlatformConsoleActivationCodeInner from the JsonReader."
+  returns:
+    description: "An instance of PlatformConsoleActivationCodeInner if the JsonReader was pointing to an instance of it, or\n null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.fluent.models.PlatformConsoleActivationCodeInner?alt=com.azure.resourcemanager.purestorageblock.fluent.models.PlatformConsoleActivationCodeInner&text=PlatformConsoleActivationCodeInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.fluent.models.PlatformConsoleActivationCodeInner.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.purestorageblock.fluent.models.PlatformConsoleActivationCodeInner.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "PlatformConsoleActivationCodeInner.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.fluent.models.PlatformConsoleActivationCodeInner.username()"
+  fullName: "com.azure.resourcemanager.purestorageblock.fluent.models.PlatformConsoleActivationCodeInner.username()"
+  name: "username()"
+  nameWithType: "PlatformConsoleActivationCodeInner.username()"
+  summary: "Get the username property: Username to use when activating the console session."
+  syntax: "public String username()"
+  desc: "Get the username property: Username to use when activating the console session."
+  returns:
+    description: "the username value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+type: "class"
+desc: "One-time activation code for platform console access."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.purestorageblock.fluent.models.PlatformConsoleActivationCodeInner?alt=com.azure.resourcemanager.purestorageblock.fluent.models.PlatformConsoleActivationCodeInner&text=PlatformConsoleActivationCodeInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.purestorageblock.fluent.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-purestorageblock:1.1.0-beta.1

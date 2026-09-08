@@ -1,0 +1,118 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.purestorageblock.models.PerformanceParameters"
+fullName: "com.azure.resourcemanager.purestorageblock.models.PerformanceParameters"
+name: "PerformanceParameters"
+nameWithType: "PerformanceParameters"
+summary: "Performance parameters for volume group."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **PerformanceParameters**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.purestorageblock.models.PerformanceParameters?alt=com.azure.resourcemanager.purestorageblock.models.PerformanceParameters&text=PerformanceParameters\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.purestorageblock.models.PerformanceParameters.PerformanceParameters()"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.PerformanceParameters.PerformanceParameters()"
+  name: "PerformanceParameters()"
+  nameWithType: "PerformanceParameters.PerformanceParameters()"
+  summary: "Creates an instance of Performance<wbr>Parameters class."
+  syntax: "public PerformanceParameters()"
+  desc: "Creates an instance of PerformanceParameters class."
+methods:
+- uid: "com.azure.resourcemanager.purestorageblock.models.PerformanceParameters.bandwidthLimitMbPerSec()"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.PerformanceParameters.bandwidthLimitMbPerSec()"
+  name: "bandwidthLimitMbPerSec()"
+  nameWithType: "PerformanceParameters.bandwidthLimitMbPerSec()"
+  summary: "Get the bandwidth<wbr>Limit<wbr>MbPer<wbr>Sec property: Bandwidth limit in MB per second."
+  syntax: "public Long bandwidthLimitMbPerSec()"
+  desc: "Get the bandwidthLimitMbPerSec property: Bandwidth limit in MB per second."
+  returns:
+    description: "the bandwidthLimitMbPerSec value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Long.html\">Long</a>"
+- uid: "com.azure.resourcemanager.purestorageblock.models.PerformanceParameters.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.PerformanceParameters.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "PerformanceParameters.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Performance<wbr>Parameters from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static PerformanceParameters fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the PerformanceParameters."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of PerformanceParameters from the JsonReader."
+  returns:
+    description: "An instance of PerformanceParameters if the JsonReader was pointing to an instance of it, or null if it\n was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.PerformanceParameters?alt=com.azure.resourcemanager.purestorageblock.models.PerformanceParameters&text=PerformanceParameters\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.models.PerformanceParameters.iopsLimit()"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.PerformanceParameters.iopsLimit()"
+  name: "iopsLimit()"
+  nameWithType: "PerformanceParameters.iopsLimit()"
+  summary: "Get the iops<wbr>Limit property: IOPS limit."
+  syntax: "public Long iopsLimit()"
+  desc: "Get the iopsLimit property: IOPS limit."
+  returns:
+    description: "the iopsLimit value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Long.html\">Long</a>"
+- uid: "com.azure.resourcemanager.purestorageblock.models.PerformanceParameters.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.PerformanceParameters.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "PerformanceParameters.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.models.PerformanceParameters.withBandwidthLimitMbPerSec(java.lang.Long)"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.PerformanceParameters.withBandwidthLimitMbPerSec(Long bandwidthLimitMbPerSec)"
+  name: "withBandwidthLimitMbPerSec(Long bandwidthLimitMbPerSec)"
+  nameWithType: "PerformanceParameters.withBandwidthLimitMbPerSec(Long bandwidthLimitMbPerSec)"
+  summary: "Set the bandwidth<wbr>Limit<wbr>MbPer<wbr>Sec property: Bandwidth limit in MB per second."
+  parameters:
+  - description: "the bandwidthLimitMbPerSec value to set."
+    name: "bandwidthLimitMbPerSec"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Long.html\">Long</a>"
+  syntax: "public PerformanceParameters withBandwidthLimitMbPerSec(Long bandwidthLimitMbPerSec)"
+  desc: "Set the bandwidthLimitMbPerSec property: Bandwidth limit in MB per second."
+  returns:
+    description: "the PerformanceParameters object itself."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.PerformanceParameters?alt=com.azure.resourcemanager.purestorageblock.models.PerformanceParameters&text=PerformanceParameters\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.models.PerformanceParameters.withIopsLimit(java.lang.Long)"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.PerformanceParameters.withIopsLimit(Long iopsLimit)"
+  name: "withIopsLimit(Long iopsLimit)"
+  nameWithType: "PerformanceParameters.withIopsLimit(Long iopsLimit)"
+  summary: "Set the iops<wbr>Limit property: IOPS limit."
+  parameters:
+  - description: "the iopsLimit value to set."
+    name: "iopsLimit"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Long.html\">Long</a>"
+  syntax: "public PerformanceParameters withIopsLimit(Long iopsLimit)"
+  desc: "Set the iopsLimit property: IOPS limit."
+  returns:
+    description: "the PerformanceParameters object itself."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.PerformanceParameters?alt=com.azure.resourcemanager.purestorageblock.models.PerformanceParameters&text=PerformanceParameters\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Performance parameters for volume group."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.purestorageblock.models.PerformanceParameters?alt=com.azure.resourcemanager.purestorageblock.models.PerformanceParameters&text=PerformanceParameters\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.purestorageblock.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-purestorageblock:1.1.0-beta.1

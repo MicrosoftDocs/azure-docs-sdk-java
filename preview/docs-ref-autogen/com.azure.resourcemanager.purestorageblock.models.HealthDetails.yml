@@ -113,17 +113,10 @@ methods:
   returns:
     description: "the usedCapacityPercentage value."
     type: "<xref href=\"double?alt=double&text=double\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.purestorageblock.models.HealthDetails.validate()"
-  fullName: "com.azure.resourcemanager.purestorageblock.models.HealthDetails.validate()"
-  name: "validate()"
-  nameWithType: "HealthDetails.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 type: "class"
 desc: "Health metrics for a storage pool."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.purestorageblock.models.HealthDetails?alt=com.azure.resourcemanager.purestorageblock.models.HealthDetails&text=HealthDetails\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.purestorageblock.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-purestorageblock:1.0.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-purestorageblock:1.1.0-beta.1

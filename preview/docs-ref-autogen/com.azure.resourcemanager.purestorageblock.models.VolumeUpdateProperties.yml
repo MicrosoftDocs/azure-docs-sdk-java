@@ -1,0 +1,94 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.purestorageblock.models.VolumeUpdateProperties"
+fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeUpdateProperties"
+name: "VolumeUpdateProperties"
+nameWithType: "VolumeUpdateProperties"
+summary: "The updatable properties of the Volume."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **VolumeUpdateProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.purestorageblock.models.VolumeUpdateProperties?alt=com.azure.resourcemanager.purestorageblock.models.VolumeUpdateProperties&text=VolumeUpdateProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.purestorageblock.models.VolumeUpdateProperties.VolumeUpdateProperties()"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeUpdateProperties.VolumeUpdateProperties()"
+  name: "VolumeUpdateProperties()"
+  nameWithType: "VolumeUpdateProperties.VolumeUpdateProperties()"
+  summary: "Creates an instance of Volume<wbr>Update<wbr>Properties class."
+  syntax: "public VolumeUpdateProperties()"
+  desc: "Creates an instance of VolumeUpdateProperties class."
+methods:
+- uid: "com.azure.resourcemanager.purestorageblock.models.VolumeUpdateProperties.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeUpdateProperties.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "VolumeUpdateProperties.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Volume<wbr>Update<wbr>Properties from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static VolumeUpdateProperties fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the VolumeUpdateProperties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of VolumeUpdateProperties from the JsonReader."
+  returns:
+    description: "An instance of VolumeUpdateProperties if the JsonReader was pointing to an instance of it, or null if it\n was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.VolumeUpdateProperties?alt=com.azure.resourcemanager.purestorageblock.models.VolumeUpdateProperties&text=VolumeUpdateProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.models.VolumeUpdateProperties.provisionedSize()"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeUpdateProperties.provisionedSize()"
+  name: "provisionedSize()"
+  nameWithType: "VolumeUpdateProperties.provisionedSize()"
+  summary: "Get the provisioned<wbr>Size property: Currently provisioned size of the volume, in bytes."
+  syntax: "public Long provisionedSize()"
+  desc: "Get the provisionedSize property: Currently provisioned size of the volume, in bytes."
+  returns:
+    description: "the provisionedSize value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Long.html\">Long</a>"
+- uid: "com.azure.resourcemanager.purestorageblock.models.VolumeUpdateProperties.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeUpdateProperties.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "VolumeUpdateProperties.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.models.VolumeUpdateProperties.withProvisionedSize(java.lang.Long)"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeUpdateProperties.withProvisionedSize(Long provisionedSize)"
+  name: "withProvisionedSize(Long provisionedSize)"
+  nameWithType: "VolumeUpdateProperties.withProvisionedSize(Long provisionedSize)"
+  summary: "Set the provisioned<wbr>Size property: Currently provisioned size of the volume, in bytes."
+  parameters:
+  - description: "the provisionedSize value to set."
+    name: "provisionedSize"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Long.html\">Long</a>"
+  syntax: "public VolumeUpdateProperties withProvisionedSize(Long provisionedSize)"
+  desc: "Set the provisionedSize property: Currently provisioned size of the volume, in bytes."
+  returns:
+    description: "the VolumeUpdateProperties object itself."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.VolumeUpdateProperties?alt=com.azure.resourcemanager.purestorageblock.models.VolumeUpdateProperties&text=VolumeUpdateProperties\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "The updatable properties of the Volume."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.purestorageblock.models.VolumeUpdateProperties?alt=com.azure.resourcemanager.purestorageblock.models.VolumeUpdateProperties&text=VolumeUpdateProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.purestorageblock.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-purestorageblock:1.1.0-beta.1

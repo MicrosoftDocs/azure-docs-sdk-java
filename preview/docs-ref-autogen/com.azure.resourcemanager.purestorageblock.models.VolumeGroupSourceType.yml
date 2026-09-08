@@ -1,0 +1,122 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupSourceType"
+fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupSourceType"
+name: "VolumeGroupSourceType"
+nameWithType: "VolumeGroupSourceType"
+summary: "Source type for volume group creation."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **VolumeGroupSourceType**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.purestorageblock.models.VolumeGroupSourceType?alt=com.azure.resourcemanager.purestorageblock.models.VolumeGroupSourceType&text=VolumeGroupSourceType\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupSourceType.VolumeGroupSourceType()"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupSourceType.VolumeGroupSourceType()"
+  name: "VolumeGroupSourceType()"
+  nameWithType: "VolumeGroupSourceType.VolumeGroupSourceType()"
+  summary: "Creates a new instance of Volume<wbr>Group<wbr>Source<wbr>Type value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.purestorageblock.models.VolumeGroupSourceType.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public VolumeGroupSourceType()"
+  desc: "Creates a new instance of VolumeGroupSourceType value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupSourceType.NONE"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupSourceType.NONE"
+  name: "NONE"
+  nameWithType: "VolumeGroupSourceType.NONE"
+  summary: "No source; create an empty volume group."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.VolumeGroupSourceType?alt=com.azure.resourcemanager.purestorageblock.models.VolumeGroupSourceType&text=VolumeGroupSourceType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final VolumeGroupSourceType NONE"
+  desc: "No source; create an empty volume group."
+- uid: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupSourceType.RECOVERABLE_VOLUME_GROUP"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupSourceType.RECOVERABLE_VOLUME_GROUP"
+  name: "RECOVERABLE_VOLUME_GROUP"
+  nameWithType: "VolumeGroupSourceType.RECOVERABLE_VOLUME_GROUP"
+  summary: "Recover a soft-deleted volume group."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.VolumeGroupSourceType?alt=com.azure.resourcemanager.purestorageblock.models.VolumeGroupSourceType&text=VolumeGroupSourceType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final VolumeGroupSourceType RECOVERABLE_VOLUME_GROUP"
+  desc: "Recover a soft-deleted volume group."
+- uid: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupSourceType.SNAPSHOT"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupSourceType.SNAPSHOT"
+  name: "SNAPSHOT"
+  nameWithType: "VolumeGroupSourceType.SNAPSHOT"
+  summary: "Restore from a volume group snapshot."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.VolumeGroupSourceType?alt=com.azure.resourcemanager.purestorageblock.models.VolumeGroupSourceType&text=VolumeGroupSourceType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final VolumeGroupSourceType SNAPSHOT"
+  desc: "Restore from a volume group snapshot."
+- uid: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupSourceType.VOLUME_GROUP"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupSourceType.VOLUME_GROUP"
+  name: "VOLUME_GROUP"
+  nameWithType: "VolumeGroupSourceType.VOLUME_GROUP"
+  summary: "Clone from an existing volume group."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.VolumeGroupSourceType?alt=com.azure.resourcemanager.purestorageblock.models.VolumeGroupSourceType&text=VolumeGroupSourceType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final VolumeGroupSourceType VOLUME_GROUP"
+  desc: "Clone from an existing volume group."
+methods:
+- uid: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupSourceType.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupSourceType.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "VolumeGroupSourceType.fromString(String name)"
+  summary: "Creates or finds a Volume<wbr>Group<wbr>Source<wbr>Type from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static VolumeGroupSourceType fromString(String name)"
+  desc: "Creates or finds a VolumeGroupSourceType from its string representation."
+  returns:
+    description: "the corresponding VolumeGroupSourceType."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.VolumeGroupSourceType?alt=com.azure.resourcemanager.purestorageblock.models.VolumeGroupSourceType&text=VolumeGroupSourceType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupSourceType.values()"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupSourceType.values()"
+  name: "values()"
+  nameWithType: "VolumeGroupSourceType.values()"
+  summary: "Gets known Volume<wbr>Group<wbr>Source<wbr>Type values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<VolumeGroupSourceType> values()"
+  desc: "Gets known VolumeGroupSourceType values."
+  returns:
+    description: "known VolumeGroupSourceType values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.purestorageblock.models.VolumeGroupSourceType?alt=com.azure.resourcemanager.purestorageblock.models.VolumeGroupSourceType&text=VolumeGroupSourceType\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Source type for volume group creation."
+metadata: {}
+package: "com.azure.resourcemanager.purestorageblock.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-purestorageblock:1.1.0-beta.1

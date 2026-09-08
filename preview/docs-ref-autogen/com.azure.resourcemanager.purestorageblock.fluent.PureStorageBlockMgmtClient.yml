@@ -114,6 +114,18 @@ methods:
   returns:
     description: "the OperationsClient object."
     type: "<xref href=\"com.azure.resourcemanager.purestorageblock.fluent.OperationsClient?alt=com.azure.resourcemanager.purestorageblock.fluent.OperationsClient&text=OperationsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.fluent.PureStorageBlockMgmtClient.getRecoverableVolumeGroups()"
+  fullName: "com.azure.resourcemanager.purestorageblock.fluent.PureStorageBlockMgmtClient.getRecoverableVolumeGroups()"
+  name: "getRecoverableVolumeGroups()"
+  nameWithType: "PureStorageBlockMgmtClient.getRecoverableVolumeGroups()"
+  summary: "Gets the Recoverable<wbr>Volume<wbr>Groups<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract RecoverableVolumeGroupsClient getRecoverableVolumeGroups()"
+  desc: "Gets the RecoverableVolumeGroupsClient object to access its operations."
+  returns:
+    description: "the RecoverableVolumeGroupsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.fluent.RecoverableVolumeGroupsClient?alt=com.azure.resourcemanager.purestorageblock.fluent.RecoverableVolumeGroupsClient&text=RecoverableVolumeGroupsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.purestorageblock.fluent.PureStorageBlockMgmtClient.getReservations()"
   fullName: "com.azure.resourcemanager.purestorageblock.fluent.PureStorageBlockMgmtClient.getReservations()"
   name: "getReservations()"
@@ -126,6 +138,18 @@ methods:
   returns:
     description: "the ReservationsClient object."
     type: "<xref href=\"com.azure.resourcemanager.purestorageblock.fluent.ReservationsClient?alt=com.azure.resourcemanager.purestorageblock.fluent.ReservationsClient&text=ReservationsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.fluent.PureStorageBlockMgmtClient.getSaaSOperationGroups()"
+  fullName: "com.azure.resourcemanager.purestorageblock.fluent.PureStorageBlockMgmtClient.getSaaSOperationGroups()"
+  name: "getSaaSOperationGroups()"
+  nameWithType: "PureStorageBlockMgmtClient.getSaaSOperationGroups()"
+  summary: "Gets the Saa<wbr>SOperation<wbr>Groups<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract SaaSOperationGroupsClient getSaaSOperationGroups()"
+  desc: "Gets the SaaSOperationGroupsClient object to access its operations."
+  returns:
+    description: "the SaaSOperationGroupsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.fluent.SaaSOperationGroupsClient?alt=com.azure.resourcemanager.purestorageblock.fluent.SaaSOperationGroupsClient&text=SaaSOperationGroupsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.purestorageblock.fluent.PureStorageBlockMgmtClient.getStoragePools()"
   fullName: "com.azure.resourcemanager.purestorageblock.fluent.PureStorageBlockMgmtClient.getStoragePools()"
   name: "getStoragePools()"
@@ -150,8 +174,44 @@ methods:
   returns:
     description: "the subscriptionId value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.purestorageblock.fluent.PureStorageBlockMgmtClient.getVolumeGroups()"
+  fullName: "com.azure.resourcemanager.purestorageblock.fluent.PureStorageBlockMgmtClient.getVolumeGroups()"
+  name: "getVolumeGroups()"
+  nameWithType: "PureStorageBlockMgmtClient.getVolumeGroups()"
+  summary: "Gets the Volume<wbr>Groups<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract VolumeGroupsClient getVolumeGroups()"
+  desc: "Gets the VolumeGroupsClient object to access its operations."
+  returns:
+    description: "the VolumeGroupsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.fluent.VolumeGroupsClient?alt=com.azure.resourcemanager.purestorageblock.fluent.VolumeGroupsClient&text=VolumeGroupsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.fluent.PureStorageBlockMgmtClient.getVolumeGroupSnapshots()"
+  fullName: "com.azure.resourcemanager.purestorageblock.fluent.PureStorageBlockMgmtClient.getVolumeGroupSnapshots()"
+  name: "getVolumeGroupSnapshots()"
+  nameWithType: "PureStorageBlockMgmtClient.getVolumeGroupSnapshots()"
+  summary: "Gets the Volume<wbr>Group<wbr>Snapshots<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract VolumeGroupSnapshotsClient getVolumeGroupSnapshots()"
+  desc: "Gets the VolumeGroupSnapshotsClient object to access its operations."
+  returns:
+    description: "the VolumeGroupSnapshotsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.fluent.VolumeGroupSnapshotsClient?alt=com.azure.resourcemanager.purestorageblock.fluent.VolumeGroupSnapshotsClient&text=VolumeGroupSnapshotsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.fluent.PureStorageBlockMgmtClient.getVolumes()"
+  fullName: "com.azure.resourcemanager.purestorageblock.fluent.PureStorageBlockMgmtClient.getVolumes()"
+  name: "getVolumes()"
+  nameWithType: "PureStorageBlockMgmtClient.getVolumes()"
+  summary: "Gets the Volumes<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract VolumesClient getVolumes()"
+  desc: "Gets the VolumesClient object to access its operations."
+  returns:
+    description: "the VolumesClient object."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.fluent.VolumesClient?alt=com.azure.resourcemanager.purestorageblock.fluent.VolumesClient&text=VolumesClient\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 desc: "The interface for PureStorageBlockMgmtClient class."
 metadata: {}
 package: "com.azure.resourcemanager.purestorageblock.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-purestorageblock:1.0.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-purestorageblock:1.1.0-beta.1

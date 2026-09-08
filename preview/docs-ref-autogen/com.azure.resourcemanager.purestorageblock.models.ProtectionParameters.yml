@@ -1,0 +1,118 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.purestorageblock.models.ProtectionParameters"
+fullName: "com.azure.resourcemanager.purestorageblock.models.ProtectionParameters"
+name: "ProtectionParameters"
+nameWithType: "ProtectionParameters"
+summary: "Protection parameters for volume group."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ProtectionParameters**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.purestorageblock.models.ProtectionParameters?alt=com.azure.resourcemanager.purestorageblock.models.ProtectionParameters&text=ProtectionParameters\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.purestorageblock.models.ProtectionParameters.ProtectionParameters()"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.ProtectionParameters.ProtectionParameters()"
+  name: "ProtectionParameters()"
+  nameWithType: "ProtectionParameters.ProtectionParameters()"
+  summary: "Creates an instance of Protection<wbr>Parameters class."
+  syntax: "public ProtectionParameters()"
+  desc: "Creates an instance of ProtectionParameters class."
+methods:
+- uid: "com.azure.resourcemanager.purestorageblock.models.ProtectionParameters.frequency()"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.ProtectionParameters.frequency()"
+  name: "frequency()"
+  nameWithType: "ProtectionParameters.frequency()"
+  summary: "Get the frequency property: Snapshot frequency in ISO 8601 duration format."
+  syntax: "public Duration frequency()"
+  desc: "Get the frequency property: Snapshot frequency in ISO 8601 duration format."
+  returns:
+    description: "the frequency value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html\">Duration</a>"
+- uid: "com.azure.resourcemanager.purestorageblock.models.ProtectionParameters.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.ProtectionParameters.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "ProtectionParameters.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Protection<wbr>Parameters from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static ProtectionParameters fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the ProtectionParameters."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of ProtectionParameters from the JsonReader."
+  returns:
+    description: "An instance of ProtectionParameters if the JsonReader was pointing to an instance of it, or null if it\n was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.ProtectionParameters?alt=com.azure.resourcemanager.purestorageblock.models.ProtectionParameters&text=ProtectionParameters\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.models.ProtectionParameters.retention()"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.ProtectionParameters.retention()"
+  name: "retention()"
+  nameWithType: "ProtectionParameters.retention()"
+  summary: "Get the retention property: Retention period for snapshots in ISO 8601 duration format."
+  syntax: "public Duration retention()"
+  desc: "Get the retention property: Retention period for snapshots in ISO 8601 duration format."
+  returns:
+    description: "the retention value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html\">Duration</a>"
+- uid: "com.azure.resourcemanager.purestorageblock.models.ProtectionParameters.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.ProtectionParameters.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "ProtectionParameters.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.models.ProtectionParameters.withFrequency(java.time.Duration)"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.ProtectionParameters.withFrequency(Duration frequency)"
+  name: "withFrequency(Duration frequency)"
+  nameWithType: "ProtectionParameters.withFrequency(Duration frequency)"
+  summary: "Set the frequency property: Snapshot frequency in ISO 8601 duration format."
+  parameters:
+  - description: "the frequency value to set."
+    name: "frequency"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html\">Duration</a>"
+  syntax: "public ProtectionParameters withFrequency(Duration frequency)"
+  desc: "Set the frequency property: Snapshot frequency in ISO 8601 duration format."
+  returns:
+    description: "the ProtectionParameters object itself."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.ProtectionParameters?alt=com.azure.resourcemanager.purestorageblock.models.ProtectionParameters&text=ProtectionParameters\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.models.ProtectionParameters.withRetention(java.time.Duration)"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.ProtectionParameters.withRetention(Duration retention)"
+  name: "withRetention(Duration retention)"
+  nameWithType: "ProtectionParameters.withRetention(Duration retention)"
+  summary: "Set the retention property: Retention period for snapshots in ISO 8601 duration format."
+  parameters:
+  - description: "the retention value to set."
+    name: "retention"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html\">Duration</a>"
+  syntax: "public ProtectionParameters withRetention(Duration retention)"
+  desc: "Set the retention property: Retention period for snapshots in ISO 8601 duration format."
+  returns:
+    description: "the ProtectionParameters object itself."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.ProtectionParameters?alt=com.azure.resourcemanager.purestorageblock.models.ProtectionParameters&text=ProtectionParameters\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Protection parameters for volume group."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.purestorageblock.models.ProtectionParameters?alt=com.azure.resourcemanager.purestorageblock.models.ProtectionParameters&text=ProtectionParameters\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.purestorageblock.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-purestorageblock:1.1.0-beta.1

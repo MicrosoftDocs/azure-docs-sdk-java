@@ -4,7 +4,7 @@ fullName: "com.azure.resourcemanager.deviceprovisioningservices.models.Certifica
 name: "CertificateResponse.Update"
 nameWithType: "CertificateResponse.Update"
 summary: "The template for Certificate<wbr>Response update."
-syntax: "public static interface **CertificateResponse.Update**</br> extends <xref href=\"com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.UpdateStages.WithCertificate?alt=com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.UpdateStages.WithCertificate&text=WithCertificate\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.UpdateStages.WithIfMatch?alt=com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.UpdateStages.WithIfMatch&text=WithIfMatch\" data-throw-if-not-resolved=\"False\" />"
+syntax: "public static interface **CertificateResponse.Update**</br> extends <xref href=\"com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.UpdateStages.WithProperties?alt=com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.UpdateStages.WithProperties&text=WithProperties\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.UpdateStages.WithIfMatch?alt=com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.UpdateStages.WithIfMatch&text=WithIfMatch\" data-throw-if-not-resolved=\"False\" />"
 methods:
 - uid: "com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.Update.apply()"
   fullName: "com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.Update.apply()"
@@ -37,8 +37,8 @@ methods:
 type: "interface"
 desc: "The template for CertificateResponse update."
 implements:
-- "<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.UpdateStages.WithCertificate?alt=com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.UpdateStages.WithCertificate&text=WithCertificate\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.UpdateStages.WithIfMatch?alt=com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.UpdateStages.WithIfMatch&text=WithIfMatch\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.UpdateStages.WithProperties?alt=com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.UpdateStages.WithProperties&text=WithProperties\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.azure.resourcemanager.deviceprovisioningservices.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-deviceprovisioningservices:1.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-deviceprovisioningservices:1.2.0

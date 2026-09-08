@@ -122,6 +122,16 @@ methods:
   returns:
     description: "Resource collection API of Operations."
     type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.Operations?alt=com.azure.resourcemanager.purestorageblock.models.Operations&text=Operations\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.PureStorageBlockManager.recoverableVolumeGroups()"
+  fullName: "com.azure.resourcemanager.purestorageblock.PureStorageBlockManager.recoverableVolumeGroups()"
+  name: "recoverableVolumeGroups()"
+  nameWithType: "PureStorageBlockManager.recoverableVolumeGroups()"
+  summary: "Gets the resource collection API of Recoverable<wbr>Volume<wbr>Groups."
+  syntax: "public RecoverableVolumeGroups recoverableVolumeGroups()"
+  desc: "Gets the resource collection API of RecoverableVolumeGroups."
+  returns:
+    description: "Resource collection API of RecoverableVolumeGroups."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.RecoverableVolumeGroups?alt=com.azure.resourcemanager.purestorageblock.models.RecoverableVolumeGroups&text=RecoverableVolumeGroups\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.purestorageblock.PureStorageBlockManager.reservations()"
   fullName: "com.azure.resourcemanager.purestorageblock.PureStorageBlockManager.reservations()"
   name: "reservations()"
@@ -132,6 +142,16 @@ methods:
   returns:
     description: "Resource collection API of Reservations."
     type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.Reservations?alt=com.azure.resourcemanager.purestorageblock.models.Reservations&text=Reservations\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.PureStorageBlockManager.saaSOperationGroups()"
+  fullName: "com.azure.resourcemanager.purestorageblock.PureStorageBlockManager.saaSOperationGroups()"
+  name: "saaSOperationGroups()"
+  nameWithType: "PureStorageBlockManager.saaSOperationGroups()"
+  summary: "Gets the resource collection API of Saa<wbr>SOperation<wbr>Groups."
+  syntax: "public SaaSOperationGroups saaSOperationGroups()"
+  desc: "Gets the resource collection API of SaaSOperationGroups."
+  returns:
+    description: "Resource collection API of SaaSOperationGroups."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.SaaSOperationGroups?alt=com.azure.resourcemanager.purestorageblock.models.SaaSOperationGroups&text=SaaSOperationGroups\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.purestorageblock.PureStorageBlockManager.serviceClient()"
   fullName: "com.azure.resourcemanager.purestorageblock.PureStorageBlockManager.serviceClient()"
   name: "serviceClient()"
@@ -152,8 +172,38 @@ methods:
   returns:
     description: "Resource collection API of StoragePools."
     type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.StoragePools?alt=com.azure.resourcemanager.purestorageblock.models.StoragePools&text=StoragePools\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.PureStorageBlockManager.volumeGroups()"
+  fullName: "com.azure.resourcemanager.purestorageblock.PureStorageBlockManager.volumeGroups()"
+  name: "volumeGroups()"
+  nameWithType: "PureStorageBlockManager.volumeGroups()"
+  summary: "Gets the resource collection API of Volume<wbr>Groups."
+  syntax: "public VolumeGroups volumeGroups()"
+  desc: "Gets the resource collection API of VolumeGroups. It manages VolumeGroup."
+  returns:
+    description: "Resource collection API of VolumeGroups."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.VolumeGroups?alt=com.azure.resourcemanager.purestorageblock.models.VolumeGroups&text=VolumeGroups\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.PureStorageBlockManager.volumeGroupSnapshots()"
+  fullName: "com.azure.resourcemanager.purestorageblock.PureStorageBlockManager.volumeGroupSnapshots()"
+  name: "volumeGroupSnapshots()"
+  nameWithType: "PureStorageBlockManager.volumeGroupSnapshots()"
+  summary: "Gets the resource collection API of Volume<wbr>Group<wbr>Snapshots."
+  syntax: "public VolumeGroupSnapshots volumeGroupSnapshots()"
+  desc: "Gets the resource collection API of VolumeGroupSnapshots. It manages VolumeGroupSnapshot."
+  returns:
+    description: "Resource collection API of VolumeGroupSnapshots."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshots?alt=com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshots&text=VolumeGroupSnapshots\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.PureStorageBlockManager.volumes()"
+  fullName: "com.azure.resourcemanager.purestorageblock.PureStorageBlockManager.volumes()"
+  name: "volumes()"
+  nameWithType: "PureStorageBlockManager.volumes()"
+  summary: "Gets the resource collection API of Volumes."
+  syntax: "public Volumes volumes()"
+  desc: "Gets the resource collection API of Volumes. It manages Volume."
+  returns:
+    description: "Resource collection API of Volumes."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.Volumes?alt=com.azure.resourcemanager.purestorageblock.models.Volumes&text=Volumes\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Entry point to PureStorageBlockManager."
 metadata: {}
 package: "com.azure.resourcemanager.purestorageblock"
-artifact: com.azure.resourcemanager:azure-resourcemanager-purestorageblock:1.0.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-purestorageblock:1.1.0-beta.1

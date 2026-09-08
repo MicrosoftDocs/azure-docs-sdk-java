@@ -1,0 +1,61 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.purestorageblock.models.PlatformConsoleActivationCode"
+fullName: "com.azure.resourcemanager.purestorageblock.models.PlatformConsoleActivationCode"
+name: "PlatformConsoleActivationCode"
+nameWithType: "PlatformConsoleActivationCode"
+summary: "An immutable client-side representation of Platform<wbr>Console<wbr>Activation<wbr>Code."
+syntax: "public interface **PlatformConsoleActivationCode**"
+methods:
+- uid: "com.azure.resourcemanager.purestorageblock.models.PlatformConsoleActivationCode.activationCode()"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.PlatformConsoleActivationCode.activationCode()"
+  name: "activationCode()"
+  nameWithType: "PlatformConsoleActivationCode.activationCode()"
+  summary: "Gets the activation<wbr>Code property: One-time activation code for platform console access."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String activationCode()"
+  desc: "Gets the activationCode property: One-time activation code for platform console access."
+  returns:
+    description: "the activationCode value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.purestorageblock.models.PlatformConsoleActivationCode.expiresAt()"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.PlatformConsoleActivationCode.expiresAt()"
+  name: "expiresAt()"
+  nameWithType: "PlatformConsoleActivationCode.expiresAt()"
+  summary: "Gets the expires<wbr>At property: Expiry time of the activation code in RFC3339 format."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract OffsetDateTime expiresAt()"
+  desc: "Gets the expiresAt property: Expiry time of the activation code in RFC3339 format."
+  returns:
+    description: "the expiresAt value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
+- uid: "com.azure.resourcemanager.purestorageblock.models.PlatformConsoleActivationCode.innerModel()"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.PlatformConsoleActivationCode.innerModel()"
+  name: "innerModel()"
+  nameWithType: "PlatformConsoleActivationCode.innerModel()"
+  summary: "Gets the inner com.<wbr>azure.<wbr>resourcemanager.<wbr>purestorageblock.<wbr>fluent.<wbr>models.<wbr>Platform<wbr>Console<wbr>Activation<wbr>Code<wbr>Inner object."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract PlatformConsoleActivationCodeInner innerModel()"
+  desc: "Gets the inner com.azure.resourcemanager.purestorageblock.fluent.models.PlatformConsoleActivationCodeInner object."
+  returns:
+    description: "the inner object."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.fluent.models.PlatformConsoleActivationCodeInner?alt=com.azure.resourcemanager.purestorageblock.fluent.models.PlatformConsoleActivationCodeInner&text=PlatformConsoleActivationCodeInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.models.PlatformConsoleActivationCode.username()"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.PlatformConsoleActivationCode.username()"
+  name: "username()"
+  nameWithType: "PlatformConsoleActivationCode.username()"
+  summary: "Gets the username property: Username to use when activating the console session."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String username()"
+  desc: "Gets the username property: Username to use when activating the console session."
+  returns:
+    description: "the username value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+type: "interface"
+desc: "An immutable client-side representation of PlatformConsoleActivationCode."
+metadata: {}
+package: "com.azure.resourcemanager.purestorageblock.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-purestorageblock:1.1.0-beta.1

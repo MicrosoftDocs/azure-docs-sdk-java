@@ -14,10 +14,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "Resource group identifier."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "Name of provisioning service to create or update."
+  - description: "Name of the provisioning service to retrieve."
     name: "provisioningServiceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Description of the provisioning service to create or update."
@@ -26,7 +26,7 @@ methods:
   syntax: "public abstract SyncPoller<PollResult<ProvisioningServiceDescriptionInner>,ProvisioningServiceDescriptionInner> beginCreateOrUpdate(String resourceGroupName, String provisioningServiceName, ProvisioningServiceDescriptionInner iotDpsDescription)"
   desc: "Create or update the metadata of the provisioning service. The usual pattern to modify a property is to retrieve the provisioning service metadata and security metadata, and then combine them with the modified values in a new body to update the provisioning service."
   returns:
-    description: "the description of the provisioning service."
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of the description of the provisioning service."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.fluent.models.ProvisioningServiceDescriptionInner?alt=com.azure.resourcemanager.deviceprovisioningservices.fluent.models.ProvisioningServiceDescriptionInner&text=ProvisioningServiceDescriptionInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.fluent.models.ProvisioningServiceDescriptionInner?alt=com.azure.resourcemanager.deviceprovisioningservices.fluent.models.ProvisioningServiceDescriptionInner&text=ProvisioningServiceDescriptionInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.beginCreateOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.deviceprovisioningservices.fluent.models.ProvisioningServiceDescriptionInner,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.beginCreateOrUpdate(String resourceGroupName, String provisioningServiceName, ProvisioningServiceDescriptionInner iotDpsDescription, Context context)"
@@ -36,10 +36,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "Resource group identifier."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "Name of provisioning service to create or update."
+  - description: "Name of the provisioning service to retrieve."
     name: "provisioningServiceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Description of the provisioning service to create or update."
@@ -51,7 +51,7 @@ methods:
   syntax: "public abstract SyncPoller<PollResult<ProvisioningServiceDescriptionInner>,ProvisioningServiceDescriptionInner> beginCreateOrUpdate(String resourceGroupName, String provisioningServiceName, ProvisioningServiceDescriptionInner iotDpsDescription, Context context)"
   desc: "Create or update the metadata of the provisioning service. The usual pattern to modify a property is to retrieve the provisioning service metadata and security metadata, and then combine them with the modified values in a new body to update the provisioning service."
   returns:
-    description: "the description of the provisioning service."
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of the description of the provisioning service."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.fluent.models.ProvisioningServiceDescriptionInner?alt=com.azure.resourcemanager.deviceprovisioningservices.fluent.models.ProvisioningServiceDescriptionInner&text=ProvisioningServiceDescriptionInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.fluent.models.ProvisioningServiceDescriptionInner?alt=com.azure.resourcemanager.deviceprovisioningservices.fluent.models.ProvisioningServiceDescriptionInner&text=ProvisioningServiceDescriptionInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.beginCreateOrUpdatePrivateEndpointConnection(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.deviceprovisioningservices.fluent.models.PrivateEndpointConnectionInner)"
   fullName: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.beginCreateOrUpdatePrivateEndpointConnection(String resourceGroupName, String resourceName, String privateEndpointConnectionName, PrivateEndpointConnectionInner privateEndpointConnection)"
@@ -61,10 +61,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the provisioning service."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the provisioning service."
+  - description: "Name of the provisioning service to retrieve."
     name: "resourceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the private endpoint connection."
@@ -76,7 +76,7 @@ methods:
   syntax: "public abstract SyncPoller<PollResult<PrivateEndpointConnectionInner>,PrivateEndpointConnectionInner> beginCreateOrUpdatePrivateEndpointConnection(String resourceGroupName, String resourceName, String privateEndpointConnectionName, PrivateEndpointConnectionInner privateEndpointConnection)"
   desc: "Create or update the status of a private endpoint connection with the specified name."
   returns:
-    description: "the private endpoint connection of a provisioning service."
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of the private endpoint connection of a provisioning service."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.fluent.models.PrivateEndpointConnectionInner?alt=com.azure.resourcemanager.deviceprovisioningservices.fluent.models.PrivateEndpointConnectionInner&text=PrivateEndpointConnectionInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.fluent.models.PrivateEndpointConnectionInner?alt=com.azure.resourcemanager.deviceprovisioningservices.fluent.models.PrivateEndpointConnectionInner&text=PrivateEndpointConnectionInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.beginCreateOrUpdatePrivateEndpointConnection(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.deviceprovisioningservices.fluent.models.PrivateEndpointConnectionInner,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.beginCreateOrUpdatePrivateEndpointConnection(String resourceGroupName, String resourceName, String privateEndpointConnectionName, PrivateEndpointConnectionInner privateEndpointConnection, Context context)"
@@ -86,10 +86,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the provisioning service."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the provisioning service."
+  - description: "Name of the provisioning service to retrieve."
     name: "resourceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the private endpoint connection."
@@ -104,7 +104,7 @@ methods:
   syntax: "public abstract SyncPoller<PollResult<PrivateEndpointConnectionInner>,PrivateEndpointConnectionInner> beginCreateOrUpdatePrivateEndpointConnection(String resourceGroupName, String resourceName, String privateEndpointConnectionName, PrivateEndpointConnectionInner privateEndpointConnection, Context context)"
   desc: "Create or update the status of a private endpoint connection with the specified name."
   returns:
-    description: "the private endpoint connection of a provisioning service."
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of the private endpoint connection of a provisioning service."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.fluent.models.PrivateEndpointConnectionInner?alt=com.azure.resourcemanager.deviceprovisioningservices.fluent.models.PrivateEndpointConnectionInner&text=PrivateEndpointConnectionInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.fluent.models.PrivateEndpointConnectionInner?alt=com.azure.resourcemanager.deviceprovisioningservices.fluent.models.PrivateEndpointConnectionInner&text=PrivateEndpointConnectionInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.beginDelete(java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.beginDelete(String resourceGroupName, String provisioningServiceName)"
@@ -114,16 +114,16 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "Resource group identifier."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "Name of provisioning service to delete."
+  - description: "Name of the provisioning service to retrieve."
     name: "provisioningServiceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract SyncPoller<PollResult<Void>,Void> beginDelete(String resourceGroupName, String provisioningServiceName)"
   desc: "Deletes the Provisioning Service."
   returns:
-    description: "the completion."
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of long-running operation."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
 - uid: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.beginDelete(java.lang.String,java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.beginDelete(String resourceGroupName, String provisioningServiceName, Context context)"
@@ -133,10 +133,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "Resource group identifier."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "Name of provisioning service to delete."
+  - description: "Name of the provisioning service to retrieve."
     name: "provisioningServiceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -145,7 +145,7 @@ methods:
   syntax: "public abstract SyncPoller<PollResult<Void>,Void> beginDelete(String resourceGroupName, String provisioningServiceName, Context context)"
   desc: "Deletes the Provisioning Service."
   returns:
-    description: "the completion."
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of long-running operation."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
 - uid: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.beginDeletePrivateEndpointConnection(java.lang.String,java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.beginDeletePrivateEndpointConnection(String resourceGroupName, String resourceName, String privateEndpointConnectionName)"
@@ -155,20 +155,20 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the provisioning service."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the provisioning service."
+  - description: "Name of the provisioning service to retrieve."
     name: "resourceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the private endpoint connection."
     name: "privateEndpointConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public abstract SyncPoller<PollResult<PrivateEndpointConnectionInner>,PrivateEndpointConnectionInner> beginDeletePrivateEndpointConnection(String resourceGroupName, String resourceName, String privateEndpointConnectionName)"
+  syntax: "public abstract SyncPoller<PollResult<Void>,Void> beginDeletePrivateEndpointConnection(String resourceGroupName, String resourceName, String privateEndpointConnectionName)"
   desc: "Delete private endpoint connection with the specified name."
   returns:
-    description: "the private endpoint connection of a provisioning service."
-    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.fluent.models.PrivateEndpointConnectionInner?alt=com.azure.resourcemanager.deviceprovisioningservices.fluent.models.PrivateEndpointConnectionInner&text=PrivateEndpointConnectionInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.fluent.models.PrivateEndpointConnectionInner?alt=com.azure.resourcemanager.deviceprovisioningservices.fluent.models.PrivateEndpointConnectionInner&text=PrivateEndpointConnectionInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of the private endpoint connection of a provisioning service."
+    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
 - uid: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.beginDeletePrivateEndpointConnection(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.beginDeletePrivateEndpointConnection(String resourceGroupName, String resourceName, String privateEndpointConnectionName, Context context)"
   name: "beginDeletePrivateEndpointConnection(String resourceGroupName, String resourceName, String privateEndpointConnectionName, Context context)"
@@ -177,10 +177,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the provisioning service."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the provisioning service."
+  - description: "Name of the provisioning service to retrieve."
     name: "resourceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the private endpoint connection."
@@ -189,11 +189,11 @@ methods:
   - description: "The context to associate with this operation."
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract SyncPoller<PollResult<PrivateEndpointConnectionInner>,PrivateEndpointConnectionInner> beginDeletePrivateEndpointConnection(String resourceGroupName, String resourceName, String privateEndpointConnectionName, Context context)"
+  syntax: "public abstract SyncPoller<PollResult<Void>,Void> beginDeletePrivateEndpointConnection(String resourceGroupName, String resourceName, String privateEndpointConnectionName, Context context)"
   desc: "Delete private endpoint connection with the specified name."
   returns:
-    description: "the private endpoint connection of a provisioning service."
-    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.fluent.models.PrivateEndpointConnectionInner?alt=com.azure.resourcemanager.deviceprovisioningservices.fluent.models.PrivateEndpointConnectionInner&text=PrivateEndpointConnectionInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.fluent.models.PrivateEndpointConnectionInner?alt=com.azure.resourcemanager.deviceprovisioningservices.fluent.models.PrivateEndpointConnectionInner&text=PrivateEndpointConnectionInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of the private endpoint connection of a provisioning service."
+    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
 - uid: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.beginUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.deviceprovisioningservices.models.TagsResource)"
   fullName: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.beginUpdate(String resourceGroupName, String provisioningServiceName, TagsResource provisioningServiceTags)"
   name: "beginUpdate(String resourceGroupName, String provisioningServiceName, TagsResource provisioningServiceTags)"
@@ -202,10 +202,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "Resource group identifier."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "Name of provisioning service to create or update."
+  - description: "Name of the provisioning service to retrieve."
     name: "provisioningServiceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Updated tag information to set into the provisioning service instance."
@@ -214,7 +214,7 @@ methods:
   syntax: "public abstract SyncPoller<PollResult<ProvisioningServiceDescriptionInner>,ProvisioningServiceDescriptionInner> beginUpdate(String resourceGroupName, String provisioningServiceName, TagsResource provisioningServiceTags)"
   desc: "Update an existing provisioning service's tags. to update other fields use the CreateOrUpdate method."
   returns:
-    description: "the description of the provisioning service."
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of the description of the provisioning service."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.fluent.models.ProvisioningServiceDescriptionInner?alt=com.azure.resourcemanager.deviceprovisioningservices.fluent.models.ProvisioningServiceDescriptionInner&text=ProvisioningServiceDescriptionInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.fluent.models.ProvisioningServiceDescriptionInner?alt=com.azure.resourcemanager.deviceprovisioningservices.fluent.models.ProvisioningServiceDescriptionInner&text=ProvisioningServiceDescriptionInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.beginUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.deviceprovisioningservices.models.TagsResource,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.beginUpdate(String resourceGroupName, String provisioningServiceName, TagsResource provisioningServiceTags, Context context)"
@@ -224,10 +224,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "Resource group identifier."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "Name of provisioning service to create or update."
+  - description: "Name of the provisioning service to retrieve."
     name: "provisioningServiceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Updated tag information to set into the provisioning service instance."
@@ -239,7 +239,7 @@ methods:
   syntax: "public abstract SyncPoller<PollResult<ProvisioningServiceDescriptionInner>,ProvisioningServiceDescriptionInner> beginUpdate(String resourceGroupName, String provisioningServiceName, TagsResource provisioningServiceTags, Context context)"
   desc: "Update an existing provisioning service's tags. to update other fields use the CreateOrUpdate method."
   returns:
-    description: "the description of the provisioning service."
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of the description of the provisioning service."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.fluent.models.ProvisioningServiceDescriptionInner?alt=com.azure.resourcemanager.deviceprovisioningservices.fluent.models.ProvisioningServiceDescriptionInner&text=ProvisioningServiceDescriptionInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.fluent.models.ProvisioningServiceDescriptionInner?alt=com.azure.resourcemanager.deviceprovisioningservices.fluent.models.ProvisioningServiceDescriptionInner&text=ProvisioningServiceDescriptionInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.checkProvisioningServiceNameAvailability(com.azure.resourcemanager.deviceprovisioningservices.models.OperationInputs)"
   fullName: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.checkProvisioningServiceNameAvailability(OperationInputs arguments)"
@@ -249,11 +249,11 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "Set the name parameter in the OperationInputs structure to the name of the provisioning service\n     to check."
+  - description: "The request body."
     name: "arguments"
     type: "<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.models.OperationInputs?alt=com.azure.resourcemanager.deviceprovisioningservices.models.OperationInputs&text=OperationInputs\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract NameAvailabilityInfoInner checkProvisioningServiceNameAvailability(OperationInputs arguments)"
-  desc: "Check if a provisioning service name is available. This will validate if the name is syntactically valid and if the name is usable."
+  desc: "Check if a provisioning service name is available. Check if a provisioning service name is available. This will validate if the name is syntactically valid and if the name is usable."
   returns:
     description: "description of name availability."
     type: "<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.fluent.models.NameAvailabilityInfoInner?alt=com.azure.resourcemanager.deviceprovisioningservices.fluent.models.NameAvailabilityInfoInner&text=NameAvailabilityInfoInner\" data-throw-if-not-resolved=\"False\" />"
@@ -265,16 +265,16 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "Set the name parameter in the OperationInputs structure to the name of the provisioning service\n     to check."
+  - description: "The request body."
     name: "arguments"
     type: "<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.models.OperationInputs?alt=com.azure.resourcemanager.deviceprovisioningservices.models.OperationInputs&text=OperationInputs\" data-throw-if-not-resolved=\"False\" />"
   - description: "The context to associate with this operation."
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Response<NameAvailabilityInfoInner> checkProvisioningServiceNameAvailabilityWithResponse(OperationInputs arguments, Context context)"
-  desc: "Check if a provisioning service name is available. This will validate if the name is syntactically valid and if the name is usable."
+  desc: "Check if a provisioning service name is available. Check if a provisioning service name is available. This will validate if the name is syntactically valid and if the name is usable."
   returns:
-    description: "description of name availability."
+    description: "description of name availability along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.fluent.models.NameAvailabilityInfoInner?alt=com.azure.resourcemanager.deviceprovisioningservices.fluent.models.NameAvailabilityInfoInner&text=NameAvailabilityInfoInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.deviceprovisioningservices.fluent.models.ProvisioningServiceDescriptionInner)"
   fullName: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.createOrUpdate(String resourceGroupName, String provisioningServiceName, ProvisioningServiceDescriptionInner iotDpsDescription)"
@@ -284,10 +284,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "Resource group identifier."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "Name of provisioning service to create or update."
+  - description: "Name of the provisioning service to retrieve."
     name: "provisioningServiceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Description of the provisioning service to create or update."
@@ -306,10 +306,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "Resource group identifier."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "Name of provisioning service to create or update."
+  - description: "Name of the provisioning service to retrieve."
     name: "provisioningServiceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Description of the provisioning service to create or update."
@@ -331,10 +331,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the provisioning service."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the provisioning service."
+  - description: "Name of the provisioning service to retrieve."
     name: "resourceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the private endpoint connection."
@@ -356,10 +356,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the provisioning service."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the provisioning service."
+  - description: "Name of the provisioning service to retrieve."
     name: "resourceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the private endpoint connection."
@@ -384,10 +384,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "Resource group identifier."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "Name of provisioning service to delete."
+  - description: "Name of the provisioning service to retrieve."
     name: "provisioningServiceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract void delete(String resourceGroupName, String provisioningServiceName)"
@@ -400,10 +400,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "Resource group identifier."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "Name of provisioning service to delete."
+  - description: "Name of the provisioning service to retrieve."
     name: "provisioningServiceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -419,20 +419,17 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the provisioning service."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the provisioning service."
+  - description: "Name of the provisioning service to retrieve."
     name: "resourceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the private endpoint connection."
     name: "privateEndpointConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public abstract PrivateEndpointConnectionInner deletePrivateEndpointConnection(String resourceGroupName, String resourceName, String privateEndpointConnectionName)"
+  syntax: "public abstract void deletePrivateEndpointConnection(String resourceGroupName, String resourceName, String privateEndpointConnectionName)"
   desc: "Delete private endpoint connection with the specified name."
-  returns:
-    description: "the private endpoint connection of a provisioning service."
-    type: "<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.fluent.models.PrivateEndpointConnectionInner?alt=com.azure.resourcemanager.deviceprovisioningservices.fluent.models.PrivateEndpointConnectionInner&text=PrivateEndpointConnectionInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.deletePrivateEndpointConnection(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.deletePrivateEndpointConnection(String resourceGroupName, String resourceName, String privateEndpointConnectionName, Context context)"
   name: "deletePrivateEndpointConnection(String resourceGroupName, String resourceName, String privateEndpointConnectionName, Context context)"
@@ -441,10 +438,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the provisioning service."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the provisioning service."
+  - description: "Name of the provisioning service to retrieve."
     name: "resourceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the private endpoint connection."
@@ -453,11 +450,8 @@ methods:
   - description: "The context to associate with this operation."
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract PrivateEndpointConnectionInner deletePrivateEndpointConnection(String resourceGroupName, String resourceName, String privateEndpointConnectionName, Context context)"
+  syntax: "public abstract void deletePrivateEndpointConnection(String resourceGroupName, String resourceName, String privateEndpointConnectionName, Context context)"
   desc: "Delete private endpoint connection with the specified name."
-  returns:
-    description: "the private endpoint connection of a provisioning service."
-    type: "<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.fluent.models.PrivateEndpointConnectionInner?alt=com.azure.resourcemanager.deviceprovisioningservices.fluent.models.PrivateEndpointConnectionInner&text=PrivateEndpointConnectionInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.getByResourceGroup(java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.getByResourceGroup(String resourceGroupName, String provisioningServiceName)"
   name: "getByResourceGroup(String resourceGroupName, String provisioningServiceName)"
@@ -466,7 +460,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "Resource group name."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Name of the provisioning service to retrieve."
@@ -485,7 +479,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "Resource group name."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Name of the provisioning service to retrieve."
@@ -497,7 +491,7 @@ methods:
   syntax: "public abstract Response<ProvisioningServiceDescriptionInner> getByResourceGroupWithResponse(String resourceGroupName, String provisioningServiceName, Context context)"
   desc: "Get the metadata of the provisioning service without SAS keys."
   returns:
-    description: "the metadata of the provisioning service without SAS keys."
+    description: "the metadata of the provisioning service without SAS keys along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.fluent.models.ProvisioningServiceDescriptionInner?alt=com.azure.resourcemanager.deviceprovisioningservices.fluent.models.ProvisioningServiceDescriptionInner&text=ProvisioningServiceDescriptionInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.getOperationResult(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.getOperationResult(String operationId, String resourceGroupName, String provisioningServiceName, String asyncinfo)"
@@ -510,13 +504,13 @@ methods:
   - description: "Operation id corresponding to long running operation. Use this to poll for the status."
     name: "operationId"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "Resource group identifier."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "Name of provisioning service that the operation is running on."
+  - description: "Name of the provisioning service to retrieve."
     name: "provisioningServiceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "Async header used to poll on the status of the operation, obtained while creating the long\n     running operation."
+  - description: "Async header used to poll on the status of the operation, obtained while creating the long\n running operation."
     name: "asyncinfo"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract AsyncOperationResultInner getOperationResult(String operationId, String resourceGroupName, String provisioningServiceName, String asyncinfo)"
@@ -535,13 +529,13 @@ methods:
   - description: "Operation id corresponding to long running operation. Use this to poll for the status."
     name: "operationId"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "Resource group identifier."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "Name of provisioning service that the operation is running on."
+  - description: "Name of the provisioning service to retrieve."
     name: "provisioningServiceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "Async header used to poll on the status of the operation, obtained while creating the long\n     running operation."
+  - description: "Async header used to poll on the status of the operation, obtained while creating the long\n running operation."
     name: "asyncinfo"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -550,7 +544,7 @@ methods:
   syntax: "public abstract Response<AsyncOperationResultInner> getOperationResultWithResponse(String operationId, String resourceGroupName, String provisioningServiceName, String asyncinfo, Context context)"
   desc: "Gets the status of a long running operation, such as create, update or delete a provisioning service."
   returns:
-    description: "the status of a long running operation, such as create, update or delete a provisioning service."
+    description: "the status of a long running operation, such as create, update or delete a provisioning service along\n with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.fluent.models.AsyncOperationResultInner?alt=com.azure.resourcemanager.deviceprovisioningservices.fluent.models.AsyncOperationResultInner&text=AsyncOperationResultInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.getPrivateEndpointConnection(java.lang.String,java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.getPrivateEndpointConnection(String resourceGroupName, String resourceName, String privateEndpointConnectionName)"
@@ -560,10 +554,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the provisioning service."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the provisioning service."
+  - description: "Name of the provisioning service to retrieve."
     name: "resourceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the private endpoint connection."
@@ -582,10 +576,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the provisioning service."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the provisioning service."
+  - description: "Name of the provisioning service to retrieve."
     name: "resourceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the private endpoint connection."
@@ -597,7 +591,7 @@ methods:
   syntax: "public abstract Response<PrivateEndpointConnectionInner> getPrivateEndpointConnectionWithResponse(String resourceGroupName, String resourceName, String privateEndpointConnectionName, Context context)"
   desc: "Get private endpoint connection properties."
   returns:
-    description: "private endpoint connection properties."
+    description: "private endpoint connection properties along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.fluent.models.PrivateEndpointConnectionInner?alt=com.azure.resourcemanager.deviceprovisioningservices.fluent.models.PrivateEndpointConnectionInner&text=PrivateEndpointConnectionInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.getPrivateLinkResources(java.lang.String,java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.getPrivateLinkResources(String resourceGroupName, String resourceName, String groupId)"
@@ -607,10 +601,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the provisioning service."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the provisioning service."
+  - description: "Name of the provisioning service to retrieve."
     name: "resourceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the private link resource."
@@ -629,10 +623,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the provisioning service."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the provisioning service."
+  - description: "Name of the provisioning service to retrieve."
     name: "resourceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the private link resource."
@@ -644,7 +638,7 @@ methods:
   syntax: "public abstract Response<GroupIdInformationInner> getPrivateLinkResourcesWithResponse(String resourceGroupName, String resourceName, String groupId, Context context)"
   desc: "Get the specified private link resource for the given provisioning service."
   returns:
-    description: "the specified private link resource for the given provisioning service."
+    description: "the specified private link resource for the given provisioning service along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.fluent.models.GroupIdInformationInner?alt=com.azure.resourcemanager.deviceprovisioningservices.fluent.models.GroupIdInformationInner&text=GroupIdInformationInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.list()"
   fullName: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.list()"
@@ -656,7 +650,7 @@ methods:
   syntax: "public abstract PagedIterable<ProvisioningServiceDescriptionInner> list()"
   desc: "List all the provisioning services for a given subscription id."
   returns:
-    description: "list of provisioning service descriptions."
+    description: "the response of a ProvisioningServiceDescription list operation as paginated response with\n <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.fluent.models.ProvisioningServiceDescriptionInner?alt=com.azure.resourcemanager.deviceprovisioningservices.fluent.models.ProvisioningServiceDescriptionInner&text=ProvisioningServiceDescriptionInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.list(com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.list(Context context)"
@@ -672,7 +666,7 @@ methods:
   syntax: "public abstract PagedIterable<ProvisioningServiceDescriptionInner> list(Context context)"
   desc: "List all the provisioning services for a given subscription id."
   returns:
-    description: "list of provisioning service descriptions."
+    description: "the response of a ProvisioningServiceDescription list operation as paginated response with\n <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.fluent.models.ProvisioningServiceDescriptionInner?alt=com.azure.resourcemanager.deviceprovisioningservices.fluent.models.ProvisioningServiceDescriptionInner&text=ProvisioningServiceDescriptionInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.listByResourceGroup(java.lang.String)"
   fullName: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.listByResourceGroup(String resourceGroupName)"
@@ -682,13 +676,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "Resource group identifier."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedIterable<ProvisioningServiceDescriptionInner> listByResourceGroup(String resourceGroupName)"
   desc: "Get a list of all provisioning services in the given resource group."
   returns:
-    description: "a list of all provisioning services in the given resource group."
+    description: "a list of all provisioning services in the given resource group as paginated response with\n <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.fluent.models.ProvisioningServiceDescriptionInner?alt=com.azure.resourcemanager.deviceprovisioningservices.fluent.models.ProvisioningServiceDescriptionInner&text=ProvisioningServiceDescriptionInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.listByResourceGroup(java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.listByResourceGroup(String resourceGroupName, Context context)"
@@ -698,7 +692,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "Resource group identifier."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -707,7 +701,7 @@ methods:
   syntax: "public abstract PagedIterable<ProvisioningServiceDescriptionInner> listByResourceGroup(String resourceGroupName, Context context)"
   desc: "Get a list of all provisioning services in the given resource group."
   returns:
-    description: "a list of all provisioning services in the given resource group."
+    description: "a list of all provisioning services in the given resource group as paginated response with\n <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.fluent.models.ProvisioningServiceDescriptionInner?alt=com.azure.resourcemanager.deviceprovisioningservices.fluent.models.ProvisioningServiceDescriptionInner&text=ProvisioningServiceDescriptionInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.listKeys(java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.listKeys(String provisioningServiceName, String resourceGroupName)"
@@ -717,16 +711,16 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The provisioning service name to get the shared access keys for."
+  - description: "Name of the provisioning service to retrieve."
     name: "provisioningServiceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "resource group name."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedIterable<SharedAccessSignatureAuthorizationRuleInner> listKeys(String provisioningServiceName, String resourceGroupName)"
   desc: "List the primary and secondary keys for a provisioning service."
   returns:
-    description: "list of shared access keys."
+    description: "list of shared access keys as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.fluent.models.SharedAccessSignatureAuthorizationRuleInner?alt=com.azure.resourcemanager.deviceprovisioningservices.fluent.models.SharedAccessSignatureAuthorizationRuleInner&text=SharedAccessSignatureAuthorizationRuleInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.listKeys(java.lang.String,java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.listKeys(String provisioningServiceName, String resourceGroupName, Context context)"
@@ -736,10 +730,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The provisioning service name to get the shared access keys for."
+  - description: "Name of the provisioning service to retrieve."
     name: "provisioningServiceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "resource group name."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -748,7 +742,7 @@ methods:
   syntax: "public abstract PagedIterable<SharedAccessSignatureAuthorizationRuleInner> listKeys(String provisioningServiceName, String resourceGroupName, Context context)"
   desc: "List the primary and secondary keys for a provisioning service."
   returns:
-    description: "list of shared access keys."
+    description: "list of shared access keys as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.fluent.models.SharedAccessSignatureAuthorizationRuleInner?alt=com.azure.resourcemanager.deviceprovisioningservices.fluent.models.SharedAccessSignatureAuthorizationRuleInner&text=SharedAccessSignatureAuthorizationRuleInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.listKeysForKeyName(java.lang.String,java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.listKeysForKeyName(String provisioningServiceName, String keyName, String resourceGroupName)"
@@ -758,13 +752,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "Name of the provisioning service."
+  - description: "Name of the provisioning service to retrieve."
     name: "provisioningServiceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Logical key name to get key-values for."
     name: "keyName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the resource group that contains the provisioning service."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract SharedAccessSignatureAuthorizationRuleInner listKeysForKeyName(String provisioningServiceName, String keyName, String resourceGroupName)"
@@ -780,13 +774,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "Name of the provisioning service."
+  - description: "Name of the provisioning service to retrieve."
     name: "provisioningServiceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Logical key name to get key-values for."
     name: "keyName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the resource group that contains the provisioning service."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -795,7 +789,7 @@ methods:
   syntax: "public abstract Response<SharedAccessSignatureAuthorizationRuleInner> listKeysForKeyNameWithResponse(String provisioningServiceName, String keyName, String resourceGroupName, Context context)"
   desc: "List primary and secondary keys for a specific key name."
   returns:
-    description: "description of the shared access key."
+    description: "description of the shared access key along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.fluent.models.SharedAccessSignatureAuthorizationRuleInner?alt=com.azure.resourcemanager.deviceprovisioningservices.fluent.models.SharedAccessSignatureAuthorizationRuleInner&text=SharedAccessSignatureAuthorizationRuleInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.listPrivateEndpointConnections(java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.listPrivateEndpointConnections(String resourceGroupName, String resourceName)"
@@ -805,16 +799,16 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the provisioning service."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the provisioning service."
+  - description: "Name of the provisioning service to retrieve."
     name: "resourceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract List<PrivateEndpointConnectionInner> listPrivateEndpointConnections(String resourceGroupName, String resourceName)"
   desc: "List private endpoint connection properties."
   returns:
-    description: "the list of private endpoint connections for a provisioning service."
+    description: "represents a list of private endpoint connections."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.fluent.models.PrivateEndpointConnectionInner?alt=com.azure.resourcemanager.deviceprovisioningservices.fluent.models.PrivateEndpointConnectionInner&text=PrivateEndpointConnectionInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.listPrivateEndpointConnectionsWithResponse(java.lang.String,java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.listPrivateEndpointConnectionsWithResponse(String resourceGroupName, String resourceName, Context context)"
@@ -824,10 +818,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the provisioning service."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the provisioning service."
+  - description: "Name of the provisioning service to retrieve."
     name: "resourceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -836,7 +830,7 @@ methods:
   syntax: "public abstract Response<List<PrivateEndpointConnectionInner>> listPrivateEndpointConnectionsWithResponse(String resourceGroupName, String resourceName, Context context)"
   desc: "List private endpoint connection properties."
   returns:
-    description: "the list of private endpoint connections for a provisioning service."
+    description: "represents a list of private endpoint connections along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.fluent.models.PrivateEndpointConnectionInner?alt=com.azure.resourcemanager.deviceprovisioningservices.fluent.models.PrivateEndpointConnectionInner&text=PrivateEndpointConnectionInner\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
 - uid: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.listPrivateLinkResources(java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.listPrivateLinkResources(String resourceGroupName, String resourceName)"
@@ -846,39 +840,39 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the provisioning service."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the provisioning service."
+  - description: "Name of the provisioning service to retrieve."
     name: "resourceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public abstract PrivateLinkResourcesInner listPrivateLinkResources(String resourceGroupName, String resourceName)"
+  syntax: "public abstract PagedIterable<GroupIdInformationInner> listPrivateLinkResources(String resourceGroupName, String resourceName)"
   desc: "List private link resources for the given provisioning service."
   returns:
-    description: "the available private link resources for a provisioning service."
-    type: "<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.fluent.models.PrivateLinkResourcesInner?alt=com.azure.resourcemanager.deviceprovisioningservices.fluent.models.PrivateLinkResourcesInner&text=PrivateLinkResourcesInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.listPrivateLinkResourcesWithResponse(java.lang.String,java.lang.String,com.azure.core.util.Context)"
-  fullName: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.listPrivateLinkResourcesWithResponse(String resourceGroupName, String resourceName, Context context)"
-  name: "listPrivateLinkResourcesWithResponse(String resourceGroupName, String resourceName, Context context)"
-  nameWithType: "IotDpsResourcesClient.listPrivateLinkResourcesWithResponse(String resourceGroupName, String resourceName, Context context)"
+    description: "the available private link resources for a provisioning service as paginated response with\n <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.fluent.models.GroupIdInformationInner?alt=com.azure.resourcemanager.deviceprovisioningservices.fluent.models.GroupIdInformationInner&text=GroupIdInformationInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.listPrivateLinkResources(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.listPrivateLinkResources(String resourceGroupName, String resourceName, Context context)"
+  name: "listPrivateLinkResources(String resourceGroupName, String resourceName, Context context)"
+  nameWithType: "IotDpsResourcesClient.listPrivateLinkResources(String resourceGroupName, String resourceName, Context context)"
   summary: "List private link resources for the given provisioning service."
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the provisioning service."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the provisioning service."
+  - description: "Name of the provisioning service to retrieve."
     name: "resourceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract Response<PrivateLinkResourcesInner> listPrivateLinkResourcesWithResponse(String resourceGroupName, String resourceName, Context context)"
+  syntax: "public abstract PagedIterable<GroupIdInformationInner> listPrivateLinkResources(String resourceGroupName, String resourceName, Context context)"
   desc: "List private link resources for the given provisioning service."
   returns:
-    description: "the available private link resources for a provisioning service."
-    type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.fluent.models.PrivateLinkResourcesInner?alt=com.azure.resourcemanager.deviceprovisioningservices.fluent.models.PrivateLinkResourcesInner&text=PrivateLinkResourcesInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+    description: "the available private link resources for a provisioning service as paginated response with\n <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.fluent.models.GroupIdInformationInner?alt=com.azure.resourcemanager.deviceprovisioningservices.fluent.models.GroupIdInformationInner&text=GroupIdInformationInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.listValidSkus(java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.listValidSkus(String provisioningServiceName, String resourceGroupName)"
   name: "listValidSkus(String provisioningServiceName, String resourceGroupName)"
@@ -887,16 +881,16 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "Name of provisioning service."
+  - description: "Name of the provisioning service to retrieve."
     name: "provisioningServiceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "Name of resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedIterable<IotDpsSkuDefinitionInner> listValidSkus(String provisioningServiceName, String resourceGroupName)"
   desc: "Gets the list of valid SKUs and tiers for a provisioning service."
   returns:
-    description: "the list of valid SKUs and tiers for a provisioning service."
+    description: "the list of valid SKUs and tiers for a provisioning service as paginated response with\n <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.fluent.models.IotDpsSkuDefinitionInner?alt=com.azure.resourcemanager.deviceprovisioningservices.fluent.models.IotDpsSkuDefinitionInner&text=IotDpsSkuDefinitionInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.listValidSkus(java.lang.String,java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.listValidSkus(String provisioningServiceName, String resourceGroupName, Context context)"
@@ -906,10 +900,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "Name of provisioning service."
+  - description: "Name of the provisioning service to retrieve."
     name: "provisioningServiceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "Name of resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -918,7 +912,7 @@ methods:
   syntax: "public abstract PagedIterable<IotDpsSkuDefinitionInner> listValidSkus(String provisioningServiceName, String resourceGroupName, Context context)"
   desc: "Gets the list of valid SKUs and tiers for a provisioning service."
   returns:
-    description: "the list of valid SKUs and tiers for a provisioning service."
+    description: "the list of valid SKUs and tiers for a provisioning service as paginated response with\n <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.fluent.models.IotDpsSkuDefinitionInner?alt=com.azure.resourcemanager.deviceprovisioningservices.fluent.models.IotDpsSkuDefinitionInner&text=IotDpsSkuDefinitionInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.update(java.lang.String,java.lang.String,com.azure.resourcemanager.deviceprovisioningservices.models.TagsResource)"
   fullName: "com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient.update(String resourceGroupName, String provisioningServiceName, TagsResource provisioningServiceTags)"
@@ -928,10 +922,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "Resource group identifier."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "Name of provisioning service to create or update."
+  - description: "Name of the provisioning service to retrieve."
     name: "provisioningServiceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Updated tag information to set into the provisioning service instance."
@@ -950,10 +944,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "Resource group identifier."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "Name of provisioning service to create or update."
+  - description: "Name of the provisioning service to retrieve."
     name: "provisioningServiceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Updated tag information to set into the provisioning service instance."
@@ -971,4 +965,4 @@ type: "interface"
 desc: "An instance of this class provides access to all the operations defined in IotDpsResourcesClient."
 metadata: {}
 package: "com.azure.resourcemanager.deviceprovisioningservices.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-deviceprovisioningservices:1.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-deviceprovisioningservices:1.2.0

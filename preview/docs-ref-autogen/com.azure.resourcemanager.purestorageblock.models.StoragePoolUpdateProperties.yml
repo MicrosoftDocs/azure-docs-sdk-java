@@ -49,6 +49,16 @@ methods:
   returns:
     description: "An instance of StoragePoolUpdateProperties if the JsonReader was pointing to an instance of it, or null\n if it was pointing to JSON null."
     type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.StoragePoolUpdateProperties?alt=com.azure.resourcemanager.purestorageblock.models.StoragePoolUpdateProperties&text=StoragePoolUpdateProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.models.StoragePoolUpdateProperties.platformConsoleSettings()"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.StoragePoolUpdateProperties.platformConsoleSettings()"
+  name: "platformConsoleSettings()"
+  nameWithType: "StoragePoolUpdateProperties.platformConsoleSettings()"
+  summary: "Get the platform<wbr>Console<wbr>Settings property: Platform console access settings for the storage pool."
+  syntax: "public PlatformConsoleSettings platformConsoleSettings()"
+  desc: "Get the platformConsoleSettings property: Platform console access settings for the storage pool."
+  returns:
+    description: "the platformConsoleSettings value."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.PlatformConsoleSettings?alt=com.azure.resourcemanager.purestorageblock.models.PlatformConsoleSettings&text=PlatformConsoleSettings\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.purestorageblock.models.StoragePoolUpdateProperties.provisionedBandwidthMbPerSec()"
   fullName: "com.azure.resourcemanager.purestorageblock.models.StoragePoolUpdateProperties.provisionedBandwidthMbPerSec()"
   name: "provisionedBandwidthMbPerSec()"
@@ -71,13 +81,20 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.purestorageblock.models.StoragePoolUpdateProperties.validate()"
-  fullName: "com.azure.resourcemanager.purestorageblock.models.StoragePoolUpdateProperties.validate()"
-  name: "validate()"
-  nameWithType: "StoragePoolUpdateProperties.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
+- uid: "com.azure.resourcemanager.purestorageblock.models.StoragePoolUpdateProperties.withPlatformConsoleSettings(com.azure.resourcemanager.purestorageblock.models.PlatformConsoleSettings)"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.StoragePoolUpdateProperties.withPlatformConsoleSettings(PlatformConsoleSettings platformConsoleSettings)"
+  name: "withPlatformConsoleSettings(PlatformConsoleSettings platformConsoleSettings)"
+  nameWithType: "StoragePoolUpdateProperties.withPlatformConsoleSettings(PlatformConsoleSettings platformConsoleSettings)"
+  summary: "Set the platform<wbr>Console<wbr>Settings property: Platform console access settings for the storage pool."
+  parameters:
+  - description: "the platformConsoleSettings value to set."
+    name: "platformConsoleSettings"
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.PlatformConsoleSettings?alt=com.azure.resourcemanager.purestorageblock.models.PlatformConsoleSettings&text=PlatformConsoleSettings\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public StoragePoolUpdateProperties withPlatformConsoleSettings(PlatformConsoleSettings platformConsoleSettings)"
+  desc: "Set the platformConsoleSettings property: Platform console access settings for the storage pool."
+  returns:
+    description: "the StoragePoolUpdateProperties object itself."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.StoragePoolUpdateProperties?alt=com.azure.resourcemanager.purestorageblock.models.StoragePoolUpdateProperties&text=StoragePoolUpdateProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.purestorageblock.models.StoragePoolUpdateProperties.withProvisionedBandwidthMbPerSec(java.lang.Long)"
   fullName: "com.azure.resourcemanager.purestorageblock.models.StoragePoolUpdateProperties.withProvisionedBandwidthMbPerSec(Long provisionedBandwidthMbPerSec)"
   name: "withProvisionedBandwidthMbPerSec(Long provisionedBandwidthMbPerSec)"
@@ -98,4 +115,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.purestorageblock.models.StoragePoolUpdateProperties?alt=com.azure.resourcemanager.purestorageblock.models.StoragePoolUpdateProperties&text=StoragePoolUpdateProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.purestorageblock.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-purestorageblock:1.0.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-purestorageblock:1.1.0-beta.1

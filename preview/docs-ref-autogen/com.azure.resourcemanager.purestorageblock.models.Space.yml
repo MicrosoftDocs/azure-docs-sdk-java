@@ -93,17 +93,10 @@ methods:
   returns:
     description: "the unique value."
     type: "<xref href=\"long?alt=long&text=long\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.purestorageblock.models.Space.validate()"
-  fullName: "com.azure.resourcemanager.purestorageblock.models.Space.validate()"
-  name: "validate()"
-  nameWithType: "Space.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 type: "class"
 desc: "Storage space usage."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.purestorageblock.models.Space?alt=com.azure.resourcemanager.purestorageblock.models.Space&text=Space\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.purestorageblock.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-purestorageblock:1.0.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-purestorageblock:1.1.0-beta.1

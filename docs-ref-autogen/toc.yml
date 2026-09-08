@@ -90861,10 +90861,10 @@
     name: DpsCertificatesClient
     no-loc:
     - DpsCertificatesClient
-  - uid: com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsClient
-    name: IotDpsClient
+  - uid: com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsManagementClient
+    name: IotDpsManagementClient
     no-loc:
-    - IotDpsClient
+    - IotDpsManagementClient
   - uid: com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsResourcesClient
     name: IotDpsResourcesClient
     no-loc:
@@ -90882,10 +90882,6 @@
     name: AsyncOperationResultInner
     no-loc:
     - AsyncOperationResultInner
-  - uid: com.azure.resourcemanager.deviceprovisioningservices.fluent.models.CertificateListDescriptionInner
-    name: CertificateListDescriptionInner
-    no-loc:
-    - CertificateListDescriptionInner
   - uid: com.azure.resourcemanager.deviceprovisioningservices.fluent.models.CertificateResponseInner
     name: CertificateResponseInner
     no-loc:
@@ -90910,10 +90906,6 @@
     name: PrivateEndpointConnectionInner
     no-loc:
     - PrivateEndpointConnectionInner
-  - uid: com.azure.resourcemanager.deviceprovisioningservices.fluent.models.PrivateLinkResourcesInner
-    name: PrivateLinkResourcesInner
-    no-loc:
-    - PrivateLinkResourcesInner
   - uid: com.azure.resourcemanager.deviceprovisioningservices.fluent.models.ProvisioningServiceDescriptionInner
     name: ProvisioningServiceDescriptionInner
     no-loc:
@@ -90943,14 +90935,6 @@
     name: AsyncOperationResult
     no-loc:
     - AsyncOperationResult
-  - uid: com.azure.resourcemanager.deviceprovisioningservices.models.CertificateBodyDescription
-    name: CertificateBodyDescription
-    no-loc:
-    - CertificateBodyDescription
-  - uid: com.azure.resourcemanager.deviceprovisioningservices.models.CertificateListDescription
-    name: CertificateListDescription
-    no-loc:
-    - CertificateListDescription
   - uid: com.azure.resourcemanager.deviceprovisioningservices.models.CertificateProperties
     name: CertificateProperties
     no-loc:
@@ -90975,10 +90959,6 @@
     name: CertificateResponse.DefinitionStages.Blank
     no-loc:
     - CertificateResponse.DefinitionStages.Blank
-  - uid: com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.DefinitionStages.WithCertificate
-    name: CertificateResponse.DefinitionStages.WithCertificate
-    no-loc:
-    - CertificateResponse.DefinitionStages.WithCertificate
   - uid: com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.DefinitionStages.WithCreate
     name: CertificateResponse.DefinitionStages.WithCreate
     no-loc:
@@ -90991,6 +90971,10 @@
     name: CertificateResponse.DefinitionStages.WithParentResource
     no-loc:
     - CertificateResponse.DefinitionStages.WithParentResource
+  - uid: com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.DefinitionStages.WithProperties
+    name: CertificateResponse.DefinitionStages.WithProperties
+    no-loc:
+    - CertificateResponse.DefinitionStages.WithProperties
   - uid: com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.Update
     name: CertificateResponse.Update
     no-loc:
@@ -90999,14 +90983,14 @@
     name: CertificateResponse.UpdateStages
     no-loc:
     - CertificateResponse.UpdateStages
-  - uid: com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.UpdateStages.WithCertificate
-    name: CertificateResponse.UpdateStages.WithCertificate
-    no-loc:
-    - CertificateResponse.UpdateStages.WithCertificate
   - uid: com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.UpdateStages.WithIfMatch
     name: CertificateResponse.UpdateStages.WithIfMatch
     no-loc:
     - CertificateResponse.UpdateStages.WithIfMatch
+  - uid: com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.UpdateStages.WithProperties
+    name: CertificateResponse.UpdateStages.WithProperties
+    no-loc:
+    - CertificateResponse.UpdateStages.WithProperties
   - uid: com.azure.resourcemanager.deviceprovisioningservices.models.DpsCertificates
     name: DpsCertificates
     no-loc:
@@ -91019,10 +91003,10 @@
     name: ErrorDetailsException
     no-loc:
     - ErrorDetailsException
-  - uid: com.azure.resourcemanager.deviceprovisioningservices.models.ErrorMesssage
-    name: ErrorMesssage
+  - uid: com.azure.resourcemanager.deviceprovisioningservices.models.ErrorMessage
+    name: ErrorMessage
     no-loc:
-    - ErrorMesssage
+    - ErrorMessage
   - uid: com.azure.resourcemanager.deviceprovisioningservices.models.GroupIdInformation
     name: GroupIdInformation
     no-loc:
@@ -91047,14 +91031,14 @@
     name: IotDpsSkuDefinition
     no-loc:
     - IotDpsSkuDefinition
-  - uid: com.azure.resourcemanager.deviceprovisioningservices.models.IotDpsSkuDefinitionListResult
-    name: IotDpsSkuDefinitionListResult
-    no-loc:
-    - IotDpsSkuDefinitionListResult
   - uid: com.azure.resourcemanager.deviceprovisioningservices.models.IotDpsSkuInfo
     name: IotDpsSkuInfo
     no-loc:
     - IotDpsSkuInfo
+  - uid: com.azure.resourcemanager.deviceprovisioningservices.models.IotHubAuthenticationType
+    name: IotHubAuthenticationType
+    no-loc:
+    - IotHubAuthenticationType
   - uid: com.azure.resourcemanager.deviceprovisioningservices.models.IotHubDefinitionDescription
     name: IotHubDefinitionDescription
     no-loc:
@@ -91071,6 +91055,14 @@
     name: IpFilterTargetType
     no-loc:
     - IpFilterTargetType
+  - uid: com.azure.resourcemanager.deviceprovisioningservices.models.ManagedServiceIdentity
+    name: ManagedServiceIdentity
+    no-loc:
+    - ManagedServiceIdentity
+  - uid: com.azure.resourcemanager.deviceprovisioningservices.models.ManagedServiceIdentityType
+    name: ManagedServiceIdentityType
+    no-loc:
+    - ManagedServiceIdentityType
   - uid: com.azure.resourcemanager.deviceprovisioningservices.models.NameAvailabilityInfo
     name: NameAvailabilityInfo
     no-loc:
@@ -91091,10 +91083,6 @@
     name: OperationInputs
     no-loc:
     - OperationInputs
-  - uid: com.azure.resourcemanager.deviceprovisioningservices.models.OperationListResult
-    name: OperationListResult
-    no-loc:
-    - OperationListResult
   - uid: com.azure.resourcemanager.deviceprovisioningservices.models.Operations
     name: Operations
     no-loc:
@@ -91147,10 +91135,6 @@
     name: PrivateEndpointConnectionProperties
     no-loc:
     - PrivateEndpointConnectionProperties
-  - uid: com.azure.resourcemanager.deviceprovisioningservices.models.PrivateLinkResources
-    name: PrivateLinkResources
-    no-loc:
-    - PrivateLinkResources
   - uid: com.azure.resourcemanager.deviceprovisioningservices.models.PrivateLinkServiceConnectionState
     name: PrivateLinkServiceConnectionState
     no-loc:
@@ -91183,6 +91167,10 @@
     name: ProvisioningServiceDescription.DefinitionStages.WithEtag
     no-loc:
     - ProvisioningServiceDescription.DefinitionStages.WithEtag
+  - uid: com.azure.resourcemanager.deviceprovisioningservices.models.ProvisioningServiceDescription.DefinitionStages.WithIdentity
+    name: ProvisioningServiceDescription.DefinitionStages.WithIdentity
+    no-loc:
+    - ProvisioningServiceDescription.DefinitionStages.WithIdentity
   - uid: com.azure.resourcemanager.deviceprovisioningservices.models.ProvisioningServiceDescription.DefinitionStages.WithLocation
     name: ProvisioningServiceDescription.DefinitionStages.WithLocation
     no-loc:
@@ -91195,10 +91183,18 @@
     name: ProvisioningServiceDescription.DefinitionStages.WithResourceGroup
     no-loc:
     - ProvisioningServiceDescription.DefinitionStages.WithResourceGroup
+  - uid: com.azure.resourcemanager.deviceprovisioningservices.models.ProvisioningServiceDescription.DefinitionStages.WithResourceGroupStage
+    name: ProvisioningServiceDescription.DefinitionStages.WithResourceGroupStage
+    no-loc:
+    - ProvisioningServiceDescription.DefinitionStages.WithResourceGroupStage
   - uid: com.azure.resourcemanager.deviceprovisioningservices.models.ProvisioningServiceDescription.DefinitionStages.WithSku
     name: ProvisioningServiceDescription.DefinitionStages.WithSku
     no-loc:
     - ProvisioningServiceDescription.DefinitionStages.WithSku
+  - uid: com.azure.resourcemanager.deviceprovisioningservices.models.ProvisioningServiceDescription.DefinitionStages.WithSubscriptionid
+    name: ProvisioningServiceDescription.DefinitionStages.WithSubscriptionid
+    no-loc:
+    - ProvisioningServiceDescription.DefinitionStages.WithSubscriptionid
   - uid: com.azure.resourcemanager.deviceprovisioningservices.models.ProvisioningServiceDescription.DefinitionStages.WithTags
     name: ProvisioningServiceDescription.DefinitionStages.WithTags
     no-loc:
@@ -91215,10 +91211,6 @@
     name: ProvisioningServiceDescription.UpdateStages.WithTags
     no-loc:
     - ProvisioningServiceDescription.UpdateStages.WithTags
-  - uid: com.azure.resourcemanager.deviceprovisioningservices.models.ProvisioningServiceDescriptionListResult
-    name: ProvisioningServiceDescriptionListResult
-    no-loc:
-    - ProvisioningServiceDescriptionListResult
   - uid: com.azure.resourcemanager.deviceprovisioningservices.models.PublicNetworkAccess
     name: PublicNetworkAccess
     no-loc:
@@ -91227,10 +91219,6 @@
     name: SharedAccessSignatureAuthorizationRule
     no-loc:
     - SharedAccessSignatureAuthorizationRule
-  - uid: com.azure.resourcemanager.deviceprovisioningservices.models.SharedAccessSignatureAuthorizationRuleListResult
-    name: SharedAccessSignatureAuthorizationRuleListResult
-    no-loc:
-    - SharedAccessSignatureAuthorizationRuleListResult
   - uid: com.azure.resourcemanager.deviceprovisioningservices.models.State
     name: State
     no-loc:
@@ -91239,6 +91227,10 @@
     name: TagsResource
     no-loc:
     - TagsResource
+  - uid: com.azure.resourcemanager.deviceprovisioningservices.models.UserAssignedIdentity
+    name: UserAssignedIdentity
+    no-loc:
+    - UserAssignedIdentity
   - uid: com.azure.resourcemanager.deviceprovisioningservices.models.VerificationCodeRequest
     name: VerificationCodeRequest
     no-loc:

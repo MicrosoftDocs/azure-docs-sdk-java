@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.purestorageblock.models.VolumeGroup.UpdateStages.WithProperties"
+fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeGroup.UpdateStages.WithProperties"
+name: "VolumeGroup.UpdateStages.WithProperties"
+nameWithType: "VolumeGroup.UpdateStages.WithProperties"
+summary: "The stage of the Volume<wbr>Group update allowing to specify properties."
+syntax: "public static interface **VolumeGroup.UpdateStages.WithProperties**"
+methods:
+- uid: "com.azure.resourcemanager.purestorageblock.models.VolumeGroup.UpdateStages.WithProperties.withProperties(com.azure.resourcemanager.purestorageblock.models.VolumeGroupUpdateProperties)"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeGroup.UpdateStages.WithProperties.withProperties(VolumeGroupUpdateProperties properties)"
+  name: "withProperties(VolumeGroupUpdateProperties properties)"
+  nameWithType: "VolumeGroup.UpdateStages.WithProperties.withProperties(VolumeGroupUpdateProperties properties)"
+  summary: "Specifies the properties property: The resource-specific properties for this resource.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The resource-specific properties for this resource."
+    name: "properties"
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.VolumeGroupUpdateProperties?alt=com.azure.resourcemanager.purestorageblock.models.VolumeGroupUpdateProperties&text=VolumeGroupUpdateProperties\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract VolumeGroup.Update withProperties(VolumeGroupUpdateProperties properties)"
+  desc: "Specifies the properties property: The resource-specific properties for this resource.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.VolumeGroup.Update?alt=com.azure.resourcemanager.purestorageblock.models.VolumeGroup.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the VolumeGroup update allowing to specify properties."
+metadata: {}
+package: "com.azure.resourcemanager.purestorageblock.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-purestorageblock:1.1.0-beta.1

@@ -165180,14 +165180,34 @@
     name: PureStorageBlockMgmtClient
     no-loc:
     - PureStorageBlockMgmtClient
+  - uid: com.azure.resourcemanager.purestorageblock.fluent.RecoverableVolumeGroupsClient
+    name: RecoverableVolumeGroupsClient
+    no-loc:
+    - RecoverableVolumeGroupsClient
   - uid: com.azure.resourcemanager.purestorageblock.fluent.ReservationsClient
     name: ReservationsClient
     no-loc:
     - ReservationsClient
+  - uid: com.azure.resourcemanager.purestorageblock.fluent.SaaSOperationGroupsClient
+    name: SaaSOperationGroupsClient
+    no-loc:
+    - SaaSOperationGroupsClient
   - uid: com.azure.resourcemanager.purestorageblock.fluent.StoragePoolsClient
     name: StoragePoolsClient
     no-loc:
     - StoragePoolsClient
+  - uid: com.azure.resourcemanager.purestorageblock.fluent.VolumeGroupSnapshotsClient
+    name: VolumeGroupSnapshotsClient
+    no-loc:
+    - VolumeGroupSnapshotsClient
+  - uid: com.azure.resourcemanager.purestorageblock.fluent.VolumeGroupsClient
+    name: VolumeGroupsClient
+    no-loc:
+    - VolumeGroupsClient
+  - uid: com.azure.resourcemanager.purestorageblock.fluent.VolumesClient
+    name: VolumesClient
+    no-loc:
+    - VolumesClient
   no-loc:
   - com.azure.resourcemanager.purestorageblock.fluent
 - uid: com.azure.resourcemanager.purestorageblock.fluent.models
@@ -165217,6 +165237,14 @@
     name: AvsVmVolumeInner
     no-loc:
     - AvsVmVolumeInner
+  - uid: com.azure.resourcemanager.purestorageblock.fluent.models.ConnectionParametersResponseInner
+    name: ConnectionParametersResponseInner
+    no-loc:
+    - ConnectionParametersResponseInner
+  - uid: com.azure.resourcemanager.purestorageblock.fluent.models.LatestLinkedSaaSResponseInner
+    name: LatestLinkedSaaSResponseInner
+    no-loc:
+    - LatestLinkedSaaSResponseInner
   - uid: com.azure.resourcemanager.purestorageblock.fluent.models.LimitDetailsInner
     name: LimitDetailsInner
     no-loc:
@@ -165225,6 +165253,18 @@
     name: OperationInner
     no-loc:
     - OperationInner
+  - uid: com.azure.resourcemanager.purestorageblock.fluent.models.PlatformConsoleActivationCodeInner
+    name: PlatformConsoleActivationCodeInner
+    no-loc:
+    - PlatformConsoleActivationCodeInner
+  - uid: com.azure.resourcemanager.purestorageblock.fluent.models.PlatformConsoleAuthResultInner
+    name: PlatformConsoleAuthResultInner
+    no-loc:
+    - PlatformConsoleAuthResultInner
+  - uid: com.azure.resourcemanager.purestorageblock.fluent.models.RecoverableVolumeGroupInner
+    name: RecoverableVolumeGroupInner
+    no-loc:
+    - RecoverableVolumeGroupInner
   - uid: com.azure.resourcemanager.purestorageblock.fluent.models.ReservationBillingStatusInner
     name: ReservationBillingStatusInner
     no-loc:
@@ -165237,6 +165277,10 @@
     name: ReservationInner
     no-loc:
     - ReservationInner
+  - uid: com.azure.resourcemanager.purestorageblock.fluent.models.SaaSResourceDetailsResponseInner
+    name: SaaSResourceDetailsResponseInner
+    no-loc:
+    - SaaSResourceDetailsResponseInner
   - uid: com.azure.resourcemanager.purestorageblock.fluent.models.StoragePoolHealthInfoInner
     name: StoragePoolHealthInfoInner
     no-loc:
@@ -165245,6 +165289,26 @@
     name: StoragePoolInner
     no-loc:
     - StoragePoolInner
+  - uid: com.azure.resourcemanager.purestorageblock.fluent.models.VolumeGroupInner
+    name: VolumeGroupInner
+    no-loc:
+    - VolumeGroupInner
+  - uid: com.azure.resourcemanager.purestorageblock.fluent.models.VolumeGroupSnapshotInner
+    name: VolumeGroupSnapshotInner
+    no-loc:
+    - VolumeGroupSnapshotInner
+  - uid: com.azure.resourcemanager.purestorageblock.fluent.models.VolumeGroupSnapshotPostListResultInner
+    name: VolumeGroupSnapshotPostListResultInner
+    no-loc:
+    - VolumeGroupSnapshotPostListResultInner
+  - uid: com.azure.resourcemanager.purestorageblock.fluent.models.VolumeGroupStatusInner
+    name: VolumeGroupStatusInner
+    no-loc:
+    - VolumeGroupStatusInner
+  - uid: com.azure.resourcemanager.purestorageblock.fluent.models.VolumeInner
+    name: VolumeInner
+    no-loc:
+    - VolumeInner
   no-loc:
   - com.azure.resourcemanager.purestorageblock.fluent.models
 - uid: com.azure.resourcemanager.purestorageblock.models
@@ -165254,6 +165318,10 @@
     name: ActionType
     no-loc:
     - ActionType
+  - uid: com.azure.resourcemanager.purestorageblock.models.ActivateSaaSRequest
+    name: ActivateSaaSRequest
+    no-loc:
+    - ActivateSaaSRequest
   - uid: com.azure.resourcemanager.purestorageblock.models.Address
     name: Address
     no-loc:
@@ -165350,6 +165418,10 @@
     name: AzureVmwareService
     no-loc:
     - AzureVmwareService
+  - uid: com.azure.resourcemanager.purestorageblock.models.AzureVolumeProperties
+    name: AzureVolumeProperties
+    no-loc:
+    - AzureVolumeProperties
   - uid: com.azure.resourcemanager.purestorageblock.models.BandwidthUsage
     name: BandwidthUsage
     no-loc:
@@ -165362,6 +165434,14 @@
     name: CompanyDetails
     no-loc:
     - CompanyDetails
+  - uid: com.azure.resourcemanager.purestorageblock.models.ConnectionParametersResponse
+    name: ConnectionParametersResponse
+    no-loc:
+    - ConnectionParametersResponse
+  - uid: com.azure.resourcemanager.purestorageblock.models.DestroyedStateProperties
+    name: DestroyedStateProperties
+    no-loc:
+    - DestroyedStateProperties
   - uid: com.azure.resourcemanager.purestorageblock.models.HealthDetails
     name: HealthDetails
     no-loc:
@@ -165370,10 +165450,26 @@
     name: IopsUsage
     no-loc:
     - IopsUsage
+  - uid: com.azure.resourcemanager.purestorageblock.models.IscsiConnectionParameters
+    name: IscsiConnectionParameters
+    no-loc:
+    - IscsiConnectionParameters
+  - uid: com.azure.resourcemanager.purestorageblock.models.IscsiEndpoint
+    name: IscsiEndpoint
+    no-loc:
+    - IscsiEndpoint
+  - uid: com.azure.resourcemanager.purestorageblock.models.LatestLinkedSaaSResponse
+    name: LatestLinkedSaaSResponse
+    no-loc:
+    - LatestLinkedSaaSResponse
   - uid: com.azure.resourcemanager.purestorageblock.models.LimitDetails
     name: LimitDetails
     no-loc:
     - LimitDetails
+  - uid: com.azure.resourcemanager.purestorageblock.models.LinkSaaSRequest
+    name: LinkSaaSRequest
+    no-loc:
+    - LinkSaaSRequest
   - uid: com.azure.resourcemanager.purestorageblock.models.ManagedServiceIdentity
     name: ManagedServiceIdentity
     no-loc:
@@ -165410,10 +165506,50 @@
     name: Origin
     no-loc:
     - Origin
+  - uid: com.azure.resourcemanager.purestorageblock.models.PerformanceParameters
+    name: PerformanceParameters
+    no-loc:
+    - PerformanceParameters
   - uid: com.azure.resourcemanager.purestorageblock.models.PerformancePolicyLimits
     name: PerformancePolicyLimits
     no-loc:
     - PerformancePolicyLimits
+  - uid: com.azure.resourcemanager.purestorageblock.models.PlatformConsoleAccessSettings
+    name: PlatformConsoleAccessSettings
+    no-loc:
+    - PlatformConsoleAccessSettings
+  - uid: com.azure.resourcemanager.purestorageblock.models.PlatformConsoleActivationCode
+    name: PlatformConsoleActivationCode
+    no-loc:
+    - PlatformConsoleActivationCode
+  - uid: com.azure.resourcemanager.purestorageblock.models.PlatformConsoleAuthConfig
+    name: PlatformConsoleAuthConfig
+    no-loc:
+    - PlatformConsoleAuthConfig
+  - uid: com.azure.resourcemanager.purestorageblock.models.PlatformConsoleAuthResult
+    name: PlatformConsoleAuthResult
+    no-loc:
+    - PlatformConsoleAuthResult
+  - uid: com.azure.resourcemanager.purestorageblock.models.PlatformConsoleAuthType
+    name: PlatformConsoleAuthType
+    no-loc:
+    - PlatformConsoleAuthType
+  - uid: com.azure.resourcemanager.purestorageblock.models.PlatformConsoleRole
+    name: PlatformConsoleRole
+    no-loc:
+    - PlatformConsoleRole
+  - uid: com.azure.resourcemanager.purestorageblock.models.PlatformConsoleSettings
+    name: PlatformConsoleSettings
+    no-loc:
+    - PlatformConsoleSettings
+  - uid: com.azure.resourcemanager.purestorageblock.models.PlatformConsoleSubnet
+    name: PlatformConsoleSubnet
+    no-loc:
+    - PlatformConsoleSubnet
+  - uid: com.azure.resourcemanager.purestorageblock.models.ProtectionParameters
+    name: ProtectionParameters
+    no-loc:
+    - ProtectionParameters
   - uid: com.azure.resourcemanager.purestorageblock.models.ProtectionPolicyLimits
     name: ProtectionPolicyLimits
     no-loc:
@@ -165426,6 +165562,18 @@
     name: RangeLimits
     no-loc:
     - RangeLimits
+  - uid: com.azure.resourcemanager.purestorageblock.models.RecoverableVolumeGroup
+    name: RecoverableVolumeGroup
+    no-loc:
+    - RecoverableVolumeGroup
+  - uid: com.azure.resourcemanager.purestorageblock.models.RecoverableVolumeGroupProperties
+    name: RecoverableVolumeGroupProperties
+    no-loc:
+    - RecoverableVolumeGroupProperties
+  - uid: com.azure.resourcemanager.purestorageblock.models.RecoverableVolumeGroups
+    name: RecoverableVolumeGroups
+    no-loc:
+    - RecoverableVolumeGroups
   - uid: com.azure.resourcemanager.purestorageblock.models.Reservation
     name: Reservation
     no-loc:
@@ -165506,6 +165654,14 @@
     name: ResourceProvisioningState
     no-loc:
     - ResourceProvisioningState
+  - uid: com.azure.resourcemanager.purestorageblock.models.SaaSOperationGroups
+    name: SaaSOperationGroups
+    no-loc:
+    - SaaSOperationGroups
+  - uid: com.azure.resourcemanager.purestorageblock.models.SaaSResourceDetailsResponse
+    name: SaaSResourceDetailsResponse
+    no-loc:
+    - SaaSResourceDetailsResponse
   - uid: com.azure.resourcemanager.purestorageblock.models.ServiceInitializationHandle
     name: ServiceInitializationHandle
     no-loc:
@@ -165522,6 +165678,14 @@
     name: Space
     no-loc:
     - Space
+  - uid: com.azure.resourcemanager.purestorageblock.models.SshPlatformConsoleAuthConfig
+    name: SshPlatformConsoleAuthConfig
+    no-loc:
+    - SshPlatformConsoleAuthConfig
+  - uid: com.azure.resourcemanager.purestorageblock.models.SshPlatformConsoleAuthResult
+    name: SshPlatformConsoleAuthResult
+    no-loc:
+    - SshPlatformConsoleAuthResult
   - uid: com.azure.resourcemanager.purestorageblock.models.StoragePool
     name: StoragePool
     no-loc:
@@ -165634,22 +165798,214 @@
     name: VnetInjection
     no-loc:
     - VnetInjection
+  - uid: com.azure.resourcemanager.purestorageblock.models.Volume
+    name: Volume
+    no-loc:
+    - Volume
+  - uid: com.azure.resourcemanager.purestorageblock.models.Volume.Definition
+    name: Volume.Definition
+    no-loc:
+    - Volume.Definition
+  - uid: com.azure.resourcemanager.purestorageblock.models.Volume.DefinitionStages
+    name: Volume.DefinitionStages
+    no-loc:
+    - Volume.DefinitionStages
+  - uid: com.azure.resourcemanager.purestorageblock.models.Volume.DefinitionStages.Blank
+    name: Volume.DefinitionStages.Blank
+    no-loc:
+    - Volume.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.purestorageblock.models.Volume.DefinitionStages.WithCreate
+    name: Volume.DefinitionStages.WithCreate
+    no-loc:
+    - Volume.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.purestorageblock.models.Volume.DefinitionStages.WithParentResource
+    name: Volume.DefinitionStages.WithParentResource
+    no-loc:
+    - Volume.DefinitionStages.WithParentResource
+  - uid: com.azure.resourcemanager.purestorageblock.models.Volume.DefinitionStages.WithProperties
+    name: Volume.DefinitionStages.WithProperties
+    no-loc:
+    - Volume.DefinitionStages.WithProperties
+  - uid: com.azure.resourcemanager.purestorageblock.models.Volume.Update
+    name: Volume.Update
+    no-loc:
+    - Volume.Update
+  - uid: com.azure.resourcemanager.purestorageblock.models.Volume.UpdateStages
+    name: Volume.UpdateStages
+    no-loc:
+    - Volume.UpdateStages
+  - uid: com.azure.resourcemanager.purestorageblock.models.Volume.UpdateStages.WithProperties
+    name: Volume.UpdateStages.WithProperties
+    no-loc:
+    - Volume.UpdateStages.WithProperties
   - uid: com.azure.resourcemanager.purestorageblock.models.VolumeContainerType
     name: VolumeContainerType
     no-loc:
     - VolumeContainerType
+  - uid: com.azure.resourcemanager.purestorageblock.models.VolumeGroup
+    name: VolumeGroup
+    no-loc:
+    - VolumeGroup
+  - uid: com.azure.resourcemanager.purestorageblock.models.VolumeGroup.Definition
+    name: VolumeGroup.Definition
+    no-loc:
+    - VolumeGroup.Definition
+  - uid: com.azure.resourcemanager.purestorageblock.models.VolumeGroup.DefinitionStages
+    name: VolumeGroup.DefinitionStages
+    no-loc:
+    - VolumeGroup.DefinitionStages
+  - uid: com.azure.resourcemanager.purestorageblock.models.VolumeGroup.DefinitionStages.Blank
+    name: VolumeGroup.DefinitionStages.Blank
+    no-loc:
+    - VolumeGroup.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.purestorageblock.models.VolumeGroup.DefinitionStages.WithCreate
+    name: VolumeGroup.DefinitionStages.WithCreate
+    no-loc:
+    - VolumeGroup.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.purestorageblock.models.VolumeGroup.DefinitionStages.WithLocation
+    name: VolumeGroup.DefinitionStages.WithLocation
+    no-loc:
+    - VolumeGroup.DefinitionStages.WithLocation
+  - uid: com.azure.resourcemanager.purestorageblock.models.VolumeGroup.DefinitionStages.WithParentResource
+    name: VolumeGroup.DefinitionStages.WithParentResource
+    no-loc:
+    - VolumeGroup.DefinitionStages.WithParentResource
+  - uid: com.azure.resourcemanager.purestorageblock.models.VolumeGroup.DefinitionStages.WithProperties
+    name: VolumeGroup.DefinitionStages.WithProperties
+    no-loc:
+    - VolumeGroup.DefinitionStages.WithProperties
+  - uid: com.azure.resourcemanager.purestorageblock.models.VolumeGroup.DefinitionStages.WithTags
+    name: VolumeGroup.DefinitionStages.WithTags
+    no-loc:
+    - VolumeGroup.DefinitionStages.WithTags
+  - uid: com.azure.resourcemanager.purestorageblock.models.VolumeGroup.Update
+    name: VolumeGroup.Update
+    no-loc:
+    - VolumeGroup.Update
+  - uid: com.azure.resourcemanager.purestorageblock.models.VolumeGroup.UpdateStages
+    name: VolumeGroup.UpdateStages
+    no-loc:
+    - VolumeGroup.UpdateStages
+  - uid: com.azure.resourcemanager.purestorageblock.models.VolumeGroup.UpdateStages.WithProperties
+    name: VolumeGroup.UpdateStages.WithProperties
+    no-loc:
+    - VolumeGroup.UpdateStages.WithProperties
+  - uid: com.azure.resourcemanager.purestorageblock.models.VolumeGroup.UpdateStages.WithTags
+    name: VolumeGroup.UpdateStages.WithTags
+    no-loc:
+    - VolumeGroup.UpdateStages.WithTags
+  - uid: com.azure.resourcemanager.purestorageblock.models.VolumeGroupOverwriteRequest
+    name: VolumeGroupOverwriteRequest
+    no-loc:
+    - VolumeGroupOverwriteRequest
+  - uid: com.azure.resourcemanager.purestorageblock.models.VolumeGroupProperties
+    name: VolumeGroupProperties
+    no-loc:
+    - VolumeGroupProperties
+  - uid: com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot
+    name: VolumeGroupSnapshot
+    no-loc:
+    - VolumeGroupSnapshot
+  - uid: com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot.Definition
+    name: VolumeGroupSnapshot.Definition
+    no-loc:
+    - VolumeGroupSnapshot.Definition
+  - uid: com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot.DefinitionStages
+    name: VolumeGroupSnapshot.DefinitionStages
+    no-loc:
+    - VolumeGroupSnapshot.DefinitionStages
+  - uid: com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot.DefinitionStages.Blank
+    name: VolumeGroupSnapshot.DefinitionStages.Blank
+    no-loc:
+    - VolumeGroupSnapshot.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot.DefinitionStages.WithCreate
+    name: VolumeGroupSnapshot.DefinitionStages.WithCreate
+    no-loc:
+    - VolumeGroupSnapshot.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot.DefinitionStages.WithParentResource
+    name: VolumeGroupSnapshot.DefinitionStages.WithParentResource
+    no-loc:
+    - VolumeGroupSnapshot.DefinitionStages.WithParentResource
+  - uid: com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot.DefinitionStages.WithProperties
+    name: VolumeGroupSnapshot.DefinitionStages.WithProperties
+    no-loc:
+    - VolumeGroupSnapshot.DefinitionStages.WithProperties
+  - uid: com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshotListRequest
+    name: VolumeGroupSnapshotListRequest
+    no-loc:
+    - VolumeGroupSnapshotListRequest
+  - uid: com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshotPostListResult
+    name: VolumeGroupSnapshotPostListResult
+    no-loc:
+    - VolumeGroupSnapshotPostListResult
+  - uid: com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshotProperties
+    name: VolumeGroupSnapshotProperties
+    no-loc:
+    - VolumeGroupSnapshotProperties
+  - uid: com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshots
+    name: VolumeGroupSnapshots
+    no-loc:
+    - VolumeGroupSnapshots
+  - uid: com.azure.resourcemanager.purestorageblock.models.VolumeGroupSourceType
+    name: VolumeGroupSourceType
+    no-loc:
+    - VolumeGroupSourceType
+  - uid: com.azure.resourcemanager.purestorageblock.models.VolumeGroupStatus
+    name: VolumeGroupStatus
+    no-loc:
+    - VolumeGroupStatus
+  - uid: com.azure.resourcemanager.purestorageblock.models.VolumeGroupUpdate
+    name: VolumeGroupUpdate
+    no-loc:
+    - VolumeGroupUpdate
+  - uid: com.azure.resourcemanager.purestorageblock.models.VolumeGroupUpdateProperties
+    name: VolumeGroupUpdateProperties
+    no-loc:
+    - VolumeGroupUpdateProperties
+  - uid: com.azure.resourcemanager.purestorageblock.models.VolumeGroups
+    name: VolumeGroups
+    no-loc:
+    - VolumeGroups
   - uid: com.azure.resourcemanager.purestorageblock.models.VolumeLimits
     name: VolumeLimits
     no-loc:
     - VolumeLimits
+  - uid: com.azure.resourcemanager.purestorageblock.models.VolumeOverwriteRequest
+    name: VolumeOverwriteRequest
+    no-loc:
+    - VolumeOverwriteRequest
   - uid: com.azure.resourcemanager.purestorageblock.models.VolumeProperties
     name: VolumeProperties
     no-loc:
     - VolumeProperties
+  - uid: com.azure.resourcemanager.purestorageblock.models.VolumeSnapshotInfo
+    name: VolumeSnapshotInfo
+    no-loc:
+    - VolumeSnapshotInfo
+  - uid: com.azure.resourcemanager.purestorageblock.models.VolumeSnapshotSource
+    name: VolumeSnapshotSource
+    no-loc:
+    - VolumeSnapshotSource
+  - uid: com.azure.resourcemanager.purestorageblock.models.VolumeSourceType
+    name: VolumeSourceType
+    no-loc:
+    - VolumeSourceType
   - uid: com.azure.resourcemanager.purestorageblock.models.VolumeType
     name: VolumeType
     no-loc:
     - VolumeType
+  - uid: com.azure.resourcemanager.purestorageblock.models.VolumeUpdate
+    name: VolumeUpdate
+    no-loc:
+    - VolumeUpdate
+  - uid: com.azure.resourcemanager.purestorageblock.models.VolumeUpdateProperties
+    name: VolumeUpdateProperties
+    no-loc:
+    - VolumeUpdateProperties
+  - uid: com.azure.resourcemanager.purestorageblock.models.Volumes
+    name: Volumes
+    no-loc:
+    - Volumes
   no-loc:
   - com.azure.resourcemanager.purestorageblock.models
 - uid: com.azure.resourcemanager.purview

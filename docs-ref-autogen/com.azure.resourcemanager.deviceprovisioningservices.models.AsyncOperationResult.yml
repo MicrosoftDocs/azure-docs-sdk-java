@@ -13,11 +13,11 @@ methods:
   summary: "Gets the error property: Error message containing code, description and details."
   modifiers:
   - "abstract"
-  syntax: "public abstract ErrorMesssage error()"
+  syntax: "public abstract ErrorMessage error()"
   desc: "Gets the error property: Error message containing code, description and details."
   returns:
     description: "the error value."
-    type: "<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.models.ErrorMesssage?alt=com.azure.resourcemanager.deviceprovisioningservices.models.ErrorMesssage&text=ErrorMesssage\" data-throw-if-not-resolved=\"False\" />"
+    type: "<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.models.ErrorMessage?alt=com.azure.resourcemanager.deviceprovisioningservices.models.ErrorMessage&text=ErrorMessage\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.deviceprovisioningservices.models.AsyncOperationResult.innerModel()"
   fullName: "com.azure.resourcemanager.deviceprovisioningservices.models.AsyncOperationResult.innerModel()"
   name: "innerModel()"
@@ -46,4 +46,4 @@ type: "interface"
 desc: "An immutable client-side representation of AsyncOperationResult."
 metadata: {}
 package: "com.azure.resourcemanager.deviceprovisioningservices.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-deviceprovisioningservices:1.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-deviceprovisioningservices:1.2.0

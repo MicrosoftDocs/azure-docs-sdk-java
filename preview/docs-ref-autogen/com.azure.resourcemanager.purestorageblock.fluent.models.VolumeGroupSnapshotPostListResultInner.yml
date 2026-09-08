@@ -1,0 +1,92 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.purestorageblock.fluent.models.VolumeGroupSnapshotPostListResultInner"
+fullName: "com.azure.resourcemanager.purestorageblock.fluent.models.VolumeGroupSnapshotPostListResultInner"
+name: "VolumeGroupSnapshotPostListResultInner"
+nameWithType: "VolumeGroupSnapshotPostListResultInner"
+summary: "List result for volume group snapshots returned by the list<wbr>Snapshots POST action."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **VolumeGroupSnapshotPostListResultInner**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.purestorageblock.fluent.models.VolumeGroupSnapshotPostListResultInner?alt=com.azure.resourcemanager.purestorageblock.fluent.models.VolumeGroupSnapshotPostListResultInner&text=VolumeGroupSnapshotPostListResultInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+methods:
+- uid: "com.azure.resourcemanager.purestorageblock.fluent.models.VolumeGroupSnapshotPostListResultInner.count()"
+  fullName: "com.azure.resourcemanager.purestorageblock.fluent.models.VolumeGroupSnapshotPostListResultInner.count()"
+  name: "count()"
+  nameWithType: "VolumeGroupSnapshotPostListResultInner.count()"
+  summary: "Get the count property: Number of snapshots in this response page."
+  syntax: "public Integer count()"
+  desc: "Get the count property: Number of snapshots in this response page."
+  returns:
+    description: "the count value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
+- uid: "com.azure.resourcemanager.purestorageblock.fluent.models.VolumeGroupSnapshotPostListResultInner.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.purestorageblock.fluent.models.VolumeGroupSnapshotPostListResultInner.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "VolumeGroupSnapshotPostListResultInner.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Volume<wbr>Group<wbr>Snapshot<wbr>Post<wbr>List<wbr>Result<wbr>Inner from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static VolumeGroupSnapshotPostListResultInner fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of VolumeGroupSnapshotPostListResultInner from the JsonReader."
+  returns:
+    description: "An instance of VolumeGroupSnapshotPostListResultInner if the JsonReader was pointing to an instance of\n it, or null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.fluent.models.VolumeGroupSnapshotPostListResultInner?alt=com.azure.resourcemanager.purestorageblock.fluent.models.VolumeGroupSnapshotPostListResultInner&text=VolumeGroupSnapshotPostListResultInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.fluent.models.VolumeGroupSnapshotPostListResultInner.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.purestorageblock.fluent.models.VolumeGroupSnapshotPostListResultInner.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "VolumeGroupSnapshotPostListResultInner.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.fluent.models.VolumeGroupSnapshotPostListResultInner.totalCount()"
+  fullName: "com.azure.resourcemanager.purestorageblock.fluent.models.VolumeGroupSnapshotPostListResultInner.totalCount()"
+  name: "totalCount()"
+  nameWithType: "VolumeGroupSnapshotPostListResultInner.totalCount()"
+  summary: "Get the total<wbr>Count property: Total number of snapshots."
+  syntax: "public Integer totalCount()"
+  desc: "Get the totalCount property: Total number of snapshots."
+  returns:
+    description: "the totalCount value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
+- uid: "com.azure.resourcemanager.purestorageblock.fluent.models.VolumeGroupSnapshotPostListResultInner.value()"
+  fullName: "com.azure.resourcemanager.purestorageblock.fluent.models.VolumeGroupSnapshotPostListResultInner.value()"
+  name: "value()"
+  nameWithType: "VolumeGroupSnapshotPostListResultInner.value()"
+  summary: "Get the value property: Array of volume group snapshots."
+  syntax: "public List<VolumeGroupSnapshotInner> value()"
+  desc: "Get the value property: Array of volume group snapshots."
+  returns:
+    description: "the value value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.purestorageblock.fluent.models.VolumeGroupSnapshotInner?alt=com.azure.resourcemanager.purestorageblock.fluent.models.VolumeGroupSnapshotInner&text=VolumeGroupSnapshotInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "List result for volume group snapshots returned by the listSnapshots POST action."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.purestorageblock.fluent.models.VolumeGroupSnapshotPostListResultInner?alt=com.azure.resourcemanager.purestorageblock.fluent.models.VolumeGroupSnapshotPostListResultInner&text=VolumeGroupSnapshotPostListResultInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.purestorageblock.fluent.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-purestorageblock:1.1.0-beta.1

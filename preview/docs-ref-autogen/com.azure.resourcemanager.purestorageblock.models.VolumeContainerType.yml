@@ -83,4 +83,4 @@ type: "class"
 desc: "Specify which control plane handles the lifecycle of the volume container."
 metadata: {}
 package: "com.azure.resourcemanager.purestorageblock.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-purestorageblock:1.0.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-purestorageblock:1.1.0-beta.1

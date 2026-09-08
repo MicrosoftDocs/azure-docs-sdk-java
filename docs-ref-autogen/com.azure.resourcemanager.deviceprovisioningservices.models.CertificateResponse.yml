@@ -94,6 +94,30 @@ methods:
   returns:
     description: "the refreshed resource."
     type: "<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse?alt=com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse&text=CertificateResponse\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.resourceGroupName()"
+  fullName: "com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.resourceGroupName()"
+  name: "resourceGroupName()"
+  nameWithType: "CertificateResponse.resourceGroupName()"
+  summary: "Gets the name of the resource group."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String resourceGroupName()"
+  desc: "Gets the name of the resource group."
+  returns:
+    description: "the name of the resource group."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.systemData()"
+  fullName: "com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.systemData()"
+  name: "systemData()"
+  nameWithType: "CertificateResponse.systemData()"
+  summary: "Gets the system<wbr>Data property: Azure Resource Manager metadata containing created<wbr>By and modified<wbr>By information."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract SystemData systemData()"
+  desc: "Gets the systemData property: Azure Resource Manager metadata containing createdBy and modifiedBy information."
+  returns:
+    description: "the systemData value."
+    type: "<xref href=\"com.azure.core.management.SystemData?alt=com.azure.core.management.SystemData&text=SystemData\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.type()"
   fullName: "com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.type()"
   name: "type()"
@@ -122,4 +146,4 @@ type: "interface"
 desc: "An immutable client-side representation of CertificateResponse."
 metadata: {}
 package: "com.azure.resourcemanager.deviceprovisioningservices.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-deviceprovisioningservices:1.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-deviceprovisioningservices:1.2.0

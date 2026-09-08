@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.UpdateStages.WithProperties"
+fullName: "com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.UpdateStages.WithProperties"
+name: "CertificateResponse.UpdateStages.WithProperties"
+nameWithType: "CertificateResponse.UpdateStages.WithProperties"
+summary: "The stage of the Certificate<wbr>Response update allowing to specify properties."
+syntax: "public static interface **CertificateResponse.UpdateStages.WithProperties**"
+methods:
+- uid: "com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.UpdateStages.WithProperties.withProperties(com.azure.resourcemanager.deviceprovisioningservices.models.CertificateProperties)"
+  fullName: "com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.UpdateStages.WithProperties.withProperties(CertificateProperties properties)"
+  name: "withProperties(CertificateProperties properties)"
+  nameWithType: "CertificateResponse.UpdateStages.WithProperties.withProperties(CertificateProperties properties)"
+  summary: "Specifies the properties property: properties of a certificate."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "properties of a certificate."
+    name: "properties"
+    type: "<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.models.CertificateProperties?alt=com.azure.resourcemanager.deviceprovisioningservices.models.CertificateProperties&text=CertificateProperties\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract CertificateResponse.Update withProperties(CertificateProperties properties)"
+  desc: "Specifies the properties property: properties of a certificate."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.Update?alt=com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the CertificateResponse update allowing to specify properties."
+metadata: {}
+package: "com.azure.resourcemanager.deviceprovisioningservices.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-deviceprovisioningservices:1.2.0

@@ -1,0 +1,85 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.purestorageblock.models.RecoverableVolumeGroup"
+fullName: "com.azure.resourcemanager.purestorageblock.models.RecoverableVolumeGroup"
+name: "RecoverableVolumeGroup"
+nameWithType: "RecoverableVolumeGroup"
+summary: "An immutable client-side representation of Recoverable<wbr>Volume<wbr>Group."
+syntax: "public interface **RecoverableVolumeGroup**"
+methods:
+- uid: "com.azure.resourcemanager.purestorageblock.models.RecoverableVolumeGroup.id()"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.RecoverableVolumeGroup.id()"
+  name: "id()"
+  nameWithType: "RecoverableVolumeGroup.id()"
+  summary: "Gets the id property: Fully qualified resource Id for the resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String id()"
+  desc: "Gets the id property: Fully qualified resource Id for the resource."
+  returns:
+    description: "the id value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.purestorageblock.models.RecoverableVolumeGroup.innerModel()"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.RecoverableVolumeGroup.innerModel()"
+  name: "innerModel()"
+  nameWithType: "RecoverableVolumeGroup.innerModel()"
+  summary: "Gets the inner com.<wbr>azure.<wbr>resourcemanager.<wbr>purestorageblock.<wbr>fluent.<wbr>models.<wbr>Recoverable<wbr>Volume<wbr>Group<wbr>Inner object."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract RecoverableVolumeGroupInner innerModel()"
+  desc: "Gets the inner com.azure.resourcemanager.purestorageblock.fluent.models.RecoverableVolumeGroupInner object."
+  returns:
+    description: "the inner object."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.fluent.models.RecoverableVolumeGroupInner?alt=com.azure.resourcemanager.purestorageblock.fluent.models.RecoverableVolumeGroupInner&text=RecoverableVolumeGroupInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.models.RecoverableVolumeGroup.name()"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.RecoverableVolumeGroup.name()"
+  name: "name()"
+  nameWithType: "RecoverableVolumeGroup.name()"
+  summary: "Gets the name property: The name of the resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String name()"
+  desc: "Gets the name property: The name of the resource."
+  returns:
+    description: "the name value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.purestorageblock.models.RecoverableVolumeGroup.properties()"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.RecoverableVolumeGroup.properties()"
+  name: "properties()"
+  nameWithType: "RecoverableVolumeGroup.properties()"
+  summary: "Gets the properties property: The resource-specific properties for this resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract RecoverableVolumeGroupProperties properties()"
+  desc: "Gets the properties property: The resource-specific properties for this resource."
+  returns:
+    description: "the properties value."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.RecoverableVolumeGroupProperties?alt=com.azure.resourcemanager.purestorageblock.models.RecoverableVolumeGroupProperties&text=RecoverableVolumeGroupProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.models.RecoverableVolumeGroup.systemData()"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.RecoverableVolumeGroup.systemData()"
+  name: "systemData()"
+  nameWithType: "RecoverableVolumeGroup.systemData()"
+  summary: "Gets the system<wbr>Data property: Azure Resource Manager metadata containing created<wbr>By and modified<wbr>By information."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract SystemData systemData()"
+  desc: "Gets the systemData property: Azure Resource Manager metadata containing createdBy and modifiedBy information."
+  returns:
+    description: "the systemData value."
+    type: "<xref href=\"com.azure.core.management.SystemData?alt=com.azure.core.management.SystemData&text=SystemData\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.models.RecoverableVolumeGroup.type()"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.RecoverableVolumeGroup.type()"
+  name: "type()"
+  nameWithType: "RecoverableVolumeGroup.type()"
+  summary: "Gets the type property: The type of the resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String type()"
+  desc: "Gets the type property: The type of the resource."
+  returns:
+    description: "the type value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+type: "interface"
+desc: "An immutable client-side representation of RecoverableVolumeGroup."
+metadata: {}
+package: "com.azure.resourcemanager.purestorageblock.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-purestorageblock:1.1.0-beta.1

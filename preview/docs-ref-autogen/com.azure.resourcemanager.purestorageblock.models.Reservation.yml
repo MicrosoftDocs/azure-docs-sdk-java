@@ -114,6 +114,69 @@ methods:
   returns:
     description: "the inner object."
     type: "<xref href=\"com.azure.resourcemanager.purestorageblock.fluent.models.ReservationInner?alt=com.azure.resourcemanager.purestorageblock.fluent.models.ReservationInner&text=ReservationInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.models.Reservation.latestLinkedSaaS()"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.Reservation.latestLinkedSaaS()"
+  name: "latestLinkedSaaS()"
+  nameWithType: "Reservation.latestLinkedSaaS()"
+  summary: "Returns the latest SaaS linked to the reservation."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract LatestLinkedSaaSResponse latestLinkedSaaS()"
+  desc: "Returns the latest SaaS linked to the reservation."
+  returns:
+    description: "response of get latest linked SaaS resource operation."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.LatestLinkedSaaSResponse?alt=com.azure.resourcemanager.purestorageblock.models.LatestLinkedSaaSResponse&text=LatestLinkedSaaSResponse\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.models.Reservation.latestLinkedSaaSWithResponse(com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.Reservation.latestLinkedSaaSWithResponse(Context context)"
+  name: "latestLinkedSaaSWithResponse(Context context)"
+  nameWithType: "Reservation.latestLinkedSaaSWithResponse(Context context)"
+  summary: "Returns the latest SaaS linked to the reservation."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract Response<LatestLinkedSaaSResponse> latestLinkedSaaSWithResponse(Context context)"
+  desc: "Returns the latest SaaS linked to the reservation."
+  returns:
+    description: "response of get latest linked SaaS resource operation along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
+    type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.purestorageblock.models.LatestLinkedSaaSResponse?alt=com.azure.resourcemanager.purestorageblock.models.LatestLinkedSaaSResponse&text=LatestLinkedSaaSResponse\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.purestorageblock.models.Reservation.linkSaaS(com.azure.resourcemanager.purestorageblock.models.LinkSaaSRequest)"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.Reservation.linkSaaS(LinkSaaSRequest body)"
+  name: "linkSaaS(LinkSaaSRequest body)"
+  nameWithType: "Reservation.linkSaaS(LinkSaaSRequest body)"
+  summary: "Links a new SaaS to the reservation."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The content of the action request."
+    name: "body"
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.LinkSaaSRequest?alt=com.azure.resourcemanager.purestorageblock.models.LinkSaaSRequest&text=LinkSaaSRequest\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract Reservation linkSaaS(LinkSaaSRequest body)"
+  desc: "Links a new SaaS to the reservation. A long-running resource action."
+  returns:
+    description: "the response."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.Reservation?alt=com.azure.resourcemanager.purestorageblock.models.Reservation&text=Reservation\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.models.Reservation.linkSaaS(com.azure.resourcemanager.purestorageblock.models.LinkSaaSRequest,com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.Reservation.linkSaaS(LinkSaaSRequest body, Context context)"
+  name: "linkSaaS(LinkSaaSRequest body, Context context)"
+  nameWithType: "Reservation.linkSaaS(LinkSaaSRequest body, Context context)"
+  summary: "Links a new SaaS to the reservation."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The content of the action request."
+    name: "body"
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.LinkSaaSRequest?alt=com.azure.resourcemanager.purestorageblock.models.LinkSaaSRequest&text=LinkSaaSRequest\" data-throw-if-not-resolved=\"False\" />"
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract Reservation linkSaaS(LinkSaaSRequest body, Context context)"
+  desc: "Links a new SaaS to the reservation. A long-running resource action."
+  returns:
+    description: "the response."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.Reservation?alt=com.azure.resourcemanager.purestorageblock.models.Reservation&text=Reservation\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.purestorageblock.models.Reservation.location()"
   fullName: "com.azure.resourcemanager.purestorageblock.models.Reservation.location()"
   name: "location()"
@@ -266,4 +329,4 @@ type: "interface"
 desc: "An immutable client-side representation of Reservation."
 metadata: {}
 package: "com.azure.resourcemanager.purestorageblock.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-purestorageblock:1.0.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-purestorageblock:1.1.0-beta.1

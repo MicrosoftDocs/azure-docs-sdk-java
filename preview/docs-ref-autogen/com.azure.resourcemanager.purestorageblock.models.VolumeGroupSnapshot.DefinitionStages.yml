@@ -1,0 +1,12 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot.DefinitionStages"
+fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot.DefinitionStages"
+name: "VolumeGroupSnapshot.DefinitionStages"
+nameWithType: "VolumeGroupSnapshot.DefinitionStages"
+summary: "The Volume<wbr>Group<wbr>Snapshot definition stages."
+syntax: "public static interface **VolumeGroupSnapshot.DefinitionStages**"
+type: "interface"
+desc: "The VolumeGroupSnapshot definition stages."
+metadata: {}
+package: "com.azure.resourcemanager.purestorageblock.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-purestorageblock:1.1.0-beta.1

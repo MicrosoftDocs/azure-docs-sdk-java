@@ -1,0 +1,118 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupOverwriteRequest"
+fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupOverwriteRequest"
+name: "VolumeGroupOverwriteRequest"
+nameWithType: "VolumeGroupOverwriteRequest"
+summary: "Request to overwrite all volumes in a volume group from a snapshot."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **VolumeGroupOverwriteRequest**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.purestorageblock.models.VolumeGroupOverwriteRequest?alt=com.azure.resourcemanager.purestorageblock.models.VolumeGroupOverwriteRequest&text=VolumeGroupOverwriteRequest\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupOverwriteRequest.VolumeGroupOverwriteRequest()"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupOverwriteRequest.VolumeGroupOverwriteRequest()"
+  name: "VolumeGroupOverwriteRequest()"
+  nameWithType: "VolumeGroupOverwriteRequest.VolumeGroupOverwriteRequest()"
+  summary: "Creates an instance of Volume<wbr>Group<wbr>Overwrite<wbr>Request class."
+  syntax: "public VolumeGroupOverwriteRequest()"
+  desc: "Creates an instance of VolumeGroupOverwriteRequest class."
+methods:
+- uid: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupOverwriteRequest.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupOverwriteRequest.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "VolumeGroupOverwriteRequest.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Volume<wbr>Group<wbr>Overwrite<wbr>Request from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static VolumeGroupOverwriteRequest fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of VolumeGroupOverwriteRequest from the JsonReader."
+  returns:
+    description: "An instance of VolumeGroupOverwriteRequest if the JsonReader was pointing to an instance of it, or null\n if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.VolumeGroupOverwriteRequest?alt=com.azure.resourcemanager.purestorageblock.models.VolumeGroupOverwriteRequest&text=VolumeGroupOverwriteRequest\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupOverwriteRequest.sourceSnapshotResourceId()"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupOverwriteRequest.sourceSnapshotResourceId()"
+  name: "sourceSnapshotResourceId()"
+  nameWithType: "VolumeGroupOverwriteRequest.sourceSnapshotResourceId()"
+  summary: "Get the source<wbr>Snapshot<wbr>Resource<wbr>Id property: Azure resource ID of the volume group snapshot to restore from."
+  syntax: "public String sourceSnapshotResourceId()"
+  desc: "Get the sourceSnapshotResourceId property: Azure resource ID of the volume group snapshot to restore from."
+  returns:
+    description: "the sourceSnapshotResourceId value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupOverwriteRequest.sourceVolumeGroupResourceId()"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupOverwriteRequest.sourceVolumeGroupResourceId()"
+  name: "sourceVolumeGroupResourceId()"
+  nameWithType: "VolumeGroupOverwriteRequest.sourceVolumeGroupResourceId()"
+  summary: "Get the source<wbr>Volume<wbr>Group<wbr>Resource<wbr>Id property: Azure resource ID of the source volume group."
+  syntax: "public String sourceVolumeGroupResourceId()"
+  desc: "Get the sourceVolumeGroupResourceId property: Azure resource ID of the source volume group."
+  returns:
+    description: "the sourceVolumeGroupResourceId value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupOverwriteRequest.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupOverwriteRequest.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "VolumeGroupOverwriteRequest.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupOverwriteRequest.withSourceSnapshotResourceId(java.lang.String)"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupOverwriteRequest.withSourceSnapshotResourceId(String sourceSnapshotResourceId)"
+  name: "withSourceSnapshotResourceId(String sourceSnapshotResourceId)"
+  nameWithType: "VolumeGroupOverwriteRequest.withSourceSnapshotResourceId(String sourceSnapshotResourceId)"
+  summary: "Set the source<wbr>Snapshot<wbr>Resource<wbr>Id property: Azure resource ID of the volume group snapshot to restore from."
+  parameters:
+  - description: "the sourceSnapshotResourceId value to set."
+    name: "sourceSnapshotResourceId"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public VolumeGroupOverwriteRequest withSourceSnapshotResourceId(String sourceSnapshotResourceId)"
+  desc: "Set the sourceSnapshotResourceId property: Azure resource ID of the volume group snapshot to restore from."
+  returns:
+    description: "the VolumeGroupOverwriteRequest object itself."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.VolumeGroupOverwriteRequest?alt=com.azure.resourcemanager.purestorageblock.models.VolumeGroupOverwriteRequest&text=VolumeGroupOverwriteRequest\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupOverwriteRequest.withSourceVolumeGroupResourceId(java.lang.String)"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupOverwriteRequest.withSourceVolumeGroupResourceId(String sourceVolumeGroupResourceId)"
+  name: "withSourceVolumeGroupResourceId(String sourceVolumeGroupResourceId)"
+  nameWithType: "VolumeGroupOverwriteRequest.withSourceVolumeGroupResourceId(String sourceVolumeGroupResourceId)"
+  summary: "Set the source<wbr>Volume<wbr>Group<wbr>Resource<wbr>Id property: Azure resource ID of the source volume group."
+  parameters:
+  - description: "the sourceVolumeGroupResourceId value to set."
+    name: "sourceVolumeGroupResourceId"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public VolumeGroupOverwriteRequest withSourceVolumeGroupResourceId(String sourceVolumeGroupResourceId)"
+  desc: "Set the sourceVolumeGroupResourceId property: Azure resource ID of the source volume group."
+  returns:
+    description: "the VolumeGroupOverwriteRequest object itself."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.VolumeGroupOverwriteRequest?alt=com.azure.resourcemanager.purestorageblock.models.VolumeGroupOverwriteRequest&text=VolumeGroupOverwriteRequest\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Request to overwrite all volumes in a volume group from a snapshot."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.purestorageblock.models.VolumeGroupOverwriteRequest?alt=com.azure.resourcemanager.purestorageblock.models.VolumeGroupOverwriteRequest&text=VolumeGroupOverwriteRequest\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.purestorageblock.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-purestorageblock:1.1.0-beta.1

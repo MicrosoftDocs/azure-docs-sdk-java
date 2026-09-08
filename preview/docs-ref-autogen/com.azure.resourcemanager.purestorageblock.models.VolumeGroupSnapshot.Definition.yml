@@ -1,0 +1,16 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot.Definition"
+fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot.Definition"
+name: "VolumeGroupSnapshot.Definition"
+nameWithType: "VolumeGroupSnapshot.Definition"
+summary: "The entirety of the Volume<wbr>Group<wbr>Snapshot definition."
+syntax: "public static interface **VolumeGroupSnapshot.Definition**</br> extends <xref href=\"com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot.DefinitionStages.Blank?alt=com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot.DefinitionStages.Blank&text=Blank\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot.DefinitionStages.WithParentResource?alt=com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot.DefinitionStages.WithParentResource&text=WithParentResource\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of the VolumeGroupSnapshot definition."
+implements:
+- "<xref href=\"com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot.DefinitionStages.Blank?alt=com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot.DefinitionStages.Blank&text=Blank\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot.DefinitionStages.WithParentResource?alt=com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot.DefinitionStages.WithParentResource&text=WithParentResource\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.azure.resourcemanager.purestorageblock.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-purestorageblock:1.1.0-beta.1

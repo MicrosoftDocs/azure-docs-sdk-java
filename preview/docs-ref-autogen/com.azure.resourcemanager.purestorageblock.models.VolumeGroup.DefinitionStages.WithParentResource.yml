@@ -1,0 +1,32 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.purestorageblock.models.VolumeGroup.DefinitionStages.WithParentResource"
+fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeGroup.DefinitionStages.WithParentResource"
+name: "VolumeGroup.DefinitionStages.WithParentResource"
+nameWithType: "VolumeGroup.DefinitionStages.WithParentResource"
+summary: "The stage of the Volume<wbr>Group definition allowing to specify parent resource."
+syntax: "public static interface **VolumeGroup.DefinitionStages.WithParentResource**"
+methods:
+- uid: "com.azure.resourcemanager.purestorageblock.models.VolumeGroup.DefinitionStages.WithParentResource.withExistingStoragePool(java.lang.String,java.lang.String)"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeGroup.DefinitionStages.WithParentResource.withExistingStoragePool(String resourceGroupName, String storagePoolName)"
+  name: "withExistingStoragePool(String resourceGroupName, String storagePoolName)"
+  nameWithType: "VolumeGroup.DefinitionStages.WithParentResource.withExistingStoragePool(String resourceGroupName, String storagePoolName)"
+  summary: "Specifies resource<wbr>Group<wbr>Name, storage<wbr>Pool<wbr>Name."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "Name of the storage pool."
+    name: "storagePoolName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract VolumeGroup.DefinitionStages.WithCreate withExistingStoragePool(String resourceGroupName, String storagePoolName)"
+  desc: "Specifies resourceGroupName, storagePoolName."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.VolumeGroup.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.purestorageblock.models.VolumeGroup.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the VolumeGroup definition allowing to specify parent resource."
+metadata: {}
+package: "com.azure.resourcemanager.purestorageblock.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-purestorageblock:1.1.0-beta.1

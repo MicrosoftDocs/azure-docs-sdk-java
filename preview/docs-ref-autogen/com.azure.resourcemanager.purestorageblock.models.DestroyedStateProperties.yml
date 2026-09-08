@@ -1,0 +1,102 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.purestorageblock.models.DestroyedStateProperties"
+fullName: "com.azure.resourcemanager.purestorageblock.models.DestroyedStateProperties"
+name: "DestroyedStateProperties"
+nameWithType: "DestroyedStateProperties"
+summary: "Soft-deletion (destroyed) state of a resource."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **DestroyedStateProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.purestorageblock.models.DestroyedStateProperties?alt=com.azure.resourcemanager.purestorageblock.models.DestroyedStateProperties&text=DestroyedStateProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+methods:
+- uid: "com.azure.resourcemanager.purestorageblock.models.DestroyedStateProperties.destroyed()"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.DestroyedStateProperties.destroyed()"
+  name: "destroyed()"
+  nameWithType: "DestroyedStateProperties.destroyed()"
+  summary: "Get the destroyed property: If false, the resource is active; if true, the resource has been destroyed."
+  syntax: "public boolean destroyed()"
+  desc: "Get the destroyed property: If false, the resource is active; if true, the resource has been destroyed."
+  returns:
+    description: "the destroyed value."
+    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.models.DestroyedStateProperties.destroyedAt()"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.DestroyedStateProperties.destroyedAt()"
+  name: "destroyedAt()"
+  nameWithType: "DestroyedStateProperties.destroyedAt()"
+  summary: "Get the destroyed<wbr>At property: Date and time at which the resource was destroyed, as an RFC 3339 timestamp."
+  syntax: "public OffsetDateTime destroyedAt()"
+  desc: "Get the destroyedAt property: Date and time at which the resource was destroyed, as an RFC 3339 timestamp."
+  returns:
+    description: "the destroyedAt value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
+- uid: "com.azure.resourcemanager.purestorageblock.models.DestroyedStateProperties.eradicationTimestamp()"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.DestroyedStateProperties.eradicationTimestamp()"
+  name: "eradicationTimestamp()"
+  nameWithType: "DestroyedStateProperties.eradicationTimestamp()"
+  summary: "Get the eradication<wbr>Timestamp property: Date at which the resource will be eradicated and impossible to recover, as an RFC 3339 timestamp."
+  syntax: "public OffsetDateTime eradicationTimestamp()"
+  desc: "Get the eradicationTimestamp property: Date at which the resource will be eradicated and impossible to recover, as an RFC 3339 timestamp."
+  returns:
+    description: "the eradicationTimestamp value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
+- uid: "com.azure.resourcemanager.purestorageblock.models.DestroyedStateProperties.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.DestroyedStateProperties.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "DestroyedStateProperties.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Destroyed<wbr>State<wbr>Properties from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static DestroyedStateProperties fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of DestroyedStateProperties from the JsonReader."
+  returns:
+    description: "An instance of DestroyedStateProperties if the JsonReader was pointing to an instance of it, or null if\n it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.DestroyedStateProperties?alt=com.azure.resourcemanager.purestorageblock.models.DestroyedStateProperties&text=DestroyedStateProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.models.DestroyedStateProperties.previousName()"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.DestroyedStateProperties.previousName()"
+  name: "previousName()"
+  nameWithType: "DestroyedStateProperties.previousName()"
+  summary: "Get the previous<wbr>Name property: Name of the resource before it was destroyed."
+  syntax: "public String previousName()"
+  desc: "Get the previousName property: Name of the resource before it was destroyed."
+  returns:
+    description: "the previousName value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.purestorageblock.models.DestroyedStateProperties.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.DestroyedStateProperties.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "DestroyedStateProperties.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Soft-deletion (destroyed) state of a resource."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.purestorageblock.models.DestroyedStateProperties?alt=com.azure.resourcemanager.purestorageblock.models.DestroyedStateProperties&text=DestroyedStateProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.purestorageblock.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-purestorageblock:1.1.0-beta.1

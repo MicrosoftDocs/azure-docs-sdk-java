@@ -1,0 +1,12 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.purestorageblock.models.VolumeGroup.UpdateStages"
+fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeGroup.UpdateStages"
+name: "VolumeGroup.UpdateStages"
+nameWithType: "VolumeGroup.UpdateStages"
+summary: "The Volume<wbr>Group update stages."
+syntax: "public static interface **VolumeGroup.UpdateStages**"
+type: "interface"
+desc: "The VolumeGroup update stages."
+metadata: {}
+package: "com.azure.resourcemanager.purestorageblock.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-purestorageblock:1.1.0-beta.1

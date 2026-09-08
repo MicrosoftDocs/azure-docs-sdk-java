@@ -4,7 +4,7 @@ fullName: "com.azure.resourcemanager.deviceprovisioningservices.models.Certifica
 name: "CertificateResponse.DefinitionStages.WithCreate"
 nameWithType: "CertificateResponse.DefinitionStages.WithCreate"
 summary: "The stage of the Certificate<wbr>Response definition which contains all the minimum required properties for the resource to be created, but also allows for any other optional properties to be specified."
-syntax: "public static interface **CertificateResponse.DefinitionStages.WithCreate**</br> extends <xref href=\"com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.DefinitionStages.WithCertificate?alt=com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.DefinitionStages.WithCertificate&text=WithCertificate\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.DefinitionStages.WithIfMatch?alt=com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.DefinitionStages.WithIfMatch&text=WithIfMatch\" data-throw-if-not-resolved=\"False\" />"
+syntax: "public static interface **CertificateResponse.DefinitionStages.WithCreate**</br> extends <xref href=\"com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.DefinitionStages.WithProperties?alt=com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.DefinitionStages.WithProperties&text=WithProperties\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.DefinitionStages.WithIfMatch?alt=com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.DefinitionStages.WithIfMatch&text=WithIfMatch\" data-throw-if-not-resolved=\"False\" />"
 methods:
 - uid: "com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.DefinitionStages.WithCreate.create()"
   fullName: "com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.DefinitionStages.WithCreate.create()"
@@ -37,8 +37,8 @@ methods:
 type: "interface"
 desc: "The stage of the CertificateResponse definition which contains all the minimum required properties for the resource to be created, but also allows for any other optional properties to be specified."
 implements:
-- "<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.DefinitionStages.WithCertificate?alt=com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.DefinitionStages.WithCertificate&text=WithCertificate\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.DefinitionStages.WithIfMatch?alt=com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.DefinitionStages.WithIfMatch&text=WithIfMatch\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.DefinitionStages.WithProperties?alt=com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.DefinitionStages.WithProperties&text=WithProperties\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.azure.resourcemanager.deviceprovisioningservices.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-deviceprovisioningservices:1.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-deviceprovisioningservices:1.2.0

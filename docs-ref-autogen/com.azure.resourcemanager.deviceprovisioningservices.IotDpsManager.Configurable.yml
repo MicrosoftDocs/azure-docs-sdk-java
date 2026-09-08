@@ -95,6 +95,20 @@ methods:
   returns:
     description: "the configurable object itself."
     type: "<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.IotDpsManager.Configurable?alt=com.azure.resourcemanager.deviceprovisioningservices.IotDpsManager.Configurable&text=Configurable\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.deviceprovisioningservices.IotDpsManager.Configurable.withRetryOptions(com.azure.core.http.policy.RetryOptions)"
+  fullName: "com.azure.resourcemanager.deviceprovisioningservices.IotDpsManager.Configurable.withRetryOptions(RetryOptions retryOptions)"
+  name: "withRetryOptions(RetryOptions retryOptions)"
+  nameWithType: "IotDpsManager.Configurable.withRetryOptions(RetryOptions retryOptions)"
+  summary: "Sets the retry options for the HTTP pipeline retry policy."
+  parameters:
+  - description: "the retry options for the HTTP pipeline retry policy."
+    name: "retryOptions"
+    type: "<xref href=\"com.azure.core.http.policy.RetryOptions?alt=com.azure.core.http.policy.RetryOptions&text=RetryOptions\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public IotDpsManager.Configurable withRetryOptions(RetryOptions retryOptions)"
+  desc: "Sets the retry options for the HTTP pipeline retry policy.\n\nThis setting has no effect, if retry policy is set via <xref uid=\"com.azure.resourcemanager.deviceprovisioningservices.IotDpsManager.Configurable.withRetryPolicy(com.azure.core.http.policy.RetryPolicy)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#withRetryPolicy(RetryPolicy)\"></xref>."
+  returns:
+    description: "the configurable object itself."
+    type: "<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.IotDpsManager.Configurable?alt=com.azure.resourcemanager.deviceprovisioningservices.IotDpsManager.Configurable&text=Configurable\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.deviceprovisioningservices.IotDpsManager.Configurable.withRetryPolicy(com.azure.core.http.policy.RetryPolicy)"
   fullName: "com.azure.resourcemanager.deviceprovisioningservices.IotDpsManager.Configurable.withRetryPolicy(RetryPolicy retryPolicy)"
   name: "withRetryPolicy(RetryPolicy retryPolicy)"
@@ -109,8 +123,22 @@ methods:
   returns:
     description: "the configurable object itself."
     type: "<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.IotDpsManager.Configurable?alt=com.azure.resourcemanager.deviceprovisioningservices.IotDpsManager.Configurable&text=Configurable\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.deviceprovisioningservices.IotDpsManager.Configurable.withScope(java.lang.String)"
+  fullName: "com.azure.resourcemanager.deviceprovisioningservices.IotDpsManager.Configurable.withScope(String scope)"
+  name: "withScope(String scope)"
+  nameWithType: "IotDpsManager.Configurable.withScope(String scope)"
+  summary: "Adds the scope to permission sets."
+  parameters:
+  - description: "the scope."
+    name: "scope"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public IotDpsManager.Configurable withScope(String scope)"
+  desc: "Adds the scope to permission sets."
+  returns:
+    description: "the configurable object itself."
+    type: "<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.IotDpsManager.Configurable?alt=com.azure.resourcemanager.deviceprovisioningservices.IotDpsManager.Configurable&text=Configurable\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "The Configurable allowing configurations to be set."
 metadata: {}
 package: "com.azure.resourcemanager.deviceprovisioningservices"
-artifact: com.azure.resourcemanager:azure-resourcemanager-deviceprovisioningservices:1.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-deviceprovisioningservices:1.2.0

@@ -1,0 +1,113 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot"
+fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot"
+name: "VolumeGroupSnapshot"
+nameWithType: "VolumeGroupSnapshot"
+summary: "An immutable client-side representation of Volume<wbr>Group<wbr>Snapshot."
+syntax: "public interface **VolumeGroupSnapshot**"
+methods:
+- uid: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot.id()"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot.id()"
+  name: "id()"
+  nameWithType: "VolumeGroupSnapshot.id()"
+  summary: "Gets the id property: Fully qualified resource Id for the resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String id()"
+  desc: "Gets the id property: Fully qualified resource Id for the resource."
+  returns:
+    description: "the id value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot.innerModel()"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot.innerModel()"
+  name: "innerModel()"
+  nameWithType: "VolumeGroupSnapshot.innerModel()"
+  summary: "Gets the inner com.<wbr>azure.<wbr>resourcemanager.<wbr>purestorageblock.<wbr>fluent.<wbr>models.<wbr>Volume<wbr>Group<wbr>Snapshot<wbr>Inner object."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract VolumeGroupSnapshotInner innerModel()"
+  desc: "Gets the inner com.azure.resourcemanager.purestorageblock.fluent.models.VolumeGroupSnapshotInner object."
+  returns:
+    description: "the inner object."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.fluent.models.VolumeGroupSnapshotInner?alt=com.azure.resourcemanager.purestorageblock.fluent.models.VolumeGroupSnapshotInner&text=VolumeGroupSnapshotInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot.name()"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot.name()"
+  name: "name()"
+  nameWithType: "VolumeGroupSnapshot.name()"
+  summary: "Gets the name property: The name of the resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String name()"
+  desc: "Gets the name property: The name of the resource."
+  returns:
+    description: "the name value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot.properties()"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot.properties()"
+  name: "properties()"
+  nameWithType: "VolumeGroupSnapshot.properties()"
+  summary: "Gets the properties property: The resource-specific properties for this resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract VolumeGroupSnapshotProperties properties()"
+  desc: "Gets the properties property: The resource-specific properties for this resource."
+  returns:
+    description: "the properties value."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshotProperties?alt=com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshotProperties&text=VolumeGroupSnapshotProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot.refresh()"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot.refresh()"
+  name: "refresh()"
+  nameWithType: "VolumeGroupSnapshot.refresh()"
+  summary: "Refreshes the resource to sync with Azure."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract VolumeGroupSnapshot refresh()"
+  desc: "Refreshes the resource to sync with Azure."
+  returns:
+    description: "the refreshed resource."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot?alt=com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot&text=VolumeGroupSnapshot\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot.refresh(com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot.refresh(Context context)"
+  name: "refresh(Context context)"
+  nameWithType: "VolumeGroupSnapshot.refresh(Context context)"
+  summary: "Refreshes the resource to sync with Azure."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract VolumeGroupSnapshot refresh(Context context)"
+  desc: "Refreshes the resource to sync with Azure."
+  returns:
+    description: "the refreshed resource."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot?alt=com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot&text=VolumeGroupSnapshot\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot.systemData()"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot.systemData()"
+  name: "systemData()"
+  nameWithType: "VolumeGroupSnapshot.systemData()"
+  summary: "Gets the system<wbr>Data property: Azure Resource Manager metadata containing created<wbr>By and modified<wbr>By information."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract SystemData systemData()"
+  desc: "Gets the systemData property: Azure Resource Manager metadata containing createdBy and modifiedBy information."
+  returns:
+    description: "the systemData value."
+    type: "<xref href=\"com.azure.core.management.SystemData?alt=com.azure.core.management.SystemData&text=SystemData\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot.type()"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot.type()"
+  name: "type()"
+  nameWithType: "VolumeGroupSnapshot.type()"
+  summary: "Gets the type property: The type of the resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String type()"
+  desc: "Gets the type property: The type of the resource."
+  returns:
+    description: "the type value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+type: "interface"
+desc: "An immutable client-side representation of VolumeGroupSnapshot."
+metadata: {}
+package: "com.azure.resourcemanager.purestorageblock.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-purestorageblock:1.1.0-beta.1

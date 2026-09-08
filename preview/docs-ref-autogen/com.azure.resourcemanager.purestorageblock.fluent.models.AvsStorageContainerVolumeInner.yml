@@ -115,15 +115,8 @@ methods:
   returns:
     description: "the type value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.purestorageblock.fluent.models.AvsStorageContainerVolumeInner.validate()"
-  fullName: "com.azure.resourcemanager.purestorageblock.fluent.models.AvsStorageContainerVolumeInner.validate()"
-  name: "validate()"
-  nameWithType: "AvsStorageContainerVolumeInner.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 type: "class"
 desc: "A volume contained in an AVS storage container."
 metadata: {}
 package: "com.azure.resourcemanager.purestorageblock.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-purestorageblock:1.0.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-purestorageblock:1.1.0-beta.1

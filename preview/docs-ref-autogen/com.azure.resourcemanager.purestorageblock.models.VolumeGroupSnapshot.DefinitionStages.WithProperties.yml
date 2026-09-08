@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot.DefinitionStages.WithProperties"
+fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot.DefinitionStages.WithProperties"
+name: "VolumeGroupSnapshot.DefinitionStages.WithProperties"
+nameWithType: "VolumeGroupSnapshot.DefinitionStages.WithProperties"
+summary: "The stage of the Volume<wbr>Group<wbr>Snapshot definition allowing to specify properties."
+syntax: "public static interface **VolumeGroupSnapshot.DefinitionStages.WithProperties**"
+methods:
+- uid: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot.DefinitionStages.WithProperties.withProperties(com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshotProperties)"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot.DefinitionStages.WithProperties.withProperties(VolumeGroupSnapshotProperties properties)"
+  name: "withProperties(VolumeGroupSnapshotProperties properties)"
+  nameWithType: "VolumeGroupSnapshot.DefinitionStages.WithProperties.withProperties(VolumeGroupSnapshotProperties properties)"
+  summary: "Specifies the properties property: The resource-specific properties for this resource.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The resource-specific properties for this resource."
+    name: "properties"
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshotProperties?alt=com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshotProperties&text=VolumeGroupSnapshotProperties\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract VolumeGroupSnapshot.DefinitionStages.WithCreate withProperties(VolumeGroupSnapshotProperties properties)"
+  desc: "Specifies the properties property: The resource-specific properties for this resource.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.purestorageblock.models.VolumeGroupSnapshot.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the VolumeGroupSnapshot definition allowing to specify properties."
+metadata: {}
+package: "com.azure.resourcemanager.purestorageblock.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-purestorageblock:1.1.0-beta.1

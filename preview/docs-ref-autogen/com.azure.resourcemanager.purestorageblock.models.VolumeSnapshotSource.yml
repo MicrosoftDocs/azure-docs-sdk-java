@@ -1,0 +1,118 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.purestorageblock.models.VolumeSnapshotSource"
+fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeSnapshotSource"
+name: "VolumeSnapshotSource"
+nameWithType: "VolumeSnapshotSource"
+summary: "Identifies the specific volume snapshot within a volume group snapshot to restore from."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **VolumeSnapshotSource**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.purestorageblock.models.VolumeSnapshotSource?alt=com.azure.resourcemanager.purestorageblock.models.VolumeSnapshotSource&text=VolumeSnapshotSource\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.purestorageblock.models.VolumeSnapshotSource.VolumeSnapshotSource()"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeSnapshotSource.VolumeSnapshotSource()"
+  name: "VolumeSnapshotSource()"
+  nameWithType: "VolumeSnapshotSource.VolumeSnapshotSource()"
+  summary: "Creates an instance of Volume<wbr>Snapshot<wbr>Source class."
+  syntax: "public VolumeSnapshotSource()"
+  desc: "Creates an instance of VolumeSnapshotSource class."
+methods:
+- uid: "com.azure.resourcemanager.purestorageblock.models.VolumeSnapshotSource.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeSnapshotSource.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "VolumeSnapshotSource.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Volume<wbr>Snapshot<wbr>Source from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static VolumeSnapshotSource fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of VolumeSnapshotSource from the JsonReader."
+  returns:
+    description: "An instance of VolumeSnapshotSource if the JsonReader was pointing to an instance of it, or null if it\n was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.VolumeSnapshotSource?alt=com.azure.resourcemanager.purestorageblock.models.VolumeSnapshotSource&text=VolumeSnapshotSource\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.models.VolumeSnapshotSource.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeSnapshotSource.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "VolumeSnapshotSource.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.models.VolumeSnapshotSource.volumeGroupSnapshotResourceId()"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeSnapshotSource.volumeGroupSnapshotResourceId()"
+  name: "volumeGroupSnapshotResourceId()"
+  nameWithType: "VolumeSnapshotSource.volumeGroupSnapshotResourceId()"
+  summary: "Get the volume<wbr>Group<wbr>Snapshot<wbr>Resource<wbr>Id property: Azure resource ID of the volume group snapshot containing the desired volume snapshot."
+  syntax: "public String volumeGroupSnapshotResourceId()"
+  desc: "Get the volumeGroupSnapshotResourceId property: Azure resource ID of the volume group snapshot containing the desired volume snapshot."
+  returns:
+    description: "the volumeGroupSnapshotResourceId value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.purestorageblock.models.VolumeSnapshotSource.volumeSnapshotName()"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeSnapshotSource.volumeSnapshotName()"
+  name: "volumeSnapshotName()"
+  nameWithType: "VolumeSnapshotSource.volumeSnapshotName()"
+  summary: "Get the volume<wbr>Snapshot<wbr>Name property: Name of the volume snapshot within the volume group snapshot."
+  syntax: "public String volumeSnapshotName()"
+  desc: "Get the volumeSnapshotName property: Name of the volume snapshot within the volume group snapshot."
+  returns:
+    description: "the volumeSnapshotName value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.purestorageblock.models.VolumeSnapshotSource.withVolumeGroupSnapshotResourceId(java.lang.String)"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeSnapshotSource.withVolumeGroupSnapshotResourceId(String volumeGroupSnapshotResourceId)"
+  name: "withVolumeGroupSnapshotResourceId(String volumeGroupSnapshotResourceId)"
+  nameWithType: "VolumeSnapshotSource.withVolumeGroupSnapshotResourceId(String volumeGroupSnapshotResourceId)"
+  summary: "Set the volume<wbr>Group<wbr>Snapshot<wbr>Resource<wbr>Id property: Azure resource ID of the volume group snapshot containing the desired volume snapshot."
+  parameters:
+  - description: "the volumeGroupSnapshotResourceId value to set."
+    name: "volumeGroupSnapshotResourceId"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public VolumeSnapshotSource withVolumeGroupSnapshotResourceId(String volumeGroupSnapshotResourceId)"
+  desc: "Set the volumeGroupSnapshotResourceId property: Azure resource ID of the volume group snapshot containing the desired volume snapshot."
+  returns:
+    description: "the VolumeSnapshotSource object itself."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.VolumeSnapshotSource?alt=com.azure.resourcemanager.purestorageblock.models.VolumeSnapshotSource&text=VolumeSnapshotSource\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.models.VolumeSnapshotSource.withVolumeSnapshotName(java.lang.String)"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeSnapshotSource.withVolumeSnapshotName(String volumeSnapshotName)"
+  name: "withVolumeSnapshotName(String volumeSnapshotName)"
+  nameWithType: "VolumeSnapshotSource.withVolumeSnapshotName(String volumeSnapshotName)"
+  summary: "Set the volume<wbr>Snapshot<wbr>Name property: Name of the volume snapshot within the volume group snapshot."
+  parameters:
+  - description: "the volumeSnapshotName value to set."
+    name: "volumeSnapshotName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public VolumeSnapshotSource withVolumeSnapshotName(String volumeSnapshotName)"
+  desc: "Set the volumeSnapshotName property: Name of the volume snapshot within the volume group snapshot."
+  returns:
+    description: "the VolumeSnapshotSource object itself."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.VolumeSnapshotSource?alt=com.azure.resourcemanager.purestorageblock.models.VolumeSnapshotSource&text=VolumeSnapshotSource\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Identifies the specific volume snapshot within a volume group snapshot to restore from."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.purestorageblock.models.VolumeSnapshotSource?alt=com.azure.resourcemanager.purestorageblock.models.VolumeSnapshotSource&text=VolumeSnapshotSource\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.purestorageblock.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-purestorageblock:1.1.0-beta.1

@@ -6,6 +6,41 @@ nameWithType: "StoragePool"
 summary: "An immutable client-side representation of Storage<wbr>Pool."
 syntax: "public interface **StoragePool**"
 methods:
+- uid: "com.azure.resourcemanager.purestorageblock.models.StoragePool.configurePlatformConsoleAuth(com.azure.resourcemanager.purestorageblock.models.PlatformConsoleAuthConfig)"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.StoragePool.configurePlatformConsoleAuth(PlatformConsoleAuthConfig config)"
+  name: "configurePlatformConsoleAuth(PlatformConsoleAuthConfig config)"
+  nameWithType: "StoragePool.configurePlatformConsoleAuth(PlatformConsoleAuthConfig config)"
+  summary: "Configure authentication settings for platform console access to the storage pool."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Platform console authentication configuration."
+    name: "config"
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.PlatformConsoleAuthConfig?alt=com.azure.resourcemanager.purestorageblock.models.PlatformConsoleAuthConfig&text=PlatformConsoleAuthConfig\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract PlatformConsoleAuthResult configurePlatformConsoleAuth(PlatformConsoleAuthConfig config)"
+  desc: "Configure authentication settings for platform console access to the storage pool."
+  returns:
+    description: "base model for platform console authentication result."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.PlatformConsoleAuthResult?alt=com.azure.resourcemanager.purestorageblock.models.PlatformConsoleAuthResult&text=PlatformConsoleAuthResult\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.models.StoragePool.configurePlatformConsoleAuthWithResponse(com.azure.resourcemanager.purestorageblock.models.PlatformConsoleAuthConfig,com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.StoragePool.configurePlatformConsoleAuthWithResponse(PlatformConsoleAuthConfig config, Context context)"
+  name: "configurePlatformConsoleAuthWithResponse(PlatformConsoleAuthConfig config, Context context)"
+  nameWithType: "StoragePool.configurePlatformConsoleAuthWithResponse(PlatformConsoleAuthConfig config, Context context)"
+  summary: "Configure authentication settings for platform console access to the storage pool."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Platform console authentication configuration."
+    name: "config"
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.PlatformConsoleAuthConfig?alt=com.azure.resourcemanager.purestorageblock.models.PlatformConsoleAuthConfig&text=PlatformConsoleAuthConfig\" data-throw-if-not-resolved=\"False\" />"
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract Response<PlatformConsoleAuthResult> configurePlatformConsoleAuthWithResponse(PlatformConsoleAuthConfig config, Context context)"
+  desc: "Configure authentication settings for platform console access to the storage pool."
+  returns:
+    description: "base model for platform console authentication result along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
+    type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.purestorageblock.models.PlatformConsoleAuthResult?alt=com.azure.resourcemanager.purestorageblock.models.PlatformConsoleAuthResult&text=PlatformConsoleAuthResult\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.purestorageblock.models.StoragePool.disableAvsConnection()"
   fullName: "com.azure.resourcemanager.purestorageblock.models.StoragePool.disableAvsConnection()"
   name: "disableAvsConnection()"
@@ -206,6 +241,34 @@ methods:
   returns:
     description: "the inner object."
     type: "<xref href=\"com.azure.resourcemanager.purestorageblock.fluent.models.StoragePoolInner?alt=com.azure.resourcemanager.purestorageblock.fluent.models.StoragePoolInner&text=StoragePoolInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.models.StoragePool.listPlatformConsoleActivationCode()"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.StoragePool.listPlatformConsoleActivationCode()"
+  name: "listPlatformConsoleActivationCode()"
+  nameWithType: "StoragePool.listPlatformConsoleActivationCode()"
+  summary: "Returns a one-time activation code for platform console access to the storage pool."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract PlatformConsoleActivationCode listPlatformConsoleActivationCode()"
+  desc: "Returns a one-time activation code for platform console access to the storage pool."
+  returns:
+    description: "one-time activation code for platform console access."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.PlatformConsoleActivationCode?alt=com.azure.resourcemanager.purestorageblock.models.PlatformConsoleActivationCode&text=PlatformConsoleActivationCode\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.models.StoragePool.listPlatformConsoleActivationCodeWithResponse(com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.StoragePool.listPlatformConsoleActivationCodeWithResponse(Context context)"
+  name: "listPlatformConsoleActivationCodeWithResponse(Context context)"
+  nameWithType: "StoragePool.listPlatformConsoleActivationCodeWithResponse(Context context)"
+  summary: "Returns a one-time activation code for platform console access to the storage pool."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract Response<PlatformConsoleActivationCode> listPlatformConsoleActivationCodeWithResponse(Context context)"
+  desc: "Returns a one-time activation code for platform console access to the storage pool."
+  returns:
+    description: "one-time activation code for platform console access along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
+    type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.purestorageblock.models.PlatformConsoleActivationCode?alt=com.azure.resourcemanager.purestorageblock.models.PlatformConsoleActivationCode&text=PlatformConsoleActivationCode\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.purestorageblock.models.StoragePool.location()"
   fullName: "com.azure.resourcemanager.purestorageblock.models.StoragePool.location()"
   name: "location()"
@@ -380,4 +443,4 @@ type: "interface"
 desc: "An immutable client-side representation of StoragePool."
 metadata: {}
 package: "com.azure.resourcemanager.purestorageblock.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-purestorageblock:1.0.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-purestorageblock:1.1.0-beta.1

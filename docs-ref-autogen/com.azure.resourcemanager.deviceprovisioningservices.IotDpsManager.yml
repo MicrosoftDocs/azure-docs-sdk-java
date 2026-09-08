@@ -22,6 +22,25 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **IotDpsManager**"
 methods:
+- uid: "com.azure.resourcemanager.deviceprovisioningservices.IotDpsManager.authenticate(com.azure.core.http.HttpPipeline,com.azure.core.management.profile.AzureProfile)"
+  fullName: "com.azure.resourcemanager.deviceprovisioningservices.IotDpsManager.authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
+  name: "authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
+  nameWithType: "IotDpsManager.authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
+  summary: "Creates an instance of Iot<wbr>Dps service API entry point."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "the <xref uid=\"com.azure.core.http.HttpPipeline\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HttpPipeline\"></xref> configured with Azure authentication credential."
+    name: "httpPipeline"
+    type: "<xref href=\"com.azure.core.http.HttpPipeline?alt=com.azure.core.http.HttpPipeline&text=HttpPipeline\" data-throw-if-not-resolved=\"False\" />"
+  - description: "the Azure profile for client."
+    name: "profile"
+    type: "<xref href=\"com.azure.core.management.profile.AzureProfile?alt=com.azure.core.management.profile.AzureProfile&text=AzureProfile\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static IotDpsManager authenticate(HttpPipeline httpPipeline, AzureProfile profile)"
+  desc: "Creates an instance of IotDps service API entry point."
+  returns:
+    description: "the IotDps service API instance."
+    type: "<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.IotDpsManager?alt=com.azure.resourcemanager.deviceprovisioningservices.IotDpsManager&text=IotDpsManager\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.deviceprovisioningservices.IotDpsManager.authenticate(com.azure.core.credential.TokenCredential,com.azure.core.management.profile.AzureProfile)"
   fullName: "com.azure.resourcemanager.deviceprovisioningservices.IotDpsManager.authenticate(TokenCredential credential, AzureProfile profile)"
   name: "authenticate(TokenCredential credential, AzureProfile profile)"
@@ -57,7 +76,9 @@ methods:
   fullName: "com.azure.resourcemanager.deviceprovisioningservices.IotDpsManager.dpsCertificates()"
   name: "dpsCertificates()"
   nameWithType: "IotDpsManager.dpsCertificates()"
+  summary: "Gets the resource collection API of Dps<wbr>Certificates."
   syntax: "public DpsCertificates dpsCertificates()"
+  desc: "Gets the resource collection API of DpsCertificates. It manages CertificateResponse."
   returns:
     description: "Resource collection API of DpsCertificates."
     type: "<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.models.DpsCertificates?alt=com.azure.resourcemanager.deviceprovisioningservices.models.DpsCertificates&text=DpsCertificates\" data-throw-if-not-resolved=\"False\" />"
@@ -65,7 +86,9 @@ methods:
   fullName: "com.azure.resourcemanager.deviceprovisioningservices.IotDpsManager.iotDpsResources()"
   name: "iotDpsResources()"
   nameWithType: "IotDpsManager.iotDpsResources()"
+  summary: "Gets the resource collection API of Iot<wbr>Dps<wbr>Resources."
   syntax: "public IotDpsResources iotDpsResources()"
+  desc: "Gets the resource collection API of IotDpsResources. It manages ProvisioningServiceDescription, PrivateEndpointConnection."
   returns:
     description: "Resource collection API of IotDpsResources."
     type: "<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.models.IotDpsResources?alt=com.azure.resourcemanager.deviceprovisioningservices.models.IotDpsResources&text=IotDpsResources\" data-throw-if-not-resolved=\"False\" />"
@@ -73,7 +96,9 @@ methods:
   fullName: "com.azure.resourcemanager.deviceprovisioningservices.IotDpsManager.operations()"
   name: "operations()"
   nameWithType: "IotDpsManager.operations()"
+  summary: "Gets the resource collection API of Operations."
   syntax: "public Operations operations()"
+  desc: "Gets the resource collection API of Operations."
   returns:
     description: "Resource collection API of Operations."
     type: "<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.models.Operations?alt=com.azure.resourcemanager.deviceprovisioningservices.models.Operations&text=Operations\" data-throw-if-not-resolved=\"False\" />"
@@ -81,12 +106,14 @@ methods:
   fullName: "com.azure.resourcemanager.deviceprovisioningservices.IotDpsManager.serviceClient()"
   name: "serviceClient()"
   nameWithType: "IotDpsManager.serviceClient()"
-  syntax: "public IotDpsClient serviceClient()"
+  summary: "Gets wrapped service client Iot<wbr>Dps<wbr>Management<wbr>Client providing direct access to the underlying auto-generated API implementation, based on Azure REST API."
+  syntax: "public IotDpsManagementClient serviceClient()"
+  desc: "Gets wrapped service client IotDpsManagementClient providing direct access to the underlying auto-generated API implementation, based on Azure REST API."
   returns:
-    description: "Wrapped service client IotDpsClient providing direct access to the underlying auto-generated API\n     implementation, based on Azure REST API."
-    type: "<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsClient?alt=com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsClient&text=IotDpsClient\" data-throw-if-not-resolved=\"False\" />"
+    description: "Wrapped service client IotDpsManagementClient."
+    type: "<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsManagementClient?alt=com.azure.resourcemanager.deviceprovisioningservices.fluent.IotDpsManagementClient&text=IotDpsManagementClient\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Entry point to IotDpsManager. API for using the Azure IoT Hub Device Provisioning Service features."
 metadata: {}
 package: "com.azure.resourcemanager.deviceprovisioningservices"
-artifact: com.azure.resourcemanager:azure-resourcemanager-deviceprovisioningservices:1.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-deviceprovisioningservices:1.2.0

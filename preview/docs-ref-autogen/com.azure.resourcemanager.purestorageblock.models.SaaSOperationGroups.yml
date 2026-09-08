@@ -1,0 +1,48 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.purestorageblock.models.SaaSOperationGroups"
+fullName: "com.azure.resourcemanager.purestorageblock.models.SaaSOperationGroups"
+name: "SaaSOperationGroups"
+nameWithType: "SaaSOperationGroups"
+summary: "Resource collection API of Saa<wbr>SOperation<wbr>Groups."
+syntax: "public interface **SaaSOperationGroups**"
+methods:
+- uid: "com.azure.resourcemanager.purestorageblock.models.SaaSOperationGroups.activateResource(com.azure.resourcemanager.purestorageblock.models.ActivateSaaSRequest)"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.SaaSOperationGroups.activateResource(ActivateSaaSRequest body)"
+  name: "activateResource(ActivateSaaSRequest body)"
+  nameWithType: "SaaSOperationGroups.activateResource(ActivateSaaSRequest body)"
+  summary: "Activate the SaaS resource."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The request body."
+    name: "body"
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.ActivateSaaSRequest?alt=com.azure.resourcemanager.purestorageblock.models.ActivateSaaSRequest&text=ActivateSaaSRequest\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract SaaSResourceDetailsResponse activateResource(ActivateSaaSRequest body)"
+  desc: "Activate the SaaS resource."
+  returns:
+    description: "marketplace SaaS resource details."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.SaaSResourceDetailsResponse?alt=com.azure.resourcemanager.purestorageblock.models.SaaSResourceDetailsResponse&text=SaaSResourceDetailsResponse\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.models.SaaSOperationGroups.activateResource(com.azure.resourcemanager.purestorageblock.models.ActivateSaaSRequest,com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.SaaSOperationGroups.activateResource(ActivateSaaSRequest body, Context context)"
+  name: "activateResource(ActivateSaaSRequest body, Context context)"
+  nameWithType: "SaaSOperationGroups.activateResource(ActivateSaaSRequest body, Context context)"
+  summary: "Activate the SaaS resource."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The request body."
+    name: "body"
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.ActivateSaaSRequest?alt=com.azure.resourcemanager.purestorageblock.models.ActivateSaaSRequest&text=ActivateSaaSRequest\" data-throw-if-not-resolved=\"False\" />"
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract SaaSResourceDetailsResponse activateResource(ActivateSaaSRequest body, Context context)"
+  desc: "Activate the SaaS resource."
+  returns:
+    description: "marketplace SaaS resource details."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.SaaSResourceDetailsResponse?alt=com.azure.resourcemanager.purestorageblock.models.SaaSResourceDetailsResponse&text=SaaSResourceDetailsResponse\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "Resource collection API of SaaSOperationGroups."
+metadata: {}
+package: "com.azure.resourcemanager.purestorageblock.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-purestorageblock:1.1.0-beta.1

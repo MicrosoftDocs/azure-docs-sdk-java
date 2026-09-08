@@ -1,0 +1,134 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.purestorageblock.models.VolumeSourceType"
+fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeSourceType"
+name: "VolumeSourceType"
+nameWithType: "VolumeSourceType"
+summary: "Source type for volume creation."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **VolumeSourceType**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.purestorageblock.models.VolumeSourceType?alt=com.azure.resourcemanager.purestorageblock.models.VolumeSourceType&text=VolumeSourceType\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.purestorageblock.models.VolumeSourceType.VolumeSourceType()"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeSourceType.VolumeSourceType()"
+  name: "VolumeSourceType()"
+  nameWithType: "VolumeSourceType.VolumeSourceType()"
+  summary: "Creates a new instance of Volume<wbr>Source<wbr>Type value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.purestorageblock.models.VolumeSourceType.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public VolumeSourceType()"
+  desc: "Creates a new instance of VolumeSourceType value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.purestorageblock.models.VolumeSourceType.NONE"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeSourceType.NONE"
+  name: "NONE"
+  nameWithType: "VolumeSourceType.NONE"
+  summary: "No source; create an empty volume with the specified provisioned size."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.VolumeSourceType?alt=com.azure.resourcemanager.purestorageblock.models.VolumeSourceType&text=VolumeSourceType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final VolumeSourceType NONE"
+  desc: "No source; create an empty volume with the specified provisioned size."
+- uid: "com.azure.resourcemanager.purestorageblock.models.VolumeSourceType.RECOVERABLE_VOLUME"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeSourceType.RECOVERABLE_VOLUME"
+  name: "RECOVERABLE_VOLUME"
+  nameWithType: "VolumeSourceType.RECOVERABLE_VOLUME"
+  summary: "Recover a soft-deleted volume within the same volume group."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.VolumeSourceType?alt=com.azure.resourcemanager.purestorageblock.models.VolumeSourceType&text=VolumeSourceType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final VolumeSourceType RECOVERABLE_VOLUME"
+  desc: "Recover a soft-deleted volume within the same volume group."
+- uid: "com.azure.resourcemanager.purestorageblock.models.VolumeSourceType.SERIAL_NUMBER"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeSourceType.SERIAL_NUMBER"
+  name: "SERIAL_NUMBER"
+  nameWithType: "VolumeSourceType.SERIAL_NUMBER"
+  summary: "Import a volume by its serial number."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.VolumeSourceType?alt=com.azure.resourcemanager.purestorageblock.models.VolumeSourceType&text=VolumeSourceType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final VolumeSourceType SERIAL_NUMBER"
+  desc: "Import a volume by its serial number."
+- uid: "com.azure.resourcemanager.purestorageblock.models.VolumeSourceType.SNAPSHOT"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeSourceType.SNAPSHOT"
+  name: "SNAPSHOT"
+  nameWithType: "VolumeSourceType.SNAPSHOT"
+  summary: "Restore from a volume group snapshot."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.VolumeSourceType?alt=com.azure.resourcemanager.purestorageblock.models.VolumeSourceType&text=VolumeSourceType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final VolumeSourceType SNAPSHOT"
+  desc: "Restore from a volume group snapshot."
+- uid: "com.azure.resourcemanager.purestorageblock.models.VolumeSourceType.VOLUME"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeSourceType.VOLUME"
+  name: "VOLUME"
+  nameWithType: "VolumeSourceType.VOLUME"
+  summary: "Clone from an existing volume."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.VolumeSourceType?alt=com.azure.resourcemanager.purestorageblock.models.VolumeSourceType&text=VolumeSourceType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final VolumeSourceType VOLUME"
+  desc: "Clone from an existing volume."
+methods:
+- uid: "com.azure.resourcemanager.purestorageblock.models.VolumeSourceType.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeSourceType.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "VolumeSourceType.fromString(String name)"
+  summary: "Creates or finds a Volume<wbr>Source<wbr>Type from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static VolumeSourceType fromString(String name)"
+  desc: "Creates or finds a VolumeSourceType from its string representation."
+  returns:
+    description: "the corresponding VolumeSourceType."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.VolumeSourceType?alt=com.azure.resourcemanager.purestorageblock.models.VolumeSourceType&text=VolumeSourceType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.models.VolumeSourceType.values()"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.VolumeSourceType.values()"
+  name: "values()"
+  nameWithType: "VolumeSourceType.values()"
+  summary: "Gets known Volume<wbr>Source<wbr>Type values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<VolumeSourceType> values()"
+  desc: "Gets known VolumeSourceType values."
+  returns:
+    description: "known VolumeSourceType values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.purestorageblock.models.VolumeSourceType?alt=com.azure.resourcemanager.purestorageblock.models.VolumeSourceType&text=VolumeSourceType\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Source type for volume creation."
+metadata: {}
+package: "com.azure.resourcemanager.purestorageblock.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-purestorageblock:1.1.0-beta.1

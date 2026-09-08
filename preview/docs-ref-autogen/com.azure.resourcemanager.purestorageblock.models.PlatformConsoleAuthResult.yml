@@ -1,0 +1,37 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.purestorageblock.models.PlatformConsoleAuthResult"
+fullName: "com.azure.resourcemanager.purestorageblock.models.PlatformConsoleAuthResult"
+name: "PlatformConsoleAuthResult"
+nameWithType: "PlatformConsoleAuthResult"
+summary: "An immutable client-side representation of Platform<wbr>Console<wbr>Auth<wbr>Result."
+syntax: "public interface **PlatformConsoleAuthResult**"
+methods:
+- uid: "com.azure.resourcemanager.purestorageblock.models.PlatformConsoleAuthResult.authType()"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.PlatformConsoleAuthResult.authType()"
+  name: "authType()"
+  nameWithType: "PlatformConsoleAuthResult.authType()"
+  summary: "Gets the auth<wbr>Type property: Authentication type discriminator."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract PlatformConsoleAuthType authType()"
+  desc: "Gets the authType property: Authentication type discriminator."
+  returns:
+    description: "the authType value."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.models.PlatformConsoleAuthType?alt=com.azure.resourcemanager.purestorageblock.models.PlatformConsoleAuthType&text=PlatformConsoleAuthType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.purestorageblock.models.PlatformConsoleAuthResult.innerModel()"
+  fullName: "com.azure.resourcemanager.purestorageblock.models.PlatformConsoleAuthResult.innerModel()"
+  name: "innerModel()"
+  nameWithType: "PlatformConsoleAuthResult.innerModel()"
+  summary: "Gets the inner com.<wbr>azure.<wbr>resourcemanager.<wbr>purestorageblock.<wbr>fluent.<wbr>models.<wbr>Platform<wbr>Console<wbr>Auth<wbr>Result<wbr>Inner object."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract PlatformConsoleAuthResultInner innerModel()"
+  desc: "Gets the inner com.azure.resourcemanager.purestorageblock.fluent.models.PlatformConsoleAuthResultInner object."
+  returns:
+    description: "the inner object."
+    type: "<xref href=\"com.azure.resourcemanager.purestorageblock.fluent.models.PlatformConsoleAuthResultInner?alt=com.azure.resourcemanager.purestorageblock.fluent.models.PlatformConsoleAuthResultInner&text=PlatformConsoleAuthResultInner\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "An immutable client-side representation of PlatformConsoleAuthResult."
+metadata: {}
+package: "com.azure.resourcemanager.purestorageblock.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-purestorageblock:1.1.0-beta.1

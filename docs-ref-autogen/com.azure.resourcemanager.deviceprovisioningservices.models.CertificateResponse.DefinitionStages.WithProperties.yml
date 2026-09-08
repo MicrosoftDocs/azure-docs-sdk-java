@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.DefinitionStages.WithProperties"
+fullName: "com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.DefinitionStages.WithProperties"
+name: "CertificateResponse.DefinitionStages.WithProperties"
+nameWithType: "CertificateResponse.DefinitionStages.WithProperties"
+summary: "The stage of the Certificate<wbr>Response definition allowing to specify properties."
+syntax: "public static interface **CertificateResponse.DefinitionStages.WithProperties**"
+methods:
+- uid: "com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.DefinitionStages.WithProperties.withProperties(com.azure.resourcemanager.deviceprovisioningservices.models.CertificateProperties)"
+  fullName: "com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.DefinitionStages.WithProperties.withProperties(CertificateProperties properties)"
+  name: "withProperties(CertificateProperties properties)"
+  nameWithType: "CertificateResponse.DefinitionStages.WithProperties.withProperties(CertificateProperties properties)"
+  summary: "Specifies the properties property: properties of a certificate."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "properties of a certificate."
+    name: "properties"
+    type: "<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.models.CertificateProperties?alt=com.azure.resourcemanager.deviceprovisioningservices.models.CertificateProperties&text=CertificateProperties\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract CertificateResponse.DefinitionStages.WithCreate withProperties(CertificateProperties properties)"
+  desc: "Specifies the properties property: properties of a certificate."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.deviceprovisioningservices.models.CertificateResponse.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the CertificateResponse definition allowing to specify properties."
+metadata: {}
+package: "com.azure.resourcemanager.deviceprovisioningservices.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-deviceprovisioningservices:1.2.0
