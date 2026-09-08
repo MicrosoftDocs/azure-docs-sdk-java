@@ -6,6 +6,6 @@ ms.topic: reference
 ms.devlang: java
 ms.service: metricsadvisor
 ---
-# Azure Metrics Advisor SDK for Java - latest
-## Packages - latest
+# Azure Metrics Advisor SDK for Java - preview
+## Packages - preview
 [!INCLUDE [packages](metrics-advisor-index.md)]
