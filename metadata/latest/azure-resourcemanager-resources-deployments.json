@@ -1,0 +1,35 @@
+{
+  "Name": "azure-resourcemanager-resources-deployments",
+  "Version": "1.0.0",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/resources/azure-resourcemanager-resources-deployments",
+  "ServiceDirectory": "resources",
+  "ReadMePath": "sdk/resources/azure-resourcemanager-resources-deployments/README.md",
+  "ChangeLogPath": "sdk/resources/azure-resourcemanager-resources-deployments/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-resources-deployments",
+  "ReleaseStatus": "2026-08-25",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "name": "azure-resourcemanager-resources-deployments",
+    "triggeringPaths": [
+      "/sdk/resources/ci.yml"
+    ],
+    "safeName": "azureresourcemanagerresourcesdeployments",
+    "groupId": "com.azure.resourcemanager",
+    "releaseInBatch": "${{ parameters.release_azureresourcemanagerresourcesdeployments }}"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": "specification/resources/resource-manager/Microsoft.Resources/deployments",
+  "Namespaces": [
+    "com.azure.resourcemanager.resources.deployments",
+    "com.azure.resourcemanager.resources.deployments.fluent",
+    "com.azure.resourcemanager.resources.deployments.fluent.models",
+    "com.azure.resourcemanager.resources.deployments.models"
+  ]
+}
