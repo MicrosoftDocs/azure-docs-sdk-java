@@ -214,19 +214,6 @@
         - com.azure.resourcemanager.artifactsigning.fluent
         - com.azure.resourcemanager.artifactsigning.fluent.models
         - com.azure.resourcemanager.artifactsigning.models
-  - name: Astro
-    href: ~/docs-ref-services/{moniker}/astro.md
-    landingPageType: Service
-    items:
-    - name: Management
-      items:
-      - name: Resource Management - Astro
-        href: ~/docs-ref-services/{moniker}/resourcemanager-astro-readme.md
-        children:
-        - com.azure.resourcemanager.astro
-        - com.azure.resourcemanager.astro.fluent
-        - com.azure.resourcemanager.astro.fluent.models
-        - com.azure.resourcemanager.astro.models
   - name: Attestation
     href: ~/docs-ref-services/{moniker}/attestation.md
     landingPageType: Service

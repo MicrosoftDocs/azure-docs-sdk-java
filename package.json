@@ -1242,7 +1242,7 @@
       {
         "packageArtifactId": "azure-resourcemanager-newrelicobservability",
         "packageGroupId": "com.azure.resourcemanager",
-        "packageVersion": "1.2.0",
+        "packageVersion": "1.3.0",
         "packageDownloadUrl": "https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-java/maven/v1"
       },
       {
@@ -1429,6 +1429,12 @@
         "packageArtifactId": "azure-resourcemanager-resources",
         "packageGroupId": "com.azure.resourcemanager",
         "packageVersion": "2.54.0",
+        "packageDownloadUrl": "https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-java/maven/v1"
+      },
+      {
+        "packageArtifactId": "azure-resourcemanager-resources-deployments",
+        "packageGroupId": "com.azure.resourcemanager",
+        "packageVersion": "1.0.0",
         "packageDownloadUrl": "https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-java/maven/v1"
       },
       {
@@ -2406,12 +2412,6 @@
         "packageDownloadUrl": "https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-java/maven/v1"
       },
       {
-        "packageArtifactId": "azure-resourcemanager-astro",
-        "packageGroupId": "com.azure.resourcemanager",
-        "packageVersion": "1.0.0-beta.2",
-        "packageDownloadUrl": "https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-java/maven/v1"
-      },
-      {
         "packageArtifactId": "azure-resourcemanager-attestation",
         "packageGroupId": "com.azure.resourcemanager",
         "packageVersion": "1.0.0-beta.3",
@@ -2624,7 +2624,7 @@
       {
         "packageArtifactId": "azure-resourcemanager-containerregistry",
         "packageGroupId": "com.azure.resourcemanager",
-        "packageVersion": "2.56.0-beta.2",
+        "packageVersion": "2.56.0-beta.3",
         "packageDownloadUrl": "https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-java/maven/v1"
       },
       {
