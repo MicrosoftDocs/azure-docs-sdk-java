@@ -1,6 +1,6 @@
 {
   "Name": "azure-resourcemanager-avs",
-  "Version": "1.4.0",
+  "Version": "1.5.0",
   "DevVersion": null,
   "DirectoryPath": "sdk/avs/azure-resourcemanager-avs",
   "ServiceDirectory": "avs",
@@ -10,16 +10,16 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-avs",
-  "ReleaseStatus": "2025-12-12",
+  "ReleaseStatus": "2026-09-03",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "safeName": "azureresourcemanageravs",
+    "groupId": "com.azure.resourcemanager",
+    "name": "azure-resourcemanager-avs",
     "triggeringPaths": [
       "/sdk/avs/ci.yml"
     ],
-    "groupId": "com.azure.resourcemanager",
-    "name": "azure-resourcemanager-avs"
+    "safeName": "azureresourcemanageravs"
   },
   "CIParameters": {
     "CIMatrixConfigs": []
