@@ -1,12 +1,12 @@
 ---
 title: Azure Projects client library for Java
 keywords: Azure, java, SDK, API, azure-ai-projects, ai
-ms.date: 08/19/2026
+ms.date: 09/10/2026
 ms.topic: reference
 ms.devlang: java
 ms.service: ai
 ---
-# Azure Projects client library for Java - version 2.4.0 
+# Azure Projects client library for Java - version 2.5.0 
 
 
 The AI Projects client library is part of the Azure AI Foundry SDK and provides easy access to resources in your Azure AI Foundry Project. Use it to:
@@ -18,6 +18,7 @@ The AI Projects client library is part of the Azure AI Foundry SDK and provides 
 * **Generate datasets** for model, agent, evaluator, and traces scenarios using the preview `BetaDatasetsClient`.
 * **Register and manage model weights** as Foundry `ModelVersion` resources using the preview `BetaModelsClient`.
 * **Create and dispatch routines** using the preview `BetaRoutinesClient`.
+* **Monitor deployed agents for issues** and review the resulting insights using the preview `BetaAgentInsightMonitorsClient`.
 * **Create and manage skills** using the preview `BetaSkillsClient`.
 * **Create and enumerate Search Indexes** using the `Indexes` operations.
 
@@ -50,7 +51,7 @@ Various documentation is available to help you get started
 <dependency>
     <groupId>com.azure</groupId>
     <artifactId>azure-ai-projects</artifactId>
-    <version>2.4.0</version>
+    <version>2.5.0</version>
 </dependency>
 ```
 [//]: # ({x-version-update-end})
@@ -69,6 +70,8 @@ AIProjectClientBuilder builder = new AIProjectClientBuilder()
 
 ConnectionsClient connectionsClient = builder.buildConnectionsClient();
 // Beta* clients automatically opt in to their preview service area.
+BetaAgentInsightMonitorsClient agentInsightMonitorsClient
+    = builder.beta().buildBetaAgentInsightMonitorsClient();
 BetaDatasetsClient dataGenerationJobsClient = builder.beta().buildBetaDatasetsClient();
 DatasetsClient datasetsClient = builder.buildDatasetsClient();
 DeploymentsClient deploymentsClient = builder.buildDeploymentsClient();
@@ -146,6 +149,7 @@ Build clients whose names start with `Beta` from `AIProjectClientBuilder.beta()`
 
 | Beta sub-client | Automatically populated `Foundry-Features` value |
 |---|---|
+| `BetaAgentInsightMonitorsClient` | `AgentInsights=V1Preview` |
 | `BetaDatasetsClient` | `DataGenerationJobs=V1Preview` |
 | `BetaEvaluationTaxonomiesClient` | `Evaluations=V1Preview` |
 | `BetaEvaluatorsClient` | `Evaluations=V1Preview` |
@@ -160,7 +164,7 @@ The async `Beta*AsyncClient` counterparts follow the same behavior.
 
 ## Examples
 
-The examples below show common operations for core AI Projects sub-clients. For complete runnable samples, see the [package samples][package_samples]. Additional preview samples are available for data generation jobs (`DataGenerationJobsSample`, `DataGenerationJobsAsyncSample`, and `DataGenerationJobWithEvaluationSample`), model management (`ModelsSample` and `ModelsAsyncSample`), routines (`RoutinesSample`, `RoutinesAsyncSample`, and related trigger/dispatch samples), and packaged skills (`SkillsPackageSample` and `SkillsPackageAsyncSample`).
+The examples below show common operations for core AI Projects sub-clients. For complete runnable samples, see the [package samples][package_samples]. Additional preview samples are available for data generation jobs (`DataGenerationJobsSample`, `DataGenerationJobsAsyncSample`, and `DataGenerationJobWithEvaluationSample`), model management (`ModelsSample` and `ModelsAsyncSample`), routines (`RoutinesSample`, `RoutinesAsyncSample`, `RoutinesManualDispatchSample`, `RoutinesManualDispatchAsyncSample`, and related trigger samples), and packaged skills (`SkillsPackageSample` and `SkillsPackageAsyncSample`).
 
 ### Connections operations
 
@@ -860,7 +864,7 @@ reduce the dependency size, refer to the [performance tuning][performance_tuning
 
 ## Contributing
 
-For details on contributing to this repository, see the [contributing guide](https://github.com/Azure/azure-sdk-for-java/blob/com.azure+azure-ai-projects_2.4.0/CONTRIBUTING.md).
+For details on contributing to this repository, see the [contributing guide](https://github.com/Azure/azure-sdk-for-java/blob/com.azure+azure-ai-projects_2.5.0/CONTRIBUTING.md).
 
 1. Fork it
 1. Create your feature branch (`git checkout -b my-new-feature`)
@@ -870,13 +874,13 @@ For details on contributing to this repository, see the [contributing guide](htt
 
 <!-- LINKS -->
 [product_documentation]: https://learn.microsoft.com/azure/ai-studio/
-[docs]: https://learn.microsoft.com/rest/api/aifoundry/aiproject/
+[docs]: https://aka.ms/azsdk/azure-ai-projects-v2/api-reference-v1
 [jdk]: https://learn.microsoft.com/azure/developer/java/fundamentals/
 [azure_subscription]: https://azure.microsoft.com/free/
-[azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/com.azure+azure-ai-projects_2.4.0/sdk/identity/azure-identity
-[package_samples]: https://github.com/Azure/azure-sdk-for-java/tree/com.azure+azure-ai-projects_2.4.0/sdk/ai/azure-ai-projects/src/samples/java/com/azure/ai/projects
+[azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/com.azure+azure-ai-projects_2.5.0/sdk/identity/azure-identity
+[package_samples]: https://github.com/Azure/azure-sdk-for-java/tree/com.azure+azure-ai-projects_2.5.0/sdk/ai/azure-ai-projects/src/samples/java/com/azure/ai/projects
 [openai_java_sdk]: https://github.com/openai/openai-java
 [openai_api_docs]: https://platform.openai.com/docs/overview
-[logLevels]: https://github.com/Azure/azure-sdk-for-java/blob/com.azure+azure-ai-projects_2.4.0/sdk/core/azure-core/src/main/java/com/azure/core/util/logging/LogLevel.java
-[performance_tuning]: https://github.com/Azure/azure-sdk-for-java/blob/com.azure+azure-ai-projects_2.4.0/docs/performance-tuning.md
+[logLevels]: https://github.com/Azure/azure-sdk-for-java/blob/com.azure+azure-ai-projects_2.5.0/sdk/core/azure-core/src/main/java/com/azure/core/util/logging/LogLevel.java
+[performance_tuning]: https://github.com/Azure/azure-sdk-for-java/blob/com.azure+azure-ai-projects_2.5.0/docs/performance-tuning.md
 

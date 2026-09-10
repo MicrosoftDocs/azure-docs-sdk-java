@@ -1,6 +1,6 @@
 {
   "Name": "azure-ai-agents",
-  "Version": "2.4.0",
+  "Version": "2.5.0",
   "DevVersion": null,
   "DirectoryPath": "sdk/ai/azure-ai-agents",
   "ServiceDirectory": "ai",
@@ -10,22 +10,22 @@
   "SdkType": "client",
   "IsNewSdk": true,
   "ArtifactName": "azure-ai-agents",
-  "ReleaseStatus": "2026-08-19",
+  "ReleaseStatus": "2026-09-09",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
     "triggeringPaths": [
       "/sdk/ai/ci.yml"
     ],
-    "groupId": "com.azure",
     "safeName": "azureaiagents",
+    "groupId": "com.azure",
     "releaseInBatch": "${{ parameters.release_azureaiagents }}",
     "name": "azure-ai-agents"
   },
   "CIParameters": {
     "CIMatrixConfigs": []
   },
-  "SpecProjectPath": null,
+  "SpecProjectPath": "specification/ai-foundry/data-plane/Foundry/src/sdk-java-azure-ai-agents",
   "Namespaces": [
     "com.azure.ai.agents",
     "com.azure.ai.agents.models"
