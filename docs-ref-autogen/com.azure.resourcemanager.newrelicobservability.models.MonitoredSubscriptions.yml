@@ -26,7 +26,7 @@ methods:
   fullName: "com.azure.resourcemanager.newrelicobservability.models.MonitoredSubscriptions.delete(String resourceGroupName, String monitorName, ConfigurationName configurationName)"
   name: "delete(String resourceGroupName, String monitorName, ConfigurationName configurationName)"
   nameWithType: "MonitoredSubscriptions.delete(String resourceGroupName, String monitorName, ConfigurationName configurationName)"
-  summary: "Updates the subscriptions that are being monitored by the New<wbr>Relic monitor resource."
+  summary: "Delete subscriptions being monitored by the New Relic monitor resource, removing their observability and monitoring capabilities Delete a Monitored<wbr>Subscription<wbr>Properties."
   modifiers:
   - "abstract"
   parameters:
@@ -40,12 +40,12 @@ methods:
     name: "configurationName"
     type: "<xref href=\"com.azure.resourcemanager.newrelicobservability.models.ConfigurationName?alt=com.azure.resourcemanager.newrelicobservability.models.ConfigurationName&text=ConfigurationName\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract void delete(String resourceGroupName, String monitorName, ConfigurationName configurationName)"
-  desc: "Updates the subscriptions that are being monitored by the NewRelic monitor resource."
+  desc: "Delete subscriptions being monitored by the New Relic monitor resource, removing their observability and monitoring capabilities Delete a MonitoredSubscriptionProperties."
 - uid: "com.azure.resourcemanager.newrelicobservability.models.MonitoredSubscriptions.delete(java.lang.String,java.lang.String,com.azure.resourcemanager.newrelicobservability.models.ConfigurationName,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.newrelicobservability.models.MonitoredSubscriptions.delete(String resourceGroupName, String monitorName, ConfigurationName configurationName, Context context)"
   name: "delete(String resourceGroupName, String monitorName, ConfigurationName configurationName, Context context)"
   nameWithType: "MonitoredSubscriptions.delete(String resourceGroupName, String monitorName, ConfigurationName configurationName, Context context)"
-  summary: "Updates the subscriptions that are being monitored by the New<wbr>Relic monitor resource."
+  summary: "Delete subscriptions being monitored by the New Relic monitor resource, removing their observability and monitoring capabilities Delete a Monitored<wbr>Subscription<wbr>Properties."
   modifiers:
   - "abstract"
   parameters:
@@ -62,12 +62,12 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract void delete(String resourceGroupName, String monitorName, ConfigurationName configurationName, Context context)"
-  desc: "Updates the subscriptions that are being monitored by the NewRelic monitor resource."
+  desc: "Delete subscriptions being monitored by the New Relic monitor resource, removing their observability and monitoring capabilities Delete a MonitoredSubscriptionProperties."
 - uid: "com.azure.resourcemanager.newrelicobservability.models.MonitoredSubscriptions.deleteById(java.lang.String)"
   fullName: "com.azure.resourcemanager.newrelicobservability.models.MonitoredSubscriptions.deleteById(String id)"
   name: "deleteById(String id)"
   nameWithType: "MonitoredSubscriptions.deleteById(String id)"
-  summary: "Updates the subscriptions that are being monitored by the New<wbr>Relic monitor resource."
+  summary: "Delete subscriptions being monitored by the New Relic monitor resource, removing their observability and monitoring capabilities Delete a Monitored<wbr>Subscription<wbr>Properties."
   modifiers:
   - "abstract"
   parameters:
@@ -75,12 +75,12 @@ methods:
     name: "id"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract void deleteById(String id)"
-  desc: "Updates the subscriptions that are being monitored by the NewRelic monitor resource."
+  desc: "Delete subscriptions being monitored by the New Relic monitor resource, removing their observability and monitoring capabilities Delete a MonitoredSubscriptionProperties."
 - uid: "com.azure.resourcemanager.newrelicobservability.models.MonitoredSubscriptions.deleteByIdWithResponse(java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.newrelicobservability.models.MonitoredSubscriptions.deleteByIdWithResponse(String id, Context context)"
   name: "deleteByIdWithResponse(String id, Context context)"
   nameWithType: "MonitoredSubscriptions.deleteByIdWithResponse(String id, Context context)"
-  summary: "Updates the subscriptions that are being monitored by the New<wbr>Relic monitor resource."
+  summary: "Delete subscriptions being monitored by the New Relic monitor resource, removing their observability and monitoring capabilities Delete a Monitored<wbr>Subscription<wbr>Properties."
   modifiers:
   - "abstract"
   parameters:
@@ -91,12 +91,12 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract void deleteByIdWithResponse(String id, Context context)"
-  desc: "Updates the subscriptions that are being monitored by the NewRelic monitor resource."
+  desc: "Delete subscriptions being monitored by the New Relic monitor resource, removing their observability and monitoring capabilities Delete a MonitoredSubscriptionProperties."
 - uid: "com.azure.resourcemanager.newrelicobservability.models.MonitoredSubscriptions.get(java.lang.String,java.lang.String,com.azure.resourcemanager.newrelicobservability.models.ConfigurationName)"
   fullName: "com.azure.resourcemanager.newrelicobservability.models.MonitoredSubscriptions.get(String resourceGroupName, String monitorName, ConfigurationName configurationName)"
   name: "get(String resourceGroupName, String monitorName, ConfigurationName configurationName)"
   nameWithType: "MonitoredSubscriptions.get(String resourceGroupName, String monitorName, ConfigurationName configurationName)"
-  summary: "List the subscriptions currently being monitored by the New<wbr>Relic monitor resource."
+  summary: "Lists all the subscriptions currently being monitored by the New<wbr>Relic monitor resource."
   modifiers:
   - "abstract"
   parameters:
@@ -110,7 +110,7 @@ methods:
     name: "configurationName"
     type: "<xref href=\"com.azure.resourcemanager.newrelicobservability.models.ConfigurationName?alt=com.azure.resourcemanager.newrelicobservability.models.ConfigurationName&text=ConfigurationName\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract MonitoredSubscriptionProperties get(String resourceGroupName, String monitorName, ConfigurationName configurationName)"
-  desc: "List the subscriptions currently being monitored by the NewRelic monitor resource."
+  desc: "Lists all the subscriptions currently being monitored by the NewRelic monitor resource. Get a MonitoredSubscriptionProperties."
   returns:
     description: "the request to update subscriptions needed to be monitored by the NewRelic monitor resource."
     type: "<xref href=\"com.azure.resourcemanager.newrelicobservability.models.MonitoredSubscriptionProperties?alt=com.azure.resourcemanager.newrelicobservability.models.MonitoredSubscriptionProperties&text=MonitoredSubscriptionProperties\" data-throw-if-not-resolved=\"False\" />"
@@ -118,7 +118,7 @@ methods:
   fullName: "com.azure.resourcemanager.newrelicobservability.models.MonitoredSubscriptions.getById(String id)"
   name: "getById(String id)"
   nameWithType: "MonitoredSubscriptions.getById(String id)"
-  summary: "List the subscriptions currently being monitored by the New<wbr>Relic monitor resource."
+  summary: "Lists all the subscriptions currently being monitored by the New<wbr>Relic monitor resource."
   modifiers:
   - "abstract"
   parameters:
@@ -126,7 +126,7 @@ methods:
     name: "id"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract MonitoredSubscriptionProperties getById(String id)"
-  desc: "List the subscriptions currently being monitored by the NewRelic monitor resource."
+  desc: "Lists all the subscriptions currently being monitored by the NewRelic monitor resource. Get a MonitoredSubscriptionProperties."
   returns:
     description: "the request to update subscriptions needed to be monitored by the NewRelic monitor resource along with\n <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.resourcemanager.newrelicobservability.models.MonitoredSubscriptionProperties?alt=com.azure.resourcemanager.newrelicobservability.models.MonitoredSubscriptionProperties&text=MonitoredSubscriptionProperties\" data-throw-if-not-resolved=\"False\" />"
@@ -134,7 +134,7 @@ methods:
   fullName: "com.azure.resourcemanager.newrelicobservability.models.MonitoredSubscriptions.getByIdWithResponse(String id, Context context)"
   name: "getByIdWithResponse(String id, Context context)"
   nameWithType: "MonitoredSubscriptions.getByIdWithResponse(String id, Context context)"
-  summary: "List the subscriptions currently being monitored by the New<wbr>Relic monitor resource."
+  summary: "Lists all the subscriptions currently being monitored by the New<wbr>Relic monitor resource."
   modifiers:
   - "abstract"
   parameters:
@@ -145,7 +145,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Response<MonitoredSubscriptionProperties> getByIdWithResponse(String id, Context context)"
-  desc: "List the subscriptions currently being monitored by the NewRelic monitor resource."
+  desc: "Lists all the subscriptions currently being monitored by the NewRelic monitor resource. Get a MonitoredSubscriptionProperties."
   returns:
     description: "the request to update subscriptions needed to be monitored by the NewRelic monitor resource along with\n <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.newrelicobservability.models.MonitoredSubscriptionProperties?alt=com.azure.resourcemanager.newrelicobservability.models.MonitoredSubscriptionProperties&text=MonitoredSubscriptionProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -153,7 +153,7 @@ methods:
   fullName: "com.azure.resourcemanager.newrelicobservability.models.MonitoredSubscriptions.getWithResponse(String resourceGroupName, String monitorName, ConfigurationName configurationName, Context context)"
   name: "getWithResponse(String resourceGroupName, String monitorName, ConfigurationName configurationName, Context context)"
   nameWithType: "MonitoredSubscriptions.getWithResponse(String resourceGroupName, String monitorName, ConfigurationName configurationName, Context context)"
-  summary: "List the subscriptions currently being monitored by the New<wbr>Relic monitor resource."
+  summary: "Lists all the subscriptions currently being monitored by the New<wbr>Relic monitor resource."
   modifiers:
   - "abstract"
   parameters:
@@ -170,7 +170,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Response<MonitoredSubscriptionProperties> getWithResponse(String resourceGroupName, String monitorName, ConfigurationName configurationName, Context context)"
-  desc: "List the subscriptions currently being monitored by the NewRelic monitor resource."
+  desc: "Lists all the subscriptions currently being monitored by the NewRelic monitor resource. Get a MonitoredSubscriptionProperties."
   returns:
     description: "the request to update subscriptions needed to be monitored by the NewRelic monitor resource along with\n <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.newrelicobservability.models.MonitoredSubscriptionProperties?alt=com.azure.resourcemanager.newrelicobservability.models.MonitoredSubscriptionProperties&text=MonitoredSubscriptionProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -178,7 +178,7 @@ methods:
   fullName: "com.azure.resourcemanager.newrelicobservability.models.MonitoredSubscriptions.list(String resourceGroupName, String monitorName)"
   name: "list(String resourceGroupName, String monitorName)"
   nameWithType: "MonitoredSubscriptions.list(String resourceGroupName, String monitorName)"
-  summary: "List the subscriptions currently being monitored by the New<wbr>Relic monitor resource."
+  summary: "Lists all the subscriptions currently being monitored by the New<wbr>Relic monitor resource."
   modifiers:
   - "abstract"
   parameters:
@@ -189,15 +189,15 @@ methods:
     name: "monitorName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedIterable<MonitoredSubscriptionProperties> list(String resourceGroupName, String monitorName)"
-  desc: "List the subscriptions currently being monitored by the NewRelic monitor resource."
+  desc: "Lists all the subscriptions currently being monitored by the NewRelic monitor resource. List MonitoredSubscriptionProperties resources by NewRelicMonitorResource."
   returns:
-    description: "the paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "paged collection of MonitoredSubscriptionProperties items as paginated response with\n <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.newrelicobservability.models.MonitoredSubscriptionProperties?alt=com.azure.resourcemanager.newrelicobservability.models.MonitoredSubscriptionProperties&text=MonitoredSubscriptionProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.newrelicobservability.models.MonitoredSubscriptions.list(java.lang.String,java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.newrelicobservability.models.MonitoredSubscriptions.list(String resourceGroupName, String monitorName, Context context)"
   name: "list(String resourceGroupName, String monitorName, Context context)"
   nameWithType: "MonitoredSubscriptions.list(String resourceGroupName, String monitorName, Context context)"
-  summary: "List the subscriptions currently being monitored by the New<wbr>Relic monitor resource."
+  summary: "Lists all the subscriptions currently being monitored by the New<wbr>Relic monitor resource."
   modifiers:
   - "abstract"
   parameters:
@@ -211,12 +211,12 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract PagedIterable<MonitoredSubscriptionProperties> list(String resourceGroupName, String monitorName, Context context)"
-  desc: "List the subscriptions currently being monitored by the NewRelic monitor resource."
+  desc: "Lists all the subscriptions currently being monitored by the NewRelic monitor resource. List MonitoredSubscriptionProperties resources by NewRelicMonitorResource."
   returns:
-    description: "the paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "paged collection of MonitoredSubscriptionProperties items as paginated response with\n <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.newrelicobservability.models.MonitoredSubscriptionProperties?alt=com.azure.resourcemanager.newrelicobservability.models.MonitoredSubscriptionProperties&text=MonitoredSubscriptionProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "interface"
 desc: "Resource collection API of MonitoredSubscriptions."
 metadata: {}
 package: "com.azure.resourcemanager.newrelicobservability.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-newrelicobservability:1.2.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-newrelicobservability:1.3.0

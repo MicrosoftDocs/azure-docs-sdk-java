@@ -10,7 +10,7 @@ methods:
   fullName: "com.azure.resourcemanager.newrelicobservability.fluent.AccountsClient.list(String userEmail, String location)"
   name: "list(String userEmail, String location)"
   nameWithType: "AccountsClient.list(String userEmail, String location)"
-  summary: "List all the existing accounts."
+  summary: "Lists all the New Relic accounts linked to your email address, helping you understand the existing accounts that have been created."
   modifiers:
   - "abstract"
   parameters:
@@ -21,7 +21,7 @@ methods:
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedIterable<AccountResourceInner> list(String userEmail, String location)"
-  desc: "List all the existing accounts."
+  desc: "Lists all the New Relic accounts linked to your email address, helping you understand the existing accounts that have been created."
   returns:
     description: "response of get all accounts Operation as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.newrelicobservability.fluent.models.AccountResourceInner?alt=com.azure.resourcemanager.newrelicobservability.fluent.models.AccountResourceInner&text=AccountResourceInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -29,7 +29,7 @@ methods:
   fullName: "com.azure.resourcemanager.newrelicobservability.fluent.AccountsClient.list(String userEmail, String location, Context context)"
   name: "list(String userEmail, String location, Context context)"
   nameWithType: "AccountsClient.list(String userEmail, String location, Context context)"
-  summary: "List all the existing accounts."
+  summary: "Lists all the New Relic accounts linked to your email address, helping you understand the existing accounts that have been created."
   modifiers:
   - "abstract"
   parameters:
@@ -43,7 +43,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract PagedIterable<AccountResourceInner> list(String userEmail, String location, Context context)"
-  desc: "List all the existing accounts."
+  desc: "Lists all the New Relic accounts linked to your email address, helping you understand the existing accounts that have been created."
   returns:
     description: "response of get all accounts Operation as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.newrelicobservability.fluent.models.AccountResourceInner?alt=com.azure.resourcemanager.newrelicobservability.fluent.models.AccountResourceInner&text=AccountResourceInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -51,4 +51,4 @@ type: "interface"
 desc: "An instance of this class provides access to all the operations defined in AccountsClient."
 metadata: {}
 package: "com.azure.resourcemanager.newrelicobservability.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-newrelicobservability:1.2.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-newrelicobservability:1.3.0

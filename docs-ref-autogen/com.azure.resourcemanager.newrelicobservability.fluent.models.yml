@@ -9,6 +9,7 @@ classes:
 - "com.azure.resourcemanager.newrelicobservability.fluent.models.AppServiceInfoInner"
 - "com.azure.resourcemanager.newrelicobservability.fluent.models.BillingInfoResponseInner"
 - "com.azure.resourcemanager.newrelicobservability.fluent.models.ConnectedPartnerResourcesListFormatInner"
+- "com.azure.resourcemanager.newrelicobservability.fluent.models.LatestLinkedSaaSResponseInner"
 - "com.azure.resourcemanager.newrelicobservability.fluent.models.LinkedResourceInner"
 - "com.azure.resourcemanager.newrelicobservability.fluent.models.MetricRulesInner"
 - "com.azure.resourcemanager.newrelicobservability.fluent.models.MetricsStatusResponseInner"
@@ -24,12 +25,13 @@ classes:
 - "com.azure.resourcemanager.newrelicobservability.fluent.models.OrganizationResourceInner"
 - "com.azure.resourcemanager.newrelicobservability.fluent.models.PlanDataProperties"
 - "com.azure.resourcemanager.newrelicobservability.fluent.models.PlanDataResourceInner"
+- "com.azure.resourcemanager.newrelicobservability.fluent.models.SaaSResourceDetailsResponseInner"
 - "com.azure.resourcemanager.newrelicobservability.fluent.models.TagRuleInner"
 - "com.azure.resourcemanager.newrelicobservability.fluent.models.TagRuleUpdateInner"
 - "com.azure.resourcemanager.newrelicobservability.fluent.models.TagRuleUpdatePropertiesInner"
 - "com.azure.resourcemanager.newrelicobservability.fluent.models.VMExtensionPayloadInner"
 - "com.azure.resourcemanager.newrelicobservability.fluent.models.VMInfoInner"
-desc: "Package containing the inner data models for NewRelicObservability. null."
+desc: "Package containing the inner data models for NewRelicObservability."
 metadata: {}
 package: "com.azure.resourcemanager.newrelicobservability.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-newrelicobservability:1.2.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-newrelicobservability:1.3.0

@@ -1,0 +1,94 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.deployments.models.ExpressionEvaluationOptions"
+fullName: "com.azure.resourcemanager.resources.deployments.models.ExpressionEvaluationOptions"
+name: "ExpressionEvaluationOptions"
+nameWithType: "ExpressionEvaluationOptions"
+summary: "Specifies whether template expressions are evaluated within the scope of the parent template or nested template."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ExpressionEvaluationOptions**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resources.deployments.models.ExpressionEvaluationOptions?alt=com.azure.resourcemanager.resources.deployments.models.ExpressionEvaluationOptions&text=ExpressionEvaluationOptions\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resources.deployments.models.ExpressionEvaluationOptions.ExpressionEvaluationOptions()"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.ExpressionEvaluationOptions.ExpressionEvaluationOptions()"
+  name: "ExpressionEvaluationOptions()"
+  nameWithType: "ExpressionEvaluationOptions.ExpressionEvaluationOptions()"
+  summary: "Creates an instance of Expression<wbr>Evaluation<wbr>Options class."
+  syntax: "public ExpressionEvaluationOptions()"
+  desc: "Creates an instance of ExpressionEvaluationOptions class."
+methods:
+- uid: "com.azure.resourcemanager.resources.deployments.models.ExpressionEvaluationOptions.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.ExpressionEvaluationOptions.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "ExpressionEvaluationOptions.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Expression<wbr>Evaluation<wbr>Options from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static ExpressionEvaluationOptions fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the ExpressionEvaluationOptions."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of ExpressionEvaluationOptions from the JsonReader."
+  returns:
+    description: "An instance of ExpressionEvaluationOptions if the JsonReader was pointing to an instance of it, or null\n if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deployments.models.ExpressionEvaluationOptions?alt=com.azure.resourcemanager.resources.deployments.models.ExpressionEvaluationOptions&text=ExpressionEvaluationOptions\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deployments.models.ExpressionEvaluationOptions.scope()"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.ExpressionEvaluationOptions.scope()"
+  name: "scope()"
+  nameWithType: "ExpressionEvaluationOptions.scope()"
+  summary: "Get the scope property: The scope to be used for evaluation of parameters, variables and functions in a nested template."
+  syntax: "public ExpressionEvaluationOptionsScopeType scope()"
+  desc: "Get the scope property: The scope to be used for evaluation of parameters, variables and functions in a nested template."
+  returns:
+    description: "the scope value."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deployments.models.ExpressionEvaluationOptionsScopeType?alt=com.azure.resourcemanager.resources.deployments.models.ExpressionEvaluationOptionsScopeType&text=ExpressionEvaluationOptionsScopeType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deployments.models.ExpressionEvaluationOptions.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.ExpressionEvaluationOptions.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "ExpressionEvaluationOptions.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deployments.models.ExpressionEvaluationOptions.withScope(com.azure.resourcemanager.resources.deployments.models.ExpressionEvaluationOptionsScopeType)"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.ExpressionEvaluationOptions.withScope(ExpressionEvaluationOptionsScopeType scope)"
+  name: "withScope(ExpressionEvaluationOptionsScopeType scope)"
+  nameWithType: "ExpressionEvaluationOptions.withScope(ExpressionEvaluationOptionsScopeType scope)"
+  summary: "Set the scope property: The scope to be used for evaluation of parameters, variables and functions in a nested template."
+  parameters:
+  - description: "the scope value to set."
+    name: "scope"
+    type: "<xref href=\"com.azure.resourcemanager.resources.deployments.models.ExpressionEvaluationOptionsScopeType?alt=com.azure.resourcemanager.resources.deployments.models.ExpressionEvaluationOptionsScopeType&text=ExpressionEvaluationOptionsScopeType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ExpressionEvaluationOptions withScope(ExpressionEvaluationOptionsScopeType scope)"
+  desc: "Set the scope property: The scope to be used for evaluation of parameters, variables and functions in a nested template."
+  returns:
+    description: "the ExpressionEvaluationOptions object itself."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deployments.models.ExpressionEvaluationOptions?alt=com.azure.resourcemanager.resources.deployments.models.ExpressionEvaluationOptions&text=ExpressionEvaluationOptions\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Specifies whether template expressions are evaluated within the scope of the parent template or nested template."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resources.deployments.models.ExpressionEvaluationOptions?alt=com.azure.resourcemanager.resources.deployments.models.ExpressionEvaluationOptions&text=ExpressionEvaluationOptions\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.resources.deployments.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-deployments:1.0.0

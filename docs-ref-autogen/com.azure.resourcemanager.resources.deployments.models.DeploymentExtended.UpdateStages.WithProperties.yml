@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.UpdateStages.WithProperties"
+fullName: "com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.UpdateStages.WithProperties"
+name: "DeploymentExtended.UpdateStages.WithProperties"
+nameWithType: "DeploymentExtended.UpdateStages.WithProperties"
+summary: "The stage of the Deployment<wbr>Extended update allowing to specify properties."
+syntax: "public static interface **DeploymentExtended.UpdateStages.WithProperties**"
+methods:
+- uid: "com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.UpdateStages.WithProperties.withProperties(com.azure.resourcemanager.resources.deployments.models.DeploymentProperties)"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.UpdateStages.WithProperties.withProperties(DeploymentProperties properties)"
+  name: "withProperties(DeploymentProperties properties)"
+  nameWithType: "DeploymentExtended.UpdateStages.WithProperties.withProperties(DeploymentProperties properties)"
+  summary: "Specifies the properties property: The deployment properties.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The deployment properties."
+    name: "properties"
+    type: "<xref href=\"com.azure.resourcemanager.resources.deployments.models.DeploymentProperties?alt=com.azure.resourcemanager.resources.deployments.models.DeploymentProperties&text=DeploymentProperties\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract DeploymentExtended.Update withProperties(DeploymentProperties properties)"
+  desc: "Specifies the properties property: The deployment properties.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.Update?alt=com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the DeploymentExtended update allowing to specify properties."
+metadata: {}
+package: "com.azure.resourcemanager.resources.deployments.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-deployments:1.0.0

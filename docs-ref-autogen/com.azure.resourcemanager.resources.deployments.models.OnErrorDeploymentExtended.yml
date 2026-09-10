@@ -1,0 +1,92 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.deployments.models.OnErrorDeploymentExtended"
+fullName: "com.azure.resourcemanager.resources.deployments.models.OnErrorDeploymentExtended"
+name: "OnErrorDeploymentExtended"
+nameWithType: "OnErrorDeploymentExtended"
+summary: "Deployment on error behavior with additional details."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **OnErrorDeploymentExtended**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resources.deployments.models.OnErrorDeploymentExtended?alt=com.azure.resourcemanager.resources.deployments.models.OnErrorDeploymentExtended&text=OnErrorDeploymentExtended\" data-throw-if-not-resolved=\"False\" />&gt;"
+methods:
+- uid: "com.azure.resourcemanager.resources.deployments.models.OnErrorDeploymentExtended.deploymentName()"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.OnErrorDeploymentExtended.deploymentName()"
+  name: "deploymentName()"
+  nameWithType: "OnErrorDeploymentExtended.deploymentName()"
+  summary: "Get the deployment<wbr>Name property: The deployment to be used on error case."
+  syntax: "public String deploymentName()"
+  desc: "Get the deploymentName property: The deployment to be used on error case."
+  returns:
+    description: "the deploymentName value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.resources.deployments.models.OnErrorDeploymentExtended.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.OnErrorDeploymentExtended.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "OnErrorDeploymentExtended.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of On<wbr>Error<wbr>Deployment<wbr>Extended from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static OnErrorDeploymentExtended fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the OnErrorDeploymentExtended."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of OnErrorDeploymentExtended from the JsonReader."
+  returns:
+    description: "An instance of OnErrorDeploymentExtended if the JsonReader was pointing to an instance of it, or null if\n it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deployments.models.OnErrorDeploymentExtended?alt=com.azure.resourcemanager.resources.deployments.models.OnErrorDeploymentExtended&text=OnErrorDeploymentExtended\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deployments.models.OnErrorDeploymentExtended.provisioningState()"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.OnErrorDeploymentExtended.provisioningState()"
+  name: "provisioningState()"
+  nameWithType: "OnErrorDeploymentExtended.provisioningState()"
+  summary: "Get the provisioning<wbr>State property: The state of the provisioning for the on error deployment."
+  syntax: "public String provisioningState()"
+  desc: "Get the provisioningState property: The state of the provisioning for the on error deployment."
+  returns:
+    description: "the provisioningState value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.resources.deployments.models.OnErrorDeploymentExtended.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.OnErrorDeploymentExtended.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "OnErrorDeploymentExtended.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deployments.models.OnErrorDeploymentExtended.type()"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.OnErrorDeploymentExtended.type()"
+  name: "type()"
+  nameWithType: "OnErrorDeploymentExtended.type()"
+  summary: "Get the type property: The deployment on error behavior type."
+  syntax: "public OnErrorDeploymentType type()"
+  desc: "Get the type property: The deployment on error behavior type. Possible values are LastSuccessful and SpecificDeployment."
+  returns:
+    description: "the type value."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deployments.models.OnErrorDeploymentType?alt=com.azure.resourcemanager.resources.deployments.models.OnErrorDeploymentType&text=OnErrorDeploymentType\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Deployment on error behavior with additional details."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resources.deployments.models.OnErrorDeploymentExtended?alt=com.azure.resourcemanager.resources.deployments.models.OnErrorDeploymentExtended&text=OnErrorDeploymentExtended\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.resources.deployments.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-deployments:1.0.0

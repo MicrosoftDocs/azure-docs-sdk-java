@@ -1,0 +1,61 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.deployments.models.DeploymentOperation"
+fullName: "com.azure.resourcemanager.resources.deployments.models.DeploymentOperation"
+name: "DeploymentOperation"
+nameWithType: "DeploymentOperation"
+summary: "An immutable client-side representation of Deployment<wbr>Operation."
+syntax: "public interface **DeploymentOperation**"
+methods:
+- uid: "com.azure.resourcemanager.resources.deployments.models.DeploymentOperation.id()"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.DeploymentOperation.id()"
+  name: "id()"
+  nameWithType: "DeploymentOperation.id()"
+  summary: "Gets the id property: Full deployment operation ID."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String id()"
+  desc: "Gets the id property: Full deployment operation ID."
+  returns:
+    description: "the id value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.resources.deployments.models.DeploymentOperation.innerModel()"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.DeploymentOperation.innerModel()"
+  name: "innerModel()"
+  nameWithType: "DeploymentOperation.innerModel()"
+  summary: "Gets the inner com.<wbr>azure.<wbr>resourcemanager.<wbr>resources.<wbr>deployments.<wbr>fluent.<wbr>models.<wbr>Deployment<wbr>Operation<wbr>Inner object."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract DeploymentOperationInner innerModel()"
+  desc: "Gets the inner com.azure.resourcemanager.resources.deployments.fluent.models.DeploymentOperationInner object."
+  returns:
+    description: "the inner object."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deployments.fluent.models.DeploymentOperationInner?alt=com.azure.resourcemanager.resources.deployments.fluent.models.DeploymentOperationInner&text=DeploymentOperationInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deployments.models.DeploymentOperation.operationId()"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.DeploymentOperation.operationId()"
+  name: "operationId()"
+  nameWithType: "DeploymentOperation.operationId()"
+  summary: "Gets the operation<wbr>Id property: Deployment operation ID."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String operationId()"
+  desc: "Gets the operationId property: Deployment operation ID."
+  returns:
+    description: "the operationId value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.resources.deployments.models.DeploymentOperation.properties()"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.DeploymentOperation.properties()"
+  name: "properties()"
+  nameWithType: "DeploymentOperation.properties()"
+  summary: "Gets the properties property: Deployment properties."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract DeploymentOperationProperties properties()"
+  desc: "Gets the properties property: Deployment properties."
+  returns:
+    description: "the properties value."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deployments.models.DeploymentOperationProperties?alt=com.azure.resourcemanager.resources.deployments.models.DeploymentOperationProperties&text=DeploymentOperationProperties\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "An immutable client-side representation of DeploymentOperation."
+metadata: {}
+package: "com.azure.resourcemanager.resources.deployments.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-deployments:1.0.0

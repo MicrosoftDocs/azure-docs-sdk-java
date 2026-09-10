@@ -1,0 +1,118 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.deployments.models.ParametersLink"
+fullName: "com.azure.resourcemanager.resources.deployments.models.ParametersLink"
+name: "ParametersLink"
+nameWithType: "ParametersLink"
+summary: "Entity representing the reference to the deployment parameters."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ParametersLink**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resources.deployments.models.ParametersLink?alt=com.azure.resourcemanager.resources.deployments.models.ParametersLink&text=ParametersLink\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resources.deployments.models.ParametersLink.ParametersLink()"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.ParametersLink.ParametersLink()"
+  name: "ParametersLink()"
+  nameWithType: "ParametersLink.ParametersLink()"
+  summary: "Creates an instance of Parameters<wbr>Link class."
+  syntax: "public ParametersLink()"
+  desc: "Creates an instance of ParametersLink class."
+methods:
+- uid: "com.azure.resourcemanager.resources.deployments.models.ParametersLink.contentVersion()"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.ParametersLink.contentVersion()"
+  name: "contentVersion()"
+  nameWithType: "ParametersLink.contentVersion()"
+  summary: "Get the content<wbr>Version property: If included, must match the Content<wbr>Version in the template."
+  syntax: "public String contentVersion()"
+  desc: "Get the contentVersion property: If included, must match the ContentVersion in the template."
+  returns:
+    description: "the contentVersion value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.resources.deployments.models.ParametersLink.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.ParametersLink.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "ParametersLink.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Parameters<wbr>Link from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static ParametersLink fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of ParametersLink from the JsonReader."
+  returns:
+    description: "An instance of ParametersLink if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deployments.models.ParametersLink?alt=com.azure.resourcemanager.resources.deployments.models.ParametersLink&text=ParametersLink\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deployments.models.ParametersLink.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.ParametersLink.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "ParametersLink.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deployments.models.ParametersLink.uri()"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.ParametersLink.uri()"
+  name: "uri()"
+  nameWithType: "ParametersLink.uri()"
+  summary: "Get the uri property: The URI of the parameters file."
+  syntax: "public String uri()"
+  desc: "Get the uri property: The URI of the parameters file."
+  returns:
+    description: "the uri value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.resources.deployments.models.ParametersLink.withContentVersion(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.ParametersLink.withContentVersion(String contentVersion)"
+  name: "withContentVersion(String contentVersion)"
+  nameWithType: "ParametersLink.withContentVersion(String contentVersion)"
+  summary: "Set the content<wbr>Version property: If included, must match the Content<wbr>Version in the template."
+  parameters:
+  - description: "the contentVersion value to set."
+    name: "contentVersion"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public ParametersLink withContentVersion(String contentVersion)"
+  desc: "Set the contentVersion property: If included, must match the ContentVersion in the template."
+  returns:
+    description: "the ParametersLink object itself."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deployments.models.ParametersLink?alt=com.azure.resourcemanager.resources.deployments.models.ParametersLink&text=ParametersLink\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deployments.models.ParametersLink.withUri(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.ParametersLink.withUri(String uri)"
+  name: "withUri(String uri)"
+  nameWithType: "ParametersLink.withUri(String uri)"
+  summary: "Set the uri property: The URI of the parameters file."
+  parameters:
+  - description: "the uri value to set."
+    name: "uri"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public ParametersLink withUri(String uri)"
+  desc: "Set the uri property: The URI of the parameters file."
+  returns:
+    description: "the ParametersLink object itself."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deployments.models.ParametersLink?alt=com.azure.resourcemanager.resources.deployments.models.ParametersLink&text=ParametersLink\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Entity representing the reference to the deployment parameters."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resources.deployments.models.ParametersLink?alt=com.azure.resourcemanager.resources.deployments.models.ParametersLink&text=ParametersLink\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.resources.deployments.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-deployments:1.0.0

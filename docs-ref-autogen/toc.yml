@@ -158149,10 +158149,10 @@
     name: MonitorsClient
     no-loc:
     - MonitorsClient
-  - uid: com.azure.resourcemanager.newrelicobservability.fluent.NewRelicObservability
-    name: NewRelicObservability
+  - uid: com.azure.resourcemanager.newrelicobservability.fluent.NewRelicObservabilityManagementClient
+    name: NewRelicObservabilityManagementClient
     no-loc:
-    - NewRelicObservability
+    - NewRelicObservabilityManagementClient
   - uid: com.azure.resourcemanager.newrelicobservability.fluent.OperationsClient
     name: OperationsClient
     no-loc:
@@ -158165,6 +158165,10 @@
     name: PlansClient
     no-loc:
     - PlansClient
+  - uid: com.azure.resourcemanager.newrelicobservability.fluent.SaaSClient
+    name: SaaSClient
+    no-loc:
+    - SaaSClient
   - uid: com.azure.resourcemanager.newrelicobservability.fluent.TagRulesClient
     name: TagRulesClient
     no-loc:
@@ -158194,6 +158198,10 @@
     name: ConnectedPartnerResourcesListFormatInner
     no-loc:
     - ConnectedPartnerResourcesListFormatInner
+  - uid: com.azure.resourcemanager.newrelicobservability.fluent.models.LatestLinkedSaaSResponseInner
+    name: LatestLinkedSaaSResponseInner
+    no-loc:
+    - LatestLinkedSaaSResponseInner
   - uid: com.azure.resourcemanager.newrelicobservability.fluent.models.LinkedResourceInner
     name: LinkedResourceInner
     no-loc:
@@ -158254,6 +158262,10 @@
     name: PlanDataResourceInner
     no-loc:
     - PlanDataResourceInner
+  - uid: com.azure.resourcemanager.newrelicobservability.fluent.models.SaaSResourceDetailsResponseInner
+    name: SaaSResourceDetailsResponseInner
+    no-loc:
+    - SaaSResourceDetailsResponseInner
   - uid: com.azure.resourcemanager.newrelicobservability.fluent.models.TagRuleInner
     name: TagRuleInner
     no-loc:
@@ -158295,14 +158307,14 @@
     name: Accounts
     no-loc:
     - Accounts
-  - uid: com.azure.resourcemanager.newrelicobservability.models.AccountsListResponse
-    name: AccountsListResponse
-    no-loc:
-    - AccountsListResponse
   - uid: com.azure.resourcemanager.newrelicobservability.models.ActionType
     name: ActionType
     no-loc:
     - ActionType
+  - uid: com.azure.resourcemanager.newrelicobservability.models.ActivateSaaSParameterRequest
+    name: ActivateSaaSParameterRequest
+    no-loc:
+    - ActivateSaaSParameterRequest
   - uid: com.azure.resourcemanager.newrelicobservability.models.AppServiceInfo
     name: AppServiceInfo
     no-loc:
@@ -158311,14 +158323,6 @@
     name: AppServicesGetRequest
     no-loc:
     - AppServicesGetRequest
-  - uid: com.azure.resourcemanager.newrelicobservability.models.AppServicesListResponse
-    name: AppServicesListResponse
-    no-loc:
-    - AppServicesListResponse
-  - uid: com.azure.resourcemanager.newrelicobservability.models.BillingCycle
-    name: BillingCycle
-    no-loc:
-    - BillingCycle
   - uid: com.azure.resourcemanager.newrelicobservability.models.BillingInfoResponse
     name: BillingInfoResponse
     no-loc:
@@ -158347,10 +158351,6 @@
     name: ConnectedPartnerResourcesListFormat
     no-loc:
     - ConnectedPartnerResourcesListFormat
-  - uid: com.azure.resourcemanager.newrelicobservability.models.ConnectedPartnerResourcesListResponse
-    name: ConnectedPartnerResourcesListResponse
-    no-loc:
-    - ConnectedPartnerResourcesListResponse
   - uid: com.azure.resourcemanager.newrelicobservability.models.FilteringTag
     name: FilteringTag
     no-loc:
@@ -158359,6 +158359,10 @@
     name: HostsGetRequest
     no-loc:
     - HostsGetRequest
+  - uid: com.azure.resourcemanager.newrelicobservability.models.LatestLinkedSaaSResponse
+    name: LatestLinkedSaaSResponse
+    no-loc:
+    - LatestLinkedSaaSResponse
   - uid: com.azure.resourcemanager.newrelicobservability.models.LiftrResourceCategories
     name: LiftrResourceCategories
     no-loc:
@@ -158367,10 +158371,6 @@
     name: LinkedResource
     no-loc:
     - LinkedResource
-  - uid: com.azure.resourcemanager.newrelicobservability.models.LinkedResourceListResponse
-    name: LinkedResourceListResponse
-    no-loc:
-    - LinkedResourceListResponse
   - uid: com.azure.resourcemanager.newrelicobservability.models.LogRules
     name: LogRules
     no-loc:
@@ -158411,10 +158411,6 @@
     name: MonitoredResource
     no-loc:
     - MonitoredResource
-  - uid: com.azure.resourcemanager.newrelicobservability.models.MonitoredResourceListResponse
-    name: MonitoredResourceListResponse
-    no-loc:
-    - MonitoredResourceListResponse
   - uid: com.azure.resourcemanager.newrelicobservability.models.MonitoredSubscription
     name: MonitoredSubscription
     no-loc:
@@ -158459,10 +158455,6 @@
     name: MonitoredSubscriptionProperties.UpdateStages.WithProperties
     no-loc:
     - MonitoredSubscriptionProperties.UpdateStages.WithProperties
-  - uid: com.azure.resourcemanager.newrelicobservability.models.MonitoredSubscriptionPropertiesList
-    name: MonitoredSubscriptionPropertiesList
-    no-loc:
-    - MonitoredSubscriptionPropertiesList
   - uid: com.azure.resourcemanager.newrelicobservability.models.MonitoredSubscriptions
     name: MonitoredSubscriptions
     no-loc:
@@ -158543,6 +158535,10 @@
     name: NewRelicMonitorResource.DefinitionStages.WithSaaSAzureSubscriptionStatus
     no-loc:
     - NewRelicMonitorResource.DefinitionStages.WithSaaSAzureSubscriptionStatus
+  - uid: com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.DefinitionStages.WithSaaSData
+    name: NewRelicMonitorResource.DefinitionStages.WithSaaSData
+    no-loc:
+    - NewRelicMonitorResource.DefinitionStages.WithSaaSData
   - uid: com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.DefinitionStages.WithSubscriptionState
     name: NewRelicMonitorResource.DefinitionStages.WithSubscriptionState
     no-loc:
@@ -158583,6 +158579,10 @@
     name: NewRelicMonitorResource.UpdateStages.WithPlanData
     no-loc:
     - NewRelicMonitorResource.UpdateStages.WithPlanData
+  - uid: com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.UpdateStages.WithSaaSData
+    name: NewRelicMonitorResource.UpdateStages.WithSaaSData
+    no-loc:
+    - NewRelicMonitorResource.UpdateStages.WithSaaSData
   - uid: com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.UpdateStages.WithTags
     name: NewRelicMonitorResource.UpdateStages.WithTags
     no-loc:
@@ -158591,10 +158591,6 @@
     name: NewRelicMonitorResource.UpdateStages.WithUserInfo
     no-loc:
     - NewRelicMonitorResource.UpdateStages.WithUserInfo
-  - uid: com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResourceListResult
-    name: NewRelicMonitorResourceListResult
-    no-loc:
-    - NewRelicMonitorResourceListResult
   - uid: com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResourceUpdate
     name: NewRelicMonitorResourceUpdate
     no-loc:
@@ -158611,10 +158607,6 @@
     name: OperationDisplay
     no-loc:
     - OperationDisplay
-  - uid: com.azure.resourcemanager.newrelicobservability.models.OperationListResult
-    name: OperationListResult
-    no-loc:
-    - OperationListResult
   - uid: com.azure.resourcemanager.newrelicobservability.models.Operations
     name: Operations
     no-loc:
@@ -158635,10 +158627,6 @@
     name: Organizations
     no-loc:
     - Organizations
-  - uid: com.azure.resourcemanager.newrelicobservability.models.OrganizationsListResponse
-    name: OrganizationsListResponse
-    no-loc:
-    - OrganizationsListResponse
   - uid: com.azure.resourcemanager.newrelicobservability.models.Origin
     name: Origin
     no-loc:
@@ -158655,10 +158643,6 @@
     name: PlanData
     no-loc:
     - PlanData
-  - uid: com.azure.resourcemanager.newrelicobservability.models.PlanDataListResponse
-    name: PlanDataListResponse
-    no-loc:
-    - PlanDataListResponse
   - uid: com.azure.resourcemanager.newrelicobservability.models.PlanDataResource
     name: PlanDataResource
     no-loc:
@@ -158671,6 +158655,22 @@
     name: ProvisioningState
     no-loc:
     - ProvisioningState
+  - uid: com.azure.resourcemanager.newrelicobservability.models.ResubscribeProperties
+    name: ResubscribeProperties
+    no-loc:
+    - ResubscribeProperties
+  - uid: com.azure.resourcemanager.newrelicobservability.models.SaaS
+    name: SaaS
+    no-loc:
+    - SaaS
+  - uid: com.azure.resourcemanager.newrelicobservability.models.SaaSData
+    name: SaaSData
+    no-loc:
+    - SaaSData
+  - uid: com.azure.resourcemanager.newrelicobservability.models.SaaSResourceDetailsResponse
+    name: SaaSResourceDetailsResponse
+    no-loc:
+    - SaaSResourceDetailsResponse
   - uid: com.azure.resourcemanager.newrelicobservability.models.SendAadLogsStatus
     name: SendAadLogsStatus
     no-loc:
@@ -158763,10 +158763,6 @@
     name: TagRule.UpdateStages.WithMetricRules
     no-loc:
     - TagRule.UpdateStages.WithMetricRules
-  - uid: com.azure.resourcemanager.newrelicobservability.models.TagRuleListResult
-    name: TagRuleListResult
-    no-loc:
-    - TagRuleListResult
   - uid: com.azure.resourcemanager.newrelicobservability.models.TagRuleUpdate
     name: TagRuleUpdate
     no-loc:
@@ -158795,10 +158791,6 @@
     name: VMExtensionPayload
     no-loc:
     - VMExtensionPayload
-  - uid: com.azure.resourcemanager.newrelicobservability.models.VMHostsListResponse
-    name: VMHostsListResponse
-    no-loc:
-    - VMHostsListResponse
   - uid: com.azure.resourcemanager.newrelicobservability.models.VMInfo
     name: VMInfo
     no-loc:
@@ -182298,6 +182290,402 @@
     - ResourceManager.Configurable
   no-loc:
   - com.azure.resourcemanager.resources
+- uid: com.azure.resourcemanager.resources.deployments
+  name: com.azure.resourcemanager.resources.deployments
+  items:
+  - uid: com.azure.resourcemanager.resources.deployments.DeploymentsManager
+    name: DeploymentsManager
+    no-loc:
+    - DeploymentsManager
+  - uid: com.azure.resourcemanager.resources.deployments.DeploymentsManager.Configurable
+    name: DeploymentsManager.Configurable
+    no-loc:
+    - DeploymentsManager.Configurable
+  no-loc:
+  - com.azure.resourcemanager.resources.deployments
+- uid: com.azure.resourcemanager.resources.deployments.fluent
+  name: com.azure.resourcemanager.resources.deployments.fluent
+  items:
+  - uid: com.azure.resourcemanager.resources.deployments.fluent.DeploymentOperationsClient
+    name: DeploymentOperationsClient
+    no-loc:
+    - DeploymentOperationsClient
+  - uid: com.azure.resourcemanager.resources.deployments.fluent.DeploymentsClient
+    name: DeploymentsClient
+    no-loc:
+    - DeploymentsClient
+  - uid: com.azure.resourcemanager.resources.deployments.fluent.DeploymentsManagementClient
+    name: DeploymentsManagementClient
+    no-loc:
+    - DeploymentsManagementClient
+  no-loc:
+  - com.azure.resourcemanager.resources.deployments.fluent
+- uid: com.azure.resourcemanager.resources.deployments.fluent.models
+  name: com.azure.resourcemanager.resources.deployments.fluent.models
+  items:
+  - uid: com.azure.resourcemanager.resources.deployments.fluent.models.DeploymentExportResultInner
+    name: DeploymentExportResultInner
+    no-loc:
+    - DeploymentExportResultInner
+  - uid: com.azure.resourcemanager.resources.deployments.fluent.models.DeploymentExtendedInner
+    name: DeploymentExtendedInner
+    no-loc:
+    - DeploymentExtendedInner
+  - uid: com.azure.resourcemanager.resources.deployments.fluent.models.DeploymentOperationInner
+    name: DeploymentOperationInner
+    no-loc:
+    - DeploymentOperationInner
+  - uid: com.azure.resourcemanager.resources.deployments.fluent.models.DeploymentValidateResultInner
+    name: DeploymentValidateResultInner
+    no-loc:
+    - DeploymentValidateResultInner
+  - uid: com.azure.resourcemanager.resources.deployments.fluent.models.TemplateHashResultInner
+    name: TemplateHashResultInner
+    no-loc:
+    - TemplateHashResultInner
+  - uid: com.azure.resourcemanager.resources.deployments.fluent.models.WhatIfOperationProperties
+    name: WhatIfOperationProperties
+    no-loc:
+    - WhatIfOperationProperties
+  - uid: com.azure.resourcemanager.resources.deployments.fluent.models.WhatIfOperationResultInner
+    name: WhatIfOperationResultInner
+    no-loc:
+    - WhatIfOperationResultInner
+  no-loc:
+  - com.azure.resourcemanager.resources.deployments.fluent.models
+- uid: com.azure.resourcemanager.resources.deployments.models
+  name: com.azure.resourcemanager.resources.deployments.models
+  items:
+  - uid: com.azure.resourcemanager.resources.deployments.models.Alias
+    name: Alias
+    no-loc:
+    - Alias
+  - uid: com.azure.resourcemanager.resources.deployments.models.AliasPath
+    name: AliasPath
+    no-loc:
+    - AliasPath
+  - uid: com.azure.resourcemanager.resources.deployments.models.AliasPathAttributes
+    name: AliasPathAttributes
+    no-loc:
+    - AliasPathAttributes
+  - uid: com.azure.resourcemanager.resources.deployments.models.AliasPathMetadata
+    name: AliasPathMetadata
+    no-loc:
+    - AliasPathMetadata
+  - uid: com.azure.resourcemanager.resources.deployments.models.AliasPathTokenType
+    name: AliasPathTokenType
+    no-loc:
+    - AliasPathTokenType
+  - uid: com.azure.resourcemanager.resources.deployments.models.AliasPattern
+    name: AliasPattern
+    no-loc:
+    - AliasPattern
+  - uid: com.azure.resourcemanager.resources.deployments.models.AliasPatternType
+    name: AliasPatternType
+    no-loc:
+    - AliasPatternType
+  - uid: com.azure.resourcemanager.resources.deployments.models.AliasType
+    name: AliasType
+    no-loc:
+    - AliasType
+  - uid: com.azure.resourcemanager.resources.deployments.models.ApiProfile
+    name: ApiProfile
+    no-loc:
+    - ApiProfile
+  - uid: com.azure.resourcemanager.resources.deployments.models.BasicDependency
+    name: BasicDependency
+    no-loc:
+    - BasicDependency
+  - uid: com.azure.resourcemanager.resources.deployments.models.ChangeType
+    name: ChangeType
+    no-loc:
+    - ChangeType
+  - uid: com.azure.resourcemanager.resources.deployments.models.DebugSetting
+    name: DebugSetting
+    no-loc:
+    - DebugSetting
+  - uid: com.azure.resourcemanager.resources.deployments.models.Dependency
+    name: Dependency
+    no-loc:
+    - Dependency
+  - uid: com.azure.resourcemanager.resources.deployments.models.Deployment
+    name: Deployment
+    no-loc:
+    - Deployment
+  - uid: com.azure.resourcemanager.resources.deployments.models.DeploymentDiagnosticsDefinition
+    name: DeploymentDiagnosticsDefinition
+    no-loc:
+    - DeploymentDiagnosticsDefinition
+  - uid: com.azure.resourcemanager.resources.deployments.models.DeploymentExportResult
+    name: DeploymentExportResult
+    no-loc:
+    - DeploymentExportResult
+  - uid: com.azure.resourcemanager.resources.deployments.models.DeploymentExtended
+    name: DeploymentExtended
+    no-loc:
+    - DeploymentExtended
+  - uid: com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.Definition
+    name: DeploymentExtended.Definition
+    no-loc:
+    - DeploymentExtended.Definition
+  - uid: com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.DefinitionStages
+    name: DeploymentExtended.DefinitionStages
+    no-loc:
+    - DeploymentExtended.DefinitionStages
+  - uid: com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.DefinitionStages.Blank
+    name: DeploymentExtended.DefinitionStages.Blank
+    no-loc:
+    - DeploymentExtended.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.DefinitionStages.WithCreate
+    name: DeploymentExtended.DefinitionStages.WithCreate
+    no-loc:
+    - DeploymentExtended.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.DefinitionStages.WithIdentity
+    name: DeploymentExtended.DefinitionStages.WithIdentity
+    no-loc:
+    - DeploymentExtended.DefinitionStages.WithIdentity
+  - uid: com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.DefinitionStages.WithLocation
+    name: DeploymentExtended.DefinitionStages.WithLocation
+    no-loc:
+    - DeploymentExtended.DefinitionStages.WithLocation
+  - uid: com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.DefinitionStages.WithProperties
+    name: DeploymentExtended.DefinitionStages.WithProperties
+    no-loc:
+    - DeploymentExtended.DefinitionStages.WithProperties
+  - uid: com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.DefinitionStages.WithResourceGroup
+    name: DeploymentExtended.DefinitionStages.WithResourceGroup
+    no-loc:
+    - DeploymentExtended.DefinitionStages.WithResourceGroup
+  - uid: com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.DefinitionStages.WithTags
+    name: DeploymentExtended.DefinitionStages.WithTags
+    no-loc:
+    - DeploymentExtended.DefinitionStages.WithTags
+  - uid: com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.Update
+    name: DeploymentExtended.Update
+    no-loc:
+    - DeploymentExtended.Update
+  - uid: com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.UpdateStages
+    name: DeploymentExtended.UpdateStages
+    no-loc:
+    - DeploymentExtended.UpdateStages
+  - uid: com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.UpdateStages.WithIdentity
+    name: DeploymentExtended.UpdateStages.WithIdentity
+    no-loc:
+    - DeploymentExtended.UpdateStages.WithIdentity
+  - uid: com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.UpdateStages.WithProperties
+    name: DeploymentExtended.UpdateStages.WithProperties
+    no-loc:
+    - DeploymentExtended.UpdateStages.WithProperties
+  - uid: com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.UpdateStages.WithTags
+    name: DeploymentExtended.UpdateStages.WithTags
+    no-loc:
+    - DeploymentExtended.UpdateStages.WithTags
+  - uid: com.azure.resourcemanager.resources.deployments.models.DeploymentExtensionConfigItem
+    name: DeploymentExtensionConfigItem
+    no-loc:
+    - DeploymentExtensionConfigItem
+  - uid: com.azure.resourcemanager.resources.deployments.models.DeploymentExtensionDefinition
+    name: DeploymentExtensionDefinition
+    no-loc:
+    - DeploymentExtensionDefinition
+  - uid: com.azure.resourcemanager.resources.deployments.models.DeploymentExternalInput
+    name: DeploymentExternalInput
+    no-loc:
+    - DeploymentExternalInput
+  - uid: com.azure.resourcemanager.resources.deployments.models.DeploymentExternalInputDefinition
+    name: DeploymentExternalInputDefinition
+    no-loc:
+    - DeploymentExternalInputDefinition
+  - uid: com.azure.resourcemanager.resources.deployments.models.DeploymentIdentity
+    name: DeploymentIdentity
+    no-loc:
+    - DeploymentIdentity
+  - uid: com.azure.resourcemanager.resources.deployments.models.DeploymentIdentityType
+    name: DeploymentIdentityType
+    no-loc:
+    - DeploymentIdentityType
+  - uid: com.azure.resourcemanager.resources.deployments.models.DeploymentMode
+    name: DeploymentMode
+    no-loc:
+    - DeploymentMode
+  - uid: com.azure.resourcemanager.resources.deployments.models.DeploymentOperation
+    name: DeploymentOperation
+    no-loc:
+    - DeploymentOperation
+  - uid: com.azure.resourcemanager.resources.deployments.models.DeploymentOperationProperties
+    name: DeploymentOperationProperties
+    no-loc:
+    - DeploymentOperationProperties
+  - uid: com.azure.resourcemanager.resources.deployments.models.DeploymentOperations
+    name: DeploymentOperations
+    no-loc:
+    - DeploymentOperations
+  - uid: com.azure.resourcemanager.resources.deployments.models.DeploymentParameter
+    name: DeploymentParameter
+    no-loc:
+    - DeploymentParameter
+  - uid: com.azure.resourcemanager.resources.deployments.models.DeploymentProperties
+    name: DeploymentProperties
+    no-loc:
+    - DeploymentProperties
+  - uid: com.azure.resourcemanager.resources.deployments.models.DeploymentPropertiesExtended
+    name: DeploymentPropertiesExtended
+    no-loc:
+    - DeploymentPropertiesExtended
+  - uid: com.azure.resourcemanager.resources.deployments.models.DeploymentResourceWhatIfPrediction
+    name: DeploymentResourceWhatIfPrediction
+    no-loc:
+    - DeploymentResourceWhatIfPrediction
+  - uid: com.azure.resourcemanager.resources.deployments.models.DeploymentValidateResult
+    name: DeploymentValidateResult
+    no-loc:
+    - DeploymentValidateResult
+  - uid: com.azure.resourcemanager.resources.deployments.models.DeploymentWhatIf
+    name: DeploymentWhatIf
+    no-loc:
+    - DeploymentWhatIf
+  - uid: com.azure.resourcemanager.resources.deployments.models.DeploymentWhatIfProperties
+    name: DeploymentWhatIfProperties
+    no-loc:
+    - DeploymentWhatIfProperties
+  - uid: com.azure.resourcemanager.resources.deployments.models.DeploymentWhatIfSettings
+    name: DeploymentWhatIfSettings
+    no-loc:
+    - DeploymentWhatIfSettings
+  - uid: com.azure.resourcemanager.resources.deployments.models.Deployments
+    name: Deployments
+    no-loc:
+    - Deployments
+  - uid: com.azure.resourcemanager.resources.deployments.models.ErrorAdditionalInfo
+    name: ErrorAdditionalInfo
+    no-loc:
+    - ErrorAdditionalInfo
+  - uid: com.azure.resourcemanager.resources.deployments.models.ExpressionEvaluationOptions
+    name: ExpressionEvaluationOptions
+    no-loc:
+    - ExpressionEvaluationOptions
+  - uid: com.azure.resourcemanager.resources.deployments.models.ExpressionEvaluationOptionsScopeType
+    name: ExpressionEvaluationOptionsScopeType
+    no-loc:
+    - ExpressionEvaluationOptionsScopeType
+  - uid: com.azure.resourcemanager.resources.deployments.models.HttpMessage
+    name: HttpMessage
+    no-loc:
+    - HttpMessage
+  - uid: com.azure.resourcemanager.resources.deployments.models.KeyVaultParameterReference
+    name: KeyVaultParameterReference
+    no-loc:
+    - KeyVaultParameterReference
+  - uid: com.azure.resourcemanager.resources.deployments.models.KeyVaultReference
+    name: KeyVaultReference
+    no-loc:
+    - KeyVaultReference
+  - uid: com.azure.resourcemanager.resources.deployments.models.Level
+    name: Level
+    no-loc:
+    - Level
+  - uid: com.azure.resourcemanager.resources.deployments.models.OnErrorDeployment
+    name: OnErrorDeployment
+    no-loc:
+    - OnErrorDeployment
+  - uid: com.azure.resourcemanager.resources.deployments.models.OnErrorDeploymentExtended
+    name: OnErrorDeploymentExtended
+    no-loc:
+    - OnErrorDeploymentExtended
+  - uid: com.azure.resourcemanager.resources.deployments.models.OnErrorDeploymentType
+    name: OnErrorDeploymentType
+    no-loc:
+    - OnErrorDeploymentType
+  - uid: com.azure.resourcemanager.resources.deployments.models.ParametersLink
+    name: ParametersLink
+    no-loc:
+    - ParametersLink
+  - uid: com.azure.resourcemanager.resources.deployments.models.PropertyChangeType
+    name: PropertyChangeType
+    no-loc:
+    - PropertyChangeType
+  - uid: com.azure.resourcemanager.resources.deployments.models.Provider
+    name: Provider
+    no-loc:
+    - Provider
+  - uid: com.azure.resourcemanager.resources.deployments.models.ProviderAuthorizationConsentState
+    name: ProviderAuthorizationConsentState
+    no-loc:
+    - ProviderAuthorizationConsentState
+  - uid: com.azure.resourcemanager.resources.deployments.models.ProviderExtendedLocation
+    name: ProviderExtendedLocation
+    no-loc:
+    - ProviderExtendedLocation
+  - uid: com.azure.resourcemanager.resources.deployments.models.ProviderResourceType
+    name: ProviderResourceType
+    no-loc:
+    - ProviderResourceType
+  - uid: com.azure.resourcemanager.resources.deployments.models.ProvisioningOperation
+    name: ProvisioningOperation
+    no-loc:
+    - ProvisioningOperation
+  - uid: com.azure.resourcemanager.resources.deployments.models.ProvisioningState
+    name: ProvisioningState
+    no-loc:
+    - ProvisioningState
+  - uid: com.azure.resourcemanager.resources.deployments.models.ResourceReference
+    name: ResourceReference
+    no-loc:
+    - ResourceReference
+  - uid: com.azure.resourcemanager.resources.deployments.models.ScopedDeployment
+    name: ScopedDeployment
+    no-loc:
+    - ScopedDeployment
+  - uid: com.azure.resourcemanager.resources.deployments.models.ScopedDeploymentWhatIf
+    name: ScopedDeploymentWhatIf
+    no-loc:
+    - ScopedDeploymentWhatIf
+  - uid: com.azure.resourcemanager.resources.deployments.models.StatusMessage
+    name: StatusMessage
+    no-loc:
+    - StatusMessage
+  - uid: com.azure.resourcemanager.resources.deployments.models.TargetResource
+    name: TargetResource
+    no-loc:
+    - TargetResource
+  - uid: com.azure.resourcemanager.resources.deployments.models.TemplateHashResult
+    name: TemplateHashResult
+    no-loc:
+    - TemplateHashResult
+  - uid: com.azure.resourcemanager.resources.deployments.models.TemplateLink
+    name: TemplateLink
+    no-loc:
+    - TemplateLink
+  - uid: com.azure.resourcemanager.resources.deployments.models.UserAssignedIdentity
+    name: UserAssignedIdentity
+    no-loc:
+    - UserAssignedIdentity
+  - uid: com.azure.resourcemanager.resources.deployments.models.ValidationLevel
+    name: ValidationLevel
+    no-loc:
+    - ValidationLevel
+  - uid: com.azure.resourcemanager.resources.deployments.models.WhatIfChange
+    name: WhatIfChange
+    no-loc:
+    - WhatIfChange
+  - uid: com.azure.resourcemanager.resources.deployments.models.WhatIfOperationResult
+    name: WhatIfOperationResult
+    no-loc:
+    - WhatIfOperationResult
+  - uid: com.azure.resourcemanager.resources.deployments.models.WhatIfPropertyChange
+    name: WhatIfPropertyChange
+    no-loc:
+    - WhatIfPropertyChange
+  - uid: com.azure.resourcemanager.resources.deployments.models.WhatIfResultFormat
+    name: WhatIfResultFormat
+    no-loc:
+    - WhatIfResultFormat
+  - uid: com.azure.resourcemanager.resources.deployments.models.ZoneMapping
+    name: ZoneMapping
+    no-loc:
+    - ZoneMapping
+  no-loc:
+  - com.azure.resourcemanager.resources.deployments.models
 - uid: com.azure.resourcemanager.resources.deploymentstacks
   name: com.azure.resourcemanager.resources.deploymentstacks
   items:

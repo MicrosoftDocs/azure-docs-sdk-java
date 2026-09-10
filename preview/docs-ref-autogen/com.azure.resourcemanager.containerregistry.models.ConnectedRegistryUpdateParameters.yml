@@ -69,6 +69,16 @@ methods:
   returns:
     description: "the garbageCollection value."
     type: "<xref href=\"com.azure.resourcemanager.containerregistry.models.GarbageCollectionProperties?alt=com.azure.resourcemanager.containerregistry.models.GarbageCollectionProperties&text=GarbageCollectionProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.containerregistry.models.ConnectedRegistryUpdateParameters.identity()"
+  fullName: "com.azure.resourcemanager.containerregistry.models.ConnectedRegistryUpdateParameters.identity()"
+  name: "identity()"
+  nameWithType: "ConnectedRegistryUpdateParameters.identity()"
+  summary: "Get the identity property: The user-assigned managed identity used to authenticate the connected registry with its parent during synchronization."
+  syntax: "public ManagedServiceIdentity identity()"
+  desc: "Get the identity property: The user-assigned managed identity used to authenticate the connected registry with its parent during synchronization. Requires authType to be ManagedIdentity."
+  returns:
+    description: "the identity value."
+    type: "<xref href=\"com.azure.resourcemanager.containerregistry.models.ManagedServiceIdentity?alt=com.azure.resourcemanager.containerregistry.models.ManagedServiceIdentity&text=ManagedServiceIdentity\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.containerregistry.models.ConnectedRegistryUpdateParameters.logging()"
   fullName: "com.azure.resourcemanager.containerregistry.models.ConnectedRegistryUpdateParameters.logging()"
   name: "logging()"
@@ -146,6 +156,20 @@ methods:
   returns:
     description: "the ConnectedRegistryUpdateParameters object itself."
     type: "<xref href=\"com.azure.resourcemanager.containerregistry.models.ConnectedRegistryUpdateParameters?alt=com.azure.resourcemanager.containerregistry.models.ConnectedRegistryUpdateParameters&text=ConnectedRegistryUpdateParameters\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.containerregistry.models.ConnectedRegistryUpdateParameters.withIdentity(com.azure.resourcemanager.containerregistry.models.ManagedServiceIdentity)"
+  fullName: "com.azure.resourcemanager.containerregistry.models.ConnectedRegistryUpdateParameters.withIdentity(ManagedServiceIdentity identity)"
+  name: "withIdentity(ManagedServiceIdentity identity)"
+  nameWithType: "ConnectedRegistryUpdateParameters.withIdentity(ManagedServiceIdentity identity)"
+  summary: "Set the identity property: The user-assigned managed identity used to authenticate the connected registry with its parent during synchronization."
+  parameters:
+  - description: "the identity value to set."
+    name: "identity"
+    type: "<xref href=\"com.azure.resourcemanager.containerregistry.models.ManagedServiceIdentity?alt=com.azure.resourcemanager.containerregistry.models.ManagedServiceIdentity&text=ManagedServiceIdentity\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ConnectedRegistryUpdateParameters withIdentity(ManagedServiceIdentity identity)"
+  desc: "Set the identity property: The user-assigned managed identity used to authenticate the connected registry with its parent during synchronization. Requires authType to be ManagedIdentity."
+  returns:
+    description: "the ConnectedRegistryUpdateParameters object itself."
+    type: "<xref href=\"com.azure.resourcemanager.containerregistry.models.ConnectedRegistryUpdateParameters?alt=com.azure.resourcemanager.containerregistry.models.ConnectedRegistryUpdateParameters&text=ConnectedRegistryUpdateParameters\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.containerregistry.models.ConnectedRegistryUpdateParameters.withLogging(com.azure.resourcemanager.containerregistry.models.LoggingProperties)"
   fullName: "com.azure.resourcemanager.containerregistry.models.ConnectedRegistryUpdateParameters.withLogging(LoggingProperties logging)"
   name: "withLogging(LoggingProperties logging)"
@@ -194,4 +218,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.containerregistry.models.ConnectedRegistryUpdateParameters?alt=com.azure.resourcemanager.containerregistry.models.ConnectedRegistryUpdateParameters&text=ConnectedRegistryUpdateParameters\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.containerregistry.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-containerregistry:2.56.0-beta.2
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerregistry:2.56.0-beta.3

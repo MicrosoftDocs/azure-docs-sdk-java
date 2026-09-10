@@ -1,0 +1,94 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.deployments.models.DeploymentWhatIfSettings"
+fullName: "com.azure.resourcemanager.resources.deployments.models.DeploymentWhatIfSettings"
+name: "DeploymentWhatIfSettings"
+nameWithType: "DeploymentWhatIfSettings"
+summary: "Deployment What-If operation settings."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **DeploymentWhatIfSettings**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resources.deployments.models.DeploymentWhatIfSettings?alt=com.azure.resourcemanager.resources.deployments.models.DeploymentWhatIfSettings&text=DeploymentWhatIfSettings\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resources.deployments.models.DeploymentWhatIfSettings.DeploymentWhatIfSettings()"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.DeploymentWhatIfSettings.DeploymentWhatIfSettings()"
+  name: "DeploymentWhatIfSettings()"
+  nameWithType: "DeploymentWhatIfSettings.DeploymentWhatIfSettings()"
+  summary: "Creates an instance of Deployment<wbr>What<wbr>IfSettings class."
+  syntax: "public DeploymentWhatIfSettings()"
+  desc: "Creates an instance of DeploymentWhatIfSettings class."
+methods:
+- uid: "com.azure.resourcemanager.resources.deployments.models.DeploymentWhatIfSettings.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.DeploymentWhatIfSettings.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "DeploymentWhatIfSettings.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Deployment<wbr>What<wbr>IfSettings from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static DeploymentWhatIfSettings fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the DeploymentWhatIfSettings."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of DeploymentWhatIfSettings from the JsonReader."
+  returns:
+    description: "An instance of DeploymentWhatIfSettings if the JsonReader was pointing to an instance of it, or null if\n it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deployments.models.DeploymentWhatIfSettings?alt=com.azure.resourcemanager.resources.deployments.models.DeploymentWhatIfSettings&text=DeploymentWhatIfSettings\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deployments.models.DeploymentWhatIfSettings.resultFormat()"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.DeploymentWhatIfSettings.resultFormat()"
+  name: "resultFormat()"
+  nameWithType: "DeploymentWhatIfSettings.resultFormat()"
+  summary: "Get the result<wbr>Format property: The format of the What-If results."
+  syntax: "public WhatIfResultFormat resultFormat()"
+  desc: "Get the resultFormat property: The format of the What-If results."
+  returns:
+    description: "the resultFormat value."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deployments.models.WhatIfResultFormat?alt=com.azure.resourcemanager.resources.deployments.models.WhatIfResultFormat&text=WhatIfResultFormat\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deployments.models.DeploymentWhatIfSettings.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.DeploymentWhatIfSettings.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "DeploymentWhatIfSettings.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deployments.models.DeploymentWhatIfSettings.withResultFormat(com.azure.resourcemanager.resources.deployments.models.WhatIfResultFormat)"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.DeploymentWhatIfSettings.withResultFormat(WhatIfResultFormat resultFormat)"
+  name: "withResultFormat(WhatIfResultFormat resultFormat)"
+  nameWithType: "DeploymentWhatIfSettings.withResultFormat(WhatIfResultFormat resultFormat)"
+  summary: "Set the result<wbr>Format property: The format of the What-If results."
+  parameters:
+  - description: "the resultFormat value to set."
+    name: "resultFormat"
+    type: "<xref href=\"com.azure.resourcemanager.resources.deployments.models.WhatIfResultFormat?alt=com.azure.resourcemanager.resources.deployments.models.WhatIfResultFormat&text=WhatIfResultFormat\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public DeploymentWhatIfSettings withResultFormat(WhatIfResultFormat resultFormat)"
+  desc: "Set the resultFormat property: The format of the What-If results."
+  returns:
+    description: "the DeploymentWhatIfSettings object itself."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deployments.models.DeploymentWhatIfSettings?alt=com.azure.resourcemanager.resources.deployments.models.DeploymentWhatIfSettings&text=DeploymentWhatIfSettings\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Deployment What-If operation settings."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resources.deployments.models.DeploymentWhatIfSettings?alt=com.azure.resourcemanager.resources.deployments.models.DeploymentWhatIfSettings&text=DeploymentWhatIfSettings\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.resources.deployments.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-deployments:1.0.0

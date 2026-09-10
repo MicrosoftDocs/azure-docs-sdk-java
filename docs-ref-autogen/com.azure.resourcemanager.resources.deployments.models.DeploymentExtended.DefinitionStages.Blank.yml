@@ -1,0 +1,14 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.DefinitionStages.Blank"
+fullName: "com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.DefinitionStages.Blank"
+name: "DeploymentExtended.DefinitionStages.Blank"
+nameWithType: "DeploymentExtended.DefinitionStages.Blank"
+summary: "The first stage of the Deployment<wbr>Extended definition."
+syntax: "public static interface **DeploymentExtended.DefinitionStages.Blank**</br> extends <xref href=\"com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.DefinitionStages.WithResourceGroup?alt=com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.DefinitionStages.WithResourceGroup&text=WithResourceGroup\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The first stage of the DeploymentExtended definition."
+implements:
+- "<xref href=\"com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.DefinitionStages.WithResourceGroup?alt=com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.DefinitionStages.WithResourceGroup&text=WithResourceGroup\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.azure.resourcemanager.resources.deployments.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-deployments:1.0.0

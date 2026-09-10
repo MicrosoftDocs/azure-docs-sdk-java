@@ -1,0 +1,82 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.deployments.fluent.models.TemplateHashResultInner"
+fullName: "com.azure.resourcemanager.resources.deployments.fluent.models.TemplateHashResultInner"
+name: "TemplateHashResultInner"
+nameWithType: "TemplateHashResultInner"
+summary: "Result of the request to calculate template hash."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **TemplateHashResultInner**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resources.deployments.fluent.models.TemplateHashResultInner?alt=com.azure.resourcemanager.resources.deployments.fluent.models.TemplateHashResultInner&text=TemplateHashResultInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+methods:
+- uid: "com.azure.resourcemanager.resources.deployments.fluent.models.TemplateHashResultInner.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.resources.deployments.fluent.models.TemplateHashResultInner.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "TemplateHashResultInner.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Template<wbr>Hash<wbr>Result<wbr>Inner from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static TemplateHashResultInner fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the TemplateHashResultInner."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of TemplateHashResultInner from the JsonReader."
+  returns:
+    description: "An instance of TemplateHashResultInner if the JsonReader was pointing to an instance of it, or null if it\n was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deployments.fluent.models.TemplateHashResultInner?alt=com.azure.resourcemanager.resources.deployments.fluent.models.TemplateHashResultInner&text=TemplateHashResultInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deployments.fluent.models.TemplateHashResultInner.minifiedTemplate()"
+  fullName: "com.azure.resourcemanager.resources.deployments.fluent.models.TemplateHashResultInner.minifiedTemplate()"
+  name: "minifiedTemplate()"
+  nameWithType: "TemplateHashResultInner.minifiedTemplate()"
+  summary: "Get the minified<wbr>Template property: The minified template string."
+  syntax: "public String minifiedTemplate()"
+  desc: "Get the minifiedTemplate property: The minified template string."
+  returns:
+    description: "the minifiedTemplate value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.resources.deployments.fluent.models.TemplateHashResultInner.templateHash()"
+  fullName: "com.azure.resourcemanager.resources.deployments.fluent.models.TemplateHashResultInner.templateHash()"
+  name: "templateHash()"
+  nameWithType: "TemplateHashResultInner.templateHash()"
+  summary: "Get the template<wbr>Hash property: The template hash."
+  syntax: "public String templateHash()"
+  desc: "Get the templateHash property: The template hash."
+  returns:
+    description: "the templateHash value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.resources.deployments.fluent.models.TemplateHashResultInner.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.resources.deployments.fluent.models.TemplateHashResultInner.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "TemplateHashResultInner.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Result of the request to calculate template hash. It contains a string of minified template and its hash."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resources.deployments.fluent.models.TemplateHashResultInner?alt=com.azure.resourcemanager.resources.deployments.fluent.models.TemplateHashResultInner&text=TemplateHashResultInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.resources.deployments.fluent.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-deployments:1.0.0

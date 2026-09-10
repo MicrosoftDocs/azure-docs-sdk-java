@@ -1,0 +1,102 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.deployments.models.Dependency"
+fullName: "com.azure.resourcemanager.resources.deployments.models.Dependency"
+name: "Dependency"
+nameWithType: "Dependency"
+summary: "Deployment dependency information."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **Dependency**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resources.deployments.models.Dependency?alt=com.azure.resourcemanager.resources.deployments.models.Dependency&text=Dependency\" data-throw-if-not-resolved=\"False\" />&gt;"
+methods:
+- uid: "com.azure.resourcemanager.resources.deployments.models.Dependency.dependsOn()"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.Dependency.dependsOn()"
+  name: "dependsOn()"
+  nameWithType: "Dependency.dependsOn()"
+  summary: "Get the depends<wbr>On property: The list of dependencies."
+  syntax: "public List<BasicDependency> dependsOn()"
+  desc: "Get the dependsOn property: The list of dependencies."
+  returns:
+    description: "the dependsOn value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.resources.deployments.models.BasicDependency?alt=com.azure.resourcemanager.resources.deployments.models.BasicDependency&text=BasicDependency\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.resources.deployments.models.Dependency.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.Dependency.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "Dependency.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Dependency from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static Dependency fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the Dependency."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of Dependency from the JsonReader."
+  returns:
+    description: "An instance of Dependency if the JsonReader was pointing to an instance of it, or null if it was pointing\n to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deployments.models.Dependency?alt=com.azure.resourcemanager.resources.deployments.models.Dependency&text=Dependency\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deployments.models.Dependency.id()"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.Dependency.id()"
+  name: "id()"
+  nameWithType: "Dependency.id()"
+  summary: "Get the id property: The ID of the dependency."
+  syntax: "public String id()"
+  desc: "Get the id property: The ID of the dependency."
+  returns:
+    description: "the id value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.resources.deployments.models.Dependency.resourceName()"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.Dependency.resourceName()"
+  name: "resourceName()"
+  nameWithType: "Dependency.resourceName()"
+  summary: "Get the resource<wbr>Name property: The dependency resource name."
+  syntax: "public String resourceName()"
+  desc: "Get the resourceName property: The dependency resource name."
+  returns:
+    description: "the resourceName value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.resources.deployments.models.Dependency.resourceType()"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.Dependency.resourceType()"
+  name: "resourceType()"
+  nameWithType: "Dependency.resourceType()"
+  summary: "Get the resource<wbr>Type property: The dependency resource type."
+  syntax: "public String resourceType()"
+  desc: "Get the resourceType property: The dependency resource type."
+  returns:
+    description: "the resourceType value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.resources.deployments.models.Dependency.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.Dependency.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "Dependency.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Deployment dependency information."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resources.deployments.models.Dependency?alt=com.azure.resourcemanager.resources.deployments.models.Dependency&text=Dependency\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.resources.deployments.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-deployments:1.0.0

@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.DefinitionStages.WithIdentity"
+fullName: "com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.DefinitionStages.WithIdentity"
+name: "DeploymentExtended.DefinitionStages.WithIdentity"
+nameWithType: "DeploymentExtended.DefinitionStages.WithIdentity"
+summary: "The stage of the Deployment<wbr>Extended definition allowing to specify identity."
+syntax: "public static interface **DeploymentExtended.DefinitionStages.WithIdentity**"
+methods:
+- uid: "com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.DefinitionStages.WithIdentity.withIdentity(com.azure.resourcemanager.resources.deployments.models.DeploymentIdentity)"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.DefinitionStages.WithIdentity.withIdentity(DeploymentIdentity identity)"
+  name: "withIdentity(DeploymentIdentity identity)"
+  nameWithType: "DeploymentExtended.DefinitionStages.WithIdentity.withIdentity(DeploymentIdentity identity)"
+  summary: "Specifies the identity property: The Managed Identity configuration for a deployment.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The Managed Identity configuration for a deployment."
+    name: "identity"
+    type: "<xref href=\"com.azure.resourcemanager.resources.deployments.models.DeploymentIdentity?alt=com.azure.resourcemanager.resources.deployments.models.DeploymentIdentity&text=DeploymentIdentity\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract DeploymentExtended.DefinitionStages.WithCreate withIdentity(DeploymentIdentity identity)"
+  desc: "Specifies the identity property: The Managed Identity configuration for a deployment.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the DeploymentExtended definition allowing to specify identity."
+metadata: {}
+package: "com.azure.resourcemanager.resources.deployments.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-deployments:1.0.0

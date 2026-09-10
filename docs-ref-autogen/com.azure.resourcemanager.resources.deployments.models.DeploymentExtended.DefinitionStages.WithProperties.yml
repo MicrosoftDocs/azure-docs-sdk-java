@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.DefinitionStages.WithProperties"
+fullName: "com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.DefinitionStages.WithProperties"
+name: "DeploymentExtended.DefinitionStages.WithProperties"
+nameWithType: "DeploymentExtended.DefinitionStages.WithProperties"
+summary: "The stage of the Deployment<wbr>Extended definition allowing to specify properties."
+syntax: "public static interface **DeploymentExtended.DefinitionStages.WithProperties**"
+methods:
+- uid: "com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.DefinitionStages.WithProperties.withProperties(com.azure.resourcemanager.resources.deployments.models.DeploymentProperties)"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.DefinitionStages.WithProperties.withProperties(DeploymentProperties properties)"
+  name: "withProperties(DeploymentProperties properties)"
+  nameWithType: "DeploymentExtended.DefinitionStages.WithProperties.withProperties(DeploymentProperties properties)"
+  summary: "Specifies the properties property: The deployment properties.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The deployment properties."
+    name: "properties"
+    type: "<xref href=\"com.azure.resourcemanager.resources.deployments.models.DeploymentProperties?alt=com.azure.resourcemanager.resources.deployments.models.DeploymentProperties&text=DeploymentProperties\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract DeploymentExtended.DefinitionStages.WithCreate withProperties(DeploymentProperties properties)"
+  desc: "Specifies the properties property: The deployment properties.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the DeploymentExtended definition allowing to specify properties."
+metadata: {}
+package: "com.azure.resourcemanager.resources.deployments.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-deployments:1.0.0

@@ -1,0 +1,13 @@
+### YamlMime:JavaPackage
+uid: "com.azure.resourcemanager.resources.deployments.fluent"
+fullName: "com.azure.resourcemanager.resources.deployments.fluent"
+name: "com.azure.resourcemanager.resources.deployments.fluent"
+summary: "Package containing the service clients for Deployments<wbr>Management<wbr>Client."
+interfaces:
+- "com.azure.resourcemanager.resources.deployments.fluent.DeploymentOperationsClient"
+- "com.azure.resourcemanager.resources.deployments.fluent.DeploymentsClient"
+- "com.azure.resourcemanager.resources.deployments.fluent.DeploymentsManagementClient"
+desc: "Package containing the service clients for DeploymentsManagementClient. Provides operations for working with deployments."
+metadata: {}
+package: "com.azure.resourcemanager.resources.deployments.fluent"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-deployments:1.0.0

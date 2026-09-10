@@ -1,0 +1,12 @@
+### YamlMime:JavaPackage
+uid: "com.azure.resourcemanager.resources.deployments"
+fullName: "com.azure.resourcemanager.resources.deployments"
+name: "com.azure.resourcemanager.resources.deployments"
+summary: "Package containing the classes for Deployments<wbr>Management<wbr>Client."
+classes:
+- "com.azure.resourcemanager.resources.deployments.DeploymentsManager"
+- "com.azure.resourcemanager.resources.deployments.DeploymentsManager.Configurable"
+desc: "Package containing the classes for DeploymentsManagementClient. Provides operations for working with deployments."
+metadata: {}
+package: "com.azure.resourcemanager.resources.deployments"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-deployments:1.0.0

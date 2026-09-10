@@ -30,6 +30,16 @@ constructors:
   syntax: "public SyncProperties()"
   desc: "Creates an instance of SyncProperties class."
 methods:
+- uid: "com.azure.resourcemanager.containerregistry.models.SyncProperties.authType()"
+  fullName: "com.azure.resourcemanager.containerregistry.models.SyncProperties.authType()"
+  name: "authType()"
+  nameWithType: "SyncProperties.authType()"
+  summary: "Get the auth<wbr>Type property: The authentication type used for the connected registry to sync with its parent."
+  syntax: "public AuthType authType()"
+  desc: "Get the authType property: The authentication type used for the connected registry to sync with its parent."
+  returns:
+    description: "the authType value."
+    type: "<xref href=\"com.azure.resourcemanager.containerregistry.models.AuthType?alt=com.azure.resourcemanager.containerregistry.models.AuthType&text=AuthType\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.containerregistry.models.SyncProperties.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.containerregistry.models.SyncProperties.fromJson(JsonReader jsonReader)"
   name: "fromJson(JsonReader jsonReader)"
@@ -128,6 +138,20 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
+- uid: "com.azure.resourcemanager.containerregistry.models.SyncProperties.withAuthType(com.azure.resourcemanager.containerregistry.models.AuthType)"
+  fullName: "com.azure.resourcemanager.containerregistry.models.SyncProperties.withAuthType(AuthType authType)"
+  name: "withAuthType(AuthType authType)"
+  nameWithType: "SyncProperties.withAuthType(AuthType authType)"
+  summary: "Set the auth<wbr>Type property: The authentication type used for the connected registry to sync with its parent."
+  parameters:
+  - description: "the authType value to set."
+    name: "authType"
+    type: "<xref href=\"com.azure.resourcemanager.containerregistry.models.AuthType?alt=com.azure.resourcemanager.containerregistry.models.AuthType&text=AuthType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public SyncProperties withAuthType(AuthType authType)"
+  desc: "Set the authType property: The authentication type used for the connected registry to sync with its parent."
+  returns:
+    description: "the SyncProperties object itself."
+    type: "<xref href=\"com.azure.resourcemanager.containerregistry.models.SyncProperties?alt=com.azure.resourcemanager.containerregistry.models.SyncProperties&text=SyncProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.containerregistry.models.SyncProperties.withMessageTtl(java.time.Duration)"
   fullName: "com.azure.resourcemanager.containerregistry.models.SyncProperties.withMessageTtl(Duration messageTtl)"
   name: "withMessageTtl(Duration messageTtl)"
@@ -190,4 +214,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.containerregistry.models.SyncProperties?alt=com.azure.resourcemanager.containerregistry.models.SyncProperties&text=SyncProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.containerregistry.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-containerregistry:2.56.0-beta.2
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerregistry:2.56.0-beta.3

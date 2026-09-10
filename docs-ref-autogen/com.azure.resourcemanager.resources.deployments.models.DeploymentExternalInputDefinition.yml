@@ -1,0 +1,118 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.deployments.models.DeploymentExternalInputDefinition"
+fullName: "com.azure.resourcemanager.resources.deployments.models.DeploymentExternalInputDefinition"
+name: "DeploymentExternalInputDefinition"
+nameWithType: "DeploymentExternalInputDefinition"
+summary: "Deployment external input definition for parameterization."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **DeploymentExternalInputDefinition**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resources.deployments.models.DeploymentExternalInputDefinition?alt=com.azure.resourcemanager.resources.deployments.models.DeploymentExternalInputDefinition&text=DeploymentExternalInputDefinition\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resources.deployments.models.DeploymentExternalInputDefinition.DeploymentExternalInputDefinition()"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.DeploymentExternalInputDefinition.DeploymentExternalInputDefinition()"
+  name: "DeploymentExternalInputDefinition()"
+  nameWithType: "DeploymentExternalInputDefinition.DeploymentExternalInputDefinition()"
+  summary: "Creates an instance of Deployment<wbr>External<wbr>Input<wbr>Definition class."
+  syntax: "public DeploymentExternalInputDefinition()"
+  desc: "Creates an instance of DeploymentExternalInputDefinition class."
+methods:
+- uid: "com.azure.resourcemanager.resources.deployments.models.DeploymentExternalInputDefinition.config()"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.DeploymentExternalInputDefinition.config()"
+  name: "config()"
+  nameWithType: "DeploymentExternalInputDefinition.config()"
+  summary: "Get the config property: Configuration for the external input."
+  syntax: "public BinaryData config()"
+  desc: "Get the config property: Configuration for the external input."
+  returns:
+    description: "the config value."
+    type: "<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deployments.models.DeploymentExternalInputDefinition.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.DeploymentExternalInputDefinition.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "DeploymentExternalInputDefinition.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Deployment<wbr>External<wbr>Input<wbr>Definition from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static DeploymentExternalInputDefinition fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of DeploymentExternalInputDefinition from the JsonReader."
+  returns:
+    description: "An instance of DeploymentExternalInputDefinition if the JsonReader was pointing to an instance of it, or\n null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deployments.models.DeploymentExternalInputDefinition?alt=com.azure.resourcemanager.resources.deployments.models.DeploymentExternalInputDefinition&text=DeploymentExternalInputDefinition\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deployments.models.DeploymentExternalInputDefinition.kind()"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.DeploymentExternalInputDefinition.kind()"
+  name: "kind()"
+  nameWithType: "DeploymentExternalInputDefinition.kind()"
+  summary: "Get the kind property: The kind of external input."
+  syntax: "public String kind()"
+  desc: "Get the kind property: The kind of external input."
+  returns:
+    description: "the kind value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.resources.deployments.models.DeploymentExternalInputDefinition.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.DeploymentExternalInputDefinition.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "DeploymentExternalInputDefinition.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deployments.models.DeploymentExternalInputDefinition.withConfig(com.azure.core.util.BinaryData)"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.DeploymentExternalInputDefinition.withConfig(BinaryData config)"
+  name: "withConfig(BinaryData config)"
+  nameWithType: "DeploymentExternalInputDefinition.withConfig(BinaryData config)"
+  summary: "Set the config property: Configuration for the external input."
+  parameters:
+  - description: "the config value to set."
+    name: "config"
+    type: "<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public DeploymentExternalInputDefinition withConfig(BinaryData config)"
+  desc: "Set the config property: Configuration for the external input."
+  returns:
+    description: "the DeploymentExternalInputDefinition object itself."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deployments.models.DeploymentExternalInputDefinition?alt=com.azure.resourcemanager.resources.deployments.models.DeploymentExternalInputDefinition&text=DeploymentExternalInputDefinition\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deployments.models.DeploymentExternalInputDefinition.withKind(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.DeploymentExternalInputDefinition.withKind(String kind)"
+  name: "withKind(String kind)"
+  nameWithType: "DeploymentExternalInputDefinition.withKind(String kind)"
+  summary: "Set the kind property: The kind of external input."
+  parameters:
+  - description: "the kind value to set."
+    name: "kind"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public DeploymentExternalInputDefinition withKind(String kind)"
+  desc: "Set the kind property: The kind of external input."
+  returns:
+    description: "the DeploymentExternalInputDefinition object itself."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deployments.models.DeploymentExternalInputDefinition?alt=com.azure.resourcemanager.resources.deployments.models.DeploymentExternalInputDefinition&text=DeploymentExternalInputDefinition\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Deployment external input definition for parameterization."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resources.deployments.models.DeploymentExternalInputDefinition?alt=com.azure.resourcemanager.resources.deployments.models.DeploymentExternalInputDefinition&text=DeploymentExternalInputDefinition\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.resources.deployments.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-deployments:1.0.0

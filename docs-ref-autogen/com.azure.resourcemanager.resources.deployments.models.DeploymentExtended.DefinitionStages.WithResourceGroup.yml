@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.DefinitionStages.WithResourceGroup"
+fullName: "com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.DefinitionStages.WithResourceGroup"
+name: "DeploymentExtended.DefinitionStages.WithResourceGroup"
+nameWithType: "DeploymentExtended.DefinitionStages.WithResourceGroup"
+summary: "The stage of the Deployment<wbr>Extended definition allowing to specify parent resource."
+syntax: "public static interface **DeploymentExtended.DefinitionStages.WithResourceGroup**"
+methods:
+- uid: "com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.DefinitionStages.WithResourceGroup.withExistingResourceGroup(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.DefinitionStages.WithResourceGroup.withExistingResourceGroup(String resourceGroupName)"
+  name: "withExistingResourceGroup(String resourceGroupName)"
+  nameWithType: "DeploymentExtended.DefinitionStages.WithResourceGroup.withExistingResourceGroup(String resourceGroupName)"
+  summary: "Specifies resource<wbr>Group<wbr>Name."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract DeploymentExtended.DefinitionStages.WithProperties withExistingResourceGroup(String resourceGroupName)"
+  desc: "Specifies resourceGroupName."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.DefinitionStages.WithProperties?alt=com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.DefinitionStages.WithProperties&text=WithProperties\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the DeploymentExtended definition allowing to specify parent resource."
+metadata: {}
+package: "com.azure.resourcemanager.resources.deployments.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-deployments:1.0.0

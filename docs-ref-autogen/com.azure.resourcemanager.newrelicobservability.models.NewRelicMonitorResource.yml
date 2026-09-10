@@ -22,7 +22,7 @@ methods:
   fullName: "com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.getMetricRules(MetricsRequest request)"
   name: "getMetricRules(MetricsRequest request)"
   nameWithType: "NewRelicMonitorResource.getMetricRules(MetricsRequest request)"
-  summary: "Get metric rules."
+  summary: "Retrieves the metric rules that are configured in the New Relic monitor resource."
   modifiers:
   - "abstract"
   parameters:
@@ -30,15 +30,15 @@ methods:
     name: "request"
     type: "<xref href=\"com.azure.resourcemanager.newrelicobservability.models.MetricsRequest?alt=com.azure.resourcemanager.newrelicobservability.models.MetricsRequest&text=MetricsRequest\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract MetricRules getMetricRules(MetricsRequest request)"
-  desc: "Get metric rules."
+  desc: "Retrieves the metric rules that are configured in the New Relic monitor resource."
   returns:
-    description: "metric rules."
+    description: "set of rules for sending metrics for the Monitor resource."
     type: "<xref href=\"com.azure.resourcemanager.newrelicobservability.models.MetricRules?alt=com.azure.resourcemanager.newrelicobservability.models.MetricRules&text=MetricRules\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.getMetricRulesWithResponse(com.azure.resourcemanager.newrelicobservability.models.MetricsRequest,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.getMetricRulesWithResponse(MetricsRequest request, Context context)"
   name: "getMetricRulesWithResponse(MetricsRequest request, Context context)"
   nameWithType: "NewRelicMonitorResource.getMetricRulesWithResponse(MetricsRequest request, Context context)"
-  summary: "Get metric rules."
+  summary: "Retrieves the metric rules that are configured in the New Relic monitor resource."
   modifiers:
   - "abstract"
   parameters:
@@ -49,15 +49,15 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Response<MetricRules> getMetricRulesWithResponse(MetricsRequest request, Context context)"
-  desc: "Get metric rules."
+  desc: "Retrieves the metric rules that are configured in the New Relic monitor resource."
   returns:
-    description: "metric rules along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
+    description: "set of rules for sending metrics for the Monitor resource along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.newrelicobservability.models.MetricRules?alt=com.azure.resourcemanager.newrelicobservability.models.MetricRules&text=MetricRules\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.getMetricStatus(com.azure.resourcemanager.newrelicobservability.models.MetricsStatusRequest)"
   fullName: "com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.getMetricStatus(MetricsStatusRequest request)"
   name: "getMetricStatus(MetricsStatusRequest request)"
   nameWithType: "NewRelicMonitorResource.getMetricStatus(MetricsStatusRequest request)"
-  summary: "Get metric status."
+  summary: "Retrieves the metric status that are configured in the New Relic monitor resource."
   modifiers:
   - "abstract"
   parameters:
@@ -65,15 +65,15 @@ methods:
     name: "request"
     type: "<xref href=\"com.azure.resourcemanager.newrelicobservability.models.MetricsStatusRequest?alt=com.azure.resourcemanager.newrelicobservability.models.MetricsStatusRequest&text=MetricsStatusRequest\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract MetricsStatusResponse getMetricStatus(MetricsStatusRequest request)"
-  desc: "Get metric status."
+  desc: "Retrieves the metric status that are configured in the New Relic monitor resource."
   returns:
-    description: "metric status."
+    description: "response of get metrics status Operation."
     type: "<xref href=\"com.azure.resourcemanager.newrelicobservability.models.MetricsStatusResponse?alt=com.azure.resourcemanager.newrelicobservability.models.MetricsStatusResponse&text=MetricsStatusResponse\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.getMetricStatusWithResponse(com.azure.resourcemanager.newrelicobservability.models.MetricsStatusRequest,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.getMetricStatusWithResponse(MetricsStatusRequest request, Context context)"
   name: "getMetricStatusWithResponse(MetricsStatusRequest request, Context context)"
   nameWithType: "NewRelicMonitorResource.getMetricStatusWithResponse(MetricsStatusRequest request, Context context)"
-  summary: "Get metric status."
+  summary: "Retrieves the metric status that are configured in the New Relic monitor resource."
   modifiers:
   - "abstract"
   parameters:
@@ -84,9 +84,9 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Response<MetricsStatusResponse> getMetricStatusWithResponse(MetricsStatusRequest request, Context context)"
-  desc: "Get metric status."
+  desc: "Retrieves the metric status that are configured in the New Relic monitor resource."
   returns:
-    description: "metric status along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
+    description: "response of get metrics status Operation along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.newrelicobservability.models.MetricsStatusResponse?alt=com.azure.resourcemanager.newrelicobservability.models.MetricsStatusResponse&text=MetricsStatusResponse\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.id()"
   fullName: "com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.id()"
@@ -124,6 +124,34 @@ methods:
   returns:
     description: "the inner object."
     type: "<xref href=\"com.azure.resourcemanager.newrelicobservability.fluent.models.NewRelicMonitorResourceInner?alt=com.azure.resourcemanager.newrelicobservability.fluent.models.NewRelicMonitorResourceInner&text=NewRelicMonitorResourceInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.latestLinkedSaaS()"
+  fullName: "com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.latestLinkedSaaS()"
+  name: "latestLinkedSaaS()"
+  nameWithType: "NewRelicMonitorResource.latestLinkedSaaS()"
+  summary: "Returns the latest SaaS linked to the newrelic organization of the underlying monitor."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract LatestLinkedSaaSResponse latestLinkedSaaS()"
+  desc: "Returns the latest SaaS linked to the newrelic organization of the underlying monitor."
+  returns:
+    description: "response of get latest linked SaaS resource operation."
+    type: "<xref href=\"com.azure.resourcemanager.newrelicobservability.models.LatestLinkedSaaSResponse?alt=com.azure.resourcemanager.newrelicobservability.models.LatestLinkedSaaSResponse&text=LatestLinkedSaaSResponse\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.latestLinkedSaaSWithResponse(com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.latestLinkedSaaSWithResponse(Context context)"
+  name: "latestLinkedSaaSWithResponse(Context context)"
+  nameWithType: "NewRelicMonitorResource.latestLinkedSaaSWithResponse(Context context)"
+  summary: "Returns the latest SaaS linked to the newrelic organization of the underlying monitor."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract Response<LatestLinkedSaaSResponse> latestLinkedSaaSWithResponse(Context context)"
+  desc: "Returns the latest SaaS linked to the newrelic organization of the underlying monitor."
+  returns:
+    description: "response of get latest linked SaaS resource operation along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
+    type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.newrelicobservability.models.LatestLinkedSaaSResponse?alt=com.azure.resourcemanager.newrelicobservability.models.LatestLinkedSaaSResponse&text=LatestLinkedSaaSResponse\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.liftrResourceCategory()"
   fullName: "com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.liftrResourceCategory()"
   name: "liftrResourceCategory()"
@@ -148,11 +176,46 @@ methods:
   returns:
     description: "the liftrResourcePreference value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
+- uid: "com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.linkSaaS(com.azure.resourcemanager.newrelicobservability.models.SaaSData)"
+  fullName: "com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.linkSaaS(SaaSData body)"
+  name: "linkSaaS(SaaSData body)"
+  nameWithType: "NewRelicMonitorResource.linkSaaS(SaaSData body)"
+  summary: "Links a new SaaS to the newrelic organization of the underlying monitor."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Link SaaS body parameter."
+    name: "body"
+    type: "<xref href=\"com.azure.resourcemanager.newrelicobservability.models.SaaSData?alt=com.azure.resourcemanager.newrelicobservability.models.SaaSData&text=SaaSData\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract NewRelicMonitorResource linkSaaS(SaaSData body)"
+  desc: "Links a new SaaS to the newrelic organization of the underlying monitor."
+  returns:
+    description: "the response."
+    type: "<xref href=\"com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource?alt=com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource&text=NewRelicMonitorResource\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.linkSaaS(com.azure.resourcemanager.newrelicobservability.models.SaaSData,com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.linkSaaS(SaaSData body, Context context)"
+  name: "linkSaaS(SaaSData body, Context context)"
+  nameWithType: "NewRelicMonitorResource.linkSaaS(SaaSData body, Context context)"
+  summary: "Links a new SaaS to the newrelic organization of the underlying monitor."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Link SaaS body parameter."
+    name: "body"
+    type: "<xref href=\"com.azure.resourcemanager.newrelicobservability.models.SaaSData?alt=com.azure.resourcemanager.newrelicobservability.models.SaaSData&text=SaaSData\" data-throw-if-not-resolved=\"False\" />"
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract NewRelicMonitorResource linkSaaS(SaaSData body, Context context)"
+  desc: "Links a new SaaS to the newrelic organization of the underlying monitor."
+  returns:
+    description: "the response."
+    type: "<xref href=\"com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource?alt=com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource&text=NewRelicMonitorResource\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.listAppServices(com.azure.resourcemanager.newrelicobservability.models.AppServicesGetRequest)"
   fullName: "com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.listAppServices(AppServicesGetRequest request)"
   name: "listAppServices(AppServicesGetRequest request)"
   nameWithType: "NewRelicMonitorResource.listAppServices(AppServicesGetRequest request)"
-  summary: "List the app service resources currently being monitored by the New<wbr>Relic resource."
+  summary: "Lists the app service resources currently being monitored by the New Relic resource, helping you understand which app services are under monitoring."
   modifiers:
   - "abstract"
   parameters:
@@ -160,7 +223,7 @@ methods:
     name: "request"
     type: "<xref href=\"com.azure.resourcemanager.newrelicobservability.models.AppServicesGetRequest?alt=com.azure.resourcemanager.newrelicobservability.models.AppServicesGetRequest&text=AppServicesGetRequest\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract PagedIterable<AppServiceInfo> listAppServices(AppServicesGetRequest request)"
-  desc: "List the app service resources currently being monitored by the NewRelic resource."
+  desc: "Lists the app service resources currently being monitored by the New Relic resource, helping you understand which app services are under monitoring."
   returns:
     description: "response of a list app services Operation as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.newrelicobservability.models.AppServiceInfo?alt=com.azure.resourcemanager.newrelicobservability.models.AppServiceInfo&text=AppServiceInfo\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -168,7 +231,7 @@ methods:
   fullName: "com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.listAppServices(AppServicesGetRequest request, Context context)"
   name: "listAppServices(AppServicesGetRequest request, Context context)"
   nameWithType: "NewRelicMonitorResource.listAppServices(AppServicesGetRequest request, Context context)"
-  summary: "List the app service resources currently being monitored by the New<wbr>Relic resource."
+  summary: "Lists the app service resources currently being monitored by the New Relic resource, helping you understand which app services are under monitoring."
   modifiers:
   - "abstract"
   parameters:
@@ -179,7 +242,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract PagedIterable<AppServiceInfo> listAppServices(AppServicesGetRequest request, Context context)"
-  desc: "List the app service resources currently being monitored by the NewRelic resource."
+  desc: "Lists the app service resources currently being monitored by the New Relic resource, helping you understand which app services are under monitoring."
   returns:
     description: "response of a list app services Operation as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.newrelicobservability.models.AppServiceInfo?alt=com.azure.resourcemanager.newrelicobservability.models.AppServiceInfo&text=AppServiceInfo\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -187,7 +250,7 @@ methods:
   fullName: "com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.listHosts(HostsGetRequest request)"
   name: "listHosts(HostsGetRequest request)"
   nameWithType: "NewRelicMonitorResource.listHosts(HostsGetRequest request)"
-  summary: "List the compute vm resources currently being monitored by the New<wbr>Relic resource."
+  summary: "Lists all VM resources currently being monitored by the New Relic monitor resource, helping you manage observability."
   modifiers:
   - "abstract"
   parameters:
@@ -195,7 +258,7 @@ methods:
     name: "request"
     type: "<xref href=\"com.azure.resourcemanager.newrelicobservability.models.HostsGetRequest?alt=com.azure.resourcemanager.newrelicobservability.models.HostsGetRequest&text=HostsGetRequest\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract PagedIterable<VMInfo> listHosts(HostsGetRequest request)"
-  desc: "List the compute vm resources currently being monitored by the NewRelic resource."
+  desc: "Lists all VM resources currently being monitored by the New Relic monitor resource, helping you manage observability."
   returns:
     description: "response of a list VM Host Operation as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.newrelicobservability.models.VMInfo?alt=com.azure.resourcemanager.newrelicobservability.models.VMInfo&text=VMInfo\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -203,7 +266,7 @@ methods:
   fullName: "com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.listHosts(HostsGetRequest request, Context context)"
   name: "listHosts(HostsGetRequest request, Context context)"
   nameWithType: "NewRelicMonitorResource.listHosts(HostsGetRequest request, Context context)"
-  summary: "List the compute vm resources currently being monitored by the New<wbr>Relic resource."
+  summary: "Lists all VM resources currently being monitored by the New Relic monitor resource, helping you manage observability."
   modifiers:
   - "abstract"
   parameters:
@@ -214,7 +277,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract PagedIterable<VMInfo> listHosts(HostsGetRequest request, Context context)"
-  desc: "List the compute vm resources currently being monitored by the NewRelic resource."
+  desc: "Lists all VM resources currently being monitored by the New Relic monitor resource, helping you manage observability."
   returns:
     description: "response of a list VM Host Operation as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.newrelicobservability.models.VMInfo?alt=com.azure.resourcemanager.newrelicobservability.models.VMInfo&text=VMInfo\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -222,11 +285,11 @@ methods:
   fullName: "com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.listLinkedResources()"
   name: "listLinkedResources()"
   nameWithType: "NewRelicMonitorResource.listLinkedResources()"
-  summary: "List all Azure resources associated to the same New<wbr>Relic organization and account as the target resource."
+  summary: "Lists all Azure resources that are linked to the same New Relic organization as the specified monitor resource, helping you understand the scope of integration."
   modifiers:
   - "abstract"
   syntax: "public abstract PagedIterable<LinkedResource> listLinkedResources()"
-  desc: "List all Azure resources associated to the same NewRelic organization and account as the target resource."
+  desc: "Lists all Azure resources that are linked to the same New Relic organization as the specified monitor resource, helping you understand the scope of integration."
   returns:
     description: "response of a list operation as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.newrelicobservability.models.LinkedResource?alt=com.azure.resourcemanager.newrelicobservability.models.LinkedResource&text=LinkedResource\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -234,7 +297,7 @@ methods:
   fullName: "com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.listLinkedResources(Context context)"
   name: "listLinkedResources(Context context)"
   nameWithType: "NewRelicMonitorResource.listLinkedResources(Context context)"
-  summary: "List all Azure resources associated to the same New<wbr>Relic organization and account as the target resource."
+  summary: "Lists all Azure resources that are linked to the same New Relic organization as the specified monitor resource, helping you understand the scope of integration."
   modifiers:
   - "abstract"
   parameters:
@@ -242,7 +305,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract PagedIterable<LinkedResource> listLinkedResources(Context context)"
-  desc: "List all Azure resources associated to the same NewRelic organization and account as the target resource."
+  desc: "Lists all Azure resources that are linked to the same New Relic organization as the specified monitor resource, helping you understand the scope of integration."
   returns:
     description: "response of a list operation as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.newrelicobservability.models.LinkedResource?alt=com.azure.resourcemanager.newrelicobservability.models.LinkedResource&text=LinkedResource\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -250,11 +313,11 @@ methods:
   fullName: "com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.listMonitoredResources()"
   name: "listMonitoredResources()"
   nameWithType: "NewRelicMonitorResource.listMonitoredResources()"
-  summary: "List the resources currently being monitored by the New<wbr>Relic monitor resource."
+  summary: "Lists all Azure resources that are currently being monitored by the specified New Relic monitor resource, providing insight into the coverage of your observability setup."
   modifiers:
   - "abstract"
   syntax: "public abstract PagedIterable<MonitoredResource> listMonitoredResources()"
-  desc: "List the resources currently being monitored by the NewRelic monitor resource."
+  desc: "Lists all Azure resources that are currently being monitored by the specified New Relic monitor resource, providing insight into the coverage of your observability setup."
   returns:
     description: "list of all the resources being monitored by NewRelic monitor resource as paginated response with\n <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.newrelicobservability.models.MonitoredResource?alt=com.azure.resourcemanager.newrelicobservability.models.MonitoredResource&text=MonitoredResource\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -262,7 +325,7 @@ methods:
   fullName: "com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.listMonitoredResources(Context context)"
   name: "listMonitoredResources(Context context)"
   nameWithType: "NewRelicMonitorResource.listMonitoredResources(Context context)"
-  summary: "List the resources currently being monitored by the New<wbr>Relic monitor resource."
+  summary: "Lists all Azure resources that are currently being monitored by the specified New Relic monitor resource, providing insight into the coverage of your observability setup."
   modifiers:
   - "abstract"
   parameters:
@@ -270,7 +333,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract PagedIterable<MonitoredResource> listMonitoredResources(Context context)"
-  desc: "List the resources currently being monitored by the NewRelic monitor resource."
+  desc: "Lists all Azure resources that are currently being monitored by the specified New Relic monitor resource, providing insight into the coverage of your observability setup."
   returns:
     description: "list of all the resources being monitored by NewRelic monitor resource as paginated response with\n <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.newrelicobservability.models.MonitoredResource?alt=com.azure.resourcemanager.newrelicobservability.models.MonitoredResource&text=MonitoredResource\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -410,6 +473,31 @@ methods:
   returns:
     description: "the refreshed resource."
     type: "<xref href=\"com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource?alt=com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource&text=NewRelicMonitorResource\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.refreshIngestionKey()"
+  fullName: "com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.refreshIngestionKey()"
+  name: "refreshIngestionKey()"
+  nameWithType: "NewRelicMonitorResource.refreshIngestionKey()"
+  summary: "Refreshes the ingestion key for all monitors linked to the same account associated to the underlying monitor."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract void refreshIngestionKey()"
+  desc: "Refreshes the ingestion key for all monitors linked to the same account associated to the underlying monitor."
+- uid: "com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.refreshIngestionKeyWithResponse(com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.refreshIngestionKeyWithResponse(Context context)"
+  name: "refreshIngestionKeyWithResponse(Context context)"
+  nameWithType: "NewRelicMonitorResource.refreshIngestionKeyWithResponse(Context context)"
+  summary: "Refreshes the ingestion key for all monitors linked to the same account associated to the underlying monitor."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract Response<Void> refreshIngestionKeyWithResponse(Context context)"
+  desc: "Refreshes the ingestion key for all monitors linked to the same account associated to the underlying monitor."
+  returns:
+    description: "the <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
+    type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
 - uid: "com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.region()"
   fullName: "com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.region()"
   name: "region()"
@@ -446,6 +534,37 @@ methods:
   returns:
     description: "the name of the resource group."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.resubscribe()"
+  fullName: "com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.resubscribe()"
+  name: "resubscribe()"
+  nameWithType: "NewRelicMonitorResource.resubscribe()"
+  summary: "Resubscribes the New Relic Organization of the underlying Monitor Resource to be billed by Azure Marketplace."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract NewRelicMonitorResource resubscribe()"
+  desc: "Resubscribes the New Relic Organization of the underlying Monitor Resource to be billed by Azure Marketplace. A long-running resource action."
+  returns:
+    description: "the response."
+    type: "<xref href=\"com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource?alt=com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource&text=NewRelicMonitorResource\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.resubscribe(com.azure.resourcemanager.newrelicobservability.models.ResubscribeProperties,com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.resubscribe(ResubscribeProperties body, Context context)"
+  name: "resubscribe(ResubscribeProperties body, Context context)"
+  nameWithType: "NewRelicMonitorResource.resubscribe(ResubscribeProperties body, Context context)"
+  summary: "Resubscribes the New Relic Organization of the underlying Monitor Resource to be billed by Azure Marketplace."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Resubscribe Properties."
+    name: "body"
+    type: "<xref href=\"com.azure.resourcemanager.newrelicobservability.models.ResubscribeProperties?alt=com.azure.resourcemanager.newrelicobservability.models.ResubscribeProperties&text=ResubscribeProperties\" data-throw-if-not-resolved=\"False\" />"
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract NewRelicMonitorResource resubscribe(ResubscribeProperties body, Context context)"
+  desc: "Resubscribes the New Relic Organization of the underlying Monitor Resource to be billed by Azure Marketplace. A long-running resource action."
+  returns:
+    description: "the response."
+    type: "<xref href=\"com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource?alt=com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource&text=NewRelicMonitorResource\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.saaSAzureSubscriptionStatus()"
   fullName: "com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.saaSAzureSubscriptionStatus()"
   name: "saaSAzureSubscriptionStatus()"
@@ -458,6 +577,18 @@ methods:
   returns:
     description: "the saaSAzureSubscriptionStatus value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.saaSData()"
+  fullName: "com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.saaSData()"
+  name: "saaSData()"
+  nameWithType: "NewRelicMonitorResource.saaSData()"
+  summary: "Gets the saa<wbr>SData property: SaaS details."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract SaaSData saaSData()"
+  desc: "Gets the saaSData property: SaaS details."
+  returns:
+    description: "the saaSData value."
+    type: "<xref href=\"com.azure.resourcemanager.newrelicobservability.models.SaaSData?alt=com.azure.resourcemanager.newrelicobservability.models.SaaSData&text=SaaSData\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.subscriptionState()"
   fullName: "com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.subscriptionState()"
   name: "subscriptionState()"
@@ -474,7 +605,7 @@ methods:
   fullName: "com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.switchBilling(SwitchBillingRequest request)"
   name: "switchBilling(SwitchBillingRequest request)"
   nameWithType: "NewRelicMonitorResource.switchBilling(SwitchBillingRequest request)"
-  summary: "Switches the billing for New<wbr>Relic monitor resource."
+  summary: "Switches the billing for the New Relic Monitor resource to be billed by Azure Marketplace."
   modifiers:
   - "abstract"
   parameters:
@@ -482,7 +613,7 @@ methods:
     name: "request"
     type: "<xref href=\"com.azure.resourcemanager.newrelicobservability.models.SwitchBillingRequest?alt=com.azure.resourcemanager.newrelicobservability.models.SwitchBillingRequest&text=SwitchBillingRequest\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract NewRelicMonitorResource switchBilling(SwitchBillingRequest request)"
-  desc: "Switches the billing for NewRelic monitor resource."
+  desc: "Switches the billing for the New Relic Monitor resource to be billed by Azure Marketplace."
   returns:
     description: "a Monitor Resource by NewRelic."
     type: "<xref href=\"com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource?alt=com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource&text=NewRelicMonitorResource\" data-throw-if-not-resolved=\"False\" />"
@@ -490,7 +621,7 @@ methods:
   fullName: "com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.switchBillingWithResponse(SwitchBillingRequest request, Context context)"
   name: "switchBillingWithResponse(SwitchBillingRequest request, Context context)"
   nameWithType: "NewRelicMonitorResource.switchBillingWithResponse(SwitchBillingRequest request, Context context)"
-  summary: "Switches the billing for New<wbr>Relic monitor resource."
+  summary: "Switches the billing for the New Relic Monitor resource to be billed by Azure Marketplace."
   modifiers:
   - "abstract"
   parameters:
@@ -501,7 +632,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Response<NewRelicMonitorResource> switchBillingWithResponse(SwitchBillingRequest request, Context context)"
-  desc: "Switches the billing for NewRelic monitor resource."
+  desc: "Switches the billing for the New Relic Monitor resource to be billed by Azure Marketplace."
   returns:
     description: "a Monitor Resource by NewRelic."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource?alt=com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource&text=NewRelicMonitorResource\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -569,11 +700,11 @@ methods:
   fullName: "com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.vmHostPayload()"
   name: "vmHostPayload()"
   nameWithType: "NewRelicMonitorResource.vmHostPayload()"
-  summary: "Returns the payload that needs to be passed in the request body for installing New<wbr>Relic agent on a VM."
+  summary: "Returns the payload that needs to be passed in the request body for installing the New Relic agent on a VM, providing the necessary configuration details."
   modifiers:
   - "abstract"
   syntax: "public abstract VMExtensionPayload vmHostPayload()"
-  desc: "Returns the payload that needs to be passed in the request body for installing NewRelic agent on a VM."
+  desc: "Returns the payload that needs to be passed in the request body for installing the New Relic agent on a VM, providing the necessary configuration details."
   returns:
     description: "response of payload to be passed while installing VM agent."
     type: "<xref href=\"com.azure.resourcemanager.newrelicobservability.models.VMExtensionPayload?alt=com.azure.resourcemanager.newrelicobservability.models.VMExtensionPayload&text=VMExtensionPayload\" data-throw-if-not-resolved=\"False\" />"
@@ -581,7 +712,7 @@ methods:
   fullName: "com.azure.resourcemanager.newrelicobservability.models.NewRelicMonitorResource.vmHostPayloadWithResponse(Context context)"
   name: "vmHostPayloadWithResponse(Context context)"
   nameWithType: "NewRelicMonitorResource.vmHostPayloadWithResponse(Context context)"
-  summary: "Returns the payload that needs to be passed in the request body for installing New<wbr>Relic agent on a VM."
+  summary: "Returns the payload that needs to be passed in the request body for installing the New Relic agent on a VM, providing the necessary configuration details."
   modifiers:
   - "abstract"
   parameters:
@@ -589,7 +720,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Response<VMExtensionPayload> vmHostPayloadWithResponse(Context context)"
-  desc: "Returns the payload that needs to be passed in the request body for installing NewRelic agent on a VM."
+  desc: "Returns the payload that needs to be passed in the request body for installing the New Relic agent on a VM, providing the necessary configuration details."
   returns:
     description: "response of payload to be passed while installing VM agent along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.newrelicobservability.models.VMExtensionPayload?alt=com.azure.resourcemanager.newrelicobservability.models.VMExtensionPayload&text=VMExtensionPayload\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -597,4 +728,4 @@ type: "interface"
 desc: "An immutable client-side representation of NewRelicMonitorResource."
 metadata: {}
 package: "com.azure.resourcemanager.newrelicobservability.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-newrelicobservability:1.2.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-newrelicobservability:1.3.0

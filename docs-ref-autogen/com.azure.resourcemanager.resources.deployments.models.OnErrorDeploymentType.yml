@@ -1,0 +1,95 @@
+### YamlMime:JavaEnum
+uid: "com.azure.resourcemanager.resources.deployments.models.OnErrorDeploymentType"
+fullName: "com.azure.resourcemanager.resources.deployments.models.OnErrorDeploymentType"
+name: "OnErrorDeploymentType"
+nameWithType: "OnErrorDeploymentType"
+summary: "The deployment on error behavior type."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Enum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html\">Enum</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#valueOf-java.lang.Class-java.lang.String-\">valueOf</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#compareTo-E-\">compareTo</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#describeConstable--\">describeConstable</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#getDeclaringClass--\">getDeclaringClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#name--\">name</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#ordinal--\">ordinal</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#toString--\">toString</a>"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public enum **OnErrorDeploymentType**</br> extends <a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html\">Enum</a>&lt;<xref href=\"com.azure.resourcemanager.resources.deployments.models.OnErrorDeploymentType?alt=com.azure.resourcemanager.resources.deployments.models.OnErrorDeploymentType&text=OnErrorDeploymentType\" data-throw-if-not-resolved=\"False\" />&gt;"
+fields:
+- uid: "com.azure.resourcemanager.resources.deployments.models.OnErrorDeploymentType.LAST_SUCCESSFUL"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.OnErrorDeploymentType.LAST_SUCCESSFUL"
+  name: "LAST_SUCCESSFUL"
+  nameWithType: "OnErrorDeploymentType.LAST_SUCCESSFUL"
+  summary: "Last<wbr>Successful."
+  desc: "LastSuccessful."
+- uid: "com.azure.resourcemanager.resources.deployments.models.OnErrorDeploymentType.SPECIFIC_DEPLOYMENT"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.OnErrorDeploymentType.SPECIFIC_DEPLOYMENT"
+  name: "SPECIFIC_DEPLOYMENT"
+  nameWithType: "OnErrorDeploymentType.SPECIFIC_DEPLOYMENT"
+  summary: "Specific<wbr>Deployment."
+  desc: "SpecificDeployment."
+methods:
+- uid: "com.azure.resourcemanager.resources.deployments.models.OnErrorDeploymentType.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.OnErrorDeploymentType.fromString(String value)"
+  name: "fromString(String value)"
+  nameWithType: "OnErrorDeploymentType.fromString(String value)"
+  summary: "Parses a serialized value to a On<wbr>Error<wbr>Deployment<wbr>Type instance."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "the serialized value to parse."
+    name: "value"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static OnErrorDeploymentType fromString(String value)"
+  desc: "Parses a serialized value to a OnErrorDeploymentType instance."
+  returns:
+    description: "the parsed OnErrorDeploymentType object, or null if unable to parse."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deployments.models.OnErrorDeploymentType?alt=com.azure.resourcemanager.resources.deployments.models.OnErrorDeploymentType&text=OnErrorDeploymentType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deployments.models.OnErrorDeploymentType.toString()"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.OnErrorDeploymentType.toString()"
+  name: "toString()"
+  nameWithType: "OnErrorDeploymentType.toString()"
+  overridden: "java.lang.Enum.toString()"
+  syntax: "public String toString()"
+  returns:
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.resources.deployments.models.OnErrorDeploymentType.valueOf(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.OnErrorDeploymentType.valueOf(String name)"
+  name: "valueOf(String name)"
+  nameWithType: "OnErrorDeploymentType.valueOf(String name)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static OnErrorDeploymentType valueOf(String name)"
+  returns:
+    type: "<xref href=\"com.azure.resourcemanager.resources.deployments.models.OnErrorDeploymentType?alt=com.azure.resourcemanager.resources.deployments.models.OnErrorDeploymentType&text=OnErrorDeploymentType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deployments.models.OnErrorDeploymentType.values()"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.OnErrorDeploymentType.values()"
+  name: "values()"
+  nameWithType: "OnErrorDeploymentType.values()"
+  modifiers:
+  - "static"
+  syntax: "public static OnErrorDeploymentType[] values()"
+  returns:
+    type: "<xref href=\"com.azure.resourcemanager.resources.deployments.models.OnErrorDeploymentType?alt=com.azure.resourcemanager.resources.deployments.models.OnErrorDeploymentType&text=OnErrorDeploymentType\" data-throw-if-not-resolved=\"False\" />[]"
+desc: "The deployment on error behavior type. Possible values are LastSuccessful and SpecificDeployment."
+metadata: {}
+package: "com.azure.resourcemanager.resources.deployments.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-deployments:1.0.0

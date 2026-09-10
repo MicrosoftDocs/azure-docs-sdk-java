@@ -89,6 +89,16 @@ methods:
   returns:
     description: "the planData value."
     type: "<xref href=\"com.azure.resourcemanager.newrelicobservability.models.PlanData?alt=com.azure.resourcemanager.newrelicobservability.models.PlanData&text=PlanData\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.newrelicobservability.fluent.models.NewRelicMonitorResourceUpdateProperties.saaSData()"
+  fullName: "com.azure.resourcemanager.newrelicobservability.fluent.models.NewRelicMonitorResourceUpdateProperties.saaSData()"
+  name: "saaSData()"
+  nameWithType: "NewRelicMonitorResourceUpdateProperties.saaSData()"
+  summary: "Get the saa<wbr>SData property: SaaS details."
+  syntax: "public SaaSData saaSData()"
+  desc: "Get the saaSData property: SaaS details."
+  returns:
+    description: "the saaSData value."
+    type: "<xref href=\"com.azure.resourcemanager.newrelicobservability.models.SaaSData?alt=com.azure.resourcemanager.newrelicobservability.models.SaaSData&text=SaaSData\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.newrelicobservability.fluent.models.NewRelicMonitorResourceUpdateProperties.toJson(com.azure.json.JsonWriter)"
   fullName: "com.azure.resourcemanager.newrelicobservability.fluent.models.NewRelicMonitorResourceUpdateProperties.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
@@ -111,13 +121,6 @@ methods:
   returns:
     description: "the userInfo value."
     type: "<xref href=\"com.azure.resourcemanager.newrelicobservability.models.UserInfo?alt=com.azure.resourcemanager.newrelicobservability.models.UserInfo&text=UserInfo\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.newrelicobservability.fluent.models.NewRelicMonitorResourceUpdateProperties.validate()"
-  fullName: "com.azure.resourcemanager.newrelicobservability.fluent.models.NewRelicMonitorResourceUpdateProperties.validate()"
-  name: "validate()"
-  nameWithType: "NewRelicMonitorResourceUpdateProperties.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.newrelicobservability.fluent.models.NewRelicMonitorResourceUpdateProperties.withAccountCreationSource(com.azure.resourcemanager.newrelicobservability.models.AccountCreationSource)"
   fullName: "com.azure.resourcemanager.newrelicobservability.fluent.models.NewRelicMonitorResourceUpdateProperties.withAccountCreationSource(AccountCreationSource accountCreationSource)"
   name: "withAccountCreationSource(AccountCreationSource accountCreationSource)"
@@ -174,6 +177,20 @@ methods:
   returns:
     description: "the NewRelicMonitorResourceUpdateProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.newrelicobservability.fluent.models.NewRelicMonitorResourceUpdateProperties?alt=com.azure.resourcemanager.newrelicobservability.fluent.models.NewRelicMonitorResourceUpdateProperties&text=NewRelicMonitorResourceUpdateProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.newrelicobservability.fluent.models.NewRelicMonitorResourceUpdateProperties.withSaaSData(com.azure.resourcemanager.newrelicobservability.models.SaaSData)"
+  fullName: "com.azure.resourcemanager.newrelicobservability.fluent.models.NewRelicMonitorResourceUpdateProperties.withSaaSData(SaaSData saaSData)"
+  name: "withSaaSData(SaaSData saaSData)"
+  nameWithType: "NewRelicMonitorResourceUpdateProperties.withSaaSData(SaaSData saaSData)"
+  summary: "Set the saa<wbr>SData property: SaaS details."
+  parameters:
+  - description: "the saaSData value to set."
+    name: "saaSData"
+    type: "<xref href=\"com.azure.resourcemanager.newrelicobservability.models.SaaSData?alt=com.azure.resourcemanager.newrelicobservability.models.SaaSData&text=SaaSData\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public NewRelicMonitorResourceUpdateProperties withSaaSData(SaaSData saaSData)"
+  desc: "Set the saaSData property: SaaS details."
+  returns:
+    description: "the NewRelicMonitorResourceUpdateProperties object itself."
+    type: "<xref href=\"com.azure.resourcemanager.newrelicobservability.fluent.models.NewRelicMonitorResourceUpdateProperties?alt=com.azure.resourcemanager.newrelicobservability.fluent.models.NewRelicMonitorResourceUpdateProperties&text=NewRelicMonitorResourceUpdateProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.newrelicobservability.fluent.models.NewRelicMonitorResourceUpdateProperties.withUserInfo(com.azure.resourcemanager.newrelicobservability.models.UserInfo)"
   fullName: "com.azure.resourcemanager.newrelicobservability.fluent.models.NewRelicMonitorResourceUpdateProperties.withUserInfo(UserInfo userInfo)"
   name: "withUserInfo(UserInfo userInfo)"
@@ -194,4 +211,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.newrelicobservability.fluent.models.NewRelicMonitorResourceUpdateProperties?alt=com.azure.resourcemanager.newrelicobservability.fluent.models.NewRelicMonitorResourceUpdateProperties&text=NewRelicMonitorResourceUpdateProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.newrelicobservability.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-newrelicobservability:1.2.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-newrelicobservability:1.3.0

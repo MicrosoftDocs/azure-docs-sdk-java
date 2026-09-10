@@ -1,0 +1,12 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.UpdateStages"
+fullName: "com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.UpdateStages"
+name: "DeploymentExtended.UpdateStages"
+nameWithType: "DeploymentExtended.UpdateStages"
+summary: "The Deployment<wbr>Extended update stages."
+syntax: "public static interface **DeploymentExtended.UpdateStages**"
+type: "interface"
+desc: "The DeploymentExtended update stages."
+metadata: {}
+package: "com.azure.resourcemanager.resources.deployments.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-deployments:1.0.0

@@ -1,0 +1,92 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.deployments.fluent.models.WhatIfOperationProperties"
+fullName: "com.azure.resourcemanager.resources.deployments.fluent.models.WhatIfOperationProperties"
+name: "WhatIfOperationProperties"
+nameWithType: "WhatIfOperationProperties"
+summary: "Deployment operation properties."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **WhatIfOperationProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resources.deployments.fluent.models.WhatIfOperationProperties?alt=com.azure.resourcemanager.resources.deployments.fluent.models.WhatIfOperationProperties&text=WhatIfOperationProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+methods:
+- uid: "com.azure.resourcemanager.resources.deployments.fluent.models.WhatIfOperationProperties.changes()"
+  fullName: "com.azure.resourcemanager.resources.deployments.fluent.models.WhatIfOperationProperties.changes()"
+  name: "changes()"
+  nameWithType: "WhatIfOperationProperties.changes()"
+  summary: "Get the changes property: List of resource changes predicted by What-If operation."
+  syntax: "public List<WhatIfChange> changes()"
+  desc: "Get the changes property: List of resource changes predicted by What-If operation."
+  returns:
+    description: "the changes value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.resources.deployments.models.WhatIfChange?alt=com.azure.resourcemanager.resources.deployments.models.WhatIfChange&text=WhatIfChange\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.resources.deployments.fluent.models.WhatIfOperationProperties.diagnostics()"
+  fullName: "com.azure.resourcemanager.resources.deployments.fluent.models.WhatIfOperationProperties.diagnostics()"
+  name: "diagnostics()"
+  nameWithType: "WhatIfOperationProperties.diagnostics()"
+  summary: "Get the diagnostics property: List of resource diagnostics detected by What-If operation."
+  syntax: "public List<DeploymentDiagnosticsDefinition> diagnostics()"
+  desc: "Get the diagnostics property: List of resource diagnostics detected by What-If operation."
+  returns:
+    description: "the diagnostics value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.resources.deployments.models.DeploymentDiagnosticsDefinition?alt=com.azure.resourcemanager.resources.deployments.models.DeploymentDiagnosticsDefinition&text=DeploymentDiagnosticsDefinition\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.resources.deployments.fluent.models.WhatIfOperationProperties.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.resources.deployments.fluent.models.WhatIfOperationProperties.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "WhatIfOperationProperties.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of What<wbr>IfOperation<wbr>Properties from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static WhatIfOperationProperties fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the WhatIfOperationProperties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of WhatIfOperationProperties from the JsonReader."
+  returns:
+    description: "An instance of WhatIfOperationProperties if the JsonReader was pointing to an instance of it, or null if\n it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deployments.fluent.models.WhatIfOperationProperties?alt=com.azure.resourcemanager.resources.deployments.fluent.models.WhatIfOperationProperties&text=WhatIfOperationProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deployments.fluent.models.WhatIfOperationProperties.potentialChanges()"
+  fullName: "com.azure.resourcemanager.resources.deployments.fluent.models.WhatIfOperationProperties.potentialChanges()"
+  name: "potentialChanges()"
+  nameWithType: "WhatIfOperationProperties.potentialChanges()"
+  summary: "Get the potential<wbr>Changes property: List of resource changes predicted by What-If operation."
+  syntax: "public List<WhatIfChange> potentialChanges()"
+  desc: "Get the potentialChanges property: List of resource changes predicted by What-If operation."
+  returns:
+    description: "the potentialChanges value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.resources.deployments.models.WhatIfChange?alt=com.azure.resourcemanager.resources.deployments.models.WhatIfChange&text=WhatIfChange\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.resources.deployments.fluent.models.WhatIfOperationProperties.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.resources.deployments.fluent.models.WhatIfOperationProperties.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "WhatIfOperationProperties.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Deployment operation properties."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resources.deployments.fluent.models.WhatIfOperationProperties?alt=com.azure.resourcemanager.resources.deployments.fluent.models.WhatIfOperationProperties&text=WhatIfOperationProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.resources.deployments.fluent.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-deployments:1.0.0

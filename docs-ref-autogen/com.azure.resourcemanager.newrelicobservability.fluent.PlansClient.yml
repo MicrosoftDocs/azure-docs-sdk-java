@@ -10,11 +10,11 @@ methods:
   fullName: "com.azure.resourcemanager.newrelicobservability.fluent.PlansClient.list()"
   name: "list()"
   nameWithType: "PlansClient.list()"
-  summary: "List plans data."
+  summary: "Lists the plans data linked to your organization, providing an overview of the available plans."
   modifiers:
   - "abstract"
   syntax: "public abstract PagedIterable<PlanDataResourceInner> list()"
-  desc: "List plans data."
+  desc: "Lists the plans data linked to your organization, providing an overview of the available plans."
   returns:
     description: "response of get all plan data Operation as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.newrelicobservability.fluent.models.PlanDataResourceInner?alt=com.azure.resourcemanager.newrelicobservability.fluent.models.PlanDataResourceInner&text=PlanDataResourceInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -22,7 +22,7 @@ methods:
   fullName: "com.azure.resourcemanager.newrelicobservability.fluent.PlansClient.list(String accountId, String organizationId, Context context)"
   name: "list(String accountId, String organizationId, Context context)"
   nameWithType: "PlansClient.list(String accountId, String organizationId, Context context)"
-  summary: "List plans data."
+  summary: "Lists the plans data linked to your organization, providing an overview of the available plans."
   modifiers:
   - "abstract"
   parameters:
@@ -36,7 +36,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract PagedIterable<PlanDataResourceInner> list(String accountId, String organizationId, Context context)"
-  desc: "List plans data."
+  desc: "Lists the plans data linked to your organization, providing an overview of the available plans."
   returns:
     description: "response of get all plan data Operation as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.newrelicobservability.fluent.models.PlanDataResourceInner?alt=com.azure.resourcemanager.newrelicobservability.fluent.models.PlanDataResourceInner&text=PlanDataResourceInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -44,4 +44,4 @@ type: "interface"
 desc: "An instance of this class provides access to all the operations defined in PlansClient."
 metadata: {}
 package: "com.azure.resourcemanager.newrelicobservability.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-newrelicobservability:1.2.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-newrelicobservability:1.3.0

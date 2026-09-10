@@ -108,6 +108,16 @@ methods:
   returns:
     description: "the id value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.containerregistry.fluent.models.ConnectedRegistryInner.identity()"
+  fullName: "com.azure.resourcemanager.containerregistry.fluent.models.ConnectedRegistryInner.identity()"
+  name: "identity()"
+  nameWithType: "ConnectedRegistryInner.identity()"
+  summary: "Get the identity property: The user-assigned managed identity used by the on-prem connected registry to authenticate with the cloud registry for sync operations."
+  syntax: "public ManagedServiceIdentity identity()"
+  desc: "Get the identity property: The user-assigned managed identity used by the on-prem connected registry to authenticate with the cloud registry for sync operations. Requires authType to be ManagedIdentity."
+  returns:
+    description: "the identity value."
+    type: "<xref href=\"com.azure.resourcemanager.containerregistry.models.ManagedServiceIdentity?alt=com.azure.resourcemanager.containerregistry.models.ManagedServiceIdentity&text=ManagedServiceIdentity\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.containerregistry.fluent.models.ConnectedRegistryInner.lastActivityTime()"
   fullName: "com.azure.resourcemanager.containerregistry.fluent.models.ConnectedRegistryInner.lastActivityTime()"
   name: "lastActivityTime()"
@@ -288,6 +298,20 @@ methods:
   returns:
     description: "the ConnectedRegistryInner object itself."
     type: "<xref href=\"com.azure.resourcemanager.containerregistry.fluent.models.ConnectedRegistryInner?alt=com.azure.resourcemanager.containerregistry.fluent.models.ConnectedRegistryInner&text=ConnectedRegistryInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.containerregistry.fluent.models.ConnectedRegistryInner.withIdentity(com.azure.resourcemanager.containerregistry.models.ManagedServiceIdentity)"
+  fullName: "com.azure.resourcemanager.containerregistry.fluent.models.ConnectedRegistryInner.withIdentity(ManagedServiceIdentity identity)"
+  name: "withIdentity(ManagedServiceIdentity identity)"
+  nameWithType: "ConnectedRegistryInner.withIdentity(ManagedServiceIdentity identity)"
+  summary: "Set the identity property: The user-assigned managed identity used by the on-prem connected registry to authenticate with the cloud registry for sync operations."
+  parameters:
+  - description: "the identity value to set."
+    name: "identity"
+    type: "<xref href=\"com.azure.resourcemanager.containerregistry.models.ManagedServiceIdentity?alt=com.azure.resourcemanager.containerregistry.models.ManagedServiceIdentity&text=ManagedServiceIdentity\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ConnectedRegistryInner withIdentity(ManagedServiceIdentity identity)"
+  desc: "Set the identity property: The user-assigned managed identity used by the on-prem connected registry to authenticate with the cloud registry for sync operations. Requires authType to be ManagedIdentity."
+  returns:
+    description: "the ConnectedRegistryInner object itself."
+    type: "<xref href=\"com.azure.resourcemanager.containerregistry.fluent.models.ConnectedRegistryInner?alt=com.azure.resourcemanager.containerregistry.fluent.models.ConnectedRegistryInner&text=ConnectedRegistryInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.containerregistry.fluent.models.ConnectedRegistryInner.withLogging(com.azure.resourcemanager.containerregistry.models.LoggingProperties)"
   fullName: "com.azure.resourcemanager.containerregistry.fluent.models.ConnectedRegistryInner.withLogging(LoggingProperties logging)"
   name: "withLogging(LoggingProperties logging)"
@@ -376,4 +400,4 @@ type: "class"
 desc: "An object that represents a connected registry for a container registry."
 metadata: {}
 package: "com.azure.resourcemanager.containerregistry.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-containerregistry:2.56.0-beta.2
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerregistry:2.56.0-beta.3

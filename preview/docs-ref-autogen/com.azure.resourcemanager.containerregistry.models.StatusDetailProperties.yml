@@ -22,6 +22,16 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **StatusDetailProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.containerregistry.models.StatusDetailProperties?alt=com.azure.resourcemanager.containerregistry.models.StatusDetailProperties&text=StatusDetailProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 methods:
+- uid: "com.azure.resourcemanager.containerregistry.models.StatusDetailProperties.availableGib()"
+  fullName: "com.azure.resourcemanager.containerregistry.models.StatusDetailProperties.availableGib()"
+  name: "availableGib()"
+  nameWithType: "StatusDetailProperties.availableGib()"
+  summary: "Get the available<wbr>Gib property: The available disk space in gibibytes (Gib, base-2)."
+  syntax: "public Double availableGib()"
+  desc: "Get the availableGib property: The available disk space in gibibytes (Gib, base-2)."
+  returns:
+    description: "the availableGib value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Double.html\">Double</a>"
 - uid: "com.azure.resourcemanager.containerregistry.models.StatusDetailProperties.code()"
   fullName: "com.azure.resourcemanager.containerregistry.models.StatusDetailProperties.code()"
   name: "code()"
@@ -93,6 +103,16 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.containerregistry.models.StatusDetailProperties.totalGib()"
+  fullName: "com.azure.resourcemanager.containerregistry.models.StatusDetailProperties.totalGib()"
+  name: "totalGib()"
+  nameWithType: "StatusDetailProperties.totalGib()"
+  summary: "Get the total<wbr>Gib property: The total disk space in gibibytes (Gib, base-2)."
+  syntax: "public Double totalGib()"
+  desc: "Get the totalGib property: The total disk space in gibibytes (Gib, base-2)."
+  returns:
+    description: "the totalGib value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Double.html\">Double</a>"
 - uid: "com.azure.resourcemanager.containerregistry.models.StatusDetailProperties.type()"
   fullName: "com.azure.resourcemanager.containerregistry.models.StatusDetailProperties.type()"
   name: "type()"
@@ -116,4 +136,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.containerregistry.models.StatusDetailProperties?alt=com.azure.resourcemanager.containerregistry.models.StatusDetailProperties&text=StatusDetailProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.containerregistry.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-containerregistry:2.56.0-beta.2
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerregistry:2.56.0-beta.3

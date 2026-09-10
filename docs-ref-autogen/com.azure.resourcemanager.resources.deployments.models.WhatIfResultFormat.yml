@@ -1,0 +1,95 @@
+### YamlMime:JavaEnum
+uid: "com.azure.resourcemanager.resources.deployments.models.WhatIfResultFormat"
+fullName: "com.azure.resourcemanager.resources.deployments.models.WhatIfResultFormat"
+name: "WhatIfResultFormat"
+nameWithType: "WhatIfResultFormat"
+summary: "The format of the What-If results."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Enum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html\">Enum</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#valueOf-java.lang.Class-java.lang.String-\">valueOf</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#compareTo-E-\">compareTo</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#describeConstable--\">describeConstable</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#getDeclaringClass--\">getDeclaringClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#name--\">name</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#ordinal--\">ordinal</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#toString--\">toString</a>"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public enum **WhatIfResultFormat**</br> extends <a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html\">Enum</a>&lt;<xref href=\"com.azure.resourcemanager.resources.deployments.models.WhatIfResultFormat?alt=com.azure.resourcemanager.resources.deployments.models.WhatIfResultFormat&text=WhatIfResultFormat\" data-throw-if-not-resolved=\"False\" />&gt;"
+fields:
+- uid: "com.azure.resourcemanager.resources.deployments.models.WhatIfResultFormat.FULL_RESOURCE_PAYLOADS"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.WhatIfResultFormat.FULL_RESOURCE_PAYLOADS"
+  name: "FULL_RESOURCE_PAYLOADS"
+  nameWithType: "WhatIfResultFormat.FULL_RESOURCE_PAYLOADS"
+  summary: "Full<wbr>Resource<wbr>Payloads."
+  desc: "FullResourcePayloads."
+- uid: "com.azure.resourcemanager.resources.deployments.models.WhatIfResultFormat.RESOURCE_ID_ONLY"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.WhatIfResultFormat.RESOURCE_ID_ONLY"
+  name: "RESOURCE_ID_ONLY"
+  nameWithType: "WhatIfResultFormat.RESOURCE_ID_ONLY"
+  summary: "Resource<wbr>IdOnly."
+  desc: "ResourceIdOnly."
+methods:
+- uid: "com.azure.resourcemanager.resources.deployments.models.WhatIfResultFormat.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.WhatIfResultFormat.fromString(String value)"
+  name: "fromString(String value)"
+  nameWithType: "WhatIfResultFormat.fromString(String value)"
+  summary: "Parses a serialized value to a What<wbr>IfResult<wbr>Format instance."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "the serialized value to parse."
+    name: "value"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static WhatIfResultFormat fromString(String value)"
+  desc: "Parses a serialized value to a WhatIfResultFormat instance."
+  returns:
+    description: "the parsed WhatIfResultFormat object, or null if unable to parse."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deployments.models.WhatIfResultFormat?alt=com.azure.resourcemanager.resources.deployments.models.WhatIfResultFormat&text=WhatIfResultFormat\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deployments.models.WhatIfResultFormat.toString()"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.WhatIfResultFormat.toString()"
+  name: "toString()"
+  nameWithType: "WhatIfResultFormat.toString()"
+  overridden: "java.lang.Enum.toString()"
+  syntax: "public String toString()"
+  returns:
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.resources.deployments.models.WhatIfResultFormat.valueOf(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.WhatIfResultFormat.valueOf(String name)"
+  name: "valueOf(String name)"
+  nameWithType: "WhatIfResultFormat.valueOf(String name)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static WhatIfResultFormat valueOf(String name)"
+  returns:
+    type: "<xref href=\"com.azure.resourcemanager.resources.deployments.models.WhatIfResultFormat?alt=com.azure.resourcemanager.resources.deployments.models.WhatIfResultFormat&text=WhatIfResultFormat\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deployments.models.WhatIfResultFormat.values()"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.WhatIfResultFormat.values()"
+  name: "values()"
+  nameWithType: "WhatIfResultFormat.values()"
+  modifiers:
+  - "static"
+  syntax: "public static WhatIfResultFormat[] values()"
+  returns:
+    type: "<xref href=\"com.azure.resourcemanager.resources.deployments.models.WhatIfResultFormat?alt=com.azure.resourcemanager.resources.deployments.models.WhatIfResultFormat&text=WhatIfResultFormat\" data-throw-if-not-resolved=\"False\" />[]"
+desc: "The format of the What-If results."
+metadata: {}
+package: "com.azure.resourcemanager.resources.deployments.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-deployments:1.0.0

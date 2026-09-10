@@ -1,0 +1,37 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.deployments.models.DeploymentExportResult"
+fullName: "com.azure.resourcemanager.resources.deployments.models.DeploymentExportResult"
+name: "DeploymentExportResult"
+nameWithType: "DeploymentExportResult"
+summary: "An immutable client-side representation of Deployment<wbr>Export<wbr>Result."
+syntax: "public interface **DeploymentExportResult**"
+methods:
+- uid: "com.azure.resourcemanager.resources.deployments.models.DeploymentExportResult.innerModel()"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.DeploymentExportResult.innerModel()"
+  name: "innerModel()"
+  nameWithType: "DeploymentExportResult.innerModel()"
+  summary: "Gets the inner com.<wbr>azure.<wbr>resourcemanager.<wbr>resources.<wbr>deployments.<wbr>fluent.<wbr>models.<wbr>Deployment<wbr>Export<wbr>Result<wbr>Inner object."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract DeploymentExportResultInner innerModel()"
+  desc: "Gets the inner com.azure.resourcemanager.resources.deployments.fluent.models.DeploymentExportResultInner object."
+  returns:
+    description: "the inner object."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deployments.fluent.models.DeploymentExportResultInner?alt=com.azure.resourcemanager.resources.deployments.fluent.models.DeploymentExportResultInner&text=DeploymentExportResultInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deployments.models.DeploymentExportResult.template()"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.DeploymentExportResult.template()"
+  name: "template()"
+  nameWithType: "DeploymentExportResult.template()"
+  summary: "Gets the template property: The template content."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract BinaryData template()"
+  desc: "Gets the template property: The template content."
+  returns:
+    description: "the template value."
+    type: "<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "An immutable client-side representation of DeploymentExportResult."
+metadata: {}
+package: "com.azure.resourcemanager.resources.deployments.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-deployments:1.0.0

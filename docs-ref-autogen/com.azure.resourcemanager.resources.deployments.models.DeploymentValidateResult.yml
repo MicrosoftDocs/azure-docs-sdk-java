@@ -1,0 +1,85 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.deployments.models.DeploymentValidateResult"
+fullName: "com.azure.resourcemanager.resources.deployments.models.DeploymentValidateResult"
+name: "DeploymentValidateResult"
+nameWithType: "DeploymentValidateResult"
+summary: "An immutable client-side representation of Deployment<wbr>Validate<wbr>Result."
+syntax: "public interface **DeploymentValidateResult**"
+methods:
+- uid: "com.azure.resourcemanager.resources.deployments.models.DeploymentValidateResult.error()"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.DeploymentValidateResult.error()"
+  name: "error()"
+  nameWithType: "DeploymentValidateResult.error()"
+  summary: "Gets the error property: The deployment validation error."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ManagementError error()"
+  desc: "Gets the error property: The deployment validation error."
+  returns:
+    description: "the error value."
+    type: "<xref href=\"com.azure.core.management.exception.ManagementError?alt=com.azure.core.management.exception.ManagementError&text=ManagementError\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deployments.models.DeploymentValidateResult.id()"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.DeploymentValidateResult.id()"
+  name: "id()"
+  nameWithType: "DeploymentValidateResult.id()"
+  summary: "Gets the id property: The ID of the deployment."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String id()"
+  desc: "Gets the id property: The ID of the deployment."
+  returns:
+    description: "the id value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.resources.deployments.models.DeploymentValidateResult.innerModel()"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.DeploymentValidateResult.innerModel()"
+  name: "innerModel()"
+  nameWithType: "DeploymentValidateResult.innerModel()"
+  summary: "Gets the inner com.<wbr>azure.<wbr>resourcemanager.<wbr>resources.<wbr>deployments.<wbr>fluent.<wbr>models.<wbr>Deployment<wbr>Validate<wbr>Result<wbr>Inner object."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract DeploymentValidateResultInner innerModel()"
+  desc: "Gets the inner com.azure.resourcemanager.resources.deployments.fluent.models.DeploymentValidateResultInner object."
+  returns:
+    description: "the inner object."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deployments.fluent.models.DeploymentValidateResultInner?alt=com.azure.resourcemanager.resources.deployments.fluent.models.DeploymentValidateResultInner&text=DeploymentValidateResultInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deployments.models.DeploymentValidateResult.name()"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.DeploymentValidateResult.name()"
+  name: "name()"
+  nameWithType: "DeploymentValidateResult.name()"
+  summary: "Gets the name property: The name of the deployment."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String name()"
+  desc: "Gets the name property: The name of the deployment."
+  returns:
+    description: "the name value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.resources.deployments.models.DeploymentValidateResult.properties()"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.DeploymentValidateResult.properties()"
+  name: "properties()"
+  nameWithType: "DeploymentValidateResult.properties()"
+  summary: "Gets the properties property: The template deployment properties."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract DeploymentPropertiesExtended properties()"
+  desc: "Gets the properties property: The template deployment properties."
+  returns:
+    description: "the properties value."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deployments.models.DeploymentPropertiesExtended?alt=com.azure.resourcemanager.resources.deployments.models.DeploymentPropertiesExtended&text=DeploymentPropertiesExtended\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deployments.models.DeploymentValidateResult.type()"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.DeploymentValidateResult.type()"
+  name: "type()"
+  nameWithType: "DeploymentValidateResult.type()"
+  summary: "Gets the type property: The type of the deployment."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String type()"
+  desc: "Gets the type property: The type of the deployment."
+  returns:
+    description: "the type value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+type: "interface"
+desc: "An immutable client-side representation of DeploymentValidateResult."
+metadata: {}
+package: "com.azure.resourcemanager.resources.deployments.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-deployments:1.0.0

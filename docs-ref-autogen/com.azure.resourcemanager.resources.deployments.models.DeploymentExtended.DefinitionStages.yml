@@ -1,0 +1,12 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.DefinitionStages"
+fullName: "com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.DefinitionStages"
+name: "DeploymentExtended.DefinitionStages"
+nameWithType: "DeploymentExtended.DefinitionStages"
+summary: "The Deployment<wbr>Extended definition stages."
+syntax: "public static interface **DeploymentExtended.DefinitionStages**"
+type: "interface"
+desc: "The DeploymentExtended definition stages."
+metadata: {}
+package: "com.azure.resourcemanager.resources.deployments.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-deployments:1.0.0

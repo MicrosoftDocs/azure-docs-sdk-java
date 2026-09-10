@@ -1,0 +1,45 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.DefinitionStages.WithLocation"
+fullName: "com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.DefinitionStages.WithLocation"
+name: "DeploymentExtended.DefinitionStages.WithLocation"
+nameWithType: "DeploymentExtended.DefinitionStages.WithLocation"
+summary: "The stage of the Deployment<wbr>Extended definition allowing to specify location."
+syntax: "public static interface **DeploymentExtended.DefinitionStages.WithLocation**"
+methods:
+- uid: "com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.DefinitionStages.WithLocation.withRegion(com.azure.core.management.Region)"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.DefinitionStages.WithLocation.withRegion(Region location)"
+  name: "withRegion(Region location)"
+  nameWithType: "DeploymentExtended.DefinitionStages.WithLocation.withRegion(Region location)"
+  summary: "Specifies the region for the resource."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The location to store the deployment data."
+    name: "location"
+    type: "<xref href=\"com.azure.core.management.Region?alt=com.azure.core.management.Region&text=Region\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract DeploymentExtended.DefinitionStages.WithCreate withRegion(Region location)"
+  desc: "Specifies the region for the resource."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.DefinitionStages.WithLocation.withRegion(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.DefinitionStages.WithLocation.withRegion(String location)"
+  name: "withRegion(String location)"
+  nameWithType: "DeploymentExtended.DefinitionStages.WithLocation.withRegion(String location)"
+  summary: "Specifies the region for the resource."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The location to store the deployment data."
+    name: "location"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract DeploymentExtended.DefinitionStages.WithCreate withRegion(String location)"
+  desc: "Specifies the region for the resource."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.resources.deployments.models.DeploymentExtended.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the DeploymentExtended definition allowing to specify location."
+metadata: {}
+package: "com.azure.resourcemanager.resources.deployments.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-deployments:1.0.0

@@ -1,0 +1,49 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.deployments.models.TemplateHashResult"
+fullName: "com.azure.resourcemanager.resources.deployments.models.TemplateHashResult"
+name: "TemplateHashResult"
+nameWithType: "TemplateHashResult"
+summary: "An immutable client-side representation of Template<wbr>Hash<wbr>Result."
+syntax: "public interface **TemplateHashResult**"
+methods:
+- uid: "com.azure.resourcemanager.resources.deployments.models.TemplateHashResult.innerModel()"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.TemplateHashResult.innerModel()"
+  name: "innerModel()"
+  nameWithType: "TemplateHashResult.innerModel()"
+  summary: "Gets the inner com.<wbr>azure.<wbr>resourcemanager.<wbr>resources.<wbr>deployments.<wbr>fluent.<wbr>models.<wbr>Template<wbr>Hash<wbr>Result<wbr>Inner object."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract TemplateHashResultInner innerModel()"
+  desc: "Gets the inner com.azure.resourcemanager.resources.deployments.fluent.models.TemplateHashResultInner object."
+  returns:
+    description: "the inner object."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deployments.fluent.models.TemplateHashResultInner?alt=com.azure.resourcemanager.resources.deployments.fluent.models.TemplateHashResultInner&text=TemplateHashResultInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deployments.models.TemplateHashResult.minifiedTemplate()"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.TemplateHashResult.minifiedTemplate()"
+  name: "minifiedTemplate()"
+  nameWithType: "TemplateHashResult.minifiedTemplate()"
+  summary: "Gets the minified<wbr>Template property: The minified template string."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String minifiedTemplate()"
+  desc: "Gets the minifiedTemplate property: The minified template string."
+  returns:
+    description: "the minifiedTemplate value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.resources.deployments.models.TemplateHashResult.templateHash()"
+  fullName: "com.azure.resourcemanager.resources.deployments.models.TemplateHashResult.templateHash()"
+  name: "templateHash()"
+  nameWithType: "TemplateHashResult.templateHash()"
+  summary: "Gets the template<wbr>Hash property: The template hash."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String templateHash()"
+  desc: "Gets the templateHash property: The template hash."
+  returns:
+    description: "the templateHash value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+type: "interface"
+desc: "An immutable client-side representation of TemplateHashResult."
+metadata: {}
+package: "com.azure.resourcemanager.resources.deployments.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-deployments:1.0.0
