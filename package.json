@@ -5,7 +5,7 @@
       {
         "packageArtifactId": "azure-ai-agents",
         "packageGroupId": "com.azure",
-        "packageVersion": "2.4.0",
+        "packageVersion": "2.5.0",
         "packageDownloadUrl": "https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-java/maven/v1"
       },
       {
@@ -41,7 +41,7 @@
       {
         "packageArtifactId": "azure-ai-projects",
         "packageGroupId": "com.azure",
-        "packageVersion": "2.4.0",
+        "packageVersion": "2.5.0",
         "packageDownloadUrl": "https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-java/maven/v1"
       },
       {
@@ -606,7 +606,7 @@
       {
         "packageArtifactId": "azure-resourcemanager-avs",
         "packageGroupId": "com.azure.resourcemanager",
-        "packageVersion": "1.4.0",
+        "packageVersion": "1.5.0",
         "packageDownloadUrl": "https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-java/maven/v1"
       },
       {
@@ -1393,6 +1393,12 @@
         "packageArtifactId": "azure-resourcemanager-redisenterprise",
         "packageGroupId": "com.azure.resourcemanager",
         "packageVersion": "2.1.0",
+        "packageDownloadUrl": "https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-java/maven/v1"
+      },
+      {
+        "packageArtifactId": "azure-resourcemanager-relay",
+        "packageGroupId": "com.azure.resourcemanager",
+        "packageVersion": "1.1.0",
         "packageDownloadUrl": "https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-java/maven/v1"
       },
       {
