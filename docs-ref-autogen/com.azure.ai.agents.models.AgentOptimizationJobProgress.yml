@@ -61,16 +61,16 @@ methods:
   returns:
     description: "the candidatesCompleted value."
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.ai.agents.models.AgentOptimizationJobProgress.getElapsedSeconds()"
-  fullName: "com.azure.ai.agents.models.AgentOptimizationJobProgress.getElapsedSeconds()"
-  name: "getElapsedSeconds()"
-  nameWithType: "AgentOptimizationJobProgress.getElapsedSeconds()"
-  summary: "Get the elapsed<wbr>Seconds property: Wall-clock time elapsed in seconds since the job began executing."
-  syntax: "public double getElapsedSeconds()"
-  desc: "Get the elapsedSeconds property: Wall-clock time elapsed in seconds since the job began executing."
+- uid: "com.azure.ai.agents.models.AgentOptimizationJobProgress.getElapsed()"
+  fullName: "com.azure.ai.agents.models.AgentOptimizationJobProgress.getElapsed()"
+  name: "getElapsed()"
+  nameWithType: "AgentOptimizationJobProgress.getElapsed()"
+  summary: "Get the elapsed property: Wall-clock time elapsed in seconds since the job began executing."
+  syntax: "public Duration getElapsed()"
+  desc: "Get the elapsed property: Wall-clock time elapsed in seconds since the job began executing."
   returns:
-    description: "the elapsedSeconds value."
-    type: "<xref href=\"double?alt=double&text=double\" data-throw-if-not-resolved=\"False\" />"
+    description: "the elapsed value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html\">Duration</a>"
 - uid: "com.azure.ai.agents.models.AgentOptimizationJobProgress.toJson(com.azure.json.JsonWriter)"
   fullName: "com.azure.ai.agents.models.AgentOptimizationJobProgress.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
@@ -89,4 +89,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.AgentOptimizationJobProgress?alt=com.azure.ai.agents.models.AgentOptimizationJobProgress&text=AgentOptimizationJobProgress\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.ai.agents.models"
-artifact: com.azure:azure-ai-agents:2.4.0
+artifact: com.azure:azure-ai-agents:2.5.0

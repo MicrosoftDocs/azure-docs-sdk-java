@@ -1,0 +1,16 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.relay.models.HybridConnection.Definition"
+fullName: "com.azure.resourcemanager.relay.models.HybridConnection.Definition"
+name: "HybridConnection.Definition"
+nameWithType: "HybridConnection.Definition"
+summary: "The entirety of the Hybrid<wbr>Connection definition."
+syntax: "public static interface **HybridConnection.Definition**</br> extends <xref href=\"com.azure.resourcemanager.relay.models.HybridConnection.DefinitionStages.Blank?alt=com.azure.resourcemanager.relay.models.HybridConnection.DefinitionStages.Blank&text=Blank\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.relay.models.HybridConnection.DefinitionStages.WithParentResource?alt=com.azure.resourcemanager.relay.models.HybridConnection.DefinitionStages.WithParentResource&text=WithParentResource\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.relay.models.HybridConnection.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.relay.models.HybridConnection.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of the HybridConnection definition."
+implements:
+- "<xref href=\"com.azure.resourcemanager.relay.models.HybridConnection.DefinitionStages.Blank?alt=com.azure.resourcemanager.relay.models.HybridConnection.DefinitionStages.Blank&text=Blank\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.relay.models.HybridConnection.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.relay.models.HybridConnection.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.relay.models.HybridConnection.DefinitionStages.WithParentResource?alt=com.azure.resourcemanager.relay.models.HybridConnection.DefinitionStages.WithParentResource&text=WithParentResource\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.azure.resourcemanager.relay.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-relay:1.1.0

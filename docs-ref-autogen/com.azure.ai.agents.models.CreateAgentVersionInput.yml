@@ -69,7 +69,7 @@ methods:
   nameWithType: "CreateAgentVersionInput.getDefinition()"
   summary: "Get the definition property: The agent definition."
   syntax: "public AgentDefinition getDefinition()"
-  desc: "Get the definition property: The agent definition. This can be a workflow, hosted agent, or a simple agent definition."
+  desc: "Get the definition property: The agent definition. This can be a prompt, workflow, hosted, external, or voice agent definition."
   returns:
     description: "the definition value."
     type: "<xref href=\"com.azure.ai.agents.models.AgentDefinition?alt=com.azure.ai.agents.models.AgentDefinition&text=AgentDefinition\" data-throw-if-not-resolved=\"False\" />"
@@ -83,6 +83,16 @@ methods:
   returns:
     description: "the description value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.ai.agents.models.CreateAgentVersionInput.getDigitalWorkerType()"
+  fullName: "com.azure.ai.agents.models.CreateAgentVersionInput.getDigitalWorkerType()"
+  name: "getDigitalWorkerType()"
+  nameWithType: "CreateAgentVersionInput.getDigitalWorkerType()"
+  summary: "Get the digital<wbr>Worker<wbr>Type property: (Preview) The type of digital worker (previously known as \\`autopilot\\`)."
+  syntax: "public DigitalWorkerType getDigitalWorkerType()"
+  desc: "Get the digitalWorkerType property: (Preview) The type of digital worker (previously known as \\`autopilot\\`). If omitted, it is not a digital worker."
+  returns:
+    description: "the digitalWorkerType value."
+    type: "<xref href=\"com.azure.ai.agents.models.DigitalWorkerType?alt=com.azure.ai.agents.models.DigitalWorkerType&text=DigitalWorkerType\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.ai.agents.models.CreateAgentVersionInput.getMetadata()"
   fullName: "com.azure.ai.agents.models.CreateAgentVersionInput.getMetadata()"
   name: "getMetadata()"
@@ -128,6 +138,20 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public CreateAgentVersionInput setDescription(String description)"
   desc: "Set the description property: A human-readable description of the agent."
+  returns:
+    description: "the CreateAgentVersionInput object itself."
+    type: "<xref href=\"com.azure.ai.agents.models.CreateAgentVersionInput?alt=com.azure.ai.agents.models.CreateAgentVersionInput&text=CreateAgentVersionInput\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.agents.models.CreateAgentVersionInput.setDigitalWorkerType(com.azure.ai.agents.models.DigitalWorkerType)"
+  fullName: "com.azure.ai.agents.models.CreateAgentVersionInput.setDigitalWorkerType(DigitalWorkerType digitalWorkerType)"
+  name: "setDigitalWorkerType(DigitalWorkerType digitalWorkerType)"
+  nameWithType: "CreateAgentVersionInput.setDigitalWorkerType(DigitalWorkerType digitalWorkerType)"
+  summary: "Set the digital<wbr>Worker<wbr>Type property: (Preview) The type of digital worker (previously known as \\`autopilot\\`)."
+  parameters:
+  - description: "the digitalWorkerType value to set."
+    name: "digitalWorkerType"
+    type: "<xref href=\"com.azure.ai.agents.models.DigitalWorkerType?alt=com.azure.ai.agents.models.DigitalWorkerType&text=DigitalWorkerType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public CreateAgentVersionInput setDigitalWorkerType(DigitalWorkerType digitalWorkerType)"
+  desc: "Set the digitalWorkerType property: (Preview) The type of digital worker (previously known as \\`autopilot\\`). If omitted, it is not a digital worker."
   returns:
     description: "the CreateAgentVersionInput object itself."
     type: "<xref href=\"com.azure.ai.agents.models.CreateAgentVersionInput?alt=com.azure.ai.agents.models.CreateAgentVersionInput&text=CreateAgentVersionInput\" data-throw-if-not-resolved=\"False\" />"
@@ -177,4 +201,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.CreateAgentVersionInput?alt=com.azure.ai.agents.models.CreateAgentVersionInput&text=CreateAgentVersionInput\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.ai.agents.models"
-artifact: com.azure:azure-ai-agents:2.4.0
+artifact: com.azure:azure-ai-agents:2.5.0

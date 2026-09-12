@@ -1,0 +1,134 @@
+### YamlMime:JavaType
+uid: "com.azure.ai.agents.models.PublishApprovalStatus"
+fullName: "com.azure.ai.agents.models.PublishApprovalStatus"
+name: "PublishApprovalStatus"
+nameWithType: "PublishApprovalStatus"
+summary: "The Microsoft Agent Certification review status of the Microsoft 365 store title published for an agent."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **PublishApprovalStatus**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.PublishApprovalStatus?alt=com.azure.ai.agents.models.PublishApprovalStatus&text=PublishApprovalStatus\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.ai.agents.models.PublishApprovalStatus.PublishApprovalStatus()"
+  fullName: "com.azure.ai.agents.models.PublishApprovalStatus.PublishApprovalStatus()"
+  name: "PublishApprovalStatus()"
+  nameWithType: "PublishApprovalStatus.PublishApprovalStatus()"
+  summary: "Creates a new instance of Publish<wbr>Approval<wbr>Status value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.ai.agents.models.PublishApprovalStatus.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public PublishApprovalStatus()"
+  desc: "Creates a new instance of PublishApprovalStatus value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.ai.agents.models.PublishApprovalStatus.APPROVED"
+  fullName: "com.azure.ai.agents.models.PublishApprovalStatus.APPROVED"
+  name: "APPROVED"
+  nameWithType: "PublishApprovalStatus.APPROVED"
+  summary: "The title passed review, as of this read."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.agents.models.PublishApprovalStatus?alt=com.azure.ai.agents.models.PublishApprovalStatus&text=PublishApprovalStatus\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final PublishApprovalStatus APPROVED"
+  desc: "The title passed review, as of this read."
+- uid: "com.azure.ai.agents.models.PublishApprovalStatus.NOT_PUBLISHED"
+  fullName: "com.azure.ai.agents.models.PublishApprovalStatus.NOT_PUBLISHED"
+  name: "NOT_PUBLISHED"
+  nameWithType: "PublishApprovalStatus.NOT_PUBLISHED"
+  summary: "The agent has never been published to the Microsoft 365 store, so there is nothing to review."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.agents.models.PublishApprovalStatus?alt=com.azure.ai.agents.models.PublishApprovalStatus&text=PublishApprovalStatus\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final PublishApprovalStatus NOT_PUBLISHED"
+  desc: "The agent has never been published to the Microsoft 365 store, so there is nothing to review."
+- uid: "com.azure.ai.agents.models.PublishApprovalStatus.NO_APPROVAL_NEEDED"
+  fullName: "com.azure.ai.agents.models.PublishApprovalStatus.NO_APPROVAL_NEEDED"
+  name: "NO_APPROVAL_NEEDED"
+  nameWithType: "PublishApprovalStatus.NO_APPROVAL_NEEDED"
+  summary: "The agent is published at a scope that does not go through Microsoft Agent Certification."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.agents.models.PublishApprovalStatus?alt=com.azure.ai.agents.models.PublishApprovalStatus&text=PublishApprovalStatus\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final PublishApprovalStatus NO_APPROVAL_NEEDED"
+  desc: "The agent is published at a scope that does not go through Microsoft Agent Certification. Only tenant-scoped titles are reviewed."
+- uid: "com.azure.ai.agents.models.PublishApprovalStatus.PENDING"
+  fullName: "com.azure.ai.agents.models.PublishApprovalStatus.PENDING"
+  name: "PENDING"
+  nameWithType: "PublishApprovalStatus.PENDING"
+  summary: "The published title is awaiting a review decision."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.agents.models.PublishApprovalStatus?alt=com.azure.ai.agents.models.PublishApprovalStatus&text=PublishApprovalStatus\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final PublishApprovalStatus PENDING"
+  desc: "The published title is awaiting a review decision."
+- uid: "com.azure.ai.agents.models.PublishApprovalStatus.REJECTED"
+  fullName: "com.azure.ai.agents.models.PublishApprovalStatus.REJECTED"
+  name: "REJECTED"
+  nameWithType: "PublishApprovalStatus.REJECTED"
+  summary: "The title was rejected in review, as of this read."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.agents.models.PublishApprovalStatus?alt=com.azure.ai.agents.models.PublishApprovalStatus&text=PublishApprovalStatus\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final PublishApprovalStatus REJECTED"
+  desc: "The title was rejected in review, as of this read."
+methods:
+- uid: "com.azure.ai.agents.models.PublishApprovalStatus.fromString(java.lang.String)"
+  fullName: "com.azure.ai.agents.models.PublishApprovalStatus.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "PublishApprovalStatus.fromString(String name)"
+  summary: "Creates or finds a Publish<wbr>Approval<wbr>Status from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static PublishApprovalStatus fromString(String name)"
+  desc: "Creates or finds a PublishApprovalStatus from its string representation."
+  returns:
+    description: "the corresponding PublishApprovalStatus."
+    type: "<xref href=\"com.azure.ai.agents.models.PublishApprovalStatus?alt=com.azure.ai.agents.models.PublishApprovalStatus&text=PublishApprovalStatus\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.agents.models.PublishApprovalStatus.values()"
+  fullName: "com.azure.ai.agents.models.PublishApprovalStatus.values()"
+  name: "values()"
+  nameWithType: "PublishApprovalStatus.values()"
+  summary: "Gets known Publish<wbr>Approval<wbr>Status values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<PublishApprovalStatus> values()"
+  desc: "Gets known PublishApprovalStatus values."
+  returns:
+    description: "known PublishApprovalStatus values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.ai.agents.models.PublishApprovalStatus?alt=com.azure.ai.agents.models.PublishApprovalStatus&text=PublishApprovalStatus\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "The Microsoft Agent Certification review status of the Microsoft 365 store title published for an agent."
+metadata: {}
+package: "com.azure.ai.agents.models"
+artifact: com.azure:azure-ai-agents:2.5.0

@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.relay.models.RelayNamespace.UpdateStages.WithPublicNetworkAccess"
+fullName: "com.azure.resourcemanager.relay.models.RelayNamespace.UpdateStages.WithPublicNetworkAccess"
+name: "RelayNamespace.UpdateStages.WithPublicNetworkAccess"
+nameWithType: "RelayNamespace.UpdateStages.WithPublicNetworkAccess"
+summary: "The stage of the Relay<wbr>Namespace update allowing to specify public<wbr>Network<wbr>Access."
+syntax: "public static interface **RelayNamespace.UpdateStages.WithPublicNetworkAccess**"
+methods:
+- uid: "com.azure.resourcemanager.relay.models.RelayNamespace.UpdateStages.WithPublicNetworkAccess.withPublicNetworkAccess(com.azure.resourcemanager.relay.models.PublicNetworkAccess)"
+  fullName: "com.azure.resourcemanager.relay.models.RelayNamespace.UpdateStages.WithPublicNetworkAccess.withPublicNetworkAccess(PublicNetworkAccess publicNetworkAccess)"
+  name: "withPublicNetworkAccess(PublicNetworkAccess publicNetworkAccess)"
+  nameWithType: "RelayNamespace.UpdateStages.WithPublicNetworkAccess.withPublicNetworkAccess(PublicNetworkAccess publicNetworkAccess)"
+  summary: "Specifies the public<wbr>Network<wbr>Access property: This determines if traffic is allowed over public network."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "This determines if traffic is allowed over public network. By default it is\n enabled."
+    name: "publicNetworkAccess"
+    type: "<xref href=\"com.azure.resourcemanager.relay.models.PublicNetworkAccess?alt=com.azure.resourcemanager.relay.models.PublicNetworkAccess&text=PublicNetworkAccess\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract RelayNamespace.Update withPublicNetworkAccess(PublicNetworkAccess publicNetworkAccess)"
+  desc: "Specifies the publicNetworkAccess property: This determines if traffic is allowed over public network. By default it is enabled.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.relay.models.RelayNamespace.Update?alt=com.azure.resourcemanager.relay.models.RelayNamespace.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the RelayNamespace update allowing to specify publicNetworkAccess."
+metadata: {}
+package: "com.azure.resourcemanager.relay.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-relay:1.1.0

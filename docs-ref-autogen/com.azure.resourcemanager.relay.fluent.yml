@@ -1,0 +1,17 @@
+### YamlMime:JavaPackage
+uid: "com.azure.resourcemanager.relay.fluent"
+fullName: "com.azure.resourcemanager.relay.fluent"
+name: "com.azure.resourcemanager.relay.fluent"
+summary: "Package containing the service clients for Relay."
+interfaces:
+- "com.azure.resourcemanager.relay.fluent.HybridConnectionsClient"
+- "com.azure.resourcemanager.relay.fluent.NamespacesClient"
+- "com.azure.resourcemanager.relay.fluent.OperationsClient"
+- "com.azure.resourcemanager.relay.fluent.PrivateEndpointConnectionsClient"
+- "com.azure.resourcemanager.relay.fluent.PrivateLinkResourcesClient"
+- "com.azure.resourcemanager.relay.fluent.RelayManagementClient"
+- "com.azure.resourcemanager.relay.fluent.WcfRelaysClient"
+desc: "Package containing the service clients for Relay. Use these API to manage Azure Relay resources through Azure Resource Manager."
+metadata: {}
+package: "com.azure.resourcemanager.relay.fluent"
+artifact: com.azure.resourcemanager:azure-resourcemanager-relay:1.1.0

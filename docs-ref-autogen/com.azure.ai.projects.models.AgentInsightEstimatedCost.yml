@@ -1,0 +1,82 @@
+### YamlMime:JavaType
+uid: "com.azure.ai.projects.models.AgentInsightEstimatedCost"
+fullName: "com.azure.ai.projects.models.AgentInsightEstimatedCost"
+name: "AgentInsightEstimatedCost"
+nameWithType: "AgentInsightEstimatedCost"
+summary: "Estimated Agent Insights cost."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **AgentInsightEstimatedCost**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.projects.models.AgentInsightEstimatedCost?alt=com.azure.ai.projects.models.AgentInsightEstimatedCost&text=AgentInsightEstimatedCost\" data-throw-if-not-resolved=\"False\" />&gt;"
+methods:
+- uid: "com.azure.ai.projects.models.AgentInsightEstimatedCost.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.ai.projects.models.AgentInsightEstimatedCost.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "AgentInsightEstimatedCost.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Agent<wbr>Insight<wbr>Estimated<wbr>Cost from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static AgentInsightEstimatedCost fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of AgentInsightEstimatedCost from the JsonReader."
+  returns:
+    description: "An instance of AgentInsightEstimatedCost if the JsonReader was pointing to an instance of it, or null if\n it was pointing to JSON null."
+    type: "<xref href=\"com.azure.ai.projects.models.AgentInsightEstimatedCost?alt=com.azure.ai.projects.models.AgentInsightEstimatedCost&text=AgentInsightEstimatedCost\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.projects.models.AgentInsightEstimatedCost.getAmount()"
+  fullName: "com.azure.ai.projects.models.AgentInsightEstimatedCost.getAmount()"
+  name: "getAmount()"
+  nameWithType: "AgentInsightEstimatedCost.getAmount()"
+  summary: "Get the amount property: Estimated cost amount."
+  syntax: "public double getAmount()"
+  desc: "Get the amount property: Estimated cost amount."
+  returns:
+    description: "the amount value."
+    type: "<xref href=\"double?alt=double&text=double\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.projects.models.AgentInsightEstimatedCost.getCurrency()"
+  fullName: "com.azure.ai.projects.models.AgentInsightEstimatedCost.getCurrency()"
+  name: "getCurrency()"
+  nameWithType: "AgentInsightEstimatedCost.getCurrency()"
+  summary: "Get the currency property: Currency for the estimated cost amount."
+  syntax: "public String getCurrency()"
+  desc: "Get the currency property: Currency for the estimated cost amount. Agent Insights estimates are reported in US dollars."
+  returns:
+    description: "the currency value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.ai.projects.models.AgentInsightEstimatedCost.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.ai.projects.models.AgentInsightEstimatedCost.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "AgentInsightEstimatedCost.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Estimated Agent Insights cost."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.projects.models.AgentInsightEstimatedCost?alt=com.azure.ai.projects.models.AgentInsightEstimatedCost&text=AgentInsightEstimatedCost\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.ai.projects.models"
+artifact: com.azure:azure-ai-projects:2.5.0

@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.relay.models.PrivateEndpointConnection.DefinitionStages.WithPrivateLinkServiceConnectionState"
+fullName: "com.azure.resourcemanager.relay.models.PrivateEndpointConnection.DefinitionStages.WithPrivateLinkServiceConnectionState"
+name: "PrivateEndpointConnection.DefinitionStages.WithPrivateLinkServiceConnectionState"
+nameWithType: "PrivateEndpointConnection.DefinitionStages.WithPrivateLinkServiceConnectionState"
+summary: "The stage of the Private<wbr>Endpoint<wbr>Connection definition allowing to specify private<wbr>Link<wbr>Service<wbr>Connection<wbr>State."
+syntax: "public static interface **PrivateEndpointConnection.DefinitionStages.WithPrivateLinkServiceConnectionState**"
+methods:
+- uid: "com.azure.resourcemanager.relay.models.PrivateEndpointConnection.DefinitionStages.WithPrivateLinkServiceConnectionState.withPrivateLinkServiceConnectionState(com.azure.resourcemanager.relay.models.ConnectionState)"
+  fullName: "com.azure.resourcemanager.relay.models.PrivateEndpointConnection.DefinitionStages.WithPrivateLinkServiceConnectionState.withPrivateLinkServiceConnectionState(ConnectionState privateLinkServiceConnectionState)"
+  name: "withPrivateLinkServiceConnectionState(ConnectionState privateLinkServiceConnectionState)"
+  nameWithType: "PrivateEndpointConnection.DefinitionStages.WithPrivateLinkServiceConnectionState.withPrivateLinkServiceConnectionState(ConnectionState privateLinkServiceConnectionState)"
+  summary: "Specifies the private<wbr>Link<wbr>Service<wbr>Connection<wbr>State property: Details about the state of the connection.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Details about the state of the connection."
+    name: "privateLinkServiceConnectionState"
+    type: "<xref href=\"com.azure.resourcemanager.relay.models.ConnectionState?alt=com.azure.resourcemanager.relay.models.ConnectionState&text=ConnectionState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract PrivateEndpointConnection.DefinitionStages.WithCreate withPrivateLinkServiceConnectionState(ConnectionState privateLinkServiceConnectionState)"
+  desc: "Specifies the privateLinkServiceConnectionState property: Details about the state of the connection.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.relay.models.PrivateEndpointConnection.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.relay.models.PrivateEndpointConnection.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the PrivateEndpointConnection definition allowing to specify privateLinkServiceConnectionState."
+metadata: {}
+package: "com.azure.resourcemanager.relay.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-relay:1.1.0

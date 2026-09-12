@@ -91,6 +91,12 @@ fields:
   nameWithType: "ToolboxToolType.REMINDER_PREVIEW"
   summary: "Enum value reminder\\_preview."
   desc: "Enum value reminder\\_preview."
+- uid: "com.azure.ai.agents.models.ToolboxToolType.SHELL"
+  fullName: "com.azure.ai.agents.models.ToolboxToolType.SHELL"
+  name: "SHELL"
+  nameWithType: "ToolboxToolType.SHELL"
+  summary: "Enum value shell."
+  desc: "Enum value shell."
 - uid: "com.azure.ai.agents.models.ToolboxToolType.TOOLBOX_SEARCH"
   fullName: "com.azure.ai.agents.models.ToolboxToolType.TOOLBOX_SEARCH"
   name: "TOOLBOX_SEARCH"
@@ -103,6 +109,12 @@ fields:
   nameWithType: "ToolboxToolType.TOOLBOX_SEARCH_PREVIEW"
   summary: "Enum value toolbox\\_search\\_preview."
   desc: "Enum value toolbox\\_search\\_preview."
+- uid: "com.azure.ai.agents.models.ToolboxToolType.WEB_IQ_PREVIEW"
+  fullName: "com.azure.ai.agents.models.ToolboxToolType.WEB_IQ_PREVIEW"
+  name: "WEB_IQ_PREVIEW"
+  nameWithType: "ToolboxToolType.WEB_IQ_PREVIEW"
+  summary: "Enum value web\\_iq\\_preview."
+  desc: "Enum value web\\_iq\\_preview."
 - uid: "com.azure.ai.agents.models.ToolboxToolType.WEB_SEARCH"
   fullName: "com.azure.ai.agents.models.ToolboxToolType.WEB_SEARCH"
   name: "WEB_SEARCH"
@@ -164,4 +176,4 @@ methods:
 desc: "Supported tool types for tools stored in a toolbox."
 metadata: {}
 package: "com.azure.ai.agents.models"
-artifact: com.azure:azure-ai-agents:2.4.0
+artifact: com.azure:azure-ai-agents:2.5.0

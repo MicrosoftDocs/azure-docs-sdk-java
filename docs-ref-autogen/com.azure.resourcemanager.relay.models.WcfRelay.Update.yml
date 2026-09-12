@@ -1,0 +1,46 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.relay.models.WcfRelay.Update"
+fullName: "com.azure.resourcemanager.relay.models.WcfRelay.Update"
+name: "WcfRelay.Update"
+nameWithType: "WcfRelay.Update"
+summary: "The template for Wcf<wbr>Relay update."
+syntax: "public static interface **WcfRelay.Update**</br> extends <xref href=\"com.azure.resourcemanager.relay.models.WcfRelay.UpdateStages.WithRelayType?alt=com.azure.resourcemanager.relay.models.WcfRelay.UpdateStages.WithRelayType&text=WithRelayType\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.relay.models.WcfRelay.UpdateStages.WithRequiresClientAuthorization?alt=com.azure.resourcemanager.relay.models.WcfRelay.UpdateStages.WithRequiresClientAuthorization&text=WithRequiresClientAuthorization\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.relay.models.WcfRelay.UpdateStages.WithRequiresTransportSecurity?alt=com.azure.resourcemanager.relay.models.WcfRelay.UpdateStages.WithRequiresTransportSecurity&text=WithRequiresTransportSecurity\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.relay.models.WcfRelay.UpdateStages.WithUserMetadata?alt=com.azure.resourcemanager.relay.models.WcfRelay.UpdateStages.WithUserMetadata&text=WithUserMetadata\" data-throw-if-not-resolved=\"False\" />"
+methods:
+- uid: "com.azure.resourcemanager.relay.models.WcfRelay.Update.apply()"
+  fullName: "com.azure.resourcemanager.relay.models.WcfRelay.Update.apply()"
+  name: "apply()"
+  nameWithType: "WcfRelay.Update.apply()"
+  summary: "Executes the update request."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract WcfRelay apply()"
+  desc: "Executes the update request."
+  returns:
+    description: "the updated resource."
+    type: "<xref href=\"com.azure.resourcemanager.relay.models.WcfRelay?alt=com.azure.resourcemanager.relay.models.WcfRelay&text=WcfRelay\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.relay.models.WcfRelay.Update.apply(com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.relay.models.WcfRelay.Update.apply(Context context)"
+  name: "apply(Context context)"
+  nameWithType: "WcfRelay.Update.apply(Context context)"
+  summary: "Executes the update request."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract WcfRelay apply(Context context)"
+  desc: "Executes the update request."
+  returns:
+    description: "the updated resource."
+    type: "<xref href=\"com.azure.resourcemanager.relay.models.WcfRelay?alt=com.azure.resourcemanager.relay.models.WcfRelay&text=WcfRelay\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The template for WcfRelay update."
+implements:
+- "<xref href=\"com.azure.resourcemanager.relay.models.WcfRelay.UpdateStages.WithRelayType?alt=com.azure.resourcemanager.relay.models.WcfRelay.UpdateStages.WithRelayType&text=WithRelayType\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.relay.models.WcfRelay.UpdateStages.WithRequiresClientAuthorization?alt=com.azure.resourcemanager.relay.models.WcfRelay.UpdateStages.WithRequiresClientAuthorization&text=WithRequiresClientAuthorization\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.relay.models.WcfRelay.UpdateStages.WithRequiresTransportSecurity?alt=com.azure.resourcemanager.relay.models.WcfRelay.UpdateStages.WithRequiresTransportSecurity&text=WithRequiresTransportSecurity\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.relay.models.WcfRelay.UpdateStages.WithUserMetadata?alt=com.azure.resourcemanager.relay.models.WcfRelay.UpdateStages.WithUserMetadata&text=WithUserMetadata\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.azure.resourcemanager.relay.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-relay:1.1.0

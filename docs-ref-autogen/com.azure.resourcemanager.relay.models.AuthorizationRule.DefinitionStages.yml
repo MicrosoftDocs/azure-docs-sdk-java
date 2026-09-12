@@ -1,0 +1,12 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.relay.models.AuthorizationRule.DefinitionStages"
+fullName: "com.azure.resourcemanager.relay.models.AuthorizationRule.DefinitionStages"
+name: "AuthorizationRule.DefinitionStages"
+nameWithType: "AuthorizationRule.DefinitionStages"
+summary: "The Authorization<wbr>Rule definition stages."
+syntax: "public static interface **AuthorizationRule.DefinitionStages**"
+type: "interface"
+desc: "The AuthorizationRule definition stages."
+metadata: {}
+package: "com.azure.resourcemanager.relay.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-relay:1.1.0

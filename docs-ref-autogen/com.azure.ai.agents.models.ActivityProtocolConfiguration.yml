@@ -49,6 +49,16 @@ methods:
   returns:
     description: "An instance of ActivityProtocolConfiguration if the JsonReader was pointing to an instance of it, or null\n if it was pointing to JSON null."
     type: "<xref href=\"com.azure.ai.agents.models.ActivityProtocolConfiguration?alt=com.azure.ai.agents.models.ActivityProtocolConfiguration&text=ActivityProtocolConfiguration\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.agents.models.ActivityProtocolConfiguration.getAccessBoundaries()"
+  fullName: "com.azure.ai.agents.models.ActivityProtocolConfiguration.getAccessBoundaries()"
+  name: "getAccessBoundaries()"
+  nameWithType: "ActivityProtocolConfiguration.getAccessBoundaries()"
+  summary: "Get the access<wbr>Boundaries property: The access boundaries for the activity protocol."
+  syntax: "public List<ActivityProtocolAccessBoundary> getAccessBoundaries()"
+  desc: "Get the accessBoundaries property: The access boundaries for the activity protocol."
+  returns:
+    description: "the accessBoundaries value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.ai.agents.models.ActivityProtocolAccessBoundary?alt=com.azure.ai.agents.models.ActivityProtocolAccessBoundary&text=ActivityProtocolAccessBoundary\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.ai.agents.models.ActivityProtocolConfiguration.isEnableM365PublicEndpoint()"
   fullName: "com.azure.ai.agents.models.ActivityProtocolConfiguration.isEnableM365PublicEndpoint()"
   name: "isEnableM365PublicEndpoint()"
@@ -91,4 +101,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.ActivityProtocolConfiguration?alt=com.azure.ai.agents.models.ActivityProtocolConfiguration&text=ActivityProtocolConfiguration\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.ai.agents.models"
-artifact: com.azure:azure-ai-agents:2.4.0
+artifact: com.azure:azure-ai-agents:2.5.0

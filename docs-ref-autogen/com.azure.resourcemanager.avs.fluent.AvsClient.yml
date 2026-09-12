@@ -346,4 +346,4 @@ type: "interface"
 desc: "The interface for AvsClient class."
 metadata: {}
 package: "com.azure.resourcemanager.avs.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-avs:1.4.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-avs:1.5.0

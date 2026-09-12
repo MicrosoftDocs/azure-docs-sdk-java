@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.relay.models.AuthorizationRule.DefinitionStages.WithRights"
+fullName: "com.azure.resourcemanager.relay.models.AuthorizationRule.DefinitionStages.WithRights"
+name: "AuthorizationRule.DefinitionStages.WithRights"
+nameWithType: "AuthorizationRule.DefinitionStages.WithRights"
+summary: "The stage of the Authorization<wbr>Rule definition allowing to specify rights."
+syntax: "public static interface **AuthorizationRule.DefinitionStages.WithRights**"
+methods:
+- uid: "com.azure.resourcemanager.relay.models.AuthorizationRule.DefinitionStages.WithRights.withRights(java.util.List<com.azure.resourcemanager.relay.models.AccessRights>)"
+  fullName: "com.azure.resourcemanager.relay.models.AuthorizationRule.DefinitionStages.WithRights.withRights(List<AccessRights> rights)"
+  name: "withRights(List<AccessRights> rights)"
+  nameWithType: "AuthorizationRule.DefinitionStages.WithRights.withRights(List<AccessRights> rights)"
+  summary: "Specifies the rights property: The rights associated with the rule.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The rights associated with the rule."
+    name: "rights"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.relay.models.AccessRights?alt=com.azure.resourcemanager.relay.models.AccessRights&text=AccessRights\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public abstract AuthorizationRule.DefinitionStages.WithCreate withRights(List<AccessRights> rights)"
+  desc: "Specifies the rights property: The rights associated with the rule.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.relay.models.AuthorizationRule.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.relay.models.AuthorizationRule.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the AuthorizationRule definition allowing to specify rights."
+metadata: {}
+package: "com.azure.resourcemanager.relay.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-relay:1.1.0

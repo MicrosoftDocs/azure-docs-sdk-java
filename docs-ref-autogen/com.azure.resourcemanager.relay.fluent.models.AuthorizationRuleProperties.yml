@@ -1,0 +1,94 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.relay.fluent.models.AuthorizationRuleProperties"
+fullName: "com.azure.resourcemanager.relay.fluent.models.AuthorizationRuleProperties"
+name: "AuthorizationRuleProperties"
+nameWithType: "AuthorizationRuleProperties"
+summary: "Properties supplied to create or update Authorization<wbr>Rule."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **AuthorizationRuleProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.relay.fluent.models.AuthorizationRuleProperties?alt=com.azure.resourcemanager.relay.fluent.models.AuthorizationRuleProperties&text=AuthorizationRuleProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.relay.fluent.models.AuthorizationRuleProperties.AuthorizationRuleProperties()"
+  fullName: "com.azure.resourcemanager.relay.fluent.models.AuthorizationRuleProperties.AuthorizationRuleProperties()"
+  name: "AuthorizationRuleProperties()"
+  nameWithType: "AuthorizationRuleProperties.AuthorizationRuleProperties()"
+  summary: "Creates an instance of Authorization<wbr>Rule<wbr>Properties class."
+  syntax: "public AuthorizationRuleProperties()"
+  desc: "Creates an instance of AuthorizationRuleProperties class."
+methods:
+- uid: "com.azure.resourcemanager.relay.fluent.models.AuthorizationRuleProperties.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.relay.fluent.models.AuthorizationRuleProperties.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "AuthorizationRuleProperties.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Authorization<wbr>Rule<wbr>Properties from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static AuthorizationRuleProperties fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of AuthorizationRuleProperties from the JsonReader."
+  returns:
+    description: "An instance of AuthorizationRuleProperties if the JsonReader was pointing to an instance of it, or null\n if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.relay.fluent.models.AuthorizationRuleProperties?alt=com.azure.resourcemanager.relay.fluent.models.AuthorizationRuleProperties&text=AuthorizationRuleProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.relay.fluent.models.AuthorizationRuleProperties.rights()"
+  fullName: "com.azure.resourcemanager.relay.fluent.models.AuthorizationRuleProperties.rights()"
+  name: "rights()"
+  nameWithType: "AuthorizationRuleProperties.rights()"
+  summary: "Get the rights property: The rights associated with the rule."
+  syntax: "public List<AccessRights> rights()"
+  desc: "Get the rights property: The rights associated with the rule."
+  returns:
+    description: "the rights value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.relay.models.AccessRights?alt=com.azure.resourcemanager.relay.models.AccessRights&text=AccessRights\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.relay.fluent.models.AuthorizationRuleProperties.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.relay.fluent.models.AuthorizationRuleProperties.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "AuthorizationRuleProperties.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.relay.fluent.models.AuthorizationRuleProperties.withRights(java.util.List<com.azure.resourcemanager.relay.models.AccessRights>)"
+  fullName: "com.azure.resourcemanager.relay.fluent.models.AuthorizationRuleProperties.withRights(List<AccessRights> rights)"
+  name: "withRights(List<AccessRights> rights)"
+  nameWithType: "AuthorizationRuleProperties.withRights(List<AccessRights> rights)"
+  summary: "Set the rights property: The rights associated with the rule."
+  parameters:
+  - description: "the rights value to set."
+    name: "rights"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.relay.models.AccessRights?alt=com.azure.resourcemanager.relay.models.AccessRights&text=AccessRights\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public AuthorizationRuleProperties withRights(List<AccessRights> rights)"
+  desc: "Set the rights property: The rights associated with the rule."
+  returns:
+    description: "the AuthorizationRuleProperties object itself."
+    type: "<xref href=\"com.azure.resourcemanager.relay.fluent.models.AuthorizationRuleProperties?alt=com.azure.resourcemanager.relay.fluent.models.AuthorizationRuleProperties&text=AuthorizationRuleProperties\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Properties supplied to create or update AuthorizationRule."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.relay.fluent.models.AuthorizationRuleProperties?alt=com.azure.resourcemanager.relay.fluent.models.AuthorizationRuleProperties&text=AuthorizationRuleProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.relay.fluent.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-relay:1.1.0

@@ -1,0 +1,118 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.relay.models.Sku"
+fullName: "com.azure.resourcemanager.relay.models.Sku"
+name: "Sku"
+nameWithType: "Sku"
+summary: "SKU of the namespace."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **Sku**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.relay.models.Sku?alt=com.azure.resourcemanager.relay.models.Sku&text=Sku\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.relay.models.Sku.Sku()"
+  fullName: "com.azure.resourcemanager.relay.models.Sku.Sku()"
+  name: "Sku()"
+  nameWithType: "Sku.Sku()"
+  summary: "Creates an instance of Sku class."
+  syntax: "public Sku()"
+  desc: "Creates an instance of Sku class."
+methods:
+- uid: "com.azure.resourcemanager.relay.models.Sku.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.relay.models.Sku.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "Sku.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Sku from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static Sku fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of Sku from the JsonReader."
+  returns:
+    description: "An instance of Sku if the JsonReader was pointing to an instance of it, or null if it was pointing to\n JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.relay.models.Sku?alt=com.azure.resourcemanager.relay.models.Sku&text=Sku\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.relay.models.Sku.name()"
+  fullName: "com.azure.resourcemanager.relay.models.Sku.name()"
+  name: "name()"
+  nameWithType: "Sku.name()"
+  summary: "Get the name property: Name of this SKU."
+  syntax: "public SkuName name()"
+  desc: "Get the name property: Name of this SKU."
+  returns:
+    description: "the name value."
+    type: "<xref href=\"com.azure.resourcemanager.relay.models.SkuName?alt=com.azure.resourcemanager.relay.models.SkuName&text=SkuName\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.relay.models.Sku.tier()"
+  fullName: "com.azure.resourcemanager.relay.models.Sku.tier()"
+  name: "tier()"
+  nameWithType: "Sku.tier()"
+  summary: "Get the tier property: The tier of this SKU."
+  syntax: "public SkuTier tier()"
+  desc: "Get the tier property: The tier of this SKU."
+  returns:
+    description: "the tier value."
+    type: "<xref href=\"com.azure.resourcemanager.relay.models.SkuTier?alt=com.azure.resourcemanager.relay.models.SkuTier&text=SkuTier\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.relay.models.Sku.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.relay.models.Sku.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "Sku.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.relay.models.Sku.withName(com.azure.resourcemanager.relay.models.SkuName)"
+  fullName: "com.azure.resourcemanager.relay.models.Sku.withName(SkuName name)"
+  name: "withName(SkuName name)"
+  nameWithType: "Sku.withName(SkuName name)"
+  summary: "Set the name property: Name of this SKU."
+  parameters:
+  - description: "the name value to set."
+    name: "name"
+    type: "<xref href=\"com.azure.resourcemanager.relay.models.SkuName?alt=com.azure.resourcemanager.relay.models.SkuName&text=SkuName\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public Sku withName(SkuName name)"
+  desc: "Set the name property: Name of this SKU."
+  returns:
+    description: "the Sku object itself."
+    type: "<xref href=\"com.azure.resourcemanager.relay.models.Sku?alt=com.azure.resourcemanager.relay.models.Sku&text=Sku\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.relay.models.Sku.withTier(com.azure.resourcemanager.relay.models.SkuTier)"
+  fullName: "com.azure.resourcemanager.relay.models.Sku.withTier(SkuTier tier)"
+  name: "withTier(SkuTier tier)"
+  nameWithType: "Sku.withTier(SkuTier tier)"
+  summary: "Set the tier property: The tier of this SKU."
+  parameters:
+  - description: "the tier value to set."
+    name: "tier"
+    type: "<xref href=\"com.azure.resourcemanager.relay.models.SkuTier?alt=com.azure.resourcemanager.relay.models.SkuTier&text=SkuTier\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public Sku withTier(SkuTier tier)"
+  desc: "Set the tier property: The tier of this SKU."
+  returns:
+    description: "the Sku object itself."
+    type: "<xref href=\"com.azure.resourcemanager.relay.models.Sku?alt=com.azure.resourcemanager.relay.models.Sku&text=Sku\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "SKU of the namespace."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.relay.models.Sku?alt=com.azure.resourcemanager.relay.models.Sku&text=Sku\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.relay.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-relay:1.1.0

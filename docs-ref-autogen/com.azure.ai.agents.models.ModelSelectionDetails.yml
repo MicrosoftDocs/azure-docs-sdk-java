@@ -1,0 +1,72 @@
+### YamlMime:JavaType
+uid: "com.azure.ai.agents.models.ModelSelectionDetails"
+fullName: "com.azure.ai.agents.models.ModelSelectionDetails"
+name: "ModelSelectionDetails"
+nameWithType: "ModelSelectionDetails"
+summary: "Model selection metadata providing visibility into routing decisions."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ModelSelectionDetails**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.ModelSelectionDetails?alt=com.azure.ai.agents.models.ModelSelectionDetails&text=ModelSelectionDetails\" data-throw-if-not-resolved=\"False\" />&gt;"
+methods:
+- uid: "com.azure.ai.agents.models.ModelSelectionDetails.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.ai.agents.models.ModelSelectionDetails.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "ModelSelectionDetails.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Model<wbr>Selection<wbr>Details from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static ModelSelectionDetails fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of ModelSelectionDetails from the JsonReader."
+  returns:
+    description: "An instance of ModelSelectionDetails if the JsonReader was pointing to an instance of it, or null if it\n was pointing to JSON null."
+    type: "<xref href=\"com.azure.ai.agents.models.ModelSelectionDetails?alt=com.azure.ai.agents.models.ModelSelectionDetails&text=ModelSelectionDetails\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.agents.models.ModelSelectionDetails.getModelRouterDetails()"
+  fullName: "com.azure.ai.agents.models.ModelSelectionDetails.getModelRouterDetails()"
+  name: "getModelRouterDetails()"
+  nameWithType: "ModelSelectionDetails.getModelRouterDetails()"
+  summary: "Get the model<wbr>Router<wbr>Details property: Routing decision metadata from Model Router."
+  syntax: "public ModelRouterDetails getModelRouterDetails()"
+  desc: "Get the modelRouterDetails property: Routing decision metadata from Model Router. Present when the request was handled by Model Router."
+  returns:
+    description: "the modelRouterDetails value."
+    type: "<xref href=\"com.azure.ai.agents.models.ModelRouterDetails?alt=com.azure.ai.agents.models.ModelRouterDetails&text=ModelRouterDetails\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.agents.models.ModelSelectionDetails.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.ai.agents.models.ModelSelectionDetails.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "ModelSelectionDetails.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Model selection metadata providing visibility into routing decisions."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.ModelSelectionDetails?alt=com.azure.ai.agents.models.ModelSelectionDetails&text=ModelSelectionDetails\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.ai.agents.models"
+artifact: com.azure:azure-ai-agents:2.5.0

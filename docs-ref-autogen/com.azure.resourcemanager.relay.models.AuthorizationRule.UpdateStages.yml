@@ -1,0 +1,12 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.relay.models.AuthorizationRule.UpdateStages"
+fullName: "com.azure.resourcemanager.relay.models.AuthorizationRule.UpdateStages"
+name: "AuthorizationRule.UpdateStages"
+nameWithType: "AuthorizationRule.UpdateStages"
+summary: "The Authorization<wbr>Rule update stages."
+syntax: "public static interface **AuthorizationRule.UpdateStages**"
+type: "interface"
+desc: "The AuthorizationRule update stages."
+metadata: {}
+package: "com.azure.resourcemanager.relay.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-relay:1.1.0

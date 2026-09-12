@@ -56,4 +56,4 @@ implements:
 - "<xref href=\"com.azure.resourcemanager.avs.models.PrivateCloud.DefinitionStages.WithZones?alt=com.azure.resourcemanager.avs.models.PrivateCloud.DefinitionStages.WithZones&text=WithZones\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.azure.resourcemanager.avs.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-avs:1.4.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-avs:1.5.0

@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithPrivateEndpointConnections"
+fullName: "com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithPrivateEndpointConnections"
+name: "RelayNamespace.DefinitionStages.WithPrivateEndpointConnections"
+nameWithType: "RelayNamespace.DefinitionStages.WithPrivateEndpointConnections"
+summary: "The stage of the Relay<wbr>Namespace definition allowing to specify private<wbr>Endpoint<wbr>Connections."
+syntax: "public static interface **RelayNamespace.DefinitionStages.WithPrivateEndpointConnections**"
+methods:
+- uid: "com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithPrivateEndpointConnections.withPrivateEndpointConnections(java.util.List<com.azure.resourcemanager.relay.fluent.models.PrivateEndpointConnectionInner>)"
+  fullName: "com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithPrivateEndpointConnections.withPrivateEndpointConnections(List<PrivateEndpointConnectionInner> privateEndpointConnections)"
+  name: "withPrivateEndpointConnections(List<PrivateEndpointConnectionInner> privateEndpointConnections)"
+  nameWithType: "RelayNamespace.DefinitionStages.WithPrivateEndpointConnections.withPrivateEndpointConnections(List<PrivateEndpointConnectionInner> privateEndpointConnections)"
+  summary: "Specifies the private<wbr>Endpoint<wbr>Connections property: List of private endpoint connections.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "List of private endpoint connections."
+    name: "privateEndpointConnections"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.relay.fluent.models.PrivateEndpointConnectionInner?alt=com.azure.resourcemanager.relay.fluent.models.PrivateEndpointConnectionInner&text=PrivateEndpointConnectionInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public abstract RelayNamespace.DefinitionStages.WithCreate withPrivateEndpointConnections(List<PrivateEndpointConnectionInner> privateEndpointConnections)"
+  desc: "Specifies the privateEndpointConnections property: List of private endpoint connections.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the RelayNamespace definition allowing to specify privateEndpointConnections."
+metadata: {}
+package: "com.azure.resourcemanager.relay.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-relay:1.1.0

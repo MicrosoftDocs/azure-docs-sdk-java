@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.relay.models.HybridConnection.UpdateStages.WithRequiresClientAuthorization"
+fullName: "com.azure.resourcemanager.relay.models.HybridConnection.UpdateStages.WithRequiresClientAuthorization"
+name: "HybridConnection.UpdateStages.WithRequiresClientAuthorization"
+nameWithType: "HybridConnection.UpdateStages.WithRequiresClientAuthorization"
+summary: "The stage of the Hybrid<wbr>Connection update allowing to specify requires<wbr>Client<wbr>Authorization."
+syntax: "public static interface **HybridConnection.UpdateStages.WithRequiresClientAuthorization**"
+methods:
+- uid: "com.azure.resourcemanager.relay.models.HybridConnection.UpdateStages.WithRequiresClientAuthorization.withRequiresClientAuthorization(java.lang.Boolean)"
+  fullName: "com.azure.resourcemanager.relay.models.HybridConnection.UpdateStages.WithRequiresClientAuthorization.withRequiresClientAuthorization(Boolean requiresClientAuthorization)"
+  name: "withRequiresClientAuthorization(Boolean requiresClientAuthorization)"
+  nameWithType: "HybridConnection.UpdateStages.WithRequiresClientAuthorization.withRequiresClientAuthorization(Boolean requiresClientAuthorization)"
+  summary: "Specifies the requires<wbr>Client<wbr>Authorization property: Returns true if client authorization is needed for this hybrid connection; otherwise, false.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Returns true if client authorization is needed for this hybrid\n connection; otherwise, false."
+    name: "requiresClientAuthorization"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
+  syntax: "public abstract HybridConnection.Update withRequiresClientAuthorization(Boolean requiresClientAuthorization)"
+  desc: "Specifies the requiresClientAuthorization property: Returns true if client authorization is needed for this hybrid connection; otherwise, false.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.relay.models.HybridConnection.Update?alt=com.azure.resourcemanager.relay.models.HybridConnection.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the HybridConnection update allowing to specify requiresClientAuthorization."
+metadata: {}
+package: "com.azure.resourcemanager.relay.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-relay:1.1.0

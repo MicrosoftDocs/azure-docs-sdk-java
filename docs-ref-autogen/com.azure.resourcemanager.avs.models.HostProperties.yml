@@ -91,6 +91,16 @@ methods:
   returns:
     description: "the kind value."
     type: "<xref href=\"com.azure.resourcemanager.avs.models.HostKind?alt=com.azure.resourcemanager.avs.models.HostKind&text=HostKind\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.avs.models.HostProperties.licenses()"
+  fullName: "com.azure.resourcemanager.avs.models.HostProperties.licenses()"
+  name: "licenses()"
+  nameWithType: "HostProperties.licenses()"
+  summary: "Get the licenses property: The licenses assigned to the host."
+  syntax: "public List<HostLicense> licenses()"
+  desc: "Get the licenses property: The licenses assigned to the host."
+  returns:
+    description: "the licenses value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.avs.models.HostLicense?alt=com.azure.resourcemanager.avs.models.HostLicense&text=HostLicense\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.avs.models.HostProperties.maintenance()"
   fullName: "com.azure.resourcemanager.avs.models.HostProperties.maintenance()"
   name: "maintenance()"
@@ -146,4 +156,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.avs.models.HostProperties?alt=com.azure.resourcemanager.avs.models.HostProperties&text=HostProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.avs.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-avs:1.4.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-avs:1.5.0

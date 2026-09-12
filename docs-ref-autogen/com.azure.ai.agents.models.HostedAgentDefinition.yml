@@ -135,6 +135,16 @@ methods:
   returns:
     description: "the protocolVersions value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.ai.agents.models.ProtocolVersionRecord?alt=com.azure.ai.agents.models.ProtocolVersionRecord&text=ProtocolVersionRecord\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.ai.agents.models.HostedAgentDefinition.getSessionConfiguration()"
+  fullName: "com.azure.ai.agents.models.HostedAgentDefinition.getSessionConfiguration()"
+  name: "getSessionConfiguration()"
+  nameWithType: "HostedAgentDefinition.getSessionConfiguration()"
+  summary: "Get the session<wbr>Configuration property: Optional session defaults (for example, the idle timeout) applied to sessions created for this agent version."
+  syntax: "public SessionConfiguration getSessionConfiguration()"
+  desc: "Get the sessionConfiguration property: Optional session defaults (for example, the idle timeout) applied to sessions created for this agent version."
+  returns:
+    description: "the sessionConfiguration value."
+    type: "<xref href=\"com.azure.ai.agents.models.SessionConfiguration?alt=com.azure.ai.agents.models.SessionConfiguration&text=SessionConfiguration\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.ai.agents.models.HostedAgentDefinition.getTelemetryConfig()"
   fullName: "com.azure.ai.agents.models.HostedAgentDefinition.getTelemetryConfig()"
   name: "getTelemetryConfig()"
@@ -214,6 +224,20 @@ methods:
   desc: "Set the raiConfig property: Configuration for Responsible AI (RAI) content filtering and safety features."
   returns:
     type: "<xref href=\"com.azure.ai.agents.models.HostedAgentDefinition?alt=com.azure.ai.agents.models.HostedAgentDefinition&text=HostedAgentDefinition\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.agents.models.HostedAgentDefinition.setSessionConfiguration(com.azure.ai.agents.models.SessionConfiguration)"
+  fullName: "com.azure.ai.agents.models.HostedAgentDefinition.setSessionConfiguration(SessionConfiguration sessionConfiguration)"
+  name: "setSessionConfiguration(SessionConfiguration sessionConfiguration)"
+  nameWithType: "HostedAgentDefinition.setSessionConfiguration(SessionConfiguration sessionConfiguration)"
+  summary: "Set the session<wbr>Configuration property: Optional session defaults (for example, the idle timeout) applied to sessions created for this agent version."
+  parameters:
+  - description: "the sessionConfiguration value to set."
+    name: "sessionConfiguration"
+    type: "<xref href=\"com.azure.ai.agents.models.SessionConfiguration?alt=com.azure.ai.agents.models.SessionConfiguration&text=SessionConfiguration\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public HostedAgentDefinition setSessionConfiguration(SessionConfiguration sessionConfiguration)"
+  desc: "Set the sessionConfiguration property: Optional session defaults (for example, the idle timeout) applied to sessions created for this agent version."
+  returns:
+    description: "the HostedAgentDefinition object itself."
+    type: "<xref href=\"com.azure.ai.agents.models.HostedAgentDefinition?alt=com.azure.ai.agents.models.HostedAgentDefinition&text=HostedAgentDefinition\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.ai.agents.models.HostedAgentDefinition.setTelemetryConfig(com.azure.ai.agents.models.TelemetryConfig)"
   fullName: "com.azure.ai.agents.models.HostedAgentDefinition.setTelemetryConfig(TelemetryConfig telemetryConfig)"
   name: "setTelemetryConfig(TelemetryConfig telemetryConfig)"
@@ -245,4 +269,4 @@ type: "class"
 desc: "The hosted agent definition."
 metadata: {}
 package: "com.azure.ai.agents.models"
-artifact: com.azure:azure-ai-agents:2.4.0
+artifact: com.azure:azure-ai-agents:2.5.0

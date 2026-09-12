@@ -59,15 +59,15 @@ methods:
   returns:
     description: "the criteria value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.ai.agents.models.AgentOptimizationDatasetCriterion?alt=com.azure.ai.agents.models.AgentOptimizationDatasetCriterion&text=AgentOptimizationDatasetCriterion\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.ai.agents.models.AgentOptimizationDatasetItem.getDesiredNumTurns()"
-  fullName: "com.azure.ai.agents.models.AgentOptimizationDatasetItem.getDesiredNumTurns()"
-  name: "getDesiredNumTurns()"
-  nameWithType: "AgentOptimizationDatasetItem.getDesiredNumTurns()"
-  summary: "Get the desired<wbr>Num<wbr>Turns property: Desired number of conversation turns for simulation mode (1-20)."
-  syntax: "public Integer getDesiredNumTurns()"
-  desc: "Get the desiredNumTurns property: Desired number of conversation turns for simulation mode (1-20)."
+- uid: "com.azure.ai.agents.models.AgentOptimizationDatasetItem.getDesiredNumberTurns()"
+  fullName: "com.azure.ai.agents.models.AgentOptimizationDatasetItem.getDesiredNumberTurns()"
+  name: "getDesiredNumberTurns()"
+  nameWithType: "AgentOptimizationDatasetItem.getDesiredNumberTurns()"
+  summary: "Get the desired<wbr>Number<wbr>Turns property: Desired number of conversation turns for simulation mode (1-20)."
+  syntax: "public Integer getDesiredNumberTurns()"
+  desc: "Get the desiredNumberTurns property: Desired number of conversation turns for simulation mode (1-20)."
   returns:
-    description: "the desiredNumTurns value."
+    description: "the desiredNumberTurns value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
 - uid: "com.azure.ai.agents.models.AgentOptimizationDatasetItem.getGroundTruth()"
   fullName: "com.azure.ai.agents.models.AgentOptimizationDatasetItem.getGroundTruth()"
@@ -103,17 +103,17 @@ methods:
   returns:
     description: "the AgentOptimizationDatasetItem object itself."
     type: "<xref href=\"com.azure.ai.agents.models.AgentOptimizationDatasetItem?alt=com.azure.ai.agents.models.AgentOptimizationDatasetItem&text=AgentOptimizationDatasetItem\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.ai.agents.models.AgentOptimizationDatasetItem.setDesiredNumTurns(java.lang.Integer)"
-  fullName: "com.azure.ai.agents.models.AgentOptimizationDatasetItem.setDesiredNumTurns(Integer desiredNumTurns)"
-  name: "setDesiredNumTurns(Integer desiredNumTurns)"
-  nameWithType: "AgentOptimizationDatasetItem.setDesiredNumTurns(Integer desiredNumTurns)"
-  summary: "Set the desired<wbr>Num<wbr>Turns property: Desired number of conversation turns for simulation mode (1-20)."
+- uid: "com.azure.ai.agents.models.AgentOptimizationDatasetItem.setDesiredNumberTurns(java.lang.Integer)"
+  fullName: "com.azure.ai.agents.models.AgentOptimizationDatasetItem.setDesiredNumberTurns(Integer desiredNumberTurns)"
+  name: "setDesiredNumberTurns(Integer desiredNumberTurns)"
+  nameWithType: "AgentOptimizationDatasetItem.setDesiredNumberTurns(Integer desiredNumberTurns)"
+  summary: "Set the desired<wbr>Number<wbr>Turns property: Desired number of conversation turns for simulation mode (1-20)."
   parameters:
-  - description: "the desiredNumTurns value to set."
-    name: "desiredNumTurns"
+  - description: "the desiredNumberTurns value to set."
+    name: "desiredNumberTurns"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
-  syntax: "public AgentOptimizationDatasetItem setDesiredNumTurns(Integer desiredNumTurns)"
-  desc: "Set the desiredNumTurns property: Desired number of conversation turns for simulation mode (1-20)."
+  syntax: "public AgentOptimizationDatasetItem setDesiredNumberTurns(Integer desiredNumberTurns)"
+  desc: "Set the desiredNumberTurns property: Desired number of conversation turns for simulation mode (1-20)."
   returns:
     description: "the AgentOptimizationDatasetItem object itself."
     type: "<xref href=\"com.azure.ai.agents.models.AgentOptimizationDatasetItem?alt=com.azure.ai.agents.models.AgentOptimizationDatasetItem&text=AgentOptimizationDatasetItem\" data-throw-if-not-resolved=\"False\" />"
@@ -163,4 +163,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.AgentOptimizationDatasetItem?alt=com.azure.ai.agents.models.AgentOptimizationDatasetItem&text=AgentOptimizationDatasetItem\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.ai.agents.models"
-artifact: com.azure:azure-ai-agents:2.4.0
+artifact: com.azure:azure-ai-agents:2.5.0

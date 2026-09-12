@@ -1,0 +1,110 @@
+### YamlMime:JavaType
+uid: "com.azure.ai.projects.models.AgentInsightProposedFixKind"
+fullName: "com.azure.ai.projects.models.AgentInsightProposedFixKind"
+name: "AgentInsightProposedFixKind"
+nameWithType: "AgentInsightProposedFixKind"
+summary: "The customer-renderable kind of an agent insight's proposed fix."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **AgentInsightProposedFixKind**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.projects.models.AgentInsightProposedFixKind?alt=com.azure.ai.projects.models.AgentInsightProposedFixKind&text=AgentInsightProposedFixKind\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.ai.projects.models.AgentInsightProposedFixKind.AgentInsightProposedFixKind()"
+  fullName: "com.azure.ai.projects.models.AgentInsightProposedFixKind.AgentInsightProposedFixKind()"
+  name: "AgentInsightProposedFixKind()"
+  nameWithType: "AgentInsightProposedFixKind.AgentInsightProposedFixKind()"
+  summary: "Creates a new instance of Agent<wbr>Insight<wbr>Proposed<wbr>Fix<wbr>Kind value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.ai.projects.models.AgentInsightProposedFixKind.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public AgentInsightProposedFixKind()"
+  desc: "Creates a new instance of AgentInsightProposedFixKind value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.ai.projects.models.AgentInsightProposedFixKind.CODE_CHANGE"
+  fullName: "com.azure.ai.projects.models.AgentInsightProposedFixKind.CODE_CHANGE"
+  name: "CODE_CHANGE"
+  nameWithType: "AgentInsightProposedFixKind.CODE_CHANGE"
+  summary: "A validated source-code change."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.projects.models.AgentInsightProposedFixKind?alt=com.azure.ai.projects.models.AgentInsightProposedFixKind&text=AgentInsightProposedFixKind\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AgentInsightProposedFixKind CODE_CHANGE"
+  desc: "A validated source-code change."
+- uid: "com.azure.ai.projects.models.AgentInsightProposedFixKind.PROMPT_CHANGE"
+  fullName: "com.azure.ai.projects.models.AgentInsightProposedFixKind.PROMPT_CHANGE"
+  name: "PROMPT_CHANGE"
+  nameWithType: "AgentInsightProposedFixKind.PROMPT_CHANGE"
+  summary: "A validated Prompt change."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.projects.models.AgentInsightProposedFixKind?alt=com.azure.ai.projects.models.AgentInsightProposedFixKind&text=AgentInsightProposedFixKind\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AgentInsightProposedFixKind PROMPT_CHANGE"
+  desc: "A validated Prompt change."
+- uid: "com.azure.ai.projects.models.AgentInsightProposedFixKind.PROSE"
+  fullName: "com.azure.ai.projects.models.AgentInsightProposedFixKind.PROSE"
+  name: "PROSE"
+  nameWithType: "AgentInsightProposedFixKind.PROSE"
+  summary: "Text-only remediation guidance."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.projects.models.AgentInsightProposedFixKind?alt=com.azure.ai.projects.models.AgentInsightProposedFixKind&text=AgentInsightProposedFixKind\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AgentInsightProposedFixKind PROSE"
+  desc: "Text-only remediation guidance."
+methods:
+- uid: "com.azure.ai.projects.models.AgentInsightProposedFixKind.fromString(java.lang.String)"
+  fullName: "com.azure.ai.projects.models.AgentInsightProposedFixKind.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "AgentInsightProposedFixKind.fromString(String name)"
+  summary: "Creates or finds a Agent<wbr>Insight<wbr>Proposed<wbr>Fix<wbr>Kind from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static AgentInsightProposedFixKind fromString(String name)"
+  desc: "Creates or finds a AgentInsightProposedFixKind from its string representation."
+  returns:
+    description: "the corresponding AgentInsightProposedFixKind."
+    type: "<xref href=\"com.azure.ai.projects.models.AgentInsightProposedFixKind?alt=com.azure.ai.projects.models.AgentInsightProposedFixKind&text=AgentInsightProposedFixKind\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.projects.models.AgentInsightProposedFixKind.values()"
+  fullName: "com.azure.ai.projects.models.AgentInsightProposedFixKind.values()"
+  name: "values()"
+  nameWithType: "AgentInsightProposedFixKind.values()"
+  summary: "Gets known Agent<wbr>Insight<wbr>Proposed<wbr>Fix<wbr>Kind values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<AgentInsightProposedFixKind> values()"
+  desc: "Gets known AgentInsightProposedFixKind values."
+  returns:
+    description: "known AgentInsightProposedFixKind values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.ai.projects.models.AgentInsightProposedFixKind?alt=com.azure.ai.projects.models.AgentInsightProposedFixKind&text=AgentInsightProposedFixKind\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "The customer-renderable kind of an agent insight's proposed fix."
+metadata: {}
+package: "com.azure.ai.projects.models"
+artifact: com.azure:azure-ai-projects:2.5.0

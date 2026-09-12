@@ -1,0 +1,97 @@
+### YamlMime:JavaType
+uid: "com.azure.ai.agents.models.Microsoft365PermissionScopes"
+fullName: "com.azure.ai.agents.models.Microsoft365PermissionScopes"
+name: "Microsoft365PermissionScopes"
+nameWithType: "Microsoft365PermissionScopes"
+summary: "A set of delegated permission scopes requested from a single resource application."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **Microsoft365PermissionScopes**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.Microsoft365PermissionScopes?alt=com.azure.ai.agents.models.Microsoft365PermissionScopes&text=Microsoft365PermissionScopes\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.ai.agents.models.Microsoft365PermissionScopes.Microsoft365PermissionScopes(java.lang.String,java.util.List<java.lang.String>)"
+  fullName: "com.azure.ai.agents.models.Microsoft365PermissionScopes.Microsoft365PermissionScopes(String resourceAppId, List<String> scopes)"
+  name: "Microsoft365PermissionScopes(String resourceAppId, List<String> scopes)"
+  nameWithType: "Microsoft365PermissionScopes.Microsoft365PermissionScopes(String resourceAppId, List<String> scopes)"
+  summary: "Creates an instance of Microsoft365Permission<wbr>Scopes class."
+  parameters:
+  - description: "the resourceAppId value to set."
+    name: "resourceAppId"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "the scopes value to set."
+    name: "scopes"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+  syntax: "public Microsoft365PermissionScopes(String resourceAppId, List<String> scopes)"
+  desc: "Creates an instance of Microsoft365PermissionScopes class."
+methods:
+- uid: "com.azure.ai.agents.models.Microsoft365PermissionScopes.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.ai.agents.models.Microsoft365PermissionScopes.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "Microsoft365PermissionScopes.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Microsoft365Permission<wbr>Scopes from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static Microsoft365PermissionScopes fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of Microsoft365PermissionScopes from the JsonReader."
+  returns:
+    description: "An instance of Microsoft365PermissionScopes if the JsonReader was pointing to an instance of it, or null\n if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.ai.agents.models.Microsoft365PermissionScopes?alt=com.azure.ai.agents.models.Microsoft365PermissionScopes&text=Microsoft365PermissionScopes\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.agents.models.Microsoft365PermissionScopes.getResourceAppId()"
+  fullName: "com.azure.ai.agents.models.Microsoft365PermissionScopes.getResourceAppId()"
+  name: "getResourceAppId()"
+  nameWithType: "Microsoft365PermissionScopes.getResourceAppId()"
+  summary: "Get the resource<wbr>App<wbr>Id property: Application id of the resource that exposes the requested delegated scopes."
+  syntax: "public String getResourceAppId()"
+  desc: "Get the resourceAppId property: Application id of the resource that exposes the requested delegated scopes."
+  returns:
+    description: "the resourceAppId value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.ai.agents.models.Microsoft365PermissionScopes.getScopes()"
+  fullName: "com.azure.ai.agents.models.Microsoft365PermissionScopes.getScopes()"
+  name: "getScopes()"
+  nameWithType: "Microsoft365PermissionScopes.getScopes()"
+  summary: "Get the scopes property: Delegated scope names requested from the resource application."
+  syntax: "public List<String> getScopes()"
+  desc: "Get the scopes property: Delegated scope names requested from the resource application. Must not be empty."
+  returns:
+    description: "the scopes value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+- uid: "com.azure.ai.agents.models.Microsoft365PermissionScopes.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.ai.agents.models.Microsoft365PermissionScopes.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "Microsoft365PermissionScopes.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "A set of delegated permission scopes requested from a single resource application."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.Microsoft365PermissionScopes?alt=com.azure.ai.agents.models.Microsoft365PermissionScopes&text=Microsoft365PermissionScopes\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.ai.agents.models"
+artifact: com.azure:azure-ai-agents:2.5.0

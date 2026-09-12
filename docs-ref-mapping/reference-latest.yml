@@ -2465,6 +2465,19 @@
         - com.azure.resourcemanager.redisenterprise.fluent
         - com.azure.resourcemanager.redisenterprise.fluent.models
         - com.azure.resourcemanager.redisenterprise.models
+  - name: Relay
+    href: ~/docs-ref-services/latest/relay.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Relay
+        href: ~/docs-ref-services/latest/resourcemanager-relay-readme.md
+        children:
+        - com.azure.resourcemanager.relay
+        - com.azure.resourcemanager.relay.fluent
+        - com.azure.resourcemanager.relay.fluent.models
+        - com.azure.resourcemanager.relay.models
   - name: Reservations
     href: ~/docs-ref-services/latest/reservations.md
     landingPageType: Service

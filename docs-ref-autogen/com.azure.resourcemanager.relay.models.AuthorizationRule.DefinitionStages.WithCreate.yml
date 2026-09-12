@@ -1,0 +1,43 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.relay.models.AuthorizationRule.DefinitionStages.WithCreate"
+fullName: "com.azure.resourcemanager.relay.models.AuthorizationRule.DefinitionStages.WithCreate"
+name: "AuthorizationRule.DefinitionStages.WithCreate"
+nameWithType: "AuthorizationRule.DefinitionStages.WithCreate"
+summary: "The stage of the Authorization<wbr>Rule definition which contains all the minimum required properties for the resource to be created, but also allows for any other optional properties to be specified."
+syntax: "public static interface **AuthorizationRule.DefinitionStages.WithCreate**</br> extends <xref href=\"com.azure.resourcemanager.relay.models.AuthorizationRule.DefinitionStages.WithRights?alt=com.azure.resourcemanager.relay.models.AuthorizationRule.DefinitionStages.WithRights&text=WithRights\" data-throw-if-not-resolved=\"False\" />"
+methods:
+- uid: "com.azure.resourcemanager.relay.models.AuthorizationRule.DefinitionStages.WithCreate.create()"
+  fullName: "com.azure.resourcemanager.relay.models.AuthorizationRule.DefinitionStages.WithCreate.create()"
+  name: "create()"
+  nameWithType: "AuthorizationRule.DefinitionStages.WithCreate.create()"
+  summary: "Executes the create request."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract AuthorizationRule create()"
+  desc: "Executes the create request."
+  returns:
+    description: "the created resource."
+    type: "<xref href=\"com.azure.resourcemanager.relay.models.AuthorizationRule?alt=com.azure.resourcemanager.relay.models.AuthorizationRule&text=AuthorizationRule\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.relay.models.AuthorizationRule.DefinitionStages.WithCreate.create(com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.relay.models.AuthorizationRule.DefinitionStages.WithCreate.create(Context context)"
+  name: "create(Context context)"
+  nameWithType: "AuthorizationRule.DefinitionStages.WithCreate.create(Context context)"
+  summary: "Executes the create request."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract AuthorizationRule create(Context context)"
+  desc: "Executes the create request."
+  returns:
+    description: "the created resource."
+    type: "<xref href=\"com.azure.resourcemanager.relay.models.AuthorizationRule?alt=com.azure.resourcemanager.relay.models.AuthorizationRule&text=AuthorizationRule\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the AuthorizationRule definition which contains all the minimum required properties for the resource to be created, but also allows for any other optional properties to be specified."
+implements:
+- "<xref href=\"com.azure.resourcemanager.relay.models.AuthorizationRule.DefinitionStages.WithRights?alt=com.azure.resourcemanager.relay.models.AuthorizationRule.DefinitionStages.WithRights&text=WithRights\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.azure.resourcemanager.relay.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-relay:1.1.0

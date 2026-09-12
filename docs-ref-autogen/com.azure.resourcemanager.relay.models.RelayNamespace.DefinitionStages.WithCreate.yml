@@ -1,0 +1,47 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithCreate"
+fullName: "com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithCreate"
+name: "RelayNamespace.DefinitionStages.WithCreate"
+nameWithType: "RelayNamespace.DefinitionStages.WithCreate"
+summary: "The stage of the Relay<wbr>Namespace definition which contains all the minimum required properties for the resource to be created, but also allows for any other optional properties to be specified."
+syntax: "public static interface **RelayNamespace.DefinitionStages.WithCreate**</br> extends <xref href=\"com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithTags?alt=com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithTags&text=WithTags\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithSku?alt=com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithSku&text=WithSku\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithPrivateEndpointConnections?alt=com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithPrivateEndpointConnections&text=WithPrivateEndpointConnections\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithPublicNetworkAccess?alt=com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithPublicNetworkAccess&text=WithPublicNetworkAccess\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithMinimumTlsVersion?alt=com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithMinimumTlsVersion&text=WithMinimumTlsVersion\" data-throw-if-not-resolved=\"False\" />"
+methods:
+- uid: "com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithCreate.create()"
+  fullName: "com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithCreate.create()"
+  name: "create()"
+  nameWithType: "RelayNamespace.DefinitionStages.WithCreate.create()"
+  summary: "Executes the create request."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract RelayNamespace create()"
+  desc: "Executes the create request."
+  returns:
+    description: "the created resource."
+    type: "<xref href=\"com.azure.resourcemanager.relay.models.RelayNamespace?alt=com.azure.resourcemanager.relay.models.RelayNamespace&text=RelayNamespace\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithCreate.create(com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithCreate.create(Context context)"
+  name: "create(Context context)"
+  nameWithType: "RelayNamespace.DefinitionStages.WithCreate.create(Context context)"
+  summary: "Executes the create request."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract RelayNamespace create(Context context)"
+  desc: "Executes the create request."
+  returns:
+    description: "the created resource."
+    type: "<xref href=\"com.azure.resourcemanager.relay.models.RelayNamespace?alt=com.azure.resourcemanager.relay.models.RelayNamespace&text=RelayNamespace\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the RelayNamespace definition which contains all the minimum required properties for the resource to be created, but also allows for any other optional properties to be specified."
+implements:
+- "<xref href=\"com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithMinimumTlsVersion?alt=com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithMinimumTlsVersion&text=WithMinimumTlsVersion\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithPrivateEndpointConnections?alt=com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithPrivateEndpointConnections&text=WithPrivateEndpointConnections\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithPublicNetworkAccess?alt=com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithPublicNetworkAccess&text=WithPublicNetworkAccess\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithSku?alt=com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithSku&text=WithSku\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithTags?alt=com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithTags&text=WithTags\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.azure.resourcemanager.relay.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-relay:1.1.0

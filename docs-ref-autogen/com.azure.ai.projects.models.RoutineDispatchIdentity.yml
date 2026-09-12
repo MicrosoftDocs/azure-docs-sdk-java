@@ -1,0 +1,98 @@
+### YamlMime:JavaType
+uid: "com.azure.ai.projects.models.RoutineDispatchIdentity"
+fullName: "com.azure.ai.projects.models.RoutineDispatchIdentity"
+name: "RoutineDispatchIdentity"
+nameWithType: "RoutineDispatchIdentity"
+summary: "The supported identities for routine dispatch authorization."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **RoutineDispatchIdentity**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.projects.models.RoutineDispatchIdentity?alt=com.azure.ai.projects.models.RoutineDispatchIdentity&text=RoutineDispatchIdentity\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.ai.projects.models.RoutineDispatchIdentity.RoutineDispatchIdentity()"
+  fullName: "com.azure.ai.projects.models.RoutineDispatchIdentity.RoutineDispatchIdentity()"
+  name: "RoutineDispatchIdentity()"
+  nameWithType: "RoutineDispatchIdentity.RoutineDispatchIdentity()"
+  summary: "Creates a new instance of Routine<wbr>Dispatch<wbr>Identity value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.ai.projects.models.RoutineDispatchIdentity.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public RoutineDispatchIdentity()"
+  desc: "Creates a new instance of RoutineDispatchIdentity value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.ai.projects.models.RoutineDispatchIdentity.AGENT"
+  fullName: "com.azure.ai.projects.models.RoutineDispatchIdentity.AGENT"
+  name: "AGENT"
+  nameWithType: "RoutineDispatchIdentity.AGENT"
+  summary: "Dispatches with the target agent identity and a foundation token."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.projects.models.RoutineDispatchIdentity?alt=com.azure.ai.projects.models.RoutineDispatchIdentity&text=RoutineDispatchIdentity\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final RoutineDispatchIdentity AGENT"
+  desc: "Dispatches with the target agent identity and a foundation token."
+- uid: "com.azure.ai.projects.models.RoutineDispatchIdentity.CREATOR"
+  fullName: "com.azure.ai.projects.models.RoutineDispatchIdentity.CREATOR"
+  name: "CREATOR"
+  nameWithType: "RoutineDispatchIdentity.CREATOR"
+  summary: "An explicit customer opt-in to dispatch as the principal that created the routine."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.projects.models.RoutineDispatchIdentity?alt=com.azure.ai.projects.models.RoutineDispatchIdentity&text=RoutineDispatchIdentity\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final RoutineDispatchIdentity CREATOR"
+  desc: "An explicit customer opt-in to dispatch as the principal that created the routine."
+methods:
+- uid: "com.azure.ai.projects.models.RoutineDispatchIdentity.fromString(java.lang.String)"
+  fullName: "com.azure.ai.projects.models.RoutineDispatchIdentity.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "RoutineDispatchIdentity.fromString(String name)"
+  summary: "Creates or finds a Routine<wbr>Dispatch<wbr>Identity from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static RoutineDispatchIdentity fromString(String name)"
+  desc: "Creates or finds a RoutineDispatchIdentity from its string representation."
+  returns:
+    description: "the corresponding RoutineDispatchIdentity."
+    type: "<xref href=\"com.azure.ai.projects.models.RoutineDispatchIdentity?alt=com.azure.ai.projects.models.RoutineDispatchIdentity&text=RoutineDispatchIdentity\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.projects.models.RoutineDispatchIdentity.values()"
+  fullName: "com.azure.ai.projects.models.RoutineDispatchIdentity.values()"
+  name: "values()"
+  nameWithType: "RoutineDispatchIdentity.values()"
+  summary: "Gets known Routine<wbr>Dispatch<wbr>Identity values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<RoutineDispatchIdentity> values()"
+  desc: "Gets known RoutineDispatchIdentity values."
+  returns:
+    description: "known RoutineDispatchIdentity values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.ai.projects.models.RoutineDispatchIdentity?alt=com.azure.ai.projects.models.RoutineDispatchIdentity&text=RoutineDispatchIdentity\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "The supported identities for routine dispatch authorization."
+metadata: {}
+package: "com.azure.ai.projects.models"
+artifact: com.azure:azure-ai-projects:2.5.0

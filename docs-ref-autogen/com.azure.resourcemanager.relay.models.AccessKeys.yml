@@ -1,0 +1,85 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.relay.models.AccessKeys"
+fullName: "com.azure.resourcemanager.relay.models.AccessKeys"
+name: "AccessKeys"
+nameWithType: "AccessKeys"
+summary: "An immutable client-side representation of Access<wbr>Keys."
+syntax: "public interface **AccessKeys**"
+methods:
+- uid: "com.azure.resourcemanager.relay.models.AccessKeys.innerModel()"
+  fullName: "com.azure.resourcemanager.relay.models.AccessKeys.innerModel()"
+  name: "innerModel()"
+  nameWithType: "AccessKeys.innerModel()"
+  summary: "Gets the inner com.<wbr>azure.<wbr>resourcemanager.<wbr>relay.<wbr>fluent.<wbr>models.<wbr>Access<wbr>Keys<wbr>Inner object."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract AccessKeysInner innerModel()"
+  desc: "Gets the inner com.azure.resourcemanager.relay.fluent.models.AccessKeysInner object."
+  returns:
+    description: "the inner object."
+    type: "<xref href=\"com.azure.resourcemanager.relay.fluent.models.AccessKeysInner?alt=com.azure.resourcemanager.relay.fluent.models.AccessKeysInner&text=AccessKeysInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.relay.models.AccessKeys.keyName()"
+  fullName: "com.azure.resourcemanager.relay.models.AccessKeys.keyName()"
+  name: "keyName()"
+  nameWithType: "AccessKeys.keyName()"
+  summary: "Gets the key<wbr>Name property: A string that describes the authorization rule."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String keyName()"
+  desc: "Gets the keyName property: A string that describes the authorization rule."
+  returns:
+    description: "the keyName value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.relay.models.AccessKeys.primaryConnectionString()"
+  fullName: "com.azure.resourcemanager.relay.models.AccessKeys.primaryConnectionString()"
+  name: "primaryConnectionString()"
+  nameWithType: "AccessKeys.primaryConnectionString()"
+  summary: "Gets the primary<wbr>Connection<wbr>String property: Primary connection string of the created namespace authorization rule."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String primaryConnectionString()"
+  desc: "Gets the primaryConnectionString property: Primary connection string of the created namespace authorization rule."
+  returns:
+    description: "the primaryConnectionString value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.relay.models.AccessKeys.primaryKey()"
+  fullName: "com.azure.resourcemanager.relay.models.AccessKeys.primaryKey()"
+  name: "primaryKey()"
+  nameWithType: "AccessKeys.primaryKey()"
+  summary: "Gets the primary<wbr>Key property: A base64-encoded 256-bit primary key for signing and validating the SAS token."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String primaryKey()"
+  desc: "Gets the primaryKey property: A base64-encoded 256-bit primary key for signing and validating the SAS token."
+  returns:
+    description: "the primaryKey value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.relay.models.AccessKeys.secondaryConnectionString()"
+  fullName: "com.azure.resourcemanager.relay.models.AccessKeys.secondaryConnectionString()"
+  name: "secondaryConnectionString()"
+  nameWithType: "AccessKeys.secondaryConnectionString()"
+  summary: "Gets the secondary<wbr>Connection<wbr>String property: Secondary connection string of the created namespace authorization rule."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String secondaryConnectionString()"
+  desc: "Gets the secondaryConnectionString property: Secondary connection string of the created namespace authorization rule."
+  returns:
+    description: "the secondaryConnectionString value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.relay.models.AccessKeys.secondaryKey()"
+  fullName: "com.azure.resourcemanager.relay.models.AccessKeys.secondaryKey()"
+  name: "secondaryKey()"
+  nameWithType: "AccessKeys.secondaryKey()"
+  summary: "Gets the secondary<wbr>Key property: A base64-encoded 256-bit secondary key for signing and validating the SAS token."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String secondaryKey()"
+  desc: "Gets the secondaryKey property: A base64-encoded 256-bit secondary key for signing and validating the SAS token."
+  returns:
+    description: "the secondaryKey value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+type: "interface"
+desc: "An immutable client-side representation of AccessKeys."
+metadata: {}
+package: "com.azure.resourcemanager.relay.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-relay:1.1.0

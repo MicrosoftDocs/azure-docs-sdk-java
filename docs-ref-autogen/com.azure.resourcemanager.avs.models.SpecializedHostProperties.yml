@@ -15,6 +15,7 @@ inheritedClassMethods:
   - "<xref href=\"com.azure.resourcemanager.avs.models.HostProperties.fqdn()?alt=com.azure.resourcemanager.avs.models.HostProperties.fqdn&text=fqdn\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.avs.models.HostProperties.fromJson(com.azure.json.JsonReader)?alt=com.azure.resourcemanager.avs.models.HostProperties.fromJson&text=fromJson\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.avs.models.HostProperties.kind()?alt=com.azure.resourcemanager.avs.models.HostProperties.kind&text=kind\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.resourcemanager.avs.models.HostProperties.licenses()?alt=com.azure.resourcemanager.avs.models.HostProperties.licenses&text=licenses\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.avs.models.HostProperties.maintenance()?alt=com.azure.resourcemanager.avs.models.HostProperties.maintenance&text=maintenance\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.avs.models.HostProperties.moRefId()?alt=com.azure.resourcemanager.avs.models.HostProperties.moRefId&text=moRefId\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.avs.models.HostProperties.provisioningState()?alt=com.azure.resourcemanager.avs.models.HostProperties.provisioningState&text=provisioningState\" data-throw-if-not-resolved=\"False\" />"
@@ -90,4 +91,4 @@ type: "class"
 desc: "The properties of a specialized host."
 metadata: {}
 package: "com.azure.resourcemanager.avs.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-avs:1.4.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-avs:1.5.0

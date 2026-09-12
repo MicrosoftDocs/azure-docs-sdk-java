@@ -1,0 +1,61 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.relay.models.CheckNameAvailabilityResult"
+fullName: "com.azure.resourcemanager.relay.models.CheckNameAvailabilityResult"
+name: "CheckNameAvailabilityResult"
+nameWithType: "CheckNameAvailabilityResult"
+summary: "An immutable client-side representation of Check<wbr>Name<wbr>Availability<wbr>Result."
+syntax: "public interface **CheckNameAvailabilityResult**"
+methods:
+- uid: "com.azure.resourcemanager.relay.models.CheckNameAvailabilityResult.innerModel()"
+  fullName: "com.azure.resourcemanager.relay.models.CheckNameAvailabilityResult.innerModel()"
+  name: "innerModel()"
+  nameWithType: "CheckNameAvailabilityResult.innerModel()"
+  summary: "Gets the inner com.<wbr>azure.<wbr>resourcemanager.<wbr>relay.<wbr>fluent.<wbr>models.<wbr>Check<wbr>Name<wbr>Availability<wbr>Result<wbr>Inner object."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract CheckNameAvailabilityResultInner innerModel()"
+  desc: "Gets the inner com.azure.resourcemanager.relay.fluent.models.CheckNameAvailabilityResultInner object."
+  returns:
+    description: "the inner object."
+    type: "<xref href=\"com.azure.resourcemanager.relay.fluent.models.CheckNameAvailabilityResultInner?alt=com.azure.resourcemanager.relay.fluent.models.CheckNameAvailabilityResultInner&text=CheckNameAvailabilityResultInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.relay.models.CheckNameAvailabilityResult.message()"
+  fullName: "com.azure.resourcemanager.relay.models.CheckNameAvailabilityResult.message()"
+  name: "message()"
+  nameWithType: "CheckNameAvailabilityResult.message()"
+  summary: "Gets the message property: The detailed info regarding the reason associated with the namespace."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String message()"
+  desc: "Gets the message property: The detailed info regarding the reason associated with the namespace."
+  returns:
+    description: "the message value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.relay.models.CheckNameAvailabilityResult.nameAvailable()"
+  fullName: "com.azure.resourcemanager.relay.models.CheckNameAvailabilityResult.nameAvailable()"
+  name: "nameAvailable()"
+  nameWithType: "CheckNameAvailabilityResult.nameAvailable()"
+  summary: "Gets the name<wbr>Available property: Value indicating namespace is available."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract Boolean nameAvailable()"
+  desc: "Gets the nameAvailable property: Value indicating namespace is available. Returns true if the namespace is available; otherwise, false."
+  returns:
+    description: "the nameAvailable value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
+- uid: "com.azure.resourcemanager.relay.models.CheckNameAvailabilityResult.reason()"
+  fullName: "com.azure.resourcemanager.relay.models.CheckNameAvailabilityResult.reason()"
+  name: "reason()"
+  nameWithType: "CheckNameAvailabilityResult.reason()"
+  summary: "Gets the reason property: The reason for unavailability of a namespace."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract UnavailableReason reason()"
+  desc: "Gets the reason property: The reason for unavailability of a namespace."
+  returns:
+    description: "the reason value."
+    type: "<xref href=\"com.azure.resourcemanager.relay.models.UnavailableReason?alt=com.azure.resourcemanager.relay.models.UnavailableReason&text=UnavailableReason\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "An immutable client-side representation of CheckNameAvailabilityResult."
+metadata: {}
+package: "com.azure.resourcemanager.relay.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-relay:1.1.0

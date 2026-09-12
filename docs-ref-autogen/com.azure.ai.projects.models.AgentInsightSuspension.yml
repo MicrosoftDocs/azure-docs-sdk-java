@@ -1,0 +1,102 @@
+### YamlMime:JavaType
+uid: "com.azure.ai.projects.models.AgentInsightSuspension"
+fullName: "com.azure.ai.projects.models.AgentInsightSuspension"
+name: "AgentInsightSuspension"
+nameWithType: "AgentInsightSuspension"
+summary: "Structured reason why scheduled generation is suspended for a monitor."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **AgentInsightSuspension**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.projects.models.AgentInsightSuspension?alt=com.azure.ai.projects.models.AgentInsightSuspension&text=AgentInsightSuspension\" data-throw-if-not-resolved=\"False\" />&gt;"
+methods:
+- uid: "com.azure.ai.projects.models.AgentInsightSuspension.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.ai.projects.models.AgentInsightSuspension.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "AgentInsightSuspension.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Agent<wbr>Insight<wbr>Suspension from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static AgentInsightSuspension fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of AgentInsightSuspension from the JsonReader."
+  returns:
+    description: "An instance of AgentInsightSuspension if the JsonReader was pointing to an instance of it, or null if it\n was pointing to JSON null."
+    type: "<xref href=\"com.azure.ai.projects.models.AgentInsightSuspension?alt=com.azure.ai.projects.models.AgentInsightSuspension&text=AgentInsightSuspension\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.projects.models.AgentInsightSuspension.getCode()"
+  fullName: "com.azure.ai.projects.models.AgentInsightSuspension.getCode()"
+  name: "getCode()"
+  nameWithType: "AgentInsightSuspension.getCode()"
+  summary: "Get the code property: Stable, machine-readable suspension category."
+  syntax: "public String getCode()"
+  desc: "Get the code property: Stable, machine-readable suspension category."
+  returns:
+    description: "the code value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.ai.projects.models.AgentInsightSuspension.getDetails()"
+  fullName: "com.azure.ai.projects.models.AgentInsightSuspension.getDetails()"
+  name: "getDetails()"
+  nameWithType: "AgentInsightSuspension.getDetails()"
+  summary: "Get the details property: Additional reason-specific suspension details."
+  syntax: "public Map<String,BinaryData> getDetails()"
+  desc: "Get the details property: Additional reason-specific suspension details."
+  returns:
+    description: "the details value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.ai.projects.models.AgentInsightSuspension.getMessage()"
+  fullName: "com.azure.ai.projects.models.AgentInsightSuspension.getMessage()"
+  name: "getMessage()"
+  nameWithType: "AgentInsightSuspension.getMessage()"
+  summary: "Get the message property: Human-readable description of the suspension."
+  syntax: "public String getMessage()"
+  desc: "Get the message property: Human-readable description of the suspension."
+  returns:
+    description: "the message value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.ai.projects.models.AgentInsightSuspension.getOccurredAt()"
+  fullName: "com.azure.ai.projects.models.AgentInsightSuspension.getOccurredAt()"
+  name: "getOccurredAt()"
+  nameWithType: "AgentInsightSuspension.getOccurredAt()"
+  summary: "Get the occurred<wbr>At property: The time when the suspension occurred."
+  syntax: "public OffsetDateTime getOccurredAt()"
+  desc: "Get the occurredAt property: The time when the suspension occurred."
+  returns:
+    description: "the occurredAt value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
+- uid: "com.azure.ai.projects.models.AgentInsightSuspension.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.ai.projects.models.AgentInsightSuspension.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "AgentInsightSuspension.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Structured reason why scheduled generation is suspended for a monitor."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.projects.models.AgentInsightSuspension?alt=com.azure.ai.projects.models.AgentInsightSuspension&text=AgentInsightSuspension\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.ai.projects.models"
+artifact: com.azure:azure-ai-projects:2.5.0

@@ -51,6 +51,16 @@ methods:
   returns:
     description: "the agentReference value."
     type: "<xref href=\"com.azure.ai.agents.models.AgentReference?alt=com.azure.ai.agents.models.AgentReference&text=AgentReference\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.agents.models.AzureCreateResponseDetails.getModelSelectionDetails()"
+  fullName: "com.azure.ai.agents.models.AzureCreateResponseDetails.getModelSelectionDetails()"
+  name: "getModelSelectionDetails()"
+  nameWithType: "AzureCreateResponseDetails.getModelSelectionDetails()"
+  summary: "Get the model<wbr>Selection<wbr>Details property: Model selection metadata providing visibility into routing decisions."
+  syntax: "public ModelSelectionDetails getModelSelectionDetails()"
+  desc: "Get the modelSelectionDetails property: Model selection metadata providing visibility into routing decisions. Present when the request was handled by Model Router."
+  returns:
+    description: "the modelSelectionDetails value."
+    type: "<xref href=\"com.azure.ai.agents.models.ModelSelectionDetails?alt=com.azure.ai.agents.models.ModelSelectionDetails&text=ModelSelectionDetails\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.ai.agents.models.AzureCreateResponseDetails.toJson(com.azure.json.JsonWriter)"
   fullName: "com.azure.ai.agents.models.AzureCreateResponseDetails.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
@@ -69,4 +79,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.AzureCreateResponseDetails?alt=com.azure.ai.agents.models.AzureCreateResponseDetails&text=AzureCreateResponseDetails\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.ai.agents.models"
-artifact: com.azure:azure-ai-agents:2.4.0
+artifact: com.azure:azure-ai-agents:2.5.0

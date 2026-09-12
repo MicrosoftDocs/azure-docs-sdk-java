@@ -1,0 +1,92 @@
+### YamlMime:JavaType
+uid: "com.azure.ai.agents.models.ModelRouterAttemptResult"
+fullName: "com.azure.ai.agents.models.ModelRouterAttemptResult"
+name: "ModelRouterAttemptResult"
+nameWithType: "ModelRouterAttemptResult"
+summary: "The HTTP-style result returned by a model routing attempt."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ModelRouterAttemptResult**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.ModelRouterAttemptResult?alt=com.azure.ai.agents.models.ModelRouterAttemptResult&text=ModelRouterAttemptResult\" data-throw-if-not-resolved=\"False\" />&gt;"
+methods:
+- uid: "com.azure.ai.agents.models.ModelRouterAttemptResult.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.ai.agents.models.ModelRouterAttemptResult.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "ModelRouterAttemptResult.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Model<wbr>Router<wbr>Attempt<wbr>Result from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static ModelRouterAttemptResult fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of ModelRouterAttemptResult from the JsonReader."
+  returns:
+    description: "An instance of ModelRouterAttemptResult if the JsonReader was pointing to an instance of it, or null if\n it was pointing to JSON null."
+    type: "<xref href=\"com.azure.ai.agents.models.ModelRouterAttemptResult?alt=com.azure.ai.agents.models.ModelRouterAttemptResult&text=ModelRouterAttemptResult\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.agents.models.ModelRouterAttemptResult.getError()"
+  fullName: "com.azure.ai.agents.models.ModelRouterAttemptResult.getError()"
+  name: "getError()"
+  nameWithType: "ModelRouterAttemptResult.getError()"
+  summary: "Get the error property: Error details returned when the attempt did not succeed."
+  syntax: "public ModelRouterAttemptError getError()"
+  desc: "Get the error property: Error details returned when the attempt did not succeed."
+  returns:
+    description: "the error value."
+    type: "<xref href=\"com.azure.ai.agents.models.ModelRouterAttemptError?alt=com.azure.ai.agents.models.ModelRouterAttemptError&text=ModelRouterAttemptError\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.agents.models.ModelRouterAttemptResult.getHeaders()"
+  fullName: "com.azure.ai.agents.models.ModelRouterAttemptResult.getHeaders()"
+  name: "getHeaders()"
+  nameWithType: "ModelRouterAttemptResult.getHeaders()"
+  summary: "Get the headers property: Response headers returned by the model."
+  syntax: "public Map<String,BinaryData> getHeaders()"
+  desc: "Get the headers property: Response headers returned by the model."
+  returns:
+    description: "the headers value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.ai.agents.models.ModelRouterAttemptResult.getStatus()"
+  fullName: "com.azure.ai.agents.models.ModelRouterAttemptResult.getStatus()"
+  name: "getStatus()"
+  nameWithType: "ModelRouterAttemptResult.getStatus()"
+  summary: "Get the status property: The HTTP status code returned by the model."
+  syntax: "public int getStatus()"
+  desc: "Get the status property: The HTTP status code returned by the model."
+  returns:
+    description: "the status value."
+    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.agents.models.ModelRouterAttemptResult.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.ai.agents.models.ModelRouterAttemptResult.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "ModelRouterAttemptResult.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "The HTTP-style result returned by a model routing attempt."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.ModelRouterAttemptResult?alt=com.azure.ai.agents.models.ModelRouterAttemptResult&text=ModelRouterAttemptResult\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.ai.agents.models"
+artifact: com.azure:azure-ai-agents:2.5.0
