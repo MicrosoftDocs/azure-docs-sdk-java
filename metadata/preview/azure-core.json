@@ -1,15 +1,15 @@
 {
-  "Name": "azure-core-test",
-  "Version": "1.27.0-alpha.20260911.1",
-  "DevVersion": "1.27.0-alpha.20260911.1",
-  "DirectoryPath": "sdk/core/azure-core-test",
+  "Name": "azure-core",
+  "Version": "1.60.0-alpha.20260911.1",
+  "DevVersion": "1.60.0-alpha.20260911.1",
+  "DirectoryPath": "sdk/core/azure-core",
   "ServiceDirectory": "core",
-  "ReadMePath": "sdk/core/azure-core-test/README.md",
-  "ChangeLogPath": "sdk/core/azure-core-test/CHANGELOG.md",
+  "ReadMePath": "sdk/core/azure-core/README.md",
+  "ChangeLogPath": "sdk/core/azure-core/CHANGELOG.md",
   "Group": "com.azure",
   "SdkType": "client",
   "IsNewSdk": true,
-  "ArtifactName": "azure-core-test",
+  "ArtifactName": "azure-core",
   "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": [
@@ -18,13 +18,15 @@
     "com.azure:perf-test-core"
   ],
   "ArtifactDetails": {
-    "safeName": "azurecoretest",
+    "safeName": "azurecore",
     "triggeringPaths": [
+      "/sdk/parents/azure-sdk-parent",
+      "/sdk/parents/azure-client-sdk-parent",
       "/sdk/core/ci.yml"
     ],
     "groupId": "com.azure",
-    "name": "azure-core-test",
-    "releaseInBatch": "${{ parameters.release_azurecoretest }}"
+    "name": "azure-core",
+    "releaseInBatch": "${{ parameters.release_azurecore }}"
   },
   "CIParameters": {
     "CIMatrixConfigs": [
@@ -53,15 +55,23 @@
   },
   "SpecProjectPath": null,
   "Namespaces": [
-    "com.azure.core.test"
-  ],
-  "CIMatrixConfigs": [
-    {
-      "Path": "eng/pipelines/templates/stages/platform-matrix.json",
-      "NonSparseParameters": "Agent",
-      "Name": "Java_ci_test_base",
-      "GenerateVMJobs": true,
-      "Selection": "sparse"
-    }
+    "com.azure.core.annotation",
+    "com.azure.core.client.traits",
+    "com.azure.core.credential",
+    "com.azure.core.cryptography",
+    "com.azure.core.exception",
+    "com.azure.core.http",
+    "com.azure.core.http.policy",
+    "com.azure.core.http.rest",
+    "com.azure.core.models",
+    "com.azure.core.util",
+    "com.azure.core.util.builder",
+    "com.azure.core.util.io",
+    "com.azure.core.util.logging",
+    "com.azure.core.util.metrics",
+    "com.azure.core.util.paging",
+    "com.azure.core.util.polling",
+    "com.azure.core.util.serializer",
+    "com.azure.core.util.tracing"
   ]
 }
