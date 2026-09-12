@@ -1,0 +1,12 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.postgresql.models.ServerKey.UpdateStages"
+fullName: "com.azure.resourcemanager.postgresql.models.ServerKey.UpdateStages"
+name: "ServerKey.UpdateStages"
+nameWithType: "ServerKey.UpdateStages"
+summary: "The Server<wbr>Key update stages."
+syntax: "public static interface **ServerKey.UpdateStages**"
+type: "interface"
+desc: "The ServerKey update stages."
+metadata: {}
+package: "com.azure.resourcemanager.postgresql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-postgresql:1.2.0-alpha.20260910.1

@@ -329,16 +329,6 @@ methods:
   returns:
     description: "the parameters value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-- uid: "com.azure.resourcemanager.botservice.models.BotProperties.privateEndpointConnections()"
-  fullName: "com.azure.resourcemanager.botservice.models.BotProperties.privateEndpointConnections()"
-  name: "privateEndpointConnections()"
-  nameWithType: "BotProperties.privateEndpointConnections()"
-  summary: "Get the private<wbr>Endpoint<wbr>Connections property: List of Private Endpoint Connections configured for the bot."
-  syntax: "public List<PrivateEndpointConnectionInner> privateEndpointConnections()"
-  desc: "Get the privateEndpointConnections property: List of Private Endpoint Connections configured for the bot."
-  returns:
-    description: "the privateEndpointConnections value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.botservice.fluent.models.PrivateEndpointConnectionInner?alt=com.azure.resourcemanager.botservice.fluent.models.PrivateEndpointConnectionInner&text=PrivateEndpointConnectionInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.botservice.models.BotProperties.provisioningState()"
   fullName: "com.azure.resourcemanager.botservice.models.BotProperties.provisioningState()"
   name: "provisioningState()"
@@ -802,4 +792,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.botservice.models.BotProperties?alt=com.azure.resourcemanager.botservice.models.BotProperties&text=BotProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.botservice.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-botservice:1.0.0-beta.6
+artifact: com.azure.resourcemanager:azure-resourcemanager-botservice:1.1.0-alpha.20260910.1

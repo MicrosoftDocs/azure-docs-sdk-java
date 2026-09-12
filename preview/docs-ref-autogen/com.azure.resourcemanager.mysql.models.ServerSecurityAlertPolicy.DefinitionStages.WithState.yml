@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.DefinitionStages.WithState"
+fullName: "com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.DefinitionStages.WithState"
+name: "ServerSecurityAlertPolicy.DefinitionStages.WithState"
+nameWithType: "ServerSecurityAlertPolicy.DefinitionStages.WithState"
+summary: "The stage of the Server<wbr>Security<wbr>Alert<wbr>Policy definition allowing to specify state."
+syntax: "public static interface **ServerSecurityAlertPolicy.DefinitionStages.WithState**"
+methods:
+- uid: "com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.DefinitionStages.WithState.withState(com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicyState)"
+  fullName: "com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.DefinitionStages.WithState.withState(ServerSecurityAlertPolicyState state)"
+  name: "withState(ServerSecurityAlertPolicyState state)"
+  nameWithType: "ServerSecurityAlertPolicy.DefinitionStages.WithState.withState(ServerSecurityAlertPolicyState state)"
+  summary: "Specifies the state property: Specifies the state of the policy, whether it is enabled or disabled.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Specifies the state of the policy, whether it is enabled or disabled."
+    name: "state"
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicyState?alt=com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicyState&text=ServerSecurityAlertPolicyState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract ServerSecurityAlertPolicy.DefinitionStages.WithCreate withState(ServerSecurityAlertPolicyState state)"
+  desc: "Specifies the state property: Specifies the state of the policy, whether it is enabled or disabled.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the ServerSecurityAlertPolicy definition allowing to specify state."
+metadata: {}
+package: "com.azure.resourcemanager.mysql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-mysql:1.1.0-alpha.20260910.2

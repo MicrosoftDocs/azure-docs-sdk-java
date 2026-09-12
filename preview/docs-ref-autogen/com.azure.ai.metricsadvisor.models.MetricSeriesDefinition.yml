@@ -1,0 +1,57 @@
+### YamlMime:JavaType
+uid: "com.azure.ai.metricsadvisor.models.MetricSeriesDefinition"
+fullName: "com.azure.ai.metricsadvisor.models.MetricSeriesDefinition"
+name: "MetricSeriesDefinition"
+nameWithType: "MetricSeriesDefinition"
+summary: "The Metric<wbr>Series<wbr>Definition model."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **MetricSeriesDefinition**"
+constructors:
+- uid: "com.azure.ai.metricsadvisor.models.MetricSeriesDefinition.MetricSeriesDefinition()"
+  fullName: "com.azure.ai.metricsadvisor.models.MetricSeriesDefinition.MetricSeriesDefinition()"
+  name: "MetricSeriesDefinition()"
+  nameWithType: "MetricSeriesDefinition.MetricSeriesDefinition()"
+  summary: "Creates a new instance of Metric<wbr>Series<wbr>Definition."
+  syntax: "public MetricSeriesDefinition()"
+  desc: "Creates a new instance of MetricSeriesDefinition."
+methods:
+- uid: "com.azure.ai.metricsadvisor.models.MetricSeriesDefinition.getMetricId()"
+  fullName: "com.azure.ai.metricsadvisor.models.MetricSeriesDefinition.getMetricId()"
+  name: "getMetricId()"
+  nameWithType: "MetricSeriesDefinition.getMetricId()"
+  summary: "Get the metric unique id."
+  syntax: "public String getMetricId()"
+  desc: "Get the metric unique id."
+  returns:
+    description: "the metricId value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.ai.metricsadvisor.models.MetricSeriesDefinition.getSeriesKey()"
+  fullName: "com.azure.ai.metricsadvisor.models.MetricSeriesDefinition.getSeriesKey()"
+  name: "getSeriesKey()"
+  nameWithType: "MetricSeriesDefinition.getSeriesKey()"
+  summary: "Get the dimension name and value pair."
+  syntax: "public DimensionKey getSeriesKey()"
+  desc: "Get the dimension name and value pair."
+  returns:
+    description: "the dimension value."
+    type: "<xref href=\"com.azure.ai.metricsadvisor.models.DimensionKey?alt=com.azure.ai.metricsadvisor.models.DimensionKey&text=DimensionKey\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "The MetricSeriesDefinition model."
+metadata: {}
+package: "com.azure.ai.metricsadvisor.models"
+artifact: com.azure:azure-ai-metricsadvisor:1.3.0-alpha.20260910.4

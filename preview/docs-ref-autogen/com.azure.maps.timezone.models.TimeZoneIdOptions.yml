@@ -182,4 +182,4 @@ type: "class"
 desc: "Organizes inputs for get timezone by ID"
 metadata: {}
 package: "com.azure.maps.timezone.models"
-artifact: com.azure:azure-maps-timezone:1.0.0-beta.2
+artifact: com.azure:azure-maps-timezone:1.0.0-alpha.20260910.1

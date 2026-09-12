@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.postgresql.models.FirewallRule.UpdateStages.WithStartIpAddress"
+fullName: "com.azure.resourcemanager.postgresql.models.FirewallRule.UpdateStages.WithStartIpAddress"
+name: "FirewallRule.UpdateStages.WithStartIpAddress"
+nameWithType: "FirewallRule.UpdateStages.WithStartIpAddress"
+summary: "The stage of the Firewall<wbr>Rule update allowing to specify start<wbr>IpAddress."
+syntax: "public static interface **FirewallRule.UpdateStages.WithStartIpAddress**"
+methods:
+- uid: "com.azure.resourcemanager.postgresql.models.FirewallRule.UpdateStages.WithStartIpAddress.withStartIpAddress(java.lang.String)"
+  fullName: "com.azure.resourcemanager.postgresql.models.FirewallRule.UpdateStages.WithStartIpAddress.withStartIpAddress(String startIpAddress)"
+  name: "withStartIpAddress(String startIpAddress)"
+  nameWithType: "FirewallRule.UpdateStages.WithStartIpAddress.withStartIpAddress(String startIpAddress)"
+  summary: "Specifies the start<wbr>IpAddress property: The start IP address of the server firewall rule."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The start IP address of the server firewall rule. Must be IPv4 format."
+    name: "startIpAddress"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract FirewallRule.Update withStartIpAddress(String startIpAddress)"
+  desc: "Specifies the startIpAddress property: The start IP address of the server firewall rule. Must be IPv4 format.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.postgresql.models.FirewallRule.Update?alt=com.azure.resourcemanager.postgresql.models.FirewallRule.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the FirewallRule update allowing to specify startIpAddress."
+metadata: {}
+package: "com.azure.resourcemanager.postgresql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-postgresql:1.2.0-alpha.20260910.1

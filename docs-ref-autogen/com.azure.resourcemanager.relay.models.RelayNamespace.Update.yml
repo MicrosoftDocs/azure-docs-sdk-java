@@ -1,0 +1,47 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.relay.models.RelayNamespace.Update"
+fullName: "com.azure.resourcemanager.relay.models.RelayNamespace.Update"
+name: "RelayNamespace.Update"
+nameWithType: "RelayNamespace.Update"
+summary: "The template for Relay<wbr>Namespace update."
+syntax: "public static interface **RelayNamespace.Update**</br> extends <xref href=\"com.azure.resourcemanager.relay.models.RelayNamespace.UpdateStages.WithTags?alt=com.azure.resourcemanager.relay.models.RelayNamespace.UpdateStages.WithTags&text=WithTags\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.relay.models.RelayNamespace.UpdateStages.WithSku?alt=com.azure.resourcemanager.relay.models.RelayNamespace.UpdateStages.WithSku&text=WithSku\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.relay.models.RelayNamespace.UpdateStages.WithPrivateEndpointConnections?alt=com.azure.resourcemanager.relay.models.RelayNamespace.UpdateStages.WithPrivateEndpointConnections&text=WithPrivateEndpointConnections\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.relay.models.RelayNamespace.UpdateStages.WithPublicNetworkAccess?alt=com.azure.resourcemanager.relay.models.RelayNamespace.UpdateStages.WithPublicNetworkAccess&text=WithPublicNetworkAccess\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.relay.models.RelayNamespace.UpdateStages.WithMinimumTlsVersion?alt=com.azure.resourcemanager.relay.models.RelayNamespace.UpdateStages.WithMinimumTlsVersion&text=WithMinimumTlsVersion\" data-throw-if-not-resolved=\"False\" />"
+methods:
+- uid: "com.azure.resourcemanager.relay.models.RelayNamespace.Update.apply()"
+  fullName: "com.azure.resourcemanager.relay.models.RelayNamespace.Update.apply()"
+  name: "apply()"
+  nameWithType: "RelayNamespace.Update.apply()"
+  summary: "Executes the update request."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract RelayNamespace apply()"
+  desc: "Executes the update request."
+  returns:
+    description: "the updated resource."
+    type: "<xref href=\"com.azure.resourcemanager.relay.models.RelayNamespace?alt=com.azure.resourcemanager.relay.models.RelayNamespace&text=RelayNamespace\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.relay.models.RelayNamespace.Update.apply(com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.relay.models.RelayNamespace.Update.apply(Context context)"
+  name: "apply(Context context)"
+  nameWithType: "RelayNamespace.Update.apply(Context context)"
+  summary: "Executes the update request."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract RelayNamespace apply(Context context)"
+  desc: "Executes the update request."
+  returns:
+    description: "the updated resource."
+    type: "<xref href=\"com.azure.resourcemanager.relay.models.RelayNamespace?alt=com.azure.resourcemanager.relay.models.RelayNamespace&text=RelayNamespace\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The template for RelayNamespace update."
+implements:
+- "<xref href=\"com.azure.resourcemanager.relay.models.RelayNamespace.UpdateStages.WithMinimumTlsVersion?alt=com.azure.resourcemanager.relay.models.RelayNamespace.UpdateStages.WithMinimumTlsVersion&text=WithMinimumTlsVersion\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.relay.models.RelayNamespace.UpdateStages.WithPrivateEndpointConnections?alt=com.azure.resourcemanager.relay.models.RelayNamespace.UpdateStages.WithPrivateEndpointConnections&text=WithPrivateEndpointConnections\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.relay.models.RelayNamespace.UpdateStages.WithPublicNetworkAccess?alt=com.azure.resourcemanager.relay.models.RelayNamespace.UpdateStages.WithPublicNetworkAccess&text=WithPublicNetworkAccess\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.relay.models.RelayNamespace.UpdateStages.WithSku?alt=com.azure.resourcemanager.relay.models.RelayNamespace.UpdateStages.WithSku&text=WithSku\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.relay.models.RelayNamespace.UpdateStages.WithTags?alt=com.azure.resourcemanager.relay.models.RelayNamespace.UpdateStages.WithTags&text=WithTags\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.azure.resourcemanager.relay.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-relay:1.1.0

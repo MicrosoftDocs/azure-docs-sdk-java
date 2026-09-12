@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.mysql.models.Server.UpdateStages.WithMinimalTlsVersion"
+fullName: "com.azure.resourcemanager.mysql.models.Server.UpdateStages.WithMinimalTlsVersion"
+name: "Server.UpdateStages.WithMinimalTlsVersion"
+nameWithType: "Server.UpdateStages.WithMinimalTlsVersion"
+summary: "The stage of the Server update allowing to specify minimal<wbr>Tls<wbr>Version."
+syntax: "public static interface **Server.UpdateStages.WithMinimalTlsVersion**"
+methods:
+- uid: "com.azure.resourcemanager.mysql.models.Server.UpdateStages.WithMinimalTlsVersion.withMinimalTlsVersion(com.azure.resourcemanager.mysql.models.MinimalTlsVersionEnum)"
+  fullName: "com.azure.resourcemanager.mysql.models.Server.UpdateStages.WithMinimalTlsVersion.withMinimalTlsVersion(MinimalTlsVersionEnum minimalTlsVersion)"
+  name: "withMinimalTlsVersion(MinimalTlsVersionEnum minimalTlsVersion)"
+  nameWithType: "Server.UpdateStages.WithMinimalTlsVersion.withMinimalTlsVersion(MinimalTlsVersionEnum minimalTlsVersion)"
+  summary: "Specifies the minimal<wbr>Tls<wbr>Version property: Enforce a minimal Tls version for the server.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Enforce a minimal Tls version for the server."
+    name: "minimalTlsVersion"
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.MinimalTlsVersionEnum?alt=com.azure.resourcemanager.mysql.models.MinimalTlsVersionEnum&text=MinimalTlsVersionEnum\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract Server.Update withMinimalTlsVersion(MinimalTlsVersionEnum minimalTlsVersion)"
+  desc: "Specifies the minimalTlsVersion property: Enforce a minimal Tls version for the server.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.Server.Update?alt=com.azure.resourcemanager.mysql.models.Server.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the Server update allowing to specify minimalTlsVersion."
+metadata: {}
+package: "com.azure.resourcemanager.mysql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-mysql:1.1.0-alpha.20260910.2

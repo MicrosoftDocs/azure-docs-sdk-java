@@ -336,4 +336,4 @@ classes:
 desc: "Package containing the data models for SystemEvents. Azure Messaging EventGrid SystemEvents."
 metadata: {}
 package: "com.azure.messaging.eventgrid.systemevents.models"
-artifact: com.azure:azure-messaging-eventgrid-systemevents:1.1.0-beta.1
+artifact: com.azure:azure-messaging-eventgrid-systemevents:1.1.0-alpha.20260910.3

@@ -1,0 +1,12 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.relay.models.WcfRelay.UpdateStages"
+fullName: "com.azure.resourcemanager.relay.models.WcfRelay.UpdateStages"
+name: "WcfRelay.UpdateStages"
+nameWithType: "WcfRelay.UpdateStages"
+summary: "The Wcf<wbr>Relay update stages."
+syntax: "public static interface **WcfRelay.UpdateStages**"
+type: "interface"
+desc: "The WcfRelay update stages."
+metadata: {}
+package: "com.azure.resourcemanager.relay.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-relay:1.1.0

@@ -10,10 +10,12 @@ inheritances:
 inheritedClassMethods:
 - classRef: "<xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4Element?alt=com.azure.health.insights.radiologyinsights.models.FhirR4Element&text=FhirR4Element\" data-throw-if-not-resolved=\"False\" />"
   methodsRef:
+  - "<xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4Element.fromJson(com.azure.json.JsonReader)?alt=com.azure.health.insights.radiologyinsights.models.FhirR4Element.fromJson&text=fromJson\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4Element.getExtension()?alt=com.azure.health.insights.radiologyinsights.models.FhirR4Element.getExtension&text=getExtension\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4Element.getId()?alt=com.azure.health.insights.radiologyinsights.models.FhirR4Element.getId&text=getId\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4Element.setExtension(java.util.List<com.azure.health.insights.radiologyinsights.models.FhirR4Extension>)?alt=com.azure.health.insights.radiologyinsights.models.FhirR4Element.setExtension&text=setExtension\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4Element.setId(java.lang.String)?alt=com.azure.health.insights.radiologyinsights.models.FhirR4Element.setId&text=setId\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4Element.toJson(com.azure.json.JsonWriter)?alt=com.azure.health.insights.radiologyinsights.models.FhirR4Element.toJson&text=toJson\" data-throw-if-not-resolved=\"False\" />"
 - classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   methodsRef:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
@@ -28,15 +30,26 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **FhirR4ContactDetail**</br> extends <xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4Element?alt=com.azure.health.insights.radiologyinsights.models.FhirR4Element&text=FhirR4Element\" data-throw-if-not-resolved=\"False\" />"
-constructors:
-- uid: "com.azure.health.insights.radiologyinsights.models.FhirR4ContactDetail.FhirR4ContactDetail()"
-  fullName: "com.azure.health.insights.radiologyinsights.models.FhirR4ContactDetail.FhirR4ContactDetail()"
-  name: "FhirR4ContactDetail()"
-  nameWithType: "FhirR4ContactDetail.FhirR4ContactDetail()"
-  summary: "Creates an instance of FhirR4Contact<wbr>Detail class."
-  syntax: "public FhirR4ContactDetail()"
-  desc: "Creates an instance of FhirR4ContactDetail class."
 methods:
+- uid: "com.azure.health.insights.radiologyinsights.models.FhirR4ContactDetail.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.health.insights.radiologyinsights.models.FhirR4ContactDetail.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "FhirR4ContactDetail.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of FhirR4Contact<wbr>Detail from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static FhirR4ContactDetail fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the FhirR4ContactDetail."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of FhirR4ContactDetail from the JsonReader."
+  returns:
+    description: "An instance of FhirR4ContactDetail if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
+    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4ContactDetail?alt=com.azure.health.insights.radiologyinsights.models.FhirR4ContactDetail&text=FhirR4ContactDetail\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.health.insights.radiologyinsights.models.FhirR4ContactDetail.getName()"
   fullName: "com.azure.health.insights.radiologyinsights.models.FhirR4ContactDetail.getName()"
   name: "getName()"
@@ -57,62 +70,21 @@ methods:
   returns:
     description: "the telecom value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4ContactPoint?alt=com.azure.health.insights.radiologyinsights.models.FhirR4ContactPoint&text=FhirR4ContactPoint\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.health.insights.radiologyinsights.models.FhirR4ContactDetail.setExtension(java.util.List<com.azure.health.insights.radiologyinsights.models.FhirR4Extension>)"
-  fullName: "com.azure.health.insights.radiologyinsights.models.FhirR4ContactDetail.setExtension(List<FhirR4Extension> extension)"
-  name: "setExtension(List<FhirR4Extension> extension)"
-  nameWithType: "FhirR4ContactDetail.setExtension(List<FhirR4Extension> extension)"
-  summary: "Set the extension property: Additional Content defined by implementations."
-  overridden: "com.azure.health.insights.radiologyinsights.models.FhirR4Element.setExtension(java.util.List<com.azure.health.insights.radiologyinsights.models.FhirR4Extension>)"
+- uid: "com.azure.health.insights.radiologyinsights.models.FhirR4ContactDetail.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.health.insights.radiologyinsights.models.FhirR4ContactDetail.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "FhirR4ContactDetail.toJson(JsonWriter jsonWriter)"
+  overridden: "com.azure.health.insights.radiologyinsights.models.FhirR4Element.toJson(com.azure.json.JsonWriter)"
   parameters:
-  - name: "extension"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4Extension?alt=com.azure.health.insights.radiologyinsights.models.FhirR4Extension&text=FhirR4Extension\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public FhirR4ContactDetail setExtension(List<FhirR4Extension> extension)"
-  desc: "Set the extension property: Additional Content defined by implementations."
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
-    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4ContactDetail?alt=com.azure.health.insights.radiologyinsights.models.FhirR4ContactDetail&text=FhirR4ContactDetail\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.health.insights.radiologyinsights.models.FhirR4ContactDetail.setId(java.lang.String)"
-  fullName: "com.azure.health.insights.radiologyinsights.models.FhirR4ContactDetail.setId(String id)"
-  name: "setId(String id)"
-  nameWithType: "FhirR4ContactDetail.setId(String id)"
-  summary: "Set the id property: Unique id for inter-element referencing."
-  overridden: "com.azure.health.insights.radiologyinsights.models.FhirR4Element.setId(java.lang.String)"
-  parameters:
-  - name: "id"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public FhirR4ContactDetail setId(String id)"
-  desc: "Set the id property: Unique id for inter-element referencing."
-  returns:
-    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4ContactDetail?alt=com.azure.health.insights.radiologyinsights.models.FhirR4ContactDetail&text=FhirR4ContactDetail\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.health.insights.radiologyinsights.models.FhirR4ContactDetail.setName(java.lang.String)"
-  fullName: "com.azure.health.insights.radiologyinsights.models.FhirR4ContactDetail.setName(String name)"
-  name: "setName(String name)"
-  nameWithType: "FhirR4ContactDetail.setName(String name)"
-  summary: "Set the name property: Name of an individual to contact."
-  parameters:
-  - description: "the name value to set."
-    name: "name"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public FhirR4ContactDetail setName(String name)"
-  desc: "Set the name property: Name of an individual to contact."
-  returns:
-    description: "the FhirR4ContactDetail object itself."
-    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4ContactDetail?alt=com.azure.health.insights.radiologyinsights.models.FhirR4ContactDetail&text=FhirR4ContactDetail\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.health.insights.radiologyinsights.models.FhirR4ContactDetail.setTelecom(java.util.List<com.azure.health.insights.radiologyinsights.models.FhirR4ContactPoint>)"
-  fullName: "com.azure.health.insights.radiologyinsights.models.FhirR4ContactDetail.setTelecom(List<FhirR4ContactPoint> telecom)"
-  name: "setTelecom(List<FhirR4ContactPoint> telecom)"
-  nameWithType: "FhirR4ContactDetail.setTelecom(List<FhirR4ContactPoint> telecom)"
-  summary: "Set the telecom property: Contact details for individual or organization."
-  parameters:
-  - description: "the telecom value to set."
-    name: "telecom"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4ContactPoint?alt=com.azure.health.insights.radiologyinsights.models.FhirR4ContactPoint&text=FhirR4ContactPoint\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public FhirR4ContactDetail setTelecom(List<FhirR4ContactPoint> telecom)"
-  desc: "Set the telecom property: Contact details for individual or organization."
-  returns:
-    description: "the FhirR4ContactDetail object itself."
-    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4ContactDetail?alt=com.azure.health.insights.radiologyinsights.models.FhirR4ContactDetail&text=FhirR4ContactDetail\" data-throw-if-not-resolved=\"False\" />"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Contact details (See: https://www.hl7.org/fhir/R4/metadatatypes.html\\#ContactDetail)."
 metadata: {}
 package: "com.azure.health.insights.radiologyinsights.models"
-artifact: com.azure:azure-health-insights-radiologyinsights:1.0.0-beta.1
+artifact: com.azure:azure-health-insights-radiologyinsights:1.2.0-alpha.20260910.2

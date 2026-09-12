@@ -114,18 +114,6 @@ methods:
   returns:
     description: "the httpPipeline value."
     type: "<xref href=\"com.azure.core.http.HttpPipeline?alt=com.azure.core.http.HttpPipeline&text=HttpPipeline\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.botservice.fluent.AzureBotService.getOperationResults()"
-  fullName: "com.azure.resourcemanager.botservice.fluent.AzureBotService.getOperationResults()"
-  name: "getOperationResults()"
-  nameWithType: "AzureBotService.getOperationResults()"
-  summary: "Gets the Operation<wbr>Results<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract OperationResultsClient getOperationResults()"
-  desc: "Gets the OperationResultsClient object to access its operations."
-  returns:
-    description: "the OperationResultsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.botservice.fluent.OperationResultsClient?alt=com.azure.resourcemanager.botservice.fluent.OperationResultsClient&text=OperationResultsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.botservice.fluent.AzureBotService.getOperations()"
   fullName: "com.azure.resourcemanager.botservice.fluent.AzureBotService.getOperations()"
   name: "getOperations()"
@@ -138,30 +126,6 @@ methods:
   returns:
     description: "the OperationsClient object."
     type: "<xref href=\"com.azure.resourcemanager.botservice.fluent.OperationsClient?alt=com.azure.resourcemanager.botservice.fluent.OperationsClient&text=OperationsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.botservice.fluent.AzureBotService.getPrivateEndpointConnections()"
-  fullName: "com.azure.resourcemanager.botservice.fluent.AzureBotService.getPrivateEndpointConnections()"
-  name: "getPrivateEndpointConnections()"
-  nameWithType: "AzureBotService.getPrivateEndpointConnections()"
-  summary: "Gets the Private<wbr>Endpoint<wbr>Connections<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract PrivateEndpointConnectionsClient getPrivateEndpointConnections()"
-  desc: "Gets the PrivateEndpointConnectionsClient object to access its operations."
-  returns:
-    description: "the PrivateEndpointConnectionsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.botservice.fluent.PrivateEndpointConnectionsClient?alt=com.azure.resourcemanager.botservice.fluent.PrivateEndpointConnectionsClient&text=PrivateEndpointConnectionsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.botservice.fluent.AzureBotService.getPrivateLinkResources()"
-  fullName: "com.azure.resourcemanager.botservice.fluent.AzureBotService.getPrivateLinkResources()"
-  name: "getPrivateLinkResources()"
-  nameWithType: "AzureBotService.getPrivateLinkResources()"
-  summary: "Gets the Private<wbr>Link<wbr>Resources<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract PrivateLinkResourcesClient getPrivateLinkResources()"
-  desc: "Gets the PrivateLinkResourcesClient object to access its operations."
-  returns:
-    description: "the PrivateLinkResourcesClient object."
-    type: "<xref href=\"com.azure.resourcemanager.botservice.fluent.PrivateLinkResourcesClient?alt=com.azure.resourcemanager.botservice.fluent.PrivateLinkResourcesClient&text=PrivateLinkResourcesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.botservice.fluent.AzureBotService.getSubscriptionId()"
   fullName: "com.azure.resourcemanager.botservice.fluent.AzureBotService.getSubscriptionId()"
   name: "getSubscriptionId()"
@@ -178,4 +142,4 @@ type: "interface"
 desc: "The interface for AzureBotService class."
 metadata: {}
 package: "com.azure.resourcemanager.botservice.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-botservice:1.0.0-beta.6
+artifact: com.azure.resourcemanager:azure-resourcemanager-botservice:1.1.0-alpha.20260910.1

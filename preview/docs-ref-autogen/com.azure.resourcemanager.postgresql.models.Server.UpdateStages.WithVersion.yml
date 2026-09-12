@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.postgresql.models.Server.UpdateStages.WithVersion"
+fullName: "com.azure.resourcemanager.postgresql.models.Server.UpdateStages.WithVersion"
+name: "Server.UpdateStages.WithVersion"
+nameWithType: "Server.UpdateStages.WithVersion"
+summary: "The stage of the Server update allowing to specify version."
+syntax: "public static interface **Server.UpdateStages.WithVersion**"
+methods:
+- uid: "com.azure.resourcemanager.postgresql.models.Server.UpdateStages.WithVersion.withVersion(com.azure.resourcemanager.postgresql.models.ServerVersion)"
+  fullName: "com.azure.resourcemanager.postgresql.models.Server.UpdateStages.WithVersion.withVersion(ServerVersion version)"
+  name: "withVersion(ServerVersion version)"
+  nameWithType: "Server.UpdateStages.WithVersion.withVersion(ServerVersion version)"
+  summary: "Specifies the version property: The version of a server.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The version of a server."
+    name: "version"
+    type: "<xref href=\"com.azure.resourcemanager.postgresql.models.ServerVersion?alt=com.azure.resourcemanager.postgresql.models.ServerVersion&text=ServerVersion\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract Server.Update withVersion(ServerVersion version)"
+  desc: "Specifies the version property: The version of a server.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.postgresql.models.Server.Update?alt=com.azure.resourcemanager.postgresql.models.Server.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the Server update allowing to specify version."
+metadata: {}
+package: "com.azure.resourcemanager.postgresql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-postgresql:1.2.0-alpha.20260910.1

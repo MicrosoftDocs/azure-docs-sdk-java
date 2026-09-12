@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.UpdateStages.WithStorageEndpoint"
+fullName: "com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.UpdateStages.WithStorageEndpoint"
+name: "ServerSecurityAlertPolicy.UpdateStages.WithStorageEndpoint"
+nameWithType: "ServerSecurityAlertPolicy.UpdateStages.WithStorageEndpoint"
+summary: "The stage of the Server<wbr>Security<wbr>Alert<wbr>Policy update allowing to specify storage<wbr>Endpoint."
+syntax: "public static interface **ServerSecurityAlertPolicy.UpdateStages.WithStorageEndpoint**"
+methods:
+- uid: "com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.UpdateStages.WithStorageEndpoint.withStorageEndpoint(java.lang.String)"
+  fullName: "com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.UpdateStages.WithStorageEndpoint.withStorageEndpoint(String storageEndpoint)"
+  name: "withStorageEndpoint(String storageEndpoint)"
+  nameWithType: "ServerSecurityAlertPolicy.UpdateStages.WithStorageEndpoint.withStorageEndpoint(String storageEndpoint)"
+  summary: "Specifies the storage<wbr>Endpoint property: Specifies the blob storage endpoint (e.<wbr>g."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Specifies the blob storage endpoint (e.g.\n     https://MyAccount.blob.core.windows.net). This blob storage will hold all Threat Detection audit\n     logs."
+    name: "storageEndpoint"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract ServerSecurityAlertPolicy.Update withStorageEndpoint(String storageEndpoint)"
+  desc: "Specifies the storageEndpoint property: Specifies the blob storage endpoint (e.g. https://MyAccount.blob.core.windows.net). This blob storage will hold all Threat Detection audit logs.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.Update?alt=com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the ServerSecurityAlertPolicy update allowing to specify storageEndpoint."
+metadata: {}
+package: "com.azure.resourcemanager.mysql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-mysql:1.1.0-alpha.20260910.2

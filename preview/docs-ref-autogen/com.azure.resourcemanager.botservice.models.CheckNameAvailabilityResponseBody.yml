@@ -58,4 +58,4 @@ type: "interface"
 desc: "An immutable client-side representation of CheckNameAvailabilityResponseBody."
 metadata: {}
 package: "com.azure.resourcemanager.botservice.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-botservice:1.0.0-beta.6
+artifact: com.azure.resourcemanager:azure-resourcemanager-botservice:1.1.0-alpha.20260910.1

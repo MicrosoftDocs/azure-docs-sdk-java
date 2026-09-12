@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.UpdateStages.WithRetentionDays"
+fullName: "com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.UpdateStages.WithRetentionDays"
+name: "ServerSecurityAlertPolicy.UpdateStages.WithRetentionDays"
+nameWithType: "ServerSecurityAlertPolicy.UpdateStages.WithRetentionDays"
+summary: "The stage of the Server<wbr>Security<wbr>Alert<wbr>Policy update allowing to specify retention<wbr>Days."
+syntax: "public static interface **ServerSecurityAlertPolicy.UpdateStages.WithRetentionDays**"
+methods:
+- uid: "com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.UpdateStages.WithRetentionDays.withRetentionDays(java.lang.Integer)"
+  fullName: "com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.UpdateStages.WithRetentionDays.withRetentionDays(Integer retentionDays)"
+  name: "withRetentionDays(Integer retentionDays)"
+  nameWithType: "ServerSecurityAlertPolicy.UpdateStages.WithRetentionDays.withRetentionDays(Integer retentionDays)"
+  summary: "Specifies the retention<wbr>Days property: Specifies the number of days to keep in the Threat Detection audit logs.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Specifies the number of days to keep in the Threat Detection audit logs."
+    name: "retentionDays"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
+  syntax: "public abstract ServerSecurityAlertPolicy.Update withRetentionDays(Integer retentionDays)"
+  desc: "Specifies the retentionDays property: Specifies the number of days to keep in the Threat Detection audit logs.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.Update?alt=com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the ServerSecurityAlertPolicy update allowing to specify retentionDays."
+metadata: {}
+package: "com.azure.resourcemanager.mysql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-mysql:1.1.0-alpha.20260910.2

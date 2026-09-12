@@ -4,18 +4,21 @@ fullName: "com.azure.messaging.eventgrid.systemevents.AcsRouterWorkerEventData"
 name: "AcsRouterWorkerEventData"
 nameWithType: "AcsRouterWorkerEventData"
 summary: "Schema of common properties of all Router Worker events."
+deprecatedTag: "This class is deprecated and may be removed in future releases. System events are now available in the azure-messaging-eventgrid-systemevents package."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsRouterEventData?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
 - classRef: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsRouterEventData?alt=com.azure.messaging.eventgrid.systemevents.AcsRouterEventData&text=AcsRouterEventData\" data-throw-if-not-resolved=\"False\" />"
   methodsRef:
+  - "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsRouterEventData.fromJson(com.azure.json.JsonReader)?alt=com.azure.messaging.eventgrid.systemevents.AcsRouterEventData.fromJson&text=fromJson\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsRouterEventData.getChannelId()?alt=com.azure.messaging.eventgrid.systemevents.AcsRouterEventData.getChannelId&text=getChannelId\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsRouterEventData.getChannelReference()?alt=com.azure.messaging.eventgrid.systemevents.AcsRouterEventData.getChannelReference&text=getChannelReference\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsRouterEventData.getJobId()?alt=com.azure.messaging.eventgrid.systemevents.AcsRouterEventData.getJobId&text=getJobId\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsRouterEventData.setChannelId(java.lang.String)?alt=com.azure.messaging.eventgrid.systemevents.AcsRouterEventData.setChannelId&text=setChannelId\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsRouterEventData.setChannelReference(java.lang.String)?alt=com.azure.messaging.eventgrid.systemevents.AcsRouterEventData.setChannelReference&text=setChannelReference\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsRouterEventData.setJobId(java.lang.String)?alt=com.azure.messaging.eventgrid.systemevents.AcsRouterEventData.setJobId&text=setJobId\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsRouterEventData.toJson(com.azure.json.JsonWriter)?alt=com.azure.messaging.eventgrid.systemevents.AcsRouterEventData.toJson&text=toJson\" data-throw-if-not-resolved=\"False\" />"
 - classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   methodsRef:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
@@ -29,7 +32,7 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
-syntax: "public class **AcsRouterWorkerEventData**</br> extends <xref href=\"com.azure.messaging.eventgrid.systemevents.AcsRouterEventData?alt=com.azure.messaging.eventgrid.systemevents.AcsRouterEventData&text=AcsRouterEventData\" data-throw-if-not-resolved=\"False\" />"
+syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public class **AcsRouterWorkerEventData**</br> extends <xref href=\"com.azure.messaging.eventgrid.systemevents.AcsRouterEventData?alt=com.azure.messaging.eventgrid.systemevents.AcsRouterEventData&text=AcsRouterEventData\" data-throw-if-not-resolved=\"False\" />"
 constructors:
 - uid: "com.azure.messaging.eventgrid.systemevents.AcsRouterWorkerEventData.AcsRouterWorkerEventData()"
   fullName: "com.azure.messaging.eventgrid.systemevents.AcsRouterWorkerEventData.AcsRouterWorkerEventData()"
@@ -39,6 +42,25 @@ constructors:
   syntax: "public AcsRouterWorkerEventData()"
   desc: "Creates an instance of AcsRouterWorkerEventData class."
 methods:
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsRouterWorkerEventData.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsRouterWorkerEventData.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "AcsRouterWorkerEventData.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Acs<wbr>Router<wbr>Worker<wbr>Event<wbr>Data from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static AcsRouterWorkerEventData fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the AcsRouterWorkerEventData."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of AcsRouterWorkerEventData from the JsonReader."
+  returns:
+    description: "An instance of AcsRouterWorkerEventData if the JsonReader was pointing to an instance of it, or null if\n it was pointing to JSON null."
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsRouterWorkerEventData?alt=com.azure.messaging.eventgrid.systemevents.AcsRouterWorkerEventData&text=AcsRouterWorkerEventData\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.messaging.eventgrid.systemevents.AcsRouterWorkerEventData.getWorkerId()"
   fullName: "com.azure.messaging.eventgrid.systemevents.AcsRouterWorkerEventData.getWorkerId()"
   name: "getWorkerId()"
@@ -102,8 +124,22 @@ methods:
   returns:
     description: "the AcsRouterWorkerEventData object itself."
     type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsRouterWorkerEventData?alt=com.azure.messaging.eventgrid.systemevents.AcsRouterWorkerEventData&text=AcsRouterWorkerEventData\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsRouterWorkerEventData.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsRouterWorkerEventData.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "AcsRouterWorkerEventData.toJson(JsonWriter jsonWriter)"
+  overridden: "com.azure.messaging.eventgrid.systemevents.AcsRouterEventData.toJson(com.azure.json.JsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Schema of common properties of all Router Worker events."
+hasDeprecatedTag: true
 metadata: {}
 package: "com.azure.messaging.eventgrid.systemevents"
-artifact: com.azure:azure-messaging-eventgrid:4.21.0-beta.1
+artifact: com.azure:azure-messaging-eventgrid:4.32.0-alpha.20260910.3

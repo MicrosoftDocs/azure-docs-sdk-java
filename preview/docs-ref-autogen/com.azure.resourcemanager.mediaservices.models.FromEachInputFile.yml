@@ -107,4 +107,4 @@ type: "class"
 desc: "An InputDefinition that looks at each input file provided to select tracks specified by the IncludedTracks property. Generally used with the AudioTrackByAttribute and VideoTrackByAttribute to select tracks from each file given."
 metadata: {}
 package: "com.azure.resourcemanager.mediaservices.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-mediaservices:2.4.0-beta.2
+artifact: com.azure.resourcemanager:azure-resourcemanager-mediaservices:2.5.0-alpha.20260910.3

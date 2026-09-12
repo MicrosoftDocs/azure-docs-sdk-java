@@ -1,0 +1,54 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.mysql.fluent.LocationBasedRecommendedActionSessionsResultsClient"
+fullName: "com.azure.resourcemanager.mysql.fluent.LocationBasedRecommendedActionSessionsResultsClient"
+name: "LocationBasedRecommendedActionSessionsResultsClient"
+nameWithType: "LocationBasedRecommendedActionSessionsResultsClient"
+summary: "An instance of this class provides access to all the operations defined in Location<wbr>Based<wbr>Recommended<wbr>Action<wbr>Sessions<wbr>Results<wbr>Client."
+syntax: "public interface **LocationBasedRecommendedActionSessionsResultsClient**"
+methods:
+- uid: "com.azure.resourcemanager.mysql.fluent.LocationBasedRecommendedActionSessionsResultsClient.list(java.lang.String,java.lang.String)"
+  fullName: "com.azure.resourcemanager.mysql.fluent.LocationBasedRecommendedActionSessionsResultsClient.list(String locationName, String operationId)"
+  name: "list(String locationName, String operationId)"
+  nameWithType: "LocationBasedRecommendedActionSessionsResultsClient.list(String locationName, String operationId)"
+  summary: "Recommendation action session operation result."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the location."
+    name: "locationName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The operation identifier."
+    name: "operationId"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract PagedIterable<RecommendationActionInner> list(String locationName, String operationId)"
+  desc: "Recommendation action session operation result."
+  returns:
+    description: "a list of recommendation actions."
+    type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.mysql.fluent.models.RecommendationActionInner?alt=com.azure.resourcemanager.mysql.fluent.models.RecommendationActionInner&text=RecommendationActionInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.mysql.fluent.LocationBasedRecommendedActionSessionsResultsClient.list(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.mysql.fluent.LocationBasedRecommendedActionSessionsResultsClient.list(String locationName, String operationId, Context context)"
+  name: "list(String locationName, String operationId, Context context)"
+  nameWithType: "LocationBasedRecommendedActionSessionsResultsClient.list(String locationName, String operationId, Context context)"
+  summary: "Recommendation action session operation result."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the location."
+    name: "locationName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The operation identifier."
+    name: "operationId"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract PagedIterable<RecommendationActionInner> list(String locationName, String operationId, Context context)"
+  desc: "Recommendation action session operation result."
+  returns:
+    description: "a list of recommendation actions."
+    type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.mysql.fluent.models.RecommendationActionInner?alt=com.azure.resourcemanager.mysql.fluent.models.RecommendationActionInner&text=RecommendationActionInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "interface"
+desc: "An instance of this class provides access to all the operations defined in LocationBasedRecommendedActionSessionsResultsClient."
+metadata: {}
+package: "com.azure.resourcemanager.mysql.fluent"
+artifact: com.azure.resourcemanager:azure-resourcemanager-mysql:1.1.0-alpha.20260910.2

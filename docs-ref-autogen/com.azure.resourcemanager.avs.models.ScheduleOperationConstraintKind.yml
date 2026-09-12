@@ -74,6 +74,18 @@ fields:
     type: "<xref href=\"com.azure.resourcemanager.avs.models.ScheduleOperationConstraintKind?alt=com.azure.resourcemanager.avs.models.ScheduleOperationConstraintKind&text=ScheduleOperationConstraintKind\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ScheduleOperationConstraintKind SCHEDULING_WINDOW"
   desc: "Time window in which Customer has option to schedule maintenance."
+- uid: "com.azure.resourcemanager.avs.models.ScheduleOperationConstraintKind.WEEKEND_SCHEDULING"
+  fullName: "com.azure.resourcemanager.avs.models.ScheduleOperationConstraintKind.WEEKEND_SCHEDULING"
+  name: "WEEKEND_SCHEDULING"
+  nameWithType: "ScheduleOperationConstraintKind.WEEKEND_SCHEDULING"
+  summary: "Defines weekend scheduling restriction."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.avs.models.ScheduleOperationConstraintKind?alt=com.azure.resourcemanager.avs.models.ScheduleOperationConstraintKind&text=ScheduleOperationConstraintKind\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ScheduleOperationConstraintKind WEEKEND_SCHEDULING"
+  desc: "Defines weekend scheduling restriction."
 methods:
 - uid: "com.azure.resourcemanager.avs.models.ScheduleOperationConstraintKind.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.avs.models.ScheduleOperationConstraintKind.fromString(String name)"
@@ -107,4 +119,4 @@ type: "class"
 desc: "Constraints for scheduling of maintenance."
 metadata: {}
 package: "com.azure.resourcemanager.avs.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-avs:1.4.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-avs:1.5.0

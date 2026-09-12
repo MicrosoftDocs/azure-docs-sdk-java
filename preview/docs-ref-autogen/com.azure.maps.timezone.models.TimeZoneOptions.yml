@@ -3,7 +3,7 @@ uid: "com.azure.maps.timezone.models.TimeZoneOptions"
 fullName: "com.azure.maps.timezone.models.TimeZoneOptions"
 name: "TimeZoneOptions"
 nameWithType: "TimeZoneOptions"
-summary: "Defines values for Timezone<wbr>Options."
+summary: "Defines values for Time<wbr>Zone<wbr>Options."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
@@ -32,10 +32,10 @@ constructors:
   fullName: "com.azure.maps.timezone.models.TimeZoneOptions.TimeZoneOptions()"
   name: "TimeZoneOptions()"
   nameWithType: "TimeZoneOptions.TimeZoneOptions()"
-  summary: "Creates a new instance of Timezone<wbr>Options value."
+  summary: "Creates a new instance of Time<wbr>Zone<wbr>Options value."
   deprecatedTag: "Use the <xref uid=\"com.azure.maps.timezone.models.TimeZoneOptions.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
   syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public TimeZoneOptions()"
-  desc: "Creates a new instance of TimezoneOptions value."
+  desc: "Creates a new instance of TimeZoneOptions value."
   hasDeprecatedTag: true
 fields:
 - uid: "com.azure.maps.timezone.models.TimeZoneOptions.ALL"
@@ -91,7 +91,7 @@ methods:
   fullName: "com.azure.maps.timezone.models.TimeZoneOptions.fromString(String name)"
   name: "fromString(String name)"
   nameWithType: "TimeZoneOptions.fromString(String name)"
-  summary: "Creates or finds a Timezone<wbr>Options from its string representation."
+  summary: "Creates or finds a Time<wbr>Zone<wbr>Options from its string representation."
   modifiers:
   - "static"
   parameters:
@@ -99,24 +99,24 @@ methods:
     name: "name"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public static TimeZoneOptions fromString(String name)"
-  desc: "Creates or finds a TimezoneOptions from its string representation."
+  desc: "Creates or finds a TimeZoneOptions from its string representation."
   returns:
-    description: "the corresponding TimezoneOptions."
+    description: "the corresponding TimeZoneOptions."
     type: "<xref href=\"com.azure.maps.timezone.models.TimeZoneOptions?alt=com.azure.maps.timezone.models.TimeZoneOptions&text=TimeZoneOptions\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.maps.timezone.models.TimeZoneOptions.values()"
   fullName: "com.azure.maps.timezone.models.TimeZoneOptions.values()"
   name: "values()"
   nameWithType: "TimeZoneOptions.values()"
-  summary: "Gets known Timezone<wbr>Options values."
+  summary: "Gets known Time<wbr>Zone<wbr>Options values."
   modifiers:
   - "static"
   syntax: "public static Collection<TimeZoneOptions> values()"
-  desc: "Gets known TimezoneOptions values."
+  desc: "Gets known TimeZoneOptions values."
   returns:
-    description: "known TimezoneOptions values."
+    description: "known TimeZoneOptions values."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.maps.timezone.models.TimeZoneOptions?alt=com.azure.maps.timezone.models.TimeZoneOptions&text=TimeZoneOptions\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "class"
-desc: "Defines values for TimezoneOptions."
+desc: "Defines values for TimeZoneOptions."
 metadata: {}
 package: "com.azure.maps.timezone.models"
-artifact: com.azure:azure-maps-timezone:1.0.0-beta.2
+artifact: com.azure:azure-maps-timezone:1.0.0-alpha.20260910.1

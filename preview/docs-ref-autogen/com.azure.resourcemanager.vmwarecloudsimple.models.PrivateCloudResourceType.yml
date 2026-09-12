@@ -86,4 +86,4 @@ methods:
 desc: "Azure Resource type."
 metadata: {}
 package: "com.azure.resourcemanager.vmwarecloudsimple.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-vmwarecloudsimple:1.0.0-beta.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-vmwarecloudsimple:1.0.0-alpha.20260910.4

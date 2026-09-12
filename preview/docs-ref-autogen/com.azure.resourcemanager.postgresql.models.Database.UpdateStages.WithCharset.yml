@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.postgresql.models.Database.UpdateStages.WithCharset"
+fullName: "com.azure.resourcemanager.postgresql.models.Database.UpdateStages.WithCharset"
+name: "Database.UpdateStages.WithCharset"
+nameWithType: "Database.UpdateStages.WithCharset"
+summary: "The stage of the Database update allowing to specify charset."
+syntax: "public static interface **Database.UpdateStages.WithCharset**"
+methods:
+- uid: "com.azure.resourcemanager.postgresql.models.Database.UpdateStages.WithCharset.withCharset(java.lang.String)"
+  fullName: "com.azure.resourcemanager.postgresql.models.Database.UpdateStages.WithCharset.withCharset(String charset)"
+  name: "withCharset(String charset)"
+  nameWithType: "Database.UpdateStages.WithCharset.withCharset(String charset)"
+  summary: "Specifies the charset property: The charset of the database.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The charset of the database."
+    name: "charset"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract Database.Update withCharset(String charset)"
+  desc: "Specifies the charset property: The charset of the database.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.postgresql.models.Database.Update?alt=com.azure.resourcemanager.postgresql.models.Database.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the Database update allowing to specify charset."
+metadata: {}
+package: "com.azure.resourcemanager.postgresql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-postgresql:1.2.0-alpha.20260910.1

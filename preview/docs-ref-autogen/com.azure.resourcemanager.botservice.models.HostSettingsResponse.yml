@@ -10,11 +10,11 @@ methods:
   fullName: "com.azure.resourcemanager.botservice.models.HostSettingsResponse.botOpenIdMetadata()"
   name: "botOpenIdMetadata()"
   nameWithType: "HostSettingsResponse.botOpenIdMetadata()"
-  summary: "Gets the bot<wbr>Open<wbr>IdMetadata property: Same as to<wbr>Bot<wbr>From<wbr>Channel<wbr>Open<wbr>IdMetadata<wbr>Url, used by SDK < v4.12."
+  summary: "Gets the bot<wbr>Open<wbr>IdMetadata property: Same as To<wbr>Bot<wbr>From<wbr>Channel<wbr>Open<wbr>IdMetadata<wbr>Url, used by SDK < v4.12."
   modifiers:
   - "abstract"
   syntax: "public abstract String botOpenIdMetadata()"
-  desc: "Gets the botOpenIdMetadata property: Same as toBotFromChannelOpenIdMetadataUrl, used by SDK < v4.12."
+  desc: "Gets the botOpenIdMetadata property: Same as ToBotFromChannelOpenIdMetadataUrl, used by SDK < v4.12."
   returns:
     description: "the botOpenIdMetadata value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -118,4 +118,4 @@ type: "interface"
 desc: "An immutable client-side representation of HostSettingsResponse."
 metadata: {}
 package: "com.azure.resourcemanager.botservice.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-botservice:1.0.0-beta.6
+artifact: com.azure.resourcemanager:azure-resourcemanager-botservice:1.1.0-alpha.20260910.1

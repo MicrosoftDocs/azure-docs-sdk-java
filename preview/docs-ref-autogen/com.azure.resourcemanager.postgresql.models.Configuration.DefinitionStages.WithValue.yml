@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.postgresql.models.Configuration.DefinitionStages.WithValue"
+fullName: "com.azure.resourcemanager.postgresql.models.Configuration.DefinitionStages.WithValue"
+name: "Configuration.DefinitionStages.WithValue"
+nameWithType: "Configuration.DefinitionStages.WithValue"
+summary: "The stage of the Configuration definition allowing to specify value."
+syntax: "public static interface **Configuration.DefinitionStages.WithValue**"
+methods:
+- uid: "com.azure.resourcemanager.postgresql.models.Configuration.DefinitionStages.WithValue.withValue(java.lang.String)"
+  fullName: "com.azure.resourcemanager.postgresql.models.Configuration.DefinitionStages.WithValue.withValue(String value)"
+  name: "withValue(String value)"
+  nameWithType: "Configuration.DefinitionStages.WithValue.withValue(String value)"
+  summary: "Specifies the value property: Value of the configuration.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Value of the configuration."
+    name: "value"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract Configuration.DefinitionStages.WithCreate withValue(String value)"
+  desc: "Specifies the value property: Value of the configuration.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.postgresql.models.Configuration.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.postgresql.models.Configuration.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the Configuration definition allowing to specify value."
+metadata: {}
+package: "com.azure.resourcemanager.postgresql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-postgresql:1.2.0-alpha.20260910.1

@@ -1,0 +1,122 @@
+### YamlMime:JavaType
+uid: "com.azure.health.insights.radiologyinsights.models.ClinicalDocumentContentType"
+fullName: "com.azure.health.insights.radiologyinsights.models.ClinicalDocumentContentType"
+name: "ClinicalDocumentContentType"
+nameWithType: "ClinicalDocumentContentType"
+summary: "The type of the patient document, such as 'note' (text document) or 'fhir<wbr>Bundle' (FHIR JSON document)."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ClinicalDocumentContentType**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.health.insights.radiologyinsights.models.ClinicalDocumentContentType?alt=com.azure.health.insights.radiologyinsights.models.ClinicalDocumentContentType&text=ClinicalDocumentContentType\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.health.insights.radiologyinsights.models.ClinicalDocumentContentType.ClinicalDocumentContentType()"
+  fullName: "com.azure.health.insights.radiologyinsights.models.ClinicalDocumentContentType.ClinicalDocumentContentType()"
+  name: "ClinicalDocumentContentType()"
+  nameWithType: "ClinicalDocumentContentType.ClinicalDocumentContentType()"
+  summary: "Creates a new instance of Clinical<wbr>Document<wbr>Content<wbr>Type value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.health.insights.radiologyinsights.models.ClinicalDocumentContentType.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public ClinicalDocumentContentType()"
+  desc: "Creates a new instance of ClinicalDocumentContentType value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.health.insights.radiologyinsights.models.ClinicalDocumentContentType.DICOM"
+  fullName: "com.azure.health.insights.radiologyinsights.models.ClinicalDocumentContentType.DICOM"
+  name: "DICOM"
+  nameWithType: "ClinicalDocumentContentType.DICOM"
+  summary: "Static value dicom for Clinical<wbr>Document<wbr>Content<wbr>Type."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.ClinicalDocumentContentType?alt=com.azure.health.insights.radiologyinsights.models.ClinicalDocumentContentType&text=ClinicalDocumentContentType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ClinicalDocumentContentType DICOM"
+  desc: "Static value dicom for ClinicalDocumentContentType."
+- uid: "com.azure.health.insights.radiologyinsights.models.ClinicalDocumentContentType.FHIR_BUNDLE"
+  fullName: "com.azure.health.insights.radiologyinsights.models.ClinicalDocumentContentType.FHIR_BUNDLE"
+  name: "FHIR_BUNDLE"
+  nameWithType: "ClinicalDocumentContentType.FHIR_BUNDLE"
+  summary: "Static value fhir<wbr>Bundle for Clinical<wbr>Document<wbr>Content<wbr>Type."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.ClinicalDocumentContentType?alt=com.azure.health.insights.radiologyinsights.models.ClinicalDocumentContentType&text=ClinicalDocumentContentType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ClinicalDocumentContentType FHIR_BUNDLE"
+  desc: "Static value fhirBundle for ClinicalDocumentContentType."
+- uid: "com.azure.health.insights.radiologyinsights.models.ClinicalDocumentContentType.GENOMIC_SEQUENCING"
+  fullName: "com.azure.health.insights.radiologyinsights.models.ClinicalDocumentContentType.GENOMIC_SEQUENCING"
+  name: "GENOMIC_SEQUENCING"
+  nameWithType: "ClinicalDocumentContentType.GENOMIC_SEQUENCING"
+  summary: "Static value genomic<wbr>Sequencing for Clinical<wbr>Document<wbr>Content<wbr>Type."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.ClinicalDocumentContentType?alt=com.azure.health.insights.radiologyinsights.models.ClinicalDocumentContentType&text=ClinicalDocumentContentType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ClinicalDocumentContentType GENOMIC_SEQUENCING"
+  desc: "Static value genomicSequencing for ClinicalDocumentContentType."
+- uid: "com.azure.health.insights.radiologyinsights.models.ClinicalDocumentContentType.NOTE"
+  fullName: "com.azure.health.insights.radiologyinsights.models.ClinicalDocumentContentType.NOTE"
+  name: "NOTE"
+  nameWithType: "ClinicalDocumentContentType.NOTE"
+  summary: "Static value note for Clinical<wbr>Document<wbr>Content<wbr>Type."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.ClinicalDocumentContentType?alt=com.azure.health.insights.radiologyinsights.models.ClinicalDocumentContentType&text=ClinicalDocumentContentType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ClinicalDocumentContentType NOTE"
+  desc: "Static value note for ClinicalDocumentContentType."
+methods:
+- uid: "com.azure.health.insights.radiologyinsights.models.ClinicalDocumentContentType.fromString(java.lang.String)"
+  fullName: "com.azure.health.insights.radiologyinsights.models.ClinicalDocumentContentType.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "ClinicalDocumentContentType.fromString(String name)"
+  summary: "Creates or finds a Clinical<wbr>Document<wbr>Content<wbr>Type from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static ClinicalDocumentContentType fromString(String name)"
+  desc: "Creates or finds a ClinicalDocumentContentType from its string representation."
+  returns:
+    description: "the corresponding ClinicalDocumentContentType."
+    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.ClinicalDocumentContentType?alt=com.azure.health.insights.radiologyinsights.models.ClinicalDocumentContentType&text=ClinicalDocumentContentType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.health.insights.radiologyinsights.models.ClinicalDocumentContentType.values()"
+  fullName: "com.azure.health.insights.radiologyinsights.models.ClinicalDocumentContentType.values()"
+  name: "values()"
+  nameWithType: "ClinicalDocumentContentType.values()"
+  summary: "Gets known Clinical<wbr>Document<wbr>Content<wbr>Type values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<ClinicalDocumentContentType> values()"
+  desc: "Gets known ClinicalDocumentContentType values."
+  returns:
+    description: "known ClinicalDocumentContentType values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.health.insights.radiologyinsights.models.ClinicalDocumentContentType?alt=com.azure.health.insights.radiologyinsights.models.ClinicalDocumentContentType&text=ClinicalDocumentContentType\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "The type of the patient document, such as 'note' (text document) or 'fhirBundle' (FHIR JSON document)."
+metadata: {}
+package: "com.azure.health.insights.radiologyinsights.models"
+artifact: com.azure:azure-health-insights-radiologyinsights:1.2.0-alpha.20260910.2

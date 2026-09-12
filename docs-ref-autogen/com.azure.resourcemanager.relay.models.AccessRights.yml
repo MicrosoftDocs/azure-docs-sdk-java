@@ -1,0 +1,110 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.relay.models.AccessRights"
+fullName: "com.azure.resourcemanager.relay.models.AccessRights"
+name: "AccessRights"
+nameWithType: "AccessRights"
+summary: "Defines values for Access<wbr>Rights."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **AccessRights**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.relay.models.AccessRights?alt=com.azure.resourcemanager.relay.models.AccessRights&text=AccessRights\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.relay.models.AccessRights.AccessRights()"
+  fullName: "com.azure.resourcemanager.relay.models.AccessRights.AccessRights()"
+  name: "AccessRights()"
+  nameWithType: "AccessRights.AccessRights()"
+  summary: "Creates a new instance of Access<wbr>Rights value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.relay.models.AccessRights.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public AccessRights()"
+  desc: "Creates a new instance of AccessRights value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.relay.models.AccessRights.LISTEN"
+  fullName: "com.azure.resourcemanager.relay.models.AccessRights.LISTEN"
+  name: "LISTEN"
+  nameWithType: "AccessRights.LISTEN"
+  summary: "Static value Listen for Access<wbr>Rights."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.relay.models.AccessRights?alt=com.azure.resourcemanager.relay.models.AccessRights&text=AccessRights\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AccessRights LISTEN"
+  desc: "Static value Listen for AccessRights."
+- uid: "com.azure.resourcemanager.relay.models.AccessRights.MANAGE"
+  fullName: "com.azure.resourcemanager.relay.models.AccessRights.MANAGE"
+  name: "MANAGE"
+  nameWithType: "AccessRights.MANAGE"
+  summary: "Static value Manage for Access<wbr>Rights."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.relay.models.AccessRights?alt=com.azure.resourcemanager.relay.models.AccessRights&text=AccessRights\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AccessRights MANAGE"
+  desc: "Static value Manage for AccessRights."
+- uid: "com.azure.resourcemanager.relay.models.AccessRights.SEND"
+  fullName: "com.azure.resourcemanager.relay.models.AccessRights.SEND"
+  name: "SEND"
+  nameWithType: "AccessRights.SEND"
+  summary: "Static value Send for Access<wbr>Rights."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.relay.models.AccessRights?alt=com.azure.resourcemanager.relay.models.AccessRights&text=AccessRights\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AccessRights SEND"
+  desc: "Static value Send for AccessRights."
+methods:
+- uid: "com.azure.resourcemanager.relay.models.AccessRights.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.relay.models.AccessRights.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "AccessRights.fromString(String name)"
+  summary: "Creates or finds a Access<wbr>Rights from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static AccessRights fromString(String name)"
+  desc: "Creates or finds a AccessRights from its string representation."
+  returns:
+    description: "the corresponding AccessRights."
+    type: "<xref href=\"com.azure.resourcemanager.relay.models.AccessRights?alt=com.azure.resourcemanager.relay.models.AccessRights&text=AccessRights\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.relay.models.AccessRights.values()"
+  fullName: "com.azure.resourcemanager.relay.models.AccessRights.values()"
+  name: "values()"
+  nameWithType: "AccessRights.values()"
+  summary: "Gets known Access<wbr>Rights values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<AccessRights> values()"
+  desc: "Gets known AccessRights values."
+  returns:
+    description: "known AccessRights values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.relay.models.AccessRights?alt=com.azure.resourcemanager.relay.models.AccessRights&text=AccessRights\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Defines values for AccessRights."
+metadata: {}
+package: "com.azure.resourcemanager.relay.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-relay:1.1.0

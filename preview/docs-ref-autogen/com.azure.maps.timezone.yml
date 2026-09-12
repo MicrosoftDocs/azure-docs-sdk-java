@@ -12,4 +12,4 @@ enums:
 desc: "Package containing the classes for TimezoneClient. Azure Maps Time Zone REST APIs."
 metadata: {}
 package: "com.azure.maps.timezone"
-artifact: com.azure:azure-maps-timezone:1.0.0-beta.2
+artifact: com.azure:azure-maps-timezone:1.0.0-alpha.20260910.1

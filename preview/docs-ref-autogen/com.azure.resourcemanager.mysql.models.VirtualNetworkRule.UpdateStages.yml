@@ -1,0 +1,12 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.mysql.models.VirtualNetworkRule.UpdateStages"
+fullName: "com.azure.resourcemanager.mysql.models.VirtualNetworkRule.UpdateStages"
+name: "VirtualNetworkRule.UpdateStages"
+nameWithType: "VirtualNetworkRule.UpdateStages"
+summary: "The Virtual<wbr>Network<wbr>Rule update stages."
+syntax: "public static interface **VirtualNetworkRule.UpdateStages**"
+type: "interface"
+desc: "The VirtualNetworkRule update stages."
+metadata: {}
+package: "com.azure.resourcemanager.mysql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-mysql:1.1.0-alpha.20260910.2

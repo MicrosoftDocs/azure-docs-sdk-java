@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.mysql.models.Server.DefinitionStages.WithProperties"
+fullName: "com.azure.resourcemanager.mysql.models.Server.DefinitionStages.WithProperties"
+name: "Server.DefinitionStages.WithProperties"
+nameWithType: "Server.DefinitionStages.WithProperties"
+summary: "The stage of the Server definition allowing to specify properties."
+syntax: "public static interface **Server.DefinitionStages.WithProperties**"
+methods:
+- uid: "com.azure.resourcemanager.mysql.models.Server.DefinitionStages.WithProperties.withProperties(com.azure.resourcemanager.mysql.models.ServerPropertiesForCreate)"
+  fullName: "com.azure.resourcemanager.mysql.models.Server.DefinitionStages.WithProperties.withProperties(ServerPropertiesForCreate properties)"
+  name: "withProperties(ServerPropertiesForCreate properties)"
+  nameWithType: "Server.DefinitionStages.WithProperties.withProperties(ServerPropertiesForCreate properties)"
+  summary: "Specifies the properties property: Properties of the server.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Properties of the server."
+    name: "properties"
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.ServerPropertiesForCreate?alt=com.azure.resourcemanager.mysql.models.ServerPropertiesForCreate&text=ServerPropertiesForCreate\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract Server.DefinitionStages.WithCreate withProperties(ServerPropertiesForCreate properties)"
+  desc: "Specifies the properties property: Properties of the server.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.Server.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.mysql.models.Server.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the Server definition allowing to specify properties."
+metadata: {}
+package: "com.azure.resourcemanager.mysql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-mysql:1.1.0-alpha.20260910.2

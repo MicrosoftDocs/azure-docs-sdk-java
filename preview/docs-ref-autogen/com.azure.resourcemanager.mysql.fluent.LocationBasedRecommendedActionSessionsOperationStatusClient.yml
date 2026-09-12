@@ -1,0 +1,54 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.mysql.fluent.LocationBasedRecommendedActionSessionsOperationStatusClient"
+fullName: "com.azure.resourcemanager.mysql.fluent.LocationBasedRecommendedActionSessionsOperationStatusClient"
+name: "LocationBasedRecommendedActionSessionsOperationStatusClient"
+nameWithType: "LocationBasedRecommendedActionSessionsOperationStatusClient"
+summary: "An instance of this class provides access to all the operations defined in Location<wbr>Based<wbr>Recommended<wbr>Action<wbr>Sessions<wbr>Operation<wbr>Status<wbr>Client."
+syntax: "public interface **LocationBasedRecommendedActionSessionsOperationStatusClient**"
+methods:
+- uid: "com.azure.resourcemanager.mysql.fluent.LocationBasedRecommendedActionSessionsOperationStatusClient.get(java.lang.String,java.lang.String)"
+  fullName: "com.azure.resourcemanager.mysql.fluent.LocationBasedRecommendedActionSessionsOperationStatusClient.get(String locationName, String operationId)"
+  name: "get(String locationName, String operationId)"
+  nameWithType: "LocationBasedRecommendedActionSessionsOperationStatusClient.get(String locationName, String operationId)"
+  summary: "Recommendation action session operation status."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the location."
+    name: "locationName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The operation identifier."
+    name: "operationId"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract RecommendedActionSessionsOperationStatusInner get(String locationName, String operationId)"
+  desc: "Recommendation action session operation status."
+  returns:
+    description: "recommendation action session operation status."
+    type: "<xref href=\"com.azure.resourcemanager.mysql.fluent.models.RecommendedActionSessionsOperationStatusInner?alt=com.azure.resourcemanager.mysql.fluent.models.RecommendedActionSessionsOperationStatusInner&text=RecommendedActionSessionsOperationStatusInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.mysql.fluent.LocationBasedRecommendedActionSessionsOperationStatusClient.getWithResponse(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.mysql.fluent.LocationBasedRecommendedActionSessionsOperationStatusClient.getWithResponse(String locationName, String operationId, Context context)"
+  name: "getWithResponse(String locationName, String operationId, Context context)"
+  nameWithType: "LocationBasedRecommendedActionSessionsOperationStatusClient.getWithResponse(String locationName, String operationId, Context context)"
+  summary: "Recommendation action session operation status."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the location."
+    name: "locationName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The operation identifier."
+    name: "operationId"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract Response<RecommendedActionSessionsOperationStatusInner> getWithResponse(String locationName, String operationId, Context context)"
+  desc: "Recommendation action session operation status."
+  returns:
+    description: "recommendation action session operation status along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
+    type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.mysql.fluent.models.RecommendedActionSessionsOperationStatusInner?alt=com.azure.resourcemanager.mysql.fluent.models.RecommendedActionSessionsOperationStatusInner&text=RecommendedActionSessionsOperationStatusInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "interface"
+desc: "An instance of this class provides access to all the operations defined in LocationBasedRecommendedActionSessionsOperationStatusClient."
+metadata: {}
+package: "com.azure.resourcemanager.mysql.fluent"
+artifact: com.azure.resourcemanager:azure-resourcemanager-mysql:1.1.0-alpha.20260910.2

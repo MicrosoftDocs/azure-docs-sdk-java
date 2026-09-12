@@ -4,6 +4,7 @@ fullName: "com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierMod
 name: "CommunicationIdentifierModel"
 nameWithType: "CommunicationIdentifierModel"
 summary: "Identifies a participant in Azure Communication services."
+deprecatedTag: "This class is deprecated and may be removed in future releases. System events are now available in the azure-messaging-eventgrid-systemevents package."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -20,7 +21,7 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
-syntax: "public final class **CommunicationIdentifierModel**"
+syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public final class **CommunicationIdentifierModel**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel?alt=com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel&text=CommunicationIdentifierModel\" data-throw-if-not-resolved=\"False\" />&gt;"
 constructors:
 - uid: "com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel.CommunicationIdentifierModel()"
   fullName: "com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel.CommunicationIdentifierModel()"
@@ -30,6 +31,25 @@ constructors:
   syntax: "public CommunicationIdentifierModel()"
   desc: "Creates an instance of CommunicationIdentifierModel class."
 methods:
+- uid: "com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "CommunicationIdentifierModel.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Communication<wbr>Identifier<wbr>Model from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static CommunicationIdentifierModel fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the CommunicationIdentifierModel."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of CommunicationIdentifierModel from the JsonReader."
+  returns:
+    description: "An instance of CommunicationIdentifierModel if the JsonReader was pointing to an instance of it, or null\n if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel?alt=com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel&text=CommunicationIdentifierModel\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel.getCommunicationUser()"
   fullName: "com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel.getCommunicationUser()"
   name: "getCommunicationUser()"
@@ -40,6 +60,26 @@ methods:
   returns:
     description: "the communicationUser value."
     type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.CommunicationUserIdentifierModel?alt=com.azure.messaging.eventgrid.systemevents.CommunicationUserIdentifierModel&text=CommunicationUserIdentifierModel\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel.getKind()"
+  fullName: "com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel.getKind()"
+  name: "getKind()"
+  nameWithType: "CommunicationIdentifierModel.getKind()"
+  summary: "Get the kind property: The identifier kind."
+  syntax: "public AcsCommunicationIdentifierKind getKind()"
+  desc: "Get the kind property: The identifier kind. Only required in responses."
+  returns:
+    description: "the kind value."
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsCommunicationIdentifierKind?alt=com.azure.messaging.eventgrid.systemevents.AcsCommunicationIdentifierKind&text=AcsCommunicationIdentifierKind\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel.getMicrosoftTeamsApp()"
+  fullName: "com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel.getMicrosoftTeamsApp()"
+  name: "getMicrosoftTeamsApp()"
+  nameWithType: "CommunicationIdentifierModel.getMicrosoftTeamsApp()"
+  summary: "Get the microsoft<wbr>Teams<wbr>App property: The Microsoft Teams application."
+  syntax: "public AcsMicrosoftTeamsAppIdentifier getMicrosoftTeamsApp()"
+  desc: "Get the microsoftTeamsApp property: The Microsoft Teams application."
+  returns:
+    description: "the microsoftTeamsApp value."
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsMicrosoftTeamsAppIdentifier?alt=com.azure.messaging.eventgrid.systemevents.AcsMicrosoftTeamsAppIdentifier&text=AcsMicrosoftTeamsAppIdentifier\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel.getMicrosoftTeamsUser()"
   fullName: "com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel.getMicrosoftTeamsUser()"
   name: "getMicrosoftTeamsUser()"
@@ -81,6 +121,34 @@ methods:
     type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.CommunicationUserIdentifierModel?alt=com.azure.messaging.eventgrid.systemevents.CommunicationUserIdentifierModel&text=CommunicationUserIdentifierModel\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public CommunicationIdentifierModel setCommunicationUser(CommunicationUserIdentifierModel communicationUser)"
   desc: "Set the communicationUser property: The communication user."
+  returns:
+    description: "the CommunicationIdentifierModel object itself."
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel?alt=com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel&text=CommunicationIdentifierModel\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel.setKind(com.azure.messaging.eventgrid.systemevents.AcsCommunicationIdentifierKind)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel.setKind(AcsCommunicationIdentifierKind kind)"
+  name: "setKind(AcsCommunicationIdentifierKind kind)"
+  nameWithType: "CommunicationIdentifierModel.setKind(AcsCommunicationIdentifierKind kind)"
+  summary: "Set the kind property: The identifier kind."
+  parameters:
+  - description: "the kind value to set."
+    name: "kind"
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsCommunicationIdentifierKind?alt=com.azure.messaging.eventgrid.systemevents.AcsCommunicationIdentifierKind&text=AcsCommunicationIdentifierKind\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public CommunicationIdentifierModel setKind(AcsCommunicationIdentifierKind kind)"
+  desc: "Set the kind property: The identifier kind. Only required in responses."
+  returns:
+    description: "the CommunicationIdentifierModel object itself."
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel?alt=com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel&text=CommunicationIdentifierModel\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel.setMicrosoftTeamsApp(com.azure.messaging.eventgrid.systemevents.AcsMicrosoftTeamsAppIdentifier)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel.setMicrosoftTeamsApp(AcsMicrosoftTeamsAppIdentifier microsoftTeamsApp)"
+  name: "setMicrosoftTeamsApp(AcsMicrosoftTeamsAppIdentifier microsoftTeamsApp)"
+  nameWithType: "CommunicationIdentifierModel.setMicrosoftTeamsApp(AcsMicrosoftTeamsAppIdentifier microsoftTeamsApp)"
+  summary: "Set the microsoft<wbr>Teams<wbr>App property: The Microsoft Teams application."
+  parameters:
+  - description: "the microsoftTeamsApp value to set."
+    name: "microsoftTeamsApp"
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsMicrosoftTeamsAppIdentifier?alt=com.azure.messaging.eventgrid.systemevents.AcsMicrosoftTeamsAppIdentifier&text=AcsMicrosoftTeamsAppIdentifier\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public CommunicationIdentifierModel setMicrosoftTeamsApp(AcsMicrosoftTeamsAppIdentifier microsoftTeamsApp)"
+  desc: "Set the microsoftTeamsApp property: The Microsoft Teams application."
   returns:
     description: "the CommunicationIdentifierModel object itself."
     type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel?alt=com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel&text=CommunicationIdentifierModel\" data-throw-if-not-resolved=\"False\" />"
@@ -126,8 +194,23 @@ methods:
   returns:
     description: "the CommunicationIdentifierModel object itself."
     type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel?alt=com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel&text=CommunicationIdentifierModel\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "CommunicationIdentifierModel.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "Identifies a participant in Azure Communication services. A participant is, for example, a phone number or an Azure communication user. This model must be interpreted as a union: Apart from rawId, at most one further property may be set."
+desc: "Identifies a participant in Azure Communication services. A participant is, for example, a phone number or an Azure communication user. This model is polymorphic: Apart from kind and rawId, at most one further property may be set which must match the kind enum value."
+hasDeprecatedTag: true
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel?alt=com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel&text=CommunicationIdentifierModel\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.messaging.eventgrid.systemevents"
-artifact: com.azure:azure-messaging-eventgrid:4.21.0-beta.1
+artifact: com.azure:azure-messaging-eventgrid:4.32.0-alpha.20260910.3

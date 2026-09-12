@@ -94,4 +94,4 @@ methods:
 desc: "Email channel auth method. 0 Password (Default); 1 Graph."
 metadata: {}
 package: "com.azure.resourcemanager.botservice.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-botservice:1.0.0-beta.6
+artifact: com.azure.resourcemanager:azure-resourcemanager-botservice:1.1.0-alpha.20260910.1

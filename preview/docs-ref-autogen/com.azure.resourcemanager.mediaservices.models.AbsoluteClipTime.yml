@@ -116,4 +116,4 @@ type: "class"
 desc: "Specifies the clip time as an absolute time position in the media file. The absolute time can point to a different position depending on whether the media file starts from a timestamp of zero or not."
 metadata: {}
 package: "com.azure.resourcemanager.mediaservices.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-mediaservices:2.4.0-beta.2
+artifact: com.azure.resourcemanager:azure-resourcemanager-mediaservices:2.5.0-alpha.20260910.3

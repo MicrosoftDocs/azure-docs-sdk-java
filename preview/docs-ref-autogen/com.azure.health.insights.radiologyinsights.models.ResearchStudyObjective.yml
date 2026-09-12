@@ -20,20 +20,27 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
-syntax: "public final class **ResearchStudyObjective**"
-constructors:
-- uid: "com.azure.health.insights.radiologyinsights.models.ResearchStudyObjective.ResearchStudyObjective(java.lang.String)"
-  fullName: "com.azure.health.insights.radiologyinsights.models.ResearchStudyObjective.ResearchStudyObjective(String name)"
-  name: "ResearchStudyObjective(String name)"
-  nameWithType: "ResearchStudyObjective.ResearchStudyObjective(String name)"
-  summary: "Creates an instance of Research<wbr>Study<wbr>Objective class."
-  parameters:
-  - description: "the name value to set."
-    name: "name"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public ResearchStudyObjective(String name)"
-  desc: "Creates an instance of ResearchStudyObjective class."
+syntax: "public final class **ResearchStudyObjective**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.health.insights.radiologyinsights.models.ResearchStudyObjective?alt=com.azure.health.insights.radiologyinsights.models.ResearchStudyObjective&text=ResearchStudyObjective\" data-throw-if-not-resolved=\"False\" />&gt;"
 methods:
+- uid: "com.azure.health.insights.radiologyinsights.models.ResearchStudyObjective.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.health.insights.radiologyinsights.models.ResearchStudyObjective.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "ResearchStudyObjective.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Research<wbr>Study<wbr>Objective from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static ResearchStudyObjective fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of ResearchStudyObjective from the JsonReader."
+  returns:
+    description: "An instance of ResearchStudyObjective if the JsonReader was pointing to an instance of it, or null if it\n was pointing to JSON null."
+    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.ResearchStudyObjective?alt=com.azure.health.insights.radiologyinsights.models.ResearchStudyObjective&text=ResearchStudyObjective\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.health.insights.radiologyinsights.models.ResearchStudyObjective.getName()"
   fullName: "com.azure.health.insights.radiologyinsights.models.ResearchStudyObjective.getName()"
   name: "getName()"
@@ -54,22 +61,22 @@ methods:
   returns:
     description: "the type value."
     type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4CodeableConcept?alt=com.azure.health.insights.radiologyinsights.models.FhirR4CodeableConcept&text=FhirR4CodeableConcept\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.health.insights.radiologyinsights.models.ResearchStudyObjective.setType(com.azure.health.insights.radiologyinsights.models.FhirR4CodeableConcept)"
-  fullName: "com.azure.health.insights.radiologyinsights.models.ResearchStudyObjective.setType(FhirR4CodeableConcept type)"
-  name: "setType(FhirR4CodeableConcept type)"
-  nameWithType: "ResearchStudyObjective.setType(FhirR4CodeableConcept type)"
-  summary: "Set the type property: primary | secondary | exploratory."
+- uid: "com.azure.health.insights.radiologyinsights.models.ResearchStudyObjective.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.health.insights.radiologyinsights.models.ResearchStudyObjective.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "ResearchStudyObjective.toJson(JsonWriter jsonWriter)"
   parameters:
-  - description: "the type value to set."
-    name: "type"
-    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4CodeableConcept?alt=com.azure.health.insights.radiologyinsights.models.FhirR4CodeableConcept&text=FhirR4CodeableConcept\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public ResearchStudyObjective setType(FhirR4CodeableConcept type)"
-  desc: "Set the type property: primary | secondary | exploratory."
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
-    description: "the ResearchStudyObjective object itself."
-    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.ResearchStudyObjective?alt=com.azure.health.insights.radiologyinsights.models.ResearchStudyObjective&text=ResearchStudyObjective\" data-throw-if-not-resolved=\"False\" />"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "The ResearchStudyObjective model."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.health.insights.radiologyinsights.models.ResearchStudyObjective?alt=com.azure.health.insights.radiologyinsights.models.ResearchStudyObjective&text=ResearchStudyObjective\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.health.insights.radiologyinsights.models"
-artifact: com.azure:azure-health-insights-radiologyinsights:1.0.0-beta.1
+artifact: com.azure:azure-health-insights-radiologyinsights:1.2.0-alpha.20260910.2

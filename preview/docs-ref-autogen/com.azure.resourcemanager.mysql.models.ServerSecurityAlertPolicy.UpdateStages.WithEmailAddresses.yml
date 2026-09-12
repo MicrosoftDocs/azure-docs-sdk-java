@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.UpdateStages.WithEmailAddresses"
+fullName: "com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.UpdateStages.WithEmailAddresses"
+name: "ServerSecurityAlertPolicy.UpdateStages.WithEmailAddresses"
+nameWithType: "ServerSecurityAlertPolicy.UpdateStages.WithEmailAddresses"
+summary: "The stage of the Server<wbr>Security<wbr>Alert<wbr>Policy update allowing to specify email<wbr>Addresses."
+syntax: "public static interface **ServerSecurityAlertPolicy.UpdateStages.WithEmailAddresses**"
+methods:
+- uid: "com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.UpdateStages.WithEmailAddresses.withEmailAddresses(java.util.List<java.lang.String>)"
+  fullName: "com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.UpdateStages.WithEmailAddresses.withEmailAddresses(List<String> emailAddresses)"
+  name: "withEmailAddresses(List<String> emailAddresses)"
+  nameWithType: "ServerSecurityAlertPolicy.UpdateStages.WithEmailAddresses.withEmailAddresses(List<String> emailAddresses)"
+  summary: "Specifies the email<wbr>Addresses property: Specifies an array of e-mail addresses to which the alert is sent.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Specifies an array of e-mail addresses to which the alert is sent."
+    name: "emailAddresses"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+  syntax: "public abstract ServerSecurityAlertPolicy.Update withEmailAddresses(List<String> emailAddresses)"
+  desc: "Specifies the emailAddresses property: Specifies an array of e-mail addresses to which the alert is sent.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.Update?alt=com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the ServerSecurityAlertPolicy update allowing to specify emailAddresses."
+metadata: {}
+package: "com.azure.resourcemanager.mysql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-mysql:1.1.0-alpha.20260910.2

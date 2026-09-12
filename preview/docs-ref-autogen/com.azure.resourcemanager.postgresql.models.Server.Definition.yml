@@ -1,0 +1,18 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.postgresql.models.Server.Definition"
+fullName: "com.azure.resourcemanager.postgresql.models.Server.Definition"
+name: "Server.Definition"
+nameWithType: "Server.Definition"
+summary: "The entirety of the Server definition."
+syntax: "public static interface **Server.Definition**</br> extends <xref href=\"com.azure.resourcemanager.postgresql.models.Server.DefinitionStages.Blank?alt=com.azure.resourcemanager.postgresql.models.Server.DefinitionStages.Blank&text=Blank\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.postgresql.models.Server.DefinitionStages.WithLocation?alt=com.azure.resourcemanager.postgresql.models.Server.DefinitionStages.WithLocation&text=WithLocation\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.postgresql.models.Server.DefinitionStages.WithResourceGroup?alt=com.azure.resourcemanager.postgresql.models.Server.DefinitionStages.WithResourceGroup&text=WithResourceGroup\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.postgresql.models.Server.DefinitionStages.WithProperties?alt=com.azure.resourcemanager.postgresql.models.Server.DefinitionStages.WithProperties&text=WithProperties\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.postgresql.models.Server.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.postgresql.models.Server.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of the Server definition."
+implements:
+- "<xref href=\"com.azure.resourcemanager.postgresql.models.Server.DefinitionStages.Blank?alt=com.azure.resourcemanager.postgresql.models.Server.DefinitionStages.Blank&text=Blank\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.postgresql.models.Server.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.postgresql.models.Server.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.postgresql.models.Server.DefinitionStages.WithLocation?alt=com.azure.resourcemanager.postgresql.models.Server.DefinitionStages.WithLocation&text=WithLocation\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.postgresql.models.Server.DefinitionStages.WithProperties?alt=com.azure.resourcemanager.postgresql.models.Server.DefinitionStages.WithProperties&text=WithProperties\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.postgresql.models.Server.DefinitionStages.WithResourceGroup?alt=com.azure.resourcemanager.postgresql.models.Server.DefinitionStages.WithResourceGroup&text=WithResourceGroup\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.azure.resourcemanager.postgresql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-postgresql:1.2.0-alpha.20260910.1

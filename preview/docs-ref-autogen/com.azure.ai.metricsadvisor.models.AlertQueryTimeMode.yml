@@ -1,0 +1,110 @@
+### YamlMime:JavaType
+uid: "com.azure.ai.metricsadvisor.models.AlertQueryTimeMode"
+fullName: "com.azure.ai.metricsadvisor.models.AlertQueryTimeMode"
+name: "AlertQueryTimeMode"
+nameWithType: "AlertQueryTimeMode"
+summary: "Defines values for Alert<wbr>Query<wbr>Time<wbr>Mode."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **AlertQueryTimeMode**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.metricsadvisor.models.AlertQueryTimeMode?alt=com.azure.ai.metricsadvisor.models.AlertQueryTimeMode&text=AlertQueryTimeMode\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.ai.metricsadvisor.models.AlertQueryTimeMode.AlertQueryTimeMode()"
+  fullName: "com.azure.ai.metricsadvisor.models.AlertQueryTimeMode.AlertQueryTimeMode()"
+  name: "AlertQueryTimeMode()"
+  nameWithType: "AlertQueryTimeMode.AlertQueryTimeMode()"
+  summary: "Constructs a Alert<wbr>Query<wbr>Time<wbr>Mode object."
+  deprecatedTag: "Use the <xref uid=\"com.azure.ai.metricsadvisor.models.AlertQueryTimeMode.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public AlertQueryTimeMode()"
+  desc: "Constructs a AlertQueryTimeMode object."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.ai.metricsadvisor.models.AlertQueryTimeMode.ANOMALY_TIME"
+  fullName: "com.azure.ai.metricsadvisor.models.AlertQueryTimeMode.ANOMALY_TIME"
+  name: "ANOMALY_TIME"
+  nameWithType: "AlertQueryTimeMode.ANOMALY_TIME"
+  summary: "Static value Anomaly<wbr>Time for Alert<wbr>Query<wbr>Time<wbr>Mode."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.metricsadvisor.models.AlertQueryTimeMode?alt=com.azure.ai.metricsadvisor.models.AlertQueryTimeMode&text=AlertQueryTimeMode\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AlertQueryTimeMode ANOMALY_TIME"
+  desc: "Static value AnomalyTime for AlertQueryTimeMode."
+- uid: "com.azure.ai.metricsadvisor.models.AlertQueryTimeMode.CREATED_TIME"
+  fullName: "com.azure.ai.metricsadvisor.models.AlertQueryTimeMode.CREATED_TIME"
+  name: "CREATED_TIME"
+  nameWithType: "AlertQueryTimeMode.CREATED_TIME"
+  summary: "Static value Created<wbr>Time for Alert<wbr>Query<wbr>Time<wbr>Mode."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.metricsadvisor.models.AlertQueryTimeMode?alt=com.azure.ai.metricsadvisor.models.AlertQueryTimeMode&text=AlertQueryTimeMode\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AlertQueryTimeMode CREATED_TIME"
+  desc: "Static value CreatedTime for AlertQueryTimeMode."
+- uid: "com.azure.ai.metricsadvisor.models.AlertQueryTimeMode.MODIFIED_TIME"
+  fullName: "com.azure.ai.metricsadvisor.models.AlertQueryTimeMode.MODIFIED_TIME"
+  name: "MODIFIED_TIME"
+  nameWithType: "AlertQueryTimeMode.MODIFIED_TIME"
+  summary: "Static value Modified<wbr>Time for Alert<wbr>Query<wbr>Time<wbr>Mode."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.metricsadvisor.models.AlertQueryTimeMode?alt=com.azure.ai.metricsadvisor.models.AlertQueryTimeMode&text=AlertQueryTimeMode\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AlertQueryTimeMode MODIFIED_TIME"
+  desc: "Static value ModifiedTime for AlertQueryTimeMode."
+methods:
+- uid: "com.azure.ai.metricsadvisor.models.AlertQueryTimeMode.fromString(java.lang.String)"
+  fullName: "com.azure.ai.metricsadvisor.models.AlertQueryTimeMode.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "AlertQueryTimeMode.fromString(String name)"
+  summary: "Creates or finds a Alert<wbr>Query<wbr>Time<wbr>Mode from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static AlertQueryTimeMode fromString(String name)"
+  desc: "Creates or finds a AlertQueryTimeMode from its string representation."
+  returns:
+    description: "the corresponding AlertQueryTimeMode."
+    type: "<xref href=\"com.azure.ai.metricsadvisor.models.AlertQueryTimeMode?alt=com.azure.ai.metricsadvisor.models.AlertQueryTimeMode&text=AlertQueryTimeMode\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.metricsadvisor.models.AlertQueryTimeMode.values()"
+  fullName: "com.azure.ai.metricsadvisor.models.AlertQueryTimeMode.values()"
+  name: "values()"
+  nameWithType: "AlertQueryTimeMode.values()"
+  summary: "Returns the known Alert<wbr>Query<wbr>Time<wbr>Mode values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<AlertQueryTimeMode> values()"
+  desc: "Returns the known AlertQueryTimeMode values."
+  returns:
+    description: "known AlertQueryTimeMode values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.ai.metricsadvisor.models.AlertQueryTimeMode?alt=com.azure.ai.metricsadvisor.models.AlertQueryTimeMode&text=AlertQueryTimeMode\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Defines values for AlertQueryTimeMode."
+metadata: {}
+package: "com.azure.ai.metricsadvisor.models"
+artifact: com.azure:azure-ai-metricsadvisor:1.3.0-alpha.20260910.4

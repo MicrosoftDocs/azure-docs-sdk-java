@@ -10,11 +10,8 @@ interfaces:
 - "com.azure.resourcemanager.botservice.fluent.ChannelsClient"
 - "com.azure.resourcemanager.botservice.fluent.DirectLinesClient"
 - "com.azure.resourcemanager.botservice.fluent.HostSettingsClient"
-- "com.azure.resourcemanager.botservice.fluent.OperationResultsClient"
 - "com.azure.resourcemanager.botservice.fluent.OperationsClient"
-- "com.azure.resourcemanager.botservice.fluent.PrivateEndpointConnectionsClient"
-- "com.azure.resourcemanager.botservice.fluent.PrivateLinkResourcesClient"
 desc: "Package containing the service clients for AzureBotService. Azure Bot Service is a platform for creating smart conversational agents."
 metadata: {}
 package: "com.azure.resourcemanager.botservice.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-botservice:1.0.0-beta.6
+artifact: com.azure.resourcemanager:azure-resourcemanager-botservice:1.1.0-alpha.20260910.1

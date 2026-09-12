@@ -1,0 +1,12 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.postgresql.models.ServerSecurityAlertPolicy.UpdateStages"
+fullName: "com.azure.resourcemanager.postgresql.models.ServerSecurityAlertPolicy.UpdateStages"
+name: "ServerSecurityAlertPolicy.UpdateStages"
+nameWithType: "ServerSecurityAlertPolicy.UpdateStages"
+summary: "The Server<wbr>Security<wbr>Alert<wbr>Policy update stages."
+syntax: "public static interface **ServerSecurityAlertPolicy.UpdateStages**"
+type: "interface"
+desc: "The ServerSecurityAlertPolicy update stages."
+metadata: {}
+package: "com.azure.resourcemanager.postgresql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-postgresql:1.2.0-alpha.20260910.1

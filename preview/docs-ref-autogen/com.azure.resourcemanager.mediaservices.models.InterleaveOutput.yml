@@ -95,4 +95,4 @@ type: "class"
 desc: "Sets the interleave mode of the output to control how audio and video are stored in the container format. Example: set InterleavedOutput as NonInterleavedOutput to produce audio-only and video-only outputs in separate MP4 files."
 metadata: {}
 package: "com.azure.resourcemanager.mediaservices.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-mediaservices:2.4.0-beta.2
+artifact: com.azure.resourcemanager:azure-resourcemanager-mediaservices:2.5.0-alpha.20260910.3

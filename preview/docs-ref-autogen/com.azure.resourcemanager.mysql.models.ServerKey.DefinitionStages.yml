@@ -1,0 +1,12 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.mysql.models.ServerKey.DefinitionStages"
+fullName: "com.azure.resourcemanager.mysql.models.ServerKey.DefinitionStages"
+name: "ServerKey.DefinitionStages"
+nameWithType: "ServerKey.DefinitionStages"
+summary: "The Server<wbr>Key definition stages."
+syntax: "public static interface **ServerKey.DefinitionStages**"
+type: "interface"
+desc: "The ServerKey definition stages."
+metadata: {}
+package: "com.azure.resourcemanager.mysql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-mysql:1.1.0-alpha.20260910.2

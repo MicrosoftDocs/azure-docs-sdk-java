@@ -6,6 +6,8 @@ summary: "Package containing the classes for AIProjects."
 classes:
 - "com.azure.ai.projects.AIProjectClientBuilder"
 - "com.azure.ai.projects.AIProjectClientBuilder.BetaAIProjectClientBuilder"
+- "com.azure.ai.projects.BetaAgentInsightMonitorsAsyncClient"
+- "com.azure.ai.projects.BetaAgentInsightMonitorsClient"
 - "com.azure.ai.projects.BetaDatasetsAsyncClient"
 - "com.azure.ai.projects.BetaDatasetsClient"
 - "com.azure.ai.projects.BetaEvaluationTaxonomiesAsyncClient"
@@ -40,4 +42,4 @@ enums:
 desc: "Package containing the classes for AIProjects."
 metadata: {}
 package: "com.azure.ai.projects"
-artifact: com.azure:azure-ai-projects:2.4.0
+artifact: com.azure:azure-ai-projects:2.5.0

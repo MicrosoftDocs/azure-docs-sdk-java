@@ -69,6 +69,16 @@ methods:
   returns:
     description: "the protocolConfiguration value."
     type: "<xref href=\"com.azure.ai.agents.models.ProtocolConfiguration?alt=com.azure.ai.agents.models.ProtocolConfiguration&text=ProtocolConfiguration\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.agents.models.AgentEndpointConfig.getPublishApprovalStatus()"
+  fullName: "com.azure.ai.agents.models.AgentEndpointConfig.getPublishApprovalStatus()"
+  name: "getPublishApprovalStatus()"
+  nameWithType: "AgentEndpointConfig.getPublishApprovalStatus()"
+  summary: "Get the publish<wbr>Approval<wbr>Status property: The Microsoft Agent Certification review status of the Microsoft 365 store title published for this agent."
+  syntax: "public PublishApprovalStatus getPublishApprovalStatus()"
+  desc: "Get the publishApprovalStatus property: The Microsoft Agent Certification review status of the Microsoft 365 store title published for this agent. Server-populated and best-effort: it is absent when the status could not be determined, and an absent value must not be interpreted as the agent not being published. No value is terminal, because publishing a new version of an agent reuses the same store title and sends it back through review."
+  returns:
+    description: "the publishApprovalStatus value."
+    type: "<xref href=\"com.azure.ai.agents.models.PublishApprovalStatus?alt=com.azure.ai.agents.models.PublishApprovalStatus&text=PublishApprovalStatus\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.ai.agents.models.AgentEndpointConfig.getVersionSelector()"
   fullName: "com.azure.ai.agents.models.AgentEndpointConfig.getVersionSelector()"
   name: "getVersionSelector()"
@@ -139,4 +149,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.AgentEndpointConfig?alt=com.azure.ai.agents.models.AgentEndpointConfig&text=AgentEndpointConfig\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.ai.agents.models"
-artifact: com.azure:azure-ai-agents:2.4.0
+artifact: com.azure:azure-ai-agents:2.5.0

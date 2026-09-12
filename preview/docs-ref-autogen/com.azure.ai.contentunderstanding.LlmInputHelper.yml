@@ -83,4 +83,4 @@ type: "class"
 desc: "Converts an <xref uid=\"com.azure.ai.contentunderstanding.models.AnalysisResult\" data-throw-if-not-resolved=\"false\" data-raw-source=\"AnalysisResult\"></xref> into LLM-friendly text (YAML front matter + markdown).\n\nThis helper produces a formatted string suitable for injecting into an LLM prompt, storing in a vector database, or passing as tool output.\n\nFor single-content results (documents, images), the output is a flat text block. For multi-segment results (video, audio), each segment is rendered with its time range. For document classification results (parent with nested segments), the helper automatically expands the parent into per-segment blocks with category labels and markdown slices.\n\n**Example usage:**\n\n```java\nAnalysisResult result = client.beginAnalyze(\"prebuilt-invoice\",\n     Arrays.asList(new AnalysisInput().setUrl(url)))\n     .getFinalResult();\n\n String text = LlmInputHelper.toLlmInput(result);\n```"
 metadata: {}
 package: "com.azure.ai.contentunderstanding"
-artifact: com.azure:azure-ai-contentunderstanding:1.1.0-beta.3
+artifact: com.azure:azure-ai-contentunderstanding:1.1.0-alpha.20260910.3

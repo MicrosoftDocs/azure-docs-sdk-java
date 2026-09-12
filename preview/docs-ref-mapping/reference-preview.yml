@@ -1423,7 +1423,6 @@
       href: ~/docs-ref-services/preview/messaging-eventgrid-readme.md
       children:
       - com.azure.messaging.eventgrid
-      - com.azure.messaging.eventgrid.models
       - com.azure.messaging.eventgrid.systemevents
     - name: Event Grid Namespaces
       href: ~/docs-ref-services/preview/messaging-eventgrid-namespaces-readme.md
@@ -2243,12 +2242,23 @@
     - name: Management
       items:
       - name: Resource Management - Media Services (deprecated)
+        href: ~/docs-ref-services/preview/resourcemanager-mediaservices-readme.md
         children:
         - com.azure.resourcemanager.mediaservices
         - com.azure.resourcemanager.mediaservices.fluent
         - com.azure.resourcemanager.mediaservices.fluent.models
         - com.azure.resourcemanager.mediaservices.models
-        landingPageType: Service
+  - name: Metrics Advisor
+    href: ~/docs-ref-services/preview/metrics-advisor.md
+    landingPageType: Service
+    items:
+    - name: Metrics Advisor
+      href: ~/docs-ref-services/preview/ai-metricsadvisor-readme.md
+      children:
+      - com.azure.ai.metricsadvisor
+      - com.azure.ai.metricsadvisor.administration
+      - com.azure.ai.metricsadvisor.administration.models
+      - com.azure.ai.metricsadvisor.models
   - name: Migration
     href: ~/docs-ref-services/preview/migration.md
     landingPageType: Service
@@ -2387,6 +2397,13 @@
     items:
     - name: Management
       items:
+      - name: Resource Management - MySQL
+        href: ~/docs-ref-services/preview/resourcemanager-mysql-readme.md
+        children:
+        - com.azure.resourcemanager.mysql
+        - com.azure.resourcemanager.mysql.fluent
+        - com.azure.resourcemanager.mysql.fluent.models
+        - com.azure.resourcemanager.mysql.models
       - name: Resource Management - MySQL Flexible Server
         href: ~/docs-ref-services/preview/resourcemanager-mysqlflexibleserver-readme.md
         children:
@@ -2681,6 +2698,13 @@
     items:
     - name: Management
       items:
+      - name: Resource Management - PostgreSQL
+        href: ~/docs-ref-services/preview/resourcemanager-postgresql-readme.md
+        children:
+        - com.azure.resourcemanager.postgresql
+        - com.azure.resourcemanager.postgresql.fluent
+        - com.azure.resourcemanager.postgresql.fluent.models
+        - com.azure.resourcemanager.postgresql.models
       - name: Resource Management - PostgreSQL Flexible Server
         href: ~/docs-ref-services/preview/resourcemanager-postgresqlflexibleserver-readme.md
         children:
@@ -3111,6 +3135,15 @@
       - com.azure.messaging.servicebus.administration
       - com.azure.messaging.servicebus.administration.models
       - com.azure.messaging.servicebus.models
+    - name: Management
+      items:
+      - name: Resource Management - Service Bus
+        href: ~/docs-ref-services/preview/resourcemanager-servicebus-readme.md
+        children:
+        - com.azure.resourcemanager.servicebus
+        - com.azure.resourcemanager.servicebus.fluent
+        - com.azure.resourcemanager.servicebus.fluent.models
+        - com.azure.resourcemanager.servicebus.models
   - name: Service Fabric
     href: ~/docs-ref-services/preview/service-fabric.md
     landingPageType: Service

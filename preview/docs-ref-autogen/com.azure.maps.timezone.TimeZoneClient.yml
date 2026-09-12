@@ -197,4 +197,4 @@ type: "class"
 desc: "<xref uid=\"com.azure.maps.timezone.TimeZoneClient\" data-throw-if-not-resolved=\"false\" data-raw-source=\"TimeZoneClient\"></xref> instances are created via the <xref uid=\"com.azure.maps.timezone.TimeZoneClientBuilder\" data-throw-if-not-resolved=\"false\" data-raw-source=\"TimeZoneClientBuilder\"></xref>, as shown below. Creating a sync client using a <xref uid=\"\" data-throw-if-not-resolved=\"false\" data-raw-source=\"AzureKeyCredential\"></xref>:\n\n```java\n// Authenticates using subscription key\n AzureKeyCredential keyCredential = new AzureKeyCredential(System.getenv(\"SUBSCRIPTION_KEY\"));\n\n // Creates a client\n TimeZoneClient client = new TimeZoneClientBuilder() \n     .credential(keyCredential)\n     .timezoneClientId(System.getenv(\"MAPS_CLIENT_ID\"))\n     .buildClient();\n```"
 metadata: {}
 package: "com.azure.maps.timezone"
-artifact: com.azure:azure-maps-timezone:1.0.0-beta.2
+artifact: com.azure:azure-maps-timezone:1.0.0-alpha.20260910.1

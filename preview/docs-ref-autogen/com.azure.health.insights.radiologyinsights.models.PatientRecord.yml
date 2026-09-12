@@ -20,7 +20,7 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
-syntax: "public final class **PatientRecord**"
+syntax: "public final class **PatientRecord**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.health.insights.radiologyinsights.models.PatientRecord?alt=com.azure.health.insights.radiologyinsights.models.PatientRecord&text=PatientRecord\" data-throw-if-not-resolved=\"False\" />&gt;"
 constructors:
 - uid: "com.azure.health.insights.radiologyinsights.models.PatientRecord.PatientRecord(java.lang.String)"
   fullName: "com.azure.health.insights.radiologyinsights.models.PatientRecord.PatientRecord(String id)"
@@ -34,16 +34,45 @@ constructors:
   syntax: "public PatientRecord(String id)"
   desc: "Creates an instance of PatientRecord class."
 methods:
+- uid: "com.azure.health.insights.radiologyinsights.models.PatientRecord.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.health.insights.radiologyinsights.models.PatientRecord.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "PatientRecord.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Patient<wbr>Record from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static PatientRecord fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of PatientRecord from the JsonReader."
+  returns:
+    description: "An instance of PatientRecord if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
+    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.PatientRecord?alt=com.azure.health.insights.radiologyinsights.models.PatientRecord&text=PatientRecord\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.health.insights.radiologyinsights.models.PatientRecord.getDetails()"
+  fullName: "com.azure.health.insights.radiologyinsights.models.PatientRecord.getDetails()"
+  name: "getDetails()"
+  nameWithType: "PatientRecord.getDetails()"
+  summary: "Get the details property: Patient structured information, including demographics and known structured clinical information."
+  syntax: "public PatientDetails getDetails()"
+  desc: "Get the details property: Patient structured information, including demographics and known structured clinical information."
+  returns:
+    description: "the details value."
+    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.PatientDetails?alt=com.azure.health.insights.radiologyinsights.models.PatientDetails&text=PatientDetails\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.health.insights.radiologyinsights.models.PatientRecord.getEncounters()"
   fullName: "com.azure.health.insights.radiologyinsights.models.PatientRecord.getEncounters()"
   name: "getEncounters()"
   nameWithType: "PatientRecord.getEncounters()"
   summary: "Get the encounters property: Patient encounters/visits."
-  syntax: "public List<Encounter> getEncounters()"
+  syntax: "public List<PatientEncounter> getEncounters()"
   desc: "Get the encounters property: Patient encounters/visits."
   returns:
     description: "the encounters value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.health.insights.radiologyinsights.models.Encounter?alt=com.azure.health.insights.radiologyinsights.models.Encounter&text=Encounter\" data-throw-if-not-resolved=\"False\" />&gt;"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.health.insights.radiologyinsights.models.PatientEncounter?alt=com.azure.health.insights.radiologyinsights.models.PatientEncounter&text=PatientEncounter\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.health.insights.radiologyinsights.models.PatientRecord.getId()"
   fullName: "com.azure.health.insights.radiologyinsights.models.PatientRecord.getId()"
   name: "getId()"
@@ -54,16 +83,6 @@ methods:
   returns:
     description: "the id value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.health.insights.radiologyinsights.models.PatientRecord.getInfo()"
-  fullName: "com.azure.health.insights.radiologyinsights.models.PatientRecord.getInfo()"
-  name: "getInfo()"
-  nameWithType: "PatientRecord.getInfo()"
-  summary: "Get the info property: Patient structured information, including demographics and known structured clinical information."
-  syntax: "public PatientDetails getInfo()"
-  desc: "Get the info property: Patient structured information, including demographics and known structured clinical information."
-  returns:
-    description: "the info value."
-    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.PatientDetails?alt=com.azure.health.insights.radiologyinsights.models.PatientDetails&text=PatientDetails\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.health.insights.radiologyinsights.models.PatientRecord.getPatientDocuments()"
   fullName: "com.azure.health.insights.radiologyinsights.models.PatientRecord.getPatientDocuments()"
   name: "getPatientDocuments()"
@@ -74,31 +93,31 @@ methods:
   returns:
     description: "the patientDocuments value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.health.insights.radiologyinsights.models.PatientDocument?alt=com.azure.health.insights.radiologyinsights.models.PatientDocument&text=PatientDocument\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.health.insights.radiologyinsights.models.PatientRecord.setEncounters(java.util.List<com.azure.health.insights.radiologyinsights.models.Encounter>)"
-  fullName: "com.azure.health.insights.radiologyinsights.models.PatientRecord.setEncounters(List<Encounter> encounters)"
-  name: "setEncounters(List<Encounter> encounters)"
-  nameWithType: "PatientRecord.setEncounters(List<Encounter> encounters)"
+- uid: "com.azure.health.insights.radiologyinsights.models.PatientRecord.setDetails(com.azure.health.insights.radiologyinsights.models.PatientDetails)"
+  fullName: "com.azure.health.insights.radiologyinsights.models.PatientRecord.setDetails(PatientDetails details)"
+  name: "setDetails(PatientDetails details)"
+  nameWithType: "PatientRecord.setDetails(PatientDetails details)"
+  summary: "Set the details property: Patient structured information, including demographics and known structured clinical information."
+  parameters:
+  - description: "the details value to set."
+    name: "details"
+    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.PatientDetails?alt=com.azure.health.insights.radiologyinsights.models.PatientDetails&text=PatientDetails\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public PatientRecord setDetails(PatientDetails details)"
+  desc: "Set the details property: Patient structured information, including demographics and known structured clinical information."
+  returns:
+    description: "the PatientRecord object itself."
+    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.PatientRecord?alt=com.azure.health.insights.radiologyinsights.models.PatientRecord&text=PatientRecord\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.health.insights.radiologyinsights.models.PatientRecord.setEncounters(java.util.List<com.azure.health.insights.radiologyinsights.models.PatientEncounter>)"
+  fullName: "com.azure.health.insights.radiologyinsights.models.PatientRecord.setEncounters(List<PatientEncounter> encounters)"
+  name: "setEncounters(List<PatientEncounter> encounters)"
+  nameWithType: "PatientRecord.setEncounters(List<PatientEncounter> encounters)"
   summary: "Set the encounters property: Patient encounters/visits."
   parameters:
   - description: "the encounters value to set."
     name: "encounters"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.health.insights.radiologyinsights.models.Encounter?alt=com.azure.health.insights.radiologyinsights.models.Encounter&text=Encounter\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public PatientRecord setEncounters(List<Encounter> encounters)"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.health.insights.radiologyinsights.models.PatientEncounter?alt=com.azure.health.insights.radiologyinsights.models.PatientEncounter&text=PatientEncounter\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public PatientRecord setEncounters(List<PatientEncounter> encounters)"
   desc: "Set the encounters property: Patient encounters/visits."
-  returns:
-    description: "the PatientRecord object itself."
-    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.PatientRecord?alt=com.azure.health.insights.radiologyinsights.models.PatientRecord&text=PatientRecord\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.health.insights.radiologyinsights.models.PatientRecord.setInfo(com.azure.health.insights.radiologyinsights.models.PatientDetails)"
-  fullName: "com.azure.health.insights.radiologyinsights.models.PatientRecord.setInfo(PatientDetails info)"
-  name: "setInfo(PatientDetails info)"
-  nameWithType: "PatientRecord.setInfo(PatientDetails info)"
-  summary: "Set the info property: Patient structured information, including demographics and known structured clinical information."
-  parameters:
-  - description: "the info value to set."
-    name: "info"
-    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.PatientDetails?alt=com.azure.health.insights.radiologyinsights.models.PatientDetails&text=PatientDetails\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public PatientRecord setInfo(PatientDetails info)"
-  desc: "Set the info property: Patient structured information, including demographics and known structured clinical information."
   returns:
     description: "the PatientRecord object itself."
     type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.PatientRecord?alt=com.azure.health.insights.radiologyinsights.models.PatientRecord&text=PatientRecord\" data-throw-if-not-resolved=\"False\" />"
@@ -116,8 +135,22 @@ methods:
   returns:
     description: "the PatientRecord object itself."
     type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.PatientRecord?alt=com.azure.health.insights.radiologyinsights.models.PatientRecord&text=PatientRecord\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.health.insights.radiologyinsights.models.PatientRecord.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.health.insights.radiologyinsights.models.PatientRecord.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "PatientRecord.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "A patient record, including their clinical information and data."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.health.insights.radiologyinsights.models.PatientRecord?alt=com.azure.health.insights.radiologyinsights.models.PatientRecord&text=PatientRecord\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.health.insights.radiologyinsights.models"
-artifact: com.azure:azure-health-insights-radiologyinsights:1.0.0-beta.1
+artifact: com.azure:azure-health-insights-radiologyinsights:1.2.0-alpha.20260910.2

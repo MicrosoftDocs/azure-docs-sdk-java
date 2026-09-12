@@ -192,4 +192,4 @@ type: "class"
 desc: "A Transform encapsulates the rules or instructions for generating desired outputs from input media, such as by transcoding or by extracting insights. After the Transform is created, it can be applied to input media by creating Jobs."
 metadata: {}
 package: "com.azure.resourcemanager.mediaservices.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-mediaservices:2.4.0-beta.2
+artifact: com.azure.resourcemanager:azure-resourcemanager-mediaservices:2.5.0-alpha.20260910.3

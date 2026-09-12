@@ -4,6 +4,7 @@ fullName: "com.azure.messaging.eventgrid.systemevents.RecordingContentType"
 name: "RecordingContentType"
 nameWithType: "RecordingContentType"
 summary: "The recording content type- Audio<wbr>Video, or Audio."
+deprecatedTag: "This class is deprecated and may be removed in future releases. System events are now available in the azure-messaging-eventgrid-systemevents package."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
@@ -13,6 +14,7 @@ inheritedClassMethods:
   - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
 - classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
@@ -25,7 +27,7 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
-syntax: "public final class **RecordingContentType**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.messaging.eventgrid.systemevents.RecordingContentType?alt=com.azure.messaging.eventgrid.systemevents.RecordingContentType&text=RecordingContentType\" data-throw-if-not-resolved=\"False\" />&gt;"
+syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public final class **RecordingContentType**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.messaging.eventgrid.systemevents.RecordingContentType?alt=com.azure.messaging.eventgrid.systemevents.RecordingContentType&text=RecordingContentType\" data-throw-if-not-resolved=\"False\" />&gt;"
 constructors:
 - uid: "com.azure.messaging.eventgrid.systemevents.RecordingContentType.RecordingContentType()"
   fullName: "com.azure.messaging.eventgrid.systemevents.RecordingContentType.RecordingContentType()"
@@ -92,6 +94,7 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.messaging.eventgrid.systemevents.RecordingContentType?alt=com.azure.messaging.eventgrid.systemevents.RecordingContentType&text=RecordingContentType\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "class"
 desc: "The recording content type- AudioVideo, or Audio."
+hasDeprecatedTag: true
 metadata: {}
 package: "com.azure.messaging.eventgrid.systemevents"
-artifact: com.azure:azure-messaging-eventgrid:4.21.0-beta.1
+artifact: com.azure:azure-messaging-eventgrid:4.32.0-alpha.20260910.3

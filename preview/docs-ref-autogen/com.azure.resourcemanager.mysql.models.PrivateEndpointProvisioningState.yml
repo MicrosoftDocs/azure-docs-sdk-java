@@ -1,0 +1,128 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.mysql.models.PrivateEndpointProvisioningState"
+fullName: "com.azure.resourcemanager.mysql.models.PrivateEndpointProvisioningState"
+name: "PrivateEndpointProvisioningState"
+nameWithType: "PrivateEndpointProvisioningState"
+summary: "Defines values for Private<wbr>Endpoint<wbr>Provisioning<wbr>State."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **PrivateEndpointProvisioningState**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.mysql.models.PrivateEndpointProvisioningState?alt=com.azure.resourcemanager.mysql.models.PrivateEndpointProvisioningState&text=PrivateEndpointProvisioningState\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.mysql.models.PrivateEndpointProvisioningState.PrivateEndpointProvisioningState()"
+  fullName: "com.azure.resourcemanager.mysql.models.PrivateEndpointProvisioningState.PrivateEndpointProvisioningState()"
+  name: "PrivateEndpointProvisioningState()"
+  nameWithType: "PrivateEndpointProvisioningState.PrivateEndpointProvisioningState()"
+  syntax: "public PrivateEndpointProvisioningState()"
+fields:
+- uid: "com.azure.resourcemanager.mysql.models.PrivateEndpointProvisioningState.APPROVING"
+  fullName: "com.azure.resourcemanager.mysql.models.PrivateEndpointProvisioningState.APPROVING"
+  name: "APPROVING"
+  nameWithType: "PrivateEndpointProvisioningState.APPROVING"
+  summary: "Static value Approving for Private<wbr>Endpoint<wbr>Provisioning<wbr>State."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.PrivateEndpointProvisioningState?alt=com.azure.resourcemanager.mysql.models.PrivateEndpointProvisioningState&text=PrivateEndpointProvisioningState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final PrivateEndpointProvisioningState APPROVING"
+  desc: "Static value Approving for PrivateEndpointProvisioningState."
+- uid: "com.azure.resourcemanager.mysql.models.PrivateEndpointProvisioningState.DROPPING"
+  fullName: "com.azure.resourcemanager.mysql.models.PrivateEndpointProvisioningState.DROPPING"
+  name: "DROPPING"
+  nameWithType: "PrivateEndpointProvisioningState.DROPPING"
+  summary: "Static value Dropping for Private<wbr>Endpoint<wbr>Provisioning<wbr>State."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.PrivateEndpointProvisioningState?alt=com.azure.resourcemanager.mysql.models.PrivateEndpointProvisioningState&text=PrivateEndpointProvisioningState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final PrivateEndpointProvisioningState DROPPING"
+  desc: "Static value Dropping for PrivateEndpointProvisioningState."
+- uid: "com.azure.resourcemanager.mysql.models.PrivateEndpointProvisioningState.FAILED"
+  fullName: "com.azure.resourcemanager.mysql.models.PrivateEndpointProvisioningState.FAILED"
+  name: "FAILED"
+  nameWithType: "PrivateEndpointProvisioningState.FAILED"
+  summary: "Static value Failed for Private<wbr>Endpoint<wbr>Provisioning<wbr>State."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.PrivateEndpointProvisioningState?alt=com.azure.resourcemanager.mysql.models.PrivateEndpointProvisioningState&text=PrivateEndpointProvisioningState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final PrivateEndpointProvisioningState FAILED"
+  desc: "Static value Failed for PrivateEndpointProvisioningState."
+- uid: "com.azure.resourcemanager.mysql.models.PrivateEndpointProvisioningState.READY"
+  fullName: "com.azure.resourcemanager.mysql.models.PrivateEndpointProvisioningState.READY"
+  name: "READY"
+  nameWithType: "PrivateEndpointProvisioningState.READY"
+  summary: "Static value Ready for Private<wbr>Endpoint<wbr>Provisioning<wbr>State."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.PrivateEndpointProvisioningState?alt=com.azure.resourcemanager.mysql.models.PrivateEndpointProvisioningState&text=PrivateEndpointProvisioningState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final PrivateEndpointProvisioningState READY"
+  desc: "Static value Ready for PrivateEndpointProvisioningState."
+- uid: "com.azure.resourcemanager.mysql.models.PrivateEndpointProvisioningState.REJECTING"
+  fullName: "com.azure.resourcemanager.mysql.models.PrivateEndpointProvisioningState.REJECTING"
+  name: "REJECTING"
+  nameWithType: "PrivateEndpointProvisioningState.REJECTING"
+  summary: "Static value Rejecting for Private<wbr>Endpoint<wbr>Provisioning<wbr>State."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.PrivateEndpointProvisioningState?alt=com.azure.resourcemanager.mysql.models.PrivateEndpointProvisioningState&text=PrivateEndpointProvisioningState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final PrivateEndpointProvisioningState REJECTING"
+  desc: "Static value Rejecting for PrivateEndpointProvisioningState."
+methods:
+- uid: "com.azure.resourcemanager.mysql.models.PrivateEndpointProvisioningState.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.mysql.models.PrivateEndpointProvisioningState.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "PrivateEndpointProvisioningState.fromString(String name)"
+  summary: "Creates or finds a Private<wbr>Endpoint<wbr>Provisioning<wbr>State from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static PrivateEndpointProvisioningState fromString(String name)"
+  desc: "Creates or finds a PrivateEndpointProvisioningState from its string representation."
+  returns:
+    description: "the corresponding PrivateEndpointProvisioningState."
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.PrivateEndpointProvisioningState?alt=com.azure.resourcemanager.mysql.models.PrivateEndpointProvisioningState&text=PrivateEndpointProvisioningState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.mysql.models.PrivateEndpointProvisioningState.values()"
+  fullName: "com.azure.resourcemanager.mysql.models.PrivateEndpointProvisioningState.values()"
+  name: "values()"
+  nameWithType: "PrivateEndpointProvisioningState.values()"
+  modifiers:
+  - "static"
+  syntax: "public static Collection<PrivateEndpointProvisioningState> values()"
+  returns:
+    description: "known PrivateEndpointProvisioningState values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.mysql.models.PrivateEndpointProvisioningState?alt=com.azure.resourcemanager.mysql.models.PrivateEndpointProvisioningState&text=PrivateEndpointProvisioningState\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Defines values for PrivateEndpointProvisioningState."
+metadata: {}
+package: "com.azure.resourcemanager.mysql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-mysql:1.1.0-alpha.20260910.2

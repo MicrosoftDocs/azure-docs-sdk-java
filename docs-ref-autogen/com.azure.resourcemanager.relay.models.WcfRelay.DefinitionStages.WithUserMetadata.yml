@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.relay.models.WcfRelay.DefinitionStages.WithUserMetadata"
+fullName: "com.azure.resourcemanager.relay.models.WcfRelay.DefinitionStages.WithUserMetadata"
+name: "WcfRelay.DefinitionStages.WithUserMetadata"
+nameWithType: "WcfRelay.DefinitionStages.WithUserMetadata"
+summary: "The stage of the Wcf<wbr>Relay definition allowing to specify user<wbr>Metadata."
+syntax: "public static interface **WcfRelay.DefinitionStages.WithUserMetadata**"
+methods:
+- uid: "com.azure.resourcemanager.relay.models.WcfRelay.DefinitionStages.WithUserMetadata.withUserMetadata(java.lang.String)"
+  fullName: "com.azure.resourcemanager.relay.models.WcfRelay.DefinitionStages.WithUserMetadata.withUserMetadata(String userMetadata)"
+  name: "withUserMetadata(String userMetadata)"
+  nameWithType: "WcfRelay.DefinitionStages.WithUserMetadata.withUserMetadata(String userMetadata)"
+  summary: "Specifies the user<wbr>Metadata property: The usermetadata is a placeholder to store user-defined string data for the WCF Relay endpoint."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The usermetadata is a placeholder to store user-defined string data for the WCF Relay\n endpoint. For example, it can be used to store descriptive data, such as list of teams and their contact\n information. Also, user-defined configuration settings can be stored."
+    name: "userMetadata"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract WcfRelay.DefinitionStages.WithCreate withUserMetadata(String userMetadata)"
+  desc: "Specifies the userMetadata property: The usermetadata is a placeholder to store user-defined string data for the WCF Relay endpoint. For example, it can be used to store descriptive data, such as list of teams and their contact information. Also, user-defined configuration settings can be stored.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.relay.models.WcfRelay.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.relay.models.WcfRelay.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the WcfRelay definition allowing to specify userMetadata."
+metadata: {}
+package: "com.azure.resourcemanager.relay.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-relay:1.1.0

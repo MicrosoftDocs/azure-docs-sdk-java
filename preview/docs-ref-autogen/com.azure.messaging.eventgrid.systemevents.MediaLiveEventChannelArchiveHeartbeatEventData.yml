@@ -4,6 +4,7 @@ fullName: "com.azure.messaging.eventgrid.systemevents.MediaLiveEventChannelArchi
 name: "MediaLiveEventChannelArchiveHeartbeatEventData"
 nameWithType: "MediaLiveEventChannelArchiveHeartbeatEventData"
 summary: "Channel Archive heartbeat event data."
+deprecatedTag: "This class is deprecated and may be removed in future releases. System events are now available in the azure-messaging-eventgrid-systemevents package."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -20,7 +21,7 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
-syntax: "public final class **MediaLiveEventChannelArchiveHeartbeatEventData**"
+syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public final class **MediaLiveEventChannelArchiveHeartbeatEventData**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.messaging.eventgrid.systemevents.MediaLiveEventChannelArchiveHeartbeatEventData?alt=com.azure.messaging.eventgrid.systemevents.MediaLiveEventChannelArchiveHeartbeatEventData&text=MediaLiveEventChannelArchiveHeartbeatEventData\" data-throw-if-not-resolved=\"False\" />&gt;"
 constructors:
 - uid: "com.azure.messaging.eventgrid.systemevents.MediaLiveEventChannelArchiveHeartbeatEventData.MediaLiveEventChannelArchiveHeartbeatEventData()"
   fullName: "com.azure.messaging.eventgrid.systemevents.MediaLiveEventChannelArchiveHeartbeatEventData.MediaLiveEventChannelArchiveHeartbeatEventData()"
@@ -30,6 +31,25 @@ constructors:
   syntax: "public MediaLiveEventChannelArchiveHeartbeatEventData()"
   desc: "Creates an instance of MediaLiveEventChannelArchiveHeartbeatEventData class."
 methods:
+- uid: "com.azure.messaging.eventgrid.systemevents.MediaLiveEventChannelArchiveHeartbeatEventData.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.MediaLiveEventChannelArchiveHeartbeatEventData.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "MediaLiveEventChannelArchiveHeartbeatEventData.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Media<wbr>Live<wbr>Event<wbr>Channel<wbr>Archive<wbr>Heartbeat<wbr>Event<wbr>Data from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static MediaLiveEventChannelArchiveHeartbeatEventData fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of MediaLiveEventChannelArchiveHeartbeatEventData from the JsonReader."
+  returns:
+    description: "An instance of MediaLiveEventChannelArchiveHeartbeatEventData if the JsonReader was pointing to an\n instance of it, or null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.MediaLiveEventChannelArchiveHeartbeatEventData?alt=com.azure.messaging.eventgrid.systemevents.MediaLiveEventChannelArchiveHeartbeatEventData&text=MediaLiveEventChannelArchiveHeartbeatEventData\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.messaging.eventgrid.systemevents.MediaLiveEventChannelArchiveHeartbeatEventData.getChannelLatency()"
   fullName: "com.azure.messaging.eventgrid.systemevents.MediaLiveEventChannelArchiveHeartbeatEventData.getChannelLatency()"
   name: "getChannelLatency()"
@@ -50,8 +70,23 @@ methods:
   returns:
     description: "the latencyResultCode value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.messaging.eventgrid.systemevents.MediaLiveEventChannelArchiveHeartbeatEventData.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.MediaLiveEventChannelArchiveHeartbeatEventData.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "MediaLiveEventChannelArchiveHeartbeatEventData.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Channel Archive heartbeat event data. Schema of the data property of an EventGridEvent for a Microsoft.Media.LiveEventChannelArchiveHeartbeat event."
+hasDeprecatedTag: true
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.messaging.eventgrid.systemevents.MediaLiveEventChannelArchiveHeartbeatEventData?alt=com.azure.messaging.eventgrid.systemevents.MediaLiveEventChannelArchiveHeartbeatEventData&text=MediaLiveEventChannelArchiveHeartbeatEventData\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.messaging.eventgrid.systemevents"
-artifact: com.azure:azure-messaging-eventgrid:4.21.0-beta.1
+artifact: com.azure:azure-messaging-eventgrid:4.32.0-alpha.20260910.3

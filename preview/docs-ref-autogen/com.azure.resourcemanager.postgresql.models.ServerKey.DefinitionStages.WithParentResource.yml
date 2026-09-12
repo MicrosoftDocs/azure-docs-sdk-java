@@ -1,0 +1,32 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.postgresql.models.ServerKey.DefinitionStages.WithParentResource"
+fullName: "com.azure.resourcemanager.postgresql.models.ServerKey.DefinitionStages.WithParentResource"
+name: "ServerKey.DefinitionStages.WithParentResource"
+nameWithType: "ServerKey.DefinitionStages.WithParentResource"
+summary: "The stage of the Server<wbr>Key definition allowing to specify parent resource."
+syntax: "public static interface **ServerKey.DefinitionStages.WithParentResource**"
+methods:
+- uid: "com.azure.resourcemanager.postgresql.models.ServerKey.DefinitionStages.WithParentResource.withExistingServer(java.lang.String,java.lang.String)"
+  fullName: "com.azure.resourcemanager.postgresql.models.ServerKey.DefinitionStages.WithParentResource.withExistingServer(String serverName, String resourceGroupName)"
+  name: "withExistingServer(String serverName, String resourceGroupName)"
+  nameWithType: "ServerKey.DefinitionStages.WithParentResource.withExistingServer(String serverName, String resourceGroupName)"
+  summary: "Specifies server<wbr>Name, resource<wbr>Group<wbr>Name."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the server."
+    name: "serverName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract ServerKey.DefinitionStages.WithCreate withExistingServer(String serverName, String resourceGroupName)"
+  desc: "Specifies serverName, resourceGroupName."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.postgresql.models.ServerKey.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.postgresql.models.ServerKey.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the ServerKey definition allowing to specify parent resource."
+metadata: {}
+package: "com.azure.resourcemanager.postgresql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-postgresql:1.2.0-alpha.20260910.1

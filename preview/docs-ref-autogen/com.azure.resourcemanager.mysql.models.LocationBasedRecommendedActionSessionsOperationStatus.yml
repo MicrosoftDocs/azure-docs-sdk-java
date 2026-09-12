@@ -1,0 +1,54 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.mysql.models.LocationBasedRecommendedActionSessionsOperationStatus"
+fullName: "com.azure.resourcemanager.mysql.models.LocationBasedRecommendedActionSessionsOperationStatus"
+name: "LocationBasedRecommendedActionSessionsOperationStatus"
+nameWithType: "LocationBasedRecommendedActionSessionsOperationStatus"
+summary: "Resource collection API of Location<wbr>Based<wbr>Recommended<wbr>Action<wbr>Sessions<wbr>Operation<wbr>Status."
+syntax: "public interface **LocationBasedRecommendedActionSessionsOperationStatus**"
+methods:
+- uid: "com.azure.resourcemanager.mysql.models.LocationBasedRecommendedActionSessionsOperationStatus.get(java.lang.String,java.lang.String)"
+  fullName: "com.azure.resourcemanager.mysql.models.LocationBasedRecommendedActionSessionsOperationStatus.get(String locationName, String operationId)"
+  name: "get(String locationName, String operationId)"
+  nameWithType: "LocationBasedRecommendedActionSessionsOperationStatus.get(String locationName, String operationId)"
+  summary: "Recommendation action session operation status."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the location."
+    name: "locationName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The operation identifier."
+    name: "operationId"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract RecommendedActionSessionsOperationStatus get(String locationName, String operationId)"
+  desc: "Recommendation action session operation status."
+  returns:
+    description: "recommendation action session operation status."
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.RecommendedActionSessionsOperationStatus?alt=com.azure.resourcemanager.mysql.models.RecommendedActionSessionsOperationStatus&text=RecommendedActionSessionsOperationStatus\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.mysql.models.LocationBasedRecommendedActionSessionsOperationStatus.getWithResponse(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.mysql.models.LocationBasedRecommendedActionSessionsOperationStatus.getWithResponse(String locationName, String operationId, Context context)"
+  name: "getWithResponse(String locationName, String operationId, Context context)"
+  nameWithType: "LocationBasedRecommendedActionSessionsOperationStatus.getWithResponse(String locationName, String operationId, Context context)"
+  summary: "Recommendation action session operation status."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the location."
+    name: "locationName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The operation identifier."
+    name: "operationId"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract Response<RecommendedActionSessionsOperationStatus> getWithResponse(String locationName, String operationId, Context context)"
+  desc: "Recommendation action session operation status."
+  returns:
+    description: "recommendation action session operation status along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
+    type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.mysql.models.RecommendedActionSessionsOperationStatus?alt=com.azure.resourcemanager.mysql.models.RecommendedActionSessionsOperationStatus&text=RecommendedActionSessionsOperationStatus\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "interface"
+desc: "Resource collection API of LocationBasedRecommendedActionSessionsOperationStatus."
+metadata: {}
+package: "com.azure.resourcemanager.mysql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-mysql:1.1.0-alpha.20260910.2

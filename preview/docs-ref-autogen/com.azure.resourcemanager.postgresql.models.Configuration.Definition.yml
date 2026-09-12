@@ -1,0 +1,16 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.postgresql.models.Configuration.Definition"
+fullName: "com.azure.resourcemanager.postgresql.models.Configuration.Definition"
+name: "Configuration.Definition"
+nameWithType: "Configuration.Definition"
+summary: "The entirety of the Configuration definition."
+syntax: "public static interface **Configuration.Definition**</br> extends <xref href=\"com.azure.resourcemanager.postgresql.models.Configuration.DefinitionStages.Blank?alt=com.azure.resourcemanager.postgresql.models.Configuration.DefinitionStages.Blank&text=Blank\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.postgresql.models.Configuration.DefinitionStages.WithParentResource?alt=com.azure.resourcemanager.postgresql.models.Configuration.DefinitionStages.WithParentResource&text=WithParentResource\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.postgresql.models.Configuration.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.postgresql.models.Configuration.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of the Configuration definition."
+implements:
+- "<xref href=\"com.azure.resourcemanager.postgresql.models.Configuration.DefinitionStages.Blank?alt=com.azure.resourcemanager.postgresql.models.Configuration.DefinitionStages.Blank&text=Blank\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.postgresql.models.Configuration.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.postgresql.models.Configuration.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.postgresql.models.Configuration.DefinitionStages.WithParentResource?alt=com.azure.resourcemanager.postgresql.models.Configuration.DefinitionStages.WithParentResource&text=WithParentResource\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.azure.resourcemanager.postgresql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-postgresql:1.2.0-alpha.20260910.1

@@ -82,17 +82,6 @@ methods:
   returns:
     description: "the properties value."
     type: "<xref href=\"com.azure.resourcemanager.botservice.models.DirectLineSpeechChannelProperties?alt=com.azure.resourcemanager.botservice.models.DirectLineSpeechChannelProperties&text=DirectLineSpeechChannelProperties\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.botservice.models.DirectLineSpeechChannel.provisioningState()"
-  fullName: "com.azure.resourcemanager.botservice.models.DirectLineSpeechChannel.provisioningState()"
-  name: "provisioningState()"
-  nameWithType: "DirectLineSpeechChannel.provisioningState()"
-  summary: "Get the provisioning<wbr>State property: Provisioning state of the resource."
-  overridden: "com.azure.resourcemanager.botservice.models.Channel.provisioningState()"
-  syntax: "public String provisioningState()"
-  desc: "Get the provisioningState property: Provisioning state of the resource."
-  returns:
-    description: "the provisioningState value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.botservice.models.DirectLineSpeechChannel.toJson(com.azure.json.JsonWriter)"
   fullName: "com.azure.resourcemanager.botservice.models.DirectLineSpeechChannel.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
@@ -158,4 +147,4 @@ type: "class"
 desc: "DirectLine Speech channel definition."
 metadata: {}
 package: "com.azure.resourcemanager.botservice.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-botservice:1.0.0-beta.6
+artifact: com.azure.resourcemanager:azure-resourcemanager-botservice:1.1.0-alpha.20260910.1

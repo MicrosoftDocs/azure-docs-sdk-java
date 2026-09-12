@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.mysql.models.Server.UpdateStages.WithSku"
+fullName: "com.azure.resourcemanager.mysql.models.Server.UpdateStages.WithSku"
+name: "Server.UpdateStages.WithSku"
+nameWithType: "Server.UpdateStages.WithSku"
+summary: "The stage of the Server update allowing to specify sku."
+syntax: "public static interface **Server.UpdateStages.WithSku**"
+methods:
+- uid: "com.azure.resourcemanager.mysql.models.Server.UpdateStages.WithSku.withSku(com.azure.resourcemanager.mysql.models.Sku)"
+  fullName: "com.azure.resourcemanager.mysql.models.Server.UpdateStages.WithSku.withSku(Sku sku)"
+  name: "withSku(Sku sku)"
+  nameWithType: "Server.UpdateStages.WithSku.withSku(Sku sku)"
+  summary: "Specifies the sku property: The SKU (pricing tier) of the server.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The SKU (pricing tier) of the server."
+    name: "sku"
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.Sku?alt=com.azure.resourcemanager.mysql.models.Sku&text=Sku\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract Server.Update withSku(Sku sku)"
+  desc: "Specifies the sku property: The SKU (pricing tier) of the server.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.Server.Update?alt=com.azure.resourcemanager.mysql.models.Server.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the Server update allowing to specify sku."
+metadata: {}
+package: "com.azure.resourcemanager.mysql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-mysql:1.1.0-alpha.20260910.2

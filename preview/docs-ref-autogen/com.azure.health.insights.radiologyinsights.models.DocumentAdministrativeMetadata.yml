@@ -20,7 +20,7 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
-syntax: "public final class **DocumentAdministrativeMetadata**"
+syntax: "public final class **DocumentAdministrativeMetadata**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.health.insights.radiologyinsights.models.DocumentAdministrativeMetadata?alt=com.azure.health.insights.radiologyinsights.models.DocumentAdministrativeMetadata&text=DocumentAdministrativeMetadata\" data-throw-if-not-resolved=\"False\" />&gt;"
 constructors:
 - uid: "com.azure.health.insights.radiologyinsights.models.DocumentAdministrativeMetadata.DocumentAdministrativeMetadata()"
   fullName: "com.azure.health.insights.radiologyinsights.models.DocumentAdministrativeMetadata.DocumentAdministrativeMetadata()"
@@ -30,6 +30,25 @@ constructors:
   syntax: "public DocumentAdministrativeMetadata()"
   desc: "Creates an instance of DocumentAdministrativeMetadata class."
 methods:
+- uid: "com.azure.health.insights.radiologyinsights.models.DocumentAdministrativeMetadata.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.health.insights.radiologyinsights.models.DocumentAdministrativeMetadata.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "DocumentAdministrativeMetadata.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Document<wbr>Administrative<wbr>Metadata from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static DocumentAdministrativeMetadata fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the DocumentAdministrativeMetadata."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of DocumentAdministrativeMetadata from the JsonReader."
+  returns:
+    description: "An instance of DocumentAdministrativeMetadata if the JsonReader was pointing to an instance of it, or\n null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.DocumentAdministrativeMetadata?alt=com.azure.health.insights.radiologyinsights.models.DocumentAdministrativeMetadata&text=DocumentAdministrativeMetadata\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.health.insights.radiologyinsights.models.DocumentAdministrativeMetadata.getEncounterId()"
   fullName: "com.azure.health.insights.radiologyinsights.models.DocumentAdministrativeMetadata.getEncounterId()"
   name: "getEncounterId()"
@@ -45,11 +64,11 @@ methods:
   name: "getOrderedProcedures()"
   nameWithType: "DocumentAdministrativeMetadata.getOrderedProcedures()"
   summary: "Get the ordered<wbr>Procedures property: List of procedure information associated with the document."
-  syntax: "public List<FhirR4Extendible> getOrderedProcedures()"
+  syntax: "public List<OrderedProcedure> getOrderedProcedures()"
   desc: "Get the orderedProcedures property: List of procedure information associated with the document."
   returns:
     description: "the orderedProcedures value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4Extendible?alt=com.azure.health.insights.radiologyinsights.models.FhirR4Extendible&text=FhirR4Extendible\" data-throw-if-not-resolved=\"False\" />&gt;"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.health.insights.radiologyinsights.models.OrderedProcedure?alt=com.azure.health.insights.radiologyinsights.models.OrderedProcedure&text=OrderedProcedure\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.health.insights.radiologyinsights.models.DocumentAdministrativeMetadata.setEncounterId(java.lang.String)"
   fullName: "com.azure.health.insights.radiologyinsights.models.DocumentAdministrativeMetadata.setEncounterId(String encounterId)"
   name: "setEncounterId(String encounterId)"
@@ -64,22 +83,36 @@ methods:
   returns:
     description: "the DocumentAdministrativeMetadata object itself."
     type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.DocumentAdministrativeMetadata?alt=com.azure.health.insights.radiologyinsights.models.DocumentAdministrativeMetadata&text=DocumentAdministrativeMetadata\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.health.insights.radiologyinsights.models.DocumentAdministrativeMetadata.setOrderedProcedures(java.util.List<com.azure.health.insights.radiologyinsights.models.FhirR4Extendible>)"
-  fullName: "com.azure.health.insights.radiologyinsights.models.DocumentAdministrativeMetadata.setOrderedProcedures(List<FhirR4Extendible> orderedProcedures)"
-  name: "setOrderedProcedures(List<FhirR4Extendible> orderedProcedures)"
-  nameWithType: "DocumentAdministrativeMetadata.setOrderedProcedures(List<FhirR4Extendible> orderedProcedures)"
+- uid: "com.azure.health.insights.radiologyinsights.models.DocumentAdministrativeMetadata.setOrderedProcedures(java.util.List<com.azure.health.insights.radiologyinsights.models.OrderedProcedure>)"
+  fullName: "com.azure.health.insights.radiologyinsights.models.DocumentAdministrativeMetadata.setOrderedProcedures(List<OrderedProcedure> orderedProcedures)"
+  name: "setOrderedProcedures(List<OrderedProcedure> orderedProcedures)"
+  nameWithType: "DocumentAdministrativeMetadata.setOrderedProcedures(List<OrderedProcedure> orderedProcedures)"
   summary: "Set the ordered<wbr>Procedures property: List of procedure information associated with the document."
   parameters:
   - description: "the orderedProcedures value to set."
     name: "orderedProcedures"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4Extendible?alt=com.azure.health.insights.radiologyinsights.models.FhirR4Extendible&text=FhirR4Extendible\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public DocumentAdministrativeMetadata setOrderedProcedures(List<FhirR4Extendible> orderedProcedures)"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.health.insights.radiologyinsights.models.OrderedProcedure?alt=com.azure.health.insights.radiologyinsights.models.OrderedProcedure&text=OrderedProcedure\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public DocumentAdministrativeMetadata setOrderedProcedures(List<OrderedProcedure> orderedProcedures)"
   desc: "Set the orderedProcedures property: List of procedure information associated with the document."
   returns:
     description: "the DocumentAdministrativeMetadata object itself."
     type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.DocumentAdministrativeMetadata?alt=com.azure.health.insights.radiologyinsights.models.DocumentAdministrativeMetadata&text=DocumentAdministrativeMetadata\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.health.insights.radiologyinsights.models.DocumentAdministrativeMetadata.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.health.insights.radiologyinsights.models.DocumentAdministrativeMetadata.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "DocumentAdministrativeMetadata.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Document administrative metadata."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.health.insights.radiologyinsights.models.DocumentAdministrativeMetadata?alt=com.azure.health.insights.radiologyinsights.models.DocumentAdministrativeMetadata&text=DocumentAdministrativeMetadata\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.health.insights.radiologyinsights.models"
-artifact: com.azure:azure-health-insights-radiologyinsights:1.0.0-beta.1
+artifact: com.azure:azure-health-insights-radiologyinsights:1.2.0-alpha.20260910.2

@@ -1,0 +1,12 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.postgresql.models.VirtualNetworkRule.DefinitionStages"
+fullName: "com.azure.resourcemanager.postgresql.models.VirtualNetworkRule.DefinitionStages"
+name: "VirtualNetworkRule.DefinitionStages"
+nameWithType: "VirtualNetworkRule.DefinitionStages"
+summary: "The Virtual<wbr>Network<wbr>Rule definition stages."
+syntax: "public static interface **VirtualNetworkRule.DefinitionStages**"
+type: "interface"
+desc: "The VirtualNetworkRule definition stages."
+metadata: {}
+package: "com.azure.resourcemanager.postgresql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-postgresql:1.2.0-alpha.20260910.1

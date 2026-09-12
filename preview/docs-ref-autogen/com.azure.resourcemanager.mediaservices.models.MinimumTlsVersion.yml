@@ -119,4 +119,4 @@ type: "class"
 desc: "The minimum TLS version allowed for this account's requests. This is an optional property. If unspecified, a secure default value will be used."
 metadata: {}
 package: "com.azure.resourcemanager.mediaservices.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-mediaservices:2.4.0-beta.2
+artifact: com.azure.resourcemanager:azure-resourcemanager-mediaservices:2.5.0-alpha.20260910.3

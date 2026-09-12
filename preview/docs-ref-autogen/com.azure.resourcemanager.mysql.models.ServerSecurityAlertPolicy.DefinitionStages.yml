@@ -1,0 +1,12 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.DefinitionStages"
+fullName: "com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.DefinitionStages"
+name: "ServerSecurityAlertPolicy.DefinitionStages"
+nameWithType: "ServerSecurityAlertPolicy.DefinitionStages"
+summary: "The Server<wbr>Security<wbr>Alert<wbr>Policy definition stages."
+syntax: "public static interface **ServerSecurityAlertPolicy.DefinitionStages**"
+type: "interface"
+desc: "The ServerSecurityAlertPolicy definition stages."
+metadata: {}
+package: "com.azure.resourcemanager.mysql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-mysql:1.1.0-alpha.20260910.2

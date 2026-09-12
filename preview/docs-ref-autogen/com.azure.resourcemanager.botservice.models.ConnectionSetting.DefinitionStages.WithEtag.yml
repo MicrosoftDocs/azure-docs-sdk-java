@@ -10,7 +10,7 @@ methods:
   fullName: "com.azure.resourcemanager.botservice.models.ConnectionSetting.DefinitionStages.WithEtag.withEtag(String etag)"
   name: "withEtag(String etag)"
   nameWithType: "ConnectionSetting.DefinitionStages.WithEtag.withEtag(String etag)"
-  summary: "Specifies the etag property: Entity Tag.."
+  summary: "Specifies the etag property: Entity Tag."
   modifiers:
   - "abstract"
   parameters:
@@ -18,7 +18,7 @@ methods:
     name: "etag"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract ConnectionSetting.DefinitionStages.WithCreate withEtag(String etag)"
-  desc: "Specifies the etag property: Entity Tag.."
+  desc: "Specifies the etag property: Entity Tag."
   returns:
     description: "the next definition stage."
     type: "<xref href=\"com.azure.resourcemanager.botservice.models.ConnectionSetting.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.botservice.models.ConnectionSetting.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
@@ -26,4 +26,4 @@ type: "interface"
 desc: "The stage of the ConnectionSetting definition allowing to specify etag."
 metadata: {}
 package: "com.azure.resourcemanager.botservice.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-botservice:1.0.0-beta.6
+artifact: com.azure.resourcemanager:azure-resourcemanager-botservice:1.1.0-alpha.20260910.1

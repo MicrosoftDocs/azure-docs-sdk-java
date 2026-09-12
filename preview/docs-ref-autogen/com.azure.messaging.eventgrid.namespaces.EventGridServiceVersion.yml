@@ -31,24 +31,18 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public enum **EventGridServiceVersion**</br> extends <a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html\">Enum</a>&lt;<xref href=\"com.azure.messaging.eventgrid.namespaces.EventGridServiceVersion?alt=com.azure.messaging.eventgrid.namespaces.EventGridServiceVersion&text=EventGridServiceVersion\" data-throw-if-not-resolved=\"False\" />&gt;</br> implements <xref href=\"com.azure.core.util.ServiceVersion?alt=com.azure.core.util.ServiceVersion&text=ServiceVersion\" data-throw-if-not-resolved=\"False\" />"
 fields:
-- uid: "com.azure.messaging.eventgrid.namespaces.EventGridServiceVersion.V2023_06_01_PREVIEW"
-  fullName: "com.azure.messaging.eventgrid.namespaces.EventGridServiceVersion.V2023_06_01_PREVIEW"
-  name: "V2023_06_01_PREVIEW"
-  nameWithType: "EventGridServiceVersion.V2023_06_01_PREVIEW"
-  summary: "Enum value 2023-06-01-preview."
-  desc: "Enum value 2023-06-01-preview."
-- uid: "com.azure.messaging.eventgrid.namespaces.EventGridServiceVersion.V2023_10_01_PREVIEW"
-  fullName: "com.azure.messaging.eventgrid.namespaces.EventGridServiceVersion.V2023_10_01_PREVIEW"
-  name: "V2023_10_01_PREVIEW"
-  nameWithType: "EventGridServiceVersion.V2023_10_01_PREVIEW"
-  summary: "Enum value 2023-10-01-preview."
-  desc: "Enum value 2023-10-01-preview."
 - uid: "com.azure.messaging.eventgrid.namespaces.EventGridServiceVersion.V2023_11_01"
   fullName: "com.azure.messaging.eventgrid.namespaces.EventGridServiceVersion.V2023_11_01"
   name: "V2023_11_01"
   nameWithType: "EventGridServiceVersion.V2023_11_01"
   summary: "Enum value 2023-11-01."
   desc: "Enum value 2023-11-01."
+- uid: "com.azure.messaging.eventgrid.namespaces.EventGridServiceVersion.V2024_06_01"
+  fullName: "com.azure.messaging.eventgrid.namespaces.EventGridServiceVersion.V2024_06_01"
+  name: "V2024_06_01"
+  nameWithType: "EventGridServiceVersion.V2024_06_01"
+  summary: "Enum value 2024-06-01."
+  desc: "Enum value 2024-06-01."
 methods:
 - uid: "com.azure.messaging.eventgrid.namespaces.EventGridServiceVersion.getLatest()"
   fullName: "com.azure.messaging.eventgrid.namespaces.EventGridServiceVersion.getLatest()"
@@ -95,4 +89,4 @@ implements:
 - "<xref href=\"com.azure.core.util.ServiceVersion?alt=com.azure.core.util.ServiceVersion&text=ServiceVersion\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.azure.messaging.eventgrid.namespaces"
-artifact: com.azure:azure-messaging-eventgrid-namespaces:1.0.0-beta.1
+artifact: com.azure:azure-messaging-eventgrid-namespaces:1.2.0-alpha.20260910.3

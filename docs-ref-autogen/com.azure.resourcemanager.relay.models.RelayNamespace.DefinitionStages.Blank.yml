@@ -1,0 +1,14 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.Blank"
+fullName: "com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.Blank"
+name: "RelayNamespace.DefinitionStages.Blank"
+nameWithType: "RelayNamespace.DefinitionStages.Blank"
+summary: "The first stage of the Relay<wbr>Namespace definition."
+syntax: "public static interface **RelayNamespace.DefinitionStages.Blank**</br> extends <xref href=\"com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithLocation?alt=com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithLocation&text=WithLocation\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The first stage of the RelayNamespace definition."
+implements:
+- "<xref href=\"com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithLocation?alt=com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithLocation&text=WithLocation\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.azure.resourcemanager.relay.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-relay:1.1.0

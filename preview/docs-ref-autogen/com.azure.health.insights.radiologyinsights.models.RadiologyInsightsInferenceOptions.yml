@@ -20,7 +20,7 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
-syntax: "public final class **RadiologyInsightsInferenceOptions**"
+syntax: "public final class **RadiologyInsightsInferenceOptions**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.health.insights.radiologyinsights.models.RadiologyInsightsInferenceOptions?alt=com.azure.health.insights.radiologyinsights.models.RadiologyInsightsInferenceOptions&text=RadiologyInsightsInferenceOptions\" data-throw-if-not-resolved=\"False\" />&gt;"
 constructors:
 - uid: "com.azure.health.insights.radiologyinsights.models.RadiologyInsightsInferenceOptions.RadiologyInsightsInferenceOptions()"
   fullName: "com.azure.health.insights.radiologyinsights.models.RadiologyInsightsInferenceOptions.RadiologyInsightsInferenceOptions()"
@@ -30,6 +30,25 @@ constructors:
   syntax: "public RadiologyInsightsInferenceOptions()"
   desc: "Creates an instance of RadiologyInsightsInferenceOptions class."
 methods:
+- uid: "com.azure.health.insights.radiologyinsights.models.RadiologyInsightsInferenceOptions.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.health.insights.radiologyinsights.models.RadiologyInsightsInferenceOptions.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "RadiologyInsightsInferenceOptions.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Radiology<wbr>Insights<wbr>Inference<wbr>Options from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static RadiologyInsightsInferenceOptions fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the RadiologyInsightsInferenceOptions."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of RadiologyInsightsInferenceOptions from the JsonReader."
+  returns:
+    description: "An instance of RadiologyInsightsInferenceOptions if the JsonReader was pointing to an instance of it, or\n null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.RadiologyInsightsInferenceOptions?alt=com.azure.health.insights.radiologyinsights.models.RadiologyInsightsInferenceOptions&text=RadiologyInsightsInferenceOptions\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.health.insights.radiologyinsights.models.RadiologyInsightsInferenceOptions.getFindingOptions()"
   fullName: "com.azure.health.insights.radiologyinsights.models.RadiologyInsightsInferenceOptions.getFindingOptions()"
   name: "getFindingOptions()"
@@ -50,6 +69,26 @@ methods:
   returns:
     description: "the followupRecommendationOptions value."
     type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.FollowupRecommendationOptions?alt=com.azure.health.insights.radiologyinsights.models.FollowupRecommendationOptions&text=FollowupRecommendationOptions\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.health.insights.radiologyinsights.models.RadiologyInsightsInferenceOptions.getGuidanceOptions()"
+  fullName: "com.azure.health.insights.radiologyinsights.models.RadiologyInsightsInferenceOptions.getGuidanceOptions()"
+  name: "getGuidanceOptions()"
+  nameWithType: "RadiologyInsightsInferenceOptions.getGuidanceOptions()"
+  summary: "Get the guidance<wbr>Options property: Guidance options."
+  syntax: "public GuidanceOptions getGuidanceOptions()"
+  desc: "Get the guidanceOptions property: Guidance options."
+  returns:
+    description: "the guidanceOptions value."
+    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.GuidanceOptions?alt=com.azure.health.insights.radiologyinsights.models.GuidanceOptions&text=GuidanceOptions\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.health.insights.radiologyinsights.models.RadiologyInsightsInferenceOptions.getQualityMeasureOptions()"
+  fullName: "com.azure.health.insights.radiologyinsights.models.RadiologyInsightsInferenceOptions.getQualityMeasureOptions()"
+  name: "getQualityMeasureOptions()"
+  nameWithType: "RadiologyInsightsInferenceOptions.getQualityMeasureOptions()"
+  summary: "Get the quality<wbr>Measure<wbr>Options property: Quality<wbr>Measure<wbr>Options."
+  syntax: "public QualityMeasureOptions getQualityMeasureOptions()"
+  desc: "Get the qualityMeasureOptions property: QualityMeasureOptions."
+  returns:
+    description: "the qualityMeasureOptions value."
+    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.QualityMeasureOptions?alt=com.azure.health.insights.radiologyinsights.models.QualityMeasureOptions&text=QualityMeasureOptions\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.health.insights.radiologyinsights.models.RadiologyInsightsInferenceOptions.setFindingOptions(com.azure.health.insights.radiologyinsights.models.FindingOptions)"
   fullName: "com.azure.health.insights.radiologyinsights.models.RadiologyInsightsInferenceOptions.setFindingOptions(FindingOptions findingOptions)"
   name: "setFindingOptions(FindingOptions findingOptions)"
@@ -78,8 +117,50 @@ methods:
   returns:
     description: "the RadiologyInsightsInferenceOptions object itself."
     type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.RadiologyInsightsInferenceOptions?alt=com.azure.health.insights.radiologyinsights.models.RadiologyInsightsInferenceOptions&text=RadiologyInsightsInferenceOptions\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.health.insights.radiologyinsights.models.RadiologyInsightsInferenceOptions.setGuidanceOptions(com.azure.health.insights.radiologyinsights.models.GuidanceOptions)"
+  fullName: "com.azure.health.insights.radiologyinsights.models.RadiologyInsightsInferenceOptions.setGuidanceOptions(GuidanceOptions guidanceOptions)"
+  name: "setGuidanceOptions(GuidanceOptions guidanceOptions)"
+  nameWithType: "RadiologyInsightsInferenceOptions.setGuidanceOptions(GuidanceOptions guidanceOptions)"
+  summary: "Set the guidance<wbr>Options property: Guidance options."
+  parameters:
+  - description: "the guidanceOptions value to set."
+    name: "guidanceOptions"
+    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.GuidanceOptions?alt=com.azure.health.insights.radiologyinsights.models.GuidanceOptions&text=GuidanceOptions\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public RadiologyInsightsInferenceOptions setGuidanceOptions(GuidanceOptions guidanceOptions)"
+  desc: "Set the guidanceOptions property: Guidance options."
+  returns:
+    description: "the RadiologyInsightsInferenceOptions object itself."
+    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.RadiologyInsightsInferenceOptions?alt=com.azure.health.insights.radiologyinsights.models.RadiologyInsightsInferenceOptions&text=RadiologyInsightsInferenceOptions\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.health.insights.radiologyinsights.models.RadiologyInsightsInferenceOptions.setQualityMeasureOptions(com.azure.health.insights.radiologyinsights.models.QualityMeasureOptions)"
+  fullName: "com.azure.health.insights.radiologyinsights.models.RadiologyInsightsInferenceOptions.setQualityMeasureOptions(QualityMeasureOptions qualityMeasureOptions)"
+  name: "setQualityMeasureOptions(QualityMeasureOptions qualityMeasureOptions)"
+  nameWithType: "RadiologyInsightsInferenceOptions.setQualityMeasureOptions(QualityMeasureOptions qualityMeasureOptions)"
+  summary: "Set the quality<wbr>Measure<wbr>Options property: Quality<wbr>Measure<wbr>Options."
+  parameters:
+  - description: "the qualityMeasureOptions value to set."
+    name: "qualityMeasureOptions"
+    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.QualityMeasureOptions?alt=com.azure.health.insights.radiologyinsights.models.QualityMeasureOptions&text=QualityMeasureOptions\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public RadiologyInsightsInferenceOptions setQualityMeasureOptions(QualityMeasureOptions qualityMeasureOptions)"
+  desc: "Set the qualityMeasureOptions property: QualityMeasureOptions."
+  returns:
+    description: "the RadiologyInsightsInferenceOptions object itself."
+    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.RadiologyInsightsInferenceOptions?alt=com.azure.health.insights.radiologyinsights.models.RadiologyInsightsInferenceOptions&text=RadiologyInsightsInferenceOptions\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.health.insights.radiologyinsights.models.RadiologyInsightsInferenceOptions.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.health.insights.radiologyinsights.models.RadiologyInsightsInferenceOptions.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "RadiologyInsightsInferenceOptions.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Options regarding follow up recommendation inferences and finding inferences."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.health.insights.radiologyinsights.models.RadiologyInsightsInferenceOptions?alt=com.azure.health.insights.radiologyinsights.models.RadiologyInsightsInferenceOptions&text=RadiologyInsightsInferenceOptions\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.health.insights.radiologyinsights.models"
-artifact: com.azure:azure-health-insights-radiologyinsights:1.0.0-beta.1
+artifact: com.azure:azure-health-insights-radiologyinsights:1.2.0-alpha.20260910.2

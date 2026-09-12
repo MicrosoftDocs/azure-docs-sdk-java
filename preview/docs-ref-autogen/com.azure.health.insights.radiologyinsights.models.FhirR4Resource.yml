@@ -20,7 +20,7 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
-syntax: "public class **FhirR4Resource**"
+syntax: "public class **FhirR4Resource**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4Resource?alt=com.azure.health.insights.radiologyinsights.models.FhirR4Resource&text=FhirR4Resource\" data-throw-if-not-resolved=\"False\" />&gt;"
 constructors:
 - uid: "com.azure.health.insights.radiologyinsights.models.FhirR4Resource.FhirR4Resource(java.lang.String)"
   fullName: "com.azure.health.insights.radiologyinsights.models.FhirR4Resource.FhirR4Resource(String resourceType)"
@@ -34,13 +34,32 @@ constructors:
   syntax: "public FhirR4Resource(String resourceType)"
   desc: "Creates an instance of FhirR4Resource class."
 methods:
+- uid: "com.azure.health.insights.radiologyinsights.models.FhirR4Resource.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.health.insights.radiologyinsights.models.FhirR4Resource.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "FhirR4Resource.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of FhirR4Resource from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static FhirR4Resource fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of FhirR4Resource from the JsonReader."
+  returns:
+    description: "An instance of FhirR4Resource if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
+    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4Resource?alt=com.azure.health.insights.radiologyinsights.models.FhirR4Resource&text=FhirR4Resource\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.health.insights.radiologyinsights.models.FhirR4Resource.getAdditionalProperties()"
   fullName: "com.azure.health.insights.radiologyinsights.models.FhirR4Resource.getAdditionalProperties()"
   name: "getAdditionalProperties()"
   nameWithType: "FhirR4Resource.getAdditionalProperties()"
-  summary: "Get the additional<wbr>Properties property: Additional properties."
+  summary: "Get the additional<wbr>Properties property: Resource is the ancestor of Domain<wbr>Resource from which most resources are derived."
   syntax: "public Map<String,Object> getAdditionalProperties()"
-  desc: "Get the additionalProperties property: Additional properties."
+  desc: "Get the additionalProperties property: Resource is the ancestor of DomainResource from which most resources are derived. Bundle, Parameters, and Binary extend Resource directly. Based on \\[FHIR Resource\\](https://www.hl7.org/fhir/r4/resource.html."
   returns:
     description: "the additionalProperties value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>&gt;"
@@ -98,13 +117,13 @@ methods:
   fullName: "com.azure.health.insights.radiologyinsights.models.FhirR4Resource.setAdditionalProperties(Map<String,Object> additionalProperties)"
   name: "setAdditionalProperties(Map<String,Object> additionalProperties)"
   nameWithType: "FhirR4Resource.setAdditionalProperties(Map<String,Object> additionalProperties)"
-  summary: "Set the additional<wbr>Properties property: Additional properties."
+  summary: "Set the additional<wbr>Properties property: Resource is the ancestor of Domain<wbr>Resource from which most resources are derived."
   parameters:
   - description: "the additionalProperties value to set."
     name: "additionalProperties"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>&gt;"
   syntax: "public FhirR4Resource setAdditionalProperties(Map<String,Object> additionalProperties)"
-  desc: "Set the additionalProperties property: Additional properties."
+  desc: "Set the additionalProperties property: Resource is the ancestor of DomainResource from which most resources are derived. Bundle, Parameters, and Binary extend Resource directly. Based on \\[FHIR Resource\\](https://www.hl7.org/fhir/r4/resource.html."
   returns:
     description: "the FhirR4Resource object itself."
     type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4Resource?alt=com.azure.health.insights.radiologyinsights.models.FhirR4Resource&text=FhirR4Resource\" data-throw-if-not-resolved=\"False\" />"
@@ -164,8 +183,22 @@ methods:
   returns:
     description: "the FhirR4Resource object itself."
     type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4Resource?alt=com.azure.health.insights.radiologyinsights.models.FhirR4Resource&text=FhirR4Resource\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.health.insights.radiologyinsights.models.FhirR4Resource.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.health.insights.radiologyinsights.models.FhirR4Resource.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "FhirR4Resource.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Resource is the ancestor of DomainResource from which most resources are derived. Bundle, Parameters, and Binary extend Resource directly. Based on \\[FHIR Resource\\](https://www.hl7.org/fhir/r4/resource.html."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4Resource?alt=com.azure.health.insights.radiologyinsights.models.FhirR4Resource&text=FhirR4Resource\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.health.insights.radiologyinsights.models"
-artifact: com.azure:azure-health-insights-radiologyinsights:1.0.0-beta.1
+artifact: com.azure:azure-health-insights-radiologyinsights:1.2.0-alpha.20260910.2

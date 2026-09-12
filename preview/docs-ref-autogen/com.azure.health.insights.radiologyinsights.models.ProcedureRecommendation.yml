@@ -20,7 +20,7 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
-syntax: "public class **ProcedureRecommendation**"
+syntax: "public class **ProcedureRecommendation**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.health.insights.radiologyinsights.models.ProcedureRecommendation?alt=com.azure.health.insights.radiologyinsights.models.ProcedureRecommendation&text=ProcedureRecommendation\" data-throw-if-not-resolved=\"False\" />&gt;"
 constructors:
 - uid: "com.azure.health.insights.radiologyinsights.models.ProcedureRecommendation.ProcedureRecommendation()"
   fullName: "com.azure.health.insights.radiologyinsights.models.ProcedureRecommendation.ProcedureRecommendation()"
@@ -31,8 +31,62 @@ constructors:
   - "protected"
   syntax: "protected ProcedureRecommendation()"
   desc: "Creates an instance of ProcedureRecommendation class."
+methods:
+- uid: "com.azure.health.insights.radiologyinsights.models.ProcedureRecommendation.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.health.insights.radiologyinsights.models.ProcedureRecommendation.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "ProcedureRecommendation.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Procedure<wbr>Recommendation from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static ProcedureRecommendation fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the ProcedureRecommendation."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of ProcedureRecommendation from the JsonReader."
+  returns:
+    description: "An instance of ProcedureRecommendation if the JsonReader was pointing to an instance of it, or null if it\n was pointing to JSON null."
+    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.ProcedureRecommendation?alt=com.azure.health.insights.radiologyinsights.models.ProcedureRecommendation&text=ProcedureRecommendation\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.health.insights.radiologyinsights.models.ProcedureRecommendation.getExtension()"
+  fullName: "com.azure.health.insights.radiologyinsights.models.ProcedureRecommendation.getExtension()"
+  name: "getExtension()"
+  nameWithType: "ProcedureRecommendation.getExtension()"
+  summary: "Get the extension property: Additional Content defined by implementations."
+  syntax: "public List<FhirR4Extension> getExtension()"
+  desc: "Get the extension property: Additional Content defined by implementations."
+  returns:
+    description: "the extension value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4Extension?alt=com.azure.health.insights.radiologyinsights.models.FhirR4Extension&text=FhirR4Extension\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.health.insights.radiologyinsights.models.ProcedureRecommendation.getKind()"
+  fullName: "com.azure.health.insights.radiologyinsights.models.ProcedureRecommendation.getKind()"
+  name: "getKind()"
+  nameWithType: "ProcedureRecommendation.getKind()"
+  summary: "Get the kind property: Discriminator property for Procedure<wbr>Recommendation."
+  syntax: "public String getKind()"
+  desc: "Get the kind property: Discriminator property for ProcedureRecommendation."
+  returns:
+    description: "the kind value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.health.insights.radiologyinsights.models.ProcedureRecommendation.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.health.insights.radiologyinsights.models.ProcedureRecommendation.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "ProcedureRecommendation.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "The procedure recommendation can be a generic procedure or an imaging procedure."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.health.insights.radiologyinsights.models.ProcedureRecommendation?alt=com.azure.health.insights.radiologyinsights.models.ProcedureRecommendation&text=ProcedureRecommendation\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.health.insights.radiologyinsights.models"
-artifact: com.azure:azure-health-insights-radiologyinsights:1.0.0-beta.1
+artifact: com.azure:azure-health-insights-radiologyinsights:1.2.0-alpha.20260910.2

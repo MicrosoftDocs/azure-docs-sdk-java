@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.DefinitionStages.WithEmailAccountAdmins"
+fullName: "com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.DefinitionStages.WithEmailAccountAdmins"
+name: "ServerSecurityAlertPolicy.DefinitionStages.WithEmailAccountAdmins"
+nameWithType: "ServerSecurityAlertPolicy.DefinitionStages.WithEmailAccountAdmins"
+summary: "The stage of the Server<wbr>Security<wbr>Alert<wbr>Policy definition allowing to specify email<wbr>Account<wbr>Admins."
+syntax: "public static interface **ServerSecurityAlertPolicy.DefinitionStages.WithEmailAccountAdmins**"
+methods:
+- uid: "com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.DefinitionStages.WithEmailAccountAdmins.withEmailAccountAdmins(java.lang.Boolean)"
+  fullName: "com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.DefinitionStages.WithEmailAccountAdmins.withEmailAccountAdmins(Boolean emailAccountAdmins)"
+  name: "withEmailAccountAdmins(Boolean emailAccountAdmins)"
+  nameWithType: "ServerSecurityAlertPolicy.DefinitionStages.WithEmailAccountAdmins.withEmailAccountAdmins(Boolean emailAccountAdmins)"
+  summary: "Specifies the email<wbr>Account<wbr>Admins property: Specifies that the alert is sent to the account administrators.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Specifies that the alert is sent to the account administrators."
+    name: "emailAccountAdmins"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
+  syntax: "public abstract ServerSecurityAlertPolicy.DefinitionStages.WithCreate withEmailAccountAdmins(Boolean emailAccountAdmins)"
+  desc: "Specifies the emailAccountAdmins property: Specifies that the alert is sent to the account administrators.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the ServerSecurityAlertPolicy definition allowing to specify emailAccountAdmins."
+metadata: {}
+package: "com.azure.resourcemanager.mysql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-mysql:1.1.0-alpha.20260910.2

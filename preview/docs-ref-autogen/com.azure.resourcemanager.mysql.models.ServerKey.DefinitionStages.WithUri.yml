@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.mysql.models.ServerKey.DefinitionStages.WithUri"
+fullName: "com.azure.resourcemanager.mysql.models.ServerKey.DefinitionStages.WithUri"
+name: "ServerKey.DefinitionStages.WithUri"
+nameWithType: "ServerKey.DefinitionStages.WithUri"
+summary: "The stage of the Server<wbr>Key definition allowing to specify uri."
+syntax: "public static interface **ServerKey.DefinitionStages.WithUri**"
+methods:
+- uid: "com.azure.resourcemanager.mysql.models.ServerKey.DefinitionStages.WithUri.withUri(java.lang.String)"
+  fullName: "com.azure.resourcemanager.mysql.models.ServerKey.DefinitionStages.WithUri.withUri(String uri)"
+  name: "withUri(String uri)"
+  nameWithType: "ServerKey.DefinitionStages.WithUri.withUri(String uri)"
+  summary: "Specifies the uri property: The URI of the key.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The URI of the key."
+    name: "uri"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract ServerKey.DefinitionStages.WithCreate withUri(String uri)"
+  desc: "Specifies the uri property: The URI of the key.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.ServerKey.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.mysql.models.ServerKey.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the ServerKey definition allowing to specify uri."
+metadata: {}
+package: "com.azure.resourcemanager.mysql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-mysql:1.1.0-alpha.20260910.2

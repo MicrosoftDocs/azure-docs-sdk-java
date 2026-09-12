@@ -1,0 +1,12 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages"
+fullName: "com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages"
+name: "RelayNamespace.DefinitionStages"
+nameWithType: "RelayNamespace.DefinitionStages"
+summary: "The Relay<wbr>Namespace definition stages."
+syntax: "public static interface **RelayNamespace.DefinitionStages**"
+type: "interface"
+desc: "The RelayNamespace definition stages."
+metadata: {}
+package: "com.azure.resourcemanager.relay.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-relay:1.1.0

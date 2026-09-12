@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.postgresql.models.Server.UpdateStages.WithPublicNetworkAccess"
+fullName: "com.azure.resourcemanager.postgresql.models.Server.UpdateStages.WithPublicNetworkAccess"
+name: "Server.UpdateStages.WithPublicNetworkAccess"
+nameWithType: "Server.UpdateStages.WithPublicNetworkAccess"
+summary: "The stage of the Server update allowing to specify public<wbr>Network<wbr>Access."
+syntax: "public static interface **Server.UpdateStages.WithPublicNetworkAccess**"
+methods:
+- uid: "com.azure.resourcemanager.postgresql.models.Server.UpdateStages.WithPublicNetworkAccess.withPublicNetworkAccess(com.azure.resourcemanager.postgresql.models.PublicNetworkAccessEnum)"
+  fullName: "com.azure.resourcemanager.postgresql.models.Server.UpdateStages.WithPublicNetworkAccess.withPublicNetworkAccess(PublicNetworkAccessEnum publicNetworkAccess)"
+  name: "withPublicNetworkAccess(PublicNetworkAccessEnum publicNetworkAccess)"
+  nameWithType: "Server.UpdateStages.WithPublicNetworkAccess.withPublicNetworkAccess(PublicNetworkAccessEnum publicNetworkAccess)"
+  summary: "Specifies the public<wbr>Network<wbr>Access property: Whether or not public network access is allowed for this server."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Whether or not public network access is allowed for this server. Value is\n optional but if passed in, must be 'Enabled' or 'Disabled'."
+    name: "publicNetworkAccess"
+    type: "<xref href=\"com.azure.resourcemanager.postgresql.models.PublicNetworkAccessEnum?alt=com.azure.resourcemanager.postgresql.models.PublicNetworkAccessEnum&text=PublicNetworkAccessEnum\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract Server.Update withPublicNetworkAccess(PublicNetworkAccessEnum publicNetworkAccess)"
+  desc: "Specifies the publicNetworkAccess property: Whether or not public network access is allowed for this server. Value is optional but if passed in, must be 'Enabled' or 'Disabled'."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.postgresql.models.Server.Update?alt=com.azure.resourcemanager.postgresql.models.Server.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the Server update allowing to specify publicNetworkAccess."
+metadata: {}
+package: "com.azure.resourcemanager.postgresql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-postgresql:1.2.0-alpha.20260910.1

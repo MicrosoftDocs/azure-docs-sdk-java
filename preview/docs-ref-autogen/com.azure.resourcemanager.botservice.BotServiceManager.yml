@@ -122,16 +122,6 @@ methods:
   returns:
     description: "Resource collection API of HostSettings."
     type: "<xref href=\"com.azure.resourcemanager.botservice.models.HostSettings?alt=com.azure.resourcemanager.botservice.models.HostSettings&text=HostSettings\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.botservice.BotServiceManager.operationResults()"
-  fullName: "com.azure.resourcemanager.botservice.BotServiceManager.operationResults()"
-  name: "operationResults()"
-  nameWithType: "BotServiceManager.operationResults()"
-  summary: "Gets the resource collection API of Operation<wbr>Results."
-  syntax: "public OperationResults operationResults()"
-  desc: "Gets the resource collection API of OperationResults."
-  returns:
-    description: "Resource collection API of OperationResults."
-    type: "<xref href=\"com.azure.resourcemanager.botservice.models.OperationResults?alt=com.azure.resourcemanager.botservice.models.OperationResults&text=OperationResults\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.botservice.BotServiceManager.operations()"
   fullName: "com.azure.resourcemanager.botservice.BotServiceManager.operations()"
   name: "operations()"
@@ -142,26 +132,6 @@ methods:
   returns:
     description: "Resource collection API of Operations."
     type: "<xref href=\"com.azure.resourcemanager.botservice.models.Operations?alt=com.azure.resourcemanager.botservice.models.Operations&text=Operations\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.botservice.BotServiceManager.privateEndpointConnections()"
-  fullName: "com.azure.resourcemanager.botservice.BotServiceManager.privateEndpointConnections()"
-  name: "privateEndpointConnections()"
-  nameWithType: "BotServiceManager.privateEndpointConnections()"
-  summary: "Gets the resource collection API of Private<wbr>Endpoint<wbr>Connections."
-  syntax: "public PrivateEndpointConnections privateEndpointConnections()"
-  desc: "Gets the resource collection API of PrivateEndpointConnections. It manages PrivateEndpointConnection."
-  returns:
-    description: "Resource collection API of PrivateEndpointConnections."
-    type: "<xref href=\"com.azure.resourcemanager.botservice.models.PrivateEndpointConnections?alt=com.azure.resourcemanager.botservice.models.PrivateEndpointConnections&text=PrivateEndpointConnections\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.botservice.BotServiceManager.privateLinkResources()"
-  fullName: "com.azure.resourcemanager.botservice.BotServiceManager.privateLinkResources()"
-  name: "privateLinkResources()"
-  nameWithType: "BotServiceManager.privateLinkResources()"
-  summary: "Gets the resource collection API of Private<wbr>Link<wbr>Resources."
-  syntax: "public PrivateLinkResources privateLinkResources()"
-  desc: "Gets the resource collection API of PrivateLinkResources."
-  returns:
-    description: "Resource collection API of PrivateLinkResources."
-    type: "<xref href=\"com.azure.resourcemanager.botservice.models.PrivateLinkResources?alt=com.azure.resourcemanager.botservice.models.PrivateLinkResources&text=PrivateLinkResources\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.botservice.BotServiceManager.serviceClient()"
   fullName: "com.azure.resourcemanager.botservice.BotServiceManager.serviceClient()"
   name: "serviceClient()"
@@ -176,4 +146,4 @@ type: "class"
 desc: "Entry point to BotServiceManager. Azure Bot Service is a platform for creating smart conversational agents."
 metadata: {}
 package: "com.azure.resourcemanager.botservice"
-artifact: com.azure.resourcemanager:azure-resourcemanager-botservice:1.0.0-beta.6
+artifact: com.azure.resourcemanager:azure-resourcemanager-botservice:1.1.0-alpha.20260910.1

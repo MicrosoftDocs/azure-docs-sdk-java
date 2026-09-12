@@ -22,6 +22,16 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **MaintenanceProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.avs.models.MaintenanceProperties?alt=com.azure.resourcemanager.avs.models.MaintenanceProperties&text=MaintenanceProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 methods:
+- uid: "com.azure.resourcemanager.avs.models.MaintenanceProperties.activities()"
+  fullName: "com.azure.resourcemanager.avs.models.MaintenanceProperties.activities()"
+  name: "activities()"
+  nameWithType: "MaintenanceProperties.activities()"
+  summary: "Get the activities property: Activities performed as part of maintenance."
+  syntax: "public List<MaintenanceActivity> activities()"
+  desc: "Get the activities property: Activities performed as part of maintenance."
+  returns:
+    description: "the activities value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.avs.models.MaintenanceActivity?alt=com.azure.resourcemanager.avs.models.MaintenanceActivity&text=MaintenanceActivity\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.avs.models.MaintenanceProperties.clusterId()"
   fullName: "com.azure.resourcemanager.avs.models.MaintenanceProperties.clusterId()"
   name: "clusterId()"
@@ -81,6 +91,16 @@ methods:
   returns:
     description: "An instance of MaintenanceProperties if the JsonReader was pointing to an instance of it, or null if it\n was pointing to JSON null."
     type: "<xref href=\"com.azure.resourcemanager.avs.models.MaintenanceProperties?alt=com.azure.resourcemanager.avs.models.MaintenanceProperties&text=MaintenanceProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.avs.models.MaintenanceProperties.group()"
+  fullName: "com.azure.resourcemanager.avs.models.MaintenanceProperties.group()"
+  name: "group()"
+  nameWithType: "MaintenanceProperties.group()"
+  summary: "Get the group property: Group details if maintenance is part of a group."
+  syntax: "public MaintenanceGroup group()"
+  desc: "Get the group property: Group details if maintenance is part of a group."
+  returns:
+    description: "the group value."
+    type: "<xref href=\"com.azure.resourcemanager.avs.models.MaintenanceGroup?alt=com.azure.resourcemanager.avs.models.MaintenanceGroup&text=MaintenanceGroup\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.avs.models.MaintenanceProperties.impact()"
   fullName: "com.azure.resourcemanager.avs.models.MaintenanceProperties.impact()"
   name: "impact()"
@@ -131,6 +151,16 @@ methods:
   returns:
     description: "the provisioningState value."
     type: "<xref href=\"com.azure.resourcemanager.avs.models.MaintenanceProvisioningState?alt=com.azure.resourcemanager.avs.models.MaintenanceProvisioningState&text=MaintenanceProvisioningState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.avs.models.MaintenanceProperties.relationships()"
+  fullName: "com.azure.resourcemanager.avs.models.MaintenanceProperties.relationships()"
+  name: "relationships()"
+  nameWithType: "MaintenanceProperties.relationships()"
+  summary: "Get the relationships property: Relationships with other maintenances like dependencies and prerequisites."
+  syntax: "public MaintenanceRelationships relationships()"
+  desc: "Get the relationships property: Relationships with other maintenances like dependencies and prerequisites."
+  returns:
+    description: "the relationships value."
+    type: "<xref href=\"com.azure.resourcemanager.avs.models.MaintenanceRelationships?alt=com.azure.resourcemanager.avs.models.MaintenanceRelationships&text=MaintenanceRelationships\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.avs.models.MaintenanceProperties.scheduledByMicrosoft()"
   fullName: "com.azure.resourcemanager.avs.models.MaintenanceProperties.scheduledByMicrosoft()"
   name: "scheduledByMicrosoft()"
@@ -186,4 +216,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.avs.models.MaintenanceProperties?alt=com.azure.resourcemanager.avs.models.MaintenanceProperties&text=MaintenanceProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.avs.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-avs:1.4.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-avs:1.5.0

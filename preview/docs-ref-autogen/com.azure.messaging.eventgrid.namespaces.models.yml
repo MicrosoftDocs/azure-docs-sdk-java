@@ -4,20 +4,16 @@ fullName: "com.azure.messaging.eventgrid.namespaces.models"
 name: "com.azure.messaging.eventgrid.namespaces.models"
 summary: "Package containing the data models for Event<wbr>Grid."
 classes:
-- "com.azure.messaging.eventgrid.namespaces.models.AcknowledgeOptions"
 - "com.azure.messaging.eventgrid.namespaces.models.AcknowledgeResult"
 - "com.azure.messaging.eventgrid.namespaces.models.BrokerProperties"
 - "com.azure.messaging.eventgrid.namespaces.models.FailedLockToken"
 - "com.azure.messaging.eventgrid.namespaces.models.ReceiveDetails"
 - "com.azure.messaging.eventgrid.namespaces.models.ReceiveResult"
-- "com.azure.messaging.eventgrid.namespaces.models.RejectOptions"
 - "com.azure.messaging.eventgrid.namespaces.models.RejectResult"
 - "com.azure.messaging.eventgrid.namespaces.models.ReleaseDelay"
-- "com.azure.messaging.eventgrid.namespaces.models.ReleaseOptions"
 - "com.azure.messaging.eventgrid.namespaces.models.ReleaseResult"
-- "com.azure.messaging.eventgrid.namespaces.models.RenewCloudEventLocksResult"
-- "com.azure.messaging.eventgrid.namespaces.models.RenewLockOptions"
+- "com.azure.messaging.eventgrid.namespaces.models.RenewLocksResult"
 desc: "Package containing the data models for EventGrid. Azure Messaging EventGrid Client."
 metadata: {}
 package: "com.azure.messaging.eventgrid.namespaces.models"
-artifact: com.azure:azure-messaging-eventgrid-namespaces:1.0.0-beta.1
+artifact: com.azure:azure-messaging-eventgrid-namespaces:1.2.0-alpha.20260910.3

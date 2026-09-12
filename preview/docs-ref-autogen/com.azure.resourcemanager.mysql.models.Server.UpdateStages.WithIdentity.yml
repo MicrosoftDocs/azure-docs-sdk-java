@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.mysql.models.Server.UpdateStages.WithIdentity"
+fullName: "com.azure.resourcemanager.mysql.models.Server.UpdateStages.WithIdentity"
+name: "Server.UpdateStages.WithIdentity"
+nameWithType: "Server.UpdateStages.WithIdentity"
+summary: "The stage of the Server update allowing to specify identity."
+syntax: "public static interface **Server.UpdateStages.WithIdentity**"
+methods:
+- uid: "com.azure.resourcemanager.mysql.models.Server.UpdateStages.WithIdentity.withIdentity(com.azure.resourcemanager.mysql.models.ResourceIdentity)"
+  fullName: "com.azure.resourcemanager.mysql.models.Server.UpdateStages.WithIdentity.withIdentity(ResourceIdentity identity)"
+  name: "withIdentity(ResourceIdentity identity)"
+  nameWithType: "Server.UpdateStages.WithIdentity.withIdentity(ResourceIdentity identity)"
+  summary: "Specifies the identity property: The Azure Active Directory identity of the server.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The Azure Active Directory identity of the server."
+    name: "identity"
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.ResourceIdentity?alt=com.azure.resourcemanager.mysql.models.ResourceIdentity&text=ResourceIdentity\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract Server.Update withIdentity(ResourceIdentity identity)"
+  desc: "Specifies the identity property: The Azure Active Directory identity of the server.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.Server.Update?alt=com.azure.resourcemanager.mysql.models.Server.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the Server update allowing to specify identity."
+metadata: {}
+package: "com.azure.resourcemanager.mysql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-mysql:1.1.0-alpha.20260910.2

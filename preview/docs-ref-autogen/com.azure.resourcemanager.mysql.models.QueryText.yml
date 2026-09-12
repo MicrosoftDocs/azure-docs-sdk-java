@@ -1,0 +1,85 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.mysql.models.QueryText"
+fullName: "com.azure.resourcemanager.mysql.models.QueryText"
+name: "QueryText"
+nameWithType: "QueryText"
+summary: "An immutable client-side representation of Query<wbr>Text."
+syntax: "public interface **QueryText**"
+methods:
+- uid: "com.azure.resourcemanager.mysql.models.QueryText.id()"
+  fullName: "com.azure.resourcemanager.mysql.models.QueryText.id()"
+  name: "id()"
+  nameWithType: "QueryText.id()"
+  summary: "Gets the id property: Fully qualified resource Id for the resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String id()"
+  desc: "Gets the id property: Fully qualified resource Id for the resource."
+  returns:
+    description: "the id value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.mysql.models.QueryText.innerModel()"
+  fullName: "com.azure.resourcemanager.mysql.models.QueryText.innerModel()"
+  name: "innerModel()"
+  nameWithType: "QueryText.innerModel()"
+  summary: "Gets the inner com.<wbr>azure.<wbr>resourcemanager.<wbr>mysql.<wbr>fluent.<wbr>models.<wbr>Query<wbr>Text<wbr>Inner object."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract QueryTextInner innerModel()"
+  desc: "Gets the inner com.azure.resourcemanager.mysql.fluent.models.QueryTextInner object."
+  returns:
+    description: "the inner object."
+    type: "<xref href=\"com.azure.resourcemanager.mysql.fluent.models.QueryTextInner?alt=com.azure.resourcemanager.mysql.fluent.models.QueryTextInner&text=QueryTextInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.mysql.models.QueryText.name()"
+  fullName: "com.azure.resourcemanager.mysql.models.QueryText.name()"
+  name: "name()"
+  nameWithType: "QueryText.name()"
+  summary: "Gets the name property: The name of the resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String name()"
+  desc: "Gets the name property: The name of the resource."
+  returns:
+    description: "the name value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.mysql.models.QueryText.queryId()"
+  fullName: "com.azure.resourcemanager.mysql.models.QueryText.queryId()"
+  name: "queryId()"
+  nameWithType: "QueryText.queryId()"
+  summary: "Gets the query<wbr>Id property: Query identifier unique to the server."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String queryId()"
+  desc: "Gets the queryId property: Query identifier unique to the server."
+  returns:
+    description: "the queryId value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.mysql.models.QueryText.queryText()"
+  fullName: "com.azure.resourcemanager.mysql.models.QueryText.queryText()"
+  name: "queryText()"
+  nameWithType: "QueryText.queryText()"
+  summary: "Gets the query<wbr>Text property: Query text."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String queryText()"
+  desc: "Gets the queryText property: Query text."
+  returns:
+    description: "the queryText value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.mysql.models.QueryText.type()"
+  fullName: "com.azure.resourcemanager.mysql.models.QueryText.type()"
+  name: "type()"
+  nameWithType: "QueryText.type()"
+  summary: "Gets the type property: The type of the resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String type()"
+  desc: "Gets the type property: The type of the resource."
+  returns:
+    description: "the type value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+type: "interface"
+desc: "An immutable client-side representation of QueryText."
+metadata: {}
+package: "com.azure.resourcemanager.mysql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-mysql:1.1.0-alpha.20260910.2

@@ -740,4 +740,4 @@ type: "class"
 desc: "Initializes a new instance of the synchronous ContentUnderstandingClient type."
 metadata: {}
 package: "com.azure.ai.contentunderstanding"
-artifact: com.azure:azure-ai-contentunderstanding:1.1.0-beta.3
+artifact: com.azure:azure-ai-contentunderstanding:1.1.0-alpha.20260910.3

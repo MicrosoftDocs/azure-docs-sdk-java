@@ -1,0 +1,134 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.postgresql.models.VirtualNetworkRuleState"
+fullName: "com.azure.resourcemanager.postgresql.models.VirtualNetworkRuleState"
+name: "VirtualNetworkRuleState"
+nameWithType: "VirtualNetworkRuleState"
+summary: "Virtual Network Rule State."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **VirtualNetworkRuleState**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.postgresql.models.VirtualNetworkRuleState?alt=com.azure.resourcemanager.postgresql.models.VirtualNetworkRuleState&text=VirtualNetworkRuleState\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.postgresql.models.VirtualNetworkRuleState.VirtualNetworkRuleState()"
+  fullName: "com.azure.resourcemanager.postgresql.models.VirtualNetworkRuleState.VirtualNetworkRuleState()"
+  name: "VirtualNetworkRuleState()"
+  nameWithType: "VirtualNetworkRuleState.VirtualNetworkRuleState()"
+  summary: "Creates a new instance of Virtual<wbr>Network<wbr>Rule<wbr>State value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.postgresql.models.VirtualNetworkRuleState.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public VirtualNetworkRuleState()"
+  desc: "Creates a new instance of VirtualNetworkRuleState value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.postgresql.models.VirtualNetworkRuleState.DELETING"
+  fullName: "com.azure.resourcemanager.postgresql.models.VirtualNetworkRuleState.DELETING"
+  name: "DELETING"
+  nameWithType: "VirtualNetworkRuleState.DELETING"
+  summary: "Static value Deleting for Virtual<wbr>Network<wbr>Rule<wbr>State."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.postgresql.models.VirtualNetworkRuleState?alt=com.azure.resourcemanager.postgresql.models.VirtualNetworkRuleState&text=VirtualNetworkRuleState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final VirtualNetworkRuleState DELETING"
+  desc: "Static value Deleting for VirtualNetworkRuleState."
+- uid: "com.azure.resourcemanager.postgresql.models.VirtualNetworkRuleState.INITIALIZING"
+  fullName: "com.azure.resourcemanager.postgresql.models.VirtualNetworkRuleState.INITIALIZING"
+  name: "INITIALIZING"
+  nameWithType: "VirtualNetworkRuleState.INITIALIZING"
+  summary: "Static value Initializing for Virtual<wbr>Network<wbr>Rule<wbr>State."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.postgresql.models.VirtualNetworkRuleState?alt=com.azure.resourcemanager.postgresql.models.VirtualNetworkRuleState&text=VirtualNetworkRuleState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final VirtualNetworkRuleState INITIALIZING"
+  desc: "Static value Initializing for VirtualNetworkRuleState."
+- uid: "com.azure.resourcemanager.postgresql.models.VirtualNetworkRuleState.IN_PROGRESS"
+  fullName: "com.azure.resourcemanager.postgresql.models.VirtualNetworkRuleState.IN_PROGRESS"
+  name: "IN_PROGRESS"
+  nameWithType: "VirtualNetworkRuleState.IN_PROGRESS"
+  summary: "Static value In<wbr>Progress for Virtual<wbr>Network<wbr>Rule<wbr>State."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.postgresql.models.VirtualNetworkRuleState?alt=com.azure.resourcemanager.postgresql.models.VirtualNetworkRuleState&text=VirtualNetworkRuleState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final VirtualNetworkRuleState IN_PROGRESS"
+  desc: "Static value InProgress for VirtualNetworkRuleState."
+- uid: "com.azure.resourcemanager.postgresql.models.VirtualNetworkRuleState.READY"
+  fullName: "com.azure.resourcemanager.postgresql.models.VirtualNetworkRuleState.READY"
+  name: "READY"
+  nameWithType: "VirtualNetworkRuleState.READY"
+  summary: "Static value Ready for Virtual<wbr>Network<wbr>Rule<wbr>State."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.postgresql.models.VirtualNetworkRuleState?alt=com.azure.resourcemanager.postgresql.models.VirtualNetworkRuleState&text=VirtualNetworkRuleState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final VirtualNetworkRuleState READY"
+  desc: "Static value Ready for VirtualNetworkRuleState."
+- uid: "com.azure.resourcemanager.postgresql.models.VirtualNetworkRuleState.UNKNOWN"
+  fullName: "com.azure.resourcemanager.postgresql.models.VirtualNetworkRuleState.UNKNOWN"
+  name: "UNKNOWN"
+  nameWithType: "VirtualNetworkRuleState.UNKNOWN"
+  summary: "Static value Unknown for Virtual<wbr>Network<wbr>Rule<wbr>State."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.postgresql.models.VirtualNetworkRuleState?alt=com.azure.resourcemanager.postgresql.models.VirtualNetworkRuleState&text=VirtualNetworkRuleState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final VirtualNetworkRuleState UNKNOWN"
+  desc: "Static value Unknown for VirtualNetworkRuleState."
+methods:
+- uid: "com.azure.resourcemanager.postgresql.models.VirtualNetworkRuleState.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.postgresql.models.VirtualNetworkRuleState.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "VirtualNetworkRuleState.fromString(String name)"
+  summary: "Creates or finds a Virtual<wbr>Network<wbr>Rule<wbr>State from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static VirtualNetworkRuleState fromString(String name)"
+  desc: "Creates or finds a VirtualNetworkRuleState from its string representation."
+  returns:
+    description: "the corresponding VirtualNetworkRuleState."
+    type: "<xref href=\"com.azure.resourcemanager.postgresql.models.VirtualNetworkRuleState?alt=com.azure.resourcemanager.postgresql.models.VirtualNetworkRuleState&text=VirtualNetworkRuleState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.postgresql.models.VirtualNetworkRuleState.values()"
+  fullName: "com.azure.resourcemanager.postgresql.models.VirtualNetworkRuleState.values()"
+  name: "values()"
+  nameWithType: "VirtualNetworkRuleState.values()"
+  summary: "Gets known Virtual<wbr>Network<wbr>Rule<wbr>State values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<VirtualNetworkRuleState> values()"
+  desc: "Gets known VirtualNetworkRuleState values."
+  returns:
+    description: "known VirtualNetworkRuleState values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.postgresql.models.VirtualNetworkRuleState?alt=com.azure.resourcemanager.postgresql.models.VirtualNetworkRuleState&text=VirtualNetworkRuleState\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Virtual Network Rule State."
+metadata: {}
+package: "com.azure.resourcemanager.postgresql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-postgresql:1.2.0-alpha.20260910.1

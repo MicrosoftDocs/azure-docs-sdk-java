@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.postgresql.models.VirtualNetworkRule.UpdateStages.WithVirtualNetworkSubnetId"
+fullName: "com.azure.resourcemanager.postgresql.models.VirtualNetworkRule.UpdateStages.WithVirtualNetworkSubnetId"
+name: "VirtualNetworkRule.UpdateStages.WithVirtualNetworkSubnetId"
+nameWithType: "VirtualNetworkRule.UpdateStages.WithVirtualNetworkSubnetId"
+summary: "The stage of the Virtual<wbr>Network<wbr>Rule update allowing to specify virtual<wbr>Network<wbr>Subnet<wbr>Id."
+syntax: "public static interface **VirtualNetworkRule.UpdateStages.WithVirtualNetworkSubnetId**"
+methods:
+- uid: "com.azure.resourcemanager.postgresql.models.VirtualNetworkRule.UpdateStages.WithVirtualNetworkSubnetId.withVirtualNetworkSubnetId(java.lang.String)"
+  fullName: "com.azure.resourcemanager.postgresql.models.VirtualNetworkRule.UpdateStages.WithVirtualNetworkSubnetId.withVirtualNetworkSubnetId(String virtualNetworkSubnetId)"
+  name: "withVirtualNetworkSubnetId(String virtualNetworkSubnetId)"
+  nameWithType: "VirtualNetworkRule.UpdateStages.WithVirtualNetworkSubnetId.withVirtualNetworkSubnetId(String virtualNetworkSubnetId)"
+  summary: "Specifies the virtual<wbr>Network<wbr>Subnet<wbr>Id property: The ARM resource id of the virtual network subnet.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The ARM resource id of the virtual network subnet."
+    name: "virtualNetworkSubnetId"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract VirtualNetworkRule.Update withVirtualNetworkSubnetId(String virtualNetworkSubnetId)"
+  desc: "Specifies the virtualNetworkSubnetId property: The ARM resource id of the virtual network subnet.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.postgresql.models.VirtualNetworkRule.Update?alt=com.azure.resourcemanager.postgresql.models.VirtualNetworkRule.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the VirtualNetworkRule update allowing to specify virtualNetworkSubnetId."
+metadata: {}
+package: "com.azure.resourcemanager.postgresql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-postgresql:1.2.0-alpha.20260910.1

@@ -136,6 +136,16 @@ methods:
   returns:
     description: "the userLocation value."
     type: "<xref href=\"com.azure.ai.agents.models.WebSearchApproximateLocation?alt=com.azure.ai.agents.models.WebSearchApproximateLocation&text=WebSearchApproximateLocation\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.agents.models.WebSearchTool.isExternalWebAccess()"
+  fullName: "com.azure.ai.agents.models.WebSearchTool.isExternalWebAccess()"
+  name: "isExternalWebAccess()"
+  nameWithType: "WebSearchTool.isExternalWebAccess()"
+  summary: "Get the external<wbr>Web<wbr>Access property: Allow live internet access for web search."
+  syntax: "public Boolean isExternalWebAccess()"
+  desc: "Get the externalWebAccess property: Allow live internet access for web search. Defaults to true when omitted. When false, the web search tool runs in offline/cache-only mode and will not fetch new external content."
+  returns:
+    description: "the externalWebAccess value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
 - uid: "com.azure.ai.agents.models.WebSearchTool.setCustomSearchConfiguration(com.azure.ai.agents.models.WebSearchConfiguration)"
   fullName: "com.azure.ai.agents.models.WebSearchTool.setCustomSearchConfiguration(WebSearchConfiguration customSearchConfiguration)"
   name: "setCustomSearchConfiguration(WebSearchConfiguration customSearchConfiguration)"
@@ -161,6 +171,20 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public WebSearchTool setDescription(String description)"
   desc: "Set the description property: Deprecated. This property is deprecated and will be removed in a future version."
+  returns:
+    description: "the WebSearchTool object itself."
+    type: "<xref href=\"com.azure.ai.agents.models.WebSearchTool?alt=com.azure.ai.agents.models.WebSearchTool&text=WebSearchTool\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.agents.models.WebSearchTool.setExternalWebAccess(java.lang.Boolean)"
+  fullName: "com.azure.ai.agents.models.WebSearchTool.setExternalWebAccess(Boolean externalWebAccess)"
+  name: "setExternalWebAccess(Boolean externalWebAccess)"
+  nameWithType: "WebSearchTool.setExternalWebAccess(Boolean externalWebAccess)"
+  summary: "Set the external<wbr>Web<wbr>Access property: Allow live internet access for web search."
+  parameters:
+  - description: "the externalWebAccess value to set."
+    name: "externalWebAccess"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
+  syntax: "public WebSearchTool setExternalWebAccess(Boolean externalWebAccess)"
+  desc: "Set the externalWebAccess property: Allow live internet access for web search. Defaults to true when omitted. When false, the web search tool runs in offline/cache-only mode and will not fetch new external content."
   returns:
     description: "the WebSearchTool object itself."
     type: "<xref href=\"com.azure.ai.agents.models.WebSearchTool?alt=com.azure.ai.agents.models.WebSearchTool&text=WebSearchTool\" data-throw-if-not-resolved=\"False\" />"
@@ -251,4 +275,4 @@ type: "class"
 desc: "Web search Search the Internet for sources related to the prompt. Learn more about the \\[web search tool\\](/docs/guides/tools-web-search)."
 metadata: {}
 package: "com.azure.ai.agents.models"
-artifact: com.azure:azure-ai-agents:2.4.0
+artifact: com.azure:azure-ai-agents:2.5.0

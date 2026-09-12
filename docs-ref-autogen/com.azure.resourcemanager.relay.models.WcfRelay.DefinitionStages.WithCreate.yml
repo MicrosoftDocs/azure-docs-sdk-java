@@ -1,0 +1,46 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.relay.models.WcfRelay.DefinitionStages.WithCreate"
+fullName: "com.azure.resourcemanager.relay.models.WcfRelay.DefinitionStages.WithCreate"
+name: "WcfRelay.DefinitionStages.WithCreate"
+nameWithType: "WcfRelay.DefinitionStages.WithCreate"
+summary: "The stage of the Wcf<wbr>Relay definition which contains all the minimum required properties for the resource to be created, but also allows for any other optional properties to be specified."
+syntax: "public static interface **WcfRelay.DefinitionStages.WithCreate**</br> extends <xref href=\"com.azure.resourcemanager.relay.models.WcfRelay.DefinitionStages.WithRelayType?alt=com.azure.resourcemanager.relay.models.WcfRelay.DefinitionStages.WithRelayType&text=WithRelayType\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.relay.models.WcfRelay.DefinitionStages.WithRequiresClientAuthorization?alt=com.azure.resourcemanager.relay.models.WcfRelay.DefinitionStages.WithRequiresClientAuthorization&text=WithRequiresClientAuthorization\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.relay.models.WcfRelay.DefinitionStages.WithRequiresTransportSecurity?alt=com.azure.resourcemanager.relay.models.WcfRelay.DefinitionStages.WithRequiresTransportSecurity&text=WithRequiresTransportSecurity\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.relay.models.WcfRelay.DefinitionStages.WithUserMetadata?alt=com.azure.resourcemanager.relay.models.WcfRelay.DefinitionStages.WithUserMetadata&text=WithUserMetadata\" data-throw-if-not-resolved=\"False\" />"
+methods:
+- uid: "com.azure.resourcemanager.relay.models.WcfRelay.DefinitionStages.WithCreate.create()"
+  fullName: "com.azure.resourcemanager.relay.models.WcfRelay.DefinitionStages.WithCreate.create()"
+  name: "create()"
+  nameWithType: "WcfRelay.DefinitionStages.WithCreate.create()"
+  summary: "Executes the create request."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract WcfRelay create()"
+  desc: "Executes the create request."
+  returns:
+    description: "the created resource."
+    type: "<xref href=\"com.azure.resourcemanager.relay.models.WcfRelay?alt=com.azure.resourcemanager.relay.models.WcfRelay&text=WcfRelay\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.relay.models.WcfRelay.DefinitionStages.WithCreate.create(com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.relay.models.WcfRelay.DefinitionStages.WithCreate.create(Context context)"
+  name: "create(Context context)"
+  nameWithType: "WcfRelay.DefinitionStages.WithCreate.create(Context context)"
+  summary: "Executes the create request."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract WcfRelay create(Context context)"
+  desc: "Executes the create request."
+  returns:
+    description: "the created resource."
+    type: "<xref href=\"com.azure.resourcemanager.relay.models.WcfRelay?alt=com.azure.resourcemanager.relay.models.WcfRelay&text=WcfRelay\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the WcfRelay definition which contains all the minimum required properties for the resource to be created, but also allows for any other optional properties to be specified."
+implements:
+- "<xref href=\"com.azure.resourcemanager.relay.models.WcfRelay.DefinitionStages.WithRelayType?alt=com.azure.resourcemanager.relay.models.WcfRelay.DefinitionStages.WithRelayType&text=WithRelayType\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.relay.models.WcfRelay.DefinitionStages.WithRequiresClientAuthorization?alt=com.azure.resourcemanager.relay.models.WcfRelay.DefinitionStages.WithRequiresClientAuthorization&text=WithRequiresClientAuthorization\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.relay.models.WcfRelay.DefinitionStages.WithRequiresTransportSecurity?alt=com.azure.resourcemanager.relay.models.WcfRelay.DefinitionStages.WithRequiresTransportSecurity&text=WithRequiresTransportSecurity\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.relay.models.WcfRelay.DefinitionStages.WithUserMetadata?alt=com.azure.resourcemanager.relay.models.WcfRelay.DefinitionStages.WithUserMetadata&text=WithUserMetadata\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.azure.resourcemanager.relay.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-relay:1.1.0

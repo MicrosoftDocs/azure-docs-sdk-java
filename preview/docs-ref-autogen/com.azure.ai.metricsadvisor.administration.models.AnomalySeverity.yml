@@ -1,0 +1,110 @@
+### YamlMime:JavaType
+uid: "com.azure.ai.metricsadvisor.administration.models.AnomalySeverity"
+fullName: "com.azure.ai.metricsadvisor.administration.models.AnomalySeverity"
+name: "AnomalySeverity"
+nameWithType: "AnomalySeverity"
+summary: "Defines values for Anomaly<wbr>Severity."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **AnomalySeverity**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.metricsadvisor.administration.models.AnomalySeverity?alt=com.azure.ai.metricsadvisor.administration.models.AnomalySeverity&text=AnomalySeverity\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.ai.metricsadvisor.administration.models.AnomalySeverity.AnomalySeverity()"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.AnomalySeverity.AnomalySeverity()"
+  name: "AnomalySeverity()"
+  nameWithType: "AnomalySeverity.AnomalySeverity()"
+  summary: "Constructs a Anomaly<wbr>Severity object."
+  deprecatedTag: "Use the <xref uid=\"com.azure.ai.metricsadvisor.administration.models.AnomalySeverity.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public AnomalySeverity()"
+  desc: "Constructs a AnomalySeverity object."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.ai.metricsadvisor.administration.models.AnomalySeverity.HIGH"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.AnomalySeverity.HIGH"
+  name: "HIGH"
+  nameWithType: "AnomalySeverity.HIGH"
+  summary: "Static value High for Anomaly<wbr>Severity."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.metricsadvisor.administration.models.AnomalySeverity?alt=com.azure.ai.metricsadvisor.administration.models.AnomalySeverity&text=AnomalySeverity\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AnomalySeverity HIGH"
+  desc: "Static value High for AnomalySeverity."
+- uid: "com.azure.ai.metricsadvisor.administration.models.AnomalySeverity.LOW"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.AnomalySeverity.LOW"
+  name: "LOW"
+  nameWithType: "AnomalySeverity.LOW"
+  summary: "Static value Low for Anomaly<wbr>Severity."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.metricsadvisor.administration.models.AnomalySeverity?alt=com.azure.ai.metricsadvisor.administration.models.AnomalySeverity&text=AnomalySeverity\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AnomalySeverity LOW"
+  desc: "Static value Low for AnomalySeverity."
+- uid: "com.azure.ai.metricsadvisor.administration.models.AnomalySeverity.MEDIUM"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.AnomalySeverity.MEDIUM"
+  name: "MEDIUM"
+  nameWithType: "AnomalySeverity.MEDIUM"
+  summary: "Static value Medium for Anomaly<wbr>Severity."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.metricsadvisor.administration.models.AnomalySeverity?alt=com.azure.ai.metricsadvisor.administration.models.AnomalySeverity&text=AnomalySeverity\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AnomalySeverity MEDIUM"
+  desc: "Static value Medium for AnomalySeverity."
+methods:
+- uid: "com.azure.ai.metricsadvisor.administration.models.AnomalySeverity.fromString(java.lang.String)"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.AnomalySeverity.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "AnomalySeverity.fromString(String name)"
+  summary: "Creates or finds a Anomaly<wbr>Severity from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static AnomalySeverity fromString(String name)"
+  desc: "Creates or finds a AnomalySeverity from its string representation."
+  returns:
+    description: "the corresponding AnomalySeverity."
+    type: "<xref href=\"com.azure.ai.metricsadvisor.administration.models.AnomalySeverity?alt=com.azure.ai.metricsadvisor.administration.models.AnomalySeverity&text=AnomalySeverity\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.metricsadvisor.administration.models.AnomalySeverity.values()"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.AnomalySeverity.values()"
+  name: "values()"
+  nameWithType: "AnomalySeverity.values()"
+  summary: "Returns the known Anomaly<wbr>Severity values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<AnomalySeverity> values()"
+  desc: "Returns the known AnomalySeverity values."
+  returns:
+    description: "known AnomalySeverity values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.ai.metricsadvisor.administration.models.AnomalySeverity?alt=com.azure.ai.metricsadvisor.administration.models.AnomalySeverity&text=AnomalySeverity\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Defines values for AnomalySeverity."
+metadata: {}
+package: "com.azure.ai.metricsadvisor.administration.models"
+artifact: com.azure:azure-ai-metricsadvisor:1.3.0-alpha.20260910.4

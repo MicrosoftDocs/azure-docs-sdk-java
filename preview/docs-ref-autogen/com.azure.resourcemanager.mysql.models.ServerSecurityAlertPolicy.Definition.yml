@@ -1,0 +1,16 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.Definition"
+fullName: "com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.Definition"
+name: "ServerSecurityAlertPolicy.Definition"
+nameWithType: "ServerSecurityAlertPolicy.Definition"
+summary: "The entirety of the Server<wbr>Security<wbr>Alert<wbr>Policy definition."
+syntax: "public static interface **ServerSecurityAlertPolicy.Definition**</br> extends <xref href=\"com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.DefinitionStages.Blank?alt=com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.DefinitionStages.Blank&text=Blank\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.DefinitionStages.WithParentResource?alt=com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.DefinitionStages.WithParentResource&text=WithParentResource\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of the ServerSecurityAlertPolicy definition."
+implements:
+- "<xref href=\"com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.DefinitionStages.Blank?alt=com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.DefinitionStages.Blank&text=Blank\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.DefinitionStages.WithParentResource?alt=com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.DefinitionStages.WithParentResource&text=WithParentResource\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.azure.resourcemanager.mysql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-mysql:1.1.0-alpha.20260910.2

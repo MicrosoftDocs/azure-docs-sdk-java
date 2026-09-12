@@ -1,0 +1,148 @@
+### YamlMime:JavaType
+uid: "com.azure.messaging.eventgrid.systemevents.AcsRouterUpdatedWorkerProperty"
+fullName: "com.azure.messaging.eventgrid.systemevents.AcsRouterUpdatedWorkerProperty"
+name: "AcsRouterUpdatedWorkerProperty"
+nameWithType: "AcsRouterUpdatedWorkerProperty"
+summary: "An individual property updated in the Router Worker."
+deprecatedTag: "This class is deprecated and may be removed in future releases. System events are now available in the azure-messaging-eventgrid-systemevents package."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public final class **AcsRouterUpdatedWorkerProperty**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsRouterUpdatedWorkerProperty?alt=com.azure.messaging.eventgrid.systemevents.AcsRouterUpdatedWorkerProperty&text=AcsRouterUpdatedWorkerProperty\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsRouterUpdatedWorkerProperty.AcsRouterUpdatedWorkerProperty()"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsRouterUpdatedWorkerProperty.AcsRouterUpdatedWorkerProperty()"
+  name: "AcsRouterUpdatedWorkerProperty()"
+  nameWithType: "AcsRouterUpdatedWorkerProperty.AcsRouterUpdatedWorkerProperty()"
+  summary: "Creates a new instance of Acs<wbr>Router<wbr>Updated<wbr>Worker<wbr>Property value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.messaging.eventgrid.systemevents.AcsRouterUpdatedWorkerProperty.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public AcsRouterUpdatedWorkerProperty()"
+  desc: "Creates a new instance of AcsRouterUpdatedWorkerProperty value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsRouterUpdatedWorkerProperty.AVAILABLE_FOR_OFFERS"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsRouterUpdatedWorkerProperty.AVAILABLE_FOR_OFFERS"
+  name: "AVAILABLE_FOR_OFFERS"
+  nameWithType: "AcsRouterUpdatedWorkerProperty.AVAILABLE_FOR_OFFERS"
+  summary: "Static value Available<wbr>For<wbr>Offers for Acs<wbr>Router<wbr>Updated<wbr>Worker<wbr>Property."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsRouterUpdatedWorkerProperty?alt=com.azure.messaging.eventgrid.systemevents.AcsRouterUpdatedWorkerProperty&text=AcsRouterUpdatedWorkerProperty\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AcsRouterUpdatedWorkerProperty AVAILABLE_FOR_OFFERS"
+  desc: "Static value AvailableForOffers for AcsRouterUpdatedWorkerProperty."
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsRouterUpdatedWorkerProperty.CHANNEL_CONFIGURATIONS"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsRouterUpdatedWorkerProperty.CHANNEL_CONFIGURATIONS"
+  name: "CHANNEL_CONFIGURATIONS"
+  nameWithType: "AcsRouterUpdatedWorkerProperty.CHANNEL_CONFIGURATIONS"
+  summary: "Static value Channel<wbr>Configurations for Acs<wbr>Router<wbr>Updated<wbr>Worker<wbr>Property."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsRouterUpdatedWorkerProperty?alt=com.azure.messaging.eventgrid.systemevents.AcsRouterUpdatedWorkerProperty&text=AcsRouterUpdatedWorkerProperty\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AcsRouterUpdatedWorkerProperty CHANNEL_CONFIGURATIONS"
+  desc: "Static value ChannelConfigurations for AcsRouterUpdatedWorkerProperty."
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsRouterUpdatedWorkerProperty.LABELS"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsRouterUpdatedWorkerProperty.LABELS"
+  name: "LABELS"
+  nameWithType: "AcsRouterUpdatedWorkerProperty.LABELS"
+  summary: "Static value Labels for Acs<wbr>Router<wbr>Updated<wbr>Worker<wbr>Property."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsRouterUpdatedWorkerProperty?alt=com.azure.messaging.eventgrid.systemevents.AcsRouterUpdatedWorkerProperty&text=AcsRouterUpdatedWorkerProperty\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AcsRouterUpdatedWorkerProperty LABELS"
+  desc: "Static value Labels for AcsRouterUpdatedWorkerProperty."
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsRouterUpdatedWorkerProperty.QUEUE_ASSIGNMENTS"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsRouterUpdatedWorkerProperty.QUEUE_ASSIGNMENTS"
+  name: "QUEUE_ASSIGNMENTS"
+  nameWithType: "AcsRouterUpdatedWorkerProperty.QUEUE_ASSIGNMENTS"
+  summary: "Static value Queue<wbr>Assignments for Acs<wbr>Router<wbr>Updated<wbr>Worker<wbr>Property."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsRouterUpdatedWorkerProperty?alt=com.azure.messaging.eventgrid.systemevents.AcsRouterUpdatedWorkerProperty&text=AcsRouterUpdatedWorkerProperty\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AcsRouterUpdatedWorkerProperty QUEUE_ASSIGNMENTS"
+  desc: "Static value QueueAssignments for AcsRouterUpdatedWorkerProperty."
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsRouterUpdatedWorkerProperty.TAGS"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsRouterUpdatedWorkerProperty.TAGS"
+  name: "TAGS"
+  nameWithType: "AcsRouterUpdatedWorkerProperty.TAGS"
+  summary: "Static value Tags for Acs<wbr>Router<wbr>Updated<wbr>Worker<wbr>Property."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsRouterUpdatedWorkerProperty?alt=com.azure.messaging.eventgrid.systemevents.AcsRouterUpdatedWorkerProperty&text=AcsRouterUpdatedWorkerProperty\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AcsRouterUpdatedWorkerProperty TAGS"
+  desc: "Static value Tags for AcsRouterUpdatedWorkerProperty."
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsRouterUpdatedWorkerProperty.TOTAL_CAPACITY"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsRouterUpdatedWorkerProperty.TOTAL_CAPACITY"
+  name: "TOTAL_CAPACITY"
+  nameWithType: "AcsRouterUpdatedWorkerProperty.TOTAL_CAPACITY"
+  summary: "Static value Total<wbr>Capacity for Acs<wbr>Router<wbr>Updated<wbr>Worker<wbr>Property."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsRouterUpdatedWorkerProperty?alt=com.azure.messaging.eventgrid.systemevents.AcsRouterUpdatedWorkerProperty&text=AcsRouterUpdatedWorkerProperty\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AcsRouterUpdatedWorkerProperty TOTAL_CAPACITY"
+  desc: "Static value TotalCapacity for AcsRouterUpdatedWorkerProperty."
+methods:
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsRouterUpdatedWorkerProperty.fromString(java.lang.String)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsRouterUpdatedWorkerProperty.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "AcsRouterUpdatedWorkerProperty.fromString(String name)"
+  summary: "Creates or finds a Acs<wbr>Router<wbr>Updated<wbr>Worker<wbr>Property from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static AcsRouterUpdatedWorkerProperty fromString(String name)"
+  desc: "Creates or finds a AcsRouterUpdatedWorkerProperty from its string representation."
+  returns:
+    description: "the corresponding AcsRouterUpdatedWorkerProperty."
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsRouterUpdatedWorkerProperty?alt=com.azure.messaging.eventgrid.systemevents.AcsRouterUpdatedWorkerProperty&text=AcsRouterUpdatedWorkerProperty\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsRouterUpdatedWorkerProperty.values()"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsRouterUpdatedWorkerProperty.values()"
+  name: "values()"
+  nameWithType: "AcsRouterUpdatedWorkerProperty.values()"
+  summary: "Gets known Acs<wbr>Router<wbr>Updated<wbr>Worker<wbr>Property values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<AcsRouterUpdatedWorkerProperty> values()"
+  desc: "Gets known AcsRouterUpdatedWorkerProperty values."
+  returns:
+    description: "known AcsRouterUpdatedWorkerProperty values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsRouterUpdatedWorkerProperty?alt=com.azure.messaging.eventgrid.systemevents.AcsRouterUpdatedWorkerProperty&text=AcsRouterUpdatedWorkerProperty\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "An individual property updated in the Router Worker."
+hasDeprecatedTag: true
+metadata: {}
+package: "com.azure.messaging.eventgrid.systemevents"
+artifact: com.azure:azure-messaging-eventgrid:4.32.0-alpha.20260910.3

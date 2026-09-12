@@ -1,0 +1,44 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.mysql.models.FirewallRule.Update"
+fullName: "com.azure.resourcemanager.mysql.models.FirewallRule.Update"
+name: "FirewallRule.Update"
+nameWithType: "FirewallRule.Update"
+summary: "The template for Firewall<wbr>Rule update."
+syntax: "public static interface **FirewallRule.Update**</br> extends <xref href=\"com.azure.resourcemanager.mysql.models.FirewallRule.UpdateStages.WithStartIpAddress?alt=com.azure.resourcemanager.mysql.models.FirewallRule.UpdateStages.WithStartIpAddress&text=WithStartIpAddress\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.mysql.models.FirewallRule.UpdateStages.WithEndIpAddress?alt=com.azure.resourcemanager.mysql.models.FirewallRule.UpdateStages.WithEndIpAddress&text=WithEndIpAddress\" data-throw-if-not-resolved=\"False\" />"
+methods:
+- uid: "com.azure.resourcemanager.mysql.models.FirewallRule.Update.apply()"
+  fullName: "com.azure.resourcemanager.mysql.models.FirewallRule.Update.apply()"
+  name: "apply()"
+  nameWithType: "FirewallRule.Update.apply()"
+  summary: "Executes the update request."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract FirewallRule apply()"
+  desc: "Executes the update request."
+  returns:
+    description: "the updated resource."
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.FirewallRule?alt=com.azure.resourcemanager.mysql.models.FirewallRule&text=FirewallRule\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.mysql.models.FirewallRule.Update.apply(com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.mysql.models.FirewallRule.Update.apply(Context context)"
+  name: "apply(Context context)"
+  nameWithType: "FirewallRule.Update.apply(Context context)"
+  summary: "Executes the update request."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract FirewallRule apply(Context context)"
+  desc: "Executes the update request."
+  returns:
+    description: "the updated resource."
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.FirewallRule?alt=com.azure.resourcemanager.mysql.models.FirewallRule&text=FirewallRule\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The template for FirewallRule update."
+implements:
+- "<xref href=\"com.azure.resourcemanager.mysql.models.FirewallRule.UpdateStages.WithEndIpAddress?alt=com.azure.resourcemanager.mysql.models.FirewallRule.UpdateStages.WithEndIpAddress&text=WithEndIpAddress\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.mysql.models.FirewallRule.UpdateStages.WithStartIpAddress?alt=com.azure.resourcemanager.mysql.models.FirewallRule.UpdateStages.WithStartIpAddress&text=WithStartIpAddress\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.azure.resourcemanager.mysql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-mysql:1.1.0-alpha.20260910.2

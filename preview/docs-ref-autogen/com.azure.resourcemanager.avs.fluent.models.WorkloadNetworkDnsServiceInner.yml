@@ -288,4 +288,4 @@ type: "class"
 desc: "NSX DNS Service."
 metadata: {}
 package: "com.azure.resourcemanager.avs.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-avs:1.2.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-avs:1.5.0-alpha.20260910.5

@@ -198,4 +198,4 @@ type: "class"
 desc: "Represents a text track in an asset. A text track is usually used for sparse data related to the audio or video tracks."
 metadata: {}
 package: "com.azure.resourcemanager.mediaservices.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-mediaservices:2.4.0-beta.2
+artifact: com.azure.resourcemanager:azure-resourcemanager-mediaservices:2.5.0-alpha.20260910.3

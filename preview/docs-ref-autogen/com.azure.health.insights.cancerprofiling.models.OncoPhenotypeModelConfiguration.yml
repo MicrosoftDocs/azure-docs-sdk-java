@@ -20,7 +20,7 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
-syntax: "public final class **OncoPhenotypeModelConfiguration**"
+syntax: "public final class **OncoPhenotypeModelConfiguration**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.health.insights.cancerprofiling.models.OncoPhenotypeModelConfiguration?alt=com.azure.health.insights.cancerprofiling.models.OncoPhenotypeModelConfiguration&text=OncoPhenotypeModelConfiguration\" data-throw-if-not-resolved=\"False\" />&gt;"
 constructors:
 - uid: "com.azure.health.insights.cancerprofiling.models.OncoPhenotypeModelConfiguration.OncoPhenotypeModelConfiguration()"
   fullName: "com.azure.health.insights.cancerprofiling.models.OncoPhenotypeModelConfiguration.OncoPhenotypeModelConfiguration()"
@@ -30,6 +30,25 @@ constructors:
   syntax: "public OncoPhenotypeModelConfiguration()"
   desc: "Creates an instance of OncoPhenotypeModelConfiguration class."
 methods:
+- uid: "com.azure.health.insights.cancerprofiling.models.OncoPhenotypeModelConfiguration.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.health.insights.cancerprofiling.models.OncoPhenotypeModelConfiguration.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "OncoPhenotypeModelConfiguration.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Onco<wbr>Phenotype<wbr>Model<wbr>Configuration from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static OncoPhenotypeModelConfiguration fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the OncoPhenotypeModelConfiguration."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of OncoPhenotypeModelConfiguration from the JsonReader."
+  returns:
+    description: "An instance of OncoPhenotypeModelConfiguration if the JsonReader was pointing to an instance of it, or\n null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.health.insights.cancerprofiling.models.OncoPhenotypeModelConfiguration?alt=com.azure.health.insights.cancerprofiling.models.OncoPhenotypeModelConfiguration&text=OncoPhenotypeModelConfiguration\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.health.insights.cancerprofiling.models.OncoPhenotypeModelConfiguration.getInferenceTypes()"
   fullName: "com.azure.health.insights.cancerprofiling.models.OncoPhenotypeModelConfiguration.getInferenceTypes()"
   name: "getInferenceTypes()"
@@ -126,8 +145,22 @@ methods:
   returns:
     description: "the OncoPhenotypeModelConfiguration object itself."
     type: "<xref href=\"com.azure.health.insights.cancerprofiling.models.OncoPhenotypeModelConfiguration?alt=com.azure.health.insights.cancerprofiling.models.OncoPhenotypeModelConfiguration&text=OncoPhenotypeModelConfiguration\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.health.insights.cancerprofiling.models.OncoPhenotypeModelConfiguration.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.health.insights.cancerprofiling.models.OncoPhenotypeModelConfiguration.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "OncoPhenotypeModelConfiguration.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Configuration affecting the Onco Phenotype model's inference."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.health.insights.cancerprofiling.models.OncoPhenotypeModelConfiguration?alt=com.azure.health.insights.cancerprofiling.models.OncoPhenotypeModelConfiguration&text=OncoPhenotypeModelConfiguration\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.health.insights.cancerprofiling.models"
-artifact: com.azure:azure-health-insights-cancerprofiling:1.0.0-beta.1
+artifact: com.azure:azure-health-insights-cancerprofiling:1.0.0-alpha.20260910.2

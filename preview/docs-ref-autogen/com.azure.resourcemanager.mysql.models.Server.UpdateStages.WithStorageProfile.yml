@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.mysql.models.Server.UpdateStages.WithStorageProfile"
+fullName: "com.azure.resourcemanager.mysql.models.Server.UpdateStages.WithStorageProfile"
+name: "Server.UpdateStages.WithStorageProfile"
+nameWithType: "Server.UpdateStages.WithStorageProfile"
+summary: "The stage of the Server update allowing to specify storage<wbr>Profile."
+syntax: "public static interface **Server.UpdateStages.WithStorageProfile**"
+methods:
+- uid: "com.azure.resourcemanager.mysql.models.Server.UpdateStages.WithStorageProfile.withStorageProfile(com.azure.resourcemanager.mysql.models.StorageProfile)"
+  fullName: "com.azure.resourcemanager.mysql.models.Server.UpdateStages.WithStorageProfile.withStorageProfile(StorageProfile storageProfile)"
+  name: "withStorageProfile(StorageProfile storageProfile)"
+  nameWithType: "Server.UpdateStages.WithStorageProfile.withStorageProfile(StorageProfile storageProfile)"
+  summary: "Specifies the storage<wbr>Profile property: Storage profile of a server.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Storage profile of a server."
+    name: "storageProfile"
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.StorageProfile?alt=com.azure.resourcemanager.mysql.models.StorageProfile&text=StorageProfile\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract Server.Update withStorageProfile(StorageProfile storageProfile)"
+  desc: "Specifies the storageProfile property: Storage profile of a server.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.Server.Update?alt=com.azure.resourcemanager.mysql.models.Server.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the Server update allowing to specify storageProfile."
+metadata: {}
+package: "com.azure.resourcemanager.mysql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-mysql:1.1.0-alpha.20260910.2

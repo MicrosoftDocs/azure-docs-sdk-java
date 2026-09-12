@@ -20,7 +20,7 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
-syntax: "public final class **ClinicalMatchingClientBuilder**</br> implements <xref href=\"com.azure.core.client.traits.HttpTrait?alt=com.azure.core.client.traits.HttpTrait&text=HttpTrait\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.health.insights.clinicalmatching.ClinicalMatchingClientBuilder?alt=com.azure.health.insights.clinicalmatching.ClinicalMatchingClientBuilder&text=ClinicalMatchingClientBuilder\" data-throw-if-not-resolved=\"False\" />&gt;, <xref href=\"com.azure.core.client.traits.ConfigurationTrait?alt=com.azure.core.client.traits.ConfigurationTrait&text=ConfigurationTrait\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.health.insights.clinicalmatching.ClinicalMatchingClientBuilder?alt=com.azure.health.insights.clinicalmatching.ClinicalMatchingClientBuilder&text=ClinicalMatchingClientBuilder\" data-throw-if-not-resolved=\"False\" />&gt;, <xref href=\"com.azure.core.client.traits.AzureKeyCredentialTrait?alt=com.azure.core.client.traits.AzureKeyCredentialTrait&text=AzureKeyCredentialTrait\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.health.insights.clinicalmatching.ClinicalMatchingClientBuilder?alt=com.azure.health.insights.clinicalmatching.ClinicalMatchingClientBuilder&text=ClinicalMatchingClientBuilder\" data-throw-if-not-resolved=\"False\" />&gt;, <xref href=\"com.azure.core.client.traits.EndpointTrait?alt=com.azure.core.client.traits.EndpointTrait&text=EndpointTrait\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.health.insights.clinicalmatching.ClinicalMatchingClientBuilder?alt=com.azure.health.insights.clinicalmatching.ClinicalMatchingClientBuilder&text=ClinicalMatchingClientBuilder\" data-throw-if-not-resolved=\"False\" />&gt;"
+syntax: "public final class **ClinicalMatchingClientBuilder**</br> implements <xref href=\"com.azure.core.client.traits.HttpTrait?alt=com.azure.core.client.traits.HttpTrait&text=HttpTrait\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.health.insights.clinicalmatching.ClinicalMatchingClientBuilder?alt=com.azure.health.insights.clinicalmatching.ClinicalMatchingClientBuilder&text=ClinicalMatchingClientBuilder\" data-throw-if-not-resolved=\"False\" />&gt;, <xref href=\"com.azure.core.client.traits.ConfigurationTrait?alt=com.azure.core.client.traits.ConfigurationTrait&text=ConfigurationTrait\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.health.insights.clinicalmatching.ClinicalMatchingClientBuilder?alt=com.azure.health.insights.clinicalmatching.ClinicalMatchingClientBuilder&text=ClinicalMatchingClientBuilder\" data-throw-if-not-resolved=\"False\" />&gt;, <xref href=\"com.azure.core.client.traits.KeyCredentialTrait?alt=com.azure.core.client.traits.KeyCredentialTrait&text=KeyCredentialTrait\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.health.insights.clinicalmatching.ClinicalMatchingClientBuilder?alt=com.azure.health.insights.clinicalmatching.ClinicalMatchingClientBuilder&text=ClinicalMatchingClientBuilder\" data-throw-if-not-resolved=\"False\" />&gt;, <xref href=\"com.azure.core.client.traits.EndpointTrait?alt=com.azure.core.client.traits.EndpointTrait&text=EndpointTrait\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.health.insights.clinicalmatching.ClinicalMatchingClientBuilder?alt=com.azure.health.insights.clinicalmatching.ClinicalMatchingClientBuilder&text=ClinicalMatchingClientBuilder\" data-throw-if-not-resolved=\"False\" />&gt;"
 constructors:
 - uid: "com.azure.health.insights.clinicalmatching.ClinicalMatchingClientBuilder.ClinicalMatchingClientBuilder()"
   fullName: "com.azure.health.insights.clinicalmatching.ClinicalMatchingClientBuilder.ClinicalMatchingClientBuilder()"
@@ -86,15 +86,15 @@ methods:
   desc: "."
   returns:
     type: "<xref href=\"com.azure.health.insights.clinicalmatching.ClinicalMatchingClientBuilder?alt=com.azure.health.insights.clinicalmatching.ClinicalMatchingClientBuilder&text=ClinicalMatchingClientBuilder\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.health.insights.clinicalmatching.ClinicalMatchingClientBuilder.credential(com.azure.core.credential.AzureKeyCredential)"
-  fullName: "com.azure.health.insights.clinicalmatching.ClinicalMatchingClientBuilder.credential(AzureKeyCredential azureKeyCredential)"
-  name: "credential(AzureKeyCredential azureKeyCredential)"
-  nameWithType: "ClinicalMatchingClientBuilder.credential(AzureKeyCredential azureKeyCredential)"
+- uid: "com.azure.health.insights.clinicalmatching.ClinicalMatchingClientBuilder.credential(com.azure.core.credential.KeyCredential)"
+  fullName: "com.azure.health.insights.clinicalmatching.ClinicalMatchingClientBuilder.credential(KeyCredential keyCredential)"
+  name: "credential(KeyCredential keyCredential)"
+  nameWithType: "ClinicalMatchingClientBuilder.credential(KeyCredential keyCredential)"
   summary: "."
   parameters:
-  - name: "azureKeyCredential"
-    type: "<xref href=\"com.azure.core.credential.AzureKeyCredential?alt=com.azure.core.credential.AzureKeyCredential&text=AzureKeyCredential\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public ClinicalMatchingClientBuilder credential(AzureKeyCredential azureKeyCredential)"
+  - name: "keyCredential"
+    type: "<xref href=\"com.azure.core.credential.KeyCredential?alt=com.azure.core.credential.KeyCredential&text=KeyCredential\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ClinicalMatchingClientBuilder credential(KeyCredential keyCredential)"
   desc: "."
   returns:
     type: "<xref href=\"com.azure.health.insights.clinicalmatching.ClinicalMatchingClientBuilder?alt=com.azure.health.insights.clinicalmatching.ClinicalMatchingClientBuilder&text=ClinicalMatchingClientBuilder\" data-throw-if-not-resolved=\"False\" />"
@@ -172,16 +172,16 @@ methods:
   returns:
     description: "the ClinicalMatchingClientBuilder."
     type: "<xref href=\"com.azure.health.insights.clinicalmatching.ClinicalMatchingClientBuilder?alt=com.azure.health.insights.clinicalmatching.ClinicalMatchingClientBuilder&text=ClinicalMatchingClientBuilder\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.health.insights.clinicalmatching.ClinicalMatchingClientBuilder.serviceVersion(com.azure.health.insights.clinicalmatching.ClinicalMatchingServiceVersion)"
-  fullName: "com.azure.health.insights.clinicalmatching.ClinicalMatchingClientBuilder.serviceVersion(ClinicalMatchingServiceVersion serviceVersion)"
-  name: "serviceVersion(ClinicalMatchingServiceVersion serviceVersion)"
-  nameWithType: "ClinicalMatchingClientBuilder.serviceVersion(ClinicalMatchingServiceVersion serviceVersion)"
+- uid: "com.azure.health.insights.clinicalmatching.ClinicalMatchingClientBuilder.serviceVersion(com.azure.health.insights.clinicalmatching.AzureHealthInsightsServiceVersion)"
+  fullName: "com.azure.health.insights.clinicalmatching.ClinicalMatchingClientBuilder.serviceVersion(AzureHealthInsightsServiceVersion serviceVersion)"
+  name: "serviceVersion(AzureHealthInsightsServiceVersion serviceVersion)"
+  nameWithType: "ClinicalMatchingClientBuilder.serviceVersion(AzureHealthInsightsServiceVersion serviceVersion)"
   summary: "Sets Service version."
   parameters:
   - description: "the serviceVersion value."
     name: "serviceVersion"
-    type: "<xref href=\"com.azure.health.insights.clinicalmatching.ClinicalMatchingServiceVersion?alt=com.azure.health.insights.clinicalmatching.ClinicalMatchingServiceVersion&text=ClinicalMatchingServiceVersion\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public ClinicalMatchingClientBuilder serviceVersion(ClinicalMatchingServiceVersion serviceVersion)"
+    type: "<xref href=\"com.azure.health.insights.clinicalmatching.AzureHealthInsightsServiceVersion?alt=com.azure.health.insights.clinicalmatching.AzureHealthInsightsServiceVersion&text=AzureHealthInsightsServiceVersion\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ClinicalMatchingClientBuilder serviceVersion(AzureHealthInsightsServiceVersion serviceVersion)"
   desc: "Sets Service version."
   returns:
     description: "the ClinicalMatchingClientBuilder."
@@ -189,10 +189,10 @@ methods:
 type: "class"
 desc: "A builder for creating a new instance of the ClinicalMatchingClient type."
 implements:
-- "<xref href=\"com.azure.core.client.traits.AzureKeyCredentialTrait?alt=com.azure.core.client.traits.AzureKeyCredentialTrait&text=AzureKeyCredentialTrait\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.health.insights.clinicalmatching.ClinicalMatchingClientBuilder?alt=com.azure.health.insights.clinicalmatching.ClinicalMatchingClientBuilder&text=ClinicalMatchingClientBuilder\" data-throw-if-not-resolved=\"False\" />&gt;"
 - "<xref href=\"com.azure.core.client.traits.ConfigurationTrait?alt=com.azure.core.client.traits.ConfigurationTrait&text=ConfigurationTrait\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.health.insights.clinicalmatching.ClinicalMatchingClientBuilder?alt=com.azure.health.insights.clinicalmatching.ClinicalMatchingClientBuilder&text=ClinicalMatchingClientBuilder\" data-throw-if-not-resolved=\"False\" />&gt;"
 - "<xref href=\"com.azure.core.client.traits.EndpointTrait?alt=com.azure.core.client.traits.EndpointTrait&text=EndpointTrait\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.health.insights.clinicalmatching.ClinicalMatchingClientBuilder?alt=com.azure.health.insights.clinicalmatching.ClinicalMatchingClientBuilder&text=ClinicalMatchingClientBuilder\" data-throw-if-not-resolved=\"False\" />&gt;"
 - "<xref href=\"com.azure.core.client.traits.HttpTrait?alt=com.azure.core.client.traits.HttpTrait&text=HttpTrait\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.health.insights.clinicalmatching.ClinicalMatchingClientBuilder?alt=com.azure.health.insights.clinicalmatching.ClinicalMatchingClientBuilder&text=ClinicalMatchingClientBuilder\" data-throw-if-not-resolved=\"False\" />&gt;"
+- "<xref href=\"com.azure.core.client.traits.KeyCredentialTrait?alt=com.azure.core.client.traits.KeyCredentialTrait&text=KeyCredentialTrait\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.health.insights.clinicalmatching.ClinicalMatchingClientBuilder?alt=com.azure.health.insights.clinicalmatching.ClinicalMatchingClientBuilder&text=ClinicalMatchingClientBuilder\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.health.insights.clinicalmatching"
-artifact: com.azure:azure-health-insights-clinicalmatching:1.0.0-beta.1
+artifact: com.azure:azure-health-insights-clinicalmatching:1.0.0-alpha.20260910.2

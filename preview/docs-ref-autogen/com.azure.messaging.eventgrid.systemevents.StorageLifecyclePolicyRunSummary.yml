@@ -1,0 +1,96 @@
+### YamlMime:JavaType
+uid: "com.azure.messaging.eventgrid.systemevents.StorageLifecyclePolicyRunSummary"
+fullName: "com.azure.messaging.eventgrid.systemevents.StorageLifecyclePolicyRunSummary"
+name: "StorageLifecyclePolicyRunSummary"
+nameWithType: "StorageLifecyclePolicyRunSummary"
+summary: "Policy run status of an account in a Blob Management cycle."
+deprecatedTag: "This class is deprecated and may be removed in future releases. System events are now available in the azure-messaging-eventgrid-systemevents package."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public final class **StorageLifecyclePolicyRunSummary**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.messaging.eventgrid.systemevents.StorageLifecyclePolicyRunSummary?alt=com.azure.messaging.eventgrid.systemevents.StorageLifecyclePolicyRunSummary&text=StorageLifecyclePolicyRunSummary\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.messaging.eventgrid.systemevents.StorageLifecyclePolicyRunSummary.StorageLifecyclePolicyRunSummary()"
+  fullName: "com.azure.messaging.eventgrid.systemevents.StorageLifecyclePolicyRunSummary.StorageLifecyclePolicyRunSummary()"
+  name: "StorageLifecyclePolicyRunSummary()"
+  nameWithType: "StorageLifecyclePolicyRunSummary.StorageLifecyclePolicyRunSummary()"
+  summary: "Creates an instance of Storage<wbr>Lifecycle<wbr>Policy<wbr>Run<wbr>Summary class."
+  syntax: "public StorageLifecyclePolicyRunSummary()"
+  desc: "Creates an instance of StorageLifecyclePolicyRunSummary class."
+methods:
+- uid: "com.azure.messaging.eventgrid.systemevents.StorageLifecyclePolicyRunSummary.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.StorageLifecyclePolicyRunSummary.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "StorageLifecyclePolicyRunSummary.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Storage<wbr>Lifecycle<wbr>Policy<wbr>Run<wbr>Summary from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static StorageLifecyclePolicyRunSummary fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of StorageLifecyclePolicyRunSummary from the JsonReader."
+  returns:
+    description: "An instance of StorageLifecyclePolicyRunSummary if the JsonReader was pointing to an instance of it, or\n null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.StorageLifecyclePolicyRunSummary?alt=com.azure.messaging.eventgrid.systemevents.StorageLifecyclePolicyRunSummary&text=StorageLifecyclePolicyRunSummary\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.messaging.eventgrid.systemevents.StorageLifecyclePolicyRunSummary.getCompletionStatus()"
+  fullName: "com.azure.messaging.eventgrid.systemevents.StorageLifecyclePolicyRunSummary.getCompletionStatus()"
+  name: "getCompletionStatus()"
+  nameWithType: "StorageLifecyclePolicyRunSummary.getCompletionStatus()"
+  summary: "Get the completion<wbr>Status property: Policy status can be Completed/Completed<wbr>With<wbr>Error/Incomplete."
+  syntax: "public StorageLifecycleCompletionStatus getCompletionStatus()"
+  desc: "Get the completionStatus property: Policy status can be Completed/CompletedWithError/Incomplete."
+  returns:
+    description: "the completionStatus value."
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.StorageLifecycleCompletionStatus?alt=com.azure.messaging.eventgrid.systemevents.StorageLifecycleCompletionStatus&text=StorageLifecycleCompletionStatus\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.messaging.eventgrid.systemevents.StorageLifecyclePolicyRunSummary.setCompletionStatus(com.azure.messaging.eventgrid.systemevents.StorageLifecycleCompletionStatus)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.StorageLifecyclePolicyRunSummary.setCompletionStatus(StorageLifecycleCompletionStatus completionStatus)"
+  name: "setCompletionStatus(StorageLifecycleCompletionStatus completionStatus)"
+  nameWithType: "StorageLifecyclePolicyRunSummary.setCompletionStatus(StorageLifecycleCompletionStatus completionStatus)"
+  summary: "Set the completion<wbr>Status property: Policy status can be Completed/Completed<wbr>With<wbr>Error/Incomplete."
+  parameters:
+  - description: "the completionStatus value to set."
+    name: "completionStatus"
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.StorageLifecycleCompletionStatus?alt=com.azure.messaging.eventgrid.systemevents.StorageLifecycleCompletionStatus&text=StorageLifecycleCompletionStatus\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public StorageLifecyclePolicyRunSummary setCompletionStatus(StorageLifecycleCompletionStatus completionStatus)"
+  desc: "Set the completionStatus property: Policy status can be Completed/CompletedWithError/Incomplete."
+  returns:
+    description: "the StorageLifecyclePolicyRunSummary object itself."
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.StorageLifecyclePolicyRunSummary?alt=com.azure.messaging.eventgrid.systemevents.StorageLifecyclePolicyRunSummary&text=StorageLifecyclePolicyRunSummary\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.messaging.eventgrid.systemevents.StorageLifecyclePolicyRunSummary.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.StorageLifecyclePolicyRunSummary.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "StorageLifecyclePolicyRunSummary.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Policy run status of an account in a Blob Management cycle."
+hasDeprecatedTag: true
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.messaging.eventgrid.systemevents.StorageLifecyclePolicyRunSummary?alt=com.azure.messaging.eventgrid.systemevents.StorageLifecyclePolicyRunSummary&text=StorageLifecyclePolicyRunSummary\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.messaging.eventgrid.systemevents"
+artifact: com.azure:azure-messaging-eventgrid:4.32.0-alpha.20260910.3

@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.postgresql.models.Server.UpdateStages.WithSslEnforcement"
+fullName: "com.azure.resourcemanager.postgresql.models.Server.UpdateStages.WithSslEnforcement"
+name: "Server.UpdateStages.WithSslEnforcement"
+nameWithType: "Server.UpdateStages.WithSslEnforcement"
+summary: "The stage of the Server update allowing to specify ssl<wbr>Enforcement."
+syntax: "public static interface **Server.UpdateStages.WithSslEnforcement**"
+methods:
+- uid: "com.azure.resourcemanager.postgresql.models.Server.UpdateStages.WithSslEnforcement.withSslEnforcement(com.azure.resourcemanager.postgresql.models.SslEnforcementEnum)"
+  fullName: "com.azure.resourcemanager.postgresql.models.Server.UpdateStages.WithSslEnforcement.withSslEnforcement(SslEnforcementEnum sslEnforcement)"
+  name: "withSslEnforcement(SslEnforcementEnum sslEnforcement)"
+  nameWithType: "Server.UpdateStages.WithSslEnforcement.withSslEnforcement(SslEnforcementEnum sslEnforcement)"
+  summary: "Specifies the ssl<wbr>Enforcement property: Enable ssl enforcement or not when connect to server.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Enable ssl enforcement or not when connect to server."
+    name: "sslEnforcement"
+    type: "<xref href=\"com.azure.resourcemanager.postgresql.models.SslEnforcementEnum?alt=com.azure.resourcemanager.postgresql.models.SslEnforcementEnum&text=SslEnforcementEnum\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract Server.Update withSslEnforcement(SslEnforcementEnum sslEnforcement)"
+  desc: "Specifies the sslEnforcement property: Enable ssl enforcement or not when connect to server.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.postgresql.models.Server.Update?alt=com.azure.resourcemanager.postgresql.models.Server.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the Server update allowing to specify sslEnforcement."
+metadata: {}
+package: "com.azure.resourcemanager.postgresql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-postgresql:1.2.0-alpha.20260910.1

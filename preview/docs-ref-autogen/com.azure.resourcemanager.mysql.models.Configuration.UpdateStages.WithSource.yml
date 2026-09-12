@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.mysql.models.Configuration.UpdateStages.WithSource"
+fullName: "com.azure.resourcemanager.mysql.models.Configuration.UpdateStages.WithSource"
+name: "Configuration.UpdateStages.WithSource"
+nameWithType: "Configuration.UpdateStages.WithSource"
+summary: "The stage of the Configuration update allowing to specify source."
+syntax: "public static interface **Configuration.UpdateStages.WithSource**"
+methods:
+- uid: "com.azure.resourcemanager.mysql.models.Configuration.UpdateStages.WithSource.withSource(java.lang.String)"
+  fullName: "com.azure.resourcemanager.mysql.models.Configuration.UpdateStages.WithSource.withSource(String source)"
+  name: "withSource(String source)"
+  nameWithType: "Configuration.UpdateStages.WithSource.withSource(String source)"
+  summary: "Specifies the source property: Source of the configuration.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Source of the configuration."
+    name: "source"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract Configuration.Update withSource(String source)"
+  desc: "Specifies the source property: Source of the configuration.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.Configuration.Update?alt=com.azure.resourcemanager.mysql.models.Configuration.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the Configuration update allowing to specify source."
+metadata: {}
+package: "com.azure.resourcemanager.mysql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-mysql:1.1.0-alpha.20260910.2

@@ -95,4 +95,4 @@ type: "class"
 desc: "The states that a Virtual Machine Scale Set Lifecycle Hook event can be in. This is not settable by the customer. It is set only by the platform."
 metadata: {}
 package: "com.azure.messaging.eventgrid.systemevents.models"
-artifact: com.azure:azure-messaging-eventgrid-systemevents:1.1.0-beta.1
+artifact: com.azure:azure-messaging-eventgrid-systemevents:1.1.0-alpha.20260910.3

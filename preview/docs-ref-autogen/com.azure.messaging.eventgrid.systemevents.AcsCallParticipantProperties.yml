@@ -1,0 +1,120 @@
+### YamlMime:JavaType
+uid: "com.azure.messaging.eventgrid.systemevents.AcsCallParticipantProperties"
+fullName: "com.azure.messaging.eventgrid.systemevents.AcsCallParticipantProperties"
+name: "AcsCallParticipantProperties"
+nameWithType: "AcsCallParticipantProperties"
+summary: "Schema of calling event participant user."
+deprecatedTag: "This class is deprecated and may be removed in future releases. System events are now available in the azure-messaging-eventgrid-systemevents package."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public final class **AcsCallParticipantProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsCallParticipantProperties?alt=com.azure.messaging.eventgrid.systemevents.AcsCallParticipantProperties&text=AcsCallParticipantProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsCallParticipantProperties.AcsCallParticipantProperties()"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsCallParticipantProperties.AcsCallParticipantProperties()"
+  name: "AcsCallParticipantProperties()"
+  nameWithType: "AcsCallParticipantProperties.AcsCallParticipantProperties()"
+  summary: "Creates an instance of Acs<wbr>Call<wbr>Participant<wbr>Properties class."
+  syntax: "public AcsCallParticipantProperties()"
+  desc: "Creates an instance of AcsCallParticipantProperties class."
+methods:
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsCallParticipantProperties.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsCallParticipantProperties.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "AcsCallParticipantProperties.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Acs<wbr>Call<wbr>Participant<wbr>Properties from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static AcsCallParticipantProperties fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the AcsCallParticipantProperties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of AcsCallParticipantProperties from the JsonReader."
+  returns:
+    description: "An instance of AcsCallParticipantProperties if the JsonReader was pointing to an instance of it, or null\n if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsCallParticipantProperties?alt=com.azure.messaging.eventgrid.systemevents.AcsCallParticipantProperties&text=AcsCallParticipantProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsCallParticipantProperties.getCommunicationIdentifier()"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsCallParticipantProperties.getCommunicationIdentifier()"
+  name: "getCommunicationIdentifier()"
+  nameWithType: "AcsCallParticipantProperties.getCommunicationIdentifier()"
+  summary: "Get the communication<wbr>Identifier property: The communication identifier of the call ended by."
+  syntax: "public CommunicationIdentifierModel getCommunicationIdentifier()"
+  desc: "Get the communicationIdentifier property: The communication identifier of the call ended by."
+  returns:
+    description: "the communicationIdentifier value."
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel?alt=com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel&text=CommunicationIdentifierModel\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsCallParticipantProperties.getRole()"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsCallParticipantProperties.getRole()"
+  name: "getRole()"
+  nameWithType: "AcsCallParticipantProperties.getRole()"
+  summary: "Get the role property: The role of participant user."
+  syntax: "public AcsCallParticipantKind getRole()"
+  desc: "Get the role property: The role of participant user."
+  returns:
+    description: "the role value."
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsCallParticipantKind?alt=com.azure.messaging.eventgrid.systemevents.AcsCallParticipantKind&text=AcsCallParticipantKind\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsCallParticipantProperties.setCommunicationIdentifier(com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsCallParticipantProperties.setCommunicationIdentifier(CommunicationIdentifierModel communicationIdentifier)"
+  name: "setCommunicationIdentifier(CommunicationIdentifierModel communicationIdentifier)"
+  nameWithType: "AcsCallParticipantProperties.setCommunicationIdentifier(CommunicationIdentifierModel communicationIdentifier)"
+  summary: "Set the communication<wbr>Identifier property: The communication identifier of the call ended by."
+  parameters:
+  - description: "the communicationIdentifier value to set."
+    name: "communicationIdentifier"
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel?alt=com.azure.messaging.eventgrid.systemevents.CommunicationIdentifierModel&text=CommunicationIdentifierModel\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public AcsCallParticipantProperties setCommunicationIdentifier(CommunicationIdentifierModel communicationIdentifier)"
+  desc: "Set the communicationIdentifier property: The communication identifier of the call ended by."
+  returns:
+    description: "the AcsCallParticipantProperties object itself."
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsCallParticipantProperties?alt=com.azure.messaging.eventgrid.systemevents.AcsCallParticipantProperties&text=AcsCallParticipantProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsCallParticipantProperties.setRole(com.azure.messaging.eventgrid.systemevents.AcsCallParticipantKind)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsCallParticipantProperties.setRole(AcsCallParticipantKind role)"
+  name: "setRole(AcsCallParticipantKind role)"
+  nameWithType: "AcsCallParticipantProperties.setRole(AcsCallParticipantKind role)"
+  summary: "Set the role property: The role of participant user."
+  parameters:
+  - description: "the role value to set."
+    name: "role"
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsCallParticipantKind?alt=com.azure.messaging.eventgrid.systemevents.AcsCallParticipantKind&text=AcsCallParticipantKind\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public AcsCallParticipantProperties setRole(AcsCallParticipantKind role)"
+  desc: "Set the role property: The role of participant user."
+  returns:
+    description: "the AcsCallParticipantProperties object itself."
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsCallParticipantProperties?alt=com.azure.messaging.eventgrid.systemevents.AcsCallParticipantProperties&text=AcsCallParticipantProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsCallParticipantProperties.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsCallParticipantProperties.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "AcsCallParticipantProperties.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Schema of calling event participant user."
+hasDeprecatedTag: true
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsCallParticipantProperties?alt=com.azure.messaging.eventgrid.systemevents.AcsCallParticipantProperties&text=AcsCallParticipantProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.messaging.eventgrid.systemevents"
+artifact: com.azure:azure-messaging-eventgrid:4.32.0-alpha.20260910.3

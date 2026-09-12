@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.mysql.models.Configuration.UpdateStages.WithValue"
+fullName: "com.azure.resourcemanager.mysql.models.Configuration.UpdateStages.WithValue"
+name: "Configuration.UpdateStages.WithValue"
+nameWithType: "Configuration.UpdateStages.WithValue"
+summary: "The stage of the Configuration update allowing to specify value."
+syntax: "public static interface **Configuration.UpdateStages.WithValue**"
+methods:
+- uid: "com.azure.resourcemanager.mysql.models.Configuration.UpdateStages.WithValue.withValue(java.lang.String)"
+  fullName: "com.azure.resourcemanager.mysql.models.Configuration.UpdateStages.WithValue.withValue(String value)"
+  name: "withValue(String value)"
+  nameWithType: "Configuration.UpdateStages.WithValue.withValue(String value)"
+  summary: "Specifies the value property: Value of the configuration.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Value of the configuration."
+    name: "value"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract Configuration.Update withValue(String value)"
+  desc: "Specifies the value property: Value of the configuration.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.Configuration.Update?alt=com.azure.resourcemanager.mysql.models.Configuration.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the Configuration update allowing to specify value."
+metadata: {}
+package: "com.azure.resourcemanager.mysql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-mysql:1.1.0-alpha.20260910.2

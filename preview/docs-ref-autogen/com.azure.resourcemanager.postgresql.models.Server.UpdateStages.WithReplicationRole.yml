@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.postgresql.models.Server.UpdateStages.WithReplicationRole"
+fullName: "com.azure.resourcemanager.postgresql.models.Server.UpdateStages.WithReplicationRole"
+name: "Server.UpdateStages.WithReplicationRole"
+nameWithType: "Server.UpdateStages.WithReplicationRole"
+summary: "The stage of the Server update allowing to specify replication<wbr>Role."
+syntax: "public static interface **Server.UpdateStages.WithReplicationRole**"
+methods:
+- uid: "com.azure.resourcemanager.postgresql.models.Server.UpdateStages.WithReplicationRole.withReplicationRole(java.lang.String)"
+  fullName: "com.azure.resourcemanager.postgresql.models.Server.UpdateStages.WithReplicationRole.withReplicationRole(String replicationRole)"
+  name: "withReplicationRole(String replicationRole)"
+  nameWithType: "Server.UpdateStages.WithReplicationRole.withReplicationRole(String replicationRole)"
+  summary: "Specifies the replication<wbr>Role property: The replication role of the server.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The replication role of the server."
+    name: "replicationRole"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract Server.Update withReplicationRole(String replicationRole)"
+  desc: "Specifies the replicationRole property: The replication role of the server.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.postgresql.models.Server.Update?alt=com.azure.resourcemanager.postgresql.models.Server.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the Server update allowing to specify replicationRole."
+metadata: {}
+package: "com.azure.resourcemanager.postgresql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-postgresql:1.2.0-alpha.20260910.1

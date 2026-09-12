@@ -107,4 +107,4 @@ type: "class"
 desc: "Approval status of a target resource in a Virtual Machine Scale Set Lifecycle Hook event."
 metadata: {}
 package: "com.azure.messaging.eventgrid.systemevents.models"
-artifact: com.azure:azure-messaging-eventgrid-systemevents:1.1.0-beta.1
+artifact: com.azure:azure-messaging-eventgrid-systemevents:1.1.0-alpha.20260910.3

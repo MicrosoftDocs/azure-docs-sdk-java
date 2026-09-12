@@ -1,0 +1,18 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.mysql.models.FirewallRule.Definition"
+fullName: "com.azure.resourcemanager.mysql.models.FirewallRule.Definition"
+name: "FirewallRule.Definition"
+nameWithType: "FirewallRule.Definition"
+summary: "The entirety of the Firewall<wbr>Rule definition."
+syntax: "public static interface **FirewallRule.Definition**</br> extends <xref href=\"com.azure.resourcemanager.mysql.models.FirewallRule.DefinitionStages.Blank?alt=com.azure.resourcemanager.mysql.models.FirewallRule.DefinitionStages.Blank&text=Blank\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.mysql.models.FirewallRule.DefinitionStages.WithParentResource?alt=com.azure.resourcemanager.mysql.models.FirewallRule.DefinitionStages.WithParentResource&text=WithParentResource\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.mysql.models.FirewallRule.DefinitionStages.WithStartIpAddress?alt=com.azure.resourcemanager.mysql.models.FirewallRule.DefinitionStages.WithStartIpAddress&text=WithStartIpAddress\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.mysql.models.FirewallRule.DefinitionStages.WithEndIpAddress?alt=com.azure.resourcemanager.mysql.models.FirewallRule.DefinitionStages.WithEndIpAddress&text=WithEndIpAddress\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.mysql.models.FirewallRule.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.mysql.models.FirewallRule.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of the FirewallRule definition."
+implements:
+- "<xref href=\"com.azure.resourcemanager.mysql.models.FirewallRule.DefinitionStages.Blank?alt=com.azure.resourcemanager.mysql.models.FirewallRule.DefinitionStages.Blank&text=Blank\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.mysql.models.FirewallRule.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.mysql.models.FirewallRule.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.mysql.models.FirewallRule.DefinitionStages.WithEndIpAddress?alt=com.azure.resourcemanager.mysql.models.FirewallRule.DefinitionStages.WithEndIpAddress&text=WithEndIpAddress\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.mysql.models.FirewallRule.DefinitionStages.WithParentResource?alt=com.azure.resourcemanager.mysql.models.FirewallRule.DefinitionStages.WithParentResource&text=WithParentResource\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.mysql.models.FirewallRule.DefinitionStages.WithStartIpAddress?alt=com.azure.resourcemanager.mysql.models.FirewallRule.DefinitionStages.WithStartIpAddress&text=WithStartIpAddress\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.azure.resourcemanager.mysql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-mysql:1.1.0-alpha.20260910.2

@@ -4,6 +4,7 @@ fullName: "com.azure.messaging.eventgrid.systemevents.AcsEmailDeliveryReportStat
 name: "AcsEmailDeliveryReportStatusDetails"
 nameWithType: "AcsEmailDeliveryReportStatusDetails"
 summary: "Detailed information about the status if any."
+deprecatedTag: "This class is deprecated and may be removed in future releases. System events are now available in the azure-messaging-eventgrid-systemevents package."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -20,7 +21,7 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
-syntax: "public final class **AcsEmailDeliveryReportStatusDetails**"
+syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public final class **AcsEmailDeliveryReportStatusDetails**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsEmailDeliveryReportStatusDetails?alt=com.azure.messaging.eventgrid.systemevents.AcsEmailDeliveryReportStatusDetails&text=AcsEmailDeliveryReportStatusDetails\" data-throw-if-not-resolved=\"False\" />&gt;"
 constructors:
 - uid: "com.azure.messaging.eventgrid.systemevents.AcsEmailDeliveryReportStatusDetails.AcsEmailDeliveryReportStatusDetails()"
   fullName: "com.azure.messaging.eventgrid.systemevents.AcsEmailDeliveryReportStatusDetails.AcsEmailDeliveryReportStatusDetails()"
@@ -30,6 +31,35 @@ constructors:
   syntax: "public AcsEmailDeliveryReportStatusDetails()"
   desc: "Creates an instance of AcsEmailDeliveryReportStatusDetails class."
 methods:
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsEmailDeliveryReportStatusDetails.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsEmailDeliveryReportStatusDetails.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "AcsEmailDeliveryReportStatusDetails.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Acs<wbr>Email<wbr>Delivery<wbr>Report<wbr>Status<wbr>Details from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static AcsEmailDeliveryReportStatusDetails fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the AcsEmailDeliveryReportStatusDetails."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of AcsEmailDeliveryReportStatusDetails from the JsonReader."
+  returns:
+    description: "An instance of AcsEmailDeliveryReportStatusDetails if the JsonReader was pointing to an instance of it,\n or null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsEmailDeliveryReportStatusDetails?alt=com.azure.messaging.eventgrid.systemevents.AcsEmailDeliveryReportStatusDetails&text=AcsEmailDeliveryReportStatusDetails\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsEmailDeliveryReportStatusDetails.getRecipientMailServerHostName()"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsEmailDeliveryReportStatusDetails.getRecipientMailServerHostName()"
+  name: "getRecipientMailServerHostName()"
+  nameWithType: "AcsEmailDeliveryReportStatusDetails.getRecipientMailServerHostName()"
+  summary: "Get the recipient<wbr>Mail<wbr>Server<wbr>Host<wbr>Name property: Recipient Mail Server Host Name."
+  syntax: "public String getRecipientMailServerHostName()"
+  desc: "Get the recipientMailServerHostName property: Recipient Mail Server Host Name."
+  returns:
+    description: "the recipientMailServerHostName value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.messaging.eventgrid.systemevents.AcsEmailDeliveryReportStatusDetails.getStatusMessage()"
   fullName: "com.azure.messaging.eventgrid.systemevents.AcsEmailDeliveryReportStatusDetails.getStatusMessage()"
   name: "getStatusMessage()"
@@ -40,6 +70,20 @@ methods:
   returns:
     description: "the statusMessage value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsEmailDeliveryReportStatusDetails.setRecipientMailServerHostName(java.lang.String)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsEmailDeliveryReportStatusDetails.setRecipientMailServerHostName(String recipientMailServerHostName)"
+  name: "setRecipientMailServerHostName(String recipientMailServerHostName)"
+  nameWithType: "AcsEmailDeliveryReportStatusDetails.setRecipientMailServerHostName(String recipientMailServerHostName)"
+  summary: "Set the recipient<wbr>Mail<wbr>Server<wbr>Host<wbr>Name property: Recipient Mail Server Host Name."
+  parameters:
+  - description: "the recipientMailServerHostName value to set."
+    name: "recipientMailServerHostName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public AcsEmailDeliveryReportStatusDetails setRecipientMailServerHostName(String recipientMailServerHostName)"
+  desc: "Set the recipientMailServerHostName property: Recipient Mail Server Host Name."
+  returns:
+    description: "the AcsEmailDeliveryReportStatusDetails object itself."
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsEmailDeliveryReportStatusDetails?alt=com.azure.messaging.eventgrid.systemevents.AcsEmailDeliveryReportStatusDetails&text=AcsEmailDeliveryReportStatusDetails\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.messaging.eventgrid.systemevents.AcsEmailDeliveryReportStatusDetails.setStatusMessage(java.lang.String)"
   fullName: "com.azure.messaging.eventgrid.systemevents.AcsEmailDeliveryReportStatusDetails.setStatusMessage(String statusMessage)"
   name: "setStatusMessage(String statusMessage)"
@@ -54,8 +98,23 @@ methods:
   returns:
     description: "the AcsEmailDeliveryReportStatusDetails object itself."
     type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsEmailDeliveryReportStatusDetails?alt=com.azure.messaging.eventgrid.systemevents.AcsEmailDeliveryReportStatusDetails&text=AcsEmailDeliveryReportStatusDetails\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsEmailDeliveryReportStatusDetails.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsEmailDeliveryReportStatusDetails.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "AcsEmailDeliveryReportStatusDetails.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Detailed information about the status if any."
+hasDeprecatedTag: true
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsEmailDeliveryReportStatusDetails?alt=com.azure.messaging.eventgrid.systemevents.AcsEmailDeliveryReportStatusDetails&text=AcsEmailDeliveryReportStatusDetails\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.messaging.eventgrid.systemevents"
-artifact: com.azure:azure-messaging-eventgrid:4.21.0-beta.1
+artifact: com.azure:azure-messaging-eventgrid:4.32.0-alpha.20260910.3

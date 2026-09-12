@@ -1,0 +1,61 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.mysql.models.NameAvailability"
+fullName: "com.azure.resourcemanager.mysql.models.NameAvailability"
+name: "NameAvailability"
+nameWithType: "NameAvailability"
+summary: "An immutable client-side representation of Name<wbr>Availability."
+syntax: "public interface **NameAvailability**"
+methods:
+- uid: "com.azure.resourcemanager.mysql.models.NameAvailability.innerModel()"
+  fullName: "com.azure.resourcemanager.mysql.models.NameAvailability.innerModel()"
+  name: "innerModel()"
+  nameWithType: "NameAvailability.innerModel()"
+  summary: "Gets the inner com.<wbr>azure.<wbr>resourcemanager.<wbr>mysql.<wbr>fluent.<wbr>models.<wbr>Name<wbr>Availability<wbr>Inner object."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract NameAvailabilityInner innerModel()"
+  desc: "Gets the inner com.azure.resourcemanager.mysql.fluent.models.NameAvailabilityInner object."
+  returns:
+    description: "the inner object."
+    type: "<xref href=\"com.azure.resourcemanager.mysql.fluent.models.NameAvailabilityInner?alt=com.azure.resourcemanager.mysql.fluent.models.NameAvailabilityInner&text=NameAvailabilityInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.mysql.models.NameAvailability.message()"
+  fullName: "com.azure.resourcemanager.mysql.models.NameAvailability.message()"
+  name: "message()"
+  nameWithType: "NameAvailability.message()"
+  summary: "Gets the message property: Error Message."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String message()"
+  desc: "Gets the message property: Error Message."
+  returns:
+    description: "the message value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.mysql.models.NameAvailability.nameAvailable()"
+  fullName: "com.azure.resourcemanager.mysql.models.NameAvailability.nameAvailable()"
+  name: "nameAvailable()"
+  nameWithType: "NameAvailability.nameAvailable()"
+  summary: "Gets the name<wbr>Available property: Indicates whether the resource name is available."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract Boolean nameAvailable()"
+  desc: "Gets the nameAvailable property: Indicates whether the resource name is available."
+  returns:
+    description: "the nameAvailable value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
+- uid: "com.azure.resourcemanager.mysql.models.NameAvailability.reason()"
+  fullName: "com.azure.resourcemanager.mysql.models.NameAvailability.reason()"
+  name: "reason()"
+  nameWithType: "NameAvailability.reason()"
+  summary: "Gets the reason property: Reason for name being unavailable."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String reason()"
+  desc: "Gets the reason property: Reason for name being unavailable."
+  returns:
+    description: "the reason value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+type: "interface"
+desc: "An immutable client-side representation of NameAvailability."
+metadata: {}
+package: "com.azure.resourcemanager.mysql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-mysql:1.1.0-alpha.20260910.2

@@ -4,6 +4,7 @@ fullName: "com.azure.messaging.eventgrid.systemevents.AcsChatEventBaseProperties
 name: "AcsChatEventBaseProperties"
 nameWithType: "AcsChatEventBaseProperties"
 summary: "Schema of common properties of all chat events."
+deprecatedTag: "This class is deprecated and may be removed in future releases. System events are now available in the azure-messaging-eventgrid-systemevents package."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -20,7 +21,7 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
-syntax: "public class **AcsChatEventBaseProperties**"
+syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public class **AcsChatEventBaseProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsChatEventBaseProperties?alt=com.azure.messaging.eventgrid.systemevents.AcsChatEventBaseProperties&text=AcsChatEventBaseProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 constructors:
 - uid: "com.azure.messaging.eventgrid.systemevents.AcsChatEventBaseProperties.AcsChatEventBaseProperties()"
   fullName: "com.azure.messaging.eventgrid.systemevents.AcsChatEventBaseProperties.AcsChatEventBaseProperties()"
@@ -30,6 +31,25 @@ constructors:
   syntax: "public AcsChatEventBaseProperties()"
   desc: "Creates an instance of AcsChatEventBaseProperties class."
 methods:
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsChatEventBaseProperties.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsChatEventBaseProperties.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "AcsChatEventBaseProperties.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Acs<wbr>Chat<wbr>Event<wbr>Base<wbr>Properties from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static AcsChatEventBaseProperties fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the AcsChatEventBaseProperties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of AcsChatEventBaseProperties from the JsonReader."
+  returns:
+    description: "An instance of AcsChatEventBaseProperties if the JsonReader was pointing to an instance of it, or null if\n it was pointing to JSON null."
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsChatEventBaseProperties?alt=com.azure.messaging.eventgrid.systemevents.AcsChatEventBaseProperties&text=AcsChatEventBaseProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.messaging.eventgrid.systemevents.AcsChatEventBaseProperties.getRecipientCommunicationIdentifier()"
   fullName: "com.azure.messaging.eventgrid.systemevents.AcsChatEventBaseProperties.getRecipientCommunicationIdentifier()"
   name: "getRecipientCommunicationIdentifier()"
@@ -102,8 +122,23 @@ methods:
   returns:
     description: "the AcsChatEventBaseProperties object itself."
     type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsChatEventBaseProperties?alt=com.azure.messaging.eventgrid.systemevents.AcsChatEventBaseProperties&text=AcsChatEventBaseProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsChatEventBaseProperties.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsChatEventBaseProperties.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "AcsChatEventBaseProperties.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Schema of common properties of all chat events."
+hasDeprecatedTag: true
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsChatEventBaseProperties?alt=com.azure.messaging.eventgrid.systemevents.AcsChatEventBaseProperties&text=AcsChatEventBaseProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.messaging.eventgrid.systemevents"
-artifact: com.azure:azure-messaging-eventgrid:4.21.0-beta.1
+artifact: com.azure:azure-messaging-eventgrid:4.32.0-alpha.20260910.3

@@ -1,0 +1,100 @@
+### YamlMime:JavaType
+uid: "com.azure.ai.metricsadvisor.models.EnrichmentStatus"
+fullName: "com.azure.ai.metricsadvisor.models.EnrichmentStatus"
+name: "EnrichmentStatus"
+nameWithType: "EnrichmentStatus"
+summary: "The Enrichment<wbr>Status model."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **EnrichmentStatus**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.metricsadvisor.models.EnrichmentStatus?alt=com.azure.ai.metricsadvisor.models.EnrichmentStatus&text=EnrichmentStatus\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.ai.metricsadvisor.models.EnrichmentStatus.EnrichmentStatus()"
+  fullName: "com.azure.ai.metricsadvisor.models.EnrichmentStatus.EnrichmentStatus()"
+  name: "EnrichmentStatus()"
+  nameWithType: "EnrichmentStatus.EnrichmentStatus()"
+  summary: "Creates an instance of Enrichment<wbr>Status class."
+  syntax: "public EnrichmentStatus()"
+  desc: "Creates an instance of EnrichmentStatus class."
+methods:
+- uid: "com.azure.ai.metricsadvisor.models.EnrichmentStatus.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.ai.metricsadvisor.models.EnrichmentStatus.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "EnrichmentStatus.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Enrichment<wbr>Status from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static EnrichmentStatus fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the EnrichmentStatus."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of EnrichmentStatus from the JsonReader."
+  returns:
+    description: "An instance of EnrichmentStatus if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
+    type: "<xref href=\"com.azure.ai.metricsadvisor.models.EnrichmentStatus?alt=com.azure.ai.metricsadvisor.models.EnrichmentStatus&text=EnrichmentStatus\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.metricsadvisor.models.EnrichmentStatus.getMessage()"
+  fullName: "com.azure.ai.metricsadvisor.models.EnrichmentStatus.getMessage()"
+  name: "getMessage()"
+  nameWithType: "EnrichmentStatus.getMessage()"
+  summary: "Get the message property: the trimmed message describes details of the enrichment status."
+  syntax: "public String getMessage()"
+  desc: "Get the message property: the trimmed message describes details of the enrichment status."
+  returns:
+    description: "the message value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.ai.metricsadvisor.models.EnrichmentStatus.getStatus()"
+  fullName: "com.azure.ai.metricsadvisor.models.EnrichmentStatus.getStatus()"
+  name: "getStatus()"
+  nameWithType: "EnrichmentStatus.getStatus()"
+  summary: "Get the status property: latest enrichment status for this data slice."
+  syntax: "public String getStatus()"
+  desc: "Get the status property: latest enrichment status for this data slice."
+  returns:
+    description: "the status value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.ai.metricsadvisor.models.EnrichmentStatus.getTimestamp()"
+  fullName: "com.azure.ai.metricsadvisor.models.EnrichmentStatus.getTimestamp()"
+  name: "getTimestamp()"
+  nameWithType: "EnrichmentStatus.getTimestamp()"
+  summary: "Get the timestamp property: data slice timestamp."
+  syntax: "public OffsetDateTime getTimestamp()"
+  desc: "Get the timestamp property: data slice timestamp."
+  returns:
+    description: "the timestamp value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
+- uid: "com.azure.ai.metricsadvisor.models.EnrichmentStatus.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.ai.metricsadvisor.models.EnrichmentStatus.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "EnrichmentStatus.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "The EnrichmentStatus model."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.metricsadvisor.models.EnrichmentStatus?alt=com.azure.ai.metricsadvisor.models.EnrichmentStatus&text=EnrichmentStatus\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.ai.metricsadvisor.models"
+artifact: com.azure:azure-ai-metricsadvisor:1.3.0-alpha.20260910.4

@@ -1,0 +1,110 @@
+### YamlMime:JavaType
+uid: "com.azure.ai.projects.models.AgentInsightStatus"
+fullName: "com.azure.ai.projects.models.AgentInsightStatus"
+name: "AgentInsightStatus"
+nameWithType: "AgentInsightStatus"
+summary: "The lifecycle status of an agent insight."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **AgentInsightStatus**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.projects.models.AgentInsightStatus?alt=com.azure.ai.projects.models.AgentInsightStatus&text=AgentInsightStatus\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.ai.projects.models.AgentInsightStatus.AgentInsightStatus()"
+  fullName: "com.azure.ai.projects.models.AgentInsightStatus.AgentInsightStatus()"
+  name: "AgentInsightStatus()"
+  nameWithType: "AgentInsightStatus.AgentInsightStatus()"
+  summary: "Creates a new instance of Agent<wbr>Insight<wbr>Status value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.ai.projects.models.AgentInsightStatus.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public AgentInsightStatus()"
+  desc: "Creates a new instance of AgentInsightStatus value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.ai.projects.models.AgentInsightStatus.ACTIVE"
+  fullName: "com.azure.ai.projects.models.AgentInsightStatus.ACTIVE"
+  name: "ACTIVE"
+  nameWithType: "AgentInsightStatus.ACTIVE"
+  summary: "The insight is active and should be reviewed."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.projects.models.AgentInsightStatus?alt=com.azure.ai.projects.models.AgentInsightStatus&text=AgentInsightStatus\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AgentInsightStatus ACTIVE"
+  desc: "The insight is active and should be reviewed."
+- uid: "com.azure.ai.projects.models.AgentInsightStatus.IGNORED"
+  fullName: "com.azure.ai.projects.models.AgentInsightStatus.IGNORED"
+  name: "IGNORED"
+  nameWithType: "AgentInsightStatus.IGNORED"
+  summary: "The insight was ignored by the user."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.projects.models.AgentInsightStatus?alt=com.azure.ai.projects.models.AgentInsightStatus&text=AgentInsightStatus\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AgentInsightStatus IGNORED"
+  desc: "The insight was ignored by the user."
+- uid: "com.azure.ai.projects.models.AgentInsightStatus.RESOLVED"
+  fullName: "com.azure.ai.projects.models.AgentInsightStatus.RESOLVED"
+  name: "RESOLVED"
+  nameWithType: "AgentInsightStatus.RESOLVED"
+  summary: "The insight was resolved by the user."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.projects.models.AgentInsightStatus?alt=com.azure.ai.projects.models.AgentInsightStatus&text=AgentInsightStatus\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AgentInsightStatus RESOLVED"
+  desc: "The insight was resolved by the user."
+methods:
+- uid: "com.azure.ai.projects.models.AgentInsightStatus.fromString(java.lang.String)"
+  fullName: "com.azure.ai.projects.models.AgentInsightStatus.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "AgentInsightStatus.fromString(String name)"
+  summary: "Creates or finds a Agent<wbr>Insight<wbr>Status from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static AgentInsightStatus fromString(String name)"
+  desc: "Creates or finds a AgentInsightStatus from its string representation."
+  returns:
+    description: "the corresponding AgentInsightStatus."
+    type: "<xref href=\"com.azure.ai.projects.models.AgentInsightStatus?alt=com.azure.ai.projects.models.AgentInsightStatus&text=AgentInsightStatus\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.projects.models.AgentInsightStatus.values()"
+  fullName: "com.azure.ai.projects.models.AgentInsightStatus.values()"
+  name: "values()"
+  nameWithType: "AgentInsightStatus.values()"
+  summary: "Gets known Agent<wbr>Insight<wbr>Status values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<AgentInsightStatus> values()"
+  desc: "Gets known AgentInsightStatus values."
+  returns:
+    description: "known AgentInsightStatus values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.ai.projects.models.AgentInsightStatus?alt=com.azure.ai.projects.models.AgentInsightStatus&text=AgentInsightStatus\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "The lifecycle status of an agent insight."
+metadata: {}
+package: "com.azure.ai.projects.models"
+artifact: com.azure:azure-ai-projects:2.5.0

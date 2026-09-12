@@ -202,4 +202,4 @@ type: "interface"
 desc: "The interface for VMwareCloudSimple class."
 metadata: {}
 package: "com.azure.resourcemanager.vmwarecloudsimple.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-vmwarecloudsimple:1.0.0-beta.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-vmwarecloudsimple:1.0.0-alpha.20260910.4

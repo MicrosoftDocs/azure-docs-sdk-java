@@ -1,0 +1,16 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.mysql.models.Database.Definition"
+fullName: "com.azure.resourcemanager.mysql.models.Database.Definition"
+name: "Database.Definition"
+nameWithType: "Database.Definition"
+summary: "The entirety of the Database definition."
+syntax: "public static interface **Database.Definition**</br> extends <xref href=\"com.azure.resourcemanager.mysql.models.Database.DefinitionStages.Blank?alt=com.azure.resourcemanager.mysql.models.Database.DefinitionStages.Blank&text=Blank\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.mysql.models.Database.DefinitionStages.WithParentResource?alt=com.azure.resourcemanager.mysql.models.Database.DefinitionStages.WithParentResource&text=WithParentResource\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.mysql.models.Database.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.mysql.models.Database.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of the Database definition."
+implements:
+- "<xref href=\"com.azure.resourcemanager.mysql.models.Database.DefinitionStages.Blank?alt=com.azure.resourcemanager.mysql.models.Database.DefinitionStages.Blank&text=Blank\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.mysql.models.Database.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.mysql.models.Database.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.mysql.models.Database.DefinitionStages.WithParentResource?alt=com.azure.resourcemanager.mysql.models.Database.DefinitionStages.WithParentResource&text=WithParentResource\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.azure.resourcemanager.mysql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-mysql:1.1.0-alpha.20260910.2

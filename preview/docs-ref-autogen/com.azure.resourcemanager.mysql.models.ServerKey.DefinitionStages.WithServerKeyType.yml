@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.mysql.models.ServerKey.DefinitionStages.WithServerKeyType"
+fullName: "com.azure.resourcemanager.mysql.models.ServerKey.DefinitionStages.WithServerKeyType"
+name: "ServerKey.DefinitionStages.WithServerKeyType"
+nameWithType: "ServerKey.DefinitionStages.WithServerKeyType"
+summary: "The stage of the Server<wbr>Key definition allowing to specify server<wbr>Key<wbr>Type."
+syntax: "public static interface **ServerKey.DefinitionStages.WithServerKeyType**"
+methods:
+- uid: "com.azure.resourcemanager.mysql.models.ServerKey.DefinitionStages.WithServerKeyType.withServerKeyType(com.azure.resourcemanager.mysql.models.ServerKeyType)"
+  fullName: "com.azure.resourcemanager.mysql.models.ServerKey.DefinitionStages.WithServerKeyType.withServerKeyType(ServerKeyType serverKeyType)"
+  name: "withServerKeyType(ServerKeyType serverKeyType)"
+  nameWithType: "ServerKey.DefinitionStages.WithServerKeyType.withServerKeyType(ServerKeyType serverKeyType)"
+  summary: "Specifies the server<wbr>Key<wbr>Type property: The key type like 'Azure<wbr>Key<wbr>Vault'.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The key type like 'AzureKeyVault'."
+    name: "serverKeyType"
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.ServerKeyType?alt=com.azure.resourcemanager.mysql.models.ServerKeyType&text=ServerKeyType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract ServerKey.DefinitionStages.WithCreate withServerKeyType(ServerKeyType serverKeyType)"
+  desc: "Specifies the serverKeyType property: The key type like 'AzureKeyVault'.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.ServerKey.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.mysql.models.ServerKey.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the ServerKey definition allowing to specify serverKeyType."
+metadata: {}
+package: "com.azure.resourcemanager.mysql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-mysql:1.1.0-alpha.20260910.2

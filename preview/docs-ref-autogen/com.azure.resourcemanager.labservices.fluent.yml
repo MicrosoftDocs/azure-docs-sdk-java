@@ -18,4 +18,4 @@ interfaces:
 desc: "Package containing the service clients for LabServicesClient. REST API for managing Azure Lab Services images."
 metadata: {}
 package: "com.azure.resourcemanager.labservices.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-labservices:1.0.0-beta.4
+artifact: com.azure.resourcemanager:azure-resourcemanager-labservices:1.1.0-alpha.20260910.1

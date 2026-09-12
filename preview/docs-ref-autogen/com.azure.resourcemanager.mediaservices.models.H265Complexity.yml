@@ -107,4 +107,4 @@ type: "class"
 desc: "Tells the encoder how to choose its encoding settings. Quality will provide for a higher compression ratio but at a higher cost and longer compute time. Speed will produce a relatively larger file but is faster and more economical. The default value is Balanced."
 metadata: {}
 package: "com.azure.resourcemanager.mediaservices.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-mediaservices:2.4.0-beta.2
+artifact: com.azure.resourcemanager:azure-resourcemanager-mediaservices:2.5.0-alpha.20260910.3

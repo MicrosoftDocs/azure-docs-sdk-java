@@ -95,4 +95,4 @@ type: "class"
 desc: "The action that will be applied to a target resource in the Virtual Machine Scale Set Lifecycle Hook event if the platform does not receive a response from the customer for the target resource before waitUntil."
 metadata: {}
 package: "com.azure.messaging.eventgrid.systemevents.models"
-artifact: com.azure:azure-messaging-eventgrid-systemevents:1.1.0-beta.1
+artifact: com.azure:azure-messaging-eventgrid-systemevents:1.1.0-alpha.20260910.3

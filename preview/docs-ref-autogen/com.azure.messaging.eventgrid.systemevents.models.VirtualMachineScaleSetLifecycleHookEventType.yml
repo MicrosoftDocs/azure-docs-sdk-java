@@ -95,4 +95,4 @@ type: "class"
 desc: "Specifies the scenario for which the customer is interested in receiving Virtual Machine Scale Set Lifecycle Hook events."
 metadata: {}
 package: "com.azure.messaging.eventgrid.systemevents.models"
-artifact: com.azure:azure-messaging-eventgrid-systemevents:1.1.0-beta.1
+artifact: com.azure:azure-messaging-eventgrid-systemevents:1.1.0-alpha.20260910.3

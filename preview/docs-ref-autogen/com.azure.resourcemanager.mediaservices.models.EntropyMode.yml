@@ -95,4 +95,4 @@ type: "class"
 desc: "The entropy mode to be used for this layer. If not specified, the encoder chooses the mode that is appropriate for the profile and level."
 metadata: {}
 package: "com.azure.resourcemanager.mediaservices.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-mediaservices:2.4.0-beta.2
+artifact: com.azure.resourcemanager:azure-resourcemanager-mediaservices:2.5.0-alpha.20260910.3

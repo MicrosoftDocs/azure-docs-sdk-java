@@ -1,0 +1,44 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.mysql.models.Database.DefinitionStages.WithCreate"
+fullName: "com.azure.resourcemanager.mysql.models.Database.DefinitionStages.WithCreate"
+name: "Database.DefinitionStages.WithCreate"
+nameWithType: "Database.DefinitionStages.WithCreate"
+summary: "The stage of the Database definition which contains all the minimum required properties for the resource to be created, but also allows for any other optional properties to be specified."
+syntax: "public static interface **Database.DefinitionStages.WithCreate**</br> extends <xref href=\"com.azure.resourcemanager.mysql.models.Database.DefinitionStages.WithCharset?alt=com.azure.resourcemanager.mysql.models.Database.DefinitionStages.WithCharset&text=WithCharset\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.mysql.models.Database.DefinitionStages.WithCollation?alt=com.azure.resourcemanager.mysql.models.Database.DefinitionStages.WithCollation&text=WithCollation\" data-throw-if-not-resolved=\"False\" />"
+methods:
+- uid: "com.azure.resourcemanager.mysql.models.Database.DefinitionStages.WithCreate.create()"
+  fullName: "com.azure.resourcemanager.mysql.models.Database.DefinitionStages.WithCreate.create()"
+  name: "create()"
+  nameWithType: "Database.DefinitionStages.WithCreate.create()"
+  summary: "Executes the create request."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract Database create()"
+  desc: "Executes the create request."
+  returns:
+    description: "the created resource."
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.Database?alt=com.azure.resourcemanager.mysql.models.Database&text=Database\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.mysql.models.Database.DefinitionStages.WithCreate.create(com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.mysql.models.Database.DefinitionStages.WithCreate.create(Context context)"
+  name: "create(Context context)"
+  nameWithType: "Database.DefinitionStages.WithCreate.create(Context context)"
+  summary: "Executes the create request."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract Database create(Context context)"
+  desc: "Executes the create request."
+  returns:
+    description: "the created resource."
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.Database?alt=com.azure.resourcemanager.mysql.models.Database&text=Database\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the Database definition which contains all the minimum required properties for the resource to be created, but also allows for any other optional properties to be specified."
+implements:
+- "<xref href=\"com.azure.resourcemanager.mysql.models.Database.DefinitionStages.WithCharset?alt=com.azure.resourcemanager.mysql.models.Database.DefinitionStages.WithCharset&text=WithCharset\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.mysql.models.Database.DefinitionStages.WithCollation?alt=com.azure.resourcemanager.mysql.models.Database.DefinitionStages.WithCollation&text=WithCollation\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.azure.resourcemanager.mysql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-mysql:1.1.0-alpha.20260910.2

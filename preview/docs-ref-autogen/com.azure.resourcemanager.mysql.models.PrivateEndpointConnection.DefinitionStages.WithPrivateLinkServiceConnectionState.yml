@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.mysql.models.PrivateEndpointConnection.DefinitionStages.WithPrivateLinkServiceConnectionState"
+fullName: "com.azure.resourcemanager.mysql.models.PrivateEndpointConnection.DefinitionStages.WithPrivateLinkServiceConnectionState"
+name: "PrivateEndpointConnection.DefinitionStages.WithPrivateLinkServiceConnectionState"
+nameWithType: "PrivateEndpointConnection.DefinitionStages.WithPrivateLinkServiceConnectionState"
+summary: "The stage of the Private<wbr>Endpoint<wbr>Connection definition allowing to specify private<wbr>Link<wbr>Service<wbr>Connection<wbr>State."
+syntax: "public static interface **PrivateEndpointConnection.DefinitionStages.WithPrivateLinkServiceConnectionState**"
+methods:
+- uid: "com.azure.resourcemanager.mysql.models.PrivateEndpointConnection.DefinitionStages.WithPrivateLinkServiceConnectionState.withPrivateLinkServiceConnectionState(com.azure.resourcemanager.mysql.models.PrivateLinkServiceConnectionStateProperty)"
+  fullName: "com.azure.resourcemanager.mysql.models.PrivateEndpointConnection.DefinitionStages.WithPrivateLinkServiceConnectionState.withPrivateLinkServiceConnectionState(PrivateLinkServiceConnectionStateProperty privateLinkServiceConnectionState)"
+  name: "withPrivateLinkServiceConnectionState(PrivateLinkServiceConnectionStateProperty privateLinkServiceConnectionState)"
+  nameWithType: "PrivateEndpointConnection.DefinitionStages.WithPrivateLinkServiceConnectionState.withPrivateLinkServiceConnectionState(PrivateLinkServiceConnectionStateProperty privateLinkServiceConnectionState)"
+  summary: "Specifies the private<wbr>Link<wbr>Service<wbr>Connection<wbr>State property: Connection state of the private endpoint connection.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Connection state of the private endpoint connection."
+    name: "privateLinkServiceConnectionState"
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.PrivateLinkServiceConnectionStateProperty?alt=com.azure.resourcemanager.mysql.models.PrivateLinkServiceConnectionStateProperty&text=PrivateLinkServiceConnectionStateProperty\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract PrivateEndpointConnection.DefinitionStages.WithCreate withPrivateLinkServiceConnectionState(PrivateLinkServiceConnectionStateProperty privateLinkServiceConnectionState)"
+  desc: "Specifies the privateLinkServiceConnectionState property: Connection state of the private endpoint connection.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.PrivateEndpointConnection.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.mysql.models.PrivateEndpointConnection.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the PrivateEndpointConnection definition allowing to specify privateLinkServiceConnectionState."
+metadata: {}
+package: "com.azure.resourcemanager.mysql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-mysql:1.1.0-alpha.20260910.2

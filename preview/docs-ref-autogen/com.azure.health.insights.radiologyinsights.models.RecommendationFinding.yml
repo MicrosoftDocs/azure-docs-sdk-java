@@ -1,0 +1,102 @@
+### YamlMime:JavaType
+uid: "com.azure.health.insights.radiologyinsights.models.RecommendationFinding"
+fullName: "com.azure.health.insights.radiologyinsights.models.RecommendationFinding"
+name: "RecommendationFinding"
+nameWithType: "RecommendationFinding"
+summary: "Finding reference for recommendation."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **RecommendationFinding**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.health.insights.radiologyinsights.models.RecommendationFinding?alt=com.azure.health.insights.radiologyinsights.models.RecommendationFinding&text=RecommendationFinding\" data-throw-if-not-resolved=\"False\" />&gt;"
+methods:
+- uid: "com.azure.health.insights.radiologyinsights.models.RecommendationFinding.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.health.insights.radiologyinsights.models.RecommendationFinding.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "RecommendationFinding.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Recommendation<wbr>Finding from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static RecommendationFinding fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of RecommendationFinding from the JsonReader."
+  returns:
+    description: "An instance of RecommendationFinding if the JsonReader was pointing to an instance of it, or null if it\n was pointing to JSON null."
+    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.RecommendationFinding?alt=com.azure.health.insights.radiologyinsights.models.RecommendationFinding&text=RecommendationFinding\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.health.insights.radiologyinsights.models.RecommendationFinding.getCriticalFinding()"
+  fullName: "com.azure.health.insights.radiologyinsights.models.RecommendationFinding.getCriticalFinding()"
+  name: "getCriticalFinding()"
+  nameWithType: "RecommendationFinding.getCriticalFinding()"
+  summary: "Get the critical<wbr>Finding property: Critical result linked to a recommendation."
+  syntax: "public CriticalResult getCriticalFinding()"
+  desc: "Get the criticalFinding property: Critical result linked to a recommendation."
+  returns:
+    description: "the criticalFinding value."
+    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.CriticalResult?alt=com.azure.health.insights.radiologyinsights.models.CriticalResult&text=CriticalResult\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.health.insights.radiologyinsights.models.RecommendationFinding.getExtension()"
+  fullName: "com.azure.health.insights.radiologyinsights.models.RecommendationFinding.getExtension()"
+  name: "getExtension()"
+  nameWithType: "RecommendationFinding.getExtension()"
+  summary: "Get the extension property: Additional Content defined by implementations."
+  syntax: "public List<FhirR4Extension> getExtension()"
+  desc: "Get the extension property: Additional Content defined by implementations."
+  returns:
+    description: "the extension value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4Extension?alt=com.azure.health.insights.radiologyinsights.models.FhirR4Extension&text=FhirR4Extension\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.health.insights.radiologyinsights.models.RecommendationFinding.getFinding()"
+  fullName: "com.azure.health.insights.radiologyinsights.models.RecommendationFinding.getFinding()"
+  name: "getFinding()"
+  nameWithType: "RecommendationFinding.getFinding()"
+  summary: "Get the finding property: Finding linked to a recommendation."
+  syntax: "public FhirR4Observation getFinding()"
+  desc: "Get the finding property: Finding linked to a recommendation."
+  returns:
+    description: "the finding value."
+    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4Observation?alt=com.azure.health.insights.radiologyinsights.models.FhirR4Observation&text=FhirR4Observation\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.health.insights.radiologyinsights.models.RecommendationFinding.getRecommendationFindingStatus()"
+  fullName: "com.azure.health.insights.radiologyinsights.models.RecommendationFinding.getRecommendationFindingStatus()"
+  name: "getRecommendationFindingStatus()"
+  nameWithType: "RecommendationFinding.getRecommendationFindingStatus()"
+  summary: "Get the recommendation<wbr>Finding<wbr>Status property: Recommendation finding status."
+  syntax: "public RecommendationFindingStatusType getRecommendationFindingStatus()"
+  desc: "Get the recommendationFindingStatus property: Recommendation finding status."
+  returns:
+    description: "the recommendationFindingStatus value."
+    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.RecommendationFindingStatusType?alt=com.azure.health.insights.radiologyinsights.models.RecommendationFindingStatusType&text=RecommendationFindingStatusType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.health.insights.radiologyinsights.models.RecommendationFinding.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.health.insights.radiologyinsights.models.RecommendationFinding.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "RecommendationFinding.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Finding reference for recommendation."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.health.insights.radiologyinsights.models.RecommendationFinding?alt=com.azure.health.insights.radiologyinsights.models.RecommendationFinding&text=RecommendationFinding\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.health.insights.radiologyinsights.models"
+artifact: com.azure:azure-health-insights-radiologyinsights:1.2.0-alpha.20260910.2

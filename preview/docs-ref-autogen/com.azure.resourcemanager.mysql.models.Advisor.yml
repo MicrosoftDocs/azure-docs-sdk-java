@@ -1,0 +1,73 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.mysql.models.Advisor"
+fullName: "com.azure.resourcemanager.mysql.models.Advisor"
+name: "Advisor"
+nameWithType: "Advisor"
+summary: "An immutable client-side representation of Advisor."
+syntax: "public interface **Advisor**"
+methods:
+- uid: "com.azure.resourcemanager.mysql.models.Advisor.id()"
+  fullName: "com.azure.resourcemanager.mysql.models.Advisor.id()"
+  name: "id()"
+  nameWithType: "Advisor.id()"
+  summary: "Gets the id property: Fully qualified resource Id for the resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String id()"
+  desc: "Gets the id property: Fully qualified resource Id for the resource."
+  returns:
+    description: "the id value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.mysql.models.Advisor.innerModel()"
+  fullName: "com.azure.resourcemanager.mysql.models.Advisor.innerModel()"
+  name: "innerModel()"
+  nameWithType: "Advisor.innerModel()"
+  summary: "Gets the inner com.<wbr>azure.<wbr>resourcemanager.<wbr>mysql.<wbr>fluent.<wbr>models.<wbr>Advisor<wbr>Inner object."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract AdvisorInner innerModel()"
+  desc: "Gets the inner com.azure.resourcemanager.mysql.fluent.models.AdvisorInner object."
+  returns:
+    description: "the inner object."
+    type: "<xref href=\"com.azure.resourcemanager.mysql.fluent.models.AdvisorInner?alt=com.azure.resourcemanager.mysql.fluent.models.AdvisorInner&text=AdvisorInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.mysql.models.Advisor.name()"
+  fullName: "com.azure.resourcemanager.mysql.models.Advisor.name()"
+  name: "name()"
+  nameWithType: "Advisor.name()"
+  summary: "Gets the name property: The name of the resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String name()"
+  desc: "Gets the name property: The name of the resource."
+  returns:
+    description: "the name value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.mysql.models.Advisor.properties()"
+  fullName: "com.azure.resourcemanager.mysql.models.Advisor.properties()"
+  name: "properties()"
+  nameWithType: "Advisor.properties()"
+  summary: "Gets the properties property: The properties of a recommendation action advisor."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract Object properties()"
+  desc: "Gets the properties property: The properties of a recommendation action advisor."
+  returns:
+    description: "the properties value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+- uid: "com.azure.resourcemanager.mysql.models.Advisor.type()"
+  fullName: "com.azure.resourcemanager.mysql.models.Advisor.type()"
+  name: "type()"
+  nameWithType: "Advisor.type()"
+  summary: "Gets the type property: The type of the resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String type()"
+  desc: "Gets the type property: The type of the resource."
+  returns:
+    description: "the type value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+type: "interface"
+desc: "An immutable client-side representation of Advisor."
+metadata: {}
+package: "com.azure.resourcemanager.mysql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-mysql:1.1.0-alpha.20260910.2

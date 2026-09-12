@@ -8,6 +8,12 @@ inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.azure.health.insights.radiologyinsights.models.ProcedureRecommendation?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.health.insights.radiologyinsights.models.ProcedureRecommendation?alt=com.azure.health.insights.radiologyinsights.models.ProcedureRecommendation&text=ProcedureRecommendation\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.health.insights.radiologyinsights.models.ProcedureRecommendation.fromJson(com.azure.json.JsonReader)?alt=com.azure.health.insights.radiologyinsights.models.ProcedureRecommendation.fromJson&text=fromJson\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.health.insights.radiologyinsights.models.ProcedureRecommendation.getExtension()?alt=com.azure.health.insights.radiologyinsights.models.ProcedureRecommendation.getExtension&text=getExtension\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.health.insights.radiologyinsights.models.ProcedureRecommendation.getKind()?alt=com.azure.health.insights.radiologyinsights.models.ProcedureRecommendation.getKind&text=getKind\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.health.insights.radiologyinsights.models.ProcedureRecommendation.toJson(com.azure.json.JsonWriter)?alt=com.azure.health.insights.radiologyinsights.models.ProcedureRecommendation.toJson&text=toJson\" data-throw-if-not-resolved=\"False\" />"
 - classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   methodsRef:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
@@ -23,6 +29,25 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **GenericProcedureRecommendation**</br> extends <xref href=\"com.azure.health.insights.radiologyinsights.models.ProcedureRecommendation?alt=com.azure.health.insights.radiologyinsights.models.ProcedureRecommendation&text=ProcedureRecommendation\" data-throw-if-not-resolved=\"False\" />"
 methods:
+- uid: "com.azure.health.insights.radiologyinsights.models.GenericProcedureRecommendation.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.health.insights.radiologyinsights.models.GenericProcedureRecommendation.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "GenericProcedureRecommendation.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Generic<wbr>Procedure<wbr>Recommendation from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static GenericProcedureRecommendation fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of GenericProcedureRecommendation from the JsonReader."
+  returns:
+    description: "An instance of GenericProcedureRecommendation if the JsonReader was pointing to an instance of it, or\n null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.GenericProcedureRecommendation?alt=com.azure.health.insights.radiologyinsights.models.GenericProcedureRecommendation&text=GenericProcedureRecommendation\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.health.insights.radiologyinsights.models.GenericProcedureRecommendation.getCode()"
   fullName: "com.azure.health.insights.radiologyinsights.models.GenericProcedureRecommendation.getCode()"
   name: "getCode()"
@@ -43,8 +68,32 @@ methods:
   returns:
     description: "the description value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.health.insights.radiologyinsights.models.GenericProcedureRecommendation.getKind()"
+  fullName: "com.azure.health.insights.radiologyinsights.models.GenericProcedureRecommendation.getKind()"
+  name: "getKind()"
+  nameWithType: "GenericProcedureRecommendation.getKind()"
+  summary: "Get the kind property: Discriminator property for Procedure<wbr>Recommendation."
+  overridden: "com.azure.health.insights.radiologyinsights.models.ProcedureRecommendation.getKind()"
+  syntax: "public String getKind()"
+  desc: "Get the kind property: Discriminator property for ProcedureRecommendation."
+  returns:
+    description: "the kind value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.health.insights.radiologyinsights.models.GenericProcedureRecommendation.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.health.insights.radiologyinsights.models.GenericProcedureRecommendation.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "GenericProcedureRecommendation.toJson(JsonWriter jsonWriter)"
+  overridden: "com.azure.health.insights.radiologyinsights.models.ProcedureRecommendation.toJson(com.azure.json.JsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Generic procedure information."
 metadata: {}
 package: "com.azure.health.insights.radiologyinsights.models"
-artifact: com.azure:azure-health-insights-radiologyinsights:1.0.0-beta.1
+artifact: com.azure:azure-health-insights-radiologyinsights:1.2.0-alpha.20260910.2

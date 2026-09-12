@@ -1,0 +1,44 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.relay.models.HybridConnection.Update"
+fullName: "com.azure.resourcemanager.relay.models.HybridConnection.Update"
+name: "HybridConnection.Update"
+nameWithType: "HybridConnection.Update"
+summary: "The template for Hybrid<wbr>Connection update."
+syntax: "public static interface **HybridConnection.Update**</br> extends <xref href=\"com.azure.resourcemanager.relay.models.HybridConnection.UpdateStages.WithRequiresClientAuthorization?alt=com.azure.resourcemanager.relay.models.HybridConnection.UpdateStages.WithRequiresClientAuthorization&text=WithRequiresClientAuthorization\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.relay.models.HybridConnection.UpdateStages.WithUserMetadata?alt=com.azure.resourcemanager.relay.models.HybridConnection.UpdateStages.WithUserMetadata&text=WithUserMetadata\" data-throw-if-not-resolved=\"False\" />"
+methods:
+- uid: "com.azure.resourcemanager.relay.models.HybridConnection.Update.apply()"
+  fullName: "com.azure.resourcemanager.relay.models.HybridConnection.Update.apply()"
+  name: "apply()"
+  nameWithType: "HybridConnection.Update.apply()"
+  summary: "Executes the update request."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract HybridConnection apply()"
+  desc: "Executes the update request."
+  returns:
+    description: "the updated resource."
+    type: "<xref href=\"com.azure.resourcemanager.relay.models.HybridConnection?alt=com.azure.resourcemanager.relay.models.HybridConnection&text=HybridConnection\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.relay.models.HybridConnection.Update.apply(com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.relay.models.HybridConnection.Update.apply(Context context)"
+  name: "apply(Context context)"
+  nameWithType: "HybridConnection.Update.apply(Context context)"
+  summary: "Executes the update request."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract HybridConnection apply(Context context)"
+  desc: "Executes the update request."
+  returns:
+    description: "the updated resource."
+    type: "<xref href=\"com.azure.resourcemanager.relay.models.HybridConnection?alt=com.azure.resourcemanager.relay.models.HybridConnection&text=HybridConnection\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The template for HybridConnection update."
+implements:
+- "<xref href=\"com.azure.resourcemanager.relay.models.HybridConnection.UpdateStages.WithRequiresClientAuthorization?alt=com.azure.resourcemanager.relay.models.HybridConnection.UpdateStages.WithRequiresClientAuthorization&text=WithRequiresClientAuthorization\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.relay.models.HybridConnection.UpdateStages.WithUserMetadata?alt=com.azure.resourcemanager.relay.models.HybridConnection.UpdateStages.WithUserMetadata&text=WithUserMetadata\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.azure.resourcemanager.relay.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-relay:1.1.0

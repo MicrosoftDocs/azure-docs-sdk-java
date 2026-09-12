@@ -1,0 +1,116 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.mysql.models.CreateMode"
+fullName: "com.azure.resourcemanager.mysql.models.CreateMode"
+name: "CreateMode"
+nameWithType: "CreateMode"
+summary: "Defines values for Create<wbr>Mode."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **CreateMode**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.mysql.models.CreateMode?alt=com.azure.resourcemanager.mysql.models.CreateMode&text=CreateMode\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.mysql.models.CreateMode.CreateMode()"
+  fullName: "com.azure.resourcemanager.mysql.models.CreateMode.CreateMode()"
+  name: "CreateMode()"
+  nameWithType: "CreateMode.CreateMode()"
+  syntax: "public CreateMode()"
+fields:
+- uid: "com.azure.resourcemanager.mysql.models.CreateMode.DEFAULT"
+  fullName: "com.azure.resourcemanager.mysql.models.CreateMode.DEFAULT"
+  name: "DEFAULT"
+  nameWithType: "CreateMode.DEFAULT"
+  summary: "Static value Default for Create<wbr>Mode."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.CreateMode?alt=com.azure.resourcemanager.mysql.models.CreateMode&text=CreateMode\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final CreateMode DEFAULT"
+  desc: "Static value Default for CreateMode."
+- uid: "com.azure.resourcemanager.mysql.models.CreateMode.GEO_RESTORE"
+  fullName: "com.azure.resourcemanager.mysql.models.CreateMode.GEO_RESTORE"
+  name: "GEO_RESTORE"
+  nameWithType: "CreateMode.GEO_RESTORE"
+  summary: "Static value Geo<wbr>Restore for Create<wbr>Mode."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.CreateMode?alt=com.azure.resourcemanager.mysql.models.CreateMode&text=CreateMode\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final CreateMode GEO_RESTORE"
+  desc: "Static value GeoRestore for CreateMode."
+- uid: "com.azure.resourcemanager.mysql.models.CreateMode.POINT_IN_TIME_RESTORE"
+  fullName: "com.azure.resourcemanager.mysql.models.CreateMode.POINT_IN_TIME_RESTORE"
+  name: "POINT_IN_TIME_RESTORE"
+  nameWithType: "CreateMode.POINT_IN_TIME_RESTORE"
+  summary: "Static value Point<wbr>InTime<wbr>Restore for Create<wbr>Mode."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.CreateMode?alt=com.azure.resourcemanager.mysql.models.CreateMode&text=CreateMode\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final CreateMode POINT_IN_TIME_RESTORE"
+  desc: "Static value PointInTimeRestore for CreateMode."
+- uid: "com.azure.resourcemanager.mysql.models.CreateMode.REPLICA"
+  fullName: "com.azure.resourcemanager.mysql.models.CreateMode.REPLICA"
+  name: "REPLICA"
+  nameWithType: "CreateMode.REPLICA"
+  summary: "Static value Replica for Create<wbr>Mode."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.CreateMode?alt=com.azure.resourcemanager.mysql.models.CreateMode&text=CreateMode\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final CreateMode REPLICA"
+  desc: "Static value Replica for CreateMode."
+methods:
+- uid: "com.azure.resourcemanager.mysql.models.CreateMode.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.mysql.models.CreateMode.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "CreateMode.fromString(String name)"
+  summary: "Creates or finds a Create<wbr>Mode from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static CreateMode fromString(String name)"
+  desc: "Creates or finds a CreateMode from its string representation."
+  returns:
+    description: "the corresponding CreateMode."
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.CreateMode?alt=com.azure.resourcemanager.mysql.models.CreateMode&text=CreateMode\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.mysql.models.CreateMode.values()"
+  fullName: "com.azure.resourcemanager.mysql.models.CreateMode.values()"
+  name: "values()"
+  nameWithType: "CreateMode.values()"
+  modifiers:
+  - "static"
+  syntax: "public static Collection<CreateMode> values()"
+  returns:
+    description: "known CreateMode values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.mysql.models.CreateMode?alt=com.azure.resourcemanager.mysql.models.CreateMode&text=CreateMode\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Defines values for CreateMode."
+metadata: {}
+package: "com.azure.resourcemanager.mysql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-mysql:1.1.0-alpha.20260910.2

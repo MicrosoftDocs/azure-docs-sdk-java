@@ -1,0 +1,32 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.mysql.models.VirtualNetworkRule.DefinitionStages.WithParentResource"
+fullName: "com.azure.resourcemanager.mysql.models.VirtualNetworkRule.DefinitionStages.WithParentResource"
+name: "VirtualNetworkRule.DefinitionStages.WithParentResource"
+nameWithType: "VirtualNetworkRule.DefinitionStages.WithParentResource"
+summary: "The stage of the Virtual<wbr>Network<wbr>Rule definition allowing to specify parent resource."
+syntax: "public static interface **VirtualNetworkRule.DefinitionStages.WithParentResource**"
+methods:
+- uid: "com.azure.resourcemanager.mysql.models.VirtualNetworkRule.DefinitionStages.WithParentResource.withExistingServer(java.lang.String,java.lang.String)"
+  fullName: "com.azure.resourcemanager.mysql.models.VirtualNetworkRule.DefinitionStages.WithParentResource.withExistingServer(String resourceGroupName, String serverName)"
+  name: "withExistingServer(String resourceGroupName, String serverName)"
+  nameWithType: "VirtualNetworkRule.DefinitionStages.WithParentResource.withExistingServer(String resourceGroupName, String serverName)"
+  summary: "Specifies resource<wbr>Group<wbr>Name, server<wbr>Name."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the server."
+    name: "serverName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract VirtualNetworkRule.DefinitionStages.WithCreate withExistingServer(String resourceGroupName, String serverName)"
+  desc: "Specifies resourceGroupName, serverName."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.VirtualNetworkRule.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.mysql.models.VirtualNetworkRule.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the VirtualNetworkRule definition allowing to specify parent resource."
+metadata: {}
+package: "com.azure.resourcemanager.mysql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-mysql:1.1.0-alpha.20260910.2

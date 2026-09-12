@@ -1,0 +1,86 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.postgresql.models.SecurityAlertPolicyName"
+fullName: "com.azure.resourcemanager.postgresql.models.SecurityAlertPolicyName"
+name: "SecurityAlertPolicyName"
+nameWithType: "SecurityAlertPolicyName"
+summary: "Defines values for Security<wbr>Alert<wbr>Policy<wbr>Name."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **SecurityAlertPolicyName**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.postgresql.models.SecurityAlertPolicyName?alt=com.azure.resourcemanager.postgresql.models.SecurityAlertPolicyName&text=SecurityAlertPolicyName\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.postgresql.models.SecurityAlertPolicyName.SecurityAlertPolicyName()"
+  fullName: "com.azure.resourcemanager.postgresql.models.SecurityAlertPolicyName.SecurityAlertPolicyName()"
+  name: "SecurityAlertPolicyName()"
+  nameWithType: "SecurityAlertPolicyName.SecurityAlertPolicyName()"
+  summary: "Creates a new instance of Security<wbr>Alert<wbr>Policy<wbr>Name value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.postgresql.models.SecurityAlertPolicyName.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public SecurityAlertPolicyName()"
+  desc: "Creates a new instance of SecurityAlertPolicyName value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.postgresql.models.SecurityAlertPolicyName.DEFAULT"
+  fullName: "com.azure.resourcemanager.postgresql.models.SecurityAlertPolicyName.DEFAULT"
+  name: "DEFAULT"
+  nameWithType: "SecurityAlertPolicyName.DEFAULT"
+  summary: "Static value Default for Security<wbr>Alert<wbr>Policy<wbr>Name."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.postgresql.models.SecurityAlertPolicyName?alt=com.azure.resourcemanager.postgresql.models.SecurityAlertPolicyName&text=SecurityAlertPolicyName\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final SecurityAlertPolicyName DEFAULT"
+  desc: "Static value Default for SecurityAlertPolicyName."
+methods:
+- uid: "com.azure.resourcemanager.postgresql.models.SecurityAlertPolicyName.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.postgresql.models.SecurityAlertPolicyName.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "SecurityAlertPolicyName.fromString(String name)"
+  summary: "Creates or finds a Security<wbr>Alert<wbr>Policy<wbr>Name from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static SecurityAlertPolicyName fromString(String name)"
+  desc: "Creates or finds a SecurityAlertPolicyName from its string representation."
+  returns:
+    description: "the corresponding SecurityAlertPolicyName."
+    type: "<xref href=\"com.azure.resourcemanager.postgresql.models.SecurityAlertPolicyName?alt=com.azure.resourcemanager.postgresql.models.SecurityAlertPolicyName&text=SecurityAlertPolicyName\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.postgresql.models.SecurityAlertPolicyName.values()"
+  fullName: "com.azure.resourcemanager.postgresql.models.SecurityAlertPolicyName.values()"
+  name: "values()"
+  nameWithType: "SecurityAlertPolicyName.values()"
+  summary: "Gets known Security<wbr>Alert<wbr>Policy<wbr>Name values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<SecurityAlertPolicyName> values()"
+  desc: "Gets known SecurityAlertPolicyName values."
+  returns:
+    description: "known SecurityAlertPolicyName values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.postgresql.models.SecurityAlertPolicyName?alt=com.azure.resourcemanager.postgresql.models.SecurityAlertPolicyName&text=SecurityAlertPolicyName\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Defines values for SecurityAlertPolicyName."
+metadata: {}
+package: "com.azure.resourcemanager.postgresql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-postgresql:1.2.0-alpha.20260910.1

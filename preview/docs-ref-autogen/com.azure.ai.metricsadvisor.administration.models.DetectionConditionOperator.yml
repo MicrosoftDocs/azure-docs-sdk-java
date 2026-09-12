@@ -1,0 +1,98 @@
+### YamlMime:JavaType
+uid: "com.azure.ai.metricsadvisor.administration.models.DetectionConditionOperator"
+fullName: "com.azure.ai.metricsadvisor.administration.models.DetectionConditionOperator"
+name: "DetectionConditionOperator"
+nameWithType: "DetectionConditionOperator"
+summary: "The logical operator to apply across anomaly detection conditions."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **DetectionConditionOperator**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.metricsadvisor.administration.models.DetectionConditionOperator?alt=com.azure.ai.metricsadvisor.administration.models.DetectionConditionOperator&text=DetectionConditionOperator\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.ai.metricsadvisor.administration.models.DetectionConditionOperator.DetectionConditionOperator()"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.DetectionConditionOperator.DetectionConditionOperator()"
+  name: "DetectionConditionOperator()"
+  nameWithType: "DetectionConditionOperator.DetectionConditionOperator()"
+  summary: "Constructs a <xref uid=\"com.azure.ai.metricsadvisor.administration.models.DetectionConditionOperator\" data-throw-if-not-resolved=\"false\" data-raw-source=\"DetectionConditionOperator\"></xref> object."
+  deprecatedTag: "Use the <xref uid=\"com.azure.ai.metricsadvisor.administration.models.DetectionConditionOperator.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public DetectionConditionOperator()"
+  desc: "Constructs a <xref uid=\"com.azure.ai.metricsadvisor.administration.models.DetectionConditionOperator\" data-throw-if-not-resolved=\"false\" data-raw-source=\"DetectionConditionOperator\"></xref> object."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.ai.metricsadvisor.administration.models.DetectionConditionOperator.AND"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.DetectionConditionOperator.AND"
+  name: "AND"
+  nameWithType: "DetectionConditionOperator.AND"
+  summary: "The logical operator AND, indicate that all conditions should be satisfied to detect a data point as anomaly."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.metricsadvisor.administration.models.DetectionConditionOperator?alt=com.azure.ai.metricsadvisor.administration.models.DetectionConditionOperator&text=DetectionConditionOperator\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final DetectionConditionOperator AND"
+  desc: "The logical operator AND, indicate that all conditions should be satisfied to detect a data point as anomaly."
+- uid: "com.azure.ai.metricsadvisor.administration.models.DetectionConditionOperator.OR"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.DetectionConditionOperator.OR"
+  name: "OR"
+  nameWithType: "DetectionConditionOperator.OR"
+  summary: "The logical operator OR, indicate that at least one conditions should be satisfied to detect a data point as anomaly."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.metricsadvisor.administration.models.DetectionConditionOperator?alt=com.azure.ai.metricsadvisor.administration.models.DetectionConditionOperator&text=DetectionConditionOperator\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final DetectionConditionOperator OR"
+  desc: "The logical operator OR, indicate that at least one conditions should be satisfied to detect a data point as anomaly."
+methods:
+- uid: "com.azure.ai.metricsadvisor.administration.models.DetectionConditionOperator.fromString(java.lang.String)"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.DetectionConditionOperator.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "DetectionConditionOperator.fromString(String name)"
+  summary: "Create <xref uid=\"com.azure.ai.metricsadvisor.administration.models.DetectionConditionOperator\" data-throw-if-not-resolved=\"false\" data-raw-source=\"DetectionConditionOperator\"></xref> from a string value."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The string value."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static DetectionConditionOperator fromString(String name)"
+  desc: "Create <xref uid=\"com.azure.ai.metricsadvisor.administration.models.DetectionConditionOperator\" data-throw-if-not-resolved=\"false\" data-raw-source=\"DetectionConditionOperator\"></xref> from a string value."
+  returns:
+    description: "The <xref uid=\"com.azure.ai.metricsadvisor.administration.models.DetectionConditionOperator\" data-throw-if-not-resolved=\"false\" data-raw-source=\"DetectionConditionOperator\"></xref>."
+    type: "<xref href=\"com.azure.ai.metricsadvisor.administration.models.DetectionConditionOperator?alt=com.azure.ai.metricsadvisor.administration.models.DetectionConditionOperator&text=DetectionConditionOperator\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.metricsadvisor.administration.models.DetectionConditionOperator.values()"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.DetectionConditionOperator.values()"
+  name: "values()"
+  nameWithType: "DetectionConditionOperator.values()"
+  summary: "Get all values of <xref uid=\"com.azure.ai.metricsadvisor.administration.models.DetectionConditionOperator\" data-throw-if-not-resolved=\"false\" data-raw-source=\"DetectionConditionOperator\"></xref>."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<DetectionConditionOperator> values()"
+  desc: "Get all values of <xref uid=\"com.azure.ai.metricsadvisor.administration.models.DetectionConditionOperator\" data-throw-if-not-resolved=\"false\" data-raw-source=\"DetectionConditionOperator\"></xref>."
+  returns:
+    description: "All valid values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.ai.metricsadvisor.administration.models.DetectionConditionOperator?alt=com.azure.ai.metricsadvisor.administration.models.DetectionConditionOperator&text=DetectionConditionOperator\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "The logical operator to apply across anomaly detection conditions."
+metadata: {}
+package: "com.azure.ai.metricsadvisor.administration.models"
+artifact: com.azure:azure-ai-metricsadvisor:1.3.0-alpha.20260910.4

@@ -1,0 +1,57 @@
+### YamlMime:JavaType
+uid: "com.azure.ai.metricsadvisor.administration.models.DataFeedIngestionProgress"
+fullName: "com.azure.ai.metricsadvisor.administration.models.DataFeedIngestionProgress"
+name: "DataFeedIngestionProgress"
+nameWithType: "DataFeedIngestionProgress"
+summary: "The Data<wbr>Feed<wbr>Ingestion<wbr>Progress model."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **DataFeedIngestionProgress**"
+constructors:
+- uid: "com.azure.ai.metricsadvisor.administration.models.DataFeedIngestionProgress.DataFeedIngestionProgress()"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.DataFeedIngestionProgress.DataFeedIngestionProgress()"
+  name: "DataFeedIngestionProgress()"
+  nameWithType: "DataFeedIngestionProgress.DataFeedIngestionProgress()"
+  summary: "Creates an instance of Data<wbr>Feed<wbr>Ingestion<wbr>Progress class."
+  syntax: "public DataFeedIngestionProgress()"
+  desc: "Creates an instance of DataFeedIngestionProgress class."
+methods:
+- uid: "com.azure.ai.metricsadvisor.administration.models.DataFeedIngestionProgress.getLatestActiveTimestamp()"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.DataFeedIngestionProgress.getLatestActiveTimestamp()"
+  name: "getLatestActiveTimestamp()"
+  nameWithType: "DataFeedIngestionProgress.getLatestActiveTimestamp()"
+  summary: "Get the latest<wbr>Active<wbr>Timestamp property: the timestamp of latest ingestion job with status update."
+  syntax: "public OffsetDateTime getLatestActiveTimestamp()"
+  desc: "Get the latestActiveTimestamp property: the timestamp of latest ingestion job with status update. null indicates not available."
+  returns:
+    description: "the latestActiveTimestamp value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
+- uid: "com.azure.ai.metricsadvisor.administration.models.DataFeedIngestionProgress.getLatestSuccessTimestamp()"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.DataFeedIngestionProgress.getLatestSuccessTimestamp()"
+  name: "getLatestSuccessTimestamp()"
+  nameWithType: "DataFeedIngestionProgress.getLatestSuccessTimestamp()"
+  summary: "Get the latest<wbr>Success<wbr>Timestamp property: the timestamp of latest success ingestion job."
+  syntax: "public OffsetDateTime getLatestSuccessTimestamp()"
+  desc: "Get the latestSuccessTimestamp property: the timestamp of latest success ingestion job. null indicates not available."
+  returns:
+    description: "the latestSuccessTimestamp value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
+type: "class"
+desc: "The DataFeedIngestionProgress model."
+metadata: {}
+package: "com.azure.ai.metricsadvisor.administration.models"
+artifact: com.azure:azure-ai-metricsadvisor:1.3.0-alpha.20260910.4

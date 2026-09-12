@@ -347,6 +347,16 @@ methods:
   returns:
     description: "the vcenterPassword value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.avs.fluent.models.PrivateCloudInner.vcfLicense()"
+  fullName: "com.azure.resourcemanager.avs.fluent.models.PrivateCloudInner.vcfLicense()"
+  name: "vcfLicense()"
+  nameWithType: "PrivateCloudInner.vcfLicense()"
+  summary: "Get the vcf<wbr>License property: The private cloud license."
+  syntax: "public VcfLicenseInner vcfLicense()"
+  desc: "Get the vcfLicense property: The private cloud license."
+  returns:
+    description: "the vcfLicense value."
+    type: "<xref href=\"com.azure.resourcemanager.avs.fluent.models.VcfLicenseInner?alt=com.azure.resourcemanager.avs.fluent.models.VcfLicenseInner&text=VcfLicenseInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.avs.fluent.models.PrivateCloudInner.virtualNetworkId()"
   fullName: "com.azure.resourcemanager.avs.fluent.models.PrivateCloudInner.virtualNetworkId()"
   name: "virtualNetworkId()"
@@ -585,6 +595,20 @@ methods:
   returns:
     description: "the PrivateCloudInner object itself."
     type: "<xref href=\"com.azure.resourcemanager.avs.fluent.models.PrivateCloudInner?alt=com.azure.resourcemanager.avs.fluent.models.PrivateCloudInner&text=PrivateCloudInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.avs.fluent.models.PrivateCloudInner.withVcfLicense(com.azure.resourcemanager.avs.fluent.models.VcfLicenseInner)"
+  fullName: "com.azure.resourcemanager.avs.fluent.models.PrivateCloudInner.withVcfLicense(VcfLicenseInner vcfLicense)"
+  name: "withVcfLicense(VcfLicenseInner vcfLicense)"
+  nameWithType: "PrivateCloudInner.withVcfLicense(VcfLicenseInner vcfLicense)"
+  summary: "Set the vcf<wbr>License property: The private cloud license."
+  parameters:
+  - description: "the vcfLicense value to set."
+    name: "vcfLicense"
+    type: "<xref href=\"com.azure.resourcemanager.avs.fluent.models.VcfLicenseInner?alt=com.azure.resourcemanager.avs.fluent.models.VcfLicenseInner&text=VcfLicenseInner\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public PrivateCloudInner withVcfLicense(VcfLicenseInner vcfLicense)"
+  desc: "Set the vcfLicense property: The private cloud license."
+  returns:
+    description: "the PrivateCloudInner object itself."
+    type: "<xref href=\"com.azure.resourcemanager.avs.fluent.models.PrivateCloudInner?alt=com.azure.resourcemanager.avs.fluent.models.PrivateCloudInner&text=PrivateCloudInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.avs.fluent.models.PrivateCloudInner.withVirtualNetworkId(java.lang.String)"
   fullName: "com.azure.resourcemanager.avs.fluent.models.PrivateCloudInner.withVirtualNetworkId(String virtualNetworkId)"
   name: "withVirtualNetworkId(String virtualNetworkId)"
@@ -599,8 +623,32 @@ methods:
   returns:
     description: "the PrivateCloudInner object itself."
     type: "<xref href=\"com.azure.resourcemanager.avs.fluent.models.PrivateCloudInner?alt=com.azure.resourcemanager.avs.fluent.models.PrivateCloudInner&text=PrivateCloudInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.avs.fluent.models.PrivateCloudInner.withZones(java.util.List<java.lang.String>)"
+  fullName: "com.azure.resourcemanager.avs.fluent.models.PrivateCloudInner.withZones(List<String> zones)"
+  name: "withZones(List<String> zones)"
+  nameWithType: "PrivateCloudInner.withZones(List<String> zones)"
+  summary: "Set the zones property: The availability zones."
+  parameters:
+  - description: "the zones value to set."
+    name: "zones"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+  syntax: "public PrivateCloudInner withZones(List<String> zones)"
+  desc: "Set the zones property: The availability zones."
+  returns:
+    description: "the PrivateCloudInner object itself."
+    type: "<xref href=\"com.azure.resourcemanager.avs.fluent.models.PrivateCloudInner?alt=com.azure.resourcemanager.avs.fluent.models.PrivateCloudInner&text=PrivateCloudInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.avs.fluent.models.PrivateCloudInner.zones()"
+  fullName: "com.azure.resourcemanager.avs.fluent.models.PrivateCloudInner.zones()"
+  name: "zones()"
+  nameWithType: "PrivateCloudInner.zones()"
+  summary: "Get the zones property: The availability zones."
+  syntax: "public List<String> zones()"
+  desc: "Get the zones property: The availability zones."
+  returns:
+    description: "the zones value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
 type: "class"
 desc: "A private cloud resource."
 metadata: {}
 package: "com.azure.resourcemanager.avs.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-avs:1.2.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-avs:1.5.0-alpha.20260910.5

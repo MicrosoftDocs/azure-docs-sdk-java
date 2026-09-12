@@ -22,10 +22,10 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **AgentOptimizationJobInputs**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.AgentOptimizationJobInputs?alt=com.azure.ai.agents.models.AgentOptimizationJobInputs&text=AgentOptimizationJobInputs\" data-throw-if-not-resolved=\"False\" />&gt;"
 constructors:
-- uid: "com.azure.ai.agents.models.AgentOptimizationJobInputs.AgentOptimizationJobInputs(com.azure.ai.agents.models.OptimizedAgentIdentifier,com.azure.ai.agents.models.AgentOptimizationDatasetInput,java.util.List<com.azure.ai.agents.models.AgentOptimizationEvaluatorRef>)"
-  fullName: "com.azure.ai.agents.models.AgentOptimizationJobInputs.AgentOptimizationJobInputs(OptimizedAgentIdentifier agent, AgentOptimizationDatasetInput trainDataset, List<AgentOptimizationEvaluatorRef> evaluators)"
-  name: "AgentOptimizationJobInputs(OptimizedAgentIdentifier agent, AgentOptimizationDatasetInput trainDataset, List<AgentOptimizationEvaluatorRef> evaluators)"
-  nameWithType: "AgentOptimizationJobInputs.AgentOptimizationJobInputs(OptimizedAgentIdentifier agent, AgentOptimizationDatasetInput trainDataset, List<AgentOptimizationEvaluatorRef> evaluators)"
+- uid: "com.azure.ai.agents.models.AgentOptimizationJobInputs.AgentOptimizationJobInputs(com.azure.ai.agents.models.OptimizedAgentIdentifier,com.azure.ai.agents.models.AgentOptimizationDatasetInput,java.util.List<com.azure.ai.agents.models.AgentOptimizationEvaluatorReference>)"
+  fullName: "com.azure.ai.agents.models.AgentOptimizationJobInputs.AgentOptimizationJobInputs(OptimizedAgentIdentifier agent, AgentOptimizationDatasetInput trainDataset, List<AgentOptimizationEvaluatorReference> evaluators)"
+  name: "AgentOptimizationJobInputs(OptimizedAgentIdentifier agent, AgentOptimizationDatasetInput trainDataset, List<AgentOptimizationEvaluatorReference> evaluators)"
+  nameWithType: "AgentOptimizationJobInputs.AgentOptimizationJobInputs(OptimizedAgentIdentifier agent, AgentOptimizationDatasetInput trainDataset, List<AgentOptimizationEvaluatorReference> evaluators)"
   summary: "Creates an instance of Agent<wbr>Optimization<wbr>Job<wbr>Inputs class."
   parameters:
   - description: "the agent value to set."
@@ -36,8 +36,8 @@ constructors:
     type: "<xref href=\"com.azure.ai.agents.models.AgentOptimizationDatasetInput?alt=com.azure.ai.agents.models.AgentOptimizationDatasetInput&text=AgentOptimizationDatasetInput\" data-throw-if-not-resolved=\"False\" />"
   - description: "the evaluators value to set."
     name: "evaluators"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.ai.agents.models.AgentOptimizationEvaluatorRef?alt=com.azure.ai.agents.models.AgentOptimizationEvaluatorRef&text=AgentOptimizationEvaluatorRef\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public AgentOptimizationJobInputs(OptimizedAgentIdentifier agent, AgentOptimizationDatasetInput trainDataset, List<AgentOptimizationEvaluatorRef> evaluators)"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.ai.agents.models.AgentOptimizationEvaluatorReference?alt=com.azure.ai.agents.models.AgentOptimizationEvaluatorReference&text=AgentOptimizationEvaluatorReference\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public AgentOptimizationJobInputs(OptimizedAgentIdentifier agent, AgentOptimizationDatasetInput trainDataset, List<AgentOptimizationEvaluatorReference> evaluators)"
   desc: "Creates an instance of AgentOptimizationJobInputs class."
 methods:
 - uid: "com.azure.ai.agents.models.AgentOptimizationJobInputs.fromJson(com.azure.json.JsonReader)"
@@ -74,11 +74,11 @@ methods:
   name: "getEvaluators()"
   nameWithType: "AgentOptimizationJobInputs.getEvaluators()"
   summary: "Get the evaluators property: Job-level evaluators referenced by name and optional version."
-  syntax: "public List<AgentOptimizationEvaluatorRef> getEvaluators()"
+  syntax: "public List<AgentOptimizationEvaluatorReference> getEvaluators()"
   desc: "Get the evaluators property: Job-level evaluators referenced by name and optional version. Required; at least one must be provided."
   returns:
     description: "the evaluators value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.ai.agents.models.AgentOptimizationEvaluatorRef?alt=com.azure.ai.agents.models.AgentOptimizationEvaluatorRef&text=AgentOptimizationEvaluatorRef\" data-throw-if-not-resolved=\"False\" />&gt;"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.ai.agents.models.AgentOptimizationEvaluatorReference?alt=com.azure.ai.agents.models.AgentOptimizationEvaluatorReference&text=AgentOptimizationEvaluatorReference\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.ai.agents.models.AgentOptimizationJobInputs.getOptions()"
   fullName: "com.azure.ai.agents.models.AgentOptimizationJobInputs.getOptions()"
   name: "getOptions()"
@@ -155,4 +155,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.AgentOptimizationJobInputs?alt=com.azure.ai.agents.models.AgentOptimizationJobInputs&text=AgentOptimizationJobInputs\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.ai.agents.models"
-artifact: com.azure:azure-ai-agents:2.4.0
+artifact: com.azure:azure-ai-agents:2.5.0

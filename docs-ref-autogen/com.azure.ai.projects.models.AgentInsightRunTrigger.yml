@@ -1,0 +1,98 @@
+### YamlMime:JavaType
+uid: "com.azure.ai.projects.models.AgentInsightRunTrigger"
+fullName: "com.azure.ai.projects.models.AgentInsightRunTrigger"
+name: "AgentInsightRunTrigger"
+nameWithType: "AgentInsightRunTrigger"
+summary: "The trigger that started an agent insight run."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **AgentInsightRunTrigger**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.projects.models.AgentInsightRunTrigger?alt=com.azure.ai.projects.models.AgentInsightRunTrigger&text=AgentInsightRunTrigger\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.ai.projects.models.AgentInsightRunTrigger.AgentInsightRunTrigger()"
+  fullName: "com.azure.ai.projects.models.AgentInsightRunTrigger.AgentInsightRunTrigger()"
+  name: "AgentInsightRunTrigger()"
+  nameWithType: "AgentInsightRunTrigger.AgentInsightRunTrigger()"
+  summary: "Creates a new instance of Agent<wbr>Insight<wbr>Run<wbr>Trigger value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.ai.projects.models.AgentInsightRunTrigger.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public AgentInsightRunTrigger()"
+  desc: "Creates a new instance of AgentInsightRunTrigger value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.ai.projects.models.AgentInsightRunTrigger.ON_DEMAND"
+  fullName: "com.azure.ai.projects.models.AgentInsightRunTrigger.ON_DEMAND"
+  name: "ON_DEMAND"
+  nameWithType: "AgentInsightRunTrigger.ON_DEMAND"
+  summary: "The run was started on demand by a user or client."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.projects.models.AgentInsightRunTrigger?alt=com.azure.ai.projects.models.AgentInsightRunTrigger&text=AgentInsightRunTrigger\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AgentInsightRunTrigger ON_DEMAND"
+  desc: "The run was started on demand by a user or client."
+- uid: "com.azure.ai.projects.models.AgentInsightRunTrigger.SCHEDULED"
+  fullName: "com.azure.ai.projects.models.AgentInsightRunTrigger.SCHEDULED"
+  name: "SCHEDULED"
+  nameWithType: "AgentInsightRunTrigger.SCHEDULED"
+  summary: "The run was started by scheduled insight generation."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.projects.models.AgentInsightRunTrigger?alt=com.azure.ai.projects.models.AgentInsightRunTrigger&text=AgentInsightRunTrigger\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AgentInsightRunTrigger SCHEDULED"
+  desc: "The run was started by scheduled insight generation."
+methods:
+- uid: "com.azure.ai.projects.models.AgentInsightRunTrigger.fromString(java.lang.String)"
+  fullName: "com.azure.ai.projects.models.AgentInsightRunTrigger.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "AgentInsightRunTrigger.fromString(String name)"
+  summary: "Creates or finds a Agent<wbr>Insight<wbr>Run<wbr>Trigger from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static AgentInsightRunTrigger fromString(String name)"
+  desc: "Creates or finds a AgentInsightRunTrigger from its string representation."
+  returns:
+    description: "the corresponding AgentInsightRunTrigger."
+    type: "<xref href=\"com.azure.ai.projects.models.AgentInsightRunTrigger?alt=com.azure.ai.projects.models.AgentInsightRunTrigger&text=AgentInsightRunTrigger\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.projects.models.AgentInsightRunTrigger.values()"
+  fullName: "com.azure.ai.projects.models.AgentInsightRunTrigger.values()"
+  name: "values()"
+  nameWithType: "AgentInsightRunTrigger.values()"
+  summary: "Gets known Agent<wbr>Insight<wbr>Run<wbr>Trigger values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<AgentInsightRunTrigger> values()"
+  desc: "Gets known AgentInsightRunTrigger values."
+  returns:
+    description: "known AgentInsightRunTrigger values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.ai.projects.models.AgentInsightRunTrigger?alt=com.azure.ai.projects.models.AgentInsightRunTrigger&text=AgentInsightRunTrigger\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "The trigger that started an agent insight run."
+metadata: {}
+package: "com.azure.ai.projects.models"
+artifact: com.azure:azure-ai-projects:2.5.0

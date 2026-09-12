@@ -1,0 +1,116 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.mysql.models.ServerState"
+fullName: "com.azure.resourcemanager.mysql.models.ServerState"
+name: "ServerState"
+nameWithType: "ServerState"
+summary: "Defines values for Server<wbr>State."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ServerState**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.mysql.models.ServerState?alt=com.azure.resourcemanager.mysql.models.ServerState&text=ServerState\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.mysql.models.ServerState.ServerState()"
+  fullName: "com.azure.resourcemanager.mysql.models.ServerState.ServerState()"
+  name: "ServerState()"
+  nameWithType: "ServerState.ServerState()"
+  syntax: "public ServerState()"
+fields:
+- uid: "com.azure.resourcemanager.mysql.models.ServerState.DISABLED"
+  fullName: "com.azure.resourcemanager.mysql.models.ServerState.DISABLED"
+  name: "DISABLED"
+  nameWithType: "ServerState.DISABLED"
+  summary: "Static value Disabled for Server<wbr>State."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.ServerState?alt=com.azure.resourcemanager.mysql.models.ServerState&text=ServerState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ServerState DISABLED"
+  desc: "Static value Disabled for ServerState."
+- uid: "com.azure.resourcemanager.mysql.models.ServerState.DROPPING"
+  fullName: "com.azure.resourcemanager.mysql.models.ServerState.DROPPING"
+  name: "DROPPING"
+  nameWithType: "ServerState.DROPPING"
+  summary: "Static value Dropping for Server<wbr>State."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.ServerState?alt=com.azure.resourcemanager.mysql.models.ServerState&text=ServerState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ServerState DROPPING"
+  desc: "Static value Dropping for ServerState."
+- uid: "com.azure.resourcemanager.mysql.models.ServerState.INACCESSIBLE"
+  fullName: "com.azure.resourcemanager.mysql.models.ServerState.INACCESSIBLE"
+  name: "INACCESSIBLE"
+  nameWithType: "ServerState.INACCESSIBLE"
+  summary: "Static value Inaccessible for Server<wbr>State."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.ServerState?alt=com.azure.resourcemanager.mysql.models.ServerState&text=ServerState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ServerState INACCESSIBLE"
+  desc: "Static value Inaccessible for ServerState."
+- uid: "com.azure.resourcemanager.mysql.models.ServerState.READY"
+  fullName: "com.azure.resourcemanager.mysql.models.ServerState.READY"
+  name: "READY"
+  nameWithType: "ServerState.READY"
+  summary: "Static value Ready for Server<wbr>State."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.ServerState?alt=com.azure.resourcemanager.mysql.models.ServerState&text=ServerState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ServerState READY"
+  desc: "Static value Ready for ServerState."
+methods:
+- uid: "com.azure.resourcemanager.mysql.models.ServerState.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.mysql.models.ServerState.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "ServerState.fromString(String name)"
+  summary: "Creates or finds a Server<wbr>State from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static ServerState fromString(String name)"
+  desc: "Creates or finds a ServerState from its string representation."
+  returns:
+    description: "the corresponding ServerState."
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.ServerState?alt=com.azure.resourcemanager.mysql.models.ServerState&text=ServerState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.mysql.models.ServerState.values()"
+  fullName: "com.azure.resourcemanager.mysql.models.ServerState.values()"
+  name: "values()"
+  nameWithType: "ServerState.values()"
+  modifiers:
+  - "static"
+  syntax: "public static Collection<ServerState> values()"
+  returns:
+    description: "known ServerState values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.mysql.models.ServerState?alt=com.azure.resourcemanager.mysql.models.ServerState&text=ServerState\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Defines values for ServerState."
+metadata: {}
+package: "com.azure.resourcemanager.mysql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-mysql:1.1.0-alpha.20260910.2

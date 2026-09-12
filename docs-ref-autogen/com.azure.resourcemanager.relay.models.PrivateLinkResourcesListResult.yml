@@ -1,0 +1,49 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.relay.models.PrivateLinkResourcesListResult"
+fullName: "com.azure.resourcemanager.relay.models.PrivateLinkResourcesListResult"
+name: "PrivateLinkResourcesListResult"
+nameWithType: "PrivateLinkResourcesListResult"
+summary: "An immutable client-side representation of Private<wbr>Link<wbr>Resources<wbr>List<wbr>Result."
+syntax: "public interface **PrivateLinkResourcesListResult**"
+methods:
+- uid: "com.azure.resourcemanager.relay.models.PrivateLinkResourcesListResult.innerModel()"
+  fullName: "com.azure.resourcemanager.relay.models.PrivateLinkResourcesListResult.innerModel()"
+  name: "innerModel()"
+  nameWithType: "PrivateLinkResourcesListResult.innerModel()"
+  summary: "Gets the inner com.<wbr>azure.<wbr>resourcemanager.<wbr>relay.<wbr>fluent.<wbr>models.<wbr>Private<wbr>Link<wbr>Resources<wbr>List<wbr>Result<wbr>Inner object."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract PrivateLinkResourcesListResultInner innerModel()"
+  desc: "Gets the inner com.azure.resourcemanager.relay.fluent.models.PrivateLinkResourcesListResultInner object."
+  returns:
+    description: "the inner object."
+    type: "<xref href=\"com.azure.resourcemanager.relay.fluent.models.PrivateLinkResourcesListResultInner?alt=com.azure.resourcemanager.relay.fluent.models.PrivateLinkResourcesListResultInner&text=PrivateLinkResourcesListResultInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.relay.models.PrivateLinkResourcesListResult.nextLink()"
+  fullName: "com.azure.resourcemanager.relay.models.PrivateLinkResourcesListResult.nextLink()"
+  name: "nextLink()"
+  nameWithType: "PrivateLinkResourcesListResult.nextLink()"
+  summary: "Gets the next<wbr>Link property: A link for the next page of private link resources."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String nextLink()"
+  desc: "Gets the nextLink property: A link for the next page of private link resources."
+  returns:
+    description: "the nextLink value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.relay.models.PrivateLinkResourcesListResult.value()"
+  fullName: "com.azure.resourcemanager.relay.models.PrivateLinkResourcesListResult.value()"
+  name: "value()"
+  nameWithType: "PrivateLinkResourcesListResult.value()"
+  summary: "Gets the value property: A collection of private link resources."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract List<PrivateLinkResource> value()"
+  desc: "Gets the value property: A collection of private link resources."
+  returns:
+    description: "the value value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.relay.models.PrivateLinkResource?alt=com.azure.resourcemanager.relay.models.PrivateLinkResource&text=PrivateLinkResource\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "interface"
+desc: "An immutable client-side representation of PrivateLinkResourcesListResult."
+metadata: {}
+package: "com.azure.resourcemanager.relay.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-relay:1.1.0

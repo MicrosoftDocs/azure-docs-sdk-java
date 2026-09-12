@@ -1,0 +1,12 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.mysql.models.Database.DefinitionStages"
+fullName: "com.azure.resourcemanager.mysql.models.Database.DefinitionStages"
+name: "Database.DefinitionStages"
+nameWithType: "Database.DefinitionStages"
+summary: "The Database definition stages."
+syntax: "public static interface **Database.DefinitionStages**"
+type: "interface"
+desc: "The Database definition stages."
+metadata: {}
+package: "com.azure.resourcemanager.mysql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-mysql:1.1.0-alpha.20260910.2

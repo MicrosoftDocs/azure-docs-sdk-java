@@ -81,6 +81,16 @@ methods:
   returns:
     description: "the blueprintReference value."
     type: "<xref href=\"com.azure.ai.agents.models.AgentBlueprintReference?alt=com.azure.ai.agents.models.AgentBlueprintReference&text=AgentBlueprintReference\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.agents.models.AgentDetails.getDigitalWorkerType()"
+  fullName: "com.azure.ai.agents.models.AgentDetails.getDigitalWorkerType()"
+  name: "getDigitalWorkerType()"
+  nameWithType: "AgentDetails.getDigitalWorkerType()"
+  summary: "Get the digital<wbr>Worker<wbr>Type property: (Preview) The type of digital worker (previously known as \\`autopilot\\`)."
+  syntax: "public DigitalWorkerType getDigitalWorkerType()"
+  desc: "Get the digitalWorkerType property: (Preview) The type of digital worker (previously known as \\`autopilot\\`). If omitted, it is not a digital worker."
+  returns:
+    description: "the digitalWorkerType value."
+    type: "<xref href=\"com.azure.ai.agents.models.DigitalWorkerType?alt=com.azure.ai.agents.models.DigitalWorkerType&text=DigitalWorkerType\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.ai.agents.models.AgentDetails.getId()"
   fullName: "com.azure.ai.agents.models.AgentDetails.getId()"
   name: "getId()"
@@ -169,4 +179,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.AgentDetails?alt=com.azure.ai.agents.models.AgentDetails&text=AgentDetails\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.ai.agents.models"
-artifact: com.azure:azure-ai-agents:2.4.0
+artifact: com.azure:azure-ai-agents:2.5.0

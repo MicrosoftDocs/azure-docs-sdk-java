@@ -36,10 +36,10 @@ methods:
   returns:
     description: "a routine definition returned by the service."
     type: "<xref href=\"com.azure.ai.projects.models.Routine?alt=com.azure.ai.projects.models.Routine&text=Routine\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.ai.projects.BetaRoutinesClient.createOrUpdateRoutine(java.lang.String,java.lang.String,java.lang.Boolean,java.util.Map<java.lang.String,com.azure.ai.projects.models.RoutineTrigger>,com.azure.ai.projects.models.RoutineAction)"
-  fullName: "com.azure.ai.projects.BetaRoutinesClient.createOrUpdateRoutine(String routineName, String description, Boolean enabled, Map<String,RoutineTrigger> triggers, RoutineAction action)"
-  name: "createOrUpdateRoutine(String routineName, String description, Boolean enabled, Map<String,RoutineTrigger> triggers, RoutineAction action)"
-  nameWithType: "BetaRoutinesClient.createOrUpdateRoutine(String routineName, String description, Boolean enabled, Map<String,RoutineTrigger> triggers, RoutineAction action)"
+- uid: "com.azure.ai.projects.BetaRoutinesClient.createOrUpdateRoutine(java.lang.String,java.lang.String,java.lang.Boolean,java.util.Map<java.lang.String,com.azure.ai.projects.models.RoutineTrigger>,com.azure.ai.projects.models.RoutineAction,com.azure.ai.projects.models.RoutineAuthorization)"
+  fullName: "com.azure.ai.projects.BetaRoutinesClient.createOrUpdateRoutine(String routineName, String description, Boolean enabled, Map<String,RoutineTrigger> triggers, RoutineAction action, RoutineAuthorization authorization)"
+  name: "createOrUpdateRoutine(String routineName, String description, Boolean enabled, Map<String,RoutineTrigger> triggers, RoutineAction action, RoutineAuthorization authorization)"
+  nameWithType: "BetaRoutinesClient.createOrUpdateRoutine(String routineName, String description, Boolean enabled, Map<String,RoutineTrigger> triggers, RoutineAction action, RoutineAuthorization authorization)"
   summary: "Create or update a routine Creates a new routine or replaces an existing routine with the supplied definition."
   parameters:
   - description: "The unique name of the routine."
@@ -57,7 +57,10 @@ methods:
   - description: "The action executed when the routine fires."
     name: "action"
     type: "<xref href=\"com.azure.ai.projects.models.RoutineAction?alt=com.azure.ai.projects.models.RoutineAction&text=RoutineAction\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public Routine createOrUpdateRoutine(String routineName, String description, Boolean enabled, Map<String,RoutineTrigger> triggers, RoutineAction action)"
+  - description: "Optional authorization configuration for dispatching a newly created routine. Ignored when\n updating an existing routine."
+    name: "authorization"
+    type: "<xref href=\"com.azure.ai.projects.models.RoutineAuthorization?alt=com.azure.ai.projects.models.RoutineAuthorization&text=RoutineAuthorization\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public Routine createOrUpdateRoutine(String routineName, String description, Boolean enabled, Map<String,RoutineTrigger> triggers, RoutineAction action, RoutineAuthorization authorization)"
   desc: "Create or update a routine Creates a new routine or replaces an existing routine with the supplied definition."
   returns:
     description: "a routine definition returned by the service."
@@ -78,7 +81,7 @@ methods:
     name: "requestOptions"
     type: "<xref href=\"com.azure.core.http.rest.RequestOptions?alt=com.azure.core.http.rest.RequestOptions&text=RequestOptions\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public Response<BinaryData> createOrUpdateRoutineWithResponse(String routineName, BinaryData createOrUpdateRoutineRequest, RequestOptions requestOptions)"
-  desc: "Create or update a routine Creates a new routine or replaces an existing routine with the supplied definition.\n\n**Request Body Schema**\n\n```java\n{\n     description: String (Optional)\n     enabled: Boolean (Optional)\n     triggers (Optional): {\n         String (Required): {\n             type: String(custom/github_issue/schedule/timer) (Required)\n         }\n     }\n     action (Optional): {\n         type: String(invoke_agent_responses_api/invoke_agent_invocations_api) (Required)\n     }\n }\n```\n\n**Response Body Schema**\n\n```java\n{\n     name: String (Optional)\n     description: String (Optional)\n     enabled: boolean (Required)\n     triggers (Optional): {\n         String (Required): {\n             type: String(custom/github_issue/schedule/timer) (Required)\n         }\n     }\n     action (Optional): {\n         type: String(invoke_agent_responses_api/invoke_agent_invocations_api) (Required)\n     }\n     created_at: Long (Optional)\n     updated_at: Long (Optional)\n }\n```"
+  desc: "Create or update a routine Creates a new routine or replaces an existing routine with the supplied definition.\n\n**Request Body Schema**\n\n```java\n{\n     description: String (Optional)\n     enabled: Boolean (Optional)\n     triggers (Optional): {\n         String (Required): {\n             type: String(custom/github_issue/schedule/timer) (Required)\n         }\n     }\n     action (Optional): {\n         type: String(invoke_agent_responses_api/invoke_agent_invocations_api) (Required)\n     }\n     authorization (Optional): {\n         identity: String(agent/creator) (Optional)\n     }\n }\n```\n\n**Response Body Schema**\n\n```java\n{\n     name: String (Optional)\n     description: String (Optional)\n     enabled: boolean (Required)\n     triggers (Optional): {\n         String (Required): {\n             type: String(custom/github_issue/schedule/timer) (Required)\n         }\n     }\n     action (Optional): {\n         type: String(invoke_agent_responses_api/invoke_agent_invocations_api) (Required)\n     }\n     created_at: Long (Optional)\n     updated_at: Long (Optional)\n }\n```"
   returns:
     description: "a routine definition returned by the service along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -359,4 +362,4 @@ type: "class"
 desc: "Initializes a new instance of the synchronous AIProjectClient type."
 metadata: {}
 package: "com.azure.ai.projects"
-artifact: com.azure:azure-ai-projects:2.4.0
+artifact: com.azure:azure-ai-projects:2.5.0

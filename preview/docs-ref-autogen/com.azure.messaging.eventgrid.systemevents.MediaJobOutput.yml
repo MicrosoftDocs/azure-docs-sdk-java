@@ -4,6 +4,7 @@ fullName: "com.azure.messaging.eventgrid.systemevents.MediaJobOutput"
 name: "MediaJobOutput"
 nameWithType: "MediaJobOutput"
 summary: "The event data for a Job output."
+deprecatedTag: "This class is deprecated and may be removed in future releases. System events are now available in the azure-messaging-eventgrid-systemevents package."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -20,7 +21,7 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
-syntax: "public class **MediaJobOutput**"
+syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public class **MediaJobOutput**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.messaging.eventgrid.systemevents.MediaJobOutput?alt=com.azure.messaging.eventgrid.systemevents.MediaJobOutput&text=MediaJobOutput\" data-throw-if-not-resolved=\"False\" />&gt;"
 constructors:
 - uid: "com.azure.messaging.eventgrid.systemevents.MediaJobOutput.MediaJobOutput()"
   fullName: "com.azure.messaging.eventgrid.systemevents.MediaJobOutput.MediaJobOutput()"
@@ -30,6 +31,25 @@ constructors:
   syntax: "public MediaJobOutput()"
   desc: "Creates an instance of MediaJobOutput class."
 methods:
+- uid: "com.azure.messaging.eventgrid.systemevents.MediaJobOutput.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.MediaJobOutput.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "MediaJobOutput.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Media<wbr>Job<wbr>Output from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static MediaJobOutput fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of MediaJobOutput from the JsonReader."
+  returns:
+    description: "An instance of MediaJobOutput if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.MediaJobOutput?alt=com.azure.messaging.eventgrid.systemevents.MediaJobOutput&text=MediaJobOutput\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.messaging.eventgrid.systemevents.MediaJobOutput.getError()"
   fullName: "com.azure.messaging.eventgrid.systemevents.MediaJobOutput.getError()"
   name: "getError()"
@@ -49,6 +69,16 @@ methods:
   desc: "Get the label property: Gets the Job output label."
   returns:
     description: "the label value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.messaging.eventgrid.systemevents.MediaJobOutput.getOdataType()"
+  fullName: "com.azure.messaging.eventgrid.systemevents.MediaJobOutput.getOdataType()"
+  name: "getOdataType()"
+  nameWithType: "MediaJobOutput.getOdataType()"
+  summary: "Get the odata<wbr>Type property: The discriminator for derived types."
+  syntax: "public String getOdataType()"
+  desc: "Get the odataType property: The discriminator for derived types."
+  returns:
+    description: "the odataType value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.messaging.eventgrid.systemevents.MediaJobOutput.getProgress()"
   fullName: "com.azure.messaging.eventgrid.systemevents.MediaJobOutput.getProgress()"
@@ -126,8 +156,23 @@ methods:
   returns:
     description: "the MediaJobOutput object itself."
     type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.MediaJobOutput?alt=com.azure.messaging.eventgrid.systemevents.MediaJobOutput&text=MediaJobOutput\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.messaging.eventgrid.systemevents.MediaJobOutput.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.MediaJobOutput.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "MediaJobOutput.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "The event data for a Job output."
+hasDeprecatedTag: true
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.messaging.eventgrid.systemevents.MediaJobOutput?alt=com.azure.messaging.eventgrid.systemevents.MediaJobOutput&text=MediaJobOutput\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.messaging.eventgrid.systemevents"
-artifact: com.azure:azure-messaging-eventgrid:4.21.0-beta.1
+artifact: com.azure:azure-messaging-eventgrid:4.32.0-alpha.20260910.3

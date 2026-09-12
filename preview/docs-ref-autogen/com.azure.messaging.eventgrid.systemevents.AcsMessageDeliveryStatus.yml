@@ -1,0 +1,148 @@
+### YamlMime:JavaType
+uid: "com.azure.messaging.eventgrid.systemevents.AcsMessageDeliveryStatus"
+fullName: "com.azure.messaging.eventgrid.systemevents.AcsMessageDeliveryStatus"
+name: "AcsMessageDeliveryStatus"
+nameWithType: "AcsMessageDeliveryStatus"
+summary: "The updated message status."
+deprecatedTag: "This class is deprecated and may be removed in future releases. System events are now available in the azure-messaging-eventgrid-systemevents package."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public final class **AcsMessageDeliveryStatus**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsMessageDeliveryStatus?alt=com.azure.messaging.eventgrid.systemevents.AcsMessageDeliveryStatus&text=AcsMessageDeliveryStatus\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsMessageDeliveryStatus.AcsMessageDeliveryStatus()"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsMessageDeliveryStatus.AcsMessageDeliveryStatus()"
+  name: "AcsMessageDeliveryStatus()"
+  nameWithType: "AcsMessageDeliveryStatus.AcsMessageDeliveryStatus()"
+  summary: "Creates a new instance of Acs<wbr>Message<wbr>Delivery<wbr>Status value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.messaging.eventgrid.systemevents.AcsMessageDeliveryStatus.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public AcsMessageDeliveryStatus()"
+  desc: "Creates a new instance of AcsMessageDeliveryStatus value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsMessageDeliveryStatus.DELIVERED"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsMessageDeliveryStatus.DELIVERED"
+  name: "DELIVERED"
+  nameWithType: "AcsMessageDeliveryStatus.DELIVERED"
+  summary: "Static value delivered for Acs<wbr>Message<wbr>Delivery<wbr>Status."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsMessageDeliveryStatus?alt=com.azure.messaging.eventgrid.systemevents.AcsMessageDeliveryStatus&text=AcsMessageDeliveryStatus\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AcsMessageDeliveryStatus DELIVERED"
+  desc: "Static value delivered for AcsMessageDeliveryStatus."
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsMessageDeliveryStatus.FAILED"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsMessageDeliveryStatus.FAILED"
+  name: "FAILED"
+  nameWithType: "AcsMessageDeliveryStatus.FAILED"
+  summary: "Static value failed for Acs<wbr>Message<wbr>Delivery<wbr>Status."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsMessageDeliveryStatus?alt=com.azure.messaging.eventgrid.systemevents.AcsMessageDeliveryStatus&text=AcsMessageDeliveryStatus\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AcsMessageDeliveryStatus FAILED"
+  desc: "Static value failed for AcsMessageDeliveryStatus."
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsMessageDeliveryStatus.READ"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsMessageDeliveryStatus.READ"
+  name: "READ"
+  nameWithType: "AcsMessageDeliveryStatus.READ"
+  summary: "Static value read for Acs<wbr>Message<wbr>Delivery<wbr>Status."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsMessageDeliveryStatus?alt=com.azure.messaging.eventgrid.systemevents.AcsMessageDeliveryStatus&text=AcsMessageDeliveryStatus\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AcsMessageDeliveryStatus READ"
+  desc: "Static value read for AcsMessageDeliveryStatus."
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsMessageDeliveryStatus.SENT"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsMessageDeliveryStatus.SENT"
+  name: "SENT"
+  nameWithType: "AcsMessageDeliveryStatus.SENT"
+  summary: "Static value sent for Acs<wbr>Message<wbr>Delivery<wbr>Status."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsMessageDeliveryStatus?alt=com.azure.messaging.eventgrid.systemevents.AcsMessageDeliveryStatus&text=AcsMessageDeliveryStatus\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AcsMessageDeliveryStatus SENT"
+  desc: "Static value sent for AcsMessageDeliveryStatus."
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsMessageDeliveryStatus.UNKNOWN"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsMessageDeliveryStatus.UNKNOWN"
+  name: "UNKNOWN"
+  nameWithType: "AcsMessageDeliveryStatus.UNKNOWN"
+  summary: "Static value unknown for Acs<wbr>Message<wbr>Delivery<wbr>Status."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsMessageDeliveryStatus?alt=com.azure.messaging.eventgrid.systemevents.AcsMessageDeliveryStatus&text=AcsMessageDeliveryStatus\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AcsMessageDeliveryStatus UNKNOWN"
+  desc: "Static value unknown for AcsMessageDeliveryStatus."
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsMessageDeliveryStatus.WARNING"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsMessageDeliveryStatus.WARNING"
+  name: "WARNING"
+  nameWithType: "AcsMessageDeliveryStatus.WARNING"
+  summary: "Static value warning for Acs<wbr>Message<wbr>Delivery<wbr>Status."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsMessageDeliveryStatus?alt=com.azure.messaging.eventgrid.systemevents.AcsMessageDeliveryStatus&text=AcsMessageDeliveryStatus\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AcsMessageDeliveryStatus WARNING"
+  desc: "Static value warning for AcsMessageDeliveryStatus."
+methods:
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsMessageDeliveryStatus.fromString(java.lang.String)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsMessageDeliveryStatus.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "AcsMessageDeliveryStatus.fromString(String name)"
+  summary: "Creates or finds a Acs<wbr>Message<wbr>Delivery<wbr>Status from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static AcsMessageDeliveryStatus fromString(String name)"
+  desc: "Creates or finds a AcsMessageDeliveryStatus from its string representation."
+  returns:
+    description: "the corresponding AcsMessageDeliveryStatus."
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsMessageDeliveryStatus?alt=com.azure.messaging.eventgrid.systemevents.AcsMessageDeliveryStatus&text=AcsMessageDeliveryStatus\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsMessageDeliveryStatus.values()"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsMessageDeliveryStatus.values()"
+  name: "values()"
+  nameWithType: "AcsMessageDeliveryStatus.values()"
+  summary: "Gets known Acs<wbr>Message<wbr>Delivery<wbr>Status values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<AcsMessageDeliveryStatus> values()"
+  desc: "Gets known AcsMessageDeliveryStatus values."
+  returns:
+    description: "known AcsMessageDeliveryStatus values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsMessageDeliveryStatus?alt=com.azure.messaging.eventgrid.systemevents.AcsMessageDeliveryStatus&text=AcsMessageDeliveryStatus\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "The updated message status."
+hasDeprecatedTag: true
+metadata: {}
+package: "com.azure.messaging.eventgrid.systemevents"
+artifact: com.azure:azure-messaging-eventgrid:4.32.0-alpha.20260910.3

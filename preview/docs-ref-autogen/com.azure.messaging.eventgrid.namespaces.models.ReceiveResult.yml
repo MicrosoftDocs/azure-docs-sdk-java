@@ -41,15 +41,15 @@ methods:
   returns:
     description: "An instance of ReceiveResult if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
     type: "<xref href=\"com.azure.messaging.eventgrid.namespaces.models.ReceiveResult?alt=com.azure.messaging.eventgrid.namespaces.models.ReceiveResult&text=ReceiveResult\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.messaging.eventgrid.namespaces.models.ReceiveResult.getValue()"
-  fullName: "com.azure.messaging.eventgrid.namespaces.models.ReceiveResult.getValue()"
-  name: "getValue()"
-  nameWithType: "ReceiveResult.getValue()"
-  summary: "Get the value property: Array of receive responses, one per cloud event."
-  syntax: "public List<ReceiveDetails> getValue()"
-  desc: "Get the value property: Array of receive responses, one per cloud event."
+- uid: "com.azure.messaging.eventgrid.namespaces.models.ReceiveResult.getDetails()"
+  fullName: "com.azure.messaging.eventgrid.namespaces.models.ReceiveResult.getDetails()"
+  name: "getDetails()"
+  nameWithType: "ReceiveResult.getDetails()"
+  summary: "Get the details property: Array of receive responses, one per cloud event."
+  syntax: "public List<ReceiveDetails> getDetails()"
+  desc: "Get the details property: Array of receive responses, one per cloud event."
   returns:
-    description: "the value value."
+    description: "the details value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.messaging.eventgrid.namespaces.models.ReceiveDetails?alt=com.azure.messaging.eventgrid.namespaces.models.ReceiveDetails&text=ReceiveDetails\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.messaging.eventgrid.namespaces.models.ReceiveResult.toJson(com.azure.json.JsonWriter)"
   fullName: "com.azure.messaging.eventgrid.namespaces.models.ReceiveResult.toJson(JsonWriter jsonWriter)"
@@ -69,4 +69,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.messaging.eventgrid.namespaces.models.ReceiveResult?alt=com.azure.messaging.eventgrid.namespaces.models.ReceiveResult&text=ReceiveResult\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.messaging.eventgrid.namespaces.models"
-artifact: com.azure:azure-messaging-eventgrid-namespaces:1.0.0-beta.1
+artifact: com.azure:azure-messaging-eventgrid-namespaces:1.2.0-alpha.20260910.3

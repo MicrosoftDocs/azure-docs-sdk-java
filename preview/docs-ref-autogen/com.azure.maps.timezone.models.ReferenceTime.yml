@@ -85,9 +85,9 @@ methods:
   fullName: "com.azure.maps.timezone.models.ReferenceTime.getSunrise()"
   name: "getSunrise()"
   nameWithType: "ReferenceTime.getSunrise()"
-  summary: "Get the sunrise property: Sunrise at the given time zone as shown in the \\`Tag\\` property."
+  summary: "Get the sunrise property: Sunrise at the given time zone as shown in the \\`Tag\\` property, populated only when the call is \\`by<wbr>Coordinates\\`."
   syntax: "public OffsetDateTime getSunrise()"
-  desc: "Get the sunrise property: Sunrise at the given time zone as shown in the \\`Tag\\` property. The sunrise is described in the ISO8601 format. (Only be populated if the call is byCoordinates)."
+  desc: "Get the sunrise property: Sunrise at the given time zone as shown in the \\`Tag\\` property, populated only when the call is \\`byCoordinates\\`. The sunrise is described in the \\[ISO 8601\\](https://www.iso.org/iso-8601-date-and-time-format.html) format. Note that the Timezone API does not return sunrise and sunset times when solar day is observed in the requested region."
   returns:
     description: "the sunrise value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
@@ -95,9 +95,9 @@ methods:
   fullName: "com.azure.maps.timezone.models.ReferenceTime.getSunset()"
   name: "getSunset()"
   nameWithType: "ReferenceTime.getSunset()"
-  summary: "Get the sunset property: Sunset at the given time zone as shown in the \\`Tag\\` property."
+  summary: "Get the sunset property: Sunset at the given time zone as shown in the \\`Tag\\` property, populated only when the call is \\`by<wbr>Coordinates\\`."
   syntax: "public OffsetDateTime getSunset()"
-  desc: "Get the sunset property: Sunset at the given time zone as shown in the \\`Tag\\` property. The sunset is described in the ISO8601 format.(Only be populated if the call is byCoordinates)."
+  desc: "Get the sunset property: Sunset at the given time zone as shown in the \\`Tag\\` property, populated only when the call is \\`byCoordinates\\`. The sunset is described in the \\[ISO 8601\\](https://www.iso.org/iso-8601-date-and-time-format.html) format. Note that the Timezone API does not return sunrise and sunset times when solar day is observed in the requested region."
   returns:
     description: "the sunset value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
@@ -139,4 +139,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.maps.timezone.models.ReferenceTime?alt=com.azure.maps.timezone.models.ReferenceTime&text=ReferenceTime\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.maps.timezone.models"
-artifact: com.azure:azure-maps-timezone:1.0.0-beta.2
+artifact: com.azure:azure-maps-timezone:1.0.0-alpha.20260910.1

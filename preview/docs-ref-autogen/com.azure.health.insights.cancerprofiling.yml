@@ -2,14 +2,14 @@
 uid: "com.azure.health.insights.cancerprofiling"
 fullName: "com.azure.health.insights.cancerprofiling"
 name: "com.azure.health.insights.cancerprofiling"
-summary: "Package containing the classes for Cancer<wbr>Profiling."
+summary: "Package containing the classes for Azure<wbr>Health<wbr>Insights."
 classes:
 - "com.azure.health.insights.cancerprofiling.CancerProfilingAsyncClient"
 - "com.azure.health.insights.cancerprofiling.CancerProfilingClient"
 - "com.azure.health.insights.cancerprofiling.CancerProfilingClientBuilder"
 enums:
-- "com.azure.health.insights.cancerprofiling.CancerProfilingServiceVersion"
-desc: "Package containing the classes for CancerProfiling. Azure Health Insights provides an API that serves insight models, specific for Health & Life Sciences, that perform analysis and provide inferences to be used by a human."
+- "com.azure.health.insights.cancerprofiling.AzureHealthInsightsServiceVersion"
+desc: "Package containing the classes for AzureHealthInsights. Azure Health Insights provides an API that serves insight models, specific for Health & Life Sciences, that perform analysis and provide inferences to be used by a human."
 metadata: {}
 package: "com.azure.health.insights.cancerprofiling"
-artifact: com.azure:azure-health-insights-cancerprofiling:1.0.0-beta.1
+artifact: com.azure:azure-health-insights-cancerprofiling:1.0.0-alpha.20260910.2

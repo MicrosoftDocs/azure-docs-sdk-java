@@ -1,0 +1,110 @@
+### YamlMime:JavaType
+uid: "com.azure.ai.metricsadvisor.administration.models.MetricAlertConfigurationsOperator"
+fullName: "com.azure.ai.metricsadvisor.administration.models.MetricAlertConfigurationsOperator"
+name: "MetricAlertConfigurationsOperator"
+nameWithType: "MetricAlertConfigurationsOperator"
+summary: "The logical operator to apply across multiple <xref uid=\"com.azure.ai.metricsadvisor.administration.models.MetricAlertConfiguration\" data-throw-if-not-resolved=\"false\" data-raw-source=\"MetricAlertConfiguration\"></xref>."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **MetricAlertConfigurationsOperator**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.metricsadvisor.administration.models.MetricAlertConfigurationsOperator?alt=com.azure.ai.metricsadvisor.administration.models.MetricAlertConfigurationsOperator&text=MetricAlertConfigurationsOperator\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.ai.metricsadvisor.administration.models.MetricAlertConfigurationsOperator.MetricAlertConfigurationsOperator()"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.MetricAlertConfigurationsOperator.MetricAlertConfigurationsOperator()"
+  name: "MetricAlertConfigurationsOperator()"
+  nameWithType: "MetricAlertConfigurationsOperator.MetricAlertConfigurationsOperator()"
+  summary: "Constructs a <xref uid=\"com.azure.ai.metricsadvisor.administration.models.MetricAlertConfigurationsOperator\" data-throw-if-not-resolved=\"false\" data-raw-source=\"MetricAlertConfigurationsOperator\"></xref> object."
+  deprecatedTag: "Use the <xref uid=\"com.azure.ai.metricsadvisor.administration.models.MetricAlertConfigurationsOperator.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public MetricAlertConfigurationsOperator()"
+  desc: "Constructs a <xref uid=\"com.azure.ai.metricsadvisor.administration.models.MetricAlertConfigurationsOperator\" data-throw-if-not-resolved=\"false\" data-raw-source=\"MetricAlertConfigurationsOperator\"></xref> object."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.ai.metricsadvisor.administration.models.MetricAlertConfigurationsOperator.AND"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.MetricAlertConfigurationsOperator.AND"
+  name: "AND"
+  nameWithType: "MetricAlertConfigurationsOperator.AND"
+  summary: "Indicate that anomaly should be included in an alert when time series with the same dimension combination exist in every <xref uid=\"com.azure.ai.metricsadvisor.administration.models.MetricAlertConfiguration\" data-throw-if-not-resolved=\"false\" data-raw-source=\"MetricAlertConfiguration\"></xref> and the result based on anomaly detection is true."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.metricsadvisor.administration.models.MetricAlertConfigurationsOperator?alt=com.azure.ai.metricsadvisor.administration.models.MetricAlertConfigurationsOperator&text=MetricAlertConfigurationsOperator\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final MetricAlertConfigurationsOperator AND"
+  desc: "Indicate that anomaly should be included in an alert when time series with the same dimension combination exist in every <xref uid=\"com.azure.ai.metricsadvisor.administration.models.MetricAlertConfiguration\" data-throw-if-not-resolved=\"false\" data-raw-source=\"MetricAlertConfiguration\"></xref> and the result based on anomaly detection is true."
+- uid: "com.azure.ai.metricsadvisor.administration.models.MetricAlertConfigurationsOperator.OR"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.MetricAlertConfigurationsOperator.OR"
+  name: "OR"
+  nameWithType: "MetricAlertConfigurationsOperator.OR"
+  summary: "Indicate that any anomaly should trigger an alert."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.metricsadvisor.administration.models.MetricAlertConfigurationsOperator?alt=com.azure.ai.metricsadvisor.administration.models.MetricAlertConfigurationsOperator&text=MetricAlertConfigurationsOperator\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final MetricAlertConfigurationsOperator OR"
+  desc: "Indicate that any anomaly should trigger an alert."
+- uid: "com.azure.ai.metricsadvisor.administration.models.MetricAlertConfigurationsOperator.XOR"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.MetricAlertConfigurationsOperator.XOR"
+  name: "XOR"
+  nameWithType: "MetricAlertConfigurationsOperator.XOR"
+  summary: "This operator can be applied only if exactly two <xref uid=\"com.azure.ai.metricsadvisor.administration.models.MetricAlertConfiguration\" data-throw-if-not-resolved=\"false\" data-raw-source=\"MetricAlertConfiguration\"></xref> are specified."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.metricsadvisor.administration.models.MetricAlertConfigurationsOperator?alt=com.azure.ai.metricsadvisor.administration.models.MetricAlertConfigurationsOperator&text=MetricAlertConfigurationsOperator\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final MetricAlertConfigurationsOperator XOR"
+  desc: "This operator can be applied only if exactly two <xref uid=\"com.azure.ai.metricsadvisor.administration.models.MetricAlertConfiguration\" data-throw-if-not-resolved=\"false\" data-raw-source=\"MetricAlertConfiguration\"></xref> are specified. When the detection result on the series of one configuration is True then anomaly will be included in an alert only if the detection result on the series of another configuration is False, both series should have the same dimension combination."
+methods:
+- uid: "com.azure.ai.metricsadvisor.administration.models.MetricAlertConfigurationsOperator.fromString(java.lang.String)"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.MetricAlertConfigurationsOperator.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "MetricAlertConfigurationsOperator.fromString(String name)"
+  summary: "Creates Metric<wbr>Anomaly<wbr>Alert<wbr>Configurations<wbr>Operator from the given string name."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The name."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static MetricAlertConfigurationsOperator fromString(String name)"
+  desc: "Creates MetricAnomalyAlertConfigurationsOperator from the given string name."
+  returns:
+    description: "MetricAnomalyAlertConfigurationsOperator."
+    type: "<xref href=\"com.azure.ai.metricsadvisor.administration.models.MetricAlertConfigurationsOperator?alt=com.azure.ai.metricsadvisor.administration.models.MetricAlertConfigurationsOperator&text=MetricAlertConfigurationsOperator\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.metricsadvisor.administration.models.MetricAlertConfigurationsOperator.values()"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.MetricAlertConfigurationsOperator.values()"
+  name: "values()"
+  nameWithType: "MetricAlertConfigurationsOperator.values()"
+  summary: "Gets the collections of all Metric<wbr>Alert<wbr>Configurations<wbr>Operator values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<MetricAlertConfigurationsOperator> values()"
+  desc: "Gets the collections of all MetricAlertConfigurationsOperator values."
+  returns:
+    description: "The collections of all MetricAlertConfigurationsOperator values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.ai.metricsadvisor.administration.models.MetricAlertConfigurationsOperator?alt=com.azure.ai.metricsadvisor.administration.models.MetricAlertConfigurationsOperator&text=MetricAlertConfigurationsOperator\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "The logical operator to apply across multiple <xref uid=\"com.azure.ai.metricsadvisor.administration.models.MetricAlertConfiguration\" data-throw-if-not-resolved=\"false\" data-raw-source=\"MetricAlertConfiguration\"></xref>."
+metadata: {}
+package: "com.azure.ai.metricsadvisor.administration.models"
+artifact: com.azure:azure-ai-metricsadvisor:1.3.0-alpha.20260910.4

@@ -1,0 +1,146 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.postgresql.models.ServerVersion"
+fullName: "com.azure.resourcemanager.postgresql.models.ServerVersion"
+name: "ServerVersion"
+nameWithType: "ServerVersion"
+summary: "The version of a server."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ServerVersion**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.postgresql.models.ServerVersion?alt=com.azure.resourcemanager.postgresql.models.ServerVersion&text=ServerVersion\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.postgresql.models.ServerVersion.ServerVersion()"
+  fullName: "com.azure.resourcemanager.postgresql.models.ServerVersion.ServerVersion()"
+  name: "ServerVersion()"
+  nameWithType: "ServerVersion.ServerVersion()"
+  summary: "Creates a new instance of Server<wbr>Version value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.postgresql.models.ServerVersion.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public ServerVersion()"
+  desc: "Creates a new instance of ServerVersion value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.postgresql.models.ServerVersion.NINE_FIVE"
+  fullName: "com.azure.resourcemanager.postgresql.models.ServerVersion.NINE_FIVE"
+  name: "NINE_FIVE"
+  nameWithType: "ServerVersion.NINE_FIVE"
+  summary: "Static value 9.5 for Server<wbr>Version."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.postgresql.models.ServerVersion?alt=com.azure.resourcemanager.postgresql.models.ServerVersion&text=ServerVersion\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ServerVersion NINE_FIVE"
+  desc: "Static value 9.5 for ServerVersion."
+- uid: "com.azure.resourcemanager.postgresql.models.ServerVersion.NINE_SIX"
+  fullName: "com.azure.resourcemanager.postgresql.models.ServerVersion.NINE_SIX"
+  name: "NINE_SIX"
+  nameWithType: "ServerVersion.NINE_SIX"
+  summary: "Static value 9.6 for Server<wbr>Version."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.postgresql.models.ServerVersion?alt=com.azure.resourcemanager.postgresql.models.ServerVersion&text=ServerVersion\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ServerVersion NINE_SIX"
+  desc: "Static value 9.6 for ServerVersion."
+- uid: "com.azure.resourcemanager.postgresql.models.ServerVersion.ONE_ONE"
+  fullName: "com.azure.resourcemanager.postgresql.models.ServerVersion.ONE_ONE"
+  name: "ONE_ONE"
+  nameWithType: "ServerVersion.ONE_ONE"
+  summary: "Static value 11 for Server<wbr>Version."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.postgresql.models.ServerVersion?alt=com.azure.resourcemanager.postgresql.models.ServerVersion&text=ServerVersion\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ServerVersion ONE_ONE"
+  desc: "Static value 11 for ServerVersion."
+- uid: "com.azure.resourcemanager.postgresql.models.ServerVersion.ONE_ZERO"
+  fullName: "com.azure.resourcemanager.postgresql.models.ServerVersion.ONE_ZERO"
+  name: "ONE_ZERO"
+  nameWithType: "ServerVersion.ONE_ZERO"
+  summary: "Static value 10 for Server<wbr>Version."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.postgresql.models.ServerVersion?alt=com.azure.resourcemanager.postgresql.models.ServerVersion&text=ServerVersion\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ServerVersion ONE_ZERO"
+  desc: "Static value 10 for ServerVersion."
+- uid: "com.azure.resourcemanager.postgresql.models.ServerVersion.ONE_ZERO_TWO"
+  fullName: "com.azure.resourcemanager.postgresql.models.ServerVersion.ONE_ZERO_TWO"
+  name: "ONE_ZERO_TWO"
+  nameWithType: "ServerVersion.ONE_ZERO_TWO"
+  summary: "Static value 10.2 for Server<wbr>Version."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.postgresql.models.ServerVersion?alt=com.azure.resourcemanager.postgresql.models.ServerVersion&text=ServerVersion\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ServerVersion ONE_ZERO_TWO"
+  desc: "Static value 10.2 for ServerVersion."
+- uid: "com.azure.resourcemanager.postgresql.models.ServerVersion.ONE_ZERO_ZERO"
+  fullName: "com.azure.resourcemanager.postgresql.models.ServerVersion.ONE_ZERO_ZERO"
+  name: "ONE_ZERO_ZERO"
+  nameWithType: "ServerVersion.ONE_ZERO_ZERO"
+  summary: "Static value 10.0 for Server<wbr>Version."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.postgresql.models.ServerVersion?alt=com.azure.resourcemanager.postgresql.models.ServerVersion&text=ServerVersion\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ServerVersion ONE_ZERO_ZERO"
+  desc: "Static value 10.0 for ServerVersion."
+methods:
+- uid: "com.azure.resourcemanager.postgresql.models.ServerVersion.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.postgresql.models.ServerVersion.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "ServerVersion.fromString(String name)"
+  summary: "Creates or finds a Server<wbr>Version from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static ServerVersion fromString(String name)"
+  desc: "Creates or finds a ServerVersion from its string representation."
+  returns:
+    description: "the corresponding ServerVersion."
+    type: "<xref href=\"com.azure.resourcemanager.postgresql.models.ServerVersion?alt=com.azure.resourcemanager.postgresql.models.ServerVersion&text=ServerVersion\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.postgresql.models.ServerVersion.values()"
+  fullName: "com.azure.resourcemanager.postgresql.models.ServerVersion.values()"
+  name: "values()"
+  nameWithType: "ServerVersion.values()"
+  summary: "Gets known Server<wbr>Version values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<ServerVersion> values()"
+  desc: "Gets known ServerVersion values."
+  returns:
+    description: "known ServerVersion values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.postgresql.models.ServerVersion?alt=com.azure.resourcemanager.postgresql.models.ServerVersion&text=ServerVersion\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "The version of a server."
+metadata: {}
+package: "com.azure.resourcemanager.postgresql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-postgresql:1.2.0-alpha.20260910.1

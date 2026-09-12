@@ -4,12 +4,14 @@ fullName: "com.azure.messaging.eventgrid.systemevents.MapsGeofenceResultEventDat
 name: "MapsGeofenceResultEventData"
 nameWithType: "MapsGeofenceResultEventData"
 summary: "Schema of the Data property of an Event<wbr>Grid<wbr>Event for a Microsoft.<wbr>Maps.<wbr>Geofence<wbr>Result event."
+deprecatedTag: "This class is deprecated and may be removed in future releases. System events are now available in the azure-messaging-eventgrid-systemevents package."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.azure.messaging.eventgrid.systemevents.MapsGeofenceEventProperties?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
 - classRef: "<xref href=\"com.azure.messaging.eventgrid.systemevents.MapsGeofenceEventProperties?alt=com.azure.messaging.eventgrid.systemevents.MapsGeofenceEventProperties&text=MapsGeofenceEventProperties\" data-throw-if-not-resolved=\"False\" />"
   methodsRef:
+  - "<xref href=\"com.azure.messaging.eventgrid.systemevents.MapsGeofenceEventProperties.fromJson(com.azure.json.JsonReader)?alt=com.azure.messaging.eventgrid.systemevents.MapsGeofenceEventProperties.fromJson&text=fromJson\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.messaging.eventgrid.systemevents.MapsGeofenceEventProperties.getExpiredGeofenceGeometryId()?alt=com.azure.messaging.eventgrid.systemevents.MapsGeofenceEventProperties.getExpiredGeofenceGeometryId&text=getExpiredGeofenceGeometryId\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.messaging.eventgrid.systemevents.MapsGeofenceEventProperties.getGeometries()?alt=com.azure.messaging.eventgrid.systemevents.MapsGeofenceEventProperties.getGeometries&text=getGeometries\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.messaging.eventgrid.systemevents.MapsGeofenceEventProperties.getInvalidPeriodGeofenceGeometryId()?alt=com.azure.messaging.eventgrid.systemevents.MapsGeofenceEventProperties.getInvalidPeriodGeofenceGeometryId&text=getInvalidPeriodGeofenceGeometryId\" data-throw-if-not-resolved=\"False\" />"
@@ -18,6 +20,7 @@ inheritedClassMethods:
   - "<xref href=\"com.azure.messaging.eventgrid.systemevents.MapsGeofenceEventProperties.setGeometries(java.util.List<com.azure.messaging.eventgrid.systemevents.MapsGeofenceGeometry>)?alt=com.azure.messaging.eventgrid.systemevents.MapsGeofenceEventProperties.setGeometries&text=setGeometries\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.messaging.eventgrid.systemevents.MapsGeofenceEventProperties.setInvalidPeriodGeofenceGeometryId(java.util.List<java.lang.String>)?alt=com.azure.messaging.eventgrid.systemevents.MapsGeofenceEventProperties.setInvalidPeriodGeofenceGeometryId&text=setInvalidPeriodGeofenceGeometryId\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.messaging.eventgrid.systemevents.MapsGeofenceEventProperties.setIsEventPublished(java.lang.Boolean)?alt=com.azure.messaging.eventgrid.systemevents.MapsGeofenceEventProperties.setIsEventPublished&text=setIsEventPublished\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.messaging.eventgrid.systemevents.MapsGeofenceEventProperties.toJson(com.azure.json.JsonWriter)?alt=com.azure.messaging.eventgrid.systemevents.MapsGeofenceEventProperties.toJson&text=toJson\" data-throw-if-not-resolved=\"False\" />"
 - classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   methodsRef:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
@@ -31,7 +34,7 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
-syntax: "public final class **MapsGeofenceResultEventData**</br> extends <xref href=\"com.azure.messaging.eventgrid.systemevents.MapsGeofenceEventProperties?alt=com.azure.messaging.eventgrid.systemevents.MapsGeofenceEventProperties&text=MapsGeofenceEventProperties\" data-throw-if-not-resolved=\"False\" />"
+syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public final class **MapsGeofenceResultEventData**</br> extends <xref href=\"com.azure.messaging.eventgrid.systemevents.MapsGeofenceEventProperties?alt=com.azure.messaging.eventgrid.systemevents.MapsGeofenceEventProperties&text=MapsGeofenceEventProperties\" data-throw-if-not-resolved=\"False\" />"
 constructors:
 - uid: "com.azure.messaging.eventgrid.systemevents.MapsGeofenceResultEventData.MapsGeofenceResultEventData()"
   fullName: "com.azure.messaging.eventgrid.systemevents.MapsGeofenceResultEventData.MapsGeofenceResultEventData()"
@@ -41,6 +44,25 @@ constructors:
   syntax: "public MapsGeofenceResultEventData()"
   desc: "Creates an instance of MapsGeofenceResultEventData class."
 methods:
+- uid: "com.azure.messaging.eventgrid.systemevents.MapsGeofenceResultEventData.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.MapsGeofenceResultEventData.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "MapsGeofenceResultEventData.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Maps<wbr>Geofence<wbr>Result<wbr>Event<wbr>Data from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static MapsGeofenceResultEventData fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the MapsGeofenceResultEventData."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of MapsGeofenceResultEventData from the JsonReader."
+  returns:
+    description: "An instance of MapsGeofenceResultEventData if the JsonReader was pointing to an instance of it, or null\n if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.MapsGeofenceResultEventData?alt=com.azure.messaging.eventgrid.systemevents.MapsGeofenceResultEventData&text=MapsGeofenceResultEventData\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.messaging.eventgrid.systemevents.MapsGeofenceResultEventData.setExpiredGeofenceGeometryId(java.util.List<java.lang.String>)"
   fullName: "com.azure.messaging.eventgrid.systemevents.MapsGeofenceResultEventData.setExpiredGeofenceGeometryId(List<String> expiredGeofenceGeometryId)"
   name: "setExpiredGeofenceGeometryId(List<String> expiredGeofenceGeometryId)"
@@ -93,8 +115,22 @@ methods:
   desc: "Set the isEventPublished property: True if at least one event is published to the Azure Maps event subscriber, false if no event is published to the Azure Maps event subscriber."
   returns:
     type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.MapsGeofenceResultEventData?alt=com.azure.messaging.eventgrid.systemevents.MapsGeofenceResultEventData&text=MapsGeofenceResultEventData\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.messaging.eventgrid.systemevents.MapsGeofenceResultEventData.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.MapsGeofenceResultEventData.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "MapsGeofenceResultEventData.toJson(JsonWriter jsonWriter)"
+  overridden: "com.azure.messaging.eventgrid.systemevents.MapsGeofenceEventProperties.toJson(com.azure.json.JsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Schema of the Data property of an EventGridEvent for a Microsoft.Maps.GeofenceResult event."
+hasDeprecatedTag: true
 metadata: {}
 package: "com.azure.messaging.eventgrid.systemevents"
-artifact: com.azure:azure-messaging-eventgrid:4.21.0-beta.1
+artifact: com.azure:azure-messaging-eventgrid:4.32.0-alpha.20260910.3

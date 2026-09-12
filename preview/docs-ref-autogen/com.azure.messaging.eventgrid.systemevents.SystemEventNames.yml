@@ -2717,4 +2717,4 @@ type: "class"
 desc: "This class contains a number of constants that correspond to the value of `eventType` of `EventGridEvent`s and `code` of `CloudEvent`s, when the event originated from an Azure service. This list should be updated with all the service event strings. It also contains a mapping from each service event string to the model class that the event string corresponds to in the `data` field, which is used to automatically deserialize system events by their known string."
 metadata: {}
 package: "com.azure.messaging.eventgrid.systemevents"
-artifact: com.azure:azure-messaging-eventgrid-systemevents:1.1.0-beta.1
+artifact: com.azure:azure-messaging-eventgrid-systemevents:1.1.0-alpha.20260910.3

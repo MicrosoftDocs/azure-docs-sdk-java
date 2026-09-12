@@ -1,0 +1,92 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.mysql.models.StorageAutogrow"
+fullName: "com.azure.resourcemanager.mysql.models.StorageAutogrow"
+name: "StorageAutogrow"
+nameWithType: "StorageAutogrow"
+summary: "Defines values for Storage<wbr>Autogrow."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **StorageAutogrow**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.mysql.models.StorageAutogrow?alt=com.azure.resourcemanager.mysql.models.StorageAutogrow&text=StorageAutogrow\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.mysql.models.StorageAutogrow.StorageAutogrow()"
+  fullName: "com.azure.resourcemanager.mysql.models.StorageAutogrow.StorageAutogrow()"
+  name: "StorageAutogrow()"
+  nameWithType: "StorageAutogrow.StorageAutogrow()"
+  syntax: "public StorageAutogrow()"
+fields:
+- uid: "com.azure.resourcemanager.mysql.models.StorageAutogrow.DISABLED"
+  fullName: "com.azure.resourcemanager.mysql.models.StorageAutogrow.DISABLED"
+  name: "DISABLED"
+  nameWithType: "StorageAutogrow.DISABLED"
+  summary: "Static value Disabled for Storage<wbr>Autogrow."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.StorageAutogrow?alt=com.azure.resourcemanager.mysql.models.StorageAutogrow&text=StorageAutogrow\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final StorageAutogrow DISABLED"
+  desc: "Static value Disabled for StorageAutogrow."
+- uid: "com.azure.resourcemanager.mysql.models.StorageAutogrow.ENABLED"
+  fullName: "com.azure.resourcemanager.mysql.models.StorageAutogrow.ENABLED"
+  name: "ENABLED"
+  nameWithType: "StorageAutogrow.ENABLED"
+  summary: "Static value Enabled for Storage<wbr>Autogrow."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.StorageAutogrow?alt=com.azure.resourcemanager.mysql.models.StorageAutogrow&text=StorageAutogrow\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final StorageAutogrow ENABLED"
+  desc: "Static value Enabled for StorageAutogrow."
+methods:
+- uid: "com.azure.resourcemanager.mysql.models.StorageAutogrow.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.mysql.models.StorageAutogrow.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "StorageAutogrow.fromString(String name)"
+  summary: "Creates or finds a Storage<wbr>Autogrow from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static StorageAutogrow fromString(String name)"
+  desc: "Creates or finds a StorageAutogrow from its string representation."
+  returns:
+    description: "the corresponding StorageAutogrow."
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.StorageAutogrow?alt=com.azure.resourcemanager.mysql.models.StorageAutogrow&text=StorageAutogrow\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.mysql.models.StorageAutogrow.values()"
+  fullName: "com.azure.resourcemanager.mysql.models.StorageAutogrow.values()"
+  name: "values()"
+  nameWithType: "StorageAutogrow.values()"
+  modifiers:
+  - "static"
+  syntax: "public static Collection<StorageAutogrow> values()"
+  returns:
+    description: "known StorageAutogrow values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.mysql.models.StorageAutogrow?alt=com.azure.resourcemanager.mysql.models.StorageAutogrow&text=StorageAutogrow\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Defines values for StorageAutogrow."
+metadata: {}
+package: "com.azure.resourcemanager.mysql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-mysql:1.1.0-alpha.20260910.2

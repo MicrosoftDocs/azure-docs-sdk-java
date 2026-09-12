@@ -20,7 +20,7 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
-syntax: "public final class **RadiologyInsightsData**"
+syntax: "public final class **RadiologyInsightsData**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.health.insights.radiologyinsights.models.RadiologyInsightsData?alt=com.azure.health.insights.radiologyinsights.models.RadiologyInsightsData&text=RadiologyInsightsData\" data-throw-if-not-resolved=\"False\" />&gt;"
 constructors:
 - uid: "com.azure.health.insights.radiologyinsights.models.RadiologyInsightsData.RadiologyInsightsData(java.util.List<com.azure.health.insights.radiologyinsights.models.PatientRecord>)"
   fullName: "com.azure.health.insights.radiologyinsights.models.RadiologyInsightsData.RadiologyInsightsData(List<PatientRecord> patients)"
@@ -34,6 +34,25 @@ constructors:
   syntax: "public RadiologyInsightsData(List<PatientRecord> patients)"
   desc: "Creates an instance of RadiologyInsightsData class."
 methods:
+- uid: "com.azure.health.insights.radiologyinsights.models.RadiologyInsightsData.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.health.insights.radiologyinsights.models.RadiologyInsightsData.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "RadiologyInsightsData.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Radiology<wbr>Insights<wbr>Data from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static RadiologyInsightsData fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of RadiologyInsightsData from the JsonReader."
+  returns:
+    description: "An instance of RadiologyInsightsData if the JsonReader was pointing to an instance of it, or null if it\n was pointing to JSON null."
+    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.RadiologyInsightsData?alt=com.azure.health.insights.radiologyinsights.models.RadiologyInsightsData&text=RadiologyInsightsData\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.health.insights.radiologyinsights.models.RadiologyInsightsData.getConfiguration()"
   fullName: "com.azure.health.insights.radiologyinsights.models.RadiologyInsightsData.getConfiguration()"
   name: "getConfiguration()"
@@ -68,8 +87,22 @@ methods:
   returns:
     description: "the RadiologyInsightsData object itself."
     type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.RadiologyInsightsData?alt=com.azure.health.insights.radiologyinsights.models.RadiologyInsightsData&text=RadiologyInsightsData\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.health.insights.radiologyinsights.models.RadiologyInsightsData.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.health.insights.radiologyinsights.models.RadiologyInsightsData.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "RadiologyInsightsData.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Contains the list of patients, and configuration data."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.health.insights.radiologyinsights.models.RadiologyInsightsData?alt=com.azure.health.insights.radiologyinsights.models.RadiologyInsightsData&text=RadiologyInsightsData\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.health.insights.radiologyinsights.models"
-artifact: com.azure:azure-health-insights-radiologyinsights:1.0.0-beta.1
+artifact: com.azure:azure-health-insights-radiologyinsights:1.2.0-alpha.20260910.2

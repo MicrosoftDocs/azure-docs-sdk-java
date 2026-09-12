@@ -244,4 +244,4 @@ type: "class"
 desc: "Properties of a lab resource."
 metadata: {}
 package: "com.azure.resourcemanager.labservices.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-labservices:1.0.0-beta.4
+artifact: com.azure.resourcemanager:azure-resourcemanager-labservices:1.1.0-alpha.20260910.1

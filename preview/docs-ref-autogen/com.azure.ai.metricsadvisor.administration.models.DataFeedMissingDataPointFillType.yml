@@ -1,0 +1,110 @@
+### YamlMime:JavaType
+uid: "com.azure.ai.metricsadvisor.administration.models.DataFeedMissingDataPointFillType"
+fullName: "com.azure.ai.metricsadvisor.administration.models.DataFeedMissingDataPointFillType"
+name: "DataFeedMissingDataPointFillType"
+nameWithType: "DataFeedMissingDataPointFillType"
+summary: "Defines values for Data<wbr>Feed<wbr>Missing<wbr>Data<wbr>Point<wbr>Fill<wbr>Type."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **DataFeedMissingDataPointFillType**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.metricsadvisor.administration.models.DataFeedMissingDataPointFillType?alt=com.azure.ai.metricsadvisor.administration.models.DataFeedMissingDataPointFillType&text=DataFeedMissingDataPointFillType\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.ai.metricsadvisor.administration.models.DataFeedMissingDataPointFillType.DataFeedMissingDataPointFillType()"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.DataFeedMissingDataPointFillType.DataFeedMissingDataPointFillType()"
+  name: "DataFeedMissingDataPointFillType()"
+  nameWithType: "DataFeedMissingDataPointFillType.DataFeedMissingDataPointFillType()"
+  summary: "Constructs a Data<wbr>Feed<wbr>Missing<wbr>Data<wbr>Point<wbr>Fill<wbr>Type object."
+  deprecatedTag: "Use the <xref uid=\"com.azure.ai.metricsadvisor.administration.models.DataFeedMissingDataPointFillType.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public DataFeedMissingDataPointFillType()"
+  desc: "Constructs a DataFeedMissingDataPointFillType object."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.ai.metricsadvisor.administration.models.DataFeedMissingDataPointFillType.CUSTOM_VALUE"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.DataFeedMissingDataPointFillType.CUSTOM_VALUE"
+  name: "CUSTOM_VALUE"
+  nameWithType: "DataFeedMissingDataPointFillType.CUSTOM_VALUE"
+  summary: "Static value Custom<wbr>Value for Data<wbr>Feed<wbr>Missing<wbr>Data<wbr>Point<wbr>Fill<wbr>Type."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.metricsadvisor.administration.models.DataFeedMissingDataPointFillType?alt=com.azure.ai.metricsadvisor.administration.models.DataFeedMissingDataPointFillType&text=DataFeedMissingDataPointFillType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final DataFeedMissingDataPointFillType CUSTOM_VALUE"
+  desc: "Static value CustomValue for DataFeedMissingDataPointFillType."
+- uid: "com.azure.ai.metricsadvisor.administration.models.DataFeedMissingDataPointFillType.NO_FILLING"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.DataFeedMissingDataPointFillType.NO_FILLING"
+  name: "NO_FILLING"
+  nameWithType: "DataFeedMissingDataPointFillType.NO_FILLING"
+  summary: "Static value No<wbr>Filling for Data<wbr>Feed<wbr>Missing<wbr>Data<wbr>Point<wbr>Fill<wbr>Type."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.metricsadvisor.administration.models.DataFeedMissingDataPointFillType?alt=com.azure.ai.metricsadvisor.administration.models.DataFeedMissingDataPointFillType&text=DataFeedMissingDataPointFillType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final DataFeedMissingDataPointFillType NO_FILLING"
+  desc: "Static value NoFilling for DataFeedMissingDataPointFillType."
+- uid: "com.azure.ai.metricsadvisor.administration.models.DataFeedMissingDataPointFillType.PREVIOUS_VALUE"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.DataFeedMissingDataPointFillType.PREVIOUS_VALUE"
+  name: "PREVIOUS_VALUE"
+  nameWithType: "DataFeedMissingDataPointFillType.PREVIOUS_VALUE"
+  summary: "Static value Previous<wbr>Value for Data<wbr>Feed<wbr>Missing<wbr>Data<wbr>Point<wbr>Fill<wbr>Type."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.metricsadvisor.administration.models.DataFeedMissingDataPointFillType?alt=com.azure.ai.metricsadvisor.administration.models.DataFeedMissingDataPointFillType&text=DataFeedMissingDataPointFillType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final DataFeedMissingDataPointFillType PREVIOUS_VALUE"
+  desc: "Static value PreviousValue for DataFeedMissingDataPointFillType."
+- uid: "com.azure.ai.metricsadvisor.administration.models.DataFeedMissingDataPointFillType.SMART_FILLING"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.DataFeedMissingDataPointFillType.SMART_FILLING"
+  name: "SMART_FILLING"
+  nameWithType: "DataFeedMissingDataPointFillType.SMART_FILLING"
+  summary: "Static value Smart<wbr>Filling for Data<wbr>Feed<wbr>Missing<wbr>Data<wbr>Point<wbr>Fill<wbr>Type."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.metricsadvisor.administration.models.DataFeedMissingDataPointFillType?alt=com.azure.ai.metricsadvisor.administration.models.DataFeedMissingDataPointFillType&text=DataFeedMissingDataPointFillType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final DataFeedMissingDataPointFillType SMART_FILLING"
+  desc: "Static value SmartFilling for DataFeedMissingDataPointFillType."
+methods:
+- uid: "com.azure.ai.metricsadvisor.administration.models.DataFeedMissingDataPointFillType.fromString(java.lang.String)"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.DataFeedMissingDataPointFillType.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "DataFeedMissingDataPointFillType.fromString(String name)"
+  summary: "Creates or finds a Data<wbr>Feed<wbr>Missing<wbr>Data<wbr>Point<wbr>Fill<wbr>Type from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static DataFeedMissingDataPointFillType fromString(String name)"
+  desc: "Creates or finds a DataFeedMissingDataPointFillType from its string representation."
+  returns:
+    description: "the corresponding DataFeedMissingDataPointFillType."
+    type: "<xref href=\"com.azure.ai.metricsadvisor.administration.models.DataFeedMissingDataPointFillType?alt=com.azure.ai.metricsadvisor.administration.models.DataFeedMissingDataPointFillType&text=DataFeedMissingDataPointFillType\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Defines values for DataFeedMissingDataPointFillType."
+metadata: {}
+package: "com.azure.ai.metricsadvisor.administration.models"
+artifact: com.azure:azure-ai-metricsadvisor:1.3.0-alpha.20260910.4

@@ -10,10 +10,12 @@ inheritances:
 inheritedClassMethods:
 - classRef: "<xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4Element?alt=com.azure.health.insights.radiologyinsights.models.FhirR4Element&text=FhirR4Element\" data-throw-if-not-resolved=\"False\" />"
   methodsRef:
+  - "<xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4Element.fromJson(com.azure.json.JsonReader)?alt=com.azure.health.insights.radiologyinsights.models.FhirR4Element.fromJson&text=fromJson\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4Element.getExtension()?alt=com.azure.health.insights.radiologyinsights.models.FhirR4Element.getExtension&text=getExtension\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4Element.getId()?alt=com.azure.health.insights.radiologyinsights.models.FhirR4Element.getId&text=getId\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4Element.setExtension(java.util.List<com.azure.health.insights.radiologyinsights.models.FhirR4Extension>)?alt=com.azure.health.insights.radiologyinsights.models.FhirR4Element.setExtension&text=setExtension\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4Element.setId(java.lang.String)?alt=com.azure.health.insights.radiologyinsights.models.FhirR4Element.setId&text=setId\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4Element.toJson(com.azure.json.JsonWriter)?alt=com.azure.health.insights.radiologyinsights.models.FhirR4Element.toJson&text=toJson\" data-throw-if-not-resolved=\"False\" />"
 - classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   methodsRef:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
@@ -28,19 +30,26 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **FhirR4Annotation**</br> extends <xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4Element?alt=com.azure.health.insights.radiologyinsights.models.FhirR4Element&text=FhirR4Element\" data-throw-if-not-resolved=\"False\" />"
-constructors:
-- uid: "com.azure.health.insights.radiologyinsights.models.FhirR4Annotation.FhirR4Annotation(java.lang.String)"
-  fullName: "com.azure.health.insights.radiologyinsights.models.FhirR4Annotation.FhirR4Annotation(String text)"
-  name: "FhirR4Annotation(String text)"
-  nameWithType: "FhirR4Annotation.FhirR4Annotation(String text)"
-  summary: "Creates an instance of FhirR4Annotation class."
-  parameters:
-  - description: "the text value to set."
-    name: "text"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public FhirR4Annotation(String text)"
-  desc: "Creates an instance of FhirR4Annotation class."
 methods:
+- uid: "com.azure.health.insights.radiologyinsights.models.FhirR4Annotation.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.health.insights.radiologyinsights.models.FhirR4Annotation.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "FhirR4Annotation.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of FhirR4Annotation from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static FhirR4Annotation fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of FhirR4Annotation from the JsonReader."
+  returns:
+    description: "An instance of FhirR4Annotation if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
+    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4Annotation?alt=com.azure.health.insights.radiologyinsights.models.FhirR4Annotation&text=FhirR4Annotation\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.health.insights.radiologyinsights.models.FhirR4Annotation.getAuthorString()"
   fullName: "com.azure.health.insights.radiologyinsights.models.FhirR4Annotation.getAuthorString()"
   name: "getAuthorString()"
@@ -71,62 +80,21 @@ methods:
   returns:
     description: "the time value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.health.insights.radiologyinsights.models.FhirR4Annotation.setAuthorString(java.lang.String)"
-  fullName: "com.azure.health.insights.radiologyinsights.models.FhirR4Annotation.setAuthorString(String authorString)"
-  name: "setAuthorString(String authorString)"
-  nameWithType: "FhirR4Annotation.setAuthorString(String authorString)"
-  summary: "Set the author<wbr>String property: Individual responsible for the annotation."
+- uid: "com.azure.health.insights.radiologyinsights.models.FhirR4Annotation.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.health.insights.radiologyinsights.models.FhirR4Annotation.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "FhirR4Annotation.toJson(JsonWriter jsonWriter)"
+  overridden: "com.azure.health.insights.radiologyinsights.models.FhirR4Element.toJson(com.azure.json.JsonWriter)"
   parameters:
-  - description: "the authorString value to set."
-    name: "authorString"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public FhirR4Annotation setAuthorString(String authorString)"
-  desc: "Set the authorString property: Individual responsible for the annotation."
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
-    description: "the FhirR4Annotation object itself."
-    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4Annotation?alt=com.azure.health.insights.radiologyinsights.models.FhirR4Annotation&text=FhirR4Annotation\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.health.insights.radiologyinsights.models.FhirR4Annotation.setExtension(java.util.List<com.azure.health.insights.radiologyinsights.models.FhirR4Extension>)"
-  fullName: "com.azure.health.insights.radiologyinsights.models.FhirR4Annotation.setExtension(List<FhirR4Extension> extension)"
-  name: "setExtension(List<FhirR4Extension> extension)"
-  nameWithType: "FhirR4Annotation.setExtension(List<FhirR4Extension> extension)"
-  summary: "Set the extension property: Additional Content defined by implementations."
-  overridden: "com.azure.health.insights.radiologyinsights.models.FhirR4Element.setExtension(java.util.List<com.azure.health.insights.radiologyinsights.models.FhirR4Extension>)"
-  parameters:
-  - name: "extension"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4Extension?alt=com.azure.health.insights.radiologyinsights.models.FhirR4Extension&text=FhirR4Extension\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public FhirR4Annotation setExtension(List<FhirR4Extension> extension)"
-  desc: "Set the extension property: Additional Content defined by implementations."
-  returns:
-    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4Annotation?alt=com.azure.health.insights.radiologyinsights.models.FhirR4Annotation&text=FhirR4Annotation\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.health.insights.radiologyinsights.models.FhirR4Annotation.setId(java.lang.String)"
-  fullName: "com.azure.health.insights.radiologyinsights.models.FhirR4Annotation.setId(String id)"
-  name: "setId(String id)"
-  nameWithType: "FhirR4Annotation.setId(String id)"
-  summary: "Set the id property: Unique id for inter-element referencing."
-  overridden: "com.azure.health.insights.radiologyinsights.models.FhirR4Element.setId(java.lang.String)"
-  parameters:
-  - name: "id"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public FhirR4Annotation setId(String id)"
-  desc: "Set the id property: Unique id for inter-element referencing."
-  returns:
-    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4Annotation?alt=com.azure.health.insights.radiologyinsights.models.FhirR4Annotation&text=FhirR4Annotation\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.health.insights.radiologyinsights.models.FhirR4Annotation.setTime(java.lang.String)"
-  fullName: "com.azure.health.insights.radiologyinsights.models.FhirR4Annotation.setTime(String time)"
-  name: "setTime(String time)"
-  nameWithType: "FhirR4Annotation.setTime(String time)"
-  summary: "Set the time property: When the annotation was made."
-  parameters:
-  - description: "the time value to set."
-    name: "time"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public FhirR4Annotation setTime(String time)"
-  desc: "Set the time property: When the annotation was made."
-  returns:
-    description: "the FhirR4Annotation object itself."
-    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4Annotation?alt=com.azure.health.insights.radiologyinsights.models.FhirR4Annotation&text=FhirR4Annotation\" data-throw-if-not-resolved=\"False\" />"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "A text note which also contains information about who made the statement and when Based on \\[FHIR Annotation\\](https://www.hl7.org/fhir/R4/datatypes.html\\#Annotation)."
 metadata: {}
 package: "com.azure.health.insights.radiologyinsights.models"
-artifact: com.azure:azure-health-insights-radiologyinsights:1.0.0-beta.1
+artifact: com.azure:azure-health-insights-radiologyinsights:1.2.0-alpha.20260910.2

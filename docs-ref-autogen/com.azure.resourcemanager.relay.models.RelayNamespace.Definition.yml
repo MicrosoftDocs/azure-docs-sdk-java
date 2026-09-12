@@ -1,0 +1,17 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.relay.models.RelayNamespace.Definition"
+fullName: "com.azure.resourcemanager.relay.models.RelayNamespace.Definition"
+name: "RelayNamespace.Definition"
+nameWithType: "RelayNamespace.Definition"
+summary: "The entirety of the Relay<wbr>Namespace definition."
+syntax: "public static interface **RelayNamespace.Definition**</br> extends <xref href=\"com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.Blank?alt=com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.Blank&text=Blank\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithLocation?alt=com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithLocation&text=WithLocation\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithResourceGroup?alt=com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithResourceGroup&text=WithResourceGroup\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of the RelayNamespace definition."
+implements:
+- "<xref href=\"com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.Blank?alt=com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.Blank&text=Blank\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithLocation?alt=com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithLocation&text=WithLocation\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithResourceGroup?alt=com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithResourceGroup&text=WithResourceGroup\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.azure.resourcemanager.relay.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-relay:1.1.0

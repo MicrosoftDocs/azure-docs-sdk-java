@@ -31,12 +31,18 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public enum **RadiologyInsightsServiceVersion**</br> extends <a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html\">Enum</a>&lt;<xref href=\"com.azure.health.insights.radiologyinsights.RadiologyInsightsServiceVersion?alt=com.azure.health.insights.radiologyinsights.RadiologyInsightsServiceVersion&text=RadiologyInsightsServiceVersion\" data-throw-if-not-resolved=\"False\" />&gt;</br> implements <xref href=\"com.azure.core.util.ServiceVersion?alt=com.azure.core.util.ServiceVersion&text=ServiceVersion\" data-throw-if-not-resolved=\"False\" />"
 fields:
-- uid: "com.azure.health.insights.radiologyinsights.RadiologyInsightsServiceVersion.V2023_09_01_PREVIEW"
-  fullName: "com.azure.health.insights.radiologyinsights.RadiologyInsightsServiceVersion.V2023_09_01_PREVIEW"
-  name: "V2023_09_01_PREVIEW"
-  nameWithType: "RadiologyInsightsServiceVersion.V2023_09_01_PREVIEW"
-  summary: "Enum value 2023-09-01-preview."
-  desc: "Enum value 2023-09-01-preview."
+- uid: "com.azure.health.insights.radiologyinsights.RadiologyInsightsServiceVersion.V2024_04_01"
+  fullName: "com.azure.health.insights.radiologyinsights.RadiologyInsightsServiceVersion.V2024_04_01"
+  name: "V2024_04_01"
+  nameWithType: "RadiologyInsightsServiceVersion.V2024_04_01"
+  summary: "Enum value 2024-04-01."
+  desc: "Enum value 2024-04-01."
+- uid: "com.azure.health.insights.radiologyinsights.RadiologyInsightsServiceVersion.V2024_10_01"
+  fullName: "com.azure.health.insights.radiologyinsights.RadiologyInsightsServiceVersion.V2024_10_01"
+  name: "V2024_10_01"
+  nameWithType: "RadiologyInsightsServiceVersion.V2024_10_01"
+  summary: "Enum value 2024-10-01."
+  desc: "Enum value 2024-10-01."
 methods:
 - uid: "com.azure.health.insights.radiologyinsights.RadiologyInsightsServiceVersion.getLatest()"
   fullName: "com.azure.health.insights.radiologyinsights.RadiologyInsightsServiceVersion.getLatest()"
@@ -83,4 +89,4 @@ implements:
 - "<xref href=\"com.azure.core.util.ServiceVersion?alt=com.azure.core.util.ServiceVersion&text=ServiceVersion\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.azure.health.insights.radiologyinsights"
-artifact: com.azure:azure-health-insights-radiologyinsights:1.0.0-beta.1
+artifact: com.azure:azure-health-insights-radiologyinsights:1.2.0-alpha.20260910.2

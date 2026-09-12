@@ -20,7 +20,7 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
-syntax: "public final class **ClinicalCodedElement**"
+syntax: "public final class **ClinicalCodedElement**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.health.insights.cancerprofiling.models.ClinicalCodedElement?alt=com.azure.health.insights.cancerprofiling.models.ClinicalCodedElement&text=ClinicalCodedElement\" data-throw-if-not-resolved=\"False\" />&gt;"
 constructors:
 - uid: "com.azure.health.insights.cancerprofiling.models.ClinicalCodedElement.ClinicalCodedElement(java.lang.String,java.lang.String)"
   fullName: "com.azure.health.insights.cancerprofiling.models.ClinicalCodedElement.ClinicalCodedElement(String system, String code)"
@@ -37,6 +37,25 @@ constructors:
   syntax: "public ClinicalCodedElement(String system, String code)"
   desc: "Creates an instance of ClinicalCodedElement class."
 methods:
+- uid: "com.azure.health.insights.cancerprofiling.models.ClinicalCodedElement.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.health.insights.cancerprofiling.models.ClinicalCodedElement.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "ClinicalCodedElement.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Clinical<wbr>Coded<wbr>Element from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static ClinicalCodedElement fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of ClinicalCodedElement from the JsonReader."
+  returns:
+    description: "An instance of ClinicalCodedElement if the JsonReader was pointing to an instance of it, or null if it\n was pointing to JSON null."
+    type: "<xref href=\"com.azure.health.insights.cancerprofiling.models.ClinicalCodedElement?alt=com.azure.health.insights.cancerprofiling.models.ClinicalCodedElement&text=ClinicalCodedElement\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.health.insights.cancerprofiling.models.ClinicalCodedElement.getCode()"
   fullName: "com.azure.health.insights.cancerprofiling.models.ClinicalCodedElement.getCode()"
   name: "getCode()"
@@ -105,8 +124,22 @@ methods:
   returns:
     description: "the ClinicalCodedElement object itself."
     type: "<xref href=\"com.azure.health.insights.cancerprofiling.models.ClinicalCodedElement?alt=com.azure.health.insights.cancerprofiling.models.ClinicalCodedElement&text=ClinicalCodedElement\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.health.insights.cancerprofiling.models.ClinicalCodedElement.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.health.insights.cancerprofiling.models.ClinicalCodedElement.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "ClinicalCodedElement.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "A piece of clinical information, expressed as a code in a clinical coding system."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.health.insights.cancerprofiling.models.ClinicalCodedElement?alt=com.azure.health.insights.cancerprofiling.models.ClinicalCodedElement&text=ClinicalCodedElement\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.health.insights.cancerprofiling.models"
-artifact: com.azure:azure-health-insights-cancerprofiling:1.0.0-beta.1
+artifact: com.azure:azure-health-insights-cancerprofiling:1.0.0-alpha.20260910.2

@@ -20,7 +20,7 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
-syntax: "public final class **PatientRecord**"
+syntax: "public final class **PatientRecord**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.health.insights.clinicalmatching.models.PatientRecord?alt=com.azure.health.insights.clinicalmatching.models.PatientRecord&text=PatientRecord\" data-throw-if-not-resolved=\"False\" />&gt;"
 constructors:
 - uid: "com.azure.health.insights.clinicalmatching.models.PatientRecord.PatientRecord(java.lang.String)"
   fullName: "com.azure.health.insights.clinicalmatching.models.PatientRecord.PatientRecord(String id)"
@@ -34,6 +34,25 @@ constructors:
   syntax: "public PatientRecord(String id)"
   desc: "Creates an instance of PatientRecord class."
 methods:
+- uid: "com.azure.health.insights.clinicalmatching.models.PatientRecord.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.health.insights.clinicalmatching.models.PatientRecord.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "PatientRecord.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Patient<wbr>Record from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static PatientRecord fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of PatientRecord from the JsonReader."
+  returns:
+    description: "An instance of PatientRecord if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
+    type: "<xref href=\"com.azure.health.insights.clinicalmatching.models.PatientRecord?alt=com.azure.health.insights.clinicalmatching.models.PatientRecord&text=PatientRecord\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.health.insights.clinicalmatching.models.PatientRecord.getData()"
   fullName: "com.azure.health.insights.clinicalmatching.models.PatientRecord.getData()"
   name: "getData()"
@@ -92,8 +111,22 @@ methods:
   returns:
     description: "the PatientRecord object itself."
     type: "<xref href=\"com.azure.health.insights.clinicalmatching.models.PatientRecord?alt=com.azure.health.insights.clinicalmatching.models.PatientRecord&text=PatientRecord\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.health.insights.clinicalmatching.models.PatientRecord.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.health.insights.clinicalmatching.models.PatientRecord.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "PatientRecord.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "A patient record, including their clinical information and data."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.health.insights.clinicalmatching.models.PatientRecord?alt=com.azure.health.insights.clinicalmatching.models.PatientRecord&text=PatientRecord\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.health.insights.clinicalmatching.models"
-artifact: com.azure:azure-health-insights-clinicalmatching:1.0.0-beta.1
+artifact: com.azure:azure-health-insights-clinicalmatching:1.0.0-alpha.20260910.2

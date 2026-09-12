@@ -122,4 +122,4 @@ type: "class"
 desc: "Recurrence model when frequency is set as Daily."
 metadata: {}
 package: "com.azure.developer.loadtesting.models"
-artifact: com.azure:azure-developer-loadtesting:1.2.0-beta.1
+artifact: com.azure:azure-developer-loadtesting:1.2.0-alpha.20260910.1

@@ -130,4 +130,4 @@ type: "interface"
 desc: "An immutable client-side representation of CustomizationPolicy."
 metadata: {}
 package: "com.azure.resourcemanager.vmwarecloudsimple.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-vmwarecloudsimple:1.0.0-beta.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-vmwarecloudsimple:1.0.0-alpha.20260910.4

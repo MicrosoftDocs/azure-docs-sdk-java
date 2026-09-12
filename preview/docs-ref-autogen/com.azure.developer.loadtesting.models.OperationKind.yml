@@ -107,4 +107,4 @@ type: "class"
 desc: "Kind of the long running operation."
 metadata: {}
 package: "com.azure.developer.loadtesting.models"
-artifact: com.azure:azure-developer-loadtesting:1.2.0-beta.1
+artifact: com.azure:azure-developer-loadtesting:1.2.0-alpha.20260910.1

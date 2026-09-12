@@ -1,0 +1,16 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.postgresql.models.VirtualNetworkRule.Definition"
+fullName: "com.azure.resourcemanager.postgresql.models.VirtualNetworkRule.Definition"
+name: "VirtualNetworkRule.Definition"
+nameWithType: "VirtualNetworkRule.Definition"
+summary: "The entirety of the Virtual<wbr>Network<wbr>Rule definition."
+syntax: "public static interface **VirtualNetworkRule.Definition**</br> extends <xref href=\"com.azure.resourcemanager.postgresql.models.VirtualNetworkRule.DefinitionStages.Blank?alt=com.azure.resourcemanager.postgresql.models.VirtualNetworkRule.DefinitionStages.Blank&text=Blank\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.postgresql.models.VirtualNetworkRule.DefinitionStages.WithParentResource?alt=com.azure.resourcemanager.postgresql.models.VirtualNetworkRule.DefinitionStages.WithParentResource&text=WithParentResource\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.postgresql.models.VirtualNetworkRule.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.postgresql.models.VirtualNetworkRule.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of the VirtualNetworkRule definition."
+implements:
+- "<xref href=\"com.azure.resourcemanager.postgresql.models.VirtualNetworkRule.DefinitionStages.Blank?alt=com.azure.resourcemanager.postgresql.models.VirtualNetworkRule.DefinitionStages.Blank&text=Blank\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.postgresql.models.VirtualNetworkRule.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.postgresql.models.VirtualNetworkRule.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.postgresql.models.VirtualNetworkRule.DefinitionStages.WithParentResource?alt=com.azure.resourcemanager.postgresql.models.VirtualNetworkRule.DefinitionStages.WithParentResource&text=WithParentResource\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.azure.resourcemanager.postgresql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-postgresql:1.2.0-alpha.20260910.1

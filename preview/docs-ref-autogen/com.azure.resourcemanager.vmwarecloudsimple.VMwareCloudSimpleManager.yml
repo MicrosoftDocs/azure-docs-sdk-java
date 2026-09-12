@@ -196,4 +196,4 @@ type: "class"
 desc: "Entry point to VMwareCloudSimpleManager. Description of the new service."
 metadata: {}
 package: "com.azure.resourcemanager.vmwarecloudsimple"
-artifact: com.azure.resourcemanager:azure-resourcemanager-vmwarecloudsimple:1.0.0-beta.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-vmwarecloudsimple:1.0.0-alpha.20260910.4

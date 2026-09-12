@@ -1,0 +1,101 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.avs.models.HostUpdateProperties"
+fullName: "com.azure.resourcemanager.avs.models.HostUpdateProperties"
+name: "HostUpdateProperties"
+nameWithType: "HostUpdateProperties"
+summary: "The properties for updating a host."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **HostUpdateProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.avs.models.HostUpdateProperties?alt=com.azure.resourcemanager.avs.models.HostUpdateProperties&text=HostUpdateProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.avs.models.HostUpdateProperties.HostUpdateProperties()"
+  fullName: "com.azure.resourcemanager.avs.models.HostUpdateProperties.HostUpdateProperties()"
+  name: "HostUpdateProperties()"
+  nameWithType: "HostUpdateProperties.HostUpdateProperties()"
+  summary: "Creates an instance of Host<wbr>Update<wbr>Properties class."
+  syntax: "public HostUpdateProperties()"
+  desc: "Creates an instance of HostUpdateProperties class."
+methods:
+- uid: "com.azure.resourcemanager.avs.models.HostUpdateProperties.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.avs.models.HostUpdateProperties.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "HostUpdateProperties.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Host<wbr>Update<wbr>Properties from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static HostUpdateProperties fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the HostUpdateProperties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of HostUpdateProperties from the JsonReader."
+  returns:
+    description: "An instance of HostUpdateProperties if the JsonReader was pointing to an instance of it, or null if it\n was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.avs.models.HostUpdateProperties?alt=com.azure.resourcemanager.avs.models.HostUpdateProperties&text=HostUpdateProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.avs.models.HostUpdateProperties.licenses()"
+  fullName: "com.azure.resourcemanager.avs.models.HostUpdateProperties.licenses()"
+  name: "licenses()"
+  nameWithType: "HostUpdateProperties.licenses()"
+  summary: "Get the licenses property: The licenses assigned to the host."
+  syntax: "public List<HostLicense> licenses()"
+  desc: "Get the licenses property: The licenses assigned to the host."
+  returns:
+    description: "the licenses value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.avs.models.HostLicense?alt=com.azure.resourcemanager.avs.models.HostLicense&text=HostLicense\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.avs.models.HostUpdateProperties.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.avs.models.HostUpdateProperties.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "HostUpdateProperties.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.avs.models.HostUpdateProperties.validate()"
+  fullName: "com.azure.resourcemanager.avs.models.HostUpdateProperties.validate()"
+  name: "validate()"
+  nameWithType: "HostUpdateProperties.validate()"
+  summary: "Validates the instance."
+  syntax: "public void validate()"
+  desc: "Validates the instance."
+- uid: "com.azure.resourcemanager.avs.models.HostUpdateProperties.withLicenses(java.util.List<com.azure.resourcemanager.avs.models.HostLicense>)"
+  fullName: "com.azure.resourcemanager.avs.models.HostUpdateProperties.withLicenses(List<HostLicense> licenses)"
+  name: "withLicenses(List<HostLicense> licenses)"
+  nameWithType: "HostUpdateProperties.withLicenses(List<HostLicense> licenses)"
+  summary: "Set the licenses property: The licenses assigned to the host."
+  parameters:
+  - description: "the licenses value to set."
+    name: "licenses"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.avs.models.HostLicense?alt=com.azure.resourcemanager.avs.models.HostLicense&text=HostLicense\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public HostUpdateProperties withLicenses(List<HostLicense> licenses)"
+  desc: "Set the licenses property: The licenses assigned to the host."
+  returns:
+    description: "the HostUpdateProperties object itself."
+    type: "<xref href=\"com.azure.resourcemanager.avs.models.HostUpdateProperties?alt=com.azure.resourcemanager.avs.models.HostUpdateProperties&text=HostUpdateProperties\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "The properties for updating a host."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.avs.models.HostUpdateProperties?alt=com.azure.resourcemanager.avs.models.HostUpdateProperties&text=HostUpdateProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.avs.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-avs:1.5.0-alpha.20260910.5

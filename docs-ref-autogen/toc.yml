@@ -95,6 +95,10 @@
     name: AISearchIndexResource
     no-loc:
     - AISearchIndexResource
+  - uid: com.azure.ai.agents.models.ActivityProtocolAccessBoundary
+    name: ActivityProtocolAccessBoundary
+    no-loc:
+    - ActivityProtocolAccessBoundary
   - uid: com.azure.ai.agents.models.ActivityProtocolConfiguration
     name: ActivityProtocolConfiguration
     no-loc:
@@ -179,10 +183,10 @@
     name: AgentOptimizationDatasetItem
     no-loc:
     - AgentOptimizationDatasetItem
-  - uid: com.azure.ai.agents.models.AgentOptimizationEvaluatorRef
-    name: AgentOptimizationEvaluatorRef
+  - uid: com.azure.ai.agents.models.AgentOptimizationEvaluatorReference
+    name: AgentOptimizationEvaluatorReference
     no-loc:
-    - AgentOptimizationEvaluatorRef
+    - AgentOptimizationEvaluatorReference
   - uid: com.azure.ai.agents.models.AgentOptimizationInlineDatasetInput
     name: AgentOptimizationInlineDatasetInput
     no-loc:
@@ -495,6 +499,10 @@
     name: CreateAgentVersionInput
     no-loc:
     - CreateAgentVersionInput
+  - uid: com.azure.ai.agents.models.CreateAgentVersionOptions
+    name: CreateAgentVersionOptions
+    no-loc:
+    - CreateAgentVersionOptions
   - uid: com.azure.ai.agents.models.CustomGrammarFormatParameter
     name: CustomGrammarFormatParameter
     no-loc:
@@ -515,6 +523,10 @@
     name: CustomToolParameter
     no-loc:
     - CustomToolParameter
+  - uid: com.azure.ai.agents.models.DigitalWorkerType
+    name: DigitalWorkerType
+    no-loc:
+    - DigitalWorkerType
   - uid: com.azure.ai.agents.models.EntraAuthorizationScheme
     name: EntraAuthorizationScheme
     no-loc:
@@ -583,6 +595,10 @@
     name: FunctionTool
     no-loc:
     - FunctionTool
+  - uid: com.azure.ai.agents.models.GetMicrosoft365AppPackageOptions
+    name: GetMicrosoft365AppPackageOptions
+    no-loc:
+    - GetMicrosoft365AppPackageOptions
   - uid: com.azure.ai.agents.models.GrammarSyntax
     name: GrammarSyntax
     no-loc:
@@ -787,10 +803,50 @@
     name: MemoryStoreUpdateStatus
     no-loc:
     - MemoryStoreUpdateStatus
+  - uid: com.azure.ai.agents.models.Microsoft365PermissionScopes
+    name: Microsoft365PermissionScopes
+    no-loc:
+    - Microsoft365PermissionScopes
+  - uid: com.azure.ai.agents.models.Microsoft365PublishDefaults
+    name: Microsoft365PublishDefaults
+    no-loc:
+    - Microsoft365PublishDefaults
+  - uid: com.azure.ai.agents.models.Microsoft365PublishResult
+    name: Microsoft365PublishResult
+    no-loc:
+    - Microsoft365PublishResult
+  - uid: com.azure.ai.agents.models.Microsoft365PublishScope
+    name: Microsoft365PublishScope
+    no-loc:
+    - Microsoft365PublishScope
   - uid: com.azure.ai.agents.models.MicrosoftFabricPreviewTool
     name: MicrosoftFabricPreviewTool
     no-loc:
     - MicrosoftFabricPreviewTool
+  - uid: com.azure.ai.agents.models.ModelRouterAttempt
+    name: ModelRouterAttempt
+    no-loc:
+    - ModelRouterAttempt
+  - uid: com.azure.ai.agents.models.ModelRouterAttemptError
+    name: ModelRouterAttemptError
+    no-loc:
+    - ModelRouterAttemptError
+  - uid: com.azure.ai.agents.models.ModelRouterAttemptResult
+    name: ModelRouterAttemptResult
+    no-loc:
+    - ModelRouterAttemptResult
+  - uid: com.azure.ai.agents.models.ModelRouterDetails
+    name: ModelRouterDetails
+    no-loc:
+    - ModelRouterDetails
+  - uid: com.azure.ai.agents.models.ModelRouterMode
+    name: ModelRouterMode
+    no-loc:
+    - ModelRouterMode
+  - uid: com.azure.ai.agents.models.ModelSelectionDetails
+    name: ModelSelectionDetails
+    no-loc:
+    - ModelSelectionDetails
   - uid: com.azure.ai.agents.models.NamespaceTool
     name: NamespaceTool
     no-loc:
@@ -887,6 +943,14 @@
     name: ProtocolVersionRecord
     no-loc:
     - ProtocolVersionRecord
+  - uid: com.azure.ai.agents.models.PublishAgentToMicrosoft365Options
+    name: PublishAgentToMicrosoft365Options
+    no-loc:
+    - PublishAgentToMicrosoft365Options
+  - uid: com.azure.ai.agents.models.PublishApprovalStatus
+    name: PublishApprovalStatus
+    no-loc:
+    - PublishApprovalStatus
   - uid: com.azure.ai.agents.models.RaiConfig
     name: RaiConfig
     no-loc:
@@ -919,6 +983,10 @@
     name: ResponsesProtocolConfiguration
     no-loc:
     - ResponsesProtocolConfiguration
+  - uid: com.azure.ai.agents.models.RoutingTraceEntry
+    name: RoutingTraceEntry
+    no-loc:
+    - RoutingTraceEntry
   - uid: com.azure.ai.agents.models.SearchContentType
     name: SearchContentType
     no-loc:
@@ -927,6 +995,10 @@
     name: SearchContextSize
     no-loc:
     - SearchContextSize
+  - uid: com.azure.ai.agents.models.SessionConfiguration
+    name: SessionConfiguration
+    no-loc:
+    - SessionConfiguration
   - uid: com.azure.ai.agents.models.SessionDirectoryEntry
     name: SessionDirectoryEntry
     no-loc:
@@ -959,6 +1031,10 @@
     name: SharepointPreviewTool
     no-loc:
     - SharepointPreviewTool
+  - uid: com.azure.ai.agents.models.ShellToolboxTool
+    name: ShellToolboxTool
+    no-loc:
+    - ShellToolboxTool
   - uid: com.azure.ai.agents.models.SkillReferenceParameter
     name: SkillReferenceParameter
     no-loc:
@@ -1063,6 +1139,26 @@
     name: ToolboxSearchPreviewToolboxTool
     no-loc:
     - ToolboxSearchPreviewToolboxTool
+  - uid: com.azure.ai.agents.models.ToolboxShellContainerAutoEnvironment
+    name: ToolboxShellContainerAutoEnvironment
+    no-loc:
+    - ToolboxShellContainerAutoEnvironment
+  - uid: com.azure.ai.agents.models.ToolboxShellContainerReferenceEnvironment
+    name: ToolboxShellContainerReferenceEnvironment
+    no-loc:
+    - ToolboxShellContainerReferenceEnvironment
+  - uid: com.azure.ai.agents.models.ToolboxShellEnvironment
+    name: ToolboxShellEnvironment
+    no-loc:
+    - ToolboxShellEnvironment
+  - uid: com.azure.ai.agents.models.ToolboxShellNetworkPolicy
+    name: ToolboxShellNetworkPolicy
+    no-loc:
+    - ToolboxShellNetworkPolicy
+  - uid: com.azure.ai.agents.models.ToolboxShellNetworkPolicyDisabled
+    name: ToolboxShellNetworkPolicyDisabled
+    no-loc:
+    - ToolboxShellNetworkPolicyDisabled
   - uid: com.azure.ai.agents.models.ToolboxSkill
     name: ToolboxSkill
     no-loc:
@@ -1115,6 +1211,14 @@
     name: VersionSelectorType
     no-loc:
     - VersionSelectorType
+  - uid: com.azure.ai.agents.models.WebIqPreviewTool
+    name: WebIqPreviewTool
+    no-loc:
+    - WebIqPreviewTool
+  - uid: com.azure.ai.agents.models.WebIqPreviewToolboxTool
+    name: WebIqPreviewToolboxTool
+    no-loc:
+    - WebIqPreviewToolboxTool
   - uid: com.azure.ai.agents.models.WebSearchApproximateLocation
     name: WebSearchApproximateLocation
     no-loc:
@@ -2958,6 +3062,14 @@
     name: AIProjectsServiceVersion
     no-loc:
     - AIProjectsServiceVersion
+  - uid: com.azure.ai.projects.BetaAgentInsightMonitorsAsyncClient
+    name: BetaAgentInsightMonitorsAsyncClient
+    no-loc:
+    - BetaAgentInsightMonitorsAsyncClient
+  - uid: com.azure.ai.projects.BetaAgentInsightMonitorsClient
+    name: BetaAgentInsightMonitorsClient
+    no-loc:
+    - BetaAgentInsightMonitorsClient
   - uid: com.azure.ai.projects.BetaDatasetsAsyncClient
     name: BetaDatasetsAsyncClient
     no-loc:
@@ -3099,6 +3211,110 @@
     name: AgentEvaluatorGenerationJobSource
     no-loc:
     - AgentEvaluatorGenerationJobSource
+  - uid: com.azure.ai.projects.models.AgentInsight
+    name: AgentInsight
+    no-loc:
+    - AgentInsight
+  - uid: com.azure.ai.projects.models.AgentInsightDetails
+    name: AgentInsightDetails
+    no-loc:
+    - AgentInsightDetails
+  - uid: com.azure.ai.projects.models.AgentInsightEstimatedCost
+    name: AgentInsightEstimatedCost
+    no-loc:
+    - AgentInsightEstimatedCost
+  - uid: com.azure.ai.projects.models.AgentInsightHighlightedTrace
+    name: AgentInsightHighlightedTrace
+    no-loc:
+    - AgentInsightHighlightedTrace
+  - uid: com.azure.ai.projects.models.AgentInsightLinkedTrace
+    name: AgentInsightLinkedTrace
+    no-loc:
+    - AgentInsightLinkedTrace
+  - uid: com.azure.ai.projects.models.AgentInsightMonitor
+    name: AgentInsightMonitor
+    no-loc:
+    - AgentInsightMonitor
+  - uid: com.azure.ai.projects.models.AgentInsightMonitorCreate
+    name: AgentInsightMonitorCreate
+    no-loc:
+    - AgentInsightMonitorCreate
+  - uid: com.azure.ai.projects.models.AgentInsightMonitorListItem
+    name: AgentInsightMonitorListItem
+    no-loc:
+    - AgentInsightMonitorListItem
+  - uid: com.azure.ai.projects.models.AgentInsightMonitorUpdate
+    name: AgentInsightMonitorUpdate
+    no-loc:
+    - AgentInsightMonitorUpdate
+  - uid: com.azure.ai.projects.models.AgentInsightOverviewSource
+    name: AgentInsightOverviewSource
+    no-loc:
+    - AgentInsightOverviewSource
+  - uid: com.azure.ai.projects.models.AgentInsightPromptSurface
+    name: AgentInsightPromptSurface
+    no-loc:
+    - AgentInsightPromptSurface
+  - uid: com.azure.ai.projects.models.AgentInsightProposedFix
+    name: AgentInsightProposedFix
+    no-loc:
+    - AgentInsightProposedFix
+  - uid: com.azure.ai.projects.models.AgentInsightProposedFixChange
+    name: AgentInsightProposedFixChange
+    no-loc:
+    - AgentInsightProposedFixChange
+  - uid: com.azure.ai.projects.models.AgentInsightProposedFixKind
+    name: AgentInsightProposedFixKind
+    no-loc:
+    - AgentInsightProposedFixKind
+  - uid: com.azure.ai.projects.models.AgentInsightRecommendedAction
+    name: AgentInsightRecommendedAction
+    no-loc:
+    - AgentInsightRecommendedAction
+  - uid: com.azure.ai.projects.models.AgentInsightRun
+    name: AgentInsightRun
+    no-loc:
+    - AgentInsightRun
+  - uid: com.azure.ai.projects.models.AgentInsightRunCreate
+    name: AgentInsightRunCreate
+    no-loc:
+    - AgentInsightRunCreate
+  - uid: com.azure.ai.projects.models.AgentInsightRunResult
+    name: AgentInsightRunResult
+    no-loc:
+    - AgentInsightRunResult
+  - uid: com.azure.ai.projects.models.AgentInsightRunTrigger
+    name: AgentInsightRunTrigger
+    no-loc:
+    - AgentInsightRunTrigger
+  - uid: com.azure.ai.projects.models.AgentInsightSeverity
+    name: AgentInsightSeverity
+    no-loc:
+    - AgentInsightSeverity
+  - uid: com.azure.ai.projects.models.AgentInsightStatus
+    name: AgentInsightStatus
+    no-loc:
+    - AgentInsightStatus
+  - uid: com.azure.ai.projects.models.AgentInsightSuspension
+    name: AgentInsightSuspension
+    no-loc:
+    - AgentInsightSuspension
+  - uid: com.azure.ai.projects.models.AgentInsightTokenUsage
+    name: AgentInsightTokenUsage
+    no-loc:
+    - AgentInsightTokenUsage
+  - uid: com.azure.ai.projects.models.AgentInsightUpdate
+    name: AgentInsightUpdate
+    no-loc:
+    - AgentInsightUpdate
+  - uid: com.azure.ai.projects.models.AgentInsightsOverview
+    name: AgentInsightsOverview
+    no-loc:
+    - AgentInsightsOverview
+  - uid: com.azure.ai.projects.models.AgentInsightsOverviewOverride
+    name: AgentInsightsOverviewOverride
+    no-loc:
+    - AgentInsightsOverviewOverride
   - uid: com.azure.ai.projects.models.AgentTaxonomyInput
     name: AgentTaxonomyInput
     no-loc:
@@ -3703,6 +3919,14 @@
     name: RoutineAttemptSource
     no-loc:
     - RoutineAttemptSource
+  - uid: com.azure.ai.projects.models.RoutineAuthorization
+    name: RoutineAuthorization
+    no-loc:
+    - RoutineAuthorization
+  - uid: com.azure.ai.projects.models.RoutineDispatchIdentity
+    name: RoutineDispatchIdentity
+    no-loc:
+    - RoutineDispatchIdentity
   - uid: com.azure.ai.projects.models.RoutineDispatchPayload
     name: RoutineDispatchPayload
     no-loc:
@@ -43019,6 +43243,14 @@
     name: HostKind
     no-loc:
     - HostKind
+  - uid: com.azure.resourcemanager.avs.models.HostLicense
+    name: HostLicense
+    no-loc:
+    - HostLicense
+  - uid: com.azure.resourcemanager.avs.models.HostLicenseKind
+    name: HostLicenseKind
+    no-loc:
+    - HostLicenseKind
   - uid: com.azure.resourcemanager.avs.models.HostMaintenance
     name: HostMaintenance
     no-loc:
@@ -43035,6 +43267,14 @@
     name: HostProvisioningState
     no-loc:
     - HostProvisioningState
+  - uid: com.azure.resourcemanager.avs.models.HostUpdate
+    name: HostUpdate
+    no-loc:
+    - HostUpdate
+  - uid: com.azure.resourcemanager.avs.models.HostUpdateProperties
+    name: HostUpdateProperties
+    no-loc:
+    - HostUpdateProperties
   - uid: com.azure.resourcemanager.avs.models.Hosts
     name: Hosts
     no-loc:
@@ -43139,6 +43379,14 @@
     name: Maintenance
     no-loc:
     - Maintenance
+  - uid: com.azure.resourcemanager.avs.models.MaintenanceActivity
+    name: MaintenanceActivity
+    no-loc:
+    - MaintenanceActivity
+  - uid: com.azure.resourcemanager.avs.models.MaintenanceActivityKind
+    name: MaintenanceActivityKind
+    no-loc:
+    - MaintenanceActivityKind
   - uid: com.azure.resourcemanager.avs.models.MaintenanceCheckType
     name: MaintenanceCheckType
     no-loc:
@@ -43147,6 +43395,14 @@
     name: MaintenanceFailedCheck
     no-loc:
     - MaintenanceFailedCheck
+  - uid: com.azure.resourcemanager.avs.models.MaintenanceGroup
+    name: MaintenanceGroup
+    no-loc:
+    - MaintenanceGroup
+  - uid: com.azure.resourcemanager.avs.models.MaintenanceGroupKind
+    name: MaintenanceGroupKind
+    no-loc:
+    - MaintenanceGroupKind
   - uid: com.azure.resourcemanager.avs.models.MaintenanceManagementOperation
     name: MaintenanceManagementOperation
     no-loc:
@@ -43179,6 +43435,14 @@
     name: MaintenanceReadinessStatus
     no-loc:
     - MaintenanceReadinessStatus
+  - uid: com.azure.resourcemanager.avs.models.MaintenanceRecommendation
+    name: MaintenanceRecommendation
+    no-loc:
+    - MaintenanceRecommendation
+  - uid: com.azure.resourcemanager.avs.models.MaintenanceRelationships
+    name: MaintenanceRelationships
+    no-loc:
+    - MaintenanceRelationships
   - uid: com.azure.resourcemanager.avs.models.MaintenanceReschedule
     name: MaintenanceReschedule
     no-loc:
@@ -43203,6 +43467,10 @@
     name: MaintenanceType
     no-loc:
     - MaintenanceType
+  - uid: com.azure.resourcemanager.avs.models.MaintenanceWindowRecommendation
+    name: MaintenanceWindowRecommendation
+    no-loc:
+    - MaintenanceWindowRecommendation
   - uid: com.azure.resourcemanager.avs.models.Maintenances
     name: Maintenances
     no-loc:
@@ -43595,6 +43863,10 @@
     name: RescheduleOperationConstraintKind
     no-loc:
     - RescheduleOperationConstraintKind
+  - uid: com.azure.resourcemanager.avs.models.ReschedulingWindowConstraint
+    name: ReschedulingWindowConstraint
+    no-loc:
+    - ReschedulingWindowConstraint
   - uid: com.azure.resourcemanager.avs.models.ResourceIdentityType
     name: ResourceIdentityType
     no-loc:
@@ -43899,6 +44171,18 @@
     name: VmwareFirewallLicenseProperties
     no-loc:
     - VmwareFirewallLicenseProperties
+  - uid: com.azure.resourcemanager.avs.models.WeekendReschedulingConstraint
+    name: WeekendReschedulingConstraint
+    no-loc:
+    - WeekendReschedulingConstraint
+  - uid: com.azure.resourcemanager.avs.models.WeekendSchedulingConstraint
+    name: WeekendSchedulingConstraint
+    no-loc:
+    - WeekendSchedulingConstraint
+  - uid: com.azure.resourcemanager.avs.models.WindowsServerLicense
+    name: WindowsServerLicense
+    no-loc:
+    - WindowsServerLicense
   - uid: com.azure.resourcemanager.avs.models.WorkloadNetwork
     name: WorkloadNetwork
     no-loc:
@@ -180557,6 +180841,558 @@
     - UserAssignedIdentity
   no-loc:
   - com.azure.resourcemanager.redisenterprise.models
+- uid: com.azure.resourcemanager.relay
+  name: com.azure.resourcemanager.relay
+  items:
+  - uid: com.azure.resourcemanager.relay.RelayManager
+    name: RelayManager
+    no-loc:
+    - RelayManager
+  - uid: com.azure.resourcemanager.relay.RelayManager.Configurable
+    name: RelayManager.Configurable
+    no-loc:
+    - RelayManager.Configurable
+  no-loc:
+  - com.azure.resourcemanager.relay
+- uid: com.azure.resourcemanager.relay.fluent
+  name: com.azure.resourcemanager.relay.fluent
+  items:
+  - uid: com.azure.resourcemanager.relay.fluent.HybridConnectionsClient
+    name: HybridConnectionsClient
+    no-loc:
+    - HybridConnectionsClient
+  - uid: com.azure.resourcemanager.relay.fluent.NamespacesClient
+    name: NamespacesClient
+    no-loc:
+    - NamespacesClient
+  - uid: com.azure.resourcemanager.relay.fluent.OperationsClient
+    name: OperationsClient
+    no-loc:
+    - OperationsClient
+  - uid: com.azure.resourcemanager.relay.fluent.PrivateEndpointConnectionsClient
+    name: PrivateEndpointConnectionsClient
+    no-loc:
+    - PrivateEndpointConnectionsClient
+  - uid: com.azure.resourcemanager.relay.fluent.PrivateLinkResourcesClient
+    name: PrivateLinkResourcesClient
+    no-loc:
+    - PrivateLinkResourcesClient
+  - uid: com.azure.resourcemanager.relay.fluent.RelayManagementClient
+    name: RelayManagementClient
+    no-loc:
+    - RelayManagementClient
+  - uid: com.azure.resourcemanager.relay.fluent.WcfRelaysClient
+    name: WcfRelaysClient
+    no-loc:
+    - WcfRelaysClient
+  no-loc:
+  - com.azure.resourcemanager.relay.fluent
+- uid: com.azure.resourcemanager.relay.fluent.models
+  name: com.azure.resourcemanager.relay.fluent.models
+  items:
+  - uid: com.azure.resourcemanager.relay.fluent.models.AccessKeysInner
+    name: AccessKeysInner
+    no-loc:
+    - AccessKeysInner
+  - uid: com.azure.resourcemanager.relay.fluent.models.AuthorizationRuleInner
+    name: AuthorizationRuleInner
+    no-loc:
+    - AuthorizationRuleInner
+  - uid: com.azure.resourcemanager.relay.fluent.models.AuthorizationRuleProperties
+    name: AuthorizationRuleProperties
+    no-loc:
+    - AuthorizationRuleProperties
+  - uid: com.azure.resourcemanager.relay.fluent.models.CheckNameAvailabilityResultInner
+    name: CheckNameAvailabilityResultInner
+    no-loc:
+    - CheckNameAvailabilityResultInner
+  - uid: com.azure.resourcemanager.relay.fluent.models.HybridConnectionInner
+    name: HybridConnectionInner
+    no-loc:
+    - HybridConnectionInner
+  - uid: com.azure.resourcemanager.relay.fluent.models.HybridConnectionProperties
+    name: HybridConnectionProperties
+    no-loc:
+    - HybridConnectionProperties
+  - uid: com.azure.resourcemanager.relay.fluent.models.NetworkRuleSetInner
+    name: NetworkRuleSetInner
+    no-loc:
+    - NetworkRuleSetInner
+  - uid: com.azure.resourcemanager.relay.fluent.models.NetworkRuleSetProperties
+    name: NetworkRuleSetProperties
+    no-loc:
+    - NetworkRuleSetProperties
+  - uid: com.azure.resourcemanager.relay.fluent.models.OperationInner
+    name: OperationInner
+    no-loc:
+    - OperationInner
+  - uid: com.azure.resourcemanager.relay.fluent.models.PrivateEndpointConnectionInner
+    name: PrivateEndpointConnectionInner
+    no-loc:
+    - PrivateEndpointConnectionInner
+  - uid: com.azure.resourcemanager.relay.fluent.models.PrivateEndpointConnectionProperties
+    name: PrivateEndpointConnectionProperties
+    no-loc:
+    - PrivateEndpointConnectionProperties
+  - uid: com.azure.resourcemanager.relay.fluent.models.PrivateLinkResourceInner
+    name: PrivateLinkResourceInner
+    no-loc:
+    - PrivateLinkResourceInner
+  - uid: com.azure.resourcemanager.relay.fluent.models.PrivateLinkResourceProperties
+    name: PrivateLinkResourceProperties
+    no-loc:
+    - PrivateLinkResourceProperties
+  - uid: com.azure.resourcemanager.relay.fluent.models.PrivateLinkResourcesListResultInner
+    name: PrivateLinkResourcesListResultInner
+    no-loc:
+    - PrivateLinkResourcesListResultInner
+  - uid: com.azure.resourcemanager.relay.fluent.models.RelayNamespaceInner
+    name: RelayNamespaceInner
+    no-loc:
+    - RelayNamespaceInner
+  - uid: com.azure.resourcemanager.relay.fluent.models.RelayNamespaceProperties
+    name: RelayNamespaceProperties
+    no-loc:
+    - RelayNamespaceProperties
+  - uid: com.azure.resourcemanager.relay.fluent.models.WcfRelayInner
+    name: WcfRelayInner
+    no-loc:
+    - WcfRelayInner
+  - uid: com.azure.resourcemanager.relay.fluent.models.WcfRelayProperties
+    name: WcfRelayProperties
+    no-loc:
+    - WcfRelayProperties
+  no-loc:
+  - com.azure.resourcemanager.relay.fluent.models
+- uid: com.azure.resourcemanager.relay.models
+  name: com.azure.resourcemanager.relay.models
+  items:
+  - uid: com.azure.resourcemanager.relay.models.AccessKeys
+    name: AccessKeys
+    no-loc:
+    - AccessKeys
+  - uid: com.azure.resourcemanager.relay.models.AccessRights
+    name: AccessRights
+    no-loc:
+    - AccessRights
+  - uid: com.azure.resourcemanager.relay.models.ActionType
+    name: ActionType
+    no-loc:
+    - ActionType
+  - uid: com.azure.resourcemanager.relay.models.AuthorizationRule
+    name: AuthorizationRule
+    no-loc:
+    - AuthorizationRule
+  - uid: com.azure.resourcemanager.relay.models.AuthorizationRule.Definition
+    name: AuthorizationRule.Definition
+    no-loc:
+    - AuthorizationRule.Definition
+  - uid: com.azure.resourcemanager.relay.models.AuthorizationRule.DefinitionStages
+    name: AuthorizationRule.DefinitionStages
+    no-loc:
+    - AuthorizationRule.DefinitionStages
+  - uid: com.azure.resourcemanager.relay.models.AuthorizationRule.DefinitionStages.Blank
+    name: AuthorizationRule.DefinitionStages.Blank
+    no-loc:
+    - AuthorizationRule.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.relay.models.AuthorizationRule.DefinitionStages.WithCreate
+    name: AuthorizationRule.DefinitionStages.WithCreate
+    no-loc:
+    - AuthorizationRule.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.relay.models.AuthorizationRule.DefinitionStages.WithParentResource
+    name: AuthorizationRule.DefinitionStages.WithParentResource
+    no-loc:
+    - AuthorizationRule.DefinitionStages.WithParentResource
+  - uid: com.azure.resourcemanager.relay.models.AuthorizationRule.DefinitionStages.WithRights
+    name: AuthorizationRule.DefinitionStages.WithRights
+    no-loc:
+    - AuthorizationRule.DefinitionStages.WithRights
+  - uid: com.azure.resourcemanager.relay.models.AuthorizationRule.Update
+    name: AuthorizationRule.Update
+    no-loc:
+    - AuthorizationRule.Update
+  - uid: com.azure.resourcemanager.relay.models.AuthorizationRule.UpdateStages
+    name: AuthorizationRule.UpdateStages
+    no-loc:
+    - AuthorizationRule.UpdateStages
+  - uid: com.azure.resourcemanager.relay.models.AuthorizationRule.UpdateStages.WithRights
+    name: AuthorizationRule.UpdateStages.WithRights
+    no-loc:
+    - AuthorizationRule.UpdateStages.WithRights
+  - uid: com.azure.resourcemanager.relay.models.CheckNameAvailability
+    name: CheckNameAvailability
+    no-loc:
+    - CheckNameAvailability
+  - uid: com.azure.resourcemanager.relay.models.CheckNameAvailabilityResult
+    name: CheckNameAvailabilityResult
+    no-loc:
+    - CheckNameAvailabilityResult
+  - uid: com.azure.resourcemanager.relay.models.ConnectionState
+    name: ConnectionState
+    no-loc:
+    - ConnectionState
+  - uid: com.azure.resourcemanager.relay.models.DefaultAction
+    name: DefaultAction
+    no-loc:
+    - DefaultAction
+  - uid: com.azure.resourcemanager.relay.models.EndPointProvisioningState
+    name: EndPointProvisioningState
+    no-loc:
+    - EndPointProvisioningState
+  - uid: com.azure.resourcemanager.relay.models.HybridConnection
+    name: HybridConnection
+    no-loc:
+    - HybridConnection
+  - uid: com.azure.resourcemanager.relay.models.HybridConnection.Definition
+    name: HybridConnection.Definition
+    no-loc:
+    - HybridConnection.Definition
+  - uid: com.azure.resourcemanager.relay.models.HybridConnection.DefinitionStages
+    name: HybridConnection.DefinitionStages
+    no-loc:
+    - HybridConnection.DefinitionStages
+  - uid: com.azure.resourcemanager.relay.models.HybridConnection.DefinitionStages.Blank
+    name: HybridConnection.DefinitionStages.Blank
+    no-loc:
+    - HybridConnection.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.relay.models.HybridConnection.DefinitionStages.WithCreate
+    name: HybridConnection.DefinitionStages.WithCreate
+    no-loc:
+    - HybridConnection.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.relay.models.HybridConnection.DefinitionStages.WithParentResource
+    name: HybridConnection.DefinitionStages.WithParentResource
+    no-loc:
+    - HybridConnection.DefinitionStages.WithParentResource
+  - uid: com.azure.resourcemanager.relay.models.HybridConnection.DefinitionStages.WithRequiresClientAuthorization
+    name: HybridConnection.DefinitionStages.WithRequiresClientAuthorization
+    no-loc:
+    - HybridConnection.DefinitionStages.WithRequiresClientAuthorization
+  - uid: com.azure.resourcemanager.relay.models.HybridConnection.DefinitionStages.WithUserMetadata
+    name: HybridConnection.DefinitionStages.WithUserMetadata
+    no-loc:
+    - HybridConnection.DefinitionStages.WithUserMetadata
+  - uid: com.azure.resourcemanager.relay.models.HybridConnection.Update
+    name: HybridConnection.Update
+    no-loc:
+    - HybridConnection.Update
+  - uid: com.azure.resourcemanager.relay.models.HybridConnection.UpdateStages
+    name: HybridConnection.UpdateStages
+    no-loc:
+    - HybridConnection.UpdateStages
+  - uid: com.azure.resourcemanager.relay.models.HybridConnection.UpdateStages.WithRequiresClientAuthorization
+    name: HybridConnection.UpdateStages.WithRequiresClientAuthorization
+    no-loc:
+    - HybridConnection.UpdateStages.WithRequiresClientAuthorization
+  - uid: com.azure.resourcemanager.relay.models.HybridConnection.UpdateStages.WithUserMetadata
+    name: HybridConnection.UpdateStages.WithUserMetadata
+    no-loc:
+    - HybridConnection.UpdateStages.WithUserMetadata
+  - uid: com.azure.resourcemanager.relay.models.HybridConnections
+    name: HybridConnections
+    no-loc:
+    - HybridConnections
+  - uid: com.azure.resourcemanager.relay.models.KeyType
+    name: KeyType
+    no-loc:
+    - KeyType
+  - uid: com.azure.resourcemanager.relay.models.NWRuleSetIpRules
+    name: NWRuleSetIpRules
+    no-loc:
+    - NWRuleSetIpRules
+  - uid: com.azure.resourcemanager.relay.models.Namespaces
+    name: Namespaces
+    no-loc:
+    - Namespaces
+  - uid: com.azure.resourcemanager.relay.models.NetworkRuleIPAction
+    name: NetworkRuleIPAction
+    no-loc:
+    - NetworkRuleIPAction
+  - uid: com.azure.resourcemanager.relay.models.NetworkRuleSet
+    name: NetworkRuleSet
+    no-loc:
+    - NetworkRuleSet
+  - uid: com.azure.resourcemanager.relay.models.Operation
+    name: Operation
+    no-loc:
+    - Operation
+  - uid: com.azure.resourcemanager.relay.models.OperationDisplay
+    name: OperationDisplay
+    no-loc:
+    - OperationDisplay
+  - uid: com.azure.resourcemanager.relay.models.Operations
+    name: Operations
+    no-loc:
+    - Operations
+  - uid: com.azure.resourcemanager.relay.models.Origin
+    name: Origin
+    no-loc:
+    - Origin
+  - uid: com.azure.resourcemanager.relay.models.PrivateEndpoint
+    name: PrivateEndpoint
+    no-loc:
+    - PrivateEndpoint
+  - uid: com.azure.resourcemanager.relay.models.PrivateEndpointConnection
+    name: PrivateEndpointConnection
+    no-loc:
+    - PrivateEndpointConnection
+  - uid: com.azure.resourcemanager.relay.models.PrivateEndpointConnection.Definition
+    name: PrivateEndpointConnection.Definition
+    no-loc:
+    - PrivateEndpointConnection.Definition
+  - uid: com.azure.resourcemanager.relay.models.PrivateEndpointConnection.DefinitionStages
+    name: PrivateEndpointConnection.DefinitionStages
+    no-loc:
+    - PrivateEndpointConnection.DefinitionStages
+  - uid: com.azure.resourcemanager.relay.models.PrivateEndpointConnection.DefinitionStages.Blank
+    name: PrivateEndpointConnection.DefinitionStages.Blank
+    no-loc:
+    - PrivateEndpointConnection.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.relay.models.PrivateEndpointConnection.DefinitionStages.WithCreate
+    name: PrivateEndpointConnection.DefinitionStages.WithCreate
+    no-loc:
+    - PrivateEndpointConnection.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.relay.models.PrivateEndpointConnection.DefinitionStages.WithParentResource
+    name: PrivateEndpointConnection.DefinitionStages.WithParentResource
+    no-loc:
+    - PrivateEndpointConnection.DefinitionStages.WithParentResource
+  - uid: com.azure.resourcemanager.relay.models.PrivateEndpointConnection.DefinitionStages.WithPrivateEndpoint
+    name: PrivateEndpointConnection.DefinitionStages.WithPrivateEndpoint
+    no-loc:
+    - PrivateEndpointConnection.DefinitionStages.WithPrivateEndpoint
+  - uid: com.azure.resourcemanager.relay.models.PrivateEndpointConnection.DefinitionStages.WithPrivateLinkServiceConnectionState
+    name: PrivateEndpointConnection.DefinitionStages.WithPrivateLinkServiceConnectionState
+    no-loc:
+    - PrivateEndpointConnection.DefinitionStages.WithPrivateLinkServiceConnectionState
+  - uid: com.azure.resourcemanager.relay.models.PrivateEndpointConnection.DefinitionStages.WithProvisioningState
+    name: PrivateEndpointConnection.DefinitionStages.WithProvisioningState
+    no-loc:
+    - PrivateEndpointConnection.DefinitionStages.WithProvisioningState
+  - uid: com.azure.resourcemanager.relay.models.PrivateEndpointConnection.Update
+    name: PrivateEndpointConnection.Update
+    no-loc:
+    - PrivateEndpointConnection.Update
+  - uid: com.azure.resourcemanager.relay.models.PrivateEndpointConnection.UpdateStages
+    name: PrivateEndpointConnection.UpdateStages
+    no-loc:
+    - PrivateEndpointConnection.UpdateStages
+  - uid: com.azure.resourcemanager.relay.models.PrivateEndpointConnection.UpdateStages.WithPrivateEndpoint
+    name: PrivateEndpointConnection.UpdateStages.WithPrivateEndpoint
+    no-loc:
+    - PrivateEndpointConnection.UpdateStages.WithPrivateEndpoint
+  - uid: com.azure.resourcemanager.relay.models.PrivateEndpointConnection.UpdateStages.WithPrivateLinkServiceConnectionState
+    name: PrivateEndpointConnection.UpdateStages.WithPrivateLinkServiceConnectionState
+    no-loc:
+    - PrivateEndpointConnection.UpdateStages.WithPrivateLinkServiceConnectionState
+  - uid: com.azure.resourcemanager.relay.models.PrivateEndpointConnection.UpdateStages.WithProvisioningState
+    name: PrivateEndpointConnection.UpdateStages.WithProvisioningState
+    no-loc:
+    - PrivateEndpointConnection.UpdateStages.WithProvisioningState
+  - uid: com.azure.resourcemanager.relay.models.PrivateEndpointConnections
+    name: PrivateEndpointConnections
+    no-loc:
+    - PrivateEndpointConnections
+  - uid: com.azure.resourcemanager.relay.models.PrivateLinkConnectionStatus
+    name: PrivateLinkConnectionStatus
+    no-loc:
+    - PrivateLinkConnectionStatus
+  - uid: com.azure.resourcemanager.relay.models.PrivateLinkResource
+    name: PrivateLinkResource
+    no-loc:
+    - PrivateLinkResource
+  - uid: com.azure.resourcemanager.relay.models.PrivateLinkResources
+    name: PrivateLinkResources
+    no-loc:
+    - PrivateLinkResources
+  - uid: com.azure.resourcemanager.relay.models.PrivateLinkResourcesListResult
+    name: PrivateLinkResourcesListResult
+    no-loc:
+    - PrivateLinkResourcesListResult
+  - uid: com.azure.resourcemanager.relay.models.PublicNetworkAccess
+    name: PublicNetworkAccess
+    no-loc:
+    - PublicNetworkAccess
+  - uid: com.azure.resourcemanager.relay.models.RegenerateAccessKeyParameters
+    name: RegenerateAccessKeyParameters
+    no-loc:
+    - RegenerateAccessKeyParameters
+  - uid: com.azure.resourcemanager.relay.models.RelayNamespace
+    name: RelayNamespace
+    no-loc:
+    - RelayNamespace
+  - uid: com.azure.resourcemanager.relay.models.RelayNamespace.Definition
+    name: RelayNamespace.Definition
+    no-loc:
+    - RelayNamespace.Definition
+  - uid: com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages
+    name: RelayNamespace.DefinitionStages
+    no-loc:
+    - RelayNamespace.DefinitionStages
+  - uid: com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.Blank
+    name: RelayNamespace.DefinitionStages.Blank
+    no-loc:
+    - RelayNamespace.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithCreate
+    name: RelayNamespace.DefinitionStages.WithCreate
+    no-loc:
+    - RelayNamespace.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithLocation
+    name: RelayNamespace.DefinitionStages.WithLocation
+    no-loc:
+    - RelayNamespace.DefinitionStages.WithLocation
+  - uid: com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithMinimumTlsVersion
+    name: RelayNamespace.DefinitionStages.WithMinimumTlsVersion
+    no-loc:
+    - RelayNamespace.DefinitionStages.WithMinimumTlsVersion
+  - uid: com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithPrivateEndpointConnections
+    name: RelayNamespace.DefinitionStages.WithPrivateEndpointConnections
+    no-loc:
+    - RelayNamespace.DefinitionStages.WithPrivateEndpointConnections
+  - uid: com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithPublicNetworkAccess
+    name: RelayNamespace.DefinitionStages.WithPublicNetworkAccess
+    no-loc:
+    - RelayNamespace.DefinitionStages.WithPublicNetworkAccess
+  - uid: com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithResourceGroup
+    name: RelayNamespace.DefinitionStages.WithResourceGroup
+    no-loc:
+    - RelayNamespace.DefinitionStages.WithResourceGroup
+  - uid: com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithSku
+    name: RelayNamespace.DefinitionStages.WithSku
+    no-loc:
+    - RelayNamespace.DefinitionStages.WithSku
+  - uid: com.azure.resourcemanager.relay.models.RelayNamespace.DefinitionStages.WithTags
+    name: RelayNamespace.DefinitionStages.WithTags
+    no-loc:
+    - RelayNamespace.DefinitionStages.WithTags
+  - uid: com.azure.resourcemanager.relay.models.RelayNamespace.Update
+    name: RelayNamespace.Update
+    no-loc:
+    - RelayNamespace.Update
+  - uid: com.azure.resourcemanager.relay.models.RelayNamespace.UpdateStages
+    name: RelayNamespace.UpdateStages
+    no-loc:
+    - RelayNamespace.UpdateStages
+  - uid: com.azure.resourcemanager.relay.models.RelayNamespace.UpdateStages.WithMinimumTlsVersion
+    name: RelayNamespace.UpdateStages.WithMinimumTlsVersion
+    no-loc:
+    - RelayNamespace.UpdateStages.WithMinimumTlsVersion
+  - uid: com.azure.resourcemanager.relay.models.RelayNamespace.UpdateStages.WithPrivateEndpointConnections
+    name: RelayNamespace.UpdateStages.WithPrivateEndpointConnections
+    no-loc:
+    - RelayNamespace.UpdateStages.WithPrivateEndpointConnections
+  - uid: com.azure.resourcemanager.relay.models.RelayNamespace.UpdateStages.WithPublicNetworkAccess
+    name: RelayNamespace.UpdateStages.WithPublicNetworkAccess
+    no-loc:
+    - RelayNamespace.UpdateStages.WithPublicNetworkAccess
+  - uid: com.azure.resourcemanager.relay.models.RelayNamespace.UpdateStages.WithSku
+    name: RelayNamespace.UpdateStages.WithSku
+    no-loc:
+    - RelayNamespace.UpdateStages.WithSku
+  - uid: com.azure.resourcemanager.relay.models.RelayNamespace.UpdateStages.WithTags
+    name: RelayNamespace.UpdateStages.WithTags
+    no-loc:
+    - RelayNamespace.UpdateStages.WithTags
+  - uid: com.azure.resourcemanager.relay.models.RelayUpdateParameters
+    name: RelayUpdateParameters
+    no-loc:
+    - RelayUpdateParameters
+  - uid: com.azure.resourcemanager.relay.models.Relaytype
+    name: Relaytype
+    no-loc:
+    - Relaytype
+  - uid: com.azure.resourcemanager.relay.models.ResourceNamespacePatch
+    name: ResourceNamespacePatch
+    no-loc:
+    - ResourceNamespacePatch
+  - uid: com.azure.resourcemanager.relay.models.Sku
+    name: Sku
+    no-loc:
+    - Sku
+  - uid: com.azure.resourcemanager.relay.models.SkuName
+    name: SkuName
+    no-loc:
+    - SkuName
+  - uid: com.azure.resourcemanager.relay.models.SkuTier
+    name: SkuTier
+    no-loc:
+    - SkuTier
+  - uid: com.azure.resourcemanager.relay.models.TlsVersion
+    name: TlsVersion
+    no-loc:
+    - TlsVersion
+  - uid: com.azure.resourcemanager.relay.models.UnavailableReason
+    name: UnavailableReason
+    no-loc:
+    - UnavailableReason
+  - uid: com.azure.resourcemanager.relay.models.WcfRelay
+    name: WcfRelay
+    no-loc:
+    - WcfRelay
+  - uid: com.azure.resourcemanager.relay.models.WcfRelay.Definition
+    name: WcfRelay.Definition
+    no-loc:
+    - WcfRelay.Definition
+  - uid: com.azure.resourcemanager.relay.models.WcfRelay.DefinitionStages
+    name: WcfRelay.DefinitionStages
+    no-loc:
+    - WcfRelay.DefinitionStages
+  - uid: com.azure.resourcemanager.relay.models.WcfRelay.DefinitionStages.Blank
+    name: WcfRelay.DefinitionStages.Blank
+    no-loc:
+    - WcfRelay.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.relay.models.WcfRelay.DefinitionStages.WithCreate
+    name: WcfRelay.DefinitionStages.WithCreate
+    no-loc:
+    - WcfRelay.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.relay.models.WcfRelay.DefinitionStages.WithParentResource
+    name: WcfRelay.DefinitionStages.WithParentResource
+    no-loc:
+    - WcfRelay.DefinitionStages.WithParentResource
+  - uid: com.azure.resourcemanager.relay.models.WcfRelay.DefinitionStages.WithRelayType
+    name: WcfRelay.DefinitionStages.WithRelayType
+    no-loc:
+    - WcfRelay.DefinitionStages.WithRelayType
+  - uid: com.azure.resourcemanager.relay.models.WcfRelay.DefinitionStages.WithRequiresClientAuthorization
+    name: WcfRelay.DefinitionStages.WithRequiresClientAuthorization
+    no-loc:
+    - WcfRelay.DefinitionStages.WithRequiresClientAuthorization
+  - uid: com.azure.resourcemanager.relay.models.WcfRelay.DefinitionStages.WithRequiresTransportSecurity
+    name: WcfRelay.DefinitionStages.WithRequiresTransportSecurity
+    no-loc:
+    - WcfRelay.DefinitionStages.WithRequiresTransportSecurity
+  - uid: com.azure.resourcemanager.relay.models.WcfRelay.DefinitionStages.WithUserMetadata
+    name: WcfRelay.DefinitionStages.WithUserMetadata
+    no-loc:
+    - WcfRelay.DefinitionStages.WithUserMetadata
+  - uid: com.azure.resourcemanager.relay.models.WcfRelay.Update
+    name: WcfRelay.Update
+    no-loc:
+    - WcfRelay.Update
+  - uid: com.azure.resourcemanager.relay.models.WcfRelay.UpdateStages
+    name: WcfRelay.UpdateStages
+    no-loc:
+    - WcfRelay.UpdateStages
+  - uid: com.azure.resourcemanager.relay.models.WcfRelay.UpdateStages.WithRelayType
+    name: WcfRelay.UpdateStages.WithRelayType
+    no-loc:
+    - WcfRelay.UpdateStages.WithRelayType
+  - uid: com.azure.resourcemanager.relay.models.WcfRelay.UpdateStages.WithRequiresClientAuthorization
+    name: WcfRelay.UpdateStages.WithRequiresClientAuthorization
+    no-loc:
+    - WcfRelay.UpdateStages.WithRequiresClientAuthorization
+  - uid: com.azure.resourcemanager.relay.models.WcfRelay.UpdateStages.WithRequiresTransportSecurity
+    name: WcfRelay.UpdateStages.WithRequiresTransportSecurity
+    no-loc:
+    - WcfRelay.UpdateStages.WithRequiresTransportSecurity
+  - uid: com.azure.resourcemanager.relay.models.WcfRelay.UpdateStages.WithUserMetadata
+    name: WcfRelay.UpdateStages.WithUserMetadata
+    no-loc:
+    - WcfRelay.UpdateStages.WithUserMetadata
+  - uid: com.azure.resourcemanager.relay.models.WcfRelays
+    name: WcfRelays
+    no-loc:
+    - WcfRelays
+  no-loc:
+  - com.azure.resourcemanager.relay.models
 - uid: com.azure.resourcemanager.reservations
   name: com.azure.resourcemanager.reservations
   items:

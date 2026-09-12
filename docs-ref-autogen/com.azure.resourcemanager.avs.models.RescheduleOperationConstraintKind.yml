@@ -62,6 +62,30 @@ fields:
     type: "<xref href=\"com.azure.resourcemanager.avs.models.RescheduleOperationConstraintKind?alt=com.azure.resourcemanager.avs.models.RescheduleOperationConstraintKind&text=RescheduleOperationConstraintKind\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final RescheduleOperationConstraintKind BLOCKED_WHILE_RESCHEDULE_OPERATION"
   desc: "Blocked time range constraint."
+- uid: "com.azure.resourcemanager.avs.models.RescheduleOperationConstraintKind.RESCHEDULING_WINDOW"
+  fullName: "com.azure.resourcemanager.avs.models.RescheduleOperationConstraintKind.RESCHEDULING_WINDOW"
+  name: "RESCHEDULING_WINDOW"
+  nameWithType: "RescheduleOperationConstraintKind.RESCHEDULING_WINDOW"
+  summary: "Defines allowed window for rescheduling."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.avs.models.RescheduleOperationConstraintKind?alt=com.azure.resourcemanager.avs.models.RescheduleOperationConstraintKind&text=RescheduleOperationConstraintKind\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final RescheduleOperationConstraintKind RESCHEDULING_WINDOW"
+  desc: "Defines allowed window for rescheduling."
+- uid: "com.azure.resourcemanager.avs.models.RescheduleOperationConstraintKind.WEEKEND_RESCHEDULING"
+  fullName: "com.azure.resourcemanager.avs.models.RescheduleOperationConstraintKind.WEEKEND_RESCHEDULING"
+  name: "WEEKEND_RESCHEDULING"
+  nameWithType: "RescheduleOperationConstraintKind.WEEKEND_RESCHEDULING"
+  summary: "Defines weekend rescheduling restriction."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.avs.models.RescheduleOperationConstraintKind?alt=com.azure.resourcemanager.avs.models.RescheduleOperationConstraintKind&text=RescheduleOperationConstraintKind\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final RescheduleOperationConstraintKind WEEKEND_RESCHEDULING"
+  desc: "Defines weekend rescheduling restriction."
 methods:
 - uid: "com.azure.resourcemanager.avs.models.RescheduleOperationConstraintKind.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.avs.models.RescheduleOperationConstraintKind.fromString(String name)"
@@ -95,4 +119,4 @@ type: "class"
 desc: "Constraints for rescheduling of maintenance."
 metadata: {}
 package: "com.azure.resourcemanager.avs.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-avs:1.4.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-avs:1.5.0

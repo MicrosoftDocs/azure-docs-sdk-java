@@ -1,0 +1,12 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.postgresql.models.Database.UpdateStages"
+fullName: "com.azure.resourcemanager.postgresql.models.Database.UpdateStages"
+name: "Database.UpdateStages"
+nameWithType: "Database.UpdateStages"
+summary: "The Database update stages."
+syntax: "public static interface **Database.UpdateStages**"
+type: "interface"
+desc: "The Database update stages."
+metadata: {}
+package: "com.azure.resourcemanager.postgresql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-postgresql:1.2.0-alpha.20260910.1

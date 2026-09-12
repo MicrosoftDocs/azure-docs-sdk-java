@@ -1,0 +1,110 @@
+### YamlMime:JavaType
+uid: "com.azure.ai.projects.models.AgentInsightSeverity"
+fullName: "com.azure.ai.projects.models.AgentInsightSeverity"
+name: "AgentInsightSeverity"
+nameWithType: "AgentInsightSeverity"
+summary: "The severity of an agent insight."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **AgentInsightSeverity**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.projects.models.AgentInsightSeverity?alt=com.azure.ai.projects.models.AgentInsightSeverity&text=AgentInsightSeverity\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.ai.projects.models.AgentInsightSeverity.AgentInsightSeverity()"
+  fullName: "com.azure.ai.projects.models.AgentInsightSeverity.AgentInsightSeverity()"
+  name: "AgentInsightSeverity()"
+  nameWithType: "AgentInsightSeverity.AgentInsightSeverity()"
+  summary: "Creates a new instance of Agent<wbr>Insight<wbr>Severity value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.ai.projects.models.AgentInsightSeverity.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public AgentInsightSeverity()"
+  desc: "Creates a new instance of AgentInsightSeverity value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.ai.projects.models.AgentInsightSeverity.HIGH"
+  fullName: "com.azure.ai.projects.models.AgentInsightSeverity.HIGH"
+  name: "HIGH"
+  nameWithType: "AgentInsightSeverity.HIGH"
+  summary: "The insight has high severity."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.projects.models.AgentInsightSeverity?alt=com.azure.ai.projects.models.AgentInsightSeverity&text=AgentInsightSeverity\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AgentInsightSeverity HIGH"
+  desc: "The insight has high severity."
+- uid: "com.azure.ai.projects.models.AgentInsightSeverity.LOW"
+  fullName: "com.azure.ai.projects.models.AgentInsightSeverity.LOW"
+  name: "LOW"
+  nameWithType: "AgentInsightSeverity.LOW"
+  summary: "The insight has low severity."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.projects.models.AgentInsightSeverity?alt=com.azure.ai.projects.models.AgentInsightSeverity&text=AgentInsightSeverity\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AgentInsightSeverity LOW"
+  desc: "The insight has low severity."
+- uid: "com.azure.ai.projects.models.AgentInsightSeverity.MEDIUM"
+  fullName: "com.azure.ai.projects.models.AgentInsightSeverity.MEDIUM"
+  name: "MEDIUM"
+  nameWithType: "AgentInsightSeverity.MEDIUM"
+  summary: "The insight has medium severity."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.projects.models.AgentInsightSeverity?alt=com.azure.ai.projects.models.AgentInsightSeverity&text=AgentInsightSeverity\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AgentInsightSeverity MEDIUM"
+  desc: "The insight has medium severity."
+methods:
+- uid: "com.azure.ai.projects.models.AgentInsightSeverity.fromString(java.lang.String)"
+  fullName: "com.azure.ai.projects.models.AgentInsightSeverity.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "AgentInsightSeverity.fromString(String name)"
+  summary: "Creates or finds a Agent<wbr>Insight<wbr>Severity from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static AgentInsightSeverity fromString(String name)"
+  desc: "Creates or finds a AgentInsightSeverity from its string representation."
+  returns:
+    description: "the corresponding AgentInsightSeverity."
+    type: "<xref href=\"com.azure.ai.projects.models.AgentInsightSeverity?alt=com.azure.ai.projects.models.AgentInsightSeverity&text=AgentInsightSeverity\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.projects.models.AgentInsightSeverity.values()"
+  fullName: "com.azure.ai.projects.models.AgentInsightSeverity.values()"
+  name: "values()"
+  nameWithType: "AgentInsightSeverity.values()"
+  summary: "Gets known Agent<wbr>Insight<wbr>Severity values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<AgentInsightSeverity> values()"
+  desc: "Gets known AgentInsightSeverity values."
+  returns:
+    description: "known AgentInsightSeverity values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.ai.projects.models.AgentInsightSeverity?alt=com.azure.ai.projects.models.AgentInsightSeverity&text=AgentInsightSeverity\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "The severity of an agent insight."
+metadata: {}
+package: "com.azure.ai.projects.models"
+artifact: com.azure:azure-ai-projects:2.5.0

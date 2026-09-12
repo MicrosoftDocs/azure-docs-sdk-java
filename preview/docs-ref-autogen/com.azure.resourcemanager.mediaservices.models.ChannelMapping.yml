@@ -167,4 +167,4 @@ type: "class"
 desc: "Optional designation for single channel audio tracks. Can be used to combine the tracks into stereo or multi-channel audio tracks."
 metadata: {}
 package: "com.azure.resourcemanager.mediaservices.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-mediaservices:2.4.0-beta.2
+artifact: com.azure.resourcemanager:azure-resourcemanager-mediaservices:2.5.0-alpha.20260910.3

@@ -4,6 +4,7 @@ fullName: "com.azure.messaging.eventgrid.systemevents.AcsChatThreadMemberPropert
 name: "AcsChatThreadMemberProperties"
 nameWithType: "AcsChatThreadMemberProperties"
 summary: "The Acs<wbr>Chat<wbr>Thread<wbr>Member<wbr>Properties model."
+deprecatedTag: "This class is deprecated and may be removed in future releases."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -20,14 +21,35 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
-syntax: "public final class **AcsChatThreadMemberProperties**"
+syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public final class **AcsChatThreadMemberProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsChatThreadMemberProperties?alt=com.azure.messaging.eventgrid.systemevents.AcsChatThreadMemberProperties&text=AcsChatThreadMemberProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 constructors:
 - uid: "com.azure.messaging.eventgrid.systemevents.AcsChatThreadMemberProperties.AcsChatThreadMemberProperties()"
   fullName: "com.azure.messaging.eventgrid.systemevents.AcsChatThreadMemberProperties.AcsChatThreadMemberProperties()"
   name: "AcsChatThreadMemberProperties()"
   nameWithType: "AcsChatThreadMemberProperties.AcsChatThreadMemberProperties()"
+  summary: "Creates an instance of Acs<wbr>Chat<wbr>Thread<wbr>Event<wbr>Base<wbr>Properties class"
   syntax: "public AcsChatThreadMemberProperties()"
+  desc: "Creates an instance of AcsChatThreadEventBaseProperties class"
 methods:
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsChatThreadMemberProperties.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsChatThreadMemberProperties.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "AcsChatThreadMemberProperties.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Acs<wbr>Chat<wbr>Thread<wbr>Member<wbr>Properties from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static AcsChatThreadMemberProperties fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the AcsChatThreadMemberProperties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of AcsChatThreadMemberProperties from the JsonReader."
+  returns:
+    description: "An instance of AcsChatThreadMemberProperties if the JsonReader was pointing to an instance of it, or\n null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsChatThreadMemberProperties?alt=com.azure.messaging.eventgrid.systemevents.AcsChatThreadMemberProperties&text=AcsChatThreadMemberProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.messaging.eventgrid.systemevents.AcsChatThreadMemberProperties.getDisplayName()"
   fullName: "com.azure.messaging.eventgrid.systemevents.AcsChatThreadMemberProperties.getDisplayName()"
   name: "getDisplayName()"
@@ -76,8 +98,23 @@ methods:
   returns:
     description: "the AcsChatThreadMemberProperties object itself."
     type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsChatThreadMemberProperties?alt=com.azure.messaging.eventgrid.systemevents.AcsChatThreadMemberProperties&text=AcsChatThreadMemberProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsChatThreadMemberProperties.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsChatThreadMemberProperties.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "AcsChatThreadMemberProperties.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "The AcsChatThreadMemberProperties model."
+hasDeprecatedTag: true
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsChatThreadMemberProperties?alt=com.azure.messaging.eventgrid.systemevents.AcsChatThreadMemberProperties&text=AcsChatThreadMemberProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.messaging.eventgrid.systemevents"
-artifact: com.azure:azure-messaging-eventgrid:4.21.0-beta.1
+artifact: com.azure:azure-messaging-eventgrid:4.32.0-alpha.20260910.3

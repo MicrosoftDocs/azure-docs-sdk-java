@@ -1,0 +1,120 @@
+### YamlMime:JavaType
+uid: "com.azure.messaging.eventgrid.systemevents.AcsMicrosoftTeamsAppIdentifier"
+fullName: "com.azure.messaging.eventgrid.systemevents.AcsMicrosoftTeamsAppIdentifier"
+name: "AcsMicrosoftTeamsAppIdentifier"
+nameWithType: "AcsMicrosoftTeamsAppIdentifier"
+summary: "A Microsoft Teams application."
+deprecatedTag: "This class is deprecated and may be removed in future releases. System events are now available in the azure-messaging-eventgrid-systemevents package."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public final class **AcsMicrosoftTeamsAppIdentifier**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsMicrosoftTeamsAppIdentifier?alt=com.azure.messaging.eventgrid.systemevents.AcsMicrosoftTeamsAppIdentifier&text=AcsMicrosoftTeamsAppIdentifier\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsMicrosoftTeamsAppIdentifier.AcsMicrosoftTeamsAppIdentifier()"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsMicrosoftTeamsAppIdentifier.AcsMicrosoftTeamsAppIdentifier()"
+  name: "AcsMicrosoftTeamsAppIdentifier()"
+  nameWithType: "AcsMicrosoftTeamsAppIdentifier.AcsMicrosoftTeamsAppIdentifier()"
+  summary: "Creates an instance of Acs<wbr>Microsoft<wbr>Teams<wbr>App<wbr>Identifier class."
+  syntax: "public AcsMicrosoftTeamsAppIdentifier()"
+  desc: "Creates an instance of AcsMicrosoftTeamsAppIdentifier class."
+methods:
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsMicrosoftTeamsAppIdentifier.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsMicrosoftTeamsAppIdentifier.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "AcsMicrosoftTeamsAppIdentifier.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Acs<wbr>Microsoft<wbr>Teams<wbr>App<wbr>Identifier from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static AcsMicrosoftTeamsAppIdentifier fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of AcsMicrosoftTeamsAppIdentifier from the JsonReader."
+  returns:
+    description: "An instance of AcsMicrosoftTeamsAppIdentifier if the JsonReader was pointing to an instance of it, or\n null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsMicrosoftTeamsAppIdentifier?alt=com.azure.messaging.eventgrid.systemevents.AcsMicrosoftTeamsAppIdentifier&text=AcsMicrosoftTeamsAppIdentifier\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsMicrosoftTeamsAppIdentifier.getAppId()"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsMicrosoftTeamsAppIdentifier.getAppId()"
+  name: "getAppId()"
+  nameWithType: "AcsMicrosoftTeamsAppIdentifier.getAppId()"
+  summary: "Get the app<wbr>Id property: The Id of the Microsoft Teams application."
+  syntax: "public String getAppId()"
+  desc: "Get the appId property: The Id of the Microsoft Teams application."
+  returns:
+    description: "the appId value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsMicrosoftTeamsAppIdentifier.getCloud()"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsMicrosoftTeamsAppIdentifier.getCloud()"
+  name: "getCloud()"
+  nameWithType: "AcsMicrosoftTeamsAppIdentifier.getCloud()"
+  summary: "Get the cloud property: The cloud that the Microsoft Teams application belongs to."
+  syntax: "public CommunicationCloudEnvironmentModel getCloud()"
+  desc: "Get the cloud property: The cloud that the Microsoft Teams application belongs to. By default 'public' if missing."
+  returns:
+    description: "the cloud value."
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.CommunicationCloudEnvironmentModel?alt=com.azure.messaging.eventgrid.systemevents.CommunicationCloudEnvironmentModel&text=CommunicationCloudEnvironmentModel\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsMicrosoftTeamsAppIdentifier.setAppId(java.lang.String)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsMicrosoftTeamsAppIdentifier.setAppId(String appId)"
+  name: "setAppId(String appId)"
+  nameWithType: "AcsMicrosoftTeamsAppIdentifier.setAppId(String appId)"
+  summary: "Set the app<wbr>Id property: The Id of the Microsoft Teams application."
+  parameters:
+  - description: "the appId value to set."
+    name: "appId"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public AcsMicrosoftTeamsAppIdentifier setAppId(String appId)"
+  desc: "Set the appId property: The Id of the Microsoft Teams application."
+  returns:
+    description: "the AcsMicrosoftTeamsAppIdentifier object itself."
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsMicrosoftTeamsAppIdentifier?alt=com.azure.messaging.eventgrid.systemevents.AcsMicrosoftTeamsAppIdentifier&text=AcsMicrosoftTeamsAppIdentifier\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsMicrosoftTeamsAppIdentifier.setCloud(com.azure.messaging.eventgrid.systemevents.CommunicationCloudEnvironmentModel)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsMicrosoftTeamsAppIdentifier.setCloud(CommunicationCloudEnvironmentModel cloud)"
+  name: "setCloud(CommunicationCloudEnvironmentModel cloud)"
+  nameWithType: "AcsMicrosoftTeamsAppIdentifier.setCloud(CommunicationCloudEnvironmentModel cloud)"
+  summary: "Set the cloud property: The cloud that the Microsoft Teams application belongs to."
+  parameters:
+  - description: "the cloud value to set."
+    name: "cloud"
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.CommunicationCloudEnvironmentModel?alt=com.azure.messaging.eventgrid.systemevents.CommunicationCloudEnvironmentModel&text=CommunicationCloudEnvironmentModel\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public AcsMicrosoftTeamsAppIdentifier setCloud(CommunicationCloudEnvironmentModel cloud)"
+  desc: "Set the cloud property: The cloud that the Microsoft Teams application belongs to. By default 'public' if missing."
+  returns:
+    description: "the AcsMicrosoftTeamsAppIdentifier object itself."
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsMicrosoftTeamsAppIdentifier?alt=com.azure.messaging.eventgrid.systemevents.AcsMicrosoftTeamsAppIdentifier&text=AcsMicrosoftTeamsAppIdentifier\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsMicrosoftTeamsAppIdentifier.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsMicrosoftTeamsAppIdentifier.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "AcsMicrosoftTeamsAppIdentifier.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "A Microsoft Teams application."
+hasDeprecatedTag: true
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsMicrosoftTeamsAppIdentifier?alt=com.azure.messaging.eventgrid.systemevents.AcsMicrosoftTeamsAppIdentifier&text=AcsMicrosoftTeamsAppIdentifier\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.messaging.eventgrid.systemevents"
+artifact: com.azure:azure-messaging-eventgrid:4.32.0-alpha.20260910.3

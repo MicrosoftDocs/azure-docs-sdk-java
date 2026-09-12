@@ -1,0 +1,146 @@
+### YamlMime:JavaType
+uid: "com.azure.ai.metricsadvisor.administration.models.DataSourceAuthenticationType"
+fullName: "com.azure.ai.metricsadvisor.administration.models.DataSourceAuthenticationType"
+name: "DataSourceAuthenticationType"
+nameWithType: "DataSourceAuthenticationType"
+summary: "Defines values for Data<wbr>Source<wbr>Authentication<wbr>Type."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **DataSourceAuthenticationType**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.metricsadvisor.administration.models.DataSourceAuthenticationType?alt=com.azure.ai.metricsadvisor.administration.models.DataSourceAuthenticationType&text=DataSourceAuthenticationType\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.ai.metricsadvisor.administration.models.DataSourceAuthenticationType.DataSourceAuthenticationType()"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.DataSourceAuthenticationType.DataSourceAuthenticationType()"
+  name: "DataSourceAuthenticationType()"
+  nameWithType: "DataSourceAuthenticationType.DataSourceAuthenticationType()"
+  summary: "Constructs a Data<wbr>Source<wbr>Authentication<wbr>Type object."
+  deprecatedTag: "Use the <xref uid=\"com.azure.ai.metricsadvisor.administration.models.DataSourceAuthenticationType.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public DataSourceAuthenticationType()"
+  desc: "Constructs a DataSourceAuthenticationType object."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.ai.metricsadvisor.administration.models.DataSourceAuthenticationType.AZURE_SQL_CONNECTION_STRING"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.DataSourceAuthenticationType.AZURE_SQL_CONNECTION_STRING"
+  name: "AZURE_SQL_CONNECTION_STRING"
+  nameWithType: "DataSourceAuthenticationType.AZURE_SQL_CONNECTION_STRING"
+  summary: "Static value Azure<wbr>SQLConnection<wbr>String for Data<wbr>Source<wbr>Authentication<wbr>Type."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.metricsadvisor.administration.models.DataSourceAuthenticationType?alt=com.azure.ai.metricsadvisor.administration.models.DataSourceAuthenticationType&text=DataSourceAuthenticationType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final DataSourceAuthenticationType AZURE_SQL_CONNECTION_STRING"
+  desc: "Static value AzureSQLConnectionString for DataSourceAuthenticationType."
+- uid: "com.azure.ai.metricsadvisor.administration.models.DataSourceAuthenticationType.BASIC"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.DataSourceAuthenticationType.BASIC"
+  name: "BASIC"
+  nameWithType: "DataSourceAuthenticationType.BASIC"
+  summary: "Static value Basic for Data<wbr>Source<wbr>Authentication<wbr>Type."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.metricsadvisor.administration.models.DataSourceAuthenticationType?alt=com.azure.ai.metricsadvisor.administration.models.DataSourceAuthenticationType&text=DataSourceAuthenticationType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final DataSourceAuthenticationType BASIC"
+  desc: "Static value Basic for DataSourceAuthenticationType."
+- uid: "com.azure.ai.metricsadvisor.administration.models.DataSourceAuthenticationType.DATA_LAKE_GEN2_SHARED_KEY"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.DataSourceAuthenticationType.DATA_LAKE_GEN2_SHARED_KEY"
+  name: "DATA_LAKE_GEN2_SHARED_KEY"
+  nameWithType: "DataSourceAuthenticationType.DATA_LAKE_GEN2_SHARED_KEY"
+  summary: "Static value Data<wbr>Lake<wbr>Gen2Shared<wbr>Key for Data<wbr>Source<wbr>Authentication<wbr>Type."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.metricsadvisor.administration.models.DataSourceAuthenticationType?alt=com.azure.ai.metricsadvisor.administration.models.DataSourceAuthenticationType&text=DataSourceAuthenticationType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final DataSourceAuthenticationType DATA_LAKE_GEN2_SHARED_KEY"
+  desc: "Static value DataLakeGen2SharedKey for DataSourceAuthenticationType."
+- uid: "com.azure.ai.metricsadvisor.administration.models.DataSourceAuthenticationType.MANAGED_IDENTITY"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.DataSourceAuthenticationType.MANAGED_IDENTITY"
+  name: "MANAGED_IDENTITY"
+  nameWithType: "DataSourceAuthenticationType.MANAGED_IDENTITY"
+  summary: "Static value Managed<wbr>Identity for Data<wbr>Source<wbr>Authentication<wbr>Type."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.metricsadvisor.administration.models.DataSourceAuthenticationType?alt=com.azure.ai.metricsadvisor.administration.models.DataSourceAuthenticationType&text=DataSourceAuthenticationType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final DataSourceAuthenticationType MANAGED_IDENTITY"
+  desc: "Static value ManagedIdentity for DataSourceAuthenticationType."
+- uid: "com.azure.ai.metricsadvisor.administration.models.DataSourceAuthenticationType.SERVICE_PRINCIPAL"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.DataSourceAuthenticationType.SERVICE_PRINCIPAL"
+  name: "SERVICE_PRINCIPAL"
+  nameWithType: "DataSourceAuthenticationType.SERVICE_PRINCIPAL"
+  summary: "Static value Service<wbr>Principal for Data<wbr>Source<wbr>Authentication<wbr>Type."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.metricsadvisor.administration.models.DataSourceAuthenticationType?alt=com.azure.ai.metricsadvisor.administration.models.DataSourceAuthenticationType&text=DataSourceAuthenticationType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final DataSourceAuthenticationType SERVICE_PRINCIPAL"
+  desc: "Static value ServicePrincipal for DataSourceAuthenticationType."
+- uid: "com.azure.ai.metricsadvisor.administration.models.DataSourceAuthenticationType.SERVICE_PRINCIPAL_IN_KV"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.DataSourceAuthenticationType.SERVICE_PRINCIPAL_IN_KV"
+  name: "SERVICE_PRINCIPAL_IN_KV"
+  nameWithType: "DataSourceAuthenticationType.SERVICE_PRINCIPAL_IN_KV"
+  summary: "Static value Service<wbr>Principal<wbr>InKV for Data<wbr>Source<wbr>Authentication<wbr>Type."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.metricsadvisor.administration.models.DataSourceAuthenticationType?alt=com.azure.ai.metricsadvisor.administration.models.DataSourceAuthenticationType&text=DataSourceAuthenticationType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final DataSourceAuthenticationType SERVICE_PRINCIPAL_IN_KV"
+  desc: "Static value ServicePrincipalInKV for DataSourceAuthenticationType."
+methods:
+- uid: "com.azure.ai.metricsadvisor.administration.models.DataSourceAuthenticationType.fromString(java.lang.String)"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.DataSourceAuthenticationType.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "DataSourceAuthenticationType.fromString(String name)"
+  summary: "Creates or finds a Authentication<wbr>Type<wbr>Enum from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static DataSourceAuthenticationType fromString(String name)"
+  desc: "Creates or finds a AuthenticationTypeEnum from its string representation."
+  returns:
+    description: "the corresponding AuthenticationTypeEnum."
+    type: "<xref href=\"com.azure.ai.metricsadvisor.administration.models.DataSourceAuthenticationType?alt=com.azure.ai.metricsadvisor.administration.models.DataSourceAuthenticationType&text=DataSourceAuthenticationType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.metricsadvisor.administration.models.DataSourceAuthenticationType.values()"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.DataSourceAuthenticationType.values()"
+  name: "values()"
+  nameWithType: "DataSourceAuthenticationType.values()"
+  summary: "Returns known Authentication<wbr>Type<wbr>Enum values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<DataSourceAuthenticationType> values()"
+  desc: "Returns known AuthenticationTypeEnum values."
+  returns:
+    description: "known AuthenticationTypeEnum values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.ai.metricsadvisor.administration.models.DataSourceAuthenticationType?alt=com.azure.ai.metricsadvisor.administration.models.DataSourceAuthenticationType&text=DataSourceAuthenticationType\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Defines values for DataSourceAuthenticationType."
+metadata: {}
+package: "com.azure.ai.metricsadvisor.administration.models"
+artifact: com.azure:azure-ai-metricsadvisor:1.3.0-alpha.20260910.4

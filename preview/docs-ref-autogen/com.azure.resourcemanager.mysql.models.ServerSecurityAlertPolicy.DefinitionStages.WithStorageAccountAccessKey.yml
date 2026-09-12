@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.DefinitionStages.WithStorageAccountAccessKey"
+fullName: "com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.DefinitionStages.WithStorageAccountAccessKey"
+name: "ServerSecurityAlertPolicy.DefinitionStages.WithStorageAccountAccessKey"
+nameWithType: "ServerSecurityAlertPolicy.DefinitionStages.WithStorageAccountAccessKey"
+summary: "The stage of the Server<wbr>Security<wbr>Alert<wbr>Policy definition allowing to specify storage<wbr>Account<wbr>Access<wbr>Key."
+syntax: "public static interface **ServerSecurityAlertPolicy.DefinitionStages.WithStorageAccountAccessKey**"
+methods:
+- uid: "com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.DefinitionStages.WithStorageAccountAccessKey.withStorageAccountAccessKey(java.lang.String)"
+  fullName: "com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.DefinitionStages.WithStorageAccountAccessKey.withStorageAccountAccessKey(String storageAccountAccessKey)"
+  name: "withStorageAccountAccessKey(String storageAccountAccessKey)"
+  nameWithType: "ServerSecurityAlertPolicy.DefinitionStages.WithStorageAccountAccessKey.withStorageAccountAccessKey(String storageAccountAccessKey)"
+  summary: "Specifies the storage<wbr>Account<wbr>Access<wbr>Key property: Specifies the identifier key of the Threat Detection audit storage account.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Specifies the identifier key of the Threat Detection audit storage\n     account."
+    name: "storageAccountAccessKey"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract ServerSecurityAlertPolicy.DefinitionStages.WithCreate withStorageAccountAccessKey(String storageAccountAccessKey)"
+  desc: "Specifies the storageAccountAccessKey property: Specifies the identifier key of the Threat Detection audit storage account.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the ServerSecurityAlertPolicy definition allowing to specify storageAccountAccessKey."
+metadata: {}
+package: "com.azure.resourcemanager.mysql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-mysql:1.1.0-alpha.20260910.2

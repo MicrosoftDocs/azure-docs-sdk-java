@@ -1,0 +1,55 @@
+### YamlMime:JavaType
+uid: "com.azure.ai.metricsadvisor.administration.models.MySqlDataFeedSource"
+fullName: "com.azure.ai.metricsadvisor.administration.models.MySqlDataFeedSource"
+name: "MySqlDataFeedSource"
+nameWithType: "MySqlDataFeedSource"
+summary: "The My<wbr>Sql<wbr>Data<wbr>Feed<wbr>Source model."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.ai.metricsadvisor.administration.models.DataFeedSource?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **MySqlDataFeedSource**</br> extends <xref href=\"com.azure.ai.metricsadvisor.administration.models.DataFeedSource?alt=com.azure.ai.metricsadvisor.administration.models.DataFeedSource&text=DataFeedSource\" data-throw-if-not-resolved=\"False\" />"
+constructors:
+- uid: "com.azure.ai.metricsadvisor.administration.models.MySqlDataFeedSource.MySqlDataFeedSource(java.lang.String,java.lang.String)"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.MySqlDataFeedSource.MySqlDataFeedSource(String connectionString, String query)"
+  name: "MySqlDataFeedSource(String connectionString, String query)"
+  nameWithType: "MySqlDataFeedSource.MySqlDataFeedSource(String connectionString, String query)"
+  summary: "Create a My<wbr>Sql<wbr>Data<wbr>Feed<wbr>Source instance."
+  parameters:
+  - description: "the database connection string"
+    name: "connectionString"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "the query value."
+    name: "query"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public MySqlDataFeedSource(String connectionString, String query)"
+  desc: "Create a MySqlDataFeedSource instance."
+methods:
+- uid: "com.azure.ai.metricsadvisor.administration.models.MySqlDataFeedSource.getQuery()"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.MySqlDataFeedSource.getQuery()"
+  name: "getQuery()"
+  nameWithType: "MySqlDataFeedSource.getQuery()"
+  summary: "Get the query property: Query script."
+  syntax: "public String getQuery()"
+  desc: "Get the query property: Query script."
+  returns:
+    description: "the query value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+type: "class"
+desc: "The MySqlDataFeedSource model."
+metadata: {}
+package: "com.azure.ai.metricsadvisor.administration.models"
+artifact: com.azure:azure-ai-metricsadvisor:1.3.0-alpha.20260910.4

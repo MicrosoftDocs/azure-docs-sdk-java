@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.postgresql.models.ServerSecurityAlertPolicy.DefinitionStages.WithEmailAddresses"
+fullName: "com.azure.resourcemanager.postgresql.models.ServerSecurityAlertPolicy.DefinitionStages.WithEmailAddresses"
+name: "ServerSecurityAlertPolicy.DefinitionStages.WithEmailAddresses"
+nameWithType: "ServerSecurityAlertPolicy.DefinitionStages.WithEmailAddresses"
+summary: "The stage of the Server<wbr>Security<wbr>Alert<wbr>Policy definition allowing to specify email<wbr>Addresses."
+syntax: "public static interface **ServerSecurityAlertPolicy.DefinitionStages.WithEmailAddresses**"
+methods:
+- uid: "com.azure.resourcemanager.postgresql.models.ServerSecurityAlertPolicy.DefinitionStages.WithEmailAddresses.withEmailAddresses(java.util.List<java.lang.String>)"
+  fullName: "com.azure.resourcemanager.postgresql.models.ServerSecurityAlertPolicy.DefinitionStages.WithEmailAddresses.withEmailAddresses(List<String> emailAddresses)"
+  name: "withEmailAddresses(List<String> emailAddresses)"
+  nameWithType: "ServerSecurityAlertPolicy.DefinitionStages.WithEmailAddresses.withEmailAddresses(List<String> emailAddresses)"
+  summary: "Specifies the email<wbr>Addresses property: Specifies an array of e-mail addresses to which the alert is sent.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Specifies an array of e-mail addresses to which the alert is sent."
+    name: "emailAddresses"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+  syntax: "public abstract ServerSecurityAlertPolicy.DefinitionStages.WithCreate withEmailAddresses(List<String> emailAddresses)"
+  desc: "Specifies the emailAddresses property: Specifies an array of e-mail addresses to which the alert is sent.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.postgresql.models.ServerSecurityAlertPolicy.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.postgresql.models.ServerSecurityAlertPolicy.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the ServerSecurityAlertPolicy definition allowing to specify emailAddresses."
+metadata: {}
+package: "com.azure.resourcemanager.postgresql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-postgresql:1.2.0-alpha.20260910.1

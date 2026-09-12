@@ -2,14 +2,14 @@
 uid: "com.azure.health.insights.clinicalmatching"
 fullName: "com.azure.health.insights.clinicalmatching"
 name: "com.azure.health.insights.clinicalmatching"
-summary: "Package containing the classes for Clinical<wbr>Matching."
+summary: "Package containing the classes for Azure<wbr>Health<wbr>Insights."
 classes:
 - "com.azure.health.insights.clinicalmatching.ClinicalMatchingAsyncClient"
 - "com.azure.health.insights.clinicalmatching.ClinicalMatchingClient"
 - "com.azure.health.insights.clinicalmatching.ClinicalMatchingClientBuilder"
 enums:
-- "com.azure.health.insights.clinicalmatching.ClinicalMatchingServiceVersion"
-desc: "Package containing the classes for ClinicalMatching. Azure Health Insights provides an API that serves insight models, specific for Health & Life Sciences, that perform analysis and provide inferences to be used by a human."
+- "com.azure.health.insights.clinicalmatching.AzureHealthInsightsServiceVersion"
+desc: "Package containing the classes for AzureHealthInsights. Azure Health Insights provides an API that serves insight models, specific for Health & Life Sciences, that perform analysis and provide inferences to be used by a human."
 metadata: {}
 package: "com.azure.health.insights.clinicalmatching"
-artifact: com.azure:azure-health-insights-clinicalmatching:1.0.0-beta.1
+artifact: com.azure:azure-health-insights-clinicalmatching:1.0.0-alpha.20260910.2

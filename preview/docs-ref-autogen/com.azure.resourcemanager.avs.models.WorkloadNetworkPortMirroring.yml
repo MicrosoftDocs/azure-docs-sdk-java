@@ -206,4 +206,4 @@ type: "interface"
 desc: "An immutable client-side representation of WorkloadNetworkPortMirroring."
 metadata: {}
 package: "com.azure.resourcemanager.avs.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-avs:1.2.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-avs:1.5.0-alpha.20260910.5

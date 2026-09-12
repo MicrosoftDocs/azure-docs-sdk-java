@@ -909,4 +909,4 @@ type: "class"
 desc: "Initializes a new instance of the synchronous LoadTestRunClient type."
 metadata: {}
 package: "com.azure.developer.loadtesting"
-artifact: com.azure:azure-developer-loadtesting:1.2.0-beta.1
+artifact: com.azure:azure-developer-loadtesting:1.2.0-alpha.20260910.1

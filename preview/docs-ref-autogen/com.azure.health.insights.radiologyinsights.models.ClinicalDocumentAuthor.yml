@@ -1,0 +1,118 @@
+### YamlMime:JavaType
+uid: "com.azure.health.insights.radiologyinsights.models.ClinicalDocumentAuthor"
+fullName: "com.azure.health.insights.radiologyinsights.models.ClinicalDocumentAuthor"
+name: "ClinicalDocumentAuthor"
+nameWithType: "ClinicalDocumentAuthor"
+summary: "Document author."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ClinicalDocumentAuthor**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.health.insights.radiologyinsights.models.ClinicalDocumentAuthor?alt=com.azure.health.insights.radiologyinsights.models.ClinicalDocumentAuthor&text=ClinicalDocumentAuthor\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.health.insights.radiologyinsights.models.ClinicalDocumentAuthor.ClinicalDocumentAuthor()"
+  fullName: "com.azure.health.insights.radiologyinsights.models.ClinicalDocumentAuthor.ClinicalDocumentAuthor()"
+  name: "ClinicalDocumentAuthor()"
+  nameWithType: "ClinicalDocumentAuthor.ClinicalDocumentAuthor()"
+  summary: "Creates an instance of Clinical<wbr>Document<wbr>Author class."
+  syntax: "public ClinicalDocumentAuthor()"
+  desc: "Creates an instance of ClinicalDocumentAuthor class."
+methods:
+- uid: "com.azure.health.insights.radiologyinsights.models.ClinicalDocumentAuthor.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.health.insights.radiologyinsights.models.ClinicalDocumentAuthor.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "ClinicalDocumentAuthor.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Clinical<wbr>Document<wbr>Author from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static ClinicalDocumentAuthor fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the ClinicalDocumentAuthor."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of ClinicalDocumentAuthor from the JsonReader."
+  returns:
+    description: "An instance of ClinicalDocumentAuthor if the JsonReader was pointing to an instance of it, or null if it\n was pointing to JSON null."
+    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.ClinicalDocumentAuthor?alt=com.azure.health.insights.radiologyinsights.models.ClinicalDocumentAuthor&text=ClinicalDocumentAuthor\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.health.insights.radiologyinsights.models.ClinicalDocumentAuthor.getFullName()"
+  fullName: "com.azure.health.insights.radiologyinsights.models.ClinicalDocumentAuthor.getFullName()"
+  name: "getFullName()"
+  nameWithType: "ClinicalDocumentAuthor.getFullName()"
+  summary: "Get the full<wbr>Name property: Text representation of the full name."
+  syntax: "public String getFullName()"
+  desc: "Get the fullName property: Text representation of the full name."
+  returns:
+    description: "the fullName value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.health.insights.radiologyinsights.models.ClinicalDocumentAuthor.getId()"
+  fullName: "com.azure.health.insights.radiologyinsights.models.ClinicalDocumentAuthor.getId()"
+  name: "getId()"
+  nameWithType: "ClinicalDocumentAuthor.getId()"
+  summary: "Get the id property: author id."
+  syntax: "public String getId()"
+  desc: "Get the id property: author id."
+  returns:
+    description: "the id value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.health.insights.radiologyinsights.models.ClinicalDocumentAuthor.setFullName(java.lang.String)"
+  fullName: "com.azure.health.insights.radiologyinsights.models.ClinicalDocumentAuthor.setFullName(String fullName)"
+  name: "setFullName(String fullName)"
+  nameWithType: "ClinicalDocumentAuthor.setFullName(String fullName)"
+  summary: "Set the full<wbr>Name property: Text representation of the full name."
+  parameters:
+  - description: "the fullName value to set."
+    name: "fullName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public ClinicalDocumentAuthor setFullName(String fullName)"
+  desc: "Set the fullName property: Text representation of the full name."
+  returns:
+    description: "the ClinicalDocumentAuthor object itself."
+    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.ClinicalDocumentAuthor?alt=com.azure.health.insights.radiologyinsights.models.ClinicalDocumentAuthor&text=ClinicalDocumentAuthor\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.health.insights.radiologyinsights.models.ClinicalDocumentAuthor.setId(java.lang.String)"
+  fullName: "com.azure.health.insights.radiologyinsights.models.ClinicalDocumentAuthor.setId(String id)"
+  name: "setId(String id)"
+  nameWithType: "ClinicalDocumentAuthor.setId(String id)"
+  summary: "Set the id property: author id."
+  parameters:
+  - description: "the id value to set."
+    name: "id"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public ClinicalDocumentAuthor setId(String id)"
+  desc: "Set the id property: author id."
+  returns:
+    description: "the ClinicalDocumentAuthor object itself."
+    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.ClinicalDocumentAuthor?alt=com.azure.health.insights.radiologyinsights.models.ClinicalDocumentAuthor&text=ClinicalDocumentAuthor\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.health.insights.radiologyinsights.models.ClinicalDocumentAuthor.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.health.insights.radiologyinsights.models.ClinicalDocumentAuthor.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "ClinicalDocumentAuthor.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Document author."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.health.insights.radiologyinsights.models.ClinicalDocumentAuthor?alt=com.azure.health.insights.radiologyinsights.models.ClinicalDocumentAuthor&text=ClinicalDocumentAuthor\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.health.insights.radiologyinsights.models"
+artifact: com.azure:azure-health-insights-radiologyinsights:1.2.0-alpha.20260910.2

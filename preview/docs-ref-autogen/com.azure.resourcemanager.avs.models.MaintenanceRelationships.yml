@@ -1,0 +1,89 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.avs.models.MaintenanceRelationships"
+fullName: "com.azure.resourcemanager.avs.models.MaintenanceRelationships"
+name: "MaintenanceRelationships"
+nameWithType: "MaintenanceRelationships"
+summary: "Defines relationship details between maintenance groups."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **MaintenanceRelationships**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.avs.models.MaintenanceRelationships?alt=com.azure.resourcemanager.avs.models.MaintenanceRelationships&text=MaintenanceRelationships\" data-throw-if-not-resolved=\"False\" />&gt;"
+methods:
+- uid: "com.azure.resourcemanager.avs.models.MaintenanceRelationships.dependencies()"
+  fullName: "com.azure.resourcemanager.avs.models.MaintenanceRelationships.dependencies()"
+  name: "dependencies()"
+  nameWithType: "MaintenanceRelationships.dependencies()"
+  summary: "Get the dependencies property: List of dependent group identifiers."
+  syntax: "public List<String> dependencies()"
+  desc: "Get the dependencies property: List of dependent group identifiers."
+  returns:
+    description: "the dependencies value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+- uid: "com.azure.resourcemanager.avs.models.MaintenanceRelationships.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.avs.models.MaintenanceRelationships.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "MaintenanceRelationships.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Maintenance<wbr>Relationships from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static MaintenanceRelationships fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the MaintenanceRelationships."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of MaintenanceRelationships from the JsonReader."
+  returns:
+    description: "An instance of MaintenanceRelationships if the JsonReader was pointing to an instance of it, or null if\n it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.avs.models.MaintenanceRelationships?alt=com.azure.resourcemanager.avs.models.MaintenanceRelationships&text=MaintenanceRelationships\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.avs.models.MaintenanceRelationships.prerequisites()"
+  fullName: "com.azure.resourcemanager.avs.models.MaintenanceRelationships.prerequisites()"
+  name: "prerequisites()"
+  nameWithType: "MaintenanceRelationships.prerequisites()"
+  summary: "Get the prerequisites property: List of prerequisite group identifiers."
+  syntax: "public List<String> prerequisites()"
+  desc: "Get the prerequisites property: List of prerequisite group identifiers."
+  returns:
+    description: "the prerequisites value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+- uid: "com.azure.resourcemanager.avs.models.MaintenanceRelationships.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.avs.models.MaintenanceRelationships.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "MaintenanceRelationships.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.avs.models.MaintenanceRelationships.validate()"
+  fullName: "com.azure.resourcemanager.avs.models.MaintenanceRelationships.validate()"
+  name: "validate()"
+  nameWithType: "MaintenanceRelationships.validate()"
+  summary: "Validates the instance."
+  syntax: "public void validate()"
+  desc: "Validates the instance."
+type: "class"
+desc: "Defines relationship details between maintenance groups."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.avs.models.MaintenanceRelationships?alt=com.azure.resourcemanager.avs.models.MaintenanceRelationships&text=MaintenanceRelationships\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.avs.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-avs:1.5.0-alpha.20260910.5

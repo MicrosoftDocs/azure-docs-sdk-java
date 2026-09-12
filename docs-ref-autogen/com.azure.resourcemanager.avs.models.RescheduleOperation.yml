@@ -89,6 +89,16 @@ methods:
   returns:
     description: "the kind value."
     type: "<xref href=\"com.azure.resourcemanager.avs.models.MaintenanceManagementOperationKind?alt=com.azure.resourcemanager.avs.models.MaintenanceManagementOperationKind&text=MaintenanceManagementOperationKind\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.avs.models.RescheduleOperation.recommendation()"
+  fullName: "com.azure.resourcemanager.avs.models.RescheduleOperation.recommendation()"
+  name: "recommendation()"
+  nameWithType: "RescheduleOperation.recommendation()"
+  summary: "Get the recommendation property: Recommendations for rescheduling maintenance."
+  syntax: "public MaintenanceRecommendation recommendation()"
+  desc: "Get the recommendation property: Recommendations for rescheduling maintenance."
+  returns:
+    description: "the recommendation value."
+    type: "<xref href=\"com.azure.resourcemanager.avs.models.MaintenanceRecommendation?alt=com.azure.resourcemanager.avs.models.MaintenanceRecommendation&text=MaintenanceRecommendation\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.avs.models.RescheduleOperation.toJson(com.azure.json.JsonWriter)"
   fullName: "com.azure.resourcemanager.avs.models.RescheduleOperation.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
@@ -114,4 +124,4 @@ type: "class"
 desc: "Constraints for rescheduling maintenance."
 metadata: {}
 package: "com.azure.resourcemanager.avs.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-avs:1.4.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-avs:1.5.0

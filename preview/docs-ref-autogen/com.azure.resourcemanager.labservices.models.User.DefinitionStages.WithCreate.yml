@@ -40,4 +40,4 @@ implements:
 - "<xref href=\"com.azure.resourcemanager.labservices.models.User.DefinitionStages.WithAdditionalUsageQuota?alt=com.azure.resourcemanager.labservices.models.User.DefinitionStages.WithAdditionalUsageQuota&text=WithAdditionalUsageQuota\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.azure.resourcemanager.labservices.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-labservices:1.0.0-beta.4
+artifact: com.azure.resourcemanager:azure-resourcemanager-labservices:1.1.0-alpha.20260910.1

@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.relay.models.WcfRelay.UpdateStages.WithRequiresClientAuthorization"
+fullName: "com.azure.resourcemanager.relay.models.WcfRelay.UpdateStages.WithRequiresClientAuthorization"
+name: "WcfRelay.UpdateStages.WithRequiresClientAuthorization"
+nameWithType: "WcfRelay.UpdateStages.WithRequiresClientAuthorization"
+summary: "The stage of the Wcf<wbr>Relay update allowing to specify requires<wbr>Client<wbr>Authorization."
+syntax: "public static interface **WcfRelay.UpdateStages.WithRequiresClientAuthorization**"
+methods:
+- uid: "com.azure.resourcemanager.relay.models.WcfRelay.UpdateStages.WithRequiresClientAuthorization.withRequiresClientAuthorization(java.lang.Boolean)"
+  fullName: "com.azure.resourcemanager.relay.models.WcfRelay.UpdateStages.WithRequiresClientAuthorization.withRequiresClientAuthorization(Boolean requiresClientAuthorization)"
+  name: "withRequiresClientAuthorization(Boolean requiresClientAuthorization)"
+  nameWithType: "WcfRelay.UpdateStages.WithRequiresClientAuthorization.withRequiresClientAuthorization(Boolean requiresClientAuthorization)"
+  summary: "Specifies the requires<wbr>Client<wbr>Authorization property: Returns true if client authorization is needed for this relay; otherwise, false.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Returns true if client authorization is needed for this relay;\n otherwise, false."
+    name: "requiresClientAuthorization"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
+  syntax: "public abstract WcfRelay.Update withRequiresClientAuthorization(Boolean requiresClientAuthorization)"
+  desc: "Specifies the requiresClientAuthorization property: Returns true if client authorization is needed for this relay; otherwise, false.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.relay.models.WcfRelay.Update?alt=com.azure.resourcemanager.relay.models.WcfRelay.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the WcfRelay update allowing to specify requiresClientAuthorization."
+metadata: {}
+package: "com.azure.resourcemanager.relay.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-relay:1.1.0

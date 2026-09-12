@@ -2,7 +2,7 @@
 uid: "com.azure.health.insights.cancerprofiling.models"
 fullName: "com.azure.health.insights.cancerprofiling.models"
 name: "com.azure.health.insights.cancerprofiling.models"
-summary: "Package containing the data models for Cancer<wbr>Profiling."
+summary: "Package containing the data models for Azure<wbr>Health<wbr>Insights."
 classes:
 - "com.azure.health.insights.cancerprofiling.models.ClinicalCodedElement"
 - "com.azure.health.insights.cancerprofiling.models.ClinicalDocumentType"
@@ -23,7 +23,7 @@ classes:
 - "com.azure.health.insights.cancerprofiling.models.PatientInfo"
 - "com.azure.health.insights.cancerprofiling.models.PatientInfoSex"
 - "com.azure.health.insights.cancerprofiling.models.PatientRecord"
-desc: "Package containing the data models for CancerProfiling. Azure Health Insights provides an API that serves insight models, specific for Health & Life Sciences, that perform analysis and provide inferences to be used by a human."
+desc: "Package containing the data models for AzureHealthInsights. Azure Health Insights provides an API that serves insight models, specific for Health & Life Sciences, that perform analysis and provide inferences to be used by a human."
 metadata: {}
 package: "com.azure.health.insights.cancerprofiling.models"
-artifact: com.azure:azure-health-insights-cancerprofiling:1.0.0-beta.1
+artifact: com.azure:azure-health-insights-cancerprofiling:1.0.0-alpha.20260910.2

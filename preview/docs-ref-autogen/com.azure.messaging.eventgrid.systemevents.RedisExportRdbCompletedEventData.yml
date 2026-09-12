@@ -4,6 +4,7 @@ fullName: "com.azure.messaging.eventgrid.systemevents.RedisExportRdbCompletedEve
 name: "RedisExportRdbCompletedEventData"
 nameWithType: "RedisExportRdbCompletedEventData"
 summary: "Schema of the Data property of an Event<wbr>Grid<wbr>Event for a Microsoft.<wbr>Cache.<wbr>Export<wbr>RDBCompleted event."
+deprecatedTag: "This class is deprecated and may be removed in future releases. System events are now available in the azure-messaging-eventgrid-systemevents package."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -20,7 +21,7 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
-syntax: "public final class **RedisExportRdbCompletedEventData**"
+syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public final class **RedisExportRdbCompletedEventData**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.messaging.eventgrid.systemevents.RedisExportRdbCompletedEventData?alt=com.azure.messaging.eventgrid.systemevents.RedisExportRdbCompletedEventData&text=RedisExportRdbCompletedEventData\" data-throw-if-not-resolved=\"False\" />&gt;"
 constructors:
 - uid: "com.azure.messaging.eventgrid.systemevents.RedisExportRdbCompletedEventData.RedisExportRdbCompletedEventData()"
   fullName: "com.azure.messaging.eventgrid.systemevents.RedisExportRdbCompletedEventData.RedisExportRdbCompletedEventData()"
@@ -30,6 +31,25 @@ constructors:
   syntax: "public RedisExportRdbCompletedEventData()"
   desc: "Creates an instance of RedisExportRdbCompletedEventData class."
 methods:
+- uid: "com.azure.messaging.eventgrid.systemevents.RedisExportRdbCompletedEventData.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.RedisExportRdbCompletedEventData.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "RedisExportRdbCompletedEventData.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Redis<wbr>Export<wbr>Rdb<wbr>Completed<wbr>Event<wbr>Data from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static RedisExportRdbCompletedEventData fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the RedisExportRdbCompletedEventData."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of RedisExportRdbCompletedEventData from the JsonReader."
+  returns:
+    description: "An instance of RedisExportRdbCompletedEventData if the JsonReader was pointing to an instance of it, or\n null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.RedisExportRdbCompletedEventData?alt=com.azure.messaging.eventgrid.systemevents.RedisExportRdbCompletedEventData&text=RedisExportRdbCompletedEventData\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.messaging.eventgrid.systemevents.RedisExportRdbCompletedEventData.getName()"
   fullName: "com.azure.messaging.eventgrid.systemevents.RedisExportRdbCompletedEventData.getName()"
   name: "getName()"
@@ -102,8 +122,23 @@ methods:
   returns:
     description: "the RedisExportRdbCompletedEventData object itself."
     type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.RedisExportRdbCompletedEventData?alt=com.azure.messaging.eventgrid.systemevents.RedisExportRdbCompletedEventData&text=RedisExportRdbCompletedEventData\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.messaging.eventgrid.systemevents.RedisExportRdbCompletedEventData.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.RedisExportRdbCompletedEventData.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "RedisExportRdbCompletedEventData.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Schema of the Data property of an EventGridEvent for a Microsoft.Cache.ExportRDBCompleted event."
+hasDeprecatedTag: true
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.messaging.eventgrid.systemevents.RedisExportRdbCompletedEventData?alt=com.azure.messaging.eventgrid.systemevents.RedisExportRdbCompletedEventData&text=RedisExportRdbCompletedEventData\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.messaging.eventgrid.systemevents"
-artifact: com.azure:azure-messaging-eventgrid:4.21.0-beta.1
+artifact: com.azure:azure-messaging-eventgrid:4.32.0-alpha.20260910.3

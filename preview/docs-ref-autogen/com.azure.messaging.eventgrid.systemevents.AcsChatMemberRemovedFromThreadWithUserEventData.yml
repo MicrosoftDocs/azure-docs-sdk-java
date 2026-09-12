@@ -4,6 +4,7 @@ fullName: "com.azure.messaging.eventgrid.systemevents.AcsChatMemberRemovedFromTh
 name: "AcsChatMemberRemovedFromThreadWithUserEventData"
 nameWithType: "AcsChatMemberRemovedFromThreadWithUserEventData"
 summary: "The Acs<wbr>Chat<wbr>Member<wbr>Removed<wbr>From<wbr>Thread<wbr>With<wbr>User<wbr>Event<wbr>Data model."
+deprecatedTag: "This class is deprecated and may be removed in future releases."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsChatEventBaseProperties?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
@@ -16,6 +17,7 @@ inheritedClassMethods:
   - "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsChatEventBaseProperties.getTransactionId()?alt=com.azure.messaging.eventgrid.systemevents.AcsChatEventBaseProperties.getTransactionId&text=getTransactionId\" data-throw-if-not-resolved=\"False\" />"
 - classRef: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsChatThreadEventBaseProperties?alt=com.azure.messaging.eventgrid.systemevents.AcsChatThreadEventBaseProperties&text=AcsChatThreadEventBaseProperties\" data-throw-if-not-resolved=\"False\" />"
   methodsRef:
+  - "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsChatThreadEventBaseProperties.fromJson(com.azure.json.JsonReader)?alt=com.azure.messaging.eventgrid.systemevents.AcsChatThreadEventBaseProperties.fromJson&text=fromJson\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsChatThreadEventBaseProperties.getCreateTime()?alt=com.azure.messaging.eventgrid.systemevents.AcsChatThreadEventBaseProperties.getCreateTime&text=getCreateTime\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsChatThreadEventBaseProperties.getVersion()?alt=com.azure.messaging.eventgrid.systemevents.AcsChatThreadEventBaseProperties.getVersion&text=getVersion\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsChatThreadEventBaseProperties.setCreateTime(java.time.OffsetDateTime)?alt=com.azure.messaging.eventgrid.systemevents.AcsChatThreadEventBaseProperties.setCreateTime&text=setCreateTime\" data-throw-if-not-resolved=\"False\" />"
@@ -23,6 +25,7 @@ inheritedClassMethods:
   - "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsChatThreadEventBaseProperties.setThreadId(java.lang.String)?alt=com.azure.messaging.eventgrid.systemevents.AcsChatThreadEventBaseProperties.setThreadId&text=setThreadId\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsChatThreadEventBaseProperties.setTransactionId(java.lang.String)?alt=com.azure.messaging.eventgrid.systemevents.AcsChatThreadEventBaseProperties.setTransactionId&text=setTransactionId\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsChatThreadEventBaseProperties.setVersion(java.lang.Long)?alt=com.azure.messaging.eventgrid.systemevents.AcsChatThreadEventBaseProperties.setVersion&text=setVersion\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsChatThreadEventBaseProperties.toJson(com.azure.json.JsonWriter)?alt=com.azure.messaging.eventgrid.systemevents.AcsChatThreadEventBaseProperties.toJson&text=toJson\" data-throw-if-not-resolved=\"False\" />"
 - classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   methodsRef:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
@@ -36,14 +39,35 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
-syntax: "public final class **AcsChatMemberRemovedFromThreadWithUserEventData**</br> extends <xref href=\"com.azure.messaging.eventgrid.systemevents.AcsChatThreadEventBaseProperties?alt=com.azure.messaging.eventgrid.systemevents.AcsChatThreadEventBaseProperties&text=AcsChatThreadEventBaseProperties\" data-throw-if-not-resolved=\"False\" />"
+syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public final class **AcsChatMemberRemovedFromThreadWithUserEventData**</br> extends <xref href=\"com.azure.messaging.eventgrid.systemevents.AcsChatThreadEventBaseProperties?alt=com.azure.messaging.eventgrid.systemevents.AcsChatThreadEventBaseProperties&text=AcsChatThreadEventBaseProperties\" data-throw-if-not-resolved=\"False\" />"
 constructors:
 - uid: "com.azure.messaging.eventgrid.systemevents.AcsChatMemberRemovedFromThreadWithUserEventData.AcsChatMemberRemovedFromThreadWithUserEventData()"
   fullName: "com.azure.messaging.eventgrid.systemevents.AcsChatMemberRemovedFromThreadWithUserEventData.AcsChatMemberRemovedFromThreadWithUserEventData()"
   name: "AcsChatMemberRemovedFromThreadWithUserEventData()"
   nameWithType: "AcsChatMemberRemovedFromThreadWithUserEventData.AcsChatMemberRemovedFromThreadWithUserEventData()"
+  summary: "Creates an instance of Acs<wbr>Chat<wbr>Member<wbr>Removed<wbr>From<wbr>Thread<wbr>With<wbr>User<wbr>Event<wbr>Data class"
   syntax: "public AcsChatMemberRemovedFromThreadWithUserEventData()"
+  desc: "Creates an instance of AcsChatMemberRemovedFromThreadWithUserEventData class"
 methods:
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsChatMemberRemovedFromThreadWithUserEventData.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsChatMemberRemovedFromThreadWithUserEventData.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "AcsChatMemberRemovedFromThreadWithUserEventData.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Acs<wbr>Chat<wbr>Thread<wbr>Event<wbr>Base<wbr>Properties from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static AcsChatMemberRemovedFromThreadWithUserEventData fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the AcsChatThreadEventBaseProperties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of AcsChatThreadEventBaseProperties from the JsonReader."
+  returns:
+    description: "An instance of AcsChatThreadEventBaseProperties if the JsonReader was pointing to an instance of it, or\n null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsChatMemberRemovedFromThreadWithUserEventData?alt=com.azure.messaging.eventgrid.systemevents.AcsChatMemberRemovedFromThreadWithUserEventData&text=AcsChatMemberRemovedFromThreadWithUserEventData\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.messaging.eventgrid.systemevents.AcsChatMemberRemovedFromThreadWithUserEventData.getMemberRemoved()"
   fullName: "com.azure.messaging.eventgrid.systemevents.AcsChatMemberRemovedFromThreadWithUserEventData.getMemberRemoved()"
   name: "getMemberRemoved()"
@@ -116,8 +140,22 @@ methods:
   returns:
     description: "the AcsChatMemberRemovedFromThreadWithUserEventData object itself."
     type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsChatMemberRemovedFromThreadWithUserEventData?alt=com.azure.messaging.eventgrid.systemevents.AcsChatMemberRemovedFromThreadWithUserEventData&text=AcsChatMemberRemovedFromThreadWithUserEventData\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsChatMemberRemovedFromThreadWithUserEventData.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsChatMemberRemovedFromThreadWithUserEventData.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "AcsChatMemberRemovedFromThreadWithUserEventData.toJson(JsonWriter jsonWriter)"
+  overridden: "com.azure.messaging.eventgrid.systemevents.AcsChatThreadEventBaseProperties.toJson(com.azure.json.JsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "The AcsChatMemberRemovedFromThreadWithUserEventData model."
+hasDeprecatedTag: true
 metadata: {}
 package: "com.azure.messaging.eventgrid.systemevents"
-artifact: com.azure:azure-messaging-eventgrid:4.21.0-beta.1
+artifact: com.azure:azure-messaging-eventgrid:4.32.0-alpha.20260910.3

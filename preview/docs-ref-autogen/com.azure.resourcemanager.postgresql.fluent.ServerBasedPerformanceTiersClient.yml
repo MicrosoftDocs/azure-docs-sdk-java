@@ -1,0 +1,73 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.postgresql.fluent.ServerBasedPerformanceTiersClient"
+fullName: "com.azure.resourcemanager.postgresql.fluent.ServerBasedPerformanceTiersClient"
+name: "ServerBasedPerformanceTiersClient"
+nameWithType: "ServerBasedPerformanceTiersClient"
+summary: "An instance of this class provides access to all the operations defined in Server<wbr>Based<wbr>Performance<wbr>Tiers<wbr>Client."
+syntax: "public interface **ServerBasedPerformanceTiersClient**"
+methods:
+- uid: "com.azure.resourcemanager.postgresql.fluent.ServerBasedPerformanceTiersClient.list(java.lang.String,java.lang.String)"
+  fullName: "com.azure.resourcemanager.postgresql.fluent.ServerBasedPerformanceTiersClient.list(String resourceGroupName, String serverName)"
+  name: "list(String resourceGroupName, String serverName)"
+  nameWithType: "ServerBasedPerformanceTiersClient.list(String resourceGroupName, String serverName)"
+  summary: "List all the performance tiers for a PostgreSQL server."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the server."
+    name: "serverName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract PagedIterable<PerformanceTierPropertiesInner> list(String resourceGroupName, String serverName)"
+  desc: "List all the performance tiers for a PostgreSQL server."
+  returns:
+    description: "a list of performance tiers as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.postgresql.fluent.models.PerformanceTierPropertiesInner?alt=com.azure.resourcemanager.postgresql.fluent.models.PerformanceTierPropertiesInner&text=PerformanceTierPropertiesInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.postgresql.fluent.ServerBasedPerformanceTiersClient.list(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.postgresql.fluent.ServerBasedPerformanceTiersClient.list(String resourceGroupName, String serverName, Context context)"
+  name: "list(String resourceGroupName, String serverName, Context context)"
+  nameWithType: "ServerBasedPerformanceTiersClient.list(String resourceGroupName, String serverName, Context context)"
+  summary: "List all the performance tiers for a PostgreSQL server."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the server."
+    name: "serverName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract PagedIterable<PerformanceTierPropertiesInner> list(String resourceGroupName, String serverName, Context context)"
+  desc: "List all the performance tiers for a PostgreSQL server."
+  returns:
+    description: "a list of performance tiers as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.postgresql.fluent.models.PerformanceTierPropertiesInner?alt=com.azure.resourcemanager.postgresql.fluent.models.PerformanceTierPropertiesInner&text=PerformanceTierPropertiesInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.postgresql.fluent.ServerBasedPerformanceTiersClient.listAsync(java.lang.String,java.lang.String)"
+  fullName: "com.azure.resourcemanager.postgresql.fluent.ServerBasedPerformanceTiersClient.listAsync(String resourceGroupName, String serverName)"
+  name: "listAsync(String resourceGroupName, String serverName)"
+  nameWithType: "ServerBasedPerformanceTiersClient.listAsync(String resourceGroupName, String serverName)"
+  summary: "List all the performance tiers for a PostgreSQL server."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the server."
+    name: "serverName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract PagedFlux<PerformanceTierPropertiesInner> listAsync(String resourceGroupName, String serverName)"
+  desc: "List all the performance tiers for a PostgreSQL server."
+  returns:
+    description: "a list of performance tiers as paginated response with <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
+    type: "<xref href=\"com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.postgresql.fluent.models.PerformanceTierPropertiesInner?alt=com.azure.resourcemanager.postgresql.fluent.models.PerformanceTierPropertiesInner&text=PerformanceTierPropertiesInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "interface"
+desc: "An instance of this class provides access to all the operations defined in ServerBasedPerformanceTiersClient."
+metadata: {}
+package: "com.azure.resourcemanager.postgresql.fluent"
+artifact: com.azure.resourcemanager:azure-resourcemanager-postgresql:1.2.0-alpha.20260910.1

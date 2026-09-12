@@ -1,0 +1,48 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.mysql.fluent.LocationBasedPerformanceTiersClient"
+fullName: "com.azure.resourcemanager.mysql.fluent.LocationBasedPerformanceTiersClient"
+name: "LocationBasedPerformanceTiersClient"
+nameWithType: "LocationBasedPerformanceTiersClient"
+summary: "An instance of this class provides access to all the operations defined in Location<wbr>Based<wbr>Performance<wbr>Tiers<wbr>Client."
+syntax: "public interface **LocationBasedPerformanceTiersClient**"
+methods:
+- uid: "com.azure.resourcemanager.mysql.fluent.LocationBasedPerformanceTiersClient.list(java.lang.String)"
+  fullName: "com.azure.resourcemanager.mysql.fluent.LocationBasedPerformanceTiersClient.list(String locationName)"
+  name: "list(String locationName)"
+  nameWithType: "LocationBasedPerformanceTiersClient.list(String locationName)"
+  summary: "List all the performance tiers at specified location in a given subscription."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the location."
+    name: "locationName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract PagedIterable<PerformanceTierPropertiesInner> list(String locationName)"
+  desc: "List all the performance tiers at specified location in a given subscription."
+  returns:
+    description: "a list of performance tiers."
+    type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.mysql.fluent.models.PerformanceTierPropertiesInner?alt=com.azure.resourcemanager.mysql.fluent.models.PerformanceTierPropertiesInner&text=PerformanceTierPropertiesInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.mysql.fluent.LocationBasedPerformanceTiersClient.list(java.lang.String,com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.mysql.fluent.LocationBasedPerformanceTiersClient.list(String locationName, Context context)"
+  name: "list(String locationName, Context context)"
+  nameWithType: "LocationBasedPerformanceTiersClient.list(String locationName, Context context)"
+  summary: "List all the performance tiers at specified location in a given subscription."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the location."
+    name: "locationName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract PagedIterable<PerformanceTierPropertiesInner> list(String locationName, Context context)"
+  desc: "List all the performance tiers at specified location in a given subscription."
+  returns:
+    description: "a list of performance tiers."
+    type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.mysql.fluent.models.PerformanceTierPropertiesInner?alt=com.azure.resourcemanager.mysql.fluent.models.PerformanceTierPropertiesInner&text=PerformanceTierPropertiesInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "interface"
+desc: "An instance of this class provides access to all the operations defined in LocationBasedPerformanceTiersClient."
+metadata: {}
+package: "com.azure.resourcemanager.mysql.fluent"
+artifact: com.azure.resourcemanager:azure-resourcemanager-mysql:1.1.0-alpha.20260910.2

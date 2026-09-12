@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.DefinitionStages.WithDisabledAlerts"
+fullName: "com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.DefinitionStages.WithDisabledAlerts"
+name: "ServerSecurityAlertPolicy.DefinitionStages.WithDisabledAlerts"
+nameWithType: "ServerSecurityAlertPolicy.DefinitionStages.WithDisabledAlerts"
+summary: "The stage of the Server<wbr>Security<wbr>Alert<wbr>Policy definition allowing to specify disabled<wbr>Alerts."
+syntax: "public static interface **ServerSecurityAlertPolicy.DefinitionStages.WithDisabledAlerts**"
+methods:
+- uid: "com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.DefinitionStages.WithDisabledAlerts.withDisabledAlerts(java.util.List<java.lang.String>)"
+  fullName: "com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.DefinitionStages.WithDisabledAlerts.withDisabledAlerts(List<String> disabledAlerts)"
+  name: "withDisabledAlerts(List<String> disabledAlerts)"
+  nameWithType: "ServerSecurityAlertPolicy.DefinitionStages.WithDisabledAlerts.withDisabledAlerts(List<String> disabledAlerts)"
+  summary: "Specifies the disabled<wbr>Alerts property: Specifies an array of alerts that are disabled."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Specifies an array of alerts that are disabled. Allowed values are: Sql_Injection,\n     Sql_Injection_Vulnerability, Access_Anomaly."
+    name: "disabledAlerts"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+  syntax: "public abstract ServerSecurityAlertPolicy.DefinitionStages.WithCreate withDisabledAlerts(List<String> disabledAlerts)"
+  desc: "Specifies the disabledAlerts property: Specifies an array of alerts that are disabled. Allowed values are: Sql\\_Injection, Sql\\_Injection\\_Vulnerability, Access\\_Anomaly."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the ServerSecurityAlertPolicy definition allowing to specify disabledAlerts."
+metadata: {}
+package: "com.azure.resourcemanager.mysql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-mysql:1.1.0-alpha.20260910.2

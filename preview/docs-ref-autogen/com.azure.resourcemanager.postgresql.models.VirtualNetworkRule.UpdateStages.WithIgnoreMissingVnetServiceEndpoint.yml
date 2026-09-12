@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.postgresql.models.VirtualNetworkRule.UpdateStages.WithIgnoreMissingVnetServiceEndpoint"
+fullName: "com.azure.resourcemanager.postgresql.models.VirtualNetworkRule.UpdateStages.WithIgnoreMissingVnetServiceEndpoint"
+name: "VirtualNetworkRule.UpdateStages.WithIgnoreMissingVnetServiceEndpoint"
+nameWithType: "VirtualNetworkRule.UpdateStages.WithIgnoreMissingVnetServiceEndpoint"
+summary: "The stage of the Virtual<wbr>Network<wbr>Rule update allowing to specify ignore<wbr>Missing<wbr>Vnet<wbr>Service<wbr>Endpoint."
+syntax: "public static interface **VirtualNetworkRule.UpdateStages.WithIgnoreMissingVnetServiceEndpoint**"
+methods:
+- uid: "com.azure.resourcemanager.postgresql.models.VirtualNetworkRule.UpdateStages.WithIgnoreMissingVnetServiceEndpoint.withIgnoreMissingVnetServiceEndpoint(java.lang.Boolean)"
+  fullName: "com.azure.resourcemanager.postgresql.models.VirtualNetworkRule.UpdateStages.WithIgnoreMissingVnetServiceEndpoint.withIgnoreMissingVnetServiceEndpoint(Boolean ignoreMissingVnetServiceEndpoint)"
+  name: "withIgnoreMissingVnetServiceEndpoint(Boolean ignoreMissingVnetServiceEndpoint)"
+  nameWithType: "VirtualNetworkRule.UpdateStages.WithIgnoreMissingVnetServiceEndpoint.withIgnoreMissingVnetServiceEndpoint(Boolean ignoreMissingVnetServiceEndpoint)"
+  summary: "Specifies the ignore<wbr>Missing<wbr>Vnet<wbr>Service<wbr>Endpoint property: Create firewall rule before the virtual network has vnet service endpoint enabled.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Create firewall rule before the virtual network has vnet service\n endpoint enabled."
+    name: "ignoreMissingVnetServiceEndpoint"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
+  syntax: "public abstract VirtualNetworkRule.Update withIgnoreMissingVnetServiceEndpoint(Boolean ignoreMissingVnetServiceEndpoint)"
+  desc: "Specifies the ignoreMissingVnetServiceEndpoint property: Create firewall rule before the virtual network has vnet service endpoint enabled.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.postgresql.models.VirtualNetworkRule.Update?alt=com.azure.resourcemanager.postgresql.models.VirtualNetworkRule.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the VirtualNetworkRule update allowing to specify ignoreMissingVnetServiceEndpoint."
+metadata: {}
+package: "com.azure.resourcemanager.postgresql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-postgresql:1.2.0-alpha.20260910.1

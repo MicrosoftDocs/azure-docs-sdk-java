@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.postgresql.models.ServerSecurityAlertPolicy.UpdateStages.WithDisabledAlerts"
+fullName: "com.azure.resourcemanager.postgresql.models.ServerSecurityAlertPolicy.UpdateStages.WithDisabledAlerts"
+name: "ServerSecurityAlertPolicy.UpdateStages.WithDisabledAlerts"
+nameWithType: "ServerSecurityAlertPolicy.UpdateStages.WithDisabledAlerts"
+summary: "The stage of the Server<wbr>Security<wbr>Alert<wbr>Policy update allowing to specify disabled<wbr>Alerts."
+syntax: "public static interface **ServerSecurityAlertPolicy.UpdateStages.WithDisabledAlerts**"
+methods:
+- uid: "com.azure.resourcemanager.postgresql.models.ServerSecurityAlertPolicy.UpdateStages.WithDisabledAlerts.withDisabledAlerts(java.util.List<java.lang.String>)"
+  fullName: "com.azure.resourcemanager.postgresql.models.ServerSecurityAlertPolicy.UpdateStages.WithDisabledAlerts.withDisabledAlerts(List<String> disabledAlerts)"
+  name: "withDisabledAlerts(List<String> disabledAlerts)"
+  nameWithType: "ServerSecurityAlertPolicy.UpdateStages.WithDisabledAlerts.withDisabledAlerts(List<String> disabledAlerts)"
+  summary: "Specifies the disabled<wbr>Alerts property: Specifies an array of alerts that are disabled."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Specifies an array of alerts that are disabled. Allowed values are: Sql_Injection,\n Sql_Injection_Vulnerability, Access_Anomaly."
+    name: "disabledAlerts"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+  syntax: "public abstract ServerSecurityAlertPolicy.Update withDisabledAlerts(List<String> disabledAlerts)"
+  desc: "Specifies the disabledAlerts property: Specifies an array of alerts that are disabled. Allowed values are: Sql\\_Injection, Sql\\_Injection\\_Vulnerability, Access\\_Anomaly."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.postgresql.models.ServerSecurityAlertPolicy.Update?alt=com.azure.resourcemanager.postgresql.models.ServerSecurityAlertPolicy.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the ServerSecurityAlertPolicy update allowing to specify disabledAlerts."
+metadata: {}
+package: "com.azure.resourcemanager.postgresql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-postgresql:1.2.0-alpha.20260910.1

@@ -20,7 +20,7 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
-syntax: "public final class **EventGridEvent**"
+syntax: "public final class **EventGridEvent**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.messaging.eventgrid.EventGridEvent?alt=com.azure.messaging.eventgrid.EventGridEvent&text=EventGridEvent\" data-throw-if-not-resolved=\"False\" />&gt;"
 constructors:
 - uid: "com.azure.messaging.eventgrid.EventGridEvent.EventGridEvent(java.lang.String,java.lang.String,com.azure.core.util.BinaryData,java.lang.String)"
   fullName: "com.azure.messaging.eventgrid.EventGridEvent.EventGridEvent(String subject, String eventType, BinaryData data, String dataVersion)"
@@ -43,6 +43,25 @@ constructors:
   syntax: "public EventGridEvent(String subject, String eventType, BinaryData data, String dataVersion)"
   desc: "Create a new instance of the EventGridEvent, with the given required fields.\n\n**Create EventGridEvent Samples**\n\n```java\n// Use BinaryData.fromObject() to create EventGridEvent data\n // From a model class\n User user = new User(\"Stephen\", \"James\");\n EventGridEvent eventGridEventDataObject = new EventGridEvent(\"/EventGridEvents/example/source\",\n     \"Example.EventType\", BinaryData.fromObject(user), \"0.1\");\n\n // From a String\n EventGridEvent eventGridEventDataStr = new EventGridEvent(\"/EventGridEvents/example/source\",\n     \"Example.EventType\", BinaryData.fromObject(\"Hello World\"), \"0.1\");\n\n // From an Integer\n EventGridEvent eventGridEventDataInt = new EventGridEvent(\"/EventGridEvents/example/source\",\n     \"Example.EventType\", BinaryData.fromObject(1), \"0.1\");\n\n // From a Boolean\n EventGridEvent eventGridEventDataBool = new EventGridEvent(\"/EventGridEvents/example/source\",\n     \"Example.EventType\", BinaryData.fromObject(true), \"0.1\");\n\n // From null\n EventGridEvent eventGridEventDataNull = new EventGridEvent(\"/EventGridEvents/example/source\",\n     \"Example.EventType\", BinaryData.fromObject(null), \"0.1\");\n\n // Use BinaryData.fromString() if you have a Json String for the EventGridEvent data.\n String jsonStringForData = \"\\\"Hello World\\\"\";  // A json String.\n EventGridEvent eventGridEventDataDataJsonStr = new EventGridEvent(\"/EventGridEvents/example/source\",\n     \"Example.EventType\", BinaryData.fromString(jsonStringForData), \"0.1\");\n```"
 methods:
+- uid: "com.azure.messaging.eventgrid.EventGridEvent.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.messaging.eventgrid.EventGridEvent.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "EventGridEvent.fromJson(JsonReader jsonReader)"
+  summary: "Reads a JSON stream into an <xref uid=\"com.azure.messaging.eventgrid.EventGridEvent\" data-throw-if-not-resolved=\"false\" data-raw-source=\"EventGridEvent\"></xref>."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The <xref uid=\"com.azure.json.JsonReader\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JsonReader\"></xref> being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static EventGridEvent fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an <xref uid=\"EventGridEvent\" data-throw-if-not-resolved=\"false\" data-raw-source=\"EventGridEvent\"></xref> fails to be read from the <code>jsonReader</code>."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads a JSON stream into an <xref uid=\"com.azure.messaging.eventgrid.EventGridEvent\" data-throw-if-not-resolved=\"false\" data-raw-source=\"EventGridEvent\"></xref>."
+  returns:
+    description: "The <xref uid=\"com.azure.messaging.eventgrid.EventGridEvent\" data-throw-if-not-resolved=\"false\" data-raw-source=\"EventGridEvent\"></xref> that the JSON stream represented, may return null."
+    type: "<xref href=\"com.azure.messaging.eventgrid.EventGridEvent?alt=com.azure.messaging.eventgrid.EventGridEvent&text=EventGridEvent\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.messaging.eventgrid.EventGridEvent.fromString(java.lang.String)"
   fullName: "com.azure.messaging.eventgrid.EventGridEvent.fromString(String eventGridJsonString)"
   name: "fromString(String eventGridJsonString)"
@@ -67,7 +86,7 @@ methods:
   syntax: "public BinaryData getData()"
   desc: "Get the data associated with this event as a <xref uid=\"com.azure.core.util.BinaryData\" data-throw-if-not-resolved=\"false\" data-raw-source=\"BinaryData\"></xref>, which has API to deserialize the data to any objects by using <xref uid=\"com.azure.core.util.BinaryData.toObject*\" data-throw-if-not-resolved=\"false\" data-raw-source=\"BinaryData#toObject(TypeReference)\"></xref>."
   returns:
-    description: "A <xref uid=\"com.azure.core.util.BinaryData\" data-throw-if-not-resolved=\"false\" data-raw-source=\"BinaryData\"></xref> that wraps the this event's data payload."
+    description: "A <xref uid=\"com.azure.core.util.BinaryData\" data-throw-if-not-resolved=\"false\" data-raw-source=\"BinaryData\"></xref> that wraps this event's data payload."
     type: "<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.messaging.eventgrid.EventGridEvent.getDataVersion()"
   fullName: "com.azure.messaging.eventgrid.EventGridEvent.getDataVersion()"
@@ -171,8 +190,22 @@ methods:
   returns:
     description: "the event itself."
     type: "<xref href=\"com.azure.messaging.eventgrid.EventGridEvent?alt=com.azure.messaging.eventgrid.EventGridEvent&text=EventGridEvent\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.messaging.eventgrid.EventGridEvent.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.messaging.eventgrid.EventGridEvent.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "EventGridEvent.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Represents the EventGrid event conforming to the [ EventGrid event schema][EventGrid event schema].\n\nDepending on your scenario, you can either use the constructor <xref uid=\"com.azure.messaging.eventgrid.EventGridEvent.EventGridEvent(java.lang.String,java.lang.String,com.azure.core.util.BinaryData,java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#EventGridEvent(String, String, BinaryData, String)\"></xref> to create an EventGridEvent, or use the factory method <xref uid=\"com.azure.messaging.eventgrid.EventGridEvent.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> to deserialize EventGridEvent instances from a Json String representation of EventGrid events.\n\nIf you have the data payload of an EventGridEvent and want to send it out, use the constructor <xref uid=\"com.azure.messaging.eventgrid.EventGridEvent.EventGridEvent(java.lang.String,java.lang.String,com.azure.core.util.BinaryData,java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#EventGridEvent(String, String, BinaryData, String)\"></xref> to create it. Then use <xref uid=\"com.azure.messaging.eventgrid.EventGridPublisherAsyncClient\" data-throw-if-not-resolved=\"false\" data-raw-source=\"EventGridPublisherAsyncClient\"></xref> or <xref uid=\"com.azure.messaging.eventgrid.EventGridPublisherClient\" data-throw-if-not-resolved=\"false\" data-raw-source=\"EventGridPublisherClient\"></xref> to send it the EventGrid service.\n\n**Create EventGridEvent Samples**\n\n```java\n// Use BinaryData.fromObject() to create EventGridEvent data\n // From a model class\n User user = new User(\"Stephen\", \"James\");\n EventGridEvent eventGridEventDataObject = new EventGridEvent(\"/EventGridEvents/example/source\",\n     \"Example.EventType\", BinaryData.fromObject(user), \"0.1\");\n\n // From a String\n EventGridEvent eventGridEventDataStr = new EventGridEvent(\"/EventGridEvents/example/source\",\n     \"Example.EventType\", BinaryData.fromObject(\"Hello World\"), \"0.1\");\n\n // From an Integer\n EventGridEvent eventGridEventDataInt = new EventGridEvent(\"/EventGridEvents/example/source\",\n     \"Example.EventType\", BinaryData.fromObject(1), \"0.1\");\n\n // From a Boolean\n EventGridEvent eventGridEventDataBool = new EventGridEvent(\"/EventGridEvents/example/source\",\n     \"Example.EventType\", BinaryData.fromObject(true), \"0.1\");\n\n // From null\n EventGridEvent eventGridEventDataNull = new EventGridEvent(\"/EventGridEvents/example/source\",\n     \"Example.EventType\", BinaryData.fromObject(null), \"0.1\");\n\n // Use BinaryData.fromString() if you have a Json String for the EventGridEvent data.\n String jsonStringForData = \"\\\"Hello World\\\"\";  // A json String.\n EventGridEvent eventGridEventDataDataJsonStr = new EventGridEvent(\"/EventGridEvents/example/source\",\n     \"Example.EventType\", BinaryData.fromString(jsonStringForData), \"0.1\");\n```\n\nOn the contrary, if you receive events from any event handlers and therefore have the Json string representation of one or more of EventGridEvents, use <xref uid=\"com.azure.messaging.eventgrid.EventGridEvent.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> to deserialize them from the Json string.\n\n**Deserialize EventGridEvent Samples**\n\n```java\nList<EventGridEvent> eventGridEventList = EventGridEvent.fromString(eventGridEventJsonString);\n EventGridEvent eventGridEvent = eventGridEventList.get(0);\n BinaryData eventGridEventData = eventGridEvent.getData();\n\n User objectValue = eventGridEventData.toObject(User.class);  // If data payload is a User object.\n int intValue = eventGridEventData.toObject(Integer.class);  // If data payload is an int.\n boolean boolValue = eventGridEventData.toObject(Boolean.class);  // If data payload is boolean.\n String stringValue = eventGridEventData.toObject(String.class);  // If data payload is String.\n String jsonStringValue = eventGridEventData.toString();  // The data payload represented in Json String.\n```\n\n\n[EventGrid event schema]: https://docs.microsoft.com/azure/event-grid/event-schema"
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.messaging.eventgrid.EventGridEvent?alt=com.azure.messaging.eventgrid.EventGridEvent&text=EventGridEvent\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.messaging.eventgrid"
-artifact: com.azure:azure-messaging-eventgrid:4.21.0-beta.1
+artifact: com.azure:azure-messaging-eventgrid:4.32.0-alpha.20260910.3

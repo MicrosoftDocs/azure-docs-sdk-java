@@ -1,0 +1,49 @@
+### YamlMime:JavaType
+uid: "com.azure.ai.metricsadvisor.models.MetricsAdvisorKeys"
+fullName: "com.azure.ai.metricsadvisor.models.MetricsAdvisorKeys"
+name: "MetricsAdvisorKeys"
+nameWithType: "MetricsAdvisorKeys"
+summary: "Represents a credential bag containing the subscription key and api key."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **MetricsAdvisorKeys**"
+methods:
+- uid: "com.azure.ai.metricsadvisor.models.MetricsAdvisorKeys.getApiKey()"
+  fullName: "com.azure.ai.metricsadvisor.models.MetricsAdvisorKeys.getApiKey()"
+  name: "getApiKey()"
+  nameWithType: "MetricsAdvisorKeys.getApiKey()"
+  summary: "Retrieves the api key."
+  syntax: "public String getApiKey()"
+  desc: "Retrieves the api key."
+  returns:
+    description: "The api key."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.ai.metricsadvisor.models.MetricsAdvisorKeys.getSubscriptionKey()"
+  fullName: "com.azure.ai.metricsadvisor.models.MetricsAdvisorKeys.getSubscriptionKey()"
+  name: "getSubscriptionKey()"
+  nameWithType: "MetricsAdvisorKeys.getSubscriptionKey()"
+  summary: "Retrieves the subscription key."
+  syntax: "public String getSubscriptionKey()"
+  desc: "Retrieves the subscription key."
+  returns:
+    description: "The subscription key."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+type: "class"
+desc: "Represents a credential bag containing the subscription key and api key."
+metadata: {}
+package: "com.azure.ai.metricsadvisor.models"
+artifact: com.azure:azure-ai-metricsadvisor:1.3.0-alpha.20260910.4

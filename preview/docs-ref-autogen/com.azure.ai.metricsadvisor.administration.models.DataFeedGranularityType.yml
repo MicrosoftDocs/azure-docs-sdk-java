@@ -1,0 +1,158 @@
+### YamlMime:JavaType
+uid: "com.azure.ai.metricsadvisor.administration.models.DataFeedGranularityType"
+fullName: "com.azure.ai.metricsadvisor.administration.models.DataFeedGranularityType"
+name: "DataFeedGranularityType"
+nameWithType: "DataFeedGranularityType"
+summary: "The Data<wbr>Feed<wbr>Granularity<wbr>Type model"
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **DataFeedGranularityType**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.metricsadvisor.administration.models.DataFeedGranularityType?alt=com.azure.ai.metricsadvisor.administration.models.DataFeedGranularityType&text=DataFeedGranularityType\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.ai.metricsadvisor.administration.models.DataFeedGranularityType.DataFeedGranularityType()"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.DataFeedGranularityType.DataFeedGranularityType()"
+  name: "DataFeedGranularityType()"
+  nameWithType: "DataFeedGranularityType.DataFeedGranularityType()"
+  summary: "Constructs a Data<wbr>Feed<wbr>Granularity<wbr>Type object."
+  deprecatedTag: "Use the <xref uid=\"com.azure.ai.metricsadvisor.administration.models.DataFeedGranularityType.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public DataFeedGranularityType()"
+  desc: "Constructs a DataFeedGranularityType object."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.ai.metricsadvisor.administration.models.DataFeedGranularityType.CUSTOM"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.DataFeedGranularityType.CUSTOM"
+  name: "CUSTOM"
+  nameWithType: "DataFeedGranularityType.CUSTOM"
+  summary: "Static value Custom for Data<wbr>Feed<wbr>Granularity<wbr>Type."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.metricsadvisor.administration.models.DataFeedGranularityType?alt=com.azure.ai.metricsadvisor.administration.models.DataFeedGranularityType&text=DataFeedGranularityType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final DataFeedGranularityType CUSTOM"
+  desc: "Static value Custom for DataFeedGranularityType."
+- uid: "com.azure.ai.metricsadvisor.administration.models.DataFeedGranularityType.DAILY"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.DataFeedGranularityType.DAILY"
+  name: "DAILY"
+  nameWithType: "DataFeedGranularityType.DAILY"
+  summary: "Static value Daily for Data<wbr>Feed<wbr>Granularity<wbr>Type."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.metricsadvisor.administration.models.DataFeedGranularityType?alt=com.azure.ai.metricsadvisor.administration.models.DataFeedGranularityType&text=DataFeedGranularityType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final DataFeedGranularityType DAILY"
+  desc: "Static value Daily for DataFeedGranularityType."
+- uid: "com.azure.ai.metricsadvisor.administration.models.DataFeedGranularityType.HOURLY"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.DataFeedGranularityType.HOURLY"
+  name: "HOURLY"
+  nameWithType: "DataFeedGranularityType.HOURLY"
+  summary: "Static value Hourly for Data<wbr>Feed<wbr>Granularity<wbr>Type."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.metricsadvisor.administration.models.DataFeedGranularityType?alt=com.azure.ai.metricsadvisor.administration.models.DataFeedGranularityType&text=DataFeedGranularityType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final DataFeedGranularityType HOURLY"
+  desc: "Static value Hourly for DataFeedGranularityType."
+- uid: "com.azure.ai.metricsadvisor.administration.models.DataFeedGranularityType.MONTHLY"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.DataFeedGranularityType.MONTHLY"
+  name: "MONTHLY"
+  nameWithType: "DataFeedGranularityType.MONTHLY"
+  summary: "Static value Monthly for Data<wbr>Feed<wbr>Granularity<wbr>Type."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.metricsadvisor.administration.models.DataFeedGranularityType?alt=com.azure.ai.metricsadvisor.administration.models.DataFeedGranularityType&text=DataFeedGranularityType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final DataFeedGranularityType MONTHLY"
+  desc: "Static value Monthly for DataFeedGranularityType."
+- uid: "com.azure.ai.metricsadvisor.administration.models.DataFeedGranularityType.PER_MINUTE"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.DataFeedGranularityType.PER_MINUTE"
+  name: "PER_MINUTE"
+  nameWithType: "DataFeedGranularityType.PER_MINUTE"
+  summary: "Static value Minutely for Data<wbr>Feed<wbr>Granularity<wbr>Type."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.metricsadvisor.administration.models.DataFeedGranularityType?alt=com.azure.ai.metricsadvisor.administration.models.DataFeedGranularityType&text=DataFeedGranularityType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final DataFeedGranularityType PER_MINUTE"
+  desc: "Static value Minutely for DataFeedGranularityType."
+- uid: "com.azure.ai.metricsadvisor.administration.models.DataFeedGranularityType.WEEKLY"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.DataFeedGranularityType.WEEKLY"
+  name: "WEEKLY"
+  nameWithType: "DataFeedGranularityType.WEEKLY"
+  summary: "Static value Weekly for Data<wbr>Feed<wbr>Granularity<wbr>Type."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.metricsadvisor.administration.models.DataFeedGranularityType?alt=com.azure.ai.metricsadvisor.administration.models.DataFeedGranularityType&text=DataFeedGranularityType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final DataFeedGranularityType WEEKLY"
+  desc: "Static value Weekly for DataFeedGranularityType."
+- uid: "com.azure.ai.metricsadvisor.administration.models.DataFeedGranularityType.YEARLY"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.DataFeedGranularityType.YEARLY"
+  name: "YEARLY"
+  nameWithType: "DataFeedGranularityType.YEARLY"
+  summary: "Static value Yearly for Data<wbr>Feed<wbr>Granularity<wbr>Type."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.metricsadvisor.administration.models.DataFeedGranularityType?alt=com.azure.ai.metricsadvisor.administration.models.DataFeedGranularityType&text=DataFeedGranularityType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final DataFeedGranularityType YEARLY"
+  desc: "Static value Yearly for DataFeedGranularityType."
+methods:
+- uid: "com.azure.ai.metricsadvisor.administration.models.DataFeedGranularityType.fromString(java.lang.String)"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.DataFeedGranularityType.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "DataFeedGranularityType.fromString(String name)"
+  summary: "Creates or finds a Data<wbr>Feed<wbr>Granularity<wbr>Type from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static DataFeedGranularityType fromString(String name)"
+  desc: "Creates or finds a DataFeedGranularityType from its string representation."
+  returns:
+    description: "the corresponding DataFeedGranularityType."
+    type: "<xref href=\"com.azure.ai.metricsadvisor.administration.models.DataFeedGranularityType?alt=com.azure.ai.metricsadvisor.administration.models.DataFeedGranularityType&text=DataFeedGranularityType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.metricsadvisor.administration.models.DataFeedGranularityType.values()"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.DataFeedGranularityType.values()"
+  name: "values()"
+  nameWithType: "DataFeedGranularityType.values()"
+  summary: "Returns the known Data<wbr>Feed<wbr>Granularity<wbr>Type values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<DataFeedGranularityType> values()"
+  desc: "Returns the known DataFeedGranularityType values."
+  returns:
+    description: "known DataFeedGranularityType values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.ai.metricsadvisor.administration.models.DataFeedGranularityType?alt=com.azure.ai.metricsadvisor.administration.models.DataFeedGranularityType&text=DataFeedGranularityType\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "The DataFeedGranularityType model"
+metadata: {}
+package: "com.azure.ai.metricsadvisor.administration.models"
+artifact: com.azure:azure-ai-metricsadvisor:1.3.0-alpha.20260910.4

@@ -34,9 +34,9 @@ methods:
   fullName: "com.azure.resourcemanager.botservice.fluent.models.HostSettingsResponseInner.botOpenIdMetadata()"
   name: "botOpenIdMetadata()"
   nameWithType: "HostSettingsResponseInner.botOpenIdMetadata()"
-  summary: "Get the bot<wbr>Open<wbr>IdMetadata property: Same as to<wbr>Bot<wbr>From<wbr>Channel<wbr>Open<wbr>IdMetadata<wbr>Url, used by SDK < v4.12."
+  summary: "Get the bot<wbr>Open<wbr>IdMetadata property: Same as To<wbr>Bot<wbr>From<wbr>Channel<wbr>Open<wbr>IdMetadata<wbr>Url, used by SDK < v4.12."
   syntax: "public String botOpenIdMetadata()"
-  desc: "Get the botOpenIdMetadata property: Same as toBotFromChannelOpenIdMetadataUrl, used by SDK < v4.12."
+  desc: "Get the botOpenIdMetadata property: Same as ToBotFromChannelOpenIdMetadataUrl, used by SDK < v4.12."
   returns:
     description: "the botOpenIdMetadata value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -152,13 +152,13 @@ methods:
   fullName: "com.azure.resourcemanager.botservice.fluent.models.HostSettingsResponseInner.withBotOpenIdMetadata(String botOpenIdMetadata)"
   name: "withBotOpenIdMetadata(String botOpenIdMetadata)"
   nameWithType: "HostSettingsResponseInner.withBotOpenIdMetadata(String botOpenIdMetadata)"
-  summary: "Set the bot<wbr>Open<wbr>IdMetadata property: Same as to<wbr>Bot<wbr>From<wbr>Channel<wbr>Open<wbr>IdMetadata<wbr>Url, used by SDK < v4.12."
+  summary: "Set the bot<wbr>Open<wbr>IdMetadata property: Same as To<wbr>Bot<wbr>From<wbr>Channel<wbr>Open<wbr>IdMetadata<wbr>Url, used by SDK < v4.12."
   parameters:
   - description: "the botOpenIdMetadata value to set."
     name: "botOpenIdMetadata"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public HostSettingsResponseInner withBotOpenIdMetadata(String botOpenIdMetadata)"
-  desc: "Set the botOpenIdMetadata property: Same as toBotFromChannelOpenIdMetadataUrl, used by SDK < v4.12."
+  desc: "Set the botOpenIdMetadata property: Same as ToBotFromChannelOpenIdMetadataUrl, used by SDK < v4.12."
   returns:
     description: "the HostSettingsResponseInner object itself."
     type: "<xref href=\"com.azure.resourcemanager.botservice.fluent.models.HostSettingsResponseInner?alt=com.azure.resourcemanager.botservice.fluent.models.HostSettingsResponseInner&text=HostSettingsResponseInner\" data-throw-if-not-resolved=\"False\" />"
@@ -266,4 +266,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.botservice.fluent.models.HostSettingsResponseInner?alt=com.azure.resourcemanager.botservice.fluent.models.HostSettingsResponseInner&text=HostSettingsResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.botservice.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-botservice:1.0.0-beta.6
+artifact: com.azure.resourcemanager:azure-resourcemanager-botservice:1.1.0-alpha.20260910.1

@@ -11,13 +11,8 @@ classes:
 - "com.azure.resourcemanager.botservice.fluent.models.HostSettingsResponseInner"
 - "com.azure.resourcemanager.botservice.fluent.models.ListChannelWithKeysResponseInner"
 - "com.azure.resourcemanager.botservice.fluent.models.OperationEntityInner"
-- "com.azure.resourcemanager.botservice.fluent.models.OperationResultsDescriptionInner"
-- "com.azure.resourcemanager.botservice.fluent.models.PrivateEndpointConnectionInner"
-- "com.azure.resourcemanager.botservice.fluent.models.PrivateEndpointConnectionProperties"
-- "com.azure.resourcemanager.botservice.fluent.models.PrivateLinkResourceListResultInner"
-- "com.azure.resourcemanager.botservice.fluent.models.PrivateLinkResourceProperties"
 - "com.azure.resourcemanager.botservice.fluent.models.ServiceProviderResponseListInner"
 desc: "Package containing the inner data models for AzureBotService. Azure Bot Service is a platform for creating smart conversational agents."
 metadata: {}
 package: "com.azure.resourcemanager.botservice.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-botservice:1.0.0-beta.6
+artifact: com.azure.resourcemanager:azure-resourcemanager-botservice:1.1.0-alpha.20260910.1

@@ -4,16 +4,19 @@ fullName: "com.azure.messaging.eventgrid.systemevents.MediaJobFinishedEventData"
 name: "MediaJobFinishedEventData"
 nameWithType: "MediaJobFinishedEventData"
 summary: "Job finished event data."
+deprecatedTag: "This class is deprecated and may be removed in future releases. System events are now available in the azure-messaging-eventgrid-systemevents package."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.azure.messaging.eventgrid.systemevents.MediaJobStateChangeEventData?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
 - classRef: "<xref href=\"com.azure.messaging.eventgrid.systemevents.MediaJobStateChangeEventData?alt=com.azure.messaging.eventgrid.systemevents.MediaJobStateChangeEventData&text=MediaJobStateChangeEventData\" data-throw-if-not-resolved=\"False\" />"
   methodsRef:
+  - "<xref href=\"com.azure.messaging.eventgrid.systemevents.MediaJobStateChangeEventData.fromJson(com.azure.json.JsonReader)?alt=com.azure.messaging.eventgrid.systemevents.MediaJobStateChangeEventData.fromJson&text=fromJson\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.messaging.eventgrid.systemevents.MediaJobStateChangeEventData.getCorrelationData()?alt=com.azure.messaging.eventgrid.systemevents.MediaJobStateChangeEventData.getCorrelationData&text=getCorrelationData\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.messaging.eventgrid.systemevents.MediaJobStateChangeEventData.getPreviousState()?alt=com.azure.messaging.eventgrid.systemevents.MediaJobStateChangeEventData.getPreviousState&text=getPreviousState\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.messaging.eventgrid.systemevents.MediaJobStateChangeEventData.getState()?alt=com.azure.messaging.eventgrid.systemevents.MediaJobStateChangeEventData.getState&text=getState\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.messaging.eventgrid.systemevents.MediaJobStateChangeEventData.setCorrelationData(java.util.Map<java.lang.String,java.lang.String>)?alt=com.azure.messaging.eventgrid.systemevents.MediaJobStateChangeEventData.setCorrelationData&text=setCorrelationData\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.messaging.eventgrid.systemevents.MediaJobStateChangeEventData.toJson(com.azure.json.JsonWriter)?alt=com.azure.messaging.eventgrid.systemevents.MediaJobStateChangeEventData.toJson&text=toJson\" data-throw-if-not-resolved=\"False\" />"
 - classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   methodsRef:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
@@ -27,7 +30,7 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
-syntax: "public final class **MediaJobFinishedEventData**</br> extends <xref href=\"com.azure.messaging.eventgrid.systemevents.MediaJobStateChangeEventData?alt=com.azure.messaging.eventgrid.systemevents.MediaJobStateChangeEventData&text=MediaJobStateChangeEventData\" data-throw-if-not-resolved=\"False\" />"
+syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public final class **MediaJobFinishedEventData**</br> extends <xref href=\"com.azure.messaging.eventgrid.systemevents.MediaJobStateChangeEventData?alt=com.azure.messaging.eventgrid.systemevents.MediaJobStateChangeEventData&text=MediaJobStateChangeEventData\" data-throw-if-not-resolved=\"False\" />"
 constructors:
 - uid: "com.azure.messaging.eventgrid.systemevents.MediaJobFinishedEventData.MediaJobFinishedEventData()"
   fullName: "com.azure.messaging.eventgrid.systemevents.MediaJobFinishedEventData.MediaJobFinishedEventData()"
@@ -37,6 +40,25 @@ constructors:
   syntax: "public MediaJobFinishedEventData()"
   desc: "Creates an instance of MediaJobFinishedEventData class."
 methods:
+- uid: "com.azure.messaging.eventgrid.systemevents.MediaJobFinishedEventData.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.MediaJobFinishedEventData.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "MediaJobFinishedEventData.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Media<wbr>Job<wbr>Finished<wbr>Event<wbr>Data from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static MediaJobFinishedEventData fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the MediaJobFinishedEventData."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of MediaJobFinishedEventData from the JsonReader."
+  returns:
+    description: "An instance of MediaJobFinishedEventData if the JsonReader was pointing to an instance of it, or null if\n it was pointing to JSON null."
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.MediaJobFinishedEventData?alt=com.azure.messaging.eventgrid.systemevents.MediaJobFinishedEventData&text=MediaJobFinishedEventData\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.messaging.eventgrid.systemevents.MediaJobFinishedEventData.getOutputs()"
   fullName: "com.azure.messaging.eventgrid.systemevents.MediaJobFinishedEventData.getOutputs()"
   name: "getOutputs()"
@@ -47,6 +69,28 @@ methods:
   returns:
     description: "the outputs value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.messaging.eventgrid.systemevents.MediaJobOutput?alt=com.azure.messaging.eventgrid.systemevents.MediaJobOutput&text=MediaJobOutput\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.messaging.eventgrid.systemevents.MediaJobFinishedEventData.getPreviousState()"
+  fullName: "com.azure.messaging.eventgrid.systemevents.MediaJobFinishedEventData.getPreviousState()"
+  name: "getPreviousState()"
+  nameWithType: "MediaJobFinishedEventData.getPreviousState()"
+  summary: "Get the previous<wbr>State property: The previous state of the Job."
+  overridden: "com.azure.messaging.eventgrid.systemevents.MediaJobStateChangeEventData.getPreviousState()"
+  syntax: "public MediaJobState getPreviousState()"
+  desc: "Get the previousState property: The previous state of the Job."
+  returns:
+    description: "the previousState value."
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.MediaJobState?alt=com.azure.messaging.eventgrid.systemevents.MediaJobState&text=MediaJobState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.messaging.eventgrid.systemevents.MediaJobFinishedEventData.getState()"
+  fullName: "com.azure.messaging.eventgrid.systemevents.MediaJobFinishedEventData.getState()"
+  name: "getState()"
+  nameWithType: "MediaJobFinishedEventData.getState()"
+  summary: "Get the state property: The new state of the Job."
+  overridden: "com.azure.messaging.eventgrid.systemevents.MediaJobStateChangeEventData.getState()"
+  syntax: "public MediaJobState getState()"
+  desc: "Get the state property: The new state of the Job."
+  returns:
+    description: "the state value."
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.MediaJobState?alt=com.azure.messaging.eventgrid.systemevents.MediaJobState&text=MediaJobState\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.messaging.eventgrid.systemevents.MediaJobFinishedEventData.setCorrelationData(java.util.Map<java.lang.String,java.lang.String>)"
   fullName: "com.azure.messaging.eventgrid.systemevents.MediaJobFinishedEventData.setCorrelationData(Map<String,String> correlationData)"
   name: "setCorrelationData(Map<String,String> correlationData)"
@@ -74,8 +118,22 @@ methods:
   returns:
     description: "the MediaJobFinishedEventData object itself."
     type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.MediaJobFinishedEventData?alt=com.azure.messaging.eventgrid.systemevents.MediaJobFinishedEventData&text=MediaJobFinishedEventData\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.messaging.eventgrid.systemevents.MediaJobFinishedEventData.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.MediaJobFinishedEventData.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "MediaJobFinishedEventData.toJson(JsonWriter jsonWriter)"
+  overridden: "com.azure.messaging.eventgrid.systemevents.MediaJobStateChangeEventData.toJson(com.azure.json.JsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Job finished event data. Schema of the data property of an EventGridEvent for a Microsoft.Media.JobFinished event."
+hasDeprecatedTag: true
 metadata: {}
 package: "com.azure.messaging.eventgrid.systemevents"
-artifact: com.azure:azure-messaging-eventgrid:4.21.0-beta.1
+artifact: com.azure:azure-messaging-eventgrid:4.32.0-alpha.20260910.3

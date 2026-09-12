@@ -106,4 +106,4 @@ type: "class"
 desc: "Options for analysis operations that take <xref uid=\"com.azure.ai.contentunderstanding.models.AnalysisInput\" data-throw-if-not-resolved=\"false\" data-raw-source=\"AnalysisInput\"></xref> values."
 metadata: {}
 package: "com.azure.ai.contentunderstanding.models"
-artifact: com.azure:azure-ai-contentunderstanding:1.1.0-beta.3
+artifact: com.azure:azure-ai-contentunderstanding:1.1.0-alpha.20260910.3

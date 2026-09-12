@@ -20,16 +20,27 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
-syntax: "public final class **FhirR4ConditionStage**"
-constructors:
-- uid: "com.azure.health.insights.radiologyinsights.models.FhirR4ConditionStage.FhirR4ConditionStage()"
-  fullName: "com.azure.health.insights.radiologyinsights.models.FhirR4ConditionStage.FhirR4ConditionStage()"
-  name: "FhirR4ConditionStage()"
-  nameWithType: "FhirR4ConditionStage.FhirR4ConditionStage()"
-  summary: "Creates an instance of FhirR4Condition<wbr>Stage class."
-  syntax: "public FhirR4ConditionStage()"
-  desc: "Creates an instance of FhirR4ConditionStage class."
+syntax: "public final class **FhirR4ConditionStage**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4ConditionStage?alt=com.azure.health.insights.radiologyinsights.models.FhirR4ConditionStage&text=FhirR4ConditionStage\" data-throw-if-not-resolved=\"False\" />&gt;"
 methods:
+- uid: "com.azure.health.insights.radiologyinsights.models.FhirR4ConditionStage.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.health.insights.radiologyinsights.models.FhirR4ConditionStage.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "FhirR4ConditionStage.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of FhirR4Condition<wbr>Stage from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static FhirR4ConditionStage fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the FhirR4ConditionStage."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of FhirR4ConditionStage from the JsonReader."
+  returns:
+    description: "An instance of FhirR4ConditionStage if the JsonReader was pointing to an instance of it, or null if it\n was pointing to JSON null."
+    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4ConditionStage?alt=com.azure.health.insights.radiologyinsights.models.FhirR4ConditionStage&text=FhirR4ConditionStage\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.health.insights.radiologyinsights.models.FhirR4ConditionStage.getSummary()"
   fullName: "com.azure.health.insights.radiologyinsights.models.FhirR4ConditionStage.getSummary()"
   name: "getSummary()"
@@ -50,36 +61,22 @@ methods:
   returns:
     description: "the type value."
     type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4CodeableConcept?alt=com.azure.health.insights.radiologyinsights.models.FhirR4CodeableConcept&text=FhirR4CodeableConcept\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.health.insights.radiologyinsights.models.FhirR4ConditionStage.setSummary(com.azure.health.insights.radiologyinsights.models.FhirR4CodeableConcept)"
-  fullName: "com.azure.health.insights.radiologyinsights.models.FhirR4ConditionStage.setSummary(FhirR4CodeableConcept summary)"
-  name: "setSummary(FhirR4CodeableConcept summary)"
-  nameWithType: "FhirR4ConditionStage.setSummary(FhirR4CodeableConcept summary)"
-  summary: "Set the summary property: Simple summary (disease specific)."
+- uid: "com.azure.health.insights.radiologyinsights.models.FhirR4ConditionStage.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.health.insights.radiologyinsights.models.FhirR4ConditionStage.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "FhirR4ConditionStage.toJson(JsonWriter jsonWriter)"
   parameters:
-  - description: "the summary value to set."
-    name: "summary"
-    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4CodeableConcept?alt=com.azure.health.insights.radiologyinsights.models.FhirR4CodeableConcept&text=FhirR4CodeableConcept\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public FhirR4ConditionStage setSummary(FhirR4CodeableConcept summary)"
-  desc: "Set the summary property: Simple summary (disease specific)."
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
-    description: "the FhirR4ConditionStage object itself."
-    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4ConditionStage?alt=com.azure.health.insights.radiologyinsights.models.FhirR4ConditionStage&text=FhirR4ConditionStage\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.health.insights.radiologyinsights.models.FhirR4ConditionStage.setType(com.azure.health.insights.radiologyinsights.models.FhirR4CodeableConcept)"
-  fullName: "com.azure.health.insights.radiologyinsights.models.FhirR4ConditionStage.setType(FhirR4CodeableConcept type)"
-  name: "setType(FhirR4CodeableConcept type)"
-  nameWithType: "FhirR4ConditionStage.setType(FhirR4CodeableConcept type)"
-  summary: "Set the type property: Kind of staging."
-  parameters:
-  - description: "the type value to set."
-    name: "type"
-    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4CodeableConcept?alt=com.azure.health.insights.radiologyinsights.models.FhirR4CodeableConcept&text=FhirR4CodeableConcept\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public FhirR4ConditionStage setType(FhirR4CodeableConcept type)"
-  desc: "Set the type property: Kind of staging."
-  returns:
-    description: "the FhirR4ConditionStage object itself."
-    type: "<xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4ConditionStage?alt=com.azure.health.insights.radiologyinsights.models.FhirR4ConditionStage&text=FhirR4ConditionStage\" data-throw-if-not-resolved=\"False\" />"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Stage/grade, usually assessed formally Based on \\[FHIR Condition.Stage\\](https://www.hl7.org/fhir/R4/condition.html)."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.health.insights.radiologyinsights.models.FhirR4ConditionStage?alt=com.azure.health.insights.radiologyinsights.models.FhirR4ConditionStage&text=FhirR4ConditionStage\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.health.insights.radiologyinsights.models"
-artifact: com.azure:azure-health-insights-radiologyinsights:1.0.0-beta.1
+artifact: com.azure:azure-health-insights-radiologyinsights:1.2.0-alpha.20260910.2

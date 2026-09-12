@@ -119,4 +119,4 @@ type: "class"
 desc: "The type of the entity that created the test run. (E.x. User, ScheduleTrigger, etc)."
 metadata: {}
 package: "com.azure.developer.loadtesting.models"
-artifact: com.azure:azure-developer-loadtesting:1.2.0-beta.1
+artifact: com.azure:azure-developer-loadtesting:1.2.0-alpha.20260910.1

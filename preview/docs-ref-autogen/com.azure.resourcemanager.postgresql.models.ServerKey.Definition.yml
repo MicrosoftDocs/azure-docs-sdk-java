@@ -1,0 +1,16 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.postgresql.models.ServerKey.Definition"
+fullName: "com.azure.resourcemanager.postgresql.models.ServerKey.Definition"
+name: "ServerKey.Definition"
+nameWithType: "ServerKey.Definition"
+summary: "The entirety of the Server<wbr>Key definition."
+syntax: "public static interface **ServerKey.Definition**</br> extends <xref href=\"com.azure.resourcemanager.postgresql.models.ServerKey.DefinitionStages.Blank?alt=com.azure.resourcemanager.postgresql.models.ServerKey.DefinitionStages.Blank&text=Blank\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.postgresql.models.ServerKey.DefinitionStages.WithParentResource?alt=com.azure.resourcemanager.postgresql.models.ServerKey.DefinitionStages.WithParentResource&text=WithParentResource\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.postgresql.models.ServerKey.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.postgresql.models.ServerKey.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of the ServerKey definition."
+implements:
+- "<xref href=\"com.azure.resourcemanager.postgresql.models.ServerKey.DefinitionStages.Blank?alt=com.azure.resourcemanager.postgresql.models.ServerKey.DefinitionStages.Blank&text=Blank\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.postgresql.models.ServerKey.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.postgresql.models.ServerKey.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.postgresql.models.ServerKey.DefinitionStages.WithParentResource?alt=com.azure.resourcemanager.postgresql.models.ServerKey.DefinitionStages.WithParentResource&text=WithParentResource\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.azure.resourcemanager.postgresql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-postgresql:1.2.0-alpha.20260910.1

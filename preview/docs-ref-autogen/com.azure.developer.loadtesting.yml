@@ -15,4 +15,4 @@ enums:
 desc: "Package containing the classes for LoadTesting. These APIs allow end users to create, view and run load tests using Azure Load Test Service."
 metadata: {}
 package: "com.azure.developer.loadtesting"
-artifact: com.azure:azure-developer-loadtesting:1.2.0-beta.1
+artifact: com.azure:azure-developer-loadtesting:1.2.0-alpha.20260910.1

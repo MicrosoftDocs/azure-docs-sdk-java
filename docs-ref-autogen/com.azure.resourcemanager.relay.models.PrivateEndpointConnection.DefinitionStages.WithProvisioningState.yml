@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.relay.models.PrivateEndpointConnection.DefinitionStages.WithProvisioningState"
+fullName: "com.azure.resourcemanager.relay.models.PrivateEndpointConnection.DefinitionStages.WithProvisioningState"
+name: "PrivateEndpointConnection.DefinitionStages.WithProvisioningState"
+nameWithType: "PrivateEndpointConnection.DefinitionStages.WithProvisioningState"
+summary: "The stage of the Private<wbr>Endpoint<wbr>Connection definition allowing to specify provisioning<wbr>State."
+syntax: "public static interface **PrivateEndpointConnection.DefinitionStages.WithProvisioningState**"
+methods:
+- uid: "com.azure.resourcemanager.relay.models.PrivateEndpointConnection.DefinitionStages.WithProvisioningState.withProvisioningState(com.azure.resourcemanager.relay.models.EndPointProvisioningState)"
+  fullName: "com.azure.resourcemanager.relay.models.PrivateEndpointConnection.DefinitionStages.WithProvisioningState.withProvisioningState(EndPointProvisioningState provisioningState)"
+  name: "withProvisioningState(EndPointProvisioningState provisioningState)"
+  nameWithType: "PrivateEndpointConnection.DefinitionStages.WithProvisioningState.withProvisioningState(EndPointProvisioningState provisioningState)"
+  summary: "Specifies the provisioning<wbr>State property: Provisioning state of the Private Endpoint Connection.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Provisioning state of the Private Endpoint Connection."
+    name: "provisioningState"
+    type: "<xref href=\"com.azure.resourcemanager.relay.models.EndPointProvisioningState?alt=com.azure.resourcemanager.relay.models.EndPointProvisioningState&text=EndPointProvisioningState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract PrivateEndpointConnection.DefinitionStages.WithCreate withProvisioningState(EndPointProvisioningState provisioningState)"
+  desc: "Specifies the provisioningState property: Provisioning state of the Private Endpoint Connection.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.relay.models.PrivateEndpointConnection.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.relay.models.PrivateEndpointConnection.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the PrivateEndpointConnection definition allowing to specify provisioningState."
+metadata: {}
+package: "com.azure.resourcemanager.relay.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-relay:1.1.0

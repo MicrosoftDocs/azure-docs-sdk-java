@@ -1,0 +1,110 @@
+### YamlMime:JavaType
+uid: "com.azure.ai.agents.models.Microsoft365PublishScope"
+fullName: "com.azure.ai.agents.models.Microsoft365PublishScope"
+name: "Microsoft365PublishScope"
+nameWithType: "Microsoft365PublishScope"
+summary: "The publish scope for the generated Microsoft Teams app."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **Microsoft365PublishScope**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.Microsoft365PublishScope?alt=com.azure.ai.agents.models.Microsoft365PublishScope&text=Microsoft365PublishScope\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.ai.agents.models.Microsoft365PublishScope.Microsoft365PublishScope()"
+  fullName: "com.azure.ai.agents.models.Microsoft365PublishScope.Microsoft365PublishScope()"
+  name: "Microsoft365PublishScope()"
+  nameWithType: "Microsoft365PublishScope.Microsoft365PublishScope()"
+  summary: "Creates a new instance of Microsoft365Publish<wbr>Scope value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.ai.agents.models.Microsoft365PublishScope.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public Microsoft365PublishScope()"
+  desc: "Creates a new instance of Microsoft365PublishScope value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.ai.agents.models.Microsoft365PublishScope.PERSONAL"
+  fullName: "com.azure.ai.agents.models.Microsoft365PublishScope.PERSONAL"
+  name: "PERSONAL"
+  nameWithType: "Microsoft365PublishScope.PERSONAL"
+  summary: "Publish the app for the acting user only."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.agents.models.Microsoft365PublishScope?alt=com.azure.ai.agents.models.Microsoft365PublishScope&text=Microsoft365PublishScope\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final Microsoft365PublishScope PERSONAL"
+  desc: "Publish the app for the acting user only."
+- uid: "com.azure.ai.agents.models.Microsoft365PublishScope.SHARED"
+  fullName: "com.azure.ai.agents.models.Microsoft365PublishScope.SHARED"
+  name: "SHARED"
+  nameWithType: "Microsoft365PublishScope.SHARED"
+  summary: "Publish the app to a shared scope within the organization."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.agents.models.Microsoft365PublishScope?alt=com.azure.ai.agents.models.Microsoft365PublishScope&text=Microsoft365PublishScope\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final Microsoft365PublishScope SHARED"
+  desc: "Publish the app to a shared scope within the organization."
+- uid: "com.azure.ai.agents.models.Microsoft365PublishScope.TENANT"
+  fullName: "com.azure.ai.agents.models.Microsoft365PublishScope.TENANT"
+  name: "TENANT"
+  nameWithType: "Microsoft365PublishScope.TENANT"
+  summary: "Publish the app tenant-wide."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.agents.models.Microsoft365PublishScope?alt=com.azure.ai.agents.models.Microsoft365PublishScope&text=Microsoft365PublishScope\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final Microsoft365PublishScope TENANT"
+  desc: "Publish the app tenant-wide."
+methods:
+- uid: "com.azure.ai.agents.models.Microsoft365PublishScope.fromString(java.lang.String)"
+  fullName: "com.azure.ai.agents.models.Microsoft365PublishScope.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "Microsoft365PublishScope.fromString(String name)"
+  summary: "Creates or finds a Microsoft365Publish<wbr>Scope from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static Microsoft365PublishScope fromString(String name)"
+  desc: "Creates or finds a Microsoft365PublishScope from its string representation."
+  returns:
+    description: "the corresponding Microsoft365PublishScope."
+    type: "<xref href=\"com.azure.ai.agents.models.Microsoft365PublishScope?alt=com.azure.ai.agents.models.Microsoft365PublishScope&text=Microsoft365PublishScope\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.agents.models.Microsoft365PublishScope.values()"
+  fullName: "com.azure.ai.agents.models.Microsoft365PublishScope.values()"
+  name: "values()"
+  nameWithType: "Microsoft365PublishScope.values()"
+  summary: "Gets known Microsoft365Publish<wbr>Scope values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<Microsoft365PublishScope> values()"
+  desc: "Gets known Microsoft365PublishScope values."
+  returns:
+    description: "known Microsoft365PublishScope values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.ai.agents.models.Microsoft365PublishScope?alt=com.azure.ai.agents.models.Microsoft365PublishScope&text=Microsoft365PublishScope\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "The publish scope for the generated Microsoft Teams app."
+metadata: {}
+package: "com.azure.ai.agents.models"
+artifact: com.azure:azure-ai-agents:2.5.0

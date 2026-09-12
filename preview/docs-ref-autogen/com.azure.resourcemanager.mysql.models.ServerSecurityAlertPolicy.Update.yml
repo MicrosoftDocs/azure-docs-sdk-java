@@ -1,0 +1,49 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.Update"
+fullName: "com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.Update"
+name: "ServerSecurityAlertPolicy.Update"
+nameWithType: "ServerSecurityAlertPolicy.Update"
+summary: "The template for Server<wbr>Security<wbr>Alert<wbr>Policy update."
+syntax: "public static interface **ServerSecurityAlertPolicy.Update**</br> extends <xref href=\"com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.UpdateStages.WithState?alt=com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.UpdateStages.WithState&text=WithState\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.UpdateStages.WithDisabledAlerts?alt=com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.UpdateStages.WithDisabledAlerts&text=WithDisabledAlerts\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.UpdateStages.WithEmailAddresses?alt=com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.UpdateStages.WithEmailAddresses&text=WithEmailAddresses\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.UpdateStages.WithEmailAccountAdmins?alt=com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.UpdateStages.WithEmailAccountAdmins&text=WithEmailAccountAdmins\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.UpdateStages.WithStorageEndpoint?alt=com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.UpdateStages.WithStorageEndpoint&text=WithStorageEndpoint\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.UpdateStages.WithStorageAccountAccessKey?alt=com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.UpdateStages.WithStorageAccountAccessKey&text=WithStorageAccountAccessKey\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.UpdateStages.WithRetentionDays?alt=com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.UpdateStages.WithRetentionDays&text=WithRetentionDays\" data-throw-if-not-resolved=\"False\" />"
+methods:
+- uid: "com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.Update.apply()"
+  fullName: "com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.Update.apply()"
+  name: "apply()"
+  nameWithType: "ServerSecurityAlertPolicy.Update.apply()"
+  summary: "Executes the update request."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ServerSecurityAlertPolicy apply()"
+  desc: "Executes the update request."
+  returns:
+    description: "the updated resource."
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy?alt=com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy&text=ServerSecurityAlertPolicy\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.Update.apply(com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.Update.apply(Context context)"
+  name: "apply(Context context)"
+  nameWithType: "ServerSecurityAlertPolicy.Update.apply(Context context)"
+  summary: "Executes the update request."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract ServerSecurityAlertPolicy apply(Context context)"
+  desc: "Executes the update request."
+  returns:
+    description: "the updated resource."
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy?alt=com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy&text=ServerSecurityAlertPolicy\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The template for ServerSecurityAlertPolicy update."
+implements:
+- "<xref href=\"com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.UpdateStages.WithDisabledAlerts?alt=com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.UpdateStages.WithDisabledAlerts&text=WithDisabledAlerts\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.UpdateStages.WithEmailAccountAdmins?alt=com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.UpdateStages.WithEmailAccountAdmins&text=WithEmailAccountAdmins\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.UpdateStages.WithEmailAddresses?alt=com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.UpdateStages.WithEmailAddresses&text=WithEmailAddresses\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.UpdateStages.WithRetentionDays?alt=com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.UpdateStages.WithRetentionDays&text=WithRetentionDays\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.UpdateStages.WithState?alt=com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.UpdateStages.WithState&text=WithState\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.UpdateStages.WithStorageAccountAccessKey?alt=com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.UpdateStages.WithStorageAccountAccessKey&text=WithStorageAccountAccessKey\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.UpdateStages.WithStorageEndpoint?alt=com.azure.resourcemanager.mysql.models.ServerSecurityAlertPolicy.UpdateStages.WithStorageEndpoint&text=WithStorageEndpoint\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.azure.resourcemanager.mysql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-mysql:1.1.0-alpha.20260910.2

@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.postgresql.models.Database.DefinitionStages.WithCharset"
+fullName: "com.azure.resourcemanager.postgresql.models.Database.DefinitionStages.WithCharset"
+name: "Database.DefinitionStages.WithCharset"
+nameWithType: "Database.DefinitionStages.WithCharset"
+summary: "The stage of the Database definition allowing to specify charset."
+syntax: "public static interface **Database.DefinitionStages.WithCharset**"
+methods:
+- uid: "com.azure.resourcemanager.postgresql.models.Database.DefinitionStages.WithCharset.withCharset(java.lang.String)"
+  fullName: "com.azure.resourcemanager.postgresql.models.Database.DefinitionStages.WithCharset.withCharset(String charset)"
+  name: "withCharset(String charset)"
+  nameWithType: "Database.DefinitionStages.WithCharset.withCharset(String charset)"
+  summary: "Specifies the charset property: The charset of the database.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The charset of the database."
+    name: "charset"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract Database.DefinitionStages.WithCreate withCharset(String charset)"
+  desc: "Specifies the charset property: The charset of the database.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.postgresql.models.Database.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.postgresql.models.Database.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the Database definition allowing to specify charset."
+metadata: {}
+package: "com.azure.resourcemanager.postgresql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-postgresql:1.2.0-alpha.20260910.1

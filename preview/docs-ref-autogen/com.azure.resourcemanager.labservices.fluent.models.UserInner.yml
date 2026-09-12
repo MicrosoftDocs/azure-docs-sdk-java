@@ -232,4 +232,4 @@ type: "class"
 desc: "User of a lab that can register for and use virtual machines within the lab."
 metadata: {}
 package: "com.azure.resourcemanager.labservices.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-labservices:1.0.0-beta.4
+artifact: com.azure.resourcemanager:azure-resourcemanager-labservices:1.1.0-alpha.20260910.1

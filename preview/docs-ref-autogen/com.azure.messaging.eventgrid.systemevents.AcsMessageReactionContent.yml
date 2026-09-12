@@ -1,0 +1,120 @@
+### YamlMime:JavaType
+uid: "com.azure.messaging.eventgrid.systemevents.AcsMessageReactionContent"
+fullName: "com.azure.messaging.eventgrid.systemevents.AcsMessageReactionContent"
+name: "AcsMessageReactionContent"
+nameWithType: "AcsMessageReactionContent"
+summary: "Message Reaction Content."
+deprecatedTag: "This class is deprecated and may be removed in future releases. System events are now available in the azure-messaging-eventgrid-systemevents package."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public final class **AcsMessageReactionContent**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsMessageReactionContent?alt=com.azure.messaging.eventgrid.systemevents.AcsMessageReactionContent&text=AcsMessageReactionContent\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsMessageReactionContent.AcsMessageReactionContent()"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsMessageReactionContent.AcsMessageReactionContent()"
+  name: "AcsMessageReactionContent()"
+  nameWithType: "AcsMessageReactionContent.AcsMessageReactionContent()"
+  summary: "Creates an instance of Acs<wbr>Message<wbr>Reaction<wbr>Content class."
+  syntax: "public AcsMessageReactionContent()"
+  desc: "Creates an instance of AcsMessageReactionContent class."
+methods:
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsMessageReactionContent.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsMessageReactionContent.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "AcsMessageReactionContent.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Acs<wbr>Message<wbr>Reaction<wbr>Content from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static AcsMessageReactionContent fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of AcsMessageReactionContent from the JsonReader."
+  returns:
+    description: "An instance of AcsMessageReactionContent if the JsonReader was pointing to an instance of it, or null if\n it was pointing to JSON null."
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsMessageReactionContent?alt=com.azure.messaging.eventgrid.systemevents.AcsMessageReactionContent&text=AcsMessageReactionContent\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsMessageReactionContent.getEmoji()"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsMessageReactionContent.getEmoji()"
+  name: "getEmoji()"
+  nameWithType: "AcsMessageReactionContent.getEmoji()"
+  summary: "Get the emoji property: Unicode escape sequence of the emoji."
+  syntax: "public String getEmoji()"
+  desc: "Get the emoji property: Unicode escape sequence of the emoji."
+  returns:
+    description: "the emoji value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsMessageReactionContent.getMessageId()"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsMessageReactionContent.getMessageId()"
+  name: "getMessageId()"
+  nameWithType: "AcsMessageReactionContent.getMessageId()"
+  summary: "Get the message<wbr>Id property: Whats<wbr>App message ID of message you want to apply the emoji to."
+  syntax: "public String getMessageId()"
+  desc: "Get the messageId property: WhatsApp message ID of message you want to apply the emoji to."
+  returns:
+    description: "the messageId value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsMessageReactionContent.setEmoji(java.lang.String)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsMessageReactionContent.setEmoji(String emoji)"
+  name: "setEmoji(String emoji)"
+  nameWithType: "AcsMessageReactionContent.setEmoji(String emoji)"
+  summary: "Set the emoji property: Unicode escape sequence of the emoji."
+  parameters:
+  - description: "the emoji value to set."
+    name: "emoji"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public AcsMessageReactionContent setEmoji(String emoji)"
+  desc: "Set the emoji property: Unicode escape sequence of the emoji."
+  returns:
+    description: "the AcsMessageReactionContent object itself."
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsMessageReactionContent?alt=com.azure.messaging.eventgrid.systemevents.AcsMessageReactionContent&text=AcsMessageReactionContent\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsMessageReactionContent.setMessageId(java.lang.String)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsMessageReactionContent.setMessageId(String messageId)"
+  name: "setMessageId(String messageId)"
+  nameWithType: "AcsMessageReactionContent.setMessageId(String messageId)"
+  summary: "Set the message<wbr>Id property: Whats<wbr>App message ID of message you want to apply the emoji to."
+  parameters:
+  - description: "the messageId value to set."
+    name: "messageId"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public AcsMessageReactionContent setMessageId(String messageId)"
+  desc: "Set the messageId property: WhatsApp message ID of message you want to apply the emoji to."
+  returns:
+    description: "the AcsMessageReactionContent object itself."
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsMessageReactionContent?alt=com.azure.messaging.eventgrid.systemevents.AcsMessageReactionContent&text=AcsMessageReactionContent\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.messaging.eventgrid.systemevents.AcsMessageReactionContent.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.AcsMessageReactionContent.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "AcsMessageReactionContent.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Message Reaction Content."
+hasDeprecatedTag: true
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsMessageReactionContent?alt=com.azure.messaging.eventgrid.systemevents.AcsMessageReactionContent&text=AcsMessageReactionContent\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.messaging.eventgrid.systemevents"
+artifact: com.azure:azure-messaging-eventgrid:4.32.0-alpha.20260910.3

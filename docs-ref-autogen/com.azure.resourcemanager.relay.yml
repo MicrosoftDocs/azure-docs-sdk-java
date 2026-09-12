@@ -1,0 +1,12 @@
+### YamlMime:JavaPackage
+uid: "com.azure.resourcemanager.relay"
+fullName: "com.azure.resourcemanager.relay"
+name: "com.azure.resourcemanager.relay"
+summary: "Package containing the classes for Relay."
+classes:
+- "com.azure.resourcemanager.relay.RelayManager"
+- "com.azure.resourcemanager.relay.RelayManager.Configurable"
+desc: "Package containing the classes for Relay. Use these API to manage Azure Relay resources through Azure Resource Manager."
+metadata: {}
+package: "com.azure.resourcemanager.relay"
+artifact: com.azure.resourcemanager:azure-resourcemanager-relay:1.1.0

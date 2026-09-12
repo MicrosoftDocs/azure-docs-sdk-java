@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.mysql.models.Database.UpdateStages.WithCollation"
+fullName: "com.azure.resourcemanager.mysql.models.Database.UpdateStages.WithCollation"
+name: "Database.UpdateStages.WithCollation"
+nameWithType: "Database.UpdateStages.WithCollation"
+summary: "The stage of the Database update allowing to specify collation."
+syntax: "public static interface **Database.UpdateStages.WithCollation**"
+methods:
+- uid: "com.azure.resourcemanager.mysql.models.Database.UpdateStages.WithCollation.withCollation(java.lang.String)"
+  fullName: "com.azure.resourcemanager.mysql.models.Database.UpdateStages.WithCollation.withCollation(String collation)"
+  name: "withCollation(String collation)"
+  nameWithType: "Database.UpdateStages.WithCollation.withCollation(String collation)"
+  summary: "Specifies the collation property: The collation of the database.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The collation of the database."
+    name: "collation"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract Database.Update withCollation(String collation)"
+  desc: "Specifies the collation property: The collation of the database.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.mysql.models.Database.Update?alt=com.azure.resourcemanager.mysql.models.Database.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the Database update allowing to specify collation."
+metadata: {}
+package: "com.azure.resourcemanager.mysql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-mysql:1.1.0-alpha.20260910.2

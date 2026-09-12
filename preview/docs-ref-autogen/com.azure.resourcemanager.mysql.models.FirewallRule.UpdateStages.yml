@@ -1,0 +1,12 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.mysql.models.FirewallRule.UpdateStages"
+fullName: "com.azure.resourcemanager.mysql.models.FirewallRule.UpdateStages"
+name: "FirewallRule.UpdateStages"
+nameWithType: "FirewallRule.UpdateStages"
+summary: "The Firewall<wbr>Rule update stages."
+syntax: "public static interface **FirewallRule.UpdateStages**"
+type: "interface"
+desc: "The FirewallRule update stages."
+metadata: {}
+package: "com.azure.resourcemanager.mysql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-mysql:1.1.0-alpha.20260910.2

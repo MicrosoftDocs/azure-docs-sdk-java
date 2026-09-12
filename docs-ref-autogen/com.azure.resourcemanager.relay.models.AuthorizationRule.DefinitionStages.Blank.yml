@@ -1,0 +1,14 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.relay.models.AuthorizationRule.DefinitionStages.Blank"
+fullName: "com.azure.resourcemanager.relay.models.AuthorizationRule.DefinitionStages.Blank"
+name: "AuthorizationRule.DefinitionStages.Blank"
+nameWithType: "AuthorizationRule.DefinitionStages.Blank"
+summary: "The first stage of the Authorization<wbr>Rule definition."
+syntax: "public static interface **AuthorizationRule.DefinitionStages.Blank**</br> extends <xref href=\"com.azure.resourcemanager.relay.models.AuthorizationRule.DefinitionStages.WithParentResource?alt=com.azure.resourcemanager.relay.models.AuthorizationRule.DefinitionStages.WithParentResource&text=WithParentResource\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The first stage of the AuthorizationRule definition."
+implements:
+- "<xref href=\"com.azure.resourcemanager.relay.models.AuthorizationRule.DefinitionStages.WithParentResource?alt=com.azure.resourcemanager.relay.models.AuthorizationRule.DefinitionStages.WithParentResource&text=WithParentResource\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.azure.resourcemanager.relay.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-relay:1.1.0

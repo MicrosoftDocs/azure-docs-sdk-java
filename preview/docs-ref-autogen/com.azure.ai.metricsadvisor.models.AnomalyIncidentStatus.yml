@@ -1,0 +1,98 @@
+### YamlMime:JavaType
+uid: "com.azure.ai.metricsadvisor.models.AnomalyIncidentStatus"
+fullName: "com.azure.ai.metricsadvisor.models.AnomalyIncidentStatus"
+name: "AnomalyIncidentStatus"
+nameWithType: "AnomalyIncidentStatus"
+summary: "Defines values for Anomaly<wbr>Incident<wbr>Status."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **AnomalyIncidentStatus**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.metricsadvisor.models.AnomalyIncidentStatus?alt=com.azure.ai.metricsadvisor.models.AnomalyIncidentStatus&text=AnomalyIncidentStatus\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.ai.metricsadvisor.models.AnomalyIncidentStatus.AnomalyIncidentStatus()"
+  fullName: "com.azure.ai.metricsadvisor.models.AnomalyIncidentStatus.AnomalyIncidentStatus()"
+  name: "AnomalyIncidentStatus()"
+  nameWithType: "AnomalyIncidentStatus.AnomalyIncidentStatus()"
+  summary: "Constructs a Anomaly<wbr>Incident<wbr>Status object."
+  deprecatedTag: "Use the <xref uid=\"com.azure.ai.metricsadvisor.models.AnomalyIncidentStatus.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public AnomalyIncidentStatus()"
+  desc: "Constructs a AnomalyIncidentStatus object."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.ai.metricsadvisor.models.AnomalyIncidentStatus.ACTIVE"
+  fullName: "com.azure.ai.metricsadvisor.models.AnomalyIncidentStatus.ACTIVE"
+  name: "ACTIVE"
+  nameWithType: "AnomalyIncidentStatus.ACTIVE"
+  summary: "Static value Active for Anomaly<wbr>Incident<wbr>Status."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.metricsadvisor.models.AnomalyIncidentStatus?alt=com.azure.ai.metricsadvisor.models.AnomalyIncidentStatus&text=AnomalyIncidentStatus\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AnomalyIncidentStatus ACTIVE"
+  desc: "Static value Active for AnomalyIncidentStatus."
+- uid: "com.azure.ai.metricsadvisor.models.AnomalyIncidentStatus.RESOLVED"
+  fullName: "com.azure.ai.metricsadvisor.models.AnomalyIncidentStatus.RESOLVED"
+  name: "RESOLVED"
+  nameWithType: "AnomalyIncidentStatus.RESOLVED"
+  summary: "Static value Resolved for Anomaly<wbr>Incident<wbr>Status."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.metricsadvisor.models.AnomalyIncidentStatus?alt=com.azure.ai.metricsadvisor.models.AnomalyIncidentStatus&text=AnomalyIncidentStatus\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AnomalyIncidentStatus RESOLVED"
+  desc: "Static value Resolved for AnomalyIncidentStatus."
+methods:
+- uid: "com.azure.ai.metricsadvisor.models.AnomalyIncidentStatus.fromString(java.lang.String)"
+  fullName: "com.azure.ai.metricsadvisor.models.AnomalyIncidentStatus.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "AnomalyIncidentStatus.fromString(String name)"
+  summary: "Creates or finds a Anomaly<wbr>Incident<wbr>Status from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static AnomalyIncidentStatus fromString(String name)"
+  desc: "Creates or finds a AnomalyIncidentStatus from its string representation."
+  returns:
+    description: "the corresponding AnomalyIncidentStatus."
+    type: "<xref href=\"com.azure.ai.metricsadvisor.models.AnomalyIncidentStatus?alt=com.azure.ai.metricsadvisor.models.AnomalyIncidentStatus&text=AnomalyIncidentStatus\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.metricsadvisor.models.AnomalyIncidentStatus.values()"
+  fullName: "com.azure.ai.metricsadvisor.models.AnomalyIncidentStatus.values()"
+  name: "values()"
+  nameWithType: "AnomalyIncidentStatus.values()"
+  summary: "Returns the known Anomaly<wbr>Incident<wbr>Status values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<AnomalyIncidentStatus> values()"
+  desc: "Returns the known AnomalyIncidentStatus values."
+  returns:
+    description: "known AnomalyIncidentStatus values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.ai.metricsadvisor.models.AnomalyIncidentStatus?alt=com.azure.ai.metricsadvisor.models.AnomalyIncidentStatus&text=AnomalyIncidentStatus\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Defines values for AnomalyIncidentStatus."
+metadata: {}
+package: "com.azure.ai.metricsadvisor.models"
+artifact: com.azure:azure-ai-metricsadvisor:1.3.0-alpha.20260910.4

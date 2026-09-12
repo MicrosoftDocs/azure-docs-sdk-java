@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.relay.models.PrivateEndpointConnection.UpdateStages.WithPrivateEndpoint"
+fullName: "com.azure.resourcemanager.relay.models.PrivateEndpointConnection.UpdateStages.WithPrivateEndpoint"
+name: "PrivateEndpointConnection.UpdateStages.WithPrivateEndpoint"
+nameWithType: "PrivateEndpointConnection.UpdateStages.WithPrivateEndpoint"
+summary: "The stage of the Private<wbr>Endpoint<wbr>Connection update allowing to specify private<wbr>Endpoint."
+syntax: "public static interface **PrivateEndpointConnection.UpdateStages.WithPrivateEndpoint**"
+methods:
+- uid: "com.azure.resourcemanager.relay.models.PrivateEndpointConnection.UpdateStages.WithPrivateEndpoint.withPrivateEndpoint(com.azure.resourcemanager.relay.models.PrivateEndpoint)"
+  fullName: "com.azure.resourcemanager.relay.models.PrivateEndpointConnection.UpdateStages.WithPrivateEndpoint.withPrivateEndpoint(PrivateEndpoint privateEndpoint)"
+  name: "withPrivateEndpoint(PrivateEndpoint privateEndpoint)"
+  nameWithType: "PrivateEndpointConnection.UpdateStages.WithPrivateEndpoint.withPrivateEndpoint(PrivateEndpoint privateEndpoint)"
+  summary: "Specifies the private<wbr>Endpoint property: The Private Endpoint resource for this Connection.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The Private Endpoint resource for this Connection."
+    name: "privateEndpoint"
+    type: "<xref href=\"com.azure.resourcemanager.relay.models.PrivateEndpoint?alt=com.azure.resourcemanager.relay.models.PrivateEndpoint&text=PrivateEndpoint\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract PrivateEndpointConnection.Update withPrivateEndpoint(PrivateEndpoint privateEndpoint)"
+  desc: "Specifies the privateEndpoint property: The Private Endpoint resource for this Connection.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.relay.models.PrivateEndpointConnection.Update?alt=com.azure.resourcemanager.relay.models.PrivateEndpointConnection.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the PrivateEndpointConnection update allowing to specify privateEndpoint."
+metadata: {}
+package: "com.azure.resourcemanager.relay.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-relay:1.1.0

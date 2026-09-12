@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.relay.models.RelayNamespace.UpdateStages.WithSku"
+fullName: "com.azure.resourcemanager.relay.models.RelayNamespace.UpdateStages.WithSku"
+name: "RelayNamespace.UpdateStages.WithSku"
+nameWithType: "RelayNamespace.UpdateStages.WithSku"
+summary: "The stage of the Relay<wbr>Namespace update allowing to specify sku."
+syntax: "public static interface **RelayNamespace.UpdateStages.WithSku**"
+methods:
+- uid: "com.azure.resourcemanager.relay.models.RelayNamespace.UpdateStages.WithSku.withSku(com.azure.resourcemanager.relay.models.Sku)"
+  fullName: "com.azure.resourcemanager.relay.models.RelayNamespace.UpdateStages.WithSku.withSku(Sku sku)"
+  name: "withSku(Sku sku)"
+  nameWithType: "RelayNamespace.UpdateStages.WithSku.withSku(Sku sku)"
+  summary: "Specifies the sku property: SKU of the namespace.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "SKU of the namespace."
+    name: "sku"
+    type: "<xref href=\"com.azure.resourcemanager.relay.models.Sku?alt=com.azure.resourcemanager.relay.models.Sku&text=Sku\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract RelayNamespace.Update withSku(Sku sku)"
+  desc: "Specifies the sku property: SKU of the namespace.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.relay.models.RelayNamespace.Update?alt=com.azure.resourcemanager.relay.models.RelayNamespace.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the RelayNamespace update allowing to specify sku."
+metadata: {}
+package: "com.azure.resourcemanager.relay.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-relay:1.1.0

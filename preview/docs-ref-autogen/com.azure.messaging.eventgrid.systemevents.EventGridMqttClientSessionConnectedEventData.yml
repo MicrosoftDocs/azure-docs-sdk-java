@@ -4,18 +4,21 @@ fullName: "com.azure.messaging.eventgrid.systemevents.EventGridMqttClientSession
 name: "EventGridMqttClientSessionConnectedEventData"
 nameWithType: "EventGridMqttClientSessionConnectedEventData"
 summary: "Event data for Microsoft.<wbr>Event<wbr>Grid.<wbr>MQTTClient<wbr>Session<wbr>Connected event."
+deprecatedTag: "This class is deprecated and may be removed in future releases. System events are now available in the azure-messaging-eventgrid-systemevents package."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.azure.messaging.eventgrid.systemevents.EventGridMqttClientEventData?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
 - classRef: "<xref href=\"com.azure.messaging.eventgrid.systemevents.EventGridMqttClientEventData?alt=com.azure.messaging.eventgrid.systemevents.EventGridMqttClientEventData&text=EventGridMqttClientEventData\" data-throw-if-not-resolved=\"False\" />"
   methodsRef:
+  - "<xref href=\"com.azure.messaging.eventgrid.systemevents.EventGridMqttClientEventData.fromJson(com.azure.json.JsonReader)?alt=com.azure.messaging.eventgrid.systemevents.EventGridMqttClientEventData.fromJson&text=fromJson\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.messaging.eventgrid.systemevents.EventGridMqttClientEventData.getClientAuthenticationName()?alt=com.azure.messaging.eventgrid.systemevents.EventGridMqttClientEventData.getClientAuthenticationName&text=getClientAuthenticationName\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.messaging.eventgrid.systemevents.EventGridMqttClientEventData.getClientName()?alt=com.azure.messaging.eventgrid.systemevents.EventGridMqttClientEventData.getClientName&text=getClientName\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.messaging.eventgrid.systemevents.EventGridMqttClientEventData.getNamespaceName()?alt=com.azure.messaging.eventgrid.systemevents.EventGridMqttClientEventData.getNamespaceName&text=getNamespaceName\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.messaging.eventgrid.systemevents.EventGridMqttClientEventData.setClientAuthenticationName(java.lang.String)?alt=com.azure.messaging.eventgrid.systemevents.EventGridMqttClientEventData.setClientAuthenticationName&text=setClientAuthenticationName\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.messaging.eventgrid.systemevents.EventGridMqttClientEventData.setClientName(java.lang.String)?alt=com.azure.messaging.eventgrid.systemevents.EventGridMqttClientEventData.setClientName&text=setClientName\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.messaging.eventgrid.systemevents.EventGridMqttClientEventData.setNamespaceName(java.lang.String)?alt=com.azure.messaging.eventgrid.systemevents.EventGridMqttClientEventData.setNamespaceName&text=setNamespaceName\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.messaging.eventgrid.systemevents.EventGridMqttClientEventData.toJson(com.azure.json.JsonWriter)?alt=com.azure.messaging.eventgrid.systemevents.EventGridMqttClientEventData.toJson&text=toJson\" data-throw-if-not-resolved=\"False\" />"
 - classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   methodsRef:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
@@ -29,7 +32,7 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
-syntax: "public final class **EventGridMqttClientSessionConnectedEventData**</br> extends <xref href=\"com.azure.messaging.eventgrid.systemevents.EventGridMqttClientEventData?alt=com.azure.messaging.eventgrid.systemevents.EventGridMqttClientEventData&text=EventGridMqttClientEventData\" data-throw-if-not-resolved=\"False\" />"
+syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public final class **EventGridMqttClientSessionConnectedEventData**</br> extends <xref href=\"com.azure.messaging.eventgrid.systemevents.EventGridMqttClientEventData?alt=com.azure.messaging.eventgrid.systemevents.EventGridMqttClientEventData&text=EventGridMqttClientEventData\" data-throw-if-not-resolved=\"False\" />"
 constructors:
 - uid: "com.azure.messaging.eventgrid.systemevents.EventGridMqttClientSessionConnectedEventData.EventGridMqttClientSessionConnectedEventData()"
   fullName: "com.azure.messaging.eventgrid.systemevents.EventGridMqttClientSessionConnectedEventData.EventGridMqttClientSessionConnectedEventData()"
@@ -39,6 +42,25 @@ constructors:
   syntax: "public EventGridMqttClientSessionConnectedEventData()"
   desc: "Creates an instance of EventGridMqttClientSessionConnectedEventData class."
 methods:
+- uid: "com.azure.messaging.eventgrid.systemevents.EventGridMqttClientSessionConnectedEventData.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.EventGridMqttClientSessionConnectedEventData.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "EventGridMqttClientSessionConnectedEventData.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Event<wbr>Grid<wbr>Mqtt<wbr>Client<wbr>Session<wbr>Connected<wbr>Event<wbr>Data from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static EventGridMqttClientSessionConnectedEventData fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the EventGridMqttClientSessionConnectedEventData."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of EventGridMqttClientSessionConnectedEventData from the JsonReader."
+  returns:
+    description: "An instance of EventGridMqttClientSessionConnectedEventData if the JsonReader was pointing to an instance\n of it, or null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.EventGridMqttClientSessionConnectedEventData?alt=com.azure.messaging.eventgrid.systemevents.EventGridMqttClientSessionConnectedEventData&text=EventGridMqttClientSessionConnectedEventData\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.messaging.eventgrid.systemevents.EventGridMqttClientSessionConnectedEventData.getClientSessionName()"
   fullName: "com.azure.messaging.eventgrid.systemevents.EventGridMqttClientSessionConnectedEventData.getClientSessionName()"
   name: "getClientSessionName()"
@@ -126,8 +148,22 @@ methods:
   returns:
     description: "the EventGridMqttClientSessionConnectedEventData object itself."
     type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.EventGridMqttClientSessionConnectedEventData?alt=com.azure.messaging.eventgrid.systemevents.EventGridMqttClientSessionConnectedEventData&text=EventGridMqttClientSessionConnectedEventData\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.messaging.eventgrid.systemevents.EventGridMqttClientSessionConnectedEventData.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.EventGridMqttClientSessionConnectedEventData.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "EventGridMqttClientSessionConnectedEventData.toJson(JsonWriter jsonWriter)"
+  overridden: "com.azure.messaging.eventgrid.systemevents.EventGridMqttClientEventData.toJson(com.azure.json.JsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Event data for Microsoft.EventGrid.MQTTClientSessionConnected event."
+hasDeprecatedTag: true
 metadata: {}
 package: "com.azure.messaging.eventgrid.systemevents"
-artifact: com.azure:azure-messaging-eventgrid:4.21.0-beta.1
+artifact: com.azure:azure-messaging-eventgrid:4.32.0-alpha.20260910.3

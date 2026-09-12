@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.relay.models.WcfRelay.UpdateStages.WithRequiresTransportSecurity"
+fullName: "com.azure.resourcemanager.relay.models.WcfRelay.UpdateStages.WithRequiresTransportSecurity"
+name: "WcfRelay.UpdateStages.WithRequiresTransportSecurity"
+nameWithType: "WcfRelay.UpdateStages.WithRequiresTransportSecurity"
+summary: "The stage of the Wcf<wbr>Relay update allowing to specify requires<wbr>Transport<wbr>Security."
+syntax: "public static interface **WcfRelay.UpdateStages.WithRequiresTransportSecurity**"
+methods:
+- uid: "com.azure.resourcemanager.relay.models.WcfRelay.UpdateStages.WithRequiresTransportSecurity.withRequiresTransportSecurity(java.lang.Boolean)"
+  fullName: "com.azure.resourcemanager.relay.models.WcfRelay.UpdateStages.WithRequiresTransportSecurity.withRequiresTransportSecurity(Boolean requiresTransportSecurity)"
+  name: "withRequiresTransportSecurity(Boolean requiresTransportSecurity)"
+  nameWithType: "WcfRelay.UpdateStages.WithRequiresTransportSecurity.withRequiresTransportSecurity(Boolean requiresTransportSecurity)"
+  summary: "Specifies the requires<wbr>Transport<wbr>Security property: Returns true if transport security is needed for this relay; otherwise, false.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Returns true if transport security is needed for this relay; otherwise,\n false."
+    name: "requiresTransportSecurity"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
+  syntax: "public abstract WcfRelay.Update withRequiresTransportSecurity(Boolean requiresTransportSecurity)"
+  desc: "Specifies the requiresTransportSecurity property: Returns true if transport security is needed for this relay; otherwise, false.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.relay.models.WcfRelay.Update?alt=com.azure.resourcemanager.relay.models.WcfRelay.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the WcfRelay update allowing to specify requiresTransportSecurity."
+metadata: {}
+package: "com.azure.resourcemanager.relay.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-relay:1.1.0

@@ -355,4 +355,4 @@ type: "class"
 desc: "Lab Plans act as a permission container for creating labs via labs.azure.com. Additionally, they can provide a set of default configurations that will apply at the time of creating a lab, but these defaults can still be overwritten."
 metadata: {}
 package: "com.azure.resourcemanager.labservices.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-labservices:1.0.0-beta.4
+artifact: com.azure.resourcemanager:azure-resourcemanager-labservices:1.1.0-alpha.20260910.1

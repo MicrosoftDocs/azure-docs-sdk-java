@@ -1,0 +1,14 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.postgresql.models.Configuration.DefinitionStages.Blank"
+fullName: "com.azure.resourcemanager.postgresql.models.Configuration.DefinitionStages.Blank"
+name: "Configuration.DefinitionStages.Blank"
+nameWithType: "Configuration.DefinitionStages.Blank"
+summary: "The first stage of the Configuration definition."
+syntax: "public static interface **Configuration.DefinitionStages.Blank**</br> extends <xref href=\"com.azure.resourcemanager.postgresql.models.Configuration.DefinitionStages.WithParentResource?alt=com.azure.resourcemanager.postgresql.models.Configuration.DefinitionStages.WithParentResource&text=WithParentResource\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The first stage of the Configuration definition."
+implements:
+- "<xref href=\"com.azure.resourcemanager.postgresql.models.Configuration.DefinitionStages.WithParentResource?alt=com.azure.resourcemanager.postgresql.models.Configuration.DefinitionStages.WithParentResource&text=WithParentResource\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.azure.resourcemanager.postgresql.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-postgresql:1.2.0-alpha.20260910.1

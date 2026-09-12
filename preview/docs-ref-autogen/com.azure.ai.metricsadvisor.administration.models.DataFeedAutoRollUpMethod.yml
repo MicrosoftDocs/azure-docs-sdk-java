@@ -1,0 +1,146 @@
+### YamlMime:JavaType
+uid: "com.azure.ai.metricsadvisor.administration.models.DataFeedAutoRollUpMethod"
+fullName: "com.azure.ai.metricsadvisor.administration.models.DataFeedAutoRollUpMethod"
+name: "DataFeedAutoRollUpMethod"
+nameWithType: "DataFeedAutoRollUpMethod"
+summary: "Defines values for Data<wbr>Feed<wbr>Auto<wbr>Roll<wbr>UpMethod."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **DataFeedAutoRollUpMethod**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.metricsadvisor.administration.models.DataFeedAutoRollUpMethod?alt=com.azure.ai.metricsadvisor.administration.models.DataFeedAutoRollUpMethod&text=DataFeedAutoRollUpMethod\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.ai.metricsadvisor.administration.models.DataFeedAutoRollUpMethod.DataFeedAutoRollUpMethod()"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.DataFeedAutoRollUpMethod.DataFeedAutoRollUpMethod()"
+  name: "DataFeedAutoRollUpMethod()"
+  nameWithType: "DataFeedAutoRollUpMethod.DataFeedAutoRollUpMethod()"
+  summary: "Constructs a Data<wbr>Feed<wbr>Auto<wbr>Roll<wbr>UpMethod object."
+  deprecatedTag: "Use the <xref uid=\"com.azure.ai.metricsadvisor.administration.models.DataFeedAutoRollUpMethod.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public DataFeedAutoRollUpMethod()"
+  desc: "Constructs a DataFeedAutoRollUpMethod object."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.ai.metricsadvisor.administration.models.DataFeedAutoRollUpMethod.AVG"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.DataFeedAutoRollUpMethod.AVG"
+  name: "AVG"
+  nameWithType: "DataFeedAutoRollUpMethod.AVG"
+  summary: "Static value Avg for Data<wbr>Feed<wbr>Auto<wbr>Roll<wbr>UpMethod."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.metricsadvisor.administration.models.DataFeedAutoRollUpMethod?alt=com.azure.ai.metricsadvisor.administration.models.DataFeedAutoRollUpMethod&text=DataFeedAutoRollUpMethod\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final DataFeedAutoRollUpMethod AVG"
+  desc: "Static value Avg for DataFeedAutoRollUpMethod."
+- uid: "com.azure.ai.metricsadvisor.administration.models.DataFeedAutoRollUpMethod.COUNT"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.DataFeedAutoRollUpMethod.COUNT"
+  name: "COUNT"
+  nameWithType: "DataFeedAutoRollUpMethod.COUNT"
+  summary: "Static value Count for Data<wbr>Feed<wbr>Auto<wbr>Roll<wbr>UpMethod."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.metricsadvisor.administration.models.DataFeedAutoRollUpMethod?alt=com.azure.ai.metricsadvisor.administration.models.DataFeedAutoRollUpMethod&text=DataFeedAutoRollUpMethod\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final DataFeedAutoRollUpMethod COUNT"
+  desc: "Static value Count for DataFeedAutoRollUpMethod."
+- uid: "com.azure.ai.metricsadvisor.administration.models.DataFeedAutoRollUpMethod.MAX"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.DataFeedAutoRollUpMethod.MAX"
+  name: "MAX"
+  nameWithType: "DataFeedAutoRollUpMethod.MAX"
+  summary: "Static value Max for Data<wbr>Feed<wbr>Auto<wbr>Roll<wbr>UpMethod."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.metricsadvisor.administration.models.DataFeedAutoRollUpMethod?alt=com.azure.ai.metricsadvisor.administration.models.DataFeedAutoRollUpMethod&text=DataFeedAutoRollUpMethod\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final DataFeedAutoRollUpMethod MAX"
+  desc: "Static value Max for DataFeedAutoRollUpMethod."
+- uid: "com.azure.ai.metricsadvisor.administration.models.DataFeedAutoRollUpMethod.MIN"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.DataFeedAutoRollUpMethod.MIN"
+  name: "MIN"
+  nameWithType: "DataFeedAutoRollUpMethod.MIN"
+  summary: "Static value Min for Data<wbr>Feed<wbr>Auto<wbr>Roll<wbr>UpMethod."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.metricsadvisor.administration.models.DataFeedAutoRollUpMethod?alt=com.azure.ai.metricsadvisor.administration.models.DataFeedAutoRollUpMethod&text=DataFeedAutoRollUpMethod\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final DataFeedAutoRollUpMethod MIN"
+  desc: "Static value Min for DataFeedAutoRollUpMethod."
+- uid: "com.azure.ai.metricsadvisor.administration.models.DataFeedAutoRollUpMethod.NONE"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.DataFeedAutoRollUpMethod.NONE"
+  name: "NONE"
+  nameWithType: "DataFeedAutoRollUpMethod.NONE"
+  summary: "Static value None for Data<wbr>Feed<wbr>Auto<wbr>Roll<wbr>UpMethod."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.metricsadvisor.administration.models.DataFeedAutoRollUpMethod?alt=com.azure.ai.metricsadvisor.administration.models.DataFeedAutoRollUpMethod&text=DataFeedAutoRollUpMethod\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final DataFeedAutoRollUpMethod NONE"
+  desc: "Static value None for DataFeedAutoRollUpMethod."
+- uid: "com.azure.ai.metricsadvisor.administration.models.DataFeedAutoRollUpMethod.SUM"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.DataFeedAutoRollUpMethod.SUM"
+  name: "SUM"
+  nameWithType: "DataFeedAutoRollUpMethod.SUM"
+  summary: "Static value Sum for Data<wbr>Feed<wbr>Auto<wbr>Roll<wbr>UpMethod."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.metricsadvisor.administration.models.DataFeedAutoRollUpMethod?alt=com.azure.ai.metricsadvisor.administration.models.DataFeedAutoRollUpMethod&text=DataFeedAutoRollUpMethod\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final DataFeedAutoRollUpMethod SUM"
+  desc: "Static value Sum for DataFeedAutoRollUpMethod."
+methods:
+- uid: "com.azure.ai.metricsadvisor.administration.models.DataFeedAutoRollUpMethod.fromString(java.lang.String)"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.DataFeedAutoRollUpMethod.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "DataFeedAutoRollUpMethod.fromString(String name)"
+  summary: "Creates or finds a Data<wbr>Feed<wbr>Auto<wbr>Roll<wbr>UpMethod from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static DataFeedAutoRollUpMethod fromString(String name)"
+  desc: "Creates or finds a DataFeedAutoRollUpMethod from its string representation."
+  returns:
+    description: "the corresponding DataFeedAutoRollUpMethod."
+    type: "<xref href=\"com.azure.ai.metricsadvisor.administration.models.DataFeedAutoRollUpMethod?alt=com.azure.ai.metricsadvisor.administration.models.DataFeedAutoRollUpMethod&text=DataFeedAutoRollUpMethod\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.metricsadvisor.administration.models.DataFeedAutoRollUpMethod.values()"
+  fullName: "com.azure.ai.metricsadvisor.administration.models.DataFeedAutoRollUpMethod.values()"
+  name: "values()"
+  nameWithType: "DataFeedAutoRollUpMethod.values()"
+  summary: "Return the set of enum values for Data<wbr>Feed<wbr>Auto<wbr>Roll<wbr>UpMethod."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<DataFeedAutoRollUpMethod> values()"
+  desc: "Return the set of enum values for DataFeedAutoRollUpMethod."
+  returns:
+    description: "known DataFeedAutoRollUpMethod values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.ai.metricsadvisor.administration.models.DataFeedAutoRollUpMethod?alt=com.azure.ai.metricsadvisor.administration.models.DataFeedAutoRollUpMethod&text=DataFeedAutoRollUpMethod\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Defines values for DataFeedAutoRollUpMethod."
+metadata: {}
+package: "com.azure.ai.metricsadvisor.administration.models"
+artifact: com.azure:azure-ai-metricsadvisor:1.3.0-alpha.20260910.4
