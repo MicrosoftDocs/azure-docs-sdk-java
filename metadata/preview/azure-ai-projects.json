@@ -1,7 +1,7 @@
 {
   "Name": "azure-ai-projects",
-  "Version": "2.1.0-beta.1",
-  "DevVersion": null,
+  "Version": "2.6.0-alpha.20260911.1",
+  "DevVersion": "2.6.0-alpha.20260911.1",
   "DirectoryPath": "sdk/ai/azure-ai-projects",
   "ServiceDirectory": "ai",
   "ReadMePath": "sdk/ai/azure-ai-projects/README.md",
@@ -10,22 +10,22 @@
   "SdkType": "client",
   "IsNewSdk": true,
   "ArtifactName": "azure-ai-projects",
-  "ReleaseStatus": "2026-05-12",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "name": "azure-ai-projects",
     "releaseInBatch": "${{ parameters.release_azureaiprojects }}",
-    "safeName": "azureaiprojects",
     "triggeringPaths": [
       "/sdk/ai/ci.yml"
     ],
-    "groupId": "com.azure"
+    "groupId": "com.azure",
+    "name": "azure-ai-projects",
+    "safeName": "azureaiprojects"
   },
   "CIParameters": {
     "CIMatrixConfigs": []
   },
-  "SpecProjectPath": null,
+  "SpecProjectPath": "specification/ai-foundry/data-plane/Foundry/src/sdk-java-azure-ai-projects",
   "Namespaces": [
     "com.azure.ai.projects",
     "com.azure.ai.projects.models"
