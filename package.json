@@ -1114,12 +1114,6 @@
         "packageDownloadUrl": "https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-java/maven/v1"
       },
       {
-        "packageArtifactId": "azure-resourcemanager-lambdatesthyperexecute",
-        "packageGroupId": "com.azure.resourcemanager",
-        "packageVersion": "1.0.0",
-        "packageDownloadUrl": "https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-java/maven/v1"
-      },
-      {
         "packageArtifactId": "azure-resourcemanager-loadtesting",
         "packageGroupId": "com.azure.resourcemanager",
         "packageVersion": "1.1.0",
@@ -1362,7 +1356,7 @@
       {
         "packageArtifactId": "azure-resourcemanager-recoveryservicesbackup",
         "packageGroupId": "com.azure.resourcemanager",
-        "packageVersion": "1.7.0",
+        "packageVersion": "1.8.0",
         "packageDownloadUrl": "https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-java/maven/v1"
       },
       {
@@ -2125,13 +2119,13 @@
       {
         "packageArtifactId": "azure-data-schemaregistry",
         "packageGroupId": "com.azure",
-        "packageVersion": "1.4.0-beta.2",
+        "packageVersion": "1.6.0-alpha.20260914.1",
         "packageDownloadUrl": "https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-java/maven/v1"
       },
       {
         "packageArtifactId": "azure-data-schemaregistry-apacheavro",
         "packageGroupId": "com.azure",
-        "packageVersion": "1.2.0-beta.2",
+        "packageVersion": "1.2.0-alpha.20260914.1",
         "packageDownloadUrl": "https://repo1.maven.org/maven2"
       },
       {
@@ -2143,7 +2137,7 @@
       {
         "packageArtifactId": "azure-data-schemaregistry-jsonschema",
         "packageGroupId": "com.azure",
-        "packageVersion": "1.0.0-beta.1",
+        "packageVersion": "1.1.0-alpha.20260914.1",
         "packageDownloadUrl": "https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-java/maven/v1"
       },
       {
@@ -2259,13 +2253,13 @@
       {
         "packageArtifactId": "azure-maps-traffic",
         "packageGroupId": "com.azure",
-        "packageVersion": "1.0.0-beta.1",
+        "packageVersion": "1.0.0-alpha.20260914.1",
         "packageDownloadUrl": "https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-java/maven/v1"
       },
       {
         "packageArtifactId": "azure-maps-weather",
         "packageGroupId": "com.azure",
-        "packageVersion": "1.0.0-beta.3",
+        "packageVersion": "1.0.0-alpha.20260914.1",
         "packageDownloadUrl": "https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-java/maven/v1"
       },
       {
@@ -2308,6 +2302,12 @@
         "packageArtifactId": "azure-messaging-servicebus",
         "packageGroupId": "com.azure",
         "packageVersion": "7.18.0-beta.3",
+        "packageDownloadUrl": "https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-java/maven/v1"
+      },
+      {
+        "packageArtifactId": "azure-messaging-webpubsub",
+        "packageGroupId": "com.azure",
+        "packageVersion": "1.6.0-alpha.20260914.1",
         "packageDownloadUrl": "https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-java/maven/v1"
       },
       {
@@ -2900,7 +2900,7 @@
       {
         "packageArtifactId": "azure-resourcemanager-elastic",
         "packageGroupId": "com.azure.resourcemanager",
-        "packageVersion": "1.0.0-beta.4",
+        "packageVersion": "1.3.0-alpha.20260914.1",
         "packageDownloadUrl": "https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-java/maven/v1"
       },
       {
@@ -3020,7 +3020,7 @@
       {
         "packageArtifactId": "azure-resourcemanager-hybridnetwork",
         "packageGroupId": "com.azure.resourcemanager",
-        "packageVersion": "1.0.0-beta.2",
+        "packageVersion": "1.2.0-alpha.20260914.1",
         "packageDownloadUrl": "https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-java/maven/v1"
       },
       {
@@ -3122,13 +3122,13 @@
       {
         "packageArtifactId": "azure-resourcemanager-logic",
         "packageGroupId": "com.azure.resourcemanager",
-        "packageVersion": "1.0.0-beta.3",
+        "packageVersion": "1.1.0-alpha.20260914.1",
         "packageDownloadUrl": "https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-java/maven/v1"
       },
       {
         "packageArtifactId": "azure-resourcemanager-maintenance",
         "packageGroupId": "com.azure.resourcemanager",
-        "packageVersion": "1.1.0-beta.3",
+        "packageVersion": "1.1.0-alpha.20260914.1",
         "packageDownloadUrl": "https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-java/maven/v1"
       },
       {
@@ -3152,7 +3152,7 @@
       {
         "packageArtifactId": "azure-resourcemanager-mariadb",
         "packageGroupId": "com.azure.resourcemanager",
-        "packageVersion": "1.0.0-beta.3",
+        "packageVersion": "1.1.0-alpha.20260914.1",
         "packageDownloadUrl": "https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-java/maven/v1"
       },
       {
@@ -3188,7 +3188,7 @@
       {
         "packageArtifactId": "azure-resourcemanager-mobilenetwork",
         "packageGroupId": "com.azure.resourcemanager",
-        "packageVersion": "1.0.0-beta.5",
+        "packageVersion": "1.4.0-alpha.20260914.1",
         "packageDownloadUrl": "https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-java/maven/v1"
       },
       {
@@ -3248,7 +3248,7 @@
       {
         "packageArtifactId": "azure-resourcemanager-netapp",
         "packageGroupId": "com.azure.resourcemanager",
-        "packageVersion": "2.5.0-beta.2",
+        "packageVersion": "2.5.0-alpha.20260914.1",
         "packageDownloadUrl": "https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-java/maven/v1"
       },
       {
@@ -3321,12 +3321,6 @@
         "packageArtifactId": "azure-resourcemanager-peering",
         "packageGroupId": "com.azure.resourcemanager",
         "packageVersion": "1.0.0-beta.3",
-        "packageDownloadUrl": "https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-java/maven/v1"
-      },
-      {
-        "packageArtifactId": "azure-resourcemanager-pineconevectordb",
-        "packageGroupId": "com.azure.resourcemanager",
-        "packageVersion": "1.0.0-beta.2",
         "packageDownloadUrl": "https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-java/maven/v1"
       },
       {
@@ -3530,7 +3524,7 @@
       {
         "packageArtifactId": "azure-resourcemanager-servicefabric",
         "packageGroupId": "com.azure.resourcemanager",
-        "packageVersion": "1.1.0-beta.1",
+        "packageVersion": "1.1.0-alpha.20260914.1",
         "packageDownloadUrl": "https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-java/maven/v1"
       },
       {
@@ -3602,7 +3596,7 @@
       {
         "packageArtifactId": "azure-resourcemanager-storagecache",
         "packageGroupId": "com.azure.resourcemanager",
-        "packageVersion": "1.0.0-beta.12",
+        "packageVersion": "1.3.0-alpha.20260914.1",
         "packageDownloadUrl": "https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-java/maven/v1"
       },
       {
@@ -3684,15 +3678,15 @@
         "packageDownloadUrl": "https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-java/maven/v1"
       },
       {
-        "packageArtifactId": "azure-resourcemanager-weightsandbiases",
+        "packageArtifactId": "azure-resourcemanager-workloadorchestration",
         "packageGroupId": "com.azure.resourcemanager",
         "packageVersion": "1.0.0-beta.1",
         "packageDownloadUrl": "https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-java/maven/v1"
       },
       {
-        "packageArtifactId": "azure-resourcemanager-workloadorchestration",
+        "packageArtifactId": "azure-resourcemanager-workloads",
         "packageGroupId": "com.azure.resourcemanager",
-        "packageVersion": "1.0.0-beta.1",
+        "packageVersion": "1.2.0-alpha.20260914.1",
         "packageDownloadUrl": "https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-java/maven/v1"
       },
       {
