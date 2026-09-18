@@ -1,0 +1,32 @@
+{
+  "Name": "azure-eventhubs",
+  "Version": "3.4.0-alpha.20260918.1",
+  "DevVersion": "3.4.0-alpha.20260918.1",
+  "DirectoryPath": "sdk/eventhubs/microsoft-azure-eventhubs",
+  "ServiceDirectory": "eventhubs",
+  "ReadMePath": "sdk/eventhubs/microsoft-azure-eventhubs/README.md",
+  "ChangeLogPath": "",
+  "Group": "com.microsoft.azure",
+  "SdkType": "client",
+  "IsNewSdk": false,
+  "ArtifactName": "azure-eventhubs",
+  "ReleaseStatus": null,
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "name": "azure-eventhubs",
+    "groupId": "com.microsoft.azure",
+    "safeName": "azureeventhubs",
+    "triggeringPaths": [
+      "/sdk/eventhubs/ci.data.yml"
+    ]
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": null,
+  "Namespaces": [
+    "com.microsoft.azure.eventhubs",
+    "com.microsoft.azure.eventhubs.impl"
+  ]
+}
