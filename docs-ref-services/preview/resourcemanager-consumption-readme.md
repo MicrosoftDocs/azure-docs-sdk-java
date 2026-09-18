@@ -6,7 +6,7 @@ ms.topic: reference
 ms.devlang: java
 ms.service: consumption
 ---
-# Azure Resource Manager Consumption client library for Java - version 1.1.0-alpha.20260916.1 
+# Azure Resource Manager Consumption client library for Java - version 1.1.0-alpha.20260917.1 
 
 
 Azure Resource Manager Consumption client library for Java.
