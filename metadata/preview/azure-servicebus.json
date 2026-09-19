@@ -1,0 +1,36 @@
+{
+  "Name": "azure-servicebus",
+  "Version": "3.7.0-alpha.20260918.1",
+  "DevVersion": "3.7.0-alpha.20260918.1",
+  "DirectoryPath": "sdk/servicebus/microsoft-azure-servicebus",
+  "ServiceDirectory": "servicebus",
+  "ReadMePath": "sdk/servicebus/microsoft-azure-servicebus/README.md",
+  "ChangeLogPath": "",
+  "Group": "com.microsoft.azure",
+  "SdkType": "client",
+  "IsNewSdk": false,
+  "ArtifactName": "azure-servicebus",
+  "ReleaseStatus": null,
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "triggeringPaths": [
+      "/sdk/servicebus/ci.data.yml"
+    ],
+    "groupId": "com.microsoft.azure",
+    "name": "azure-servicebus",
+    "safeName": "azuremicrosoftservicebus"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": null,
+  "Namespaces": [
+    "com.microsoft.azure.servicebus",
+    "com.microsoft.azure.servicebus.amqp",
+    "com.microsoft.azure.servicebus.management",
+    "com.microsoft.azure.servicebus.primitives",
+    "com.microsoft.azure.servicebus.rules",
+    "com.microsoft.azure.servicebus.security"
+  ]
+}
