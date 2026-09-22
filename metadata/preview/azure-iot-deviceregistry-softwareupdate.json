@@ -1,0 +1,33 @@
+{
+  "Name": "azure-iot-deviceregistry-softwareupdate",
+  "Version": "1.0.0-alpha.20260922.1",
+  "DevVersion": "1.0.0-alpha.20260922.1",
+  "DirectoryPath": "sdk/deviceregistry/azure-iot-deviceregistry-softwareupdate",
+  "ServiceDirectory": "deviceregistry",
+  "ReadMePath": "sdk/deviceregistry/azure-iot-deviceregistry-softwareupdate/README.md",
+  "ChangeLogPath": "sdk/deviceregistry/azure-iot-deviceregistry-softwareupdate/CHANGELOG.md",
+  "Group": "com.azure",
+  "SdkType": "client",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-iot-deviceregistry-softwareupdate",
+  "ReleaseStatus": "Unreleased",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "groupId": "com.azure",
+    "name": "azure-iot-deviceregistry-softwareupdate",
+    "safeName": "azureiotdeviceregistrysoftwareupdate",
+    "triggeringPaths": [
+      "/sdk/deviceregistry/ci.yml"
+    ],
+    "releaseInBatch": "${{ parameters.release_azureiotdeviceregistrysoftwareupdate }}"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": "specification/deviceupdate/data-plane/sudeviceregistry",
+  "Namespaces": [
+    "com.azure.iot.deviceregistry.softwareupdate",
+    "com.azure.iot.deviceregistry.softwareupdate.models"
+  ]
+}
