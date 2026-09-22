@@ -1,0 +1,32 @@
+{
+  "Name": "azure-ai-anomalydetector",
+  "Version": "3.0.0-alpha.20260922.1",
+  "DevVersion": "3.0.0-alpha.20260922.1",
+  "DirectoryPath": "sdk/anomalydetector/azure-ai-anomalydetector",
+  "ServiceDirectory": "anomalydetector",
+  "ReadMePath": "sdk/anomalydetector/azure-ai-anomalydetector/README.md",
+  "ChangeLogPath": "sdk/anomalydetector/azure-ai-anomalydetector/CHANGELOG.md",
+  "Group": "com.azure",
+  "SdkType": "client",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-ai-anomalydetector",
+  "ReleaseStatus": "Unreleased",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "triggeringPaths": [
+      "/sdk/anomalydetector/ci.yml"
+    ],
+    "name": "azure-ai-anomalydetector",
+    "groupId": "com.azure",
+    "safeName": "azureaianomalydetector"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": "specification/cognitiveservices/AnomalyDetector",
+  "Namespaces": [
+    "com.azure.ai.anomalydetector",
+    "com.azure.ai.anomalydetector.models"
+  ]
+}
