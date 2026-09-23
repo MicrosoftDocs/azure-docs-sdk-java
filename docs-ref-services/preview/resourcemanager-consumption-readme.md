@@ -1,12 +1,12 @@
 ---
 title: Azure Resource Manager Consumption client library for Java
 keywords: Azure, java, SDK, API, azure-resourcemanager-consumption, consumption
-ms.date: 09/22/2026
+ms.date: 09/23/2026
 ms.topic: reference
 ms.devlang: java
 ms.service: consumption
 ---
-# Azure Resource Manager Consumption client library for Java - version 1.1.0-alpha.20260921.1 
+# Azure Resource Manager Consumption client library for Java - version 1.1.0-alpha.20260922.1 
 
 
 Azure Resource Manager Consumption client library for Java.
