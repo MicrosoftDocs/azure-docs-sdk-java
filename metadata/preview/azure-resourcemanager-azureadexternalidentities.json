@@ -1,7 +1,7 @@
 {
   "Name": "azure-resourcemanager-azureadexternalidentities",
-  "Version": "1.0.0-alpha.20260923.1",
-  "DevVersion": "1.0.0-alpha.20260923.1",
+  "Version": "1.0.0-alpha.20260924.1",
+  "DevVersion": "1.0.0-alpha.20260924.1",
   "DirectoryPath": "sdk/azureadexternalidentities/azure-resourcemanager-azureadexternalidentities",
   "ServiceDirectory": "azureadexternalidentities",
   "ReadMePath": "sdk/azureadexternalidentities/azure-resourcemanager-azureadexternalidentities/README.md",
@@ -14,12 +14,12 @@
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "groupId": "com.azure.resourcemanager",
-    "safeName": "azureresourcemanagerazureadexternalidentities",
+    "name": "azure-resourcemanager-azureadexternalidentities",
     "triggeringPaths": [
       "/sdk/azureadexternalidentities/ci.yml"
     ],
-    "name": "azure-resourcemanager-azureadexternalidentities"
+    "safeName": "azureresourcemanagerazureadexternalidentities",
+    "groupId": "com.azure.resourcemanager"
   },
   "CIParameters": {
     "CIMatrixConfigs": []
