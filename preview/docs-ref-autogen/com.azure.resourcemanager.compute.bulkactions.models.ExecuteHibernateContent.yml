@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.compute.bulkactions.models.ExecuteHibernateConte
 fullName: "com.azure.resourcemanager.compute.bulkactions.models.ExecuteHibernateContent"
 name: "ExecuteHibernateContent"
 nameWithType: "ExecuteHibernateContent"
-summary: "The Execute<wbr>Hibernate<wbr>Request request for execute<wbr>Hibernate operations."
+summary: "The virtual machines and execution settings for a bulk hibernate action."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -34,9 +34,9 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.ExecuteHibernateContent.executionParameters()"
   name: "executionParameters()"
   nameWithType: "ExecuteHibernateContent.executionParameters()"
-  summary: "Get the execution<wbr>Parameters property: The execution parameters for the request."
+  summary: "Get the execution<wbr>Parameters property: The execution settings for the bulk action."
   syntax: "public ExecutionParameters executionParameters()"
-  desc: "Get the executionParameters property: The execution parameters for the request."
+  desc: "Get the executionParameters property: The execution settings for the bulk action."
   returns:
     description: "the executionParameters value."
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ExecutionParameters?alt=com.azure.resourcemanager.compute.bulkactions.models.ExecutionParameters&text=ExecutionParameters\" data-throw-if-not-resolved=\"False\" />"
@@ -63,9 +63,9 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.ExecuteHibernateContent.resources()"
   name: "resources()"
   nameWithType: "ExecuteHibernateContent.resources()"
-  summary: "Get the resources property: The resources for the request."
+  summary: "Get the resources property: The target virtual machines."
   syntax: "public Resources resources()"
-  desc: "Get the resources property: The resources for the request."
+  desc: "Get the resources property: The target virtual machines."
   returns:
     description: "the resources value."
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.Resources?alt=com.azure.resourcemanager.compute.bulkactions.models.Resources&text=Resources\" data-throw-if-not-resolved=\"False\" />"
@@ -95,13 +95,13 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.ExecuteHibernateContent.withExecutionParameters(ExecutionParameters executionParameters)"
   name: "withExecutionParameters(ExecutionParameters executionParameters)"
   nameWithType: "ExecuteHibernateContent.withExecutionParameters(ExecutionParameters executionParameters)"
-  summary: "Set the execution<wbr>Parameters property: The execution parameters for the request."
+  summary: "Set the execution<wbr>Parameters property: The execution settings for the bulk action."
   parameters:
   - description: "the executionParameters value to set."
     name: "executionParameters"
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ExecutionParameters?alt=com.azure.resourcemanager.compute.bulkactions.models.ExecutionParameters&text=ExecutionParameters\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public ExecuteHibernateContent withExecutionParameters(ExecutionParameters executionParameters)"
-  desc: "Set the executionParameters property: The execution parameters for the request."
+  desc: "Set the executionParameters property: The execution settings for the bulk action."
   returns:
     description: "the ExecuteHibernateContent object itself."
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ExecuteHibernateContent?alt=com.azure.resourcemanager.compute.bulkactions.models.ExecuteHibernateContent&text=ExecuteHibernateContent\" data-throw-if-not-resolved=\"False\" />"
@@ -109,13 +109,13 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.ExecuteHibernateContent.withResources(Resources resources)"
   name: "withResources(Resources resources)"
   nameWithType: "ExecuteHibernateContent.withResources(Resources resources)"
-  summary: "Set the resources property: The resources for the request."
+  summary: "Set the resources property: The target virtual machines."
   parameters:
   - description: "the resources value to set."
     name: "resources"
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.Resources?alt=com.azure.resourcemanager.compute.bulkactions.models.Resources&text=Resources\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public ExecuteHibernateContent withResources(Resources resources)"
-  desc: "Set the resources property: The resources for the request."
+  desc: "Set the resources property: The target virtual machines."
   returns:
     description: "the ExecuteHibernateContent object itself."
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ExecuteHibernateContent?alt=com.azure.resourcemanager.compute.bulkactions.models.ExecuteHibernateContent&text=ExecuteHibernateContent\" data-throw-if-not-resolved=\"False\" />"
@@ -134,9 +134,9 @@ methods:
     description: "the ExecuteHibernateContent object itself."
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ExecuteHibernateContent?alt=com.azure.resourcemanager.compute.bulkactions.models.ExecuteHibernateContent&text=ExecuteHibernateContent\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "The ExecuteHibernateRequest request for executeHibernate operations."
+desc: "The virtual machines and execution settings for a bulk hibernate action."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ExecuteHibernateContent?alt=com.azure.resourcemanager.compute.bulkactions.models.ExecuteHibernateContent&text=ExecuteHibernateContent\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.bulkactions.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute-bulkactions:1.0.0-beta.4
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute-bulkactions:1.0.0-beta.5

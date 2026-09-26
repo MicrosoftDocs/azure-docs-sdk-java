@@ -417,6 +417,8 @@
       children:
       - com.azure.ai.contentsafety
       - com.azure.ai.contentsafety.models
+      - com.azure.ai.contentsafety
+      - com.azure.ai.contentsafety.models
     - name: Document Intelligence
       href: ~/docs-ref-services/preview/ai-documentintelligence-readme.md
       children:
@@ -3158,10 +3160,6 @@
       - com.azure.messaging.servicebus.administration
       - com.azure.messaging.servicebus.administration.models
       - com.azure.messaging.servicebus.models
-      - com.azure.messaging.servicebus
-      - com.azure.messaging.servicebus.administration
-      - com.azure.messaging.servicebus.administration.models
-      - com.azure.messaging.servicebus.models
   - name: Service Fabric
     href: ~/docs-ref-services/preview/service-fabric.md
     landingPageType: Service
@@ -3283,6 +3281,10 @@
       - name: Resource Management - SQL
         href: ~/docs-ref-services/preview/resourcemanager-sql-readme.md
         children:
+        - com.azure.resourcemanager.sql
+        - com.azure.resourcemanager.sql.fluent
+        - com.azure.resourcemanager.sql.fluent.models
+        - com.azure.resourcemanager.sql.models
         - com.azure.resourcemanager.sql
         - com.azure.resourcemanager.sql.fluent
         - com.azure.resourcemanager.sql.fluent.models

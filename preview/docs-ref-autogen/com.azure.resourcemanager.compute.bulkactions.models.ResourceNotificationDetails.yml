@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.compute.bulkactions.models.ResourceNotificationD
 fullName: "com.azure.resourcemanager.compute.bulkactions.models.ResourceNotificationDetails"
 name: "ResourceNotificationDetails"
 nameWithType: "ResourceNotificationDetails"
-summary: "Resource notification details containing notification metadata like the resource context."
+summary: "Caller-provided context associated with a virtual machine operation."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -45,9 +45,9 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.ResourceNotificationDetails.resourceContext()"
   name: "resourceContext()"
   nameWithType: "ResourceNotificationDetails.resourceContext()"
-  summary: "Get the resource<wbr>Context property: Resource context for notification tracking."
+  summary: "Get the resource<wbr>Context property: Caller-provided context string returned with the virtual machine operation result notification."
   syntax: "public String resourceContext()"
-  desc: "Get the resourceContext property: Resource context for notification tracking."
+  desc: "Get the resourceContext property: Caller-provided context string returned with the virtual machine operation result notification. Do not include secrets or personal data."
   returns:
     description: "the resourceContext value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -64,9 +64,9 @@ methods:
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "Resource notification details containing notification metadata like the resource context."
+desc: "Caller-provided context associated with a virtual machine operation."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ResourceNotificationDetails?alt=com.azure.resourcemanager.compute.bulkactions.models.ResourceNotificationDetails&text=ResourceNotificationDetails\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.bulkactions.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute-bulkactions:1.0.0-beta.4
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute-bulkactions:1.0.0-beta.5

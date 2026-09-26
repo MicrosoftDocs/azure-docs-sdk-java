@@ -171,16 +171,6 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomProperties.vmSizesProfile()"
-  fullName: "com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomProperties.vmSizesProfile()"
-  name: "vmSizesProfile()"
-  nameWithType: "BulkCreateCustomProperties.vmSizesProfile()"
-  summary: "Get the vm<wbr>Sizes<wbr>Profile property: List of VM sizes supported for Bulk<wbr>Create<wbr>Custom."
-  syntax: "public List<BulkCreateCustomVmSizeProfile> vmSizesProfile()"
-  desc: "Get the vmSizesProfile property: List of VM sizes supported for BulkCreateCustom."
-  returns:
-    description: "the vmSizesProfile value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomVmSizeProfile?alt=com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomVmSizeProfile&text=BulkCreateCustomVmSizeProfile\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomProperties.withCapacity(int)"
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomProperties.withCapacity(int capacity)"
   name: "withCapacity(int capacity)"
@@ -293,48 +283,10 @@ methods:
   returns:
     description: "the BulkCreateCustomProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomProperties?alt=com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomProperties&text=BulkCreateCustomProperties\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomProperties.withVmSizesProfile(java.util.List<com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomVmSizeProfile>)"
-  fullName: "com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomProperties.withVmSizesProfile(List<BulkCreateCustomVmSizeProfile> vmSizesProfile)"
-  name: "withVmSizesProfile(List<BulkCreateCustomVmSizeProfile> vmSizesProfile)"
-  nameWithType: "BulkCreateCustomProperties.withVmSizesProfile(List<BulkCreateCustomVmSizeProfile> vmSizesProfile)"
-  summary: "Set the vm<wbr>Sizes<wbr>Profile property: List of VM sizes supported for Bulk<wbr>Create<wbr>Custom."
-  parameters:
-  - description: "the vmSizesProfile value to set."
-    name: "vmSizesProfile"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomVmSizeProfile?alt=com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomVmSizeProfile&text=BulkCreateCustomVmSizeProfile\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public BulkCreateCustomProperties withVmSizesProfile(List<BulkCreateCustomVmSizeProfile> vmSizesProfile)"
-  desc: "Set the vmSizesProfile property: List of VM sizes supported for BulkCreateCustom."
-  returns:
-    description: "the BulkCreateCustomProperties object itself."
-    type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomProperties?alt=com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomProperties&text=BulkCreateCustomProperties\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomProperties.withZoneAllocationPolicy(com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomZoneAllocationPolicy)"
-  fullName: "com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomProperties.withZoneAllocationPolicy(BulkCreateCustomZoneAllocationPolicy zoneAllocationPolicy)"
-  name: "withZoneAllocationPolicy(BulkCreateCustomZoneAllocationPolicy zoneAllocationPolicy)"
-  nameWithType: "BulkCreateCustomProperties.withZoneAllocationPolicy(BulkCreateCustomZoneAllocationPolicy zoneAllocationPolicy)"
-  summary: "Set the zone<wbr>Allocation<wbr>Policy property: Zone Allocation Policy for launching instances."
-  parameters:
-  - description: "the zoneAllocationPolicy value to set."
-    name: "zoneAllocationPolicy"
-    type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomZoneAllocationPolicy?alt=com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomZoneAllocationPolicy&text=BulkCreateCustomZoneAllocationPolicy\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public BulkCreateCustomProperties withZoneAllocationPolicy(BulkCreateCustomZoneAllocationPolicy zoneAllocationPolicy)"
-  desc: "Set the zoneAllocationPolicy property: Zone Allocation Policy for launching instances."
-  returns:
-    description: "the BulkCreateCustomProperties object itself."
-    type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomProperties?alt=com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomProperties&text=BulkCreateCustomProperties\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomProperties.zoneAllocationPolicy()"
-  fullName: "com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomProperties.zoneAllocationPolicy()"
-  name: "zoneAllocationPolicy()"
-  nameWithType: "BulkCreateCustomProperties.zoneAllocationPolicy()"
-  summary: "Get the zone<wbr>Allocation<wbr>Policy property: Zone Allocation Policy for launching instances."
-  syntax: "public BulkCreateCustomZoneAllocationPolicy zoneAllocationPolicy()"
-  desc: "Get the zoneAllocationPolicy property: Zone Allocation Policy for launching instances."
-  returns:
-    description: "the zoneAllocationPolicy value."
-    type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomZoneAllocationPolicy?alt=com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomZoneAllocationPolicy&text=BulkCreateCustomZoneAllocationPolicy\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Details of the BulkCreateCustom."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomProperties?alt=com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomProperties&text=BulkCreateCustomProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.bulkactions.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute-bulkactions:1.0.0-beta.4
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute-bulkactions:1.0.0-beta.5

@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationType
 fullName: "com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationType"
 name: "ResourceOperationType"
 nameWithType: "ResourceOperationType"
-summary: "The kind of bulk operation that can be performed on resources using Bulkactions API."
+summary: "The type of operation performed by Bulk Actions."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
@@ -42,62 +42,62 @@ fields:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationType.CREATE"
   name: "CREATE"
   nameWithType: "ResourceOperationType.CREATE"
-  summary: "Create operations on the resources."
+  summary: "Creates the specified virtual machines."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationType?alt=com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationType&text=ResourceOperationType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ResourceOperationType CREATE"
-  desc: "Create operations on the resources."
+  desc: "Creates the specified virtual machines."
 - uid: "com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationType.DEALLOCATE"
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationType.DEALLOCATE"
   name: "DEALLOCATE"
   nameWithType: "ResourceOperationType.DEALLOCATE"
-  summary: "Deallocate operations on the resources."
+  summary: "Deallocates the specified virtual machines."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationType?alt=com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationType&text=ResourceOperationType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ResourceOperationType DEALLOCATE"
-  desc: "Deallocate operations on the resources."
+  desc: "Deallocates the specified virtual machines."
 - uid: "com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationType.DELETE"
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationType.DELETE"
   name: "DELETE"
   nameWithType: "ResourceOperationType.DELETE"
-  summary: "Delete operations on the resources."
+  summary: "Deletes the specified virtual machines."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationType?alt=com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationType&text=ResourceOperationType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ResourceOperationType DELETE"
-  desc: "Delete operations on the resources."
+  desc: "Deletes the specified virtual machines."
 - uid: "com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationType.HIBERNATE"
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationType.HIBERNATE"
   name: "HIBERNATE"
   nameWithType: "ResourceOperationType.HIBERNATE"
-  summary: "Hibernate operations on the resources."
+  summary: "Hibernates the specified virtual machines."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationType?alt=com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationType&text=ResourceOperationType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ResourceOperationType HIBERNATE"
-  desc: "Hibernate operations on the resources."
+  desc: "Hibernates the specified virtual machines."
 - uid: "com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationType.START"
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationType.START"
   name: "START"
   nameWithType: "ResourceOperationType.START"
-  summary: "Start operations on the resources."
+  summary: "Starts the specified virtual machines."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationType?alt=com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationType&text=ResourceOperationType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ResourceOperationType START"
-  desc: "Start operations on the resources."
+  desc: "Starts the specified virtual machines."
 methods:
 - uid: "com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationType.fromString(String name)"
@@ -128,7 +128,7 @@ methods:
     description: "known ResourceOperationType values."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationType?alt=com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationType&text=ResourceOperationType\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "class"
-desc: "The kind of bulk operation that can be performed on resources using Bulkactions API."
+desc: "The type of operation performed by Bulk Actions."
 metadata: {}
 package: "com.azure.resourcemanager.compute.bulkactions.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute-bulkactions:1.0.0-beta.4
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute-bulkactions:1.0.0-beta.5

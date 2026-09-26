@@ -67,6 +67,16 @@ methods:
   returns:
     description: "the lun value."
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.DataDiskImageEncryption.securityProfile()"
+  fullName: "com.azure.resourcemanager.compute.models.DataDiskImageEncryption.securityProfile()"
+  name: "securityProfile()"
+  nameWithType: "DataDiskImageEncryption.securityProfile()"
+  summary: "Get the security<wbr>Profile property: This property specifies the security profile of a data disk image."
+  syntax: "public DataDiskImageSecurityProfile securityProfile()"
+  desc: "Get the securityProfile property: This property specifies the security profile of a data disk image."
+  returns:
+    description: "the securityProfile value."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.DataDiskImageSecurityProfile?alt=com.azure.resourcemanager.compute.models.DataDiskImageSecurityProfile&text=DataDiskImageSecurityProfile\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.models.DataDiskImageEncryption.toJson(com.azure.json.JsonWriter)"
   fullName: "com.azure.resourcemanager.compute.models.DataDiskImageEncryption.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
@@ -115,8 +125,22 @@ methods:
   returns:
     description: "the DataDiskImageEncryption object itself."
     type: "<xref href=\"com.azure.resourcemanager.compute.models.DataDiskImageEncryption?alt=com.azure.resourcemanager.compute.models.DataDiskImageEncryption&text=DataDiskImageEncryption\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.DataDiskImageEncryption.withSecurityProfile(com.azure.resourcemanager.compute.models.DataDiskImageSecurityProfile)"
+  fullName: "com.azure.resourcemanager.compute.models.DataDiskImageEncryption.withSecurityProfile(DataDiskImageSecurityProfile securityProfile)"
+  name: "withSecurityProfile(DataDiskImageSecurityProfile securityProfile)"
+  nameWithType: "DataDiskImageEncryption.withSecurityProfile(DataDiskImageSecurityProfile securityProfile)"
+  summary: "Set the security<wbr>Profile property: This property specifies the security profile of a data disk image."
+  parameters:
+  - description: "the securityProfile value to set."
+    name: "securityProfile"
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.DataDiskImageSecurityProfile?alt=com.azure.resourcemanager.compute.models.DataDiskImageSecurityProfile&text=DataDiskImageSecurityProfile\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public DataDiskImageEncryption withSecurityProfile(DataDiskImageSecurityProfile securityProfile)"
+  desc: "Set the securityProfile property: This property specifies the security profile of a data disk image."
+  returns:
+    description: "the DataDiskImageEncryption object itself."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.DataDiskImageEncryption?alt=com.azure.resourcemanager.compute.models.DataDiskImageEncryption&text=DataDiskImageEncryption\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Contains encryption settings for a data disk image."
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.60.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.61.0

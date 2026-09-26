@@ -67,9 +67,9 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.VirtualMachineInfo.vmSize()"
   name: "vmSize()"
   nameWithType: "VirtualMachineInfo.vmSize()"
-  summary: "Get the vm<wbr>Size property: The name of the VM size, eg Standard\\_D2ads\\_v5."
+  summary: "Get the vm<wbr>Size property: The virtual machine SKU, for example \\`Standard\\_D2ads\\_v5\\`."
   syntax: "public String vmSize()"
-  desc: "Get the vmSize property: The name of the VM size, eg Standard\\_D2ads\\_v5."
+  desc: "Get the vmSize property: The virtual machine SKU, for example \\`Standard\\_D2ads\\_v5\\`."
   returns:
     description: "the vmSize value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -77,9 +77,9 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.VirtualMachineInfo.zone()"
   name: "zone()"
   nameWithType: "VirtualMachineInfo.zone()"
-  summary: "Get the zone property: The zone identifier."
+  summary: "Get the zone property: The availability zone identifier."
   syntax: "public String zone()"
-  desc: "Get the zone property: The zone identifier."
+  desc: "Get the zone property: The availability zone identifier."
   returns:
     description: "the zone value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -89,4 +89,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.VirtualMachineInfo?alt=com.azure.resourcemanager.compute.bulkactions.models.VirtualMachineInfo&text=VirtualMachineInfo\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.bulkactions.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute-bulkactions:1.0.0-beta.4
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute-bulkactions:1.0.0-beta.5

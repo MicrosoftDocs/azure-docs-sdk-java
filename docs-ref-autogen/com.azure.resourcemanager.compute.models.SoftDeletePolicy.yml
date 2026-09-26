@@ -49,6 +49,16 @@ methods:
   returns:
     description: "An instance of SoftDeletePolicy if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
     type: "<xref href=\"com.azure.resourcemanager.compute.models.SoftDeletePolicy?alt=com.azure.resourcemanager.compute.models.SoftDeletePolicy&text=SoftDeletePolicy\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.SoftDeletePolicy.gracePeriodInDays()"
+  fullName: "com.azure.resourcemanager.compute.models.SoftDeletePolicy.gracePeriodInDays()"
+  name: "gracePeriodInDays()"
+  nameWithType: "SoftDeletePolicy.gracePeriodInDays()"
+  summary: "Get the grace<wbr>Period<wbr>InDays property: The grace period in days for a simulated hard-deleted resource."
+  syntax: "public Integer gracePeriodInDays()"
+  desc: "Get the gracePeriodInDays property: The grace period in days for a simulated hard-deleted resource. During this period the gallery image version is unusable but can still be recovered if required. After this period elapses, the gallery image version is permanently (hard) deleted."
+  returns:
+    description: "the gracePeriodInDays value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
 - uid: "com.azure.resourcemanager.compute.models.SoftDeletePolicy.isSoftDeleteEnabled()"
   fullName: "com.azure.resourcemanager.compute.models.SoftDeletePolicy.isSoftDeleteEnabled()"
   name: "isSoftDeleteEnabled()"
@@ -59,6 +69,16 @@ methods:
   returns:
     description: "the isSoftDeleteEnabled value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
+- uid: "com.azure.resourcemanager.compute.models.SoftDeletePolicy.retentionPeriodInDays()"
+  fullName: "com.azure.resourcemanager.compute.models.SoftDeletePolicy.retentionPeriodInDays()"
+  name: "retentionPeriodInDays()"
+  nameWithType: "SoftDeletePolicy.retentionPeriodInDays()"
+  summary: "Get the retention<wbr>Period<wbr>InDays property: The retention period in days for a soft-deleted resource."
+  syntax: "public Integer retentionPeriodInDays()"
+  desc: "Get the retentionPeriodInDays property: The retention period in days for a soft-deleted resource. After this period elapses, the soft-deleted gallery image version transitions to a simulated hard-deleted state."
+  returns:
+    description: "the retentionPeriodInDays value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
 - uid: "com.azure.resourcemanager.compute.models.SoftDeletePolicy.toJson(com.azure.json.JsonWriter)"
   fullName: "com.azure.resourcemanager.compute.models.SoftDeletePolicy.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
@@ -78,6 +98,20 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
+- uid: "com.azure.resourcemanager.compute.models.SoftDeletePolicy.withGracePeriodInDays(java.lang.Integer)"
+  fullName: "com.azure.resourcemanager.compute.models.SoftDeletePolicy.withGracePeriodInDays(Integer gracePeriodInDays)"
+  name: "withGracePeriodInDays(Integer gracePeriodInDays)"
+  nameWithType: "SoftDeletePolicy.withGracePeriodInDays(Integer gracePeriodInDays)"
+  summary: "Set the grace<wbr>Period<wbr>InDays property: The grace period in days for a simulated hard-deleted resource."
+  parameters:
+  - description: "the gracePeriodInDays value to set."
+    name: "gracePeriodInDays"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
+  syntax: "public SoftDeletePolicy withGracePeriodInDays(Integer gracePeriodInDays)"
+  desc: "Set the gracePeriodInDays property: The grace period in days for a simulated hard-deleted resource. During this period the gallery image version is unusable but can still be recovered if required. After this period elapses, the gallery image version is permanently (hard) deleted."
+  returns:
+    description: "the SoftDeletePolicy object itself."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.SoftDeletePolicy?alt=com.azure.resourcemanager.compute.models.SoftDeletePolicy&text=SoftDeletePolicy\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.models.SoftDeletePolicy.withIsSoftDeleteEnabled(java.lang.Boolean)"
   fullName: "com.azure.resourcemanager.compute.models.SoftDeletePolicy.withIsSoftDeleteEnabled(Boolean isSoftDeleteEnabled)"
   name: "withIsSoftDeleteEnabled(Boolean isSoftDeleteEnabled)"
@@ -92,10 +126,24 @@ methods:
   returns:
     description: "the SoftDeletePolicy object itself."
     type: "<xref href=\"com.azure.resourcemanager.compute.models.SoftDeletePolicy?alt=com.azure.resourcemanager.compute.models.SoftDeletePolicy&text=SoftDeletePolicy\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.SoftDeletePolicy.withRetentionPeriodInDays(java.lang.Integer)"
+  fullName: "com.azure.resourcemanager.compute.models.SoftDeletePolicy.withRetentionPeriodInDays(Integer retentionPeriodInDays)"
+  name: "withRetentionPeriodInDays(Integer retentionPeriodInDays)"
+  nameWithType: "SoftDeletePolicy.withRetentionPeriodInDays(Integer retentionPeriodInDays)"
+  summary: "Set the retention<wbr>Period<wbr>InDays property: The retention period in days for a soft-deleted resource."
+  parameters:
+  - description: "the retentionPeriodInDays value to set."
+    name: "retentionPeriodInDays"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
+  syntax: "public SoftDeletePolicy withRetentionPeriodInDays(Integer retentionPeriodInDays)"
+  desc: "Set the retentionPeriodInDays property: The retention period in days for a soft-deleted resource. After this period elapses, the soft-deleted gallery image version transitions to a simulated hard-deleted state."
+  returns:
+    description: "the SoftDeletePolicy object itself."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.SoftDeletePolicy?alt=com.azure.resourcemanager.compute.models.SoftDeletePolicy&text=SoftDeletePolicy\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Contains information about the soft deletion policy of the gallery."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.SoftDeletePolicy?alt=com.azure.resourcemanager.compute.models.SoftDeletePolicy&text=SoftDeletePolicy\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.60.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.61.0

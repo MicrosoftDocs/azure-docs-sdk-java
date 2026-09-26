@@ -49,6 +49,16 @@ methods:
   returns:
     description: "An instance of ImageVersionSecurityProfile if the JsonReader was pointing to an instance of it, or null\n if it was pointing to JSON null."
     type: "<xref href=\"com.azure.resourcemanager.compute.models.ImageVersionSecurityProfile?alt=com.azure.resourcemanager.compute.models.ImageVersionSecurityProfile&text=ImageVersionSecurityProfile\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.ImageVersionSecurityProfile.secretsProvisioningSettings()"
+  fullName: "com.azure.resourcemanager.compute.models.ImageVersionSecurityProfile.secretsProvisioningSettings()"
+  name: "secretsProvisioningSettings()"
+  nameWithType: "ImageVersionSecurityProfile.secretsProvisioningSettings()"
+  summary: "Get the secrets<wbr>Provisioning<wbr>Settings property: Specifies the secrets provisioning settings for the gallery image version."
+  syntax: "public SecretsProvisioningSettings secretsProvisioningSettings()"
+  desc: "Get the secretsProvisioningSettings property: Specifies the secrets provisioning settings for the gallery image version. Used on create or update to configure secrets provisioning."
+  returns:
+    description: "the secretsProvisioningSettings value."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.SecretsProvisioningSettings?alt=com.azure.resourcemanager.compute.models.SecretsProvisioningSettings&text=SecretsProvisioningSettings\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.models.ImageVersionSecurityProfile.toJson(com.azure.json.JsonWriter)"
   fullName: "com.azure.resourcemanager.compute.models.ImageVersionSecurityProfile.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
@@ -78,6 +88,20 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
+- uid: "com.azure.resourcemanager.compute.models.ImageVersionSecurityProfile.withSecretsProvisioningSettings(com.azure.resourcemanager.compute.models.SecretsProvisioningSettings)"
+  fullName: "com.azure.resourcemanager.compute.models.ImageVersionSecurityProfile.withSecretsProvisioningSettings(SecretsProvisioningSettings secretsProvisioningSettings)"
+  name: "withSecretsProvisioningSettings(SecretsProvisioningSettings secretsProvisioningSettings)"
+  nameWithType: "ImageVersionSecurityProfile.withSecretsProvisioningSettings(SecretsProvisioningSettings secretsProvisioningSettings)"
+  summary: "Set the secrets<wbr>Provisioning<wbr>Settings property: Specifies the secrets provisioning settings for the gallery image version."
+  parameters:
+  - description: "the secretsProvisioningSettings value to set."
+    name: "secretsProvisioningSettings"
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.SecretsProvisioningSettings?alt=com.azure.resourcemanager.compute.models.SecretsProvisioningSettings&text=SecretsProvisioningSettings\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ImageVersionSecurityProfile withSecretsProvisioningSettings(SecretsProvisioningSettings secretsProvisioningSettings)"
+  desc: "Set the secretsProvisioningSettings property: Specifies the secrets provisioning settings for the gallery image version. Used on create or update to configure secrets provisioning."
+  returns:
+    description: "the ImageVersionSecurityProfile object itself."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.ImageVersionSecurityProfile?alt=com.azure.resourcemanager.compute.models.ImageVersionSecurityProfile&text=ImageVersionSecurityProfile\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.models.ImageVersionSecurityProfile.withUefiSettings(com.azure.resourcemanager.compute.models.GalleryImageVersionUefiSettings)"
   fullName: "com.azure.resourcemanager.compute.models.ImageVersionSecurityProfile.withUefiSettings(GalleryImageVersionUefiSettings uefiSettings)"
   name: "withUefiSettings(GalleryImageVersionUefiSettings uefiSettings)"
@@ -98,4 +122,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.ImageVersionSecurityProfile?alt=com.azure.resourcemanager.compute.models.ImageVersionSecurityProfile&text=ImageVersionSecurityProfile\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.60.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.61.0

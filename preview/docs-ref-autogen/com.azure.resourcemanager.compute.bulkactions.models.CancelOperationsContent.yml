@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.compute.bulkactions.models.CancelOperationsConte
 fullName: "com.azure.resourcemanager.compute.bulkactions.models.CancelOperationsContent"
 name: "CancelOperationsContent"
 nameWithType: "CancelOperationsContent"
-summary: "This is the request to cancel running operations in scheduled actions using the operation ids."
+summary: "The eligible operations to cancel."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -53,9 +53,9 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.CancelOperationsContent.operationIds()"
   name: "operationIds()"
   nameWithType: "CancelOperationsContent.operationIds()"
-  summary: "Get the operation<wbr>Ids property: The list of operation ids to cancel operations on."
+  summary: "Get the operation<wbr>Ids property: The Bulk Action Operation Ids that identify the operations to cancel."
   syntax: "public List<String> operationIds()"
-  desc: "Get the operationIds property: The list of operation ids to cancel operations on."
+  desc: "Get the operationIds property: The Bulk Action Operation Ids that identify the operations to cancel."
   returns:
     description: "the operationIds value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
@@ -75,20 +75,20 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.CancelOperationsContent.withOperationIds(List<String> operationIds)"
   name: "withOperationIds(List<String> operationIds)"
   nameWithType: "CancelOperationsContent.withOperationIds(List<String> operationIds)"
-  summary: "Set the operation<wbr>Ids property: The list of operation ids to cancel operations on."
+  summary: "Set the operation<wbr>Ids property: The Bulk Action Operation Ids that identify the operations to cancel."
   parameters:
   - description: "the operationIds value to set."
     name: "operationIds"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
   syntax: "public CancelOperationsContent withOperationIds(List<String> operationIds)"
-  desc: "Set the operationIds property: The list of operation ids to cancel operations on."
+  desc: "Set the operationIds property: The Bulk Action Operation Ids that identify the operations to cancel."
   returns:
     description: "the CancelOperationsContent object itself."
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.CancelOperationsContent?alt=com.azure.resourcemanager.compute.bulkactions.models.CancelOperationsContent&text=CancelOperationsContent\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "This is the request to cancel running operations in scheduled actions using the operation ids."
+desc: "The eligible operations to cancel."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.CancelOperationsContent?alt=com.azure.resourcemanager.compute.bulkactions.models.CancelOperationsContent&text=CancelOperationsContent\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.bulkactions.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute-bulkactions:1.0.0-beta.4
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute-bulkactions:1.0.0-beta.5

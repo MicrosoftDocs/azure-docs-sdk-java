@@ -61304,10 +61304,6 @@
     name: AllInstancesDown
     no-loc:
     - AllInstancesDown
-  - uid: com.azure.resourcemanager.compute.bulkactions.models.AllocationStrategy
-    name: AllocationStrategy
-    no-loc:
-    - AllocationStrategy
   - uid: com.azure.resourcemanager.compute.bulkactions.models.ApiEntityReference
     name: ApiEntityReference
     no-loc:
@@ -61324,22 +61320,10 @@
     name: BulkActionVmExtensionProperties
     no-loc:
     - BulkActionVmExtensionProperties
-  - uid: com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomAllocationStrategy
-    name: BulkCreateCustomAllocationStrategy
-    no-loc:
-    - BulkCreateCustomAllocationStrategy
-  - uid: com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomDistributionStrategy
-    name: BulkCreateCustomDistributionStrategy
-    no-loc:
-    - BulkCreateCustomDistributionStrategy
   - uid: com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomOverride
     name: BulkCreateCustomOverride
     no-loc:
     - BulkCreateCustomOverride
-  - uid: com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomOverrideBase
-    name: BulkCreateCustomOverrideBase
-    no-loc:
-    - BulkCreateCustomOverrideBase
   - uid: com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomOverridesProfile
     name: BulkCreateCustomOverridesProfile
     no-loc:
@@ -61360,14 +61344,6 @@
     name: BulkCreateCustomVirtualMachineInfo
     no-loc:
     - BulkCreateCustomVirtualMachineInfo
-  - uid: com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomVmSizeProfile
-    name: BulkCreateCustomVmSizeProfile
-    no-loc:
-    - BulkCreateCustomVmSizeProfile
-  - uid: com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomZoneAllocationPolicy
-    name: BulkCreateCustomZoneAllocationPolicy
-    no-loc:
-    - BulkCreateCustomZoneAllocationPolicy
   - uid: com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustoms
     name: BulkCreateCustoms
     no-loc:
@@ -61376,10 +61352,6 @@
     name: BulkCreateProperties
     no-loc:
     - BulkCreateProperties
-  - uid: com.azure.resourcemanager.compute.bulkactions.models.BulkCreateVmSizeProfile
-    name: BulkCreateVmSizeProfile
-    no-loc:
-    - BulkCreateVmSizeProfile
   - uid: com.azure.resourcemanager.compute.bulkactions.models.BulkCreates
     name: BulkCreates
     no-loc:
@@ -61508,10 +61480,6 @@
     name: DiskEncryptionSettings
     no-loc:
     - DiskEncryptionSettings
-  - uid: com.azure.resourcemanager.compute.bulkactions.models.DistributionStrategy
-    name: DistributionStrategy
-    no-loc:
-    - DistributionStrategy
   - uid: com.azure.resourcemanager.compute.bulkactions.models.DomainNameLabelScopeTypes
     name: DomainNameLabelScopeTypes
     no-loc:
@@ -62348,14 +62316,6 @@
     name: WindowsVMGuestPatchMode
     no-loc:
     - WindowsVMGuestPatchMode
-  - uid: com.azure.resourcemanager.compute.bulkactions.models.ZoneAllocationPolicy
-    name: ZoneAllocationPolicy
-    no-loc:
-    - ZoneAllocationPolicy
-  - uid: com.azure.resourcemanager.compute.bulkactions.models.ZonePreference
-    name: ZonePreference
-    no-loc:
-    - ZonePreference
   no-loc:
   - com.azure.resourcemanager.compute.bulkactions.models
 - uid: com.azure.resourcemanager.compute.recommender

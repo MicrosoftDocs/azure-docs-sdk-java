@@ -57940,6 +57940,10 @@
     name: DataDiskImageEncryption
     no-loc:
     - DataDiskImageEncryption
+  - uid: com.azure.resourcemanager.compute.models.DataDiskImageSecurityProfile
+    name: DataDiskImageSecurityProfile
+    no-loc:
+    - DataDiskImageSecurityProfile
   - uid: com.azure.resourcemanager.compute.models.DataDisksToAttach
     name: DataDisksToAttach
     no-loc:
@@ -58804,6 +58808,10 @@
     name: GalleryImageVersionSafetyProfile
     no-loc:
     - GalleryImageVersionSafetyProfile
+  - uid: com.azure.resourcemanager.compute.models.GalleryImageVersionState
+    name: GalleryImageVersionState
+    no-loc:
+    - GalleryImageVersionState
   - uid: com.azure.resourcemanager.compute.models.GalleryImageVersionStorageProfile
     name: GalleryImageVersionStorageProfile
     no-loc:
@@ -58940,6 +58948,10 @@
     name: ImageDiskReference
     no-loc:
     - ImageDiskReference
+  - uid: com.azure.resourcemanager.compute.models.ImageMetadataProfile
+    name: ImageMetadataProfile
+    no-loc:
+    - ImageMetadataProfile
   - uid: com.azure.resourcemanager.compute.models.ImageOSDisk
     name: ImageOSDisk
     no-loc:
@@ -59168,6 +59180,14 @@
     name: MaxInstancePercentPerZonePolicy
     no-loc:
     - MaxInstancePercentPerZonePolicy
+  - uid: com.azure.resourcemanager.compute.models.MetadataKeyValue
+    name: MetadataKeyValue
+    no-loc:
+    - MetadataKeyValue
+  - uid: com.azure.resourcemanager.compute.models.MetadataType
+    name: MetadataType
+    no-loc:
+    - MetadataType
   - uid: com.azure.resourcemanager.compute.models.MigrateToVirtualMachineScaleSetInput
     name: MigrateToVirtualMachineScaleSetInput
     no-loc:
@@ -59732,6 +59752,18 @@
     name: ScriptSource
     no-loc:
     - ScriptSource
+  - uid: com.azure.resourcemanager.compute.models.SecretsProvisioningComponent
+    name: SecretsProvisioningComponent
+    no-loc:
+    - SecretsProvisioningComponent
+  - uid: com.azure.resourcemanager.compute.models.SecretsProvisioningComponentName
+    name: SecretsProvisioningComponentName
+    no-loc:
+    - SecretsProvisioningComponentName
+  - uid: com.azure.resourcemanager.compute.models.SecretsProvisioningSettings
+    name: SecretsProvisioningSettings
+    no-loc:
+    - SecretsProvisioningSettings
   - uid: com.azure.resourcemanager.compute.models.SecurityEncryptionTypes
     name: SecurityEncryptionTypes
     no-loc:

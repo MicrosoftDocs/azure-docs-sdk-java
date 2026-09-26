@@ -1,0 +1,98 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.compute.models.MetadataType"
+fullName: "com.azure.resourcemanager.compute.models.MetadataType"
+name: "MetadataType"
+nameWithType: "MetadataType"
+summary: "The type of metadata associated with the image."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **MetadataType**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.MetadataType?alt=com.azure.resourcemanager.compute.models.MetadataType&text=MetadataType\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.compute.models.MetadataType.MetadataType()"
+  fullName: "com.azure.resourcemanager.compute.models.MetadataType.MetadataType()"
+  name: "MetadataType()"
+  nameWithType: "MetadataType.MetadataType()"
+  summary: "Creates a new instance of Metadata<wbr>Type value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.compute.models.MetadataType.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public MetadataType()"
+  desc: "Creates a new instance of MetadataType value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.compute.models.MetadataType.SECRETS_PROVISIONING_IMAGE_METADATA"
+  fullName: "com.azure.resourcemanager.compute.models.MetadataType.SECRETS_PROVISIONING_IMAGE_METADATA"
+  name: "SECRETS_PROVISIONING_IMAGE_METADATA"
+  nameWithType: "MetadataType.SECRETS_PROVISIONING_IMAGE_METADATA"
+  summary: "Metadata related to secrets provisioning for the image."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.MetadataType?alt=com.azure.resourcemanager.compute.models.MetadataType&text=MetadataType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final MetadataType SECRETS_PROVISIONING_IMAGE_METADATA"
+  desc: "Metadata related to secrets provisioning for the image."
+- uid: "com.azure.resourcemanager.compute.models.MetadataType.USER_PROVIDED_SECRETS_PROVISIONING_METADATA"
+  fullName: "com.azure.resourcemanager.compute.models.MetadataType.USER_PROVIDED_SECRETS_PROVISIONING_METADATA"
+  name: "USER_PROVIDED_SECRETS_PROVISIONING_METADATA"
+  nameWithType: "MetadataType.USER_PROVIDED_SECRETS_PROVISIONING_METADATA"
+  summary: "Metadata related to user-provided secrets provisioning for the image."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.MetadataType?alt=com.azure.resourcemanager.compute.models.MetadataType&text=MetadataType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final MetadataType USER_PROVIDED_SECRETS_PROVISIONING_METADATA"
+  desc: "Metadata related to user-provided secrets provisioning for the image."
+methods:
+- uid: "com.azure.resourcemanager.compute.models.MetadataType.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.compute.models.MetadataType.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "MetadataType.fromString(String name)"
+  summary: "Creates or finds a Metadata<wbr>Type from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static MetadataType fromString(String name)"
+  desc: "Creates or finds a MetadataType from its string representation."
+  returns:
+    description: "the corresponding MetadataType."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.MetadataType?alt=com.azure.resourcemanager.compute.models.MetadataType&text=MetadataType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.MetadataType.values()"
+  fullName: "com.azure.resourcemanager.compute.models.MetadataType.values()"
+  name: "values()"
+  nameWithType: "MetadataType.values()"
+  summary: "Gets known Metadata<wbr>Type values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<MetadataType> values()"
+  desc: "Gets known MetadataType values."
+  returns:
+    description: "known MetadataType values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.compute.models.MetadataType?alt=com.azure.resourcemanager.compute.models.MetadataType&text=MetadataType\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "The type of metadata associated with the image."
+metadata: {}
+package: "com.azure.resourcemanager.compute.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.61.0

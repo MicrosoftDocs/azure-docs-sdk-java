@@ -75,6 +75,16 @@ methods:
   returns:
     description: "the id value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.compute.fluent.models.GalleryImageVersionInner.imageMetadataProfiles()"
+  fullName: "com.azure.resourcemanager.compute.fluent.models.GalleryImageVersionInner.imageMetadataProfiles()"
+  name: "imageMetadataProfiles()"
+  nameWithType: "GalleryImageVersionInner.imageMetadataProfiles()"
+  summary: "Get the image<wbr>Metadata<wbr>Profiles property: The image metadata profiles associated with the gallery image version."
+  syntax: "public List<ImageMetadataProfile> imageMetadataProfiles()"
+  desc: "Get the imageMetadataProfiles property: The image metadata profiles associated with the gallery image version."
+  returns:
+    description: "the imageMetadataProfiles value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.compute.models.ImageMetadataProfile?alt=com.azure.resourcemanager.compute.models.ImageMetadataProfile&text=ImageMetadataProfile\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.compute.fluent.models.GalleryImageVersionInner.name()"
   fullName: "com.azure.resourcemanager.compute.fluent.models.GalleryImageVersionInner.name()"
   name: "name()"
@@ -303,4 +313,4 @@ type: "class"
 desc: "Specifies information about the gallery image version that you want to create or update."
 metadata: {}
 package: "com.azure.resourcemanager.compute.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.60.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.61.0

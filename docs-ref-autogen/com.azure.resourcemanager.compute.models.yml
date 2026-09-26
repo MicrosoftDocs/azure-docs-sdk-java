@@ -88,6 +88,7 @@ classes:
 - "com.azure.resourcemanager.compute.models.DataDisk"
 - "com.azure.resourcemanager.compute.models.DataDiskImage"
 - "com.azure.resourcemanager.compute.models.DataDiskImageEncryption"
+- "com.azure.resourcemanager.compute.models.DataDiskImageSecurityProfile"
 - "com.azure.resourcemanager.compute.models.DataDisksToAttach"
 - "com.azure.resourcemanager.compute.models.DataDisksToDetach"
 - "com.azure.resourcemanager.compute.models.DedicatedHostAllocatableVM"
@@ -182,6 +183,7 @@ classes:
 - "com.azure.resourcemanager.compute.models.GalleryImageUpdate"
 - "com.azure.resourcemanager.compute.models.GalleryImageVersionPublishingProfile"
 - "com.azure.resourcemanager.compute.models.GalleryImageVersionSafetyProfile"
+- "com.azure.resourcemanager.compute.models.GalleryImageVersionState"
 - "com.azure.resourcemanager.compute.models.GalleryImageVersionStorageProfile"
 - "com.azure.resourcemanager.compute.models.GalleryImageVersionUefiSettings"
 - "com.azure.resourcemanager.compute.models.GalleryImageVersionUpdate"
@@ -213,6 +215,7 @@ classes:
 - "com.azure.resourcemanager.compute.models.ImageDeprecationStatus"
 - "com.azure.resourcemanager.compute.models.ImageDisk"
 - "com.azure.resourcemanager.compute.models.ImageDiskReference"
+- "com.azure.resourcemanager.compute.models.ImageMetadataProfile"
 - "com.azure.resourcemanager.compute.models.ImageOSDisk"
 - "com.azure.resourcemanager.compute.models.ImagePurchasePlan"
 - "com.azure.resourcemanager.compute.models.ImageReference"
@@ -265,6 +268,8 @@ classes:
 - "com.azure.resourcemanager.compute.models.MaintenanceRedeployStatus"
 - "com.azure.resourcemanager.compute.models.ManagedDiskParameters"
 - "com.azure.resourcemanager.compute.models.MaxInstancePercentPerZonePolicy"
+- "com.azure.resourcemanager.compute.models.MetadataKeyValue"
+- "com.azure.resourcemanager.compute.models.MetadataType"
 - "com.azure.resourcemanager.compute.models.MigrateToVirtualMachineScaleSetInput"
 - "com.azure.resourcemanager.compute.models.MigrateVMAvailabilityZoneInput"
 - "com.azure.resourcemanager.compute.models.MigrateVMToVirtualMachineScaleSetInput"
@@ -394,6 +399,9 @@ classes:
 - "com.azure.resourcemanager.compute.models.ScheduledEventsProfile"
 - "com.azure.resourcemanager.compute.models.ScriptShellTypes"
 - "com.azure.resourcemanager.compute.models.ScriptSource"
+- "com.azure.resourcemanager.compute.models.SecretsProvisioningComponent"
+- "com.azure.resourcemanager.compute.models.SecretsProvisioningComponentName"
+- "com.azure.resourcemanager.compute.models.SecretsProvisioningSettings"
 - "com.azure.resourcemanager.compute.models.SecurityEncryptionTypes"
 - "com.azure.resourcemanager.compute.models.SecurityPostureReference"
 - "com.azure.resourcemanager.compute.models.SecurityPostureReferenceUpdate"
@@ -1108,4 +1116,4 @@ interfaces:
 desc: "Package containing the data models for Compute. Compute Client."
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.60.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.61.0

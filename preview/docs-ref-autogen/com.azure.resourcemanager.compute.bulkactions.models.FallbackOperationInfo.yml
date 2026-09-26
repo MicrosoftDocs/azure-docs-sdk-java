@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.compute.bulkactions.models.FallbackOperationInfo
 fullName: "com.azure.resourcemanager.compute.bulkactions.models.FallbackOperationInfo"
 name: "FallbackOperationInfo"
 nameWithType: "FallbackOperationInfo"
-summary: "Describes the fallback operation that was performed."
+summary: "Information about the fallback operation attempted after the requested operation did not succeed."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -26,9 +26,9 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.FallbackOperationInfo.error()"
   name: "error()"
   nameWithType: "FallbackOperationInfo.error()"
-  summary: "Get the error property: The error code if the fallback operation failed."
+  summary: "Get the error property: The error returned when the additional operation did not succeed."
   syntax: "public ResourceOperationError error()"
-  desc: "Get the error property: The error code if the fallback operation failed."
+  desc: "Get the error property: The error returned when the additional operation did not succeed."
   returns:
     description: "the error value."
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationError?alt=com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationError&text=ResourceOperationError\" data-throw-if-not-resolved=\"False\" />"
@@ -55,9 +55,9 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.FallbackOperationInfo.lastOpType()"
   name: "lastOpType()"
   nameWithType: "FallbackOperationInfo.lastOpType()"
-  summary: "Get the last<wbr>OpType property: The last operation type that was performed as a fallback."
+  summary: "Get the last<wbr>OpType property: The type of the additional operation."
   syntax: "public ResourceOperationType lastOpType()"
-  desc: "Get the lastOpType property: The last operation type that was performed as a fallback."
+  desc: "Get the lastOpType property: The type of the additional operation."
   returns:
     description: "the lastOpType value."
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationType?alt=com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationType&text=ResourceOperationType\" data-throw-if-not-resolved=\"False\" />"
@@ -65,9 +65,9 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.FallbackOperationInfo.status()"
   name: "status()"
   nameWithType: "FallbackOperationInfo.status()"
-  summary: "Get the status property: The status of the fallback operation."
+  summary: "Get the status property: The status of the additional operation."
   syntax: "public String status()"
-  desc: "Get the status property: The status of the fallback operation."
+  desc: "Get the status property: The status of the additional operation."
   returns:
     description: "the status value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -84,9 +84,9 @@ methods:
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "Describes the fallback operation that was performed."
+desc: "Information about the fallback operation attempted after the requested operation did not succeed."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.FallbackOperationInfo?alt=com.azure.resourcemanager.compute.bulkactions.models.FallbackOperationInfo&text=FallbackOperationInfo\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.bulkactions.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute-bulkactions:1.0.0-beta.4
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute-bulkactions:1.0.0-beta.5

@@ -30,16 +30,6 @@ constructors:
   syntax: "public BulkCreateCustomPriorityProfile()"
   desc: "Creates an instance of BulkCreateCustomPriorityProfile class."
 methods:
-- uid: "com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomPriorityProfile.allocationStrategy()"
-  fullName: "com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomPriorityProfile.allocationStrategy()"
-  name: "allocationStrategy()"
-  nameWithType: "BulkCreateCustomPriorityProfile.allocationStrategy()"
-  summary: "Get the allocation<wbr>Strategy property: The allocation strategy for VM size selection."
-  syntax: "public BulkCreateCustomAllocationStrategy allocationStrategy()"
-  desc: "Get the allocationStrategy property: The allocation strategy for VM size selection."
-  returns:
-    description: "the allocationStrategy value."
-    type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomAllocationStrategy?alt=com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomAllocationStrategy&text=BulkCreateCustomAllocationStrategy\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomPriorityProfile.evictionPolicy()"
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomPriorityProfile.evictionPolicy()"
   name: "evictionPolicy()"
@@ -101,20 +91,6 @@ methods:
   returns:
     description: "the type value."
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.PriorityType?alt=com.azure.resourcemanager.compute.bulkactions.models.PriorityType&text=PriorityType\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomPriorityProfile.withAllocationStrategy(com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomAllocationStrategy)"
-  fullName: "com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomPriorityProfile.withAllocationStrategy(BulkCreateCustomAllocationStrategy allocationStrategy)"
-  name: "withAllocationStrategy(BulkCreateCustomAllocationStrategy allocationStrategy)"
-  nameWithType: "BulkCreateCustomPriorityProfile.withAllocationStrategy(BulkCreateCustomAllocationStrategy allocationStrategy)"
-  summary: "Set the allocation<wbr>Strategy property: The allocation strategy for VM size selection."
-  parameters:
-  - description: "the allocationStrategy value to set."
-    name: "allocationStrategy"
-    type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomAllocationStrategy?alt=com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomAllocationStrategy&text=BulkCreateCustomAllocationStrategy\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public BulkCreateCustomPriorityProfile withAllocationStrategy(BulkCreateCustomAllocationStrategy allocationStrategy)"
-  desc: "Set the allocationStrategy property: The allocation strategy for VM size selection."
-  returns:
-    description: "the BulkCreateCustomPriorityProfile object itself."
-    type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomPriorityProfile?alt=com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomPriorityProfile&text=BulkCreateCustomPriorityProfile\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomPriorityProfile.withEvictionPolicy(com.azure.resourcemanager.compute.bulkactions.models.EvictionPolicy)"
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomPriorityProfile.withEvictionPolicy(EvictionPolicy evictionPolicy)"
   name: "withEvictionPolicy(EvictionPolicy evictionPolicy)"
@@ -163,4 +139,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomPriorityProfile?alt=com.azure.resourcemanager.compute.bulkactions.models.BulkCreateCustomPriorityProfile&text=BulkCreateCustomPriorityProfile\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.bulkactions.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute-bulkactions:1.0.0-beta.4
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute-bulkactions:1.0.0-beta.5

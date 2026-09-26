@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationDeta
 fullName: "com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationDetails"
 name: "ResourceOperationDetails"
 nameWithType: "ResourceOperationDetails"
-summary: "The details of a response from an operation on a resource."
+summary: "The status and settings for an operation on one virtual machine."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -36,9 +36,9 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationDetails.completedAt()"
   name: "completedAt()"
   nameWithType: "ResourceOperationDetails.completedAt()"
-  summary: "Get the completed<wbr>At property: Time the operation was complete if errors are null."
+  summary: "Get the completed<wbr>At property: The date and time when the operation completed."
   syntax: "public OffsetDateTime completedAt()"
-  desc: "Get the completedAt property: Time the operation was complete if errors are null."
+  desc: "Get the completedAt property: The date and time when the operation completed."
   returns:
     description: "the completedAt value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
@@ -46,9 +46,9 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationDetails.deadline()"
   name: "deadline()"
   nameWithType: "ResourceOperationDetails.deadline()"
-  summary: "Get the deadline property: Deadline for the operation."
+  summary: "Get the deadline property: The requested deadline for the operation."
   syntax: "public OffsetDateTime deadline()"
-  desc: "Get the deadline property: Deadline for the operation."
+  desc: "Get the deadline property: The requested deadline for the operation."
   returns:
     description: "the deadline value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
@@ -56,9 +56,9 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationDetails.deadlineType()"
   name: "deadlineType()"
   nameWithType: "ResourceOperationDetails.deadlineType()"
-  summary: "Get the deadline<wbr>Type property: Type of deadline of the operation."
+  summary: "Get the deadline<wbr>Type property: Specifies whether the deadline time indicates the time at which the operation should start or should be complete."
   syntax: "public DeadlineType deadlineType()"
-  desc: "Get the deadlineType property: Type of deadline of the operation."
+  desc: "Get the deadlineType property: Specifies whether the deadline time indicates the time at which the operation should start or should be complete."
   returns:
     description: "the deadlineType value."
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.DeadlineType?alt=com.azure.resourcemanager.compute.bulkactions.models.DeadlineType&text=DeadlineType\" data-throw-if-not-resolved=\"False\" />"
@@ -66,9 +66,9 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationDetails.fallbackOperationInfo()"
   name: "fallbackOperationInfo()"
   nameWithType: "ResourceOperationDetails.fallbackOperationInfo()"
-  summary: "Get the fallback<wbr>Operation<wbr>Info property: Fallback operation details if a fallback was performed."
+  summary: "Get the fallback<wbr>Operation<wbr>Info property: Information about the fallback operation attempted after the requested operation did not succeed."
   syntax: "public FallbackOperationInfo fallbackOperationInfo()"
-  desc: "Get the fallbackOperationInfo property: Fallback operation details if a fallback was performed."
+  desc: "Get the fallbackOperationInfo property: Information about the fallback operation attempted after the requested operation did not succeed."
   returns:
     description: "the fallbackOperationInfo value."
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.FallbackOperationInfo?alt=com.azure.resourcemanager.compute.bulkactions.models.FallbackOperationInfo&text=FallbackOperationInfo\" data-throw-if-not-resolved=\"False\" />"
@@ -95,9 +95,9 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationDetails.operationId()"
   name: "operationId()"
   nameWithType: "ResourceOperationDetails.operationId()"
-  summary: "Get the operation<wbr>Id property: Operation identifier for the unique operation."
+  summary: "Get the operation<wbr>Id property: The operation ID used to track the action for this virtual machine."
   syntax: "public String operationId()"
-  desc: "Get the operationId property: Operation identifier for the unique operation."
+  desc: "Get the operationId property: The operation ID used to track the action for this virtual machine."
   returns:
     description: "the operationId value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -105,9 +105,9 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationDetails.opType()"
   name: "opType()"
   nameWithType: "ResourceOperationDetails.opType()"
-  summary: "Get the op<wbr>Type property: Type of operation performed on the resources."
+  summary: "Get the op<wbr>Type property: The type of operation performed on the virtual machine."
   syntax: "public ResourceOperationType opType()"
-  desc: "Get the opType property: Type of operation performed on the resources."
+  desc: "Get the opType property: The type of operation performed on the virtual machine."
   returns:
     description: "the opType value."
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationType?alt=com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationType&text=ResourceOperationType\" data-throw-if-not-resolved=\"False\" />"
@@ -115,9 +115,9 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationDetails.resourceId()"
   name: "resourceId()"
   nameWithType: "ResourceOperationDetails.resourceId()"
-  summary: "Get the resource<wbr>Id property: Unique identifier for the resource involved in the operation, for example Azure resource ID."
+  summary: "Get the resource<wbr>Id property: The virtual machine's Azure resource ID."
   syntax: "public String resourceId()"
-  desc: "Get the resourceId property: Unique identifier for the resource involved in the operation, for example Azure resource ID."
+  desc: "Get the resourceId property: The virtual machine's Azure resource ID."
   returns:
     description: "the resourceId value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -125,9 +125,9 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationDetails.resourceNotificationDetails()"
   name: "resourceNotificationDetails()"
   nameWithType: "ResourceOperationDetails.resourceNotificationDetails()"
-  summary: "Get the resource<wbr>Notification<wbr>Details property: Resource notification details."
+  summary: "Get the resource<wbr>Notification<wbr>Details property: Caller-provided context associated with the virtual machine operation."
   syntax: "public ResourceNotificationDetails resourceNotificationDetails()"
-  desc: "Get the resourceNotificationDetails property: Resource notification details."
+  desc: "Get the resourceNotificationDetails property: Caller-provided context associated with the virtual machine operation."
   returns:
     description: "the resourceNotificationDetails value."
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ResourceNotificationDetails?alt=com.azure.resourcemanager.compute.bulkactions.models.ResourceNotificationDetails&text=ResourceNotificationDetails\" data-throw-if-not-resolved=\"False\" />"
@@ -135,9 +135,9 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationDetails.resourceOperationError()"
   name: "resourceOperationError()"
   nameWithType: "ResourceOperationDetails.resourceOperationError()"
-  summary: "Get the resource<wbr>Operation<wbr>Error property: Operation level errors if they exist."
+  summary: "Get the resource<wbr>Operation<wbr>Error property: Contains error details if the operation does not succeed."
   syntax: "public ResourceOperationError resourceOperationError()"
-  desc: "Get the resourceOperationError property: Operation level errors if they exist."
+  desc: "Get the resourceOperationError property: Contains error details if the operation does not succeed."
   returns:
     description: "the resourceOperationError value."
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationError?alt=com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationError&text=ResourceOperationError\" data-throw-if-not-resolved=\"False\" />"
@@ -145,9 +145,9 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationDetails.retryPolicy()"
   name: "retryPolicy()"
   nameWithType: "ResourceOperationDetails.retryPolicy()"
-  summary: "Get the retry<wbr>Policy property: Retry policy the user can pass."
+  summary: "Get the retry<wbr>Policy property: The retry settings for the bulk action."
   syntax: "public RetryPolicy retryPolicy()"
-  desc: "Get the retryPolicy property: Retry policy the user can pass."
+  desc: "Get the retryPolicy property: The retry settings for the bulk action."
   returns:
     description: "the retryPolicy value."
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.RetryPolicy?alt=com.azure.resourcemanager.compute.bulkactions.models.RetryPolicy&text=RetryPolicy\" data-throw-if-not-resolved=\"False\" />"
@@ -155,9 +155,9 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationDetails.state()"
   name: "state()"
   nameWithType: "ResourceOperationDetails.state()"
-  summary: "Get the state property: Current state of the operation."
+  summary: "Get the state property: The current state of the operation."
   syntax: "public OperationState state()"
-  desc: "Get the state property: Current state of the operation."
+  desc: "Get the state property: The current state of the operation."
   returns:
     description: "the state value."
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.OperationState?alt=com.azure.resourcemanager.compute.bulkactions.models.OperationState&text=OperationState\" data-throw-if-not-resolved=\"False\" />"
@@ -165,9 +165,9 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationDetails.subscriptionId()"
   name: "subscriptionId()"
   nameWithType: "ResourceOperationDetails.subscriptionId()"
-  summary: "Get the subscription<wbr>Id property: Subscription id attached to the request."
+  summary: "Get the subscription<wbr>Id property: The subscription ID associated with the bulk action."
   syntax: "public String subscriptionId()"
-  desc: "Get the subscriptionId property: Subscription id attached to the request."
+  desc: "Get the subscriptionId property: The subscription ID associated with the bulk action."
   returns:
     description: "the subscriptionId value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -175,9 +175,9 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationDetails.timezone()"
   name: "timezone()"
   nameWithType: "ResourceOperationDetails.timezone()"
-  summary: "Get the timezone property: Timezone for the operation."
+  summary: "Get the timezone property: The time zone used to interpret the operation deadline."
   syntax: "public String timezone()"
-  desc: "Get the timezone property: Timezone for the operation."
+  desc: "Get the timezone property: The time zone used to interpret the operation deadline."
   returns:
     description: "the timezone value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -194,9 +194,9 @@ methods:
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "The details of a response from an operation on a resource."
+desc: "The status and settings for an operation on one virtual machine."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationDetails?alt=com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationDetails&text=ResourceOperationDetails\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.bulkactions.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute-bulkactions:1.0.0-beta.4
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute-bulkactions:1.0.0-beta.5

@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.compute.bulkactions.models.ExecuteDeleteContent"
 fullName: "com.azure.resourcemanager.compute.bulkactions.models.ExecuteDeleteContent"
 name: "ExecuteDeleteContent"
 nameWithType: "ExecuteDeleteContent"
-summary: "The Execute<wbr>Delete<wbr>Request for delete VM operation."
+summary: "The virtual machines and execution settings for a bulk delete action."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -34,9 +34,9 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.ExecuteDeleteContent.executionParameters()"
   name: "executionParameters()"
   nameWithType: "ExecuteDeleteContent.executionParameters()"
-  summary: "Get the execution<wbr>Parameters property: The execution parameters for the request."
+  summary: "Get the execution<wbr>Parameters property: The execution settings for the bulk action."
   syntax: "public ExecutionParameters executionParameters()"
-  desc: "Get the executionParameters property: The execution parameters for the request."
+  desc: "Get the executionParameters property: The execution settings for the bulk action."
   returns:
     description: "the executionParameters value."
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ExecutionParameters?alt=com.azure.resourcemanager.compute.bulkactions.models.ExecutionParameters&text=ExecutionParameters\" data-throw-if-not-resolved=\"False\" />"
@@ -44,9 +44,9 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.ExecuteDeleteContent.forceDeletion()"
   name: "forceDeletion()"
   nameWithType: "ExecuteDeleteContent.forceDeletion()"
-  summary: "Get the force<wbr>Deletion property: Forced delete resource item."
+  summary: "Get the force<wbr>Deletion property: Indicates whether Bulk Actions uses forced deletion for the target virtual machines."
   syntax: "public Boolean forceDeletion()"
-  desc: "Get the forceDeletion property: Forced delete resource item."
+  desc: "Get the forceDeletion property: Indicates whether Bulk Actions uses forced deletion for the target virtual machines."
   returns:
     description: "the forceDeletion value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
@@ -73,9 +73,9 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.ExecuteDeleteContent.resources()"
   name: "resources()"
   nameWithType: "ExecuteDeleteContent.resources()"
-  summary: "Get the resources property: The resources for the request."
+  summary: "Get the resources property: The target virtual machines."
   syntax: "public Resources resources()"
-  desc: "Get the resources property: The resources for the request."
+  desc: "Get the resources property: The target virtual machines."
   returns:
     description: "the resources value."
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.Resources?alt=com.azure.resourcemanager.compute.bulkactions.models.Resources&text=Resources\" data-throw-if-not-resolved=\"False\" />"
@@ -105,13 +105,13 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.ExecuteDeleteContent.withExecutionParameters(ExecutionParameters executionParameters)"
   name: "withExecutionParameters(ExecutionParameters executionParameters)"
   nameWithType: "ExecuteDeleteContent.withExecutionParameters(ExecutionParameters executionParameters)"
-  summary: "Set the execution<wbr>Parameters property: The execution parameters for the request."
+  summary: "Set the execution<wbr>Parameters property: The execution settings for the bulk action."
   parameters:
   - description: "the executionParameters value to set."
     name: "executionParameters"
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ExecutionParameters?alt=com.azure.resourcemanager.compute.bulkactions.models.ExecutionParameters&text=ExecutionParameters\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public ExecuteDeleteContent withExecutionParameters(ExecutionParameters executionParameters)"
-  desc: "Set the executionParameters property: The execution parameters for the request."
+  desc: "Set the executionParameters property: The execution settings for the bulk action."
   returns:
     description: "the ExecuteDeleteContent object itself."
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ExecuteDeleteContent?alt=com.azure.resourcemanager.compute.bulkactions.models.ExecuteDeleteContent&text=ExecuteDeleteContent\" data-throw-if-not-resolved=\"False\" />"
@@ -119,13 +119,13 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.ExecuteDeleteContent.withForceDeletion(Boolean forceDeletion)"
   name: "withForceDeletion(Boolean forceDeletion)"
   nameWithType: "ExecuteDeleteContent.withForceDeletion(Boolean forceDeletion)"
-  summary: "Set the force<wbr>Deletion property: Forced delete resource item."
+  summary: "Set the force<wbr>Deletion property: Indicates whether Bulk Actions uses forced deletion for the target virtual machines."
   parameters:
   - description: "the forceDeletion value to set."
     name: "forceDeletion"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
   syntax: "public ExecuteDeleteContent withForceDeletion(Boolean forceDeletion)"
-  desc: "Set the forceDeletion property: Forced delete resource item."
+  desc: "Set the forceDeletion property: Indicates whether Bulk Actions uses forced deletion for the target virtual machines."
   returns:
     description: "the ExecuteDeleteContent object itself."
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ExecuteDeleteContent?alt=com.azure.resourcemanager.compute.bulkactions.models.ExecuteDeleteContent&text=ExecuteDeleteContent\" data-throw-if-not-resolved=\"False\" />"
@@ -133,13 +133,13 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.ExecuteDeleteContent.withResources(Resources resources)"
   name: "withResources(Resources resources)"
   nameWithType: "ExecuteDeleteContent.withResources(Resources resources)"
-  summary: "Set the resources property: The resources for the request."
+  summary: "Set the resources property: The target virtual machines."
   parameters:
   - description: "the resources value to set."
     name: "resources"
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.Resources?alt=com.azure.resourcemanager.compute.bulkactions.models.Resources&text=Resources\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public ExecuteDeleteContent withResources(Resources resources)"
-  desc: "Set the resources property: The resources for the request."
+  desc: "Set the resources property: The target virtual machines."
   returns:
     description: "the ExecuteDeleteContent object itself."
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ExecuteDeleteContent?alt=com.azure.resourcemanager.compute.bulkactions.models.ExecuteDeleteContent&text=ExecuteDeleteContent\" data-throw-if-not-resolved=\"False\" />"
@@ -158,9 +158,9 @@ methods:
     description: "the ExecuteDeleteContent object itself."
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ExecuteDeleteContent?alt=com.azure.resourcemanager.compute.bulkactions.models.ExecuteDeleteContent&text=ExecuteDeleteContent\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "The ExecuteDeleteRequest for delete VM operation."
+desc: "The virtual machines and execution settings for a bulk delete action."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ExecuteDeleteContent?alt=com.azure.resourcemanager.compute.bulkactions.models.ExecuteDeleteContent&text=ExecuteDeleteContent\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.bulkactions.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute-bulkactions:1.0.0-beta.4
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute-bulkactions:1.0.0-beta.5

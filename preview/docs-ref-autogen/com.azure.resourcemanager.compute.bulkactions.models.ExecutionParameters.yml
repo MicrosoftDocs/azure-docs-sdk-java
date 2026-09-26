@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.compute.bulkactions.models.ExecutionParameters"
 fullName: "com.azure.resourcemanager.compute.bulkactions.models.ExecutionParameters"
 name: "ExecutionParameters"
 nameWithType: "ExecutionParameters"
-summary: "Extra details needed to run the user's request."
+summary: "The execution settings for a bulk action."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -30,6 +30,16 @@ constructors:
   syntax: "public ExecutionParameters()"
   desc: "Creates an instance of ExecutionParameters class."
 methods:
+- uid: "com.azure.resourcemanager.compute.bulkactions.models.ExecutionParameters.additionalCreateParameters()"
+  fullName: "com.azure.resourcemanager.compute.bulkactions.models.ExecutionParameters.additionalCreateParameters()"
+  name: "additionalCreateParameters()"
+  nameWithType: "ExecutionParameters.additionalCreateParameters()"
+  summary: "Get the additional<wbr>Create<wbr>Parameters property: Additional configuration for Create."
+  syntax: "public Map<String,BinaryData> additionalCreateParameters()"
+  desc: "Get the additionalCreateParameters property: Additional configuration for Create."
+  returns:
+    description: "the additionalCreateParameters value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.compute.bulkactions.models.ExecutionParameters.capacityRecommendationParameters()"
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.ExecutionParameters.capacityRecommendationParameters()"
   name: "capacityRecommendationParameters()"
@@ -63,9 +73,9 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.ExecutionParameters.retryPolicy()"
   name: "retryPolicy()"
   nameWithType: "ExecutionParameters.retryPolicy()"
-  summary: "Get the retry<wbr>Policy property: Retry policy the user can pass."
+  summary: "Get the retry<wbr>Policy property: The retry settings for the bulk action."
   syntax: "public RetryPolicy retryPolicy()"
-  desc: "Get the retryPolicy property: Retry policy the user can pass."
+  desc: "Get the retryPolicy property: The retry settings for the bulk action."
   returns:
     description: "the retryPolicy value."
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.RetryPolicy?alt=com.azure.resourcemanager.compute.bulkactions.models.RetryPolicy&text=RetryPolicy\" data-throw-if-not-resolved=\"False\" />"
@@ -85,12 +95,26 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.ExecutionParameters.verifyVmAgentHealth()"
   name: "verifyVmAgentHealth()"
   nameWithType: "ExecutionParameters.verifyVmAgentHealth()"
-  summary: "Get the verify<wbr>VmAgent<wbr>Health property: When true on an execute<wbr>Start request, run a post-Start VM agent health check and engage the fallback chain if the guest agent does not report Ready."
+  summary: "Get the verify<wbr>VmAgent<wbr>Health property: If true, Bulk Actions verifies the virtual machine guest agent health after a start operation."
   syntax: "public Boolean verifyVmAgentHealth()"
-  desc: "Get the verifyVmAgentHealth property: When true on an executeStart request, run a post-Start VM agent health check and engage the fallback chain if the guest agent does not report Ready. Ignored for non-Start operations."
+  desc: "Get the verifyVmAgentHealth property: If true, Bulk Actions verifies the virtual machine guest agent health after a start operation. Setting this property to true for any other operation causes the request to fail."
   returns:
     description: "the verifyVmAgentHealth value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
+- uid: "com.azure.resourcemanager.compute.bulkactions.models.ExecutionParameters.withAdditionalCreateParameters(java.util.Map<java.lang.String,com.azure.core.util.BinaryData>)"
+  fullName: "com.azure.resourcemanager.compute.bulkactions.models.ExecutionParameters.withAdditionalCreateParameters(Map<String,BinaryData> additionalCreateParameters)"
+  name: "withAdditionalCreateParameters(Map<String,BinaryData> additionalCreateParameters)"
+  nameWithType: "ExecutionParameters.withAdditionalCreateParameters(Map<String,BinaryData> additionalCreateParameters)"
+  summary: "Set the additional<wbr>Create<wbr>Parameters property: Additional configuration for Create."
+  parameters:
+  - description: "the additionalCreateParameters value to set."
+    name: "additionalCreateParameters"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public ExecutionParameters withAdditionalCreateParameters(Map<String,BinaryData> additionalCreateParameters)"
+  desc: "Set the additionalCreateParameters property: Additional configuration for Create."
+  returns:
+    description: "the ExecutionParameters object itself."
+    type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ExecutionParameters?alt=com.azure.resourcemanager.compute.bulkactions.models.ExecutionParameters&text=ExecutionParameters\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.bulkactions.models.ExecutionParameters.withCapacityRecommendationParameters(com.azure.resourcemanager.compute.bulkactions.models.CapacityRecommendationParameters)"
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.ExecutionParameters.withCapacityRecommendationParameters(CapacityRecommendationParameters capacityRecommendationParameters)"
   name: "withCapacityRecommendationParameters(CapacityRecommendationParameters capacityRecommendationParameters)"
@@ -109,13 +133,13 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.ExecutionParameters.withRetryPolicy(RetryPolicy retryPolicy)"
   name: "withRetryPolicy(RetryPolicy retryPolicy)"
   nameWithType: "ExecutionParameters.withRetryPolicy(RetryPolicy retryPolicy)"
-  summary: "Set the retry<wbr>Policy property: Retry policy the user can pass."
+  summary: "Set the retry<wbr>Policy property: The retry settings for the bulk action."
   parameters:
   - description: "the retryPolicy value to set."
     name: "retryPolicy"
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.RetryPolicy?alt=com.azure.resourcemanager.compute.bulkactions.models.RetryPolicy&text=RetryPolicy\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public ExecutionParameters withRetryPolicy(RetryPolicy retryPolicy)"
-  desc: "Set the retryPolicy property: Retry policy the user can pass."
+  desc: "Set the retryPolicy property: The retry settings for the bulk action."
   returns:
     description: "the ExecutionParameters object itself."
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ExecutionParameters?alt=com.azure.resourcemanager.compute.bulkactions.models.ExecutionParameters&text=ExecutionParameters\" data-throw-if-not-resolved=\"False\" />"
@@ -123,20 +147,20 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.ExecutionParameters.withVerifyVmAgentHealth(Boolean verifyVmAgentHealth)"
   name: "withVerifyVmAgentHealth(Boolean verifyVmAgentHealth)"
   nameWithType: "ExecutionParameters.withVerifyVmAgentHealth(Boolean verifyVmAgentHealth)"
-  summary: "Set the verify<wbr>VmAgent<wbr>Health property: When true on an execute<wbr>Start request, run a post-Start VM agent health check and engage the fallback chain if the guest agent does not report Ready."
+  summary: "Set the verify<wbr>VmAgent<wbr>Health property: If true, Bulk Actions verifies the virtual machine guest agent health after a start operation."
   parameters:
   - description: "the verifyVmAgentHealth value to set."
     name: "verifyVmAgentHealth"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
   syntax: "public ExecutionParameters withVerifyVmAgentHealth(Boolean verifyVmAgentHealth)"
-  desc: "Set the verifyVmAgentHealth property: When true on an executeStart request, run a post-Start VM agent health check and engage the fallback chain if the guest agent does not report Ready. Ignored for non-Start operations."
+  desc: "Set the verifyVmAgentHealth property: If true, Bulk Actions verifies the virtual machine guest agent health after a start operation. Setting this property to true for any other operation causes the request to fail."
   returns:
     description: "the ExecutionParameters object itself."
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ExecutionParameters?alt=com.azure.resourcemanager.compute.bulkactions.models.ExecutionParameters&text=ExecutionParameters\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "Extra details needed to run the user's request."
+desc: "The execution settings for a bulk action."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ExecutionParameters?alt=com.azure.resourcemanager.compute.bulkactions.models.ExecutionParameters&text=ExecutionParameters\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.bulkactions.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute-bulkactions:1.0.0-beta.4
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute-bulkactions:1.0.0-beta.5

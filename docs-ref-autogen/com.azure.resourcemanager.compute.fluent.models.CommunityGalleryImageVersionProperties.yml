@@ -32,6 +32,16 @@ methods:
   returns:
     description: "the artifactTags value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+- uid: "com.azure.resourcemanager.compute.fluent.models.CommunityGalleryImageVersionProperties.consumptionEndTime()"
+  fullName: "com.azure.resourcemanager.compute.fluent.models.CommunityGalleryImageVersionProperties.consumptionEndTime()"
+  name: "consumptionEndTime()"
+  nameWithType: "CommunityGalleryImageVersionProperties.consumptionEndTime()"
+  summary: "Get the consumption<wbr>End<wbr>Time property: The timestamp after which a soft-deleted gallery image version is no longer consumable for VM/VMSS creation or VMSS scale out."
+  syntax: "public OffsetDateTime consumptionEndTime()"
+  desc: "Get the consumptionEndTime property: The timestamp after which a soft-deleted gallery image version is no longer consumable for VM/VMSS creation or VMSS scale out. It is calculated from the soft-deleted time plus the retention period, and is not present for active gallery image versions. In dateTime offset format."
+  returns:
+    description: "the consumptionEndTime value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
 - uid: "com.azure.resourcemanager.compute.fluent.models.CommunityGalleryImageVersionProperties.disclaimer()"
   fullName: "com.azure.resourcemanager.compute.fluent.models.CommunityGalleryImageVersionProperties.disclaimer()"
   name: "disclaimer()"
@@ -81,6 +91,16 @@ methods:
   returns:
     description: "An instance of CommunityGalleryImageVersionProperties if the JsonReader was pointing to an instance of\n it, or null if it was pointing to JSON null."
     type: "<xref href=\"com.azure.resourcemanager.compute.fluent.models.CommunityGalleryImageVersionProperties?alt=com.azure.resourcemanager.compute.fluent.models.CommunityGalleryImageVersionProperties&text=CommunityGalleryImageVersionProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.fluent.models.CommunityGalleryImageVersionProperties.imageState()"
+  fullName: "com.azure.resourcemanager.compute.fluent.models.CommunityGalleryImageVersionProperties.imageState()"
+  name: "imageState()"
+  nameWithType: "CommunityGalleryImageVersionProperties.imageState()"
+  summary: "Get the image<wbr>State property: The state of the gallery image version, derived from its soft-delete status."
+  syntax: "public GalleryImageVersionState imageState()"
+  desc: "Get the imageState property: The state of the gallery image version, derived from its soft-delete status."
+  returns:
+    description: "the imageState value."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.GalleryImageVersionState?alt=com.azure.resourcemanager.compute.models.GalleryImageVersionState&text=GalleryImageVersionState\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.fluent.models.CommunityGalleryImageVersionProperties.publishedDate()"
   fullName: "com.azure.resourcemanager.compute.fluent.models.CommunityGalleryImageVersionProperties.publishedDate()"
   name: "publishedDate()"
@@ -126,4 +146,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.fluent.models.CommunityGalleryImageVersionProperties?alt=com.azure.resourcemanager.compute.fluent.models.CommunityGalleryImageVersionProperties&text=CommunityGalleryImageVersionProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.60.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.61.0

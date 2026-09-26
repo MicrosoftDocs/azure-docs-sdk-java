@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.compute.bulkactions.models.DeadlineType"
 fullName: "com.azure.resourcemanager.compute.bulkactions.models.DeadlineType"
 name: "DeadlineType"
 nameWithType: "DeadlineType"
-summary: "The types of deadlines supported by Bulkactions."
+summary: "The deadline behavior for a bulk action."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.DeadlineType.COMPLETE_BY"
   name: "COMPLETE_BY"
   nameWithType: "DeadlineType.COMPLETE_BY"
-  summary: "Complete the operation by the given deadline."
+  summary: "Bulk Actions attempts to complete the operation by the specified deadline."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.DeadlineType?alt=com.azure.resourcemanager.compute.bulkactions.models.DeadlineType&text=DeadlineType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final DeadlineType COMPLETE_BY"
-  desc: "Complete the operation by the given deadline."
+  desc: "Bulk Actions attempts to complete the operation by the specified deadline."
 - uid: "com.azure.resourcemanager.compute.bulkactions.models.DeadlineType.INITIATE_AT"
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.DeadlineType.INITIATE_AT"
   name: "INITIATE_AT"
   nameWithType: "DeadlineType.INITIATE_AT"
-  summary: "Initiate the operation at the given deadline."
+  summary: "Bulk Actions attempts to start the operation at the specified deadline."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.DeadlineType?alt=com.azure.resourcemanager.compute.bulkactions.models.DeadlineType&text=DeadlineType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final DeadlineType INITIATE_AT"
-  desc: "Initiate the operation at the given deadline."
+  desc: "Bulk Actions attempts to start the operation at the specified deadline."
 methods:
 - uid: "com.azure.resourcemanager.compute.bulkactions.models.DeadlineType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.DeadlineType.fromString(String name)"
@@ -92,7 +92,7 @@ methods:
     description: "known DeadlineType values."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.DeadlineType?alt=com.azure.resourcemanager.compute.bulkactions.models.DeadlineType&text=DeadlineType\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "class"
-desc: "The types of deadlines supported by Bulkactions."
+desc: "The deadline behavior for a bulk action."
 metadata: {}
 package: "com.azure.resourcemanager.compute.bulkactions.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute-bulkactions:1.0.0-beta.4
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute-bulkactions:1.0.0-beta.5

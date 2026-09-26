@@ -38,6 +38,18 @@ constructors:
   desc: "Creates a new instance of ConfidentialVMEncryptionType value."
   hasDeprecatedTag: true
 fields:
+- uid: "com.azure.resourcemanager.compute.models.ConfidentialVMEncryptionType.DATA_DISK_ENCRYPTED_WITH_CMK"
+  fullName: "com.azure.resourcemanager.compute.models.ConfidentialVMEncryptionType.DATA_DISK_ENCRYPTED_WITH_CMK"
+  name: "DATA_DISK_ENCRYPTED_WITH_CMK"
+  nameWithType: "ConfidentialVMEncryptionType.DATA_DISK_ENCRYPTED_WITH_CMK"
+  summary: "Confidential VM Encryption Type which should be used for encrypting the data disks with customer managed keys."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.ConfidentialVMEncryptionType?alt=com.azure.resourcemanager.compute.models.ConfidentialVMEncryptionType&text=ConfidentialVMEncryptionType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ConfidentialVMEncryptionType DATA_DISK_ENCRYPTED_WITH_CMK"
+  desc: "Confidential VM Encryption Type which should be used for encrypting the data disks with customer managed keys. This Encryption type should only be used for data disks, and should not be used for OS disk encryption. When this encryption type is used for data disk encryption.Subscriptions need to be enrolled for Confidential VM with data encryption through following AFEC - Microsoft.Compute/ConfidentialVMDataDiskEncryptionPreview."
 - uid: "com.azure.resourcemanager.compute.models.ConfidentialVMEncryptionType.ENCRYPTED_VMGUEST_STATE_ONLY_WITH_PMK"
   fullName: "com.azure.resourcemanager.compute.models.ConfidentialVMEncryptionType.ENCRYPTED_VMGUEST_STATE_ONLY_WITH_PMK"
   name: "ENCRYPTED_VMGUEST_STATE_ONLY_WITH_PMK"
@@ -119,4 +131,4 @@ type: "class"
 desc: "confidential VM encryption types."
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.60.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.61.0

@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.compute.bulkactions.models.PriorityType"
 fullName: "com.azure.resourcemanager.compute.bulkactions.models.PriorityType"
 name: "PriorityType"
 nameWithType: "PriorityType"
-summary: "The priority type for VM allocation."
+summary: "The priority type for virtual machine allocation."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.PriorityType.REGULAR"
   name: "REGULAR"
   nameWithType: "PriorityType.REGULAR"
-  summary: "Regular priority VMs."
+  summary: "Regular, non-Spot virtual machines."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.PriorityType?alt=com.azure.resourcemanager.compute.bulkactions.models.PriorityType&text=PriorityType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final PriorityType REGULAR"
-  desc: "Regular priority VMs."
+  desc: "Regular, non-Spot virtual machines."
 - uid: "com.azure.resourcemanager.compute.bulkactions.models.PriorityType.SPOT"
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.PriorityType.SPOT"
   name: "SPOT"
   nameWithType: "PriorityType.SPOT"
-  summary: "Spot priority VMs."
+  summary: "Azure Spot Virtual Machines."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.PriorityType?alt=com.azure.resourcemanager.compute.bulkactions.models.PriorityType&text=PriorityType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final PriorityType SPOT"
-  desc: "Spot priority VMs."
+  desc: "Azure Spot Virtual Machines."
 methods:
 - uid: "com.azure.resourcemanager.compute.bulkactions.models.PriorityType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.PriorityType.fromString(String name)"
@@ -92,7 +92,7 @@ methods:
     description: "known PriorityType values."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.PriorityType?alt=com.azure.resourcemanager.compute.bulkactions.models.PriorityType&text=PriorityType\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "class"
-desc: "The priority type for VM allocation."
+desc: "The priority type for virtual machine allocation."
 metadata: {}
 package: "com.azure.resourcemanager.compute.bulkactions.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute-bulkactions:1.0.0-beta.4
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute-bulkactions:1.0.0-beta.5

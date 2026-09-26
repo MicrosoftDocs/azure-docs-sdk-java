@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.compute.bulkactions.fluent.models.DeallocateReso
 fullName: "com.azure.resourcemanager.compute.bulkactions.fluent.models.DeallocateResourceOperationResponseInner"
 name: "DeallocateResourceOperationResponseInner"
 nameWithType: "DeallocateResourceOperationResponseInner"
-summary: "The response from a deallocate request."
+summary: "The result of a bulk deallocate action."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -26,9 +26,9 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.fluent.models.DeallocateResourceOperationResponseInner.description()"
   name: "description()"
   nameWithType: "DeallocateResourceOperationResponseInner.description()"
-  summary: "Get the description property: The description of the operation response."
+  summary: "Get the description property: A description of the bulk action result."
   syntax: "public String description()"
-  desc: "Get the description property: The description of the operation response."
+  desc: "Get the description property: A description of the bulk action result."
   returns:
     description: "the description value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -55,9 +55,9 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.fluent.models.DeallocateResourceOperationResponseInner.location()"
   name: "location()"
   nameWithType: "DeallocateResourceOperationResponseInner.location()"
-  summary: "Get the location property: The location of the deallocate request eg westus."
+  summary: "Get the location property: The Azure region where Bulk Actions processes the request."
   syntax: "public String location()"
-  desc: "Get the location property: The location of the deallocate request eg westus."
+  desc: "Get the location property: The Azure region where Bulk Actions processes the request."
   returns:
     description: "the location value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -65,9 +65,9 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.fluent.models.DeallocateResourceOperationResponseInner.results()"
   name: "results()"
   nameWithType: "DeallocateResourceOperationResponseInner.results()"
-  summary: "Get the results property: The results from the deallocate request if no errors exist."
+  summary: "Get the results property: The result for each virtual machine."
   syntax: "public List<ResourceOperation> results()"
-  desc: "Get the results property: The results from the deallocate request if no errors exist."
+  desc: "Get the results property: The result for each virtual machine."
   returns:
     description: "the results value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ResourceOperation?alt=com.azure.resourcemanager.compute.bulkactions.models.ResourceOperation&text=ResourceOperation\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -87,16 +87,16 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.fluent.models.DeallocateResourceOperationResponseInner.type()"
   name: "type()"
   nameWithType: "DeallocateResourceOperationResponseInner.type()"
-  summary: "Get the type property: The type of resources used in the deallocate request eg virtual machines."
+  summary: "Get the type property: The type of resources targeted by the bulk action."
   syntax: "public String type()"
-  desc: "Get the type property: The type of resources used in the deallocate request eg virtual machines."
+  desc: "Get the type property: The type of resources targeted by the bulk action."
   returns:
     description: "the type value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 type: "class"
-desc: "The response from a deallocate request."
+desc: "The result of a bulk deallocate action."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.bulkactions.fluent.models.DeallocateResourceOperationResponseInner?alt=com.azure.resourcemanager.compute.bulkactions.fluent.models.DeallocateResourceOperationResponseInner&text=DeallocateResourceOperationResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.bulkactions.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute-bulkactions:1.0.0-beta.4
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute-bulkactions:1.0.0-beta.5

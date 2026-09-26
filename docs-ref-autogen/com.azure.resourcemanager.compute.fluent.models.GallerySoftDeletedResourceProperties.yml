@@ -22,6 +22,16 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **GallerySoftDeletedResourceProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.fluent.models.GallerySoftDeletedResourceProperties?alt=com.azure.resourcemanager.compute.fluent.models.GallerySoftDeletedResourceProperties&text=GallerySoftDeletedResourceProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 methods:
+- uid: "com.azure.resourcemanager.compute.fluent.models.GallerySoftDeletedResourceProperties.consumptionEndTime()"
+  fullName: "com.azure.resourcemanager.compute.fluent.models.GallerySoftDeletedResourceProperties.consumptionEndTime()"
+  name: "consumptionEndTime()"
+  nameWithType: "GallerySoftDeletedResourceProperties.consumptionEndTime()"
+  summary: "Get the consumption<wbr>End<wbr>Time property: The timestamp after which a soft-deleted gallery image version is no longer consumable for VM/VMSS creation or VMSS scale out."
+  syntax: "public OffsetDateTime consumptionEndTime()"
+  desc: "Get the consumptionEndTime property: The timestamp after which a soft-deleted gallery image version is no longer consumable for VM/VMSS creation or VMSS scale out. It is calculated from the soft-deleted time plus the retention period. In dateTime offset format."
+  returns:
+    description: "the consumptionEndTime value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
 - uid: "com.azure.resourcemanager.compute.fluent.models.GallerySoftDeletedResourceProperties.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.compute.fluent.models.GallerySoftDeletedResourceProperties.fromJson(JsonReader jsonReader)"
   name: "fromJson(JsonReader jsonReader)"
@@ -41,6 +51,16 @@ methods:
   returns:
     description: "An instance of GallerySoftDeletedResourceProperties if the JsonReader was pointing to an instance of it,\n or null if it was pointing to JSON null."
     type: "<xref href=\"com.azure.resourcemanager.compute.fluent.models.GallerySoftDeletedResourceProperties?alt=com.azure.resourcemanager.compute.fluent.models.GallerySoftDeletedResourceProperties&text=GallerySoftDeletedResourceProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.fluent.models.GallerySoftDeletedResourceProperties.hardDeletionTargetTime()"
+  fullName: "com.azure.resourcemanager.compute.fluent.models.GallerySoftDeletedResourceProperties.hardDeletionTargetTime()"
+  name: "hardDeletionTargetTime()"
+  nameWithType: "GallerySoftDeletedResourceProperties.hardDeletionTargetTime()"
+  summary: "Get the hard<wbr>Deletion<wbr>Target<wbr>Time property: The timestamp at which a soft-deleted gallery image version is permanently (hard) deleted and can no longer be recovered."
+  syntax: "public OffsetDateTime hardDeletionTargetTime()"
+  desc: "Get the hardDeletionTargetTime property: The timestamp at which a soft-deleted gallery image version is permanently (hard) deleted and can no longer be recovered. In dateTime offset format."
+  returns:
+    description: "the hardDeletionTargetTime value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
 - uid: "com.azure.resourcemanager.compute.fluent.models.GallerySoftDeletedResourceProperties.resourceArmId()"
   fullName: "com.azure.resourcemanager.compute.fluent.models.GallerySoftDeletedResourceProperties.resourceArmId()"
   name: "resourceArmId()"
@@ -96,4 +116,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.fluent.models.GallerySoftDeletedResourceProperties?alt=com.azure.resourcemanager.compute.fluent.models.GallerySoftDeletedResourceProperties&text=GallerySoftDeletedResourceProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.60.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.61.0

@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationErro
 fullName: "com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationError"
 name: "ResourceOperationError"
 nameWithType: "ResourceOperationError"
-summary: "These describe errors that occur at the resource level."
+summary: "An error that occurred while processing one virtual machine."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -26,9 +26,9 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationError.errorCode()"
   name: "errorCode()"
   nameWithType: "ResourceOperationError.errorCode()"
-  summary: "Get the error<wbr>Code property: Code for the error eg 404, 500."
+  summary: "Get the error<wbr>Code property: A code that identifies the error."
   syntax: "public String errorCode()"
-  desc: "Get the errorCode property: Code for the error eg 404, 500."
+  desc: "Get the errorCode property: A code that identifies the error."
   returns:
     description: "the errorCode value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -36,9 +36,9 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationError.errorDetails()"
   name: "errorDetails()"
   nameWithType: "ResourceOperationError.errorDetails()"
-  summary: "Get the error<wbr>Details property: Detailed message about the error."
+  summary: "Get the error<wbr>Details property: A message that describes the error."
   syntax: "public String errorDetails()"
-  desc: "Get the errorDetails property: Detailed message about the error."
+  desc: "Get the errorDetails property: A message that describes the error."
   returns:
     description: "the errorDetails value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -74,9 +74,9 @@ methods:
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "These describe errors that occur at the resource level."
+desc: "An error that occurred while processing one virtual machine."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationError?alt=com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationError&text=ResourceOperationError\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.bulkactions.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute-bulkactions:1.0.0-beta.4
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute-bulkactions:1.0.0-beta.5

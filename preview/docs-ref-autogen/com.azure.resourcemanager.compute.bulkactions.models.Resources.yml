@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.compute.bulkactions.models.Resources"
 fullName: "com.azure.resourcemanager.compute.bulkactions.models.Resources"
 name: "Resources"
 nameWithType: "Resources"
-summary: "The resources needed for the user request."
+summary: "The virtual machines targeted by a bulk action."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -53,9 +53,9 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.Resources.ids()"
   name: "ids()"
   nameWithType: "Resources.ids()"
-  summary: "Get the ids property: The resource ids used for the request."
+  summary: "Get the ids property: The Azure resource IDs of the target virtual machines."
   syntax: "public List<String> ids()"
-  desc: "Get the ids property: The resource ids used for the request."
+  desc: "Get the ids property: The Azure resource IDs of the target virtual machines."
   returns:
     description: "the ids value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
@@ -75,20 +75,20 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.Resources.withIds(List<String> ids)"
   name: "withIds(List<String> ids)"
   nameWithType: "Resources.withIds(List<String> ids)"
-  summary: "Set the ids property: The resource ids used for the request."
+  summary: "Set the ids property: The Azure resource IDs of the target virtual machines."
   parameters:
   - description: "the ids value to set."
     name: "ids"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
   syntax: "public Resources withIds(List<String> ids)"
-  desc: "Set the ids property: The resource ids used for the request."
+  desc: "Set the ids property: The Azure resource IDs of the target virtual machines."
   returns:
     description: "the Resources object itself."
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.Resources?alt=com.azure.resourcemanager.compute.bulkactions.models.Resources&text=Resources\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "The resources needed for the user request."
+desc: "The virtual machines targeted by a bulk action."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.Resources?alt=com.azure.resourcemanager.compute.bulkactions.models.Resources&text=Resources\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.bulkactions.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute-bulkactions:1.0.0-beta.4
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute-bulkactions:1.0.0-beta.5

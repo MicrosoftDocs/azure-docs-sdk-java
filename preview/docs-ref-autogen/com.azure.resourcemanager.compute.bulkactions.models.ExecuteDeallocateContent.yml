@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.compute.bulkactions.models.ExecuteDeallocateCont
 fullName: "com.azure.resourcemanager.compute.bulkactions.models.ExecuteDeallocateContent"
 name: "ExecuteDeallocateContent"
 nameWithType: "ExecuteDeallocateContent"
-summary: "The Execute<wbr>Deallocate<wbr>Request request for execute<wbr>Deallocate operations."
+summary: "The virtual machines and execution settings for a bulk deallocate action."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -34,9 +34,9 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.ExecuteDeallocateContent.executionParameters()"
   name: "executionParameters()"
   nameWithType: "ExecuteDeallocateContent.executionParameters()"
-  summary: "Get the execution<wbr>Parameters property: The execution parameters for the request."
+  summary: "Get the execution<wbr>Parameters property: The execution settings for the bulk action."
   syntax: "public ExecutionParameters executionParameters()"
-  desc: "Get the executionParameters property: The execution parameters for the request."
+  desc: "Get the executionParameters property: The execution settings for the bulk action."
   returns:
     description: "the executionParameters value."
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ExecutionParameters?alt=com.azure.resourcemanager.compute.bulkactions.models.ExecutionParameters&text=ExecutionParameters\" data-throw-if-not-resolved=\"False\" />"
@@ -63,9 +63,9 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.ExecuteDeallocateContent.resources()"
   name: "resources()"
   nameWithType: "ExecuteDeallocateContent.resources()"
-  summary: "Get the resources property: The resources for the request."
+  summary: "Get the resources property: The target virtual machines."
   syntax: "public Resources resources()"
-  desc: "Get the resources property: The resources for the request."
+  desc: "Get the resources property: The target virtual machines."
   returns:
     description: "the resources value."
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.Resources?alt=com.azure.resourcemanager.compute.bulkactions.models.Resources&text=Resources\" data-throw-if-not-resolved=\"False\" />"
@@ -95,13 +95,13 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.ExecuteDeallocateContent.withExecutionParameters(ExecutionParameters executionParameters)"
   name: "withExecutionParameters(ExecutionParameters executionParameters)"
   nameWithType: "ExecuteDeallocateContent.withExecutionParameters(ExecutionParameters executionParameters)"
-  summary: "Set the execution<wbr>Parameters property: The execution parameters for the request."
+  summary: "Set the execution<wbr>Parameters property: The execution settings for the bulk action."
   parameters:
   - description: "the executionParameters value to set."
     name: "executionParameters"
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ExecutionParameters?alt=com.azure.resourcemanager.compute.bulkactions.models.ExecutionParameters&text=ExecutionParameters\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public ExecuteDeallocateContent withExecutionParameters(ExecutionParameters executionParameters)"
-  desc: "Set the executionParameters property: The execution parameters for the request."
+  desc: "Set the executionParameters property: The execution settings for the bulk action."
   returns:
     description: "the ExecuteDeallocateContent object itself."
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ExecuteDeallocateContent?alt=com.azure.resourcemanager.compute.bulkactions.models.ExecuteDeallocateContent&text=ExecuteDeallocateContent\" data-throw-if-not-resolved=\"False\" />"
@@ -109,13 +109,13 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.ExecuteDeallocateContent.withResources(Resources resources)"
   name: "withResources(Resources resources)"
   nameWithType: "ExecuteDeallocateContent.withResources(Resources resources)"
-  summary: "Set the resources property: The resources for the request."
+  summary: "Set the resources property: The target virtual machines."
   parameters:
   - description: "the resources value to set."
     name: "resources"
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.Resources?alt=com.azure.resourcemanager.compute.bulkactions.models.Resources&text=Resources\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public ExecuteDeallocateContent withResources(Resources resources)"
-  desc: "Set the resources property: The resources for the request."
+  desc: "Set the resources property: The target virtual machines."
   returns:
     description: "the ExecuteDeallocateContent object itself."
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ExecuteDeallocateContent?alt=com.azure.resourcemanager.compute.bulkactions.models.ExecuteDeallocateContent&text=ExecuteDeallocateContent\" data-throw-if-not-resolved=\"False\" />"
@@ -134,9 +134,9 @@ methods:
     description: "the ExecuteDeallocateContent object itself."
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ExecuteDeallocateContent?alt=com.azure.resourcemanager.compute.bulkactions.models.ExecuteDeallocateContent&text=ExecuteDeallocateContent\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "The ExecuteDeallocateRequest request for executeDeallocate operations."
+desc: "The virtual machines and execution settings for a bulk deallocate action."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ExecuteDeallocateContent?alt=com.azure.resourcemanager.compute.bulkactions.models.ExecuteDeallocateContent&text=ExecuteDeallocateContent\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.bulkactions.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute-bulkactions:1.0.0-beta.4
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute-bulkactions:1.0.0-beta.5

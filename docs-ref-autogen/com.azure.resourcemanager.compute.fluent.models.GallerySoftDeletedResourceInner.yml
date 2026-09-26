@@ -37,6 +37,16 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **GallerySoftDeletedResourceInner**</br> extends <xref href=\"com.azure.core.management.Resource?alt=com.azure.core.management.Resource&text=Resource\" data-throw-if-not-resolved=\"False\" />"
 methods:
+- uid: "com.azure.resourcemanager.compute.fluent.models.GallerySoftDeletedResourceInner.consumptionEndTime()"
+  fullName: "com.azure.resourcemanager.compute.fluent.models.GallerySoftDeletedResourceInner.consumptionEndTime()"
+  name: "consumptionEndTime()"
+  nameWithType: "GallerySoftDeletedResourceInner.consumptionEndTime()"
+  summary: "Get the consumption<wbr>End<wbr>Time property: The timestamp after which a soft-deleted gallery image version is no longer consumable for VM/VMSS creation or VMSS scale out."
+  syntax: "public OffsetDateTime consumptionEndTime()"
+  desc: "Get the consumptionEndTime property: The timestamp after which a soft-deleted gallery image version is no longer consumable for VM/VMSS creation or VMSS scale out. It is calculated from the soft-deleted time plus the retention period. In dateTime offset format."
+  returns:
+    description: "the consumptionEndTime value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
 - uid: "com.azure.resourcemanager.compute.fluent.models.GallerySoftDeletedResourceInner.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.compute.fluent.models.GallerySoftDeletedResourceInner.fromJson(JsonReader jsonReader)"
   name: "fromJson(JsonReader jsonReader)"
@@ -56,6 +66,16 @@ methods:
   returns:
     description: "An instance of GallerySoftDeletedResourceInner if the JsonReader was pointing to an instance of it, or\n null if it was pointing to JSON null."
     type: "<xref href=\"com.azure.resourcemanager.compute.fluent.models.GallerySoftDeletedResourceInner?alt=com.azure.resourcemanager.compute.fluent.models.GallerySoftDeletedResourceInner&text=GallerySoftDeletedResourceInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.fluent.models.GallerySoftDeletedResourceInner.hardDeletionTargetTime()"
+  fullName: "com.azure.resourcemanager.compute.fluent.models.GallerySoftDeletedResourceInner.hardDeletionTargetTime()"
+  name: "hardDeletionTargetTime()"
+  nameWithType: "GallerySoftDeletedResourceInner.hardDeletionTargetTime()"
+  summary: "Get the hard<wbr>Deletion<wbr>Target<wbr>Time property: The timestamp at which a soft-deleted gallery image version is permanently (hard) deleted and can no longer be recovered."
+  syntax: "public OffsetDateTime hardDeletionTargetTime()"
+  desc: "Get the hardDeletionTargetTime property: The timestamp at which a soft-deleted gallery image version is permanently (hard) deleted and can no longer be recovered. In dateTime offset format."
+  returns:
+    description: "the hardDeletionTargetTime value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
 - uid: "com.azure.resourcemanager.compute.fluent.models.GallerySoftDeletedResourceInner.id()"
   fullName: "com.azure.resourcemanager.compute.fluent.models.GallerySoftDeletedResourceInner.id()"
   name: "id()"
@@ -153,4 +173,4 @@ type: "class"
 desc: "The details information of soft-deleted resource."
 metadata: {}
 package: "com.azure.resourcemanager.compute.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.60.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.61.0

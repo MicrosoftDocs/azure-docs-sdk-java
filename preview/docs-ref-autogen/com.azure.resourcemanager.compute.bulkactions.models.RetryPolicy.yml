@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.compute.bulkactions.models.RetryPolicy"
 fullName: "com.azure.resourcemanager.compute.bulkactions.models.RetryPolicy"
 name: "RetryPolicy"
 nameWithType: "RetryPolicy"
-summary: "The retry policy for the user request."
+summary: "The retry settings for a bulk action."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -53,9 +53,9 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.RetryPolicy.onFailureAction()"
   name: "onFailureAction()"
   nameWithType: "RetryPolicy.onFailureAction()"
-  summary: "Get the on<wbr>Failure<wbr>Action property: Action to take on failure."
+  summary: "Get the on<wbr>Failure<wbr>Action property: The operation that Bulk Actions attempts when the requested operation fails."
   syntax: "public ResourceOperationType onFailureAction()"
-  desc: "Get the onFailureAction property: Action to take on failure."
+  desc: "Get the onFailureAction property: The operation that Bulk Actions attempts when the requested operation fails."
   returns:
     description: "the onFailureAction value."
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationType?alt=com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationType&text=ResourceOperationType\" data-throw-if-not-resolved=\"False\" />"
@@ -63,9 +63,9 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.RetryPolicy.retryCount()"
   name: "retryCount()"
   nameWithType: "RetryPolicy.retryCount()"
-  summary: "Get the retry<wbr>Count property: Retry count for user request."
+  summary: "Get the retry<wbr>Count property: The maximum number of retry attempts."
   syntax: "public Integer retryCount()"
-  desc: "Get the retryCount property: Retry count for user request."
+  desc: "Get the retryCount property: The maximum number of retry attempts."
   returns:
     description: "the retryCount value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
@@ -73,9 +73,9 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.RetryPolicy.retryWindowInMinutes()"
   name: "retryWindowInMinutes()"
   nameWithType: "RetryPolicy.retryWindowInMinutes()"
-  summary: "Get the retry<wbr>Window<wbr>InMinutes property: Retry window in minutes for user request."
+  summary: "Get the retry<wbr>Window<wbr>InMinutes property: The period, in minutes, during which Bulk Actions can retry the operation."
   syntax: "public Integer retryWindowInMinutes()"
-  desc: "Get the retryWindowInMinutes property: Retry window in minutes for user request."
+  desc: "Get the retryWindowInMinutes property: The period, in minutes, during which Bulk Actions can retry the operation."
   returns:
     description: "the retryWindowInMinutes value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
@@ -95,13 +95,13 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.RetryPolicy.withOnFailureAction(ResourceOperationType onFailureAction)"
   name: "withOnFailureAction(ResourceOperationType onFailureAction)"
   nameWithType: "RetryPolicy.withOnFailureAction(ResourceOperationType onFailureAction)"
-  summary: "Set the on<wbr>Failure<wbr>Action property: Action to take on failure."
+  summary: "Set the on<wbr>Failure<wbr>Action property: The operation that Bulk Actions attempts when the requested operation fails."
   parameters:
   - description: "the onFailureAction value to set."
     name: "onFailureAction"
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationType?alt=com.azure.resourcemanager.compute.bulkactions.models.ResourceOperationType&text=ResourceOperationType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public RetryPolicy withOnFailureAction(ResourceOperationType onFailureAction)"
-  desc: "Set the onFailureAction property: Action to take on failure."
+  desc: "Set the onFailureAction property: The operation that Bulk Actions attempts when the requested operation fails."
   returns:
     description: "the RetryPolicy object itself."
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.RetryPolicy?alt=com.azure.resourcemanager.compute.bulkactions.models.RetryPolicy&text=RetryPolicy\" data-throw-if-not-resolved=\"False\" />"
@@ -109,13 +109,13 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.RetryPolicy.withRetryCount(Integer retryCount)"
   name: "withRetryCount(Integer retryCount)"
   nameWithType: "RetryPolicy.withRetryCount(Integer retryCount)"
-  summary: "Set the retry<wbr>Count property: Retry count for user request."
+  summary: "Set the retry<wbr>Count property: The maximum number of retry attempts."
   parameters:
   - description: "the retryCount value to set."
     name: "retryCount"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
   syntax: "public RetryPolicy withRetryCount(Integer retryCount)"
-  desc: "Set the retryCount property: Retry count for user request."
+  desc: "Set the retryCount property: The maximum number of retry attempts."
   returns:
     description: "the RetryPolicy object itself."
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.RetryPolicy?alt=com.azure.resourcemanager.compute.bulkactions.models.RetryPolicy&text=RetryPolicy\" data-throw-if-not-resolved=\"False\" />"
@@ -123,20 +123,20 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.RetryPolicy.withRetryWindowInMinutes(Integer retryWindowInMinutes)"
   name: "withRetryWindowInMinutes(Integer retryWindowInMinutes)"
   nameWithType: "RetryPolicy.withRetryWindowInMinutes(Integer retryWindowInMinutes)"
-  summary: "Set the retry<wbr>Window<wbr>InMinutes property: Retry window in minutes for user request."
+  summary: "Set the retry<wbr>Window<wbr>InMinutes property: The period, in minutes, during which Bulk Actions can retry the operation."
   parameters:
   - description: "the retryWindowInMinutes value to set."
     name: "retryWindowInMinutes"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
   syntax: "public RetryPolicy withRetryWindowInMinutes(Integer retryWindowInMinutes)"
-  desc: "Set the retryWindowInMinutes property: Retry window in minutes for user request."
+  desc: "Set the retryWindowInMinutes property: The period, in minutes, during which Bulk Actions can retry the operation."
   returns:
     description: "the RetryPolicy object itself."
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.RetryPolicy?alt=com.azure.resourcemanager.compute.bulkactions.models.RetryPolicy&text=RetryPolicy\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "The retry policy for the user request."
+desc: "The retry settings for a bulk action."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.RetryPolicy?alt=com.azure.resourcemanager.compute.bulkactions.models.RetryPolicy&text=RetryPolicy\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.bulkactions.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute-bulkactions:1.0.0-beta.4
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute-bulkactions:1.0.0-beta.5

@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.compute.bulkactions.fluent.models.CancelOperatio
 fullName: "com.azure.resourcemanager.compute.bulkactions.fluent.models.CancelOperationsResponseInner"
 name: "CancelOperationsResponseInner"
 nameWithType: "CancelOperationsResponseInner"
-summary: "This is the response from a cancel operations request."
+summary: "The results of the cancellation requests."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -45,9 +45,9 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.fluent.models.CancelOperationsResponseInner.results()"
   name: "results()"
   nameWithType: "CancelOperationsResponseInner.results()"
-  summary: "Get the results property: An array of resource operations that were successfully cancelled."
+  summary: "Get the results property: The current result for each operation submitted for cancellation."
   syntax: "public List<ResourceOperation> results()"
-  desc: "Get the results property: An array of resource operations that were successfully cancelled."
+  desc: "Get the results property: The current result for each operation submitted for cancellation."
   returns:
     description: "the results value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ResourceOperation?alt=com.azure.resourcemanager.compute.bulkactions.models.ResourceOperation&text=ResourceOperation\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -64,9 +64,9 @@ methods:
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "This is the response from a cancel operations request."
+desc: "The results of the cancellation requests."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.bulkactions.fluent.models.CancelOperationsResponseInner?alt=com.azure.resourcemanager.compute.bulkactions.fluent.models.CancelOperationsResponseInner&text=CancelOperationsResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.bulkactions.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute-bulkactions:1.0.0-beta.4
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute-bulkactions:1.0.0-beta.5

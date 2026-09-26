@@ -1,0 +1,98 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.compute.models.GalleryImageVersionState"
+fullName: "com.azure.resourcemanager.compute.models.GalleryImageVersionState"
+name: "GalleryImageVersionState"
+nameWithType: "GalleryImageVersionState"
+summary: "The state of a gallery image version, derived from its soft-delete status."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **GalleryImageVersionState**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.GalleryImageVersionState?alt=com.azure.resourcemanager.compute.models.GalleryImageVersionState&text=GalleryImageVersionState\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.compute.models.GalleryImageVersionState.GalleryImageVersionState()"
+  fullName: "com.azure.resourcemanager.compute.models.GalleryImageVersionState.GalleryImageVersionState()"
+  name: "GalleryImageVersionState()"
+  nameWithType: "GalleryImageVersionState.GalleryImageVersionState()"
+  summary: "Creates a new instance of Gallery<wbr>Image<wbr>Version<wbr>State value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.compute.models.GalleryImageVersionState.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public GalleryImageVersionState()"
+  desc: "Creates a new instance of GalleryImageVersionState value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.compute.models.GalleryImageVersionState.ACTIVE"
+  fullName: "com.azure.resourcemanager.compute.models.GalleryImageVersionState.ACTIVE"
+  name: "ACTIVE"
+  nameWithType: "GalleryImageVersionState.ACTIVE"
+  summary: "The gallery image version is active and available for use."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.GalleryImageVersionState?alt=com.azure.resourcemanager.compute.models.GalleryImageVersionState&text=GalleryImageVersionState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final GalleryImageVersionState ACTIVE"
+  desc: "The gallery image version is active and available for use."
+- uid: "com.azure.resourcemanager.compute.models.GalleryImageVersionState.SOFT_DELETED"
+  fullName: "com.azure.resourcemanager.compute.models.GalleryImageVersionState.SOFT_DELETED"
+  name: "SOFT_DELETED"
+  nameWithType: "GalleryImageVersionState.SOFT_DELETED"
+  summary: "The gallery image version has been soft-deleted."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.GalleryImageVersionState?alt=com.azure.resourcemanager.compute.models.GalleryImageVersionState&text=GalleryImageVersionState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final GalleryImageVersionState SOFT_DELETED"
+  desc: "The gallery image version has been soft-deleted. It is available for use only when a specific version is requested, and it will not be resolved as the latest version."
+methods:
+- uid: "com.azure.resourcemanager.compute.models.GalleryImageVersionState.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.compute.models.GalleryImageVersionState.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "GalleryImageVersionState.fromString(String name)"
+  summary: "Creates or finds a Gallery<wbr>Image<wbr>Version<wbr>State from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static GalleryImageVersionState fromString(String name)"
+  desc: "Creates or finds a GalleryImageVersionState from its string representation."
+  returns:
+    description: "the corresponding GalleryImageVersionState."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.GalleryImageVersionState?alt=com.azure.resourcemanager.compute.models.GalleryImageVersionState&text=GalleryImageVersionState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.GalleryImageVersionState.values()"
+  fullName: "com.azure.resourcemanager.compute.models.GalleryImageVersionState.values()"
+  name: "values()"
+  nameWithType: "GalleryImageVersionState.values()"
+  summary: "Gets known Gallery<wbr>Image<wbr>Version<wbr>State values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<GalleryImageVersionState> values()"
+  desc: "Gets known GalleryImageVersionState values."
+  returns:
+    description: "known GalleryImageVersionState values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.compute.models.GalleryImageVersionState?alt=com.azure.resourcemanager.compute.models.GalleryImageVersionState&text=GalleryImageVersionState\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "The state of a gallery image version, derived from its soft-delete status."
+metadata: {}
+package: "com.azure.resourcemanager.compute.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.61.0

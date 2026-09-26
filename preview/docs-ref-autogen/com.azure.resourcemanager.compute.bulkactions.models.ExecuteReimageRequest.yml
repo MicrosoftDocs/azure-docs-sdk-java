@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.compute.bulkactions.models.ExecuteReimageRequest
 fullName: "com.azure.resourcemanager.compute.bulkactions.models.ExecuteReimageRequest"
 name: "ExecuteReimageRequest"
 nameWithType: "ExecuteReimageRequest"
-summary: "The Execute<wbr>Reimage<wbr>Request request for reimage operations."
+summary: "The virtual machines and configuration for a bulk reimage action."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -34,9 +34,9 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.ExecuteReimageRequest.executionParameters()"
   name: "executionParameters()"
   nameWithType: "ExecuteReimageRequest.executionParameters()"
-  summary: "Get the execution<wbr>Parameters property: The execution parameters for the request."
+  summary: "Get the execution<wbr>Parameters property: The execution settings for the bulk action."
   syntax: "public ExecutionParameters executionParameters()"
-  desc: "Get the executionParameters property: The execution parameters for the request."
+  desc: "Get the executionParameters property: The execution settings for the bulk action."
   returns:
     description: "the executionParameters value."
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ExecutionParameters?alt=com.azure.resourcemanager.compute.bulkactions.models.ExecutionParameters&text=ExecutionParameters\" data-throw-if-not-resolved=\"False\" />"
@@ -63,9 +63,9 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.ExecuteReimageRequest.reimageParameters()"
   name: "reimageParameters()"
   nameWithType: "ExecuteReimageRequest.reimageParameters()"
-  summary: "Get the reimage<wbr>Parameters property: Reimage parameters including base profile and per-resource overrides."
+  summary: "Get the reimage<wbr>Parameters property: The shared and per-virtual-machine reimage configuration."
   syntax: "public ReimagePayload reimageParameters()"
-  desc: "Get the reimageParameters property: Reimage parameters including base profile and per-resource overrides."
+  desc: "Get the reimageParameters property: The shared and per-virtual-machine reimage configuration."
   returns:
     description: "the reimageParameters value."
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ReimagePayload?alt=com.azure.resourcemanager.compute.bulkactions.models.ReimagePayload&text=ReimagePayload\" data-throw-if-not-resolved=\"False\" />"
@@ -73,9 +73,9 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.ExecuteReimageRequest.resources()"
   name: "resources()"
   nameWithType: "ExecuteReimageRequest.resources()"
-  summary: "Get the resources property: The resources for the request."
+  summary: "Get the resources property: The target virtual machines."
   syntax: "public Resources resources()"
-  desc: "Get the resources property: The resources for the request."
+  desc: "Get the resources property: The target virtual machines."
   returns:
     description: "the resources value."
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.Resources?alt=com.azure.resourcemanager.compute.bulkactions.models.Resources&text=Resources\" data-throw-if-not-resolved=\"False\" />"
@@ -105,13 +105,13 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.ExecuteReimageRequest.withExecutionParameters(ExecutionParameters executionParameters)"
   name: "withExecutionParameters(ExecutionParameters executionParameters)"
   nameWithType: "ExecuteReimageRequest.withExecutionParameters(ExecutionParameters executionParameters)"
-  summary: "Set the execution<wbr>Parameters property: The execution parameters for the request."
+  summary: "Set the execution<wbr>Parameters property: The execution settings for the bulk action."
   parameters:
   - description: "the executionParameters value to set."
     name: "executionParameters"
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ExecutionParameters?alt=com.azure.resourcemanager.compute.bulkactions.models.ExecutionParameters&text=ExecutionParameters\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public ExecuteReimageRequest withExecutionParameters(ExecutionParameters executionParameters)"
-  desc: "Set the executionParameters property: The execution parameters for the request."
+  desc: "Set the executionParameters property: The execution settings for the bulk action."
   returns:
     description: "the ExecuteReimageRequest object itself."
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ExecuteReimageRequest?alt=com.azure.resourcemanager.compute.bulkactions.models.ExecuteReimageRequest&text=ExecuteReimageRequest\" data-throw-if-not-resolved=\"False\" />"
@@ -119,13 +119,13 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.ExecuteReimageRequest.withReimageParameters(ReimagePayload reimageParameters)"
   name: "withReimageParameters(ReimagePayload reimageParameters)"
   nameWithType: "ExecuteReimageRequest.withReimageParameters(ReimagePayload reimageParameters)"
-  summary: "Set the reimage<wbr>Parameters property: Reimage parameters including base profile and per-resource overrides."
+  summary: "Set the reimage<wbr>Parameters property: The shared and per-virtual-machine reimage configuration."
   parameters:
   - description: "the reimageParameters value to set."
     name: "reimageParameters"
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ReimagePayload?alt=com.azure.resourcemanager.compute.bulkactions.models.ReimagePayload&text=ReimagePayload\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public ExecuteReimageRequest withReimageParameters(ReimagePayload reimageParameters)"
-  desc: "Set the reimageParameters property: Reimage parameters including base profile and per-resource overrides."
+  desc: "Set the reimageParameters property: The shared and per-virtual-machine reimage configuration."
   returns:
     description: "the ExecuteReimageRequest object itself."
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ExecuteReimageRequest?alt=com.azure.resourcemanager.compute.bulkactions.models.ExecuteReimageRequest&text=ExecuteReimageRequest\" data-throw-if-not-resolved=\"False\" />"
@@ -133,13 +133,13 @@ methods:
   fullName: "com.azure.resourcemanager.compute.bulkactions.models.ExecuteReimageRequest.withResources(Resources resources)"
   name: "withResources(Resources resources)"
   nameWithType: "ExecuteReimageRequest.withResources(Resources resources)"
-  summary: "Set the resources property: The resources for the request."
+  summary: "Set the resources property: The target virtual machines."
   parameters:
   - description: "the resources value to set."
     name: "resources"
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.Resources?alt=com.azure.resourcemanager.compute.bulkactions.models.Resources&text=Resources\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public ExecuteReimageRequest withResources(Resources resources)"
-  desc: "Set the resources property: The resources for the request."
+  desc: "Set the resources property: The target virtual machines."
   returns:
     description: "the ExecuteReimageRequest object itself."
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ExecuteReimageRequest?alt=com.azure.resourcemanager.compute.bulkactions.models.ExecuteReimageRequest&text=ExecuteReimageRequest\" data-throw-if-not-resolved=\"False\" />"
@@ -158,9 +158,9 @@ methods:
     description: "the ExecuteReimageRequest object itself."
     type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ExecuteReimageRequest?alt=com.azure.resourcemanager.compute.bulkactions.models.ExecuteReimageRequest&text=ExecuteReimageRequest\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "The ExecuteReimageRequest request for reimage operations."
+desc: "The virtual machines and configuration for a bulk reimage action."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ExecuteReimageRequest?alt=com.azure.resourcemanager.compute.bulkactions.models.ExecuteReimageRequest&text=ExecuteReimageRequest\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.bulkactions.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute-bulkactions:1.0.0-beta.4
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute-bulkactions:1.0.0-beta.5
