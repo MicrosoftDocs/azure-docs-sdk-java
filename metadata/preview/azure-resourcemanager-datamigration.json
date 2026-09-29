@@ -1,7 +1,7 @@
 {
   "Name": "azure-resourcemanager-datamigration",
-  "Version": "1.1.0-beta.1",
-  "DevVersion": null,
+  "Version": "1.3.0-alpha.20260928.1",
+  "DevVersion": "1.3.0-alpha.20260928.1",
   "DirectoryPath": "sdk/datamigration/azure-resourcemanager-datamigration",
   "ServiceDirectory": "datamigration",
   "ReadMePath": "sdk/datamigration/azure-resourcemanager-datamigration/README.md",
@@ -10,7 +10,7 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-datamigration",
-  "ReleaseStatus": "2025-07-28",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
@@ -24,6 +24,7 @@
   "CIParameters": {
     "CIMatrixConfigs": []
   },
+  "SpecProjectPath": null,
   "Namespaces": [
     "com.azure.resourcemanager.datamigration",
     "com.azure.resourcemanager.datamigration.fluent",
