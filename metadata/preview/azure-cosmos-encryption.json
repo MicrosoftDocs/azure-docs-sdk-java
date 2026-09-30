@@ -1,15 +1,15 @@
 {
-  "Name": "azure-cosmos",
-  "Version": "4.84.0-alpha.20260930.1",
-  "DevVersion": "4.84.0-alpha.20260930.1",
-  "DirectoryPath": "sdk/cosmos/azure-cosmos",
+  "Name": "azure-cosmos-encryption",
+  "Version": "2.33.0-alpha.20260930.1",
+  "DevVersion": "2.33.0-alpha.20260930.1",
+  "DirectoryPath": "sdk/cosmos/azure-cosmos-encryption",
   "ServiceDirectory": "cosmos",
-  "ReadMePath": "sdk/cosmos/azure-cosmos/README.md",
-  "ChangeLogPath": "sdk/cosmos/azure-cosmos/CHANGELOG.md",
+  "ReadMePath": "sdk/cosmos/azure-cosmos-encryption/README.md",
+  "ChangeLogPath": "sdk/cosmos/azure-cosmos-encryption/CHANGELOG.md",
   "Group": "com.azure",
   "SdkType": "client",
   "IsNewSdk": true,
-  "ArtifactName": "azure-cosmos",
+  "ArtifactName": "azure-cosmos-encryption",
   "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": [
@@ -20,21 +20,20 @@
     "com.azure.cosmos.spark:azure-cosmos-spark_4"
   ],
   "ArtifactDetails": {
-    "safeName": "azurecosmos",
-    "releaseInBatch": "${{ parameters.release_azurecosmos }}",
+    "safeName": "azurecosmosencryption",
+    "releaseInBatch": "${{ parameters.release_azurecosmosencryption }}",
     "groupId": "com.azure",
     "triggeringPaths": [
       "/sdk/cosmos/ci.yml"
     ],
-    "name": "azure-cosmos"
+    "name": "azure-cosmos-encryption"
   },
   "CIParameters": {
     "CIMatrixConfigs": []
   },
   "SpecProjectPath": null,
   "Namespaces": [
-    "com.azure.cosmos",
-    "com.azure.cosmos.models",
-    "com.azure.cosmos.util"
+    "com.azure.cosmos.encryption",
+    "com.azure.cosmos.encryption.models"
   ]
 }
