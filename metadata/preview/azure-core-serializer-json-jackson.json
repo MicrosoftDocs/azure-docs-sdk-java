@@ -1,15 +1,15 @@
 {
-  "Name": "azure-core-metrics-opentelemetry",
-  "Version": "1.0.0-alpha.20261002.1",
-  "DevVersion": "1.0.0-alpha.20261002.1",
-  "DirectoryPath": "sdk/core/azure-core-metrics-opentelemetry",
+  "Name": "azure-core-serializer-json-jackson",
+  "Version": "1.7.0-alpha.20261002.1",
+  "DevVersion": "1.7.0-alpha.20261002.1",
+  "DirectoryPath": "sdk/core/azure-core-serializer-json-jackson",
   "ServiceDirectory": "core",
-  "ReadMePath": "sdk/core/azure-core-metrics-opentelemetry/README.md",
-  "ChangeLogPath": "sdk/core/azure-core-metrics-opentelemetry/CHANGELOG.md",
+  "ReadMePath": "sdk/core/azure-core-serializer-json-jackson/README.md",
+  "ChangeLogPath": "sdk/core/azure-core-serializer-json-jackson/CHANGELOG.md",
   "Group": "com.azure",
   "SdkType": "client",
   "IsNewSdk": true,
-  "ArtifactName": "azure-core-metrics-opentelemetry",
+  "ArtifactName": "azure-core-serializer-json-jackson",
   "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": [
@@ -18,10 +18,10 @@
     "com.azure:perf-test-core"
   ],
   "ArtifactDetails": {
-    "releaseInBatch": "${{ parameters.release_azurecoremetricsopentelemetry }}",
+    "releaseInBatch": "${{ parameters.release_azurecoreserializerjsonjackson }}",
     "groupId": "com.azure",
-    "name": "azure-core-metrics-opentelemetry",
-    "safeName": "azurecoremetricsopentelemetry",
+    "name": "azure-core-serializer-json-jackson",
+    "safeName": "azurecoreserializerjsonjackson",
     "triggeringPaths": [
       "/sdk/core/ci.yml"
     ]
@@ -53,15 +53,7 @@
   },
   "SpecProjectPath": null,
   "Namespaces": [
-    "com.azure.core.metrics.opentelemetry"
-  ],
-  "CIMatrixConfigs": [
-    {
-      "Path": "eng/pipelines/templates/stages/platform-matrix.json",
-      "NonSparseParameters": "Agent",
-      "Name": "Java_ci_test_base",
-      "GenerateVMJobs": true,
-      "Selection": "sparse"
-    }
+    "com.azure.core.serializer.json.jackson",
+    "com.azure.core.serializer.json.jackson.models"
   ]
 }
