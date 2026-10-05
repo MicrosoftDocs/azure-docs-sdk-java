@@ -1,7 +1,7 @@
 {
   "Name": "azure-security-keyvault-keys",
-  "Version": "4.12.0-beta.2",
-  "DevVersion": null,
+  "Version": "4.12.0-alpha.20261005.1",
+  "DevVersion": "4.12.0-alpha.20261005.1",
   "DirectoryPath": "sdk/keyvault/azure-security-keyvault-keys",
   "ServiceDirectory": "keyvault",
   "ReadMePath": "sdk/keyvault/azure-security-keyvault-keys/README.md",
@@ -10,17 +10,17 @@
   "SdkType": "client",
   "IsNewSdk": true,
   "ArtifactName": "azure-security-keyvault-keys",
-  "ReleaseStatus": "2026-09-28",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": [
     "com.azure:azure-security-keyvault-perf",
     "com.azure:perf-test-core"
   ],
   "ArtifactDetails": {
-    "safeName": "azuresecuritykeyvaultkeys",
-    "groupId": "com.azure",
-    "name": "azure-security-keyvault-keys",
     "releaseInBatch": "${{ parameters.release_azuresecuritykeyvaultkeys }}",
+    "name": "azure-security-keyvault-keys",
+    "groupId": "com.azure",
+    "safeName": "azuresecuritykeyvaultkeys",
     "triggeringPaths": [
       "/sdk/keyvault/ci.yml"
     ]
