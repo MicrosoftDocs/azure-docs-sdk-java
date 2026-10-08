@@ -1,12 +1,12 @@
 ---
-title: 
+title: Microsoft Azure Service Bus Client for Java
+description: Reference for the retired com.microsoft.azure:azure-servicebus Java library, with links to the supported client library and migration guide.
 keywords: Azure, java, SDK, API, azure-servicebus, servicebus
 ms.date: 11/14/2022
 ms.topic: reference
 ms.devlang: java
-ms.service: servicebus
+ms.service: azure-service-bus
 ---
-<p align="center"> <img src="service-bus.png" alt="Microsoft Azure Service Bus" width="100"/> </p>
 
 # Microsoft Azure Service Bus Client for Java
 
@@ -58,7 +58,7 @@ If you send messages from a client any other than the Java client itself in any 
 ## FAQ
 
 ### Where is the API document?
-Click [here](/java/api/overview/azure/servicebus?view=azure-java-legacy).
+See the [legacy Azure Service Bus SDK for Java reference](/java/api/overview/azure/service-bus?view=azure-java-legacy&preserve-view=true).
 
 ### Where can I find examples that use this library?
 
@@ -87,5 +87,4 @@ To use a proxy for unit tests, set an environment variable `RUN_WITH_PROXY` to `
 8. Go to environment and add above mentioned environment variable and the regarding connection string.
 9. Click "Apply" and then "Run"
 10. You should have a new view next to the package explorer called JUnit showing the running tests and see Console outputs depending on which test currently runs. If you do not see the JUnit tab go to Window > Show view > Other... > Java > JUnit
-
 
