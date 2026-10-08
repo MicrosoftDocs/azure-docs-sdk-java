@@ -1,7 +1,7 @@
 {
   "Name": "azure-resourcemanager-cosmos",
-  "Version": "2.56.0-beta.1",
-  "DevVersion": null,
+  "Version": "2.56.0-alpha.20261008.1",
+  "DevVersion": "2.56.0-alpha.20261008.1",
   "DirectoryPath": "sdk/cosmos/azure-resourcemanager-cosmos",
   "ServiceDirectory": "cosmos/azure-resourcemanager-cosmos",
   "ReadMePath": "sdk/cosmos/azure-resourcemanager-cosmos/README.md",
@@ -10,16 +10,16 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-cosmos",
-  "ReleaseStatus": "2026-08-20",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "releaseInBatch": "${{ parameters.release_azureresourcemanagercosmos }}",
-    "safeName": "azureresourcemanagercosmos",
     "triggeringPaths": [
       "/sdk/cosmos/azure-resourcemanager-cosmos/ci.yml"
     ],
     "name": "azure-resourcemanager-cosmos",
+    "safeName": "azureresourcemanagercosmos",
+    "releaseInBatch": "${{ parameters.release_azureresourcemanagercosmos }}",
     "groupId": "com.azure.resourcemanager"
   },
   "CIParameters": {
