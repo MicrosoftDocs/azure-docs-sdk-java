@@ -1,0 +1,118 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.SliSelection"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.SliSelection"
+name: "SliSelection"
+nameWithType: "SliSelection"
+summary: "A single SLI selected for Drill monitoring."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **SliSelection**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.SliSelection?alt=com.azure.resourcemanager.resiliencemanagement.models.SliSelection&text=SliSelection\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.SliSelection.SliSelection()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.SliSelection.SliSelection()"
+  name: "SliSelection()"
+  nameWithType: "SliSelection.SliSelection()"
+  summary: "Creates an instance of Sli<wbr>Selection class."
+  syntax: "public SliSelection()"
+  desc: "Creates an instance of SliSelection class."
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.SliSelection.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.SliSelection.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "SliSelection.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Sli<wbr>Selection from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static SliSelection fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of SliSelection from the JsonReader."
+  returns:
+    description: "An instance of SliSelection if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.SliSelection?alt=com.azure.resourcemanager.resiliencemanagement.models.SliSelection&text=SliSelection\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.SliSelection.sliId()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.SliSelection.sliId()"
+  name: "sliId()"
+  nameWithType: "SliSelection.sliId()"
+  summary: "Get the sli<wbr>Id property: Full ARM Id of the SLI."
+  syntax: "public String sliId()"
+  desc: "Get the sliId property: Full ARM Id of the SLI."
+  returns:
+    description: "the sliId value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.SliSelection.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.SliSelection.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "SliSelection.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.SliSelection.type()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.SliSelection.type()"
+  name: "type()"
+  nameWithType: "SliSelection.type()"
+  summary: "Get the type property: User-declared category of the SLI."
+  syntax: "public SliType type()"
+  desc: "Get the type property: User-declared category of the SLI. Must be unique across the selected SLIs."
+  returns:
+    description: "the type value."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.SliType?alt=com.azure.resourcemanager.resiliencemanagement.models.SliType&text=SliType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.SliSelection.withSliId(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.SliSelection.withSliId(String sliId)"
+  name: "withSliId(String sliId)"
+  nameWithType: "SliSelection.withSliId(String sliId)"
+  summary: "Set the sli<wbr>Id property: Full ARM Id of the SLI."
+  parameters:
+  - description: "the sliId value to set."
+    name: "sliId"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public SliSelection withSliId(String sliId)"
+  desc: "Set the sliId property: Full ARM Id of the SLI."
+  returns:
+    description: "the SliSelection object itself."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.SliSelection?alt=com.azure.resourcemanager.resiliencemanagement.models.SliSelection&text=SliSelection\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.SliSelection.withType(com.azure.resourcemanager.resiliencemanagement.models.SliType)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.SliSelection.withType(SliType type)"
+  name: "withType(SliType type)"
+  nameWithType: "SliSelection.withType(SliType type)"
+  summary: "Set the type property: User-declared category of the SLI."
+  parameters:
+  - description: "the type value to set."
+    name: "type"
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.SliType?alt=com.azure.resourcemanager.resiliencemanagement.models.SliType&text=SliType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public SliSelection withType(SliType type)"
+  desc: "Set the type property: User-declared category of the SLI. Must be unique across the selected SLIs."
+  returns:
+    description: "the SliSelection object itself."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.SliSelection?alt=com.azure.resourcemanager.resiliencemanagement.models.SliSelection&text=SliSelection\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "A single SLI selected for Drill monitoring."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.SliSelection?alt=com.azure.resourcemanager.resiliencemanagement.models.SliSelection&text=SliSelection\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

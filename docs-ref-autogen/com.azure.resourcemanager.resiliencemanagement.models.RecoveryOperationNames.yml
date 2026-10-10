@@ -1,0 +1,134 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryOperationNames"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryOperationNames"
+name: "RecoveryOperationNames"
+nameWithType: "RecoveryOperationNames"
+summary: "Defines the set of operations that can be executed on a Recovery Orchestration Plan."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **RecoveryOperationNames**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RecoveryOperationNames?alt=com.azure.resourcemanager.resiliencemanagement.models.RecoveryOperationNames&text=RecoveryOperationNames\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryOperationNames.RecoveryOperationNames()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryOperationNames.RecoveryOperationNames()"
+  name: "RecoveryOperationNames()"
+  nameWithType: "RecoveryOperationNames.RecoveryOperationNames()"
+  summary: "Creates a new instance of Recovery<wbr>Operation<wbr>Names value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.resiliencemanagement.models.RecoveryOperationNames.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public RecoveryOperationNames()"
+  desc: "Creates a new instance of RecoveryOperationNames value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryOperationNames.FAILOVER"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryOperationNames.FAILOVER"
+  name: "FAILOVER"
+  nameWithType: "RecoveryOperationNames.FAILOVER"
+  summary: "Initiates a failover process to recover eligible resources to the target location."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RecoveryOperationNames?alt=com.azure.resourcemanager.resiliencemanagement.models.RecoveryOperationNames&text=RecoveryOperationNames\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final RecoveryOperationNames FAILOVER"
+  desc: "Initiates a failover process to recover eligible resources to the target location."
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryOperationNames.FAILOVER_COMMIT"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryOperationNames.FAILOVER_COMMIT"
+  name: "FAILOVER_COMMIT"
+  nameWithType: "RecoveryOperationNames.FAILOVER_COMMIT"
+  summary: "Commits the failover for resources that require an explicit commit after recovery."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RecoveryOperationNames?alt=com.azure.resourcemanager.resiliencemanagement.models.RecoveryOperationNames&text=RecoveryOperationNames\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final RecoveryOperationNames FAILOVER_COMMIT"
+  desc: "Commits the failover for resources that require an explicit commit after recovery."
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryOperationNames.REPROTECT"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryOperationNames.REPROTECT"
+  name: "REPROTECT"
+  nameWithType: "RecoveryOperationNames.REPROTECT"
+  summary: "Performs re-protection or configuration changes for resources that have failed over, as required."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RecoveryOperationNames?alt=com.azure.resourcemanager.resiliencemanagement.models.RecoveryOperationNames&text=RecoveryOperationNames\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final RecoveryOperationNames REPROTECT"
+  desc: "Performs re-protection or configuration changes for resources that have failed over, as required."
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryOperationNames.TEST_FAILOVER"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryOperationNames.TEST_FAILOVER"
+  name: "TEST_FAILOVER"
+  nameWithType: "RecoveryOperationNames.TEST_FAILOVER"
+  summary: "Initiates a test failover process for qualified resources and those that support test failover."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RecoveryOperationNames?alt=com.azure.resourcemanager.resiliencemanagement.models.RecoveryOperationNames&text=RecoveryOperationNames\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final RecoveryOperationNames TEST_FAILOVER"
+  desc: "Initiates a test failover process for qualified resources and those that support test failover."
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryOperationNames.TEST_FAILOVER_CLEANUP"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryOperationNames.TEST_FAILOVER_CLEANUP"
+  name: "TEST_FAILOVER_CLEANUP"
+  nameWithType: "RecoveryOperationNames.TEST_FAILOVER_CLEANUP"
+  summary: "Cleans up resources and configurations created during a test failover, as required."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RecoveryOperationNames?alt=com.azure.resourcemanager.resiliencemanagement.models.RecoveryOperationNames&text=RecoveryOperationNames\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final RecoveryOperationNames TEST_FAILOVER_CLEANUP"
+  desc: "Cleans up resources and configurations created during a test failover, as required."
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryOperationNames.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryOperationNames.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "RecoveryOperationNames.fromString(String name)"
+  summary: "Creates or finds a Recovery<wbr>Operation<wbr>Names from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static RecoveryOperationNames fromString(String name)"
+  desc: "Creates or finds a RecoveryOperationNames from its string representation."
+  returns:
+    description: "the corresponding RecoveryOperationNames."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RecoveryOperationNames?alt=com.azure.resourcemanager.resiliencemanagement.models.RecoveryOperationNames&text=RecoveryOperationNames\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryOperationNames.values()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryOperationNames.values()"
+  name: "values()"
+  nameWithType: "RecoveryOperationNames.values()"
+  summary: "Gets known Recovery<wbr>Operation<wbr>Names values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<RecoveryOperationNames> values()"
+  desc: "Gets known RecoveryOperationNames values."
+  returns:
+    description: "known RecoveryOperationNames values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RecoveryOperationNames?alt=com.azure.resourcemanager.resiliencemanagement.models.RecoveryOperationNames&text=RecoveryOperationNames\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Defines the set of operations that can be executed on a Recovery Orchestration Plan. These operations are applicable only to resources that meet the qualification criteria."
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

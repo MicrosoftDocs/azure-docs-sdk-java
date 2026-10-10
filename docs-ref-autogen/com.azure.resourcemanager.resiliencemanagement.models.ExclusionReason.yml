@@ -1,0 +1,110 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.ExclusionReason"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.ExclusionReason"
+name: "ExclusionReason"
+nameWithType: "ExclusionReason"
+summary: "Enum for the reason why a resource is excluded."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ExclusionReason**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ExclusionReason?alt=com.azure.resourcemanager.resiliencemanagement.models.ExclusionReason&text=ExclusionReason\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ExclusionReason.ExclusionReason()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ExclusionReason.ExclusionReason()"
+  name: "ExclusionReason()"
+  nameWithType: "ExclusionReason.ExclusionReason()"
+  summary: "Creates a new instance of Exclusion<wbr>Reason value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.resiliencemanagement.models.ExclusionReason.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public ExclusionReason()"
+  desc: "Creates a new instance of ExclusionReason value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ExclusionReason.FAILED_OVER_RESOURCE"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ExclusionReason.FAILED_OVER_RESOURCE"
+  name: "FAILED_OVER_RESOURCE"
+  nameWithType: "ExclusionReason.FAILED_OVER_RESOURCE"
+  summary: "The resource failed over and is excluded."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ExclusionReason?alt=com.azure.resourcemanager.resiliencemanagement.models.ExclusionReason&text=ExclusionReason\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ExclusionReason FAILED_OVER_RESOURCE"
+  desc: "The resource failed over and is excluded."
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ExclusionReason.UNSUPPORTED_RESOURCE"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ExclusionReason.UNSUPPORTED_RESOURCE"
+  name: "UNSUPPORTED_RESOURCE"
+  nameWithType: "ExclusionReason.UNSUPPORTED_RESOURCE"
+  summary: "The resource is unsupported and excluded."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ExclusionReason?alt=com.azure.resourcemanager.resiliencemanagement.models.ExclusionReason&text=ExclusionReason\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ExclusionReason UNSUPPORTED_RESOURCE"
+  desc: "The resource is unsupported and excluded."
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ExclusionReason.USER_SELECTED_EXCLUSION"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ExclusionReason.USER_SELECTED_EXCLUSION"
+  name: "USER_SELECTED_EXCLUSION"
+  nameWithType: "ExclusionReason.USER_SELECTED_EXCLUSION"
+  summary: "The resource was excluded by user selection."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ExclusionReason?alt=com.azure.resourcemanager.resiliencemanagement.models.ExclusionReason&text=ExclusionReason\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ExclusionReason USER_SELECTED_EXCLUSION"
+  desc: "The resource was excluded by user selection."
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ExclusionReason.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ExclusionReason.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "ExclusionReason.fromString(String name)"
+  summary: "Creates or finds a Exclusion<wbr>Reason from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static ExclusionReason fromString(String name)"
+  desc: "Creates or finds a ExclusionReason from its string representation."
+  returns:
+    description: "the corresponding ExclusionReason."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ExclusionReason?alt=com.azure.resourcemanager.resiliencemanagement.models.ExclusionReason&text=ExclusionReason\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ExclusionReason.values()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ExclusionReason.values()"
+  name: "values()"
+  nameWithType: "ExclusionReason.values()"
+  summary: "Gets known Exclusion<wbr>Reason values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<ExclusionReason> values()"
+  desc: "Gets known ExclusionReason values."
+  returns:
+    description: "known ExclusionReason values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ExclusionReason?alt=com.azure.resourcemanager.resiliencemanagement.models.ExclusionReason&text=ExclusionReason\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Enum for the reason why a resource is excluded."
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

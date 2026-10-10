@@ -1,0 +1,98 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryPlanType"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryPlanType"
+name: "RecoveryPlanType"
+nameWithType: "RecoveryPlanType"
+summary: "Specifies the type of recovery orchestration plan."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **RecoveryPlanType**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RecoveryPlanType?alt=com.azure.resourcemanager.resiliencemanagement.models.RecoveryPlanType&text=RecoveryPlanType\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryPlanType.RecoveryPlanType()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryPlanType.RecoveryPlanType()"
+  name: "RecoveryPlanType()"
+  nameWithType: "RecoveryPlanType.RecoveryPlanType()"
+  summary: "Creates a new instance of Recovery<wbr>Plan<wbr>Type value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.resiliencemanagement.models.RecoveryPlanType.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public RecoveryPlanType()"
+  desc: "Creates a new instance of RecoveryPlanType value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryPlanType.REGIONAL"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryPlanType.REGIONAL"
+  name: "REGIONAL"
+  nameWithType: "RecoveryPlanType.REGIONAL"
+  summary: "A recovery orchestration plan for regional resiliency."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RecoveryPlanType?alt=com.azure.resourcemanager.resiliencemanagement.models.RecoveryPlanType&text=RecoveryPlanType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final RecoveryPlanType REGIONAL"
+  desc: "A recovery orchestration plan for regional resiliency."
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryPlanType.ZONAL"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryPlanType.ZONAL"
+  name: "ZONAL"
+  nameWithType: "RecoveryPlanType.ZONAL"
+  summary: "A recovery orchestration plan for zonal resiliency."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RecoveryPlanType?alt=com.azure.resourcemanager.resiliencemanagement.models.RecoveryPlanType&text=RecoveryPlanType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final RecoveryPlanType ZONAL"
+  desc: "A recovery orchestration plan for zonal resiliency."
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryPlanType.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryPlanType.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "RecoveryPlanType.fromString(String name)"
+  summary: "Creates or finds a Recovery<wbr>Plan<wbr>Type from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static RecoveryPlanType fromString(String name)"
+  desc: "Creates or finds a RecoveryPlanType from its string representation."
+  returns:
+    description: "the corresponding RecoveryPlanType."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RecoveryPlanType?alt=com.azure.resourcemanager.resiliencemanagement.models.RecoveryPlanType&text=RecoveryPlanType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryPlanType.values()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryPlanType.values()"
+  name: "values()"
+  nameWithType: "RecoveryPlanType.values()"
+  summary: "Gets known Recovery<wbr>Plan<wbr>Type values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<RecoveryPlanType> values()"
+  desc: "Gets known RecoveryPlanType values."
+  returns:
+    description: "known RecoveryPlanType values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RecoveryPlanType?alt=com.azure.resourcemanager.resiliencemanagement.models.RecoveryPlanType&text=RecoveryPlanType\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Specifies the type of recovery orchestration plan."
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

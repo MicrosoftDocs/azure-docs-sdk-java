@@ -1,0 +1,85 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.GoalAssignment"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.GoalAssignment"
+name: "GoalAssignment"
+nameWithType: "GoalAssignment"
+summary: "An immutable client-side representation of Goal<wbr>Assignment."
+syntax: "public interface **GoalAssignment**"
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.GoalAssignment.id()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.GoalAssignment.id()"
+  name: "id()"
+  nameWithType: "GoalAssignment.id()"
+  summary: "Gets the id property: Fully qualified resource Id for the resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String id()"
+  desc: "Gets the id property: Fully qualified resource Id for the resource."
+  returns:
+    description: "the id value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.GoalAssignment.innerModel()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.GoalAssignment.innerModel()"
+  name: "innerModel()"
+  nameWithType: "GoalAssignment.innerModel()"
+  summary: "Gets the inner com.<wbr>azure.<wbr>resourcemanager.<wbr>resiliencemanagement.<wbr>fluent.<wbr>models.<wbr>Goal<wbr>Assignment<wbr>Inner object."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract GoalAssignmentInner innerModel()"
+  desc: "Gets the inner com.azure.resourcemanager.resiliencemanagement.fluent.models.GoalAssignmentInner object."
+  returns:
+    description: "the inner object."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.fluent.models.GoalAssignmentInner?alt=com.azure.resourcemanager.resiliencemanagement.fluent.models.GoalAssignmentInner&text=GoalAssignmentInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.GoalAssignment.name()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.GoalAssignment.name()"
+  name: "name()"
+  nameWithType: "GoalAssignment.name()"
+  summary: "Gets the name property: The name of the resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String name()"
+  desc: "Gets the name property: The name of the resource."
+  returns:
+    description: "the name value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.GoalAssignment.properties()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.GoalAssignment.properties()"
+  name: "properties()"
+  nameWithType: "GoalAssignment.properties()"
+  summary: "Gets the properties property: The resource-specific properties for this resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract GoalAssignmentProperties properties()"
+  desc: "Gets the properties property: The resource-specific properties for this resource."
+  returns:
+    description: "the properties value."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.GoalAssignmentProperties?alt=com.azure.resourcemanager.resiliencemanagement.models.GoalAssignmentProperties&text=GoalAssignmentProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.GoalAssignment.systemData()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.GoalAssignment.systemData()"
+  name: "systemData()"
+  nameWithType: "GoalAssignment.systemData()"
+  summary: "Gets the system<wbr>Data property: Azure Resource Manager metadata containing created<wbr>By and modified<wbr>By information."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract SystemData systemData()"
+  desc: "Gets the systemData property: Azure Resource Manager metadata containing createdBy and modifiedBy information."
+  returns:
+    description: "the systemData value."
+    type: "<xref href=\"com.azure.core.management.SystemData?alt=com.azure.core.management.SystemData&text=SystemData\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.GoalAssignment.type()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.GoalAssignment.type()"
+  name: "type()"
+  nameWithType: "GoalAssignment.type()"
+  summary: "Gets the type property: The type of the resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String type()"
+  desc: "Gets the type property: The type of the resource."
+  returns:
+    description: "the type value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+type: "interface"
+desc: "An immutable client-side representation of GoalAssignment."
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

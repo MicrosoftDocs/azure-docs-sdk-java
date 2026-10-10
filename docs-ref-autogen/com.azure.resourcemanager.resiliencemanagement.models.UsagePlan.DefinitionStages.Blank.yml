@@ -1,0 +1,14 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.UsagePlan.DefinitionStages.Blank"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.UsagePlan.DefinitionStages.Blank"
+name: "UsagePlan.DefinitionStages.Blank"
+nameWithType: "UsagePlan.DefinitionStages.Blank"
+summary: "The first stage of the Usage<wbr>Plan definition."
+syntax: "public static interface **UsagePlan.DefinitionStages.Blank**</br> extends <xref href=\"com.azure.resourcemanager.resiliencemanagement.models.UsagePlan.DefinitionStages.WithLocation?alt=com.azure.resourcemanager.resiliencemanagement.models.UsagePlan.DefinitionStages.WithLocation&text=WithLocation\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The first stage of the UsagePlan definition."
+implements:
+- "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.UsagePlan.DefinitionStages.WithLocation?alt=com.azure.resourcemanager.resiliencemanagement.models.UsagePlan.DefinitionStages.WithLocation&text=WithLocation\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

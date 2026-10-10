@@ -1,0 +1,98 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.ExtensionObjectState"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.ExtensionObjectState"
+name: "ExtensionObjectState"
+nameWithType: "ExtensionObjectState"
+summary: "Enum for Attention<wbr>Reason - Extension Object State."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ExtensionObjectState**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ExtensionObjectState?alt=com.azure.resourcemanager.resiliencemanagement.models.ExtensionObjectState&text=ExtensionObjectState\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ExtensionObjectState.ExtensionObjectState()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ExtensionObjectState.ExtensionObjectState()"
+  name: "ExtensionObjectState()"
+  nameWithType: "ExtensionObjectState.ExtensionObjectState()"
+  summary: "Creates a new instance of Extension<wbr>Object<wbr>State value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.resiliencemanagement.models.ExtensionObjectState.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public ExtensionObjectState()"
+  desc: "Creates a new instance of ExtensionObjectState value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ExtensionObjectState.EXISTS"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ExtensionObjectState.EXISTS"
+  name: "EXISTS"
+  nameWithType: "ExtensionObjectState.EXISTS"
+  summary: "Extension object exists."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ExtensionObjectState?alt=com.azure.resourcemanager.resiliencemanagement.models.ExtensionObjectState&text=ExtensionObjectState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ExtensionObjectState EXISTS"
+  desc: "Extension object exists."
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ExtensionObjectState.NOT_EXISTS"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ExtensionObjectState.NOT_EXISTS"
+  name: "NOT_EXISTS"
+  nameWithType: "ExtensionObjectState.NOT_EXISTS"
+  summary: "Extension object not exists."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ExtensionObjectState?alt=com.azure.resourcemanager.resiliencemanagement.models.ExtensionObjectState&text=ExtensionObjectState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ExtensionObjectState NOT_EXISTS"
+  desc: "Extension object not exists."
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ExtensionObjectState.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ExtensionObjectState.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "ExtensionObjectState.fromString(String name)"
+  summary: "Creates or finds a Extension<wbr>Object<wbr>State from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static ExtensionObjectState fromString(String name)"
+  desc: "Creates or finds a ExtensionObjectState from its string representation."
+  returns:
+    description: "the corresponding ExtensionObjectState."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ExtensionObjectState?alt=com.azure.resourcemanager.resiliencemanagement.models.ExtensionObjectState&text=ExtensionObjectState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ExtensionObjectState.values()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ExtensionObjectState.values()"
+  name: "values()"
+  nameWithType: "ExtensionObjectState.values()"
+  summary: "Gets known Extension<wbr>Object<wbr>State values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<ExtensionObjectState> values()"
+  desc: "Gets known ExtensionObjectState values."
+  returns:
+    description: "known ExtensionObjectState values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ExtensionObjectState?alt=com.azure.resourcemanager.resiliencemanagement.models.ExtensionObjectState&text=ExtensionObjectState\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Enum for AttentionReason - Extension Object State."
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

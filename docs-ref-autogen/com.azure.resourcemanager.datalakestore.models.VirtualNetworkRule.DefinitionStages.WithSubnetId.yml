@@ -16,7 +16,7 @@ methods:
   parameters:
   - description: "The resource identifier for the subnet."
     name: "subnetId"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract VirtualNetworkRule.DefinitionStages.WithCreate withSubnetId(String subnetId)"
   desc: "Specifies the subnetId property: The resource identifier for the subnet.."
   returns:

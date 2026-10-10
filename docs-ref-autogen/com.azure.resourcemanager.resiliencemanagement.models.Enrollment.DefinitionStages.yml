@@ -1,0 +1,12 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.Enrollment.DefinitionStages"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.Enrollment.DefinitionStages"
+name: "Enrollment.DefinitionStages"
+nameWithType: "Enrollment.DefinitionStages"
+summary: "The Enrollment definition stages."
+syntax: "public static interface **Enrollment.DefinitionStages**"
+type: "interface"
+desc: "The Enrollment definition stages."
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

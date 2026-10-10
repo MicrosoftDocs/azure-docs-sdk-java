@@ -1,0 +1,134 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionSolutionType"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionSolutionType"
+name: "ResourceProtectionSolutionType"
+nameWithType: "ResourceProtectionSolutionType"
+summary: "Protection solution type for the resources by which recovery takes place."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ResourceProtectionSolutionType**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionSolutionType?alt=com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionSolutionType&text=ResourceProtectionSolutionType\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionSolutionType.ResourceProtectionSolutionType()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionSolutionType.ResourceProtectionSolutionType()"
+  name: "ResourceProtectionSolutionType()"
+  nameWithType: "ResourceProtectionSolutionType.ResourceProtectionSolutionType()"
+  summary: "Creates a new instance of Resource<wbr>Protection<wbr>Solution<wbr>Type value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionSolutionType.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public ResourceProtectionSolutionType()"
+  desc: "Creates a new instance of ResourceProtectionSolutionType value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionSolutionType.AZURE_NATIVE"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionSolutionType.AZURE_NATIVE"
+  name: "AZURE_NATIVE"
+  nameWithType: "ResourceProtectionSolutionType.AZURE_NATIVE"
+  summary: "Resource is protected with the Azure native solution provided by the native Azure service."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionSolutionType?alt=com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionSolutionType&text=ResourceProtectionSolutionType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ResourceProtectionSolutionType AZURE_NATIVE"
+  desc: "Resource is protected with the Azure native solution provided by the native Azure service."
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionSolutionType.AZURE_SITE_RECOVERY"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionSolutionType.AZURE_SITE_RECOVERY"
+  name: "AZURE_SITE_RECOVERY"
+  nameWithType: "ResourceProtectionSolutionType.AZURE_SITE_RECOVERY"
+  summary: "Resource protected with the Azure solution provided by the native Azure Site Service for Azure VMs."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionSolutionType?alt=com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionSolutionType&text=ResourceProtectionSolutionType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ResourceProtectionSolutionType AZURE_SITE_RECOVERY"
+  desc: "Resource protected with the Azure solution provided by the native Azure Site Service for Azure VMs."
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionSolutionType.CROSS_ZONE_VMRECOVERY"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionSolutionType.CROSS_ZONE_VMRECOVERY"
+  name: "CROSS_ZONE_VMRECOVERY"
+  nameWithType: "ResourceProtectionSolutionType.CROSS_ZONE_VMRECOVERY"
+  summary: "Cross zone recovery enabled Azure VMs."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionSolutionType?alt=com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionSolutionType&text=ResourceProtectionSolutionType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ResourceProtectionSolutionType CROSS_ZONE_VMRECOVERY"
+  desc: "Cross zone recovery enabled Azure VMs."
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionSolutionType.CUSTOM_RUNBOOK"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionSolutionType.CUSTOM_RUNBOOK"
+  name: "CUSTOM_RUNBOOK"
+  nameWithType: "ResourceProtectionSolutionType.CUSTOM_RUNBOOK"
+  summary: "Resource is not protected with native solution and using custom runbook automation scripts for recovery verbs."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionSolutionType?alt=com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionSolutionType&text=ResourceProtectionSolutionType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ResourceProtectionSolutionType CUSTOM_RUNBOOK"
+  desc: "Resource is not protected with native solution and using custom runbook automation scripts for recovery verbs."
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionSolutionType.NONE"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionSolutionType.NONE"
+  name: "NONE"
+  nameWithType: "ResourceProtectionSolutionType.NONE"
+  summary: "Resource is not protected with any protection solution."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionSolutionType?alt=com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionSolutionType&text=ResourceProtectionSolutionType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ResourceProtectionSolutionType NONE"
+  desc: "Resource is not protected with any protection solution."
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionSolutionType.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionSolutionType.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "ResourceProtectionSolutionType.fromString(String name)"
+  summary: "Creates or finds a Resource<wbr>Protection<wbr>Solution<wbr>Type from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static ResourceProtectionSolutionType fromString(String name)"
+  desc: "Creates or finds a ResourceProtectionSolutionType from its string representation."
+  returns:
+    description: "the corresponding ResourceProtectionSolutionType."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionSolutionType?alt=com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionSolutionType&text=ResourceProtectionSolutionType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionSolutionType.values()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionSolutionType.values()"
+  name: "values()"
+  nameWithType: "ResourceProtectionSolutionType.values()"
+  summary: "Gets known Resource<wbr>Protection<wbr>Solution<wbr>Type values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<ResourceProtectionSolutionType> values()"
+  desc: "Gets known ResourceProtectionSolutionType values."
+  returns:
+    description: "known ResourceProtectionSolutionType values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionSolutionType?alt=com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionSolutionType&text=ResourceProtectionSolutionType\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Protection solution type for the resources by which recovery takes place."
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

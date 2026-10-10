@@ -1,0 +1,27 @@
+### YamlMime:JavaPackage
+uid: "com.azure.resourcemanager.resiliencemanagement.fluent"
+fullName: "com.azure.resourcemanager.resiliencemanagement.fluent"
+name: "com.azure.resourcemanager.resiliencemanagement.fluent"
+summary: "Package containing the service clients for Resilience<wbr>Management."
+interfaces:
+- "com.azure.resourcemanager.resiliencemanagement.fluent.DrillResourcesClient"
+- "com.azure.resourcemanager.resiliencemanagement.fluent.DrillRunResourcesClient"
+- "com.azure.resourcemanager.resiliencemanagement.fluent.DrillRunsClient"
+- "com.azure.resourcemanager.resiliencemanagement.fluent.DrillsClient"
+- "com.azure.resourcemanager.resiliencemanagement.fluent.EnrollmentsClient"
+- "com.azure.resourcemanager.resiliencemanagement.fluent.GoalAssignmentsClient"
+- "com.azure.resourcemanager.resiliencemanagement.fluent.GoalResourcesClient"
+- "com.azure.resourcemanager.resiliencemanagement.fluent.OperationStatusClient"
+- "com.azure.resourcemanager.resiliencemanagement.fluent.OperationsClient"
+- "com.azure.resourcemanager.resiliencemanagement.fluent.RecoveryJobResourcesClient"
+- "com.azure.resourcemanager.resiliencemanagement.fluent.RecoveryJobsClient"
+- "com.azure.resourcemanager.resiliencemanagement.fluent.RecoveryPlanActionsClient"
+- "com.azure.resourcemanager.resiliencemanagement.fluent.RecoveryPlansClient"
+- "com.azure.resourcemanager.resiliencemanagement.fluent.RecoveryResourcesClient"
+- "com.azure.resourcemanager.resiliencemanagement.fluent.ResilienceManagementManagementClient"
+- "com.azure.resourcemanager.resiliencemanagement.fluent.UnifiedResilienceItemsClient"
+- "com.azure.resourcemanager.resiliencemanagement.fluent.UsagePlansClient"
+desc: "Package containing the service clients for ResilienceManagement."
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.fluent"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

@@ -1,0 +1,98 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.RelativeResourceCompositionState"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.RelativeResourceCompositionState"
+name: "RelativeResourceCompositionState"
+nameWithType: "RelativeResourceCompositionState"
+summary: "Enum for Attention<wbr>Reason - Resource state sync between two objects."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **RelativeResourceCompositionState**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RelativeResourceCompositionState?alt=com.azure.resourcemanager.resiliencemanagement.models.RelativeResourceCompositionState&text=RelativeResourceCompositionState\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.RelativeResourceCompositionState.RelativeResourceCompositionState()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.RelativeResourceCompositionState.RelativeResourceCompositionState()"
+  name: "RelativeResourceCompositionState()"
+  nameWithType: "RelativeResourceCompositionState.RelativeResourceCompositionState()"
+  summary: "Creates a new instance of Relative<wbr>Resource<wbr>Composition<wbr>State value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.resiliencemanagement.models.RelativeResourceCompositionState.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public RelativeResourceCompositionState()"
+  desc: "Creates a new instance of RelativeResourceCompositionState value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.RelativeResourceCompositionState.IN_SYNC"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.RelativeResourceCompositionState.IN_SYNC"
+  name: "IN_SYNC"
+  nameWithType: "RelativeResourceCompositionState.IN_SYNC"
+  summary: "Resources in sync."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RelativeResourceCompositionState?alt=com.azure.resourcemanager.resiliencemanagement.models.RelativeResourceCompositionState&text=RelativeResourceCompositionState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final RelativeResourceCompositionState IN_SYNC"
+  desc: "Resources in sync."
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.RelativeResourceCompositionState.OUT_OF_SYNC"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.RelativeResourceCompositionState.OUT_OF_SYNC"
+  name: "OUT_OF_SYNC"
+  nameWithType: "RelativeResourceCompositionState.OUT_OF_SYNC"
+  summary: "Resources out of sync."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RelativeResourceCompositionState?alt=com.azure.resourcemanager.resiliencemanagement.models.RelativeResourceCompositionState&text=RelativeResourceCompositionState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final RelativeResourceCompositionState OUT_OF_SYNC"
+  desc: "Resources out of sync."
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.RelativeResourceCompositionState.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.RelativeResourceCompositionState.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "RelativeResourceCompositionState.fromString(String name)"
+  summary: "Creates or finds a Relative<wbr>Resource<wbr>Composition<wbr>State from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static RelativeResourceCompositionState fromString(String name)"
+  desc: "Creates or finds a RelativeResourceCompositionState from its string representation."
+  returns:
+    description: "the corresponding RelativeResourceCompositionState."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RelativeResourceCompositionState?alt=com.azure.resourcemanager.resiliencemanagement.models.RelativeResourceCompositionState&text=RelativeResourceCompositionState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.RelativeResourceCompositionState.values()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.RelativeResourceCompositionState.values()"
+  name: "values()"
+  nameWithType: "RelativeResourceCompositionState.values()"
+  summary: "Gets known Relative<wbr>Resource<wbr>Composition<wbr>State values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<RelativeResourceCompositionState> values()"
+  desc: "Gets known RelativeResourceCompositionState values."
+  returns:
+    description: "known RelativeResourceCompositionState values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RelativeResourceCompositionState?alt=com.azure.resourcemanager.resiliencemanagement.models.RelativeResourceCompositionState&text=RelativeResourceCompositionState\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Enum for AttentionReason - Resource state sync between two objects."
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

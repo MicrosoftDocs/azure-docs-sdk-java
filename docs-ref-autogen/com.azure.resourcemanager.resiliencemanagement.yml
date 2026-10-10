@@ -1,0 +1,12 @@
+### YamlMime:JavaPackage
+uid: "com.azure.resourcemanager.resiliencemanagement"
+fullName: "com.azure.resourcemanager.resiliencemanagement"
+name: "com.azure.resourcemanager.resiliencemanagement"
+summary: "Package containing the classes for Resilience<wbr>Management."
+classes:
+- "com.azure.resourcemanager.resiliencemanagement.ResilienceManagementManager"
+- "com.azure.resourcemanager.resiliencemanagement.ResilienceManagementManager.Configurable"
+desc: "Package containing the classes for ResilienceManagement."
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

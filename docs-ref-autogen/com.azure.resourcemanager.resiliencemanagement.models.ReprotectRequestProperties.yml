@@ -1,0 +1,94 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequestProperties"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequestProperties"
+name: "ReprotectRequestProperties"
+nameWithType: "ReprotectRequestProperties"
+summary: "Additional properties for Reprotect."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ReprotectRequestProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequestProperties?alt=com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequestProperties&text=ReprotectRequestProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequestProperties.ReprotectRequestProperties()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequestProperties.ReprotectRequestProperties()"
+  name: "ReprotectRequestProperties()"
+  nameWithType: "ReprotectRequestProperties.ReprotectRequestProperties()"
+  summary: "Creates an instance of Reprotect<wbr>Request<wbr>Properties class."
+  syntax: "public ReprotectRequestProperties()"
+  desc: "Creates an instance of ReprotectRequestProperties class."
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequestProperties.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequestProperties.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "ReprotectRequestProperties.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Reprotect<wbr>Request<wbr>Properties from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static ReprotectRequestProperties fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the ReprotectRequestProperties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of ReprotectRequestProperties from the JsonReader."
+  returns:
+    description: "An instance of ReprotectRequestProperties if the JsonReader was pointing to an instance of it, or null if\n it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequestProperties?alt=com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequestProperties&text=ReprotectRequestProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequestProperties.selectedResourceIds()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequestProperties.selectedResourceIds()"
+  name: "selectedResourceIds()"
+  nameWithType: "ReprotectRequestProperties.selectedResourceIds()"
+  summary: "Get the selected<wbr>Resource<wbr>Ids property: Selected recovery resource Ids to be processed."
+  syntax: "public List<String> selectedResourceIds()"
+  desc: "Get the selectedResourceIds property: Selected recovery resource Ids to be processed. If not provided, all qualified resources will be processed."
+  returns:
+    description: "the selectedResourceIds value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequestProperties.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequestProperties.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "ReprotectRequestProperties.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequestProperties.withSelectedResourceIds(java.util.List<java.lang.String>)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequestProperties.withSelectedResourceIds(List<String> selectedResourceIds)"
+  name: "withSelectedResourceIds(List<String> selectedResourceIds)"
+  nameWithType: "ReprotectRequestProperties.withSelectedResourceIds(List<String> selectedResourceIds)"
+  summary: "Set the selected<wbr>Resource<wbr>Ids property: Selected recovery resource Ids to be processed."
+  parameters:
+  - description: "the selectedResourceIds value to set."
+    name: "selectedResourceIds"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+  syntax: "public ReprotectRequestProperties withSelectedResourceIds(List<String> selectedResourceIds)"
+  desc: "Set the selectedResourceIds property: Selected recovery resource Ids to be processed. If not provided, all qualified resources will be processed."
+  returns:
+    description: "the ReprotectRequestProperties object itself."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequestProperties?alt=com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequestProperties&text=ReprotectRequestProperties\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Additional properties for Reprotect."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequestProperties?alt=com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequestProperties&text=ReprotectRequestProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

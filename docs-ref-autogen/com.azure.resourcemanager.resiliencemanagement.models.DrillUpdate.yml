@@ -1,0 +1,118 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillUpdate"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillUpdate"
+name: "DrillUpdate"
+nameWithType: "DrillUpdate"
+summary: "The type used for update operations of the Drill."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **DrillUpdate**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillUpdate?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillUpdate&text=DrillUpdate\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillUpdate.DrillUpdate()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillUpdate.DrillUpdate()"
+  name: "DrillUpdate()"
+  nameWithType: "DrillUpdate.DrillUpdate()"
+  summary: "Creates an instance of Drill<wbr>Update class."
+  syntax: "public DrillUpdate()"
+  desc: "Creates an instance of DrillUpdate class."
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillUpdate.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillUpdate.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "DrillUpdate.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Drill<wbr>Update from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static DrillUpdate fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the DrillUpdate."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of DrillUpdate from the JsonReader."
+  returns:
+    description: "An instance of DrillUpdate if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillUpdate?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillUpdate&text=DrillUpdate\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillUpdate.identity()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillUpdate.identity()"
+  name: "identity()"
+  nameWithType: "DrillUpdate.identity()"
+  summary: "Get the identity property: The managed service identities assigned to this resource."
+  syntax: "public ManagedServiceIdentity identity()"
+  desc: "Get the identity property: The managed service identities assigned to this resource."
+  returns:
+    description: "the identity value."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ManagedServiceIdentity?alt=com.azure.resourcemanager.resiliencemanagement.models.ManagedServiceIdentity&text=ManagedServiceIdentity\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillUpdate.properties()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillUpdate.properties()"
+  name: "properties()"
+  nameWithType: "DrillUpdate.properties()"
+  summary: "Get the properties property: The resource-specific properties for this resource."
+  syntax: "public DrillUpdateProperties properties()"
+  desc: "Get the properties property: The resource-specific properties for this resource."
+  returns:
+    description: "the properties value."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillUpdateProperties?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillUpdateProperties&text=DrillUpdateProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillUpdate.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillUpdate.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "DrillUpdate.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillUpdate.withIdentity(com.azure.resourcemanager.resiliencemanagement.models.ManagedServiceIdentity)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillUpdate.withIdentity(ManagedServiceIdentity identity)"
+  name: "withIdentity(ManagedServiceIdentity identity)"
+  nameWithType: "DrillUpdate.withIdentity(ManagedServiceIdentity identity)"
+  summary: "Set the identity property: The managed service identities assigned to this resource."
+  parameters:
+  - description: "the identity value to set."
+    name: "identity"
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ManagedServiceIdentity?alt=com.azure.resourcemanager.resiliencemanagement.models.ManagedServiceIdentity&text=ManagedServiceIdentity\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public DrillUpdate withIdentity(ManagedServiceIdentity identity)"
+  desc: "Set the identity property: The managed service identities assigned to this resource."
+  returns:
+    description: "the DrillUpdate object itself."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillUpdate?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillUpdate&text=DrillUpdate\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillUpdate.withProperties(com.azure.resourcemanager.resiliencemanagement.models.DrillUpdateProperties)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillUpdate.withProperties(DrillUpdateProperties properties)"
+  name: "withProperties(DrillUpdateProperties properties)"
+  nameWithType: "DrillUpdate.withProperties(DrillUpdateProperties properties)"
+  summary: "Set the properties property: The resource-specific properties for this resource."
+  parameters:
+  - description: "the properties value to set."
+    name: "properties"
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillUpdateProperties?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillUpdateProperties&text=DrillUpdateProperties\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public DrillUpdate withProperties(DrillUpdateProperties properties)"
+  desc: "Set the properties property: The resource-specific properties for this resource."
+  returns:
+    description: "the DrillUpdate object itself."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillUpdate?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillUpdate&text=DrillUpdate\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "The type used for update operations of the Drill."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillUpdate?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillUpdate&text=DrillUpdate\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

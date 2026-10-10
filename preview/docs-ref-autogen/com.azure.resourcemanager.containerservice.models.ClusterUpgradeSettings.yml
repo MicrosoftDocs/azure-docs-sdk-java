@@ -71,6 +71,16 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.containerservice.models.ClusterUpgradeSettings.upgradeGateSettings()"
+  fullName: "com.azure.resourcemanager.containerservice.models.ClusterUpgradeSettings.upgradeGateSettings()"
+  name: "upgradeGateSettings()"
+  nameWithType: "ClusterUpgradeSettings.upgradeGateSettings()"
+  summary: "Get the upgrade<wbr>Gate<wbr>Settings property: Settings for upgrade gating on upgrades in this managed cluster."
+  syntax: "public UpgradeGateSettings upgradeGateSettings()"
+  desc: "Get the upgradeGateSettings property: Settings for upgrade gating on upgrades in this managed cluster. Health signals are \\`HealthSignal\\` custom resources published by monitoring components running in the cluster. Setting \\`enabled\\` to \\`true\\` here is a cluster-wide opt-in that applies to all agent pool upgrades in this cluster; an agent pool cannot opt out of it."
+  returns:
+    description: "the upgradeGateSettings value."
+    type: "<xref href=\"com.azure.resourcemanager.containerservice.models.UpgradeGateSettings?alt=com.azure.resourcemanager.containerservice.models.UpgradeGateSettings&text=UpgradeGateSettings\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.containerservice.models.ClusterUpgradeSettings.validate()"
   fullName: "com.azure.resourcemanager.containerservice.models.ClusterUpgradeSettings.validate()"
   name: "validate()"
@@ -92,10 +102,24 @@ methods:
   returns:
     description: "the ClusterUpgradeSettings object itself."
     type: "<xref href=\"com.azure.resourcemanager.containerservice.models.ClusterUpgradeSettings?alt=com.azure.resourcemanager.containerservice.models.ClusterUpgradeSettings&text=ClusterUpgradeSettings\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.containerservice.models.ClusterUpgradeSettings.withUpgradeGateSettings(com.azure.resourcemanager.containerservice.models.UpgradeGateSettings)"
+  fullName: "com.azure.resourcemanager.containerservice.models.ClusterUpgradeSettings.withUpgradeGateSettings(UpgradeGateSettings upgradeGateSettings)"
+  name: "withUpgradeGateSettings(UpgradeGateSettings upgradeGateSettings)"
+  nameWithType: "ClusterUpgradeSettings.withUpgradeGateSettings(UpgradeGateSettings upgradeGateSettings)"
+  summary: "Set the upgrade<wbr>Gate<wbr>Settings property: Settings for upgrade gating on upgrades in this managed cluster."
+  parameters:
+  - description: "the upgradeGateSettings value to set."
+    name: "upgradeGateSettings"
+    type: "<xref href=\"com.azure.resourcemanager.containerservice.models.UpgradeGateSettings?alt=com.azure.resourcemanager.containerservice.models.UpgradeGateSettings&text=UpgradeGateSettings\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ClusterUpgradeSettings withUpgradeGateSettings(UpgradeGateSettings upgradeGateSettings)"
+  desc: "Set the upgradeGateSettings property: Settings for upgrade gating on upgrades in this managed cluster. Health signals are \\`HealthSignal\\` custom resources published by monitoring components running in the cluster. Setting \\`enabled\\` to \\`true\\` here is a cluster-wide opt-in that applies to all agent pool upgrades in this cluster; an agent pool cannot opt out of it."
+  returns:
+    description: "the ClusterUpgradeSettings object itself."
+    type: "<xref href=\"com.azure.resourcemanager.containerservice.models.ClusterUpgradeSettings?alt=com.azure.resourcemanager.containerservice.models.ClusterUpgradeSettings&text=ClusterUpgradeSettings\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Settings for upgrading a cluster."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.containerservice.models.ClusterUpgradeSettings?alt=com.azure.resourcemanager.containerservice.models.ClusterUpgradeSettings&text=ClusterUpgradeSettings\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.containerservice.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-containerservice:2.64.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerservice:2.65.0-beta.1

@@ -1,0 +1,118 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillRunFailoverRequest"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillRunFailoverRequest"
+name: "DrillRunFailoverRequest"
+nameWithType: "DrillRunFailoverRequest"
+summary: "Request body for Failover API."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **DrillRunFailoverRequest**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillRunFailoverRequest?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillRunFailoverRequest&text=DrillRunFailoverRequest\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillRunFailoverRequest.DrillRunFailoverRequest()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillRunFailoverRequest.DrillRunFailoverRequest()"
+  name: "DrillRunFailoverRequest()"
+  nameWithType: "DrillRunFailoverRequest.DrillRunFailoverRequest()"
+  summary: "Creates an instance of Drill<wbr>Run<wbr>Failover<wbr>Request class."
+  syntax: "public DrillRunFailoverRequest()"
+  desc: "Creates an instance of DrillRunFailoverRequest class."
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillRunFailoverRequest.autoFailover()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillRunFailoverRequest.autoFailover()"
+  name: "autoFailover()"
+  nameWithType: "DrillRunFailoverRequest.autoFailover()"
+  summary: "Get the auto<wbr>Failover property: Auto<wbr>Failover - whether to pause between Fault and Failover for manual input."
+  syntax: "public AutoFailover autoFailover()"
+  desc: "Get the autoFailover property: AutoFailover - whether to pause between Fault and Failover for manual input."
+  returns:
+    description: "the autoFailover value."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.AutoFailover?alt=com.azure.resourcemanager.resiliencemanagement.models.AutoFailover&text=AutoFailover\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillRunFailoverRequest.failoverProperties()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillRunFailoverRequest.failoverProperties()"
+  name: "failoverProperties()"
+  nameWithType: "DrillRunFailoverRequest.failoverProperties()"
+  summary: "Get the failover<wbr>Properties property: The failover properties."
+  syntax: "public FailoverRequest failoverProperties()"
+  desc: "Get the failoverProperties property: The failover properties."
+  returns:
+    description: "the failoverProperties value."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.FailoverRequest?alt=com.azure.resourcemanager.resiliencemanagement.models.FailoverRequest&text=FailoverRequest\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillRunFailoverRequest.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillRunFailoverRequest.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "DrillRunFailoverRequest.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Drill<wbr>Run<wbr>Failover<wbr>Request from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static DrillRunFailoverRequest fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of DrillRunFailoverRequest from the JsonReader."
+  returns:
+    description: "An instance of DrillRunFailoverRequest if the JsonReader was pointing to an instance of it, or null if it\n was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillRunFailoverRequest?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillRunFailoverRequest&text=DrillRunFailoverRequest\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillRunFailoverRequest.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillRunFailoverRequest.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "DrillRunFailoverRequest.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillRunFailoverRequest.withAutoFailover(com.azure.resourcemanager.resiliencemanagement.models.AutoFailover)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillRunFailoverRequest.withAutoFailover(AutoFailover autoFailover)"
+  name: "withAutoFailover(AutoFailover autoFailover)"
+  nameWithType: "DrillRunFailoverRequest.withAutoFailover(AutoFailover autoFailover)"
+  summary: "Set the auto<wbr>Failover property: Auto<wbr>Failover - whether to pause between Fault and Failover for manual input."
+  parameters:
+  - description: "the autoFailover value to set."
+    name: "autoFailover"
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.AutoFailover?alt=com.azure.resourcemanager.resiliencemanagement.models.AutoFailover&text=AutoFailover\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public DrillRunFailoverRequest withAutoFailover(AutoFailover autoFailover)"
+  desc: "Set the autoFailover property: AutoFailover - whether to pause between Fault and Failover for manual input."
+  returns:
+    description: "the DrillRunFailoverRequest object itself."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillRunFailoverRequest?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillRunFailoverRequest&text=DrillRunFailoverRequest\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillRunFailoverRequest.withFailoverProperties(com.azure.resourcemanager.resiliencemanagement.models.FailoverRequest)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillRunFailoverRequest.withFailoverProperties(FailoverRequest failoverProperties)"
+  name: "withFailoverProperties(FailoverRequest failoverProperties)"
+  nameWithType: "DrillRunFailoverRequest.withFailoverProperties(FailoverRequest failoverProperties)"
+  summary: "Set the failover<wbr>Properties property: The failover properties."
+  parameters:
+  - description: "the failoverProperties value to set."
+    name: "failoverProperties"
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.FailoverRequest?alt=com.azure.resourcemanager.resiliencemanagement.models.FailoverRequest&text=FailoverRequest\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public DrillRunFailoverRequest withFailoverProperties(FailoverRequest failoverProperties)"
+  desc: "Set the failoverProperties property: The failover properties."
+  returns:
+    description: "the DrillRunFailoverRequest object itself."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillRunFailoverRequest?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillRunFailoverRequest&text=DrillRunFailoverRequest\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Request body for Failover API."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillRunFailoverRequest?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillRunFailoverRequest&text=DrillRunFailoverRequest\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

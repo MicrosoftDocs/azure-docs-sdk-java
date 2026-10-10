@@ -1,0 +1,122 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionStatus"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionStatus"
+name: "ResourceProtectionStatus"
+nameWithType: "ResourceProtectionStatus"
+summary: "A state type that indicates the protection status of a resource with an Azure solution for regional or zonal recovery."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ResourceProtectionStatus**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionStatus?alt=com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionStatus&text=ResourceProtectionStatus\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionStatus.ResourceProtectionStatus()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionStatus.ResourceProtectionStatus()"
+  name: "ResourceProtectionStatus()"
+  nameWithType: "ResourceProtectionStatus.ResourceProtectionStatus()"
+  summary: "Creates a new instance of Resource<wbr>Protection<wbr>Status value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionStatus.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public ResourceProtectionStatus()"
+  desc: "Creates a new instance of ResourceProtectionStatus value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionStatus.HIGHLY_AVAILABLE"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionStatus.HIGHLY_AVAILABLE"
+  name: "HIGHLY_AVAILABLE"
+  nameWithType: "ResourceProtectionStatus.HIGHLY_AVAILABLE"
+  summary: "A state indicating that the resource is protected by the highly available recovery solution."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionStatus?alt=com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionStatus&text=ResourceProtectionStatus\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ResourceProtectionStatus HIGHLY_AVAILABLE"
+  desc: "A state indicating that the resource is protected by the highly available recovery solution."
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionStatus.NOT_PROTECTED"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionStatus.NOT_PROTECTED"
+  name: "NOT_PROTECTED"
+  nameWithType: "ResourceProtectionStatus.NOT_PROTECTED"
+  summary: "A state indicating that the resource is not protected by any recovery solution."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionStatus?alt=com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionStatus&text=ResourceProtectionStatus\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ResourceProtectionStatus NOT_PROTECTED"
+  desc: "A state indicating that the resource is not protected by any recovery solution."
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionStatus.PROTECTED"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionStatus.PROTECTED"
+  name: "PROTECTED"
+  nameWithType: "ResourceProtectionStatus.PROTECTED"
+  summary: "A state indicating that the resource is protected by the recovery solution."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionStatus?alt=com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionStatus&text=ResourceProtectionStatus\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ResourceProtectionStatus PROTECTED"
+  desc: "A state indicating that the resource is protected by the recovery solution."
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionStatus.UNKNOWN"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionStatus.UNKNOWN"
+  name: "UNKNOWN"
+  nameWithType: "ResourceProtectionStatus.UNKNOWN"
+  summary: "The protection status of the resource is unknown."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionStatus?alt=com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionStatus&text=ResourceProtectionStatus\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ResourceProtectionStatus UNKNOWN"
+  desc: "The protection status of the resource is unknown."
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionStatus.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionStatus.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "ResourceProtectionStatus.fromString(String name)"
+  summary: "Creates or finds a Resource<wbr>Protection<wbr>Status from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static ResourceProtectionStatus fromString(String name)"
+  desc: "Creates or finds a ResourceProtectionStatus from its string representation."
+  returns:
+    description: "the corresponding ResourceProtectionStatus."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionStatus?alt=com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionStatus&text=ResourceProtectionStatus\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionStatus.values()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionStatus.values()"
+  name: "values()"
+  nameWithType: "ResourceProtectionStatus.values()"
+  summary: "Gets known Resource<wbr>Protection<wbr>Status values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<ResourceProtectionStatus> values()"
+  desc: "Gets known ResourceProtectionStatus values."
+  returns:
+    description: "known ResourceProtectionStatus values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionStatus?alt=com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionStatus&text=ResourceProtectionStatus\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "A state type that indicates the protection status of a resource with an Azure solution for regional or zonal recovery."
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

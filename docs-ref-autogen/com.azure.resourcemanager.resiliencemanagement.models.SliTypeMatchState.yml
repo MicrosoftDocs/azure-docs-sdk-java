@@ -1,0 +1,98 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.SliTypeMatchState"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.SliTypeMatchState"
+name: "SliTypeMatchState"
+nameWithType: "SliTypeMatchState"
+summary: "Whether the user-declared SLI type matches the SLI's actual category."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **SliTypeMatchState**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.SliTypeMatchState?alt=com.azure.resourcemanager.resiliencemanagement.models.SliTypeMatchState&text=SliTypeMatchState\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.SliTypeMatchState.SliTypeMatchState()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.SliTypeMatchState.SliTypeMatchState()"
+  name: "SliTypeMatchState()"
+  nameWithType: "SliTypeMatchState.SliTypeMatchState()"
+  summary: "Creates a new instance of Sli<wbr>Type<wbr>Match<wbr>State value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.resiliencemanagement.models.SliTypeMatchState.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public SliTypeMatchState()"
+  desc: "Creates a new instance of SliTypeMatchState value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.SliTypeMatchState.MATCHED"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.SliTypeMatchState.MATCHED"
+  name: "MATCHED"
+  nameWithType: "SliTypeMatchState.MATCHED"
+  summary: "Declared type matches the SLI's actual category."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.SliTypeMatchState?alt=com.azure.resourcemanager.resiliencemanagement.models.SliTypeMatchState&text=SliTypeMatchState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final SliTypeMatchState MATCHED"
+  desc: "Declared type matches the SLI's actual category."
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.SliTypeMatchState.MISMATCHED"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.SliTypeMatchState.MISMATCHED"
+  name: "MISMATCHED"
+  nameWithType: "SliTypeMatchState.MISMATCHED"
+  summary: "Declared type does not match the SLI's actual category."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.SliTypeMatchState?alt=com.azure.resourcemanager.resiliencemanagement.models.SliTypeMatchState&text=SliTypeMatchState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final SliTypeMatchState MISMATCHED"
+  desc: "Declared type does not match the SLI's actual category."
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.SliTypeMatchState.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.SliTypeMatchState.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "SliTypeMatchState.fromString(String name)"
+  summary: "Creates or finds a Sli<wbr>Type<wbr>Match<wbr>State from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static SliTypeMatchState fromString(String name)"
+  desc: "Creates or finds a SliTypeMatchState from its string representation."
+  returns:
+    description: "the corresponding SliTypeMatchState."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.SliTypeMatchState?alt=com.azure.resourcemanager.resiliencemanagement.models.SliTypeMatchState&text=SliTypeMatchState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.SliTypeMatchState.values()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.SliTypeMatchState.values()"
+  name: "values()"
+  nameWithType: "SliTypeMatchState.values()"
+  summary: "Gets known Sli<wbr>Type<wbr>Match<wbr>State values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<SliTypeMatchState> values()"
+  desc: "Gets known SliTypeMatchState values."
+  returns:
+    description: "known SliTypeMatchState values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.SliTypeMatchState?alt=com.azure.resourcemanager.resiliencemanagement.models.SliTypeMatchState&text=SliTypeMatchState\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Whether the user-declared SLI type matches the SLI's actual category."
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

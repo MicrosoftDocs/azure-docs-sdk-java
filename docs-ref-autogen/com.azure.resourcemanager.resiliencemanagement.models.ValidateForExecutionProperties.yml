@@ -1,0 +1,118 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.ValidateForExecutionProperties"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.ValidateForExecutionProperties"
+name: "ValidateForExecutionProperties"
+nameWithType: "ValidateForExecutionProperties"
+summary: "Additional properties for Failover."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ValidateForExecutionProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ValidateForExecutionProperties?alt=com.azure.resourcemanager.resiliencemanagement.models.ValidateForExecutionProperties&text=ValidateForExecutionProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ValidateForExecutionProperties.ValidateForExecutionProperties()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ValidateForExecutionProperties.ValidateForExecutionProperties()"
+  name: "ValidateForExecutionProperties()"
+  nameWithType: "ValidateForExecutionProperties.ValidateForExecutionProperties()"
+  summary: "Creates an instance of Validate<wbr>For<wbr>Execution<wbr>Properties class."
+  syntax: "public ValidateForExecutionProperties()"
+  desc: "Creates an instance of ValidateForExecutionProperties class."
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ValidateForExecutionProperties.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ValidateForExecutionProperties.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "ValidateForExecutionProperties.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Validate<wbr>For<wbr>Execution<wbr>Properties from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static ValidateForExecutionProperties fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the ValidateForExecutionProperties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of ValidateForExecutionProperties from the JsonReader."
+  returns:
+    description: "An instance of ValidateForExecutionProperties if the JsonReader was pointing to an instance of it, or\n null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ValidateForExecutionProperties?alt=com.azure.resourcemanager.resiliencemanagement.models.ValidateForExecutionProperties&text=ValidateForExecutionProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ValidateForExecutionProperties.operationName()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ValidateForExecutionProperties.operationName()"
+  name: "operationName()"
+  nameWithType: "ValidateForExecutionProperties.operationName()"
+  summary: "Get the operation<wbr>Name property: Operation name for which the validation is being done."
+  syntax: "public DrillRunTasks operationName()"
+  desc: "Get the operationName property: Operation name for which the validation is being done. This is needed to determine the set of validations to be done for the operation."
+  returns:
+    description: "the operationName value."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillRunTasks?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillRunTasks&text=DrillRunTasks\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ValidateForExecutionProperties.sourceLocations()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ValidateForExecutionProperties.sourceLocations()"
+  name: "sourceLocations()"
+  nameWithType: "ValidateForExecutionProperties.sourceLocations()"
+  summary: "Get the source<wbr>Locations property: Physiscal Source locations from where resources to be failed-over or faulted."
+  syntax: "public List<String> sourceLocations()"
+  desc: "Get the sourceLocations property: Physiscal Source locations from where resources to be failed-over or faulted."
+  returns:
+    description: "the sourceLocations value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ValidateForExecutionProperties.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ValidateForExecutionProperties.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "ValidateForExecutionProperties.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ValidateForExecutionProperties.withOperationName(com.azure.resourcemanager.resiliencemanagement.models.DrillRunTasks)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ValidateForExecutionProperties.withOperationName(DrillRunTasks operationName)"
+  name: "withOperationName(DrillRunTasks operationName)"
+  nameWithType: "ValidateForExecutionProperties.withOperationName(DrillRunTasks operationName)"
+  summary: "Set the operation<wbr>Name property: Operation name for which the validation is being done."
+  parameters:
+  - description: "the operationName value to set."
+    name: "operationName"
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillRunTasks?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillRunTasks&text=DrillRunTasks\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ValidateForExecutionProperties withOperationName(DrillRunTasks operationName)"
+  desc: "Set the operationName property: Operation name for which the validation is being done. This is needed to determine the set of validations to be done for the operation."
+  returns:
+    description: "the ValidateForExecutionProperties object itself."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ValidateForExecutionProperties?alt=com.azure.resourcemanager.resiliencemanagement.models.ValidateForExecutionProperties&text=ValidateForExecutionProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ValidateForExecutionProperties.withSourceLocations(java.util.List<java.lang.String>)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ValidateForExecutionProperties.withSourceLocations(List<String> sourceLocations)"
+  name: "withSourceLocations(List<String> sourceLocations)"
+  nameWithType: "ValidateForExecutionProperties.withSourceLocations(List<String> sourceLocations)"
+  summary: "Set the source<wbr>Locations property: Physiscal Source locations from where resources to be failed-over or faulted."
+  parameters:
+  - description: "the sourceLocations value to set."
+    name: "sourceLocations"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+  syntax: "public ValidateForExecutionProperties withSourceLocations(List<String> sourceLocations)"
+  desc: "Set the sourceLocations property: Physiscal Source locations from where resources to be failed-over or faulted."
+  returns:
+    description: "the ValidateForExecutionProperties object itself."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ValidateForExecutionProperties?alt=com.azure.resourcemanager.resiliencemanagement.models.ValidateForExecutionProperties&text=ValidateForExecutionProperties\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Additional properties for Failover."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ValidateForExecutionProperties?alt=com.azure.resourcemanager.resiliencemanagement.models.ValidateForExecutionProperties&text=ValidateForExecutionProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

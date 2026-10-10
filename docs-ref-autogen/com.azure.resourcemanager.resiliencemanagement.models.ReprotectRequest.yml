@@ -1,0 +1,94 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequest"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequest"
+name: "ReprotectRequest"
+nameWithType: "ReprotectRequest"
+summary: "Reprotect post action request."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ReprotectRequest**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequest?alt=com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequest&text=ReprotectRequest\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequest.ReprotectRequest()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequest.ReprotectRequest()"
+  name: "ReprotectRequest()"
+  nameWithType: "ReprotectRequest.ReprotectRequest()"
+  summary: "Creates an instance of Reprotect<wbr>Request class."
+  syntax: "public ReprotectRequest()"
+  desc: "Creates an instance of ReprotectRequest class."
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequest.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequest.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "ReprotectRequest.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Reprotect<wbr>Request from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static ReprotectRequest fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the ReprotectRequest."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of ReprotectRequest from the JsonReader."
+  returns:
+    description: "An instance of ReprotectRequest if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequest?alt=com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequest&text=ReprotectRequest\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequest.reprotectRequestProperties()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequest.reprotectRequestProperties()"
+  name: "reprotectRequestProperties()"
+  nameWithType: "ReprotectRequest.reprotectRequestProperties()"
+  summary: "Get the reprotect<wbr>Request<wbr>Properties property: Additional properties for Reprotect."
+  syntax: "public ReprotectRequestProperties reprotectRequestProperties()"
+  desc: "Get the reprotectRequestProperties property: Additional properties for Reprotect."
+  returns:
+    description: "the reprotectRequestProperties value."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequestProperties?alt=com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequestProperties&text=ReprotectRequestProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequest.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequest.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "ReprotectRequest.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequest.withReprotectRequestProperties(com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequestProperties)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequest.withReprotectRequestProperties(ReprotectRequestProperties reprotectRequestProperties)"
+  name: "withReprotectRequestProperties(ReprotectRequestProperties reprotectRequestProperties)"
+  nameWithType: "ReprotectRequest.withReprotectRequestProperties(ReprotectRequestProperties reprotectRequestProperties)"
+  summary: "Set the reprotect<wbr>Request<wbr>Properties property: Additional properties for Reprotect."
+  parameters:
+  - description: "the reprotectRequestProperties value to set."
+    name: "reprotectRequestProperties"
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequestProperties?alt=com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequestProperties&text=ReprotectRequestProperties\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ReprotectRequest withReprotectRequestProperties(ReprotectRequestProperties reprotectRequestProperties)"
+  desc: "Set the reprotectRequestProperties property: Additional properties for Reprotect."
+  returns:
+    description: "the ReprotectRequest object itself."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequest?alt=com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequest&text=ReprotectRequest\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Reprotect post action request."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequest?alt=com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequest&text=ReprotectRequest\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

@@ -1,0 +1,61 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.ListReportDownloadUrlResponse"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.ListReportDownloadUrlResponse"
+name: "ListReportDownloadUrlResponse"
+nameWithType: "ListReportDownloadUrlResponse"
+summary: "An immutable client-side representation of List<wbr>Report<wbr>Download<wbr>Url<wbr>Response."
+syntax: "public interface **ListReportDownloadUrlResponse**"
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ListReportDownloadUrlResponse.downloadUrl()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ListReportDownloadUrlResponse.downloadUrl()"
+  name: "downloadUrl()"
+  nameWithType: "ListReportDownloadUrlResponse.downloadUrl()"
+  summary: "Gets the download<wbr>Url property: Short-lived, read-only URL to download the report."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String downloadUrl()"
+  desc: "Gets the downloadUrl property: Short-lived, read-only URL to download the report."
+  returns:
+    description: "the downloadUrl value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ListReportDownloadUrlResponse.expiryTimestamp()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ListReportDownloadUrlResponse.expiryTimestamp()"
+  name: "expiryTimestamp()"
+  nameWithType: "ListReportDownloadUrlResponse.expiryTimestamp()"
+  summary: "Gets the expiry<wbr>Timestamp property: Timestamp at which the download URL expires."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract OffsetDateTime expiryTimestamp()"
+  desc: "Gets the expiryTimestamp property: Timestamp at which the download URL expires."
+  returns:
+    description: "the expiryTimestamp value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ListReportDownloadUrlResponse.format()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ListReportDownloadUrlResponse.format()"
+  name: "format()"
+  nameWithType: "ListReportDownloadUrlResponse.format()"
+  summary: "Gets the format property: Format of the report the download URL refers to."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract DrillReportFormat format()"
+  desc: "Gets the format property: Format of the report the download URL refers to."
+  returns:
+    description: "the format value."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillReportFormat?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillReportFormat&text=DrillReportFormat\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ListReportDownloadUrlResponse.innerModel()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ListReportDownloadUrlResponse.innerModel()"
+  name: "innerModel()"
+  nameWithType: "ListReportDownloadUrlResponse.innerModel()"
+  summary: "Gets the inner com.<wbr>azure.<wbr>resourcemanager.<wbr>resiliencemanagement.<wbr>fluent.<wbr>models.<wbr>List<wbr>Report<wbr>Download<wbr>Url<wbr>Response<wbr>Inner object."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ListReportDownloadUrlResponseInner innerModel()"
+  desc: "Gets the inner com.azure.resourcemanager.resiliencemanagement.fluent.models.ListReportDownloadUrlResponseInner object."
+  returns:
+    description: "the inner object."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.fluent.models.ListReportDownloadUrlResponseInner?alt=com.azure.resourcemanager.resiliencemanagement.fluent.models.ListReportDownloadUrlResponseInner&text=ListReportDownloadUrlResponseInner\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "An immutable client-side representation of ListReportDownloadUrlResponse."
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

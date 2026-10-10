@@ -1,0 +1,98 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.VMPresent"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.VMPresent"
+name: "VMPresent"
+nameWithType: "VMPresent"
+summary: "Enum for VM presence."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **VMPresent**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.VMPresent?alt=com.azure.resourcemanager.resiliencemanagement.models.VMPresent&text=VMPresent\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.VMPresent.VMPresent()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.VMPresent.VMPresent()"
+  name: "VMPresent()"
+  nameWithType: "VMPresent.VMPresent()"
+  summary: "Creates a new instance of VMPresent value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.resiliencemanagement.models.VMPresent.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public VMPresent()"
+  desc: "Creates a new instance of VMPresent value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.VMPresent.ABSENT"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.VMPresent.ABSENT"
+  name: "ABSENT"
+  nameWithType: "VMPresent.ABSENT"
+  summary: "No VM present."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.VMPresent?alt=com.azure.resourcemanager.resiliencemanagement.models.VMPresent&text=VMPresent\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final VMPresent ABSENT"
+  desc: "No VM present."
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.VMPresent.PRESENT"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.VMPresent.PRESENT"
+  name: "PRESENT"
+  nameWithType: "VMPresent.PRESENT"
+  summary: "At least one VM is present."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.VMPresent?alt=com.azure.resourcemanager.resiliencemanagement.models.VMPresent&text=VMPresent\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final VMPresent PRESENT"
+  desc: "At least one VM is present."
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.VMPresent.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.VMPresent.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "VMPresent.fromString(String name)"
+  summary: "Creates or finds a VMPresent from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static VMPresent fromString(String name)"
+  desc: "Creates or finds a VMPresent from its string representation."
+  returns:
+    description: "the corresponding VMPresent."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.VMPresent?alt=com.azure.resourcemanager.resiliencemanagement.models.VMPresent&text=VMPresent\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.VMPresent.values()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.VMPresent.values()"
+  name: "values()"
+  nameWithType: "VMPresent.values()"
+  summary: "Gets known VMPresent values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<VMPresent> values()"
+  desc: "Gets known VMPresent values."
+  returns:
+    description: "known VMPresent values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.VMPresent?alt=com.azure.resourcemanager.resiliencemanagement.models.VMPresent&text=VMPresent\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Enum for VM presence."
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

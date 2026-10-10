@@ -1,0 +1,118 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.HealthModelMonitoringProperties"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.HealthModelMonitoringProperties"
+name: "HealthModelMonitoringProperties"
+nameWithType: "HealthModelMonitoringProperties"
+summary: "Azure Health Model monitoring properties of a Drill."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **HealthModelMonitoringProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.HealthModelMonitoringProperties?alt=com.azure.resourcemanager.resiliencemanagement.models.HealthModelMonitoringProperties&text=HealthModelMonitoringProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.HealthModelMonitoringProperties.HealthModelMonitoringProperties()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.HealthModelMonitoringProperties.HealthModelMonitoringProperties()"
+  name: "HealthModelMonitoringProperties()"
+  nameWithType: "HealthModelMonitoringProperties.HealthModelMonitoringProperties()"
+  summary: "Creates an instance of Health<wbr>Model<wbr>Monitoring<wbr>Properties class."
+  syntax: "public HealthModelMonitoringProperties()"
+  desc: "Creates an instance of HealthModelMonitoringProperties class."
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.HealthModelMonitoringProperties.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.HealthModelMonitoringProperties.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "HealthModelMonitoringProperties.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Health<wbr>Model<wbr>Monitoring<wbr>Properties from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static HealthModelMonitoringProperties fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of HealthModelMonitoringProperties from the JsonReader."
+  returns:
+    description: "An instance of HealthModelMonitoringProperties if the JsonReader was pointing to an instance of it, or\n null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.HealthModelMonitoringProperties?alt=com.azure.resourcemanager.resiliencemanagement.models.HealthModelMonitoringProperties&text=HealthModelMonitoringProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.HealthModelMonitoringProperties.healthModelId()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.HealthModelMonitoringProperties.healthModelId()"
+  name: "healthModelId()"
+  nameWithType: "HealthModelMonitoringProperties.healthModelId()"
+  summary: "Get the health<wbr>Model<wbr>Id property: Full ARM Id of the Azure Health Model selected for Drill monitoring."
+  syntax: "public String healthModelId()"
+  desc: "Get the healthModelId property: Full ARM Id of the Azure Health Model selected for Drill monitoring."
+  returns:
+    description: "the healthModelId value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.HealthModelMonitoringProperties.identity()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.HealthModelMonitoringProperties.identity()"
+  name: "identity()"
+  nameWithType: "HealthModelMonitoringProperties.identity()"
+  summary: "Get the identity property: Identity that the Drill uses to read the Azure Health Model."
+  syntax: "public AssociatedIdentity identity()"
+  desc: "Get the identity property: Identity that the Drill uses to read the Azure Health Model. The Drill is granted Reader on the Health Model for this identity."
+  returns:
+    description: "the identity value."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.AssociatedIdentity?alt=com.azure.resourcemanager.resiliencemanagement.models.AssociatedIdentity&text=AssociatedIdentity\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.HealthModelMonitoringProperties.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.HealthModelMonitoringProperties.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "HealthModelMonitoringProperties.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.HealthModelMonitoringProperties.withHealthModelId(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.HealthModelMonitoringProperties.withHealthModelId(String healthModelId)"
+  name: "withHealthModelId(String healthModelId)"
+  nameWithType: "HealthModelMonitoringProperties.withHealthModelId(String healthModelId)"
+  summary: "Set the health<wbr>Model<wbr>Id property: Full ARM Id of the Azure Health Model selected for Drill monitoring."
+  parameters:
+  - description: "the healthModelId value to set."
+    name: "healthModelId"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public HealthModelMonitoringProperties withHealthModelId(String healthModelId)"
+  desc: "Set the healthModelId property: Full ARM Id of the Azure Health Model selected for Drill monitoring."
+  returns:
+    description: "the HealthModelMonitoringProperties object itself."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.HealthModelMonitoringProperties?alt=com.azure.resourcemanager.resiliencemanagement.models.HealthModelMonitoringProperties&text=HealthModelMonitoringProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.HealthModelMonitoringProperties.withIdentity(com.azure.resourcemanager.resiliencemanagement.models.AssociatedIdentity)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.HealthModelMonitoringProperties.withIdentity(AssociatedIdentity identity)"
+  name: "withIdentity(AssociatedIdentity identity)"
+  nameWithType: "HealthModelMonitoringProperties.withIdentity(AssociatedIdentity identity)"
+  summary: "Set the identity property: Identity that the Drill uses to read the Azure Health Model."
+  parameters:
+  - description: "the identity value to set."
+    name: "identity"
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.AssociatedIdentity?alt=com.azure.resourcemanager.resiliencemanagement.models.AssociatedIdentity&text=AssociatedIdentity\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public HealthModelMonitoringProperties withIdentity(AssociatedIdentity identity)"
+  desc: "Set the identity property: Identity that the Drill uses to read the Azure Health Model. The Drill is granted Reader on the Health Model for this identity."
+  returns:
+    description: "the HealthModelMonitoringProperties object itself."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.HealthModelMonitoringProperties?alt=com.azure.resourcemanager.resiliencemanagement.models.HealthModelMonitoringProperties&text=HealthModelMonitoringProperties\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Azure Health Model monitoring properties of a Drill. Exactly one Health Model may be selected per Drill."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.HealthModelMonitoringProperties?alt=com.azure.resourcemanager.resiliencemanagement.models.HealthModelMonitoringProperties&text=HealthModelMonitoringProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

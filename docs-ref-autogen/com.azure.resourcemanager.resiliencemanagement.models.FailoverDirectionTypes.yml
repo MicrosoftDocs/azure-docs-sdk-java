@@ -1,0 +1,86 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.FailoverDirectionTypes"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.FailoverDirectionTypes"
+name: "FailoverDirectionTypes"
+nameWithType: "FailoverDirectionTypes"
+summary: "Types of Failover directions."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **FailoverDirectionTypes**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.FailoverDirectionTypes?alt=com.azure.resourcemanager.resiliencemanagement.models.FailoverDirectionTypes&text=FailoverDirectionTypes\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.FailoverDirectionTypes.FailoverDirectionTypes()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.FailoverDirectionTypes.FailoverDirectionTypes()"
+  name: "FailoverDirectionTypes()"
+  nameWithType: "FailoverDirectionTypes.FailoverDirectionTypes()"
+  summary: "Creates a new instance of Failover<wbr>Direction<wbr>Types value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.resiliencemanagement.models.FailoverDirectionTypes.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public FailoverDirectionTypes()"
+  desc: "Creates a new instance of FailoverDirectionTypes value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.FailoverDirectionTypes.FROM_SPECIFIC_LOCATIONS"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.FailoverDirectionTypes.FROM_SPECIFIC_LOCATIONS"
+  name: "FROM_SPECIFIC_LOCATIONS"
+  nameWithType: "FailoverDirectionTypes.FROM_SPECIFIC_LOCATIONS"
+  summary: "Failover resources from specific locations."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.FailoverDirectionTypes?alt=com.azure.resourcemanager.resiliencemanagement.models.FailoverDirectionTypes&text=FailoverDirectionTypes\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final FailoverDirectionTypes FROM_SPECIFIC_LOCATIONS"
+  desc: "Failover resources from specific locations."
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.FailoverDirectionTypes.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.FailoverDirectionTypes.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "FailoverDirectionTypes.fromString(String name)"
+  summary: "Creates or finds a Failover<wbr>Direction<wbr>Types from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static FailoverDirectionTypes fromString(String name)"
+  desc: "Creates or finds a FailoverDirectionTypes from its string representation."
+  returns:
+    description: "the corresponding FailoverDirectionTypes."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.FailoverDirectionTypes?alt=com.azure.resourcemanager.resiliencemanagement.models.FailoverDirectionTypes&text=FailoverDirectionTypes\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.FailoverDirectionTypes.values()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.FailoverDirectionTypes.values()"
+  name: "values()"
+  nameWithType: "FailoverDirectionTypes.values()"
+  summary: "Gets known Failover<wbr>Direction<wbr>Types values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<FailoverDirectionTypes> values()"
+  desc: "Gets known FailoverDirectionTypes values."
+  returns:
+    description: "known FailoverDirectionTypes values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.FailoverDirectionTypes?alt=com.azure.resourcemanager.resiliencemanagement.models.FailoverDirectionTypes&text=FailoverDirectionTypes\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Types of Failover directions."
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

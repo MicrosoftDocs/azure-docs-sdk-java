@@ -1,0 +1,82 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.JobExtendedInfo"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.JobExtendedInfo"
+name: "JobExtendedInfo"
+nameWithType: "JobExtendedInfo"
+summary: "Additional information for job."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **JobExtendedInfo**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.JobExtendedInfo?alt=com.azure.resourcemanager.resiliencemanagement.models.JobExtendedInfo&text=JobExtendedInfo\" data-throw-if-not-resolved=\"False\" />&gt;"
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.JobExtendedInfo.dynamicErrorMessage()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.JobExtendedInfo.dynamicErrorMessage()"
+  name: "dynamicErrorMessage()"
+  nameWithType: "JobExtendedInfo.dynamicErrorMessage()"
+  summary: "Get the dynamic<wbr>Error<wbr>Message property: Non localized error message on job execution."
+  syntax: "public String dynamicErrorMessage()"
+  desc: "Get the dynamicErrorMessage property: Non localized error message on job execution."
+  returns:
+    description: "the dynamicErrorMessage value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.JobExtendedInfo.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.JobExtendedInfo.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "JobExtendedInfo.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Job<wbr>Extended<wbr>Info from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static JobExtendedInfo fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the JobExtendedInfo."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of JobExtendedInfo from the JsonReader."
+  returns:
+    description: "An instance of JobExtendedInfo if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.JobExtendedInfo?alt=com.azure.resourcemanager.resiliencemanagement.models.JobExtendedInfo&text=JobExtendedInfo\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.JobExtendedInfo.tasksList()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.JobExtendedInfo.tasksList()"
+  name: "tasksList()"
+  nameWithType: "JobExtendedInfo.tasksList()"
+  summary: "Get the tasks<wbr>List property: List of tasks associated with this job."
+  syntax: "public List<JobTaskDetail> tasksList()"
+  desc: "Get the tasksList property: List of tasks associated with this job."
+  returns:
+    description: "the tasksList value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.JobTaskDetail?alt=com.azure.resourcemanager.resiliencemanagement.models.JobTaskDetail&text=JobTaskDetail\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.JobExtendedInfo.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.JobExtendedInfo.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "JobExtendedInfo.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Additional information for job."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.JobExtendedInfo?alt=com.azure.resourcemanager.resiliencemanagement.models.JobExtendedInfo&text=JobExtendedInfo\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

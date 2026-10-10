@@ -173,4 +173,4 @@ type: "class"
 desc: "A web application firewall rule set."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.61.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.61.2

@@ -1,0 +1,122 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.QualificationState"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.QualificationState"
+name: "QualificationState"
+nameWithType: "QualificationState"
+summary: "A state type that indicates qualification of a resource for an operation."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **QualificationState**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.QualificationState?alt=com.azure.resourcemanager.resiliencemanagement.models.QualificationState&text=QualificationState\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.QualificationState.QualificationState()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.QualificationState.QualificationState()"
+  name: "QualificationState()"
+  nameWithType: "QualificationState.QualificationState()"
+  summary: "Creates a new instance of Qualification<wbr>State value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.resiliencemanagement.models.QualificationState.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public QualificationState()"
+  desc: "Creates a new instance of QualificationState value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.QualificationState.EXCLUDED"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.QualificationState.EXCLUDED"
+  name: "EXCLUDED"
+  nameWithType: "QualificationState.EXCLUDED"
+  summary: "A state that indicates the resource is excluded from the recovery plan itself."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.QualificationState?alt=com.azure.resourcemanager.resiliencemanagement.models.QualificationState&text=QualificationState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final QualificationState EXCLUDED"
+  desc: "A state that indicates the resource is excluded from the recovery plan itself."
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.QualificationState.NOT_QUALIFIED"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.QualificationState.NOT_QUALIFIED"
+  name: "NOT_QUALIFIED"
+  nameWithType: "QualificationState.NOT_QUALIFIED"
+  summary: "A state that indicates the resource is not qualified for the operation."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.QualificationState?alt=com.azure.resourcemanager.resiliencemanagement.models.QualificationState&text=QualificationState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final QualificationState NOT_QUALIFIED"
+  desc: "A state that indicates the resource is not qualified for the operation."
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.QualificationState.QUALIFIED"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.QualificationState.QUALIFIED"
+  name: "QUALIFIED"
+  nameWithType: "QualificationState.QUALIFIED"
+  summary: "A state that indicates the resource is qualified for the operation."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.QualificationState?alt=com.azure.resourcemanager.resiliencemanagement.models.QualificationState&text=QualificationState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final QualificationState QUALIFIED"
+  desc: "A state that indicates the resource is qualified for the operation."
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.QualificationState.UNKNOWN"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.QualificationState.UNKNOWN"
+  name: "UNKNOWN"
+  nameWithType: "QualificationState.UNKNOWN"
+  summary: "A state that indicates the qualification state is unknown."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.QualificationState?alt=com.azure.resourcemanager.resiliencemanagement.models.QualificationState&text=QualificationState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final QualificationState UNKNOWN"
+  desc: "A state that indicates the qualification state is unknown."
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.QualificationState.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.QualificationState.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "QualificationState.fromString(String name)"
+  summary: "Creates or finds a Qualification<wbr>State from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static QualificationState fromString(String name)"
+  desc: "Creates or finds a QualificationState from its string representation."
+  returns:
+    description: "the corresponding QualificationState."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.QualificationState?alt=com.azure.resourcemanager.resiliencemanagement.models.QualificationState&text=QualificationState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.QualificationState.values()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.QualificationState.values()"
+  name: "values()"
+  nameWithType: "QualificationState.values()"
+  summary: "Gets known Qualification<wbr>State values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<QualificationState> values()"
+  desc: "Gets known QualificationState values."
+  returns:
+    description: "known QualificationState values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.QualificationState?alt=com.azure.resourcemanager.resiliencemanagement.models.QualificationState&text=QualificationState\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "A state type that indicates qualification of a resource for an operation."
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

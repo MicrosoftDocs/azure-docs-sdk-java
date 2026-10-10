@@ -1,0 +1,110 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.ExecutionState"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.ExecutionState"
+name: "ExecutionState"
+nameWithType: "ExecutionState"
+summary: "Drill Execution State."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ExecutionState**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ExecutionState?alt=com.azure.resourcemanager.resiliencemanagement.models.ExecutionState&text=ExecutionState\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ExecutionState.ExecutionState()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ExecutionState.ExecutionState()"
+  name: "ExecutionState()"
+  nameWithType: "ExecutionState.ExecutionState()"
+  summary: "Creates a new instance of Execution<wbr>State value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.resiliencemanagement.models.ExecutionState.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public ExecutionState()"
+  desc: "Creates a new instance of ExecutionState value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ExecutionState.NOT_RUNNING"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ExecutionState.NOT_RUNNING"
+  name: "NOT_RUNNING"
+  nameWithType: "ExecutionState.NOT_RUNNING"
+  summary: "Drill is not running currently."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ExecutionState?alt=com.azure.resourcemanager.resiliencemanagement.models.ExecutionState&text=ExecutionState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ExecutionState NOT_RUNNING"
+  desc: "Drill is not running currently."
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ExecutionState.PAUSED"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ExecutionState.PAUSED"
+  name: "PAUSED"
+  nameWithType: "ExecutionState.PAUSED"
+  summary: "Drill is paused, waiting for manual resume."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ExecutionState?alt=com.azure.resourcemanager.resiliencemanagement.models.ExecutionState&text=ExecutionState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ExecutionState PAUSED"
+  desc: "Drill is paused, waiting for manual resume."
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ExecutionState.RUNNING"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ExecutionState.RUNNING"
+  name: "RUNNING"
+  nameWithType: "ExecutionState.RUNNING"
+  summary: "Drill is running currently."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ExecutionState?alt=com.azure.resourcemanager.resiliencemanagement.models.ExecutionState&text=ExecutionState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ExecutionState RUNNING"
+  desc: "Drill is running currently."
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ExecutionState.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ExecutionState.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "ExecutionState.fromString(String name)"
+  summary: "Creates or finds a Execution<wbr>State from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static ExecutionState fromString(String name)"
+  desc: "Creates or finds a ExecutionState from its string representation."
+  returns:
+    description: "the corresponding ExecutionState."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ExecutionState?alt=com.azure.resourcemanager.resiliencemanagement.models.ExecutionState&text=ExecutionState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ExecutionState.values()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ExecutionState.values()"
+  name: "values()"
+  nameWithType: "ExecutionState.values()"
+  summary: "Gets known Execution<wbr>State values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<ExecutionState> values()"
+  desc: "Gets known ExecutionState values."
+  returns:
+    description: "known ExecutionState values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ExecutionState?alt=com.azure.resourcemanager.resiliencemanagement.models.ExecutionState&text=ExecutionState\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Drill Execution State."
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

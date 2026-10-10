@@ -174,4 +174,4 @@ interfaces:
 desc: "Package containing the service clients for Network. APIs to manage Microsoft Azure network resources."
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.61.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.61.2

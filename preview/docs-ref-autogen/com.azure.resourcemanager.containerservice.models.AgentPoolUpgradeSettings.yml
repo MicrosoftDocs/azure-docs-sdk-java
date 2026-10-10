@@ -121,6 +121,16 @@ methods:
   returns:
     description: "the undrainableNodeBehavior value."
     type: "<xref href=\"com.azure.resourcemanager.containerservice.models.UndrainableNodeBehavior?alt=com.azure.resourcemanager.containerservice.models.UndrainableNodeBehavior&text=UndrainableNodeBehavior\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.containerservice.models.AgentPoolUpgradeSettings.upgradeGateSettings()"
+  fullName: "com.azure.resourcemanager.containerservice.models.AgentPoolUpgradeSettings.upgradeGateSettings()"
+  name: "upgradeGateSettings()"
+  nameWithType: "AgentPoolUpgradeSettings.upgradeGateSettings()"
+  summary: "Get the upgrade<wbr>Gate<wbr>Settings property: Settings for upgrade gating on upgrades of this agent pool."
+  syntax: "public UpgradeGateSettings upgradeGateSettings()"
+  desc: "Get the upgradeGateSettings property: Settings for upgrade gating on upgrades of this agent pool. Health signals are \\`HealthSignal\\` custom resources published by monitoring components running in the cluster. When the cluster-level \\`enabled\\` is unset or \\`false\\`, this agent pool can opt in independently. When the cluster-level \\`enabled\\` is \\`true\\`, gating is inherited and setting this agent pool's \\`enabled\\` to \\`false\\` is rejected; an omitted value on a newly created agent pool is defaulted to \\`true\\`."
+  returns:
+    description: "the upgradeGateSettings value."
+    type: "<xref href=\"com.azure.resourcemanager.containerservice.models.UpgradeGateSettings?alt=com.azure.resourcemanager.containerservice.models.UpgradeGateSettings&text=UpgradeGateSettings\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.containerservice.models.AgentPoolUpgradeSettings.validate()"
   fullName: "com.azure.resourcemanager.containerservice.models.AgentPoolUpgradeSettings.validate()"
   name: "validate()"
@@ -212,10 +222,24 @@ methods:
   returns:
     description: "the AgentPoolUpgradeSettings object itself."
     type: "<xref href=\"com.azure.resourcemanager.containerservice.models.AgentPoolUpgradeSettings?alt=com.azure.resourcemanager.containerservice.models.AgentPoolUpgradeSettings&text=AgentPoolUpgradeSettings\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.containerservice.models.AgentPoolUpgradeSettings.withUpgradeGateSettings(com.azure.resourcemanager.containerservice.models.UpgradeGateSettings)"
+  fullName: "com.azure.resourcemanager.containerservice.models.AgentPoolUpgradeSettings.withUpgradeGateSettings(UpgradeGateSettings upgradeGateSettings)"
+  name: "withUpgradeGateSettings(UpgradeGateSettings upgradeGateSettings)"
+  nameWithType: "AgentPoolUpgradeSettings.withUpgradeGateSettings(UpgradeGateSettings upgradeGateSettings)"
+  summary: "Set the upgrade<wbr>Gate<wbr>Settings property: Settings for upgrade gating on upgrades of this agent pool."
+  parameters:
+  - description: "the upgradeGateSettings value to set."
+    name: "upgradeGateSettings"
+    type: "<xref href=\"com.azure.resourcemanager.containerservice.models.UpgradeGateSettings?alt=com.azure.resourcemanager.containerservice.models.UpgradeGateSettings&text=UpgradeGateSettings\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public AgentPoolUpgradeSettings withUpgradeGateSettings(UpgradeGateSettings upgradeGateSettings)"
+  desc: "Set the upgradeGateSettings property: Settings for upgrade gating on upgrades of this agent pool. Health signals are \\`HealthSignal\\` custom resources published by monitoring components running in the cluster. When the cluster-level \\`enabled\\` is unset or \\`false\\`, this agent pool can opt in independently. When the cluster-level \\`enabled\\` is \\`true\\`, gating is inherited and setting this agent pool's \\`enabled\\` to \\`false\\` is rejected; an omitted value on a newly created agent pool is defaulted to \\`true\\`."
+  returns:
+    description: "the AgentPoolUpgradeSettings object itself."
+    type: "<xref href=\"com.azure.resourcemanager.containerservice.models.AgentPoolUpgradeSettings?alt=com.azure.resourcemanager.containerservice.models.AgentPoolUpgradeSettings&text=AgentPoolUpgradeSettings\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Settings for upgrading an agentpool."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.containerservice.models.AgentPoolUpgradeSettings?alt=com.azure.resourcemanager.containerservice.models.AgentPoolUpgradeSettings&text=AgentPoolUpgradeSettings\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.containerservice.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-containerservice:2.64.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerservice:2.65.0-beta.1

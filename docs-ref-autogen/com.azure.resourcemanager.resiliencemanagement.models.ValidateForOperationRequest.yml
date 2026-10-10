@@ -1,0 +1,94 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.ValidateForOperationRequest"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.ValidateForOperationRequest"
+name: "ValidateForOperationRequest"
+nameWithType: "ValidateForOperationRequest"
+summary: "Validate<wbr>For<wbr>Operation post action request to check if operation can be performed."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ValidateForOperationRequest**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ValidateForOperationRequest?alt=com.azure.resourcemanager.resiliencemanagement.models.ValidateForOperationRequest&text=ValidateForOperationRequest\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ValidateForOperationRequest.ValidateForOperationRequest()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ValidateForOperationRequest.ValidateForOperationRequest()"
+  name: "ValidateForOperationRequest()"
+  nameWithType: "ValidateForOperationRequest.ValidateForOperationRequest()"
+  summary: "Creates an instance of Validate<wbr>For<wbr>Operation<wbr>Request class."
+  syntax: "public ValidateForOperationRequest()"
+  desc: "Creates an instance of ValidateForOperationRequest class."
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ValidateForOperationRequest.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ValidateForOperationRequest.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "ValidateForOperationRequest.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Validate<wbr>For<wbr>Operation<wbr>Request from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static ValidateForOperationRequest fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of ValidateForOperationRequest from the JsonReader."
+  returns:
+    description: "An instance of ValidateForOperationRequest if the JsonReader was pointing to an instance of it, or null\n if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ValidateForOperationRequest?alt=com.azure.resourcemanager.resiliencemanagement.models.ValidateForOperationRequest&text=ValidateForOperationRequest\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ValidateForOperationRequest.operationName()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ValidateForOperationRequest.operationName()"
+  name: "operationName()"
+  nameWithType: "ValidateForOperationRequest.operationName()"
+  summary: "Get the operation<wbr>Name property: Operation Name to validate."
+  syntax: "public RecoveryOperationNames operationName()"
+  desc: "Get the operationName property: Operation Name to validate."
+  returns:
+    description: "the operationName value."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RecoveryOperationNames?alt=com.azure.resourcemanager.resiliencemanagement.models.RecoveryOperationNames&text=RecoveryOperationNames\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ValidateForOperationRequest.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ValidateForOperationRequest.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "ValidateForOperationRequest.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ValidateForOperationRequest.withOperationName(com.azure.resourcemanager.resiliencemanagement.models.RecoveryOperationNames)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ValidateForOperationRequest.withOperationName(RecoveryOperationNames operationName)"
+  name: "withOperationName(RecoveryOperationNames operationName)"
+  nameWithType: "ValidateForOperationRequest.withOperationName(RecoveryOperationNames operationName)"
+  summary: "Set the operation<wbr>Name property: Operation Name to validate."
+  parameters:
+  - description: "the operationName value to set."
+    name: "operationName"
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RecoveryOperationNames?alt=com.azure.resourcemanager.resiliencemanagement.models.RecoveryOperationNames&text=RecoveryOperationNames\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ValidateForOperationRequest withOperationName(RecoveryOperationNames operationName)"
+  desc: "Set the operationName property: Operation Name to validate."
+  returns:
+    description: "the ValidateForOperationRequest object itself."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ValidateForOperationRequest?alt=com.azure.resourcemanager.resiliencemanagement.models.ValidateForOperationRequest&text=ValidateForOperationRequest\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "ValidateForOperation post action request to check if operation can be performed."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ValidateForOperationRequest?alt=com.azure.resourcemanager.resiliencemanagement.models.ValidateForOperationRequest&text=ValidateForOperationRequest\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

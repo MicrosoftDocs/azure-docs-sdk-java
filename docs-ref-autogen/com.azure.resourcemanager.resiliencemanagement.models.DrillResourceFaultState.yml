@@ -1,0 +1,110 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillResourceFaultState"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillResourceFaultState"
+name: "DrillResourceFaultState"
+nameWithType: "DrillResourceFaultState"
+summary: "Drill Resource Fault State."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **DrillResourceFaultState**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillResourceFaultState?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillResourceFaultState&text=DrillResourceFaultState\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillResourceFaultState.DrillResourceFaultState()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillResourceFaultState.DrillResourceFaultState()"
+  name: "DrillResourceFaultState()"
+  nameWithType: "DrillResourceFaultState.DrillResourceFaultState()"
+  summary: "Creates a new instance of Drill<wbr>Resource<wbr>Fault<wbr>State value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.resiliencemanagement.models.DrillResourceFaultState.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public DrillResourceFaultState()"
+  desc: "Creates a new instance of DrillResourceFaultState value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillResourceFaultState.CUSTOM_SCRIPT"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillResourceFaultState.CUSTOM_SCRIPT"
+  name: "CUSTOM_SCRIPT"
+  nameWithType: "DrillResourceFaultState.CUSTOM_SCRIPT"
+  summary: "Custom script based fault associated with resource."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillResourceFaultState?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillResourceFaultState&text=DrillResourceFaultState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final DrillResourceFaultState CUSTOM_SCRIPT"
+  desc: "Custom script based fault associated with resource."
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillResourceFaultState.NOT_DEFINED"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillResourceFaultState.NOT_DEFINED"
+  name: "NOT_DEFINED"
+  nameWithType: "DrillResourceFaultState.NOT_DEFINED"
+  summary: "No fault configured for this resource."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillResourceFaultState?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillResourceFaultState&text=DrillResourceFaultState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final DrillResourceFaultState NOT_DEFINED"
+  desc: "No fault configured for this resource."
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillResourceFaultState.SYSTEM_NATIVE"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillResourceFaultState.SYSTEM_NATIVE"
+  name: "SYSTEM_NATIVE"
+  nameWithType: "DrillResourceFaultState.SYSTEM_NATIVE"
+  summary: "Native fault available."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillResourceFaultState?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillResourceFaultState&text=DrillResourceFaultState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final DrillResourceFaultState SYSTEM_NATIVE"
+  desc: "Native fault available."
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillResourceFaultState.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillResourceFaultState.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "DrillResourceFaultState.fromString(String name)"
+  summary: "Creates or finds a Drill<wbr>Resource<wbr>Fault<wbr>State from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static DrillResourceFaultState fromString(String name)"
+  desc: "Creates or finds a DrillResourceFaultState from its string representation."
+  returns:
+    description: "the corresponding DrillResourceFaultState."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillResourceFaultState?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillResourceFaultState&text=DrillResourceFaultState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillResourceFaultState.values()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillResourceFaultState.values()"
+  name: "values()"
+  nameWithType: "DrillResourceFaultState.values()"
+  summary: "Gets known Drill<wbr>Resource<wbr>Fault<wbr>State values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<DrillResourceFaultState> values()"
+  desc: "Gets known DrillResourceFaultState values."
+  returns:
+    description: "known DrillResourceFaultState values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillResourceFaultState?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillResourceFaultState&text=DrillResourceFaultState\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Drill Resource Fault State."
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

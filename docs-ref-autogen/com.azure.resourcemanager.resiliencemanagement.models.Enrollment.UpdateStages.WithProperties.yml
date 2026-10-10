@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.Enrollment.UpdateStages.WithProperties"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.Enrollment.UpdateStages.WithProperties"
+name: "Enrollment.UpdateStages.WithProperties"
+nameWithType: "Enrollment.UpdateStages.WithProperties"
+summary: "The stage of the Enrollment update allowing to specify properties."
+syntax: "public static interface **Enrollment.UpdateStages.WithProperties**"
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.Enrollment.UpdateStages.WithProperties.withProperties(com.azure.resourcemanager.resiliencemanagement.models.EnrollmentProperties)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.Enrollment.UpdateStages.WithProperties.withProperties(EnrollmentProperties properties)"
+  name: "withProperties(EnrollmentProperties properties)"
+  nameWithType: "Enrollment.UpdateStages.WithProperties.withProperties(EnrollmentProperties properties)"
+  summary: "Specifies the properties property: The resource-specific properties for this resource.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The resource-specific properties for this resource."
+    name: "properties"
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.EnrollmentProperties?alt=com.azure.resourcemanager.resiliencemanagement.models.EnrollmentProperties&text=EnrollmentProperties\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract Enrollment.Update withProperties(EnrollmentProperties properties)"
+  desc: "Specifies the properties property: The resource-specific properties for this resource.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.Enrollment.Update?alt=com.azure.resourcemanager.resiliencemanagement.models.Enrollment.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the Enrollment update allowing to specify properties."
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

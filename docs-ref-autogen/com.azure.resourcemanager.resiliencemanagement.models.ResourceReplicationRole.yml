@@ -1,0 +1,110 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.ResourceReplicationRole"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.ResourceReplicationRole"
+name: "ResourceReplicationRole"
+nameWithType: "ResourceReplicationRole"
+summary: "A state specific to the resource that helps identify its role in replication."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ResourceReplicationRole**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ResourceReplicationRole?alt=com.azure.resourcemanager.resiliencemanagement.models.ResourceReplicationRole&text=ResourceReplicationRole\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ResourceReplicationRole.ResourceReplicationRole()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ResourceReplicationRole.ResourceReplicationRole()"
+  name: "ResourceReplicationRole()"
+  nameWithType: "ResourceReplicationRole.ResourceReplicationRole()"
+  summary: "Creates a new instance of Resource<wbr>Replication<wbr>Role value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.resiliencemanagement.models.ResourceReplicationRole.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public ResourceReplicationRole()"
+  desc: "Creates a new instance of ResourceReplicationRole value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ResourceReplicationRole.PRIMARY"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ResourceReplicationRole.PRIMARY"
+  name: "PRIMARY"
+  nameWithType: "ResourceReplicationRole.PRIMARY"
+  summary: "A state indicating that the resource is primary and actively replicating data to other replicas."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ResourceReplicationRole?alt=com.azure.resourcemanager.resiliencemanagement.models.ResourceReplicationRole&text=ResourceReplicationRole\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ResourceReplicationRole PRIMARY"
+  desc: "A state indicating that the resource is primary and actively replicating data to other replicas."
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ResourceReplicationRole.REPLICA"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ResourceReplicationRole.REPLICA"
+  name: "REPLICA"
+  nameWithType: "ResourceReplicationRole.REPLICA"
+  summary: "A state indicating that the resource is a replica, receiving data from the primary."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ResourceReplicationRole?alt=com.azure.resourcemanager.resiliencemanagement.models.ResourceReplicationRole&text=ResourceReplicationRole\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ResourceReplicationRole REPLICA"
+  desc: "A state indicating that the resource is a replica, receiving data from the primary."
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ResourceReplicationRole.UNKNOWN"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ResourceReplicationRole.UNKNOWN"
+  name: "UNKNOWN"
+  nameWithType: "ResourceReplicationRole.UNKNOWN"
+  summary: "The role of the resource is unknown."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ResourceReplicationRole?alt=com.azure.resourcemanager.resiliencemanagement.models.ResourceReplicationRole&text=ResourceReplicationRole\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ResourceReplicationRole UNKNOWN"
+  desc: "The role of the resource is unknown."
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ResourceReplicationRole.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ResourceReplicationRole.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "ResourceReplicationRole.fromString(String name)"
+  summary: "Creates or finds a Resource<wbr>Replication<wbr>Role from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static ResourceReplicationRole fromString(String name)"
+  desc: "Creates or finds a ResourceReplicationRole from its string representation."
+  returns:
+    description: "the corresponding ResourceReplicationRole."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ResourceReplicationRole?alt=com.azure.resourcemanager.resiliencemanagement.models.ResourceReplicationRole&text=ResourceReplicationRole\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ResourceReplicationRole.values()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ResourceReplicationRole.values()"
+  name: "values()"
+  nameWithType: "ResourceReplicationRole.values()"
+  summary: "Gets known Resource<wbr>Replication<wbr>Role values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<ResourceReplicationRole> values()"
+  desc: "Gets known ResourceReplicationRole values."
+  returns:
+    description: "known ResourceReplicationRole values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ResourceReplicationRole?alt=com.azure.resourcemanager.resiliencemanagement.models.ResourceReplicationRole&text=ResourceReplicationRole\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "A state specific to the resource that helps identify its role in replication."
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

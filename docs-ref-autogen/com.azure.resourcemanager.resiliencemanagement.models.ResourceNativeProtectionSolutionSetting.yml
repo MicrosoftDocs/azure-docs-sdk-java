@@ -1,0 +1,86 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.ResourceNativeProtectionSolutionSetting"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.ResourceNativeProtectionSolutionSetting"
+name: "ResourceNativeProtectionSolutionSetting"
+nameWithType: "ResourceNativeProtectionSolutionSetting"
+summary: "Definition of recovery orchestration resource native protection solution setting with recovery orchestration plan."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ResourceBaseProtectionSolutionSetting?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ResourceBaseProtectionSolutionSetting?alt=com.azure.resourcemanager.resiliencemanagement.models.ResourceBaseProtectionSolutionSetting&text=ResourceBaseProtectionSolutionSetting\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ResourceBaseProtectionSolutionSetting.fromJson(com.azure.json.JsonReader)?alt=com.azure.resourcemanager.resiliencemanagement.models.ResourceBaseProtectionSolutionSetting.fromJson&text=fromJson\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ResourceBaseProtectionSolutionSetting.protectionSolutionType()?alt=com.azure.resourcemanager.resiliencemanagement.models.ResourceBaseProtectionSolutionSetting.protectionSolutionType&text=protectionSolutionType\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ResourceBaseProtectionSolutionSetting.toJson(com.azure.json.JsonWriter)?alt=com.azure.resourcemanager.resiliencemanagement.models.ResourceBaseProtectionSolutionSetting.toJson&text=toJson\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ResourceNativeProtectionSolutionSetting**</br> extends <xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ResourceBaseProtectionSolutionSetting?alt=com.azure.resourcemanager.resiliencemanagement.models.ResourceBaseProtectionSolutionSetting&text=ResourceBaseProtectionSolutionSetting\" data-throw-if-not-resolved=\"False\" />"
+constructors:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ResourceNativeProtectionSolutionSetting.ResourceNativeProtectionSolutionSetting()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ResourceNativeProtectionSolutionSetting.ResourceNativeProtectionSolutionSetting()"
+  name: "ResourceNativeProtectionSolutionSetting()"
+  nameWithType: "ResourceNativeProtectionSolutionSetting.ResourceNativeProtectionSolutionSetting()"
+  summary: "Creates an instance of Resource<wbr>Native<wbr>Protection<wbr>Solution<wbr>Setting class."
+  syntax: "public ResourceNativeProtectionSolutionSetting()"
+  desc: "Creates an instance of ResourceNativeProtectionSolutionSetting class."
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ResourceNativeProtectionSolutionSetting.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ResourceNativeProtectionSolutionSetting.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "ResourceNativeProtectionSolutionSetting.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Resource<wbr>Native<wbr>Protection<wbr>Solution<wbr>Setting from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static ResourceNativeProtectionSolutionSetting fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the ResourceNativeProtectionSolutionSetting."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of ResourceNativeProtectionSolutionSetting from the JsonReader."
+  returns:
+    description: "An instance of ResourceNativeProtectionSolutionSetting if the JsonReader was pointing to an instance of\n it, or null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ResourceNativeProtectionSolutionSetting?alt=com.azure.resourcemanager.resiliencemanagement.models.ResourceNativeProtectionSolutionSetting&text=ResourceNativeProtectionSolutionSetting\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ResourceNativeProtectionSolutionSetting.protectionSolutionType()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ResourceNativeProtectionSolutionSetting.protectionSolutionType()"
+  name: "protectionSolutionType()"
+  nameWithType: "ResourceNativeProtectionSolutionSetting.protectionSolutionType()"
+  summary: "Get the protection<wbr>Solution<wbr>Type property: A setting that indicates the resource protected with which recovery solution."
+  overridden: "com.azure.resourcemanager.resiliencemanagement.models.ResourceBaseProtectionSolutionSetting.protectionSolutionType()"
+  syntax: "public ResourceProtectionSolutionType protectionSolutionType()"
+  desc: "Get the protectionSolutionType property: A setting that indicates the resource protected with which recovery solution."
+  returns:
+    description: "the protectionSolutionType value."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionSolutionType?alt=com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionSolutionType&text=ResourceProtectionSolutionType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ResourceNativeProtectionSolutionSetting.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ResourceNativeProtectionSolutionSetting.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "ResourceNativeProtectionSolutionSetting.toJson(JsonWriter jsonWriter)"
+  overridden: "com.azure.resourcemanager.resiliencemanagement.models.ResourceBaseProtectionSolutionSetting.toJson(com.azure.json.JsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Definition of recovery orchestration resource native protection solution setting with recovery orchestration plan."
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

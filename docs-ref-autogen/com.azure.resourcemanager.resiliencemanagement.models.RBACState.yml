@@ -1,0 +1,98 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.RBACState"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.RBACState"
+name: "RBACState"
+nameWithType: "RBACState"
+summary: "Enum for Attention<wbr>Reason - RBAC state on a resource."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **RBACState**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RBACState?alt=com.azure.resourcemanager.resiliencemanagement.models.RBACState&text=RBACState\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.RBACState.RBACState()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.RBACState.RBACState()"
+  name: "RBACState()"
+  nameWithType: "RBACState.RBACState()"
+  summary: "Creates a new instance of RBACState value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.resiliencemanagement.models.RBACState.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public RBACState()"
+  desc: "Creates a new instance of RBACState value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.RBACState.NOT_SET"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.RBACState.NOT_SET"
+  name: "NOT_SET"
+  nameWithType: "RBACState.NOT_SET"
+  summary: "RBAC not set."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RBACState?alt=com.azure.resourcemanager.resiliencemanagement.models.RBACState&text=RBACState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final RBACState NOT_SET"
+  desc: "RBAC not set."
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.RBACState.SET"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.RBACState.SET"
+  name: "SET"
+  nameWithType: "RBACState.SET"
+  summary: "RBAC set."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RBACState?alt=com.azure.resourcemanager.resiliencemanagement.models.RBACState&text=RBACState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final RBACState SET"
+  desc: "RBAC set."
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.RBACState.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.RBACState.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "RBACState.fromString(String name)"
+  summary: "Creates or finds a RBACState from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static RBACState fromString(String name)"
+  desc: "Creates or finds a RBACState from its string representation."
+  returns:
+    description: "the corresponding RBACState."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RBACState?alt=com.azure.resourcemanager.resiliencemanagement.models.RBACState&text=RBACState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.RBACState.values()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.RBACState.values()"
+  name: "values()"
+  nameWithType: "RBACState.values()"
+  summary: "Gets known RBACState values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<RBACState> values()"
+  desc: "Gets known RBACState values."
+  returns:
+    description: "known RBACState values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RBACState?alt=com.azure.resourcemanager.resiliencemanagement.models.RBACState&text=RBACState\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Enum for AttentionReason - RBAC state on a resource."
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

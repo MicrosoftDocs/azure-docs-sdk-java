@@ -69,6 +69,16 @@ methods:
   returns:
     description: "the managementMode value."
     type: "<xref href=\"com.azure.resourcemanager.containerservice.models.ManagementMode?alt=com.azure.resourcemanager.containerservice.models.ManagementMode&text=ManagementMode\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.containerservice.models.NvidiaGPUProfile.migProfiles()"
+  fullName: "com.azure.resourcemanager.containerservice.models.NvidiaGPUProfile.migProfiles()"
+  name: "migProfiles()"
+  nameWithType: "NvidiaGPUProfile.migProfiles()"
+  summary: "Get the mig<wbr>Profiles property: The ordered list of MIG (Multi-Instance GPU) partition profiles to assign to each supported NVIDIA GPU."
+  syntax: "public List<GpuInstanceProfile> migProfiles()"
+  desc: "Get the migProfiles property: The ordered list of MIG (Multi-Instance GPU) partition profiles to assign to each supported NVIDIA GPU. When \\`migStrategy\\` is \\`Single\\`, exactly one profile must be specified. When \\`migStrategy\\` is \\`Mixed\\`, one or more profiles may be specified and the combination is validated against the supported MIG geometry for the agent pool's GPU VM size. The same value may appear more than once to request multiple partitions of that size. This field is mutually exclusive with the top-level \\`gpuInstanceProfile\\` property. For more information, see https://aka.ms/aks/managed-gpu."
+  returns:
+    description: "the migProfiles value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.containerservice.models.GpuInstanceProfile?alt=com.azure.resourcemanager.containerservice.models.GpuInstanceProfile&text=GpuInstanceProfile\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.containerservice.models.NvidiaGPUProfile.migStrategy()"
   fullName: "com.azure.resourcemanager.containerservice.models.NvidiaGPUProfile.migStrategy()"
   name: "migStrategy()"
@@ -126,6 +136,20 @@ methods:
   returns:
     description: "the NvidiaGPUProfile object itself."
     type: "<xref href=\"com.azure.resourcemanager.containerservice.models.NvidiaGPUProfile?alt=com.azure.resourcemanager.containerservice.models.NvidiaGPUProfile&text=NvidiaGPUProfile\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.containerservice.models.NvidiaGPUProfile.withMigProfiles(java.util.List<com.azure.resourcemanager.containerservice.models.GpuInstanceProfile>)"
+  fullName: "com.azure.resourcemanager.containerservice.models.NvidiaGPUProfile.withMigProfiles(List<GpuInstanceProfile> migProfiles)"
+  name: "withMigProfiles(List<GpuInstanceProfile> migProfiles)"
+  nameWithType: "NvidiaGPUProfile.withMigProfiles(List<GpuInstanceProfile> migProfiles)"
+  summary: "Set the mig<wbr>Profiles property: The ordered list of MIG (Multi-Instance GPU) partition profiles to assign to each supported NVIDIA GPU."
+  parameters:
+  - description: "the migProfiles value to set."
+    name: "migProfiles"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.containerservice.models.GpuInstanceProfile?alt=com.azure.resourcemanager.containerservice.models.GpuInstanceProfile&text=GpuInstanceProfile\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public NvidiaGPUProfile withMigProfiles(List<GpuInstanceProfile> migProfiles)"
+  desc: "Set the migProfiles property: The ordered list of MIG (Multi-Instance GPU) partition profiles to assign to each supported NVIDIA GPU. When \\`migStrategy\\` is \\`Single\\`, exactly one profile must be specified. When \\`migStrategy\\` is \\`Mixed\\`, one or more profiles may be specified and the combination is validated against the supported MIG geometry for the agent pool's GPU VM size. The same value may appear more than once to request multiple partitions of that size. This field is mutually exclusive with the top-level \\`gpuInstanceProfile\\` property. For more information, see https://aka.ms/aks/managed-gpu."
+  returns:
+    description: "the NvidiaGPUProfile object itself."
+    type: "<xref href=\"com.azure.resourcemanager.containerservice.models.NvidiaGPUProfile?alt=com.azure.resourcemanager.containerservice.models.NvidiaGPUProfile&text=NvidiaGPUProfile\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.containerservice.models.NvidiaGPUProfile.withMigStrategy(com.azure.resourcemanager.containerservice.models.MigStrategy)"
   fullName: "com.azure.resourcemanager.containerservice.models.NvidiaGPUProfile.withMigStrategy(MigStrategy migStrategy)"
   name: "withMigStrategy(MigStrategy migStrategy)"
@@ -146,4 +170,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.containerservice.models.NvidiaGPUProfile?alt=com.azure.resourcemanager.containerservice.models.NvidiaGPUProfile&text=NvidiaGPUProfile\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.containerservice.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-containerservice:2.64.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerservice:2.65.0-beta.1

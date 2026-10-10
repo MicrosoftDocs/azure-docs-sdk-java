@@ -74308,6 +74308,10 @@
     name: UpgradeChannel
     no-loc:
     - UpgradeChannel
+  - uid: com.azure.resourcemanager.containerservice.models.UpgradeGateSettings
+    name: UpgradeGateSettings
+    no-loc:
+    - UpgradeGateSettings
   - uid: com.azure.resourcemanager.containerservice.models.UpgradeOverrideSettings
     name: UpgradeOverrideSettings
     no-loc:

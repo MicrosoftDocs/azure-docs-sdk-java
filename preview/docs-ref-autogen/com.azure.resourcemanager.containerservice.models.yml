@@ -342,6 +342,7 @@ classes:
 - "com.azure.resourcemanager.containerservice.models.Type"
 - "com.azure.resourcemanager.containerservice.models.UndrainableNodeBehavior"
 - "com.azure.resourcemanager.containerservice.models.UpgradeChannel"
+- "com.azure.resourcemanager.containerservice.models.UpgradeGateSettings"
 - "com.azure.resourcemanager.containerservice.models.UpgradeOverrideSettings"
 - "com.azure.resourcemanager.containerservice.models.UpgradeStrategy"
 - "com.azure.resourcemanager.containerservice.models.UserAssignedIdentity"
@@ -438,4 +439,4 @@ interfaces:
 desc: "Package containing the data models for ContainerService. The Container Service Client."
 metadata: {}
 package: "com.azure.resourcemanager.containerservice.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-containerservice:2.64.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerservice:2.65.0-beta.1

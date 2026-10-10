@@ -1,0 +1,12 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.Enrollment.UpdateStages"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.Enrollment.UpdateStages"
+name: "Enrollment.UpdateStages"
+nameWithType: "Enrollment.UpdateStages"
+summary: "The Enrollment update stages."
+syntax: "public static interface **Enrollment.UpdateStages**"
+type: "interface"
+desc: "The Enrollment update stages."
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

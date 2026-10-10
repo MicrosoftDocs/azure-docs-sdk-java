@@ -78,6 +78,16 @@ methods:
   returns:
     description: "the id value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.containerservice.fluent.models.IdentityBindingInner.managedBy()"
+  fullName: "com.azure.resourcemanager.containerservice.fluent.models.IdentityBindingInner.managedBy()"
+  name: "managedBy()"
+  nameWithType: "IdentityBindingInner.managedBy()"
+  summary: "Get the managed<wbr>By property: The fully qualified resource ID of the resource that manages this resource."
+  syntax: "public String managedBy()"
+  desc: "Get the managedBy property: The fully qualified resource ID of the resource that manages this resource. Indicates if this resource is managed by another Azure resource. If this is present, complete mode deployment will not delete the resource if it is removed from the template since it is managed by another resource."
+  returns:
+    description: "the managedBy value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.containerservice.fluent.models.IdentityBindingInner.name()"
   fullName: "com.azure.resourcemanager.containerservice.fluent.models.IdentityBindingInner.name()"
   name: "name()"
@@ -140,6 +150,20 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
+- uid: "com.azure.resourcemanager.containerservice.fluent.models.IdentityBindingInner.withManagedBy(java.lang.String)"
+  fullName: "com.azure.resourcemanager.containerservice.fluent.models.IdentityBindingInner.withManagedBy(String managedBy)"
+  name: "withManagedBy(String managedBy)"
+  nameWithType: "IdentityBindingInner.withManagedBy(String managedBy)"
+  summary: "Set the managed<wbr>By property: The fully qualified resource ID of the resource that manages this resource."
+  parameters:
+  - description: "the managedBy value to set."
+    name: "managedBy"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public IdentityBindingInner withManagedBy(String managedBy)"
+  desc: "Set the managedBy property: The fully qualified resource ID of the resource that manages this resource. Indicates if this resource is managed by another Azure resource. If this is present, complete mode deployment will not delete the resource if it is removed from the template since it is managed by another resource."
+  returns:
+    description: "the IdentityBindingInner object itself."
+    type: "<xref href=\"com.azure.resourcemanager.containerservice.fluent.models.IdentityBindingInner?alt=com.azure.resourcemanager.containerservice.fluent.models.IdentityBindingInner&text=IdentityBindingInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.containerservice.fluent.models.IdentityBindingInner.withProperties(com.azure.resourcemanager.containerservice.models.IdentityBindingProperties)"
   fullName: "com.azure.resourcemanager.containerservice.fluent.models.IdentityBindingInner.withProperties(IdentityBindingProperties properties)"
   name: "withProperties(IdentityBindingProperties properties)"
@@ -158,4 +182,4 @@ type: "class"
 desc: "The IdentityBinding resource."
 metadata: {}
 package: "com.azure.resourcemanager.containerservice.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-containerservice:2.64.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerservice:2.65.0-beta.1

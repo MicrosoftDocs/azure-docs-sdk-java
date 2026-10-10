@@ -2488,6 +2488,19 @@
         - com.azure.resourcemanager.reservations.fluent
         - com.azure.resourcemanager.reservations.fluent.models
         - com.azure.resourcemanager.reservations.models
+  - name: Resilience Management
+    href: ~/docs-ref-services/latest/resilience-management.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Resilience Management
+        href: ~/docs-ref-services/latest/resourcemanager-resiliencemanagement-readme.md
+        children:
+        - com.azure.resourcemanager.resiliencemanagement
+        - com.azure.resourcemanager.resiliencemanagement.fluent
+        - com.azure.resourcemanager.resiliencemanagement.fluent.models
+        - com.azure.resourcemanager.resiliencemanagement.models
   - name: Resource Connector
     href: ~/docs-ref-services/latest/resource-connector.md
     landingPageType: Service

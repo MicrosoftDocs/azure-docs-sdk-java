@@ -1,0 +1,134 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillResourceState"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillResourceState"
+name: "DrillResourceState"
+nameWithType: "DrillResourceState"
+summary: "Drill Resource State (wrt SG and RO)."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **DrillResourceState**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillResourceState?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillResourceState&text=DrillResourceState\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillResourceState.DrillResourceState()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillResourceState.DrillResourceState()"
+  name: "DrillResourceState()"
+  nameWithType: "DrillResourceState.DrillResourceState()"
+  summary: "Creates a new instance of Drill<wbr>Resource<wbr>State value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.resiliencemanagement.models.DrillResourceState.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public DrillResourceState()"
+  desc: "Creates a new instance of DrillResourceState value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillResourceState.IN_DRILL_NOT_IN_RECOVERY_PLAN"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillResourceState.IN_DRILL_NOT_IN_RECOVERY_PLAN"
+  name: "IN_DRILL_NOT_IN_RECOVERY_PLAN"
+  nameWithType: "DrillResourceState.IN_DRILL_NOT_IN_RECOVERY_PLAN"
+  summary: "Resource is in Drill but not part of the Recovery<wbr>Plan."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillResourceState?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillResourceState&text=DrillResourceState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final DrillResourceState IN_DRILL_NOT_IN_RECOVERY_PLAN"
+  desc: "Resource is in Drill but not part of the RecoveryPlan."
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillResourceState.IN_DRILL_NOT_IN_SERVICE_GROUP"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillResourceState.IN_DRILL_NOT_IN_SERVICE_GROUP"
+  name: "IN_DRILL_NOT_IN_SERVICE_GROUP"
+  nameWithType: "DrillResourceState.IN_DRILL_NOT_IN_SERVICE_GROUP"
+  summary: "Resource is in Drill but not part of the SG."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillResourceState?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillResourceState&text=DrillResourceState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final DrillResourceState IN_DRILL_NOT_IN_SERVICE_GROUP"
+  desc: "Resource is in Drill but not part of the SG."
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillResourceState.IN_RECOVERY_PLAN_NOT_IN_DRILL"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillResourceState.IN_RECOVERY_PLAN_NOT_IN_DRILL"
+  name: "IN_RECOVERY_PLAN_NOT_IN_DRILL"
+  nameWithType: "DrillResourceState.IN_RECOVERY_PLAN_NOT_IN_DRILL"
+  summary: "Resource is in Recovery<wbr>Plan but not part of the Drill."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillResourceState?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillResourceState&text=DrillResourceState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final DrillResourceState IN_RECOVERY_PLAN_NOT_IN_DRILL"
+  desc: "Resource is in RecoveryPlan but not part of the Drill."
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillResourceState.IN_SERVICE_GROUP_NOT_IN_DRILL"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillResourceState.IN_SERVICE_GROUP_NOT_IN_DRILL"
+  name: "IN_SERVICE_GROUP_NOT_IN_DRILL"
+  nameWithType: "DrillResourceState.IN_SERVICE_GROUP_NOT_IN_DRILL"
+  summary: "Resource is in SG but not part of the Drill."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillResourceState?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillResourceState&text=DrillResourceState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final DrillResourceState IN_SERVICE_GROUP_NOT_IN_DRILL"
+  desc: "Resource is in SG but not part of the Drill."
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillResourceState.RESOURCE_STATE_INCOMPATIBLE_WITH_FAULT"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillResourceState.RESOURCE_STATE_INCOMPATIBLE_WITH_FAULT"
+  name: "RESOURCE_STATE_INCOMPATIBLE_WITH_FAULT"
+  nameWithType: "DrillResourceState.RESOURCE_STATE_INCOMPATIBLE_WITH_FAULT"
+  summary: "Resource is not in a state where it can be faulted."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillResourceState?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillResourceState&text=DrillResourceState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final DrillResourceState RESOURCE_STATE_INCOMPATIBLE_WITH_FAULT"
+  desc: "Resource is not in a state where it can be faulted."
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillResourceState.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillResourceState.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "DrillResourceState.fromString(String name)"
+  summary: "Creates or finds a Drill<wbr>Resource<wbr>State from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static DrillResourceState fromString(String name)"
+  desc: "Creates or finds a DrillResourceState from its string representation."
+  returns:
+    description: "the corresponding DrillResourceState."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillResourceState?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillResourceState&text=DrillResourceState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillResourceState.values()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillResourceState.values()"
+  name: "values()"
+  nameWithType: "DrillResourceState.values()"
+  summary: "Gets known Drill<wbr>Resource<wbr>State values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<DrillResourceState> values()"
+  desc: "Gets known DrillResourceState values."
+  returns:
+    description: "known DrillResourceState values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillResourceState?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillResourceState&text=DrillResourceState\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Drill Resource State (wrt SG and RO)."
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

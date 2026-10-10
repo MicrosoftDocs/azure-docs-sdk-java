@@ -1,0 +1,104 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.GoalAssignmentPropertiesOfDrill"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.GoalAssignmentPropertiesOfDrill"
+name: "GoalAssignmentPropertiesOfDrill"
+nameWithType: "GoalAssignmentPropertiesOfDrill"
+summary: "Goal assignment properties."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **GoalAssignmentPropertiesOfDrill**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.GoalAssignmentPropertiesOfDrill?alt=com.azure.resourcemanager.resiliencemanagement.models.GoalAssignmentPropertiesOfDrill&text=GoalAssignmentPropertiesOfDrill\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.GoalAssignmentPropertiesOfDrill.GoalAssignmentPropertiesOfDrill()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.GoalAssignmentPropertiesOfDrill.GoalAssignmentPropertiesOfDrill()"
+  name: "GoalAssignmentPropertiesOfDrill()"
+  nameWithType: "GoalAssignmentPropertiesOfDrill.GoalAssignmentPropertiesOfDrill()"
+  summary: "Creates an instance of Goal<wbr>Assignment<wbr>Properties<wbr>OfDrill class."
+  syntax: "public GoalAssignmentPropertiesOfDrill()"
+  desc: "Creates an instance of GoalAssignmentPropertiesOfDrill class."
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.GoalAssignmentPropertiesOfDrill.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.GoalAssignmentPropertiesOfDrill.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "GoalAssignmentPropertiesOfDrill.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Goal<wbr>Assignment<wbr>Properties<wbr>OfDrill from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static GoalAssignmentPropertiesOfDrill fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of GoalAssignmentPropertiesOfDrill from the JsonReader."
+  returns:
+    description: "An instance of GoalAssignmentPropertiesOfDrill if the JsonReader was pointing to an instance of it, or\n null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.GoalAssignmentPropertiesOfDrill?alt=com.azure.resourcemanager.resiliencemanagement.models.GoalAssignmentPropertiesOfDrill&text=GoalAssignmentPropertiesOfDrill\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.GoalAssignmentPropertiesOfDrill.goalAssignmentId()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.GoalAssignmentPropertiesOfDrill.goalAssignmentId()"
+  name: "goalAssignmentId()"
+  nameWithType: "GoalAssignmentPropertiesOfDrill.goalAssignmentId()"
+  summary: "Get the goal<wbr>Assignment<wbr>Id property: Goal assignment id."
+  syntax: "public String goalAssignmentId()"
+  desc: "Get the goalAssignmentId property: Goal assignment id."
+  returns:
+    description: "the goalAssignmentId value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.GoalAssignmentPropertiesOfDrill.identity()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.GoalAssignmentPropertiesOfDrill.identity()"
+  name: "identity()"
+  nameWithType: "GoalAssignmentPropertiesOfDrill.identity()"
+  summary: "Get the identity property: Identity to use for goal assignment operations."
+  syntax: "public AssociatedIdentity identity()"
+  desc: "Get the identity property: Identity to use for goal assignment operations."
+  returns:
+    description: "the identity value."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.AssociatedIdentity?alt=com.azure.resourcemanager.resiliencemanagement.models.AssociatedIdentity&text=AssociatedIdentity\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.GoalAssignmentPropertiesOfDrill.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.GoalAssignmentPropertiesOfDrill.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "GoalAssignmentPropertiesOfDrill.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.GoalAssignmentPropertiesOfDrill.withIdentity(com.azure.resourcemanager.resiliencemanagement.models.AssociatedIdentity)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.GoalAssignmentPropertiesOfDrill.withIdentity(AssociatedIdentity identity)"
+  name: "withIdentity(AssociatedIdentity identity)"
+  nameWithType: "GoalAssignmentPropertiesOfDrill.withIdentity(AssociatedIdentity identity)"
+  summary: "Set the identity property: Identity to use for goal assignment operations."
+  parameters:
+  - description: "the identity value to set."
+    name: "identity"
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.AssociatedIdentity?alt=com.azure.resourcemanager.resiliencemanagement.models.AssociatedIdentity&text=AssociatedIdentity\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public GoalAssignmentPropertiesOfDrill withIdentity(AssociatedIdentity identity)"
+  desc: "Set the identity property: Identity to use for goal assignment operations."
+  returns:
+    description: "the GoalAssignmentPropertiesOfDrill object itself."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.GoalAssignmentPropertiesOfDrill?alt=com.azure.resourcemanager.resiliencemanagement.models.GoalAssignmentPropertiesOfDrill&text=GoalAssignmentPropertiesOfDrill\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Goal assignment properties."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.GoalAssignmentPropertiesOfDrill?alt=com.azure.resourcemanager.resiliencemanagement.models.GoalAssignmentPropertiesOfDrill&text=GoalAssignmentPropertiesOfDrill\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

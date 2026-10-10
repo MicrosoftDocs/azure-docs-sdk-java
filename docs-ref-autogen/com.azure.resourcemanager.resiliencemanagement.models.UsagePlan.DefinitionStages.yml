@@ -1,0 +1,12 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.UsagePlan.DefinitionStages"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.UsagePlan.DefinitionStages"
+name: "UsagePlan.DefinitionStages"
+nameWithType: "UsagePlan.DefinitionStages"
+summary: "The Usage<wbr>Plan definition stages."
+syntax: "public static interface **UsagePlan.DefinitionStages**"
+type: "interface"
+desc: "The UsagePlan definition stages."
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

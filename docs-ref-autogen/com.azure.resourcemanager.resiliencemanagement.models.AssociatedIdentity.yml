@@ -1,0 +1,118 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.AssociatedIdentity"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.AssociatedIdentity"
+name: "AssociatedIdentity"
+nameWithType: "AssociatedIdentity"
+summary: "Definition of associated identity linked with the various resources."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **AssociatedIdentity**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.AssociatedIdentity?alt=com.azure.resourcemanager.resiliencemanagement.models.AssociatedIdentity&text=AssociatedIdentity\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.AssociatedIdentity.AssociatedIdentity()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.AssociatedIdentity.AssociatedIdentity()"
+  name: "AssociatedIdentity()"
+  nameWithType: "AssociatedIdentity.AssociatedIdentity()"
+  summary: "Creates an instance of Associated<wbr>Identity class."
+  syntax: "public AssociatedIdentity()"
+  desc: "Creates an instance of AssociatedIdentity class."
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.AssociatedIdentity.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.AssociatedIdentity.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "AssociatedIdentity.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Associated<wbr>Identity from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static AssociatedIdentity fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of AssociatedIdentity from the JsonReader."
+  returns:
+    description: "An instance of AssociatedIdentity if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.AssociatedIdentity?alt=com.azure.resourcemanager.resiliencemanagement.models.AssociatedIdentity&text=AssociatedIdentity\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.AssociatedIdentity.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.AssociatedIdentity.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "AssociatedIdentity.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.AssociatedIdentity.type()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.AssociatedIdentity.type()"
+  name: "type()"
+  nameWithType: "AssociatedIdentity.type()"
+  summary: "Get the type property: Identity type linked with the resource."
+  syntax: "public ManagedServiceIdentityType type()"
+  desc: "Get the type property: Identity type linked with the resource."
+  returns:
+    description: "the type value."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ManagedServiceIdentityType?alt=com.azure.resourcemanager.resiliencemanagement.models.ManagedServiceIdentityType&text=ManagedServiceIdentityType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.AssociatedIdentity.userAssignedIdentity()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.AssociatedIdentity.userAssignedIdentity()"
+  name: "userAssignedIdentity()"
+  nameWithType: "AssociatedIdentity.userAssignedIdentity()"
+  summary: "Get the user<wbr>Assigned<wbr>Identity property: User assigned identity id linked with the resource."
+  syntax: "public String userAssignedIdentity()"
+  desc: "Get the userAssignedIdentity property: User assigned identity id linked with the resource."
+  returns:
+    description: "the userAssignedIdentity value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.AssociatedIdentity.withType(com.azure.resourcemanager.resiliencemanagement.models.ManagedServiceIdentityType)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.AssociatedIdentity.withType(ManagedServiceIdentityType type)"
+  name: "withType(ManagedServiceIdentityType type)"
+  nameWithType: "AssociatedIdentity.withType(ManagedServiceIdentityType type)"
+  summary: "Set the type property: Identity type linked with the resource."
+  parameters:
+  - description: "the type value to set."
+    name: "type"
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ManagedServiceIdentityType?alt=com.azure.resourcemanager.resiliencemanagement.models.ManagedServiceIdentityType&text=ManagedServiceIdentityType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public AssociatedIdentity withType(ManagedServiceIdentityType type)"
+  desc: "Set the type property: Identity type linked with the resource."
+  returns:
+    description: "the AssociatedIdentity object itself."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.AssociatedIdentity?alt=com.azure.resourcemanager.resiliencemanagement.models.AssociatedIdentity&text=AssociatedIdentity\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.AssociatedIdentity.withUserAssignedIdentity(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.AssociatedIdentity.withUserAssignedIdentity(String userAssignedIdentity)"
+  name: "withUserAssignedIdentity(String userAssignedIdentity)"
+  nameWithType: "AssociatedIdentity.withUserAssignedIdentity(String userAssignedIdentity)"
+  summary: "Set the user<wbr>Assigned<wbr>Identity property: User assigned identity id linked with the resource."
+  parameters:
+  - description: "the userAssignedIdentity value to set."
+    name: "userAssignedIdentity"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public AssociatedIdentity withUserAssignedIdentity(String userAssignedIdentity)"
+  desc: "Set the userAssignedIdentity property: User assigned identity id linked with the resource."
+  returns:
+    description: "the AssociatedIdentity object itself."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.AssociatedIdentity?alt=com.azure.resourcemanager.resiliencemanagement.models.AssociatedIdentity&text=AssociatedIdentity\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Definition of associated identity linked with the various resources."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.AssociatedIdentity?alt=com.azure.resourcemanager.resiliencemanagement.models.AssociatedIdentity&text=AssociatedIdentity\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

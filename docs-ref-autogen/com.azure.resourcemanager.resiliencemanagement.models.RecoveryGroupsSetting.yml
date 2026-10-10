@@ -1,0 +1,118 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupsSetting"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupsSetting"
+name: "RecoveryGroupsSetting"
+nameWithType: "RecoveryGroupsSetting"
+summary: "Settings for the recovery orchestration groups."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **RecoveryGroupsSetting**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupsSetting?alt=com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupsSetting&text=RecoveryGroupsSetting\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupsSetting.RecoveryGroupsSetting()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupsSetting.RecoveryGroupsSetting()"
+  name: "RecoveryGroupsSetting()"
+  nameWithType: "RecoveryGroupsSetting.RecoveryGroupsSetting()"
+  summary: "Creates an instance of Recovery<wbr>Groups<wbr>Setting class."
+  syntax: "public RecoveryGroupsSetting()"
+  desc: "Creates an instance of RecoveryGroupsSetting class."
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupsSetting.additionalGroups()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupsSetting.additionalGroups()"
+  name: "additionalGroups()"
+  nameWithType: "RecoveryGroupsSetting.additionalGroups()"
+  summary: "Get the additional<wbr>Groups property: Additional recovery orchestration group settings."
+  syntax: "public List<RecoveryGroup> additionalGroups()"
+  desc: "Get the additionalGroups property: Additional recovery orchestration group settings."
+  returns:
+    description: "the additionalGroups value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroup?alt=com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroup&text=RecoveryGroup\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupsSetting.defaultGroup()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupsSetting.defaultGroup()"
+  name: "defaultGroup()"
+  nameWithType: "RecoveryGroupsSetting.defaultGroup()"
+  summary: "Get the default<wbr>Group property: The default recovery orchestration group setting."
+  syntax: "public RecoveryGroup defaultGroup()"
+  desc: "Get the defaultGroup property: The default recovery orchestration group setting. Every recovery orchestration plan has a default recovery orchestration group."
+  returns:
+    description: "the defaultGroup value."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroup?alt=com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroup&text=RecoveryGroup\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupsSetting.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupsSetting.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "RecoveryGroupsSetting.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Recovery<wbr>Groups<wbr>Setting from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static RecoveryGroupsSetting fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of RecoveryGroupsSetting from the JsonReader."
+  returns:
+    description: "An instance of RecoveryGroupsSetting if the JsonReader was pointing to an instance of it, or null if it\n was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupsSetting?alt=com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupsSetting&text=RecoveryGroupsSetting\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupsSetting.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupsSetting.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "RecoveryGroupsSetting.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupsSetting.withAdditionalGroups(java.util.List<com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroup>)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupsSetting.withAdditionalGroups(List<RecoveryGroup> additionalGroups)"
+  name: "withAdditionalGroups(List<RecoveryGroup> additionalGroups)"
+  nameWithType: "RecoveryGroupsSetting.withAdditionalGroups(List<RecoveryGroup> additionalGroups)"
+  summary: "Set the additional<wbr>Groups property: Additional recovery orchestration group settings."
+  parameters:
+  - description: "the additionalGroups value to set."
+    name: "additionalGroups"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroup?alt=com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroup&text=RecoveryGroup\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public RecoveryGroupsSetting withAdditionalGroups(List<RecoveryGroup> additionalGroups)"
+  desc: "Set the additionalGroups property: Additional recovery orchestration group settings."
+  returns:
+    description: "the RecoveryGroupsSetting object itself."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupsSetting?alt=com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupsSetting&text=RecoveryGroupsSetting\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupsSetting.withDefaultGroup(com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroup)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupsSetting.withDefaultGroup(RecoveryGroup defaultGroup)"
+  name: "withDefaultGroup(RecoveryGroup defaultGroup)"
+  nameWithType: "RecoveryGroupsSetting.withDefaultGroup(RecoveryGroup defaultGroup)"
+  summary: "Set the default<wbr>Group property: The default recovery orchestration group setting."
+  parameters:
+  - description: "the defaultGroup value to set."
+    name: "defaultGroup"
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroup?alt=com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroup&text=RecoveryGroup\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public RecoveryGroupsSetting withDefaultGroup(RecoveryGroup defaultGroup)"
+  desc: "Set the defaultGroup property: The default recovery orchestration group setting. Every recovery orchestration plan has a default recovery orchestration group."
+  returns:
+    description: "the RecoveryGroupsSetting object itself."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupsSetting?alt=com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupsSetting&text=RecoveryGroupsSetting\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Settings for the recovery orchestration groups."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupsSetting?alt=com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupsSetting&text=RecoveryGroupsSetting\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

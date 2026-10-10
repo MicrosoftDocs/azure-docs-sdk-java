@@ -1,0 +1,102 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillResourceAttentionReason"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillResourceAttentionReason"
+name: "DrillResourceAttentionReason"
+nameWithType: "DrillResourceAttentionReason"
+summary: "Reason why the Drill resource is in Needs<wbr>Attention state."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **DrillResourceAttentionReason**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillResourceAttentionReason?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillResourceAttentionReason&text=DrillResourceAttentionReason\" data-throw-if-not-resolved=\"False\" />&gt;"
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillResourceAttentionReason.faultRbacOnTargetResource()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillResourceAttentionReason.faultRbacOnTargetResource()"
+  name: "faultRbacOnTargetResource()"
+  nameWithType: "DrillResourceAttentionReason.faultRbacOnTargetResource()"
+  summary: "Get the fault<wbr>Rbac<wbr>OnTarget<wbr>Resource property: Chaos Resource MSI does not have the desired RBAC on the resource."
+  syntax: "public RBACState faultRbacOnTargetResource()"
+  desc: "Get the faultRbacOnTargetResource property: Chaos Resource MSI does not have the desired RBAC on the resource."
+  returns:
+    description: "the faultRbacOnTargetResource value."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RBACState?alt=com.azure.resourcemanager.resiliencemanagement.models.RBACState&text=RBACState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillResourceAttentionReason.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillResourceAttentionReason.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "DrillResourceAttentionReason.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Drill<wbr>Resource<wbr>Attention<wbr>Reason from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static DrillResourceAttentionReason fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the DrillResourceAttentionReason."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of DrillResourceAttentionReason from the JsonReader."
+  returns:
+    description: "An instance of DrillResourceAttentionReason if the JsonReader was pointing to an instance of it, or null\n if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillResourceAttentionReason?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillResourceAttentionReason&text=DrillResourceAttentionReason\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillResourceAttentionReason.monitoringRbacOnTargets()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillResourceAttentionReason.monitoringRbacOnTargets()"
+  name: "monitoringRbacOnTargets()"
+  nameWithType: "DrillResourceAttentionReason.monitoringRbacOnTargets()"
+  summary: "Get the monitoring<wbr>Rbac<wbr>OnTargets property: RBAC required by Drill MSI on the target resource for monitoring."
+  syntax: "public RBACState monitoringRbacOnTargets()"
+  desc: "Get the monitoringRbacOnTargets property: RBAC required by Drill MSI on the target resource for monitoring."
+  returns:
+    description: "the monitoringRbacOnTargets value."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RBACState?alt=com.azure.resourcemanager.resiliencemanagement.models.RBACState&text=RBACState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillResourceAttentionReason.resourceState()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillResourceAttentionReason.resourceState()"
+  name: "resourceState()"
+  nameWithType: "DrillResourceAttentionReason.resourceState()"
+  summary: "Get the resource<wbr>State property: Drill Resource State (wrt SG and RO)."
+  syntax: "public List<DrillResourceState> resourceState()"
+  desc: "Get the resourceState property: Drill Resource State (wrt SG and RO)."
+  returns:
+    description: "the resourceState value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillResourceState?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillResourceState&text=DrillResourceState\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillResourceAttentionReason.runbookFaultRbacOnTargets()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillResourceAttentionReason.runbookFaultRbacOnTargets()"
+  name: "runbookFaultRbacOnTargets()"
+  nameWithType: "DrillResourceAttentionReason.runbookFaultRbacOnTargets()"
+  summary: "Get the runbook<wbr>Fault<wbr>Rbac<wbr>OnTargets property: RBAC required by Automation<wbr>Account for runbook MSI not setup on the target resources."
+  syntax: "public RBACState runbookFaultRbacOnTargets()"
+  desc: "Get the runbookFaultRbacOnTargets property: RBAC required by AutomationAccount for runbook MSI not setup on the target resources."
+  returns:
+    description: "the runbookFaultRbacOnTargets value."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RBACState?alt=com.azure.resourcemanager.resiliencemanagement.models.RBACState&text=RBACState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillResourceAttentionReason.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillResourceAttentionReason.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "DrillResourceAttentionReason.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Reason why the Drill resource is in NeedsAttention state."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillResourceAttentionReason?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillResourceAttentionReason&text=DrillResourceAttentionReason\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

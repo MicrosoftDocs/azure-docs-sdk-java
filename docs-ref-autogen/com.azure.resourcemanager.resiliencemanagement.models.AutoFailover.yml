@@ -1,0 +1,98 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.AutoFailover"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.AutoFailover"
+name: "AutoFailover"
+nameWithType: "AutoFailover"
+summary: "Enum for Auto<wbr>Failover."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **AutoFailover**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.AutoFailover?alt=com.azure.resourcemanager.resiliencemanagement.models.AutoFailover&text=AutoFailover\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.AutoFailover.AutoFailover()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.AutoFailover.AutoFailover()"
+  name: "AutoFailover()"
+  nameWithType: "AutoFailover.AutoFailover()"
+  summary: "Creates a new instance of Auto<wbr>Failover value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.resiliencemanagement.models.AutoFailover.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public AutoFailover()"
+  desc: "Creates a new instance of AutoFailover value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.AutoFailover.DISABLE"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.AutoFailover.DISABLE"
+  name: "DISABLE"
+  nameWithType: "AutoFailover.DISABLE"
+  summary: "Disable Auto<wbr>Failover."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.AutoFailover?alt=com.azure.resourcemanager.resiliencemanagement.models.AutoFailover&text=AutoFailover\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AutoFailover DISABLE"
+  desc: "Disable AutoFailover."
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.AutoFailover.ENABLE"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.AutoFailover.ENABLE"
+  name: "ENABLE"
+  nameWithType: "AutoFailover.ENABLE"
+  summary: "Enable Auto<wbr>Failover."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.AutoFailover?alt=com.azure.resourcemanager.resiliencemanagement.models.AutoFailover&text=AutoFailover\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AutoFailover ENABLE"
+  desc: "Enable AutoFailover."
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.AutoFailover.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.AutoFailover.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "AutoFailover.fromString(String name)"
+  summary: "Creates or finds a Auto<wbr>Failover from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static AutoFailover fromString(String name)"
+  desc: "Creates or finds a AutoFailover from its string representation."
+  returns:
+    description: "the corresponding AutoFailover."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.AutoFailover?alt=com.azure.resourcemanager.resiliencemanagement.models.AutoFailover&text=AutoFailover\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.AutoFailover.values()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.AutoFailover.values()"
+  name: "values()"
+  nameWithType: "AutoFailover.values()"
+  summary: "Gets known Auto<wbr>Failover values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<AutoFailover> values()"
+  desc: "Gets known AutoFailover values."
+  returns:
+    description: "known AutoFailover values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.AutoFailover?alt=com.azure.resourcemanager.resiliencemanagement.models.AutoFailover&text=AutoFailover\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Enum for AutoFailover."
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

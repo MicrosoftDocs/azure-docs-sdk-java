@@ -1,0 +1,102 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.ReportStageStatus"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.ReportStageStatus"
+name: "ReportStageStatus"
+nameWithType: "ReportStageStatus"
+summary: "Report generation status for a single Drill Run stage."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ReportStageStatus**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ReportStageStatus?alt=com.azure.resourcemanager.resiliencemanagement.models.ReportStageStatus&text=ReportStageStatus\" data-throw-if-not-resolved=\"False\" />&gt;"
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ReportStageStatus.drillRunStage()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ReportStageStatus.drillRunStage()"
+  name: "drillRunStage()"
+  nameWithType: "ReportStageStatus.drillRunStage()"
+  summary: "Get the drill<wbr>Run<wbr>Stage property: Name of the Drill Run stage this status applies to."
+  syntax: "public DrillRunSubtasks drillRunStage()"
+  desc: "Get the drillRunStage property: Name of the Drill Run stage this status applies to."
+  returns:
+    description: "the drillRunStage value."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillRunSubtasks?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillRunSubtasks&text=DrillRunSubtasks\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ReportStageStatus.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ReportStageStatus.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "ReportStageStatus.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Report<wbr>Stage<wbr>Status from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static ReportStageStatus fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of ReportStageStatus from the JsonReader."
+  returns:
+    description: "An instance of ReportStageStatus if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ReportStageStatus?alt=com.azure.resourcemanager.resiliencemanagement.models.ReportStageStatus&text=ReportStageStatus\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ReportStageStatus.generationStatus()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ReportStageStatus.generationStatus()"
+  name: "generationStatus()"
+  nameWithType: "ReportStageStatus.generationStatus()"
+  summary: "Get the generation<wbr>Status property: Report generation status for this stage."
+  syntax: "public DrillReportGenerationStatus generationStatus()"
+  desc: "Get the generationStatus property: Report generation status for this stage."
+  returns:
+    description: "the generationStatus value."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillReportGenerationStatus?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillReportGenerationStatus&text=DrillReportGenerationStatus\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ReportStageStatus.lastAttemptTimestamp()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ReportStageStatus.lastAttemptTimestamp()"
+  name: "lastAttemptTimestamp()"
+  nameWithType: "ReportStageStatus.lastAttemptTimestamp()"
+  summary: "Get the last<wbr>Attempt<wbr>Timestamp property: Timestamp of the last report generation attempt for this stage."
+  syntax: "public OffsetDateTime lastAttemptTimestamp()"
+  desc: "Get the lastAttemptTimestamp property: Timestamp of the last report generation attempt for this stage."
+  returns:
+    description: "the lastAttemptTimestamp value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ReportStageStatus.lastError()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ReportStageStatus.lastError()"
+  name: "lastError()"
+  nameWithType: "ReportStageStatus.lastError()"
+  summary: "Get the last<wbr>Error property: Error from the last failed report generation attempt for this stage."
+  syntax: "public ErrorDetails lastError()"
+  desc: "Get the lastError property: Error from the last failed report generation attempt for this stage."
+  returns:
+    description: "the lastError value."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ErrorDetails?alt=com.azure.resourcemanager.resiliencemanagement.models.ErrorDetails&text=ErrorDetails\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ReportStageStatus.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ReportStageStatus.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "ReportStageStatus.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Report generation status for a single Drill Run stage."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ReportStageStatus?alt=com.azure.resourcemanager.resiliencemanagement.models.ReportStageStatus&text=ReportStageStatus\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

@@ -184446,6 +184446,1082 @@
     - SubscriptionScopeProperties
   no-loc:
   - com.azure.resourcemanager.reservations.models
+- uid: com.azure.resourcemanager.resiliencemanagement
+  name: com.azure.resourcemanager.resiliencemanagement
+  items:
+  - uid: com.azure.resourcemanager.resiliencemanagement.ResilienceManagementManager
+    name: ResilienceManagementManager
+    no-loc:
+    - ResilienceManagementManager
+  - uid: com.azure.resourcemanager.resiliencemanagement.ResilienceManagementManager.Configurable
+    name: ResilienceManagementManager.Configurable
+    no-loc:
+    - ResilienceManagementManager.Configurable
+  no-loc:
+  - com.azure.resourcemanager.resiliencemanagement
+- uid: com.azure.resourcemanager.resiliencemanagement.fluent
+  name: com.azure.resourcemanager.resiliencemanagement.fluent
+  items:
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.DrillResourcesClient
+    name: DrillResourcesClient
+    no-loc:
+    - DrillResourcesClient
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.DrillRunResourcesClient
+    name: DrillRunResourcesClient
+    no-loc:
+    - DrillRunResourcesClient
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.DrillRunsClient
+    name: DrillRunsClient
+    no-loc:
+    - DrillRunsClient
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.DrillsClient
+    name: DrillsClient
+    no-loc:
+    - DrillsClient
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.EnrollmentsClient
+    name: EnrollmentsClient
+    no-loc:
+    - EnrollmentsClient
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.GoalAssignmentsClient
+    name: GoalAssignmentsClient
+    no-loc:
+    - GoalAssignmentsClient
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.GoalResourcesClient
+    name: GoalResourcesClient
+    no-loc:
+    - GoalResourcesClient
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.OperationStatusClient
+    name: OperationStatusClient
+    no-loc:
+    - OperationStatusClient
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.OperationsClient
+    name: OperationsClient
+    no-loc:
+    - OperationsClient
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.RecoveryJobResourcesClient
+    name: RecoveryJobResourcesClient
+    no-loc:
+    - RecoveryJobResourcesClient
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.RecoveryJobsClient
+    name: RecoveryJobsClient
+    no-loc:
+    - RecoveryJobsClient
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.RecoveryPlanActionsClient
+    name: RecoveryPlanActionsClient
+    no-loc:
+    - RecoveryPlanActionsClient
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.RecoveryPlansClient
+    name: RecoveryPlansClient
+    no-loc:
+    - RecoveryPlansClient
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.RecoveryResourcesClient
+    name: RecoveryResourcesClient
+    no-loc:
+    - RecoveryResourcesClient
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.ResilienceManagementManagementClient
+    name: ResilienceManagementManagementClient
+    no-loc:
+    - ResilienceManagementManagementClient
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.UnifiedResilienceItemsClient
+    name: UnifiedResilienceItemsClient
+    no-loc:
+    - UnifiedResilienceItemsClient
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.UsagePlansClient
+    name: UsagePlansClient
+    no-loc:
+    - UsagePlansClient
+  no-loc:
+  - com.azure.resourcemanager.resiliencemanagement.fluent
+- uid: com.azure.resourcemanager.resiliencemanagement.fluent.models
+  name: com.azure.resourcemanager.resiliencemanagement.fluent.models
+  items:
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.models.DrillInner
+    name: DrillInner
+    no-loc:
+    - DrillInner
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.models.DrillReportSummaryInner
+    name: DrillReportSummaryInner
+    no-loc:
+    - DrillReportSummaryInner
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.models.DrillResourceInner
+    name: DrillResourceInner
+    no-loc:
+    - DrillResourceInner
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.models.DrillRunInner
+    name: DrillRunInner
+    no-loc:
+    - DrillRunInner
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.models.DrillRunPropertiesInner
+    name: DrillRunPropertiesInner
+    no-loc:
+    - DrillRunPropertiesInner
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.models.DrillRunResourceInner
+    name: DrillRunResourceInner
+    no-loc:
+    - DrillRunResourceInner
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.models.EnrollmentInner
+    name: EnrollmentInner
+    no-loc:
+    - EnrollmentInner
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.models.GoalAssignmentInner
+    name: GoalAssignmentInner
+    no-loc:
+    - GoalAssignmentInner
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.models.GoalResourceInner
+    name: GoalResourceInner
+    no-loc:
+    - GoalResourceInner
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.models.ListReportDownloadUrlResponseInner
+    name: ListReportDownloadUrlResponseInner
+    no-loc:
+    - ListReportDownloadUrlResponseInner
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.models.OperationInner
+    name: OperationInner
+    no-loc:
+    - OperationInner
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.models.OperationStatusResultInner
+    name: OperationStatusResultInner
+    no-loc:
+    - OperationStatusResultInner
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.models.RecoveryJobInner
+    name: RecoveryJobInner
+    no-loc:
+    - RecoveryJobInner
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.models.RecoveryJobResourceInner
+    name: RecoveryJobResourceInner
+    no-loc:
+    - RecoveryJobResourceInner
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.models.RecoveryPlanActionBaseResponseInner
+    name: RecoveryPlanActionBaseResponseInner
+    no-loc:
+    - RecoveryPlanActionBaseResponseInner
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.models.RecoveryPlanInner
+    name: RecoveryPlanInner
+    no-loc:
+    - RecoveryPlanInner
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.models.RecoveryResourceInner
+    name: RecoveryResourceInner
+    no-loc:
+    - RecoveryResourceInner
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.models.RecoveryResourceQualificationInner
+    name: RecoveryResourceQualificationInner
+    no-loc:
+    - RecoveryResourceQualificationInner
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.models.UnifiedResilienceItemInner
+    name: UnifiedResilienceItemInner
+    no-loc:
+    - UnifiedResilienceItemInner
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.models.UpdateRecoveryResourcesResponseInner
+    name: UpdateRecoveryResourcesResponseInner
+    no-loc:
+    - UpdateRecoveryResourcesResponseInner
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.models.UsagePlanInner
+    name: UsagePlanInner
+    no-loc:
+    - UsagePlanInner
+  - uid: com.azure.resourcemanager.resiliencemanagement.fluent.models.ValidateForRecoveryOperationBaseResponseInner
+    name: ValidateForRecoveryOperationBaseResponseInner
+    no-loc:
+    - ValidateForRecoveryOperationBaseResponseInner
+  no-loc:
+  - com.azure.resourcemanager.resiliencemanagement.fluent.models
+- uid: com.azure.resourcemanager.resiliencemanagement.models
+  name: com.azure.resourcemanager.resiliencemanagement.models
+  items:
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ActionTask
+    name: ActionTask
+    no-loc:
+    - ActionTask
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ActionType
+    name: ActionType
+    no-loc:
+    - ActionType
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.AddOrUpdateResourcesRequest
+    name: AddOrUpdateResourcesRequest
+    no-loc:
+    - AddOrUpdateResourcesRequest
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ArmResponseErrorResponse
+    name: ArmResponseErrorResponse
+    no-loc:
+    - ArmResponseErrorResponse
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.AssetPropertiesOfDrill
+    name: AssetPropertiesOfDrill
+    no-loc:
+    - AssetPropertiesOfDrill
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.AssociatedIdentity
+    name: AssociatedIdentity
+    no-loc:
+    - AssociatedIdentity
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.AttentionReason
+    name: AttentionReason
+    no-loc:
+    - AttentionReason
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.AttestationState
+    name: AttestationState
+    no-loc:
+    - AttestationState
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.AutoFailover
+    name: AutoFailover
+    no-loc:
+    - AutoFailover
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ChaosResourcePropertiesOfDrill
+    name: ChaosResourcePropertiesOfDrill
+    no-loc:
+    - ChaosResourcePropertiesOfDrill
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.CommentType
+    name: CommentType
+    no-loc:
+    - CommentType
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ConfirmationStatus
+    name: ConfirmationStatus
+    no-loc:
+    - ConfirmationStatus
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.CustomFaultDetails
+    name: CustomFaultDetails
+    no-loc:
+    - CustomFaultDetails
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DiskReprotectInputDetails
+    name: DiskReprotectInputDetails
+    no-loc:
+    - DiskReprotectInputDetails
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.Drill
+    name: Drill
+    no-loc:
+    - Drill
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillAttestation
+    name: DrillAttestation
+    no-loc:
+    - DrillAttestation
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillEndRequest
+    name: DrillEndRequest
+    no-loc:
+    - DrillEndRequest
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillMode
+    name: DrillMode
+    no-loc:
+    - DrillMode
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillProperties
+    name: DrillProperties
+    no-loc:
+    - DrillProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillReportFinalizationState
+    name: DrillReportFinalizationState
+    no-loc:
+    - DrillReportFinalizationState
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillReportFormat
+    name: DrillReportFormat
+    no-loc:
+    - DrillReportFormat
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillReportGenerationStatus
+    name: DrillReportGenerationStatus
+    no-loc:
+    - DrillReportGenerationStatus
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillReportSummary
+    name: DrillReportSummary
+    no-loc:
+    - DrillReportSummary
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillResource
+    name: DrillResource
+    no-loc:
+    - DrillResource
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillResourceAttentionReason
+    name: DrillResourceAttentionReason
+    no-loc:
+    - DrillResourceAttentionReason
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillResourceFaultState
+    name: DrillResourceFaultState
+    no-loc:
+    - DrillResourceFaultState
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillResourceInclusionState
+    name: DrillResourceInclusionState
+    no-loc:
+    - DrillResourceInclusionState
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillResourceProperties
+    name: DrillResourceProperties
+    no-loc:
+    - DrillResourceProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillResourceReadinessState
+    name: DrillResourceReadinessState
+    no-loc:
+    - DrillResourceReadinessState
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillResourceState
+    name: DrillResourceState
+    no-loc:
+    - DrillResourceState
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillResources
+    name: DrillResources
+    no-loc:
+    - DrillResources
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillRun
+    name: DrillRun
+    no-loc:
+    - DrillRun
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillRunAddNotesRequest
+    name: DrillRunAddNotesRequest
+    no-loc:
+    - DrillRunAddNotesRequest
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillRunFailoverRequest
+    name: DrillRunFailoverRequest
+    no-loc:
+    - DrillRunFailoverRequest
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillRunOperationVerbs
+    name: DrillRunOperationVerbs
+    no-loc:
+    - DrillRunOperationVerbs
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillRunProperties
+    name: DrillRunProperties
+    no-loc:
+    - DrillRunProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillRunReprotectRequest
+    name: DrillRunReprotectRequest
+    no-loc:
+    - DrillRunReprotectRequest
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillRunResource
+    name: DrillRunResource
+    no-loc:
+    - DrillRunResource
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillRunResourceProperties
+    name: DrillRunResourceProperties
+    no-loc:
+    - DrillRunResourceProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillRunResources
+    name: DrillRunResources
+    no-loc:
+    - DrillRunResources
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillRunSubtasks
+    name: DrillRunSubtasks
+    no-loc:
+    - DrillRunSubtasks
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillRunTasks
+    name: DrillRunTasks
+    no-loc:
+    - DrillRunTasks
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillRuns
+    name: DrillRuns
+    no-loc:
+    - DrillRuns
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillStartRequest
+    name: DrillStartRequest
+    no-loc:
+    - DrillStartRequest
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillType
+    name: DrillType
+    no-loc:
+    - DrillType
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillUpdate
+    name: DrillUpdate
+    no-loc:
+    - DrillUpdate
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.DrillUpdateProperties
+    name: DrillUpdateProperties
+    no-loc:
+    - DrillUpdateProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.Drills
+    name: Drills
+    no-loc:
+    - Drills
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.Enrollment
+    name: Enrollment
+    no-loc:
+    - Enrollment
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.Enrollment.Definition
+    name: Enrollment.Definition
+    no-loc:
+    - Enrollment.Definition
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.Enrollment.DefinitionStages
+    name: Enrollment.DefinitionStages
+    no-loc:
+    - Enrollment.DefinitionStages
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.Enrollment.DefinitionStages.Blank
+    name: Enrollment.DefinitionStages.Blank
+    no-loc:
+    - Enrollment.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.Enrollment.DefinitionStages.WithCreate
+    name: Enrollment.DefinitionStages.WithCreate
+    no-loc:
+    - Enrollment.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.Enrollment.DefinitionStages.WithParentResource
+    name: Enrollment.DefinitionStages.WithParentResource
+    no-loc:
+    - Enrollment.DefinitionStages.WithParentResource
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.Enrollment.DefinitionStages.WithProperties
+    name: Enrollment.DefinitionStages.WithProperties
+    no-loc:
+    - Enrollment.DefinitionStages.WithProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.Enrollment.Update
+    name: Enrollment.Update
+    no-loc:
+    - Enrollment.Update
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.Enrollment.UpdateStages
+    name: Enrollment.UpdateStages
+    no-loc:
+    - Enrollment.UpdateStages
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.Enrollment.UpdateStages.WithProperties
+    name: Enrollment.UpdateStages.WithProperties
+    no-loc:
+    - Enrollment.UpdateStages.WithProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.EnrollmentProperties
+    name: EnrollmentProperties
+    no-loc:
+    - EnrollmentProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.Enrollments
+    name: Enrollments
+    no-loc:
+    - Enrollments
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ErrorDetails
+    name: ErrorDetails
+    no-loc:
+    - ErrorDetails
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ExclusionReason
+    name: ExclusionReason
+    no-loc:
+    - ExclusionReason
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ExclusionState
+    name: ExclusionState
+    no-loc:
+    - ExclusionState
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ExecutionConfigurations
+    name: ExecutionConfigurations
+    no-loc:
+    - ExecutionConfigurations
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ExecutionReadinessState
+    name: ExecutionReadinessState
+    no-loc:
+    - ExecutionReadinessState
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ExecutionState
+    name: ExecutionState
+    no-loc:
+    - ExecutionState
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ExtensionObjectState
+    name: ExtensionObjectState
+    no-loc:
+    - ExtensionObjectState
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.FailoverDirectionTypes
+    name: FailoverDirectionTypes
+    no-loc:
+    - FailoverDirectionTypes
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.FailoverRequest
+    name: FailoverRequest
+    no-loc:
+    - FailoverRequest
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.FailoverRequestProperties
+    name: FailoverRequestProperties
+    no-loc:
+    - FailoverRequestProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.FailoverState
+    name: FailoverState
+    no-loc:
+    - FailoverState
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.FaultDetails
+    name: FaultDetails
+    no-loc:
+    - FaultDetails
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.FaultProperties
+    name: FaultProperties
+    no-loc:
+    - FaultProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ForceInclusionAndUpdate
+    name: ForceInclusionAndUpdate
+    no-loc:
+    - ForceInclusionAndUpdate
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.GoalAssignment
+    name: GoalAssignment
+    no-loc:
+    - GoalAssignment
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.GoalAssignmentProperties
+    name: GoalAssignmentProperties
+    no-loc:
+    - GoalAssignmentProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.GoalAssignmentPropertiesOfDrill
+    name: GoalAssignmentPropertiesOfDrill
+    no-loc:
+    - GoalAssignmentPropertiesOfDrill
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.GoalAssignments
+    name: GoalAssignments
+    no-loc:
+    - GoalAssignments
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.GoalResource
+    name: GoalResource
+    no-loc:
+    - GoalResource
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.GoalResourceProperties
+    name: GoalResourceProperties
+    no-loc:
+    - GoalResourceProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.GoalResources
+    name: GoalResources
+    no-loc:
+    - GoalResources
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.GoalsData
+    name: GoalsData
+    no-loc:
+    - GoalsData
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.HAStatus
+    name: HAStatus
+    no-loc:
+    - HAStatus
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.HealthModelMonitoringProperties
+    name: HealthModelMonitoringProperties
+    no-loc:
+    - HealthModelMonitoringProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.IncludeOrUpdateResource
+    name: IncludeOrUpdateResource
+    no-loc:
+    - IncludeOrUpdateResource
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.InitialConfig
+    name: InitialConfig
+    no-loc:
+    - InitialConfig
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.JobErrorInfo
+    name: JobErrorInfo
+    no-loc:
+    - JobErrorInfo
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.JobExtendedInfo
+    name: JobExtendedInfo
+    no-loc:
+    - JobExtendedInfo
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.JobProperties
+    name: JobProperties
+    no-loc:
+    - JobProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.JobResourceProperties
+    name: JobResourceProperties
+    no-loc:
+    - JobResourceProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.JobResourceType
+    name: JobResourceType
+    no-loc:
+    - JobResourceType
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.JobRetryDetails
+    name: JobRetryDetails
+    no-loc:
+    - JobRetryDetails
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.JobStatus
+    name: JobStatus
+    no-loc:
+    - JobStatus
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.JobTaskDetail
+    name: JobTaskDetail
+    no-loc:
+    - JobTaskDetail
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.JobTriggeredBy
+    name: JobTriggeredBy
+    no-loc:
+    - JobTriggeredBy
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.JobType
+    name: JobType
+    no-loc:
+    - JobType
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.JobUserComment
+    name: JobUserComment
+    no-loc:
+    - JobUserComment
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.LastRunProperties
+    name: LastRunProperties
+    no-loc:
+    - LastRunProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ListReportDownloadUrlRequest
+    name: ListReportDownloadUrlRequest
+    no-loc:
+    - ListReportDownloadUrlRequest
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ListReportDownloadUrlResponse
+    name: ListReportDownloadUrlResponse
+    no-loc:
+    - ListReportDownloadUrlResponse
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ManagedServiceIdentity
+    name: ManagedServiceIdentity
+    no-loc:
+    - ManagedServiceIdentity
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ManagedServiceIdentityType
+    name: ManagedServiceIdentityType
+    no-loc:
+    - ManagedServiceIdentityType
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.MarkAsCompleteRequest
+    name: MarkAsCompleteRequest
+    no-loc:
+    - MarkAsCompleteRequest
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.MonitoringPropertiesOfDrill
+    name: MonitoringPropertiesOfDrill
+    no-loc:
+    - MonitoringPropertiesOfDrill
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.Operation
+    name: Operation
+    no-loc:
+    - Operation
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.OperationDisplay
+    name: OperationDisplay
+    no-loc:
+    - OperationDisplay
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.OperationQualificationDetails
+    name: OperationQualificationDetails
+    no-loc:
+    - OperationQualificationDetails
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.OperationStatus
+    name: OperationStatus
+    no-loc:
+    - OperationStatus
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.OperationStatusResult
+    name: OperationStatusResult
+    no-loc:
+    - OperationStatusResult
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.Operations
+    name: Operations
+    no-loc:
+    - Operations
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.Origin
+    name: Origin
+    no-loc:
+    - Origin
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ProvisioningState
+    name: ProvisioningState
+    no-loc:
+    - ProvisioningState
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.QualificationState
+    name: QualificationState
+    no-loc:
+    - QualificationState
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RBACSetupMode
+    name: RBACSetupMode
+    no-loc:
+    - RBACSetupMode
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RBACState
+    name: RBACState
+    no-loc:
+    - RBACState
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ReasonForRequestingConfirmation
+    name: ReasonForRequestingConfirmation
+    no-loc:
+    - ReasonForRequestingConfirmation
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecommendCapacityRequest
+    name: RecommendCapacityRequest
+    no-loc:
+    - RecommendCapacityRequest
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryActionRequest
+    name: RecoveryActionRequest
+    no-loc:
+    - RecoveryActionRequest
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroup
+    name: RecoveryGroup
+    no-loc:
+    - RecoveryGroup
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupActionSettings
+    name: RecoveryGroupActionSettings
+    no-loc:
+    - RecoveryGroupActionSettings
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupActionType
+    name: RecoveryGroupActionType
+    no-loc:
+    - RecoveryGroupActionType
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupBaseAction
+    name: RecoveryGroupBaseAction
+    no-loc:
+    - RecoveryGroupBaseAction
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupCustomRunbookAction
+    name: RecoveryGroupCustomRunbookAction
+    no-loc:
+    - RecoveryGroupCustomRunbookAction
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupManualAction
+    name: RecoveryGroupManualAction
+    no-loc:
+    - RecoveryGroupManualAction
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupProperties
+    name: RecoveryGroupProperties
+    no-loc:
+    - RecoveryGroupProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupsSetting
+    name: RecoveryGroupsSetting
+    no-loc:
+    - RecoveryGroupsSetting
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryJob
+    name: RecoveryJob
+    no-loc:
+    - RecoveryJob
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryJobProperties
+    name: RecoveryJobProperties
+    no-loc:
+    - RecoveryJobProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryJobResource
+    name: RecoveryJobResource
+    no-loc:
+    - RecoveryJobResource
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryJobResourceProperties
+    name: RecoveryJobResourceProperties
+    no-loc:
+    - RecoveryJobResourceProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryJobResources
+    name: RecoveryJobResources
+    no-loc:
+    - RecoveryJobResources
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryJobs
+    name: RecoveryJobs
+    no-loc:
+    - RecoveryJobs
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryOperationNames
+    name: RecoveryOperationNames
+    no-loc:
+    - RecoveryOperationNames
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryOperationStatus
+    name: RecoveryOperationStatus
+    no-loc:
+    - RecoveryOperationStatus
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryPlan
+    name: RecoveryPlan
+    no-loc:
+    - RecoveryPlan
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryPlanActionBaseResponse
+    name: RecoveryPlanActionBaseResponse
+    no-loc:
+    - RecoveryPlanActionBaseResponse
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryPlanActions
+    name: RecoveryPlanActions
+    no-loc:
+    - RecoveryPlanActions
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryPlanExclusionReason
+    name: RecoveryPlanExclusionReason
+    no-loc:
+    - RecoveryPlanExclusionReason
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryPlanFailoverOperationStatus
+    name: RecoveryPlanFailoverOperationStatus
+    no-loc:
+    - RecoveryPlanFailoverOperationStatus
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryPlanOperationStatus
+    name: RecoveryPlanOperationStatus
+    no-loc:
+    - RecoveryPlanOperationStatus
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryPlanProperties
+    name: RecoveryPlanProperties
+    no-loc:
+    - RecoveryPlanProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryPlanPropertiesOfDrill
+    name: RecoveryPlanPropertiesOfDrill
+    no-loc:
+    - RecoveryPlanPropertiesOfDrill
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryPlanState
+    name: RecoveryPlanState
+    no-loc:
+    - RecoveryPlanState
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryPlanType
+    name: RecoveryPlanType
+    no-loc:
+    - RecoveryPlanType
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryPlans
+    name: RecoveryPlans
+    no-loc:
+    - RecoveryPlans
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryResource
+    name: RecoveryResource
+    no-loc:
+    - RecoveryResource
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryResourceProperties
+    name: RecoveryResourceProperties
+    no-loc:
+    - RecoveryResourceProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryResourceQualification
+    name: RecoveryResourceQualification
+    no-loc:
+    - RecoveryResourceQualification
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RecoveryResources
+    name: RecoveryResources
+    no-loc:
+    - RecoveryResources
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RegionalDrillProperties
+    name: RegionalDrillProperties
+    no-loc:
+    - RegionalDrillProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RegionalDrillResourceProperties
+    name: RegionalDrillResourceProperties
+    no-loc:
+    - RegionalDrillResourceProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.RelativeResourceCompositionState
+    name: RelativeResourceCompositionState
+    no-loc:
+    - RelativeResourceCompositionState
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ReportStageStatus
+    name: ReportStageStatus
+    no-loc:
+    - ReportStageStatus
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequest
+    name: ReprotectRequest
+    no-loc:
+    - ReprotectRequest
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ReprotectRequestProperties
+    name: ReprotectRequestProperties
+    no-loc:
+    - ReprotectRequestProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ResiliencyProperties
+    name: ResiliencyProperties
+    no-loc:
+    - ResiliencyProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ResourceBaseProtectionSolutionSetting
+    name: ResourceBaseProtectionSolutionSetting
+    no-loc:
+    - ResourceBaseProtectionSolutionSetting
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ResourceCrossZoneVmRecoveryProtectionSetting
+    name: ResourceCrossZoneVmRecoveryProtectionSetting
+    no-loc:
+    - ResourceCrossZoneVmRecoveryProtectionSetting
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ResourceCustomProtectionAction
+    name: ResourceCustomProtectionAction
+    no-loc:
+    - ResourceCustomProtectionAction
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ResourceCustomProtectionSetting
+    name: ResourceCustomProtectionSetting
+    no-loc:
+    - ResourceCustomProtectionSetting
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ResourceFeasibilityReview
+    name: ResourceFeasibilityReview
+    no-loc:
+    - ResourceFeasibilityReview
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ResourceFeasibilityReviewStatus
+    name: ResourceFeasibilityReviewStatus
+    no-loc:
+    - ResourceFeasibilityReviewStatus
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ResourceFeasibilityReviewType
+    name: ResourceFeasibilityReviewType
+    no-loc:
+    - ResourceFeasibilityReviewType
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ResourceInclusionState
+    name: ResourceInclusionState
+    no-loc:
+    - ResourceInclusionState
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ResourceLists
+    name: ResourceLists
+    no-loc:
+    - ResourceLists
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ResourceNativeProtectionSolutionSetting
+    name: ResourceNativeProtectionSolutionSetting
+    no-loc:
+    - ResourceNativeProtectionSolutionSetting
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionSolutionSettings
+    name: ResourceProtectionSolutionSettings
+    no-loc:
+    - ResourceProtectionSolutionSettings
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionSolutionType
+    name: ResourceProtectionSolutionType
+    no-loc:
+    - ResourceProtectionSolutionType
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ResourceProtectionStatus
+    name: ResourceProtectionStatus
+    no-loc:
+    - ResourceProtectionStatus
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ResourceReplicationRole
+    name: ResourceReplicationRole
+    no-loc:
+    - ResourceReplicationRole
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ResourceSiteRecoveryProtectionSetting
+    name: ResourceSiteRecoveryProtectionSetting
+    no-loc:
+    - ResourceSiteRecoveryProtectionSetting
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ResourceSiteRecoveryReprotectParams
+    name: ResourceSiteRecoveryReprotectParams
+    no-loc:
+    - ResourceSiteRecoveryReprotectParams
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ResourceSiteRecoveryTestFailoverCleanupParams
+    name: ResourceSiteRecoveryTestFailoverCleanupParams
+    no-loc:
+    - ResourceSiteRecoveryTestFailoverCleanupParams
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ResourceSiteRecoveryTestFailoverParams
+    name: ResourceSiteRecoveryTestFailoverParams
+    no-loc:
+    - ResourceSiteRecoveryTestFailoverParams
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ResourceTypeCategories
+    name: ResourceTypeCategories
+    no-loc:
+    - ResourceTypeCategories
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ServiceLevelResource
+    name: ServiceLevelResource
+    no-loc:
+    - ServiceLevelResource
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.SkuDetails
+    name: SkuDetails
+    no-loc:
+    - SkuDetails
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.SliAttentionStatus
+    name: SliAttentionStatus
+    no-loc:
+    - SliAttentionStatus
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.SliMonitoringProperties
+    name: SliMonitoringProperties
+    no-loc:
+    - SliMonitoringProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.SliSelection
+    name: SliSelection
+    no-loc:
+    - SliSelection
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.SliType
+    name: SliType
+    no-loc:
+    - SliType
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.SliTypeMatchState
+    name: SliTypeMatchState
+    no-loc:
+    - SliTypeMatchState
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.SolutionDisplayName
+    name: SolutionDisplayName
+    no-loc:
+    - SolutionDisplayName
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.SupportedVerbsForStage
+    name: SupportedVerbsForStage
+    no-loc:
+    - SupportedVerbsForStage
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.SystemMetadata
+    name: SystemMetadata
+    no-loc:
+    - SystemMetadata
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.TestFailoverCleanupRequest
+    name: TestFailoverCleanupRequest
+    no-loc:
+    - TestFailoverCleanupRequest
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.TestFailoverState
+    name: TestFailoverState
+    no-loc:
+    - TestFailoverState
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UnifiedResilienceItem
+    name: UnifiedResilienceItem
+    no-loc:
+    - UnifiedResilienceItem
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UnifiedResilienceItemBillingInfo
+    name: UnifiedResilienceItemBillingInfo
+    no-loc:
+    - UnifiedResilienceItemBillingInfo
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UnifiedResilienceItemGoalRequirement
+    name: UnifiedResilienceItemGoalRequirement
+    no-loc:
+    - UnifiedResilienceItemGoalRequirement
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UnifiedResilienceItemProperties
+    name: UnifiedResilienceItemProperties
+    no-loc:
+    - UnifiedResilienceItemProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UnifiedResilienceItemResiliencyPosture
+    name: UnifiedResilienceItemResiliencyPosture
+    no-loc:
+    - UnifiedResilienceItemResiliencyPosture
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UnifiedResilienceItemZonalResiliencyPosture
+    name: UnifiedResilienceItemZonalResiliencyPosture
+    no-loc:
+    - UnifiedResilienceItemZonalResiliencyPosture
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UnifiedResilienceItems
+    name: UnifiedResilienceItems
+    no-loc:
+    - UnifiedResilienceItems
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UpdateGoalResourceRequest
+    name: UpdateGoalResourceRequest
+    no-loc:
+    - UpdateGoalResourceRequest
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UpdateRecoveryResourcesRequest
+    name: UpdateRecoveryResourcesRequest
+    no-loc:
+    - UpdateRecoveryResourcesRequest
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UpdateRecoveryResourcesResponse
+    name: UpdateRecoveryResourcesResponse
+    no-loc:
+    - UpdateRecoveryResourcesResponse
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UsagePlan
+    name: UsagePlan
+    no-loc:
+    - UsagePlan
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UsagePlan.Definition
+    name: UsagePlan.Definition
+    no-loc:
+    - UsagePlan.Definition
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UsagePlan.DefinitionStages
+    name: UsagePlan.DefinitionStages
+    no-loc:
+    - UsagePlan.DefinitionStages
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UsagePlan.DefinitionStages.Blank
+    name: UsagePlan.DefinitionStages.Blank
+    no-loc:
+    - UsagePlan.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UsagePlan.DefinitionStages.WithCreate
+    name: UsagePlan.DefinitionStages.WithCreate
+    no-loc:
+    - UsagePlan.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UsagePlan.DefinitionStages.WithLocation
+    name: UsagePlan.DefinitionStages.WithLocation
+    no-loc:
+    - UsagePlan.DefinitionStages.WithLocation
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UsagePlan.DefinitionStages.WithProperties
+    name: UsagePlan.DefinitionStages.WithProperties
+    no-loc:
+    - UsagePlan.DefinitionStages.WithProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UsagePlan.DefinitionStages.WithResourceGroup
+    name: UsagePlan.DefinitionStages.WithResourceGroup
+    no-loc:
+    - UsagePlan.DefinitionStages.WithResourceGroup
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UsagePlan.DefinitionStages.WithTags
+    name: UsagePlan.DefinitionStages.WithTags
+    no-loc:
+    - UsagePlan.DefinitionStages.WithTags
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UsagePlan.Update
+    name: UsagePlan.Update
+    no-loc:
+    - UsagePlan.Update
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UsagePlan.UpdateStages
+    name: UsagePlan.UpdateStages
+    no-loc:
+    - UsagePlan.UpdateStages
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UsagePlan.UpdateStages.WithTags
+    name: UsagePlan.UpdateStages.WithTags
+    no-loc:
+    - UsagePlan.UpdateStages.WithTags
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UsagePlanProperties
+    name: UsagePlanProperties
+    no-loc:
+    - UsagePlanProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UsagePlanTagsUpdate
+    name: UsagePlanTagsUpdate
+    no-loc:
+    - UsagePlanTagsUpdate
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UsagePlanType
+    name: UsagePlanType
+    no-loc:
+    - UsagePlanType
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UsagePlans
+    name: UsagePlans
+    no-loc:
+    - UsagePlans
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UserAssignedIdentity
+    name: UserAssignedIdentity
+    no-loc:
+    - UserAssignedIdentity
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UserConfirmationItem
+    name: UserConfirmationItem
+    no-loc:
+    - UserConfirmationItem
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.UserConsent
+    name: UserConsent
+    no-loc:
+    - UserConsent
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.VMPresent
+    name: VMPresent
+    no-loc:
+    - VMPresent
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ValidateForExecutionProperties
+    name: ValidateForExecutionProperties
+    no-loc:
+    - ValidateForExecutionProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ValidateForExecutionRequest
+    name: ValidateForExecutionRequest
+    no-loc:
+    - ValidateForExecutionRequest
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ValidateForOperationRequest
+    name: ValidateForOperationRequest
+    no-loc:
+    - ValidateForOperationRequest
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ValidateForRecoveryOperationBaseResponse
+    name: ValidateForRecoveryOperationBaseResponse
+    no-loc:
+    - ValidateForRecoveryOperationBaseResponse
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ZonalDrillProperties
+    name: ZonalDrillProperties
+    no-loc:
+    - ZonalDrillProperties
+  - uid: com.azure.resourcemanager.resiliencemanagement.models.ZonalDrillResourceProperties
+    name: ZonalDrillResourceProperties
+    no-loc:
+    - ZonalDrillResourceProperties
+  no-loc:
+  - com.azure.resourcemanager.resiliencemanagement.models
 - uid: com.azure.resourcemanager.resourceconnector
   name: com.azure.resourcemanager.resourceconnector
   items:

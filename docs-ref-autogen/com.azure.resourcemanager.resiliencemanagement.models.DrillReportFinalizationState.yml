@@ -1,0 +1,98 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillReportFinalizationState"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillReportFinalizationState"
+name: "DrillReportFinalizationState"
+nameWithType: "DrillReportFinalizationState"
+summary: "Finalization state of a Drill Run report."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **DrillReportFinalizationState**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillReportFinalizationState?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillReportFinalizationState&text=DrillReportFinalizationState\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillReportFinalizationState.DrillReportFinalizationState()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillReportFinalizationState.DrillReportFinalizationState()"
+  name: "DrillReportFinalizationState()"
+  nameWithType: "DrillReportFinalizationState.DrillReportFinalizationState()"
+  summary: "Creates a new instance of Drill<wbr>Report<wbr>Finalization<wbr>State value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.resiliencemanagement.models.DrillReportFinalizationState.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public DrillReportFinalizationState()"
+  desc: "Creates a new instance of DrillReportFinalizationState value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillReportFinalizationState.FINALIZED"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillReportFinalizationState.FINALIZED"
+  name: "FINALIZED"
+  nameWithType: "DrillReportFinalizationState.FINALIZED"
+  summary: "The report is finalized and immutable."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillReportFinalizationState?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillReportFinalizationState&text=DrillReportFinalizationState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final DrillReportFinalizationState FINALIZED"
+  desc: "The report is finalized and immutable."
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillReportFinalizationState.NOT_FINALIZED"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillReportFinalizationState.NOT_FINALIZED"
+  name: "NOT_FINALIZED"
+  nameWithType: "DrillReportFinalizationState.NOT_FINALIZED"
+  summary: "The report is not finalized and may still change."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillReportFinalizationState?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillReportFinalizationState&text=DrillReportFinalizationState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final DrillReportFinalizationState NOT_FINALIZED"
+  desc: "The report is not finalized and may still change."
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillReportFinalizationState.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillReportFinalizationState.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "DrillReportFinalizationState.fromString(String name)"
+  summary: "Creates or finds a Drill<wbr>Report<wbr>Finalization<wbr>State from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static DrillReportFinalizationState fromString(String name)"
+  desc: "Creates or finds a DrillReportFinalizationState from its string representation."
+  returns:
+    description: "the corresponding DrillReportFinalizationState."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillReportFinalizationState?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillReportFinalizationState&text=DrillReportFinalizationState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillReportFinalizationState.values()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillReportFinalizationState.values()"
+  name: "values()"
+  nameWithType: "DrillReportFinalizationState.values()"
+  summary: "Gets known Drill<wbr>Report<wbr>Finalization<wbr>State values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<DrillReportFinalizationState> values()"
+  desc: "Gets known DrillReportFinalizationState values."
+  returns:
+    description: "known DrillReportFinalizationState values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillReportFinalizationState?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillReportFinalizationState&text=DrillReportFinalizationState\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Finalization state of a Drill Run report."
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

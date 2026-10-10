@@ -1,0 +1,98 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupActionType"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupActionType"
+name: "RecoveryGroupActionType"
+nameWithType: "RecoveryGroupActionType"
+summary: "Specifies the type of recovery orchestration group actions."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **RecoveryGroupActionType**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupActionType?alt=com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupActionType&text=RecoveryGroupActionType\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupActionType.RecoveryGroupActionType()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupActionType.RecoveryGroupActionType()"
+  name: "RecoveryGroupActionType()"
+  nameWithType: "RecoveryGroupActionType.RecoveryGroupActionType()"
+  summary: "Creates a new instance of Recovery<wbr>Group<wbr>Action<wbr>Type value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupActionType.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public RecoveryGroupActionType()"
+  desc: "Creates a new instance of RecoveryGroupActionType value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupActionType.CUSTOM_RUNBOOK"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupActionType.CUSTOM_RUNBOOK"
+  name: "CUSTOM_RUNBOOK"
+  nameWithType: "RecoveryGroupActionType.CUSTOM_RUNBOOK"
+  summary: "A custom runbook action type for the recovery orchestration group."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupActionType?alt=com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupActionType&text=RecoveryGroupActionType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final RecoveryGroupActionType CUSTOM_RUNBOOK"
+  desc: "A custom runbook action type for the recovery orchestration group."
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupActionType.MANUAL_ACTION"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupActionType.MANUAL_ACTION"
+  name: "MANUAL_ACTION"
+  nameWithType: "RecoveryGroupActionType.MANUAL_ACTION"
+  summary: "A manual action type for the recovery orchestration group."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupActionType?alt=com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupActionType&text=RecoveryGroupActionType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final RecoveryGroupActionType MANUAL_ACTION"
+  desc: "A manual action type for the recovery orchestration group."
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupActionType.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupActionType.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "RecoveryGroupActionType.fromString(String name)"
+  summary: "Creates or finds a Recovery<wbr>Group<wbr>Action<wbr>Type from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static RecoveryGroupActionType fromString(String name)"
+  desc: "Creates or finds a RecoveryGroupActionType from its string representation."
+  returns:
+    description: "the corresponding RecoveryGroupActionType."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupActionType?alt=com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupActionType&text=RecoveryGroupActionType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupActionType.values()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupActionType.values()"
+  name: "values()"
+  nameWithType: "RecoveryGroupActionType.values()"
+  summary: "Gets known Recovery<wbr>Group<wbr>Action<wbr>Type values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<RecoveryGroupActionType> values()"
+  desc: "Gets known RecoveryGroupActionType values."
+  returns:
+    description: "known RecoveryGroupActionType values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupActionType?alt=com.azure.resourcemanager.resiliencemanagement.models.RecoveryGroupActionType&text=RecoveryGroupActionType\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Specifies the type of recovery orchestration group actions."
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

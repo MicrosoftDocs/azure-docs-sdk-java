@@ -1,0 +1,118 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.IncludeOrUpdateResource"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.IncludeOrUpdateResource"
+name: "IncludeOrUpdateResource"
+nameWithType: "IncludeOrUpdateResource"
+summary: "Include or Update resource."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **IncludeOrUpdateResource**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.IncludeOrUpdateResource?alt=com.azure.resourcemanager.resiliencemanagement.models.IncludeOrUpdateResource&text=IncludeOrUpdateResource\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.IncludeOrUpdateResource.IncludeOrUpdateResource()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.IncludeOrUpdateResource.IncludeOrUpdateResource()"
+  name: "IncludeOrUpdateResource()"
+  nameWithType: "IncludeOrUpdateResource.IncludeOrUpdateResource()"
+  summary: "Creates an instance of Include<wbr>OrUpdate<wbr>Resource class."
+  syntax: "public IncludeOrUpdateResource()"
+  desc: "Creates an instance of IncludeOrUpdateResource class."
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.IncludeOrUpdateResource.faultProperties()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.IncludeOrUpdateResource.faultProperties()"
+  name: "faultProperties()"
+  nameWithType: "IncludeOrUpdateResource.faultProperties()"
+  summary: "Get the fault<wbr>Properties property: Fault properties."
+  syntax: "public FaultProperties faultProperties()"
+  desc: "Get the faultProperties property: Fault properties."
+  returns:
+    description: "the faultProperties value."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.FaultProperties?alt=com.azure.resourcemanager.resiliencemanagement.models.FaultProperties&text=FaultProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.IncludeOrUpdateResource.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.IncludeOrUpdateResource.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "IncludeOrUpdateResource.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Include<wbr>OrUpdate<wbr>Resource from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static IncludeOrUpdateResource fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of IncludeOrUpdateResource from the JsonReader."
+  returns:
+    description: "An instance of IncludeOrUpdateResource if the JsonReader was pointing to an instance of it, or null if it\n was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.IncludeOrUpdateResource?alt=com.azure.resourcemanager.resiliencemanagement.models.IncludeOrUpdateResource&text=IncludeOrUpdateResource\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.IncludeOrUpdateResource.id()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.IncludeOrUpdateResource.id()"
+  name: "id()"
+  nameWithType: "IncludeOrUpdateResource.id()"
+  summary: "Get the id property: Id of the Drill<wbr>Resource to be included (NOT the ARM Id of the underlying resource)."
+  syntax: "public String id()"
+  desc: "Get the id property: Id of the DrillResource to be included (NOT the ARM Id of the underlying resource)."
+  returns:
+    description: "the id value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.IncludeOrUpdateResource.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.IncludeOrUpdateResource.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "IncludeOrUpdateResource.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.IncludeOrUpdateResource.withFaultProperties(com.azure.resourcemanager.resiliencemanagement.models.FaultProperties)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.IncludeOrUpdateResource.withFaultProperties(FaultProperties faultProperties)"
+  name: "withFaultProperties(FaultProperties faultProperties)"
+  nameWithType: "IncludeOrUpdateResource.withFaultProperties(FaultProperties faultProperties)"
+  summary: "Set the fault<wbr>Properties property: Fault properties."
+  parameters:
+  - description: "the faultProperties value to set."
+    name: "faultProperties"
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.FaultProperties?alt=com.azure.resourcemanager.resiliencemanagement.models.FaultProperties&text=FaultProperties\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public IncludeOrUpdateResource withFaultProperties(FaultProperties faultProperties)"
+  desc: "Set the faultProperties property: Fault properties."
+  returns:
+    description: "the IncludeOrUpdateResource object itself."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.IncludeOrUpdateResource?alt=com.azure.resourcemanager.resiliencemanagement.models.IncludeOrUpdateResource&text=IncludeOrUpdateResource\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.IncludeOrUpdateResource.withId(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.IncludeOrUpdateResource.withId(String id)"
+  name: "withId(String id)"
+  nameWithType: "IncludeOrUpdateResource.withId(String id)"
+  summary: "Set the id property: Id of the Drill<wbr>Resource to be included (NOT the ARM Id of the underlying resource)."
+  parameters:
+  - description: "the id value to set."
+    name: "id"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public IncludeOrUpdateResource withId(String id)"
+  desc: "Set the id property: Id of the DrillResource to be included (NOT the ARM Id of the underlying resource)."
+  returns:
+    description: "the IncludeOrUpdateResource object itself."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.IncludeOrUpdateResource?alt=com.azure.resourcemanager.resiliencemanagement.models.IncludeOrUpdateResource&text=IncludeOrUpdateResource\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Include or Update resource."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.IncludeOrUpdateResource?alt=com.azure.resourcemanager.resiliencemanagement.models.IncludeOrUpdateResource&text=IncludeOrUpdateResource\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

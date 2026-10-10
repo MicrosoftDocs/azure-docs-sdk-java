@@ -459,4 +459,4 @@ classes:
 desc: "Package containing the inner data models for Network. APIs to manage Microsoft Azure network resources."
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.61.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.61.2

@@ -1,0 +1,37 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.UpdateRecoveryResourcesResponse"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.UpdateRecoveryResourcesResponse"
+name: "UpdateRecoveryResourcesResponse"
+nameWithType: "UpdateRecoveryResourcesResponse"
+summary: "An immutable client-side representation of Update<wbr>Recovery<wbr>Resources<wbr>Response."
+syntax: "public interface **UpdateRecoveryResourcesResponse**"
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.UpdateRecoveryResourcesResponse.failedResources()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.UpdateRecoveryResourcesResponse.failedResources()"
+  name: "failedResources()"
+  nameWithType: "UpdateRecoveryResourcesResponse.failedResources()"
+  summary: "Gets the failed<wbr>Resources property: A list of error details associated with resources for which the update has failed."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract List<RecoveryResource> failedResources()"
+  desc: "Gets the failedResources property: A list of error details associated with resources for which the update has failed."
+  returns:
+    description: "the failedResources value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RecoveryResource?alt=com.azure.resourcemanager.resiliencemanagement.models.RecoveryResource&text=RecoveryResource\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.UpdateRecoveryResourcesResponse.innerModel()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.UpdateRecoveryResourcesResponse.innerModel()"
+  name: "innerModel()"
+  nameWithType: "UpdateRecoveryResourcesResponse.innerModel()"
+  summary: "Gets the inner com.<wbr>azure.<wbr>resourcemanager.<wbr>resiliencemanagement.<wbr>fluent.<wbr>models.<wbr>Update<wbr>Recovery<wbr>Resources<wbr>Response<wbr>Inner object."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract UpdateRecoveryResourcesResponseInner innerModel()"
+  desc: "Gets the inner com.azure.resourcemanager.resiliencemanagement.fluent.models.UpdateRecoveryResourcesResponseInner object."
+  returns:
+    description: "the inner object."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.fluent.models.UpdateRecoveryResourcesResponseInner?alt=com.azure.resourcemanager.resiliencemanagement.fluent.models.UpdateRecoveryResourcesResponseInner&text=UpdateRecoveryResourcesResponseInner\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "An immutable client-side representation of UpdateRecoveryResourcesResponse."
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

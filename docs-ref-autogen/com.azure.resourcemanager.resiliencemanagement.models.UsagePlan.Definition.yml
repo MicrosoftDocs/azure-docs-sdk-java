@@ -1,0 +1,17 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.UsagePlan.Definition"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.UsagePlan.Definition"
+name: "UsagePlan.Definition"
+nameWithType: "UsagePlan.Definition"
+summary: "The entirety of the Usage<wbr>Plan definition."
+syntax: "public static interface **UsagePlan.Definition**</br> extends <xref href=\"com.azure.resourcemanager.resiliencemanagement.models.UsagePlan.DefinitionStages.Blank?alt=com.azure.resourcemanager.resiliencemanagement.models.UsagePlan.DefinitionStages.Blank&text=Blank\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.resiliencemanagement.models.UsagePlan.DefinitionStages.WithLocation?alt=com.azure.resourcemanager.resiliencemanagement.models.UsagePlan.DefinitionStages.WithLocation&text=WithLocation\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.resiliencemanagement.models.UsagePlan.DefinitionStages.WithResourceGroup?alt=com.azure.resourcemanager.resiliencemanagement.models.UsagePlan.DefinitionStages.WithResourceGroup&text=WithResourceGroup\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.resiliencemanagement.models.UsagePlan.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.resiliencemanagement.models.UsagePlan.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of the UsagePlan definition."
+implements:
+- "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.UsagePlan.DefinitionStages.Blank?alt=com.azure.resourcemanager.resiliencemanagement.models.UsagePlan.DefinitionStages.Blank&text=Blank\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.UsagePlan.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.resiliencemanagement.models.UsagePlan.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.UsagePlan.DefinitionStages.WithLocation?alt=com.azure.resourcemanager.resiliencemanagement.models.UsagePlan.DefinitionStages.WithLocation&text=WithLocation\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.UsagePlan.DefinitionStages.WithResourceGroup?alt=com.azure.resourcemanager.resiliencemanagement.models.UsagePlan.DefinitionStages.WithResourceGroup&text=WithResourceGroup\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

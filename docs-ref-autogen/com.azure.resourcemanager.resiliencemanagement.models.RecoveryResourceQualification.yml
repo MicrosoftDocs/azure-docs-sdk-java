@@ -1,0 +1,49 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryResourceQualification"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryResourceQualification"
+name: "RecoveryResourceQualification"
+nameWithType: "RecoveryResourceQualification"
+summary: "An immutable client-side representation of Recovery<wbr>Resource<wbr>Qualification."
+syntax: "public interface **RecoveryResourceQualification**"
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryResourceQualification.innerModel()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryResourceQualification.innerModel()"
+  name: "innerModel()"
+  nameWithType: "RecoveryResourceQualification.innerModel()"
+  summary: "Gets the inner com.<wbr>azure.<wbr>resourcemanager.<wbr>resiliencemanagement.<wbr>fluent.<wbr>models.<wbr>Recovery<wbr>Resource<wbr>Qualification<wbr>Inner object."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract RecoveryResourceQualificationInner innerModel()"
+  desc: "Gets the inner com.azure.resourcemanager.resiliencemanagement.fluent.models.RecoveryResourceQualificationInner object."
+  returns:
+    description: "the inner object."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.fluent.models.RecoveryResourceQualificationInner?alt=com.azure.resourcemanager.resiliencemanagement.fluent.models.RecoveryResourceQualificationInner&text=RecoveryResourceQualificationInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryResourceQualification.operationQualificationDetails()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryResourceQualification.operationQualificationDetails()"
+  name: "operationQualificationDetails()"
+  nameWithType: "RecoveryResourceQualification.operationQualificationDetails()"
+  summary: "Gets the operation<wbr>Qualification<wbr>Details property: Details of qualification for the operation."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract OperationQualificationDetails operationQualificationDetails()"
+  desc: "Gets the operationQualificationDetails property: Details of qualification for the operation."
+  returns:
+    description: "the operationQualificationDetails value."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.OperationQualificationDetails?alt=com.azure.resourcemanager.resiliencemanagement.models.OperationQualificationDetails&text=OperationQualificationDetails\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryResourceQualification.recoveryResource()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.RecoveryResourceQualification.recoveryResource()"
+  name: "recoveryResource()"
+  nameWithType: "RecoveryResourceQualification.recoveryResource()"
+  summary: "Gets the recovery<wbr>Resource property: Recovery orchestration resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract RecoveryResource recoveryResource()"
+  desc: "Gets the recoveryResource property: Recovery orchestration resource."
+  returns:
+    description: "the recoveryResource value."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RecoveryResource?alt=com.azure.resourcemanager.resiliencemanagement.models.RecoveryResource&text=RecoveryResource\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "An immutable client-side representation of RecoveryResourceQualification."
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

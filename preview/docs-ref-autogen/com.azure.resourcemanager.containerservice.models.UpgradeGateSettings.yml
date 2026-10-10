@@ -1,0 +1,101 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.containerservice.models.UpgradeGateSettings"
+fullName: "com.azure.resourcemanager.containerservice.models.UpgradeGateSettings"
+name: "UpgradeGateSettings"
+nameWithType: "UpgradeGateSettings"
+summary: "Settings for health-aware upgrade gating."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **UpgradeGateSettings**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.containerservice.models.UpgradeGateSettings?alt=com.azure.resourcemanager.containerservice.models.UpgradeGateSettings&text=UpgradeGateSettings\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.containerservice.models.UpgradeGateSettings.UpgradeGateSettings()"
+  fullName: "com.azure.resourcemanager.containerservice.models.UpgradeGateSettings.UpgradeGateSettings()"
+  name: "UpgradeGateSettings()"
+  nameWithType: "UpgradeGateSettings.UpgradeGateSettings()"
+  summary: "Creates an instance of Upgrade<wbr>Gate<wbr>Settings class."
+  syntax: "public UpgradeGateSettings()"
+  desc: "Creates an instance of UpgradeGateSettings class."
+methods:
+- uid: "com.azure.resourcemanager.containerservice.models.UpgradeGateSettings.enabled()"
+  fullName: "com.azure.resourcemanager.containerservice.models.UpgradeGateSettings.enabled()"
+  name: "enabled()"
+  nameWithType: "UpgradeGateSettings.enabled()"
+  summary: "Get the enabled property: Whether upgrade gating is enabled."
+  syntax: "public Boolean enabled()"
+  desc: "Get the enabled property: Whether upgrade gating is enabled. Defaults to \\`false\\` when unset, except on a newly created agent pool in a cluster where upgrade gating is enabled, which defaults to \\`true\\`. When \\`true\\`, upgrade-gated health checks are enabled for upgrades in the corresponding scope. Setting this to \\`true\\` at the cluster scope enables gating for the entire cluster, including all agent pool upgrades. When the cluster scope is unset or \\`false\\`, an agent pool can opt in independently by setting this to \\`true\\`. When the cluster scope is \\`true\\`, an agent pool cannot set this to \\`false\\`. Force upgrade (\\`overrideSettings.forceUpgrade\\`) overrides the gate: while the override window is active, the upgrade skips health signal validation and proceeds."
+  returns:
+    description: "the enabled value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
+- uid: "com.azure.resourcemanager.containerservice.models.UpgradeGateSettings.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.containerservice.models.UpgradeGateSettings.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "UpgradeGateSettings.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Upgrade<wbr>Gate<wbr>Settings from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static UpgradeGateSettings fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the UpgradeGateSettings."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of UpgradeGateSettings from the JsonReader."
+  returns:
+    description: "An instance of UpgradeGateSettings if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.containerservice.models.UpgradeGateSettings?alt=com.azure.resourcemanager.containerservice.models.UpgradeGateSettings&text=UpgradeGateSettings\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.containerservice.models.UpgradeGateSettings.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.containerservice.models.UpgradeGateSettings.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "UpgradeGateSettings.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.containerservice.models.UpgradeGateSettings.validate()"
+  fullName: "com.azure.resourcemanager.containerservice.models.UpgradeGateSettings.validate()"
+  name: "validate()"
+  nameWithType: "UpgradeGateSettings.validate()"
+  summary: "Validates the instance."
+  syntax: "public void validate()"
+  desc: "Validates the instance."
+- uid: "com.azure.resourcemanager.containerservice.models.UpgradeGateSettings.withEnabled(java.lang.Boolean)"
+  fullName: "com.azure.resourcemanager.containerservice.models.UpgradeGateSettings.withEnabled(Boolean enabled)"
+  name: "withEnabled(Boolean enabled)"
+  nameWithType: "UpgradeGateSettings.withEnabled(Boolean enabled)"
+  summary: "Set the enabled property: Whether upgrade gating is enabled."
+  parameters:
+  - description: "the enabled value to set."
+    name: "enabled"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
+  syntax: "public UpgradeGateSettings withEnabled(Boolean enabled)"
+  desc: "Set the enabled property: Whether upgrade gating is enabled. Defaults to \\`false\\` when unset, except on a newly created agent pool in a cluster where upgrade gating is enabled, which defaults to \\`true\\`. When \\`true\\`, upgrade-gated health checks are enabled for upgrades in the corresponding scope. Setting this to \\`true\\` at the cluster scope enables gating for the entire cluster, including all agent pool upgrades. When the cluster scope is unset or \\`false\\`, an agent pool can opt in independently by setting this to \\`true\\`. When the cluster scope is \\`true\\`, an agent pool cannot set this to \\`false\\`. Force upgrade (\\`overrideSettings.forceUpgrade\\`) overrides the gate: while the override window is active, the upgrade skips health signal validation and proceeds."
+  returns:
+    description: "the UpgradeGateSettings object itself."
+    type: "<xref href=\"com.azure.resourcemanager.containerservice.models.UpgradeGateSettings?alt=com.azure.resourcemanager.containerservice.models.UpgradeGateSettings&text=UpgradeGateSettings\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Settings for health-aware upgrade gating."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.containerservice.models.UpgradeGateSettings?alt=com.azure.resourcemanager.containerservice.models.UpgradeGateSettings&text=UpgradeGateSettings\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.containerservice.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerservice:2.65.0-beta.1

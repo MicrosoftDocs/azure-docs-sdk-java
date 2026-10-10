@@ -1,0 +1,118 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.DiskReprotectInputDetails"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.DiskReprotectInputDetails"
+name: "DiskReprotectInputDetails"
+nameWithType: "DiskReprotectInputDetails"
+summary: "Disk Reprotect Input Details."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **DiskReprotectInputDetails**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DiskReprotectInputDetails?alt=com.azure.resourcemanager.resiliencemanagement.models.DiskReprotectInputDetails&text=DiskReprotectInputDetails\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DiskReprotectInputDetails.DiskReprotectInputDetails()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DiskReprotectInputDetails.DiskReprotectInputDetails()"
+  name: "DiskReprotectInputDetails()"
+  nameWithType: "DiskReprotectInputDetails.DiskReprotectInputDetails()"
+  summary: "Creates an instance of Disk<wbr>Reprotect<wbr>Input<wbr>Details class."
+  syntax: "public DiskReprotectInputDetails()"
+  desc: "Creates an instance of DiskReprotectInputDetails class."
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DiskReprotectInputDetails.diskResourceId()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DiskReprotectInputDetails.diskResourceId()"
+  name: "diskResourceId()"
+  nameWithType: "DiskReprotectInputDetails.diskResourceId()"
+  summary: "Get the disk<wbr>Resource<wbr>Id property: Disk Resource Id to Reprotect."
+  syntax: "public String diskResourceId()"
+  desc: "Get the diskResourceId property: Disk Resource Id to Reprotect."
+  returns:
+    description: "the diskResourceId value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DiskReprotectInputDetails.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DiskReprotectInputDetails.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "DiskReprotectInputDetails.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Disk<wbr>Reprotect<wbr>Input<wbr>Details from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static DiskReprotectInputDetails fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the DiskReprotectInputDetails."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of DiskReprotectInputDetails from the JsonReader."
+  returns:
+    description: "An instance of DiskReprotectInputDetails if the JsonReader was pointing to an instance of it, or null if\n it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DiskReprotectInputDetails?alt=com.azure.resourcemanager.resiliencemanagement.models.DiskReprotectInputDetails&text=DiskReprotectInputDetails\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DiskReprotectInputDetails.stagingStorageAccountResourceId()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DiskReprotectInputDetails.stagingStorageAccountResourceId()"
+  name: "stagingStorageAccountResourceId()"
+  nameWithType: "DiskReprotectInputDetails.stagingStorageAccountResourceId()"
+  summary: "Get the staging<wbr>Storage<wbr>Account<wbr>Resource<wbr>Id property: The staging Storage<wbr>Account Resource Id."
+  syntax: "public String stagingStorageAccountResourceId()"
+  desc: "Get the stagingStorageAccountResourceId property: The staging StorageAccount Resource Id."
+  returns:
+    description: "the stagingStorageAccountResourceId value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DiskReprotectInputDetails.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DiskReprotectInputDetails.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "DiskReprotectInputDetails.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DiskReprotectInputDetails.withDiskResourceId(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DiskReprotectInputDetails.withDiskResourceId(String diskResourceId)"
+  name: "withDiskResourceId(String diskResourceId)"
+  nameWithType: "DiskReprotectInputDetails.withDiskResourceId(String diskResourceId)"
+  summary: "Set the disk<wbr>Resource<wbr>Id property: Disk Resource Id to Reprotect."
+  parameters:
+  - description: "the diskResourceId value to set."
+    name: "diskResourceId"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public DiskReprotectInputDetails withDiskResourceId(String diskResourceId)"
+  desc: "Set the diskResourceId property: Disk Resource Id to Reprotect."
+  returns:
+    description: "the DiskReprotectInputDetails object itself."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DiskReprotectInputDetails?alt=com.azure.resourcemanager.resiliencemanagement.models.DiskReprotectInputDetails&text=DiskReprotectInputDetails\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DiskReprotectInputDetails.withStagingStorageAccountResourceId(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DiskReprotectInputDetails.withStagingStorageAccountResourceId(String stagingStorageAccountResourceId)"
+  name: "withStagingStorageAccountResourceId(String stagingStorageAccountResourceId)"
+  nameWithType: "DiskReprotectInputDetails.withStagingStorageAccountResourceId(String stagingStorageAccountResourceId)"
+  summary: "Set the staging<wbr>Storage<wbr>Account<wbr>Resource<wbr>Id property: The staging Storage<wbr>Account Resource Id."
+  parameters:
+  - description: "the stagingStorageAccountResourceId value to set."
+    name: "stagingStorageAccountResourceId"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public DiskReprotectInputDetails withStagingStorageAccountResourceId(String stagingStorageAccountResourceId)"
+  desc: "Set the stagingStorageAccountResourceId property: The staging StorageAccount Resource Id."
+  returns:
+    description: "the DiskReprotectInputDetails object itself."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DiskReprotectInputDetails?alt=com.azure.resourcemanager.resiliencemanagement.models.DiskReprotectInputDetails&text=DiskReprotectInputDetails\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Disk Reprotect Input Details."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DiskReprotectInputDetails?alt=com.azure.resourcemanager.resiliencemanagement.models.DiskReprotectInputDetails&text=DiskReprotectInputDetails\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

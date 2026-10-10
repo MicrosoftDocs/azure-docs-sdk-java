@@ -1,0 +1,32 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.Enrollment.DefinitionStages.WithParentResource"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.Enrollment.DefinitionStages.WithParentResource"
+name: "Enrollment.DefinitionStages.WithParentResource"
+nameWithType: "Enrollment.DefinitionStages.WithParentResource"
+summary: "The stage of the Enrollment definition allowing to specify parent resource."
+syntax: "public static interface **Enrollment.DefinitionStages.WithParentResource**"
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.Enrollment.DefinitionStages.WithParentResource.withExistingUsagePlan(java.lang.String,java.lang.String)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.Enrollment.DefinitionStages.WithParentResource.withExistingUsagePlan(String resourceGroupName, String usagePlanName)"
+  name: "withExistingUsagePlan(String resourceGroupName, String usagePlanName)"
+  nameWithType: "Enrollment.DefinitionStages.WithParentResource.withExistingUsagePlan(String resourceGroupName, String usagePlanName)"
+  summary: "Specifies resource<wbr>Group<wbr>Name, usage<wbr>Plan<wbr>Name."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the usage plan."
+    name: "usagePlanName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract Enrollment.DefinitionStages.WithCreate withExistingUsagePlan(String resourceGroupName, String usagePlanName)"
+  desc: "Specifies resourceGroupName, usagePlanName."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.Enrollment.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.resiliencemanagement.models.Enrollment.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the Enrollment definition allowing to specify parent resource."
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

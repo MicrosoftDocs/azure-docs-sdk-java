@@ -1,0 +1,118 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.SliMonitoringProperties"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.SliMonitoringProperties"
+name: "SliMonitoringProperties"
+nameWithType: "SliMonitoringProperties"
+summary: "SLI monitoring properties of a Drill."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **SliMonitoringProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.SliMonitoringProperties?alt=com.azure.resourcemanager.resiliencemanagement.models.SliMonitoringProperties&text=SliMonitoringProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.SliMonitoringProperties.SliMonitoringProperties()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.SliMonitoringProperties.SliMonitoringProperties()"
+  name: "SliMonitoringProperties()"
+  nameWithType: "SliMonitoringProperties.SliMonitoringProperties()"
+  summary: "Creates an instance of Sli<wbr>Monitoring<wbr>Properties class."
+  syntax: "public SliMonitoringProperties()"
+  desc: "Creates an instance of SliMonitoringProperties class."
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.SliMonitoringProperties.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.SliMonitoringProperties.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "SliMonitoringProperties.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Sli<wbr>Monitoring<wbr>Properties from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static SliMonitoringProperties fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of SliMonitoringProperties from the JsonReader."
+  returns:
+    description: "An instance of SliMonitoringProperties if the JsonReader was pointing to an instance of it, or null if it\n was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.SliMonitoringProperties?alt=com.azure.resourcemanager.resiliencemanagement.models.SliMonitoringProperties&text=SliMonitoringProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.SliMonitoringProperties.identity()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.SliMonitoringProperties.identity()"
+  name: "identity()"
+  nameWithType: "SliMonitoringProperties.identity()"
+  summary: "Get the identity property: Identity that the Drill uses to read evaluated SLI results from each SLI's destination Azure Monitor Workspace."
+  syntax: "public AssociatedIdentity identity()"
+  desc: "Get the identity property: Identity that the Drill uses to read evaluated SLI results from each SLI's destination Azure Monitor Workspace. The Drill is granted Monitoring Reader on every destination AMW of every selected SLI for this identity."
+  returns:
+    description: "the identity value."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.AssociatedIdentity?alt=com.azure.resourcemanager.resiliencemanagement.models.AssociatedIdentity&text=AssociatedIdentity\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.SliMonitoringProperties.slis()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.SliMonitoringProperties.slis()"
+  name: "slis()"
+  nameWithType: "SliMonitoringProperties.slis()"
+  summary: "Get the slis property: The SLIs selected for Drill monitoring."
+  syntax: "public List<SliSelection> slis()"
+  desc: "Get the slis property: The SLIs selected for Drill monitoring. Maximum of two entries: at most one Availability and one Latency. Duplicate types or duplicate SLI Ids are rejected."
+  returns:
+    description: "the slis value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.SliSelection?alt=com.azure.resourcemanager.resiliencemanagement.models.SliSelection&text=SliSelection\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.SliMonitoringProperties.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.SliMonitoringProperties.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "SliMonitoringProperties.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.SliMonitoringProperties.withIdentity(com.azure.resourcemanager.resiliencemanagement.models.AssociatedIdentity)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.SliMonitoringProperties.withIdentity(AssociatedIdentity identity)"
+  name: "withIdentity(AssociatedIdentity identity)"
+  nameWithType: "SliMonitoringProperties.withIdentity(AssociatedIdentity identity)"
+  summary: "Set the identity property: Identity that the Drill uses to read evaluated SLI results from each SLI's destination Azure Monitor Workspace."
+  parameters:
+  - description: "the identity value to set."
+    name: "identity"
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.AssociatedIdentity?alt=com.azure.resourcemanager.resiliencemanagement.models.AssociatedIdentity&text=AssociatedIdentity\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public SliMonitoringProperties withIdentity(AssociatedIdentity identity)"
+  desc: "Set the identity property: Identity that the Drill uses to read evaluated SLI results from each SLI's destination Azure Monitor Workspace. The Drill is granted Monitoring Reader on every destination AMW of every selected SLI for this identity."
+  returns:
+    description: "the SliMonitoringProperties object itself."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.SliMonitoringProperties?alt=com.azure.resourcemanager.resiliencemanagement.models.SliMonitoringProperties&text=SliMonitoringProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.SliMonitoringProperties.withSlis(java.util.List<com.azure.resourcemanager.resiliencemanagement.models.SliSelection>)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.SliMonitoringProperties.withSlis(List<SliSelection> slis)"
+  name: "withSlis(List<SliSelection> slis)"
+  nameWithType: "SliMonitoringProperties.withSlis(List<SliSelection> slis)"
+  summary: "Set the slis property: The SLIs selected for Drill monitoring."
+  parameters:
+  - description: "the slis value to set."
+    name: "slis"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.SliSelection?alt=com.azure.resourcemanager.resiliencemanagement.models.SliSelection&text=SliSelection\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public SliMonitoringProperties withSlis(List<SliSelection> slis)"
+  desc: "Set the slis property: The SLIs selected for Drill monitoring. Maximum of two entries: at most one Availability and one Latency. Duplicate types or duplicate SLI Ids are rejected."
+  returns:
+    description: "the SliMonitoringProperties object itself."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.SliMonitoringProperties?alt=com.azure.resourcemanager.resiliencemanagement.models.SliMonitoringProperties&text=SliMonitoringProperties\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "SLI monitoring properties of a Drill. At most two SLIs may be selected: at most one Availability and one Latency."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.SliMonitoringProperties?alt=com.azure.resourcemanager.resiliencemanagement.models.SliMonitoringProperties&text=SliMonitoringProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

@@ -1,0 +1,122 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillRunOperationVerbs"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillRunOperationVerbs"
+name: "DrillRunOperationVerbs"
+nameWithType: "DrillRunOperationVerbs"
+summary: "Enum for Drill<wbr>Run operation actions."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **DrillRunOperationVerbs**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillRunOperationVerbs?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillRunOperationVerbs&text=DrillRunOperationVerbs\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillRunOperationVerbs.DrillRunOperationVerbs()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillRunOperationVerbs.DrillRunOperationVerbs()"
+  name: "DrillRunOperationVerbs()"
+  nameWithType: "DrillRunOperationVerbs.DrillRunOperationVerbs()"
+  summary: "Creates a new instance of Drill<wbr>Run<wbr>Operation<wbr>Verbs value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.resiliencemanagement.models.DrillRunOperationVerbs.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public DrillRunOperationVerbs()"
+  desc: "Creates a new instance of DrillRunOperationVerbs value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillRunOperationVerbs.CANCEL"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillRunOperationVerbs.CANCEL"
+  name: "CANCEL"
+  nameWithType: "DrillRunOperationVerbs.CANCEL"
+  summary: "Cancel Action."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillRunOperationVerbs?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillRunOperationVerbs&text=DrillRunOperationVerbs\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final DrillRunOperationVerbs CANCEL"
+  desc: "Cancel Action."
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillRunOperationVerbs.MARK_AS_COMPLETE"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillRunOperationVerbs.MARK_AS_COMPLETE"
+  name: "MARK_AS_COMPLETE"
+  nameWithType: "DrillRunOperationVerbs.MARK_AS_COMPLETE"
+  summary: "Mark<wbr>AsComplete Action."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillRunOperationVerbs?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillRunOperationVerbs&text=DrillRunOperationVerbs\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final DrillRunOperationVerbs MARK_AS_COMPLETE"
+  desc: "MarkAsComplete Action."
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillRunOperationVerbs.RETRY"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillRunOperationVerbs.RETRY"
+  name: "RETRY"
+  nameWithType: "DrillRunOperationVerbs.RETRY"
+  summary: "Retry Action."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillRunOperationVerbs?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillRunOperationVerbs&text=DrillRunOperationVerbs\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final DrillRunOperationVerbs RETRY"
+  desc: "Retry Action."
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillRunOperationVerbs.START"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillRunOperationVerbs.START"
+  name: "START"
+  nameWithType: "DrillRunOperationVerbs.START"
+  summary: "Start Action."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillRunOperationVerbs?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillRunOperationVerbs&text=DrillRunOperationVerbs\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final DrillRunOperationVerbs START"
+  desc: "Start Action."
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillRunOperationVerbs.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillRunOperationVerbs.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "DrillRunOperationVerbs.fromString(String name)"
+  summary: "Creates or finds a Drill<wbr>Run<wbr>Operation<wbr>Verbs from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static DrillRunOperationVerbs fromString(String name)"
+  desc: "Creates or finds a DrillRunOperationVerbs from its string representation."
+  returns:
+    description: "the corresponding DrillRunOperationVerbs."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillRunOperationVerbs?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillRunOperationVerbs&text=DrillRunOperationVerbs\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillRunOperationVerbs.values()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillRunOperationVerbs.values()"
+  name: "values()"
+  nameWithType: "DrillRunOperationVerbs.values()"
+  summary: "Gets known Drill<wbr>Run<wbr>Operation<wbr>Verbs values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<DrillRunOperationVerbs> values()"
+  desc: "Gets known DrillRunOperationVerbs values."
+  returns:
+    description: "known DrillRunOperationVerbs values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillRunOperationVerbs?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillRunOperationVerbs&text=DrillRunOperationVerbs\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Enum for DrillRun operation actions."
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

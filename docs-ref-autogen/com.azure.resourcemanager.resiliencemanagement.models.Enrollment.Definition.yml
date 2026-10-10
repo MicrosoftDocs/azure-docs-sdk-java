@@ -1,0 +1,16 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.Enrollment.Definition"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.Enrollment.Definition"
+name: "Enrollment.Definition"
+nameWithType: "Enrollment.Definition"
+summary: "The entirety of the Enrollment definition."
+syntax: "public static interface **Enrollment.Definition**</br> extends <xref href=\"com.azure.resourcemanager.resiliencemanagement.models.Enrollment.DefinitionStages.Blank?alt=com.azure.resourcemanager.resiliencemanagement.models.Enrollment.DefinitionStages.Blank&text=Blank\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.resiliencemanagement.models.Enrollment.DefinitionStages.WithParentResource?alt=com.azure.resourcemanager.resiliencemanagement.models.Enrollment.DefinitionStages.WithParentResource&text=WithParentResource\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.resiliencemanagement.models.Enrollment.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.resiliencemanagement.models.Enrollment.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of the Enrollment definition."
+implements:
+- "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.Enrollment.DefinitionStages.Blank?alt=com.azure.resourcemanager.resiliencemanagement.models.Enrollment.DefinitionStages.Blank&text=Blank\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.Enrollment.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.resiliencemanagement.models.Enrollment.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.Enrollment.DefinitionStages.WithParentResource?alt=com.azure.resourcemanager.resiliencemanagement.models.Enrollment.DefinitionStages.WithParentResource&text=WithParentResource\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

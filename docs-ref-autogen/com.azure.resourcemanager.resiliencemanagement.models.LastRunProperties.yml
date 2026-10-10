@@ -1,0 +1,102 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.LastRunProperties"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.LastRunProperties"
+name: "LastRunProperties"
+nameWithType: "LastRunProperties"
+summary: "Definition of Last Run properties."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **LastRunProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.LastRunProperties?alt=com.azure.resourcemanager.resiliencemanagement.models.LastRunProperties&text=LastRunProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.LastRunProperties.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.LastRunProperties.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "LastRunProperties.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Last<wbr>Run<wbr>Properties from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static LastRunProperties fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the LastRunProperties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of LastRunProperties from the JsonReader."
+  returns:
+    description: "An instance of LastRunProperties if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.LastRunProperties?alt=com.azure.resourcemanager.resiliencemanagement.models.LastRunProperties&text=LastRunProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.LastRunProperties.lastRunAttestation()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.LastRunProperties.lastRunAttestation()"
+  name: "lastRunAttestation()"
+  nameWithType: "LastRunProperties.lastRunAttestation()"
+  summary: "Get the last<wbr>Run<wbr>Attestation property: Attestation state of the last run of this Drill."
+  syntax: "public DrillAttestation lastRunAttestation()"
+  desc: "Get the lastRunAttestation property: Attestation state of the last run of this Drill."
+  returns:
+    description: "the lastRunAttestation value."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillAttestation?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillAttestation&text=DrillAttestation\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.LastRunProperties.lastRunDuration()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.LastRunProperties.lastRunDuration()"
+  name: "lastRunDuration()"
+  nameWithType: "LastRunProperties.lastRunDuration()"
+  summary: "Get the last<wbr>Run<wbr>Duration property: Timespan of the last run of this Drill."
+  syntax: "public Duration lastRunDuration()"
+  desc: "Get the lastRunDuration property: Timespan of the last run of this Drill."
+  returns:
+    description: "the lastRunDuration value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html\">Duration</a>"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.LastRunProperties.lastRunState()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.LastRunProperties.lastRunState()"
+  name: "lastRunState()"
+  nameWithType: "LastRunProperties.lastRunState()"
+  summary: "Get the last<wbr>Run<wbr>State property: Status of the last run of this Drill."
+  syntax: "public JobStatus lastRunState()"
+  desc: "Get the lastRunState property: Status of the last run of this Drill."
+  returns:
+    description: "the lastRunState value."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.JobStatus?alt=com.azure.resourcemanager.resiliencemanagement.models.JobStatus&text=JobStatus\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.LastRunProperties.lastRunTime()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.LastRunProperties.lastRunTime()"
+  name: "lastRunTime()"
+  nameWithType: "LastRunProperties.lastRunTime()"
+  summary: "Get the last<wbr>Run<wbr>Time property: Timestamp of the last run of this Drill."
+  syntax: "public OffsetDateTime lastRunTime()"
+  desc: "Get the lastRunTime property: Timestamp of the last run of this Drill."
+  returns:
+    description: "the lastRunTime value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.LastRunProperties.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.LastRunProperties.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "LastRunProperties.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Definition of Last Run properties."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.LastRunProperties?alt=com.azure.resourcemanager.resiliencemanagement.models.LastRunProperties&text=LastRunProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

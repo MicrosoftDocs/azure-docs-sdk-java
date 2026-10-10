@@ -1,0 +1,98 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillType"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillType"
+name: "DrillType"
+nameWithType: "DrillType"
+summary: "Enum for Drill type object hierarchy."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **DrillType**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillType?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillType&text=DrillType\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillType.DrillType()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillType.DrillType()"
+  name: "DrillType()"
+  nameWithType: "DrillType.DrillType()"
+  summary: "Creates a new instance of Drill<wbr>Type value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.resiliencemanagement.models.DrillType.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public DrillType()"
+  desc: "Creates a new instance of DrillType value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillType.REGIONAL"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillType.REGIONAL"
+  name: "REGIONAL"
+  nameWithType: "DrillType.REGIONAL"
+  summary: "Regional Drill."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillType?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillType&text=DrillType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final DrillType REGIONAL"
+  desc: "Regional Drill."
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillType.ZONAL"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillType.ZONAL"
+  name: "ZONAL"
+  nameWithType: "DrillType.ZONAL"
+  summary: "Zonal Drill."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillType?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillType&text=DrillType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final DrillType ZONAL"
+  desc: "Zonal Drill."
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillType.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillType.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "DrillType.fromString(String name)"
+  summary: "Creates or finds a Drill<wbr>Type from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static DrillType fromString(String name)"
+  desc: "Creates or finds a DrillType from its string representation."
+  returns:
+    description: "the corresponding DrillType."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillType?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillType&text=DrillType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.DrillType.values()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.DrillType.values()"
+  name: "values()"
+  nameWithType: "DrillType.values()"
+  summary: "Gets known Drill<wbr>Type values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<DrillType> values()"
+  desc: "Gets known DrillType values."
+  returns:
+    description: "known DrillType values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.DrillType?alt=com.azure.resourcemanager.resiliencemanagement.models.DrillType&text=DrillType\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Enum for Drill type object hierarchy."
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0

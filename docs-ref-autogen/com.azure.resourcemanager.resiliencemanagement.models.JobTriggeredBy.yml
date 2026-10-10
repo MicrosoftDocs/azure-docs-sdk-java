@@ -1,0 +1,98 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.JobTriggeredBy"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.JobTriggeredBy"
+name: "JobTriggeredBy"
+nameWithType: "JobTriggeredBy"
+summary: "Job Triggered<wbr>By."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **JobTriggeredBy**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.JobTriggeredBy?alt=com.azure.resourcemanager.resiliencemanagement.models.JobTriggeredBy&text=JobTriggeredBy\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.JobTriggeredBy.JobTriggeredBy()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.JobTriggeredBy.JobTriggeredBy()"
+  name: "JobTriggeredBy()"
+  nameWithType: "JobTriggeredBy.JobTriggeredBy()"
+  summary: "Creates a new instance of Job<wbr>Triggered<wbr>By value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.resiliencemanagement.models.JobTriggeredBy.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public JobTriggeredBy()"
+  desc: "Creates a new instance of JobTriggeredBy value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.JobTriggeredBy.SYSTEM"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.JobTriggeredBy.SYSTEM"
+  name: "SYSTEM"
+  nameWithType: "JobTriggeredBy.SYSTEM"
+  summary: "Triggered by the system."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.JobTriggeredBy?alt=com.azure.resourcemanager.resiliencemanagement.models.JobTriggeredBy&text=JobTriggeredBy\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final JobTriggeredBy SYSTEM"
+  desc: "Triggered by the system."
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.JobTriggeredBy.USER"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.JobTriggeredBy.USER"
+  name: "USER"
+  nameWithType: "JobTriggeredBy.USER"
+  summary: "Triggered by the user."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.JobTriggeredBy?alt=com.azure.resourcemanager.resiliencemanagement.models.JobTriggeredBy&text=JobTriggeredBy\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final JobTriggeredBy USER"
+  desc: "Triggered by the user."
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.JobTriggeredBy.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.JobTriggeredBy.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "JobTriggeredBy.fromString(String name)"
+  summary: "Creates or finds a Job<wbr>Triggered<wbr>By from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static JobTriggeredBy fromString(String name)"
+  desc: "Creates or finds a JobTriggeredBy from its string representation."
+  returns:
+    description: "the corresponding JobTriggeredBy."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.JobTriggeredBy?alt=com.azure.resourcemanager.resiliencemanagement.models.JobTriggeredBy&text=JobTriggeredBy\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.JobTriggeredBy.values()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.JobTriggeredBy.values()"
+  name: "values()"
+  nameWithType: "JobTriggeredBy.values()"
+  summary: "Gets known Job<wbr>Triggered<wbr>By values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<JobTriggeredBy> values()"
+  desc: "Gets known JobTriggeredBy values."
+  returns:
+    description: "known JobTriggeredBy values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.JobTriggeredBy?alt=com.azure.resourcemanager.resiliencemanagement.models.JobTriggeredBy&text=JobTriggeredBy\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Job TriggeredBy."
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0
