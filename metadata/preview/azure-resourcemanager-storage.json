@@ -1,0 +1,35 @@
+{
+  "Name": "azure-resourcemanager-storage",
+  "Version": "2.60.0-alpha.20261019.1",
+  "DevVersion": "2.60.0-alpha.20261019.1",
+  "DirectoryPath": "sdk/storage/azure-resourcemanager-storage",
+  "ServiceDirectory": "storage/azure-resourcemanager-storage",
+  "ReadMePath": "sdk/storage/azure-resourcemanager-storage/README.md",
+  "ChangeLogPath": "sdk/storage/azure-resourcemanager-storage/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-storage",
+  "ReleaseStatus": "Unreleased",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "triggeringPaths": [
+      "/sdk/storage/azure-resourcemanager-storage/ci.yml"
+    ],
+    "groupId": "com.azure.resourcemanager",
+    "name": "azure-resourcemanager-storage",
+    "releaseInBatch": "${{ parameters.release_azureresourcemanagerstorage }}",
+    "safeName": "azureresourcemanagerstorage"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": "specification/storage/resource-manager/Microsoft.Storage/Storage",
+  "Namespaces": [
+    "com.azure.resourcemanager.storage",
+    "com.azure.resourcemanager.storage.fluent",
+    "com.azure.resourcemanager.storage.fluent.models",
+    "com.azure.resourcemanager.storage.models"
+  ]
+}
