@@ -1,0 +1,35 @@
+{
+  "Name": "azure-security-keyvault-jca",
+  "Version": "2.14.0-alpha.20261019.1",
+  "DevVersion": "2.14.0-alpha.20261019.1",
+  "DirectoryPath": "sdk/keyvault/azure-security-keyvault-jca",
+  "ServiceDirectory": "keyvault",
+  "ReadMePath": "sdk/keyvault/azure-security-keyvault-jca/README.md",
+  "ChangeLogPath": "sdk/keyvault/azure-security-keyvault-jca/CHANGELOG.md",
+  "Group": "com.azure",
+  "SdkType": "client",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-security-keyvault-jca",
+  "ReleaseStatus": "Unreleased",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": [
+    "com.azure:azure-security-keyvault-perf",
+    "com.azure:perf-test-core"
+  ],
+  "ArtifactDetails": {
+    "name": "azure-security-keyvault-jca",
+    "groupId": "com.azure",
+    "safeName": "azuresecuritykeyvaultjca",
+    "triggeringPaths": [
+      "/sdk/keyvault/ci.yml"
+    ],
+    "releaseInBatch": "${{ parameters.release_azuresecuritykeyvaultjca }}"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": null,
+  "Namespaces": [
+    "com.azure.security.keyvault.jca"
+  ]
+}
