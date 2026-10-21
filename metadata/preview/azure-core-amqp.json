@@ -1,7 +1,7 @@
 {
   "Name": "azure-core-amqp",
-  "Version": "2.13.0-beta.1",
-  "DevVersion": null,
+  "Version": "2.13.0-alpha.20261021.2",
+  "DevVersion": "2.13.0-alpha.20261021.2",
   "DirectoryPath": "sdk/core/azure-core-amqp",
   "ServiceDirectory": "core",
   "ReadMePath": "sdk/core/azure-core-amqp/README.md",
@@ -10,7 +10,7 @@
   "SdkType": "client",
   "IsNewSdk": true,
   "ArtifactName": "azure-core-amqp",
-  "ReleaseStatus": "2026-08-27",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": [
     "com.azure:azure-core-tracing-opentelemetry-samples",
@@ -18,36 +18,36 @@
     "com.azure:perf-test-core"
   ],
   "ArtifactDetails": {
-    "groupId": "com.azure",
-    "safeName": "azurecoreamqp",
+    "releaseInBatch": "${{ parameters.release_azurecoreamqp }}",
     "triggeringPaths": [
       "/sdk/core/ci.yml"
     ],
+    "groupId": "com.azure",
     "name": "azure-core-amqp",
-    "releaseInBatch": "${{ parameters.release_azurecoreamqp }}"
+    "safeName": "azurecoreamqp"
   },
   "CIParameters": {
     "CIMatrixConfigs": [
       {
-        "Name": "Java_ci_test_base",
-        "GenerateVMJobs": true,
         "Path": "eng/pipelines/templates/stages/platform-matrix.json",
+        "Selection": "sparse",
         "NonSparseParameters": "Agent",
-        "Selection": "sparse"
+        "GenerateVMJobs": true,
+        "Name": "Java_ci_test_base"
       },
       {
-        "Name": "version_overrides_tests",
-        "PRBatching": false,
-        "GenerateVMJobs": true,
         "Path": "sdk/core/version-overrides-matrix.json",
-        "Selection": "all"
-      },
-      {
-        "Name": "version_overrides_vertx_tests",
+        "Selection": "all",
         "PRBatching": false,
         "GenerateVMJobs": true,
+        "Name": "version_overrides_tests"
+      },
+      {
         "Path": "sdk/core/version-overrides-vertx-matrix.json",
-        "Selection": "all"
+        "Selection": "all",
+        "PRBatching": false,
+        "GenerateVMJobs": true,
+        "Name": "version_overrides_vertx_tests"
       }
     ]
   },
