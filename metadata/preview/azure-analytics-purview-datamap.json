@@ -1,7 +1,7 @@
 {
   "Name": "azure-analytics-purview-datamap",
-  "Version": "1.0.0-beta.2",
-  "DevVersion": null,
+  "Version": "1.0.0-alpha.20261021.1",
+  "DevVersion": "1.0.0-alpha.20261021.1",
   "DirectoryPath": "sdk/purview/azure-analytics-purview-datamap",
   "ServiceDirectory": "purview",
   "ReadMePath": "sdk/purview/azure-analytics-purview-datamap/README.md",
@@ -10,21 +10,22 @@
   "SdkType": "client",
   "IsNewSdk": true,
   "ArtifactName": "azure-analytics-purview-datamap",
-  "ReleaseStatus": "2025-04-08",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "name": "azure-analytics-purview-datamap",
-    "groupId": "com.azure",
-    "safeName": "azureanalyticspurviewdatamap",
     "triggeringPaths": [
       "/sdk/purview/ci.yml"
     ],
-    "releaseInBatch": "${{ parameters.release_azureanalyticspurviewdatamap }}"
+    "groupId": "com.azure",
+    "name": "azure-analytics-purview-datamap",
+    "releaseInBatch": "${{ parameters.release_azureanalyticspurviewdatamap }}",
+    "safeName": "azureanalyticspurviewdatamap"
   },
   "CIParameters": {
     "CIMatrixConfigs": []
   },
+  "SpecProjectPath": "specification/purview/Azure.Analytics.Purview.DataMap",
   "Namespaces": [
     "com.azure.analytics.purview.datamap",
     "com.azure.analytics.purview.datamap.models"
