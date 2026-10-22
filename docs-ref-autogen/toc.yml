@@ -703,10 +703,10 @@
     name: CreateAgentVersionOptions
     no-loc:
     - CreateAgentVersionOptions
-  - uid: com.azure.ai.agents.models.CreateTeamsPhoneExtensionTelephonyBindingInput
-    name: CreateTeamsPhoneExtensionTelephonyBindingInput
+  - uid: com.azure.ai.agents.models.CreateTeamsPhoneExtensibilityTelephonyBindingInput
+    name: CreateTeamsPhoneExtensibilityTelephonyBindingInput
     no-loc:
-    - CreateTeamsPhoneExtensionTelephonyBindingInput
+    - CreateTeamsPhoneExtensibilityTelephonyBindingInput
   - uid: com.azure.ai.agents.models.CreateTelephonyBindingInput
     name: CreateTelephonyBindingInput
     no-loc:
@@ -1075,6 +1075,26 @@
     name: Microsoft365PublishScope
     no-loc:
     - Microsoft365PublishScope
+  - uid: com.azure.ai.agents.models.MicrosoftCopilotBuiltInTool
+    name: MicrosoftCopilotBuiltInTool
+    no-loc:
+    - MicrosoftCopilotBuiltInTool
+  - uid: com.azure.ai.agents.models.MicrosoftCopilotHarness
+    name: MicrosoftCopilotHarness
+    no-loc:
+    - MicrosoftCopilotHarness
+  - uid: com.azure.ai.agents.models.MicrosoftCopilotToolsetConfiguration
+    name: MicrosoftCopilotToolsetConfiguration
+    no-loc:
+    - MicrosoftCopilotToolsetConfiguration
+  - uid: com.azure.ai.agents.models.MicrosoftCopilotToolsetDefaultConfiguration
+    name: MicrosoftCopilotToolsetDefaultConfiguration
+    no-loc:
+    - MicrosoftCopilotToolsetDefaultConfiguration
+  - uid: com.azure.ai.agents.models.MicrosoftCopilotToolsetPreview
+    name: MicrosoftCopilotToolsetPreview
+    no-loc:
+    - MicrosoftCopilotToolsetPreview
   - uid: com.azure.ai.agents.models.MicrosoftFabricPreviewTool
     name: MicrosoftFabricPreviewTool
     no-loc:
@@ -1783,14 +1803,14 @@
     name: TargetAttribute
     no-loc:
     - TargetAttribute
-  - uid: com.azure.ai.agents.models.TeamsPhoneExtensionTelephonyBinding
-    name: TeamsPhoneExtensionTelephonyBinding
+  - uid: com.azure.ai.agents.models.TeamsPhoneExtensibilityTelephonyBinding
+    name: TeamsPhoneExtensibilityTelephonyBinding
     no-loc:
-    - TeamsPhoneExtensionTelephonyBinding
-  - uid: com.azure.ai.agents.models.TeamsPhoneExtensionTelephonyBindingListItem
-    name: TeamsPhoneExtensionTelephonyBindingListItem
+    - TeamsPhoneExtensibilityTelephonyBinding
+  - uid: com.azure.ai.agents.models.TeamsPhoneExtensibilityTelephonyBindingListItem
+    name: TeamsPhoneExtensibilityTelephonyBindingListItem
     no-loc:
-    - TeamsPhoneExtensionTelephonyBindingListItem
+    - TeamsPhoneExtensibilityTelephonyBindingListItem
   - uid: com.azure.ai.agents.models.TeamsTelephonyTransferDestination
     name: TeamsTelephonyTransferDestination
     no-loc:
@@ -2311,10 +2331,6 @@
     name: VoiceAgentRealtimeResponse
     no-loc:
     - VoiceAgentRealtimeResponse
-  - uid: com.azure.ai.agents.models.VoiceAgentRealtimeResponseBase
-    name: VoiceAgentRealtimeResponseBase
-    no-loc:
-    - VoiceAgentRealtimeResponseBase
   - uid: com.azure.ai.agents.models.VoiceAgentResponseAnimationBlendshapeDeltaEvent
     name: VoiceAgentResponseAnimationBlendshapeDeltaEvent
     no-loc:
@@ -2567,14 +2583,10 @@
     name: VoiceResponseAudioOutput
     no-loc:
     - VoiceResponseAudioOutput
-  - uid: com.azure.ai.agents.models.VoiceResponseBase
-    name: VoiceResponseBase
+  - uid: com.azure.ai.agents.models.VoiceResponseObjectType
+    name: VoiceResponseObjectType
     no-loc:
-    - VoiceResponseBase
-  - uid: com.azure.ai.agents.models.VoiceResponseBaseObject
-    name: VoiceResponseBaseObject
-    no-loc:
-    - VoiceResponseBaseObject
+    - VoiceResponseObjectType
   - uid: com.azure.ai.agents.models.VoiceType
     name: VoiceType
     no-loc:
@@ -102999,10 +103011,6 @@
     name: EdgeActionVersionInner
     no-loc:
     - EdgeActionVersionInner
-  - uid: com.azure.resourcemanager.edgeactions.fluent.models.EdgeActionVersionPropertiesInner
-    name: EdgeActionVersionPropertiesInner
-    no-loc:
-    - EdgeActionVersionPropertiesInner
   - uid: com.azure.resourcemanager.edgeactions.fluent.models.VersionCodeInner
     name: VersionCodeInner
     no-loc:
