@@ -351,6 +351,15 @@
     href: ~/docs-ref-services/{moniker}/batch.md
     landingPageType: Service
     items:
+    - name: Batch
+      href: ~/docs-ref-services/{moniker}/batch-readme.md
+      children:
+      - com.microsoft.azure.batch
+      - com.microsoft.azure.batch.auth
+      - com.microsoft.azure.batch.interceptor
+      - com.microsoft.azure.batch.protocol
+      - com.microsoft.azure.batch.protocol.implementation
+      - com.microsoft.azure.batch.protocol.models
     - name: Compute Batch
       href: ~/docs-ref-services/{moniker}/compute-batch-readme.md
       children:
@@ -1811,7 +1820,6 @@
       href: ~/docs-ref-services/{moniker}/messaging-eventgrid-readme.md
       children:
       - com.azure.messaging.eventgrid
-      - com.azure.messaging.eventgrid.models
       - com.azure.messaging.eventgrid.systemevents
     - name: CloudNative CloudEvents with Event Grid  (deprecated)
       href: ~/docs-ref-services/{moniker}/messaging-eventgrid-cloudnative-cloudevents-readme.md
