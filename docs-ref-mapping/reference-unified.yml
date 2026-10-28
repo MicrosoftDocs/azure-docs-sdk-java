@@ -190,7 +190,7 @@
     items:
     - name: Management
       items:
-      - name: Resource Management - Arize AI Observability Eval
+      - name: Resource Management - Arize AI Observability Eval (deprecated)
         href: ~/docs-ref-services/{moniker}/resourcemanager-arizeaiobservabilityeval-readme.md
         children:
         - com.azure.resourcemanager.arizeaiobservabilityeval
@@ -291,6 +291,19 @@
       href: ~/docs-ref-services/{moniker}/analytics-purview-sharing-readme.md
       children:
       - com.azure.analytics.purview.sharing
+  - name: Azure Stack
+    href: ~/docs-ref-services/{moniker}/azure-stack.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Azure Stack
+        href: ~/docs-ref-services/{moniker}/resourcemanager-azurestack-readme.md
+        children:
+        - com.azure.resourcemanager.azurestack
+        - com.azure.resourcemanager.azurestack.fluent
+        - com.azure.resourcemanager.azurestack.fluent.models
+        - com.azure.resourcemanager.azurestack.models
   - name: Azure Stack HCI
     href: ~/docs-ref-services/{moniker}/azure-stack-hci.md
     landingPageType: Service
@@ -351,6 +364,15 @@
     href: ~/docs-ref-services/{moniker}/batch.md
     landingPageType: Service
     items:
+    - name: Batch
+      href: ~/docs-ref-services/{moniker}/batch-readme.md
+      children:
+      - com.microsoft.azure.batch
+      - com.microsoft.azure.batch.auth
+      - com.microsoft.azure.batch.interceptor
+      - com.microsoft.azure.batch.protocol
+      - com.microsoft.azure.batch.protocol.implementation
+      - com.microsoft.azure.batch.protocol.models
     - name: Compute Batch
       href: ~/docs-ref-services/{moniker}/compute-batch-readme.md
       children:
@@ -1082,6 +1104,10 @@
         - com.azure.resourcemanager.containerservice.fluent
         - com.azure.resourcemanager.containerservice.fluent.models
         - com.azure.resourcemanager.containerservice.models
+        - com.azure.resourcemanager.containerservice
+        - com.azure.resourcemanager.containerservice.fluent
+        - com.azure.resourcemanager.containerservice.fluent.models
+        - com.azure.resourcemanager.containerservice.models
       - name: Resource Management - Hybrid Container Service
         href: ~/docs-ref-services/{moniker}/resourcemanager-hybridcontainerservice-readme.md
         children:
@@ -1380,6 +1406,10 @@
         - com.azure.resourcemanager.dataprotection.fluent
         - com.azure.resourcemanager.dataprotection.fluent.models
         - com.azure.resourcemanager.dataprotection.models
+        - com.azure.resourcemanager.dataprotection
+        - com.azure.resourcemanager.dataprotection.fluent
+        - com.azure.resourcemanager.dataprotection.fluent.models
+        - com.azure.resourcemanager.dataprotection.models
   - name: Database Migration Service
     href: ~/docs-ref-services/{moniker}/database-migration-service.md
     landingPageType: Service
@@ -1672,6 +1702,10 @@
         - com.azure.resourcemanager.durabletask.fluent
         - com.azure.resourcemanager.durabletask.fluent.models
         - com.azure.resourcemanager.durabletask.models
+        - com.azure.resourcemanager.durabletask
+        - com.azure.resourcemanager.durabletask.fluent
+        - com.azure.resourcemanager.durabletask.fluent.models
+        - com.azure.resourcemanager.durabletask.models
   - name: Dynatrace
     href: ~/docs-ref-services/{moniker}/dynatrace.md
     landingPageType: Service
@@ -1811,7 +1845,6 @@
       href: ~/docs-ref-services/{moniker}/messaging-eventgrid-readme.md
       children:
       - com.azure.messaging.eventgrid
-      - com.azure.messaging.eventgrid.models
       - com.azure.messaging.eventgrid.systemevents
     - name: CloudNative CloudEvents with Event Grid  (deprecated)
       href: ~/docs-ref-services/{moniker}/messaging-eventgrid-cloudnative-cloudevents-readme.md
@@ -3084,6 +3117,10 @@
         - com.azure.resourcemanager.monitor.workspaces.fluent
         - com.azure.resourcemanager.monitor.workspaces.fluent.models
         - com.azure.resourcemanager.monitor.workspaces.models
+        - com.azure.resourcemanager.monitor.workspaces
+        - com.azure.resourcemanager.monitor.workspaces.fluent
+        - com.azure.resourcemanager.monitor.workspaces.fluent.models
+        - com.azure.resourcemanager.monitor.workspaces.models
   - name: MySQL
     href: ~/docs-ref-services/{moniker}/mysql.md
     landingPageType: Service
@@ -3139,10 +3176,6 @@
       - name: Resource Management - NetApp Files
         href: ~/docs-ref-services/{moniker}/resourcemanager-netapp-readme.md
         children:
-        - com.azure.resourcemanager.netapp
-        - com.azure.resourcemanager.netapp.fluent
-        - com.azure.resourcemanager.netapp.fluent.models
-        - com.azure.resourcemanager.netapp.models
         - com.azure.resourcemanager.netapp
         - com.azure.resourcemanager.netapp.fluent
         - com.azure.resourcemanager.netapp.fluent.models
@@ -4611,6 +4644,13 @@
         - com.azure.resourcemanager.compute.workloadmanager.fluent
         - com.azure.resourcemanager.compute.workloadmanager.fluent.models
         - com.azure.resourcemanager.compute.workloadmanager.models
+      - name: unknown
+        href: ~/docs-ref-services/{moniker}/resourcemanager-datatransfer-readme.md
+        children:
+        - com.azure.resourcemanager.datatransfer
+        - com.azure.resourcemanager.datatransfer.fluent
+        - com.azure.resourcemanager.datatransfer.fluent.models
+        - com.azure.resourcemanager.datatransfer.models
       - name: unknown
         href: ~/docs-ref-services/{moniker}/resourcemanager-resources-templatespecs-readme.md
         children:
