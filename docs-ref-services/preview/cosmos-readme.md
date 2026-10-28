@@ -1,12 +1,12 @@
 ---
 title: Azure Cosmos DB Client Library for Java
 keywords: Azure, java, SDK, API, azure-cosmos, cosmos
-ms.date: 05/19/2025
+ms.date: 10/28/2026
 ms.topic: reference
 ms.devlang: java
 ms.service: cosmos
 ---
-# Azure Cosmos DB Client Library for Java - version 4.71.0-beta.1 
+# Azure Cosmos DB Client Library for Java - version 4.84.0-alpha.20261028.1 
 
 
 Azure Cosmos DB is Microsoft’s globally distributed, multi-model database service for operational and analytics workloads. It offers multi-mastering feature by automatically scaling throughput, compute, and storage.
@@ -20,7 +20,7 @@ This project provides SDK library in Java for interacting with [SQL API][sql_api
 #### Include the BOM file
 
 Please include the azure-sdk-bom to your project to take dependency on GA version of the library. In the following snippet, replace the {bom_version_to_target} placeholder with the version number.
-To learn more about the BOM, see the [AZURE SDK BOM README](https://github.com/Azure/azure-sdk-for-java/blob/azure-cosmos_4.71.0-beta.1/sdk/boms/azure-sdk-bom/README.md).
+To learn more about the BOM, see the [AZURE SDK BOM README](https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/boms/azure-sdk-bom/README.md).
 
 ```xml
 <dependencyManagement>
@@ -104,6 +104,24 @@ A Cosmos DB account contains zero or more databases, a database (DB) contains ze
 You may read more about databases, containers and items [here](https://learn.microsoft.com/azure/cosmos-db/databases-containers-items).
 A few important properties defined at the level of the container, among them are provisioned throughput and partition key.
 
+### Direct-mode epoll on the Java module path
+
+When a named-module application uses Cosmos DB direct mode on JDK 11 or later, the
+`com.azure.cosmos` module already requires Netty's `io.netty.transport.classes.epoll` module.
+Netty 4.2 places the Linux JNI library in a **separate** explicit module, so including its JAR
+on the module path is not enough to make the bundled library visible. On Linux x86_64,
+retain or add the matching `io.netty:netty-transport-native-epoll` dependency with the
+`linux-x86_64` classifier and add `--add-modules=io.netty.transport.epoll.linux.x86_64`
+when launching the application. For another architecture, use its matching classifier
+and module name (check with `jar --describe-module --file <native-JAR> --release 11`).
+
+If the native module is not resolved, the bundled JNI library is unavailable to Netty and
+Cosmos DB direct mode falls back to JDK NIO unless a native library is supplied another way.
+These JPMS launch options do not apply to Java 8 or to classpath applications. Resolving
+the module does not by itself prove epoll is usable on the current OS. The
+[Netty HTTP plugin's module-path guidance](https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/core/azure-core-http-netty/README.md#native-transports-on-the-module-path)
+also covers gateway HTTP and macOS kqueue.
+
 ### Global Distribution
 - Azure Cosmos DB is a globally distributed database service that's designed to provide low latency, elastic scalability of throughput, well-defined semantics for data consistency, and high availability.
 In short, if your application needs guaranteed fast response time anywhere in the world, if it's required to be always online, and needs unlimited and elastic scalability of throughput and storage, you should build your application on Azure Cosmos DB.
@@ -131,10 +149,10 @@ You may learn more about partitioning [here](https://learn.microsoft.com/azure/c
 ## Examples
 
 The following section provides several code snippets covering some of the most common Cosmos DB SQL API tasks, including:
-* [Create Cosmos Client](#create-cosmos-client "Create Cosmos Client")
-* [Create Database](#create-database "Create Database")
-* [Create Container](#create-container "Create Container")
-* [CRUD operation on Items](#crud-operation-on-items "CRUD operation on Items")
+* [Create Cosmos Client](#create-cosmos-client)
+* [Create Database](#create-database)
+* [Create Container](#create-container)
+* [CRUD operation on Items](#crud-operation-on-items)
 
 ### Create Cosmos Client
 ```java readme-sample-createCosmosClient2
@@ -293,7 +311,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct][coc]. For m
 or contact [opencode@microsoft.com][coc_contact] with any additional questions or comments.
 
 <!-- LINKS -->
-[source_code]: https://github.com/Azure/azure-sdk-for-java/blob/azure-cosmos_4.71.0-beta.1/sdk/cosmos/azure-cosmos/src
+[source_code]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/cosmos/azure-cosmos/src
 [cosmos_introduction]: https://learn.microsoft.com/azure/cosmos-db/
 [api_documentation]: https://azuresdkdocs.z19.web.core.windows.net/java/azure-cosmos/latest/index.html
 [cosmos_docs]: https://learn.microsoft.com/azure/cosmos-db/introduction
@@ -315,7 +333,4 @@ or contact [opencode@microsoft.com][coc_contact] with any additional questions o
 [getting_started]: https://github.com/Azure-Samples/azure-cosmos-java-getting-started
 [quickstart]: https://learn.microsoft.com/azure/cosmos-db/create-sql-api-java?tabs=sync
 [project_reactor_schedulers]: https://projectreactor.io/docs/core/release/api/reactor/core/scheduler/Schedulers.html
-
-
-
 
