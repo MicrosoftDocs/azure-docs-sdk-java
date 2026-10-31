@@ -1,0 +1,35 @@
+{
+  "Name": "azure-resourcemanager-aiinfraoptimization",
+  "Version": "1.0.0-beta.1",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/aiinfraoptimization/azure-resourcemanager-aiinfraoptimization",
+  "ServiceDirectory": "aiinfraoptimization",
+  "ReadMePath": "sdk/aiinfraoptimization/azure-resourcemanager-aiinfraoptimization/README.md",
+  "ChangeLogPath": "sdk/aiinfraoptimization/azure-resourcemanager-aiinfraoptimization/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-aiinfraoptimization",
+  "ReleaseStatus": "2026-10-29",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "groupId": "com.azure.resourcemanager",
+    "safeName": "azureresourcemanageraiinfraoptimization",
+    "triggeringPaths": [
+      "/sdk/aiinfraoptimization/ci.yml"
+    ],
+    "name": "azure-resourcemanager-aiinfraoptimization",
+    "releaseInBatch": "${{ parameters.release_azureresourcemanageraiinfraoptimization }}"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": "specification/aiinfraoptimization/resource-manager/Microsoft.AIInfraOptimization/AIInfraOptimization",
+  "Namespaces": [
+    "com.azure.resourcemanager.aiinfraoptimization",
+    "com.azure.resourcemanager.aiinfraoptimization.fluent",
+    "com.azure.resourcemanager.aiinfraoptimization.fluent.models",
+    "com.azure.resourcemanager.aiinfraoptimization.models"
+  ]
+}
