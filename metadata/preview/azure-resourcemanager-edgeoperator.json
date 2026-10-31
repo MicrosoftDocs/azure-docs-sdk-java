@@ -1,0 +1,35 @@
+{
+  "Name": "azure-resourcemanager-edgeoperator",
+  "Version": "1.0.0-beta.1",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/edgeoperator/azure-resourcemanager-edgeoperator",
+  "ServiceDirectory": "edgeoperator",
+  "ReadMePath": "sdk/edgeoperator/azure-resourcemanager-edgeoperator/README.md",
+  "ChangeLogPath": "sdk/edgeoperator/azure-resourcemanager-edgeoperator/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-edgeoperator",
+  "ReleaseStatus": "2026-09-15",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "triggeringPaths": [
+      "/sdk/edgeoperator/ci.yml"
+    ],
+    "groupId": "com.azure.resourcemanager",
+    "safeName": "azureresourcemanageredgeoperator",
+    "releaseInBatch": "${{ parameters.release_azureresourcemanageredgeoperator }}",
+    "name": "azure-resourcemanager-edgeoperator"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": "specification/edgeoperator/resource-manager/Microsoft.EdgeOperator/SystemReadiness",
+  "Namespaces": [
+    "com.azure.resourcemanager.edgeoperator",
+    "com.azure.resourcemanager.edgeoperator.fluent",
+    "com.azure.resourcemanager.edgeoperator.fluent.models",
+    "com.azure.resourcemanager.edgeoperator.models"
+  ]
+}
