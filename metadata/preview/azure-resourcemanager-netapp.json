@@ -1,6 +1,6 @@
 {
   "Name": "azure-resourcemanager-netapp",
-  "Version": "2.5.0-beta.2",
+  "Version": "2.6.0-beta.1",
   "DevVersion": null,
   "DirectoryPath": "sdk/netapp/azure-resourcemanager-netapp",
   "ServiceDirectory": "netapp",
@@ -10,7 +10,7 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-netapp",
-  "ReleaseStatus": "2026-08-26",
+  "ReleaseStatus": "2026-10-28",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
