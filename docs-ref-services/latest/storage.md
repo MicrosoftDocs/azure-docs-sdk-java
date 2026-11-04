@@ -388,11 +388,11 @@ Uploads from files, `InputStream`, `byte[]`, or `String` data aren't affected.
 
 | Client library | Versions impacted | Minimum safe version | Recommended action |
 | --- | --- | --- | --- |
-| Azure Storage Blob | 12.6.0 to 12.36.0 | 12.36.1 | [Update to latest version or minimum 12.36.1](https://mvnrepository.com/artifact/com.azure/azure-storage-blob) |
-| Azure File Data Lake | 12.0.1 to 12.29.0 | 12.29.1 | [Update to latest version or minimum 12.29.1](https://mvnrepository.com/artifact/com.azure/azure-storage-file-datalake) |
-| Azure File Share | 12.9.1 to 12.32.0 | 12.32.1 | [Update to latest version or minimum 12.32.1](https://mvnrepository.com/artifact/com.azure/azure-storage-file-share) |
-| Azure Blob Storage Cryptography | 12.17.0 to 12.35.0 | 12.35.1 | [Update to latest version or minimum 12.35.1](https://mvnrepository.com/artifact/com.azure/azure-storage-blob-cryptography) |
-| Azure Storage Common | 12.5.0 to 12.35.0 | 12.35.1 | [Update to latest version or minimum 12.35.1](https://mvnrepository.com/artifact/com.azure/azure-storage-common) |
+| Azure Storage Blob | 12.6.0 to 12.37.1 | 12.37.2 | [Update to latest version or minimum 12.37.2](https://mvnrepository.com/artifact/com.azure/azure-storage-blob) |
+| Azure File Data Lake | 12.0.1 to 12.30.1 | 12.30.2 | [Update to latest version or minimum 12.30.2](https://mvnrepository.com/artifact/com.azure/azure-storage-file-datalake) |
+| Azure File Share | 12.9.1 to 12.33.1 | 12.33.2 | [Update to latest version or minimum 12.33.2](https://mvnrepository.com/artifact/com.azure/azure-storage-file-share) |
+| Azure Blob Storage Cryptography | 12.17.0 to 12.36.1 | 12.36.2 | [Update to latest version or minimum 12.36.2](https://mvnrepository.com/artifact/com.azure/azure-storage-blob-cryptography) |
+| Azure Storage Common | 12.5.0 to 12.36.1 | 12.36.2 | [Update to latest version or minimum 12.36.2](https://mvnrepository.com/artifact/com.azure/azure-storage-common) |
 
 #### Recommended steps
 
