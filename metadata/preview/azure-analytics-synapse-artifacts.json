@@ -1,7 +1,7 @@
 {
   "Name": "azure-analytics-synapse-artifacts",
-  "Version": "1.0.0-beta.17",
-  "DevVersion": null,
+  "Version": "1.0.0-alpha.20261104.1",
+  "DevVersion": "1.0.0-alpha.20261104.1",
   "DirectoryPath": "sdk/synapse/azure-analytics-synapse-artifacts",
   "ServiceDirectory": "synapse",
   "ReadMePath": "sdk/synapse/azure-analytics-synapse-artifacts/README.md",
@@ -10,7 +10,7 @@
   "SdkType": "client",
   "IsNewSdk": true,
   "ArtifactName": "azure-analytics-synapse-artifacts",
-  "ReleaseStatus": "2025-09-30",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
@@ -25,6 +25,7 @@
   "CIParameters": {
     "CIMatrixConfigs": []
   },
+  "SpecProjectPath": null,
   "Namespaces": [
     "com.azure.analytics.synapse.artifacts",
     "com.azure.analytics.synapse.artifacts.models"
