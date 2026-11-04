@@ -1,3 +1,4 @@
 | Reference | Package | Source |
 |---|---|---|
+|[Resource Management - PostgreSQL](resourcemanager-postgresql-readme.md)|[azure-resourcemanager-postgresql](https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-java/maven/v1/com/azure/resourcemanager/azure-resourcemanager-postgresql)|[GitHub](https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/postgresql/azure-resourcemanager-postgresql)|
 |[Resource Management - PostgreSQL Flexible Server](resourcemanager-postgresqlflexibleserver-readme.md)|[azure-resourcemanager-postgresqlflexibleserver](https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-java/maven/v1/com/azure/resourcemanager/azure-resourcemanager-postgresqlflexibleserver)|[GitHub](https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/postgresqlflexibleserver/azure-resourcemanager-postgresqlflexibleserver)|
