@@ -225637,6 +225637,14 @@
     name: ProgressReporter
     no-loc:
     - ProgressReporter
+  - uid: com.azure.storage.blob.SessionContext
+    name: SessionContext
+    no-loc:
+    - SessionContext
+  - uid: com.azure.storage.blob.SessionContext.SessionMode
+    name: SessionContext.SessionMode
+    no-loc:
+    - SessionContext.SessionMode
   no-loc:
   - com.azure.storage.blob
 - uid: com.azure.storage.blob.batch
@@ -225990,6 +225998,10 @@
     name: DeleteSnapshotsOptionType
     no-loc:
     - DeleteSnapshotsOptionType
+  - uid: com.azure.storage.blob.models.DownloadHint
+    name: DownloadHint
+    no-loc:
+    - DownloadHint
   - uid: com.azure.storage.blob.models.DownloadRetryOptions
     name: DownloadRetryOptions
     no-loc:
@@ -226480,6 +226492,10 @@
     name: ContentValidationAlgorithm
     no-loc:
     - ContentValidationAlgorithm
+  - uid: com.azure.storage.common.LayoutAwareRouting
+    name: LayoutAwareRouting
+    no-loc:
+    - LayoutAwareRouting
   - uid: com.azure.storage.common.ParallelTransferOptions
     name: ParallelTransferOptions
     no-loc:
@@ -226508,11 +226524,27 @@
     name: Utility
     no-loc:
     - Utility
+  - uid: com.azure.storage.common.ValidatableContent
+    name: ValidatableContent
+    no-loc:
+    - ValidatableContent
   no-loc:
   - com.azure.storage.common
 - uid: com.azure.storage.common.policy
   name: com.azure.storage.common.policy
   items:
+  - uid: com.azure.storage.common.policy.DataLocalityPolicy
+    name: DataLocalityPolicy
+    no-loc:
+    - DataLocalityPolicy
+  - uid: com.azure.storage.common.policy.ExpectContinueMode
+    name: ExpectContinueMode
+    no-loc:
+    - ExpectContinueMode
+  - uid: com.azure.storage.common.policy.ExpectContinueOptions
+    name: ExpectContinueOptions
+    no-loc:
+    - ExpectContinueOptions
   - uid: com.azure.storage.common.policy.MetadataValidationPolicy
     name: MetadataValidationPolicy
     no-loc:
@@ -226989,6 +227021,10 @@
     name: FileQueryOptions
     no-loc:
     - FileQueryOptions
+  - uid: com.azure.storage.file.datalake.options.FileReadOptions
+    name: FileReadOptions
+    no-loc:
+    - FileReadOptions
   - uid: com.azure.storage.file.datalake.options.FileScheduleDeletionOptions
     name: FileScheduleDeletionOptions
     no-loc:
@@ -227289,6 +227325,14 @@
     name: ShareFileItemProperties
     no-loc:
     - ShareFileItemProperties
+  - uid: com.azure.storage.file.share.models.ShareFileLink
+    name: ShareFileLink
+    no-loc:
+    - ShareFileLink
+  - uid: com.azure.storage.file.share.models.ShareFileLinks
+    name: ShareFileLinks
+    no-loc:
+    - ShareFileLinks
   - uid: com.azure.storage.file.share.models.ShareFileMetadataInfo
     name: ShareFileMetadataInfo
     no-loc:
