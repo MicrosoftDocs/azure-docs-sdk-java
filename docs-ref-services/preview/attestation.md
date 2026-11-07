@@ -1,10 +1,10 @@
 ---
 title: Azure Attestation SDK for Java
 description: Reference for Azure Attestation SDK for Java
-ms.date: 11/05/2026
+ms.date: 11/07/2026
 ms.topic: reference
 ms.devlang: java
-ms.service: azure-resource-manager
+ms.service: attestation
 ---
 # Azure Attestation SDK for Java - preview
 ## Packages - preview
