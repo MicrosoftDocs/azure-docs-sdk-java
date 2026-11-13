@@ -6,7 +6,7 @@ ms.topic: reference
 ms.devlang: java
 ms.service: contentunderstanding
 ---
-# Azure Content Understanding client library for Java - version 1.1.0-alpha.20261112.1 
+# Azure Content Understanding client library for Java - version 1.1.0-alpha.20261113.1 
 
 
 Azure AI Content Understanding is a multimodal AI service that extracts semantic content from documents, video, audio, and image files. It transforms unstructured content into structured, machine-readable data optimized for retrieval-augmented generation (RAG) and automated workflows.
