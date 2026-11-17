@@ -1,7 +1,7 @@
 {
   "Name": "azure-resourcemanager-keyvault",
-  "Version": "2.58.0-beta.1",
-  "DevVersion": null,
+  "Version": "2.58.0-alpha.20261117.1",
+  "DevVersion": "2.58.0-alpha.20261117.1",
   "DirectoryPath": "sdk/keyvault/azure-resourcemanager-keyvault",
   "ServiceDirectory": "keyvault/azure-resourcemanager-keyvault",
   "ReadMePath": "sdk/keyvault/azure-resourcemanager-keyvault/README.md",
@@ -10,17 +10,17 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-keyvault",
-  "ReleaseStatus": "2026-11-11",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "releaseInBatch": "${{ parameters.release_azureresourcemanagerkeyvault }}",
+    "safeName": "azureresourcemanagerkeyvault",
     "name": "azure-resourcemanager-keyvault",
+    "releaseInBatch": "${{ parameters.release_azureresourcemanagerkeyvault }}",
+    "groupId": "com.azure.resourcemanager",
     "triggeringPaths": [
       "/sdk/keyvault/azure-resourcemanager-keyvault/ci.yml"
-    ],
-    "safeName": "azureresourcemanagerkeyvault",
-    "groupId": "com.azure.resourcemanager"
+    ]
   },
   "CIParameters": {
     "CIMatrixConfigs": []
