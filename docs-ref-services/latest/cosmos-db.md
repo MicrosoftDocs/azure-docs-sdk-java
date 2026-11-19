@@ -59,4 +59,4 @@ Explore more [sample Java code for Azure Cosmos DB](https://azure.microsoft.com/
 
 [2]: https://github.com/Azure-Samples/azure-cosmos-db-mongodb-java-getting-started
 [3]: https://github.com/Azure-Samples/azure-cosmos-db-graph-java-getting-started
-[4]: https://github.com/Azure-Samples/azure-cosmos-db-documentdb-java-getting-started
+[4]: https://github.com/Azure-Samples/azure-cosmos-java-getting-started
