@@ -1,17 +1,17 @@
 ---
 title: Azure Resource Manager ApplicationInsights client library for Java
 keywords: Azure, java, SDK, API, azure-resourcemanager-applicationinsights, azure-resource-manager
-ms.date: 02/19/2025
+ms.date: 11/26/2026
 ms.topic: reference
 ms.devlang: java
 ms.service: azure-resource-manager
 ---
-# Azure Resource Manager ApplicationInsights client library for Java - version 1.2.0-beta.1 
+# Azure Resource Manager ApplicationInsights client library for Java - version 1.2.0-alpha.20261126.1 
 
 
 Azure Resource Manager ApplicationInsights client library for Java.
 
-This package contains Microsoft Azure SDK for ApplicationInsights Management SDK. Composite Swagger for Application Insights Management Client. Package tag package-2024-08-01. For documentation on how to use this package, please see [Azure Management Libraries for Java](https://aka.ms/azsdk/java/mgmt).
+This package contains Microsoft Azure SDK for ApplicationInsights Management SDK. Azure Application Insights client for saved items. Package api-version AnalyticsItems: 2015-05-01, ComponentAPIs: 2015-05-01, ComponentLinkedStorageAccountApi: 2020-03-01-preview, Components: 2025-01-23-preview, DeletedWorkbookApi: 2024-02-01-preview, Favorites: 2015-05-01, LiveTokenApi: 2021-10-14, WebTestLocation: 2015-05-01, WebTestsApi: 2022-06-15, WorkBookOperations: 2021-03-08, WorkbooksApi: 2023-06-01, WorkbookTemplatesApi: 2020-11-20. For documentation on how to use this package, please see [Azure Management Libraries for Java](https://aka.ms/azsdk/java/mgmt).
 
 ## We'd love to hear your feedback
 
@@ -41,7 +41,7 @@ Various documentation is available to help you get started
 <dependency>
     <groupId>com.azure.resourcemanager</groupId>
     <artifactId>azure-resourcemanager-applicationinsights</artifactId>
-    <version>1.2.0-beta.1</version>
+    <version>1.2.0-beta.2</version>
 </dependency>
 ```
 [//]: # ({x-version-update-end})
@@ -96,7 +96,7 @@ component = applicationInsightsManager.components()
     .withIngestionMode(IngestionMode.LOG_ANALYTICS)
     .create();
 ```
-[Code snippets and samples](https://github.com/Azure/azure-sdk-for-java/blob/azure-resourcemanager-applicationinsights_1.2.0-beta.1/sdk/applicationinsights/azure-resourcemanager-applicationinsights/SAMPLE.md)
+[Code snippets and samples](https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/applicationinsights/azure-resourcemanager-applicationinsights/SAMPLE.md)
 
 
 ## Troubleshooting
@@ -118,12 +118,12 @@ This project has adopted the [Microsoft Open Source Code of Conduct][coc]. For m
 [docs]: https://azure.github.io/azure-sdk-for-java/
 [jdk]: https://learn.microsoft.com/azure/developer/java/fundamentals/
 [azure_subscription]: https://azure.microsoft.com/free/
-[azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/azure-resourcemanager-applicationinsights_1.2.0-beta.1/sdk/identity/azure-identity
-[azure_identity_credentials]: https://github.com/Azure/azure-sdk-for-java/tree/azure-resourcemanager-applicationinsights_1.2.0-beta.1/sdk/identity/azure-identity#credentials
-[azure_core_http_netty]: https://github.com/Azure/azure-sdk-for-java/blob/azure-resourcemanager-applicationinsights_1.2.0-beta.1/sdk/core/azure-core-http-netty
-[authenticate]: https://github.com/Azure/azure-sdk-for-java/blob/azure-resourcemanager-applicationinsights_1.2.0-beta.1/sdk/resourcemanager/docs/AUTH.md
-[design]: https://github.com/Azure/azure-sdk-for-java/blob/azure-resourcemanager-applicationinsights_1.2.0-beta.1/sdk/resourcemanager/docs/DESIGN.md
-[cg]: https://github.com/Azure/azure-sdk-for-java/blob/azure-resourcemanager-applicationinsights_1.2.0-beta.1/CONTRIBUTING.md
+[azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/identity/azure-identity
+[azure_identity_credentials]: https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/identity/azure-identity#credentials
+[azure_core_http_netty]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/core/azure-core-http-netty
+[authenticate]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/resourcemanager/docs/AUTH.md
+[design]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/resourcemanager/docs/DESIGN.md
+[cg]: https://github.com/Azure/azure-sdk-for-java/blob/main/CONTRIBUTING.md
 [coc]: https://opensource.microsoft.com/codeofconduct/
 [coc_faq]: https://opensource.microsoft.com/codeofconduct/faq/
 
