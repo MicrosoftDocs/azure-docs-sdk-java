@@ -95,4 +95,4 @@ type: "class"
 desc: "Indicates if resizing the storage, without interrupting the operation of the database engine, is supported in this location for the given subscription. Will be deprecated in the future. Look to Supported Features for 'OnlineResize'."
 metadata: {}
 package: "com.azure.resourcemanager.postgresqlflexibleserver.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-postgresqlflexibleserver:3.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-postgresqlflexibleserver:3.1.0

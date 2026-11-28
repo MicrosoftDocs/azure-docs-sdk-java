@@ -175,4 +175,4 @@ type: "class"
 desc: "Pair of virtual endpoints for a server."
 metadata: {}
 package: "com.azure.resourcemanager.postgresqlflexibleserver.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-postgresqlflexibleserver:3.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-postgresqlflexibleserver:3.1.0

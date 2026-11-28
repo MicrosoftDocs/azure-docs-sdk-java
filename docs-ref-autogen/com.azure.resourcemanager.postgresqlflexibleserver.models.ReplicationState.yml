@@ -143,4 +143,4 @@ type: "class"
 desc: "Indicates the replication state of a read replica. This property is returned only when the target server is a read replica."
 metadata: {}
 package: "com.azure.resourcemanager.postgresqlflexibleserver.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-postgresqlflexibleserver:3.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-postgresqlflexibleserver:3.1.0

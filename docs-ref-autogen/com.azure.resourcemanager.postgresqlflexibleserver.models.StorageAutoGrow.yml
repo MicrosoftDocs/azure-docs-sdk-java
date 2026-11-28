@@ -95,4 +95,4 @@ type: "class"
 desc: "Indicates if the server is configured to automatically grow storage size when available space is nearing zero and conditions allow for automatic growing storage size."
 metadata: {}
 package: "com.azure.resourcemanager.postgresqlflexibleserver.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-postgresqlflexibleserver:3.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-postgresqlflexibleserver:3.1.0

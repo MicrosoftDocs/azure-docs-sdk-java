@@ -370,4 +370,4 @@ type: "interface"
 desc: "The interface for PostgreSqlManagementClient class."
 metadata: {}
 package: "com.azure.resourcemanager.postgresqlflexibleserver.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-postgresqlflexibleserver:3.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-postgresqlflexibleserver:3.1.0
